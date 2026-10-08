@@ -1,0 +1,89 @@
+/* AutoAI: dark automotive intelligence — Polestar restraint, AVATR precision, Bloomberg information density. */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+:root {
+  --radius: 0.45rem;
+  --primary: oklch(0.72 0.16 245);
+  --primary-foreground: oklch(0.12 0.02 250);
+  --background: oklch(0.105 0.015 250);
+  --foreground: oklch(0.94 0.01 250);
+  --card: oklch(0.145 0.018 250);
+  --card-foreground: oklch(0.94 0.01 250);
+  --popover: oklch(0.145 0.018 250);
+  --popover-foreground: oklch(0.94 0.01 250);
+  --secondary: oklch(0.18 0.02 250);
+  --secondary-foreground: oklch(0.78 0.02 250);
+  --muted: oklch(0.18 0.02 250);
+  --muted-foreground: oklch(0.62 0.025 250);
+  --accent: oklch(0.23 0.055 245);
+  --accent-foreground: oklch(0.9 0.035 245);
+  --destructive: oklch(0.58 0.23 27);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.26 0.025 250);
+  --input: oklch(0.26 0.025 250);
+  --ring: oklch(0.72 0.16 245);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; font-family: 'Heebo', system-ui, sans-serif; background: #07090c; color: #f4f6f8; }
+body::before { content: none; }
+button, input { font-family: inherit; }
+button { transition: transform .18s cubic-bezier(.23,1,.32,1), background-color .18s ease, border-color .18s ease, box-shadow .18s ease; }
+button:active { transform: scale(.975); }
+a { text-underline-offset: 4px; transition: color .18s ease; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid rgba(47,107,255,.35); outline-offset: 3px; }
+::selection { background: #dce6ff; color: #172033; }
+
+/* Premium automotive product direction: dark surfaces, quiet borders, one electric-blue signal. */
+img { image-rendering: auto; }
+@media (min-width: 1024px) {
+  nav { letter-spacing: -.01em; }
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  body { @apply bg-background text-foreground; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+
+/* Impeccable restraint: panels should read as a system, not a pile of floating cards. */
+main .rounded-3xl { border-radius: 1rem; }
+main .rounded-2xl { border-radius: .7rem; }
+main .rounded-xl { border-radius: .45rem; }
+main [class*="shadow-"] { box-shadow: none; }
