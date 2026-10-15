@@ -124,6 +124,9 @@ function computeScore(car: Car, answers: Answers): number {
 export default function Home() {
   let { user, loading, error, isAuthenticated, logout } = useAuth();
 
+  // Stable session ID for search history — generated once per mount
+  const sessionId = useMemo(() => `web-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`, []);
+
   const [step, setStep]   = useState(0);
   const [mode, setMode]   = useState<"quick" | "advanced">("advanced");
   const [history, setHistory] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-history") || "[]"); } catch { return []; } });
@@ -131,6 +134,9 @@ export default function Home() {
 
   // Catalog is re-fetched when annualKm band changes so TCO JOIN uses the right row
   const catalogQuery = trpc.catalog.list.useQuery({ limit: 100, annualKm: answers.annualKm });
+
+  // Save completed quiz sessions for signed-in users (analytics + future personalisation)
+  const saveSearch = trpc.searches.create.useMutation();
   const [tab, setTab]     = useState<"finder" | "results" | "saved" | "compare" | "detail" | "analysis" | "tools">("finder");
   const [saved, setSaved] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-saved") || "[]"); } catch { return []; } });
   const [compare, setCompare]   = useState<string[]>([]);
@@ -166,6 +172,13 @@ export default function Home() {
       "Ford Puma Hybrid": heroImage,
       "Golf": heroImage,
       "Volkswagen Golf": heroImage,
+      // Batch 5
+      "Yaris Cross Hybrid": heroImage,
+      "Toyota Yaris Cross Hybrid": heroImage,
+      "308": heroImage,
+      "Peugeot 308": heroImage,
+      "Atto 3": heroImage,
+      "BYD Atto 3": heroImage,
     };
     const useByName: Record<string, string> = {
       "Toyota Corolla Hybrid": "city", "Hyundai Tucson": "family", "Mazda Mazda 3": "fun",
@@ -179,6 +192,10 @@ export default function Home() {
       // Batch 4
       "Puma Hybrid": "city", "Ford Puma Hybrid": "city",
       "Golf": "fun", "Volkswagen Golf": "fun",
+      // Batch 5
+      "Yaris Cross Hybrid": "city", "Toyota Yaris Cross Hybrid": "city",
+      "308": "fun", "Peugeot 308": "fun",
+      "Atto 3": "family", "BYD Atto 3": "family",
     };
     const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
     const rows = catalogQuery.data ?? [];
@@ -253,7 +270,19 @@ export default function Home() {
       setHistory(next);
       try { localStorage.setItem("carai-history", JSON.stringify(next)); } catch {}
       track("quiz_completed");
+
+      // Persist search session for signed-in users — powers future personalisation & analytics
+      if (isAuthenticated) {
+        const topTrimId = (() => { const n = Number(result.id); return Number.isFinite(n) && n > 0 ? n : undefined; })();
+        saveSearch.mutate({
+          sessionId,
+          answers: answers as unknown as Record<string, unknown>,
+          topMatchTrimId: topTrimId,
+          topMatchScore: result.match,
+        });
+      }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [complete, result?.id]);
 
   const compareCars = ranked.filter((car) => compare.includes(car.id));
@@ -467,14 +496,19 @@ function Results({ ranked, saved, compare, toggleSaved, toggleCompare, onLead, o
   const [faq, setFaq]   = useState<string | null>(null);
   const visible = [...ranked]
     .filter((car) => fuelFilter === "all" || car.fuel === fuelFilter)
-    .sort((a, b) => sort === "price" ? a.price - b.price : sort === "economy" ? b.economy - a.economy : b.match - a.match);
+    .sort((a, b) =>
+      sort === "price"   ? a.price - b.price :
+      sort === "economy" ? b.economy - a.economy :
+      sort === "tco"     ? (a.ownershipMonthly ?? 9999) - (b.ownershipMonthly ?? 9999) :
+                           b.match - a.match
+    );
 
   return <div>
     <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
       <p className="text-sm text-[#8f9aa8]">הדירוג משלב תקציב, שימוש, עלות שוטפת ואמינות — 6 גורמים.</p>
       <div className="flex flex-wrap gap-2">
         <select value={fuelFilter} onChange={(e) => setFuelFilter(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="all">כל סוגי ההנעה</option><option value="היברידי">היברידי</option><option value="בנזין">בנזין</option><option value="חשמלי">חשמלי</option></select>
-        <select value={sort} onChange={(e) => setSort(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="match">מיון לפי התאמה</option><option value="price">מיון לפי מחיר</option><option value="economy">מיון לפי חסכון</option></select>
+        <select value={sort} onChange={(e) => setSort(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="match">מיון לפי התאמה</option><option value="tco">מיון לפי TCO חודשי ↑</option><option value="price">מיון לפי מחיר רכישה</option><option value="economy">מיון לפי חסכון</option></select>
         <button onClick={onShare} className="flex items-center gap-2 rounded-full border border-[#26303a] px-3 py-2 text-xs font-black text-[#aeb8c4]"><Share2 className="h-4 w-4" /> שתפו תוצאה</button>
       </div>
     </div>
