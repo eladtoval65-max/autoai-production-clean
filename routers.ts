@@ -35,6 +35,8 @@ export const appRouter = router({
         bodyType: z.string().max(64).optional(),
         minReliability: z.number().int().min(0).max(100).optional(),
         limit: z.number().int().min(1).max(100).optional(),
+        /** Annual km for TCO JOIN (7000 / 15000 / 25000) — defaults to 15000 */
+        annualKm: z.number().int().min(1000).max(100000).optional(),
       }).optional())
       .query(({ input }) => listVehicleCatalog(input ?? {})),
     byId: publicProcedure

@@ -123,12 +123,14 @@ function computeScore(car: Car, answers: Answers): number {
 
 export default function Home() {
   let { user, loading, error, isAuthenticated, logout } = useAuth();
-  const catalogQuery = trpc.catalog.list.useQuery({ limit: 100 });
 
   const [step, setStep]   = useState(0);
   const [mode, setMode]   = useState<"quick" | "advanced">("advanced");
   const [history, setHistory] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-history") || "[]"); } catch { return []; } });
   const [answers, setAnswers] = useState<Answers>({ budget: 100000, use: "", priority: "", fuel: "", family: "", annualKm: 15000, annualKmBand: "mid" });
+
+  // Catalog is re-fetched when annualKm band changes so TCO JOIN uses the right row
+  const catalogQuery = trpc.catalog.list.useQuery({ limit: 100, annualKm: answers.annualKm });
   const [tab, setTab]     = useState<"finder" | "results" | "saved" | "compare" | "detail" | "analysis" | "tools">("finder");
   const [saved, setSaved] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-saved") || "[]"); } catch { return []; } });
   const [compare, setCompare]   = useState<string[]>([]);
@@ -189,11 +191,11 @@ export default function Home() {
         insuranceMin: row.insuranceMonthlyMin ?? undefined,
         insuranceMax: row.insuranceMonthlyMax ?? undefined,
         ownershipMonthly: row.ownershipCostMonthly ?? row.estimatedMonthlyCost ?? undefined,
-        // TCO breakdown from ownershipCosts JOIN (populated after seed-real-data.ts runs)
-        fuelMonthly:        (row as any).fuelMonthly        ?? undefined,
-        insuranceMonthlyAmt:(row as any).insuranceMonthly   ?? undefined,
-        maintenanceMonthly: (row as any).maintenanceMonthly ?? undefined,
-        depreciationMonthly:(row as any).depreciationMonthly?? undefined,
+        // TCO breakdown from ownershipCosts JOIN (tco* fields added in db.ts)
+        fuelMonthly:        row.tcoFuelMonthly        ?? undefined,
+        insuranceMonthlyAmt:row.tcoInsuranceMonthly   ?? undefined,
+        maintenanceMonthly: row.tcoMaintenanceMonthly  ?? undefined,
+        depreciationMonthly:row.tcoDepreciationMonthly ?? undefined,
         marketRange, dataNote: officialNote,
         dataStatus: row.dataStatus ?? "estimated",
         dataConfidence: row.dataConfidence ?? 0,

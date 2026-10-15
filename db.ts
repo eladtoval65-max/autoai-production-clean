@@ -89,6 +89,8 @@ export type CatalogFilters = {
   bodyType?: string;
   minReliability?: number;
   limit?: number;
+  /** Annual km band for TCO JOIN; defaults to 15000 */
+  annualKm?: number;
 };
 
 /** Returns the public vehicle catalog as a flat, recommendation-friendly shape. */
@@ -156,13 +158,18 @@ export async function listVehicleCatalog(filters: CatalogFilters = {}) {
       officialRegistryCommercialName: vehicleRegistrySnapshots.commercialName,
       officialRegistryAsOf: vehicleRegistrySnapshots.asOfDate,
       officialRegistryNotes: vehicleRegistrySnapshots.notes,
+      // TCO breakdown components — used by TcoBreakdown panel in Home.tsx
+      tcoFuelMonthly: ownershipCosts.fuelMonthly,
+      tcoInsuranceMonthly: ownershipCosts.insuranceMonthly,
+      tcoMaintenanceMonthly: ownershipCosts.maintenanceMonthly,
+      tcoDepreciationMonthly: ownershipCosts.depreciationMonthly,
     })
     .from(vehicleTrims)
     .innerJoin(vehicleModels, eq(vehicleTrims.modelId, vehicleModels.id))
     .innerJoin(vehicleMakes, eq(vehicleModels.makeId, vehicleMakes.id))
     .leftJoin(vehicleSources, eq(vehicleTrims.primarySourceId, vehicleSources.id))
     .leftJoin(insuranceEstimates, and(eq(insuranceEstimates.trimId, vehicleTrims.id), eq(insuranceEstimates.coverageType, "comprehensive")))
-    .leftJoin(ownershipCosts, and(eq(ownershipCosts.trimId, vehicleTrims.id), eq(ownershipCosts.annualKm, 15000)))
+    .leftJoin(ownershipCosts, and(eq(ownershipCosts.trimId, vehicleTrims.id), eq(ownershipCosts.annualKm, filters.annualKm ?? 15000)))
     .leftJoin(vehicleMarketSnapshots, eq(vehicleMarketSnapshots.trimId, vehicleTrims.id))
     .leftJoin(vehicleRegistrySnapshots, and(eq(vehicleRegistrySnapshots.trimId, vehicleTrims.id), eq(vehicleRegistrySnapshots.productionYear, vehicleTrims.yearFrom)))
     .where(and(...conditions))
@@ -214,6 +221,10 @@ export async function getVehicleCatalogItem(id: number) {
       insuranceMonthlyMax: insuranceEstimates.monthlyMax,
       ownershipCostMonthly: ownershipCosts.totalMonthly,
       ownershipCostIsEstimate: ownershipCosts.isEstimate,
+      tcoFuelMonthly: ownershipCosts.fuelMonthly,
+      tcoInsuranceMonthly: ownershipCosts.insuranceMonthly,
+      tcoMaintenanceMonthly: ownershipCosts.maintenanceMonthly,
+      tcoDepreciationMonthly: ownershipCosts.depreciationMonthly,
       marketSnapshotMin: vehicleMarketSnapshots.priceMin,
       marketSnapshotMedian: vehicleMarketSnapshots.priceMedian,
       marketSnapshotMax: vehicleMarketSnapshots.priceMax,
