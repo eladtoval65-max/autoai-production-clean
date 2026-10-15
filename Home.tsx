@@ -154,12 +154,23 @@ export default function Home() {
       "Kia Sportage Hybrid": heroImage,
       "Nissan Qashqai": heroImage,
       "MG MG4 Electric": heroImage,
+      // Batch 3
+      "RAV4 Hybrid": heroImage,
+      "Toyota RAV4 Hybrid": heroImage,
+      "Ioniq 6": heroImage,
+      "Hyundai Ioniq 6": heroImage,
+      "Octavia": heroImage,
+      "Skoda Octavia": heroImage,
     };
     const useByName: Record<string, string> = {
       "Toyota Corolla Hybrid": "city", "Hyundai Tucson": "family", "Mazda Mazda 3": "fun",
       "Toyota Corolla": "highway", "Toyota RAV4 Hybrid": "family", "Kia Niro Hybrid": "city", "Hyundai Ioniq 5": "highway",
       // Batch 2
       "Kia Sportage Hybrid": "family", "Nissan Qashqai": "family", "MG MG4 Electric": "city",
+      // Batch 3
+      "RAV4 Hybrid": "family", "Toyota RAV4 Hybrid": "family",
+      "Ioniq 6": "highway", "Hyundai Ioniq 6": "highway",
+      "Octavia": "highway", "Skoda Octavia": "highway",
     };
     const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
     const rows = catalogQuery.data ?? [];
@@ -502,7 +513,213 @@ function Metric({ label, value }: { label: string; value: number }) { return <di
 
 function Saved({ cars, history, toggleSaved, toggleCompare }: { cars: Car[]; history: Car[]; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void }) { return <div>{cars.length ? <div><p className="mb-4 text-xs font-black tracking-[.14em] text-[#4aa3ff]">רשימה שמורה</p><div className="grid gap-4 md:grid-cols-2">{cars.map((car) => <div key={car.id} className="flex gap-4 rounded-2xl border border-[#202832] bg-[#11151b] p-4"><img src={car.image} alt="" className="h-24 w-28 rounded-xl object-cover" /><div className="min-w-0 flex-1"><div className="flex justify-between gap-2"><h3 className="font-black">{car.make}</h3><button onClick={() => toggleSaved(car.id)} className="text-[#4aa3ff]"><Heart className="h-4 w-4 fill-current" /></button></div><p className="mt-1 text-xs text-[#8f9aa8]">{car.years} · ₪{car.price.toLocaleString()}</p><button onClick={() => toggleCompare(car.id)} className="mt-4 text-xs font-black text-[#4aa3ff]">הוסיפו להשוואה <ArrowLeft className="mr-1 inline h-3 w-3" /></button></div></div>)}</div></div> : <EmptyState text="עדיין לא שמרת רכבים. שמרו אפשרויות מתוך מסך התוצאות." />}<div className="mt-8"><p className="mb-4 text-xs font-black tracking-[.14em] text-[#4aa3ff]">היסטוריית חיפוש אחרונה</p>{history.length ? <div className="flex flex-wrap gap-2">{history.map((car) => <span key={car.id} className="rounded-full bg-[#151b23] px-3 py-2 text-xs font-bold text-[#aeb8c4]">{car.make}</span>)}</div> : <p className="text-sm text-[#8f9aa8]">כאן יופיעו התאמות שבדקת לאחר השלמת שאלון.</p>}</div></div>; }
 
-function Compare({ cars, toggleCompare, onLead }: { cars: (Car & { match?: number })[]; toggleCompare: (id: string) => void; onLead: () => void }) { return cars.length >= 2 ? <div className="overflow-x-auto rounded-2xl border border-[#202832] bg-[#11151b]"><table className="w-full min-w-[680px] text-right text-sm"><thead><tr className="border-b border-[#1e2731]">{["מדד", ...cars.map((car) => car.make)].map((x, i) => <th key={x} className="p-4 font-black">{i ? <><button onClick={() => toggleCompare(cars[i - 1].id)} className="float-left text-[#7c8897]"><X className="h-4 w-4" /></button>{x}</> : x}</th>)}</tr></thead><tbody>{[["התאמה", ...cars.map((c) => c.match != null ? `${c.match}%` : `${c.score}%`)],["מחיר", ...cars.map((c) => `₪${c.price.toLocaleString()}`)],["עלות חודשית", ...cars.map((c) => c.ownershipMonthly ? `₪${c.ownershipMonthly.toLocaleString()}` : "–")],["אמינות", ...cars.map((c) => `${c.reliability}/100`)],["בטיחות", ...cars.map((c) => `${c.safety}/100`)],["חסכון", ...cars.map((c) => `${c.economy}/100`)],["הנעה", ...cars.map((c) => c.fuel)]].map((row) => <tr key={row[0]} className="border-b border-[#202832] last:border-0">{row.map((cell, i) => <td key={String(cell)} className={`p-4 ${i === 0 ? "font-bold text-[#8f9aa8]" : "font-black text-[#f4f6f8]"}`}>{cell}</td>)}</tr>)}</tbody></table><div className="p-4"><button onClick={onLead} className="rounded-xl bg-[#4aa3ff] px-5 py-3 text-xs font-black text-white">חפשו את הבחירה המובילה <ExternalLink className="mr-1 inline h-3.5 w-3.5" /></button></div></div> : <EmptyState text="בחרו לפחות שני רכבים כדי לפתוח השוואה אמיתית." />; }
+// ─── TCO multi-band ladder cell ──────────────────────────────────────────────
+function TcoLadderCell({ trimId, tcoData }: {
+  trimId: number | undefined;
+  tcoData: Record<number, { km7000?: { totalMonthly: number | null } | null; km15000?: { totalMonthly: number | null } | null; km25000?: { totalMonthly: number | null } | null }>;
+}) {
+  if (!trimId || !tcoData[trimId]) return <td className="p-4 font-black text-[#f4f6f8]">–</td>;
+  const d = tcoData[trimId];
+  const fmt = (v: number | null | undefined) => v != null ? `₪${v.toLocaleString()}` : "–";
+  return (
+    <td className="p-3">
+      <div className="flex flex-col gap-1 text-xs">
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-[10px] text-[#5d7a9c]">7k</span>
+          <span className="font-bold text-[#9dd2ff]">{fmt(d.km7000?.totalMonthly)}</span>
+        </div>
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-[10px] text-[#5d7a9c]">15k</span>
+          <span className="font-black text-[#f4f6f8]">{fmt(d.km15000?.totalMonthly)}</span>
+        </div>
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-[10px] text-[#5d7a9c]">25k</span>
+          <span className="font-bold text-[#9dd2ff]">{fmt(d.km25000?.totalMonthly)}</span>
+        </div>
+        <span className="mt-0.5 text-[9px] text-[#4a5a6b]">₪/חודש לפי ק״מ</span>
+      </div>
+    </td>
+  );
+}
+
+// ─── TCO bar component for a single metric ───────────────────────────────────
+function TcoBarCell({ value, max, label }: { value: number | null | undefined; max: number; label?: string }) {
+  const v = value ?? 0;
+  const pct = max > 0 ? Math.round((v / max) * 100) : 0;
+  return (
+    <td className="p-3">
+      <div className="flex flex-col gap-1">
+        <span className="text-xs font-bold text-[#f4f6f8]">{v > 0 ? `₪${v.toLocaleString()}` : "–"}{label && <span className="ml-1 text-[10px] text-[#5d7a9c]">{label}</span>}</span>
+        <div className="h-1.5 w-full overflow-hidden rounded-full bg-[#1a2130]">
+          <div className="h-full rounded-full bg-[#4aa3ff] transition-all" style={{ width: `${pct}%` }} />
+        </div>
+      </div>
+    </td>
+  );
+}
+
+function Compare({ cars, toggleCompare, onLead }: { cars: (Car & { match?: number })[]; toggleCompare: (id: string) => void; onLead: () => void }) {
+  // Parse trimId from car.id — the id field holds the DB trim id as a string for DB-sourced cars
+  const trimIds = cars.map((c) => {
+    const n = Number(c.id);
+    return Number.isFinite(n) && n > 0 ? n : undefined;
+  });
+  const validTrimIds = trimIds.filter((id): id is number => id !== undefined);
+
+  const { data: multiBand, isLoading: tcoLoading } = trpc.tco.multiBand.useQuery(
+    { trimIds: validTrimIds },
+    { enabled: validTrimIds.length >= 1 },
+  );
+
+  const tcoData = multiBand ?? {};
+
+  // Derive max values for bar chart normalisation
+  const maxFuel       = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.fuelMonthly       ?? 0));
+  const maxInsurance  = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.insuranceMonthly  ?? 0));
+  const maxMaintenance = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.maintenanceMonthly ?? 0));
+  const maxDepreciation = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.depreciationMonthly ?? 0));
+
+  if (cars.length < 2) return <EmptyState text="בחרו לפחות שני רכבים כדי לפתוח השוואה אמיתית." />;
+
+  const simpleRows: [string, string[]][] = [
+    ["התאמה",   cars.map((c) => c.match != null ? `${c.match}%` : `${c.score}%`)],
+    ["מחיר",    cars.map((c) => `₪${c.price.toLocaleString()}`)],
+    ["אמינות",  cars.map((c) => `${c.reliability}/100`)],
+    ["בטיחות",  cars.map((c) => `${c.safety}/100`)],
+    ["חסכון",   cars.map((c) => `${c.economy}/100`)],
+    ["הנעה",    cars.map((c) => c.fuel)],
+  ];
+
+  return (
+    <div className="space-y-5">
+      {/* ── TCO Ladder section ─── */}
+      <div className="rounded-2xl border border-[#1e3a5a] bg-[#0d1620] p-5">
+        <div className="mb-4 flex items-center gap-3">
+          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#132036] text-[#4aa3ff]">₪</span>
+          <div>
+            <p className="text-xs font-black tracking-[.14em] text-[#4aa3ff]">TCO LADDER</p>
+            <p className="text-[11px] text-[#6d8aab]">עלות חודשית לפי נסיעה — 7k / 15k / 25k ק״מ בשנה</p>
+          </div>
+          {tcoLoading && <span className="mr-auto text-[10px] text-[#5d7a9c]">טוען נתוני TCO…</span>}
+        </div>
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[560px] text-right text-sm">
+            <thead>
+              <tr className="border-b border-[#1a2e44]">
+                <th className="p-3 text-[10px] font-bold tracking-[.12em] text-[#5d7a9c]">רכב</th>
+                {cars.map((car) => (
+                  <th key={car.id} className="p-3 font-black text-[#f4f6f8]">
+                    <button onClick={() => toggleCompare(car.id)} className="float-left text-[#4a5a6b] hover:text-[#e05555]"><X className="h-3.5 w-3.5" /></button>
+                    <span className="block text-[13px]">{car.make.split(" ").slice(0, 2).join(" ")}</span>
+                    <span className="block text-[10px] font-normal text-[#5d7a9c]">{car.fuel}</span>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-[#1a2e44] bg-[#0b1825]/60">
+                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">🔢 עלות כוללת</td>
+                {cars.map((car, idx) => (
+                  <TcoLadderCell key={car.id} trimId={trimIds[idx]} tcoData={tcoData} />
+                ))}
+              </tr>
+              {/* Fuel breakdown @ 15k */}
+              <tr className="border-b border-[#1a2e44]">
+                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">⛽ דלק<span className="block text-[9px] font-normal text-[#5d7a9c]">ב-15k ק״מ/שנה</span></td>
+                {cars.map((car, idx) => {
+                  const trimId = trimIds[idx];
+                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.fuelMonthly : undefined;
+                  return <TcoBarCell key={car.id} value={v} max={maxFuel} />;
+                })}
+              </tr>
+              {/* Insurance */}
+              <tr className="border-b border-[#1a2e44] bg-[#0b1825]/40">
+                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">🛡️ ביטוח<span className="block text-[9px] font-normal text-[#5d7a9c]">הערכה בלבד</span></td>
+                {cars.map((car, idx) => {
+                  const trimId = trimIds[idx];
+                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.insuranceMonthly : undefined;
+                  // Fallback to car.insuranceMin if no DB data
+                  const fallback = car.insuranceMin;
+                  return <TcoBarCell key={car.id} value={v ?? fallback} max={maxInsurance} />;
+                })}
+              </tr>
+              {/* Maintenance */}
+              <tr className="border-b border-[#1a2e44]">
+                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">🔧 תחזוקה</td>
+                {cars.map((car, idx) => {
+                  const trimId = trimIds[idx];
+                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.maintenanceMonthly : undefined;
+                  return <TcoBarCell key={car.id} value={v} max={maxMaintenance} />;
+                })}
+              </tr>
+              {/* Depreciation */}
+              <tr>
+                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">📉 פחת</td>
+                {cars.map((car, idx) => {
+                  const trimId = trimIds[idx];
+                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.depreciationMonthly : undefined;
+                  return <TcoBarCell key={car.id} value={v} max={maxDepreciation} />;
+                })}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-3 text-[9px] text-[#3d5470]">* נתוני TCO הם אומדן בלבד; ביטוח — הצעה בפועל עשויה להשתנות. פחת מחושב לפי מחיר שוק מדגמי.</p>
+
+        {/* ── 3-year savings insight ── */}
+        {(() => {
+          const totals = validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.totalMonthly as number | undefined);
+          const defined = totals.filter((v): v is number => v != null);
+          if (defined.length < 2) return null;
+          const best = Math.min(...defined);
+          const worst = Math.max(...defined);
+          const diff3yr = (worst - best) * 36;
+          if (diff3yr < 500) return null;
+          const bestIdx = totals.indexOf(best);
+          const bestCar = cars[bestIdx];
+          return (
+            <div className="mt-4 flex items-center gap-3 rounded-xl border border-[#1a3a1a] bg-[#0b1e0b] px-4 py-3">
+              <span className="text-lg">💡</span>
+              <p className="text-xs leading-5 text-[#6dbd6d]">
+                בחירה ב<strong className="text-[#90e090]">{bestCar?.make.split(" ").slice(0,2).join(" ")}</strong> חוסכת כ-
+                <strong className="text-[#90e090]">₪{diff3yr.toLocaleString()}</strong> לאורך 3 שנות בעלות
+                לעומת האפשרות היקרה — בחישוב 15,000 ק״מ בשנה.
+              </p>
+            </div>
+          );
+        })()}
+      </div>
+
+      {/* ── General comparison table ─── */}
+      <div className="overflow-x-auto rounded-2xl border border-[#202832] bg-[#11151b]">
+        <table className="w-full min-w-[560px] text-right text-sm">
+          <thead>
+            <tr className="border-b border-[#1e2731]">
+              {["מדד", ...cars.map((car) => car.make)].map((x, i) => (
+                <th key={x + i} className="p-4 font-black">{i ? x : x}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {simpleRows.map((row) => (
+              <tr key={row[0]} className="border-b border-[#202832] last:border-0">
+                <td className="p-4 font-bold text-[#8f9aa8]">{row[0]}</td>
+                {row[1].map((cell, i) => (
+                  <td key={i} className="p-4 font-black text-[#f4f6f8]">{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div className="p-4">
+          <button onClick={onLead} className="rounded-xl bg-[#4aa3ff] px-5 py-3 text-xs font-black text-white">
+            חפשו את הבחירה המובילה <ExternalLink className="mr-1 inline h-3.5 w-3.5" />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function EmptyState({ text }: { text: string }) { return <div className="rounded-3xl border border-dashed border-[#26303a] bg-[#0d1117] p-12 text-center text-sm text-[#8f9aa8]"><BarChart3 className="mx-auto h-8 w-8 text-[#657281]" /><p className="mt-4">{text}</p></div>; }
 
