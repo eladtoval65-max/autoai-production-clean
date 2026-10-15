@@ -5,6 +5,7 @@ import {
   createLead,
   createSearchSession,
   getVehicleCatalogItem,
+  getTcoMultiBand,
   listLeadsForAdmin,
   listSavedVehicles,
   listVehicleCatalog,
@@ -40,8 +41,28 @@ export const appRouter = router({
       }).optional())
       .query(({ input }) => listVehicleCatalog(input ?? {})),
     byId: publicProcedure
-      .input(z.object({ id: z.number().int().positive() }))
-      .query(({ input }) => getVehicleCatalogItem(input.id)),
+      .input(z.object({
+        id: z.number().int().positive(),
+        /** Annual km for TCO JOIN — must be 7000, 15000 or 25000; defaults to 15000 */
+        annualKm: z.number().int().min(1000).max(100000).optional(),
+      }))
+      .query(({ input }) => getVehicleCatalogItem(input.id, input.annualKm)),
+  }),
+
+  /**
+   * TCO endpoints — total-cost-of-ownership data for the recommendation engine.
+   * All figures are estimates; no data is presented as an official binding quote.
+   */
+  tco: router({
+    /**
+     * Returns ownership-cost rows for up to 5 trim IDs across all three km bands (7k / 15k / 25k).
+     * Used by the Compare panel to render a side-by-side TCO ladder.
+     */
+    multiBand: publicProcedure
+      .input(z.object({
+        trimIds: z.array(z.number().int().positive()).min(1).max(5),
+      }))
+      .query(({ input }) => getTcoMultiBand(input.trimIds)),
   }),
 
   /** Collect a contact request internally; no third-party forwarding occurs here. */

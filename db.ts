@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, gte, lte, type SQL } from "drizzle-orm";
+import { and, asc, desc, eq, gte, inArray, lte, type SQL } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import {
   InsertUser,
@@ -177,7 +177,7 @@ export async function listVehicleCatalog(filters: CatalogFilters = {}) {
     .limit(Math.min(Math.max(filters.limit ?? 50, 1), 100));
 }
 
-export async function getVehicleCatalogItem(id: number) {
+export async function getVehicleCatalogItem(id: number, annualKm = 15000) {
   const db = await getDb();
   if (!db) return undefined;
 
@@ -242,7 +242,7 @@ export async function getVehicleCatalogItem(id: number) {
     .innerJoin(vehicleMakes, eq(vehicleModels.makeId, vehicleMakes.id))
     .leftJoin(vehicleSources, eq(vehicleTrims.primarySourceId, vehicleSources.id))
     .leftJoin(insuranceEstimates, and(eq(insuranceEstimates.trimId, vehicleTrims.id), eq(insuranceEstimates.coverageType, "comprehensive")))
-    .leftJoin(ownershipCosts, and(eq(ownershipCosts.trimId, vehicleTrims.id), eq(ownershipCosts.annualKm, 15000)))
+    .leftJoin(ownershipCosts, and(eq(ownershipCosts.trimId, vehicleTrims.id), eq(ownershipCosts.annualKm, annualKm)))
     .leftJoin(vehicleMarketSnapshots, eq(vehicleMarketSnapshots.trimId, vehicleTrims.id))
     .leftJoin(vehicleRegistrySnapshots, and(eq(vehicleRegistrySnapshots.trimId, vehicleTrims.id), eq(vehicleRegistrySnapshots.productionYear, vehicleTrims.yearFrom)))
     .where(and(eq(vehicleTrims.id, id), eq(vehicleTrims.active, true)))
@@ -318,6 +318,55 @@ export async function listLeadsForAdmin(limit = 50) {
   const db = await getDb();
   if (!db) throw new Error("Database unavailable");
   return db.select().from(leads).orderBy(desc(leads.createdAt)).limit(Math.min(Math.max(limit, 1), 100));
+}
+
+/**
+ * Returns ownershipCosts rows for the given trim IDs across all seeded km bands (7k, 15k, 25k).
+ * Grouped so the Compare panel can render a TCO ladder per vehicle.
+ *
+ * Shape: { [trimId]: { km7000: row|null, km15000: row|null, km25000: row|null } }
+ */
+export async function getTcoMultiBand(trimIds: number[]) {
+  const db = await getDb();
+  if (!db) return {};
+
+  const KM_BANDS = [7000, 15000, 25000] as const;
+
+  const rows = await db
+    .select({
+      trimId: ownershipCosts.trimId,
+      annualKm: ownershipCosts.annualKm,
+      fuelMonthly: ownershipCosts.fuelMonthly,
+      insuranceMonthly: ownershipCosts.insuranceMonthly,
+      maintenanceMonthly: ownershipCosts.maintenanceMonthly,
+      depreciationMonthly: ownershipCosts.depreciationMonthly,
+      totalMonthly: ownershipCosts.totalMonthly,
+      isEstimate: ownershipCosts.isEstimate,
+    })
+    .from(ownershipCosts)
+    .where(
+      and(
+        inArray(ownershipCosts.trimId, trimIds),
+        inArray(ownershipCosts.annualKm, [...KM_BANDS]),
+      )
+    )
+    .orderBy(asc(ownershipCosts.trimId), asc(ownershipCosts.annualKm));
+
+  type BandRow = typeof rows[number];
+  const grouped: Record<number, { km7000: BandRow | null; km15000: BandRow | null; km25000: BandRow | null }> = {};
+
+  for (const trimId of trimIds) {
+    grouped[trimId] = { km7000: null, km15000: null, km25000: null };
+  }
+  for (const row of rows) {
+    const entry = grouped[row.trimId];
+    if (!entry) continue;
+    if (row.annualKm === 7000)  entry.km7000  = row;
+    if (row.annualKm === 15000) entry.km15000 = row;
+    if (row.annualKm === 25000) entry.km25000 = row;
+  }
+
+  return grouped;
 }
 
 // Kept imported during the first catalog phase so the source table is part of the typed DB surface.

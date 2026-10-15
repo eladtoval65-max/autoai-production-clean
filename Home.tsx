@@ -150,10 +150,16 @@ export default function Home() {
       "Toyota RAV4 Hybrid": "/assets/vehicle-rav4.jpg",
       "Kia Niro Hybrid": "/assets/vehicle-niro.jpg",
       "Hyundai Ioniq 5": "/assets/vehicle-ioniq5.jpg",
+      // Batch 2 — fallback to hero until vehicle images added
+      "Kia Sportage Hybrid": heroImage,
+      "Nissan Qashqai": heroImage,
+      "MG MG4 Electric": heroImage,
     };
     const useByName: Record<string, string> = {
       "Toyota Corolla Hybrid": "city", "Hyundai Tucson": "family", "Mazda Mazda 3": "fun",
       "Toyota Corolla": "highway", "Toyota RAV4 Hybrid": "family", "Kia Niro Hybrid": "city", "Hyundai Ioniq 5": "highway",
+      // Batch 2
+      "Kia Sportage Hybrid": "family", "Nissan Qashqai": "family", "MG MG4 Electric": "city",
     };
     const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
     const rows = catalogQuery.data ?? [];
