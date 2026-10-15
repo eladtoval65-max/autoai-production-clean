@@ -231,7 +231,7 @@ export default function Home() {
     }
   }, [complete, result?.id]);
 
-  const compareCars = cars.filter((car) => compare.includes(car.id));
+  const compareCars = ranked.filter((car) => compare.includes(car.id));
 
   // Monthly cost: scales fuel component by annualKm vs 15k baseline; uses real TCO when available
   const kmFactor = answers.annualKm / 15000;
@@ -320,10 +320,10 @@ export default function Home() {
     <section id="finder" className="scroll-mt-5 border-y border-[#26303a] bg-[#11151b]"><div className="mx-auto grid max-w-[1400px] lg:grid-cols-[250px_1fr]"><aside className="hidden border-l border-[#202832] bg-[#0d1117] p-7 lg:block"><div className="sticky top-6"><p className="text-[10px] font-black tracking-[.16em] text-[#7c8897]">מסלול ההתאמה</p><h3 className="mt-2 text-xl font-black">הבחירה שלך</h3><div className="mt-10 space-y-7">{steps.map((s, i) => <div className="flex items-center gap-3" key={s.id}><div className={`flex h-8 w-8 items-center justify-center rounded-full border text-xs font-black ${i < step ? "border-[#4aa3ff] bg-[#4aa3ff] text-white" : i === step ? "border-[#4aa3ff] bg-[#11151b] text-[#4aa3ff]" : "border-[#2b3642] bg-[#11151b] text-[#657281]"}`}>{i < step ? <Check className="h-4 w-4" /> : `0${i + 1}`}</div><span className={`text-sm font-bold ${i === step ? "text-[#f4f6f8]" : "text-[#7c8897]"}`}>{s.label}</span></div>)}</div><div className="mt-16 rounded-2xl bg-[#11151b] p-5 text-white"><Sparkles className="h-5 w-5 text-[#9dd2ff]" /><p className="mt-4 text-sm font-bold leading-6">המערכת מראה גם מה כדאי לדעת — לא רק מה נשמע טוב.</p></div></div></aside>
       <div className="min-h-[650px] p-5 sm:p-8 lg:p-12"><div className="mb-10 border-b border-[#2a3038] pb-6"><div className="flex flex-wrap items-end justify-between gap-6"><div><p className="text-[10px] font-bold tracking-[.18em] text-[#79b9ff]">YOUR PERSONALIZED RECOMMENDATIONS</p><h2 className="mt-3 max-w-[620px] text-3xl font-semibold tracking-[-.055em] text-[#f5f6f7]">{tab === "finder" ? "Tell us what you need." : tab === "results" ? "Your personalized recommendations." : tab === "saved" ? "Saved vehicles." : tab === "compare" ? "Compare with clarity." : tab === "detail" ? "Vehicle details." : tab === "analysis" ? "Analysis, not opinions." : "Decision tools before you buy."}</h2></div><div className="flex items-center gap-3 text-[11px] font-bold"><span className="text-[#6f7985]">MODE</span><button onClick={() => { setMode("quick"); track("mode_quick"); }} className={`border-b-2 px-2 py-1 ${mode === "quick" ? "border-[#79b9ff] text-[#79b9ff]" : "border-transparent text-[#7d8793]"}`}>Quick</button><button onClick={() => { setMode("advanced"); track("mode_advanced"); }} className={`border-b-2 px-2 py-1 ${mode === "advanced" ? "border-[#79b9ff] text-[#79b9ff]" : "border-transparent text-[#7d8793]"}`}>Advanced</button></div></div><div className="mt-7 flex flex-wrap gap-x-6 gap-y-3">{[["finder","התאמה",Search],["results","תוצאות",BarChart3],["saved",`שמורים (${saved.length})`,Bookmark],["compare",`השוואה (${compare.length})`,Copy],["detail","Vehicle",Gauge],["analysis","Analysis",Gauge],["tools","Tools",ListChecks]].map(([id,label,Icon]) => <button key={id as string} onClick={() => setTab(id as typeof tab)} className={`flex items-center gap-2 border-b-2 pb-2 text-xs font-bold transition ${tab === id ? "border-[#79b9ff] text-[#79b9ff]" : "border-transparent text-[#77818e] hover:text-white"}`}><Icon className="h-3.5 w-3.5" />{label as string}</button>)}</div></div>
         {tab === "finder"   && <Finder step={step} setStep={setStep} answers={answers} choose={choose} reset={reset} complete={complete} mode={mode} onResults={() => { track("results_viewed"); setTab("results"); }} />}
-        {tab === "results"  && <Results ranked={ranked} saved={saved} compare={compare} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} onCost={() => setShowCost(true)} onDetails={(id) => { setSelectedVehicleId(id); setTab("detail"); }} onShare={shareResult} />}
+        {tab === "results"  && <Results ranked={ranked} saved={saved} compare={compare} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} onCost={() => setShowCost(true)} onDetails={(id) => { setSelectedVehicleId(id); setTab("detail"); }} onShare={shareResult} annualKm={answers.annualKm} />}
         {tab === "saved"    && <Saved cars={cars.filter((car) => saved.includes(car.id))} history={cars.filter((car) => history.includes(car.id))} toggleSaved={toggleSaved} toggleCompare={toggleCompare} />}
         {tab === "compare"  && <Compare cars={compareCars} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
-        {tab === "detail"   && <VehicleDetails car={ranked.find((item) => item.id === selectedVehicleId) ?? result} onBack={() => setTab("results")} onLead={() => setShowLead(true)} />}
+        {tab === "detail"   && <VehicleDetails car={ranked.find((item) => item.id === selectedVehicleId) ?? result} onBack={() => setTab("results")} onLead={() => setShowLead(true)} annualKm={answers.annualKm} />}
         {tab === "analysis" && <Analysis result={result} monthly={monthly} />}
         {tab === "tools"    && <Tools result={result} monthly={monthly} answers={answers} setAnswers={setAnswers} />}
       </div></div></section>
@@ -389,7 +389,7 @@ function Finder({ step, setStep, answers, choose, reset, complete, mode, onResul
 }
 
 // ─── TCO Breakdown (visual bar chart inside result cards) ─────────────────────
-function TcoBreakdown({ car }: { car: Car }) {
+function TcoBreakdown({ car, annualKm }: { car: Car; annualKm?: number }) {
   const total = car.ownershipMonthly;
   if (!total) return null;
 
@@ -402,6 +402,8 @@ function TcoBreakdown({ car }: { car: Car }) {
   ].filter((r) => r.value != null);
 
   if (rows.length <= 1) return null; // only registration → skip
+
+  const kmLabel = annualKm ? `${annualKm.toLocaleString()} ק״מ/שנה` : "15,000 ק״מ/שנה";
 
   return (
     <details className="mt-3 border-t border-[#1e2731] pt-3">
@@ -422,17 +424,18 @@ function TcoBreakdown({ car }: { car: Car }) {
             <span className="w-[44px] text-left font-bold text-[#c5d0dc]">₪{(row.value ?? 0).toLocaleString()}</span>
           </div>
         ))}
-        <p className="mt-1 text-[10px] text-[#5a6472]">אומדן ל-15,000 ק״מ/שנה · ביטוח — הערכה בלבד, לא הצעת מחיר</p>
+        <p className="mt-1 text-[10px] text-[#5a6472]">אומדן ל-{kmLabel} · ביטוח — הערכה בלבד, לא הצעת מחיר</p>
       </div>
     </details>
   );
 }
 
 // ─── Results ──────────────────────────────────────────────────────────────────
-function Results({ ranked, saved, compare, toggleSaved, toggleCompare, onLead, onCost, onDetails, onShare }: {
+function Results({ ranked, saved, compare, toggleSaved, toggleCompare, onLead, onCost, onDetails, onShare, annualKm }: {
   ranked: (Car & { match: number })[]; saved: string[]; compare: string[];
   toggleSaved: (id: string) => void; toggleCompare: (id: string) => void;
   onLead: () => void; onCost: () => void; onDetails: (id: string) => void; onShare: () => void;
+  annualKm?: number;
 }) {
   const [fuelFilter, setFuelFilter] = useState("all");
   const [sort, setSort] = useState("match");
@@ -445,7 +448,7 @@ function Results({ ranked, saved, compare, toggleSaved, toggleCompare, onLead, o
     <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
       <p className="text-sm text-[#8f9aa8]">הדירוג משלב תקציב, שימוש, עלות שוטפת ואמינות — 6 גורמים.</p>
       <div className="flex flex-wrap gap-2">
-        <select value={fuelFilter} onChange={(e) => setFuelFilter(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="all">כל סוגי ההנעה</option><option value="היברידי">היברידי</option><option value="בנזין">בנזין</option></select>
+        <select value={fuelFilter} onChange={(e) => setFuelFilter(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="all">כל סוגי ההנעה</option><option value="היברידי">היברידי</option><option value="בנזין">בנזין</option><option value="חשמלי">חשמלי</option></select>
         <select value={sort} onChange={(e) => setSort(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="match">מיון לפי התאמה</option><option value="price">מיון לפי מחיר</option><option value="economy">מיון לפי חסכון</option></select>
         <button onClick={onShare} className="flex items-center gap-2 rounded-full border border-[#26303a] px-3 py-2 text-xs font-black text-[#aeb8c4]"><Share2 className="h-4 w-4" /> שתפו תוצאה</button>
       </div>
@@ -468,7 +471,7 @@ function Results({ ranked, saved, compare, toggleSaved, toggleCompare, onLead, o
             <p className="mt-2 text-[10px] text-[#657281]">Insurance estimate: ₪{car.insuranceMin ?? 0}–₪{car.insuranceMax ?? 0} / month</p>
             <p className="mt-2 text-[10px] leading-4 text-[#5f7185]">{car.dataNote}</p>
             {/* TCO Breakdown panel */}
-            <TcoBreakdown car={car} />
+            <TcoBreakdown car={car} annualKm={annualKm} />
             <p className="mt-4 text-sm leading-6 text-[#aeb8c4]">{car.why}</p>
             <div className="mt-4 grid grid-cols-2 gap-2 text-xs"><Metric label="אמינות" value={car.reliability} /><Metric label="בטיחות" value={car.safety} /></div>
             <div className="mt-5 flex gap-2">
@@ -493,11 +496,11 @@ function Metric({ label, value }: { label: string; value: number }) { return <di
 
 function Saved({ cars, history, toggleSaved, toggleCompare }: { cars: Car[]; history: Car[]; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void }) { return <div>{cars.length ? <div><p className="mb-4 text-xs font-black tracking-[.14em] text-[#4aa3ff]">רשימה שמורה</p><div className="grid gap-4 md:grid-cols-2">{cars.map((car) => <div key={car.id} className="flex gap-4 rounded-2xl border border-[#202832] bg-[#11151b] p-4"><img src={car.image} alt="" className="h-24 w-28 rounded-xl object-cover" /><div className="min-w-0 flex-1"><div className="flex justify-between gap-2"><h3 className="font-black">{car.make}</h3><button onClick={() => toggleSaved(car.id)} className="text-[#4aa3ff]"><Heart className="h-4 w-4 fill-current" /></button></div><p className="mt-1 text-xs text-[#8f9aa8]">{car.years} · ₪{car.price.toLocaleString()}</p><button onClick={() => toggleCompare(car.id)} className="mt-4 text-xs font-black text-[#4aa3ff]">הוסיפו להשוואה <ArrowLeft className="mr-1 inline h-3 w-3" /></button></div></div>)}</div></div> : <EmptyState text="עדיין לא שמרת רכבים. שמרו אפשרויות מתוך מסך התוצאות." />}<div className="mt-8"><p className="mb-4 text-xs font-black tracking-[.14em] text-[#4aa3ff]">היסטוריית חיפוש אחרונה</p>{history.length ? <div className="flex flex-wrap gap-2">{history.map((car) => <span key={car.id} className="rounded-full bg-[#151b23] px-3 py-2 text-xs font-bold text-[#aeb8c4]">{car.make}</span>)}</div> : <p className="text-sm text-[#8f9aa8]">כאן יופיעו התאמות שבדקת לאחר השלמת שאלון.</p>}</div></div>; }
 
-function Compare({ cars, toggleCompare, onLead }: { cars: Car[]; toggleCompare: (id: string) => void; onLead: () => void }) { return cars.length >= 2 ? <div className="overflow-x-auto rounded-2xl border border-[#202832] bg-[#11151b]"><table className="w-full min-w-[680px] text-right text-sm"><thead><tr className="border-b border-[#1e2731]">{["מדד", ...cars.map((car) => car.make)].map((x, i) => <th key={x} className="p-4 font-black">{i ? <><button onClick={() => toggleCompare(cars[i - 1].id)} className="float-left text-[#7c8897]"><X className="h-4 w-4" /></button>{x}</> : x}</th>)}</tr></thead><tbody>{[["התאמה", ...cars.map((c) => `${c.score}%`)],["מחיר", ...cars.map((c) => `₪${c.price.toLocaleString()}`)],["עלות חודשית", ...cars.map((c) => c.ownershipMonthly ? `₪${c.ownershipMonthly.toLocaleString()}` : "–")],["אמינות", ...cars.map((c) => `${c.reliability}/100`)],["בטיחות", ...cars.map((c) => `${c.safety}/100`)],["חסכון", ...cars.map((c) => `${c.economy}/100`)],["הנעה", ...cars.map((c) => c.fuel)]].map((row) => <tr key={row[0]} className="border-b border-[#202832] last:border-0">{row.map((cell, i) => <td key={String(cell)} className={`p-4 ${i === 0 ? "font-bold text-[#8f9aa8]" : "font-black text-[#f4f6f8]"}`}>{cell}</td>)}</tr>)}</tbody></table><div className="p-4"><button onClick={onLead} className="rounded-xl bg-[#4aa3ff] px-5 py-3 text-xs font-black text-white">חפשו את הבחירה המובילה <ExternalLink className="mr-1 inline h-3.5 w-3.5" /></button></div></div> : <EmptyState text="בחרו לפחות שני רכבים כדי לפתוח השוואה אמיתית." />; }
+function Compare({ cars, toggleCompare, onLead }: { cars: (Car & { match?: number })[]; toggleCompare: (id: string) => void; onLead: () => void }) { return cars.length >= 2 ? <div className="overflow-x-auto rounded-2xl border border-[#202832] bg-[#11151b]"><table className="w-full min-w-[680px] text-right text-sm"><thead><tr className="border-b border-[#1e2731]">{["מדד", ...cars.map((car) => car.make)].map((x, i) => <th key={x} className="p-4 font-black">{i ? <><button onClick={() => toggleCompare(cars[i - 1].id)} className="float-left text-[#7c8897]"><X className="h-4 w-4" /></button>{x}</> : x}</th>)}</tr></thead><tbody>{[["התאמה", ...cars.map((c) => c.match != null ? `${c.match}%` : `${c.score}%`)],["מחיר", ...cars.map((c) => `₪${c.price.toLocaleString()}`)],["עלות חודשית", ...cars.map((c) => c.ownershipMonthly ? `₪${c.ownershipMonthly.toLocaleString()}` : "–")],["אמינות", ...cars.map((c) => `${c.reliability}/100`)],["בטיחות", ...cars.map((c) => `${c.safety}/100`)],["חסכון", ...cars.map((c) => `${c.economy}/100`)],["הנעה", ...cars.map((c) => c.fuel)]].map((row) => <tr key={row[0]} className="border-b border-[#202832] last:border-0">{row.map((cell, i) => <td key={String(cell)} className={`p-4 ${i === 0 ? "font-bold text-[#8f9aa8]" : "font-black text-[#f4f6f8]"}`}>{cell}</td>)}</tr>)}</tbody></table><div className="p-4"><button onClick={onLead} className="rounded-xl bg-[#4aa3ff] px-5 py-3 text-xs font-black text-white">חפשו את הבחירה המובילה <ExternalLink className="mr-1 inline h-3.5 w-3.5" /></button></div></div> : <EmptyState text="בחרו לפחות שני רכבים כדי לפתוח השוואה אמיתית." />; }
 
 function EmptyState({ text }: { text: string }) { return <div className="rounded-3xl border border-dashed border-[#26303a] bg-[#0d1117] p-12 text-center text-sm text-[#8f9aa8]"><BarChart3 className="mx-auto h-8 w-8 text-[#657281]" /><p className="mt-4">{text}</p></div>; }
 
-function VehicleDetails({ car, onBack, onLead }: { car: Car & { match: number }; onBack: () => void; onLead: () => void }) {
+function VehicleDetails({ car, onBack, onLead, annualKm }: { car: Car & { match: number }; onBack: () => void; onLead: () => void; annualKm?: number }) {
   return <div dir="ltr" className="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
     <div className="overflow-hidden rounded-3xl border border-[#202832] bg-[#11151b]">
       <div className="relative h-[280px]">
@@ -511,7 +514,7 @@ function VehicleDetails({ car, onBack, onLead }: { car: Car & { match: number };
         <div className="border-x border-[#202832] p-5"><b className="block text-lg">{car.marketRange}</b><span className="text-[10px] text-[#8f9aa8]">MARKET PRICE</span></div>
         <div className="p-5"><b className="block text-lg">₪{(car.ownershipMonthly ?? 0).toLocaleString()}</b><span className="text-[10px] text-[#8f9aa8]">MONTHLY COST</span></div>
       </div>
-      <div className="border-t border-[#202832] p-5"><TcoBreakdown car={car} /></div>
+      <div className="border-t border-[#202832] p-5"><TcoBreakdown car={car} annualKm={annualKm} /></div>
     </div>
     <div className="grid gap-4 sm:grid-cols-2">
       <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">OVERVIEW</p><p className="mt-4 text-sm leading-7 text-[#d6dde6]">{car.why}</p><div className="mt-6 space-y-3 text-sm"><div className="flex justify-between"><span className="text-[#8f9aa8]">Reliability</span><b>{car.reliability}/100</b></div><div className="flex justify-between"><span className="text-[#8f9aa8]">Safety</span><b>{car.safety}/100</b></div><div className="flex justify-between"><span className="text-[#8f9aa8]">Fuel economy</span><b>{car.economy}/100</b></div></div></div>
@@ -530,7 +533,7 @@ function Analysis({ result, monthly }: { result: Car & { match: number }; monthl
 
 function Tools({ result, monthly, answers, setAnswers }: { result: Car & { match: number }; monthly: number; answers: Answers; setAnswers: React.Dispatch<React.SetStateAction<Answers>> }) {
   return <div id="tools" className="grid gap-4 lg:grid-cols-2">
-    <div className="rounded-3xl bg-[#11151b] p-6 text-white"><div className="flex items-center gap-3"><WalletCards className="h-5 w-5 text-[#9dd2ff]" /><h3 className="text-xl font-black">עלות חודשית משוערת</h3></div><p className="mt-3 text-sm leading-6 text-[#aeb8c4]">לא רק מחיר הרכב: כאן רואים תמונת שימוש בסיסית. שנו את הקילומטרים כדי להבין את ההשפעה.</p><div className="mt-7 text-5xl font-black text-[#9dd2ff]">₪{monthly.toLocaleString()}<span className="text-base text-[#aeb8c4]"> / חודש</span></div><label className="mt-7 block text-xs font-bold text-[#aeb8c4]">קילומטרים בשנה: {answers.annualKm.toLocaleString()}</label><input type="range" min="5000" max="40000" step="1000" value={answers.annualKm} onChange={(e) => setAnswers((prev) => ({ ...prev, annualKm: Number(e.target.value) }))} className="mt-3 w-full accent-[#9dd2ff]" /><div className="mt-6 grid grid-cols-2 gap-2 text-xs"><div className="rounded-xl bg-[#11151b]/10 p-3"><span className="block text-[#c5d0dc]">הרכב שנבחר</span><b className="mt-1 block">{result.make}</b></div><div className="rounded-xl bg-[#11151b]/10 p-3"><span className="block text-[#c5d0dc]">הנעה</span><b className="mt-1 block">{result.fuel}</b></div></div></div>
+    <div className="rounded-3xl bg-[#11151b] p-6 text-white"><div className="flex items-center gap-3"><WalletCards className="h-5 w-5 text-[#9dd2ff]" /><h3 className="text-xl font-black">עלות חודשית משוערת</h3></div><p className="mt-3 text-sm leading-6 text-[#aeb8c4]">לא רק מחיר הרכב: כאן רואים תמונת שימוש בסיסית. שנו את הקילומטרים כדי להבין את ההשפעה.</p><div className="mt-7 text-5xl font-black text-[#9dd2ff]">₪{monthly.toLocaleString()}<span className="text-base text-[#aeb8c4]"> / חודש</span></div><label className="mt-7 block text-xs font-bold text-[#aeb8c4]">קילומטרים בשנה: {answers.annualKm.toLocaleString()}</label><input type="range" min="5000" max="40000" step="1000" value={answers.annualKm} onChange={(e) => { const km = Number(e.target.value); const band: "low" | "mid" | "high" = km <= 10000 ? "low" : km >= 20000 ? "high" : "mid"; setAnswers((prev) => ({ ...prev, annualKm: km, annualKmBand: band })); }} className="mt-3 w-full accent-[#9dd2ff]" /><div className="mt-6 grid grid-cols-2 gap-2 text-xs"><div className="rounded-xl bg-[#11151b]/10 p-3"><span className="block text-[#c5d0dc]">הרכב שנבחר</span><b className="mt-1 block">{result.make}</b></div><div className="rounded-xl bg-[#11151b]/10 p-3"><span className="block text-[#c5d0dc]">הנעה</span><b className="mt-1 block">{result.fuel}</b></div></div></div>
     <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><div className="flex items-center gap-3"><ListChecks className="h-5 w-5 text-[#4aa3ff]" /><h3 className="text-xl font-black">Checklist לפני יד־שנייה</h3></div><p className="mt-3 text-sm leading-6 text-[#8f9aa8]">ארבעה דברים שלא כדאי להשאיר לרגע האחרון.</p><div className="mt-6 space-y-3">{["היסטוריית טיפולים ותאונות", "בדיקה במכון בלתי תלוי", "התאמת מחיר לקילומטראז׳ וליד", "בדיקת שעבודים ומסמכים"].map((item) => <label key={item} className="flex items-center gap-3 rounded-xl bg-[#151b23] p-3 text-sm font-bold"><input type="checkbox" className="h-4 w-4 accent-[#4aa3ff]" />{item}</label>)}</div><div className="mt-6 rounded-xl bg-[#13243a] p-4 text-xs leading-5 text-[#9dd2ff]">ה־checklist הוא כלי עזר כללי ולא תחליף לבדיקה מקצועית או לייעוץ משפטי.</div></div>
   </div>;
 }
@@ -538,9 +541,10 @@ function Tools({ result, monthly, answers, setAnswers }: { result: Car & { match
 function CostModal({ result, answers, onClose }: { result: Car & { match: number }; answers: Answers; onClose: () => void }) {
   const hasRealTco = Boolean(result.fuelMonthly && result.depreciationMonthly);
   const kmFactor   = answers.annualKm / 15000;
+  // EV: ~17 kWh/100km @ ₪0.60/kWh → ₪0.102/km; Hybrid: ~4.5L/100km @ ₪7.10 → ₪0.32/km; Petrol: ~7L/100km → ₪0.497/km
   const fuelAmt    = result.fuelMonthly
     ? Math.round(result.fuelMonthly * kmFactor)
-    : Math.round(answers.annualKm / 12 * (result.fuel === "היברידי" ? 0.42 : 0.62));
+    : Math.round(answers.annualKm / 12 * (result.fuel === "חשמלי" ? 0.102 : result.fuel === "היברידי" ? 0.32 : 0.497));
   const insurance   = result.insuranceMonthlyAmt ?? 400;
   const maintenance = result.maintenanceMonthly  ?? 220;
   const depreciation= result.depreciationMonthly ?? Math.round(result.price * 0.08 / 12);
