@@ -161,6 +161,11 @@ export default function Home() {
       "Hyundai Ioniq 6": heroImage,
       "Octavia": heroImage,
       "Skoda Octavia": heroImage,
+      // Batch 4
+      "Puma Hybrid": heroImage,
+      "Ford Puma Hybrid": heroImage,
+      "Golf": heroImage,
+      "Volkswagen Golf": heroImage,
     };
     const useByName: Record<string, string> = {
       "Toyota Corolla Hybrid": "city", "Hyundai Tucson": "family", "Mazda Mazda 3": "fun",
@@ -171,6 +176,9 @@ export default function Home() {
       "RAV4 Hybrid": "family", "Toyota RAV4 Hybrid": "family",
       "Ioniq 6": "highway", "Hyundai Ioniq 6": "highway",
       "Octavia": "highway", "Skoda Octavia": "highway",
+      // Batch 4
+      "Puma Hybrid": "city", "Ford Puma Hybrid": "city",
+      "Golf": "fun", "Volkswagen Golf": "fun",
     };
     const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
     const rows = catalogQuery.data ?? [];
@@ -341,7 +349,7 @@ export default function Home() {
         {tab === "saved"    && <Saved cars={cars.filter((car) => saved.includes(car.id))} history={cars.filter((car) => history.includes(car.id))} toggleSaved={toggleSaved} toggleCompare={toggleCompare} />}
         {tab === "compare"  && <Compare cars={compareCars} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
         {tab === "detail"   && <VehicleDetails car={ranked.find((item) => item.id === selectedVehicleId) ?? result} onBack={() => setTab("results")} onLead={() => setShowLead(true)} annualKm={answers.annualKm} />}
-        {tab === "analysis" && <Analysis result={result} monthly={monthly} />}
+        {tab === "analysis" && <Analysis result={result} monthly={monthly} answers={answers} />}
         {tab === "tools"    && <Tools result={result} monthly={monthly} answers={answers} setAnswers={setAnswers} />}
       </div></div></section>
 
@@ -820,12 +828,185 @@ function VehicleDetails({ car, onBack, onLead, annualKm }: { car: Car & { match:
   </div>;
 }
 
-function Analysis({ result, monthly }: { result: Car & { match: number }; monthly: number }) {
-  const metrics = [["Reliability", result.reliability],["Value for Money", Math.round((result.economy + result.comfort) / 2)],["Fuel Economy", result.economy],["Safety", result.safety],["Performance", result.fun]];
-  return <div className="grid gap-4 lg:grid-cols-[1.05fr_1fr]">
-    <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><div className="flex items-center justify-between"><div><p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">OVERALL SCORE</p><h3 className="mt-2 text-5xl font-black text-[#4aa3ff]">{(result.match / 10).toFixed(1)}<span className="text-lg text-[#657281]"> /10</span></h3></div><div className="flex h-32 w-32 items-center justify-center rounded-full border-[12px] border-[#202832] border-t-[#4aa3ff] border-r-[#4aa3ff] text-2xl font-black">{result.match}</div></div><div className="mt-8 space-y-4">{metrics.map(([label, value]) => <div key={label as string}><div className="mb-1 flex justify-between text-xs"><span className="text-[#aeb8c4]">{label}</span><b>{value as number}.0</b></div><div className="h-1.5 rounded-full bg-[#202832]"><div className="h-full rounded-full bg-[#4aa3ff]" style={{ width: `${value as number}%` }} /></div></div>)}</div></div>
-    <div className="grid gap-4 sm:grid-cols-2"><div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">KEY INSIGHTS</p><div className="mt-5 space-y-4 text-sm leading-6 text-[#d6dde6]"><p>✓ {result.why}</p><p>✓ Value is strongest when ownership cost matters.</p><p>✓ Compare service history before making an offer.</p></div></div><div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">3 YEAR COST</p><div className="mt-4 text-4xl font-black">₪{(monthly * 36).toLocaleString()}</div><p className="mt-2 text-xs text-[#8f9aa8]">Estimated total ownership cost</p><div className="mt-8 h-16 rounded-xl bg-gradient-to-r from-[#13243a] via-[#1d4c7a] to-[#4aa3ff] opacity-80" /></div></div>
-  </div>;
+function Analysis({ result, monthly, answers }: { result: Car & { match: number }; monthly: number; answers: Answers }) {
+  const trimId = (() => { const n = Number(result.id); return Number.isFinite(n) && n > 0 ? n : undefined; })();
+
+  const { data: multiBand, isLoading: tcoLoading } = trpc.tco.multiBand.useQuery(
+    { trimIds: trimId ? [trimId] : [0] },
+    { enabled: Boolean(trimId) },
+  );
+  const tco = trimId ? multiBand?.[trimId] : undefined;
+
+  // Pick the band matching the user's annualKm
+  const bandKey = answers.annualKmBand === "low" ? "km7000" : answers.annualKmBand === "high" ? "km25000" : "km15000";
+  const bandLabel = answers.annualKmBand === "low" ? "7,000" : answers.annualKmBand === "high" ? "25,000" : "15,000";
+  const activeBand = tco?.[bandKey];
+
+  // 3-year cost from real DB data (preferred) or fallback to monthly estimate
+  const monthlyForCalc = activeBand?.totalMonthly ?? monthly;
+  const cost3yr = monthlyForCalc * 36;
+
+  // Cost per km
+  const annualKm = answers.annualKm ?? 15000;
+  const costPerKm = activeBand?.totalMonthly
+    ? ((activeBand.totalMonthly * 12) / annualKm).toFixed(2)
+    : null;
+
+  // Fuel insight — EV vs petrol equivalent savings at user's km
+  const fuelCostPerKm = result.fuel === "חשמלי" ? 0.102 : result.fuel === "היברידי" ? 0.32 : 0.497;
+  const petrolPerKm   = 0.497;
+  const annualFuelSaving = result.fuel !== "בנזין"
+    ? Math.round((petrolPerKm - fuelCostPerKm) * annualKm)
+    : null;
+  const saving3yr = annualFuelSaving ? annualFuelSaving * 3 : null;
+
+  // Breakdown components from active band
+  const breakdown = activeBand ? [
+    { label: "⛽ דלק/חשמל",  val: activeBand.fuelMonthly,         color: "#4aa3ff" },
+    { label: "🛡️ ביטוח",     val: activeBand.insuranceMonthly,    color: "#5ab55a" },
+    { label: "🔧 תחזוקה",    val: activeBand.maintenanceMonthly,  color: "#e09955" },
+    { label: "📉 פחת",        val: activeBand.depreciationMonthly, color: "#c46060" },
+    { label: "📋 רישוי",     val: 121,                             color: "#8f9aa8" },
+  ].filter((r) => r.val != null) : [];
+  const totalBreakdown = breakdown.reduce((s, r) => s + (r.val ?? 0), 0);
+
+  // Score metrics
+  const metrics: [string, number][] = [
+    ["אמינות",       result.reliability],
+    ["ערך כספי",     Math.round((result.economy + result.comfort) / 2)],
+    ["חסכון דלק",   result.economy],
+    ["בטיחות",       result.safety],
+    ["נוחות",        result.comfort],
+  ];
+
+  return (
+    <div className="grid gap-4 lg:grid-cols-[1.1fr_1fr]">
+      {/* ── Left: Score + breakdown ── */}
+      <div className="space-y-4">
+        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">OVERALL MATCH SCORE</p>
+              <h3 className="mt-2 text-5xl font-black text-[#4aa3ff]">
+                {(result.match / 10).toFixed(1)}<span className="text-lg text-[#657281]"> /10</span>
+              </h3>
+              <p className="mt-1 text-xs text-[#8f9aa8]">{result.make}</p>
+            </div>
+            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-full border-[10px] border-[#202832] border-t-[#4aa3ff] border-r-[#4aa3ff] text-2xl font-black text-[#f4f6f8]">
+              {result.match}
+            </div>
+          </div>
+          <div className="mt-8 space-y-3">
+            {metrics.map(([label, value]) => (
+              <div key={label}>
+                <div className="mb-1 flex justify-between text-xs">
+                  <span className="text-[#aeb8c4]">{label}</span>
+                  <b className="text-[#f4f6f8]">{value}</b>
+                </div>
+                <div className="h-1.5 rounded-full bg-[#202832]">
+                  <div className="h-full rounded-full bg-[#4aa3ff] transition-all" style={{ width: `${value}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ── TCO Breakdown donut-bar ── */}
+        {breakdown.length > 0 && (
+          <div className="rounded-3xl border border-[#1e3050] bg-[#0d1825] p-6">
+            <p className="text-xs font-bold tracking-[.14em] text-[#4aa3ff]">פירוט עלות חודשית — {bandLabel} ק״מ/שנה</p>
+            {tcoLoading && <p className="mt-2 text-[10px] text-[#5d7a9c]">טוען נתוני TCO…</p>}
+            <div className="mt-4 space-y-2.5">
+              {breakdown.map((r) => {
+                const pct = totalBreakdown > 0 ? Math.round(((r.val ?? 0) / totalBreakdown) * 100) : 0;
+                return (
+                  <div key={r.label}>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-[#aeb8c4]">{r.label}</span>
+                      <b className="text-[#f4f6f8]">₪{(r.val ?? 0).toLocaleString()} <span className="font-normal text-[#5d7a9c]">({pct}%)</span></b>
+                    </div>
+                    <div className="mt-1 h-2 overflow-hidden rounded-full bg-[#1a2130]">
+                      <div className="h-full rounded-full transition-all" style={{ width: `${pct}%`, backgroundColor: r.color }} />
+                    </div>
+                  </div>
+                );
+              })}
+              <div className="flex justify-between border-t border-[#1e2731] pt-2 text-xs font-black">
+                <span className="text-[#8f9aa8]">סה״כ חודשי</span>
+                <span className="text-[#9dd2ff]">₪{(activeBand?.totalMonthly ?? monthly).toLocaleString()}</span>
+              </div>
+            </div>
+            <p className="mt-3 text-[9px] text-[#3d5470]">* אומדן · ביטוח — הצעה בפועל עשויה להשתנות</p>
+          </div>
+        )}
+      </div>
+
+      {/* ── Right: 3yr cost + fuel insight + why ── */}
+      <div className="space-y-4">
+        {/* 3-year total */}
+        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
+          <p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">
+            עלות 3 שנות בעלות
+            {tco && <span className="mr-2 text-[#4aa3ff]">· נתוני DB</span>}
+          </p>
+          <div className="mt-3 text-4xl font-black text-[#f4f6f8]">₪{cost3yr.toLocaleString()}</div>
+          <p className="mt-1 text-xs text-[#8f9aa8]">{bandLabel} ק״מ/שנה · 36 חודשים</p>
+          {costPerKm && (
+            <div className="mt-4 rounded-xl bg-[#0d1825] p-3 text-center">
+              <p className="text-[10px] text-[#5d7a9c]">עלות לק״מ</p>
+              <p className="text-2xl font-black text-[#9dd2ff]">₪{costPerKm}</p>
+              <p className="text-[10px] text-[#5d7a9c]">כולל דלק · ביטוח · תחזוקה · פחת</p>
+            </div>
+          )}
+          {/* km ladder pills */}
+          {tco && (
+            <div className="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
+              {([ ["km7000", "7k 🏙️", "low"], ["km15000", "15k 🛣️", "mid"], ["km25000", "25k 🚀", "high"] ] as const).map(([key, label, band]) => {
+                const v = tco[key]?.totalMonthly;
+                const active = band === answers.annualKmBand;
+                return (
+                  <div key={key} className={`rounded-lg p-2 ${active ? "border border-[#4aa3ff]/40 bg-[#0f2040]" : "bg-[#151b23]"}`}>
+                    <div className={`text-[11px] font-black ${active ? "text-[#9dd2ff]" : "text-[#f4f6f8]"}`}>
+                      {v != null ? `₪${v.toLocaleString()}` : "–"}
+                    </div>
+                    <div className="text-[9px] text-[#5d7a9c]">{label}</div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Fuel saving insight */}
+        {saving3yr && saving3yr > 500 && (
+          <div className="rounded-3xl border border-[#1a3a1a] bg-[#0b1e0b] p-5">
+            <p className="text-xs font-bold tracking-[.14em] text-[#5ab55a]">💡 יתרון דלק / חשמל</p>
+            <p className="mt-3 text-sm leading-6 text-[#90e090]">
+              ברכב {result.fuel === "חשמלי" ? "חשמלי" : "היברידי"} לעומת בנזין נטו,
+              חוסכים כ-<strong>₪{annualFuelSaving!.toLocaleString()}/שנה</strong> על דלק בלבד.
+            </p>
+            <p className="mt-1 text-xs text-[#4a8a4a]">
+              ל-3 שנות בעלות: חיסכון של כ-<strong>₪{saving3yr.toLocaleString()}</strong>
+            </p>
+            <p className="mt-3 text-[9px] text-[#2d5a2d]">מבוסס על השוואה לבנזין 7L/100km × ₪7.10/ליטר</p>
+          </div>
+        )}
+
+        {/* Key insights */}
+        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
+          <p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">תובנות מרכזיות</p>
+          <div className="mt-4 space-y-3 text-sm leading-6 text-[#d6dde6]">
+            <p>✓ {result.why}</p>
+            {result.reliability >= 90 && <p>✓ אמינות גבוהה מאוד ({result.reliability}/100) — עלות תחזוקה צפויה ופחות הפתעות.</p>}
+            {result.fuel === "חשמלי" && <p>✓ חשמלי — אפס עלות דלק תחנה, תחזוקה מינימלית, בדוק גישה לטעינה.</p>}
+            {result.fuel === "היברידי" && <p>✓ היברידי — שיא חסכון בנסיעות עיר; רווח הולך וגדל עם כמות הק״מ.</p>}
+            {answers.annualKmBand === "high" && result.fuel === "היברידי" && <p>✓ {bandLabel} ק״מ/שנה: בטווח נסיעה זה ההיברידי מכסה את עצמו מהר.</p>}
+            <p>✓ לפני קנייה: בדקו היסטוריית שירות, קילומטרים ושעבודים.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function Tools({ result, monthly, answers, setAnswers }: { result: Car & { match: number }; monthly: number; answers: Answers; setAnswers: React.Dispatch<React.SetStateAction<Answers>> }) {
