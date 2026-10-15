@@ -724,24 +724,98 @@ function Compare({ cars, toggleCompare, onLead }: { cars: (Car & { match?: numbe
 function EmptyState({ text }: { text: string }) { return <div className="rounded-3xl border border-dashed border-[#26303a] bg-[#0d1117] p-12 text-center text-sm text-[#8f9aa8]"><BarChart3 className="mx-auto h-8 w-8 text-[#657281]" /><p className="mt-4">{text}</p></div>; }
 
 function VehicleDetails({ car, onBack, onLead, annualKm }: { car: Car & { match: number }; onBack: () => void; onLead: () => void; annualKm?: number }) {
+  const trimId = (() => { const n = Number(car.id); return Number.isFinite(n) && n > 0 ? n : undefined; })();
+
+  const { data: multiBand } = trpc.tco.multiBand.useQuery(
+    { trimIds: trimId ? [trimId] : [0] },
+    { enabled: Boolean(trimId) },
+  );
+  const tco = trimId ? multiBand?.[trimId] : undefined;
+  const fmt = (v: number | null | undefined) => v != null ? `₪${v.toLocaleString()}` : "–";
+
   return <div dir="ltr" className="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
     <div className="overflow-hidden rounded-3xl border border-[#202832] bg-[#11151b]">
       <div className="relative h-[280px]">
         <img src={car.image} alt={car.make} className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0d1117] via-transparent to-transparent" />
-        <button onClick={onBack} className="absolute left-5 top-5 rounded-full border border-white/20 bg-[#0d1117]/60 px-3 py-2 text-xs text-white">← Back to recommendations</button>
+        <button onClick={onBack} className="absolute left-5 top-5 rounded-full border border-white/20 bg-[#0d1117]/60 px-3 py-2 text-xs text-white">← חזרה לתוצאות</button>
         <div className="absolute bottom-5 left-6"><p className="text-xs font-bold tracking-[.16em] text-[#9dd2ff]">{car.fuel} · {car.years}</p><h3 className="mt-2 text-3xl font-black text-white">{car.make}</h3></div>
       </div>
       <div className="grid grid-cols-3 border-t border-[#202832] text-center">
-        <div className="p-5"><b className="block text-3xl text-[#4aa3ff]">{car.match}</b><span className="text-[10px] text-[#8f9aa8]">SMART BUY SCORE</span></div>
-        <div className="border-x border-[#202832] p-5"><b className="block text-lg">{car.marketRange}</b><span className="text-[10px] text-[#8f9aa8]">MARKET PRICE</span></div>
-        <div className="p-5"><b className="block text-lg">₪{(car.ownershipMonthly ?? 0).toLocaleString()}</b><span className="text-[10px] text-[#8f9aa8]">MONTHLY COST</span></div>
+        <div className="p-5"><b className="block text-3xl text-[#4aa3ff]">{car.match}</b><span className="text-[10px] text-[#8f9aa8]">MATCH SCORE</span></div>
+        <div className="border-x border-[#202832] p-5"><b className="block text-base">{car.marketRange ?? `₪${car.price.toLocaleString()}`}</b><span className="text-[10px] text-[#8f9aa8]">מחיר שוק</span></div>
+        <div className="p-5"><b className="block text-base text-[#4aa3ff]">₪{(car.ownershipMonthly ?? 0).toLocaleString()}</b><span className="text-[10px] text-[#8f9aa8]">TCO/חודש</span></div>
       </div>
-      <div className="border-t border-[#202832] p-5"><TcoBreakdown car={car} annualKm={annualKm} /></div>
+
+      {/* TCO breakdown (pie-style bars) */}
+      <div className="border-t border-[#202832] p-5">
+        <TcoBreakdown car={car} annualKm={annualKm} />
+      </div>
+
+      {/* TCO Ladder — 7k / 15k / 25k */}
+      {tco && (
+        <div className="border-t border-[#1e3050] bg-[#0d1825] px-5 py-4">
+          <p className="mb-3 text-[10px] font-black tracking-[.14em] text-[#4aa3ff]">TCO LADDER — עלות לפי נסיעה שנתית</p>
+          <div className="grid grid-cols-3 gap-2 text-center text-xs">
+            {([["km7000", "7,000 ק״מ", "🏙️"], ["km15000", "15,000 ק״מ", "🛣️"], ["km25000", "25,000 ק״מ", "🚀"]] as const).map(([key, label, icon]) => {
+              const row = tco[key];
+              const isMiddle = key === "km15000";
+              return (
+                <div key={key} className={`rounded-xl p-3 ${isMiddle ? "border border-[#4aa3ff]/40 bg-[#0f2040]" : "bg-[#11151b]"}`}>
+                  <div className="text-base">{icon}</div>
+                  <div className={`mt-1 text-[11px] font-black ${isMiddle ? "text-[#9dd2ff]" : "text-[#f4f6f8]"}`}>
+                    {fmt(row?.totalMonthly)}
+                  </div>
+                  <div className="mt-0.5 text-[9px] text-[#5d7a9c]">{label}</div>
+                  {row?.isEstimate && <div className="mt-0.5 text-[8px] text-[#3d5470]">אומדן</div>}
+                </div>
+              );
+            })}
+          </div>
+          <p className="mt-3 text-[9px] text-[#3d5470]">* עלות חודשית כוללת — דלק + ביטוח + תחזוקה + פחת + רישוי</p>
+        </div>
+      )}
     </div>
-    <div className="grid gap-4 sm:grid-cols-2">
-      <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">OVERVIEW</p><p className="mt-4 text-sm leading-7 text-[#d6dde6]">{car.why}</p><div className="mt-6 space-y-3 text-sm"><div className="flex justify-between"><span className="text-[#8f9aa8]">Reliability</span><b>{car.reliability}/100</b></div><div className="flex justify-between"><span className="text-[#8f9aa8]">Safety</span><b>{car.safety}/100</b></div><div className="flex justify-between"><span className="text-[#8f9aa8]">Fuel economy</span><b>{car.economy}/100</b></div></div></div>
-      <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">COSTS</p><p className="mt-4 text-3xl font-black text-[#4aa3ff]">₪{car.insuranceMin ?? 0}–₪{car.insuranceMax ?? 0}</p><p className="mt-1 text-xs text-[#8f9aa8]">Indicative monthly insurance</p><p className="mt-6 text-xs leading-5 text-[#657281]">Estimate for an experienced driver with clean history. Obtain a live quote before purchase.</p><button onClick={onLead} className="mt-6 w-full rounded-xl bg-[#4aa3ff] py-3 text-xs font-black text-white">Continue to listings</button></div>
+
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+      {/* Overview */}
+      <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
+        <p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">OVERVIEW</p>
+        <p className="mt-4 text-sm leading-7 text-[#d6dde6]">{car.why}</p>
+        <div className="mt-5 space-y-2.5 text-sm">
+          {[["אמינות", car.reliability], ["בטיחות", car.safety], ["חסכון", car.economy], ["נוחות", car.comfort]].map(([label, val]) => (
+            <div key={label as string} className="flex items-center gap-3">
+              <span className="w-16 shrink-0 text-[11px] text-[#8f9aa8]">{label}</span>
+              <div className="flex-1 overflow-hidden rounded-full bg-[#202832]" style={{ height: 5 }}>
+                <div className="h-full rounded-full bg-[#4aa3ff]" style={{ width: `${val as number}%` }} />
+              </div>
+              <span className="w-10 text-left text-[11px] font-bold text-[#c5d0dc]">{val}/100</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Pros / Cons */}
+      {(car.pros?.length > 0 || car.cons?.length > 0) && (
+        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
+          <p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">יתרונות / חסרונות</p>
+          <div className="mt-4 space-y-1.5 text-xs">
+            {car.pros?.map((p) => <p key={p} className="text-[#5ab55a]">✓ {p}</p>)}
+            {car.cons?.map((c) => <p key={c} className="text-[#c46060]">✗ {c}</p>)}
+          </div>
+        </div>
+      )}
+
+      {/* Insurance + CTA */}
+      <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
+        <p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">ביטוח (הערכה)</p>
+        <p className="mt-3 text-2xl font-black text-[#4aa3ff]">₪{car.insuranceMin ?? 0}–₪{car.insuranceMax ?? 0}</p>
+        <p className="mt-1 text-xs text-[#8f9aa8]">לחודש · נהג/ת מנוסה ללא תאונות</p>
+        <p className="mt-4 text-xs leading-5 text-[#657281]">הערכה בלבד — יש לקבל הצעת מחיר ממבטח לפני רכישה.</p>
+        <button onClick={onLead} className="mt-5 w-full rounded-xl bg-[#4aa3ff] py-3 text-xs font-black text-white">
+          המשיכו לחיפוש בשוק <ArrowUpLeft className="mr-1 inline h-3.5 w-3.5" />
+        </button>
+      </div>
     </div>
   </div>;
 }
@@ -764,29 +838,129 @@ function Tools({ result, monthly, answers, setAnswers }: { result: Car & { match
 function CostModal({ result, answers, onClose }: { result: Car & { match: number }; answers: Answers; onClose: () => void }) {
   const hasRealTco = Boolean(result.fuelMonthly && result.depreciationMonthly);
   const kmFactor   = answers.annualKm / 15000;
+
+  // ── Financing state ──────────────────────────────────────────────────────
+  const [downPct,       setDownPct]       = useState(30);  // % of price
+  const [annualRate,    setAnnualRate]    = useState(4.5); // % annual interest
+  const [loanYears,     setLoanYears]     = useState(5);   // years
+  const [showFinancing, setShowFinancing] = useState(false);
+
+  // ── Running costs ────────────────────────────────────────────────────────
   // EV: ~17 kWh/100km @ ₪0.60/kWh → ₪0.102/km; Hybrid: ~4.5L/100km @ ₪7.10 → ₪0.32/km; Petrol: ~7L/100km → ₪0.497/km
-  const fuelAmt    = result.fuelMonthly
+  const fuelAmt     = result.fuelMonthly
     ? Math.round(result.fuelMonthly * kmFactor)
     : Math.round(answers.annualKm / 12 * (result.fuel === "חשמלי" ? 0.102 : result.fuel === "היברידי" ? 0.32 : 0.497));
-  const insurance   = result.insuranceMonthlyAmt ?? 400;
-  const maintenance = result.maintenanceMonthly  ?? 220;
-  const depreciation= result.depreciationMonthly ?? Math.round(result.price * 0.08 / 12);
+  const insurance    = result.insuranceMonthlyAmt ?? 400;
+  const maintenance  = result.maintenanceMonthly  ?? 220;
+  const depreciation = result.depreciationMonthly ?? Math.round(result.price * 0.08 / 12);
   const registration = 121;
-  const total = fuelAmt + insurance + maintenance + depreciation + registration;
+  const runningTotal = fuelAmt + insurance + maintenance + depreciation + registration;
+
+  // ── Financing calculation (standard amortisation) ────────────────────────
+  const principal      = Math.round(result.price * (1 - downPct / 100));
+  const monthlyRate    = annualRate / 100 / 12;
+  const nPayments      = loanYears * 12;
+  const loanMonthly    = monthlyRate > 0
+    ? Math.round(principal * monthlyRate * Math.pow(1 + monthlyRate, nPayments) / (Math.pow(1 + monthlyRate, nPayments) - 1))
+    : Math.round(principal / nPayments);
+  const totalInterest  = loanMonthly * nPayments - principal;
+  const grandTotal     = runningTotal + (showFinancing ? loanMonthly : 0);
 
   return <Modal onClose={onClose}>
-    <h2 className="text-2xl font-black">עלות חודשית משוערת</h2>
-    <p className="mt-2 text-sm text-[#8f9aa8]">{result.make} · {answers.annualKm.toLocaleString()} ק״מ בשנה</p>
-    <div className="my-7 rounded-2xl bg-[#11151b] p-6 text-center text-white"><div className="text-4xl font-black text-[#9dd2ff]">₪{total.toLocaleString()}</div><div className="mt-1 text-xs text-[#aeb8c4]">הערכה חודשית כוללת</div></div>
-    <div className="space-y-3 text-sm">
-      <div className="flex justify-between"><span>⛽ דלק/חשמל</span><b>₪{fuelAmt.toLocaleString()}</b></div>
-      <div className="flex justify-between"><span>🛡️ ביטוח (הערכה)</span><b>₪{insurance.toLocaleString()}</b></div>
-      <div className="flex justify-between"><span>🔧 תחזוקה</span><b>₪{maintenance.toLocaleString()}</b></div>
-      <div className="flex justify-between"><span>📉 פחת</span><b>₪{depreciation.toLocaleString()}</b></div>
-      <div className="flex justify-between"><span>📋 רישוי</span><b>₪{registration}</b></div>
+    <h2 className="text-2xl font-black">מחשבון עלות חודשית</h2>
+    <p className="mt-1 text-sm text-[#8f9aa8]">{result.make} · {answers.annualKm.toLocaleString()} ק״מ/שנה</p>
+
+    {/* ── Grand total pill ── */}
+    <div className="my-5 rounded-2xl bg-gradient-to-br from-[#0d1e35] to-[#11151b] p-5 text-center">
+      <div className="text-4xl font-black text-[#9dd2ff]">₪{grandTotal.toLocaleString()}</div>
+      <div className="mt-1 text-xs text-[#aeb8c4]">
+        {showFinancing ? "כולל תשלום הלוואה" : "עלויות שוטפות בלבד"} · חודשי
+      </div>
+      {showFinancing && (
+        <div className="mt-2 flex justify-center gap-4 text-[11px] text-[#6d8aab]">
+          <span>🏦 הלוואה ₪{loanMonthly.toLocaleString()}</span>
+          <span>+</span>
+          <span>🚗 שוטף ₪{runningTotal.toLocaleString()}</span>
+        </div>
+      )}
     </div>
-    {!hasRealTco && <p className="mt-4 rounded-xl bg-[#1e2938] px-3 py-2 text-xs text-[#9dd2ff]">עלות מחושבת לפי נוסחה — נתוני TCO מפורטים יופיעו לאחר הרצת seed-real-data.ts</p>}
-    <p className="mt-4 rounded-xl bg-[#fff5dc] p-3 text-xs leading-5 text-[#906b1c]">המספר הוא כלי השוואתי, לא הצעת מחיר ולא התחייבות. ביטוח — אומדן בלבד.</p>
+
+    {/* ── Running cost rows ── */}
+    <div className="space-y-2 text-sm">
+      {[
+        ["⛽ דלק/חשמל",      fuelAmt],
+        ["🛡️ ביטוח",         insurance],
+        ["🔧 תחזוקה",        maintenance],
+        ["📉 פחת",           depreciation],
+        ["📋 רישוי",         registration],
+      ].map(([label, val]) => {
+        const pct = Math.round(((val as number) / runningTotal) * 100);
+        return (
+          <div key={label as string}>
+            <div className="flex justify-between text-xs">
+              <span className="text-[#aeb8c4]">{label as string}</span>
+              <b className="text-[#f4f6f8]">₪{(val as number).toLocaleString()}</b>
+            </div>
+            <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-[#1a2130]">
+              <div className="h-full rounded-full bg-[#4aa3ff]/70 transition-all" style={{ width: `${pct}%` }} />
+            </div>
+          </div>
+        );
+      })}
+      <div className="flex justify-between border-t border-[#26303a] pt-2 text-xs font-black">
+        <span className="text-[#8f9aa8]">סה״כ שוטף</span>
+        <span className="text-[#9dd2ff]">₪{runningTotal.toLocaleString()}</span>
+      </div>
+    </div>
+
+    {/* ── Financing toggle ── */}
+    <button
+      onClick={() => setShowFinancing((v) => !v)}
+      className="mt-5 flex w-full items-center justify-between rounded-xl border border-[#26303a] bg-[#11151b] px-4 py-3 text-xs font-black text-[#aeb8c4] hover:border-[#4aa3ff]"
+    >
+      <span>🏦 הוסיפו מימון / הלוואה</span>
+      <span className={showFinancing ? "text-[#4aa3ff]" : ""}>{showFinancing ? "▲ הסתירו" : "▼ פתחו"}</span>
+    </button>
+
+    {showFinancing && (
+      <div className="mt-3 space-y-4 rounded-xl border border-[#1e3050] bg-[#0d1825] p-4">
+        <div>
+          <div className="flex justify-between text-xs text-[#8f9aa8]">
+            <span>מקדמה: {downPct}% (₪{Math.round(result.price * downPct / 100).toLocaleString()})</span>
+            <span>הלוואה: ₪{principal.toLocaleString()}</span>
+          </div>
+          <input type="range" min="10" max="60" step="5" value={downPct}
+            onChange={(e) => setDownPct(Number(e.target.value))}
+            className="mt-1 w-full accent-[#4aa3ff]" />
+        </div>
+        <div>
+          <div className="flex justify-between text-xs text-[#8f9aa8]">
+            <span>ריבית שנתית: {annualRate}%</span>
+            <span>ריבית: ₪{Math.round(totalInterest).toLocaleString()} סה״כ</span>
+          </div>
+          <input type="range" min="2" max="12" step="0.5" value={annualRate}
+            onChange={(e) => setAnnualRate(Number(e.target.value))}
+            className="mt-1 w-full accent-[#4aa3ff]" />
+        </div>
+        <div>
+          <div className="flex justify-between text-xs text-[#8f9aa8]">
+            <span>תקופת הלוואה: {loanYears} שנים</span>
+            <span>₪{loanMonthly.toLocaleString()}/חודש</span>
+          </div>
+          <input type="range" min="2" max="7" step="1" value={loanYears}
+            onChange={(e) => setLoanYears(Number(e.target.value))}
+            className="mt-1 w-full accent-[#4aa3ff]" />
+        </div>
+        <div className="rounded-lg bg-[#132036] p-3 text-center">
+          <p className="text-xs text-[#6d8aab]">תשלום חודשי הלוואה</p>
+          <p className="mt-1 text-2xl font-black text-[#4aa3ff]">₪{loanMonthly.toLocaleString()}</p>
+          <p className="mt-0.5 text-[10px] text-[#4a5a6b]">+ ₪{runningTotal.toLocaleString()} שוטף = <strong className="text-[#9dd2ff]">₪{grandTotal.toLocaleString()}/חודש</strong></p>
+        </div>
+      </div>
+    )}
+
+    {!hasRealTco && <p className="mt-4 rounded-xl bg-[#1e2938] px-3 py-2 text-[10px] text-[#9dd2ff]">עלות שוטפת מחושבת לפי נוסחה — נתוני TCO מפורטים יופיעו לאחר הרצת seed-real-data.ts</p>}
+    <p className="mt-3 rounded-xl bg-[#1c1810] p-3 text-[10px] leading-5 text-[#906b1c]">כלי השוואתי בלבד — אינו הצעת מחיר או ייעוץ פיננסי. ביטוח — אומדן בלבד.</p>
   </Modal>;
 }
 
