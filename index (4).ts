@@ -2,7 +2,7 @@ import "dotenv/config";
 import { createServer } from "http";
 import net from "net";
 import { serveStatic, setupVite } from "./dev-vite";
-import { createApiApp } from "../app";
+import { createApiApp } from "./app";
 
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise((resolve) => {
