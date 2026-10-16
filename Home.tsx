@@ -179,6 +179,17 @@ export default function Home() {
       "Peugeot 308": heroImage,
       "Atto 3": heroImage,
       "BYD Atto 3": heroImage,
+      // Batch 6 — TOP sellers Israel 2025
+      "J7": heroImage,
+      "Jaecoo J7": heroImage,
+      "Kona Hybrid": heroImage,
+      "Hyundai Kona Hybrid": heroImage,
+      "Corolla Cross Hybrid": heroImage,
+      "Toyota Corolla Cross Hybrid": heroImage,
+      "Tiggo 8 Pro": heroImage,
+      "Chery Tiggo 8 Pro": heroImage,
+      "Picanto": heroImage,
+      "Kia Picanto": heroImage,
     };
     const useByName: Record<string, string> = {
       "Toyota Corolla Hybrid": "city", "Hyundai Tucson": "family", "Mazda Mazda 3": "fun",
@@ -196,6 +207,12 @@ export default function Home() {
       "Yaris Cross Hybrid": "city", "Toyota Yaris Cross Hybrid": "city",
       "308": "fun", "Peugeot 308": "fun",
       "Atto 3": "family", "BYD Atto 3": "family",
+      // Batch 6
+      "J7": "family", "Jaecoo J7": "family",
+      "Kona Hybrid": "city", "Hyundai Kona Hybrid": "city",
+      "Corolla Cross Hybrid": "family", "Toyota Corolla Cross Hybrid": "family",
+      "Tiggo 8 Pro": "family", "Chery Tiggo 8 Pro": "family",
+      "Picanto": "city", "Kia Picanto": "city",
     };
     const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
     const rows = catalogQuery.data ?? [];
