@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
+import { notifyNewLead } from "./leadNotify";
 import { COOKIE_NAME, LEAD_CONSENT_TEXT } from "@shared/const";
 import {
   createLead,
@@ -99,9 +100,11 @@ export const appRouter = router({
             consentText: LEAD_CONSENT_TEXT,
             consentAt: new Date(),
           });
+          // Speed-to-lead: email the owner immediately (no-op when RESEND_API_KEY is unset).
+          await notifyNewLead({ id: Number(id), ...details, city: details.city || null, budget: details.budget ?? null });
           return { id, status: "received" as const };
         } catch (error) {
-          console.error("[Lead] could not save request", error);
+          console.error("[Lead] could not save request", error instanceof Error ? error.name : "unknown");
           throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "לא הצלחנו לשמור את הפנייה. נסו שוב מאוחר יותר." });
         }
       }),

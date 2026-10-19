@@ -22,6 +22,7 @@ fs.cpSync(staticSrc, path.join(out, "static"), { recursive: true });
 const functions = [
   { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },
   { name: "plate", entry: "api/plate.ts", maxDuration: 15, helpers: true },
+  { name: "admin", entry: "api/admin.ts", maxDuration: 30, helpers: true },
   { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 30, helpers: false },
 ];
 
@@ -37,6 +38,7 @@ for (const fn of functions) {
     format: "esm",
     logLevel: "warning",
     alias: { "@shared": root, "@": root },
+    loader: { ".sql": "text" },
     // Some bundled CommonJS deps call require() at runtime.
     banner: { js: "import { createRequire as __cr } from 'module'; const require = __cr(import.meta.url);" },
   });
@@ -55,6 +57,7 @@ fs.writeFileSync(
       routes: [
         { src: "^/api/chat/?$", dest: "/api/chat" },
         { src: "^/api/plate/?$", dest: "/api/plate" },
+        { src: "^/api/admin/?$", dest: "/api/admin" },
         { src: "^/api/((?:trpc|oauth)(?:/.*)?)$", dest: "/api/trpc?__p=$1" },
         { src: "^/api(/.*)?$", status: 404 },
         { src: "^/assets/[^/]+-[A-Za-z0-9_-]{8}\\.(?:js|css)$", headers: { "cache-control": "public, max-age=31536000, immutable" }, continue: true },
@@ -67,4 +70,4 @@ fs.writeFileSync(
   ),
 );
 
-console.log("[build-vercel] wrote .vercel/output (static + api/chat + api/plate + api/trpc)");
+console.log("[build-vercel] wrote .vercel/output (static + api/chat + api/plate + api/admin + api/trpc)");
