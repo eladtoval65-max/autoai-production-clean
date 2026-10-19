@@ -44,6 +44,18 @@ const MODELS: Record<string, [string, string]> = {
   "j7": ["Jaecoo J7", "Jaecoo_J7_1.6T_4WD_–_f_21032025.jpg"],
   "jaecoo": ["Jaecoo J7", "Jaecoo_J7_1.6T_4WD_–_f_21032025.jpg"],
   "tiggo 8": ["Chery Tiggo 8", "Chery_Tiggo_8_Pro_PHEV_002.jpg"],
+  // Batch 7 — Wikipedia lead image only (no pinned fallback yet)
+  "tiggo 4": ["Chery Tiggo 4", ""],
+  "tiggo 7": ["Chery Tiggo 7", ""],
+  "j5": ["Jaecoo J5", ""],
+  "j8": ["Jaecoo J8", ""],
+  "model y": ["Tesla Model Y", ""],
+  "seal u": ["BYD Song Plus", ""],
+  "atto 2": ["BYD Yuan Up", ""],
+  "ev3": ["Kia EV3", ""],
+  "i20": ["Hyundai i20", ""],
+  "kodiaq": ["Škoda Kodiaq", ""],
+  "e vitara": ["Suzuki e Vitara", ""],
 };
 
 const KEYS = Object.keys(MODELS).sort((a, b) => b.length - a.length);
@@ -52,7 +64,7 @@ const match = (name: string) => { const n = name.toLowerCase(); return KEYS.find
 /** Pinned Commons fallback (synchronous). */
 export function photoFor(name: string, width?: number): VehiclePhoto | null {
   const key = match(name);
-  return key ? commonsPhoto(MODELS[key][1], width) : null;
+  return key && MODELS[key][1] ? commonsPhoto(MODELS[key][1], width) : null;
 }
 
 const cache = new Map<string, Promise<VehiclePhoto | null>>();
