@@ -8,6 +8,7 @@ import { LangProvider } from "./i18n";
 import Home from "./pages/Home";
 import AdminLeads from "./pages/AdminLeads";
 import Privacy from "./pages/Privacy";
+import Landing from "./Landing";
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/admin/leads" component={AdminLeads} />
       <Route path="/admin" component={AdminLeads} />
       <Route path="/privacy" component={Privacy} />
+      <Route path="/go/:slug" component={Landing} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

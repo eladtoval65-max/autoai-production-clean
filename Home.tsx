@@ -8,7 +8,8 @@ import {
   MapPin, Milestone, PlugZap, Receipt, RotateCcw, Route, Send, Share2, ShieldCheck, Sofa, Star, UserX, Users, Wrench, X, type LucideIcon,
 } from "lucide-react";
 import { Link } from "wouter";
-import { photoFor } from "./vehicleImages";
+import { sendEvent } from "./analytics";
+import { photoFor, wikiPhotoFor, type VehiclePhoto } from "./vehicleImages";
 import { shekel, useLang, type Lang } from "./i18n";
 import { CATALOG_UPDATED, STATIC_CATALOG, type Band as CatBand } from "./catalogData";
 
@@ -111,7 +112,11 @@ const useByName: Record<string, string> = {
 };
 
 const formatTime = (lang: Lang) => new Date().toLocaleTimeString(lang === "he" ? "he-IL" : "en-US", { hour: "2-digit", minute: "2-digit" });
-const track = (event: string) => { try { const e = JSON.parse(localStorage.getItem("carai-events") || "[]"); e.push({ event, at: new Date().toISOString() }); localStorage.setItem("carai-events", JSON.stringify(e.slice(-100))); } catch {} };
+const FUNNEL_MAP: Record<string, string> = { quiz_completed: "quiz_complete", results_viewed: "results_view", plate_check: "plate_check" };
+const track = (event: string) => {
+  const f = event.startsWith("answer_") ? "quiz_start" : FUNNEL_MAP[event];
+  if (f) sendEvent(f);
+  try { const e = JSON.parse(localStorage.getItem("carai-events") || "[]"); e.push({ event, at: new Date().toISOString() }); localStorage.setItem("carai-events", JSON.stringify(e.slice(-100))); } catch {} };
 const shortName = (make: string) => make.split(" · ")[0];
 /** All scores are shown on one 1–10 scale (one decimal), the convention of leading car-review sites. */
 const ten = (v: number) => Math.round(v) / 10;
@@ -237,6 +242,8 @@ export default function Home() {
   const isDemo = Boolean(cars[0]?.demo);
 
   useEffect(() => { try { localStorage.setItem("carai-saved", JSON.stringify(saved)); } catch {} }, [saved]);
+  useEffect(() => { sendEvent("visit"); }, []);
+  useEffect(() => { if (showLead || plateLead) sendEvent("lead_open", "home", false); }, [showLead, plateLead]);
   useEffect(() => {
     if (!complete || !leader) return;
     const next = [leader.id, ...history.filter((id) => id !== leader.id)].slice(0, 8);
@@ -296,7 +303,7 @@ export default function Home() {
     if (!leader) return;
     const text = t.shareText(shortName(leader.make), ten(leader.match));
     try {
-      if (navigator.share) await navigator.share({ title: lang === "he" ? "כמה עולה" : "KamaOle", text });
+      if (navigator.share) await navigator.share({ title: lang === "he" ? "כמה עולה" : "CamaOla", text });
       else { await navigator.clipboard.writeText(text); toast(t.copiedToast); }
     } catch {}
   }
@@ -309,7 +316,7 @@ export default function Home() {
     <main dir={dir} lang={lang} className="min-h-screen bg-page text-ink">
       <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-4 px-4 py-3 sm:px-8">
-          <a href="#top" className="flex items-center gap-2 text-ink no-underline" aria-label={lang === "he" ? "כמה עולה" : "KamaOle"}>
+          <a href="#top" className="flex items-center gap-2 text-ink no-underline" aria-label={lang === "he" ? "כמה עולה" : "CamaOla"}>
             <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-[9px] bg-go font-display text-[17px] font-bold text-white">₪</span>
             {lang === "he"
               ? <span className="font-display text-[22px] font-bold leading-none">כמה <span className="text-go">עולה</span></span>
@@ -384,7 +391,7 @@ export default function Home() {
 
       {showLead && leader && <LeadRequestModal vehicle={tab === "detail" && detailCar ? detailCar : leader} budget={answers.budget}
         sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"} onClose={() => setShowLead(false)} />}
-      {plateLead && <LeadRequestModal vehicle={{ id: "plate", make: plateLead, match: 0 }} budget={answers.budget} sourcePage="vehicle_details" defaultType="used_car" onClose={() => setPlateLead(null)} />}
+      {plateLead && <LeadRequestModal vehicle={{ id: "plate", make: plateLead, match: 0 }} budget={answers.budget} sourcePage="plate_check" defaultType="used_car" onClose={() => setPlateLead(null)} />}
     </main>
   );
 }
@@ -490,9 +497,21 @@ function MonthlyTag({ value, size = "lg", label }: { value: number; size?: "sm" 
 
 function CarPhoto({ name, className = "", eager, width, label = false }: { name: string; className?: string; eager?: boolean; width?: number; label?: boolean }) {
   const { t } = useLang();
-  const p = photoFor(name, width);
-  const [failed, setFailed] = useState(false);
-  if (!p || failed) {
+  // Wikipedia lead image first (reliably shows the car), then the pinned Commons file, then a placeholder.
+  const [wiki, setWiki] = useState<VehiclePhoto | null | undefined>(undefined);
+  const [stage, setStage] = useState(0);
+  useEffect(() => {
+    let live = true;
+    setWiki(undefined); setStage(0);
+    wikiPhotoFor(name, width).then((p) => { if (live) setWiki(p); });
+    return () => { live = false; };
+  }, [name, width]);
+  const pinned = photoFor(name, width);
+  const candidates = [wiki, pinned].filter(Boolean) as VehiclePhoto[];
+  const p = wiki === undefined ? null : candidates[stage];
+  const setFailed = () => setStage((s) => s + 1);
+  if (!p) {
+    if (wiki === undefined) return <div className={`relative animate-pulse bg-mist ${className}`} />;
     return (
       <div className={`relative bg-gradient-to-b from-[#eef2f6] to-[#e1e7ee] ${className}`}>
         {label && <span className="absolute end-4 top-3 max-w-[70%] text-end font-display text-lg font-semibold leading-tight text-[#6b7a8c]">{shortName(name)}</span>}
@@ -501,7 +520,7 @@ function CarPhoto({ name, className = "", eager, width, label = false }: { name:
   }
   return (
     <div className={`relative overflow-hidden bg-mist ${className}`}>
-      <img src={p.src} alt={shortName(name)} loading={eager ? "eager" : "lazy"} decoding="async" referrerPolicy="no-referrer" onError={() => setFailed(true)} className="absolute inset-0 h-full w-full object-cover" />
+      <img key={p.src} src={p.src} alt={shortName(name)} loading={eager ? "eager" : "lazy"} decoding="async" referrerPolicy="no-referrer" onError={setFailed} className="absolute inset-0 h-full w-full object-cover" />
       <a href={p.credit} target="_blank" rel="noopener noreferrer" className="absolute bottom-2 end-2 rounded-full bg-ink/70 px-2 py-0.5 text-[11px] font-semibold text-white no-underline hover:bg-ink">{t.photoCredit}</a>
     </div>
   );
@@ -1121,17 +1140,21 @@ function Advisor() {
     if (!q || loading) return;
     const next = [...messages, { from: "user" as const, text: q, time: formatTime(lang) }];
     setMessages(next); setQuestion(""); setLoading(true);
+    let providerMsg = "";
     try {
       const res = await fetch("/api/chat", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: next.map((m) => ({ role: m.from === "user" ? "user" : "assistant", content: m.text })) }),
       });
       const data = await res.json().catch(() => { throw new Error(`HTTP_${res.status}`); });
+      providerMsg = typeof data?.providerMessage === "string" ? data.providerMessage : "";
       if (!res.ok) throw new Error(res.status === 503 ? "CFG" : res.status === 502 ? `PROVIDER_${data?.providerStatus ?? ""}_${data?.providerError ?? ""}` : res.status === 429 ? "RATE" : `HTTP_${res.status}`);
       setMessages((p) => [...p, { from: "ai", text: data.reply || t.chatEmpty, time: formatTime(lang) }]);
+      providerMsg = "";
     } catch (err) {
       const code = err instanceof Error ? err.message : "";
-      const reply = code === "CFG" ? t.chatNotConfigured : code.startsWith("PROVIDER") ? t.chatProviderCode(code.split("_")[1] ?? "", code.split("_").slice(2).join("_")) : code === "RATE" ? t.chatRate : t.chatFail(code.startsWith("HTTP_") ? code.slice(5) : "");
+      let reply = code === "CFG" ? t.chatNotConfigured : code.startsWith("PROVIDER") ? t.chatProviderCode(code.split("_")[1] ?? "", code.split("_").slice(2).join("_")) : code === "RATE" ? t.chatRate : t.chatFail(code.startsWith("HTTP_") ? code.slice(5) : "");
+      if (code.startsWith("PROVIDER") && providerMsg) reply += `\n\nAnthropic: ${providerMsg}`;
       setMessages((p) => [...p, { from: "ai", text: reply, time: formatTime(lang) }]);
     } finally { setLoading(false); }
   }

@@ -147,7 +147,7 @@ const he = {
   chatProviderCode: (status: string, type: string) =>
     status === "401" ? "המפתח של Anthropic לא תקין (401). צריך להעתיק אותו מחדש ל-Vercel ולבצע Redeploy."
     : status === "404" ? "שם המודל לא נמצא (404). צריך לבדוק את ANTHROPIC_MODEL ב-Vercel."
-    : status === "400" && type === "invalid_request_error" ? "Anthropic דחה את הבקשה (400). לרוב זה אומר שאין קרדיט בחשבון: Plans & Billing ב-console.anthropic.com."
+    : status === "400" && type === "invalid_request_error" ? "Anthropic דחה את הבקשה (400). לרוב זה אומר שאין קרדיט בחשבון: Plans & Billing ב-console.anthropic.com. אם כבר הוספת קרדיט, צריך לוודא שהמפתח נוצר באותו ארגון (Organization) שאליו נטען הקרדיט."
     : status === "403" ? "למפתח אין הרשאה (403). צריך לבדוק את ההרשאות בחשבון Anthropic."
     : status === "429" ? "חרגנו ממגבלת השימוש של Anthropic (429). צריך לנסות שוב מאוחר יותר או להגדיל מכסה."
     : `ספק ה-AI דחה את הבקשה (קוד ${status || "?"}${type ? `, ${type}` : ""}).`,
@@ -217,7 +217,7 @@ const en: Dict = {
   plateNote: "The official record has no accident history or previous owners. Get an inspection at a licensed garage before buying.",
   scoreOf10: "out of 10",
   scoreWord: (v) => (v >= 9 ? "Excellent" : v >= 8 ? "Very good" : v >= 7 ? "Good" : v >= 6 ? "Fair" : "Weak"),
-  scoreNote: "Every score on the site is on a 1–10 scale: 9+ excellent, 8 very good, 7 good, 6 fair. The safety score is KamaOle's estimate, not an official crash-test rating.",
+  scoreNote: "Every score on the site is on a 1–10 scale: 9+ excellent, 8 very good, 7 good, 6 fair. The safety score is CamaOla's estimate, not an official crash-test rating.",
   matchScore: "Match score",
   pickMany: "Pick as many as you like.",
   picked: (n) => (n === 1 ? "1 selected" : `${n} selected`),
@@ -283,7 +283,7 @@ const en: Dict = {
   savedToast: "Saved to your list",
   removedToast: "Removed from your list",
   copiedToast: "Copied. Send it to the family.",
-  shareText: (car, m) => `My KamaOle match: ${car}, scored ${m}/10`,
+  shareText: (car, m) => `My CamaOla match: ${car}, scored ${m}/10`,
   ladderTitle: "Monthly cost by yearly driving",
   ladderLoading: "Loading cost data…",
   savings3y: (car, sum) => `${car} costs about ${sum} less over 3 years than the priciest option here, at 15,000 km a year.`,
@@ -325,7 +325,7 @@ const en: Dict = {
   chatProviderCode: (status, type) =>
     status === "401" ? "The Anthropic key is invalid (401). Copy it into Vercel again and redeploy."
     : status === "404" ? "Model not found (404). Check ANTHROPIC_MODEL in Vercel."
-    : status === "400" && type === "invalid_request_error" ? "Anthropic rejected the request (400), usually because the account has no credit: Plans & Billing at console.anthropic.com."
+    : status === "400" && type === "invalid_request_error" ? "Anthropic rejected the request (400), usually because the account has no credit: Plans & Billing at console.anthropic.com. If you already added credit, make sure the key belongs to the same organization."
     : status === "403" ? "The key lacks permission (403). Check the Anthropic account permissions."
     : status === "429" ? "Anthropic rate limit reached (429). Try later or raise the limit."
     : `The AI provider rejected the request (code ${status || "?"}${type ? `, ${type}` : ""}).`,
@@ -336,7 +336,7 @@ const en: Dict = {
   footerPrivacy: "Privacy policy",
   footerPhotos: "Car photos from Wikimedia Commons; photographer and licence via the link on each photo.",
   demoNote: "Demo data: the live catalog is unavailable right now. Don't base a purchase on these numbers.",
-  catalogNote: (n, d) => `KamaOle catalog: ${n} models sold in Israel. All prices and costs are estimates (updated ${d}) with a confidence level per model. Insurance: estimate only, not a quote.`,
+  catalogNote: (n, d) => `CamaOla catalog: ${n} models sold in Israel. All prices and costs are estimates (updated ${d}) with a confidence level per model. Insurance: estimate only, not a quote.`,
   modalClose: "Close",
   costTitle: "Monthly cost calculator",
   runningOnly: "Running costs only",

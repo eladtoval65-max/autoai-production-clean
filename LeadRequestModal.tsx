@@ -3,6 +3,7 @@ import { trpc } from "@/lib/trpc";
 import { useState, type FormEvent } from "react";
 import { Check, X } from "lucide-react";
 import { Link } from "wouter";
+import { getUtm, sendEvent } from "./analytics";
 
 type RequestType = "vehicle" | "financing" | "insurance" | "trade_in" | "used_car" | "test_drive";
 type Timeline = "now" | "three_months" | "later" | "unsure";
@@ -13,12 +14,14 @@ export default function LeadRequestModal({
   sourcePage,
   onClose,
   defaultType,
+  landingSlug,
 }: {
   vehicle: { id: string; make: string; match: number };
-  budget: number;
-  sourcePage: "recommendations" | "vehicle_details" | "comparison";
+  budget?: number;
+  sourcePage: "recommendations" | "vehicle_details" | "comparison" | "plate_check" | "landing";
   onClose: () => void;
   defaultType?: RequestType;
+  landingSlug?: string;
 }) {
   const [fullName, setFullName] = useState("");
   const [phone, setPhone] = useState("");
@@ -44,13 +47,16 @@ export default function LeadRequestModal({
         leadType,
         trimId: /^\d+$/.test(vehicle.id) ? Number(vehicle.id) : undefined,
         vehicleLabel: vehicle.make,
-        matchScore: vehicle.match,
-        budget,
+        matchScore: vehicle.match || undefined,
+        budget: budget || undefined,
         purchaseTimeline,
         sourcePage,
         consent: true,
         website,
+        ...getUtm(),
+        landingSlug,
       });
+      sendEvent("lead_submit", landingSlug ? `go:${landingSlug}` : "home", false);
       setReceivedId(saved.id);
     } catch {
       // The server's safe, user-facing message is displayed below.

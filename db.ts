@@ -17,6 +17,7 @@ import {
 } from "./schema";
 import { ENV } from "./env";
 import { getPool } from "./dbConnection";
+import { ensureSchema } from "./schemaSetup";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
@@ -308,7 +309,9 @@ export type NewLead = typeof leads.$inferInsert;
 
 export async function createLead(input: Omit<NewLead, "id" | "status" | "createdAt" | "updatedAt">) {
   const db = await getDb();
-  if (!db) throw new Error("Database unavailable");
+  const pool = getPool();
+  if (!db || !pool) throw new Error("Database unavailable");
+  await ensureSchema(pool); // fresh databases get their tables on the first lead
   // A client retries with the same UUID; never insert the same consent twice.
   const existing = await db.select({ id: leads.id }).from(leads).where(eq(leads.requestId, input.requestId)).limit(1);
   if (existing[0]) return existing[0].id;

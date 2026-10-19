@@ -32,13 +32,14 @@ Total cost of ownership is the core. AutoAI ranks cars by what they cost per mon
 - Results with filters and sorting (match, monthly TCO, price, economy), saved list, history, up to 3-car comparison with TCO ladder at 7k/15k/25k km, vehicle detail, analysis, monthly-cost + financing calculator, used-car checklist.
 - AI advisor chat (Anthropic via /api/chat). Rate limit 12 requests/minute/IP. Never log API keys, request bodies or contact data.
 - Leads require explicit consent with the documented LEAD_CONSENT_TEXT; no lead is sent to any company without clear consent. Admin pages protected by adminProcedure.
+- Owner CRM at /admin (password session): lead search/filter/edit, notes & call history, follow-up reminders, partners with per-lead price and paid tracking, owner-editable landing pages at /go/:slug with UTM attribution, anonymous funnel stats (/api/event, no PII). Partner hand-off requires a separately recorded customer consent; the API rejects it otherwise.
 - Catalog comes from the database (tRPC catalog.list); when unavailable the site shows a small demo fallback clearly marked as demo data.
 - Stack: React + TypeScript + Tailwind + Vite, Express + tRPC + Drizzle on TiDB/MySQL, deployed on Vercel (Build Output API functions).
 - Languages: Hebrew (primary, RTL) with an English option.
 
 ## Brand Commitments
 
-- Name: "כמה עולה" in Hebrew / "KamaOle" in English (domain kamaole.co.il). Replaced "AutoAI" (2026-10-19) because AutoAI is used by many companies worldwide (incl. an IBM product) and is hard to find in search.
+- Name: "כמה עולה" in Hebrew / "CamaOla" in English (domain camaola.co.il). Replaced "AutoAI" (2026-10-19) because AutoAI is used by many companies worldwide (incl. an IBM product) and is hard to find in search.
 - Voice: plain, honest Hebrew; explains trade-offs, never hypes; admits missing data.
 - Look: international and consumer-friendly, in the category convention of Carwow / Autotrader / Edmunds (light ground, big car photos, clear cards, one high-contrast action colour). The owner rejected a locally-themed (Israeli street) world as "too Israeli" and asked for what converts best for customers.
 - Questionnaire: use, priority and powertrain allow multiple answers with an explicit Continue step.

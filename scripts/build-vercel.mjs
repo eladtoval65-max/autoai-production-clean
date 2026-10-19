@@ -23,6 +23,8 @@ const functions = [
   { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },
   { name: "plate", entry: "api/plate.ts", maxDuration: 15, helpers: true },
   { name: "admin", entry: "api/admin.ts", maxDuration: 30, helpers: true },
+  { name: "event", entry: "api/event.ts", maxDuration: 10, helpers: true },
+  { name: "landing", entry: "api/landing.ts", maxDuration: 10, helpers: true },
   { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 30, helpers: false },
 ];
 
@@ -58,6 +60,8 @@ fs.writeFileSync(
         { src: "^/api/chat/?$", dest: "/api/chat" },
         { src: "^/api/plate/?$", dest: "/api/plate" },
         { src: "^/api/admin/?$", dest: "/api/admin" },
+        { src: "^/api/event/?$", dest: "/api/event" },
+        { src: "^/api/landing/?$", dest: "/api/landing" },
         { src: "^/api/((?:trpc|oauth)(?:/.*)?)$", dest: "/api/trpc?__p=$1" },
         { src: "^/api(/.*)?$", status: 404 },
         { src: "^/assets/[^/]+-[A-Za-z0-9_-]{8}\\.(?:js|css)$", headers: { "cache-control": "public, max-age=31536000, immutable" }, continue: true },

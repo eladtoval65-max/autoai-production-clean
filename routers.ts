@@ -80,7 +80,11 @@ export const appRouter = router({
         matchScore: z.number().int().min(0).max(100).optional(),
         budget: z.number().int().min(0).max(10000000).optional(),
         purchaseTimeline: z.enum(["now", "three_months", "later", "unsure"]),
-        sourcePage: z.enum(["recommendations", "vehicle_details", "comparison"]),
+        sourcePage: z.string().trim().regex(/^[a-z0-9_:-]{2,80}$/),
+        utmSource: z.string().trim().max(80).optional(),
+        utmMedium: z.string().trim().max(80).optional(),
+        utmCampaign: z.string().trim().max(120).optional(),
+        landingSlug: z.string().trim().regex(/^[a-z0-9-]{1,60}$/).optional(),
         consent: z.literal(true),
         website: z.string().max(120).default(""), // Spam honeypot; ordinary users never see it.
       }).strict())
@@ -97,6 +101,10 @@ export const appRouter = router({
             city: details.city || null,
             matchScore: details.matchScore ?? null,
             budget: details.budget ?? null,
+            utmSource: details.utmSource || null,
+            utmMedium: details.utmMedium || null,
+            utmCampaign: details.utmCampaign || null,
+            landingSlug: details.landingSlug || null,
             consentText: LEAD_CONSENT_TEXT,
             consentAt: new Date(),
           });

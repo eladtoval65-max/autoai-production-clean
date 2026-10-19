@@ -1,5 +1,5 @@
 /**
- * POST /api/chat — AutoAI advisor chat (Vercel function).
+ * POST /api/chat — CamaOla advisor chat (Vercel function).
  *
  * Security rules (do not relax):
  * - Never log the API key, the request body, or any contact data.
@@ -27,7 +27,7 @@ function rateLimited(ip: string): boolean {
 }
 
 const DEFAULT_SYSTEM =
-  "אתה היועץ של \"כמה עולה\" (KamaOle), יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
+  "אתה היועץ של \"כמה עולה\" (CamaOla), יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
 
 export default async function handler(req: any, res: any) {
   // GET = health check for diagnosing deployments. Reports only whether a key exists, never the key.
@@ -38,7 +38,8 @@ export default async function handler(req: any, res: any) {
       keyConfigured: key.trim().length > 0,
       keyLooksValid: /^sk-ant-/.test(key.trim()),
       keyHasWhitespace: key.length > 0 && key !== key.trim(),
-      model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5",
+      model: process.env.ANTHROPIC_MODEL?.trim() || "claude-sonnet-5-5",
+      modelHasWhitespace: (process.env.ANTHROPIC_MODEL ?? "") !== (process.env.ANTHROPIC_MODEL ?? "").trim(),
       vercelEnv: process.env.VERCEL_ENV ?? "unknown",
     });
   }
@@ -58,27 +59,33 @@ export default async function handler(req: any, res: any) {
     while (messages.length && messages[0].role !== "user") messages.shift();
     if (!messages.length) return res.status(400).json({ error: "At least one message is required" });
 
-    const upstream = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: { "content-type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
-      body: JSON.stringify({
-        model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5",
-        max_tokens: 900,
-        system: DEFAULT_SYSTEM,
-        messages,
-      }),
-    });
-    const data: any = await upstream.json().catch(() => ({}));
-    if (!upstream.ok) {
-      console.error("[Chat] provider error", upstream.status, data?.error?.type);
-      return res.status(502).json({ error: "AI provider rejected the request", providerStatus: upstream.status, providerError: data?.error?.type ?? null });
+    // Try the configured model, then known-good fallbacks if the model name is rejected (404).
+    const models = Array.from(new Set([process.env.ANTHROPIC_MODEL?.trim(), "claude-sonnet-5-5", "claude-haiku-5-5", "claude-sonnet-4-5"].filter(Boolean) as string[]));
+    let upstream: Response | null = null, data: any = {};
+    for (const model of models) {
+      upstream = await fetch("https://api.anthropic.com/v1/messages", {
+        method: "POST",
+        headers: { "content-type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
+        body: JSON.stringify({ model, max_tokens: 800, system: DEFAULT_SYSTEM, messages }),
+        signal: AbortSignal.timeout(25_000),
+      });
+      data = await upstream.json().catch(() => ({}));
+      if (upstream.status !== 404) break;
+    }
+    if (!upstream || !upstream.ok) {
+      const status = upstream?.status ?? 0;
+      console.error("[Chat] provider error", status, data?.error?.type);
+      // Anthropic's own human-readable reason (e.g. "credit balance is too low"). Contains no secrets.
+      const providerMessage = typeof data?.error?.message === "string" ? data.error.message.slice(0, 240) : null;
+      return res.status(502).json({ error: "AI provider rejected the request", providerStatus: status, providerError: data?.error?.type ?? null, providerMessage });
     }
     const reply = Array.isArray(data?.content)
       ? data.content.filter((item: any) => item?.type === "text").map((item: any) => item.text).join("\n")
       : "";
     return res.status(200).json({ reply: reply || "מצטער, נסה שוב." });
   } catch (error) {
-    console.error("[Chat] server error", error instanceof Error ? error.name : "unknown");
-    return res.status(500).json({ error: "Server error" });
+    const name = error instanceof Error ? error.name : "unknown";
+    console.error("[Chat] server error", name);
+    return res.status(name === "TimeoutError" ? 504 : 500).json({ error: "Server error", reason: name });
   }
 }
