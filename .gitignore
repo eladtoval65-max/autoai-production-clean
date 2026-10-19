@@ -7,3 +7,6 @@ dist/
 .DS_Store
 .manus-logs/
 .vercel/
+.impeccable/review/
+.impeccable/build/
+.impeccable/questions/
