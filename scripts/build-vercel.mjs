@@ -32,7 +32,7 @@ for (const fn of functions) {
     outfile: path.join(dir, "index.mjs"),
     bundle: true,
     platform: "node",
-    target: "node20",
+    target: "node22",
     format: "esm",
     logLevel: "warning",
     alias: { "@shared": root, "@": root },
@@ -42,7 +42,7 @@ for (const fn of functions) {
   fs.writeFileSync(path.join(dir, "package.json"), JSON.stringify({ type: "module" }));
   fs.writeFileSync(
     path.join(dir, ".vc-config.json"),
-    JSON.stringify({ runtime: "nodejs20.x", handler: "index.mjs", launcherType: "Nodejs", shouldAddHelpers: fn.helpers, maxDuration: fn.maxDuration }, null, 2),
+    JSON.stringify({ runtime: "nodejs22.x", handler: "index.mjs", launcherType: "Nodejs", shouldAddHelpers: fn.helpers, maxDuration: fn.maxDuration }, null, 2),
   );
 }
 
