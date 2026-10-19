@@ -18,23 +18,23 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "trim": "LX Plus 1.2",
   "bodyType": "hatchback",
   "fuelType": "Petrol",
-  "years": "2024–2025",
+  "years": "2026",
   "seats": 5,
   "cargoLiters": 255,
   "powerHp": 79,
   "consumption": 5.6,
-  "price": 84200,
-  "priceMin": 76000,
-  "priceMax": 93000,
-  "sampleSize": 61,
-  "newPrice": 84200,
+  "price": 99900,
+  "priceMin": 93900,
+  "priceMax": 99990,
+  "sampleSize": null,
+  "newPrice": 99900,
   "reliability": 82,
   "safety": 72,
   "economy": 83,
   "comfort": 74,
   "practicality": 65,
-  "insuranceMin": 195,
-  "insuranceMax": 285,
+  "insuranceMin": 216,
+  "insuranceMax": 316,
   "why": "הרכב הזול ביותר לרכישה ולהחזקה — 79 כ\"ס, ₪84,200, ביטוח ₪2,800/שנה. אידאלי לנסיעות עיר עם מינימום עלויות. מושבים מרווחים יחסית לגודלו.",
   "pros": [
    "הכי זול לרכישה בשוק החדש",
@@ -49,28 +49,89 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "לא מתאים לכביש מהיר"
   ],
   "confidence": 78,
-  "priceSource": null,
+  "priceSource": "carzone.co.il/Kia (brand page, 2026-10-19)",
   "bands": {
    "7000": {
     "fuel": 232,
-    "insurance": 235,
+    "insurance": 260,
     "maintenance": 140,
-    "depreciation": 701,
-    "total": 1429
+    "depreciation": 832,
+    "total": 1585
    },
    "15000": {
     "fuel": 498,
-    "insurance": 235,
+    "insurance": 260,
     "maintenance": 160,
-    "depreciation": 701,
-    "total": 1715
+    "depreciation": 832,
+    "total": 1871
    },
    "25000": {
     "fuel": 830,
-    "insurance": 235,
+    "insurance": 260,
     "maintenance": 185,
-    "depreciation": 701,
-    "total": 2072
+    "depreciation": 832,
+    "total": 2228
+   }
+  }
+ },
+ {
+  "id": "mg-mg4-electric",
+  "make": "MG",
+  "model": "MG4 Electric",
+  "trim": "Luxury 64 kWh",
+  "bodyType": "hatchback",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 363,
+  "powerHp": 190,
+  "consumption": null,
+  "price": 119888,
+  "priceMin": 112700,
+  "priceMax": 148888,
+  "sampleSize": null,
+  "newPrice": 119888,
+  "reliability": 70,
+  "safety": 82,
+  "economy": 92,
+  "comfort": 78,
+  "practicality": 74,
+  "insuranceMin": 433,
+  "insuranceMax": 617,
+  "why": "חשמלית ב-₪105,000 — נקודת הכניסה הזולה ביותר לעולם החשמלי בישראל.",
+  "pros": [
+   "מחיר הכניסה הנמוך ביותר לחשמלית",
+   "עלות נסיעה נמוכה מאוד",
+   "מפרט בטיחות טוב"
+  ],
+  "cons": [
+   "מותג חדש יחסית בישראל",
+   "פחת גבוה כחשמלית",
+   "טווח 350 ק\"מ WLTP בלבד"
+  ],
+  "confidence": 65,
+  "priceSource": "carzone.co.il/MG (brand page, 2026-10-19)",
+  "bands": {
+   "7000": {
+    "fuel": 50,
+    "insurance": 525,
+    "maintenance": 85,
+    "depreciation": 1190,
+    "total": 1971
+   },
+   "15000": {
+    "fuel": 107,
+    "insurance": 525,
+    "maintenance": 95,
+    "depreciation": 1190,
+    "total": 2038
+   },
+   "25000": {
+    "fuel": 179,
+    "insurance": 525,
+    "maintenance": 110,
+    "depreciation": 1190,
+    "total": 2125
    }
   }
  },
@@ -258,192 +319,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "mg-mg4-electric",
-  "make": "MG",
-  "model": "MG4 Electric",
-  "trim": "Luxury 64 kWh",
-  "bodyType": "hatchback",
-  "fuelType": "Electric",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 363,
-  "powerHp": 190,
-  "consumption": null,
-  "price": 142888,
-  "priceMin": 134300,
-  "priceMax": 148888,
-  "sampleSize": null,
-  "newPrice": 142888,
-  "reliability": 70,
-  "safety": 82,
-  "economy": 92,
-  "comfort": 78,
-  "practicality": 74,
-  "insuranceMin": 481,
-  "insuranceMax": 686,
-  "why": "חשמלית ב-₪105,000 — נקודת הכניסה הזולה ביותר לעולם החשמלי בישראל.",
-  "pros": [
-   "מחיר הכניסה הנמוך ביותר לחשמלית",
-   "עלות נסיעה נמוכה מאוד",
-   "מפרט בטיחות טוב"
-  ],
-  "cons": [
-   "מותג חדש יחסית בישראל",
-   "פחת גבוה כחשמלית",
-   "טווח 350 ק\"מ WLTP בלבד"
-  ],
-  "confidence": 65,
-  "priceSource": "carzone.co.il news 2026-02-10",
-  "bands": {
-   "7000": {
-    "fuel": 50,
-    "insurance": 583,
-    "maintenance": 85,
-    "depreciation": 1418,
-    "total": 2257
-   },
-   "15000": {
-    "fuel": 107,
-    "insurance": 583,
-    "maintenance": 95,
-    "depreciation": 1418,
-    "total": 2324
-   },
-   "25000": {
-    "fuel": 179,
-    "insurance": 583,
-    "maintenance": 110,
-    "depreciation": 1418,
-    "total": 2411
-   }
-  }
- },
- {
-  "id": "hyundai-kona-hybrid",
-  "make": "Hyundai",
-  "model": "Kona Hybrid",
-  "trim": "Premium 1.6 HEV",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 466,
-  "powerHp": 139,
-  "consumption": 4.4,
-  "price": 144000,
-  "priceMin": 132000,
-  "priceMax": 158000,
-  "sampleSize": 52,
-  "newPrice": 144000,
-  "reliability": 86,
-  "safety": 83,
-  "economy": 90,
-  "comfort": 85,
-  "practicality": 85,
-  "insuranceMin": 390,
-  "insuranceMax": 560,
-  "why": "שני בישראל 2025 — 11,759 יחידות. קרוסאובר קומפקטי עם הייברידי חסכוני מאוד (22.6 ק\"מ/ל), מרחב פנים טוב ושירות יונדאי נפוץ בכל הארץ.",
-  "pros": [
-   "חסכנות מצוינת (22.6 ק\"מ/ל)",
-   "שירות יונדאי נפוץ",
-   "מרחב פנים טוב לגודלו",
-   "4 כוכבי NCAP"
-  ],
-  "cons": [
-   "מחיר גבוה לקרוסאובר קומפקטי",
-   "0-100 איטי (10.9 ש׳)",
-   "חומרי פנים בינוניים"
-  ],
-  "confidence": 75,
-  "priceSource": null,
-  "bands": {
-   "7000": {
-    "fuel": 181,
-    "insurance": 480,
-    "maintenance": 195,
-    "depreciation": 1200,
-    "total": 2177
-   },
-   "15000": {
-    "fuel": 388,
-    "insurance": 480,
-    "maintenance": 220,
-    "depreciation": 1200,
-    "total": 2409
-   },
-   "25000": {
-    "fuel": 647,
-    "insurance": 480,
-    "maintenance": 248,
-    "depreciation": 1200,
-    "total": 2696
-   }
-  }
- },
- {
-  "id": "chery-tiggo8pro",
-  "make": "Chery",
-  "model": "Tiggo 8 Pro",
-  "trim": "Noble 1.6T",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
-  "seats": 7,
-  "cargoLiters": 620,
-  "powerHp": 195,
-  "consumption": 7.5,
-  "price": 147100,
-  "priceMin": 136000,
-  "priceMax": 165000,
-  "sampleSize": 38,
-  "newPrice": 147100,
-  "reliability": 68,
-  "safety": 84,
-  "economy": 75,
-  "comfort": 85,
-  "practicality": 95,
-  "insuranceMin": 420,
-  "insuranceMax": 620,
-  "why": "SUV ענק עם 7 מושבים במחיר תחרותי — הבחירה של משפחות גדולות שמחפשות מרחב. צריכת דלק בינונית, אמינות לא מוכחת, אבל ערך מרשים לכסף.",
-  "pros": [
-   "7 מושבים עם מרחב אמיתי",
-   "מחיר תחרותי ל-7 מושבים",
-   "ציוד עשיר",
-   "תא מטען ענק"
-  ],
-  "cons": [
-   "אמינות לא מוכחת לטווח ארוך",
-   "4 כוכבי NCAP בלבד",
-   "צריכת דלק בינונית",
-   "נסיעה פחות נוחה ממתחרים"
-  ],
-  "confidence": 63,
-  "priceSource": null,
-  "bands": {
-   "7000": {
-    "fuel": 309,
-    "insurance": 520,
-    "maintenance": 230,
-    "depreciation": 1226,
-    "total": 2406
-   },
-   "15000": {
-    "fuel": 664,
-    "insurance": 520,
-    "maintenance": 260,
-    "depreciation": 1226,
-    "total": 2791
-   },
-   "25000": {
-    "fuel": 1106,
-    "insurance": 520,
-    "maintenance": 295,
-    "depreciation": 1226,
-    "total": 3268
-   }
-  }
- },
- {
   "id": "jaecoo-j5-ev",
   "make": "Jaecoo",
   "model": "J5 EV",
@@ -501,68 +376,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 123,
     "depreciation": 1635,
     "total": 2713
-   }
-  }
- },
- {
-  "id": "toyota-corolla-cross-hybrid",
-  "make": "Toyota",
-  "model": "Corolla Cross Hybrid",
-  "trim": "Active HEV",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 436,
-  "powerHp": 140,
-  "consumption": 4.95,
-  "price": 153300,
-  "priceMin": 140000,
-  "priceMax": 168000,
-  "sampleSize": 47,
-  "newPrice": 153300,
-  "reliability": 93,
-  "safety": 95,
-  "economy": 89,
-  "comfort": 87,
-  "practicality": 88,
-  "insuranceMin": 420,
-  "insuranceMax": 610,
-  "why": "שלישי בישראל 2025 — 9,206 יחידות. SUV קומפקטי עם אמינות טויוטה מוכחת, 5 כוכבי NCAP, ו-20.2 ק\"מ/ל. השילוב המנצח של מרחב, חסכון ואמינות.",
-  "pros": [
-   "5 כוכבי NCAP",
-   "אמינות טויוטה",
-   "חסכנות מצוינת לSUV",
-   "ביקוש יד שנייה חזק"
-  ],
-  "cons": [
-   "מחיר גבוה",
-   "חומרי פנים פלסטיק",
-   "מנוע קצת רועשני"
-  ],
-  "confidence": 80,
-  "priceSource": null,
-  "bands": {
-   "7000": {
-    "fuel": 204,
-    "insurance": 540,
-    "maintenance": 200,
-    "depreciation": 1278,
-    "total": 2343
-   },
-   "15000": {
-    "fuel": 437,
-    "insurance": 540,
-    "maintenance": 225,
-    "depreciation": 1278,
-    "total": 2601
-   },
-   "25000": {
-    "fuel": 729,
-    "insurance": 540,
-    "maintenance": 255,
-    "depreciation": 1278,
-    "total": 2923
    }
   }
  },
@@ -751,64 +564,64 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "jaecoo-jaecoo-j7",
-  "make": "Jaecoo",
-  "model": "J7",
-  "trim": "Premium HEV",
-  "bodyType": "suv",
+  "id": "toyota-corolla-hybrid",
+  "make": "Toyota",
+  "model": "Corolla Hybrid",
+  "trim": "LE 1.8 HEV",
+  "bodyType": "sedan",
   "fuelType": "Hybrid",
-  "years": "2024–2025",
+  "years": "2026",
   "seats": 5,
-  "cargoLiters": 478,
-  "powerHp": 155,
-  "consumption": 5.5,
-  "price": 157500,
-  "priceMin": 142000,
-  "priceMax": 175000,
-  "sampleSize": 45,
-  "newPrice": 157500,
-  "reliability": 70,
-  "safety": 80,
-  "economy": 82,
+  "cargoLiters": 471,
+  "powerHp": 138,
+  "consumption": 5.4,
+  "price": 159900,
+  "priceMin": 150300,
+  "priceMax": 174990,
+  "sampleSize": null,
+  "newPrice": 159900,
+  "reliability": 94,
+  "safety": 95,
+  "economy": 89,
   "comfort": 82,
-  "practicality": 84,
-  "insuranceMin": 500,
-  "insuranceMax": 700,
-  "why": "הרכב הנמכר ביותר בישראל 2025 — 13,074 יחידות. SUV קומפקטי מקבוצת Chery עם מיני-היברידי, ציוד עשיר ומחיר תחרותי. אמינות לטווח ארוך עדיין לא מוכחת בישראל.",
+  "practicality": 80,
+  "insuranceMin": 450,
+  "insuranceMax": 640,
+  "why": "סדאן היברידי עם אמינות טויוטה מוכחת ו-5 כוכבי Euro NCAP. חסכוני מאוד בנסיעה בין-עירונית ושומר ערך טוב ביד שנייה.",
   "pros": [
-   "הנמכר ביותר בישראל",
-   "ציוד עשיר לכסף",
-   "היברידי חסכוני",
-   "עיצוב מודרני"
+   "אמינות טויוטה",
+   "5 כוכבי Euro NCAP",
+   "חסכוני (כ-18 ק\"מ לליטר בפועל)",
+   "ביקוש גבוה ביד שנייה"
   ],
   "cons": [
-   "אמינות לא מוכחת לטווח ארוך",
-   "שירות פחות נפוץ מיפניות/קוריאניות",
-   "ערך יד שנייה לא ידוע"
+   "תחושת נהיגה לא מרגשת",
+   "מחיר גבוה לסדאן משפחתי",
+   "צריכה בעיר פחות טובה מהמוצהר במבחנים"
   ],
-  "confidence": 65,
-  "priceSource": null,
+  "confidence": 72,
+  "priceSource": "carzone.co.il/Toyota (brand page, 2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 226,
-    "insurance": 600,
-    "maintenance": 210,
-    "depreciation": 1313,
-    "total": 2470
+    "fuel": 224,
+    "insurance": 544,
+    "maintenance": 189,
+    "depreciation": 1132,
+    "total": 2210
    },
    "15000": {
-    "fuel": 486,
-    "insurance": 600,
-    "maintenance": 240,
-    "depreciation": 1313,
-    "total": 2760
+    "fuel": 479,
+    "insurance": 544,
+    "maintenance": 215,
+    "depreciation": 1132,
+    "total": 2491
    },
    "25000": {
-    "fuel": 810,
-    "insurance": 600,
-    "maintenance": 270,
-    "depreciation": 1313,
-    "total": 3114
+    "fuel": 798,
+    "insurance": 544,
+    "maintenance": 241,
+    "depreciation": 1132,
+    "total": 2836
    }
   }
  },
@@ -870,68 +683,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 265,
     "depreciation": 1334,
     "total": 3200
-   }
-  }
- },
- {
-  "id": "toyota-corolla-hybrid",
-  "make": "Toyota",
-  "model": "Corolla Hybrid",
-  "trim": "LE 1.8 HEV",
-  "bodyType": "sedan",
-  "fuelType": "Hybrid",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 471,
-  "powerHp": 138,
-  "consumption": 5.4,
-  "price": 159990,
-  "priceMin": 147000,
-  "priceMax": 174990,
-  "sampleSize": null,
-  "newPrice": 159990,
-  "reliability": 94,
-  "safety": 95,
-  "economy": 89,
-  "comfort": 82,
-  "practicality": 80,
-  "insuranceMin": 450,
-  "insuranceMax": 640,
-  "why": "סדאן היברידי עם אמינות טויוטה מוכחת ו-5 כוכבי Euro NCAP. חסכוני מאוד בנסיעה בין-עירונית ושומר ערך טוב ביד שנייה.",
-  "pros": [
-   "אמינות טויוטה",
-   "5 כוכבי Euro NCAP",
-   "חסכוני (כ-18 ק\"מ לליטר בפועל)",
-   "ביקוש גבוה ביד שנייה"
-  ],
-  "cons": [
-   "תחושת נהיגה לא מרגשת",
-   "מחיר גבוה לסדאן משפחתי",
-   "צריכה בעיר פחות טובה מהמוצהר במבחנים"
-  ],
-  "confidence": 72,
-  "priceSource": null,
-  "bands": {
-   "7000": {
-    "fuel": 224,
-    "insurance": 544,
-    "maintenance": 189,
-    "depreciation": 1133,
-    "total": 2211
-   },
-   "15000": {
-    "fuel": 479,
-    "insurance": 544,
-    "maintenance": 215,
-    "depreciation": 1133,
-    "total": 2492
-   },
-   "25000": {
-    "fuel": 798,
-    "insurance": 544,
-    "maintenance": 241,
-    "depreciation": 1133,
-    "total": 2837
    }
   }
  },
@@ -1182,6 +933,254 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "hyundai-kona-hybrid",
+  "make": "Hyundai",
+  "model": "Kona Hybrid",
+  "trim": "Premium 1.6 HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 466,
+  "powerHp": 139,
+  "consumption": 4.4,
+  "price": 176990,
+  "priceMin": 166400,
+  "priceMax": 207990,
+  "sampleSize": null,
+  "newPrice": 176990,
+  "reliability": 86,
+  "safety": 83,
+  "economy": 90,
+  "comfort": 85,
+  "practicality": 85,
+  "insuranceMin": 441,
+  "insuranceMax": 634,
+  "why": "שני בישראל 2025 — 11,759 יחידות. קרוסאובר קומפקטי עם הייברידי חסכוני מאוד (22.6 ק\"מ/ל), מרחב פנים טוב ושירות יונדאי נפוץ בכל הארץ.",
+  "pros": [
+   "חסכנות מצוינת (22.6 ק\"מ/ל)",
+   "שירות יונדאי נפוץ",
+   "מרחב פנים טוב לגודלו",
+   "4 כוכבי NCAP"
+  ],
+  "cons": [
+   "מחיר גבוה לקרוסאובר קומפקטי",
+   "0-100 איטי (10.9 ש׳)",
+   "חומרי פנים בינוניים"
+  ],
+  "confidence": 75,
+  "priceSource": "carzone.co.il/Hyundai (brand page, 2026-10-19)",
+  "bands": {
+   "7000": {
+    "fuel": 181,
+    "insurance": 543,
+    "maintenance": 195,
+    "depreciation": 1475,
+    "total": 2515
+   },
+   "15000": {
+    "fuel": 388,
+    "insurance": 543,
+    "maintenance": 220,
+    "depreciation": 1475,
+    "total": 2747
+   },
+   "25000": {
+    "fuel": 647,
+    "insurance": 543,
+    "maintenance": 248,
+    "depreciation": 1475,
+    "total": 3034
+   }
+  }
+ },
+ {
+  "id": "toyota-corolla-cross-hybrid",
+  "make": "Toyota",
+  "model": "Corolla Cross Hybrid",
+  "trim": "Active HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 436,
+  "powerHp": 140,
+  "consumption": 4.95,
+  "price": 179990,
+  "priceMin": 169200,
+  "priceMax": 192990,
+  "sampleSize": null,
+  "newPrice": 179990,
+  "reliability": 93,
+  "safety": 95,
+  "economy": 89,
+  "comfort": 87,
+  "practicality": 88,
+  "insuranceMin": 462,
+  "insuranceMax": 672,
+  "why": "שלישי בישראל 2025 — 9,206 יחידות. SUV קומפקטי עם אמינות טויוטה מוכחת, 5 כוכבי NCAP, ו-20.2 ק\"מ/ל. השילוב המנצח של מרחב, חסכון ואמינות.",
+  "pros": [
+   "5 כוכבי NCAP",
+   "אמינות טויוטה",
+   "חסכנות מצוינת לSUV",
+   "ביקוש יד שנייה חזק"
+  ],
+  "cons": [
+   "מחיר גבוה",
+   "חומרי פנים פלסטיק",
+   "מנוע קצת רועשני"
+  ],
+  "confidence": 80,
+  "priceSource": "carzone.co.il/Toyota (brand page, 2026-10-19)",
+  "bands": {
+   "7000": {
+    "fuel": 204,
+    "insurance": 595,
+    "maintenance": 200,
+    "depreciation": 1501,
+    "total": 2621
+   },
+   "15000": {
+    "fuel": 437,
+    "insurance": 595,
+    "maintenance": 225,
+    "depreciation": 1501,
+    "total": 2879
+   },
+   "25000": {
+    "fuel": 729,
+    "insurance": 595,
+    "maintenance": 255,
+    "depreciation": 1501,
+    "total": 3201
+   }
+  }
+ },
+ {
+  "id": "jaecoo-jaecoo-j7",
+  "make": "Jaecoo",
+  "model": "J7",
+  "trim": "1.6T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 478,
+  "powerHp": 186,
+  "consumption": 8,
+  "price": 179990,
+  "priceMin": 169200,
+  "priceMax": 202990,
+  "sampleSize": null,
+  "newPrice": 179990,
+  "reliability": 70,
+  "safety": 80,
+  "economy": 82,
+  "comfort": 82,
+  "practicality": 84,
+  "insuranceMin": 542,
+  "insuranceMax": 758,
+  "why": "מהנמכרים בישראל. SUV קומפקטי מקבוצת Chery עם מנוע 1.6 טורבו בנזין (גם בגרסת פלאג-אין), 5 כוכבי Euro NCAP וציוד עשיר. צריכת דלק גבוהה יחסית ואמינות לטווח ארוך עוד לא מוכחת.",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "ציוד עשיר",
+   "עיצוב מודרני"
+  ],
+  "cons": [
+   "צריכת דלק גבוהה יחסית (כ-8 ליטר ל-100 ק\"מ)",
+   "אמינות לטווח ארוך לא מוכחת",
+   "ערך יד שנייה לא ידוע"
+  ],
+  "confidence": 65,
+  "priceSource": "carzone.co.il/Omoda-Jaecoo (2026-10-19)",
+  "bands": {
+   "7000": {
+    "fuel": 331,
+    "insurance": 650,
+    "maintenance": 210,
+    "depreciation": 1500,
+    "total": 2812
+   },
+   "15000": {
+    "fuel": 710,
+    "insurance": 650,
+    "maintenance": 240,
+    "depreciation": 1500,
+    "total": 3221
+   },
+   "25000": {
+    "fuel": 1183,
+    "insurance": 650,
+    "maintenance": 270,
+    "depreciation": 1500,
+    "total": 3724
+   }
+  }
+ },
+ {
+  "id": "chery-tiggo8pro",
+  "make": "Chery",
+  "model": "Tiggo 8 Pro",
+  "trim": "Noble 1.6T",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 7,
+  "cargoLiters": 620,
+  "powerHp": 195,
+  "consumption": 7.5,
+  "price": 179990,
+  "priceMin": 169200,
+  "priceMax": 204990,
+  "sampleSize": null,
+  "newPrice": 179990,
+  "reliability": 68,
+  "safety": 84,
+  "economy": 75,
+  "comfort": 85,
+  "practicality": 95,
+  "insuranceMin": 474,
+  "insuranceMax": 700,
+  "why": "SUV ענק עם 7 מושבים במחיר תחרותי — הבחירה של משפחות גדולות שמחפשות מרחב. צריכת דלק בינונית, אמינות לא מוכחת, אבל ערך מרשים לכסף.",
+  "pros": [
+   "7 מושבים עם מרחב אמיתי",
+   "מחיר תחרותי ל-7 מושבים",
+   "ציוד עשיר",
+   "תא מטען ענק"
+  ],
+  "cons": [
+   "אמינות לא מוכחת לטווח ארוך",
+   "4 כוכבי NCAP בלבד",
+   "צריכת דלק בינונית",
+   "נסיעה פחות נוחה ממתחרים"
+  ],
+  "confidence": 63,
+  "priceSource": "carzone.co.il/chery (brand page, 2026-10-19)",
+  "bands": {
+   "7000": {
+    "fuel": 309,
+    "insurance": 587,
+    "maintenance": 230,
+    "depreciation": 1500,
+    "total": 2747
+   },
+   "15000": {
+    "fuel": 664,
+    "insurance": 587,
+    "maintenance": 260,
+    "depreciation": 1500,
+    "total": 3132
+   },
+   "25000": {
+    "fuel": 1106,
+    "insurance": 587,
+    "maintenance": 295,
+    "depreciation": 1500,
+    "total": 3609
+   }
+  }
+ },
+ {
   "id": "mazda-mazda3",
   "make": "Mazda",
   "model": "Mazda3",
@@ -1253,11 +1252,11 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "cargoLiters": null,
   "powerHp": 150,
   "consumption": 7.5,
-  "price": 188990,
-  "priceMin": 177700,
-  "priceMax": 196990,
+  "price": 189990,
+  "priceMin": 178600,
+  "priceMax": 229990,
   "sampleSize": null,
-  "newPrice": 188990,
+  "newPrice": 189990,
   "reliability": 80,
   "safety": 95,
   "economy": 70,
@@ -1276,28 +1275,28 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "עלות חודשית גבוהה יחסית"
   ],
   "confidence": 60,
-  "priceSource": "carzone.co.il/Hyundai/Tucson/2026",
+  "priceSource": "carzone.co.il/Hyundai (brand page, 2026-10-19)",
   "bands": {
    "7000": {
     "fuel": 294,
-    "insurance": 655,
+    "insurance": 657,
     "maintenance": 246,
-    "depreciation": 1369,
-    "total": 2685
+    "depreciation": 1376,
+    "total": 2694
    },
    "15000": {
     "fuel": 630,
-    "insurance": 655,
+    "insurance": 657,
     "maintenance": 280,
-    "depreciation": 1369,
-    "total": 3055
+    "depreciation": 1376,
+    "total": 3064
    },
    "25000": {
     "fuel": 1050,
-    "insurance": 655,
+    "insurance": 657,
     "maintenance": 314,
-    "depreciation": 1369,
-    "total": 3509
+    "depreciation": 1376,
+    "total": 3518
    }
   }
  },
@@ -1428,23 +1427,23 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "trim": "Boost PHEV",
   "bodyType": "suv",
   "fuelType": "Hybrid",
-  "years": "2025–2026",
+  "years": "2026",
   "seats": 5,
   "cargoLiters": null,
   "powerHp": 218,
   "consumption": 5.8,
-  "price": 210000,
-  "priceMin": 195000,
-  "priceMax": 235000,
+  "price": 199990,
+  "priceMin": 188000,
+  "priceMax": 214990,
   "sampleSize": null,
-  "newPrice": 210000,
+  "newPrice": 199990,
   "reliability": 74,
   "safety": 95,
   "economy": 86,
   "comfort": 86,
   "practicality": 86,
-  "insuranceMin": 660,
-  "insuranceMax": 940,
+  "insuranceMin": 641,
+  "insuranceMax": 913,
   "why": "SUV משפחתי פלאג-אין עם 5 כוכבי Euro NCAP וטווח חשמלי מוצהר של 80 ק\"מ. מחיר המקור מינואר 2025 ועשוי להשתנות. החישוב מניח 50% מהנסיעה על חשמל.",
   "pros": [
    "5 כוכבי Euro NCAP",
@@ -1456,29 +1455,29 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "בלי טעינה בבית הצריכה כ-16.7 ק\"מ לליטר",
    "נהיגה לא מרגשת"
   ],
-  "confidence": 52,
-  "priceSource": null,
+  "confidence": 62,
+  "priceSource": "carzone.co.il/BYDAuto (2026-10-19)",
   "bands": {
    "7000": {
     "fuel": 150,
-    "insurance": 798,
+    "insurance": 775,
     "maintenance": 176,
-    "depreciation": 2100,
-    "total": 3345
+    "depreciation": 2000,
+    "total": 3222
    },
    "15000": {
     "fuel": 322,
-    "insurance": 798,
+    "insurance": 775,
     "maintenance": 200,
-    "depreciation": 2100,
-    "total": 3541
+    "depreciation": 2000,
+    "total": 3418
    },
    "25000": {
     "fuel": 537,
-    "insurance": 798,
+    "insurance": 775,
     "maintenance": 224,
-    "depreciation": 2100,
-    "total": 3780
+    "depreciation": 2000,
+    "total": 3657
    }
   }
  },

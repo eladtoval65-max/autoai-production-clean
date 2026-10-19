@@ -321,9 +321,10 @@ export default function Home() {
             <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-[9px] bg-go font-display text-[17px] font-bold text-white">₪</span>
             {lang === "he"
               ? <span className="font-display text-[22px] font-bold leading-none">כמה <span className="text-go">עולה</span></span>
-              : <span className="font-display text-[21px] font-bold leading-none">Kama<span className="text-go">Ole</span></span>}
+              : <span className="font-display text-[21px] font-bold leading-none">Cama<span className="text-go">Ola</span></span>}
           </a>
           <nav className="flex items-center gap-1 text-[15px] font-semibold sm:gap-6">
+            <a href="/cars" className="text-muted no-underline hover:text-ink">{lang === "he" ? "כל הדגמים" : "All models"}</a>
             <a href="#results" className="hidden text-muted no-underline hover:text-ink md:inline">{t.navResults}</a>
             <a href="#plate" className="hidden text-muted no-underline hover:text-ink md:inline">{t.navPlate}</a>
             <a href="#legend" className="hidden text-muted no-underline hover:text-ink lg:inline">{t.navHow}</a>

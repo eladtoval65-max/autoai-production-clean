@@ -89,3 +89,19 @@ export function wikiPhotoFor(name: string, width = 1280): Promise<VehiclePhoto |
   }
   return cache.get(id)!;
 }
+
+/** Wikipedia lead image for any article title (used by the make/model browser). */
+export function wikiPhotoByTitle(title: string, width = 960): Promise<VehiclePhoto | null> {
+  const id = `${title}|${width}`;
+  if (typeof fetch === "undefined") return Promise.resolve(null);
+  if (!cache.has(id)) {
+    const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&redirects=1&prop=pageimages&piprop=thumbnail%7Cname&pilicense=free&pithumbsize=${width}&titles=${encodeURIComponent(title)}`;
+    cache.set(id, fetch(url).then((r) => (r.ok ? r.json() : null)).then((d: any) => {
+      const page = d?.query?.pages?.[0];
+      const src = page?.thumbnail?.source, file = page?.pageimage;
+      if (!src || !file || /\.svg/i.test(file)) return null;
+      return { src, file, credit: `https://en.wikipedia.org/wiki/File:${encodeURIComponent(file)}` };
+    }).catch(() => null));
+  }
+  return cache.get(id)!;
+}

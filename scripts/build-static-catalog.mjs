@@ -7,7 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7", "seed-vehicles-batch8"];
+const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7", "seed-vehicles-batch8", "seed-vehicles-batch9"];
 const MAKES = { toyota: "Toyota", hyundai: "Hyundai", mazda: "Mazda", skoda: "Skoda", kia: "Kia", byd: "BYD", nissan: "Nissan", mg: "MG", ford: "Ford", volkswagen: "Volkswagen", peugeot: "Peugeot", jaecoo: "Jaecoo", chery: "Chery", tesla: "Tesla", suzuki: "Suzuki" };
 const FUEL = { hybrid: "Hybrid", petrol: "Petrol", electric: "Electric", diesel: "Diesel" };
 const REG = 121;
