@@ -23,7 +23,7 @@ function commonsPhoto(file: string, width = 1280): VehiclePhoto {
 const MODELS: Record<string, [string, string]> = {
   "corolla cross": ["Toyota Corolla Cross", "Toyota_COROLLA_CROSS_HYBRID_Z_2WD_(6AA-ZVG11-KHXEB)_front.jpg"],
   "corolla": ["Toyota Corolla (E210)", "Toyota_Corolla_Hybrid_(E210)_IMG_4338.jpg"],
-  "rav4": ["Toyota RAV4 (XA50)", "Toyota_RAV4_Hybrid_facelift_front.jpg"],
+  "rav4": ["Toyota RAV4", "Toyota_RAV4_Hybrid_facelift_front.jpg"],
   "yaris cross": ["Toyota Yaris Cross", "Toyota_Yaris_Cross_Hybrid_IMG_5621.jpg"],
   "tucson": ["Hyundai Tucson (NX4)", "Hyundai_Tucson_(NX4)_IMG_3678.jpg"],
   "ioniq 5": ["Hyundai Ioniq 5", "2021_Hyundai_Ioniq_5_(France)_front_view.jpg"],

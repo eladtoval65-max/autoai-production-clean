@@ -37,13 +37,14 @@ const MULTI = new Set<StepKey>(["use", "priority", "fuel"]);
 const REGISTRATION = 121;
 const FUEL_HE: Record<string, string> = { hybrid: "היברידי", petrol: "בנזין", electric: "חשמלי" };
 const FUEL_EN: Record<string, string> = { "היברידי": "Hybrid", "בנזין": "Petrol", "חשמלי": "Electric", "דיזל": "Diesel" };
-const EMPTY: Answers = { budget: 100000, use: [], priority: [], fuel: [], family: "", annualKm: 15000, annualKmBand: "mid" };
+const EMPTY: Answers = { budget: 180000, use: [], priority: [], fuel: [], family: "", annualKm: 15000, annualKmBand: "mid" };
 
 const choices: Record<StepKey, Choice[]> = {
   budget: [
-    { value: 60000, amount: "≤60K", he: ["עד ₪60,000", "יד שנייה חכמה ונגישה"], en: ["Up to ₪60,000", "Smart, accessible used cars"] },
-    { value: 100000, amount: "60–100K", he: ["בין ₪60,000 ל-₪100,000", "הטווח הכי גמיש"], en: ["₪60,000–100,000", "The most flexible range"] },
-    { value: 180000, amount: "100K+", he: ["מעל ₪100,000", "יותר מרחב וטכנולוגיה"], en: ["Over ₪100,000", "More space and technology"] },
+    { value: 145000, amount: "≤145K", he: ["עד ₪145,000", "רכבי עיר וקרוסאוברים קטנים"], en: ["Up to ₪145,000", "City cars and small crossovers"] },
+    { value: 180000, amount: "145–180K", he: ["₪145,000 עד ₪180,000", "רוב הקרוסאוברים המשפחתיים"], en: ["₪145,000–180,000", "Most family crossovers"] },
+    { value: 220000, amount: "180–220K", he: ["₪180,000 עד ₪220,000", "SUV משפחתי וחשמליות מרווחות"], en: ["₪180,000–220,000", "Family SUVs and roomy EVs"] },
+    { value: 260000, amount: "220K+", he: ["מעל ₪220,000", "7 מקומות, פרימיום וחשמליות גדולות"], en: ["Over ₪220,000", "7 seats, premium and large EVs"] },
   ],
   use: [
     { value: "city", icon: Building2, he: ["עיר ויום-יום", "חניה קלה, חיסכון וזריזות"], en: ["City and daily errands", "Easy parking, economy, agility"] },
