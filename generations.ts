@@ -10,6 +10,9 @@
  *  - Used prices are NOT included: there is no free official source (Levi Yitzhak is paid; Yad2 listings are asking prices).
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
+/** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
+export const PRICES_VERIFIED = "2026-10-19";
+
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
   code: string;            // e.g. "E210"

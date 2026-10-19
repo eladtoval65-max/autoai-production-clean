@@ -6,7 +6,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "wouter";
 import { AlertTriangle, ChevronLeft, ExternalLink, Search, ShieldCheck, Star } from "lucide-react";
-import { MAKES, yad2Search, type Generation, type Make, type ModelLine, type Powertrain } from "./generations";
+import { MAKES, PRICES_VERIFIED, yad2Search, type Generation, type Make, type ModelLine, type Powertrain } from "./generations";
 import { wikiPhotoByTitle, type VehiclePhoto } from "./vehicleImages";
 
 const card = "rounded-2xl border border-line bg-white shadow-[var(--shadow-card)]";
@@ -254,7 +254,7 @@ export default function Browse() {
         {mk && m ? <ModelPage mk={mk} m={m} /> : mk && !model ? <MakePage mk={mk} /> : !make ? <MakesGrid /> : (
           <div className="py-16 text-center"><h1 className="text-2xl">הדגם לא נמצא</h1><Link href="/cars" className="mt-4 inline-block font-bold text-go-deep">לכל היצרנים</Link></div>
         )}
-        <p className="mt-12 flex items-start gap-2 text-[13px] text-muted"><ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-go" aria-hidden />מחירי מחירון חדש: מחירוני היבואנים כפי שמופיעים ב-carzone.co.il (אוקטובר 2026). דירוגי Euro NCAP מוצגים רק כשהם ידועים בוודאות. צריכה ועלויות הן הערכה. "מה לבדוק" הוא הכוונה לבדיקה לפני קנייה, לא אבחנה של רכב מסוים. מחירי יד שנייה אינם מוצגים כי אין להם מקור רשמי חופשי.</p>
+        <p className="mt-12 flex items-start gap-2 text-[13px] text-muted"><ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-go" aria-hidden />מחירי מחירון חדש: מחירוני היבואנים כפי שמופיעים ב-carzone.co.il (נבדק לאחרונה: {PRICES_VERIFIED.split("-").reverse().join(".")}). דירוגי Euro NCAP מוצגים רק כשהם ידועים בוודאות. צריכה ועלויות הן הערכה. "מה לבדוק" הוא הכוונה לבדיקה לפני קנייה, לא אבחנה של רכב מסוים. מחירי יד שנייה אינם מוצגים כי אין להם מקור רשמי חופשי.</p>
       </main>
     </div>
   );
