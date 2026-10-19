@@ -10,6 +10,7 @@ import {
 import { Link } from "wouter";
 import { photoFor } from "./vehicleImages";
 import { shekel, useLang, type Lang } from "./i18n";
+import { CATALOG_UPDATED, STATIC_CATALOG, type Band as CatBand } from "./catalogData";
 
 // ─── Types & data ────────────────────────────────────────────────────────────
 type Car = {
@@ -20,6 +21,7 @@ type Car = {
   fuelMonthly?: number; insuranceMonthlyAmt?: number; maintenanceMonthly?: number; depreciationMonthly?: number;
   marketRange?: string; dataNote?: string; dataStatus?: string; dataConfidence?: number;
   sourceName?: string; sourceUrl?: string; lastVerifiedAt?: string; demo?: boolean;
+  bands?: Record<7000 | 15000 | 25000, CatBand>; confidence?: number;
 };
 type Ranked = Car & { match: number };
 type StepKey = "budget" | "use" | "priority" | "fuel" | "annualKm";
@@ -67,25 +69,37 @@ const choices: Record<StepKey, Choice[]> = {
   ],
 };
 
-const fallbackCars: Car[] = [
-  { id: "corolla-hybrid", make: "Toyota Corolla Hybrid 2022", years: "2022 · Hybrid · 1.8L", price: 100000, score: 95, use: "city", fuel: "היברידי", reliability: 98, safety: 92, economy: 96, comfort: 86, fun: 76, why: "השילוב הרגוע ביותר בין חיסכון, אמינות ושוק יד שנייה חזק.", pros: ["חיסכון משמעותי בעיר", "אמינות גבוהה", "קל למכור בהמשך"], cons: ["מחיר רכישה גבוה יותר", "עיצוב שמרני"] },
-  { id: "tucson", make: "Hyundai Tucson 2022", years: "2022 · Petrol · 1.6T", price: 128000, score: 91, use: "family", fuel: "בנזין", reliability: 90, safety: 91, economy: 76, comfort: 93, fun: 74, why: "בחירה מאוזנת למשפחה שרוצה מרחב, זמינות ושקט תפעולי.", pros: ["מרחב פנים מצוין", "שירות נפוץ בישראל", "בטיחות טובה"], cons: ["צריכת דלק בינונית", "פחות זריז בעיר"] },
-  { id: "mazda3", make: "Mazda 3 2022", years: "2022 · Petrol · 2.0L", price: 95000, score: 89, use: "fun", fuel: "בנזין", reliability: 89, safety: 91, economy: 78, comfort: 85, fun: 94, why: "למי שרוצה שהרכב ירגיש טוב גם אחרי שהגיע ליעד.", pros: ["עיצוב מוקפד", "נהיגה מהנה", "תא נוסעים איכותי"], cons: ["תא מטען קטן יחסית", "מושב אחורי צפוף"] },
-  { id: "corolla", make: "Toyota Corolla 2022", years: "2022 · Petrol · 1.8L", price: 92000, score: 93, use: "highway", fuel: "בנזין", reliability: 97, safety: 90, economy: 86, comfort: 84, fun: 70, why: "בחירה בטוחה למי שמעדיף פחות דרמה ויותר עקביות לאורך זמן.", pros: ["אמינות גבוהה מאוד", "עלות אחזקה צפויה", "ערך יד שנייה"], cons: ["פחות מרווחת מ-SUV", "אופי סולידי"] },
-  { id: "rav4", make: "Toyota RAV4 Hybrid 2022", years: "2022 · Hybrid · AWD", price: 185000, score: 94, use: "family", fuel: "היברידי", reliability: 97, safety: 96, economy: 91, comfort: 94, fun: 78, why: "SUV משפחתי עם שילוב חזק של בטיחות, מרחב וחיסכון.", pros: ["מרחב למשפחה", "בטיחות גבוהה", "היברידי חסכוני"], cons: ["מחיר גבוה", "ביקוש גבוה ביד שנייה"] },
-  { id: "niro", make: "Kia Niro Hybrid 2022", years: "2022 · Hybrid · HEV", price: 108000, score: 88, use: "city", fuel: "היברידי", reliability: 90, safety: 86, economy: 92, comfort: 84, fun: 68, why: "קרוסאובר חסכוני וקומפקטי עם עלות שימוש הגיונית.", pros: ["חסכוני בעיר", "שימושי למשפחה", "שקט בנסיעה"], cons: ["ביצועים בינוניים בעומס", "חבילת בטיחות תלויה בגרסה"] },
-  { id: "ioniq5", make: "Hyundai Ioniq 5 2022", years: "2022 · Electric · RWD", price: 122000, score: 87, use: "highway", fuel: "חשמלי", reliability: 91, safety: 95, economy: 88, comfort: 95, fun: 90, why: "חשמלית מרווחת עם טעינה מהירה וחוויית שימוש מתקדמת.", pros: ["טעינה מהירה", "מרווחת מאוד", "עלויות שוטפות נמוכות"], cons: ["טווח משתנה בתנאי אמת", "צריך גישה לטעינה"] },
-];
+const FUEL_TO_HE: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
+const displayName = (make: string, model: string) => (model.toLowerCase().startsWith(make.toLowerCase()) ? model : `${make} ${model}`);
 
-const vehicleEconomics: Record<string, { insuranceMin: number; insuranceMax: number; ownershipMonthly: number; marketRange: string }> = {
-  "corolla-hybrid": { insuranceMin: 450, insuranceMax: 900, ownershipMonthly: 2750, marketRange: "₪85K–₪115K" },
-  tucson: { insuranceMin: 350, insuranceMax: 550, ownershipMonthly: 1600, marketRange: "₪105K–₪135K" },
-  mazda3: { insuranceMin: 240, insuranceMax: 400, ownershipMonthly: 1200, marketRange: "₪85K–₪110K" },
-  corolla: { insuranceMin: 450, insuranceMax: 900, ownershipMonthly: 2300, marketRange: "₪88K–₪110K" },
-  rav4: { insuranceMin: 500, insuranceMax: 900, ownershipMonthly: 2400, marketRange: "₪175K–₪200K" },
-  niro: { insuranceMin: 300, insuranceMax: 500, ownershipMonthly: 1850, marketRange: "₪95K–₪120K" },
-  ioniq5: { insuranceMin: 450, insuranceMax: 750, ownershipMonthly: 1300, marketRange: "₪109K–₪134K" },
-};
+/** The sourced AutoAI catalog (generated from the seed data) — used whenever the live database isn't connected. */
+const staticCars: Car[] = STATIC_CATALOG.map((c) => {
+  const b = c.bands[15000];
+  return {
+    id: c.id, make: displayName(c.make, c.model), years: `${c.years} · ${c.fuelType} · ${c.bodyType}`,
+    price: c.price, score: Math.round((c.reliability + c.safety + c.economy + c.comfort + c.practicality) / 5),
+    use: "", fuel: FUEL_TO_HE[c.fuelType] ?? c.fuelType, bodyType: c.bodyType,
+    reliability: c.reliability, safety: c.safety, economy: c.economy, comfort: c.comfort, fun: c.practicality,
+    why: c.why, pros: c.pros, cons: c.cons,
+    insuranceMin: c.insuranceMin ?? undefined, insuranceMax: c.insuranceMax ?? undefined,
+    ownershipMonthly: b.total, fuelMonthly: b.fuel, insuranceMonthlyAmt: b.insurance, maintenanceMonthly: b.maintenance, depreciationMonthly: b.depreciation,
+    marketRange: c.priceMin && c.priceMax ? `₪${Math.round(c.priceMin / 1000)}K–₪${Math.round(c.priceMax / 1000)}K` : undefined,
+    dataNote: `אומדן AutoAI · רמת ביטחון ${c.confidence}/100${c.sampleSize ? ` · מחיר שוק לפי ${c.sampleSize} מודעות` : ""} · עלות דלק לפי צריכה משוקללת. ביטוח: הערכה בלבד.`,
+    dataStatus: "estimated", dataConfidence: c.confidence, confidence: c.confidence, bands: c.bands,
+  };
+});
+
+/** Monthly cost components at a given yearly km: interpolates between the 7k/15k/25k bands. */
+function bandAt(car: Car, km: number): CatBand | null {
+  if (!car.bands) return null;
+  const [lo, hi] = km <= 15000 ? [7000, 15000] as const : [15000, 25000] as const;
+  const f = (km - lo) / (hi - lo);
+  const L = car.bands[lo], H = car.bands[hi];
+  const mix = (k: keyof CatBand) => Math.max(0, Math.round(L[k] + (H[k] - L[k]) * f));
+  const out = { fuel: mix("fuel"), insurance: mix("insurance"), maintenance: mix("maintenance"), depreciation: mix("depreciation"), total: 0 };
+  out.total = out.fuel + out.insurance + out.maintenance + out.depreciation + REGISTRATION;
+  return out;
+}
 
 const useByName: Record<string, string> = {
   "toyota corolla hybrid": "city", "hyundai tucson": "family", "mazda mazda3": "fun", "mazda mazda 3": "fun",
@@ -129,6 +143,12 @@ type Dict = ReturnType<typeof useLang>["t"];
 
 /** Monthly components with provenance; registration is the official annual licence fee (₪121/month). */
 function tcoRows(car: Car, km: number, t: Dict): { label: string; value?: number; code: Code }[] {
+  const b = bandAt(car, km);
+  if (b) return [
+    { label: t.fuelLine, value: b.fuel, code: "est" }, { label: t.insuranceLine, value: b.insurance, code: "est" },
+    { label: t.maintenanceLine, value: b.maintenance, code: "est" }, { label: t.depreciationLine, value: b.depreciation, code: "est" },
+    { label: t.registrationLine, value: REGISTRATION, code: "off" },
+  ];
   const f = km / 15000;
   const fuel = car.fuelMonthly != null ? Math.round(car.fuelMonthly * f) : undefined;
   const ins = car.insuranceMonthlyAmt ?? (car.insuranceMin && car.insuranceMax ? Math.round((car.insuranceMin + car.insuranceMax) / 2) : undefined);
@@ -144,6 +164,8 @@ function tcoRows(car: Car, km: number, t: Dict): { label: string; value?: number
 
 function monthlyFor(car: Car | undefined, km: number): number {
   if (!car) return 0;
+  const b = bandAt(car, km);
+  if (b) return b.total;
   if (car.ownershipMonthly) return Math.round(car.ownershipMonthly * (0.7 + 0.3 * (km / 15000)));
   return Math.round(car.price * 0.08 / 12 + (km / 12) * (car.fuel === "היברידי" ? 0.42 : 0.62) + 500);
 }
@@ -175,7 +197,7 @@ export default function Home() {
   const cars = useMemo<Car[]>(() => {
     const rows = catalogQuery.data ?? [];
     const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
-    if (!rows.length) return fallbackCars.map((c) => ({ ...c, ...vehicleEconomics[c.id], demo: true }));
+    if (!rows.length) return staticCars.map((c) => ({ ...c, use: useByName[c.make.toLowerCase()] ?? (c.bodyType === "suv" ? "family" : "city"), demo: true }));
     return rows.map((row): Car => {
       const name = `${row.make} ${row.model}`;
       const price = row.marketSnapshotMedian ?? row.marketMinPrice ?? 0;
@@ -327,7 +349,7 @@ export default function Home() {
             })}
           </div>
         </div>
-        {isDemo && <p className="mt-5 flex items-start gap-3 rounded-xl bg-[#fff4e8] px-4 py-3 text-[15px] text-[#7a3410]">{t.demoNote}</p>}
+        {isDemo && <p className="mt-5 rounded-xl bg-mist px-4 py-3 text-[15px] text-muted">{t.catalogNote(cars.length, CATALOG_UPDATED)}</p>}
         {!complete && tab === "results" && <p className="mt-3 text-[15px] text-muted">{t.incomplete}</p>}
         <div className="mt-8">
           {tab === "results" && <Results answers={answers} ranked={ranked} saved={saved} compare={compare} km={answers.annualKm} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} onShare={shareResult} onLead={() => setShowLead(true)} />}
@@ -483,13 +505,13 @@ function Stars({ value, size = 16 }: { value: number; size?: number }) {
   // value on 0–10; each point is half a star.
   const filled = Math.round(value) / 2;
   return (
-    <span className="inline-flex" aria-hidden>
+    <span className="inline-flex" aria-hidden dir="ltr">
       {[0, 1, 2, 3, 4].map((i) => {
         const part = Math.max(0, Math.min(1, filled - i));
         return (
           <span key={i} className="relative inline-block" style={{ width: size, height: size }}>
             <Star className="absolute inset-0 text-[#d5dbe3]" style={{ width: size, height: size }} fill="currentColor" strokeWidth={0} />
-            {part > 0 && <span className="absolute inset-y-0 start-0 overflow-hidden" style={{ width: `${part * 100}%` }}><Star className="absolute top-0 start-0 text-[#f5a524]" style={{ width: size, height: size }} fill="currentColor" strokeWidth={0} /></span>}
+            {part > 0 && <span className="absolute inset-y-0 left-0 overflow-hidden" style={{ width: `${part * 100}%` }}><Star className="absolute left-0 top-0 max-w-none text-[#f5a524]" style={{ width: size, height: size }} fill="currentColor" strokeWidth={0} /></span>}
           </span>
         );
       })}
@@ -540,38 +562,60 @@ function SubScores({ items }: { items: (readonly [string, number])[] }) {
   );
 }
 
+/** Provenance as a labelled badge: official = solid, estimate = outlined, missing = dashed. */
 function CodeChip({ code }: { code: Code }) {
   const { t } = useLang();
   const label = code === "off" ? t.codeOfficial : code === "est" ? t.codeEstimate : t.codeMissing;
-  return <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-muted"><span aria-hidden className={`code-${code} block h-2.5 w-5 rounded-full`} />{label}</span>;
+  const cls = code === "off" ? "bg-ink text-white border-ink" : code === "est" ? "border-[#9fb0c2] text-muted" : "border-dashed border-[#9fb0c2] text-muted";
+  return <span className={`inline-flex shrink-0 items-center rounded-full border px-2 py-px text-[12px] font-bold leading-5 ${cls}`}>{label}</span>;
 }
 
+// Validated categorical order (dataviz validator: all checks pass on white; yellow/pink carry visible labels).
+const COST_COLORS = ["#2a78d6", "#eb6834", "#6250d6", "#eda100", "#e87ba4"];
+
+/** Monthly cost as one part-to-whole bar + a labelled legend (name, ₪, share, provenance). */
 function Breakdown({ car, km, compact }: { car: Car; km: number; compact?: boolean }) {
   const { t, nf } = useLang();
-  const rows = tcoRows(car, km, t);
-  const max = Math.max(1, ...rows.map((r) => r.value ?? 0));
+  const rows = tcoRows(car, km, t).map((r, i) => ({ ...r, color: COST_COLORS[i] }));
+  const known = rows.filter((r) => r.value != null) as (typeof rows[number] & { value: number })[];
+  const total = known.reduce((sum, r) => sum + r.value, 0) || 1;
+  const [hover, setHover] = useState<number | null>(null);
   return (
-    <div>
-      <ul className={compact ? "space-y-1.5" : "space-y-2.5"}>
-        {rows.map((r) => (
-          <li key={r.label} className="grid grid-cols-[minmax(6.5rem,auto)_1fr_auto] items-center gap-3 text-[15px]">
-            <span className="text-muted">{r.label}</span>
-            <span className="relative h-2.5 overflow-hidden rounded-full bg-mist">
-              {r.value != null
-                ? <span className={`code-${r.code} grow absolute inset-y-0 start-0 rounded-full`} style={{ width: `${Math.max(4, (r.value / max) * 100)}%` }} />
-                : <span className="code-miss absolute inset-y-0 start-0 w-[22%] rounded-full" />}
-            </span>
-            <span className={`num min-w-[4.5rem] text-end text-[17px] ${r.value == null ? "text-muted" : ""}`}>{r.value == null ? t.codeMissing : shekel(r.value, nf)}</span>
-          </li>
-        ))}
-      </ul>
-      {!compact && (
-        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
-          <CodeChip code="off" /><CodeChip code="est" /><CodeChip code="miss" />
-          <span className="text-[13px] text-muted">{t.kmBasis(km)}</span>
+    <figure className="m-0">
+      <div className="relative" onMouseLeave={() => setHover(null)}>
+        <div className={`flex w-full gap-[2px] overflow-hidden rounded-full ${compact ? "h-3" : "h-4"}`} role="img"
+          aria-label={known.map((r) => `${r.label} ${Math.round((r.value / total) * 100)}%`).join(", ")}>
+          {known.map((r, i) => (
+            <span key={r.label} tabIndex={0} onMouseEnter={() => setHover(i)} onFocus={() => setHover(i)} onBlur={() => setHover(null)}
+              className={`grow h-full transition-opacity first:rounded-s-full last:rounded-e-full ${hover != null && hover !== i ? "opacity-40" : ""}`}
+              style={{ width: `${(r.value / total) * 100}%`, background: r.color }} />
+          ))}
         </div>
+        {hover != null && known[hover] && (
+          <div className="pointer-events-none absolute -top-11 start-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-lg bg-ink px-3 py-1.5 text-[13px] font-semibold text-white shadow-[var(--shadow-float)] rtl:translate-x-1/2">
+            {known[hover].label}: {shekel(known[hover].value, nf)} · {Math.round((known[hover].value / total) * 100)}%
+          </div>
+        )}
+      </div>
+      {compact ? (
+        <ul className="mt-2.5 flex flex-wrap gap-x-4 gap-y-1 text-[13px] text-muted">
+          {known.map((r) => <li key={r.label} className="flex items-center gap-1.5"><span aria-hidden className="h-2.5 w-2.5 rounded-sm" style={{ background: r.color }} />{r.label} <span className="num text-[14px] text-ink">{shekel(r.value, nf)}</span></li>)}
+        </ul>
+      ) : (
+        <ul className="mt-4 divide-y divide-line">
+          {rows.map((r) => (
+            <li key={r.label} className="flex items-center gap-3 py-2 text-[15px]">
+              <span aria-hidden className="h-3 w-3 shrink-0 rounded-[4px]" style={{ background: r.value != null ? r.color : "transparent", boxShadow: r.value == null ? "inset 0 0 0 1.5px #b4bcc7" : undefined }} />
+              <span className="min-w-0 flex-1 text-ink">{r.label}</span>
+              <CodeChip code={r.code} />
+              <span className="w-10 text-end text-[13px] text-muted">{r.value != null ? `${Math.round((r.value / total) * 100)}%` : ""}</span>
+              <span className={`num w-[4.6rem] text-end text-[17px] ${r.value == null ? "text-muted" : ""}`}>{r.value == null ? "–" : shekel(r.value, nf)}</span>
+            </li>
+          ))}
+        </ul>
       )}
-    </div>
+      {!compact && <figcaption className="mt-2 text-[13px] text-muted">{t.kmBasis(km)} · {t.insuranceNote}</figcaption>}
+    </figure>
   );
 }
 
@@ -591,8 +635,7 @@ function LeaderPanel({ car, km, started }: { car: Ranked; km: number; started: b
           </div>
           <MonthlyTag value={monthlyFor(car, km)} />
         </div>
-        <div className="mt-4 border-t border-line pt-4"><Breakdown car={car} km={km} /></div>
-        <p className="mt-2 text-[13px] text-muted">{t.insuranceNote}</p>
+        <div className="mt-5"><Breakdown car={car} km={km} /></div>
       </div>
     </aside>
   );
@@ -740,10 +783,17 @@ function Saved({ cars, history, toggleSaved, toggleCompare, onDetails }: { cars:
 type Band = { totalMonthly: number | null; fuelMonthly?: number | null; insuranceMonthly?: number | null; maintenanceMonthly?: number | null; depreciationMonthly?: number | null; isEstimate?: boolean } | null | undefined;
 type Multi = Record<number, { km7000?: Band; km15000?: Band; km25000?: Band }>;
 const trimOf = (id: string) => { const n = Number(id); return Number.isFinite(n) && n > 0 ? n : undefined; };
+const toBand = (b: CatBand): Band => ({ totalMonthly: b.total, fuelMonthly: b.fuel, insuranceMonthly: b.insurance, maintenanceMonthly: b.maintenance, depreciationMonthly: b.depreciation, isEstimate: true });
+/** 7k/15k/25k ladder from the live DB when present, else from the catalog bands. */
+function ladderFor(car: Car, db: Multi | undefined): { km7000?: Band; km15000?: Band; km25000?: Band } | undefined {
+  const id = trimOf(car.id);
+  if (id && db?.[id]) return db[id];
+  return car.bands ? { km7000: toBand(car.bands[7000]), km15000: toBand(car.bands[15000]), km25000: toBand(car.bands[25000]) } : undefined;
+}
 
 function Money({ v, size }: { v: number | null | undefined; size: number }) {
   const { t, nf } = useLang();
-  if (v == null) return <span className="inline-flex items-center gap-2 text-[14px] text-muted"><span aria-hidden className="code-miss block h-2.5 w-5 rounded-full" />{t.codeMissing}</span>;
+  if (v == null) return <CodeChip code="miss" />;
   return <span className="num" style={{ fontSize: size }}>{shekel(v, nf)}</span>;
 }
 
@@ -755,7 +805,7 @@ function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompar
   const tco = (data ?? {}) as unknown as Multi;
   if (cars.length < 2) return <EmptyState text={t.emptyCompare} />;
 
-  const at = (i: number, band: "km7000" | "km15000" | "km25000") => { const id = ids[i]; return id ? tco[id]?.[band] : undefined; };
+  const at = (i: number, band: "km7000" | "km15000" | "km25000") => ladderFor(cars[i], tco)?.[band];
   const totals = cars.map((_, i) => at(i, "km15000")?.totalMonthly ?? null);
   const defined = totals.filter((v): v is number => v != null);
   const best = defined.length >= 2 ? Math.min(...defined) : null;
@@ -821,7 +871,7 @@ function Detail({ car, km, onBack, onLead, answers, saved, toggleSaved }: { car:
   const [costOpen, setCostOpen] = useState(false);
   const trim = trimOf(car.id);
   const { data } = trpc.tco.multiBand.useQuery({ trimIds: trim ? [trim] : [0] }, { enabled: Boolean(trim) });
-  const ladder = trim ? (data as unknown as Multi | undefined)?.[trim] : undefined;
+  const ladder = ladderFor(car, data as unknown as Multi | undefined);
   const Back = dir === "rtl" ? ArrowRight : ArrowLeft;
   const ins = car.insuranceMin && car.insuranceMax ? <>{shekel(car.insuranceMin, nf)}–{shekel(car.insuranceMax, nf)}</> : "–";
   return (
@@ -895,7 +945,7 @@ function Analysis({ car, answers }: { car: Ranked; answers: Answers }) {
   const trim = trimOf(car.id);
   const { data } = trpc.tco.multiBand.useQuery({ trimIds: trim ? [trim] : [0] }, { enabled: Boolean(trim) });
   const band = answers.annualKmBand === "low" ? "km7000" : answers.annualKmBand === "high" ? "km25000" : "km15000";
-  const active = trim ? (data as unknown as Multi | undefined)?.[trim]?.[band] : undefined;
+  const active = ladderFor(car, data as unknown as Multi | undefined)?.[band];
   const monthly = active?.totalMonthly ?? monthlyFor(car, answers.annualKm);
   const perKm = (monthly * 12) / answers.annualKm;
   const fuelKm = car.fuel === "חשמלי" ? 0.102 : car.fuel === "היברידי" ? 0.32 : 0.497;
@@ -964,7 +1014,7 @@ function Legend() {
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {items.map(([code, label, text]) => (
             <div key={code} className={`${card} p-6`}>
-              <div className="flex items-center gap-3"><span aria-hidden className={`code-${code} block h-3.5 w-10 rounded-full`} /><h3 className="text-[1.25rem]">{label}</h3></div>
+              <div className="flex items-center gap-3"><CodeChip code={code} /><h3 className="text-[1.25rem]">{label}</h3></div>
               <p className="mt-3 text-[16px] leading-7 text-muted">{text}</p>
             </div>
           ))}
@@ -1069,7 +1119,7 @@ function CostPanel({ car, answers }: { car: Ranked; answers: Answers }) {
         <p className="mt-1 text-[15px] text-muted">{shortName(car.make)} · {t.kmBasis(km)}</p>
         <div className="mt-4"><MonthlyTag value={total} label={loan ? t.withLoan : t.runningOnly} /></div>
         <ul className="mt-5 divide-y divide-line border-y border-line">
-          {lines.map((r) => <li key={r.label} className="flex items-center justify-between gap-4 py-2.5 text-[16px]"><span className="flex items-center gap-2 text-muted"><span aria-hidden className={`code-${r.code} block h-2.5 w-5 shrink-0 rounded-full`} />{r.label}</span><span className="num text-[18px]">{shekel(r.value, nf)}</span></li>)}
+          {lines.map((r, i) => <li key={r.label} className="flex items-center justify-between gap-4 py-2.5 text-[16px]"><span className="flex items-center gap-2 text-ink"><span aria-hidden className="h-3 w-3 shrink-0 rounded-[4px]" style={{ background: COST_COLORS[i] ?? "#8c96a3" }} />{r.label}<CodeChip code={r.code} /></span><span className="num text-[18px]">{shekel(r.value, nf)}</span></li>)}
           <li className="flex items-center justify-between py-2.5 text-[16px] font-bold"><span>{t.runningTotal}</span><span className="num text-[20px]">{shekel(running, nf)}</span></li>
         </ul>
       </div>
