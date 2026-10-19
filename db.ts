@@ -15,7 +15,7 @@ import {
   vehicleMarketSnapshots,
   vehicleRegistrySnapshots,
 } from "./schema";
-import { ENV } from "./_core/env";
+import { ENV } from "./env";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 

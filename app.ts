@@ -1,9 +1,9 @@
 import express, { type Express } from "express";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
-import { registerOAuthRoutes } from "./_core/oauth";
-import { registerStorageProxy } from "./_core/storageProxy";
+import { registerOAuthRoutes } from "./oauth";
+import { registerStorageProxy } from "./storageProxy";
 import { appRouter } from "./routers";
-import { createContext } from "./_core/context";
+import { createContext } from "./context";
 
 /**
  * API-only Express app. It is shared by the local server and Vercel's

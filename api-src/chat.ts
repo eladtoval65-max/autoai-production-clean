@@ -1,19 +1,49 @@
+/**
+ * POST /api/chat — AutoAI advisor chat (Vercel function).
+ *
+ * Security rules (do not relax):
+ * - Never log the API key, the request body, or any contact data.
+ * - Rate limit: 12 requests per minute per IP.
+ */
 type ChatMessage = { role: "user" | "assistant"; content: string };
 
-export const config = {
-  api: { bodyParser: true },
-};
+const RATE_LIMIT = 12;
+const WINDOW_MS = 60_000;
+const hits = new Map<string, number[]>();
+
+function clientIp(req: any): string {
+  const fwd = req.headers?.["x-forwarded-for"];
+  const first = Array.isArray(fwd) ? fwd[0] : typeof fwd === "string" ? fwd.split(",")[0] : "";
+  return (first || req.headers?.["x-real-ip"] || req.socket?.remoteAddress || "unknown").toString().trim();
+}
+
+function rateLimited(ip: string): boolean {
+  const now = Date.now();
+  const recent = (hits.get(ip) ?? []).filter((t) => now - t < WINDOW_MS);
+  recent.push(now);
+  hits.set(ip, recent);
+  if (hits.size > 5000) hits.clear(); // bound memory on a warm instance
+  return recent.length > RATE_LIMIT;
+}
+
+const DEFAULT_SYSTEM =
+  "אתה AutoAI, יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
 
 export default async function handler(req: any, res: any) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
+  if (rateLimited(clientIp(req))) return res.status(429).json({ error: "Too many requests" });
+
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return res.status(503).json({ error: "AI is not configured" });
 
   try {
-    const body = req.body || {};
-    const messages = (Array.isArray(body.messages) ? body.messages : [])
+    const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {};
+    const messages: ChatMessage[] = (Array.isArray(body.messages) ? body.messages : [])
       .filter((m: ChatMessage) => (m.role === "user" || m.role === "assistant") && typeof m.content === "string" && m.content.trim())
+      .map((m: ChatMessage) => ({ role: m.role, content: m.content.slice(0, 2000) }))
       .slice(-10);
+    // Anthropic requires the conversation to start with a user turn.
+    while (messages.length && messages[0].role !== "user") messages.shift();
     if (!messages.length) return res.status(400).json({ error: "At least one message is required" });
 
     const upstream = await fetch("https://api.anthropic.com/v1/messages", {
@@ -22,19 +52,21 @@ export default async function handler(req: any, res: any) {
       body: JSON.stringify({
         model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5",
         max_tokens: 900,
-        system: body.system || "You are AutoAI, a helpful Israeli car-buying advisor.",
+        system: DEFAULT_SYSTEM,
         messages,
       }),
     });
-    const data = await upstream.json();
+    const data: any = await upstream.json().catch(() => ({}));
     if (!upstream.ok) {
-      console.error("[Chat] Anthropic error", upstream.status, data?.error?.type, data?.error?.message);
+      console.error("[Chat] provider error", upstream.status, data?.error?.type);
       return res.status(502).json({ error: "AI provider rejected the request", providerStatus: upstream.status });
     }
-    const reply = Array.isArray(data?.content) ? data.content.filter((item: any) => item?.type === "text").map((item: any) => item.text).join("\n") : "";
+    const reply = Array.isArray(data?.content)
+      ? data.content.filter((item: any) => item?.type === "text").map((item: any) => item.text).join("\n")
+      : "";
     return res.status(200).json({ reply: reply || "מצטער, נסה שוב." });
   } catch (error) {
-    console.error("[Chat] server error", error);
+    console.error("[Chat] server error", error instanceof Error ? error.name : "unknown");
     return res.status(500).json({ error: "Server error" });
   }
 }

@@ -12,9 +12,9 @@ import {
   removeSavedVehicle,
   saveVehicle,
 } from "./db";
-import { getSessionCookieOptions } from "./_core/cookies";
-import { systemRouter } from "./_core/systemRouter";
-import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
+import { getSessionCookieOptions } from "./cookies";
+import { systemRouter } from "./systemRouter";
+import { adminProcedure, protectedProcedure, publicProcedure, router } from "./trpcServer";
 
 export const appRouter = router({
   system: systemRouter,
