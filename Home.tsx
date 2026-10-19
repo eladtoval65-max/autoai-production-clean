@@ -994,11 +994,11 @@ function Advisor() {
         body: JSON.stringify({ messages: next.map((m) => ({ role: m.from === "user" ? "user" : "assistant", content: m.text })) }),
       });
       const data = await res.json().catch(() => { throw new Error(`HTTP_${res.status}`); });
-      if (!res.ok) throw new Error(res.status === 503 ? "CFG" : res.status === 502 ? "PROVIDER" : res.status === 429 ? "RATE" : `HTTP_${res.status}`);
+      if (!res.ok) throw new Error(res.status === 503 ? "CFG" : res.status === 502 ? `PROVIDER_${data?.providerStatus ?? ""}_${data?.providerError ?? ""}` : res.status === 429 ? "RATE" : `HTTP_${res.status}`);
       setMessages((p) => [...p, { from: "ai", text: data.reply || t.chatEmpty, time: formatTime(lang) }]);
     } catch (err) {
       const code = err instanceof Error ? err.message : "";
-      const reply = code === "CFG" ? t.chatNotConfigured : code === "PROVIDER" ? t.chatProvider : code === "RATE" ? t.chatRate : t.chatFail(code.startsWith("HTTP_") ? code.slice(5) : "");
+      const reply = code === "CFG" ? t.chatNotConfigured : code.startsWith("PROVIDER") ? t.chatProviderCode(code.split("_")[1] ?? "", code.split("_").slice(2).join("_")) : code === "RATE" ? t.chatRate : t.chatFail(code.startsWith("HTTP_") ? code.slice(5) : "");
       setMessages((p) => [...p, { from: "ai", text: reply, time: formatTime(lang) }]);
     } finally { setLoading(false); }
   }

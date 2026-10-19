@@ -128,6 +128,13 @@ const he = {
   chatChips: ["מה לבדוק ביד שנייה?", "האם היברידי מתאים לי?", "כדאי לממן רכב?", "מה הבעיות הנפוצות בדגם?"],
   chatNotConfigured: "הצ׳אט עוד לא מוגדר בשרת. צריך להוסיף ANTHROPIC_API_KEY ב-Vercel.",
   chatProvider: "ספק ה-AI דחה את הבקשה. כדאי לבדוק שהמפתח פעיל.",
+  chatProviderCode: (status: string, type: string) =>
+    status === "401" ? "המפתח של Anthropic לא תקין (401). צריך להעתיק אותו מחדש ל-Vercel ולבצע Redeploy."
+    : status === "404" ? "שם המודל לא נמצא (404). צריך לבדוק את ANTHROPIC_MODEL ב-Vercel."
+    : status === "400" && type === "invalid_request_error" ? "Anthropic דחה את הבקשה (400). לרוב זה אומר שאין קרדיט בחשבון: Plans & Billing ב-console.anthropic.com."
+    : status === "403" ? "למפתח אין הרשאה (403). צריך לבדוק את ההרשאות בחשבון Anthropic."
+    : status === "429" ? "חרגנו ממגבלת השימוש של Anthropic (429). צריך לנסות שוב מאוחר יותר או להגדיל מכסה."
+    : `ספק ה-AI דחה את הבקשה (קוד ${status || "?"}${type ? `, ${type}` : ""}).`,
   chatRate: "יותר מדי שאלות בדקה האחרונה. נסו שוב בעוד דקה.",
   chatFail: (code: string) => `הצ׳אט לא הצליח להתחבר כרגע. נסו שוב בעוד רגע.${code ? ` (קוד ${code})` : ""}`,
   chatEmpty: "לא הצלחתי לענות כרגע. נסו שוב.",
@@ -282,6 +289,13 @@ const en: Dict = {
   chatChips: ["What should I check on a used car?", "Is a hybrid right for me?", "Should I finance a car?", "Common issues with this model?"],
   chatNotConfigured: "The chat isn't configured on the server yet. ANTHROPIC_API_KEY needs to be added in Vercel.",
   chatProvider: "The AI provider rejected the request. Check that the key is active.",
+  chatProviderCode: (status, type) =>
+    status === "401" ? "The Anthropic key is invalid (401). Copy it into Vercel again and redeploy."
+    : status === "404" ? "Model not found (404). Check ANTHROPIC_MODEL in Vercel."
+    : status === "400" && type === "invalid_request_error" ? "Anthropic rejected the request (400), usually because the account has no credit: Plans & Billing at console.anthropic.com."
+    : status === "403" ? "The key lacks permission (403). Check the Anthropic account permissions."
+    : status === "429" ? "Anthropic rate limit reached (429). Try later or raise the limit."
+    : `The AI provider rejected the request (code ${status || "?"}${type ? `, ${type}` : ""}).`,
   chatRate: "Too many questions in the last minute. Try again in a minute.",
   chatFail: (code) => `The chat couldn't connect right now. Try again in a moment.${code ? ` (code ${code})` : ""}`,
   chatEmpty: "I couldn't answer right now. Please try again.",

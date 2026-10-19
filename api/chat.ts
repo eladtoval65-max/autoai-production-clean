@@ -30,10 +30,22 @@ const DEFAULT_SYSTEM =
   "אתה AutoAI, יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
 
 export default async function handler(req: any, res: any) {
+  // GET = health check for diagnosing deployments. Reports only whether a key exists, never the key.
+  if (req.method === "GET") {
+    const key = process.env.ANTHROPIC_API_KEY ?? "";
+    return res.status(200).json({
+      ok: true,
+      keyConfigured: key.trim().length > 0,
+      keyLooksValid: /^sk-ant-/.test(key.trim()),
+      keyHasWhitespace: key.length > 0 && key !== key.trim(),
+      model: process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5",
+      vercelEnv: process.env.VERCEL_ENV ?? "unknown",
+    });
+  }
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
   if (rateLimited(clientIp(req))) return res.status(429).json({ error: "Too many requests" });
 
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
   if (!apiKey) return res.status(503).json({ error: "AI is not configured" });
 
   try {
@@ -59,7 +71,7 @@ export default async function handler(req: any, res: any) {
     const data: any = await upstream.json().catch(() => ({}));
     if (!upstream.ok) {
       console.error("[Chat] provider error", upstream.status, data?.error?.type);
-      return res.status(502).json({ error: "AI provider rejected the request", providerStatus: upstream.status });
+      return res.status(502).json({ error: "AI provider rejected the request", providerStatus: upstream.status, providerError: data?.error?.type ?? null });
     }
     const reply = Array.isArray(data?.content)
       ? data.content.filter((item: any) => item?.type === "text").map((item: any) => item.text).join("\n")
