@@ -7,7 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7"];
+const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7", "seed-vehicles-batch8"];
 const MAKES = { toyota: "Toyota", hyundai: "Hyundai", mazda: "Mazda", skoda: "Skoda", kia: "Kia", byd: "BYD", nissan: "Nissan", mg: "MG", ford: "Ford", volkswagen: "Volkswagen", peugeot: "Peugeot", jaecoo: "Jaecoo", chery: "Chery", tesla: "Tesla", suzuki: "Suzuki" };
 const FUEL = { hybrid: "Hybrid", petrol: "Petrol", electric: "Electric", diesel: "Diesel" };
 const REG = 121;
@@ -27,7 +27,7 @@ for (const f of files) for (const c of readArray(f)) merged.set(key(c), { ...mer
 const band = (b) => ({ fuel: b.fuelMonthly, insurance: b.insuranceMonthly, maintenance: b.maintenanceMonthly, depreciation: b.depreciationMonthly, total: b.totalMonthly });
 const score = (v, kind) => (v > 10 ? v : kind === "safety" && v <= 5 ? v * 19 : v * 10);
 
-const out = [...merged.values()].map((c) => {
+const out = [...merged.values()].filter((c) => !c.discontinued).map((c) => {
   let bands;
   if (c.tco15k) bands = { 7000: band(c.tco7k ?? c.tco15k), 15000: band(c.tco15k), 25000: band(c.tco25k ?? c.tco15k) };
   else {
@@ -59,6 +59,7 @@ const out = [...merged.values()].map((c) => {
     insuranceMin: c.insuranceMin ?? null, insuranceMax: c.insuranceMax ?? null,
     why: c.ownershipNotes ?? "", pros: c.pros ?? [], cons: c.cons ?? [],
     confidence: c.dataConfidence ?? 60,
+    priceSource: c.priceSource ?? null,
     bands,
   };
 }).sort((a, b) => a.price - b.price);
@@ -71,7 +72,7 @@ export type CatalogCar = {
   price: number; priceMin: number | null; priceMax: number | null; sampleSize: number | null; newPrice: number | null;
   reliability: number; safety: number; economy: number; comfort: number; practicality: number;
   insuranceMin: number | null; insuranceMax: number | null; why: string; pros: string[]; cons: string[];
-  confidence: number; bands: Record<7000 | 15000 | 25000, Band>;
+  confidence: number; priceSource: string | null; bands: Record<7000 | 15000 | 25000, Band>;
 };
 export const CATALOG_UPDATED = "2026-10";
 export const STATIC_CATALOG: CatalogCar[] = ${JSON.stringify(out, null, 1)};\n`;

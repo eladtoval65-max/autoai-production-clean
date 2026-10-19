@@ -7,7 +7,7 @@ export type CatalogCar = {
   price: number; priceMin: number | null; priceMax: number | null; sampleSize: number | null; newPrice: number | null;
   reliability: number; safety: number; economy: number; comfort: number; practicality: number;
   insuranceMin: number | null; insuranceMax: number | null; why: string; pros: string[]; cons: string[];
-  confidence: number; bands: Record<7000 | 15000 | 25000, Band>;
+  confidence: number; priceSource: string | null; bands: Record<7000 | 15000 | 25000, Band>;
 };
 export const CATALOG_UPDATED = "2026-10";
 export const STATIC_CATALOG: CatalogCar[] = [
@@ -49,6 +49,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "לא מתאים לכביש מהיר"
   ],
   "confidence": 78,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 232,
@@ -70,666 +71,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 185,
     "depreciation": 701,
     "total": 2072
-   }
-  }
- },
- {
-  "id": "skoda-octavia",
-  "make": "Skoda",
-  "model": "Octavia",
-  "trim": "Style",
-  "bodyType": "sedan",
-  "fuelType": "Petrol",
-  "years": "2023–2025",
-  "seats": 5,
-  "cargoLiters": 600,
-  "powerHp": 150,
-  "consumption": 6.5,
-  "price": 95000,
-  "priceMin": 87000,
-  "priceMax": 105000,
-  "sampleSize": 29,
-  "newPrice": 95000,
-  "reliability": 81,
-  "safety": 88,
-  "economy": 76,
-  "comfort": 90,
-  "practicality": 92,
-  "insuranceMin": 310,
-  "insuranceMax": 450,
-  "why": "הסדאן האירופאי הפרקטי ביותר — תא מטען 600 ליטר, נוחות כביש מהיר ומחיר אטרקטיבי.",
-  "pros": [
-   "תא מטען ענק לסדאן",
-   "נוחות כביש מהיר",
-   "ציוד עשיר במחיר הבסיס",
-   "שירות VAG נפוץ"
-  ],
-  "cons": [
-   "פחות פופולרי בישראל מיפניות",
-   "צריכת דלק ממוצעת"
-  ],
-  "confidence": 70,
-  "bands": {
-   "7000": {
-    "fuel": 268,
-    "insurance": 380,
-    "maintenance": 215,
-    "depreciation": 792,
-    "total": 1776
-   },
-   "15000": {
-    "fuel": 576,
-    "insurance": 380,
-    "maintenance": 240,
-    "depreciation": 792,
-    "total": 2109
-   },
-   "25000": {
-    "fuel": 960,
-    "insurance": 380,
-    "maintenance": 265,
-    "depreciation": 792,
-    "total": 2518
-   }
-  }
- },
- {
-  "id": "peugeot-peugeot-308",
-  "make": "Peugeot",
-  "model": "308",
-  "trim": "Allure",
-  "bodyType": "hatchback",
-  "fuelType": "Petrol",
-  "years": "2023–2025",
-  "seats": 5,
-  "cargoLiters": 412,
-  "powerHp": 130,
-  "consumption": 5.9,
-  "price": 96000,
-  "priceMin": 88000,
-  "priceMax": 106000,
-  "sampleSize": 16,
-  "newPrice": 96000,
-  "reliability": 76,
-  "safety": 88,
-  "economy": 78,
-  "comfort": 90,
-  "practicality": 82,
-  "insuranceMin": 335,
-  "insuranceMax": 485,
-  "why": "האצ'בק הצרפתי עם עיצוב הכי מרשים בסגמנט — פנים i-Cockpit יוצאת דופן, בסיס שירות PSA, מחיר תחרותי.",
-  "pros": [
-   "עיצוב פנים וחוץ בולט",
-   "נהיגה נוחה ורכה",
-   "תא מטען מרווח לסגמנט",
-   "ציוד בטיחות מלא"
-  ],
-  "cons": [
-   "אמינות פיז'ו בישראל פחות מוכחת",
-   "שירות פחות נפוץ מיפניות",
-   "פחת מהיר יחסית"
-  ],
-  "confidence": 63,
-  "bands": {
-   "7000": {
-    "fuel": 242,
-    "insurance": 410,
-    "maintenance": 225,
-    "depreciation": 880,
-    "total": 1878
-   },
-   "15000": {
-    "fuel": 520,
-    "insurance": 410,
-    "maintenance": 255,
-    "depreciation": 880,
-    "total": 2186
-   },
-   "25000": {
-    "fuel": 867,
-    "insurance": 410,
-    "maintenance": 285,
-    "depreciation": 880,
-    "total": 2563
-   }
-  }
- },
- {
-  "id": "mazda-mazda3",
-  "make": "Mazda",
-  "model": "Mazda3",
-  "trim": "Base",
-  "bodyType": "sedan",
-  "fuelType": "Petrol",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": null,
-  "powerHp": 165,
-  "consumption": 6.8,
-  "price": 97500,
-  "priceMin": null,
-  "priceMax": null,
-  "sampleSize": null,
-  "newPrice": 97500,
-  "reliability": 90,
-  "safety": 95,
-  "economy": 70,
-  "comfort": 80,
-  "practicality": 70,
-  "insuranceMin": null,
-  "insuranceMax": null,
-  "why": "סדאן ספורטיבי עם תא נוסעים איכותי וחווית נהיגה מהנה.",
-  "pros": [
-   "עיצוב מוקפד",
-   "נהיגה מהנה",
-   "תא נוסעים איכותי"
-  ],
-  "cons": [
-   "תא מטען קטן יחסית",
-   "מושב אחורי צפוף"
-  ],
-  "confidence": 60,
-  "bands": {
-   "7000": {
-    "fuel": 269,
-    "insurance": 400,
-    "maintenance": 211,
-    "depreciation": 700,
-    "total": 1701
-   },
-   "15000": {
-    "fuel": 576,
-    "insurance": 400,
-    "maintenance": 240,
-    "depreciation": 700,
-    "total": 2037
-   },
-   "25000": {
-    "fuel": 960,
-    "insurance": 400,
-    "maintenance": 269,
-    "depreciation": 700,
-    "total": 2450
-   }
-  }
- },
- {
-  "id": "toyota-yaris-cross-hybrid",
-  "make": "Toyota",
-  "model": "Yaris Cross Hybrid",
-  "trim": "Base HEV",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 397,
-  "powerHp": 116,
-  "consumption": 4.7,
-  "price": 102000,
-  "priceMin": 93000,
-  "priceMax": 113000,
-  "sampleSize": 27,
-  "newPrice": 102000,
-  "reliability": 92,
-  "safety": 92,
-  "economy": 91,
-  "comfort": 82,
-  "practicality": 80,
-  "insuranceMin": 320,
-  "insuranceMax": 460,
-  "why": "הקרוסאובר הקומפקטי החסכוני ביותר בשוק — 4.7 ל/100 ק״מ עם אמינות טויוטה ועלות TCO שמתחרה עם רכבים קטנים.",
-  "pros": [
-   "הכי חסכוני בסגמנט הSUV",
-   "אמינות טויוטה ידועה",
-   "מנהל עיר מעולה",
-   "ביטוח נמוך"
-  ],
-  "cons": [
-   "פחות מרחב ממתחרים גדולים",
-   "ביצועים נמוכים יחסית",
-   "מנוע חלש תחת עומס"
-  ],
-  "confidence": 78,
-  "bands": {
-   "7000": {
-    "fuel": 193,
-    "insurance": 390,
-    "maintenance": 180,
-    "depreciation": 850,
-    "total": 1734
-   },
-   "15000": {
-    "fuel": 415,
-    "insurance": 390,
-    "maintenance": 205,
-    "depreciation": 850,
-    "total": 1981
-   },
-   "25000": {
-    "fuel": 692,
-    "insurance": 390,
-    "maintenance": 230,
-    "depreciation": 850,
-    "total": 2283
-   }
-  }
- },
- {
-  "id": "mg-mg4-electric",
-  "make": "MG",
-  "model": "MG4 Electric",
-  "trim": "Standard Range",
-  "bodyType": "hatchback",
-  "fuelType": "Electric",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 363,
-  "powerHp": 170,
-  "consumption": null,
-  "price": 105000,
-  "priceMin": 98000,
-  "priceMax": 115000,
-  "sampleSize": 14,
-  "newPrice": 105000,
-  "reliability": 70,
-  "safety": 82,
-  "economy": 92,
-  "comfort": 78,
-  "practicality": 74,
-  "insuranceMin": 400,
-  "insuranceMax": 570,
-  "why": "חשמלית ב-₪105,000 — נקודת הכניסה הזולה ביותר לעולם החשמלי בישראל.",
-  "pros": [
-   "מחיר הכניסה הנמוך ביותר לחשמלית",
-   "עלות נסיעה נמוכה מאוד",
-   "מפרט בטיחות טוב"
-  ],
-  "cons": [
-   "מותג חדש יחסית בישראל",
-   "פחת גבוה כחשמלית",
-   "טווח 350 ק\"מ WLTP בלבד"
-  ],
-  "confidence": 65,
-  "bands": {
-   "7000": {
-    "fuel": 50,
-    "insurance": 485,
-    "maintenance": 85,
-    "depreciation": 1042,
-    "total": 1783
-   },
-   "15000": {
-    "fuel": 107,
-    "insurance": 485,
-    "maintenance": 95,
-    "depreciation": 1042,
-    "total": 1850
-   },
-   "25000": {
-    "fuel": 179,
-    "insurance": 485,
-    "maintenance": 110,
-    "depreciation": 1042,
-    "total": 1937
-   }
-  }
- },
- {
-  "id": "volkswagen-golf",
-  "make": "Volkswagen",
-  "model": "Golf",
-  "trim": "Style TSI",
-  "bodyType": "hatchback",
-  "fuelType": "Petrol",
-  "years": "2023–2025",
-  "seats": 5,
-  "cargoLiters": 380,
-  "powerHp": 150,
-  "consumption": 6.8,
-  "price": 108000,
-  "priceMin": 99000,
-  "priceMax": 118000,
-  "sampleSize": 33,
-  "newPrice": 108000,
-  "reliability": 82,
-  "safety": 87,
-  "economy": 74,
-  "comfort": 88,
-  "practicality": 82,
-  "insuranceMin": 355,
-  "insuranceMax": 510,
-  "why": "גולף — הסטנדרט להאצ׳בק אירופאי. מהנדסות VAG מוכחת, נהיגה מאוזנת ועיצוב פנים איכותי.",
-  "pros": [
-   "נהיגה איזונה ומהנה",
-   "איכות פנים גבוהה",
-   "שירות VAG נפוץ",
-   "ערך יד שנייה יציב"
-  ],
-  "cons": [
-   "מחיר גבוה לקומפקט",
-   "תא מטען קטן",
-   "צריכת דלק בינונית"
-  ],
-  "confidence": 68,
-  "bands": {
-   "7000": {
-    "fuel": 280,
-    "insurance": 430,
-    "maintenance": 210,
-    "depreciation": 900,
-    "total": 1941
-   },
-   "15000": {
-    "fuel": 600,
-    "insurance": 430,
-    "maintenance": 235,
-    "depreciation": 900,
-    "total": 2286
-   },
-   "25000": {
-    "fuel": 1000,
-    "insurance": 430,
-    "maintenance": 265,
-    "depreciation": 900,
-    "total": 2716
-   }
-  }
- },
- {
-  "id": "nissan-qashqai",
-  "make": "Nissan",
-  "model": "Qashqai",
-  "trim": "Base",
-  "bodyType": "suv",
-  "fuelType": "Petrol",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 479,
-  "powerHp": 140,
-  "consumption": 7,
-  "price": 112000,
-  "priceMin": 102000,
-  "priceMax": 122000,
-  "sampleSize": 41,
-  "newPrice": 112000,
-  "reliability": 78,
-  "safety": 86,
-  "economy": 72,
-  "comfort": 84,
-  "practicality": 86,
-  "insuranceMin": 370,
-  "insuranceMax": 530,
-  "why": "SUV קומפקטי פופולרי עם מחיר כניסה אטרקטיבי ושירות נגיש בישראל.",
-  "pros": [
-   "מחיר אטרקטיבי לסגמנט",
-   "ניסיון ניסאן בישראל",
-   "גמישות תצורות"
-  ],
-  "cons": [
-   "צריכת דלק בינונית",
-   "מנוע קטן תחת עומס כבד"
-  ],
-  "confidence": 68,
-  "bands": {
-   "7000": {
-    "fuel": 272,
-    "insurance": 450,
-    "maintenance": 200,
-    "depreciation": 933,
-    "total": 1976
-   },
-   "15000": {
-    "fuel": 583,
-    "insurance": 450,
-    "maintenance": 225,
-    "depreciation": 933,
-    "total": 2312
-   },
-   "25000": {
-    "fuel": 972,
-    "insurance": 450,
-    "maintenance": 250,
-    "depreciation": 933,
-    "total": 2726
-   }
-  }
- },
- {
-  "id": "ford-puma-hybrid",
-  "make": "Ford",
-  "model": "Puma Hybrid",
-  "trim": "Titanium mHEV",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 456,
-  "powerHp": 155,
-  "consumption": 5.8,
-  "price": 118000,
-  "priceMin": 108000,
-  "priceMax": 128000,
-  "sampleSize": 18,
-  "newPrice": 118000,
-  "reliability": 80,
-  "safety": 86,
-  "economy": 82,
-  "comfort": 84,
-  "practicality": 80,
-  "insuranceMin": 390,
-  "insuranceMax": 550,
-  "why": "קרוסאובר עירוני קומפקטי עם מנוע מילד-היברידי — נוח, מניג מהנה, ועלות שוטפת סבירה לגודלו.",
-  "pros": [
-   "גודל קומפקטי לחנייה בעיר",
-   "ידית מיתוג נוחה",
-   "מנהוג מהנה",
-   "צריכה נמוכה"
-  ],
-  "cons": [
-   "אמינות פורד בישראל פחות מוכחת",
-   "שירות מצומצם יחסית"
-  ],
-  "confidence": 65,
-  "bands": {
-   "7000": {
-    "fuel": 239,
-    "insurance": 470,
-    "maintenance": 195,
-    "depreciation": 983,
-    "total": 2008
-   },
-   "15000": {
-    "fuel": 513,
-    "insurance": 470,
-    "maintenance": 220,
-    "depreciation": 983,
-    "total": 2307
-   },
-   "25000": {
-    "fuel": 855,
-    "insurance": 470,
-    "maintenance": 245,
-    "depreciation": 983,
-    "total": 2674
-   }
-  }
- },
- {
-  "id": "hyundai-tucson",
-  "make": "Hyundai",
-  "model": "Tucson",
-  "trim": "Base",
-  "bodyType": "suv",
-  "fuelType": "Petrol",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": null,
-  "powerHp": 150,
-  "consumption": 7.5,
-  "price": 120500,
-  "priceMin": null,
-  "priceMax": null,
-  "sampleSize": null,
-  "newPrice": 120500,
-  "reliability": 80,
-  "safety": 95,
-  "economy": 70,
-  "comfort": 80,
-  "practicality": 90,
-  "insuranceMin": null,
-  "insuranceMax": null,
-  "why": "SUV משפחתי מאוזן עם שירות נגיש ומרחב פנים נוח.",
-  "pros": [
-   "מרחב פנים מצוין",
-   "שירות נפוץ בישראל",
-   "בטיחות גבוהה"
-  ],
-  "cons": [
-   "צריכת דלק בינונית",
-   "עלות חודשית גבוהה יחסית"
-  ],
-  "confidence": 60,
-  "bands": {
-   "7000": {
-    "fuel": 294,
-    "insurance": 500,
-    "maintenance": 246,
-    "depreciation": 873,
-    "total": 2034
-   },
-   "15000": {
-    "fuel": 630,
-    "insurance": 500,
-    "maintenance": 280,
-    "depreciation": 873,
-    "total": 2404
-   },
-   "25000": {
-    "fuel": 1050,
-    "insurance": 500,
-    "maintenance": 314,
-    "depreciation": 873,
-    "total": 2858
-   }
-  }
- },
- {
-  "id": "byd-atto3",
-  "make": "BYD",
-  "model": "Atto 3",
-  "trim": "Extended Range",
-  "bodyType": "suv",
-  "fuelType": "Electric",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 440,
-  "powerHp": 204,
-  "consumption": null,
-  "price": 128000,
-  "priceMin": 118000,
-  "priceMax": 140000,
-  "sampleSize": 21,
-  "newPrice": 128000,
-  "reliability": 72,
-  "safety": 85,
-  "economy": 91,
-  "comfort": 85,
-  "practicality": 86,
-  "insuranceMin": 450,
-  "insuranceMax": 630,
-  "why": "SUV חשמלי עם טווח WLTP 420 ק״מ במחיר הנגיש ביותר לSUV חשמלי בישראל — ידית כוח גדולה, בטיחות אנקאפ 5 כוכבים.",
-  "pros": [
-   "הכי זול בSUV חשמלי",
-   "5 כוכבי EuroNCAP",
-   "עלויות שוטפות נמוכות",
-   "תא מטען רחב"
-  ],
-  "cons": [
-   "מותג חדש בישראל — אמינות לא מוכחת לטווח ארוך",
-   "פחת גבוה כמותג סיני",
-   "רשת שירות מצומצמת"
-  ],
-  "confidence": 62,
-  "bands": {
-   "7000": {
-    "fuel": 52,
-    "insurance": 540,
-    "maintenance": 95,
-    "depreciation": 1280,
-    "total": 2088
-   },
-   "15000": {
-    "fuel": 113,
-    "insurance": 540,
-    "maintenance": 110,
-    "depreciation": 1280,
-    "total": 2164
-   },
-   "25000": {
-    "fuel": 188,
-    "insurance": 540,
-    "maintenance": 130,
-    "depreciation": 1280,
-    "total": 2259
-   }
-  }
- },
- {
-  "id": "kia-sportage-hybrid",
-  "make": "Kia",
-  "model": "Sportage Hybrid",
-  "trim": "Base HEV",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 543,
-  "powerHp": 230,
-  "consumption": 6.1,
-  "price": 130000,
-  "priceMin": 118000,
-  "priceMax": 143000,
-  "sampleSize": 23,
-  "newPrice": 130000,
-  "reliability": 82,
-  "safety": 90,
-  "economy": 79,
-  "comfort": 86,
-  "practicality": 88,
-  "insuranceMin": 430,
-  "insuranceMax": 610,
-  "why": "SUV היברידי תחרותי עם שילוב ייחודי של ביצועים וחסכנות — חלופה חזקה לטוסון.",
-  "pros": [
-   "כוח גבוה יחסית לסגמנט",
-   "ציוד עשיר",
-   "חסכנות גבוהה לגודלו"
-  ],
-  "cons": [
-   "מחיר גבוה מהמתחרים",
-   "תא המטען קטן מהטוסון"
-  ],
-  "confidence": 72,
-  "bands": {
-   "7000": {
-    "fuel": 184,
-    "insurance": 520,
-    "maintenance": 190,
-    "depreciation": 1083,
-    "total": 2098
-   },
-   "15000": {
-    "fuel": 394,
-    "insurance": 520,
-    "maintenance": 210,
-    "depreciation": 1083,
-    "total": 2328
-   },
-   "25000": {
-    "fuel": 657,
-    "insurance": 520,
-    "maintenance": 230,
-    "depreciation": 1083,
-    "total": 2611
    }
   }
  },
@@ -769,6 +110,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "ערך יד שנייה לא ידוע"
   ],
   "confidence": 58,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 240,
@@ -829,6 +171,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "דירוג Euro NCAP ישן (2021, 4 כוכבים)"
   ],
   "confidence": 64,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 269,
@@ -889,6 +232,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "רצפת תא מטען גבוהה"
   ],
   "confidence": 58,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 142,
@@ -910,6 +254,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 224,
     "depreciation": 1380,
     "total": 2756
+   }
+  }
+ },
+ {
+  "id": "mg-mg4-electric",
+  "make": "MG",
+  "model": "MG4 Electric",
+  "trim": "Luxury 64 kWh",
+  "bodyType": "hatchback",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 363,
+  "powerHp": 190,
+  "consumption": null,
+  "price": 142888,
+  "priceMin": 134300,
+  "priceMax": 148888,
+  "sampleSize": null,
+  "newPrice": 142888,
+  "reliability": 70,
+  "safety": 82,
+  "economy": 92,
+  "comfort": 78,
+  "practicality": 74,
+  "insuranceMin": 481,
+  "insuranceMax": 686,
+  "why": "חשמלית ב-₪105,000 — נקודת הכניסה הזולה ביותר לעולם החשמלי בישראל.",
+  "pros": [
+   "מחיר הכניסה הנמוך ביותר לחשמלית",
+   "עלות נסיעה נמוכה מאוד",
+   "מפרט בטיחות טוב"
+  ],
+  "cons": [
+   "מותג חדש יחסית בישראל",
+   "פחת גבוה כחשמלית",
+   "טווח 350 ק\"מ WLTP בלבד"
+  ],
+  "confidence": 65,
+  "priceSource": "carzone.co.il news 2026-02-10",
+  "bands": {
+   "7000": {
+    "fuel": 50,
+    "insurance": 583,
+    "maintenance": 85,
+    "depreciation": 1418,
+    "total": 2257
+   },
+   "15000": {
+    "fuel": 107,
+    "insurance": 583,
+    "maintenance": 95,
+    "depreciation": 1418,
+    "total": 2324
+   },
+   "25000": {
+    "fuel": 179,
+    "insurance": 583,
+    "maintenance": 110,
+    "depreciation": 1418,
+    "total": 2411
    }
   }
  },
@@ -950,6 +355,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "חומרי פנים בינוניים"
   ],
   "confidence": 75,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 181,
@@ -1012,6 +418,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "נסיעה פחות נוחה ממתחרים"
   ],
   "confidence": 63,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 309,
@@ -1072,6 +479,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "ירידת ערך צפויה גבוהה"
   ],
   "confidence": 60,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 64,
@@ -1093,67 +501,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 123,
     "depreciation": 1635,
     "total": 2713
-   }
-  }
- },
- {
-  "id": "hyundai-ioniq6",
-  "make": "Hyundai",
-  "model": "Ioniq 6",
-  "trim": "Standard Range RWD",
-  "bodyType": "sedan",
-  "fuelType": "Electric",
-  "years": "2024–2025",
-  "seats": 5,
-  "cargoLiters": 401,
-  "powerHp": 228,
-  "consumption": null,
-  "price": 152000,
-  "priceMin": 141000,
-  "priceMax": 165000,
-  "sampleSize": 19,
-  "newPrice": 152000,
-  "reliability": 84,
-  "safety": 94,
-  "economy": 94,
-  "comfort": 90,
-  "practicality": 80,
-  "insuranceMin": 490,
-  "insuranceMax": 670,
-  "why": "סדאן חשמלי עם טווח WLTP 614 ק״מ, טעינה 800V ועיצוב ייחודי — חלופה חזקה ל-Tesla Model 3.",
-  "pros": [
-   "טווח ארוך לחשמלית",
-   "טעינה 800V מהירה",
-   "עלויות שוטפות נמוכות",
-   "בטיחות גבוהה"
-  ],
-  "cons": [
-   "מחיר גבוה לסדאן",
-   "פחת גבוה בשנים ראשונות",
-   "תא מטען קטן"
-  ],
-  "confidence": 74,
-  "bands": {
-   "7000": {
-    "fuel": 52,
-    "insurance": 580,
-    "maintenance": 90,
-    "depreciation": 1425,
-    "total": 2268
-   },
-   "15000": {
-    "fuel": 113,
-    "insurance": 580,
-    "maintenance": 100,
-    "depreciation": 1425,
-    "total": 2339
-   },
-   "25000": {
-    "fuel": 188,
-    "insurance": 580,
-    "maintenance": 115,
-    "depreciation": 1425,
-    "total": 2429
    }
   }
  },
@@ -1194,6 +541,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "מנוע קצת רועשני"
   ],
   "confidence": 80,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 204,
@@ -1254,6 +602,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "צריכה בפועל (כ-16.7 ק\"מ לליטר) נמוכה מהמוצהר"
   ],
   "confidence": 62,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 249,
@@ -1275,6 +624,68 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 269,
     "depreciation": 1549,
     "total": 3400
+   }
+  }
+ },
+ {
+  "id": "byd-atto3",
+  "make": "BYD",
+  "model": "Atto 3",
+  "trim": "EVO Design 313hp",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 440,
+  "powerHp": 313,
+  "consumption": null,
+  "price": 154990,
+  "priceMin": 145700,
+  "priceMax": 167000,
+  "sampleSize": null,
+  "newPrice": 154990,
+  "reliability": 72,
+  "safety": 85,
+  "economy": 91,
+  "comfort": 85,
+  "practicality": 86,
+  "insuranceMin": 505,
+  "insuranceMax": 707,
+  "why": "SUV חשמלי עם טווח WLTP 420 ק״מ במחיר הנגיש ביותר לSUV חשמלי בישראל — ידית כוח גדולה, בטיחות אנקאפ 5 כוכבים.",
+  "pros": [
+   "הכי זול בSUV חשמלי",
+   "5 כוכבי EuroNCAP",
+   "עלויות שוטפות נמוכות",
+   "תא מטען רחב"
+  ],
+  "cons": [
+   "מותג חדש בישראל — אמינות לא מוכחת לטווח ארוך",
+   "פחת גבוה כמותג סיני",
+   "רשת שירות מצומצמת"
+  ],
+  "confidence": 62,
+  "priceSource": "carzone.co.il/BYDAuto/Atto-3/2026",
+  "bands": {
+   "7000": {
+    "fuel": 52,
+    "insurance": 606,
+    "maintenance": 95,
+    "depreciation": 1550,
+    "total": 2424
+   },
+   "15000": {
+    "fuel": 113,
+    "insurance": 606,
+    "maintenance": 110,
+    "depreciation": 1550,
+    "total": 2500
+   },
+   "25000": {
+    "fuel": 188,
+    "insurance": 606,
+    "maintenance": 130,
+    "depreciation": 1550,
+    "total": 2595
    }
   }
  },
@@ -1314,6 +725,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "4 כוכבים ולא 5"
   ],
   "confidence": 58,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 53,
@@ -1375,6 +787,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "ערך יד שנייה לא ידוע"
   ],
   "confidence": 65,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 226,
@@ -1396,6 +809,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 270,
     "depreciation": 1313,
     "total": 3114
+   }
+  }
+ },
+ {
+  "id": "skoda-octavia",
+  "make": "Skoda",
+  "model": "Octavia",
+  "trim": "Selection 1.5 TSI 115hp",
+  "bodyType": "sedan",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 600,
+  "powerHp": 150,
+  "consumption": 6.5,
+  "price": 159990,
+  "priceMin": 150400,
+  "priceMax": 177990,
+  "sampleSize": null,
+  "newPrice": 159990,
+  "reliability": 81,
+  "safety": 88,
+  "economy": 76,
+  "comfort": 90,
+  "practicality": 92,
+  "insuranceMin": 424,
+  "insuranceMax": 615,
+  "why": "הסדאן האירופאי הפרקטי ביותר — תא מטען 600 ליטר, נוחות כביש מהיר ומחיר אטרקטיבי.",
+  "pros": [
+   "תא מטען ענק לסדאן",
+   "נוחות כביש מהיר",
+   "ציוד עשיר במחיר הבסיס",
+   "שירות VAG נפוץ"
+  ],
+  "cons": [
+   "פחות פופולרי בישראל מיפניות",
+   "צריכת דלק ממוצעת"
+  ],
+  "confidence": 70,
+  "priceSource": "carzone.co.il/Skoda/Octavia/2026",
+  "bands": {
+   "7000": {
+    "fuel": 268,
+    "insurance": 520,
+    "maintenance": 215,
+    "depreciation": 1334,
+    "total": 2458
+   },
+   "15000": {
+    "fuel": 576,
+    "insurance": 520,
+    "maintenance": 240,
+    "depreciation": 1334,
+    "total": 2791
+   },
+   "25000": {
+    "fuel": 960,
+    "insurance": 520,
+    "maintenance": 265,
+    "depreciation": 1334,
+    "total": 3200
    }
   }
  },
@@ -1436,6 +910,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "צריכה בעיר פחות טובה מהמוצהר במבחנים"
   ],
   "confidence": 72,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 224,
@@ -1496,6 +971,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "גרסת הבנזין צרכנית (כ-11.5 ק\"מ לליטר)"
   ],
   "confidence": 52,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 249,
@@ -1517,6 +993,130 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 274,
     "depreciation": 1600,
     "total": 3475
+   }
+  }
+ },
+ {
+  "id": "toyota-yaris-cross-hybrid",
+  "make": "Toyota",
+  "model": "Yaris Cross Hybrid",
+  "trim": "Urban HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 397,
+  "powerHp": 116,
+  "consumption": 5.3,
+  "price": 160990,
+  "priceMin": 151300,
+  "priceMax": 160990,
+  "sampleSize": null,
+  "newPrice": 160990,
+  "reliability": 92,
+  "safety": 92,
+  "economy": 91,
+  "comfort": 82,
+  "practicality": 80,
+  "insuranceMin": 421,
+  "insuranceMax": 605,
+  "why": "הקרוסאובר הקומפקטי החסכוני ביותר בשוק — 4.7 ל/100 ק״מ עם אמינות טויוטה ועלות TCO שמתחרה עם רכבים קטנים.",
+  "pros": [
+   "הכי חסכוני בסגמנט הSUV",
+   "אמינות טויוטה ידועה",
+   "מנהל עיר מעולה",
+   "ביטוח נמוך"
+  ],
+  "cons": [
+   "פחות מרחב ממתחרים גדולים",
+   "ביצועים נמוכים יחסית",
+   "מנוע חלש תחת עומס"
+  ],
+  "confidence": 78,
+  "priceSource": "auto.co.il Yaris Cross Hybrid Urban FL 2026",
+  "bands": {
+   "7000": {
+    "fuel": 220,
+    "insurance": 513,
+    "maintenance": 180,
+    "depreciation": 1342,
+    "total": 2376
+   },
+   "15000": {
+    "fuel": 470,
+    "insurance": 513,
+    "maintenance": 205,
+    "depreciation": 1342,
+    "total": 2651
+   },
+   "25000": {
+    "fuel": 784,
+    "insurance": 513,
+    "maintenance": 230,
+    "depreciation": 1342,
+    "total": 2990
+   }
+  }
+ },
+ {
+  "id": "volkswagen-golf",
+  "make": "Volkswagen",
+  "model": "Golf",
+  "trim": "Life 1.5",
+  "bodyType": "hatchback",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 380,
+  "powerHp": 150,
+  "consumption": 6.2,
+  "price": 169900,
+  "priceMin": 159700,
+  "priceMax": 196900,
+  "sampleSize": null,
+  "newPrice": 169900,
+  "reliability": 82,
+  "safety": 87,
+  "economy": 74,
+  "comfort": 88,
+  "practicality": 82,
+  "insuranceMin": 466,
+  "insuranceMax": 669,
+  "why": "גולף — הסטנדרט להאצ׳בק אירופאי. מהנדסות VAG מוכחת, נהיגה מאוזנת ועיצוב פנים איכותי.",
+  "pros": [
+   "נהיגה איזונה ומהנה",
+   "איכות פנים גבוהה",
+   "שירות VAG נפוץ",
+   "ערך יד שנייה יציב"
+  ],
+  "cons": [
+   "מחיר גבוה לקומפקט",
+   "תא מטען קטן",
+   "צריכת דלק בינונית"
+  ],
+  "confidence": 68,
+  "priceSource": "carzone.co.il/Volkswagen/Golf/2026",
+  "bands": {
+   "7000": {
+    "fuel": 257,
+    "insurance": 564,
+    "maintenance": 210,
+    "depreciation": 1416,
+    "total": 2568
+   },
+   "15000": {
+    "fuel": 550,
+    "insurance": 564,
+    "maintenance": 235,
+    "depreciation": 1416,
+    "total": 2886
+   },
+   "25000": {
+    "fuel": 917,
+    "insurance": 564,
+    "maintenance": 265,
+    "depreciation": 1416,
+    "total": 3283
    }
   }
  },
@@ -1556,6 +1156,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "יקר מהמתחרות הסיניות"
   ],
   "confidence": 66,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 50,
@@ -1581,62 +1182,242 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "toyota-rav4-hybrid",
-  "make": "Toyota",
-  "model": "RAV4 Hybrid",
-  "trim": "Base HEV",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2024–2025",
+  "id": "mazda-mazda3",
+  "make": "Mazda",
+  "model": "Mazda3",
+  "trim": "Spirit 2.5",
+  "bodyType": "sedan",
+  "fuelType": "Petrol",
+  "years": "2026",
   "seats": 5,
-  "cargoLiters": 580,
-  "powerHp": 222,
-  "consumption": 5.4,
-  "price": 185000,
-  "priceMin": 172000,
-  "priceMax": 198000,
-  "sampleSize": 38,
-  "newPrice": 185000,
-  "reliability": 95,
-  "safety": 97,
-  "economy": 88,
-  "comfort": 92,
-  "practicality": 95,
-  "insuranceMin": 550,
-  "insuranceMax": 760,
-  "why": "SUV משפחתי היברידי פרמיום עם אמינות טויוטה קלאסית ועלויות שימוש נמוכות לגודלו.",
+  "cargoLiters": null,
+  "powerHp": 191,
+  "consumption": 7.5,
+  "price": 184900,
+  "priceMin": 173800,
+  "priceMax": 214900,
+  "sampleSize": null,
+  "newPrice": 184900,
+  "reliability": 90,
+  "safety": 95,
+  "economy": 70,
+  "comfort": 80,
+  "practicality": 70,
+  "insuranceMin": null,
+  "insuranceMax": null,
+  "why": "סדאן ספורטיבי עם תא נוסעים איכותי וחווית נהיגה מהנה.",
   "pros": [
-   "אמינות גבוהה מאוד",
-   "חסכוני לSUV",
-   "ביקוש חזק ביד שנייה",
+   "עיצוב מוקפד",
+   "נהיגה מהנה",
+   "תא נוסעים איכותי"
+  ],
+  "cons": [
+   "תא מטען קטן יחסית",
+   "מושב אחורי צפוף"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Mazda/3/Hatchback/2026",
+  "bands": {
+   "7000": {
+    "fuel": 311,
+    "insurance": 587,
+    "maintenance": 211,
+    "depreciation": 1327,
+    "total": 2557
+   },
+   "15000": {
+    "fuel": 666,
+    "insurance": 587,
+    "maintenance": 240,
+    "depreciation": 1327,
+    "total": 2941
+   },
+   "25000": {
+    "fuel": 1109,
+    "insurance": 587,
+    "maintenance": 269,
+    "depreciation": 1327,
+    "total": 3413
+   }
+  }
+ },
+ {
+  "id": "hyundai-tucson",
+  "make": "Hyundai",
+  "model": "Tucson",
+  "trim": "Premium 1.6T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 150,
+  "consumption": 7.5,
+  "price": 188990,
+  "priceMin": 177700,
+  "priceMax": 196990,
+  "sampleSize": null,
+  "newPrice": 188990,
+  "reliability": 80,
+  "safety": 95,
+  "economy": 70,
+  "comfort": 80,
+  "practicality": 90,
+  "insuranceMin": null,
+  "insuranceMax": null,
+  "why": "SUV משפחתי מאוזן עם שירות נגיש ומרחב פנים נוח.",
+  "pros": [
+   "מרחב פנים מצוין",
+   "שירות נפוץ בישראל",
    "בטיחות גבוהה"
   ],
   "cons": [
-   "מחיר גבוה",
-   "ממתינים ארוכים לאספקה"
+   "צריכת דלק בינונית",
+   "עלות חודשית גבוהה יחסית"
   ],
-  "confidence": 80,
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Hyundai/Tucson/2026",
   "bands": {
    "7000": {
-    "fuel": 222,
-    "insurance": 650,
-    "maintenance": 210,
-    "depreciation": 1542,
-    "total": 2745
+    "fuel": 294,
+    "insurance": 655,
+    "maintenance": 246,
+    "depreciation": 1369,
+    "total": 2685
    },
    "15000": {
-    "fuel": 478,
-    "insurance": 650,
-    "maintenance": 235,
-    "depreciation": 1542,
-    "total": 3026
+    "fuel": 630,
+    "insurance": 655,
+    "maintenance": 280,
+    "depreciation": 1369,
+    "total": 3055
    },
    "25000": {
-    "fuel": 797,
-    "insurance": 650,
-    "maintenance": 260,
-    "depreciation": 1542,
-    "total": 3370
+    "fuel": 1050,
+    "insurance": 655,
+    "maintenance": 314,
+    "depreciation": 1369,
+    "total": 3509
+   }
+  }
+ },
+ {
+  "id": "nissan-qashqai",
+  "make": "Nissan",
+  "model": "Qashqai",
+  "trim": "e-Power Acenta Tech",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 479,
+  "powerHp": 205,
+  "consumption": 5.3,
+  "price": 194990,
+  "priceMin": 183300,
+  "priceMax": 194990,
+  "sampleSize": null,
+  "newPrice": 194990,
+  "reliability": 78,
+  "safety": 86,
+  "economy": 72,
+  "comfort": 84,
+  "practicality": 86,
+  "insuranceMin": 516,
+  "insuranceMax": 739,
+  "why": "SUV קומפקטי פופולרי עם מחיר כניסה אטרקטיבי ושירות נגיש בישראל.",
+  "pros": [
+   "מחיר אטרקטיבי לסגמנט",
+   "ניסיון ניסאן בישראל",
+   "גמישות תצורות"
+  ],
+  "cons": [
+   "צריכת דלק בינונית",
+   "מנוע קטן תחת עומס כבד"
+  ],
+  "confidence": 68,
+  "priceSource": "auto.co.il Qashqai e-Power Acenta Tech 2026",
+  "bands": {
+   "7000": {
+    "fuel": 220,
+    "insurance": 628,
+    "maintenance": 200,
+    "depreciation": 1624,
+    "total": 2793
+   },
+   "15000": {
+    "fuel": 470,
+    "insurance": 628,
+    "maintenance": 225,
+    "depreciation": 1624,
+    "total": 3068
+   },
+   "25000": {
+    "fuel": 784,
+    "insurance": 628,
+    "maintenance": 250,
+    "depreciation": 1624,
+    "total": 3407
+   }
+  }
+ },
+ {
+  "id": "kia-sportage-hybrid",
+  "make": "Kia",
+  "model": "Sportage Hybrid",
+  "trim": "EX HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 543,
+  "powerHp": 235,
+  "consumption": 5.7,
+  "price": 195900,
+  "priceMin": 184100,
+  "priceMax": 206900,
+  "sampleSize": null,
+  "newPrice": 195900,
+  "reliability": 82,
+  "safety": 90,
+  "economy": 79,
+  "comfort": 86,
+  "practicality": 88,
+  "insuranceMin": 550,
+  "insuranceMax": 780,
+  "why": "SUV היברידי תחרותי עם שילוב ייחודי של ביצועים וחסכנות — חלופה חזקה לטוסון.",
+  "pros": [
+   "כוח גבוה יחסית לסגמנט",
+   "ציוד עשיר",
+   "חסכנות גבוהה לגודלו"
+  ],
+  "cons": [
+   "מחיר גבוה מהמתחרים",
+   "תא המטען קטן מהטוסון"
+  ],
+  "confidence": 72,
+  "priceSource": "carzone.co.il news 2026-01-14",
+  "bands": {
+   "7000": {
+    "fuel": 236,
+    "insurance": 665,
+    "maintenance": 190,
+    "depreciation": 1632,
+    "total": 2844
+   },
+   "15000": {
+    "fuel": 506,
+    "insurance": 665,
+    "maintenance": 210,
+    "depreciation": 1632,
+    "total": 3134
+   },
+   "25000": {
+    "fuel": 843,
+    "insurance": 665,
+    "maintenance": 230,
+    "depreciation": 1632,
+    "total": 3491
    }
   }
  },
@@ -1676,6 +1457,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "נהיגה לא מרגשת"
   ],
   "confidence": 52,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 150,
@@ -1737,6 +1519,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "מחיר גבוה"
   ],
   "confidence": 66,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 290,
@@ -1758,6 +1541,129 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 314,
     "depreciation": 1767,
     "total": 3958
+   }
+  }
+ },
+ {
+  "id": "toyota-rav4-hybrid",
+  "make": "Toyota",
+  "model": "RAV4 Hybrid",
+  "trim": "דור 6 HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 580,
+  "powerHp": 222,
+  "consumption": 5.4,
+  "price": 219990,
+  "priceMin": 206800,
+  "priceMax": 219990,
+  "sampleSize": null,
+  "newPrice": 219990,
+  "reliability": 95,
+  "safety": 97,
+  "economy": 88,
+  "comfort": 92,
+  "practicality": 95,
+  "insuranceMin": 610,
+  "insuranceMax": 843,
+  "why": "SUV משפחתי היברידי פרמיום עם אמינות טויוטה קלאסית ועלויות שימוש נמוכות לגודלו.",
+  "pros": [
+   "אמינות גבוהה מאוד",
+   "חסכוני לSUV",
+   "ביקוש חזק ביד שנייה",
+   "בטיחות גבוהה"
+  ],
+  "cons": [
+   "מחיר גבוה",
+   "ממתינים ארוכים לאספקה"
+  ],
+  "confidence": 80,
+  "priceSource": "queenoftheroad.co.il 2026-05-13 (gen 6, from ₪219,990)",
+  "bands": {
+   "7000": {
+    "fuel": 222,
+    "insurance": 721,
+    "maintenance": 210,
+    "depreciation": 1834,
+    "total": 3108
+   },
+   "15000": {
+    "fuel": 478,
+    "insurance": 721,
+    "maintenance": 235,
+    "depreciation": 1834,
+    "total": 3389
+   },
+   "25000": {
+    "fuel": 797,
+    "insurance": 721,
+    "maintenance": 260,
+    "depreciation": 1834,
+    "total": 3733
+   }
+  }
+ },
+ {
+  "id": "hyundai-ioniq6",
+  "make": "Hyundai",
+  "model": "Ioniq 6",
+  "trim": "Ultra 84 kWh",
+  "bodyType": "sedan",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 401,
+  "powerHp": 228,
+  "consumption": null,
+  "price": 224990,
+  "priceMin": 211500,
+  "priceMax": 247990,
+  "sampleSize": null,
+  "newPrice": 224990,
+  "reliability": 84,
+  "safety": 94,
+  "economy": 94,
+  "comfort": 90,
+  "practicality": 80,
+  "insuranceMin": 620,
+  "insuranceMax": 848,
+  "why": "סדאן חשמלי עם טווח WLTP 614 ק״מ, טעינה 800V ועיצוב ייחודי — חלופה חזקה ל-Tesla Model 3.",
+  "pros": [
+   "טווח ארוך לחשמלית",
+   "טעינה 800V מהירה",
+   "עלויות שוטפות נמוכות",
+   "בטיחות גבוהה"
+  ],
+  "cons": [
+   "מחיר גבוה לסדאן",
+   "פחת גבוה בשנים ראשונות",
+   "תא מטען קטן"
+  ],
+  "confidence": 74,
+  "priceSource": "carzone.co.il news 2026-02-24",
+  "bands": {
+   "7000": {
+    "fuel": 52,
+    "insurance": 734,
+    "maintenance": 90,
+    "depreciation": 2109,
+    "total": 3106
+   },
+   "15000": {
+    "fuel": 113,
+    "insurance": 734,
+    "maintenance": 100,
+    "depreciation": 2109,
+    "total": 3177
+   },
+   "25000": {
+    "fuel": 188,
+    "insurance": 734,
+    "maintenance": 115,
+    "depreciation": 2109,
+    "total": 3267
    }
   }
  },
@@ -1797,6 +1703,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "בלי טעינה בבית הצריכה גבוהה (כ-15.6 ק\"מ לליטר)"
   ],
   "confidence": 55,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 148,
@@ -1859,6 +1766,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "רוב הפעולות דרך המסך"
   ],
   "confidence": 68,
+  "priceSource": null,
   "bands": {
    "7000": {
     "fuel": 51,
