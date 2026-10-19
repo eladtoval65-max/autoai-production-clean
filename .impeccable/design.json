@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T14:47:09+00:00",
+  "title": "Design System: AutoAI Clean",
+  "extensions": {
+    "colorMeta": {
+      "page": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#808080",
+          "#a4a4a4",
+          "#cacaca",
+          "#eeeeee"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Cool Mist",
+        "canonical": "oklch(97.2% 0.005 247.9)",
+        "tonalRamp": [
+          "#090b0d",
+          "#222426",
+          "#3e4042",
+          "#5b5e60",
+          "#7e8083",
+          "#a2a5a8",
+          "#c8cbce",
+          "#eceff2"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(92.6% 0.011 256.7)",
+        "tonalRamp": [
+          "#080b10",
+          "#212429",
+          "#3c4046",
+          "#5a5e64",
+          "#7c8187",
+          "#a0a5ac",
+          "#c6cbd2",
+          "#eaeff6"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Navy Ink",
+        "canonical": "oklch(22.0% 0.038 255.6)",
+        "tonalRamp": [
+          "#020b1b",
+          "#172536",
+          "#324154",
+          "#4f5f73",
+          "#718297",
+          "#95a6bd",
+          "#bbcce4",
+          "#def0ff"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "oklch(46.6% 0.033 253.4)",
+        "tonalRamp": [
+          "#030b19",
+          "#192534",
+          "#344151",
+          "#515f70",
+          "#738294",
+          "#97a6b9",
+          "#bccce0",
+          "#e0f0ff"
+        ]
+      },
+      "go": {
+        "role": "primary",
+        "displayName": "Savings Green",
+        "canonical": "oklch(52.1% 0.107 164.7)",
+        "tonalRamp": [
+          "#001304",
+          "#003018",
+          "#005031",
+          "#00704e",
+          "#329470",
+          "#5dba94",
+          "#92ddbc",
+          "#c1ffe2"
+        ]
+      },
+      "go-deep": {
+        "role": "primary",
+        "displayName": "Deep Savings Green",
+        "canonical": "oklch(42.8% 0.087 165.8)",
+        "tonalRamp": [
+          "#001304",
+          "#00301a",
+          "#004e35",
+          "#1f6d52",
+          "#479174",
+          "#6db698",
+          "#93ddbd",
+          "#c1ffe3"
+        ]
+      },
+      "go-soft": {
+        "role": "primary",
+        "displayName": "Green Wash",
+        "canonical": "oklch(95.2% 0.021 166.1)",
+        "tonalRamp": [
+          "#040e09",
+          "#1a2722",
+          "#36433d",
+          "#53625b",
+          "#75847d",
+          "#99a9a2",
+          "#bfcfc7",
+          "#e2f3eb"
+        ]
+      },
+      "gap": {
+        "role": "neutral",
+        "displayName": "Gap Grey",
+        "canonical": "oklch(79.2% 0.018 256.3)",
+        "tonalRamp": [
+          "#070b13",
+          "#1e242d",
+          "#3a4049",
+          "#575e68",
+          "#79818b",
+          "#9da5b0",
+          "#c3cbd6",
+          "#e7effb"
+        ]
+      },
+      "alert": {
+        "role": "semantic",
+        "displayName": "Burnt Orange",
+        "canonical": "oklch(55.3% 0.174 38.4)",
+        "tonalRamp": [
+          "#210000",
+          "#450e00",
+          "#6b270f",
+          "#944125",
+          "#bd6347",
+          "#de8d73",
+          "#feb7a1",
+          "#ffdfcb"
+        ]
+      },
+      "go-on-ink": {
+        "role": "primary",
+        "displayName": "Bright Green on Ink",
+        "canonical": "oklch(78.8% 0.124 165.7)",
+        "tonalRamp": [
+          "#001304",
+          "#003019",
+          "#005032",
+          "#00724d",
+          "#0c976f",
+          "#5cba95",
+          "#91ddbd",
+          "#c1ffe3"
+        ],
+        "note": "Hard-coded #5fd3a7 in Home.tsx (not an index.css token); hover #7fe0bb."
+      },
+      "muted-on-ink": {
+        "role": "neutral",
+        "displayName": "Pale Slate on Ink",
+        "canonical": "oklch(83.9% 0.018 256.3)",
+        "tonalRamp": [
+          "#070b13",
+          "#1f242d",
+          "#3a4049",
+          "#575e68",
+          "#7a818b",
+          "#9ea5b0",
+          "#c3cbd6",
+          "#e7effb"
+        ],
+        "note": "Hard-coded #c3cbd6 in Home.tsx (not an index.css token)."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles (legend, advisor)."
+      },
+      "headline-sm": {
+        "displayName": "Headline Sm",
+        "purpose": "Results workspace title."
+      },
+      "title-lg": {
+        "displayName": "Title Lg",
+        "purpose": "Questionnaire question; leader card title uses clamp(1.3rem,2vw,1.6rem)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel and card titles (1.4rem); scale also uses 1.05/1.15/1.2/1.25/1.35/1.6/1.7rem and clamp(1.6rem,3vw,2.1rem)."
+      },
+      "title-sm": {
+        "displayName": "Title Sm",
+        "purpose": "Detail sub-sections and result cards."
+      },
+      "body-lg": {
+        "displayName": "Body Lg",
+        "purpose": "Base body, hero and section sub-copy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy in cards, inputs, chat."
+      },
+      "body-sm": {
+        "displayName": "Body Sm",
+        "purpose": "Secondary copy, nav, buttons, tables."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Chips, toggles, notes, consent."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Stat labels, code chips, match pills."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "Photo-credit chip only (12px used for chat timestamps)."
+      },
+      "figure-xl": {
+        "displayName": "Figure Xl",
+        "purpose": "Hero monthly cost (38px, 44px from sm)."
+      },
+      "figure-lg": {
+        "displayName": "Figure Lg",
+        "purpose": "Medium monthly cost; 26px and 30px also used."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Small monthly cost, stats; 20px and 22px also used."
+      },
+      "figure-sm": {
+        "displayName": "Figure Sm",
+        "purpose": "Breakdown and compare values; 15, 16, 18, 19px also used."
+      }
+    },
+    "typeRampInventory": {
+      "source": "Home.tsx + LeadRequestModal.tsx",
+      "px": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        26,
+        28,
+        30,
+        38,
+        44
+      ],
+      "rem": [
+        1.05,
+        1.15,
+        1.2,
+        1.25,
+        1.35,
+        1.4,
+        1.5,
+        1.6,
+        1.7
+      ],
+      "clamp": [
+        "clamp(2.3rem,4.8vw,4rem)",
+        "clamp(1.8rem,3.6vw,2.8rem)",
+        "clamp(1.8rem,3.2vw,2.5rem)",
+        "clamp(1.6rem,3vw,2.1rem)",
+        "clamp(1.35rem,2.3vw,1.7rem)",
+        "clamp(1.3rem,2vw,1.6rem)"
+      ],
+      "bodyBase": "17px"
+    },
+    "provenance": [
+      {
+        "name": "official",
+        "class": ".code-off",
+        "value": "var(--color-ink)"
+      },
+      {
+        "name": "estimate",
+        "class": ".code-est",
+        "value": "repeating-linear-gradient(135deg, var(--color-go) 0 3px, #7fc6ab 3px 6px)"
+      },
+      {
+        "name": "missing",
+        "class": ".code-miss",
+        "value": "transparent; box-shadow: inset 0 0 0 1.5px var(--color-gap); background-image: repeating-linear-gradient(135deg, transparent 0 4px, #dfe3e9 4px 6px)"
+      }
+    ],
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 1px 2px rgba(14,27,44,.06), 0 8px 24px -12px rgba(14,27,44,.18)",
+        "purpose": "Every card at rest, active tab/mode pill, badges and save buttons over photos."
+      },
+      {
+        "name": "float",
+        "value": "0 2px 6px rgba(14,27,44,.08), 0 22px 48px -18px rgba(14,27,44,.35)",
+        "purpose": "Leader card overlapping the hero photo, result-card hover, lead modal."
+      }
+    ],
+    "focus": {
+      "value": "3px solid var(--color-go)",
+      "offset": "2px"
+    },
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Easing for .swap and .grow."
+      },
+      {
+        "name": "swap",
+        "value": "fade-up 0.4s (opacity 0, translateY 8px -> none)",
+        "purpose": "Questionnaire step change, leader car change, cost panel reveal."
+      },
+      {
+        "name": "grow",
+        "value": "scaleX 0 -> 1, 0.7s, origin start (right under RTL)",
+        "purpose": "Provenance and score bars."
+      },
+      {
+        "name": "progress",
+        "value": "width 500ms ease-out",
+        "purpose": "Questionnaire progress bar."
+      },
+      {
+        "name": "auto-advance",
+        "value": "180ms",
+        "purpose": "Delay before single-select steps advance."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durations collapse to .01ms",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "container",
+        "value": "1280px"
+      }
+    ],
+    "direction": {
+      "primary": "rtl",
+      "secondary": "ltr",
+      "rule": "Logical start/end properties only; shekel() wraps amounts in U+2066/U+2069; <bdi> for ranges and Latin names."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action: details, continue, send, lead submit.",
+      "html": "<button class=\"ds-btn-primary\">להציג את ההתאמות</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border:0;border-radius:9999px;background:#0a7c59;color:#fff;font:700 15px/1 Assistant,system-ui,sans-serif;cursor:pointer;transition:background .15s}.ds-btn-primary:hover{background:#075e44}.ds-btn-primary:focus-visible{outline:3px solid #0a7c59;outline-offset:2px}.ds-btn-primary:disabled{opacity:.4;cursor:not-allowed}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary actions: compare, share, cost calculator; toggled state turns green-soft.",
+      "html": "<button class=\"ds-btn-ghost\">השוואה</button> <button class=\"ds-btn-ghost is-on\" aria-pressed=\"true\">בהשוואה</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid #e2e7ee;border-radius:9999px;background:#fff;color:#0e1b2c;font:700 15px/1 Assistant,system-ui,sans-serif;cursor:pointer}.ds-btn-ghost:hover{border-color:#0e1b2c}.ds-btn-ghost:focus-visible{outline:3px solid #0a7c59;outline-offset:2px}.ds-btn-ghost.is-on{border-color:#0a7c59;background:#e3f4ec;color:#075e44}"
+    },
+    {
+      "name": "Answer Tile (multi-select)",
+      "kind": "custom",
+      "refersTo": "answer-tile",
+      "description": "Questionnaire choice with icon well and trailing checkbox; selected = green border on green-soft.",
+      "html": "<div class=\"ds-tiles\" dir=\"rtl\"><button class=\"ds-tile is-on\" role=\"checkbox\" aria-checked=\"true\"><span class=\"ds-tile-icon\">●</span><span class=\"ds-tile-text\"><b>עיר ויום-יום</b><small>חניה קלה, חיסכון וזריזות</small></span><span class=\"ds-tile-box\">✓</span></button><button class=\"ds-tile\" role=\"checkbox\" aria-checked=\"false\"><span class=\"ds-tile-icon\">●</span><span class=\"ds-tile-text\"><b>משפחה וטיולים</b><small>מרחב, בטיחות ונוחות</small></span><span class=\"ds-tile-box\"></span></button></div>",
+      "css": ".ds-tiles{display:grid;gap:10px;grid-template-columns:1fr 1fr;font-family:Assistant,system-ui,sans-serif}.ds-tile{display:flex;align-items:center;gap:12px;padding:12px 16px;border:2px solid #e2e7ee;border-radius:12px;background:#fff;color:#0e1b2c;text-align:start;cursor:pointer;transition:border-color .15s,background .15s}.ds-tile:hover{border-color:#9fb0c2}.ds-tile:focus-visible{outline:3px solid #0a7c59;outline-offset:2px}.ds-tile.is-on{border-color:#0a7c59;background:#e3f4ec}.ds-tile-icon{display:flex;width:40px;height:40px;flex:none;align-items:center;justify-content:center;border-radius:8px;background:#f3f6f9;color:#0a7c59}.ds-tile.is-on .ds-tile-icon{background:#0a7c59;color:#fff}.ds-tile-text{flex:1;min-width:0}.ds-tile-text b{display:block;font-size:16px}.ds-tile-text small{display:block;font-size:14px;color:#4d5b6c}.ds-tile-box{display:flex;width:24px;height:24px;flex:none;align-items:center;justify-content:center;border:2px solid #b4bcc7;border-radius:6px;background:#fff;color:#fff;font-size:14px}.ds-tile.is-on .ds-tile-box{border-color:#0a7c59;background:#0a7c59}"
+    },
+    {
+      "name": "Card with Monthly Tag",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White 16px card on Card shadow; the green monthly figure is the headline.",
+      "html": "<article class=\"ds-card\" dir=\"rtl\"><span class=\"ds-pill\">מובילה כרגע · 94% התאמה</span><h3 class=\"ds-card-title\">Toyota Corolla Hybrid</h3><span class=\"ds-monthly\"><span class=\"ds-num\">&#x2066;₪2,750&#x2069;</span><span class=\"ds-per\">לחודש</span></span></article>",
+      "css": ".ds-card{padding:24px;border:1px solid #e2e7ee;border-radius:16px;background:#fff;color:#0e1b2c;box-shadow:0 1px 2px rgba(14,27,44,.06),0 8px 24px -12px rgba(14,27,44,.18);font-family:Assistant,system-ui,sans-serif;transition:box-shadow .2s}.ds-card:hover{box-shadow:0 2px 6px rgba(14,27,44,.08),0 22px 48px -18px rgba(14,27,44,.35)}.ds-pill{display:inline-flex;padding:2px 10px;border-radius:9999px;background:#e3f4ec;color:#075e44;font-size:13px;font-weight:700}.ds-card-title{margin:8px 0 12px;font:700 1.4rem/1.25 Rubik,Assistant,sans-serif;letter-spacing:-.015em}.ds-monthly{display:inline-flex;align-items:baseline;gap:6px}.ds-num{font:600 44px/1 Rubik,Assistant,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.01em;white-space:nowrap;color:#0a7c59}.ds-per{font-size:14px;font-weight:600;color:#4d5b6c}"
+    },
+    {
+      "name": "Cost Breakdown with Provenance Code",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Label / coded bar / figure rows: solid navy official, green hatch estimate, dashed outline missing.",
+      "html": "<ul class=\"ds-bd\" dir=\"rtl\"><li><span>דלק / חשמל</span><span class=\"ds-track\"><span class=\"ds-bar ds-est\" style=\"width:80%\"></span></span><b>&#x2066;₪640&#x2069;</b></li><li><span>ביטוח</span><span class=\"ds-track\"><span class=\"ds-bar ds-est\" style=\"width:55%\"></span></span><b>&#x2066;₪450&#x2069;</b></li><li><span>פחת</span><span class=\"ds-track\"><span class=\"ds-bar ds-miss\" style=\"width:22%\"></span></span><b class=\"ds-m\">חסר</b></li><li><span>רישוי</span><span class=\"ds-track\"><span class=\"ds-bar ds-off\" style=\"width:16%\"></span></span><b>&#x2066;₪121&#x2069;</b></li></ul>",
+      "css": ".ds-bd{list-style:none;margin:0;padding:0;display:grid;gap:10px;font:400 15px/1.6 Assistant,system-ui,sans-serif;color:#0e1b2c}.ds-bd li{display:grid;grid-template-columns:minmax(6.5rem,auto) 1fr auto;align-items:center;gap:12px}.ds-bd li>span:first-child{color:#4d5b6c}.ds-track{position:relative;height:10px;overflow:hidden;border-radius:9999px;background:#f3f6f9}.ds-bar{position:absolute;inset-block:0;inset-inline-start:0;border-radius:9999px}.ds-off{background:#0e1b2c}.ds-est{background:repeating-linear-gradient(135deg,#0a7c59 0 3px,#7fc6ab 3px 6px)}.ds-miss{background-color:transparent;box-shadow:inset 0 0 0 1.5px #b4bcc7;background-image:repeating-linear-gradient(135deg,transparent 0 4px,#dfe3e9 4px 6px)}.ds-bd b{min-width:4.5rem;text-align:end;font:600 17px/1 Rubik,Assistant,sans-serif;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-bd b.ds-m{color:#4d5b6c}"
+    },
+    {
+      "name": "Workspace Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Mist pill rail; active tab is a white pill with Card shadow.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" dir=\"rtl\"><button role=\"tab\" aria-selected=\"true\" class=\"ds-tab is-on\">ההתאמות</button><button role=\"tab\" class=\"ds-tab\">שמורים (2)</button><button role=\"tab\" class=\"ds-tab\">השוואה (0)</button></div>",
+      "css": ".ds-tabs{display:inline-flex;gap:4px;padding:4px;border-radius:9999px;background:#f3f6f9;font:700 15px/1 Assistant,system-ui,sans-serif}.ds-tab{min-height:40px;padding:0 16px;border:0;border-radius:9999px;background:transparent;color:#4d5b6c;cursor:pointer;white-space:nowrap}.ds-tab:hover{color:#0e1b2c}.ds-tab:focus-visible{outline:3px solid #0a7c59;outline-offset:2px}.ds-tab.is-on{background:#fff;color:#0e1b2c;box-shadow:0 1px 2px rgba(14,27,44,.06),0 8px 24px -12px rgba(14,27,44,.18)}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Lead-form field: 48px, 12px radius, hairline, green focus border.",
+      "html": "<label class=\"ds-label\" dir=\"rtl\">שם מלא<input class=\"ds-input\" placeholder=\"ישראל ישראלי\"></label>",
+      "css": ".ds-label{display:block;font:600 15px/1.4 Assistant,system-ui,sans-serif;color:#0e1b2c}.ds-input{display:block;width:100%;margin-top:4px;min-height:48px;padding:10px 12px;border:1px solid #e2e7ee;border-radius:12px;background:#fff;color:#0e1b2c;font:400 16px/1.4 Assistant,system-ui,sans-serif;caret-color:#0a7c59;outline:none}.ds-input:focus{border-color:#0a7c59}.ds-input:focus-visible{outline:3px solid #0a7c59;outline-offset:2px}.ds-input::placeholder{color:#4d5b6c}"
+    },
+    {
+      "name": "Advisor Chip",
+      "kind": "chip",
+      "refersTo": "match-pill",
+      "description": "Suggested-question pill in the AI advisor.",
+      "html": "<button class=\"ds-chip\">מה עדיף, היברידי או חשמלי?</button>",
+      "css": ".ds-chip{min-height:40px;padding:0 14px;border:1px solid #e2e7ee;border-radius:9999px;background:#fff;color:#0e1b2c;font:600 14px/1 Assistant,system-ui,sans-serif;cursor:pointer}.ds-chip:hover{border-color:#0a7c59;color:#075e44}.ds-chip:focus-visible{outline:3px solid #0a7c59;outline-offset:2px}"
+    },
+    {
+      "name": "Dark Lead Panel",
+      "kind": "card",
+      "refersTo": "dark-panel",
+      "description": "Navy 24px panel with the on-ink green CTA; used once per results view.",
+      "html": "<div class=\"ds-dark\" dir=\"rtl\"><p class=\"ds-dark-t\">רוצים הצעה על הרכב המוביל?</p><p class=\"ds-dark-s\">רק בהסכמה מפורשת.</p><button class=\"ds-btn-ink\">בקשת הצעה</button></div>",
+      "css": ".ds-dark{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:32px;border-radius:24px;background:#0e1b2c;color:#fff;font-family:Assistant,system-ui,sans-serif}.ds-dark-t{margin:0;font:700 1.35rem/1.375 Rubik,Assistant,sans-serif}.ds-dark-s{margin:4px 0 0;font-size:15px;color:#c3cbd6}.ds-btn-ink{min-height:48px;padding:0 28px;border:0;border-radius:9999px;background:#5fd3a7;color:#0e1b2c;font:700 17px/1 Assistant,system-ui,sans-serif;cursor:pointer}.ds-btn-ink:hover{background:#7fe0bb}.ds-btn-ink:focus-visible{outline:3px solid #5fd3a7;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Honest Showroom Floor",
+    "overview": "AutoAI Clean is the international car-comparison convention, executed straight: white page, cool mist section grounds, deep navy type, large rounded car photographs, and white cards that sit on soft two-layer shadows. It is deliberately unthemed. Convention is the commitment; the craft bar is Carwow, Autotrader UK and Edmunds, not a local costume or a dark showroom.\n\nWhat makes it AutoAI rather than a generic listings site is that money is the headline and every figure carries its provenance. The monthly cost of ownership is the biggest, greenest number on any card, and each cost line is drawn with a coded bar: solid navy for official, green hatch for estimate, dashed outline for missing. The visual system exists to make those two things legible at a glance on a phone.\n\nDensity is moderate and mobile-first: 16px gutters on phones, 32px from `sm`, a 1280px container, generous 44–48px touch targets everywhere. Hebrew RTL is the primary direction; every horizontal placement is written with logical start/end properties so the English (LTR) toggle mirrors cleanly.",
+    "keyCharacteristics": [
+      "White and mist grounds, navy ink, one savings-green for actions and money.",
+      "Rubik (display + figures) over Assistant (body), both with Hebrew subsets.",
+      "Pill-shaped buttons, tabs and badges; 12px tiles, 16px cards, 24px photos and dark panels.",
+      "Soft ambient shadows; the floating card overlapping a photo is the signature depth move.",
+      "Provenance code (official / estimate / missing) is a semantic system, never decoration.",
+      "RTL first, logical properties, bidi-isolated ₪ amounts."
+    ],
+    "rules": [
+      {
+        "name": "The Green Means Money Rule",
+        "body": "Green is reserved for things the user can do (buttons, links, focus, their own selections and progress) and for money figures. Scores, ranks, specs and decoration use ink or muted. If a green element is neither clickable, a selection state, nor a shekel amount, it is wrong. The wordmark is the one brand exception.",
+        "section": "colors"
+      },
+      {
+        "name": "The Provenance Code Rule",
+        "body": "The three bar fills are semantic and only semantic: solid navy (`.code-off`) = official, green hatch (`.code-est`, 135° stripes of go and #7fc6ab) = estimate, transparent with an inset 1.5px gap-grey outline and pale hatch (`.code-miss`) = missing. Never use these fills for decoration, and never show a figure in a cost breakdown without its code. Insurance is always coded estimate.",
+        "section": "colors"
+      },
+      {
+        "name": "The Figures Are Rubik Rule",
+        "body": "Every number a user compares (₪, %, km, scores) is set in `.num`: Rubik 600, tabular, nowrap. Body copy never carries a comparable figure in Assistant.",
+        "section": "typography"
+      },
+      {
+        "name": "The Isolated Shekel Rule",
+        "body": "Every ₪ amount goes through `shekel()`, which wraps \"₪\" + the locale-formatted number in U+2066/U+2069 (LTR isolate) so it never reorders inside Hebrew. Pre-formatted ranges and Latin model strings are wrapped in `<bdi>`. (Current exceptions that hand-build \"₪\": catalog market ranges, the per-km figure, MonthlyTag's aria-label.)",
+        "section": "typography"
+      },
+      {
+        "name": "The Logical Direction Rule",
+        "body": "Horizontal placement uses start/end only (`start-*`, `end-*`, `ps/pe`, `text-start/end`, `rounded-ss/se`), directional arrows swap by `dir`, `.grow` flips its transform-origin under `[dir=\"rtl\"]`, and dividers use `rtl:divide-x-reverse`. Physical left/right is not used for layout.",
+        "section": "layout"
+      },
+      {
+        "name": "The Overlap Rule",
+        "body": "The signature depth move is a white card lifted with Float and pulled up over the bottom of a 24px-rounded photo (-64px margin, inset 12–24px). Use it for the single most important car on the screen, not for every card.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** make the monthly ownership cost the largest figure on any car surface, in Savings Green `.num`.",
+      "**Do** code every cost line with official / estimate / missing, and show \"missing\" as missing rather than inventing a value.",
+      "**Do** route every ₪ amount through `shekel()` and wrap ranges and Latin model names in `<bdi>`.",
+      "**Do** use logical start/end properties and direction-aware arrows so Hebrew RTL and English LTR both work.",
+      "**Do** keep touch targets at 44px minimum (48px for primary questionnaire and form actions) and inputs at 16px text.",
+      "**Do** use mist grounds and white cards with the Card shadow to separate content before reaching for borders or colour."
+    ],
+    "donts": [
+      "**Don't** use green for scores, ranks, specs, icons or decoration; it belongs to actions, selection state and money.",
+      "**Don't** use the provenance fills (solid navy, green hatch, dashed outline) as decorative bars or patterns.",
+      "**Don't** introduce a second accent hue or a dark hero; the ground is white and mist.",
+      "**Don't** set comparable numbers in the body face or let them wrap.",
+      "**Don't** use physical left/right for layout or concatenate \"₪\" into a string by hand.",
+      "**Don't** fabricate testimonials, user counts, partner logos or reviews as visual proof."
+    ]
+  }
+}

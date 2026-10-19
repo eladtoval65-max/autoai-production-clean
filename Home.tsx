@@ -287,7 +287,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-4 px-4 py-3 sm:px-8">
           <a href="#top" className="flex items-center gap-2 text-ink no-underline" aria-label="AutoAI">
-            <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-lg bg-go font-display text-[15px] font-bold text-white">A</span>
+            <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-[9px] bg-go font-display text-[15px] font-bold text-white">A</span>
             <span className="font-display text-[21px] font-bold leading-none" dir="ltr">Auto<span className="text-go">AI</span></span>
           </a>
           <nav className="flex items-center gap-1 text-[15px] font-semibold sm:gap-6">
@@ -418,7 +418,7 @@ function Finder({ order, step, setStep, answers, chooseSingle, toggleMulti, cont
                       <span className="block text-[14px] leading-snug text-muted">{sub}</span>
                     </span>
                     {multi
-                      ? <span aria-hidden className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-md border-2 ${active ? "border-go bg-go text-white" : "border-[#b4bcc7] bg-white"}`}>{active && <Check className="h-4 w-4" strokeWidth={3} />}</span>
+                      ? <span aria-hidden className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] border-2 ${active ? "border-go bg-go text-white" : "border-[#b4bcc7] bg-white"}`}>{active && <Check className="h-4 w-4" strokeWidth={3} />}</span>
                       : <Arrow aria-hidden className={`h-5 w-5 shrink-0 ${active ? "text-go" : "text-[#9aa5b3] group-hover:text-go"}`} />}
                   </button>
                 </li>
