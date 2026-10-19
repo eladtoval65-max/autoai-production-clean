@@ -29,15 +29,23 @@ function rateLimited(ip: string): boolean {
 const DEFAULT_SYSTEM =
   "אתה היועץ של \"כמה עולה\" (CamaOla), יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
 
+/** Removes whitespace, surrounding quotes and a pasted "ANTHROPIC_API_KEY=" prefix. */
+function cleanKey(v: string): string {
+  return v.trim().replace(/^ANTHROPIC_API_KEY\s*=\s*/, "").replace(/^["'`]+|["'`]+$/g, "").replace(/\s+/g, "");
+}
+
 export default async function handler(req: any, res: any) {
   // GET = health check for diagnosing deployments. Reports only whether a key exists, never the key.
   if (req.method === "GET") {
-    const key = process.env.ANTHROPIC_API_KEY ?? "";
+    const raw = process.env.ANTHROPIC_API_KEY ?? "";
+    const key = cleanKey(raw);
     return res.status(200).json({
       ok: true,
       keyConfigured: key.trim().length > 0,
-      keyLooksValid: /^sk-ant-/.test(key.trim()),
-      keyHasWhitespace: key.length > 0 && key !== key.trim(),
+      keyLooksValid: /^sk-ant-api\d\d-[\w-]{60,}$/.test(key),
+      keyPrefix: key.slice(0, 13), // "sk-ant-api03-" — the public, non-secret part only
+      keyLength: key.length,
+      keyHadQuotesOrSpaces: raw !== key,
       model: process.env.ANTHROPIC_MODEL?.trim() || "claude-sonnet-5-5",
       modelHasWhitespace: (process.env.ANTHROPIC_MODEL ?? "") !== (process.env.ANTHROPIC_MODEL ?? "").trim(),
       vercelEnv: process.env.VERCEL_ENV ?? "unknown",
@@ -46,7 +54,7 @@ export default async function handler(req: any, res: any) {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
   if (rateLimited(clientIp(req))) return res.status(429).json({ error: "Too many requests" });
 
-  const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
+  const apiKey = cleanKey(process.env.ANTHROPIC_API_KEY ?? "");
   if (!apiKey) return res.status(503).json({ error: "AI is not configured" });
 
   try {
