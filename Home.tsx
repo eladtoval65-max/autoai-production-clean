@@ -353,8 +353,9 @@ export default function Home() {
           messages: next.map((m) => ({ role: m.from === "user" ? "user" : "assistant", content: m.text })),
         }),
       });
-      const data = await response.json();
+      const data = await response.json().catch(() => { throw new Error(`HTTP_${response.status}`); });
       if (!response.ok) {
+        if (response.status === 429) throw new Error("RATE_LIMITED");
         if (response.status === 503) throw new Error("AI_NOT_CONFIGURED");
         if (response.status === 502) throw new Error("AI_PROVIDER_ERROR");
         throw new Error(data?.error || "Chat request failed");
@@ -367,7 +368,9 @@ export default function Home() {
         ? "הצ׳אט עדיין לא מוגדר ב־Vercel. יש להוסיף את ANTHROPIC_API_KEY בסביבת Production ולבצע Redeploy."
         : code === "AI_PROVIDER_ERROR"
           ? "מפתח ה־AI קיים, אבל Anthropic דחה את הבקשה. בדוק שהמפתח פעיל ושיש הרשאת שימוש במודל, ואז בצע Redeploy."
-          : "הצ׳אט לא הצליח להתחבר כרגע. נסה שוב בעוד רגע.";
+          : code === "RATE_LIMITED"
+            ? "יותר מדי שאלות בדקה האחרונה. נסה שוב בעוד דקה."
+            : `הצ׳אט לא הצליח להתחבר כרגע. נסה שוב בעוד רגע.${code.startsWith("HTTP_") ? ` (קוד ${code.slice(5)})` : ""}`;
       setMessages((prev) => [...prev, { from: "ai", text: reply, time: formatTime() }]);
     } finally { setChatLoading(false); }
   }

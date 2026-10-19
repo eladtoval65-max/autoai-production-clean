@@ -20,7 +20,7 @@ fs.mkdirSync(out, { recursive: true });
 fs.cpSync(staticSrc, path.join(out, "static"), { recursive: true });
 
 const functions = [
-  { name: "chat", entry: "api-src/chat.ts", maxDuration: 30, helpers: true },
+  { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },
   { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 30, helpers: false },
 ];
 
