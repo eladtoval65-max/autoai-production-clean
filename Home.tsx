@@ -1,1199 +1,1042 @@
-// CarAI Finder style reminder: Hebrew-first neo-industrial editorial; route/A motif, Signal Blue actions, transparent trade-offs, product-system density.
 import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
 import LeadRequestModal from "@/components/LeadRequestModal";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { toast } from "sonner";
-import { ArrowLeft, ArrowUpLeft, BarChart3, Bookmark, Check, ChevronLeft, CircleHelp, Copy, ExternalLink, Fuel, Gauge, Heart, ListChecks, MessageCircle, RotateCcw, Search, Share2, ShieldCheck, Sparkles, WalletCards, X } from "lucide-react";
+import {
+  ArrowLeft, ArrowRight, BatteryCharging, Building2, ChevronDown, CircleDashed, Fuel, Gauge, Heart, Languages,
+  MapPin, Milestone, PlugZap, RotateCcw, Route, Send, Share2, ShieldCheck, Sofa, Users, Wrench, X, type LucideIcon,
+} from "lucide-react";
+import { Link } from "wouter";
+import { photoFor } from "./vehicleImages";
+import { shekel, useLang, type Lang } from "./i18n";
 
-const heroImage = "/assets/hero.jpg";
-const markImage = "/assets/mark.png";
-
+// ─── Types & data ────────────────────────────────────────────────────────────
 type Car = {
-  id: string; make: string; years: string; price: number; score: number; use: string; image: string; fuel: string;
+  id: string; make: string; years: string; price: number; score: number; use: string; fuel: string;
   reliability: number; safety: number; economy: number; comfort: number; fun: number;
   why: string; pros: string[]; cons: string[]; bodyType?: string;
-  insuranceMin?: number; insuranceMax?: number;
-  ownershipMonthly?: number;
-  // TCO breakdown components (from ownershipCosts JOIN)
+  insuranceMin?: number; insuranceMax?: number; ownershipMonthly?: number;
   fuelMonthly?: number; insuranceMonthlyAmt?: number; maintenanceMonthly?: number; depreciationMonthly?: number;
   marketRange?: string; dataNote?: string; dataStatus?: string; dataConfidence?: number;
-  sourceName?: string; sourceUrl?: string; lastVerifiedAt?: string;
+  sourceName?: string; sourceUrl?: string; lastVerifiedAt?: string; demo?: boolean;
 };
+type Ranked = Car & { match: number };
+type StepKey = "budget" | "use" | "priority" | "fuel" | "annualKm";
 type Answers = { budget: number; use: string; priority: string; fuel: string; family: string; annualKm: number; annualKmBand: "low" | "mid" | "high" };
+type Choice = { value: string | number; icon?: LucideIcon; amount?: string; he: [string, string]; en: [string, string] };
 
-const steps = [
-  { id: "budget",    label: "תקציב",     icon: WalletCards },
-  { id: "use",       label: "שימוש",     icon: Gauge },
-  { id: "priority",  label: "מה חשוב",  icon: ShieldCheck },
-  { id: "fuel",      label: "הנעה",      icon: Fuel },
-  { id: "annualKm",  label: "ק״מ בשנה", icon: Gauge },
-];
+const FULL: StepKey[] = ["budget", "use", "priority", "fuel", "annualKm"];
+const QUICK: StepKey[] = ["budget", "use", "fuel"];
+const REGISTRATION = 121;
+const FUEL_HE: Record<string, string> = { hybrid: "היברידי", petrol: "בנזין", electric: "חשמלי" };
+const FUEL_EN: Record<string, string> = { "היברידי": "Hybrid", "בנזין": "Petrol", "חשמלי": "Electric", "דיזל": "Diesel" };
 
-// annualKm step choices — value is the band key, km set in choose()
-const annualKmChoices: (string | number)[][] = [
-  ["low",  "עד 10,000 ק״מ",        "נסיעות קצרות בעיר בעיקר", "↙"],
-  ["mid",  "10,000–20,000 ק״מ",    "שימוש ממוצע, מעורב",      "→"],
-  ["high", "מעל 20,000 ק״מ",       "הרבה כביש מהיר",          "↗"],
-];
+const choices: Record<StepKey, Choice[]> = {
+  budget: [
+    { value: 60000, amount: "≤60K", he: ["עד ₪60,000", "יד שנייה חכמה ונגישה"], en: ["Up to ₪60,000", "Smart, accessible used cars"] },
+    { value: 100000, amount: "60–100K", he: ["בין ₪60,000 ל-₪100,000", "הטווח הכי גמיש"], en: ["₪60,000–100,000", "The most flexible range"] },
+    { value: 180000, amount: "100K+", he: ["מעל ₪100,000", "יותר מרחב וטכנולוגיה"], en: ["Over ₪100,000", "More space and technology"] },
+  ],
+  use: [
+    { value: "city", icon: Building2, he: ["עיר ויום-יום", "חניה קלה, חיסכון וזריזות"], en: ["City and daily errands", "Easy parking, economy, agility"] },
+    { value: "family", icon: Users, he: ["משפחה וטיולים", "מרחב, בטיחות ונוחות"], en: ["Family and trips", "Space, safety, comfort"] },
+    { value: "highway", icon: Route, he: ["הרבה כביש מהיר", "שקט, יציבות ותא מטען"], en: ["Lots of highway", "Quiet, stability, boot space"] },
+    { value: "fun", icon: Gauge, he: ["הנאה מנהיגה", "אופי, ביצועים ותחושה"], en: ["Driving enjoyment", "Character and performance"] },
+  ],
+  priority: [
+    { value: "reliable", icon: Wrench, he: ["אמינות ושקט נפשי", "פחות הפתעות במוסך"], en: ["Reliability", "Fewer surprises at the garage"] },
+    { value: "economy", icon: Fuel, he: ["חיסכון בדלק", "עלות שוטפת נמוכה"], en: ["Fuel economy", "Low running cost"] },
+    { value: "safety", icon: ShieldCheck, he: ["בטיחות", "מערכות ומבנה שמגנים"], en: ["Safety", "Systems and structure that protect"] },
+    { value: "comfort", icon: Sofa, he: ["נוחות ואבזור", "נעים בכל נסיעה"], en: ["Comfort and equipment", "Pleasant on every drive"] },
+  ],
+  fuel: [
+    { value: "any", icon: CircleDashed, he: ["פתוח/ה להכול", "תנו לי את ההתאמה הטובה ביותר"], en: ["Open to anything", "Give me the best fit"] },
+    { value: "hybrid", icon: BatteryCharging, he: ["היברידי", "חיסכון חכם, במיוחד בעיר"], en: ["Hybrid", "Smart savings, especially in town"] },
+    { value: "petrol", icon: Fuel, he: ["בנזין", "פשוט, מוכר וזמין"], en: ["Petrol", "Simple and familiar"] },
+    { value: "electric", icon: PlugZap, he: ["חשמלי", "שקט, עלות אנרגיה אחרת"], en: ["Electric", "Quiet, different energy costs"] },
+  ],
+  annualKm: [
+    { value: "low", icon: MapPin, he: ["עד 10,000 ק״מ", "נסיעות קצרות, בעיקר בעיר"], en: ["Up to 10,000 km", "Short trips, mostly town"] },
+    { value: "mid", icon: Milestone, he: ["10,000–20,000 ק״מ", "שימוש ממוצע ומעורב"], en: ["10,000–20,000 km", "Average, mixed use"] },
+    { value: "high", icon: Route, he: ["מעל 20,000 ק״מ", "הרבה כביש מהיר"], en: ["Over 20,000 km", "Lots of highway"] },
+  ],
+};
 
 const fallbackCars: Car[] = [
-  { id: "corolla-hybrid", make: "Toyota Corolla 2022", years: "2022 · Hybrid · 1.8L", price: 100000, score: 95, use: "city", image: "/assets/vehicle-corolla-hybrid.jpg", fuel: "היברידי", reliability: 98, safety: 92, economy: 96, comfort: 86, fun: 76, why: "השילוב הכי רגוע בין חסכון, אמינות ושוק יד־שנייה חזק.", pros: ["חסכון משמעותי בעיר", "אמינות גבוהה", "קל למכור בהמשך"], cons: ["מחיר רכישה גבוה יותר", "עיצוב שמרני"] },
-  { id: "tucson",         make: "Hyundai Tucson 2022", years: "2022 · Petrol · 1.6T",  price: 128000, score: 91, use: "family", image: "/assets/vehicle-tucson.jpg", fuel: "בנזין", reliability: 90, safety: 91, economy: 76, comfort: 93, fun: 74, why: "בחירה מאוזנת למשפחה שרוצה מרחב, זמינות ושקט תפעולי.", pros: ["מרחב פנים מצוין", "שירות נפוץ בישראל", "בטיחות טובה"], cons: ["צריכת דלק בינונית", "פחות זריז בעיר"] },
-  { id: "mazda3",         make: "Mazda 3 2022",        years: "2022 · Petrol · 2.0L",  price: 95000,  score: 89, use: "fun",    image: "/assets/vehicle-mazda3.jpg",  fuel: "בנזין", reliability: 89, safety: 91, economy: 78, comfort: 85, fun: 94, why: "למי שרוצה שהרכב ירגיש טוב גם אחרי שהגעת ליעד.", pros: ["עיצוב מוקפד", "נהיגה מהנה", "תא נוסעים איכותי"], cons: ["תא מטען קטן יחסית", "מושב אחורי צפוף"] },
-  { id: "corolla",        make: "Toyota Corolla 2022", years: "2022 · Petrol · 1.8L",  price: 92000,  score: 93, use: "highway", image: "/assets/vehicle-corolla.jpg", fuel: "בנזין", reliability: 97, safety: 90, economy: 86, comfort: 84, fun: 70, why: "בחירה בטוחה למי שמעדיף פחות דרמה ויותר עקביות לאורך זמן.", pros: ["אמינות מיתולוגית", "עלות אחזקה צפויה", "ערך יד־שנייה"], cons: ["פחות מרווחת מ־SUV", "אופי סולידי"] },
-  { id: "rav4",           make: "Toyota RAV4 2022",    years: "2022 · Hybrid · AWD",   price: 185000, score: 94, use: "family", image: "/assets/vehicle-rav4.jpg",    fuel: "היברידי", reliability: 97, safety: 96, economy: 91, comfort: 94, fun: 78, why: "SUV משפחתי עם שילוב חזק של בטיחות, מרחב וחסכון.", pros: ["מרחב למשפחה", "בטיחות גבוהה", "היברידי חסכוני"], cons: ["מחיר גבוה", "ביקוש גבוה ביד־שנייה"] },
-  { id: "niro",           make: "Kia Niro 2022",       years: "2022 · Hybrid · HEV",   price: 108000, score: 88, use: "city",   image: "/assets/vehicle-niro.jpg",    fuel: "היברידי", reliability: 90, safety: 86, economy: 92, comfort: 84, fun: 68, why: "קרוסאובר חסכוני וקומפקטי עם עלות שימוש הגיונית.", pros: ["חסכוני בעיר", "שימושי למשפחה", "שקט בנסיעה"], cons: ["ביצועים בינוניים תחת עומס", "חבילת בטיחות תלויה בגרסה"] },
-  { id: "ioniq5",         make: "Hyundai Ioniq 5 2022", years: "2022 · Electric · RWD", price: 122000, score: 87, use: "highway", image: "/assets/vehicle-ioniq5.jpg", fuel: "חשמלי", reliability: 91, safety: 95, economy: 88, comfort: 95, fun: 90, why: "חשמלית מרווחת עם טעינה מהירה וחווית שימוש עתידנית.", pros: ["טעינה מהירה", "מרווח מעולה", "שקט ועלויות שוטפות נמוכות"], cons: ["טווח משתנה בתנאים אמיתיים", "צריך גישה לטעינה"] },
+  { id: "corolla-hybrid", make: "Toyota Corolla Hybrid 2022", years: "2022 · Hybrid · 1.8L", price: 100000, score: 95, use: "city", fuel: "היברידי", reliability: 98, safety: 92, economy: 96, comfort: 86, fun: 76, why: "השילוב הרגוע ביותר בין חיסכון, אמינות ושוק יד שנייה חזק.", pros: ["חיסכון משמעותי בעיר", "אמינות גבוהה", "קל למכור בהמשך"], cons: ["מחיר רכישה גבוה יותר", "עיצוב שמרני"] },
+  { id: "tucson", make: "Hyundai Tucson 2022", years: "2022 · Petrol · 1.6T", price: 128000, score: 91, use: "family", fuel: "בנזין", reliability: 90, safety: 91, economy: 76, comfort: 93, fun: 74, why: "בחירה מאוזנת למשפחה שרוצה מרחב, זמינות ושקט תפעולי.", pros: ["מרחב פנים מצוין", "שירות נפוץ בישראל", "בטיחות טובה"], cons: ["צריכת דלק בינונית", "פחות זריז בעיר"] },
+  { id: "mazda3", make: "Mazda 3 2022", years: "2022 · Petrol · 2.0L", price: 95000, score: 89, use: "fun", fuel: "בנזין", reliability: 89, safety: 91, economy: 78, comfort: 85, fun: 94, why: "למי שרוצה שהרכב ירגיש טוב גם אחרי שהגיע ליעד.", pros: ["עיצוב מוקפד", "נהיגה מהנה", "תא נוסעים איכותי"], cons: ["תא מטען קטן יחסית", "מושב אחורי צפוף"] },
+  { id: "corolla", make: "Toyota Corolla 2022", years: "2022 · Petrol · 1.8L", price: 92000, score: 93, use: "highway", fuel: "בנזין", reliability: 97, safety: 90, economy: 86, comfort: 84, fun: 70, why: "בחירה בטוחה למי שמעדיף פחות דרמה ויותר עקביות לאורך זמן.", pros: ["אמינות גבוהה מאוד", "עלות אחזקה צפויה", "ערך יד שנייה"], cons: ["פחות מרווחת מ-SUV", "אופי סולידי"] },
+  { id: "rav4", make: "Toyota RAV4 Hybrid 2022", years: "2022 · Hybrid · AWD", price: 185000, score: 94, use: "family", fuel: "היברידי", reliability: 97, safety: 96, economy: 91, comfort: 94, fun: 78, why: "SUV משפחתי עם שילוב חזק של בטיחות, מרחב וחיסכון.", pros: ["מרחב למשפחה", "בטיחות גבוהה", "היברידי חסכוני"], cons: ["מחיר גבוה", "ביקוש גבוה ביד שנייה"] },
+  { id: "niro", make: "Kia Niro Hybrid 2022", years: "2022 · Hybrid · HEV", price: 108000, score: 88, use: "city", fuel: "היברידי", reliability: 90, safety: 86, economy: 92, comfort: 84, fun: 68, why: "קרוסאובר חסכוני וקומפקטי עם עלות שימוש הגיונית.", pros: ["חסכוני בעיר", "שימושי למשפחה", "שקט בנסיעה"], cons: ["ביצועים בינוניים בעומס", "חבילת בטיחות תלויה בגרסה"] },
+  { id: "ioniq5", make: "Hyundai Ioniq 5 2022", years: "2022 · Electric · RWD", price: 122000, score: 87, use: "highway", fuel: "חשמלי", reliability: 91, safety: 95, economy: 88, comfort: 95, fun: 90, why: "חשמלית מרווחת עם טעינה מהירה וחוויית שימוש מתקדמת.", pros: ["טעינה מהירה", "מרווחת מאוד", "עלויות שוטפות נמוכות"], cons: ["טווח משתנה בתנאי אמת", "צריך גישה לטעינה"] },
 ];
 
-const vehicleEconomics: Record<string, { insuranceMin: number; insuranceMax: number; ownershipMonthly: number; marketRange: string; dataNote: string }> = {
-  "corolla-hybrid": { insuranceMin: 450, insuranceMax: 900, ownershipMonthly: 2750, marketRange: "₪85K–₪115K", dataNote: "Estimate · verified model sources" },
-  tucson:           { insuranceMin: 350, insuranceMax: 550, ownershipMonthly: 1600, marketRange: "₪105K–₪135K", dataNote: "Estimate · Israeli market indicators" },
-  mazda3:           { insuranceMin: 240, insuranceMax: 400, ownershipMonthly: 1200, marketRange: "₪85K–₪110K",  dataNote: "Estimate · Israeli market indicators" },
-  corolla:          { insuranceMin: 450, insuranceMax: 900, ownershipMonthly: 2300, marketRange: "₪88K–₪110K",  dataNote: "Estimate · verify trim" },
-  rav4:             { insuranceMin: 500, insuranceMax: 900, ownershipMonthly: 2400, marketRange: "₪175K–₪200K", dataNote: "Estimate · limited asking-price sample" },
-  niro:             { insuranceMin: 300, insuranceMax: 500, ownershipMonthly: 1850, marketRange: "₪95K–₪120K",  dataNote: "Estimate · HEV only" },
-  ioniq5:           { insuranceMin: 450, insuranceMax: 750, ownershipMonthly: 1300, marketRange: "₪109K–₪134K", dataNote: "Estimate · home charging assumed" },
+const vehicleEconomics: Record<string, { insuranceMin: number; insuranceMax: number; ownershipMonthly: number; marketRange: string }> = {
+  "corolla-hybrid": { insuranceMin: 450, insuranceMax: 900, ownershipMonthly: 2750, marketRange: "₪85K–₪115K" },
+  tucson: { insuranceMin: 350, insuranceMax: 550, ownershipMonthly: 1600, marketRange: "₪105K–₪135K" },
+  mazda3: { insuranceMin: 240, insuranceMax: 400, ownershipMonthly: 1200, marketRange: "₪85K–₪110K" },
+  corolla: { insuranceMin: 450, insuranceMax: 900, ownershipMonthly: 2300, marketRange: "₪88K–₪110K" },
+  rav4: { insuranceMin: 500, insuranceMax: 900, ownershipMonthly: 2400, marketRange: "₪175K–₪200K" },
+  niro: { insuranceMin: 300, insuranceMax: 500, ownershipMonthly: 1850, marketRange: "₪95K–₪120K" },
+  ioniq5: { insuranceMin: 450, insuranceMax: 750, ownershipMonthly: 1300, marketRange: "₪109K–₪134K" },
 };
 
-const useChoices      = [["city","עיר ויום־יום","חניה קלה, חסכון וזריזות","⌂"],["family","משפחה וטיולים","מרחב, בטיחות ונוחות","＋"],["highway","הרבה כביש","שקט, יציבות ותא מטען","↗"],["fun","הנאה מנהיגה","אופי, ביצועים ותחושה","✦"]];
-const priorityChoices = [["reliable","אמינות ושקט נפשי","פחות הפתעות במוסך","✓"],["economy","חסכון בדלק","עלות שוטפת נמוכה","₪"],["safety","בטיחות","מערכות ומבנה מגנים","⊙"],["comfort","נוחות ואבזור","נעים בכל נסיעה","⌁"]];
-const fuelChoices     = [["any","פתוח להכול","תנו לי את ההתאמה הכי טובה","◌"],["hybrid","היברידי","חסכון חכם במיוחד בעיר","⚡"],["petrol","בנזין","פשוט, מוכר וזמין","◒"],["electric","חשמלי","נסיעה שקטה ועלויות דלק שונות","↯"]];
-const budgetChoices   = [[60000,"עד ₪60,000","יד־שנייה חכמה ונגישה","01"],[100000,"₪60,000–100,000","הטווח הכי גמיש","02"],[180000,"מעל ₪100,000","יותר מרחב וטכנולוגיה","03"]];
+const useByName: Record<string, string> = {
+  "toyota corolla hybrid": "city", "hyundai tucson": "family", "mazda mazda3": "fun", "mazda mazda 3": "fun",
+  "toyota corolla": "highway", "toyota rav4 hybrid": "family", "kia niro hybrid": "city", "hyundai ioniq 5": "highway",
+  "kia sportage hybrid": "family", "nissan qashqai": "family", "mg mg4 electric": "city", "hyundai ioniq 6": "highway",
+  "skoda octavia": "highway", "ford puma hybrid": "city", "volkswagen golf": "fun", "toyota yaris cross hybrid": "city",
+  "toyota yaris cross": "city", "peugeot 308": "fun", "byd atto 3": "family", "jaecoo j7": "family", "hyundai kona hybrid": "city",
+  "toyota corolla cross hybrid": "family", "chery tiggo 8 pro": "family", "kia picanto": "city",
+};
 
-const formatTime = () => new Date().toLocaleTimeString("he-IL", { hour: "2-digit", minute: "2-digit" });
-const track = (event: string) => { try { const events = JSON.parse(localStorage.getItem("carai-events") || "[]"); events.push({ event, at: new Date().toISOString() }); localStorage.setItem("carai-events", JSON.stringify(events.slice(-100))); } catch {} };
+const formatTime = (lang: Lang) => new Date().toLocaleTimeString(lang === "he" ? "he-IL" : "en-US", { hour: "2-digit", minute: "2-digit" });
+const track = (event: string) => { try { const e = JSON.parse(localStorage.getItem("carai-events") || "[]"); e.push({ event, at: new Date().toISOString() }); localStorage.setItem("carai-events", JSON.stringify(e.slice(-100))); } catch {} };
+const shortName = (make: string) => make.split(" · ")[0];
 
-/**
- * 6-factor weighted scoring engine
- * Budget 25% · Use match 20% · TCO 20% · Reliability 15% · Safety 10% · Priority 10%
- * annualKm adjustments: ±3–5 pts based on fuel type fit
- */
-function computeScore(car: Car, answers: Answers): number {
-  let score = 0;
-
-  // 1. Budget fit (25%)
-  if (car.price <= answers.budget * 0.85)       score += 25;
-  else if (car.price <= answers.budget)          score += 18;
-  else if (car.price <= answers.budget * 1.1)   score +=  8;
-
-  // 2. Use match (20%) — body type alignment
-  const useBodyMap: Record<string, string[]> = {
-    city:    ["hatchback", "sedan"],
-    family:  ["suv", "minivan"],
-    highway: ["sedan", "suv"],
-    fun:     ["sedan", "hatchback"],
-  };
-  score += (useBodyMap[answers.use] ?? []).includes((car.bodyType ?? "").toLowerCase()) ? 20 : 10;
-
-  // 3. TCO score (20%) — lower monthly = higher score
-  const monthly = car.ownershipMonthly ?? 2200;
-  if      (monthly < 1500) score += 20;
-  else if (monthly < 1800) score += 16;
-  else if (monthly < 2200) score += 11;
-  else                     score +=  5;
-
-  // 4. Reliability (15%)
-  score += Math.round((car.reliability / 100) * 15);
-
-  // 5. Safety (10%)
-  score += Math.round((car.safety / 100) * 10);
-
-  // 6. Priority boost (10%)
-  const priorityField: Record<string, keyof Car> = {
-    reliable: "reliability", economy: "economy", safety: "safety", comfort: "comfort",
-  };
-  const field = priorityField[answers.priority ?? "reliable"];
-  if (field) score += Math.round(((car[field] as number) / 100) * 10);
-
-  // annualKm adjustments
-  if (answers.annualKmBand === "low"  && car.fuel === "חשמלי")  score -= 5; // EV not worth it at low km
-  if (answers.annualKmBand === "high" && car.fuel === "היברידי") score += 4; // hybrid shines at high km
-  if (answers.annualKmBand === "high" && car.fuel === "חשמלי")  score -= 3; // range concerns
-
-  // Fuel preference match
-  if (answers.fuel && answers.fuel !== "any") {
-    const fuelMap: Record<string, string> = { hybrid: "היברידי", petrol: "בנזין", electric: "חשמלי" };
-    if (fuelMap[answers.fuel] && car.fuel !== fuelMap[answers.fuel]) score -= 6;
-  }
-
-  return Math.min(99, Math.max(35, score));
+/** 6-factor weighted score: budget 25 · use 20 · TCO 20 · reliability 15 · safety 10 · priority 10, plus km/fuel adjustments. */
+function computeScore(car: Car, a: Answers): number {
+  let s = 0;
+  if (car.price <= a.budget * 0.85) s += 25; else if (car.price <= a.budget) s += 18; else if (car.price <= a.budget * 1.1) s += 8;
+  const useBody: Record<string, string[]> = { city: ["hatchback", "sedan"], family: ["suv", "minivan"], highway: ["sedan", "suv"], fun: ["sedan", "hatchback"] };
+  const body = (car.bodyType ?? "").toLowerCase();
+  s += a.use ? ((useBody[a.use] ?? []).includes(body) || car.use === a.use ? 20 : 10) : 14;
+  const m = car.ownershipMonthly ?? 2200;
+  s += m < 1500 ? 20 : m < 1800 ? 16 : m < 2200 ? 11 : 5;
+  s += Math.round((car.reliability / 100) * 15);
+  s += Math.round((car.safety / 100) * 10);
+  const field: Record<string, keyof Car> = { reliable: "reliability", economy: "economy", safety: "safety", comfort: "comfort" };
+  const f = field[a.priority || "reliable"];
+  if (f) s += Math.round(((car[f] as number) / 100) * 10);
+  if (a.annualKmBand === "low" && car.fuel === "חשמלי") s -= 5;
+  if (a.annualKmBand === "high" && car.fuel === "היברידי") s += 4;
+  if (a.annualKmBand === "high" && car.fuel === "חשמלי") s -= 3;
+  if (a.fuel && a.fuel !== "any" && FUEL_HE[a.fuel] && car.fuel !== FUEL_HE[a.fuel]) s -= 6;
+  return Math.min(99, Math.max(35, s));
 }
 
-export default function Home() {
-  let { user, loading, error, isAuthenticated, logout } = useAuth();
+type Dict = ReturnType<typeof useLang>["t"];
+type Code = "off" | "est" | "miss";
 
-  // Stable session ID for search history — generated once per mount
+/** Monthly components with provenance; registration is the official annual licence fee (₪121/month). */
+function tcoRows(car: Car, km: number, t: Dict): { label: string; value?: number; code: Code }[] {
+  const f = km / 15000;
+  const fuel = car.fuelMonthly != null ? Math.round(car.fuelMonthly * f) : undefined;
+  const ins = car.insuranceMonthlyAmt ?? (car.insuranceMin && car.insuranceMax ? Math.round((car.insuranceMin + car.insuranceMax) / 2) : undefined);
+  const rows: { label: string; value?: number; code: Code }[] = [
+    { label: t.fuelLine, value: fuel, code: "est" },
+    { label: t.insuranceLine, value: ins, code: "est" },
+    { label: t.maintenanceLine, value: car.maintenanceMonthly, code: "est" },
+    { label: t.depreciationLine, value: car.depreciationMonthly, code: "est" },
+    { label: t.registrationLine, value: REGISTRATION, code: "off" },
+  ];
+  return rows.map((r) => (r.value == null ? { ...r, code: "miss" } : r));
+}
+
+function monthlyFor(car: Car | undefined, km: number): number {
+  if (!car) return 0;
+  if (car.ownershipMonthly) return Math.round(car.ownershipMonthly * (0.7 + 0.3 * (km / 15000)));
+  return Math.round(car.price * 0.08 / 12 + (km / 12) * (car.fuel === "היברידי" ? 0.42 : 0.62) + 500);
+}
+
+// ─── Page ────────────────────────────────────────────────────────────────────
+export default function Home() {
+  const { lang, t, dir, setLang } = useLang();
+  const { isAuthenticated } = useAuth();
   const sessionId = useMemo(() => `web-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`, []);
 
-  const [step, setStep]   = useState(0);
-  const [mode, setMode]   = useState<"quick" | "advanced">("advanced");
-  const [history, setHistory] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-history") || "[]"); } catch { return []; } });
+  const [mode, setMode] = useState<"quick" | "full">("full");
+  const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Answers>({ budget: 100000, use: "", priority: "", fuel: "", family: "", annualKm: 15000, annualKmBand: "mid" });
-
-  // Catalog is re-fetched when annualKm band changes so TCO JOIN uses the right row
-  const catalogQuery = trpc.catalog.list.useQuery({ limit: 100, annualKm: answers.annualKm });
-
-  // Save completed quiz sessions for signed-in users (analytics + future personalisation)
-  const saveSearch = trpc.searches.create.useMutation();
-  const [tab, setTab]     = useState<"finder" | "results" | "saved" | "compare" | "detail" | "analysis" | "tools">("finder");
+  const [tab, setTab] = useState<"results" | "saved" | "compare" | "detail" | "analysis" | "tools">("results");
   const [saved, setSaved] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-saved") || "[]"); } catch { return []; } });
-  const [compare, setCompare]   = useState<string[]>([]);
-  const [selectedVehicleId, setSelectedVehicleId] = useState<string | null>(null);
+  const [history, setHistory] = useState<string[]>(() => { try { return JSON.parse(localStorage.getItem("carai-history") || "[]"); } catch { return []; } });
+  const [compare, setCompare] = useState<string[]>([]);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showLead, setShowLead] = useState(false);
-  const [showCost, setShowCost] = useState(false);
-  const [question, setQuestion] = useState("");
-  const [messages, setMessages] = useState<{ from: "ai" | "user"; text: string; time: string }[]>([{ from: "ai", text: "אני אשאל 5 שאלות קצרות, ואז אחבר לך כיוון רכב שמרגיש נכון — כולל הסבר על הפשרות.", time: formatTime() }]);
-  const [chatLoading, setChatLoading] = useState(false);
+  const [costCar, setCostCar] = useState<Ranked | null>(null);
+  const resultsRef = useRef<HTMLElement>(null);
 
-  const cars = useMemo(() => {
-    const imageByName: Record<string, string> = {
-      "Toyota Corolla Hybrid": "/assets/vehicle-corolla-hybrid.jpg",
-      "Hyundai Tucson": "/assets/vehicle-tucson.jpg",
-      "Mazda Mazda 3": "/assets/vehicle-mazda3.jpg",
-      "Toyota Corolla": "/assets/vehicle-corolla.jpg",
-      "Toyota RAV4 Hybrid": "/assets/vehicle-rav4.jpg",
-      "Kia Niro Hybrid": "/assets/vehicle-niro.jpg",
-      "Hyundai Ioniq 5": "/assets/vehicle-ioniq5.jpg",
-      // Batch 2 — fallback to hero until vehicle images added
-      "Kia Sportage Hybrid": heroImage,
-      "Nissan Qashqai": heroImage,
-      "MG MG4 Electric": heroImage,
-      // Batch 3
-      "Ioniq 6": heroImage,
-      "Hyundai Ioniq 6": heroImage,
-      "Octavia": heroImage,
-      "Skoda Octavia": heroImage,
-      // Batch 4
-      "Puma Hybrid": heroImage,
-      "Ford Puma Hybrid": heroImage,
-      "Golf": heroImage,
-      "Volkswagen Golf": heroImage,
-      // Batch 5
-      "Yaris Cross Hybrid": heroImage,
-      "Toyota Yaris Cross Hybrid": heroImage,
-      "308": heroImage,
-      "Peugeot 308": heroImage,
-      "Atto 3": heroImage,
-      "BYD Atto 3": heroImage,
-      // Batch 6 — TOP sellers Israel 2025
-      "J7": heroImage,
-      "Jaecoo J7": heroImage,
-      "Kona Hybrid": heroImage,
-      "Hyundai Kona Hybrid": heroImage,
-      "Corolla Cross Hybrid": heroImage,
-      "Toyota Corolla Cross Hybrid": heroImage,
-      "Tiggo 8 Pro": heroImage,
-      "Chery Tiggo 8 Pro": heroImage,
-      "Picanto": heroImage,
-      "Kia Picanto": heroImage,
-    };
-    const useByName: Record<string, string> = {
-      "Toyota Corolla Hybrid": "city", "Hyundai Tucson": "family", "Mazda Mazda 3": "fun",
-      "Toyota Corolla": "highway", "Toyota RAV4 Hybrid": "family", "Kia Niro Hybrid": "city", "Hyundai Ioniq 5": "highway",
-      // Batch 2
-      "Kia Sportage Hybrid": "family", "Nissan Qashqai": "family", "MG MG4 Electric": "city",
-      // Batch 3
-      "Ioniq 6": "highway", "Hyundai Ioniq 6": "highway",
-      "Octavia": "highway", "Skoda Octavia": "highway",
-      // Batch 4
-      "Puma Hybrid": "city", "Ford Puma Hybrid": "city",
-      "Golf": "fun", "Volkswagen Golf": "fun",
-      // Batch 5
-      "Yaris Cross Hybrid": "city", "Toyota Yaris Cross Hybrid": "city",
-      "308": "fun", "Peugeot 308": "fun",
-      "Atto 3": "family", "BYD Atto 3": "family",
-      // Batch 6
-      "J7": "family", "Jaecoo J7": "family",
-      "Kona Hybrid": "city", "Hyundai Kona Hybrid": "city",
-      "Corolla Cross Hybrid": "family", "Toyota Corolla Cross Hybrid": "family",
-      "Tiggo 8 Pro": "family", "Chery Tiggo 8 Pro": "family",
-      "Picanto": "city", "Kia Picanto": "city",
-    };
-    const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
+  const catalogQuery = trpc.catalog.list.useQuery({ limit: 100, annualKm: answers.annualKm }, { retry: 1 });
+  const saveSearch = trpc.searches.create.useMutation();
+
+  const cars = useMemo<Car[]>(() => {
     const rows = catalogQuery.data ?? [];
-    if (!rows.length) return fallbackCars.map(car => ({ ...car, dataNote: "נתוני הדגמה בלבד — הקטלוג החי אינו זמין כרגע; אין להסתמך על המחיר או הדירוג לקבלת החלטת קנייה." }));
+    const fuelLabel: Record<string, string> = { Hybrid: "היברידי", Petrol: "בנזין", Electric: "חשמלי", Diesel: "דיזל" };
+    if (!rows.length) return fallbackCars.map((c) => ({ ...c, ...vehicleEconomics[c.id], demo: true }));
     return rows.map((row): Car => {
       const name = `${row.make} ${row.model}`;
-      const normalizedName = name.toLowerCase();
-      const image = Object.entries(imageByName).find(([key]) => normalizedName === key.toLowerCase())?.[1]
-        ?? (normalizedName.includes("corolla") ? "/assets/vehicle-corolla.jpg" : heroImage);
       const price = row.marketSnapshotMedian ?? row.marketMinPrice ?? 0;
       const marketRange = row.marketSnapshotMin && row.marketSnapshotMax
-        ? `₪${row.marketSnapshotMin.toLocaleString()}–₪${row.marketSnapshotMax.toLocaleString()}`
-        : `₪${price.toLocaleString()}`;
-      const registryNote = row.officialRegisteredCount !== null && row.officialRegisteredCount !== undefined
-        ? `מקור רשמי: ${row.officialRegisteredCount.toLocaleString()} כלי רכב מדגם ${row.officialRegistryCommercialName}, שנת ${row.yearFrom}`
-        : "אין עדיין ספירת רישום רשמית לדגם הזה";
-      const marketDate = row.marketSnapshotObservedAt ? new Date(row.marketSnapshotObservedAt).toLocaleDateString("he-IL") : "לא ידוע";
-      const qualityLabel = row.dataStatus === "verified" ? "מאומת" : row.dataStatus === "stale" ? "דורש רענון" : row.dataStatus === "missing" ? "חסר מידע" : "אומדן מסומן";
-      const sourceNote = row.primarySourceName ? `מקור ראשי: ${row.primarySourceName}` : "מקור ראשי טרם שויך";
-      const confidenceNote = typeof row.dataConfidence === "number" ? `רמת ביטחון: ${row.dataConfidence}/100` : "רמת ביטחון לא הוגדרה";
-      const officialNote = `${registryNote}. מחיר: אומדן השוואתי, נצפה ב־${marketDate}; ${row.marketSnapshotDisclaimer ?? "לא הצעת מחיר חיה"} ${sourceNote}. ${confidenceNote}. סטטוס: ${qualityLabel}.`;
+        ? `₪${row.marketSnapshotMin.toLocaleString()}–₪${row.marketSnapshotMax.toLocaleString()}` : `₪${price.toLocaleString()}`;
+      const registry = row.officialRegisteredCount != null
+        ? `מקור רשמי: ${row.officialRegisteredCount.toLocaleString()} כלי רכב מדגם ${row.officialRegistryCommercialName}, שנת ${row.yearFrom}.` : "אין עדיין ספירת רישום רשמית לדגם.";
+      const seen = row.marketSnapshotObservedAt ? new Date(row.marketSnapshotObservedAt).toLocaleDateString("he-IL") : "לא ידוע";
       return {
         id: String(row.id),
         make: `${name} · ${row.trimName}`,
         years: `${row.yearFrom}${row.yearTo !== row.yearFrom ? `–${row.yearTo}` : ""} · ${row.fuelType} · ${row.bodyType}`,
-        price,
-        score: Math.round((row.reliabilityScore + row.safetyScore + row.economyScore + row.comfortScore + row.practicalityScore) / 5),
-        use: useByName[name] ?? (row.bodyType.toLowerCase().includes("suv") ? "family" : "city"),
-        image, fuel: fuelLabel[row.fuelType] ?? row.fuelType,
-        reliability: row.reliabilityScore, safety: row.safetyScore, economy: row.economyScore,
-        comfort: row.comfortScore, fun: row.practicalityScore,
-        why: row.ownershipNotes ?? "המלצה המבוססת על נתוני הדגם והעדפות השימוש שלך.",
-        pros: row.pros ?? [], cons: row.cons ?? [],
-        bodyType: row.bodyType,
-        insuranceMin: row.insuranceMonthlyMin ?? undefined,
-        insuranceMax: row.insuranceMonthlyMax ?? undefined,
+        price, score: Math.round((row.reliabilityScore + row.safetyScore + row.economyScore + row.comfortScore + row.practicalityScore) / 5),
+        use: useByName[name.toLowerCase()] ?? (row.bodyType.toLowerCase().includes("suv") ? "family" : "city"),
+        fuel: fuelLabel[row.fuelType] ?? row.fuelType,
+        reliability: row.reliabilityScore, safety: row.safetyScore, economy: row.economyScore, comfort: row.comfortScore, fun: row.practicalityScore,
+        why: row.ownershipNotes ?? "המלצה לפי נתוני הדגם והעדפות השימוש שלך.", pros: row.pros ?? [], cons: row.cons ?? [], bodyType: row.bodyType,
+        insuranceMin: row.insuranceMonthlyMin ?? undefined, insuranceMax: row.insuranceMonthlyMax ?? undefined,
         ownershipMonthly: row.ownershipCostMonthly ?? row.estimatedMonthlyCost ?? undefined,
-        // TCO breakdown from ownershipCosts JOIN (tco* fields added in db.ts)
-        fuelMonthly:        row.tcoFuelMonthly        ?? undefined,
-        insuranceMonthlyAmt:row.tcoInsuranceMonthly   ?? undefined,
-        maintenanceMonthly: row.tcoMaintenanceMonthly  ?? undefined,
-        depreciationMonthly:row.tcoDepreciationMonthly ?? undefined,
-        marketRange, dataNote: officialNote,
-        dataStatus: row.dataStatus ?? "estimated",
-        dataConfidence: row.dataConfidence ?? 0,
-        sourceName: row.primarySourceName ?? undefined,
-        sourceUrl: row.primarySourceUrl ?? undefined,
+        fuelMonthly: row.tcoFuelMonthly ?? undefined, insuranceMonthlyAmt: row.tcoInsuranceMonthly ?? undefined,
+        maintenanceMonthly: row.tcoMaintenanceMonthly ?? undefined, depreciationMonthly: row.tcoDepreciationMonthly ?? undefined,
+        marketRange,
+        dataNote: `${registry} מחיר: אומדן השוואתי שנצפה ב-${seen}; ${row.marketSnapshotDisclaimer ?? "לא הצעת מחיר חיה."}${row.primarySourceName ? ` מקור: ${row.primarySourceName}.` : ""}`,
+        dataStatus: row.dataStatus ?? "estimated", dataConfidence: row.dataConfidence ?? 0,
+        sourceName: row.primarySourceName ?? undefined, sourceUrl: row.primarySourceUrl ?? undefined,
         lastVerifiedAt: row.lastVerifiedAt ? new Date(row.lastVerifiedAt).toLocaleDateString("he-IL") : undefined,
       };
     });
   }, [catalogQuery.data]);
 
+  const ranked = useMemo<Ranked[]>(() => cars.map((c) => ({ ...c, match: computeScore(c, answers) })).sort((a, b) => b.match - a.match), [cars, answers]);
+  const leader = ranked[0];
+  const order = mode === "quick" ? QUICK : FULL;
+  const done = step >= order.length;
+  const complete = done && Boolean(answers.use && answers.fuel);
+  const isDemo = Boolean(cars[0]?.demo);
+
   useEffect(() => { try { localStorage.setItem("carai-saved", JSON.stringify(saved)); } catch {} }, [saved]);
-
-  const complete   = Boolean(answers.use && answers.priority && answers.fuel);
-  const currentKey = steps[step]?.id;
-
-  const ranked = useMemo(() => {
-    return [...cars]
-      .map((car) => {
-        const merged = { ...car, ...(vehicleEconomics[car.id] ?? {}) };
-        return { ...merged, match: computeScore(merged, answers) };
-      })
-      .sort((a, b) => b.match - a.match);
-  }, [answers, cars]);
-
-  const result = ranked[0];
-
   useEffect(() => {
-    if (complete && result) {
-      const next = [result.id, ...history.filter((id) => id !== result.id)].slice(0, 8);
-      setHistory(next);
-      try { localStorage.setItem("carai-history", JSON.stringify(next)); } catch {}
-      track("quiz_completed");
+    if (!complete || !leader) return;
+    const next = [leader.id, ...history.filter((id) => id !== leader.id)].slice(0, 8);
+    setHistory(next);
+    try { localStorage.setItem("carai-history", JSON.stringify(next)); } catch {}
+    track("quiz_completed");
+    if (isAuthenticated) {
+      const trim = Number(leader.id);
+      saveSearch.mutate({ sessionId, answers: answers as unknown as Record<string, unknown>, topMatchTrimId: Number.isFinite(trim) && trim > 0 ? trim : undefined, topMatchScore: leader.match });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [complete, leader?.id]);
 
-      // Persist search session for signed-in users — powers future personalisation & analytics
-      if (isAuthenticated) {
-        const topTrimId = (() => { const n = Number(result.id); return Number.isFinite(n) && n > 0 ? n : undefined; })();
-        saveSearch.mutate({
-          sessionId,
-          answers: answers as unknown as Record<string, unknown>,
-          topMatchTrimId: topTrimId,
-          topMatchScore: result.match,
-        });
+  function choose(key: StepKey, value: string | number) {
+    track(`answer_${key}`);
+    setAnswers((prev) => {
+      if (key === "annualKm") {
+        const band = value as Answers["annualKmBand"];
+        return { ...prev, annualKmBand: band, annualKm: band === "low" ? 7000 : band === "high" ? 25000 : 15000 };
       }
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [complete, result?.id]);
-
-  const compareCars = ranked.filter((car) => compare.includes(car.id));
-
-  // Monthly cost: scales fuel component by annualKm vs 15k baseline; uses real TCO when available
-  const kmFactor = answers.annualKm / 15000;
-  const monthly = result?.ownershipMonthly
-    ? Math.round(result.ownershipMonthly * (0.7 + 0.3 * kmFactor))
-    : Math.round((result?.price ?? 0) * 0.08 / 12 + (answers.annualKm / 12 * (result?.fuel === "היברידי" ? 0.42 : 0.62)) + 500);
-
-  function choose(value: string | number) {
-    track(`answer_${currentKey}`);
-    const key = currentKey as keyof Answers;
-    if (mode === "quick" && currentKey === "use") {
-      setAnswers((prev) => ({ ...prev, [key]: value, priority: prev.priority || "reliable" }));
-      setTimeout(() => setStep(3), 160);
-      return;
-    }
-    if (currentKey === "annualKm") {
-      const band = value as "low" | "mid" | "high";
-      const kmVal = band === "low" ? 7000 : band === "high" ? 25000 : 15000;
-      setAnswers((prev) => ({ ...prev, annualKmBand: band, annualKm: kmVal }));
-      setTimeout(() => setStep((prev) => Math.min(prev + 1, steps.length)), 160);
-      return;
-    }
-    setAnswers((prev) => ({ ...prev, [key]: value }));
-    setTimeout(() => setStep((prev) => Math.min(prev + 1, steps.length)), 160);
+      const next = { ...prev, [key]: value } as Answers;
+      if (mode === "quick" && key === "use" && !prev.priority) next.priority = "reliable";
+      return next;
+    });
+    window.setTimeout(() => setStep((s) => Math.min(s + 1, order.length)), 180);
   }
-
-  function toggleSaved(id: string) {
-    track(saved.includes(id) ? "saved_removed" : "saved_added");
-    setSaved((prev) => prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]);
-    toast(saved.includes(id) ? "הוסר מהרשימה השמורה" : "נשמר לרשימת הרכבים שלך");
-  }
-  function toggleCompare(id: string) {
-    track(compare.includes(id) ? "compare_removed" : "compare_added");
-    setCompare((prev) => prev.includes(id) ? prev.filter((x) => x !== id) : prev.length < 3 ? [...prev, id] : (toast("אפשר להשוות עד 3 רכבים"), prev));
-  }
-  async function shareResult() {
-    const text = `ההתאמה שלי ב־CarAI: ${result.make} — ${result.match}%`;
-    if (navigator.share) await navigator.share({ title: "ההתאמה שלי ב־CarAI", text });
-    else { await navigator.clipboard.writeText(text); toast("הקישור הועתק — אפשר לשתף עם המשפחה"); }
-  }
-  async function sendQuestion(text = question) {
-    const trimmed = text.trim();
-    if (!trimmed || chatLoading) return;
-    const next = [...messages, { from: "user" as const, text: trimmed, time: formatTime() }];
-    setMessages(next); setQuestion(""); setChatLoading(true);
-    try {
-      const response = await fetch("/api/chat", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          system: "אתה AutoAI, יועץ רכב ישראלי אמין. ענה בעברית פשוטה, הסבר יתרונות וחסרונות, אל תמציא נתונים, ושאל שאלת המשך כשחסר מידע.",
-          messages: next.map((m) => ({ role: m.from === "user" ? "user" : "assistant", content: m.text })),
-        }),
-      });
-      const data = await response.json().catch(() => { throw new Error(`HTTP_${response.status}`); });
-      if (!response.ok) {
-        if (response.status === 429) throw new Error("RATE_LIMITED");
-        if (response.status === 503) throw new Error("AI_NOT_CONFIGURED");
-        if (response.status === 502) throw new Error("AI_PROVIDER_ERROR");
-        throw new Error(data?.error || "Chat request failed");
-      }
-      setMessages((prev) => [...prev, { from: "ai", text: data.reply || "לא הצלחתי לענות כרגע. נסה שוב.", time: formatTime() }]);
-    } catch (err) {
-      console.error("[Chat] request failed", err);
-      const code = err instanceof Error ? err.message : "";
-      const reply = code === "AI_NOT_CONFIGURED"
-        ? "הצ׳אט עדיין לא מוגדר ב־Vercel. יש להוסיף את ANTHROPIC_API_KEY בסביבת Production ולבצע Redeploy."
-        : code === "AI_PROVIDER_ERROR"
-          ? "מפתח ה־AI קיים, אבל Anthropic דחה את הבקשה. בדוק שהמפתח פעיל ושיש הרשאת שימוש במודל, ואז בצע Redeploy."
-          : code === "RATE_LIMITED"
-            ? "יותר מדי שאלות בדקה האחרונה. נסה שוב בעוד דקה."
-            : `הצ׳אט לא הצליח להתחבר כרגע. נסה שוב בעוד רגע.${code.startsWith("HTTP_") ? ` (קוד ${code.slice(5)})` : ""}`;
-      setMessages((prev) => [...prev, { from: "ai", text: reply, time: formatTime() }]);
-    } finally { setChatLoading(false); }
+  function switchMode(m: "quick" | "full") {
+    track(`mode_${m}`);
+    setMode(m);
+    setStep((s) => Math.min(s, (m === "quick" ? QUICK : FULL).length));
   }
   function reset() {
     track("quiz_reset");
     setStep(0);
     setAnswers({ budget: 100000, use: "", priority: "", fuel: "", family: "", annualKm: 15000, annualKmBand: "mid" });
-    setTab("finder");
+    setTab("results");
   }
-
-  return <main dir="rtl" className="min-h-screen bg-[#07090c] text-[#f4f6f8]">
-    <nav className="mx-auto flex max-w-[1400px] items-center justify-between border-b border-[#252a31] px-5 py-5 lg:px-10"><div className="flex items-center gap-3"><div className="flex h-8 w-8 items-center justify-center rounded-md bg-[#d9e8ff]"><img src={markImage} alt="" className="h-5 w-5 object-contain" /></div><div><div className="text-[16px] font-black tracking-[-.04em]">CarAI</div><div className="text-[9px] font-bold tracking-[.16em] text-[#7d8793]">FIND YOUR FIT</div></div></div><div className="hidden items-center gap-8 text-[12px] font-semibold text-[#9ca5b0] md:flex"><a href="#finder" className="hover:text-white">Recommendations</a><a href="#tools" className="hover:text-white">Market</a><a href="#chat" className="hover:text-white">AI Advisor</a></div><button onClick={() => { setTab("finder"); document.getElementById("finder")?.scrollIntoView({ behavior: "smooth" }); }} className="border border-[#39414b] bg-transparent px-4 py-2 text-xs font-bold text-white transition hover:border-[#9dd2ff] hover:text-[#9dd2ff]">Start your journey <ArrowLeft className="mr-1 inline h-3.5 w-3.5" /></button></nav>
-
-    <section dir="ltr" className="mx-auto max-w-[1400px] px-5 py-8 lg:px-10 lg:py-12"><div className="grid min-h-[560px] border border-[#2a3038] bg-[#101216] lg:grid-cols-[.92fr_1.08fr]"><div className="flex flex-col justify-between border-b border-[#2a3038] p-7 lg:border-b-0 lg:border-r lg:p-14"><div><div className="mb-12 flex items-center gap-3 text-[10px] font-bold tracking-[.18em] text-[#a7b3c1]"><span className="h-px w-8 bg-[#4d9df7]" />SMART BUYING SYSTEM / 01</div><h1 className="max-w-[570px] text-[clamp(3rem,6vw,6.5rem)] font-semibold leading-[.94] tracking-[-.075em] text-[#f5f6f7]">The smarter<br /><span className="text-[#79b9ff]">way to buy</span><br />a car.</h1><p className="mt-8 max-w-[430px] text-[15px] leading-7 text-[#aeb7c2]">Tell us what matters in your next car. We compare the trade-offs, running costs and real-world fit — before you speak to a seller.</p></div><div className="mt-12 flex items-end justify-between border-t border-[#2a3038] pt-5"><button onClick={() => document.getElementById("finder")?.scrollIntoView({ behavior: "smooth" })} className="bg-[#79b9ff] px-5 py-3 text-sm font-bold text-[#0b0e12] transition hover:bg-white">Start your journey <ArrowLeft className="mr-1 inline h-4 w-4" /></button><div className="text-right text-[10px] uppercase tracking-[.15em] text-[#6f7985]">5 questions<br /><span className="text-[#c8d1dc]">one clear direction</span></div></div></div><div className="relative min-h-[380px] overflow-hidden bg-[#171b20]"><img src={heroImage} alt="רכב כחול על כביש עירוני" className="absolute inset-0 h-full w-full object-cover opacity-80" /><div className="absolute inset-0 bg-gradient-to-r from-[#101216]/35 via-transparent to-transparent" /><div className="absolute bottom-0 left-0 right-0 flex items-center justify-between border-t border-white/15 bg-[#101216]/75 px-6 py-4 text-xs backdrop-blur-sm"><span className="text-[#b6c0cc]">Decision model</span><strong className="text-[#f5f6f7]">Budget · use · safety · TCO</strong></div></div></div></section>
-
-    <section className="mx-auto grid max-w-[1400px] grid-cols-2 border-y border-[#252a31] sm:grid-cols-3 lg:grid-cols-5">{[['01','Recommendations','PERSONAL FIT'],['02','Market data','PRICE CONTEXT'],['03','Ownership cost','MONTHLY VIEW'],['04','Expert notes','TRADE-OFFS'],['05','Trusted leads','NEXT STEP']].map(([num,label,meta]) => <div key={num} className="border-l border-[#252a31] px-4 py-5 first:border-l-0 lg:px-6"><div className="mb-3 text-[10px] font-bold tracking-[.16em] text-[#79b9ff]">{num}</div><p className="text-sm font-bold text-[#dce1e7]">{label}</p><p className="mt-1 text-[9px] tracking-[.14em] text-[#68727e]">{meta}</p></div>)}</section>
-
-    <section id="finder" className="scroll-mt-5 border-y border-[#26303a] bg-[#11151b]"><div className="mx-auto grid max-w-[1400px] lg:grid-cols-[250px_1fr]"><aside className="hidden border-l border-[#202832] bg-[#0d1117] p-7 lg:block"><div className="sticky top-6"><p className="text-[10px] font-black tracking-[.16em] text-[#7c8897]">מסלול ההתאמה</p><h3 className="mt-2 text-xl font-black">הבחירה שלך</h3><div className="mt-10 space-y-7">{steps.map((s, i) => <div className="flex items-center gap-3" key={s.id}><div className={`flex h-8 w-8 items-center justify-center rounded-full border text-xs font-black ${i < step ? "border-[#4aa3ff] bg-[#4aa3ff] text-white" : i === step ? "border-[#4aa3ff] bg-[#11151b] text-[#4aa3ff]" : "border-[#2b3642] bg-[#11151b] text-[#657281]"}`}>{i < step ? <Check className="h-4 w-4" /> : `0${i + 1}`}</div><span className={`text-sm font-bold ${i === step ? "text-[#f4f6f8]" : "text-[#7c8897]"}`}>{s.label}</span></div>)}</div><div className="mt-16 rounded-2xl bg-[#11151b] p-5 text-white"><Sparkles className="h-5 w-5 text-[#9dd2ff]" /><p className="mt-4 text-sm font-bold leading-6">המערכת מראה גם מה כדאי לדעת — לא רק מה נשמע טוב.</p></div></div></aside>
-      <div className="min-h-[650px] p-5 sm:p-8 lg:p-12"><div className="mb-10 border-b border-[#2a3038] pb-6"><div className="flex flex-wrap items-end justify-between gap-6"><div><p className="text-[10px] font-bold tracking-[.18em] text-[#79b9ff]">YOUR PERSONALIZED RECOMMENDATIONS</p><h2 className="mt-3 max-w-[620px] text-3xl font-semibold tracking-[-.055em] text-[#f5f6f7]">{tab === "finder" ? "Tell us what you need." : tab === "results" ? "Your personalized recommendations." : tab === "saved" ? "Saved vehicles." : tab === "compare" ? "Compare with clarity." : tab === "detail" ? "Vehicle details." : tab === "analysis" ? "Analysis, not opinions." : "Decision tools before you buy."}</h2></div><div className="flex items-center gap-3 text-[11px] font-bold"><span className="text-[#6f7985]">MODE</span><button onClick={() => { setMode("quick"); track("mode_quick"); }} className={`border-b-2 px-2 py-1 ${mode === "quick" ? "border-[#79b9ff] text-[#79b9ff]" : "border-transparent text-[#7d8793]"}`}>Quick</button><button onClick={() => { setMode("advanced"); track("mode_advanced"); }} className={`border-b-2 px-2 py-1 ${mode === "advanced" ? "border-[#79b9ff] text-[#79b9ff]" : "border-transparent text-[#7d8793]"}`}>Advanced</button></div></div><div className="mt-7 flex flex-wrap gap-x-6 gap-y-3">{[["finder","התאמה",Search],["results","תוצאות",BarChart3],["saved",`שמורים (${saved.length})`,Bookmark],["compare",`השוואה (${compare.length})`,Copy],["detail","Vehicle",Gauge],["analysis","Analysis",Gauge],["tools","Tools",ListChecks]].map(([id,label,Icon]) => <button key={id as string} onClick={() => setTab(id as typeof tab)} className={`flex items-center gap-2 border-b-2 pb-2 text-xs font-bold transition ${tab === id ? "border-[#79b9ff] text-[#79b9ff]" : "border-transparent text-[#77818e] hover:text-white"}`}><Icon className="h-3.5 w-3.5" />{label as string}</button>)}</div></div>
-        {tab === "finder"   && <Finder step={step} setStep={setStep} answers={answers} choose={choose} reset={reset} complete={complete} mode={mode} onResults={() => { track("results_viewed"); setTab("results"); }} />}
-        {tab === "results"  && <Results ranked={ranked} saved={saved} compare={compare} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} onCost={() => setShowCost(true)} onDetails={(id) => { setSelectedVehicleId(id); setTab("detail"); }} onShare={shareResult} annualKm={answers.annualKm} />}
-        {tab === "saved"    && <Saved cars={cars.filter((car) => saved.includes(car.id))} history={cars.filter((car) => history.includes(car.id))} toggleSaved={toggleSaved} toggleCompare={toggleCompare} />}
-        {tab === "compare"  && <Compare cars={compareCars} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
-        {tab === "detail"   && <VehicleDetails car={ranked.find((item) => item.id === selectedVehicleId) ?? result} onBack={() => setTab("results")} onLead={() => setShowLead(true)} annualKm={answers.annualKm} />}
-        {tab === "analysis" && <Analysis result={result} monthly={monthly} answers={answers} />}
-        {tab === "tools"    && <Tools result={result} monthly={monthly} answers={answers} setAnswers={setAnswers} />}
-      </div></div></section>
-
-    <section id="chat" className="mx-auto max-w-[1400px] px-5 py-16 lg:px-10 lg:py-24"><div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center"><div><p className="text-xs font-black tracking-[.14em] text-[#4aa3ff]">ההתאמה הכנה</p><h2 className="mt-4 text-4xl font-black leading-tight tracking-[-.05em] lg:text-5xl">המלצה טובה ממשיכה לעבוד גם אחרי התוצאה.</h2><p className="mt-6 max-w-[510px] text-base leading-8 text-[#aeb8c4]">השוו, שמרו, חשבו עלות, שאלו שאלות ובדקו את הרכב לפני שאתם משאירים פרטים. CarAI בנוי סביב החלטה — לא סביב קליק אחד.</p><div className="mt-8 grid max-w-[520px] gap-4 sm:grid-cols-2"><div className="rounded-2xl bg-[#11151b] p-5 shadow-[0_8px_25px_rgba(0,0,0,.05)]"><ShieldCheck className="h-5 w-5 text-[#4aa3ff]" /><h3 className="mt-4 font-black">פחות רעש</h3><p className="mt-2 text-sm leading-6 text-[#8f9aa8]">מסננים דגמים שלא מתאימים ומרכזים את מה שבאמת רלוונטי.</p></div><div className="rounded-2xl bg-[#11151b] p-5 shadow-[0_8px_25px_rgba(0,0,0,.05)]"><MessageCircle className="h-5 w-5 text-[#4aa3ff]" /><h3 className="mt-4 font-black">יותר הקשר</h3><p className="mt-2 text-sm leading-6 text-[#8f9aa8]">אפשר לשאול בשפה שלך, גם אם אין לך מושג מה זה גיר רציף.</p></div></div></div><div className="rounded-3xl border border-[#26303a] bg-[#11151b] p-5 shadow-[0_18px_50px_rgba(0,0,0,.07)] lg:p-7"><div className="flex items-center justify-between border-b border-[#1e2731] pb-5"><div className="flex items-center gap-3"><div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#13243a] text-[#4aa3ff]"><MessageCircle className="h-5 w-5" /></div><div><h3 className="font-black">שאלו את CarAI</h3><p className="mt-0.5 text-xs text-[#8f9aa8]">יועץ אישי · זמין עכשיו</p></div></div><span className="flex items-center gap-1.5 text-[11px] font-bold text-[#2a9b69]"><span className="h-2 w-2 rounded-full bg-[#2a9b69]" /> מחובר</span></div><div className="mt-5 flex min-h-[235px] flex-col gap-3">{messages.map((m, i) => <div key={`${m.time}-${i}`} className={`flex ${m.from === "user" ? "justify-start" : "justify-end"}`}><div className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-6 ${m.from === "user" ? "rounded-tl-sm bg-[#4aa3ff] text-white" : "rounded-tr-sm border border-[#202832] bg-[#0d1117] text-[#d6dde6]"}`}>{m.text}<div className={`mt-1 text-[10px] ${m.from === "user" ? "text-white/60" : "text-[#6f7b8a]"}`}>{m.time}</div></div></div>)}{chatLoading && <div className="flex justify-end"><div className="rounded-2xl rounded-tr-sm border border-[#202832] bg-[#0d1117] px-4 py-3 text-sm text-[#8f9aa8]">היועץ מקליד…</div></div>}</div><div className="mt-5 flex flex-wrap gap-2"><button onClick={() => sendQuestion("מה חשוב לבדוק ביד2?")} className="rounded-full border border-[#26303a] px-3 py-2 text-xs font-bold text-[#aeb8c4]">מה לבדוק ביד2?</button><button onClick={() => sendQuestion("מה הבעיות הנפוצות בדגם הזה?")} className="rounded-full border border-[#26303a] px-3 py-2 text-xs font-bold text-[#aeb8c4]">Common Issues</button><button onClick={() => sendQuestion("האם כדאי לממן את הרכב?")} className="rounded-full border border-[#26303a] px-3 py-2 text-xs font-bold text-[#aeb8c4]">Ask about financing</button><button onClick={() => sendQuestion("האם היברידי מתאים לי?")} className="rounded-full border border-[#26303a] px-3 py-2 text-xs font-bold text-[#aeb8c4]">היברידי מתאים לי?</button></div><div className="mt-4 flex gap-2"><input value={question} onChange={(e) => setQuestion(e.target.value)} onKeyDown={(e) => e.key === "Enter" && sendQuestion()} placeholder="כתבו שאלה כמו בוואטסאפ..." disabled={chatLoading} className="min-w-0 flex-1 rounded-xl border border-[#26303a] bg-[#0d1117] px-4 py-3 text-sm outline-none focus:border-[#4aa3ff] disabled:opacity-60" /><button onClick={() => sendQuestion()} disabled={chatLoading} aria-label="שליחת שאלה" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#11151b] text-white disabled:cursor-wait disabled:opacity-60"><ArrowLeft className="h-4 w-4" /></button></div></div></div></section>
-
-    {showLead && <LeadRequestModal vehicle={tab === "detail" ? (ranked.find(item => item.id === selectedVehicleId) ?? result) : result} budget={answers.budget} sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"} onClose={() => setShowLead(false)} />}
-    {showCost && <CostModal result={result} answers={answers} onClose={() => setShowCost(false)} />}
-    <footer className="border-t border-[#26303a] bg-[#11151b]"><div className="mx-auto flex max-w-[1400px] items-center justify-between px-5 py-8 text-sm text-[#8f9aa8] lg:px-10"><div className="flex items-center gap-2 font-black text-[#f4f6f8]"><div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#4aa3ff]"><img src={markImage} alt="" className="h-5 w-5" /></div>CarAI</div><span>כלי החלטה חכמים למציאת רכב שמתאים לחיים שלך.</span><span>מנוע החלטה עצמאי · מידע שקוף</span></div></footer>
-  </main>;
-}
-
-// ─── Finder ────────────────────────────────────────────────────────────────────
-function Finder({ step, setStep, answers, choose, reset, complete, mode, onResults }: {
-  step: number; setStep: (n: number) => void; answers: Answers;
-  choose: (v: string | number) => void; reset: () => void;
-  complete: boolean; mode: "quick" | "advanced"; onResults: () => void;
-}) {
-  const total = mode === "quick" ? 3 : 5;
-  const data  = step === 0 ? budgetChoices : step === 1 ? useChoices : step === 2 ? priorityChoices : step === 3 ? fuelChoices : annualKmChoices;
-  const title = step === 0 ? "מה התקציב שנוח לך?"
-    : step === 1 ? "איפה הרכב יבלה את רוב הזמן?"
-    : step === 2 ? "מה הכי חשוב לך ברכב?"
-    : step === 3 ? "לאיזה סוג הנעה את/ה פתוח/ה?"
-    : "כמה ק״מ אתה נוסע בשנה?";
-  const value = step === 0 ? answers.budget : step === 1 ? answers.use : step === 2 ? answers.priority : step === 3 ? answers.fuel : answers.annualKmBand;
-
-  return <div className="mx-auto max-w-[760px]">
-    <div className="mb-6 flex items-center gap-2 lg:hidden">
-      {steps.slice(0, total).map((s, i) => <span key={s.id} className={`h-1.5 flex-1 rounded-full ${i <= step ? "bg-[#4aa3ff]" : "bg-[#202832]"}`} />)}
-    </div>
-    <div className="mb-8 flex items-center justify-between">
-      <div>
-        <p className="text-xs font-black tracking-[.14em] text-[#4aa3ff]">שלב {Math.min(step + 1, total)} מתוך {total}</p>
-        <h2 className="mt-2 text-3xl font-black tracking-[-.05em]">{step >= total ? "מוכנים לתוצאה" : title}</h2>
-      </div>
-      <div className="flex items-center gap-2">
-        {step > 0 && step < total && <button onClick={() => setStep(step - 1)} aria-label="חזרה לשלב הקודם" className="rounded-full border border-[#26303a] px-3 py-2 text-xs font-black text-[#8f9aa8]">חזרה</button>}
-        <button onClick={reset} aria-label="התחל מחדש" className="rounded-full border border-[#26303a] p-2.5 text-[#8f9aa8]"><RotateCcw className="h-4 w-4" /></button>
-      </div>
-    </div>
-    {step < total && <>
-      <p className="mb-8 text-[#8f9aa8]">
-        {step === 0 ? "טווח כללי מספיק — לא צריך מספר מדויק."
-          : step === 4 ? "הנתון הזה משפיע על חישוב עלות הדלק החודשית — חשוב לדיוק."
-          : mode === "quick" ? "מצב מהיר — נשאל רק את מה שחיוני כדי לתת כיוון ראשון."
-          : "אין תשובה נכונה. אנחנו כאן כדי להבין את סדר העדיפויות שלך."}
-      </p>
-      <div className="grid gap-3 sm:grid-cols-2">
-        {data.map((item: (string | number)[]) =>
-          <button key={String(item[0])} onClick={() => choose(item[0])}
-            className={`group flex items-center gap-4 rounded-2xl border p-4 text-right transition hover:-translate-y-0.5 hover:border-[#4aa3ff] hover:shadow-[0_12px_30px_rgba(74,163,255,.12)] ${String(value) === String(item[0]) ? "border-[#4aa3ff] bg-[#13243a]" : "border-[#202832] bg-[#11151b]"}`}>
-            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#151b23] text-sm font-black text-[#4aa3ff]">{item[3]}</span>
-            <span><strong className="block text-[15px] font-black">{item[1]}</strong><small className="mt-1 block text-xs text-[#8f9aa8]">{item[2]}</small></span>
-            <ChevronLeft className="mr-auto h-4 w-4 text-[#657281]" />
-          </button>
-        )}
-      </div>
-      <div className="mt-10 flex items-center gap-2 text-xs text-[#7c8897]"><CircleHelp className="h-4 w-4" /> אפשר לשנות את הבחירה בכל שלב</div>
-    </>}
-    {step >= total && <button onClick={onResults} disabled={!complete} className="rounded-xl bg-[#4aa3ff] px-6 py-3.5 text-sm font-black text-white disabled:cursor-not-allowed disabled:opacity-40">הציגו לי את ההתאמות <ArrowLeft className="mr-1 inline h-4 w-4" /></button>}
-  </div>;
-}
-
-// ─── TCO Breakdown (visual bar chart inside result cards) ─────────────────────
-function TcoBreakdown({ car, annualKm }: { car: Car; annualKm?: number }) {
-  const total = car.ownershipMonthly;
-  if (!total) return null;
-
-  const rows = [
-    { label: "⛽ דלק/חשמל", value: car.fuelMonthly },
-    { label: "🛡️ ביטוח",    value: car.insuranceMonthlyAmt },
-    { label: "🔧 תחזוקה",   value: car.maintenanceMonthly },
-    { label: "📉 פחת",       value: car.depreciationMonthly },
-    { label: "📋 רישוי",    value: 121 as number | undefined },
-  ].filter((r) => r.value != null);
-
-  if (rows.length <= 1) return null; // only registration → skip
-
-  const kmLabel = annualKm ? `${annualKm.toLocaleString()} ק״מ/שנה` : "15,000 ק״מ/שנה";
+  function toggleSaved(id: string) {
+    const has = saved.includes(id);
+    track(has ? "saved_removed" : "saved_added");
+    setSaved((p) => (has ? p.filter((x) => x !== id) : [...p, id]));
+    toast(has ? t.removedToast : t.savedToast);
+  }
+  function toggleCompare(id: string) {
+    track(compare.includes(id) ? "compare_removed" : "compare_added");
+    setCompare((p) => (p.includes(id) ? p.filter((x) => x !== id) : p.length < 3 ? [...p, id] : (toast(t.compareMax), p)));
+  }
+  async function shareResult() {
+    if (!leader) return;
+    const text = t.shareText(shortName(leader.make), leader.match);
+    try {
+      if (navigator.share) await navigator.share({ title: "AutoAI", text });
+      else { await navigator.clipboard.writeText(text); toast(t.copiedToast); }
+    } catch {}
+  }
+  function showResults() {
+    track("results_viewed");
+    setTab("results");
+    resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  const openDetail = (id: string) => { setSelectedId(id); setTab("detail"); resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }); };
+  const detailCar = ranked.find((c) => c.id === selectedId) ?? leader;
 
   return (
-    <details className="mt-3 border-t border-[#1e2731] pt-3">
-      <summary className="flex cursor-pointer list-none items-center justify-between text-xs font-bold text-[#aeb8c4] hover:text-white">
-        <span>פירוט עלות חודשית</span>
-        <span className="text-[#4aa3ff]">₪{total.toLocaleString()}/חודש ▾</span>
-      </summary>
-      <div className="mt-3 space-y-2">
-        {rows.map((row) => (
-          <div key={row.label} className="flex items-center gap-2 text-[11px]">
-            <span className="w-[108px] shrink-0 text-[#8f9aa8]">{row.label}</span>
-            <div className="flex-1 overflow-hidden rounded-full bg-[#202832]" style={{ height: 5 }}>
-              <div
-                className="h-full rounded-full bg-[#4aa3ff] transition-all duration-500"
-                style={{ width: `${Math.min(100, Math.round(((row.value ?? 0) / total) * 100))}%`, opacity: 0.85 }}
-              />
-            </div>
-            <span className="w-[44px] text-left font-bold text-[#c5d0dc]">₪{(row.value ?? 0).toLocaleString()}</span>
+    <main dir={dir} lang={lang} className="min-h-screen bg-concrete text-asphalt">
+      <header className="border-b border-seam">
+        <div className="mx-auto flex max-w-[1320px] items-center justify-between gap-4 px-4 py-3 sm:px-8">
+          <a href="#top" className="flex items-center gap-2.5 text-asphalt no-underline" aria-label="AutoAI">
+            <span aria-hidden className="curb-est block h-6 w-9 [--stripe:6px]" />
+            <span className="font-display text-[22px] leading-none">AutoAI</span>
+          </a>
+          <nav className="flex items-center gap-1 text-[15px] font-semibold sm:gap-5">
+            <a href="#legend" className="hidden text-tar no-underline hover:text-asphalt md:inline">{t.navHow}</a>
+            <a href="#results" className="hidden text-tar no-underline hover:text-asphalt md:inline">{t.navResults}</a>
+            <a href="#advisor" className="hidden text-tar no-underline hover:text-asphalt sm:inline">{t.navAdvisor}</a>
+            <button onClick={() => setLang(lang === "he" ? "en" : "he")} lang={lang === "he" ? "en" : "he"} className="flex min-h-10 items-center gap-1.5 border border-seam bg-slab px-3 text-[14px] font-bold hover:border-asphalt">
+              <Languages className="h-4 w-4" aria-hidden />{t.langSwitch}
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <section id="top" className="mx-auto grid max-w-[1320px] gap-10 px-4 pb-10 pt-8 sm:px-8 lg:grid-cols-[1.02fr_.98fr] lg:gap-14 lg:pt-12">
+        <div className="flex flex-col">
+          <h1 className="max-w-[14ch] text-[clamp(2.4rem,5.2vw,4.5rem)] leading-[1.04]">{t.heroTitle}</h1>
+          <p className="mt-5 max-w-[56ch] text-[17px] leading-7 text-tar sm:text-lg">{t.heroSub}</p>
+          <Finder order={order} step={step} setStep={setStep} answers={answers} choose={choose} done={done} complete={complete}
+            mode={mode} switchMode={switchMode} reset={reset} onResults={showResults} />
+        </div>
+        {leader && <LeaderPanel car={leader} km={answers.annualKm} started={step > 0} />}
+      </section>
+
+      <CurbRail order={order} step={step} setStep={setStep} />
+
+      <section id="results" ref={resultsRef} className="mx-auto max-w-[1320px] scroll-mt-4 px-4 pb-20 pt-14 sm:px-8">
+        <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b border-seam">
+          <h2 className="pb-3 text-[clamp(1.8rem,3.4vw,2.6rem)] leading-tight">{t.workspaceTitle}</h2>
+          <div role="tablist" className="-mb-px flex flex-wrap gap-x-5 text-[15px] font-bold">
+            {([["results", t.tabResults], ["saved", `${t.tabSaved} (${saved.length})`], ["compare", `${t.tabCompare} (${compare.length})`], ["analysis", t.tabAnalysis], ["tools", t.tabTools]] as const).map(([id, label]) => {
+              const on = tab === id || (id === "results" && tab === "detail");
+              return <button key={id} role="tab" aria-selected={on} onClick={() => setTab(id)}
+                className={`min-h-11 border-b-[3px] pb-2 pt-2 ${on ? "border-curb text-asphalt" : "border-transparent text-tar hover:text-asphalt"}`}>{label}</button>;
+            })}
           </div>
-        ))}
-        <p className="mt-1 text-[10px] text-[#5a6472]">אומדן ל-{kmLabel} · ביטוח — הערכה בלבד, לא הצעת מחיר</p>
-      </div>
-    </details>
+        </div>
+        {isDemo && <p className="mt-5 flex items-start gap-3 text-[15px] text-tar"><span aria-hidden className="curb-miss mt-1.5 block h-2.5 w-10 shrink-0 [--stripe:5px]" />{t.demoNote}</p>}
+        {!complete && tab === "results" && <p className="mt-3 text-[15px] text-tar">{t.incomplete}</p>}
+        <div className="mt-8">
+          {tab === "results" && <Results ranked={ranked} saved={saved} compare={compare} km={answers.annualKm} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} onCost={setCostCar} onShare={shareResult} onLead={() => setShowLead(true)} />}
+          {tab === "detail" && detailCar && <Detail car={detailCar} km={answers.annualKm} onBack={() => setTab("results")} onLead={() => setShowLead(true)} onCost={() => setCostCar(detailCar)} saved={saved.includes(detailCar.id)} toggleSaved={toggleSaved} />}
+          {tab === "saved" && <Saved cars={cars.filter((c) => saved.includes(c.id))} history={cars.filter((c) => history.includes(c.id))} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} />}
+          {tab === "compare" && <Compare cars={ranked.filter((c) => compare.includes(c.id))} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
+          {tab === "analysis" && leader && <Analysis car={leader} answers={answers} />}
+          {tab === "tools" && leader && <Tools car={leader} answers={answers} setAnswers={setAnswers} />}
+        </div>
+      </section>
+
+      <Legend />
+      <Advisor />
+
+      <footer className="bg-asphalt text-paint">
+        <div aria-hidden className="curb-est h-3 [--stripe:28px]" />
+        <div className="mx-auto flex max-w-[1320px] flex-col gap-6 px-4 py-10 text-[15px] sm:px-8 md:flex-row md:items-start md:justify-between">
+          <div>
+            <div className="font-display text-2xl">AutoAI</div>
+            <p className="mt-2 max-w-[48ch] text-[#c9ccc6]">{t.footerLine}</p>
+          </div>
+          <div className="max-w-[46ch] text-[#c9ccc6]">
+            <Link href="/privacy" className="font-bold text-paint underline">{t.footerPrivacy}</Link>
+            <p className="mt-2 text-[14px]">{t.footerPhotos}</p>
+          </div>
+        </div>
+      </footer>
+
+      {showLead && leader && <LeadRequestModal vehicle={tab === "detail" && detailCar ? detailCar : leader} budget={answers.budget}
+        sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"} onClose={() => setShowLead(false)} />}
+      {costCar && <CostModal car={costCar} answers={answers} onClose={() => setCostCar(null)} />}
+    </main>
   );
 }
 
-// ─── Results ──────────────────────────────────────────────────────────────────
-function Results({ ranked, saved, compare, toggleSaved, toggleCompare, onLead, onCost, onDetails, onShare, annualKm }: {
-  ranked: (Car & { match: number })[]; saved: string[]; compare: string[];
-  toggleSaved: (id: string) => void; toggleCompare: (id: string) => void;
-  onLead: () => void; onCost: () => void; onDetails: (id: string) => void; onShare: () => void;
-  annualKm?: number;
+// ─── Finder ──────────────────────────────────────────────────────────────────
+function Finder({ order, step, setStep, answers, choose, done, complete, mode, switchMode, reset, onResults }: {
+  order: StepKey[]; step: number; setStep: (n: number) => void; answers: Answers; choose: (k: StepKey, v: string | number) => void;
+  done: boolean; complete: boolean; mode: "quick" | "full"; switchMode: (m: "quick" | "full") => void; reset: () => void; onResults: () => void;
 }) {
-  const [fuelFilter, setFuelFilter] = useState("all");
-  const [sort, setSort] = useState("match");
-  const [faq, setFaq]   = useState<string | null>(null);
-  const visible = [...ranked]
-    .filter((car) => fuelFilter === "all" || car.fuel === fuelFilter)
-    .sort((a, b) =>
-      sort === "price"   ? a.price - b.price :
-      sort === "economy" ? b.economy - a.economy :
-      sort === "tco"     ? (a.ownershipMonthly ?? 9999) - (b.ownershipMonthly ?? 9999) :
-                           b.match - a.match
-    );
+  const { lang, t, dir } = useLang();
+  const key = order[Math.min(step, order.length - 1)];
+  const titles: Record<StepKey, string> = { budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
+  const hint = key === "budget" ? t.hintBudget : key === "annualKm" ? t.hintKm : mode === "quick" ? t.hintQuick : t.hintDefault;
+  const current = key === "annualKm" ? answers.annualKmBand : answers[key];
+  const Arrow = dir === "rtl" ? ArrowLeft : ArrowRight;
 
-  return <div>
-    <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-      <p className="text-sm text-[#8f9aa8]">הדירוג משלב תקציב, שימוש, עלות שוטפת ואמינות — 6 גורמים.</p>
-      <div className="flex flex-wrap gap-2">
-        <select value={fuelFilter} onChange={(e) => setFuelFilter(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="all">כל סוגי ההנעה</option><option value="היברידי">היברידי</option><option value="בנזין">בנזין</option><option value="חשמלי">חשמלי</option></select>
-        <select value={sort} onChange={(e) => setSort(e.target.value)} className="rounded-full border border-[#26303a] bg-[#11151b] px-3 py-2 text-xs font-black text-[#aeb8c4]"><option value="match">מיון לפי התאמה</option><option value="tco">מיון לפי TCO חודשי ↑</option><option value="price">מיון לפי מחיר רכישה</option><option value="economy">מיון לפי חסכון</option></select>
-        <button onClick={onShare} className="flex items-center gap-2 rounded-full border border-[#26303a] px-3 py-2 text-xs font-black text-[#aeb8c4]"><Share2 className="h-4 w-4" /> שתפו תוצאה</button>
+  return (
+    <div className="mt-8 border-t-2 border-asphalt pt-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <span className="text-[15px] font-bold text-tar">{done ? t.doneTitle : t.stepOf(step + 1, order.length)}</span>
+        <div className="flex items-center gap-2">
+          <div role="group" aria-label={t.modeLabel} className="flex border border-seam text-[14px] font-bold">
+            {(["quick", "full"] as const).map((m) => (
+              <button key={m} onClick={() => switchMode(m)} aria-pressed={mode === m}
+                className={`min-h-9 px-3 ${mode === m ? "bg-asphalt text-paint" : "bg-slab text-tar hover:text-asphalt"}`}>{m === "quick" ? t.quick : t.full}</button>
+            ))}
+          </div>
+          {step > 0 && !done && <button onClick={() => setStep(step - 1)} className="min-h-9 border border-seam bg-slab px-3 text-[14px] font-bold hover:border-asphalt">{t.back}</button>}
+          <button onClick={reset} aria-label={t.restart} title={t.restart} className="flex h-9 w-9 items-center justify-center border border-seam bg-slab hover:border-asphalt"><RotateCcw className="h-4 w-4" /></button>
+        </div>
       </div>
-    </div>
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      {visible.slice(0, 4).map((car, index) =>
-        <article key={car.id} className="overflow-hidden rounded-3xl border border-[#202832] bg-[#11151b] shadow-[0_8px_25px_rgba(0,0,0,.05)]">
-          <div className="relative h-44 bg-[#0d1117]">
-            <img src={car.image} alt={car.make} className="h-full w-full object-cover" />
-            <span className="absolute right-4 top-4 rounded-full bg-[#11151b] px-3 py-1.5 text-xs font-black text-white">#{index + 1} · {car.match}%</span>
-            <button onClick={() => toggleSaved(car.id)} className="absolute left-4 top-4 rounded-full bg-[#11151b]/90 p-2 text-[#4aa3ff]"><Heart className={`h-4 w-4 ${saved.includes(car.id) ? "fill-current" : ""}`} /></button>
-          </div>
-          <div className="p-5">
-            <h3 className="text-xl font-black">{car.make}</h3>
-            <p className="mt-1 text-sm text-[#8f9aa8]">{car.years} · {car.fuel}</p>
-            <div className="mt-4 grid grid-cols-2 gap-2">
-              <div><span className="block text-[10px] uppercase tracking-wider text-[#657281]">Market Price</span><b className="text-sm">{car.marketRange ?? `₪${car.price.toLocaleString()}`}</b></div>
-              <div><span className="block text-[10px] uppercase tracking-wider text-[#657281]">Monthly Cost</span><b className="text-sm text-[#4aa3ff]">₪{(car.ownershipMonthly ?? 0).toLocaleString()}</b></div>
-            </div>
-            <p className="mt-2 text-[10px] text-[#657281]">Insurance estimate: ₪{car.insuranceMin ?? 0}–₪{car.insuranceMax ?? 0} / month</p>
-            <p className="mt-2 text-[10px] leading-4 text-[#5f7185]">{car.dataNote}</p>
-            {/* TCO Breakdown panel */}
-            <TcoBreakdown car={car} annualKm={annualKm} />
-            <p className="mt-4 text-sm leading-6 text-[#aeb8c4]">{car.why}</p>
-            <div className="mt-4 grid grid-cols-2 gap-2 text-xs"><Metric label="אמינות" value={car.reliability} /><Metric label="בטיחות" value={car.safety} /></div>
-            <div className="mt-5 flex gap-2">
-              <button onClick={() => toggleCompare(car.id)} className={`flex-1 rounded-xl border py-2.5 text-xs font-black ${compare.includes(car.id) ? "border-[#4aa3ff] bg-[#13243a] text-[#4aa3ff]" : "border-[#26303a] text-[#aeb8c4]"}`}><BarChart3 className="mr-1 inline h-3.5 w-3.5" /> {compare.includes(car.id) ? "בהשוואה" : "השוואה"}</button>
-              <button onClick={() => onDetails(car.id)} className="flex-1 rounded-xl bg-[#4aa3ff] py-2.5 text-xs font-black text-white">View Details <ArrowUpLeft className="mr-1 inline h-3.5 w-3.5" /></button>
-            </div>
-            <button onClick={onCost} className="mt-2 w-full rounded-xl bg-[#151b23] py-2.5 text-xs font-black text-[#aeb8c4]">חשבו עלות חודשית משוערת</button>
-            <div className="mt-4 border-t border-[#1e2731] pt-3">
-              <button onClick={() => setFaq(faq === car.id ? null : car.id)} className="flex w-full items-center justify-between text-xs font-black text-[#aeb8c4]">שאלות נפוצות על {car.make}<ChevronLeft className={`h-4 w-4 transition ${faq === car.id ? "-rotate-90" : ""}`} /></button>
-              {faq === car.id && <div className="mt-3 space-y-2 text-xs leading-5 text-[#8f9aa8]"><p><b>למי זה מתאים?</b> למי שהפרופיל שלו דומה לשימוש ולסדר העדיפויות שנבחרו.</p><p><b>מה לבדוק?</b> היסטוריה, מצב מכני, התאמת מחיר וקיום מסמכים לפני השארת פרטים.</p></div>}
-            </div>
-          </div>
-        </article>
+
+      {!done ? (
+        <div key={key} className="swap">
+          <h2 className="mt-3 text-[clamp(1.5rem,2.6vw,2rem)] leading-tight">{titles[key]}</h2>
+          <p className="mt-1 text-[15px] text-tar">{hint}</p>
+          <ul className="mt-4 divide-y divide-seam border-y border-seam">
+            {choices[key].map((c) => {
+              const active = String(current) === String(c.value);
+              const [label, sub] = c[lang];
+              const Icon = c.icon;
+              return (
+                <li key={String(c.value)}>
+                  <button onClick={() => choose(key, c.value)} aria-pressed={active}
+                    className={`group flex w-full items-center gap-4 px-3 py-3 text-start transition-colors ${active ? "bg-curb text-paint" : "hover:bg-slab"}`}>
+                    {c.amount
+                      ? <span className={`num w-[6rem] shrink-0 text-[26px] leading-none ${active ? "text-paint" : "text-asphalt"}`} dir="ltr">{c.amount}</span>
+                      : Icon && <Icon aria-hidden className={`h-6 w-6 shrink-0 ${active ? "text-paint" : "text-curb"}`} strokeWidth={1.75} />}
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-[17px] font-bold leading-snug">{label}</span>
+                      <span className={`block text-[15px] leading-snug ${active ? "text-[#dfe7f5]" : "text-tar"}`}>{sub}</span>
+                    </span>
+                    <Arrow aria-hidden className={`h-5 w-5 shrink-0 transition-transform ${active ? "text-paint" : "text-tar group-hover:text-curb"} ${dir === "rtl" ? "group-hover:-translate-x-1" : "group-hover:translate-x-1"}`} />
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ) : (
+        <div className="swap mt-3">
+          <p className="max-w-[52ch] text-[17px] text-tar">{t.doneSub}</p>
+          <button onClick={onResults} disabled={!complete}
+            className="mt-5 inline-flex min-h-12 items-center gap-2 bg-curb px-6 text-[17px] font-bold text-paint hover:bg-curb-deep disabled:opacity-50">
+            {t.showMatches}<Arrow className="h-5 w-5" aria-hidden />
+          </button>
+        </div>
       )}
     </div>
-    {visible.length > 0 && <div className="mt-6 border border-[#35404c] bg-[#10161d] p-5 sm:flex sm:items-center sm:justify-between"><p className="text-sm text-[#b8c2ce]">רוצים עזרה בצעד הבא? השאירו בקשה לשיחה עם AutoAI לגבי ההתאמה המובילה.</p><button onClick={onLead} className="mt-4 bg-[#79b9ff] px-5 py-3 text-sm font-bold text-[#0b0e12] sm:mt-0">השאירו בקשת קשר</button></div>}
-    {visible.length === 0 && <EmptyState text="אין כרגע תוצאה עם הפילטר שנבחר. נסו להרחיב את החיפוש." />}
-  </div>;
+  );
 }
 
-function Metric({ label, value }: { label: string; value: number }) { return <div className="rounded-xl bg-[#151b23] p-3"><span className="block text-[#7c8897]">{label}</span><b className="mt-1 block text-[#4aa3ff]">{value}/100</b></div>; }
+function CurbRail({ order, step, setStep }: { order: StepKey[]; step: number; setStep: (n: number) => void }) {
+  const { t } = useLang();
+  const names: Record<StepKey, string> = { budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
+  return (
+    <div className="mx-auto max-w-[1320px] px-4 sm:px-8">
+      <div className="flex gap-1.5">
+        {order.map((k, i) => (
+          <button key={k} onClick={() => i <= step && setStep(i)} disabled={i > step} aria-label={names[k]} title={names[k]}
+            className="relative h-4 flex-1 overflow-hidden bg-seam disabled:cursor-default">
+            {i < step && <span key={`p-${k}`} className="paint-in curb-est absolute inset-0 [--stripe:14px]" />}
+            {i === step && <span className="absolute inset-0 bg-asphalt" />}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
 
-function Saved({ cars, history, toggleSaved, toggleCompare }: { cars: Car[]; history: Car[]; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void }) { return <div>{cars.length ? <div><p className="mb-4 text-xs font-black tracking-[.14em] text-[#4aa3ff]">רשימה שמורה</p><div className="grid gap-4 md:grid-cols-2">{cars.map((car) => <div key={car.id} className="flex gap-4 rounded-2xl border border-[#202832] bg-[#11151b] p-4"><img src={car.image} alt="" className="h-24 w-28 rounded-xl object-cover" /><div className="min-w-0 flex-1"><div className="flex justify-between gap-2"><h3 className="font-black">{car.make}</h3><button onClick={() => toggleSaved(car.id)} className="text-[#4aa3ff]"><Heart className="h-4 w-4 fill-current" /></button></div><p className="mt-1 text-xs text-[#8f9aa8]">{car.years} · ₪{car.price.toLocaleString()}</p><button onClick={() => toggleCompare(car.id)} className="mt-4 text-xs font-black text-[#4aa3ff]">הוסיפו להשוואה <ArrowLeft className="mr-1 inline h-3 w-3" /></button></div></div>)}</div></div> : <EmptyState text="עדיין לא שמרת רכבים. שמרו אפשרויות מתוך מסך התוצאות." />}<div className="mt-8"><p className="mb-4 text-xs font-black tracking-[.14em] text-[#4aa3ff]">היסטוריית חיפוש אחרונה</p>{history.length ? <div className="flex flex-wrap gap-2">{history.map((car) => <span key={car.id} className="rounded-full bg-[#151b23] px-3 py-2 text-xs font-bold text-[#aeb8c4]">{car.make}</span>)}</div> : <p className="text-sm text-[#8f9aa8]">כאן יופיעו התאמות שבדקת לאחר השלמת שאלון.</p>}</div></div>; }
+// ─── Shared pieces ───────────────────────────────────────────────────────────
+function Plate({ value, size = "lg", label }: { value: number; size?: "sm" | "md" | "lg"; label?: string }) {
+  const { t, nf } = useLang();
+  const fs = size === "lg" ? "text-[44px] sm:text-[52px] py-1" : size === "md" ? "text-[30px] py-0.5" : "text-[22px]";
+  return (
+    <span className="plate" role="img" aria-label={`${label ?? t.monthlyOwn}: ₪${nf.format(Math.round(value))}`}>
+      <span className="plate-il" aria-hidden>IL</span>
+      <span className={`plate-body ${fs} leading-none`} aria-hidden>
+        <span>₪{nf.format(Math.round(value))}</span>
+        <span className="text-[0.38em] font-semibold">{label ?? t.perMonth}</span>
+      </span>
+    </span>
+  );
+}
 
-// ─── TCO multi-band ladder cell ──────────────────────────────────────────────
-function TcoLadderCell({ trimId, tcoData }: {
-  trimId: number | undefined;
-  tcoData: Record<number, { km7000?: { totalMonthly: number | null } | null; km15000?: { totalMonthly: number | null } | null; km25000?: { totalMonthly: number | null } | null }>;
+function CarPhoto({ name, className = "", eager, width }: { name: string; className?: string; eager?: boolean; width?: number }) {
+  const { t } = useLang();
+  const p = photoFor(name, width);
+  const [failed, setFailed] = useState(false);
+  if (!p || failed) {
+    return (
+      <div className={`relative flex items-start bg-slab ${className}`}>
+        <div aria-hidden className="curb-bare absolute inset-x-0 bottom-0 h-3" />
+        <span className="m-4 font-display text-xl text-tar">{shortName(name)}</span>
+      </div>
+    );
+  }
+  return (
+    <div className={`relative overflow-hidden bg-seam ${className}`}>
+      <img src={p.src} alt={shortName(name)} loading={eager ? "eager" : "lazy"} decoding="async" referrerPolicy="no-referrer" onError={() => setFailed(true)} className="absolute inset-0 h-full w-full object-cover" />
+      <a href={p.credit} target="_blank" rel="noopener noreferrer" className="absolute bottom-0 end-0 bg-asphalt/75 px-2 py-0.5 text-[11px] font-semibold text-paint no-underline hover:bg-asphalt">{t.photoCredit}</a>
+    </div>
+  );
+}
+
+function CodeChip({ code }: { code: Code }) {
+  const { t } = useLang();
+  const label = code === "off" ? t.codeOfficial : code === "est" ? t.codeEstimate : t.codeMissing;
+  return (
+    <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-tar">
+      <span aria-hidden className={`curb-${code} block h-2 w-6 [--stripe:4px]`} />{label}
+    </span>
+  );
+}
+
+function Breakdown({ car, km, compact }: { car: Car; km: number; compact?: boolean }) {
+  const { t, nf } = useLang();
+  const rows = tcoRows(car, km, t);
+  const max = Math.max(1, ...rows.map((r) => r.value ?? 0));
+  return (
+    <div>
+      <ul className={compact ? "space-y-1.5" : "space-y-2.5"}>
+        {rows.map((r) => (
+          <li key={r.label} className="grid grid-cols-[minmax(6.5rem,auto)_1fr_auto] items-center gap-3 text-[15px]">
+            <span className="text-tar">{r.label}</span>
+            <span className="relative h-3 bg-slab">
+              {r.value != null
+                ? <span className={`curb-${r.code} absolute inset-y-0 start-0 [--stripe:6px]`} style={{ width: `${Math.max(4, (r.value / max) * 100)}%` }} />
+                : <span className="curb-miss absolute inset-y-0 start-0 w-[18%] [--stripe:6px]" />}
+            </span>
+            <span className="num min-w-[4.5rem] text-end text-[19px]">{shekel(r.value, nf)}</span>
+          </li>
+        ))}
+      </ul>
+      {!compact && (
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+          <CodeChip code="off" /><CodeChip code="est" /><CodeChip code="miss" />
+          <span className="text-[13px] text-tar">{t.kmBasis(km)}</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function LeaderPanel({ car, km, started }: { car: Ranked; km: number; started: boolean }) {
+  const { t } = useLang();
+  return (
+    <aside className="flex flex-col" aria-live="polite">
+      <div key={car.id} className="swap relative">
+        <CarPhoto name={car.make} eager width={1280} className="aspect-[4/3] w-full lg:aspect-[5/4]" />
+        <div className="absolute -bottom-6 start-4 sm:start-6"><Plate value={monthlyFor(car, km)} /></div>
+      </div>
+      <div className="mt-10 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <h2 className="text-[clamp(1.4rem,2.2vw,1.75rem)] leading-tight">{shortName(car.make)}</h2>
+        <span className="text-[15px] font-bold text-tar">{started ? t.leaderNow : t.leaderSample} · <span className="num text-[19px] text-asphalt">{car.match}%</span> {t.match}</span>
+      </div>
+      <div className="mt-4"><Breakdown car={car} km={km} /></div>
+      <p className="mt-2 text-[13px] text-tar">{t.insuranceNote}</p>
+    </aside>
+  );
+}
+
+function EmptyState({ text }: { text: string }) {
+  return (
+    <div className="border border-dashed border-seam bg-slab px-6 py-12 text-center text-[16px] text-tar">
+      <div aria-hidden className="curb-bare mx-auto mb-5 h-2 w-20" />{text}
+    </div>
+  );
+}
+
+const btnGhost = "inline-flex min-h-11 items-center justify-center gap-2 border border-seam bg-slab px-4 text-[15px] font-bold hover:border-asphalt";
+const btnPrimary = "inline-flex min-h-11 items-center justify-center gap-2 bg-curb px-5 text-[15px] font-bold text-paint hover:bg-curb-deep";
+
+// ─── Results ─────────────────────────────────────────────────────────────────
+function Results({ ranked, saved, compare, km, toggleSaved, toggleCompare, onDetails, onCost, onShare, onLead }: {
+  ranked: Ranked[]; saved: string[]; compare: string[]; km: number; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void;
+  onDetails: (id: string) => void; onCost: (c: Ranked) => void; onShare: () => void; onLead: () => void;
 }) {
-  if (!trimId || !tcoData[trimId]) return <td className="p-4 font-black text-[#f4f6f8]">–</td>;
-  const d = tcoData[trimId];
-  const fmt = (v: number | null | undefined) => v != null ? `₪${v.toLocaleString()}` : "–";
+  const { lang, t, nf } = useLang();
+  const [fuel, setFuel] = useState("all");
+  const [sort, setSort] = useState("match");
+  const visible = ranked
+    .filter((c) => fuel === "all" || c.fuel === fuel)
+    .sort((a, b) => sort === "price" ? a.price - b.price : sort === "economy" ? b.economy - a.economy : sort === "tco" ? monthlyFor(a, km) - monthlyFor(b, km) : b.match - a.match);
+  const [top, ...rest] = visible;
+  const selectCls = "min-h-11 border border-seam bg-slab px-3 text-[15px] font-semibold";
+
   return (
-    <td className="p-3">
-      <div className="flex flex-col gap-1 text-xs">
-        <div className="flex items-center justify-between gap-2">
-          <span className="text-[10px] text-[#5d7a9c]">7k</span>
-          <span className="font-bold text-[#9dd2ff]">{fmt(d.km7000?.totalMonthly)}</span>
+    <div>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="max-w-[70ch] text-[15px] text-tar">{t.rankNote}</p>
+        <div className="flex flex-wrap gap-2">
+          <select aria-label={t.powertrain} value={fuel} onChange={(e) => setFuel(e.target.value)} className={selectCls}>
+            <option value="all">{t.allFuels}</option>
+            {["היברידי", "בנזין", "חשמלי"].map((f) => <option key={f} value={f}>{lang === "he" ? f : FUEL_EN[f]}</option>)}
+          </select>
+          <select aria-label={t.sortMatch} value={sort} onChange={(e) => setSort(e.target.value)} className={selectCls}>
+            <option value="match">{t.sortMatch}</option><option value="tco">{t.sortTco}</option><option value="price">{t.sortPrice}</option><option value="economy">{t.sortEconomy}</option>
+          </select>
+          <button onClick={onShare} className={btnGhost}><Share2 className="h-4 w-4" aria-hidden />{t.share}</button>
         </div>
-        <div className="flex items-center justify-between gap-2">
-          <span className="text-[10px] text-[#5d7a9c]">15k</span>
-          <span className="font-black text-[#f4f6f8]">{fmt(d.km15000?.totalMonthly)}</span>
-        </div>
-        <div className="flex items-center justify-between gap-2">
-          <span className="text-[10px] text-[#5d7a9c]">25k</span>
-          <span className="font-bold text-[#9dd2ff]">{fmt(d.km25000?.totalMonthly)}</span>
-        </div>
-        <span className="mt-0.5 text-[9px] text-[#4a5a6b]">₪/חודש לפי ק״מ</span>
       </div>
-    </td>
+
+      {!top ? <div className="mt-6"><EmptyState text={t.emptyFilter} /></div> : (
+        <>
+          <article className="mt-6 grid border border-seam bg-slab lg:grid-cols-[1.15fr_1fr]">
+            <div className="relative min-h-[240px]">
+              <CarPhoto name={top.make} className="absolute inset-0 h-full w-full" width={1280} />
+              <span className="absolute start-0 top-0 bg-asphalt px-3 py-1.5 text-[15px] font-bold text-paint">#1 · <span className="num text-[18px]">{top.match}%</span></span>
+            </div>
+            <div className="flex flex-col p-5 sm:p-7">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <h3 className="text-[1.7rem] leading-tight">{shortName(top.make)}</h3>
+                  <p className="mt-1 text-[15px] text-tar"><bdi>{top.years}</bdi></p>
+                </div>
+                <SaveBtn on={saved.includes(top.id)} onClick={() => toggleSaved(top.id)} />
+              </div>
+              <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-3">
+                <Plate value={monthlyFor(top, km)} size="md" />
+                <div><span className="block text-[13px] font-semibold text-tar">{t.marketPrice}</span><span className="num text-[22px]"><bdi>{top.marketRange ?? shekel(top.price, nf)}</bdi></span></div>
+              </div>
+              <p className="mt-5 text-[16px] leading-7">{top.why}</p>
+              <div className="mt-4"><Breakdown car={top} km={km} compact /></div>
+              <div className="mt-auto flex flex-wrap gap-2 pt-6">
+                <button onClick={() => onDetails(top.id)} className={btnPrimary}>{t.details}</button>
+                <button onClick={() => toggleCompare(top.id)} aria-pressed={compare.includes(top.id)} className={`${btnGhost} ${compare.includes(top.id) ? "border-curb text-curb" : ""}`}>{compare.includes(top.id) ? t.compareIn : t.compareAdd}</button>
+                <button onClick={() => onCost(top)} className={btnGhost}>{t.costCalc}</button>
+              </div>
+            </div>
+          </article>
+
+          {rest.length > 0 && (
+            <div className="mt-8 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+              {rest.slice(0, 6).map((c, i) => (
+                <article key={c.id} className="flex flex-col">
+                  <div className="relative">
+                    <CarPhoto name={c.make} className="aspect-[16/10] w-full" width={800} />
+                    <span className="absolute start-0 top-0 bg-asphalt px-2.5 py-1 text-[14px] font-bold text-paint">#{i + 2} · <span className="num text-[16px]">{c.match}%</span></span>
+                  </div>
+                  <div className="mt-3 flex items-start justify-between gap-2">
+                    <div className="min-w-0">
+                      <h3 className="truncate text-[1.3rem] leading-tight">{shortName(c.make)}</h3>
+                      <p className="text-[14px] text-tar">{lang === "he" ? c.fuel : FUEL_EN[c.fuel] ?? c.fuel} · <span className="num text-[16px]"><bdi>{c.marketRange ?? shekel(c.price, nf)}</bdi></span></p>
+                    </div>
+                    <SaveBtn on={saved.includes(c.id)} onClick={() => toggleSaved(c.id)} />
+                  </div>
+                  <div className="mt-3"><Plate value={monthlyFor(c, km)} size="sm" /></div>
+                  <div className="mt-4 flex gap-2">
+                    <button onClick={() => onDetails(c.id)} className={`${btnGhost} flex-1`}>{t.details}</button>
+                    <button onClick={() => toggleCompare(c.id)} aria-pressed={compare.includes(c.id)} className={`${btnGhost} flex-1 ${compare.includes(c.id) ? "border-curb text-curb" : ""}`}>{compare.includes(c.id) ? t.compareIn : t.compareAdd}</button>
+                  </div>
+                </article>
+              ))}
+            </div>
+          )}
+
+          <div className="mt-12 flex flex-col gap-4 bg-asphalt p-6 text-paint sm:flex-row sm:items-center sm:justify-between sm:p-8">
+            <div>
+              <p className="font-display text-[1.4rem] leading-snug">{t.leadCta}</p>
+              <p className="mt-1 max-w-[60ch] text-[15px] text-[#c9ccc6]">{t.leadNote}</p>
+            </div>
+            <button onClick={onLead} className="inline-flex min-h-12 shrink-0 items-center justify-center bg-plate px-6 text-[17px] font-bold text-asphalt hover:bg-[#ffd43b]">{t.leadBtn}</button>
+          </div>
+        </>
+      )}
+    </div>
   );
 }
 
-// ─── TCO bar component for a single metric ───────────────────────────────────
-function TcoBarCell({ value, max, label }: { value: number | null | undefined; max: number; label?: string }) {
-  const v = value ?? 0;
-  const pct = max > 0 ? Math.round((v / max) * 100) : 0;
+function SaveBtn({ on, onClick }: { on: boolean; onClick: () => void }) {
+  const { t } = useLang();
   return (
-    <td className="p-3">
-      <div className="flex flex-col gap-1">
-        <span className="text-xs font-bold text-[#f4f6f8]">{v > 0 ? `₪${v.toLocaleString()}` : "–"}{label && <span className="ml-1 text-[10px] text-[#5d7a9c]">{label}</span>}</span>
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-[#1a2130]">
-          <div className="h-full rounded-full bg-[#4aa3ff] transition-all" style={{ width: `${pct}%` }} />
-        </div>
-      </div>
-    </td>
+    <button onClick={onClick} aria-pressed={on} aria-label={on ? t.saved : t.save} title={on ? t.saved : t.save}
+      className={`flex h-11 w-11 shrink-0 items-center justify-center border bg-slab ${on ? "border-stop text-stop" : "border-seam text-tar hover:text-asphalt"}`}>
+      <Heart className={`h-5 w-5 ${on ? "fill-current" : ""}`} />
+    </button>
   );
 }
 
-function Compare({ cars, toggleCompare, onLead }: { cars: (Car & { match?: number })[]; toggleCompare: (id: string) => void; onLead: () => void }) {
-  // Parse trimId from car.id — the id field holds the DB trim id as a string for DB-sourced cars
-  const trimIds = cars.map((c) => {
-    const n = Number(c.id);
-    return Number.isFinite(n) && n > 0 ? n : undefined;
-  });
-  const validTrimIds = trimIds.filter((id): id is number => id !== undefined);
-
-  const { data: multiBand, isLoading: tcoLoading } = trpc.tco.multiBand.useQuery(
-    { trimIds: validTrimIds },
-    { enabled: validTrimIds.length >= 1 },
+function Saved({ cars, history, toggleSaved, toggleCompare, onDetails }: { cars: Car[]; history: Car[]; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void; onDetails: (id: string) => void }) {
+  const { t, nf } = useLang();
+  return (
+    <div>
+      {cars.length ? (
+        <ul className="divide-y divide-seam border-y border-seam">
+          {cars.map((c) => (
+            <li key={c.id} className="flex items-center gap-4 py-4">
+              <CarPhoto name={c.make} className="h-20 w-28 shrink-0" width={320} />
+              <div className="min-w-0 flex-1">
+                <h3 className="truncate text-[1.2rem]">{shortName(c.make)}</h3>
+                <p className="num text-[16px] text-tar">{shekel(c.price, nf)}</p>
+              </div>
+              <button onClick={() => onDetails(c.id)} className={btnGhost}>{t.details}</button>
+              <button onClick={() => toggleCompare(c.id)} className={`${btnGhost} hidden sm:inline-flex`}>{t.compareAdd}</button>
+              <SaveBtn on onClick={() => toggleSaved(c.id)} />
+            </li>
+          ))}
+        </ul>
+      ) : <EmptyState text={t.emptySaved} />}
+      <h3 className="mt-10 text-[1.3rem]">{t.history}</h3>
+      {history.length ? <div className="mt-3 flex flex-wrap gap-2">{history.map((c) => <button key={c.id} onClick={() => onDetails(c.id)} className={btnGhost}>{shortName(c.make)}</button>)}</div> : <p className="mt-2 text-[15px] text-tar">{t.historyEmpty}</p>}
+    </div>
   );
+}
 
-  const tcoData = multiBand ?? {};
+// ─── Compare ─────────────────────────────────────────────────────────────────
+type Band = { totalMonthly: number | null; fuelMonthly?: number | null; insuranceMonthly?: number | null; maintenanceMonthly?: number | null; depreciationMonthly?: number | null; isEstimate?: boolean } | null | undefined;
+type Multi = Record<number, { km7000?: Band; km15000?: Band; km25000?: Band }>;
+const trimOf = (id: string) => { const n = Number(id); return Number.isFinite(n) && n > 0 ? n : undefined; };
 
-  // Derive max values for bar chart normalisation
-  const maxFuel       = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.fuelMonthly       ?? 0));
-  const maxInsurance  = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.insuranceMonthly  ?? 0));
-  const maxMaintenance = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.maintenanceMonthly ?? 0));
-  const maxDepreciation = Math.max(1, ...validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.depreciationMonthly ?? 0));
+function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompare: (id: string) => void; onLead: () => void }) {
+  const { lang, t, nf } = useLang();
+  const ids = cars.map((c) => trimOf(c.id));
+  const valid = ids.filter((x): x is number => x !== undefined);
+  const { data, isLoading } = trpc.tco.multiBand.useQuery({ trimIds: valid }, { enabled: valid.length >= 1 });
+  const tco = (data ?? {}) as unknown as Multi;
+  if (cars.length < 2) return <EmptyState text={t.emptyCompare} />;
 
-  if (cars.length < 2) return <EmptyState text="בחרו לפחות שני רכבים כדי לפתוח השוואה אמיתית." />;
+  const at = (i: number, band: "km7000" | "km15000" | "km25000") => { const id = ids[i]; return id ? tco[id]?.[band] : undefined; };
+  const totals = cars.map((_, i) => at(i, "km15000")?.totalMonthly ?? null);
+  const defined = totals.filter((v): v is number => v != null);
+  const best = defined.length >= 2 ? Math.min(...defined) : null;
+  const worst = defined.length >= 2 ? Math.max(...defined) : null;
 
-  const simpleRows: [string, string[]][] = [
-    ["התאמה",   cars.map((c) => c.match != null ? `${c.match}%` : `${c.score}%`)],
-    ["מחיר",    cars.map((c) => `₪${c.price.toLocaleString()}`)],
-    ["אמינות",  cars.map((c) => `${c.reliability}/100`)],
-    ["בטיחות",  cars.map((c) => `${c.safety}/100`)],
-    ["חסכון",   cars.map((c) => `${c.economy}/100`)],
-    ["הנעה",    cars.map((c) => c.fuel)],
+  const rows: [string, (c: Ranked, i: number) => ReactNode][] = [
+    [t.match, (c) => <span className="num text-[20px]">{c.match}%</span>],
+    [t.price, (c) => <span className="num text-[20px]"><bdi>{c.marketRange ?? shekel(c.price, nf)}</bdi></span>],
+    ["7,000 km", (_, i) => <span className="num text-[20px]">{shekel(at(i, "km7000")?.totalMonthly, nf)}</span>],
+    ["15,000 km", (_, i) => <span className="num text-[22px]">{shekel(at(i, "km15000")?.totalMonthly, nf)}</span>],
+    ["25,000 km", (_, i) => <span className="num text-[20px]">{shekel(at(i, "km25000")?.totalMonthly, nf)}</span>],
+    [t.fuelLine, (_, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.fuelMonthly, nf)}</span>],
+    [t.insuranceLine, (c, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.insuranceMonthly ?? c.insuranceMin, nf)}</span>],
+    [t.maintenanceLine, (_, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.maintenanceMonthly, nf)}</span>],
+    [t.depreciationLine, (_, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.depreciationMonthly, nf)}</span>],
+    [t.reliability, (c) => <span className="num text-[18px]">{c.reliability}/100</span>],
+    [t.safety, (c) => <span className="num text-[18px]">{c.safety}/100</span>],
+    [t.powertrain, (c) => <span>{lang === "he" ? c.fuel : FUEL_EN[c.fuel] ?? c.fuel}</span>],
   ];
 
   return (
-    <div className="space-y-5">
-      {/* ── TCO Ladder section ─── */}
-      <div className="rounded-2xl border border-[#1e3a5a] bg-[#0d1620] p-5">
-        <div className="mb-4 flex items-center gap-3">
-          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#132036] text-[#4aa3ff]">₪</span>
-          <div>
-            <p className="text-xs font-black tracking-[.14em] text-[#4aa3ff]">TCO LADDER</p>
-            <p className="text-[11px] text-[#6d8aab]">עלות חודשית לפי נסיעה — 7k / 15k / 25k ק״מ בשנה</p>
-          </div>
-          {tcoLoading && <span className="mr-auto text-[10px] text-[#5d7a9c]">טוען נתוני TCO…</span>}
-        </div>
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[560px] text-right text-sm">
-            <thead>
-              <tr className="border-b border-[#1a2e44]">
-                <th className="p-3 text-[10px] font-bold tracking-[.12em] text-[#5d7a9c]">רכב</th>
-                {cars.map((car) => (
-                  <th key={car.id} className="p-3 font-black text-[#f4f6f8]">
-                    <button onClick={() => toggleCompare(car.id)} className="float-left text-[#4a5a6b] hover:text-[#e05555]"><X className="h-3.5 w-3.5" /></button>
-                    <span className="block text-[13px]">{car.make.split(" ").slice(0, 2).join(" ")}</span>
-                    <span className="block text-[10px] font-normal text-[#5d7a9c]">{car.fuel}</span>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-[#1a2e44] bg-[#0b1825]/60">
-                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">🔢 עלות כוללת</td>
-                {cars.map((car, idx) => (
-                  <TcoLadderCell key={car.id} trimId={trimIds[idx]} tcoData={tcoData} />
-                ))}
-              </tr>
-              {/* Fuel breakdown @ 15k */}
-              <tr className="border-b border-[#1a2e44]">
-                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">⛽ דלק<span className="block text-[9px] font-normal text-[#5d7a9c]">ב-15k ק״מ/שנה</span></td>
-                {cars.map((car, idx) => {
-                  const trimId = trimIds[idx];
-                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.fuelMonthly : undefined;
-                  return <TcoBarCell key={car.id} value={v} max={maxFuel} />;
-                })}
-              </tr>
-              {/* Insurance */}
-              <tr className="border-b border-[#1a2e44] bg-[#0b1825]/40">
-                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">🛡️ ביטוח<span className="block text-[9px] font-normal text-[#5d7a9c]">הערכה בלבד</span></td>
-                {cars.map((car, idx) => {
-                  const trimId = trimIds[idx];
-                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.insuranceMonthly : undefined;
-                  // Fallback to car.insuranceMin if no DB data
-                  const fallback = car.insuranceMin;
-                  return <TcoBarCell key={car.id} value={v ?? fallback} max={maxInsurance} />;
-                })}
-              </tr>
-              {/* Maintenance */}
-              <tr className="border-b border-[#1a2e44]">
-                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">🔧 תחזוקה</td>
-                {cars.map((car, idx) => {
-                  const trimId = trimIds[idx];
-                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.maintenanceMonthly : undefined;
-                  return <TcoBarCell key={car.id} value={v} max={maxMaintenance} />;
-                })}
-              </tr>
-              {/* Depreciation */}
-              <tr>
-                <td className="p-3 text-[11px] font-bold text-[#8f9aa8]">📉 פחת</td>
-                {cars.map((car, idx) => {
-                  const trimId = trimIds[idx];
-                  const v = trimId ? (tcoData[trimId]?.km15000 as any)?.depreciationMonthly : undefined;
-                  return <TcoBarCell key={car.id} value={v} max={maxDepreciation} />;
-                })}
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p className="mt-3 text-[9px] text-[#3d5470]">* נתוני TCO הם אומדן בלבד; ביטוח — הצעה בפועל עשויה להשתנות. פחת מחושב לפי מחיר שוק מדגמי.</p>
-
-        {/* ── 3-year savings insight ── */}
-        {(() => {
-          const totals = validTrimIds.map((id) => (tcoData[id]?.km15000 as any)?.totalMonthly as number | undefined);
-          const defined = totals.filter((v): v is number => v != null);
-          if (defined.length < 2) return null;
-          const best = Math.min(...defined);
-          const worst = Math.max(...defined);
-          const diff3yr = (worst - best) * 36;
-          if (diff3yr < 500) return null;
-          const bestIdx = totals.indexOf(best);
-          const bestCar = cars[bestIdx];
-          return (
-            <div className="mt-4 flex items-center gap-3 rounded-xl border border-[#1a3a1a] bg-[#0b1e0b] px-4 py-3">
-              <span className="text-lg">💡</span>
-              <p className="text-xs leading-5 text-[#6dbd6d]">
-                בחירה ב<strong className="text-[#90e090]">{bestCar?.make.split(" ").slice(0,2).join(" ")}</strong> חוסכת כ-
-                <strong className="text-[#90e090]">₪{diff3yr.toLocaleString()}</strong> לאורך 3 שנות בעלות
-                לעומת האפשרות היקרה — בחישוב 15,000 ק״מ בשנה.
-              </p>
-            </div>
-          );
-        })()}
-      </div>
-
-      {/* ── General comparison table ─── */}
-      <div className="overflow-x-auto rounded-2xl border border-[#202832] bg-[#11151b]">
-        <table className="w-full min-w-[560px] text-right text-sm">
+    <div>
+      <div className="overflow-x-auto border border-seam bg-slab">
+        <table className="w-full min-w-[620px] border-collapse text-[15px]">
           <thead>
-            <tr className="border-b border-[#1e2731]">
-              {["מדד", ...cars.map((car) => car.make)].map((x, i) => (
-                <th key={x + i} className="p-4 font-black">{i ? x : x}</th>
+            <tr className="border-b-2 border-asphalt">
+              <th className="w-40 p-3 text-start font-semibold text-tar">{t.metric}</th>
+              {cars.map((c) => (
+                <th key={c.id} className="p-3 text-start align-top">
+                  <CarPhoto name={c.make} className="mb-2 aspect-[16/10] w-full" width={480} />
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="font-display text-[1.1rem] font-normal leading-tight">{shortName(c.make)}</span>
+                    <button onClick={() => toggleCompare(c.id)} aria-label={t.modalClose} className="flex h-8 w-8 items-center justify-center text-tar hover:text-stop"><X className="h-4 w-4" /></button>
+                  </div>
+                </th>
               ))}
             </tr>
           </thead>
           <tbody>
-            {simpleRows.map((row) => (
-              <tr key={row[0]} className="border-b border-[#202832] last:border-0">
-                <td className="p-4 font-bold text-[#8f9aa8]">{row[0]}</td>
-                {row[1].map((cell, i) => (
-                  <td key={i} className="p-4 font-black text-[#f4f6f8]">{cell}</td>
-                ))}
+            {rows.map(([label, cell]) => (
+              <tr key={label} className="border-b border-seam last:border-0">
+                <th scope="row" className="p-3 text-start font-semibold text-tar"><bdi>{label}</bdi></th>
+                {cars.map((c, i) => <td key={c.id} className="p-3">{cell(c, i)}</td>)}
               </tr>
             ))}
           </tbody>
         </table>
-        <div className="p-4">
-          <button onClick={onLead} className="rounded-xl bg-[#4aa3ff] px-5 py-3 text-xs font-black text-white">
-            חפשו את הבחירה המובילה <ExternalLink className="mr-1 inline h-3.5 w-3.5" />
-          </button>
+      </div>
+      {isLoading && <p className="mt-2 text-[14px] text-tar">{t.ladderLoading}</p>}
+      {best != null && worst != null && (worst - best) * 36 >= 500 && (
+        <p className="mt-4 flex items-start gap-3 text-[16px]"><span aria-hidden className="curb-est mt-2 block h-2.5 w-10 shrink-0 [--stripe:5px]" />
+          {t.savings3y(shortName(cars[totals.indexOf(best)].make), shekel((worst - best) * 36, nf))}</p>
+      )}
+      <p className="mt-2 text-[14px] text-tar">{t.insuranceNote}</p>
+      <button onClick={onLead} className={`${btnPrimary} mt-6`}>{t.continueLead}</button>
+    </div>
+  );
+}
+
+// ─── Detail ──────────────────────────────────────────────────────────────────
+function Detail({ car, km, onBack, onLead, onCost, saved, toggleSaved }: { car: Ranked; km: number; onBack: () => void; onLead: () => void; onCost: () => void; saved: boolean; toggleSaved: (id: string) => void }) {
+  const { t, nf, dir } = useLang();
+  const trim = trimOf(car.id);
+  const { data } = trpc.tco.multiBand.useQuery({ trimIds: trim ? [trim] : [0] }, { enabled: Boolean(trim) });
+  const ladder = trim ? (data as unknown as Multi | undefined)?.[trim] : undefined;
+  const Back = dir === "rtl" ? ArrowRight : ArrowLeft;
+  const ins = car.insuranceMin && car.insuranceMax ? <>{shekel(car.insuranceMin, nf)}–{shekel(car.insuranceMax, nf)}</> : "–";
+  return (
+    <div>
+      <button onClick={onBack} className={btnGhost}><Back className="h-4 w-4" aria-hidden />{t.backToResults}</button>
+      <div className="mt-6 grid gap-10 lg:grid-cols-[1.2fr_1fr]">
+        <div>
+          <div className="relative">
+            <CarPhoto name={car.make} className="aspect-[16/10] w-full" width={1280} eager />
+            <div className="absolute -bottom-6 start-4"><Plate value={monthlyFor(car, km)} /></div>
+          </div>
+          <div className="mt-12 flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h3 className="text-[clamp(1.6rem,3vw,2.2rem)] leading-tight">{shortName(car.make)}</h3>
+              <p className="mt-1 text-[15px] text-tar"><bdi>{car.years}</bdi></p>
+            </div>
+            <SaveBtn on={saved} onClick={() => toggleSaved(car.id)} />
+          </div>
+          <dl className="mt-6 grid grid-cols-3 border-y border-seam">
+            <div className="p-3"><dt className="text-[13px] font-semibold text-tar">{t.match}</dt><dd className="num m-0 text-[26px]">{car.match}%</dd></div>
+            <div className="border-x border-seam p-3"><dt className="text-[13px] font-semibold text-tar">{t.marketPrice}</dt><dd className="num m-0 text-[20px]"><bdi>{car.marketRange ?? shekel(car.price, nf)}</bdi></dd></div>
+            <div className="p-3"><dt className="text-[13px] font-semibold text-tar">{t.insuranceEst}</dt><dd className="num m-0 text-[20px]">{ins}</dd></div>
+          </dl>
+          <div className="mt-6"><Breakdown car={car} km={km} /></div>
+          {ladder && (
+            <div className="mt-8">
+              <h4 className="font-display text-[1.2rem] font-normal">{t.ladderTitle}</h4>
+              <div className="mt-3 grid grid-cols-3 gap-2">
+                {(["km7000", "km15000", "km25000"] as const).map((b, i) => (
+                  <div key={b} className={`border p-3 ${i === 1 ? "border-asphalt bg-slab" : "border-seam"}`}>
+                    <div className="text-[13px] font-semibold text-tar"><bdi>{["7,000", "15,000", "25,000"][i]} km</bdi></div>
+                    <div className="num text-[24px]">{shekel(ladder[b]?.totalMonthly, nf)}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {car.dataNote && <p className="mt-6 text-[13px] leading-6 text-tar">{car.dataNote}</p>}
+        </div>
+        <div className="space-y-8">
+          <section>
+            <h4 className="font-display text-[1.3rem] font-normal">{t.overview}</h4>
+            <p className="mt-2 text-[16px] leading-7">{car.why}</p>
+            <ul className="mt-4 space-y-2.5">
+              {([[t.reliability, car.reliability], [t.safety, car.safety], [t.economy, car.economy], [t.comfort, car.comfort]] as const).map(([l, v]) => (
+                <li key={l} className="grid grid-cols-[6rem_1fr_3.5rem] items-center gap-3 text-[15px]">
+                  <span className="text-tar">{l}</span>
+                  <span className="relative h-2.5 bg-slab"><span className="absolute inset-y-0 start-0 bg-asphalt" style={{ width: `${v}%` }} /></span>
+                  <span className="num text-end text-[18px]">{v}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+          {(car.pros.length > 0 || car.cons.length > 0) && (
+            <section>
+              <h4 className="font-display text-[1.3rem] font-normal">{t.prosCons}</h4>
+              <ul className="mt-3 space-y-2 text-[16px]">
+                {car.pros.map((p) => <li key={p} className="flex gap-3"><span aria-hidden className="curb-off mt-2.5 block h-1.5 w-4 shrink-0" />{p}</li>)}
+                {car.cons.map((c) => <li key={c} className="flex gap-3"><span aria-hidden className="curb-miss mt-2.5 block h-1.5 w-4 shrink-0 [--stripe:4px]" />{c}</li>)}
+              </ul>
+            </section>
+          )}
+          <section className="bg-asphalt p-6 text-paint">
+            <h4 className="font-display text-[1.3rem] font-normal">{t.insuranceEst}</h4>
+            <p className="num mt-2 text-[34px] text-plate">{ins}</p>
+            <p className="text-[14px] text-[#c9ccc6]">{t.insuranceWho} · {t.insuranceNote}</p>
+            <div className="mt-5 flex flex-wrap gap-2">
+              <button onClick={onLead} className="inline-flex min-h-11 items-center bg-plate px-5 text-[15px] font-bold text-asphalt hover:bg-[#ffd43b]">{t.continueLead}</button>
+              <button onClick={onCost} className="inline-flex min-h-11 items-center border border-[#6b7078] px-4 text-[15px] font-bold text-paint hover:border-paint">{t.costCalc}</button>
+            </div>
+          </section>
         </div>
       </div>
     </div>
   );
 }
 
-function EmptyState({ text }: { text: string }) { return <div className="rounded-3xl border border-dashed border-[#26303a] bg-[#0d1117] p-12 text-center text-sm text-[#8f9aa8]"><BarChart3 className="mx-auto h-8 w-8 text-[#657281]" /><p className="mt-4">{text}</p></div>; }
-
-function VehicleDetails({ car, onBack, onLead, annualKm }: { car: Car & { match: number }; onBack: () => void; onLead: () => void; annualKm?: number }) {
-  const trimId = (() => { const n = Number(car.id); return Number.isFinite(n) && n > 0 ? n : undefined; })();
-
-  const { data: multiBand } = trpc.tco.multiBand.useQuery(
-    { trimIds: trimId ? [trimId] : [0] },
-    { enabled: Boolean(trimId) },
-  );
-  const tco = trimId ? multiBand?.[trimId] : undefined;
-  const fmt = (v: number | null | undefined) => v != null ? `₪${v.toLocaleString()}` : "–";
-
-  return <div dir="ltr" className="grid gap-5 lg:grid-cols-[1.35fr_1fr]">
-    <div className="overflow-hidden rounded-3xl border border-[#202832] bg-[#11151b]">
-      <div className="relative h-[280px]">
-        <img src={car.image} alt={car.make} className="h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0d1117] via-transparent to-transparent" />
-        <button onClick={onBack} className="absolute left-5 top-5 rounded-full border border-white/20 bg-[#0d1117]/60 px-3 py-2 text-xs text-white">← חזרה לתוצאות</button>
-        <div className="absolute bottom-5 left-6"><p className="text-xs font-bold tracking-[.16em] text-[#9dd2ff]">{car.fuel} · {car.years}</p><h3 className="mt-2 text-3xl font-black text-white">{car.make}</h3></div>
-      </div>
-      <div className="grid grid-cols-3 border-t border-[#202832] text-center">
-        <div className="p-5"><b className="block text-3xl text-[#4aa3ff]">{car.match}</b><span className="text-[10px] text-[#8f9aa8]">MATCH SCORE</span></div>
-        <div className="border-x border-[#202832] p-5"><b className="block text-base">{car.marketRange ?? `₪${car.price.toLocaleString()}`}</b><span className="text-[10px] text-[#8f9aa8]">מחיר שוק</span></div>
-        <div className="p-5"><b className="block text-base text-[#4aa3ff]">₪{(car.ownershipMonthly ?? 0).toLocaleString()}</b><span className="text-[10px] text-[#8f9aa8]">TCO/חודש</span></div>
-      </div>
-
-      {/* TCO breakdown (pie-style bars) */}
-      <div className="border-t border-[#202832] p-5">
-        <TcoBreakdown car={car} annualKm={annualKm} />
-      </div>
-
-      {/* TCO Ladder — 7k / 15k / 25k */}
-      {tco && (
-        <div className="border-t border-[#1e3050] bg-[#0d1825] px-5 py-4">
-          <p className="mb-3 text-[10px] font-black tracking-[.14em] text-[#4aa3ff]">TCO LADDER — עלות לפי נסיעה שנתית</p>
-          <div className="grid grid-cols-3 gap-2 text-center text-xs">
-            {([["km7000", "7,000 ק״מ", "🏙️"], ["km15000", "15,000 ק״מ", "🛣️"], ["km25000", "25,000 ק״מ", "🚀"]] as const).map(([key, label, icon]) => {
-              const row = tco[key];
-              const isMiddle = key === "km15000";
-              return (
-                <div key={key} className={`rounded-xl p-3 ${isMiddle ? "border border-[#4aa3ff]/40 bg-[#0f2040]" : "bg-[#11151b]"}`}>
-                  <div className="text-base">{icon}</div>
-                  <div className={`mt-1 text-[11px] font-black ${isMiddle ? "text-[#9dd2ff]" : "text-[#f4f6f8]"}`}>
-                    {fmt(row?.totalMonthly)}
-                  </div>
-                  <div className="mt-0.5 text-[9px] text-[#5d7a9c]">{label}</div>
-                  {row?.isEstimate && <div className="mt-0.5 text-[8px] text-[#3d5470]">אומדן</div>}
-                </div>
-              );
-            })}
-          </div>
-          <p className="mt-3 text-[9px] text-[#3d5470]">* עלות חודשית כוללת — דלק + ביטוח + תחזוקה + פחת + רישוי</p>
-        </div>
-      )}
+// ─── Analysis & tools ────────────────────────────────────────────────────────
+function Analysis({ car, answers }: { car: Ranked; answers: Answers }) {
+  const { t, nf } = useLang();
+  const trim = trimOf(car.id);
+  const { data } = trpc.tco.multiBand.useQuery({ trimIds: trim ? [trim] : [0] }, { enabled: Boolean(trim) });
+  const band = answers.annualKmBand === "low" ? "km7000" : answers.annualKmBand === "high" ? "km25000" : "km15000";
+  const active = trim ? (data as unknown as Multi | undefined)?.[trim]?.[band] : undefined;
+  const monthly = active?.totalMonthly ?? monthlyFor(car, answers.annualKm);
+  const perKm = (monthly * 12) / answers.annualKm;
+  const fuelKm = car.fuel === "חשמלי" ? 0.102 : car.fuel === "היברידי" ? 0.32 : 0.497;
+  const yearly = car.fuel !== "בנזין" ? Math.round((0.497 - fuelKm) * answers.annualKm) : 0;
+  const metrics: [string, number][] = [[t.reliability, car.reliability], [t.economy, car.economy], [t.safety, car.safety], [t.comfort, car.comfort]];
+  return (
+    <div className="grid gap-10 lg:grid-cols-2">
+      <section>
+        <h3 className="text-[1.5rem]">{shortName(car.make)}</h3>
+        <dl className="mt-4 grid grid-cols-3 border-y border-seam">
+          <div className="p-3"><dt className="text-[13px] font-semibold text-tar">{t.analysisScore}</dt><dd className="num m-0 text-[30px]">{car.match}%</dd></div>
+          <div className="border-x border-seam p-3"><dt className="text-[13px] font-semibold text-tar">{t.cost3y}</dt><dd className="num m-0 text-[24px]">{shekel(monthly * 36, nf)}</dd></div>
+          <div className="p-3"><dt className="text-[13px] font-semibold text-tar">{t.perKm}</dt><dd className="num m-0 text-[24px]">₪{perKm.toFixed(2)}</dd></div>
+        </dl>
+        <ul className="mt-6 space-y-3">
+          {metrics.map(([l, v]) => (
+            <li key={l} className="grid grid-cols-[6rem_1fr_3rem] items-center gap-3 text-[15px]">
+              <span className="text-tar">{l}</span><span className="relative h-2.5 bg-slab"><span className="absolute inset-y-0 start-0 bg-asphalt" style={{ width: `${v}%` }} /></span><span className="num text-end text-[18px]">{v}</span>
+            </li>
+          ))}
+        </ul>
+        <div className="mt-8"><Breakdown car={car} km={answers.annualKm} /></div>
+      </section>
+      <section>
+        <h3 className="text-[1.5rem]">{t.insights}</h3>
+        <ul className="mt-4 space-y-3 text-[16px] leading-7">
+          <li className="flex gap-3"><span aria-hidden className="curb-off mt-3 block h-1.5 w-4 shrink-0" />{car.why}</li>
+          {yearly > 0 && <li className="flex gap-3"><span aria-hidden className="curb-est mt-3 block h-1.5 w-4 shrink-0 [--stripe:4px]" />{t.fuelSaving(shekel(yearly, nf), shekel(yearly * 3, nf))}</li>}
+          <li className="flex gap-3"><span aria-hidden className="curb-off mt-3 block h-1.5 w-4 shrink-0" />{t.checkBefore}</li>
+        </ul>
+      </section>
     </div>
+  );
+}
 
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-      {/* Overview */}
-      <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
-        <p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">OVERVIEW</p>
-        <p className="mt-4 text-sm leading-7 text-[#d6dde6]">{car.why}</p>
-        <div className="mt-5 space-y-2.5 text-sm">
-          {[["אמינות", car.reliability], ["בטיחות", car.safety], ["חסכון", car.economy], ["נוחות", car.comfort]].map(([label, val]) => (
-            <div key={label as string} className="flex items-center gap-3">
-              <span className="w-16 shrink-0 text-[11px] text-[#8f9aa8]">{label}</span>
-              <div className="flex-1 overflow-hidden rounded-full bg-[#202832]" style={{ height: 5 }}>
-                <div className="h-full rounded-full bg-[#4aa3ff]" style={{ width: `${val as number}%` }} />
-              </div>
-              <span className="w-10 text-left text-[11px] font-bold text-[#c5d0dc]">{val}/100</span>
+function Tools({ car, answers, setAnswers }: { car: Ranked; answers: Answers; setAnswers: React.Dispatch<React.SetStateAction<Answers>> }) {
+  const { t, nf } = useLang();
+  return (
+    <div className="grid gap-10 lg:grid-cols-2">
+      <section className="bg-asphalt p-6 text-paint sm:p-8">
+        <h3 className="text-[1.5rem]">{t.monthlyTool}</h3>
+        <p className="mt-1 text-[15px] text-[#c9ccc6]">{t.monthlyToolSub} · {shortName(car.make)}</p>
+        <div className="mt-6"><Plate value={monthlyFor(car, answers.annualKm)} /></div>
+        <label className="mt-8 block text-[15px] font-semibold">
+          <span className="num text-[22px]">{nf.format(answers.annualKm)}</span> {t.kmYear}
+          <input type="range" min={5000} max={40000} step={1000} value={answers.annualKm} className="mt-3 block w-full"
+            onChange={(e) => { const km = Number(e.target.value); setAnswers((p) => ({ ...p, annualKm: km, annualKmBand: km <= 10000 ? "low" : km >= 20000 ? "high" : "mid" })); }} />
+        </label>
+      </section>
+      <section>
+        <h3 className="text-[1.5rem]">{t.checklist}</h3>
+        <ul className="mt-4 divide-y divide-seam border-y border-seam">
+          {t.checklistItems.map((item) => (
+            <li key={item}><label className="flex min-h-12 cursor-pointer items-center gap-3 px-1 text-[16px] font-semibold"><input type="checkbox" className="h-5 w-5" />{item}</label></li>
+          ))}
+        </ul>
+        <p className="mt-3 text-[14px] text-tar">{t.checklistNote}</p>
+      </section>
+    </div>
+  );
+}
+
+// ─── Legend (the proof) ──────────────────────────────────────────────────────
+function Legend() {
+  const { t } = useLang();
+  const items: [Code, string, string][] = [["off", t.codeOfficial, t.legendOfficial], ["est", t.codeEstimate, t.legendEstimate], ["miss", t.codeMissing, t.legendMissing]];
+  return (
+    <section id="legend" className="scroll-mt-4 bg-asphalt text-paint">
+      <div className="mx-auto max-w-[1320px] px-4 py-16 sm:px-8 lg:py-20">
+        <h2 className="max-w-[18ch] text-[clamp(1.9rem,4vw,3.2rem)] leading-[1.08]">{t.legendTitle}</h2>
+        <p className="mt-4 max-w-[58ch] text-[17px] text-[#c9ccc6]">{t.legendSub}</p>
+        <div className="mt-10 grid gap-8 md:grid-cols-3 md:gap-6">
+          {items.map(([code, label, text]) => (
+            <div key={code}>
+              <div aria-hidden className={`${code === "off" ? "bg-[#9aa0a8]" : `curb-${code}`} h-7 [--stripe:26px]`} />
+              <h3 className="mt-4 text-[1.4rem]">{label}</h3>
+              <p className="mt-1 text-[16px] leading-7 text-[#c9ccc6]">{text}</p>
             </div>
           ))}
         </div>
       </div>
-
-      {/* Pros / Cons */}
-      {(car.pros?.length > 0 || car.cons?.length > 0) && (
-        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
-          <p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">יתרונות / חסרונות</p>
-          <div className="mt-4 space-y-1.5 text-xs">
-            {car.pros?.map((p) => <p key={p} className="text-[#5ab55a]">✓ {p}</p>)}
-            {car.cons?.map((c) => <p key={c} className="text-[#c46060]">✗ {c}</p>)}
-          </div>
-        </div>
-      )}
-
-      {/* Insurance + CTA */}
-      <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
-        <p className="text-xs font-bold tracking-[.16em] text-[#7c8897]">ביטוח (הערכה)</p>
-        <p className="mt-3 text-2xl font-black text-[#4aa3ff]">₪{car.insuranceMin ?? 0}–₪{car.insuranceMax ?? 0}</p>
-        <p className="mt-1 text-xs text-[#8f9aa8]">לחודש · נהג/ת מנוסה ללא תאונות</p>
-        <p className="mt-4 text-xs leading-5 text-[#657281]">הערכה בלבד — יש לקבל הצעת מחיר ממבטח לפני רכישה.</p>
-        <button onClick={onLead} className="mt-5 w-full rounded-xl bg-[#4aa3ff] py-3 text-xs font-black text-white">
-          המשיכו לחיפוש בשוק <ArrowUpLeft className="mr-1 inline h-3.5 w-3.5" />
-        </button>
-      </div>
-    </div>
-  </div>;
+    </section>
+  );
 }
 
-function Analysis({ result, monthly, answers }: { result: Car & { match: number }; monthly: number; answers: Answers }) {
-  const trimId = (() => { const n = Number(result.id); return Number.isFinite(n) && n > 0 ? n : undefined; })();
+// ─── Advisor chat ────────────────────────────────────────────────────────────
+function Advisor() {
+  const { lang, t, dir } = useLang();
+  const [messages, setMessages] = useState<{ from: "ai" | "user"; text: string; time: string }[]>([]);
+  const [question, setQuestion] = useState("");
+  const [loading, setLoading] = useState(false);
+  const listRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { const el = listRef.current; if (el && messages.length) el.scrollTo({ top: el.scrollHeight, behavior: "smooth" }); }, [messages, loading]);
 
-  const { data: multiBand, isLoading: tcoLoading } = trpc.tco.multiBand.useQuery(
-    { trimIds: trimId ? [trimId] : [0] },
-    { enabled: Boolean(trimId) },
-  );
-  const tco = trimId ? multiBand?.[trimId] : undefined;
+  async function send(text = question) {
+    const q = text.trim();
+    if (!q || loading) return;
+    const next = [...messages, { from: "user" as const, text: q, time: formatTime(lang) }];
+    setMessages(next); setQuestion(""); setLoading(true);
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: next.map((m) => ({ role: m.from === "user" ? "user" : "assistant", content: m.text })) }),
+      });
+      const data = await res.json().catch(() => { throw new Error(`HTTP_${res.status}`); });
+      if (!res.ok) throw new Error(res.status === 503 ? "CFG" : res.status === 502 ? "PROVIDER" : res.status === 429 ? "RATE" : `HTTP_${res.status}`);
+      setMessages((p) => [...p, { from: "ai", text: data.reply || t.chatEmpty, time: formatTime(lang) }]);
+    } catch (err) {
+      const code = err instanceof Error ? err.message : "";
+      const reply = code === "CFG" ? t.chatNotConfigured : code === "PROVIDER" ? t.chatProvider : code === "RATE" ? t.chatRate : t.chatFail(code.startsWith("HTTP_") ? code.slice(5) : "");
+      setMessages((p) => [...p, { from: "ai", text: reply, time: formatTime(lang) }]);
+    } finally { setLoading(false); }
+  }
 
-  // Pick the band matching the user's annualKm
-  const bandKey = answers.annualKmBand === "low" ? "km7000" : answers.annualKmBand === "high" ? "km25000" : "km15000";
-  const bandLabel = answers.annualKmBand === "low" ? "7,000" : answers.annualKmBand === "high" ? "25,000" : "15,000";
-  const activeBand = tco?.[bandKey];
-
-  // 3-year cost from real DB data (preferred) or fallback to monthly estimate
-  const monthlyForCalc = activeBand?.totalMonthly ?? monthly;
-  const cost3yr = monthlyForCalc * 36;
-
-  // Cost per km
-  const annualKm = answers.annualKm ?? 15000;
-  const costPerKm = activeBand?.totalMonthly
-    ? ((activeBand.totalMonthly * 12) / annualKm).toFixed(2)
-    : null;
-
-  // Fuel insight — EV vs petrol equivalent savings at user's km
-  const fuelCostPerKm = result.fuel === "חשמלי" ? 0.102 : result.fuel === "היברידי" ? 0.32 : 0.497;
-  const petrolPerKm   = 0.497;
-  const annualFuelSaving = result.fuel !== "בנזין"
-    ? Math.round((petrolPerKm - fuelCostPerKm) * annualKm)
-    : null;
-  const saving3yr = annualFuelSaving ? annualFuelSaving * 3 : null;
-
-  // Breakdown components from active band
-  const breakdown = activeBand ? [
-    { label: "⛽ דלק/חשמל",  val: activeBand.fuelMonthly,         color: "#4aa3ff" },
-    { label: "🛡️ ביטוח",     val: activeBand.insuranceMonthly,    color: "#5ab55a" },
-    { label: "🔧 תחזוקה",    val: activeBand.maintenanceMonthly,  color: "#e09955" },
-    { label: "📉 פחת",        val: activeBand.depreciationMonthly, color: "#c46060" },
-    { label: "📋 רישוי",     val: 121,                             color: "#8f9aa8" },
-  ].filter((r) => r.val != null) : [];
-  const totalBreakdown = breakdown.reduce((s, r) => s + (r.val ?? 0), 0);
-
-  // Score metrics
-  const metrics: [string, number][] = [
-    ["אמינות",       result.reliability],
-    ["ערך כספי",     Math.round((result.economy + result.comfort) / 2)],
-    ["חסכון דלק",   result.economy],
-    ["בטיחות",       result.safety],
-    ["נוחות",        result.comfort],
-  ];
-
+  const all = [{ from: "ai" as const, text: t.chatHello, time: "" }, ...messages];
   return (
-    <div className="grid gap-4 lg:grid-cols-[1.1fr_1fr]">
-      {/* ── Left: Score + breakdown ── */}
-      <div className="space-y-4">
-        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">OVERALL MATCH SCORE</p>
-              <h3 className="mt-2 text-5xl font-black text-[#4aa3ff]">
-                {(result.match / 10).toFixed(1)}<span className="text-lg text-[#657281]"> /10</span>
-              </h3>
-              <p className="mt-1 text-xs text-[#8f9aa8]">{result.make}</p>
-            </div>
-            <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-full border-[10px] border-[#202832] border-t-[#4aa3ff] border-r-[#4aa3ff] text-2xl font-black text-[#f4f6f8]">
-              {result.match}
-            </div>
-          </div>
-          <div className="mt-8 space-y-3">
-            {metrics.map(([label, value]) => (
-              <div key={label}>
-                <div className="mb-1 flex justify-between text-xs">
-                  <span className="text-[#aeb8c4]">{label}</span>
-                  <b className="text-[#f4f6f8]">{value}</b>
-                </div>
-                <div className="h-1.5 rounded-full bg-[#202832]">
-                  <div className="h-full rounded-full bg-[#4aa3ff] transition-all" style={{ width: `${value}%` }} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* ── TCO Breakdown donut-bar ── */}
-        {breakdown.length > 0 && (
-          <div className="rounded-3xl border border-[#1e3050] bg-[#0d1825] p-6">
-            <p className="text-xs font-bold tracking-[.14em] text-[#4aa3ff]">פירוט עלות חודשית — {bandLabel} ק״מ/שנה</p>
-            {tcoLoading && <p className="mt-2 text-[10px] text-[#5d7a9c]">טוען נתוני TCO…</p>}
-            <div className="mt-4 space-y-2.5">
-              {breakdown.map((r) => {
-                const pct = totalBreakdown > 0 ? Math.round(((r.val ?? 0) / totalBreakdown) * 100) : 0;
-                return (
-                  <div key={r.label}>
-                    <div className="flex justify-between text-xs">
-                      <span className="text-[#aeb8c4]">{r.label}</span>
-                      <b className="text-[#f4f6f8]">₪{(r.val ?? 0).toLocaleString()} <span className="font-normal text-[#5d7a9c]">({pct}%)</span></b>
-                    </div>
-                    <div className="mt-1 h-2 overflow-hidden rounded-full bg-[#1a2130]">
-                      <div className="h-full rounded-full transition-all" style={{ width: `${pct}%`, backgroundColor: r.color }} />
-                    </div>
-                  </div>
-                );
-              })}
-              <div className="flex justify-between border-t border-[#1e2731] pt-2 text-xs font-black">
-                <span className="text-[#8f9aa8]">סה״כ חודשי</span>
-                <span className="text-[#9dd2ff]">₪{(activeBand?.totalMonthly ?? monthly).toLocaleString()}</span>
-              </div>
-            </div>
-            <p className="mt-3 text-[9px] text-[#3d5470]">* אומדן · ביטוח — הצעה בפועל עשויה להשתנות</p>
-          </div>
-        )}
+    <section id="advisor" className="mx-auto grid max-w-[1320px] scroll-mt-4 gap-10 px-4 py-16 sm:px-8 lg:grid-cols-[.8fr_1.2fr] lg:py-24">
+      <div>
+        <h2 className="max-w-[14ch] text-[clamp(1.9rem,4vw,3.2rem)] leading-[1.08]">{t.chatTitle}</h2>
+        <p className="mt-4 max-w-[46ch] text-[17px] text-tar">{t.chatSub}</p>
       </div>
-
-      {/* ── Right: 3yr cost + fuel insight + why ── */}
-      <div className="space-y-4">
-        {/* 3-year total */}
-        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
-          <p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">
-            עלות 3 שנות בעלות
-            {tco && <span className="mr-2 text-[#4aa3ff]">· נתוני DB</span>}
-          </p>
-          <div className="mt-3 text-4xl font-black text-[#f4f6f8]">₪{cost3yr.toLocaleString()}</div>
-          <p className="mt-1 text-xs text-[#8f9aa8]">{bandLabel} ק״מ/שנה · 36 חודשים</p>
-          {costPerKm && (
-            <div className="mt-4 rounded-xl bg-[#0d1825] p-3 text-center">
-              <p className="text-[10px] text-[#5d7a9c]">עלות לק״מ</p>
-              <p className="text-2xl font-black text-[#9dd2ff]">₪{costPerKm}</p>
-              <p className="text-[10px] text-[#5d7a9c]">כולל דלק · ביטוח · תחזוקה · פחת</p>
+      <div className="flex flex-col border border-seam bg-slab">
+        <div ref={listRef} className="flex max-h-[440px] min-h-[280px] flex-col gap-3 overflow-y-auto p-4 sm:p-6" aria-live="polite">
+          {all.map((m, i) => (
+            <div key={i} className={`flex ${m.from === "user" ? "justify-start" : "justify-end"}`}>
+              <div className={`max-w-[85%] whitespace-pre-wrap px-4 py-2.5 text-[16px] leading-7 ${m.from === "user" ? "bg-curb text-paint" : "border border-seam bg-paint"}`}>
+                {m.text}
+                {m.time && <div className={`mt-0.5 text-[12px] ${m.from === "user" ? "text-[#dfe7f5]" : "text-tar"}`}>{m.time}</div>}
+              </div>
             </div>
-          )}
-          {/* km ladder pills */}
-          {tco && (
-            <div className="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
-              {([ ["km7000", "7k 🏙️", "low"], ["km15000", "15k 🛣️", "mid"], ["km25000", "25k 🚀", "high"] ] as const).map(([key, label, band]) => {
-                const v = tco[key]?.totalMonthly;
-                const active = band === answers.annualKmBand;
-                return (
-                  <div key={key} className={`rounded-lg p-2 ${active ? "border border-[#4aa3ff]/40 bg-[#0f2040]" : "bg-[#151b23]"}`}>
-                    <div className={`text-[11px] font-black ${active ? "text-[#9dd2ff]" : "text-[#f4f6f8]"}`}>
-                      {v != null ? `₪${v.toLocaleString()}` : "–"}
-                    </div>
-                    <div className="text-[9px] text-[#5d7a9c]">{label}</div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
+          ))}
+          {loading && <div className="flex justify-end"><div className="border border-seam bg-paint px-4 py-2.5 text-[15px] text-tar">{t.chatTyping}</div></div>}
         </div>
-
-        {/* Fuel saving insight */}
-        {saving3yr && saving3yr > 500 && (
-          <div className="rounded-3xl border border-[#1a3a1a] bg-[#0b1e0b] p-5">
-            <p className="text-xs font-bold tracking-[.14em] text-[#5ab55a]">💡 יתרון דלק / חשמל</p>
-            <p className="mt-3 text-sm leading-6 text-[#90e090]">
-              ברכב {result.fuel === "חשמלי" ? "חשמלי" : "היברידי"} לעומת בנזין נטו,
-              חוסכים כ-<strong>₪{annualFuelSaving!.toLocaleString()}/שנה</strong> על דלק בלבד.
-            </p>
-            <p className="mt-1 text-xs text-[#4a8a4a]">
-              ל-3 שנות בעלות: חיסכון של כ-<strong>₪{saving3yr.toLocaleString()}</strong>
-            </p>
-            <p className="mt-3 text-[9px] text-[#2d5a2d]">מבוסס על השוואה לבנזין 7L/100km × ₪7.10/ליטר</p>
-          </div>
-        )}
-
-        {/* Key insights */}
-        <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6">
-          <p className="text-xs font-bold tracking-[.14em] text-[#7c8897]">תובנות מרכזיות</p>
-          <div className="mt-4 space-y-3 text-sm leading-6 text-[#d6dde6]">
-            <p>✓ {result.why}</p>
-            {result.reliability >= 90 && <p>✓ אמינות גבוהה מאוד ({result.reliability}/100) — עלות תחזוקה צפויה ופחות הפתעות.</p>}
-            {result.fuel === "חשמלי" && <p>✓ חשמלי — אפס עלות דלק תחנה, תחזוקה מינימלית, בדוק גישה לטעינה.</p>}
-            {result.fuel === "היברידי" && <p>✓ היברידי — שיא חסכון בנסיעות עיר; רווח הולך וגדל עם כמות הק״מ.</p>}
-            {answers.annualKmBand === "high" && result.fuel === "היברידי" && <p>✓ {bandLabel} ק״מ/שנה: בטווח נסיעה זה ההיברידי מכסה את עצמו מהר.</p>}
-            <p>✓ לפני קנייה: בדקו היסטוריית שירות, קילומטרים ושעבודים.</p>
-          </div>
+        <div className="flex flex-wrap gap-2 border-t border-seam px-4 pt-4 sm:px-6">
+          {t.chatChips.map((c) => <button key={c} onClick={() => send(c)} disabled={loading} className="min-h-10 border border-seam bg-paint px-3 text-[14px] font-semibold hover:border-asphalt disabled:opacity-50">{c}</button>)}
         </div>
+        <form className="flex gap-2 p-4 sm:p-6" onSubmit={(e) => { e.preventDefault(); send(); }}>
+          <input value={question} onChange={(e) => setQuestion(e.target.value)} placeholder={t.chatPlaceholder} disabled={loading} aria-label={t.chatPlaceholder}
+            className="min-h-12 min-w-0 flex-1 border border-seam bg-paint px-4 text-[16px] outline-none placeholder:text-tar focus:border-curb disabled:opacity-60" />
+          <button type="submit" disabled={loading || !question.trim()} aria-label={t.chatSend} className="flex min-h-12 items-center gap-2 bg-curb px-5 font-bold text-paint hover:bg-curb-deep disabled:opacity-50">
+            <Send className={`h-4 w-4 ${dir === "rtl" ? "-scale-x-100" : ""}`} aria-hidden /><span className="hidden sm:inline">{t.chatSend}</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  );
+}
+
+// ─── Cost modal ──────────────────────────────────────────────────────────────
+function CostModal({ car, answers, onClose }: { car: Ranked; answers: Answers; onClose: () => void }) {
+  const { t, nf } = useLang();
+  const [down, setDown] = useState(30);
+  const [rate, setRate] = useState(4.5);
+  const [years, setYears] = useState(5);
+  const [loan, setLoan] = useState(false);
+  const rows = tcoRows(car, answers.annualKm, t);
+  const fallback: Record<string, number> = {
+    [t.fuelLine]: Math.round((answers.annualKm / 12) * (car.fuel === "חשמלי" ? 0.102 : car.fuel === "היברידי" ? 0.32 : 0.497)),
+    [t.insuranceLine]: 400, [t.maintenanceLine]: 220, [t.depreciationLine]: Math.round((car.price * 0.08) / 12),
+  };
+  const filled = rows.map((r) => ({ ...r, value: r.value ?? fallback[r.label] ?? 0, formula: r.value == null }));
+  const running = filled.reduce((s, r) => s + r.value, 0);
+  const principal = Math.round(car.price * (1 - down / 100));
+  const mr = rate / 100 / 12, n = years * 12;
+  const pay = mr > 0 ? Math.round((principal * mr * Math.pow(1 + mr, n)) / (Math.pow(1 + mr, n) - 1)) : Math.round(principal / n);
+  const total = running + (loan ? pay : 0);
+  return (
+    <Modal onClose={onClose} label={t.costTitle}>
+      <h2 className="pe-12 text-[1.6rem]">{t.costTitle}</h2>
+      <p className="mt-1 text-[15px] text-tar">{shortName(car.make)} · {t.kmBasis(answers.annualKm)}</p>
+      <div className="mt-5"><Plate value={total} label={loan ? t.withLoan : t.runningOnly} /></div>
+      <ul className="mt-6 divide-y divide-seam border-y border-seam">
+        {filled.map((r) => <li key={r.label} className="flex items-center justify-between py-2.5 text-[16px]"><span className="flex items-center gap-2 text-tar"><span aria-hidden className={`curb-${r.formula ? "miss" : r.code} block h-2 w-5 [--stripe:4px]`} />{r.label}</span><span className="num text-[20px]">{shekel(r.value, nf)}</span></li>)}
+        <li className="flex items-center justify-between py-2.5 text-[16px] font-bold"><span>{t.runningTotal}</span><span className="num text-[22px]">{shekel(running, nf)}</span></li>
+      </ul>
+      <button onClick={() => setLoan((v) => !v)} aria-expanded={loan} className={`${btnGhost} mt-5 w-full justify-between`}>{loan ? t.hideLoan : t.addLoan}<ChevronDown className={`h-4 w-4 transition-transform ${loan ? "rotate-180" : ""}`} aria-hidden /></button>
+      {loan && (
+        <div className="mt-4 space-y-5">
+          <Slider label={`${t.down}: ${down}% (${shekel((car.price * down) / 100, nf)})`} aside={`${t.loan}: ${shekel(principal, nf)}`} min={10} max={60} step={5} value={down} onChange={setDown} />
+          <Slider label={`${t.rate}: ${rate}%`} aside={`${t.totalInterest}: ${shekel(pay * n - principal, nf)}`} min={2} max={12} step={0.5} value={rate} onChange={setRate} />
+          <Slider label={`${years} ${t.years}`} aside={`${t.loanMonthly}: ${shekel(pay, nf)}`} min={2} max={7} step={1} value={years} onChange={setYears} />
+        </div>
+      )}
+      {filled.some((r) => r.formula) && <p className="mt-4 text-[13px] text-tar">{t.formulaNote}</p>}
+      <p className="mt-2 text-[13px] text-tar">{t.calcNote}</p>
+    </Modal>
+  );
+}
+
+function Slider({ label, aside, min, max, step, value, onChange }: { label: string; aside: string; min: number; max: number; step: number; value: number; onChange: (n: number) => void }) {
+  return (
+    <label className="block">
+      <span className="flex flex-wrap justify-between gap-2 text-[15px]"><span className="font-semibold">{label}</span><span className="text-tar">{aside}</span></span>
+      <input type="range" min={min} max={max} step={step} value={value} onChange={(e) => onChange(Number(e.target.value))} className="mt-2 block w-full" />
+    </label>
+  );
+}
+
+function Modal({ children, onClose, label }: { children: ReactNode; onClose: () => void; label: string }) {
+  const { t, dir } = useLang();
+  useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); }; window.addEventListener("keydown", k); return () => window.removeEventListener("keydown", k); }, [onClose]);
+  return (
+    <div dir={dir} className="fixed inset-0 z-50 flex items-end justify-center bg-asphalt/60 sm:items-center sm:p-5" onMouseDown={(e) => { if (e.target === e.currentTarget) onClose(); }}>
+      <div role="dialog" aria-modal="true" aria-label={label} className="relative max-h-[92vh] w-full max-w-[540px] overflow-y-auto border-t-4 border-asphalt bg-concrete p-6 sm:border-4 sm:p-8">
+        <button onClick={onClose} aria-label={t.modalClose} className="absolute end-4 top-4 flex h-10 w-10 items-center justify-center border border-seam bg-slab hover:border-asphalt"><X className="h-4 w-4" /></button>
+        {children}
       </div>
     </div>
   );
 }
-
-function Tools({ result, monthly, answers, setAnswers }: { result: Car & { match: number }; monthly: number; answers: Answers; setAnswers: React.Dispatch<React.SetStateAction<Answers>> }) {
-  return <div id="tools" className="grid gap-4 lg:grid-cols-2">
-    <div className="rounded-3xl bg-[#11151b] p-6 text-white"><div className="flex items-center gap-3"><WalletCards className="h-5 w-5 text-[#9dd2ff]" /><h3 className="text-xl font-black">עלות חודשית משוערת</h3></div><p className="mt-3 text-sm leading-6 text-[#aeb8c4]">לא רק מחיר הרכב: כאן רואים תמונת שימוש בסיסית. שנו את הקילומטרים כדי להבין את ההשפעה.</p><div className="mt-7 text-5xl font-black text-[#9dd2ff]">₪{monthly.toLocaleString()}<span className="text-base text-[#aeb8c4]"> / חודש</span></div><label className="mt-7 block text-xs font-bold text-[#aeb8c4]">קילומטרים בשנה: {answers.annualKm.toLocaleString()}</label><input type="range" min="5000" max="40000" step="1000" value={answers.annualKm} onChange={(e) => { const km = Number(e.target.value); const band: "low" | "mid" | "high" = km <= 10000 ? "low" : km >= 20000 ? "high" : "mid"; setAnswers((prev) => ({ ...prev, annualKm: km, annualKmBand: band })); }} className="mt-3 w-full accent-[#9dd2ff]" /><div className="mt-6 grid grid-cols-2 gap-2 text-xs"><div className="rounded-xl bg-[#11151b]/10 p-3"><span className="block text-[#c5d0dc]">הרכב שנבחר</span><b className="mt-1 block">{result.make}</b></div><div className="rounded-xl bg-[#11151b]/10 p-3"><span className="block text-[#c5d0dc]">הנעה</span><b className="mt-1 block">{result.fuel}</b></div></div></div>
-    <div className="rounded-3xl border border-[#202832] bg-[#11151b] p-6"><div className="flex items-center gap-3"><ListChecks className="h-5 w-5 text-[#4aa3ff]" /><h3 className="text-xl font-black">Checklist לפני יד־שנייה</h3></div><p className="mt-3 text-sm leading-6 text-[#8f9aa8]">ארבעה דברים שלא כדאי להשאיר לרגע האחרון.</p><div className="mt-6 space-y-3">{["היסטוריית טיפולים ותאונות", "בדיקה במכון בלתי תלוי", "התאמת מחיר לקילומטראז׳ וליד", "בדיקת שעבודים ומסמכים"].map((item) => <label key={item} className="flex items-center gap-3 rounded-xl bg-[#151b23] p-3 text-sm font-bold"><input type="checkbox" className="h-4 w-4 accent-[#4aa3ff]" />{item}</label>)}</div><div className="mt-6 rounded-xl bg-[#13243a] p-4 text-xs leading-5 text-[#9dd2ff]">ה־checklist הוא כלי עזר כללי ולא תחליף לבדיקה מקצועית או לייעוץ משפטי.</div></div>
-  </div>;
-}
-
-function CostModal({ result, answers, onClose }: { result: Car & { match: number }; answers: Answers; onClose: () => void }) {
-  const hasRealTco = Boolean(result.fuelMonthly && result.depreciationMonthly);
-  const kmFactor   = answers.annualKm / 15000;
-
-  // ── Financing state ──────────────────────────────────────────────────────
-  const [downPct,       setDownPct]       = useState(30);  // % of price
-  const [annualRate,    setAnnualRate]    = useState(4.5); // % annual interest
-  const [loanYears,     setLoanYears]     = useState(5);   // years
-  const [showFinancing, setShowFinancing] = useState(false);
-
-  // ── Running costs ────────────────────────────────────────────────────────
-  // EV: ~17 kWh/100km @ ₪0.60/kWh → ₪0.102/km; Hybrid: ~4.5L/100km @ ₪7.10 → ₪0.32/km; Petrol: ~7L/100km → ₪0.497/km
-  const fuelAmt     = result.fuelMonthly
-    ? Math.round(result.fuelMonthly * kmFactor)
-    : Math.round(answers.annualKm / 12 * (result.fuel === "חשמלי" ? 0.102 : result.fuel === "היברידי" ? 0.32 : 0.497));
-  const insurance    = result.insuranceMonthlyAmt ?? 400;
-  const maintenance  = result.maintenanceMonthly  ?? 220;
-  const depreciation = result.depreciationMonthly ?? Math.round(result.price * 0.08 / 12);
-  const registration = 121;
-  const runningTotal = fuelAmt + insurance + maintenance + depreciation + registration;
-
-  // ── Financing calculation (standard amortisation) ────────────────────────
-  const principal      = Math.round(result.price * (1 - downPct / 100));
-  const monthlyRate    = annualRate / 100 / 12;
-  const nPayments      = loanYears * 12;
-  const loanMonthly    = monthlyRate > 0
-    ? Math.round(principal * monthlyRate * Math.pow(1 + monthlyRate, nPayments) / (Math.pow(1 + monthlyRate, nPayments) - 1))
-    : Math.round(principal / nPayments);
-  const totalInterest  = loanMonthly * nPayments - principal;
-  const grandTotal     = runningTotal + (showFinancing ? loanMonthly : 0);
-
-  return <Modal onClose={onClose}>
-    <h2 className="text-2xl font-black">מחשבון עלות חודשית</h2>
-    <p className="mt-1 text-sm text-[#8f9aa8]">{result.make} · {answers.annualKm.toLocaleString()} ק״מ/שנה</p>
-
-    {/* ── Grand total pill ── */}
-    <div className="my-5 rounded-2xl bg-gradient-to-br from-[#0d1e35] to-[#11151b] p-5 text-center">
-      <div className="text-4xl font-black text-[#9dd2ff]">₪{grandTotal.toLocaleString()}</div>
-      <div className="mt-1 text-xs text-[#aeb8c4]">
-        {showFinancing ? "כולל תשלום הלוואה" : "עלויות שוטפות בלבד"} · חודשי
-      </div>
-      {showFinancing && (
-        <div className="mt-2 flex justify-center gap-4 text-[11px] text-[#6d8aab]">
-          <span>🏦 הלוואה ₪{loanMonthly.toLocaleString()}</span>
-          <span>+</span>
-          <span>🚗 שוטף ₪{runningTotal.toLocaleString()}</span>
-        </div>
-      )}
-    </div>
-
-    {/* ── Running cost rows ── */}
-    <div className="space-y-2 text-sm">
-      {[
-        ["⛽ דלק/חשמל",      fuelAmt],
-        ["🛡️ ביטוח",         insurance],
-        ["🔧 תחזוקה",        maintenance],
-        ["📉 פחת",           depreciation],
-        ["📋 רישוי",         registration],
-      ].map(([label, val]) => {
-        const pct = Math.round(((val as number) / runningTotal) * 100);
-        return (
-          <div key={label as string}>
-            <div className="flex justify-between text-xs">
-              <span className="text-[#aeb8c4]">{label as string}</span>
-              <b className="text-[#f4f6f8]">₪{(val as number).toLocaleString()}</b>
-            </div>
-            <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-[#1a2130]">
-              <div className="h-full rounded-full bg-[#4aa3ff]/70 transition-all" style={{ width: `${pct}%` }} />
-            </div>
-          </div>
-        );
-      })}
-      <div className="flex justify-between border-t border-[#26303a] pt-2 text-xs font-black">
-        <span className="text-[#8f9aa8]">סה״כ שוטף</span>
-        <span className="text-[#9dd2ff]">₪{runningTotal.toLocaleString()}</span>
-      </div>
-    </div>
-
-    {/* ── Financing toggle ── */}
-    <button
-      onClick={() => setShowFinancing((v) => !v)}
-      className="mt-5 flex w-full items-center justify-between rounded-xl border border-[#26303a] bg-[#11151b] px-4 py-3 text-xs font-black text-[#aeb8c4] hover:border-[#4aa3ff]"
-    >
-      <span>🏦 הוסיפו מימון / הלוואה</span>
-      <span className={showFinancing ? "text-[#4aa3ff]" : ""}>{showFinancing ? "▲ הסתירו" : "▼ פתחו"}</span>
-    </button>
-
-    {showFinancing && (
-      <div className="mt-3 space-y-4 rounded-xl border border-[#1e3050] bg-[#0d1825] p-4">
-        <div>
-          <div className="flex justify-between text-xs text-[#8f9aa8]">
-            <span>מקדמה: {downPct}% (₪{Math.round(result.price * downPct / 100).toLocaleString()})</span>
-            <span>הלוואה: ₪{principal.toLocaleString()}</span>
-          </div>
-          <input type="range" min="10" max="60" step="5" value={downPct}
-            onChange={(e) => setDownPct(Number(e.target.value))}
-            className="mt-1 w-full accent-[#4aa3ff]" />
-        </div>
-        <div>
-          <div className="flex justify-between text-xs text-[#8f9aa8]">
-            <span>ריבית שנתית: {annualRate}%</span>
-            <span>ריבית: ₪{Math.round(totalInterest).toLocaleString()} סה״כ</span>
-          </div>
-          <input type="range" min="2" max="12" step="0.5" value={annualRate}
-            onChange={(e) => setAnnualRate(Number(e.target.value))}
-            className="mt-1 w-full accent-[#4aa3ff]" />
-        </div>
-        <div>
-          <div className="flex justify-between text-xs text-[#8f9aa8]">
-            <span>תקופת הלוואה: {loanYears} שנים</span>
-            <span>₪{loanMonthly.toLocaleString()}/חודש</span>
-          </div>
-          <input type="range" min="2" max="7" step="1" value={loanYears}
-            onChange={(e) => setLoanYears(Number(e.target.value))}
-            className="mt-1 w-full accent-[#4aa3ff]" />
-        </div>
-        <div className="rounded-lg bg-[#132036] p-3 text-center">
-          <p className="text-xs text-[#6d8aab]">תשלום חודשי הלוואה</p>
-          <p className="mt-1 text-2xl font-black text-[#4aa3ff]">₪{loanMonthly.toLocaleString()}</p>
-          <p className="mt-0.5 text-[10px] text-[#4a5a6b]">+ ₪{runningTotal.toLocaleString()} שוטף = <strong className="text-[#9dd2ff]">₪{grandTotal.toLocaleString()}/חודש</strong></p>
-        </div>
-      </div>
-    )}
-
-    {!hasRealTco && <p className="mt-4 rounded-xl bg-[#1e2938] px-3 py-2 text-[10px] text-[#9dd2ff]">עלות שוטפת מחושבת לפי נוסחה — נתוני TCO מפורטים יופיעו לאחר הרצת seed-real-data.ts</p>}
-    <p className="mt-3 rounded-xl bg-[#1c1810] p-3 text-[10px] leading-5 text-[#906b1c]">כלי השוואתי בלבד — אינו הצעת מחיר או ייעוץ פיננסי. ביטוח — אומדן בלבד.</p>
-  </Modal>;
-}
-
-function Modal({ children, onClose }: { children: React.ReactNode; onClose: () => void }) { return <div className="fixed inset-0 z-50 flex items-end justify-center bg-[#11151b]/55 p-0 backdrop-blur-sm sm:items-center sm:p-5"><div className="relative max-h-[90vh] w-full max-w-[520px] overflow-y-auto rounded-t-3xl bg-[#11151b] p-6 shadow-2xl sm:rounded-3xl"><button onClick={onClose} aria-label="סגירה" className="absolute left-5 top-5 rounded-full bg-[#f3f5f8] p-2 text-[#8f9aa8]"><X className="h-4 w-4" /></button>{children}</div></div>; }

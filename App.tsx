@@ -1,10 +1,10 @@
-// CarAI Finder style reminder: Neo-industrial editorial, RTL-first, calm utility, Signal Blue actions, no generic dashboard chrome.
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { LangProvider } from "./i18n";
 import Home from "./pages/Home";
 import AdminLeads from "./pages/AdminLeads";
 import Privacy from "./pages/Privacy";
@@ -25,10 +25,12 @@ export default function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
-        <TooltipProvider>
-          <Toaster position="top-center" />
-          <Router />
-        </TooltipProvider>
+        <LangProvider>
+          <TooltipProvider>
+            <Toaster position="top-center" toastOptions={{ style: { borderRadius: 2, background: "#23262a", color: "#fbfbf8", border: "none", fontFamily: "Assistant, sans-serif", fontSize: 15 } }} />
+            <Router />
+          </TooltipProvider>
+        </LangProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );
