@@ -23,6 +23,7 @@ type Car = {
   marketRange?: string; dataNote?: string; dataStatus?: string; dataConfidence?: number;
   sourceName?: string; sourceUrl?: string; lastVerifiedAt?: string; demo?: boolean;
   bands?: Record<7000 | 15000 | 25000, CatBand>; confidence?: number;
+  spec?: { hp: number | null; seats: number | null; cargo: number | null; cons: number | null; ev: boolean };
 };
 type Ranked = Car & { match: number };
 type StepKey = "budget" | "use" | "priority" | "fuel" | "annualKm";
@@ -88,6 +89,7 @@ const staticCars: Car[] = STATIC_CATALOG.map((c) => {
     marketRange: c.priceMin && c.priceMax ? `₪${Math.round(c.priceMin / 1000)}K–₪${Math.round(c.priceMax / 1000)}K` : undefined,
     dataNote: `אומדן ״כמה עולה״ · רמת ביטחון ${c.confidence}/100${c.sampleSize ? ` · מחיר שוק לפי ${c.sampleSize} מודעות` : ""} · עלות דלק לפי צריכה משוקללת. ביטוח: הערכה בלבד.`,
     dataStatus: "estimated", dataConfidence: c.confidence, confidence: c.confidence, bands: c.bands,
+    spec: { hp: c.powerHp, seats: c.seats, cargo: c.cargoLiters, cons: c.consumption, ev: c.fuelType === "Electric" },
   };
 });
 
@@ -297,9 +299,16 @@ export default function Home() {
     toast(has ? t.removedToast : t.savedToast);
   }
   function toggleCompare(id: string) {
-    track(compare.includes(id) ? "compare_removed" : "compare_added");
-    setCompare((p) => (p.includes(id) ? p.filter((x) => x !== id) : p.length < 3 ? [...p, id] : (toast(t.compareMax), p)));
+    const has = compare.includes(id);
+    track(has ? "compare_removed" : "compare_added");
+    if (has) { setCompare(compare.filter((x) => x !== id)); return; }
+    if (compare.length >= 3) { toast(t.compareMax); return; }
+    const next = [...compare, id];
+    setCompare(next);
+    if (next.length >= 2) toast(lang === "he" ? `נוסף להשוואה (${next.length}/3)` : `Added to compare (${next.length}/3)`, { action: { label: lang === "he" ? "השוו עכשיו" : "Compare now", onClick: () => openCompare() } });
+    else toast(lang === "he" ? "נוסף להשוואה. בחרו עוד רכב אחד לפחות" : "Added. Pick at least one more car");
   }
+  function openCompare() { setTab("compare"); setTimeout(() => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 30); }
   async function shareResult() {
     if (!leader) return;
     const text = t.shareText(shortName(leader.make), ten(leader.match));
@@ -368,11 +377,13 @@ export default function Home() {
           {tab === "results" && <Results answers={answers} ranked={ranked} saved={saved} compare={compare} km={answers.annualKm} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} onShare={shareResult} onLead={() => setShowLead(true)} />}
           {tab === "detail" && detailCar && <Detail car={detailCar} km={answers.annualKm} answers={answers} onBack={() => setTab("results")} onLead={() => setShowLead(true)} saved={saved.includes(detailCar.id)} toggleSaved={toggleSaved} />}
           {tab === "saved" && <Saved cars={cars.filter((c) => saved.includes(c.id))} history={cars.filter((c) => history.includes(c.id))} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} />}
-          {tab === "compare" && <Compare cars={ranked.filter((c) => compare.includes(c.id))} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
+          {tab === "compare" && <Compare cars={compare.map((id) => ranked.find((c) => c.id === id)).filter((c): c is Ranked => Boolean(c))} all={ranked} km={answers.annualKm} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
           {tab === "analysis" && leader && <Analysis car={leader} answers={answers} />}
           {tab === "tools" && leader && <Tools car={leader} answers={answers} setAnswers={setAnswers} />}
         </div>
       </section>
+      {compare.length > 0 && tab !== "compare" && <div aria-hidden className="h-20" />}
+      {compare.length > 0 && tab !== "compare" && <CompareTray cars={compare.map((id) => cars.find((c) => c.id === id)).filter((c): c is Car => Boolean(c))} onRemove={toggleCompare} onOpen={openCompare} />}
 
       <PlateCheck cars={cars} km={answers.annualKm} onLead={setPlateLead} onDetails={openDetail} />
       <Legend />
@@ -824,70 +835,162 @@ function Money({ v, size }: { v: number | null | undefined; size: number }) {
   return <span className="num" style={{ fontSize: size }}>{shekel(v, nf)}</span>;
 }
 
-function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompare: (id: string) => void; onLead: () => void }) {
+/** Floating tray: what's selected for comparison + one clear action. */
+function CompareTray({ cars, onRemove, onOpen }: { cars: Car[]; onRemove: (id: string) => void; onOpen: () => void }) {
+  const { lang } = useLang();
+  const he = lang === "he";
+  return (
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-white/95 shadow-[0_-8px_24px_-12px_rgba(14,27,44,.25)] backdrop-blur">
+      <div className="mx-auto flex max-w-[1280px] flex-wrap items-center gap-2 px-4 py-3 sm:px-8">
+        <span className="text-[14px] font-bold text-muted">{he ? "בהשוואה:" : "Comparing:"}</span>
+        <ul className="flex min-w-0 flex-1 flex-wrap gap-1.5">
+          {cars.map((c) => (
+            <li key={c.id} className="flex min-h-9 items-center gap-1 rounded-full bg-mist ps-3 pe-1 text-[14px] font-semibold">
+              <span className="max-w-[16ch] truncate">{shortName(c.make)}</span>
+              <button onClick={() => onRemove(c.id)} aria-label={he ? `הסרה של ${shortName(c.make)}` : `Remove ${shortName(c.make)}`} className="flex h-7 w-7 items-center justify-center rounded-full hover:bg-white"><X className="h-3.5 w-3.5" /></button>
+            </li>
+          ))}
+        </ul>
+        <button onClick={onOpen} disabled={cars.length < 2} className={`${btnPrimary} min-h-11 px-6 disabled:opacity-50`}>
+          {cars.length < 2 ? (he ? "בחרו עוד רכב" : "Pick one more") : (he ? `השוו עכשיו (${cars.length})` : `Compare now (${cars.length})`)}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+type CmpRow = { label: string; get: (c: Ranked, i: number) => number | null; show: (v: number | null, c: Ranked) => ReactNode; better?: "low" | "high" };
+
+function Compare({ cars, all, km, toggleCompare, onLead }: { cars: Ranked[]; all: Ranked[]; km: number; toggleCompare: (id: string) => void; onLead: () => void }) {
   const { lang, t, nf } = useLang();
+  const he = lang === "he";
   const ids = cars.map((c) => trimOf(c.id));
   const valid = ids.filter((x): x is number => x !== undefined);
-  const { data, isLoading } = trpc.tco.multiBand.useQuery({ trimIds: valid }, { enabled: valid.length >= 1 });
+  const { data } = trpc.tco.multiBand.useQuery({ trimIds: valid }, { enabled: valid.length >= 1 });
   const tco = (data ?? {}) as unknown as Multi;
-  if (cars.length < 2) return <EmptyState text={t.emptyCompare} />;
+  const addable = all.filter((c) => !cars.some((x) => x.id === c.id));
+  const picker = cars.length < 3 && (
+    <label className="flex flex-wrap items-center gap-2 text-[15px] font-semibold">
+      {he ? "הוספת רכב להשוואה:" : "Add a car:"}
+      <select value="" onChange={(e) => e.target.value && toggleCompare(e.target.value)} className="min-h-11 max-w-full rounded-full border border-line bg-white px-4 text-[15px]">
+        <option value="">{he ? "בחירה…" : "Choose…"}</option>
+        {addable.map((c) => <option key={c.id} value={c.id}>{shortName(c.make)} · {shekel(c.price, nf)}</option>)}
+      </select>
+    </label>
+  );
+  if (cars.length < 2) return <div className="space-y-5"><EmptyState text={he ? "בחרו לפחות שני רכבים: לחצו ״להשוואה״ על כרטיסי הרכבים, או הוסיפו כאן." : t.emptyCompare} />{picker}</div>;
 
-  const at = (i: number, band: "km7000" | "km15000" | "km25000") => ladderFor(cars[i], tco)?.[band];
-  const totals = cars.map((_, i) => at(i, "km15000")?.totalMonthly ?? null);
-  const defined = totals.filter((v): v is number => v != null);
-  const best = defined.length >= 2 ? Math.min(...defined) : null;
-  const worst = defined.length >= 2 ? Math.max(...defined) : null;
-
-  const rows: [string, (c: Ranked, i: number) => ReactNode][] = [
-    [t.matchScore, (c) => <Score value={c.match} compact />],
-    [t.monthlyOwn, (c) => <MonthlyTag value={monthlyFor(c, 15000)} size="sm" />],
-    [t.price, (c) => <span className="num text-[18px]"><bdi>{c.marketRange ?? shekel(c.price, nf)}</bdi></span>],
-    ["7,000 km", (_, i) => <Money v={at(i, "km7000")?.totalMonthly} size={18} />],
-    ["15,000 km", (_, i) => <Money v={at(i, "km15000")?.totalMonthly} size={19} />],
-    ["25,000 km", (_, i) => <Money v={at(i, "km25000")?.totalMonthly} size={18} />],
-    [t.fuelLine, (_, i) => <Money v={at(i, "km15000")?.fuelMonthly} size={17} />],
-    [t.insuranceLine, (c, i) => <Money v={at(i, "km15000")?.insuranceMonthly ?? c.insuranceMin} size={17} />],
-    [t.maintenanceLine, (_, i) => <Money v={at(i, "km15000")?.maintenanceMonthly} size={17} />],
-    [t.depreciationLine, (_, i) => <Money v={at(i, "km15000")?.depreciationMonthly} size={17} />],
-    [t.reliability, (c) => <ScoreText value={c.reliability} />],
-    [t.safety, (c) => <ScoreText value={c.safety} />],
-    [t.powertrain, (c) => <span>{lang === "he" ? c.fuel : FUEL_EN[c.fuel] ?? c.fuel}</span>],
+  const month = (c: Ranked) => { const b = bandAt(c, km); return b ? b : null; };
+  const ladder = (c: Ranked, band: "km7000" | "km15000" | "km25000") => ladderFor(c, tco)?.[band]?.totalMonthly ?? null;
+  const money = (v: number | null) => (v == null ? <CodeChip code="miss" /> : <span className="num">{shekel(v, nf)}</span>);
+  const score = (v: number | null) => (v == null ? <CodeChip code="miss" /> : <ScoreText value={v} />);
+  const kmLabel = nf.format(km);
+  const rows: CmpRow[] = [
+    { label: he ? `עלות חודשית (${kmLabel} ק"מ בשנה)` : `Monthly cost (${kmLabel} km/yr)`, get: (c) => month(c)?.total ?? c.ownershipMonthly ?? null, show: (v) => (v == null ? <CodeChip code="miss" /> : <span className="num text-[20px] text-go">{shekel(v, nf)}</span>), better: "low" },
+    { label: he ? "מחיר מחירון" : "List price", get: (c) => c.price, show: (v) => money(v), better: "low" },
+    { label: t.matchScore, get: (c) => c.match, show: (v) => (v == null ? null : <Score value={v} compact />), better: "high" },
+    { label: t.fuelLine, get: (c) => month(c)?.fuel ?? c.fuelMonthly ?? null, show: money, better: "low" },
+    { label: t.insuranceLine, get: (c) => month(c)?.insurance ?? c.insuranceMonthlyAmt ?? null, show: money, better: "low" },
+    { label: t.maintenanceLine, get: (c) => month(c)?.maintenance ?? c.maintenanceMonthly ?? null, show: money, better: "low" },
+    { label: t.depreciationLine, get: (c) => month(c)?.depreciation ?? c.depreciationMonthly ?? null, show: money, better: "low" },
+    { label: he ? "בנסיעה מועטה (7,000 ק\"מ)" : "Low mileage (7,000 km)", get: (c) => ladder(c, "km7000"), show: money, better: "low" },
+    { label: he ? "בנסיעה רבה (25,000 ק\"מ)" : "High mileage (25,000 km)", get: (c) => ladder(c, "km25000"), show: money, better: "low" },
+    { label: t.reliability, get: (c) => c.reliability, show: score, better: "high" },
+    { label: t.safety, get: (c) => c.safety, show: score, better: "high" },
+    { label: he ? "חסכוניות" : "Economy", get: (c) => c.economy, show: score, better: "high" },
+    { label: he ? "נוחות" : "Comfort", get: (c) => c.comfort, show: score, better: "high" },
+    { label: he ? "הספק (כ\"ס)" : "Power (hp)", get: (c) => c.spec?.hp ?? null, show: (v) => (v == null ? <CodeChip code="miss" /> : <span className="num">{v}</span>), better: "high" },
+    { label: he ? "צריכה (ל' ל-100 ק\"מ)" : "Consumption (L/100 km)", get: (c) => (c.spec?.ev ? null : c.spec?.cons ?? null), show: (v, c) => (c.spec?.ev ? <span className="text-[14px] text-muted">{he ? "חשמלי" : "Electric"}</span> : v == null ? <CodeChip code="miss" /> : <span className="num">{v}</span>), better: "low" },
+    { label: he ? "מושבים" : "Seats", get: (c) => c.spec?.seats ?? null, show: (v) => (v == null ? <CodeChip code="miss" /> : <span className="num">{v}</span>), better: "high" },
+    { label: he ? "תא מטען (ליטר)" : "Boot (litres)", get: (c) => c.spec?.cargo ?? null, show: (v) => (v == null ? <CodeChip code="miss" /> : <span className="num">{nf.format(v)}</span>), better: "high" },
+    { label: t.powertrain, get: () => null, show: (_, c) => <span>{lang === "he" ? c.fuel : FUEL_EN[c.fuel] ?? c.fuel}</span> },
+  ];
+  const vals = rows.map((r) => cars.map((c, i) => r.get(c, i)));
+  const bestIdx = rows.map((r, ri) => {
+    if (!r.better) return -1;
+    const v = vals[ri]; const def = v.filter((x): x is number => x != null);
+    if (def.length < 2 || new Set(def).size === 1) return -1;
+    const target = r.better === "low" ? Math.min(...def) : Math.max(...def);
+    return v.filter((x) => x === target).length === 1 ? v.indexOf(target) : -1;
+  });
+  const wins = cars.map((_, i) => bestIdx.filter((b) => b === i).length);
+  const cheapest = bestIdx[0], monthly = vals[0];
+  const defM = monthly.filter((x): x is number => x != null);
+  const gap = defM.length >= 2 ? Math.max(...defM) - Math.min(...defM) : 0;
+  const verdict: [string, number][] = [
+    [he ? "הכי זול לחודש" : "Cheapest per month", cheapest],
+    [he ? "הכי אמין" : "Most reliable", bestIdx[9]],
+    [he ? "הכי בטוח" : "Safest", bestIdx[10]],
+    [he ? "הכי מתאים לך" : "Best match for you", bestIdx[2]],
   ];
 
   return (
-    <div>
+    <div className="space-y-6">
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {verdict.map(([k, i]) => (
+          <div key={k} className={`${card} p-4`}>
+            <p className="text-[14px] text-muted">{k}</p>
+            <p className="mt-1 font-display text-[1.15rem] font-bold leading-tight">{i >= 0 ? shortName(cars[i].make) : (he ? "תיקו" : "Tie")}</p>
+          </div>
+        ))}
+      </div>
+      {gap > 0 && cheapest >= 0 && (
+        <p className="rounded-xl bg-go-soft px-4 py-3 text-[16px] font-semibold text-go-deep">
+          {he ? `${shortName(cars[cheapest].make)} חוסך עד ${shekel(gap, nf)} בחודש, כ-${shekel(gap * 36, nf)} בשלוש שנים.` : `${shortName(cars[cheapest].make)} saves up to ${shekel(gap, nf)} a month, about ${shekel(gap * 36, nf)} over three years.`}
+        </p>
+      )}
       <div className={`${card} overflow-x-auto`}>
-        <table className="w-full min-w-[620px] table-fixed border-collapse text-[15px]">
+        <table className="w-full min-w-[560px] table-fixed border-collapse text-[15px]">
+          <colgroup><col className="w-[34%] sm:w-[26%]" />{cars.map((c) => <col key={c.id} />)}</colgroup>
           <thead>
             <tr className="border-b border-line">
-              <th className="w-40 p-4 text-start align-top font-semibold text-muted">{t.metric}</th>
-              {cars.map((c) => (
-                <th key={c.id} className="p-4 text-start align-top">
+              <th className="sticky start-0 z-10 bg-white p-3 text-start align-bottom text-[14px] font-semibold text-muted sm:p-4">{he ? "מנצח בשורות:" : "Rows won:"}</th>
+              {cars.map((c, i) => (
+                <th key={c.id} className="p-3 text-start align-top sm:p-4">
                   <CarPhoto name={c.make} label={false} className="mb-3 aspect-[16/10] w-full rounded-xl" width={480} />
                   <div className="flex items-start justify-between gap-2">
-                    <span className="font-display text-[1.05rem] font-bold leading-tight">{shortName(c.make)}</span>
-                    <button onClick={() => toggleCompare(c.id)} aria-label={t.modalClose} className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-muted hover:bg-mist hover:text-ink"><X className="h-4 w-4" /></button>
+                    <span className="min-w-0 break-words font-display text-[1.05rem] font-bold leading-tight">{shortName(c.make)}</span>
+                    <button onClick={() => toggleCompare(c.id)} aria-label={he ? "הסרה מההשוואה" : "Remove"} className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-muted hover:bg-mist hover:text-ink"><X className="h-4 w-4" /></button>
                   </div>
+                  <p className="mt-1 text-[13px] font-semibold text-go-deep">{he ? `${wins[i]} שורות` : `${wins[i]} rows`}</p>
                 </th>
               ))}
             </tr>
           </thead>
           <tbody>
-            {rows.map(([label, cell], r) => (
-              <tr key={label} className={r % 2 ? "" : "bg-mist/60"}>
-                <th scope="row" className="p-4 text-start font-semibold text-muted"><bdi>{label}</bdi></th>
-                {cars.map((c, i) => <td key={c.id} className="p-4">{cell(c, i)}</td>)}
+            {rows.map((r, ri) => (
+              <tr key={r.label} className="border-b border-line last:border-0">
+                <th scope="row" className="sticky start-0 z-10 bg-white p-3 text-start text-[14px] font-semibold text-muted sm:p-4">{r.label}</th>
+                {cars.map((c, i) => {
+                  const win = bestIdx[ri] === i;
+                  return (
+                    <td key={c.id} className={`p-3 align-middle sm:p-4 ${win ? "bg-go-soft" : ""}`}>
+                      <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1">
+                        {r.show(vals[ri][i], c)}
+                        {win && <span className="inline-flex items-center gap-0.5 rounded-full bg-go px-2 py-0.5 text-[11px] font-bold text-white"><Check className="h-3 w-3" aria-hidden />{he ? "הכי טוב" : "Best"}</span>}
+                      </div>
+                    </td>
+                  );
+                })}
               </tr>
             ))}
+            <tr>
+              <th scope="row" className="sticky start-0 z-10 bg-white p-3 text-start align-top text-[14px] font-semibold text-muted sm:p-4">{he ? "יתרונות וחסרונות" : "Pros & cons"}</th>
+              {cars.map((c) => (
+                <td key={c.id} className="p-3 align-top text-[14px] sm:p-4">
+                  <ul className="space-y-1">{c.pros.slice(0, 3).map((x) => <li key={x} className="flex gap-1.5"><Check className="mt-0.5 h-4 w-4 shrink-0 text-go" aria-hidden />{x}</li>)}</ul>
+                  <ul className="mt-2 space-y-1 text-muted">{c.cons.slice(0, 2).map((x) => <li key={x} className="flex gap-1.5"><X className="mt-0.5 h-4 w-4 shrink-0 text-alert" aria-hidden />{x}</li>)}</ul>
+                </td>
+              ))}
+            </tr>
           </tbody>
         </table>
       </div>
-      {isLoading && <p className="mt-2 text-[14px] text-muted">{t.ladderLoading}</p>}
-      {best != null && worst != null && (worst - best) * 36 >= 500 && (
-        <p className="mt-4 rounded-xl bg-go-soft px-4 py-3 text-[16px] font-semibold text-go-deep">{t.savings3y(shortName(cars[totals.indexOf(best)].make), shekel((worst - best) * 36, nf))}</p>
-      )}
-      <p className="mt-2 text-[14px] text-muted">{t.insuranceNote}</p>
-      <button onClick={onLead} className={`${btnPrimary} mt-6`}>{t.continueLead}</button>
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        {picker}
+        <button onClick={onLead} className={btnPrimary}>{t.continueLead}</button>
+      </div>
+      <p className="text-[14px] text-muted">{t.insuranceNote}</p>
     </div>
   );
 }
@@ -1060,13 +1163,13 @@ function PlateCheck({ cars, km, onLead, onDetails }: { cars: Car[]; km: number; 
     .map((k) => [k, k === "lastTest" || k === "licenseValidUntil" || k === "onRoadSince" ? fmtDate(rec[k]) : rec[k]] as const).filter(([, v]) => v) : [];
   return (
     <section id="plate" className="mx-auto max-w-[1280px] scroll-mt-20 px-4 pb-20 sm:px-8">
-      <div className={`${card} grid gap-8 p-6 sm:p-8 lg:grid-cols-[.9fr_1.1fr]`}>
-        <div>
+      <div className={`${card} grid grid-cols-[minmax(0,1fr)] gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)]`}>
+        <div className="min-w-0">
           <h2 className="max-w-[18ch] text-[clamp(1.6rem,3vw,2.3rem)] leading-[1.12]">{t.plateTitle}</h2>
           <p className="mt-3 max-w-[50ch] text-[16px] text-muted">{t.plateSub}</p>
           <form onSubmit={check} className="mt-6 flex gap-2">
-            <input value={plate} onChange={(e) => setPlate(e.target.value)} inputMode="numeric" dir="ltr" placeholder={t.platePlaceholder} aria-label={t.platePlaceholder}
-              className="num min-h-14 min-w-0 flex-1 rounded-xl border-2 border-[#1d3f91] bg-[#f5c518] px-4 text-center text-[24px] tracking-wider text-ink outline-none placeholder:text-[16px] placeholder:font-sans placeholder:font-normal placeholder:tracking-normal placeholder:text-[#5a4a00] focus:ring-4 focus:ring-[#f5c518]/40" />
+            <input value={plate} onChange={(e) => setPlate(e.target.value)} inputMode="numeric" dir="ltr" placeholder={t.platePlaceholder} aria-label={t.platePlaceholder} size={8}
+              className="num min-h-14 w-full min-w-0 flex-1 rounded-xl border-2 border-[#1d3f91] bg-[#f5c518] px-4 text-center text-[24px] tracking-wider text-ink outline-none placeholder:text-[16px] placeholder:font-sans placeholder:font-normal placeholder:tracking-normal placeholder:text-[#5a4a00] focus:ring-4 focus:ring-[#f5c518]/40" />
             <button type="submit" disabled={state === "loading"} className={`${btnPrimary} min-h-14 px-6 text-[16px] disabled:opacity-50`}>{t.plateBtn}</button>
           </form>
           {state === "invalid" && <p className="mt-2 text-[14px] font-semibold text-alert">{t.plateInvalid}</p>}
