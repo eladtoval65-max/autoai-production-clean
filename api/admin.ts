@@ -8,7 +8,7 @@
  */
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { getPool } from "../dbConnection";
-import { ensureSchema, LEAD_STATUSES, SCHEMA_VERSION } from "../schemaSetup";
+import { ensureSchema, resetSchema, LEAD_STATUSES, SCHEMA_VERSION, schemaErrors } from "../schemaSetup";
 
 const COOKIE = "autoai_admin";
 const TTL_MS = 12 * 60 * 60 * 1000;
@@ -79,7 +79,7 @@ export default async function handler(req: any, res: any) {
       catch (e: any) { console.error("[Admin] db check failed", e?.code ?? e?.name ?? "unknown"); }
     }
     return res.status(200).json({
-      dbConfigured: Boolean(pool), dbReachable, leadsTable, schemaVersion: leadsTable ? SCHEMA_VERSION : 0,
+      dbConfigured: Boolean(pool), dbReachable, leadsTable, schemaVersion: leadsTable ? SCHEMA_VERSION : 0, schemaErrors,
       contactEmail: /^\S+@\S+\.\S+$/.test(process.env.AUTOAI_CONTACT_EMAIL ?? ""),
       emailAlerts: Boolean(process.env.RESEND_API_KEY?.trim()),
       chatKey: Boolean(process.env.ANTHROPIC_API_KEY?.trim()),
@@ -90,7 +90,7 @@ export default async function handler(req: any, res: any) {
   try {
     await ensureSchema(pool);
 
-    if (action === "init" && isPost) return res.status(200).json({ ok: true, leadsTable: true, schemaVersion: SCHEMA_VERSION });
+    if (action === "init" && isPost) { resetSchema(); await ensureSchema(pool); return res.status(200).json({ ok: true, leadsTable: true, schemaVersion: SCHEMA_VERSION, schemaErrors }); }
 
     // ── Leads ────────────────────────────────────────────────────────────────
     if (action === "leads") {

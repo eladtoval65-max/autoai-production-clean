@@ -307,7 +307,7 @@ export const leads = mysqlTable(
     sourcePage: varchar("sourcePage", { length: 80 }).notNull().default("recommendations"),
     consentText: text("consentText").notNull(),
     consentAt: timestamp("consentAt").notNull(),
-    status: mysqlEnum("status", ["new", "contacted", "qualified", "sent_to_partner", "won", "lost", "closed"]).notNull().default("new"),
+    status: mysqlEnum("status", ["new", "contacted", "qualified", "closed", "sent_to_partner", "won", "lost"]).notNull().default("new"),
     utmSource: varchar("utmSource", { length: 80 }),
     utmMedium: varchar("utmMedium", { length: 80 }),
     utmCampaign: varchar("utmCampaign", { length: 120 }),

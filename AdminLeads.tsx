@@ -8,7 +8,7 @@ import { useCallback, useEffect, useMemo, useState, type FormEvent, type ReactNo
 import { Link } from "wouter";
 import { AlarmClock, Check, Download, ExternalLink, LogOut, MessageCircle, Phone, Plus, RefreshCw, Search, Trash2, X } from "lucide-react";
 
-type Status = { dbConfigured: boolean; dbReachable: boolean; leadsTable: boolean; contactEmail: boolean; emailAlerts: boolean; chatKey: boolean };
+type Status = { dbConfigured: boolean; dbReachable: boolean; leadsTable: boolean; schemaErrors?: string[]; contactEmail: boolean; emailAlerts: boolean; chatKey: boolean };
 type Lead = {
   id: number; fullName: string; phone: string; city: string | null; leadType: string; vehicleLabel: string; budget: number | null;
   purchaseTimeline: string; sourcePage: string; utmSource: string | null; utmMedium: string | null; utmCampaign: string | null; landingSlug: string | null;
@@ -158,6 +158,11 @@ function SetupTab({ status, onChange }: { status: Status; onChange: () => Promis
           </li>
         ))}
       </ul>
+      {!!status.schemaErrors?.length && (
+        <p role="alert" className="mt-4 rounded-xl bg-[#fff4e8] p-3 text-[14px] text-alert">
+          חלק משדרוגי מסד הנתונים לא הצליחו ({status.schemaErrors.join(", ")}). אפשר ללחוץ שוב על הכפתור למטה; אם זה חוזר, לשלוח את הקודים האלה.
+        </p>
+      )}
       {status.dbReachable && <button onClick={init} disabled={busy} className={`${btnGo} mt-5`}>הכנת מסד הנתונים / עדכון מבנה</button>}
       {error && <p role="alert" className="mt-3 text-[15px] font-semibold text-alert">{error}</p>}
     </section>

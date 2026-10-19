@@ -10,10 +10,15 @@ import m2 from "./0002_stiff_machine_man.sql";
 import m3 from "./0003_boring_wilson_fisk.sql";
 import m4 from "./0004_flat_mockingbird.sql";
 
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 const SKIP_ERRNO = new Set([1005, 1050, 1060, 1061, 1068, 1091, 1826, 1022]);
 
 export const LEAD_STATUSES = ["new", "contacted", "qualified", "sent_to_partner", "won", "lost", "closed"] as const;
+/**
+ * Database enum order. TiDB only allows APPENDING values to an existing enum (inserting in the
+ * middle fails with "Unsupported modify column"), so the original 4 values keep their positions.
+ */
+const STATUS_DB_ORDER = ["new", "contacted", "qualified", "closed", "sent_to_partner", "won", "lost"];
 
 const UPGRADES: string[] = [
   "ALTER TABLE `leads` ADD COLUMN `utmSource` varchar(80) NULL",
@@ -27,7 +32,6 @@ const UPGRADES: string[] = [
   "ALTER TABLE `leads` ADD COLUMN `partnerSentAt` timestamp NULL",
   "ALTER TABLE `leads` ADD COLUMN `partnerPrice` int NULL",
   "ALTER TABLE `leads` ADD COLUMN `partnerPaid` tinyint(1) NOT NULL DEFAULT 0",
-  `ALTER TABLE \`leads\` MODIFY COLUMN \`status\` enum(${LEAD_STATUSES.map((s) => `'${s}'`).join(",")}) NOT NULL DEFAULT 'new'`,
   `CREATE TABLE IF NOT EXISTS \`lead_notes\` (
     \`id\` int AUTO_INCREMENT NOT NULL PRIMARY KEY,
     \`leadId\` int NOT NULL,
@@ -71,6 +75,7 @@ const UPGRADES: string[] = [
     UNIQUE KEY \`landing_pages_slug_uidx\` (\`slug\`)
   )`,
   "CREATE TABLE IF NOT EXISTS `app_schema` (`id` int NOT NULL PRIMARY KEY, `version` int NOT NULL)",
+  `ALTER TABLE \`leads\` MODIFY COLUMN \`status\` enum(${STATUS_DB_ORDER.map((s) => `'${s}'`).join(",")}) NOT NULL DEFAULT 'new'`,
 ];
 
 async function run(pool: Pool, stmt: string) {
@@ -79,6 +84,11 @@ async function run(pool: Pool, stmt: string) {
 }
 
 let ready: Promise<void> | null = null;
+/** Error codes of upgrade statements that failed on this instance (no SQL text, no data). */
+export let schemaErrors: string[] = [];
+
+/** Forces the next ensureSchema() call to re-run the upgrade (admin "init" button). */
+export function resetSchema() { ready = null; }
 
 /** Brings the database to SCHEMA_VERSION. Cheap after the first call (one indexed read). */
 export function ensureSchema(pool: Pool): Promise<void> {
@@ -88,10 +98,23 @@ export function ensureSchema(pool: Pool): Promise<void> {
         const [rows] = await pool.query("SELECT version FROM app_schema WHERE id = 1");
         if (Number((rows as any[])[0]?.version ?? 0) >= SCHEMA_VERSION) return;
       } catch { /* app_schema missing: fresh or pre-CRM database */ }
-      for (const sql of [m0, m1, m2, m3, m4]) {
-        for (const stmt of sql.split("--> statement-breakpoint").map((s) => s.trim()).filter(Boolean)) await run(pool, stmt);
+      const failed: string[] = [];
+      // Each statement is independent: one unsupported DDL must not block the rest.
+      const attempt = async (stmt: string, label: string) => {
+        try { await run(pool, stmt); }
+        catch (e: any) { failed.push(`${label}:${e?.code ?? e?.errno ?? "error"}`); console.error("[Schema] statement failed", label, e?.code ?? e?.errno); }
+      };
+      let i = 0;
+      // Base Drizzle migrations only on a database that doesn't have them yet.
+      const hasBase = await pool.query("SELECT 1 FROM leads LIMIT 1").then(() => true, () => false);
+      if (!hasBase) for (const sql of [m0, m1, m2, m3, m4]) {
+        for (const stmt of sql.split("--> statement-breakpoint").map((s) => s.trim()).filter(Boolean)) await attempt(stmt, `m${i++}`);
       }
-      for (const stmt of UPGRADES) await run(pool, stmt);
+      for (const [j, stmt] of UPGRADES.entries()) await attempt(stmt, `u${j}`);
+      schemaErrors = failed;
+      // Only the leads table is essential; anything else is retried on the next cold start.
+      await pool.query("SELECT 1 FROM leads LIMIT 1");
+      if (failed.length) return;
       await pool.query("INSERT INTO app_schema (id, version) VALUES (1, ?) ON DUPLICATE KEY UPDATE version = VALUES(version)", [SCHEMA_VERSION]);
     })().catch((e) => { ready = null; throw e; });
   }
