@@ -161,8 +161,6 @@ export default function Home() {
       "Nissan Qashqai": heroImage,
       "MG MG4 Electric": heroImage,
       // Batch 3
-      "RAV4 Hybrid": heroImage,
-      "Toyota RAV4 Hybrid": heroImage,
       "Ioniq 6": heroImage,
       "Hyundai Ioniq 6": heroImage,
       "Octavia": heroImage,
@@ -197,7 +195,6 @@ export default function Home() {
       // Batch 2
       "Kia Sportage Hybrid": "family", "Nissan Qashqai": "family", "MG MG4 Electric": "city",
       // Batch 3
-      "RAV4 Hybrid": "family", "Toyota RAV4 Hybrid": "family",
       "Ioniq 6": "highway", "Hyundai Ioniq 6": "highway",
       "Octavia": "highway", "Skoda Octavia": "highway",
       // Batch 4

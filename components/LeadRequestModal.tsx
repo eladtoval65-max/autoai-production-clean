@@ -1,1 +1,1 @@
-export { default } from "../../LeadRequestModal";
+export { default } from "../LeadRequestModal";
