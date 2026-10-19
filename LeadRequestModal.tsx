@@ -64,7 +64,7 @@ export default function LeadRequestModal({
         {receivedId === null ? (
           <>
             <h2 className="pe-12 text-[1.7rem] leading-tight">רוצים שנחזור אליכם?</h2>
-            <p className="mt-2 text-[15px] leading-6 text-muted">בקשה לגבי {vehicle.make.split(" · ")[0]}. פרטי הקשר יישמרו ב־AutoAI בלבד; בשלב זה אין העברה אוטומטית לגורם מסחרי.</p>
+            <p className="mt-2 text-[15px] leading-6 text-muted">בקשה לגבי {vehicle.make.split(" · ")[0]}. פרטי הקשר יישמרו ב״כמה עולה״ בלבד; בשלב זה אין העברה אוטומטית לגורם מסחרי.</p>
             <form className="mt-6 space-y-4" onSubmit={onSubmit}>
               <label className="block text-[15px] font-semibold">מה מעניין אתכם?
                 <select className={`mt-1 ${fieldClass}`} value={leadType} onChange={event => setLeadType(event.target.value as RequestType)}>
@@ -89,11 +89,11 @@ export default function LeadRequestModal({
               </label>
               <Link href="/privacy" className="inline-block text-[14px] underline">מידע על פרטיות ופניות</Link>
               {create.error && <p role="alert" className="text-[15px] font-semibold text-alert">{create.error.message || "לא הצלחנו לשמור את הפנייה; נסו שוב."}</p>}
-              <button type="submit" disabled={!consent || create.isPending} className="min-h-12 w-full rounded-full bg-go px-5 text-[17px] font-bold text-white hover:bg-go-deep disabled:opacity-50">{create.isPending ? "שומרים פנייה…" : "שליחת בקשה ל־AutoAI"}</button>
+              <button type="submit" disabled={!consent || create.isPending} className="min-h-12 w-full rounded-full bg-go px-5 text-[17px] font-bold text-white hover:bg-go-deep disabled:opacity-50">{create.isPending ? "שומרים פנייה…" : "שליחת בקשה ל״כמה עולה״"}</button>
             </form>
           </>
         ) : (
-          <div className="py-8 text-center"><Check className="mx-auto mb-4 text-go" size={36} /><h2 className="text-[1.7rem]">הבקשה התקבלה</h2><p className="mt-3 text-[15px] leading-6 text-muted">מספר פנייה {receivedId}. הפרטים נשמרו במערכת AutoAI לטיפול פנימי; אין הבטחה להצעת מחיר או להעברה לסוכנות.</p><button onClick={onClose} className="mt-6 min-h-11 rounded-full bg-go px-6 font-bold text-white hover:bg-go-deep">סגירה</button></div>
+          <div className="py-8 text-center"><Check className="mx-auto mb-4 text-go" size={36} /><h2 className="text-[1.7rem]">הבקשה התקבלה</h2><p className="mt-3 text-[15px] leading-6 text-muted">מספר פנייה {receivedId}. הפרטים נשמרו במערכת ״כמה עולה״ לטיפול פנימי; אין הבטחה להצעת מחיר או להעברה לסוכנות.</p><button onClick={onClose} className="mt-6 min-h-11 rounded-full bg-go px-6 font-bold text-white hover:bg-go-deep">סגירה</button></div>
         )}
       </div>
     </div>

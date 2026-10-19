@@ -84,7 +84,7 @@ const staticCars: Car[] = STATIC_CATALOG.map((c) => {
     insuranceMin: c.insuranceMin ?? undefined, insuranceMax: c.insuranceMax ?? undefined,
     ownershipMonthly: b.total, fuelMonthly: b.fuel, insuranceMonthlyAmt: b.insurance, maintenanceMonthly: b.maintenance, depreciationMonthly: b.depreciation,
     marketRange: c.priceMin && c.priceMax ? `₪${Math.round(c.priceMin / 1000)}K–₪${Math.round(c.priceMax / 1000)}K` : undefined,
-    dataNote: `אומדן AutoAI · רמת ביטחון ${c.confidence}/100${c.sampleSize ? ` · מחיר שוק לפי ${c.sampleSize} מודעות` : ""} · עלות דלק לפי צריכה משוקללת. ביטוח: הערכה בלבד.`,
+    dataNote: `אומדן ״כמה עולה״ · רמת ביטחון ${c.confidence}/100${c.sampleSize ? ` · מחיר שוק לפי ${c.sampleSize} מודעות` : ""} · עלות דלק לפי צריכה משוקללת. ביטוח: הערכה בלבד.`,
     dataStatus: "estimated", dataConfidence: c.confidence, confidence: c.confidence, bands: c.bands,
   };
 });
@@ -296,7 +296,7 @@ export default function Home() {
     if (!leader) return;
     const text = t.shareText(shortName(leader.make), ten(leader.match));
     try {
-      if (navigator.share) await navigator.share({ title: "AutoAI", text });
+      if (navigator.share) await navigator.share({ title: lang === "he" ? "כמה עולה" : "KamaOle", text });
       else { await navigator.clipboard.writeText(text); toast(t.copiedToast); }
     } catch {}
   }
@@ -309,9 +309,11 @@ export default function Home() {
     <main dir={dir} lang={lang} className="min-h-screen bg-page text-ink">
       <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-4 px-4 py-3 sm:px-8">
-          <a href="#top" className="flex items-center gap-2 text-ink no-underline" aria-label="AutoAI">
-            <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-[9px] bg-go font-display text-[15px] font-bold text-white">A</span>
-            <span className="font-display text-[21px] font-bold leading-none" dir="ltr">Auto<span className="text-go">AI</span></span>
+          <a href="#top" className="flex items-center gap-2 text-ink no-underline" aria-label={lang === "he" ? "כמה עולה" : "KamaOle"}>
+            <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-[9px] bg-go font-display text-[17px] font-bold text-white">₪</span>
+            {lang === "he"
+              ? <span className="font-display text-[22px] font-bold leading-none">כמה <span className="text-go">עולה</span></span>
+              : <span className="font-display text-[21px] font-bold leading-none">Kama<span className="text-go">Ole</span></span>}
           </a>
           <nav className="flex items-center gap-1 text-[15px] font-semibold sm:gap-6">
             <a href="#results" className="hidden text-muted no-underline hover:text-ink md:inline">{t.navResults}</a>
@@ -370,7 +372,7 @@ export default function Home() {
       <footer className="bg-ink text-white">
         <div className="mx-auto flex max-w-[1280px] flex-col gap-6 px-4 py-12 text-[15px] sm:px-8 md:flex-row md:items-start md:justify-between">
           <div>
-            <div className="font-display text-2xl font-bold" dir="ltr" style={{ textAlign: "start" }}>Auto<span className="text-[#5fd3a7]">AI</span></div>
+            <div className="font-display text-2xl font-bold">{lang === "he" ? <>כמה <span className="text-[#5fd3a7]">עולה</span></> : <>Kama<span className="text-[#5fd3a7]">Ole</span></>}</div>
             <p className="mt-2 max-w-[48ch] text-[#c3cbd6]">{t.footerLine}</p>
           </div>
           <div className="max-w-[46ch] text-[#c3cbd6]">

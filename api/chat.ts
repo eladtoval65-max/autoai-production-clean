@@ -27,7 +27,7 @@ function rateLimited(ip: string): boolean {
 }
 
 const DEFAULT_SYSTEM =
-  "אתה AutoAI, יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
+  "אתה היועץ של \"כמה עולה\" (KamaOle), יועץ רכב ישראלי אמין. ענה בעברית פשוטה (או באנגלית אם המשתמש כותב באנגלית), הסבר יתרונות וחסרונות, אל תמציא נתונים, סמן אומדנים כאומדנים, ושאל שאלת המשך כשחסר מידע. ביטוח הוא תמיד הערכה בלבד ולא הצעת מחיר.";
 
 export default async function handler(req: any, res: any) {
   // GET = health check for diagnosing deployments. Reports only whether a key exists, never the key.

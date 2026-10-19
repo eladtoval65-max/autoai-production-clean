@@ -87,7 +87,7 @@ export default function AdminLeads() {
             <button onClick={logout} className={`${btn} border border-line bg-white hover:border-ink`}><LogOut className="h-4 w-4" aria-hidden />יציאה</button>
           </div>}
         </div>
-        <h1 className="mt-6 text-[clamp(1.8rem,3.4vw,2.6rem)]">פניות AutoAI</h1>
+        <h1 className="mt-6 text-[clamp(1.8rem,3.4vw,2.6rem)]">פניות ״כמה עולה״</h1>
 
         {phase === "checking" && <p className="mt-6 text-muted">בודקים…</p>}
 

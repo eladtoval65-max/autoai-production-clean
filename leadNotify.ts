@@ -34,7 +34,7 @@ export async function notifyNewLead(lead: LeadForEmail): Promise<void> {
       method: "POST",
       headers: { authorization: `Bearer ${key}`, "content-type": "application/json" },
       body: JSON.stringify({
-        from: process.env.LEAD_EMAIL_FROM?.trim() || "AutoAI <onboarding@resend.dev>",
+        from: process.env.LEAD_EMAIL_FROM?.trim() || "KamaOle <onboarding@resend.dev>",
         to: [to],
         subject: `ליד חדש #${lead.id}: ${TYPE_HE[lead.leadType] ?? lead.leadType}`,
         html,
