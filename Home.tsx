@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { toast } from "sonner";
 import {
   ArrowLeft, ArrowRight, BatteryCharging, Building2, Check, ChevronDown, CircleDashed, Clock, Fuel, Gauge, Heart, Languages,
-  MapPin, Milestone, PlugZap, Receipt, RotateCcw, Route, Send, Share2, ShieldCheck, Sofa, UserX, Users, Wrench, X, type LucideIcon,
+  MapPin, Milestone, PlugZap, Receipt, RotateCcw, Route, Send, Share2, ShieldCheck, Sofa, Star, UserX, Users, Wrench, X, type LucideIcon,
 } from "lucide-react";
 import { Link } from "wouter";
 import { photoFor } from "./vehicleImages";
@@ -99,6 +99,8 @@ const useByName: Record<string, string> = {
 const formatTime = (lang: Lang) => new Date().toLocaleTimeString(lang === "he" ? "he-IL" : "en-US", { hour: "2-digit", minute: "2-digit" });
 const track = (event: string) => { try { const e = JSON.parse(localStorage.getItem("carai-events") || "[]"); e.push({ event, at: new Date().toISOString() }); localStorage.setItem("carai-events", JSON.stringify(e.slice(-100))); } catch {} };
 const shortName = (make: string) => make.split(" · ")[0];
+/** All scores are shown on one 1–10 scale (one decimal), the convention of leading car-review sites. */
+const ten = (v: number) => Math.round(v) / 10;
 
 /** 6-factor weighted score: budget 25 · use 20 · TCO 20 · reliability 15 · safety 10 · priority 10. Multi-select answers count if any matches. */
 function computeScore(car: Car, a: Answers): number {
@@ -269,7 +271,7 @@ export default function Home() {
   }
   async function shareResult() {
     if (!leader) return;
-    const text = t.shareText(shortName(leader.make), leader.match);
+    const text = t.shareText(shortName(leader.make), ten(leader.match));
     try {
       if (navigator.share) await navigator.share({ title: "AutoAI", text });
       else { await navigator.clipboard.writeText(text); toast(t.copiedToast); }
@@ -477,6 +479,67 @@ function CarPhoto({ name, className = "", eager, width, label = false }: { name:
   );
 }
 
+function Stars({ value, size = 16 }: { value: number; size?: number }) {
+  // value on 0–10; each point is half a star.
+  const filled = Math.round(value) / 2;
+  return (
+    <span className="inline-flex" aria-hidden>
+      {[0, 1, 2, 3, 4].map((i) => {
+        const part = Math.max(0, Math.min(1, filled - i));
+        return (
+          <span key={i} className="relative inline-block" style={{ width: size, height: size }}>
+            <Star className="absolute inset-0 text-[#d5dbe3]" style={{ width: size, height: size }} fill="currentColor" strokeWidth={0} />
+            {part > 0 && <span className="absolute inset-y-0 start-0 overflow-hidden" style={{ width: `${part * 100}%` }}><Star className="absolute top-0 start-0 text-[#f5a524]" style={{ width: size, height: size }} fill="currentColor" strokeWidth={0} /></span>}
+          </span>
+        );
+      })}
+    </span>
+  );
+}
+
+/** Overall score: big number /10 + stars + plain-language word. */
+function Score({ value, compact }: { value: number; compact?: boolean }) {
+  const { t } = useLang();
+  const v = ten(value);
+  return (
+    <span className="inline-flex flex-wrap items-center gap-x-2 gap-y-0.5" aria-label={`${t.matchScore}: ${v.toFixed(1)} ${t.scoreOf10}, ${t.scoreWord(v)}`}>
+      <span dir="ltr" className={`num leading-none ${compact ? "text-[20px]" : "text-[24px]"}`} aria-hidden>{v.toFixed(1)}<span className="text-[13px] font-semibold text-muted">/10</span></span>
+      <Stars value={v} size={compact ? 14 : 17} />
+      <span className="text-[14px] font-bold text-ink" aria-hidden>{t.scoreWord(v)}</span>
+    </span>
+  );
+}
+
+function ScoreText({ value }: { value: number }) {
+  const { t } = useLang();
+  const v = ten(value);
+  return <span><bdi dir="ltr"><span className="num text-[17px]">{v.toFixed(1)}</span><span className="text-[13px] text-muted">/10</span></bdi> <span className="text-[14px] font-semibold text-muted">{t.scoreWord(v)}</span></span>;
+}
+
+/** Sub-scores as 10 segments, so "8 of 10" is visible at a glance. */
+function SubScores({ items }: { items: (readonly [string, number])[] }) {
+  const { t } = useLang();
+  return (
+    <ul className="space-y-3">
+      {items.map(([label, raw]) => {
+        const v = ten(raw);
+        return (
+          <li key={label} className="grid grid-cols-[6.5rem_1fr_auto] items-center gap-3 text-[15px]">
+            <span className="text-muted">{label}</span>
+            <span className="flex gap-[3px]" aria-hidden>
+              {Array.from({ length: 10 }, (_, i) => {
+                const fill = Math.max(0, Math.min(1, v - i));
+                return <span key={i} className="relative h-2.5 flex-1 overflow-hidden rounded-sm bg-mist">{fill > 0 && <span className="absolute inset-y-0 start-0 bg-go" style={{ width: `${fill * 100}%` }} />}</span>;
+              })}
+            </span>
+            <span className="min-w-[7.5rem] text-end" aria-label={`${label}: ${v.toFixed(1)} ${t.scoreOf10}`}><span className="num text-[17px]">{v.toFixed(1)}</span> <span className="text-[14px] font-semibold text-muted">{t.scoreWord(v)}</span></span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 function CodeChip({ code }: { code: Code }) {
   const { t } = useLang();
   const label = code === "off" ? t.codeOfficial : code === "est" ? t.codeEstimate : t.codeMissing;
@@ -522,8 +585,9 @@ function LeaderPanel({ car, km, started }: { car: Ranked; km: number; started: b
       <div className={`${card} relative z-10 -mt-16 mx-3 p-5 shadow-[var(--shadow-float)] sm:mx-6 sm:p-6`}>
         <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
           <div>
-            <span className="inline-flex items-center rounded-full bg-go-soft px-2.5 py-0.5 text-[13px] font-bold text-go-deep">{started ? t.leaderNow : t.leaderSample} · {car.match}% {t.match}</span>
-            <h2 className="mt-2 text-[clamp(1.3rem,2vw,1.6rem)] leading-tight">{shortName(car.make)}</h2>
+            <span className="text-[13px] font-bold text-muted">{started ? t.leaderNow : t.leaderSample}</span>
+            <h2 className="mt-1 text-[clamp(1.3rem,2vw,1.6rem)] leading-tight">{shortName(car.make)}</h2>
+            <div className="mt-2"><Score value={car.match} /></div>
           </div>
           <MonthlyTag value={monthlyFor(car, km)} />
         </div>
@@ -556,7 +620,7 @@ function Results({ answers, ranked, saved, compare, km, toggleSaved, toggleCompa
   return (
     <div>
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="max-w-[70ch] text-[15px] text-muted">{t.rankNote}</p>
+        <p className="max-w-[70ch] text-[15px] text-muted">{t.rankNote} {t.scoreNote}</p>
         <div className="flex flex-wrap gap-2">
           <select aria-label={t.powertrain} value={fuel} onChange={(e) => setFuel(e.target.value)} className={selectCls}>
             <option value="all">{t.allFuels}</option>
@@ -574,13 +638,14 @@ function Results({ answers, ranked, saved, compare, km, toggleSaved, toggleCompa
           <article className={`${card} mt-6 grid overflow-hidden lg:grid-cols-[1.15fr_1fr]`}>
             <div className="relative min-h-[260px]">
               <CarPhoto name={top.make} className="absolute inset-0 h-full w-full" width={1280} />
-              <span className="absolute start-4 top-4 rounded-full bg-go px-3 py-1 text-[14px] font-bold text-white">#1 · {top.match}% {t.match}</span>
+              <span className="absolute start-4 top-4 rounded-full bg-go px-3 py-1 text-[14px] font-bold text-white">#1 · <Star className="inline h-3.5 w-3.5 -translate-y-px fill-current" aria-hidden /> {ten(top.match).toFixed(1)}</span>
             </div>
             <div className="flex flex-col p-5 sm:p-7">
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <h3 className="text-[1.6rem] leading-tight">{shortName(top.make)}</h3>
                   <p className="mt-1 text-[15px] text-muted"><bdi>{top.years}</bdi></p>
+                  <div className="mt-2"><Score value={top.match} /></div>
                 </div>
                 <SaveBtn on={saved.includes(top.id)} onClick={() => toggleSaved(top.id)} />
               </div>
@@ -605,7 +670,7 @@ function Results({ answers, ranked, saved, compare, km, toggleSaved, toggleCompa
                 <article key={c.id} className={`${card} flex flex-col overflow-hidden transition-shadow hover:shadow-[var(--shadow-float)]`}>
                   <div className="relative">
                     <CarPhoto name={c.make} className="aspect-[16/10] w-full" width={800} />
-                    <span className="absolute start-3 top-3 rounded-full bg-white px-2.5 py-0.5 text-[13px] font-bold text-ink shadow-[var(--shadow-card)]">#{i + 2} · {c.match}%</span>
+                    <span className="absolute start-3 top-3 rounded-full bg-white px-2.5 py-0.5 text-[13px] font-bold text-ink shadow-[var(--shadow-card)]">#{i + 2} · <Star className="inline h-3.5 w-3.5 -translate-y-px fill-[#f5a524] text-[#f5a524]" aria-hidden /> {ten(c.match).toFixed(1)}</span>
                     <div className="absolute end-3 top-3"><SaveBtn on={saved.includes(c.id)} onClick={() => toggleSaved(c.id)} small /></div>
                   </div>
                   <div className="flex flex-1 flex-col p-4">
@@ -697,7 +762,7 @@ function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompar
   const worst = defined.length >= 2 ? Math.max(...defined) : null;
 
   const rows: [string, (c: Ranked, i: number) => ReactNode][] = [
-    [t.match, (c) => <span className="num text-[19px]">{c.match}%</span>],
+    [t.matchScore, (c) => <Score value={c.match} compact />],
     [t.monthlyOwn, (c) => <MonthlyTag value={monthlyFor(c, 15000)} size="sm" />],
     [t.price, (c) => <span className="num text-[18px]"><bdi>{c.marketRange ?? shekel(c.price, nf)}</bdi></span>],
     ["7,000 km", (_, i) => <Money v={at(i, "km7000")?.totalMonthly} size={18} />],
@@ -707,8 +772,8 @@ function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompar
     [t.insuranceLine, (c, i) => <Money v={at(i, "km15000")?.insuranceMonthly ?? c.insuranceMin} size={17} />],
     [t.maintenanceLine, (_, i) => <Money v={at(i, "km15000")?.maintenanceMonthly} size={17} />],
     [t.depreciationLine, (_, i) => <Money v={at(i, "km15000")?.depreciationMonthly} size={17} />],
-    [t.reliability, (c) => <span className="num text-[17px]">{c.reliability}/100</span>],
-    [t.safety, (c) => <span className="num text-[17px]">{c.safety}/100</span>],
+    [t.reliability, (c) => <ScoreText value={c.reliability} />],
+    [t.safety, (c) => <ScoreText value={c.safety} />],
     [t.powertrain, (c) => <span>{lang === "he" ? c.fuel : FUEL_EN[c.fuel] ?? c.fuel}</span>],
   ];
 
@@ -775,7 +840,7 @@ function Detail({ car, km, onBack, onLead, answers, saved, toggleSaved }: { car:
           <dl className={`${card} mt-5 grid grid-cols-3 divide-x divide-line rtl:divide-x-reverse`}>
             <div className="p-4"><dt className="text-[13px] font-semibold text-muted">{t.monthlyOwn}</dt><dd className="m-0 mt-1"><MonthlyTag value={monthlyFor(car, km)} size="sm" /></dd></div>
             <div className="p-4"><dt className="text-[13px] font-semibold text-muted">{t.marketPrice}</dt><dd className="num m-0 mt-1 text-[19px]"><bdi>{car.marketRange ?? shekel(car.price, nf)}</bdi></dd></div>
-            <div className="p-4"><dt className="text-[13px] font-semibold text-muted">{t.match}</dt><dd className="num m-0 mt-1 text-[21px]">{car.match}%</dd></div>
+            <div className="p-4"><dt className="text-[13px] font-semibold text-muted">{t.matchScore}</dt><dd className="m-0 mt-1"><Score value={car.match} compact /></dd></div>
           </dl>
           <div className="mt-6"><Breakdown car={car} km={km} /></div>
           {ladder && (
@@ -797,15 +862,7 @@ function Detail({ car, km, onBack, onLead, answers, saved, toggleSaved }: { car:
           <section className={`${card} p-6`}>
             <h4 className="text-[1.2rem]">{t.overview}</h4>
             <p className="mt-2 text-[16px] leading-7">{car.why}</p>
-            <ul className="mt-4 space-y-2.5">
-              {([[t.reliability, car.reliability], [t.safety, car.safety], [t.economy, car.economy], [t.comfort, car.comfort]] as const).map(([l, v]) => (
-                <li key={l} className="grid grid-cols-[6rem_1fr_3rem] items-center gap-3 text-[15px]">
-                  <span className="text-muted">{l}</span>
-                  <span className="relative h-2 overflow-hidden rounded-full bg-mist"><span className="grow absolute inset-y-0 start-0 rounded-full bg-ink" style={{ width: `${v}%` }} /></span>
-                  <span className="num text-end text-[16px]">{v}</span>
-                </li>
-              ))}
-            </ul>
+            <div className="mt-4"><SubScores items={[[t.reliability, car.reliability], [t.safety, car.safety], [t.economy, car.economy], [t.comfort, car.comfort]]} /></div>
           </section>
           {(car.pros.length > 0 || car.cons.length > 0) && (
             <section className={`${card} p-6`}>
@@ -849,17 +906,11 @@ function Analysis({ car, answers }: { car: Ranked; answers: Answers }) {
       <section className={`${card} p-6`}>
         <h3 className="text-[1.4rem]">{shortName(car.make)}</h3>
         <dl className="mt-4 grid grid-cols-3 gap-3">
-          <div className="rounded-xl bg-mist p-3"><dt className="text-[13px] font-semibold text-muted">{t.analysisScore}</dt><dd className="num m-0 text-[26px]">{car.match}%</dd></div>
+          <div className="rounded-xl bg-mist p-3"><dt className="text-[13px] font-semibold text-muted">{t.analysisScore}</dt><dd className="m-0 mt-1"><Score value={car.match} compact /></dd></div>
           <div className="rounded-xl bg-mist p-3"><dt className="text-[13px] font-semibold text-muted">{t.cost3y}</dt><dd className="num m-0 text-[21px]">{shekel(monthly * 36, nf)}</dd></div>
           <div className="rounded-xl bg-mist p-3"><dt className="text-[13px] font-semibold text-muted">{t.perKm}</dt><dd className="num m-0 text-[21px]"><bdi>₪{perKm.toFixed(2)}</bdi></dd></div>
         </dl>
-        <ul className="mt-6 space-y-3">
-          {metrics.map(([l, v]) => (
-            <li key={l} className="grid grid-cols-[6rem_1fr_3rem] items-center gap-3 text-[15px]">
-              <span className="text-muted">{l}</span><span className="relative h-2 overflow-hidden rounded-full bg-mist"><span className="grow absolute inset-y-0 start-0 rounded-full bg-ink" style={{ width: `${v}%` }} /></span><span className="num text-end text-[16px]">{v}</span>
-            </li>
-          ))}
-        </ul>
+        <div className="mt-6"><SubScores items={metrics} /></div>
         <div className="mt-8"><Breakdown car={car} km={answers.annualKm} /></div>
       </section>
       <section className={`${card} p-6`}>
