@@ -12,16 +12,18 @@ export default function LeadRequestModal({
   budget,
   sourcePage,
   onClose,
+  defaultType,
 }: {
   vehicle: { id: string; make: string; match: number };
   budget: number;
   sourcePage: "recommendations" | "vehicle_details" | "comparison";
   onClose: () => void;
+  defaultType?: RequestType;
 }) {
   const [fullName, setFullName] = useState("");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
-  const [leadType, setLeadType] = useState<RequestType>("vehicle");
+  const [leadType, setLeadType] = useState<RequestType>(defaultType ?? "vehicle");
   const [purchaseTimeline, setPurchaseTimeline] = useState<Timeline>("unsure");
   const [consent, setConsent] = useState(false);
   const [website, setWebsite] = useState(""); // Spam honeypot.

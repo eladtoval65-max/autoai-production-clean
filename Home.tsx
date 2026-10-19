@@ -189,6 +189,7 @@ export default function Home() {
   const [compare, setCompare] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showLead, setShowLead] = useState(false);
+  const [plateLead, setPlateLead] = useState<string | null>(null);
   const resultsRef = useRef<HTMLElement>(null);
 
   const catalogQuery = trpc.catalog.list.useQuery({ limit: 100, annualKm: answers.annualKm }, { retry: 1 });
@@ -314,7 +315,8 @@ export default function Home() {
           </a>
           <nav className="flex items-center gap-1 text-[15px] font-semibold sm:gap-6">
             <a href="#results" className="hidden text-muted no-underline hover:text-ink md:inline">{t.navResults}</a>
-            <a href="#legend" className="hidden text-muted no-underline hover:text-ink md:inline">{t.navHow}</a>
+            <a href="#plate" className="hidden text-muted no-underline hover:text-ink md:inline">{t.navPlate}</a>
+            <a href="#legend" className="hidden text-muted no-underline hover:text-ink lg:inline">{t.navHow}</a>
             <a href="#advisor" className="hidden text-muted no-underline hover:text-ink sm:inline">{t.navAdvisor}</a>
             <button onClick={() => setLang(lang === "he" ? "en" : "he")} lang={lang === "he" ? "en" : "he"} className="flex min-h-10 items-center gap-1.5 rounded-full border border-line px-3.5 text-[14px] font-bold hover:border-ink">
               <Languages className="h-4 w-4" aria-hidden />{t.langSwitch}
@@ -361,6 +363,7 @@ export default function Home() {
         </div>
       </section>
 
+      <PlateCheck cars={cars} km={answers.annualKm} onLead={setPlateLead} onDetails={openDetail} />
       <Legend />
       <Advisor />
 
@@ -379,6 +382,7 @@ export default function Home() {
 
       {showLead && leader && <LeadRequestModal vehicle={tab === "detail" && detailCar ? detailCar : leader} budget={answers.budget}
         sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"} onClose={() => setShowLead(false)} />}
+      {plateLead && <LeadRequestModal vehicle={{ id: "plate", make: plateLead, match: 0 }} budget={answers.budget} sourcePage="vehicle_details" defaultType="used_car" onClose={() => setPlateLead(null)} />}
     </main>
   );
 }
@@ -1003,6 +1007,83 @@ function Tools({ car, answers, setAnswers }: { car: Ranked; answers: Answers; se
 }
 
 // ─── Legend (the proof) ──────────────────────────────────────────────────────
+// ─── Plate check (official registry) ─────────────────────────────────────────
+type PlateRecord = { found: boolean; source?: string; plate?: string; make?: string | null; model?: string | null; trim?: string | null; year?: string | null; fuel?: string | null; color?: string | null; ownership?: string | null; lastTest?: string | null; licenseValidUntil?: string | null; onRoadSince?: string | null; safetyLevel?: string | null; pollutionGroup?: string | null };
+const norm = (v: string) => v.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+function PlateCheck({ cars, km, onLead, onDetails }: { cars: Car[]; km: number; onLead: (label: string) => void; onDetails: (id: string) => void }) {
+  const { lang, t, nf } = useLang();
+  const [plate, setPlate] = useState("");
+  const [state, setState] = useState<"idle" | "loading" | "error" | "invalid">("idle");
+  const [rec, setRec] = useState<PlateRecord | null>(null);
+  async function check(e: React.FormEvent) {
+    e.preventDefault();
+    const n = plate.replace(/\D/g, "");
+    if (!/^\d{7,8}$/.test(n)) { setState("invalid"); setRec(null); return; }
+    setState("loading"); setRec(null);
+    track("plate_check");
+    try {
+      const res = await fetch(`/api/plate?n=${n}`);
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data) throw new Error(String(res.status));
+      setRec(data); setState("idle");
+    } catch { setState("error"); }
+  }
+  const fmtDate = (v?: string | null) => { if (!v) return null; const d = new Date(v); return Number.isNaN(d.getTime()) ? v : d.toLocaleDateString(lang === "he" ? "he-IL" : "en-GB"); };
+  const match = rec?.found && rec.model ? cars.find((c) => { const m = norm(shortName(c.make)); const r = norm(rec.model ?? ""); return r.length > 2 && (m.includes(r) || r.includes(norm(c.make.split(" ").slice(-1)[0]))); }) : undefined;
+  const label = rec?.found ? [rec.make, rec.model, rec.year].filter(Boolean).join(" ") : "";
+  const leasing = rec?.ownership && /ליסינג|השכרה|חכירה/.test(rec.ownership);
+  const fields = rec?.found ? (["make", "model", "trim", "year", "fuel", "color", "ownership", "lastTest", "licenseValidUntil", "onRoadSince", "safetyLevel", "pollutionGroup"] as const)
+    .map((k) => [k, k === "lastTest" || k === "licenseValidUntil" || k === "onRoadSince" ? fmtDate(rec[k]) : rec[k]] as const).filter(([, v]) => v) : [];
+  return (
+    <section id="plate" className="mx-auto max-w-[1280px] scroll-mt-20 px-4 pb-20 sm:px-8">
+      <div className={`${card} grid gap-8 p-6 sm:p-8 lg:grid-cols-[.9fr_1.1fr]`}>
+        <div>
+          <h2 className="max-w-[18ch] text-[clamp(1.6rem,3vw,2.3rem)] leading-[1.12]">{t.plateTitle}</h2>
+          <p className="mt-3 max-w-[50ch] text-[16px] text-muted">{t.plateSub}</p>
+          <form onSubmit={check} className="mt-6 flex gap-2">
+            <input value={plate} onChange={(e) => setPlate(e.target.value)} inputMode="numeric" dir="ltr" placeholder={t.platePlaceholder} aria-label={t.platePlaceholder}
+              className="num min-h-14 min-w-0 flex-1 rounded-xl border-2 border-[#1d3f91] bg-[#f5c518] px-4 text-center text-[24px] tracking-wider text-ink outline-none placeholder:text-[16px] placeholder:font-sans placeholder:font-normal placeholder:tracking-normal placeholder:text-[#5a4a00] focus:ring-4 focus:ring-[#f5c518]/40" />
+            <button type="submit" disabled={state === "loading"} className={`${btnPrimary} min-h-14 px-6 text-[16px] disabled:opacity-50`}>{t.plateBtn}</button>
+          </form>
+          {state === "invalid" && <p className="mt-2 text-[14px] font-semibold text-alert">{t.plateInvalid}</p>}
+          {state === "error" && <p className="mt-2 text-[14px] font-semibold text-alert">{t.plateError}</p>}
+          <p className="mt-3 text-[13px] text-muted">{t.plateNote}</p>
+        </div>
+        <div aria-live="polite">
+          {state === "loading" && <p className="text-[15px] text-muted">{t.plateLoading}</p>}
+          {rec && !rec.found && <EmptyState text={t.plateNotFound} />}
+          {rec?.found && (
+            <div className="swap">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <h3 className="text-[1.4rem]">{label}</h3>
+                <span className="flex items-center gap-2"><CodeChip code="off" /><span className="text-[13px] text-muted">{t.plateSource}</span></span>
+              </div>
+              <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3">
+                {fields.map(([k, v]) => <div key={k}><dt className="text-[13px] font-semibold text-muted">{t.plateFields[k]}</dt><dd className="m-0 text-[16px] font-semibold">{v}</dd></div>)}
+              </dl>
+              {leasing && <p className="mt-4 rounded-xl bg-[#fff4e8] px-4 py-3 text-[15px] text-[#7a3410]">{t.plateLeasing}</p>}
+              {match && (
+                <div className="mt-5 rounded-xl bg-mist p-4">
+                  <p className="text-[14px] text-muted">{t.plateMatch}</p>
+                  <div className="mt-1 flex flex-wrap items-center justify-between gap-3">
+                    <MonthlyTag value={monthlyFor(match, km)} size="md" />
+                    <button onClick={() => onDetails(match.id)} className={btnGhost}>{shortName(match.make)} · {t.details}</button>
+                  </div>
+                </div>
+              )}
+              <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-ink p-4 text-white">
+                <p className="font-semibold">{t.plateLeadCta}</p>
+                <button onClick={() => onLead(`${label} · ${rec.plate}`)} className="inline-flex min-h-11 items-center rounded-full bg-[#5fd3a7] px-5 font-bold text-ink hover:bg-[#7fe0bb]">{t.plateLeadBtn}</button>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Legend() {
   const { t } = useLang();
   const items: [Code, string, string][] = [["off", t.codeOfficial, t.legendOfficial], ["est", t.codeEstimate, t.legendEstimate], ["miss", t.codeMissing, t.legendMissing]];
