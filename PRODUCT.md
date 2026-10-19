@@ -40,6 +40,8 @@ Total cost of ownership is the core. AutoAI ranks cars by what they cost per mon
 
 - Name: AutoAI (replaces the older "CarAI" name everywhere).
 - Voice: plain, honest Hebrew; explains trade-offs, never hypes; admits missing data.
+- Look: international and consumer-friendly, in the category convention of Carwow / Autotrader / Edmunds (light ground, big car photos, clear cards, one high-contrast action colour). The owner rejected a locally-themed (Israeli street) world as "too Israeli" and asked for what converts best for customers.
+- Questionnaire: use, priority and powertrain allow multiple answers with an explicit Continue step.
 
 ## Evidence on Hand
 

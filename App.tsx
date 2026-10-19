@@ -27,7 +27,7 @@ export default function App() {
       <ThemeProvider defaultTheme="light">
         <LangProvider>
           <TooltipProvider>
-            <Toaster position="top-center" toastOptions={{ style: { borderRadius: 2, background: "#23262a", color: "#fbfbf8", border: "none", fontFamily: "Assistant, sans-serif", fontSize: 15 } }} />
+            <Toaster position="top-center" toastOptions={{ style: { borderRadius: 999, background: "#0e1b2c", color: "#ffffff", border: "none", fontFamily: "Assistant, sans-serif", fontSize: 15 } }} />
             <Router />
           </TooltipProvider>
         </LangProvider>
