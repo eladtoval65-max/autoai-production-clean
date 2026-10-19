@@ -96,7 +96,7 @@ html { scrollbar-color: var(--color-tar) var(--color-concrete); }
 .plate {
   display: inline-flex; align-items: stretch; background: var(--color-plate); color: #111;
   border: 2px solid #111; border-radius: 4px; overflow: hidden; direction: ltr;
-  box-shadow: 0 1px 0 rgba(255,255,255,.6) inset, 0 6px 16px -8px rgba(35,38,42,.45);
+  box-shadow: 0 6px 16px -8px rgba(35,38,42,.45);
 }
 .plate-il {
   background: #1d3f91; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;

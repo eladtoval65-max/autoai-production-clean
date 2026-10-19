@@ -142,6 +142,8 @@ const he = {
   runningTotal: "סה״כ שוטף",
   calcNote: "כלי השוואה בלבד. לא הצעת מחיר ולא ייעוץ פיננסי. ביטוח: אומדן.",
   formulaNote: "חלק מהרכיבים מחושבים לפי נוסחה, כי אין לרכב הזה עדיין פירוט מלא.",
+  otherCosts: "שאר העלויות (אומדן כולל, בלי פירוט)",
+  formulaSuffix: "(נוסחה)",
 };
 
 type Dict = typeof he;
@@ -286,6 +288,8 @@ const en: Dict = {
   runningTotal: "Running total",
   calcNote: "A comparison tool only. Not a quote or financial advice. Insurance: estimate.",
   formulaNote: "Some components are formula-based because this car has no full breakdown yet.",
+  otherCosts: "Other costs (overall estimate, no breakdown)",
+  formulaSuffix: "(formula)",
 };
 
 const dicts: Record<Lang, Dict> = { he, en };

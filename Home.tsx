@@ -156,7 +156,6 @@ export default function Home() {
   const [compare, setCompare] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showLead, setShowLead] = useState(false);
-  const [costCar, setCostCar] = useState<Ranked | null>(null);
   const resultsRef = useRef<HTMLElement>(null);
 
   const catalogQuery = trpc.catalog.list.useQuery({ limit: 100, annualKm: answers.annualKm }, { retry: 1 });
@@ -286,7 +285,8 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="top" className="mx-auto grid max-w-[1320px] gap-10 px-4 pb-10 pt-8 sm:px-8 lg:grid-cols-[1.02fr_.98fr] lg:gap-14 lg:pt-12">
+      <div className="flex flex-col lg:min-h-[calc(100svh-65px)]">
+      <section id="top" className="mx-auto grid w-full max-w-[1320px] gap-10 px-4 pb-10 pt-8 sm:px-8 lg:grid-cols-[1.02fr_.98fr] lg:gap-14 lg:pt-12">
         <div className="flex flex-col">
           <h1 className="max-w-[14ch] text-[clamp(2.4rem,5.2vw,4.5rem)] leading-[1.04]">{t.heroTitle}</h1>
           <p className="mt-5 max-w-[56ch] text-[17px] leading-7 text-tar sm:text-lg">{t.heroSub}</p>
@@ -296,7 +296,8 @@ export default function Home() {
         {leader && <LeaderPanel car={leader} km={answers.annualKm} started={step > 0} />}
       </section>
 
-      <CurbRail order={order} step={step} setStep={setStep} />
+      <div className="mt-auto pb-6"><CurbRail order={order} step={step} setStep={setStep} /></div>
+      </div>
 
       <section id="results" ref={resultsRef} className="mx-auto max-w-[1320px] scroll-mt-4 px-4 pb-20 pt-14 sm:px-8">
         <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b border-seam">
@@ -312,8 +313,8 @@ export default function Home() {
         {isDemo && <p className="mt-5 flex items-start gap-3 text-[15px] text-tar"><span aria-hidden className="curb-miss mt-1.5 block h-2.5 w-10 shrink-0 [--stripe:5px]" />{t.demoNote}</p>}
         {!complete && tab === "results" && <p className="mt-3 text-[15px] text-tar">{t.incomplete}</p>}
         <div className="mt-8">
-          {tab === "results" && <Results ranked={ranked} saved={saved} compare={compare} km={answers.annualKm} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} onCost={setCostCar} onShare={shareResult} onLead={() => setShowLead(true)} />}
-          {tab === "detail" && detailCar && <Detail car={detailCar} km={answers.annualKm} onBack={() => setTab("results")} onLead={() => setShowLead(true)} onCost={() => setCostCar(detailCar)} saved={saved.includes(detailCar.id)} toggleSaved={toggleSaved} />}
+          {tab === "results" && <Results answers={answers} ranked={ranked} saved={saved} compare={compare} km={answers.annualKm} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} onShare={shareResult} onLead={() => setShowLead(true)} />}
+          {tab === "detail" && detailCar && <Detail car={detailCar} km={answers.annualKm} onBack={() => setTab("results")} onLead={() => setShowLead(true)} answers={answers} saved={saved.includes(detailCar.id)} toggleSaved={toggleSaved} />}
           {tab === "saved" && <Saved cars={cars.filter((c) => saved.includes(c.id))} history={cars.filter((c) => history.includes(c.id))} toggleSaved={toggleSaved} toggleCompare={toggleCompare} onDetails={openDetail} />}
           {tab === "compare" && <Compare cars={ranked.filter((c) => compare.includes(c.id))} toggleCompare={toggleCompare} onLead={() => setShowLead(true)} />}
           {tab === "analysis" && leader && <Analysis car={leader} answers={answers} />}
@@ -340,7 +341,6 @@ export default function Home() {
 
       {showLead && leader && <LeadRequestModal vehicle={tab === "detail" && detailCar ? detailCar : leader} budget={answers.budget}
         sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"} onClose={() => setShowLead(false)} />}
-      {costCar && <CostModal car={costCar} answers={answers} onClose={() => setCostCar(null)} />}
     </main>
   );
 }
@@ -418,10 +418,10 @@ function CurbRail({ order, step, setStep }: { order: StepKey[]; step: number; se
   const names: Record<StepKey, string> = { budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
   return (
     <div className="mx-auto max-w-[1320px] px-4 sm:px-8">
-      <div className="flex gap-1.5">
+      <div className="flex gap-[3px]">
         {order.map((k, i) => (
           <button key={k} onClick={() => i <= step && setStep(i)} disabled={i > step} aria-label={names[k]} title={names[k]}
-            className="relative h-4 flex-1 overflow-hidden bg-seam disabled:cursor-default">
+            className="relative h-5 flex-1 overflow-hidden bg-seam disabled:cursor-default">
             {i < step && <span key={`p-${k}`} className="paint-in curb-est absolute inset-0 [--stripe:14px]" />}
             {i === step && <span className="absolute inset-0 bg-asphalt" />}
           </button>
@@ -446,15 +446,15 @@ function Plate({ value, size = "lg", label }: { value: number; size?: "sm" | "md
   );
 }
 
-function CarPhoto({ name, className = "", eager, width }: { name: string; className?: string; eager?: boolean; width?: number }) {
+function CarPhoto({ name, className = "", eager, width, label = true }: { name: string; className?: string; eager?: boolean; width?: number; label?: boolean }) {
   const { t } = useLang();
   const p = photoFor(name, width);
   const [failed, setFailed] = useState(false);
   if (!p || failed) {
     return (
-      <div className={`relative flex items-start bg-slab ${className}`}>
+      <div className={`relative bg-slab ${className}`}>
         <div aria-hidden className="curb-bare absolute inset-x-0 bottom-0 h-3" />
-        <span className="m-4 font-display text-xl text-tar">{shortName(name)}</span>
+        {label && <span className="absolute end-4 top-3 max-w-[70%] text-end font-display text-xl leading-tight text-tar">{shortName(name)}</span>}
       </div>
     );
   }
@@ -510,7 +510,7 @@ function LeaderPanel({ car, km, started }: { car: Ranked; km: number; started: b
   return (
     <aside className="flex flex-col" aria-live="polite">
       <div key={car.id} className="swap relative">
-        <CarPhoto name={car.make} eager width={1280} className="aspect-[4/3] w-full lg:aspect-[5/4]" />
+        <CarPhoto name={car.make} eager width={1280} className="aspect-[4/3] w-full lg:aspect-[16/11]" />
         <div className="absolute -bottom-6 start-4 sm:start-6"><Plate value={monthlyFor(car, km)} /></div>
       </div>
       <div className="mt-10 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
@@ -535,11 +535,12 @@ const btnGhost = "inline-flex min-h-11 items-center justify-center gap-2 border 
 const btnPrimary = "inline-flex min-h-11 items-center justify-center gap-2 bg-curb px-5 text-[15px] font-bold text-paint hover:bg-curb-deep";
 
 // ─── Results ─────────────────────────────────────────────────────────────────
-function Results({ ranked, saved, compare, km, toggleSaved, toggleCompare, onDetails, onCost, onShare, onLead }: {
-  ranked: Ranked[]; saved: string[]; compare: string[]; km: number; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void;
-  onDetails: (id: string) => void; onCost: (c: Ranked) => void; onShare: () => void; onLead: () => void;
+function Results({ answers, ranked, saved, compare, km, toggleSaved, toggleCompare, onDetails, onShare, onLead }: {
+  answers: Answers; ranked: Ranked[]; saved: string[]; compare: string[]; km: number; toggleSaved: (id: string) => void; toggleCompare: (id: string) => void;
+  onDetails: (id: string) => void; onShare: () => void; onLead: () => void;
 }) {
   const { lang, t, nf } = useLang();
+  const [costOpen, setCostOpen] = useState(false);
   const [fuel, setFuel] = useState("all");
   const [sort, setSort] = useState("match");
   const visible = ranked
@@ -588,10 +589,11 @@ function Results({ ranked, saved, compare, km, toggleSaved, toggleCompare, onDet
               <div className="mt-auto flex flex-wrap gap-2 pt-6">
                 <button onClick={() => onDetails(top.id)} className={btnPrimary}>{t.details}</button>
                 <button onClick={() => toggleCompare(top.id)} aria-pressed={compare.includes(top.id)} className={`${btnGhost} ${compare.includes(top.id) ? "border-curb text-curb" : ""}`}>{compare.includes(top.id) ? t.compareIn : t.compareAdd}</button>
-                <button onClick={() => onCost(top)} className={btnGhost}>{t.costCalc}</button>
+                <button onClick={() => setCostOpen((v) => !v)} aria-expanded={costOpen} className={btnGhost}>{t.costCalc}<ChevronDown className={`h-4 w-4 transition-transform ${costOpen ? "rotate-180" : ""}`} aria-hidden /></button>
               </div>
             </div>
           </article>
+          {costOpen && <CostPanel car={top} answers={answers} />}
 
           {rest.length > 0 && (
             <div className="mt-8 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -689,13 +691,13 @@ function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompar
   const rows: [string, (c: Ranked, i: number) => ReactNode][] = [
     [t.match, (c) => <span className="num text-[20px]">{c.match}%</span>],
     [t.price, (c) => <span className="num text-[20px]"><bdi>{c.marketRange ?? shekel(c.price, nf)}</bdi></span>],
-    ["7,000 km", (_, i) => <span className="num text-[20px]">{shekel(at(i, "km7000")?.totalMonthly, nf)}</span>],
-    ["15,000 km", (_, i) => <span className="num text-[22px]">{shekel(at(i, "km15000")?.totalMonthly, nf)}</span>],
-    ["25,000 km", (_, i) => <span className="num text-[20px]">{shekel(at(i, "km25000")?.totalMonthly, nf)}</span>],
-    [t.fuelLine, (_, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.fuelMonthly, nf)}</span>],
-    [t.insuranceLine, (c, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.insuranceMonthly ?? c.insuranceMin, nf)}</span>],
-    [t.maintenanceLine, (_, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.maintenanceMonthly, nf)}</span>],
-    [t.depreciationLine, (_, i) => <span className="num text-[18px]">{shekel(at(i, "km15000")?.depreciationMonthly, nf)}</span>],
+    ["7,000 km", (_, i) => <Money v={at(i, "km7000")?.totalMonthly} size={20} />],
+    ["15,000 km", (_, i) => <Money v={at(i, "km15000")?.totalMonthly} size={22} />],
+    ["25,000 km", (_, i) => <Money v={at(i, "km25000")?.totalMonthly} size={20} />],
+    [t.fuelLine, (_, i) => <Money v={at(i, "km15000")?.fuelMonthly} size={18} />],
+    [t.insuranceLine, (c, i) => <Money v={at(i, "km15000")?.insuranceMonthly ?? c.insuranceMin} size={18} />],
+    [t.maintenanceLine, (_, i) => <Money v={at(i, "km15000")?.maintenanceMonthly} size={18} />],
+    [t.depreciationLine, (_, i) => <Money v={at(i, "km15000")?.depreciationMonthly} size={18} />],
     [t.reliability, (c) => <span className="num text-[18px]">{c.reliability}/100</span>],
     [t.safety, (c) => <span className="num text-[18px]">{c.safety}/100</span>],
     [t.powertrain, (c) => <span>{lang === "he" ? c.fuel : FUEL_EN[c.fuel] ?? c.fuel}</span>],
@@ -704,13 +706,13 @@ function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompar
   return (
     <div>
       <div className="overflow-x-auto border border-seam bg-slab">
-        <table className="w-full min-w-[620px] border-collapse text-[15px]">
+        <table className="w-full min-w-[620px] table-fixed border-collapse text-[15px]">
           <thead>
             <tr className="border-b-2 border-asphalt">
-              <th className="w-40 p-3 text-start font-semibold text-tar">{t.metric}</th>
+              <th className="w-40 p-3 text-start align-top font-semibold text-tar">{t.metric}</th>
               {cars.map((c) => (
                 <th key={c.id} className="p-3 text-start align-top">
-                  <CarPhoto name={c.make} className="mb-2 aspect-[16/10] w-full" width={480} />
+                  <CarPhoto name={c.make} label={false} className="mb-2 aspect-[16/10] w-full" width={480} />
                   <div className="flex items-start justify-between gap-2">
                     <span className="font-display text-[1.1rem] font-normal leading-tight">{shortName(c.make)}</span>
                     <button onClick={() => toggleCompare(c.id)} aria-label={t.modalClose} className="flex h-8 w-8 items-center justify-center text-tar hover:text-stop"><X className="h-4 w-4" /></button>
@@ -741,8 +743,15 @@ function Compare({ cars, toggleCompare, onLead }: { cars: Ranked[]; toggleCompar
 }
 
 // ─── Detail ──────────────────────────────────────────────────────────────────
-function Detail({ car, km, onBack, onLead, onCost, saved, toggleSaved }: { car: Ranked; km: number; onBack: () => void; onLead: () => void; onCost: () => void; saved: boolean; toggleSaved: (id: string) => void }) {
+function Money({ v, size }: { v: number | null | undefined; size: number }) {
+  const { t, nf } = useLang();
+  if (v == null) return <span className="inline-flex items-center gap-2 text-[14px] text-tar"><span aria-hidden className="curb-miss block h-2 w-5 [--stripe:4px]" />{t.codeMissing}</span>;
+  return <span className="num" style={{ fontSize: size }}>{shekel(v, nf)}</span>;
+}
+
+function Detail({ car, km, onBack, onLead, answers, saved, toggleSaved }: { car: Ranked; km: number; onBack: () => void; onLead: () => void; answers: Answers; saved: boolean; toggleSaved: (id: string) => void }) {
   const { t, nf, dir } = useLang();
+  const [costOpen, setCostOpen] = useState(false);
   const trim = trimOf(car.id);
   const { data } = trpc.tco.multiBand.useQuery({ trimIds: trim ? [trim] : [0] }, { enabled: Boolean(trim) });
   const ladder = trim ? (data as unknown as Multi | undefined)?.[trim] : undefined;
@@ -814,11 +823,12 @@ function Detail({ car, km, onBack, onLead, onCost, saved, toggleSaved }: { car: 
             <p className="text-[14px] text-[#c9ccc6]">{t.insuranceWho} · {t.insuranceNote}</p>
             <div className="mt-5 flex flex-wrap gap-2">
               <button onClick={onLead} className="inline-flex min-h-11 items-center bg-plate px-5 text-[15px] font-bold text-asphalt hover:bg-[#ffd43b]">{t.continueLead}</button>
-              <button onClick={onCost} className="inline-flex min-h-11 items-center border border-[#6b7078] px-4 text-[15px] font-bold text-paint hover:border-paint">{t.costCalc}</button>
+              <button onClick={() => setCostOpen((v) => !v)} aria-expanded={costOpen} className="inline-flex min-h-11 items-center gap-2 border border-[#6b7078] px-4 text-[15px] font-bold text-paint hover:border-paint">{t.costCalc}<ChevronDown className={`h-4 w-4 transition-transform ${costOpen ? "rotate-180" : ""}`} aria-hidden /></button>
             </div>
           </section>
         </div>
       </div>
+      {costOpen && <CostPanel car={car} answers={answers} />}
     </div>
   );
 }
@@ -978,44 +988,55 @@ function Advisor() {
   );
 }
 
-// ─── Cost modal ──────────────────────────────────────────────────────────────
-function CostModal({ car, answers, onClose }: { car: Ranked; answers: Answers; onClose: () => void }) {
+// ─── Cost panel (inline) ─────────────────────────────────────────────────────
+function CostPanel({ car, answers }: { car: Ranked; answers: Answers }) {
   const { t, nf } = useLang();
   const [down, setDown] = useState(30);
   const [rate, setRate] = useState(4.5);
   const [years, setYears] = useState(5);
   const [loan, setLoan] = useState(false);
-  const rows = tcoRows(car, answers.annualKm, t);
-  const fallback: Record<string, number> = {
-    [t.fuelLine]: Math.round((answers.annualKm / 12) * (car.fuel === "חשמלי" ? 0.102 : car.fuel === "היברידי" ? 0.32 : 0.497)),
+  const km = answers.annualKm;
+  const rows = tcoRows(car, km, t);
+  const known = rows.filter((r) => r.value != null) as { label: string; value: number; code: Code }[];
+  const missing = rows.filter((r) => r.value == null);
+  const formula: Record<string, number> = {
+    [t.fuelLine]: Math.round((km / 12) * (car.fuel === "חשמלי" ? 0.102 : car.fuel === "היברידי" ? 0.32 : 0.497)),
     [t.insuranceLine]: 400, [t.maintenanceLine]: 220, [t.depreciationLine]: Math.round((car.price * 0.08) / 12),
   };
-  const filled = rows.map((r) => ({ ...r, value: r.value ?? fallback[r.label] ?? 0, formula: r.value == null }));
-  const running = filled.reduce((s, r) => s + r.value, 0);
+  // One source of truth: when the car has an overall monthly estimate, the rows add up to exactly that figure.
+  const lines: { label: string; value: number; code: Code }[] = missing.length === 0 ? known
+    : car.ownershipMonthly
+      ? [...known, { label: t.otherCosts, value: Math.max(0, monthlyFor(car, km) - known.reduce((s, r) => s + r.value, 0)), code: "est" }]
+      : [...known, ...missing.map((r) => ({ label: `${r.label} ${t.formulaSuffix}`, value: formula[r.label] ?? 0, code: "est" as Code }))];
+  const running = lines.reduce((s, r) => s + r.value, 0);
   const principal = Math.round(car.price * (1 - down / 100));
   const mr = rate / 100 / 12, n = years * 12;
   const pay = mr > 0 ? Math.round((principal * mr * Math.pow(1 + mr, n)) / (Math.pow(1 + mr, n) - 1)) : Math.round(principal / n);
   const total = running + (loan ? pay : 0);
   return (
-    <Modal onClose={onClose} label={t.costTitle}>
-      <h2 className="pe-12 text-[1.6rem]">{t.costTitle}</h2>
-      <p className="mt-1 text-[15px] text-tar">{shortName(car.make)} · {t.kmBasis(answers.annualKm)}</p>
-      <div className="mt-5"><Plate value={total} label={loan ? t.withLoan : t.runningOnly} /></div>
-      <ul className="mt-6 divide-y divide-seam border-y border-seam">
-        {filled.map((r) => <li key={r.label} className="flex items-center justify-between py-2.5 text-[16px]"><span className="flex items-center gap-2 text-tar"><span aria-hidden className={`curb-${r.formula ? "miss" : r.code} block h-2 w-5 [--stripe:4px]`} />{r.label}</span><span className="num text-[20px]">{shekel(r.value, nf)}</span></li>)}
-        <li className="flex items-center justify-between py-2.5 text-[16px] font-bold"><span>{t.runningTotal}</span><span className="num text-[22px]">{shekel(running, nf)}</span></li>
-      </ul>
-      <button onClick={() => setLoan((v) => !v)} aria-expanded={loan} className={`${btnGhost} mt-5 w-full justify-between`}>{loan ? t.hideLoan : t.addLoan}<ChevronDown className={`h-4 w-4 transition-transform ${loan ? "rotate-180" : ""}`} aria-hidden /></button>
-      {loan && (
-        <div className="mt-4 space-y-5">
-          <Slider label={`${t.down}: ${down}% (${shekel((car.price * down) / 100, nf)})`} aside={`${t.loan}: ${shekel(principal, nf)}`} min={10} max={60} step={5} value={down} onChange={setDown} />
-          <Slider label={`${t.rate}: ${rate}%`} aside={`${t.totalInterest}: ${shekel(pay * n - principal, nf)}`} min={2} max={12} step={0.5} value={rate} onChange={setRate} />
-          <Slider label={`${years} ${t.years}`} aside={`${t.loanMonthly}: ${shekel(pay, nf)}`} min={2} max={7} step={1} value={years} onChange={setYears} />
-        </div>
-      )}
-      {filled.some((r) => r.formula) && <p className="mt-4 text-[13px] text-tar">{t.formulaNote}</p>}
-      <p className="mt-2 text-[13px] text-tar">{t.calcNote}</p>
-    </Modal>
+    <section aria-label={t.costTitle} className="swap mt-6 grid gap-8 border border-seam bg-slab p-5 sm:p-7 lg:grid-cols-2">
+      <div>
+        <h3 className="text-[1.5rem]">{t.costTitle}</h3>
+        <p className="mt-1 text-[15px] text-tar">{shortName(car.make)} · {t.kmBasis(km)}</p>
+        <div className="mt-5"><Plate value={total} label={loan ? t.withLoan : t.runningOnly} /></div>
+        <ul className="mt-6 divide-y divide-seam border-y border-seam">
+          {lines.map((r) => <li key={r.label} className="flex items-center justify-between gap-4 py-2.5 text-[16px]"><span className="flex items-center gap-2 text-tar"><span aria-hidden className={`curb-${r.code} block h-2 w-5 shrink-0 [--stripe:4px]`} />{r.label}</span><span className="num text-[20px]">{shekel(r.value, nf)}</span></li>)}
+          <li className="flex items-center justify-between py-2.5 text-[16px] font-bold"><span>{t.runningTotal}</span><span className="num text-[22px]">{shekel(running, nf)}</span></li>
+        </ul>
+      </div>
+      <div>
+        <button onClick={() => setLoan((v) => !v)} aria-expanded={loan} className={`${btnGhost} w-full justify-between`}>{loan ? t.hideLoan : t.addLoan}<ChevronDown className={`h-4 w-4 transition-transform ${loan ? "rotate-180" : ""}`} aria-hidden /></button>
+        {loan && (
+          <div className="mt-5 space-y-5">
+            <Slider label={`${t.down}: ${down}% (${shekel((car.price * down) / 100, nf)})`} aside={`${t.loan}: ${shekel(principal, nf)}`} min={10} max={60} step={5} value={down} onChange={setDown} />
+            <Slider label={`${t.rate}: ${rate}%`} aside={`${t.totalInterest}: ${shekel(pay * n - principal, nf)}`} min={2} max={12} step={0.5} value={rate} onChange={setRate} />
+            <Slider label={`${years} ${t.years}`} aside={`${t.loanMonthly}: ${shekel(pay, nf)}`} min={2} max={7} step={1} value={years} onChange={setYears} />
+          </div>
+        )}
+        {missing.length > 0 && <p className="mt-5 text-[13px] text-tar">{t.formulaNote}</p>}
+        <p className="mt-2 text-[13px] text-tar">{t.calcNote}</p>
+      </div>
+    </section>
   );
 }
 
@@ -1025,18 +1046,5 @@ function Slider({ label, aside, min, max, step, value, onChange }: { label: stri
       <span className="flex flex-wrap justify-between gap-2 text-[15px]"><span className="font-semibold">{label}</span><span className="text-tar">{aside}</span></span>
       <input type="range" min={min} max={max} step={step} value={value} onChange={(e) => onChange(Number(e.target.value))} className="mt-2 block w-full" />
     </label>
-  );
-}
-
-function Modal({ children, onClose, label }: { children: ReactNode; onClose: () => void; label: string }) {
-  const { t, dir } = useLang();
-  useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); }; window.addEventListener("keydown", k); return () => window.removeEventListener("keydown", k); }, [onClose]);
-  return (
-    <div dir={dir} className="fixed inset-0 z-50 flex items-end justify-center bg-asphalt/60 sm:items-center sm:p-5" onMouseDown={(e) => { if (e.target === e.currentTarget) onClose(); }}>
-      <div role="dialog" aria-modal="true" aria-label={label} className="relative max-h-[92vh] w-full max-w-[540px] overflow-y-auto border-t-4 border-asphalt bg-concrete p-6 sm:border-4 sm:p-8">
-        <button onClick={onClose} aria-label={t.modalClose} className="absolute end-4 top-4 flex h-10 w-10 items-center justify-center border border-seam bg-slab hover:border-asphalt"><X className="h-4 w-4" /></button>
-        {children}
-      </div>
-    </div>
   );
 }
