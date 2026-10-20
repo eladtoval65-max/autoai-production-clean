@@ -30,3 +30,70 @@ Models added to the catalog (2): Hyundai Venue (₪129,900, 1.6 petrol 121 hp, ~
 
 Not on the importer list today (one source only, left unchanged — check again): Toyota C-HR (hybrid), Kia EV6, VW Polo / ID.4 / Touareg, Seat Ateca / Leon / Tarraco, Cupra Born / Ateca, Geely Okavango / Preface / Coolray, Suzuki Ignis / Jimny, Mercedes A-Class (only A-Class AMG listed).
 Needs owner review: carzone model pages for Aygo X, Camry, Land Cruiser and Hilux show trim prices that contradict their own brand-page range (e.g. Land Cruiser "1958" trim at ₪40,000) — brand-page ranges used.
+
+## 2026-10-20 (catalog expansion, one-off run)
+10 makes and 40 models added to `generations.ts`; 6 models added to the recommendation catalog (`scripts/seed-vehicles-batch12.ts`). All figures read today. Generations, engines and power come from English Wikipedia model pages. Euro NCAP stars are included only where euroncap.com or Wikipedia states the star count; otherwise null. Consumption in `generations.ts` is a typical real-world estimate.
+
+Price lists used (₪, list price ranges as shown):
+- Nissan, importer Prisby: https://www.cartube.co.il/מחירון-רכב-חדש/51-ניסאן
+  - Qashqai 178,990–231,990, Juke 146,990–165,990, X-Trail 209,990–239,990. Micra is not on the list.
+- Ford, importer Delek Motors: https://www.cartube.co.il/מחירון-רכב-חדש/פורד
+  - Focus wagon 165,900. Puma is marked no longer marketed. Kuga and Fiesta are not listed.
+- Renault: https://www.carzone.co.il/Renault
+  - Clio 124,990–126,990, Captur 151,990, Arkana 163,990–180,990, Austral 179,990–187,990. Megane is not listed.
+- Dacia: https://www.carzone.co.il/Dacia
+  - Duster 149,990–170,990, Sandero Stepway 121,990, Jogger 174,990.
+- Honda: https://www.cartube.co.il/מחירון-רכב-חדש/הונדה
+  - Jazz 148,900–159,900, HR-V 184,900–199,900. Civic and CR-V are marked no longer sold. The carzone.co.il/Honda brand page could not be opened.
+- Subaru: https://www.cartube.co.il/מחירון-רכב-חדש/סובארו
+  - XV/Crosstrek 175,900–185,900, Forester 212,900–279,900, Outback 279,990. Impreza is not listed. The carzone.co.il/Subaru brand page could not be opened.
+- Lexus: https://www.carzone.co.il/Lexus
+  - UX 249,990–284,990, NX 334,990–445,990, RX 414,990–589,990, ES 354,990–374,990.
+- Volvo: https://www.carzone.co.il/Volvo
+  - XC40 249,900–279,900, EX40 359,900, XC60 299,900–474,900, XC90 519,900–634,900, EX30 179,900–239,900.
+- Citroën: https://www.carzone.co.il/Citroen
+  - C3 99,990–114,990, C4 129,990, C5 Aircross 179,990–195,990, Berlingo 176,990–189,990 (all variants).
+- Opel: https://www.carzone.co.il/Opel
+  - Corsa 126,990–129,990, Astra 167,990, Mokka 149,990, Grandland 186,990–206,990.
+
+Models added to `generations.ts` (40), with the Wikipedia pages used:
+- Nissan Qashqai, Juke, X-Trail, Micra: en.wikipedia.org/wiki/Nissan_Qashqai, /Nissan_Juke, /Nissan_X-Trail, /Nissan_Micra.
+  - Euro NCAP: Qashqai J12 4★ (2025, euroncap.com/en/results/nissan/qashqai/57980), X-Trail T33 5★ (2021, euroncap.com/en/results/nissan/x+trail/47772), Micra K14 4★ (2017, news.euroncap.com).
+- Ford Focus, Kuga, Puma, Fiesta: /Ford_Focus_(third_generation), /Ford_Focus_(fourth_generation), /Ford_Kuga, /Ford_Puma_(crossover), /Ford_Fiesta_(sixth_generation), /Ford_Fiesta_(seventh_generation).
+  - 1.0 EcoBoost wet timing belt: https://www.autoevolution.com/news/ford-10l-ecoboost-wet-timing-belt-investigation-deepens-due-to-the-risk-of-sudden-engine-failure-273757.html
+  - Kuga PHEV battery recall: https://www.fleetnews.co.uk/news/manufacturer-news/2020/11/02/ford-to-replace-kuga-phev-batteries-following-fire-warning
+- Renault Clio, Captur, Megane, Arkana, Austral: /Renault_Clio, /Renault_Captur, /Renault_Mégane, /Renault_Arkana, /Renault_Austral. Star ratings come from news.euroncap.com and euroncap.com pages.
+  - 1.2 TCe oil consumption: https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group
+- Dacia Duster, Sandero, Jogger: /Dacia_Duster, /Dacia_Sandero, /Dacia_Jogger.
+  - Euro NCAP: Duster III 3★ (2024), Sandero Stepway 2★ (2021), Jogger 1★ (2021), all from news.euroncap.com.
+- Honda Civic, Jazz, HR-V, CR-V: /Honda_Civic (generation pages), /Honda_Fit, /Honda_HR-V_(third_generation), /Honda_CR-V_(fourth|fifth|sixth_generation).
+  - Euro NCAP: Civic 5★ (2022), Jazz 5★ (2020), CR-V 4★ standard / 5★ with safety pack (2024), all from euroncap.com. HR-V 4★ (2022) is from Wikipedia.
+  - 1.5 turbo oil dilution: https://www.consumerreports.org/car-recalls-defects/honda-extends-warranty-on-troubled-turbo-engines
+- Subaru Impreza, XV/Crosstrek, Forester, Outback: /Subaru_Impreza, /Subaru_Crosstrek, /Subaru_Forester, /Subaru_Outback. Star ratings from euroncap.com.
+  - FB engine oil consumption: https://jalopnik.com/subaru-settles-lawsuit-over-oil-burning-cars-1752805682
+- Lexus UX, NX, RX, ES: /Lexus_UX, /Lexus_NX, /Lexus_RX, /Lexus_ES.
+  - Euro NCAP: NX 5★ (2022), RX 5★ (2022), from euroncap.com. The NX 450h+ recall comes from the carzone NX page.
+- Volvo XC40/EX40, XC60, XC90, EX30: /Volvo_XC40, /Volvo_XC60, /Volvo_XC90, /Volvo_EX30.
+  - Euro NCAP: XC40 5★ (2018) and XC60 gen 2 5★ (2017), from euroncap.com. XC60 gen 1 5★ (2008) is from Wikipedia.
+  - XC90 gen 2 and EX30 are left null, because no euroncap.com page stating their stars was read.
+- Citroën C3, C4, C5 Aircross, Berlingo: /Citroën_C3, /Citroën_C4, /Citroën_C5_Aircross, /Citroën_Berlingo.
+  - PureTech belt warranty: https://www.fleetnews.co.uk/news/fleets-warned-of-engine-killer-wet-timing-belts
+- Opel Corsa, Astra, Mokka, Grandland: /Opel_Corsa, /Opel_Astra, /Opel_Mokka, /Opel_Grandland.
+  - Euro NCAP: Grandland gen 2 4★ (2025), from news.euroncap.com.
+
+Catalog batch 12 (6 models). Running costs are estimates, with dataConfidence between 58 and 62:
+- Nissan Juke: ₪146,990, 1.0T 114 hp. https://www.cartube.co.il/מחירון-רכב-חדש/51-ניסאן/329-ניסאן-ג-וק
+- Ford Focus wagon: ₪165,900, 1.0T 155 hp, road test ~12.5 km/L. https://www.carzone.co.il/Ford/Focus/Tourer-Estate/2025 and https://www.cartube.co.il/מחירון-רכב-חדש/61-פורד/392-פורד-פוקוס-סטיישן
+- Honda HR-V: ₪184,900, 1.5 e:HEV, 18.5 km/L (claimed and confirmed in the road test). https://www.carzone.co.il/Honda/HR-V
+- Citroën C3: ₪99,990, 1.2T 101 hp manual, road test ~15 km/L. https://www.carzone.co.il/Citroen/C3/Crossover
+- Lexus NX 350h: ₪334,990, 244 hp hybrid, road test ~15.5 km/L. https://www.carzone.co.il/Lexus/NX
+- Subaru Forester: ₪212,900, 2.5 180 hp AWD, 11.9 km/L (not labelled as claimed or tested). https://www.carzone.co.il/Subaru/Forester
+
+Skipped or flagged for owner review:
+- Dacia Duster: carzone's model page shows ₪139,990 (manual), below its own brand-page range, and its hp figures are inconsistent. Brand-page range used; kept out of the catalog.
+- Volvo XC40 B4: the page says both petrol and hybrid. Kept out of the catalog.
+- Opel Corsa: the page gives 100 hp in one place and 130 hp in another, and its prices go above the brand-page range. Brand range used; kept out of the catalog.
+- Honda HR-V: cartube gives 184,900–199,900, carzone 184,900–224,900. cartube range used.
+- Arkana, X-Trail T32/T33 and Astra J: power is shown as "—" because Wikipedia gave no figure.
+- Clio: Israel still sells the facelifted Clio V. Clio VI (Europe 2025) was not added.
+- Pages that could not be opened: carzone.co.il/Honda, carzone.co.il/Subaru, several euroncap.com result pages (their stars are left null).

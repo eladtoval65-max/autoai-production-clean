@@ -41,15 +41,24 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] Commercial (low priority): Toyota ProAce / ProAce City / ProAce Verso, Peugeot Boxer, VW Caddy / Transporter / Crafter / ID.Buzz Cargo
 
 ## Queue — makes not yet covered (add the make, then its models)
-- [ ] Nissan (Qashqai, X-Trail, Juke, Micra, Leaf, Note — used)
-- [ ] Ford (Focus, Kuga, Puma, Fiesta — used; current: Focus wagon, Explorer, Ranger, Bronco, Mustang)
-- [ ] Renault & Dacia (Clio, Captur, Megane, Arkana, Austral; Duster, Sandero, Jogger, Spring)
-- [ ] Citroën & DS (C3, C4, C5 Aircross, Berlingo)
-- [ ] Opel (Corsa, Astra, Mokka, Grandland)
-- [ ] Honda (Civic, Jazz, HR-V, CR-V)
-- [ ] Subaru (Impreza, XV/Crosstrek, Forester, Outback)
-- [ ] Lexus (UX, NX, RX, ES)
-- [ ] Volvo (XC40/EX40, XC60, XC90, EX30)
+- [x] Nissan: Qashqai, Juke, X-Trail, Micra (2026-10-20)
+- [ ] Nissan: Leaf (used), Note (used), Sentra (on sale ₪154,990–156,990 per cartube)
+- [x] Ford: Focus (wagon on sale), Kuga, Puma, Fiesta (2026-10-20)
+- [ ] Ford: Explorer, Ranger, Bronco, Mustang, F-Series (on cartube list; generations not yet researched)
+- [x] Renault: Clio, Captur, Megane, Arkana, Austral; Dacia: Duster, Sandero (Stepway), Jogger (2026-10-20)
+- [ ] Renault: 5 E-Tech (₪168,999–176,990), Symbioz (₪159,990–166,990), Megane E-Tech (used); Dacia: Bigster (₪167,990–190,990), Logan (₪127,990), Spring (not on list)
+- [x] Citroën: C3, C4, C5 Aircross, Berlingo (2026-10-20)
+- [ ] Citroën: C3 Aircross (₪129,990–139,990); DS make: DS 3 (₪218,990), DS 7 (₪344,990), DS 4 (used)
+- [x] Opel: Corsa, Astra, Mokka, Grandland (2026-10-20)
+- [ ] Opel: Frontera (₪144,990–156,990), Crossland (used), Combo Life (low priority)
+- [x] Honda: Civic, Jazz, HR-V, CR-V (2026-10-20)
+- [ ] Honda: ZR-V (₪209,900–234,900)
+- [x] Subaru: Impreza, XV/Crosstrek, Forester, Outback (2026-10-20)
+- [ ] Subaru: BRZ (₪229,900–249,900)
+- [x] Lexus: UX, NX, RX, ES (2026-10-20)
+- [ ] Lexus: LBX (₪205,990–246,990), RZ (₪299,990–439,990), ES EV (₪379,990–429,990), LM
+- [x] Volvo: XC40/EX40, XC60, XC90, EX30 (2026-10-20)
+- [ ] Volvo: EX90 (₪739,900–754,900), ES90 (₪399,900–539,900), S60/V60 (used)
 - [ ] Geely brands: Zeekr, Lynk & Co, Geely Starray
 - [ ] Great Wall: ORA, Haval, Tank
 - [ ] Xpeng, Leapmotor, Polestar, Smart, Genesis, Mini, Fiat, Jeep, Alfa Romeo, Porsche, Land Rover, Skywell, Dongfeng/Voyah, Aiways, KGM (SsangYong), Isuzu

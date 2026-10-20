@@ -75,6 +75,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "citroen-c3",
+  "make": "Citroën",
+  "model": "C3",
+  "trim": "Plus 1.2T ידני",
+  "bodyType": "hatch",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 101,
+  "consumption": 6.7,
+  "price": 99990,
+  "priceMin": 94000,
+  "priceMax": 114990,
+  "sampleSize": null,
+  "newPrice": 99990,
+  "reliability": 70,
+  "safety": 70,
+  "economy": 78,
+  "comfort": 74,
+  "practicality": 72,
+  "insuranceMin": 299,
+  "insuranceMax": 431,
+  "why": "מהמכוניות החדשות הזולות בישראל. דור 4 עם מנוע 1.2 טורבו 101 כ\"ס ותיבה ידנית בגרסת הבסיס. מבחן דרך מדד כ-15 ק\"מ לליטר. הדור הזה עוד לא קיבל דירוג Euro NCAP מאומת.",
+  "pros": [
+   "מחיר כניסה נמוך מאוד",
+   "נסיעה נוחה",
+   "יש גם גרסת מיילד-היברידית"
+  ],
+  "cons": [
+   "גרסת הבסיס ידנית",
+   "אין דירוג Euro NCAP מאומת",
+   "ירידת ערך גבוהה אופיינית לסיטרואן"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/Citroen/C3/Crossover (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 278,
+    "insurance": 362,
+    "maintenance": 176,
+    "depreciation": 833,
+    "total": 1770
+   },
+   "15000": {
+    "fuel": 595,
+    "insurance": 362,
+    "maintenance": 200,
+    "depreciation": 833,
+    "total": 2111
+   },
+   "25000": {
+    "fuel": 992,
+    "insurance": 362,
+    "maintenance": 224,
+    "depreciation": 833,
+    "total": 2532
+   }
+  }
+ },
+ {
   "id": "mg-mg4-electric",
   "make": "MG",
   "model": "MG4 Electric",
@@ -438,6 +499,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 224,
     "depreciation": 1380,
     "total": 2756
+   }
+  }
+ },
+ {
+  "id": "nissan-juke",
+  "make": "Nissan",
+  "model": "Juke",
+  "trim": "Acenta-Tech 1.0T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 114,
+  "consumption": 7.6,
+  "price": 146990,
+  "priceMin": 138000,
+  "priceMax": 165990,
+  "sampleSize": null,
+  "newPrice": 146990,
+  "reliability": 78,
+  "safety": 86,
+  "economy": 74,
+  "comfort": 72,
+  "practicality": 70,
+  "insuranceMin": 377,
+  "insuranceMax": 544,
+  "why": "קרוסאובר קטן עם מנוע 1.0 טורבו (114 כ\"ס), וגם גרסה היברידית (143 כ\"ס) במחירון. 5 כוכבי Euro NCAP (2019). הצריכה המוצהרת 16.4 ק\"מ לליטר; בפועל צפוי פחות.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2019)",
+   "יש גם גרסה היברידית",
+   "מחיר נמוך יחסית בקטגוריה"
+  ],
+  "cons": [
+   "צריכה בפועל צפויה נמוכה מהמוצהר",
+   "מושב אחורי ותא מטען קטנים",
+   "תיבה כפולת מצמד בגרסת הטורבו"
+  ],
+  "confidence": 60,
+  "priceSource": "cartube.co.il מחירון ניסאן, דף ג'וק (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 315,
+    "insurance": 457,
+    "maintenance": 185,
+    "depreciation": 1225,
+    "total": 2303
+   },
+   "15000": {
+    "fuel": 674,
+    "insurance": 457,
+    "maintenance": 210,
+    "depreciation": 1225,
+    "total": 2687
+   },
+   "25000": {
+    "fuel": 1123,
+    "insurance": 457,
+    "maintenance": 235,
+    "depreciation": 1225,
+    "total": 3161
    }
   }
  },
@@ -933,6 +1055,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "ford-focus-wagon",
+  "make": "Ford",
+  "model": "Focus Wagon",
+  "trim": "Titanium 1.0T",
+  "bodyType": "wagon",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 155,
+  "consumption": 8,
+  "price": 165900,
+  "priceMin": 156000,
+  "priceMax": 165900,
+  "sampleSize": null,
+  "newPrice": 165900,
+  "reliability": 74,
+  "safety": 88,
+  "economy": 70,
+  "comfort": 78,
+  "practicality": 84,
+  "insuranceMin": 405,
+  "insuranceMax": 584,
+  "why": "סטיישן משפחתי עם מנוע 1.0 טורבו 155 כ\"ס, 5 כוכבי Euro NCAP (2019). ייצור הפוקוס הופסק בנובמבר 2025, ומבחן דרך מדד כ-12.5 ק\"מ לליטר בלבד.",
+  "pros": [
+   "סטיישן מרווח",
+   "5 כוכבי Euro NCAP (2019)",
+   "התנהגות כביש טובה"
+  ],
+  "cons": [
+   "צריכה בפועל כ-12.5 ק\"מ לליטר",
+   "הייצור הופסק ב-2025: ערך יד שנייה לא ודאי",
+   "רצועת תזמון טבולה בשמן במנוע 1.0 EcoBoost"
+  ],
+  "confidence": 60,
+  "priceSource": "cartube.co.il דף פוקוס סטיישן + carzone.co.il/Ford/Focus/Tourer-Estate (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 331,
+    "insurance": 491,
+    "maintenance": 202,
+    "depreciation": 1382,
+    "total": 2527
+   },
+   "15000": {
+    "fuel": 710,
+    "insurance": 491,
+    "maintenance": 230,
+    "depreciation": 1382,
+    "total": 2934
+   },
+   "25000": {
+    "fuel": 1183,
+    "insurance": 491,
+    "maintenance": 258,
+    "depreciation": 1382,
+    "total": 3435
+   }
+  }
+ },
+ {
   "id": "volkswagen-golf",
   "make": "Volkswagen",
   "model": "Golf",
@@ -1363,6 +1546,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "honda-hr-v",
+  "make": "Honda",
+  "model": "HR-V",
+  "trim": "Elegance 1.5 e:HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 335,
+  "powerHp": 131,
+  "consumption": 5.4,
+  "price": 184900,
+  "priceMin": 174000,
+  "priceMax": 199900,
+  "sampleSize": null,
+  "newPrice": 184900,
+  "reliability": 88,
+  "safety": 80,
+  "economy": 88,
+  "comfort": 76,
+  "practicality": 74,
+  "insuranceMin": 432,
+  "insuranceMax": 624,
+  "why": "קרוסאובר היברידי (1.5 e:HEV). במבחן הדרך של carzone הצריכה תאמה את המוצהר, כ-18.5 ק\"מ לליטר. 4 כוכבי Euro NCAP (2022).",
+  "pros": [
+   "חסכוני מאוד גם בפועל",
+   "היברידי מלא בלי טעינה",
+   "מוניטין אמינות של הונדה"
+  ],
+  "cons": [
+   "תא מטען 335 ליטר בלבד",
+   "4 כוכבי Euro NCAP",
+   "ביצועים צנועים"
+  ],
+  "confidence": 62,
+  "priceSource": "carzone.co.il/Honda/HR-V + cartube.co.il מחירון הונדה (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 224,
+    "insurance": 524,
+    "maintenance": 194,
+    "depreciation": 1541,
+    "total": 2604
+   },
+   "15000": {
+    "fuel": 479,
+    "insurance": 524,
+    "maintenance": 220,
+    "depreciation": 1541,
+    "total": 2885
+   },
+   "25000": {
+    "fuel": 798,
+    "insurance": 524,
+    "maintenance": 246,
+    "depreciation": 1541,
+    "total": 3230
+   }
+  }
+ },
+ {
   "id": "hyundai-tucson",
   "make": "Hyundai",
   "model": "Tucson",
@@ -1668,6 +1912,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "subaru-forester",
+  "make": "Subaru",
+  "model": "Forester",
+  "trim": "Premium 2.5 4X4",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 180,
+  "consumption": 8.4,
+  "price": 212900,
+  "priceMin": 200000,
+  "priceMax": 279900,
+  "sampleSize": null,
+  "newPrice": 212900,
+  "reliability": 84,
+  "safety": 92,
+  "economy": 64,
+  "comfort": 76,
+  "practicality": 84,
+  "insuranceMin": 470,
+  "insuranceMax": 678,
+  "why": "SUV עם הנעה כפולה קבועה ומנוע 2.5 בוקסר אטמוספרי (180 כ\"ס). 5 כוכבי Euro NCAP (2024). צריכת הדלק גבוהה יחסית; יש גם גרסה היברידית יקרה יותר.",
+  "pros": [
+   "הנעה כפולה קבועה",
+   "5 כוכבי Euro NCAP (2024)",
+   "מרווח ופרקטי"
+  ],
+  "cons": [
+   "צריכת דלק גבוהה",
+   "מנוע ותיקה",
+   "נוחות נסיעה בינונית"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/Subaru/Forester + cartube.co.il מחירון סובארו (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 348,
+    "insurance": 570,
+    "maintenance": 229,
+    "depreciation": 1774,
+    "total": 3042
+   },
+   "15000": {
+    "fuel": 746,
+    "insurance": 570,
+    "maintenance": 260,
+    "depreciation": 1774,
+    "total": 3471
+   },
+   "25000": {
+    "fuel": 1243,
+    "insurance": 570,
+    "maintenance": 291,
+    "depreciation": 1774,
+    "total": 3999
+   }
+  }
+ },
+ {
   "id": "toyota-rav4-hybrid",
   "make": "Toyota",
   "model": "RAV4 Hybrid",
@@ -1911,6 +2216,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 134,
     "depreciation": 2229,
     "total": 3688
+   }
+  }
+ },
+ {
+  "id": "lexus-nx",
+  "make": "Lexus",
+  "model": "NX",
+  "trim": "NX350h Kyushu",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 244,
+  "consumption": 6.5,
+  "price": 334990,
+  "priceMin": 315000,
+  "priceMax": 445990,
+  "sampleSize": null,
+  "newPrice": 334990,
+  "reliability": 92,
+  "safety": 92,
+  "economy": 80,
+  "comfort": 88,
+  "practicality": 78,
+  "insuranceMin": 618,
+  "insuranceMax": 891,
+  "why": "SUV יוקרה היברידי (2.5, 244 כ\"ס) על בסיס טכנולוגיית טויוטה. 5 כוכבי Euro NCAP (2022). מבחן דרך מדד כ-15.5 ק\"מ לליטר בגרסת 4X4.",
+  "pros": [
+   "אמינות היברידית של טויוטה",
+   "5 כוכבי Euro NCAP (2022)",
+   "שקט ונוח"
+  ],
+  "cons": [
+   "מחיר גבוה",
+   "ביטוח ופחת גבוהים בסכומים",
+   "יש גם גרסת פלאג-אין יקרה יותר"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Lexus/NX (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 269,
+    "insurance": 749,
+    "maintenance": 264,
+    "depreciation": 2792,
+    "total": 4195
+   },
+   "15000": {
+    "fuel": 577,
+    "insurance": 749,
+    "maintenance": 300,
+    "depreciation": 2792,
+    "total": 4539
+   },
+   "25000": {
+    "fuel": 962,
+    "insurance": 749,
+    "maintenance": 336,
+    "depreciation": 2792,
+    "total": 4960
    }
   }
  }
