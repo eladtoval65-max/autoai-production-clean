@@ -8,21 +8,21 @@ import { isFleetOwnership, matchCatalogCar, plateDisplayFields, type PlateRecord
 import type { Car } from "../../types";
 
 /**
- * Official checks a buyer should run before paying. We LINK to the government services and never state a car is
- * "not stolen" ourselves: the police check only shows whether a theft was reported.
+ * Before-you-pay checklist the BUYER does with the seller. By the owner's decision we don't verify sellers or state
+ * anything about theft/legal status; we only list what to check and link the official recall lookup (safety).
  */
 function BuyerChecks() {
-  const links: [string, string][] = [
-    ["https://www.gov.il/apps/police/stolencar/", "האם דווח כגנוב (משטרת ישראל)"],
-    ["https://www.gov.il/he/service/recall-vehicle", "קריאות שירות בטיחותיות (ריקול)"],
+  const items = [
+    "רישיון הרכב על שם המוכר, ותעודת זהות שלו תואמת.",
+    "מספר השלדה על הרכב זהה למספר ברישיון הרכב.",
+    "בדיקה במכון בדיקה מורשה לפני תשלום.",
   ];
   return (
     <div className="mt-4 rounded-xl border border-line p-4 text-[15px]">
-      <p className="font-semibold">לפני שמשלמים — בדיקות רשמיות בחינם:</p>
-      <ul className="mt-2 space-y-1">
-        {links.map(([href, text]) => <li key={href}><a href={href} target="_blank" rel="noopener noreferrer" className="underline">{text}</a></li>)}
-      </ul>
-      <p className="mt-2 text-[13px] text-muted">ובנוסף: בדיקה במכון מורשה, והשוואת מספר השלדה ברכב לרישיון הרכב.</p>
+      <p className="font-semibold">לפני שמשלמים — לבדוק בעצמכם מול המוכר:</p>
+      <ul className="mt-2 list-disc space-y-1 ps-5">{items.map((t) => <li key={t}>{t}</li>)}</ul>
+      <p className="mt-2 text-[14px]">ריקולים פתוחים לדגם: <a href="https://www.gov.il/he/service/recall-vehicle" target="_blank" rel="noopener noreferrer" className="underline">בדיקת קריאות שירות (משרד התחבורה)</a></p>
+      <p className="mt-1 text-[13px] text-muted">״כמה עולה״ לא בודק מוכרים ולא מאמת בעלות על הרכב.</p>
     </div>
   );
 }

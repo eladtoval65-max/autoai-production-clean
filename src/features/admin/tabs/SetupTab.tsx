@@ -15,7 +15,7 @@ const checksFor = (s: SetupStatus): [boolean, string, string][] => [
   [s.emailAlerts, "התראה מיידית במייל", "להוסיף RESEND_API_KEY ב-Vercel."],
   [s.chatKey, "מפתח לצ׳אט", "להוסיף ANTHROPIC_API_KEY ב-Vercel."],
   // Shown in the privacy/terms/accessibility pages; partners and the law expect a named operator.
-  [operatorComplete, "פרטי מפעיל באתר", `להוסיף ב-Vercel: ${[!SITE.operatorName && "VITE_OPERATOR_NAME", !SITE.operatorId && "VITE_OPERATOR_ID", !SITE.contactEmail && "VITE_CONTACT_EMAIL"].filter(Boolean).join(", ")} ולבצע Redeploy.`],
+  [operatorComplete, "פרטי מפעיל באתר", `להוסיף ב-Vercel: ${[!SITE.operatorName && "VITE_OPERATOR_NAME", !SITE.contactEmail && "VITE_CONTACT_EMAIL"].filter(Boolean).join(", ")} ולבצע Redeploy.`],
   [Boolean(s.siteUrl), "כתובת האתר למנועי חיפוש", "להוסיף SITE_URL (למשל https://camaola.co.il) כדי ש-sitemap.xml ייווצר בבנייה."],
 ];
 

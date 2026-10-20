@@ -23,7 +23,7 @@ export function OperatorDetails() {
   return (
     <ul className="list-disc space-y-1 ps-5">
       <li>מפעיל האתר: {SITE.operatorName ?? PENDING}</li>
-      <li>מספר עוסק / ח״פ: {SITE.operatorId ?? PENDING}</li>
+      {SITE.operatorId && <li>מספר עוסק / ח״פ: {SITE.operatorId}</li>}
       <li>דוא״ל לפניות: {SITE.contactEmail ? <a className="underline" href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> : PENDING}</li>
       {SITE.address && <li>כתובת: {SITE.address}</li>}
     </ul>
