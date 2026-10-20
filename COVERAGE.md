@@ -11,9 +11,12 @@ The daily market agent works through this list top to bottom and ticks items off
 - Up to 8 models into `generations.ts` and up to 3 into the catalog per daily run. Quality over speed.
 
 ## Queue — missing models of makes already covered
-- [ ] Toyota: Aygo X, Corolla Cross, C-HR+, Camry, Land Cruiser, Hilux, Prius (used)
-- [ ] Hyundai: Venue, Kona, Kona EV, Ioniq 6, Santa Fe, Sonata, i30 (used), ix35/Tucson covered
-- [ ] Kia: Stonic, EV3, Sorento, Carnival, EV9, Ceed (used), Rio (used)
+- [x] Toyota: Aygo X, Corolla Cross, C-HR+, Camry, Land Cruiser, Hilux (2026-10-20)
+- [ ] Toyota: Prius (used)
+- [x] Hyundai: Venue (2026-10-20)
+- [ ] Hyundai: Kona, Kona EV, Ioniq 6, Santa Fe, Sonata, i30 (used), ix35/Tucson covered
+- [x] Kia: Stonic (2026-10-20)
+- [ ] Kia: EV3, Sorento, Carnival, EV9, Ceed (used), Rio (used)
 - [ ] Mazda: CX-90, Mazda6 (used), CX-3 (used)
 - [ ] Skoda: Fabia, Scala, Elroq, Enyaq, Rapid (used), Yeti (used)
 - [ ] BYD: Dolphin Surf, Atto 2, Sealion 05/07, Seal 05 DM-i
@@ -27,6 +30,15 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] BMW: 5 Series, X1, X2, iX1, iX3, 2 Series Gran Coupé
 - [ ] Audi: A5 (new), A6, Q4 e-tron, Q6 e-tron, Q7, Q8
 - [ ] Seat/Cupra: verify current price lists for Ibiza, Ateca, Leon, Tarraco, Born
+
+## Queue — seen on importer price lists 2026-10-20, not yet covered
+- [ ] Hyundai: Palisade, Ioniq 9, Elantra N / Ioniq 5 N (performance versions)
+- [ ] Volkswagen: Tayron, Golf GTI
+- [ ] Peugeot: e-3008 / e-5008 (check whether to fold into 3008/5008 lines)
+- [ ] Mercedes-Benz: EQE, EQE SUV, EQS SUV, GLC Coupé, GLE Coupé, GLS, S-Class, G-Class, CLE Cabrio, SL
+- [ ] BMW: 2 Series Coupé, iX2, 4 Series, X6, X7, 7 Series / i7, Z4
+- [ ] Audi: Q2, A6 e-tron, A8, e-tron GT
+- [ ] Commercial (low priority): Toyota ProAce / ProAce City / ProAce Verso, Peugeot Boxer, VW Caddy / Transporter / Crafter / ID.Buzz Cargo
 
 ## Queue — makes not yet covered (add the make, then its models)
 - [ ] Nissan (Qashqai, X-Trail, Juke, Micra, Leaf, Note — used)

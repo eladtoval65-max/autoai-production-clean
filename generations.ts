@@ -6,12 +6,12 @@
  *  - Euro NCAP stars: only where we are confident of the published result; otherwise null ("not known").
  *  - Consumption: typical real-world average (L/100 km, or kWh/100 km for EVs) — an ESTIMATE, not the claimed figure.
  *  - "Things to check": widely reported issues and inspection points — guidance for a pre-purchase check, not a diagnosis.
- *  - Current list price: from the Israeli importers' price lists as shown on carzone.co.il brand pages (retrieved 2026-10-19).
+ *  - Current list price: from the Israeli importers' price lists as shown on carzone.co.il brand pages (retrieved 2026-10-20).
  *  - Used prices are NOT included: there is no free official source (Levi Yitzhak is paid; Yad2 listings are asking prices).
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-10-19";
+export const PRICES_VERIFIED = "2026-10-20";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -63,7 +63,7 @@ const T = (code: string, from: number, to: number | null, engines: string, hp: s
 
 export const MAKES: Make[] = [
   { id: "toyota", name: "Toyota", he: "טויוטה", models: [
-    { id: "corolla", make: "toyota", model: "Corolla", he: "קורולה", body: "sedan", segment: "mass", price: [159900, 174990], status: "on_sale", gens: [
+    { id: "corolla", make: "toyota", model: "Corolla", he: "קורולה", body: "sedan", segment: "mass", price: [159900, 159900], status: "on_sale", gens: [
       T("E150", 2010, 2013, "1.6 בנזין, אוטומטית 4", "124–132", ["petrol"], 7.6, null, undefined, [C.history, C.inspect, "תיבה אוטומטית ישנה: לבדוק החלפות הילוך חלקות"]),
       T("E170", 2013, 2019, "1.6 בנזין, CVT", "132", ["petrol"], 7.3, 5, 2013, [C.history, C.inspect, C.cvt]),
       T("E210", 2019, null, "1.8 היברידי", "122–140", ["hybrid"], 5.3, 5, 2019, [C.toyHybrid, C.history, C.recalls]),
@@ -84,6 +84,29 @@ export const MAKES: Make[] = [
     { id: "c-hr", make: "toyota", model: "C-HR", he: "C-HR", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
       T("AX10", 2017, 2023, "1.8 היברידי", "122", ["hybrid"], 5.4, 5, 2017, [C.toyHybrid, C.history, "ראות אחורית מוגבלת: לבדוק מצלמה וחיישנים"]),
       T("AX20", 2024, null, "1.8/2.0 היברידי, פלאג-אין", "140–223", ["hybrid", "phev"], 5.2, null, undefined, [C.toyHybrid, C.recalls], "במחירון הנוכחי מופיע C-HR+ החשמלי (₪179,990–229,990), דגם אחר"),
+    ]},
+    { id: "aygo-x", make: "toyota", model: "Aygo X", he: "אייגו X", body: "city", segment: "mass", price: [123990, 129990], status: "on_sale", gens: [
+      T("AB70", 2022, null, "1.0 בנזין / 1.5 היברידי (מ-2026)", "72–116", ["petrol", "hybrid"], 4.8, null, undefined, [C.history, "בגרסת ההיברידי: " + C.toyHybrid], "4 מושבים"),
+    ]},
+    { id: "corolla-cross", make: "toyota", model: "Corolla Cross", he: "קורולה קרוס", body: "suv", segment: "mass", price: [179990, 192990], status: "on_sale", gens: [
+      T("XG10", 2022, null, "1.8 היברידי", "122–140", ["hybrid"], 5.7, null, undefined, [C.toyHybrid, C.history, C.recalls]),
+    ]},
+    { id: "c-hr-plus", make: "toyota", model: "C-HR+", he: "C-HR+", body: "suv", segment: "mass", price: [179990, 229990], status: "on_sale", gens: [
+      T("Gen1", 2026, null, "חשמלי, הנעה קדמית או 4X4", "167–343", ["ev"], 16.5, null, undefined, [C.ev, C.recalls], "דגם חשמלי נפרד מה-C-HR ההיברידי"),
+    ]},
+    { id: "camry", make: "toyota", model: "Camry", he: "קאמרי", body: "sedan", segment: "mass", price: [214990, 229990], status: "on_sale", gens: [
+      T("XV40", 2010, 2011, "2.4 בנזין", "167", ["petrol"], 9.5, null, undefined, [C.history, C.inspect, "צריכת שמן במנועי 2.0/2.4 ישנים"]),
+      T("XV50", 2012, 2017, "2.5 בנזין / 2.5 היברידי", "181–205", ["petrol", "hybrid"], 7.5, null, undefined, [C.history, C.inspect, "בגרסת ההיברידי: " + C.toyHybrid]),
+      T("XV70", 2018, 2024, "2.5 היברידי", "218", ["hybrid"], 5.4, null, undefined, [C.toyHybrid, C.history, C.recalls]),
+      T("XV80", 2025, null, "2.5 היברידי", "230", ["hybrid"], 5.3, null, undefined, [C.toyHybrid, C.recalls]),
+    ]},
+    { id: "land-cruiser", make: "toyota", model: "Land Cruiser", he: "לנד קרוזר", body: "suv7", segment: "premium", price: [414990, 527990], status: "on_sale", gens: [
+      T("J150 (Prado)", 2010, 2023, "3.0 / 2.8 טורבו דיזל", "173–204", ["diesel"], 10.5, null, undefined, [C.history, C.inspect, "שימוש בשטח: לבדוק תחתית, מתלים ומערכת 4X4"]),
+      T("J250", 2024, null, "2.8 טורבו דיזל מיילד-היברידי / 2.4 טורבו היברידי", "204–326", ["diesel", "hybrid"], 10.4, null, undefined, [C.history, C.recalls, "שימוש בשטח: לבדוק תחתית, מתלים ומערכת 4X4"]),
+    ]},
+    { id: "hilux", make: "toyota", model: "Hilux", he: "היילקס", body: "pickup", segment: "mass", price: [309990, 359990], status: "on_sale", gens: [
+      T("AN10/AN20 (דור 7)", 2010, 2015, "2.5 / 3.0 טורבו דיזל", "144–171", ["diesel"], 10.0, null, undefined, [C.history, C.inspect, "רכב עבודה: לבדוק בלאי ארגז, וו גרירה ותחתית"]),
+      T("AN120/AN130 (דור 8)", 2016, null, "2.4 / 2.8 טורבו דיזל", "150–204", ["diesel"], 9.9, null, undefined, [C.history, C.inspect, C.recalls, "רכב עבודה: לבדוק בלאי ארגז, וו גרירה ותחתית"]),
     ]},
   ]},
 
@@ -111,6 +134,9 @@ export const MAKES: Make[] = [
       T("GB", 2015, 2020, "1.4 בנזין / 1.0 טורבו", "100", ["petrol"], 6.9, 4, 2015, [C.history, C.inspect]),
       T("BC3", 2021, null, "1.0 טורבו", "100", ["petrol"], 6.8, 4, 2021, [C.history, C.dct]),
     ]},
+    { id: "venue", make: "hyundai", model: "Venue", he: "וניו", body: "suv", segment: "mass", price: [129900, 144990], status: "on_sale", gens: [
+      T("QX", 2020, null, "1.6 בנזין, CVT", "121–123", ["petrol"], 7.7, null, undefined, [C.history, C.cvt]),
+    ]},
   ]},
 
   { id: "kia", name: "Kia", he: "קיה", models: [
@@ -132,6 +158,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "seltos", make: "kia", model: "Seltos", he: "סלטוס", body: "suv", segment: "mass", price: [164900, 167990], status: "on_sale", gens: [
       T("SP2", 2020, null, "1.6 בנזין / 1.6 טורבו", "123–177", ["petrol"], 7.8, null, undefined, [C.history, C.inspect]),
+    ]},
+    { id: "stonic", make: "kia", model: "Stonic", he: "סטוניק", body: "suv", segment: "mass", price: [129900, 137900], status: "on_sale", gens: [
+      T("YB", 2018, null, "1.0 טורבו, רובוטית כפולת מצמד", "100–120", ["petrol"], 7.1, null, undefined, [C.history, C.dct]),
     ]},
   ]},
 
@@ -239,7 +268,7 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "seat", name: "Seat", he: "סיאט", models: [
-    { id: "ibiza", make: "seat", model: "Ibiza", he: "איביזה", body: "hatch", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "ibiza", make: "seat", model: "Ibiza", he: "איביזה", body: "hatch", segment: "mass", price: [122390, 139900], status: "on_sale", gens: [
       T("6J", 2010, 2017, "1.2 / 1.4 / 1.2 TSI", "70–105", ["petrol"], 6.8, 5, 2008, [C.history, C.inspect, C.tsiChain, C.dsgDry]),
       T("6F (KJ)", 2018, null, "1.0 TSI", "95–115", ["petrol"], 6.0, 5, 2017, [C.history, C.dsgDry]),
     ]},
@@ -281,8 +310,8 @@ export const MAKES: Make[] = [
     { id: "geometry-c", make: "geely", model: "Geometry C", he: "גיאומטרי C", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2021, 2023, "סוללה 70 קוט\"ש", "204", ["ev"], 16.5, null, undefined, [C.ev, C.newBrand]),
     ]},
-    { id: "ex5", make: "geely", model: "EX5", he: "EX5", body: "suv", segment: "mass", price: null, status: "on_sale", gens: [
-      T("Gen1", 2025, null, "סוללת LFP 60 קוט\"ש", "218", ["ev"], 17.5, null, undefined, [C.ev, C.newBrand], "המחיר בישראל לא אומת ממקור פתוח"),
+    { id: "ex5", make: "geely", model: "EX5", he: "EX5", body: "suv", segment: "mass", price: [161990, 169490], status: "on_sale", gens: [
+      T("Gen1", 2025, null, "סוללת LFP 60 קוט\"ש", "218", ["ev"], 17.5, null, undefined, [C.ev, C.newBrand], "במחירון הישראלי מופיע בשם E5"),
     ]},
     { id: "okavango", make: "geely", model: "Okavango", he: "אוקוונגו", body: "suv7", segment: "mass", price: null, status: "unverified", gens: [
       T("Gen1", 2021, null, "1.5 טורבו מיילד-היברידי, 7 מקומות", "177–190", ["petrol"], 8.5, null, undefined, [C.newBrand], "לא אומת שנמכר בישראל"),
@@ -314,9 +343,9 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "suzuki", name: "Suzuki", he: "סוזוקי", models: [
-    { id: "vitara", make: "suzuki", model: "Vitara", he: "ויטארה", body: "suv", segment: "mass", price: [154990, 166990], status: "on_sale", gens: [
+    { id: "vitara", make: "suzuki", model: "Vitara", he: "ויטארה", body: "suv", segment: "mass", price: [154990, 179990], status: "on_sale", gens: [
       T("LY", 2015, 2024, "1.6 / 1.4 טורבו / 1.4 מיילד-היברידי", "120–140", ["petrol", "hybrid"], 7.6, 5, 2015, [C.history, C.inspect]),
-      T("e Vitara", 2026, null, "חשמלי", "171", ["ev"], 16.5, 4, 2025, [C.ev], "המחיר הוא לגרסה החשמלית"),
+      T("e Vitara", 2026, null, "חשמלי", "171", ["ev"], 16.5, 4, 2025, [C.ev], "e Vitara החשמלית: ₪154,990–179,990; ויטארה בנזין: ₪159,990–169,990"),
     ]},
     { id: "swift", make: "suzuki", model: "Swift", he: "סוויפט", body: "city", segment: "mass", price: [119990, 129990], status: "on_sale", gens: [
       T("FZ/NZ", 2010, 2017, "1.2 / 1.4 בנזין", "94–136", ["petrol"], 6.5, 5, 2010, [C.history, C.inspect]),
@@ -326,7 +355,7 @@ export const MAKES: Make[] = [
     { id: "ignis", make: "suzuki", model: "Ignis", he: "איגניס", body: "city", segment: "mass", price: null, status: "unverified", gens: [
       T("MF", 2017, null, "1.2 / 1.2 מיילד-היברידי", "83–90", ["petrol", "hybrid"], 5.8, 3, 2016, [C.history]),
     ]},
-    { id: "s-cross", make: "suzuki", model: "S-Cross", he: "S-Cross", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "s-cross", make: "suzuki", model: "S-Cross", he: "S-Cross", body: "suv", segment: "mass", price: [159990, 179990], status: "on_sale", gens: [
       T("JY", 2014, 2021, "1.6 / 1.4 טורבו", "120–140", ["petrol"], 7.4, 5, 2013, [C.history, C.inspect]),
       T("Gen2", 2022, null, "1.4 טורבו מיילד-היברידי", "129", ["petrol", "hybrid"], 7.0, null, undefined, [C.history]),
     ]},
@@ -411,7 +440,7 @@ export const MAKES: Make[] = [
     { id: "zs-ev", make: "mg", model: "ZS EV", he: "ZS EV", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("ZS EV", 2020, 2024, "סוללה 44.5/51/72 קוט\"ש", "143–156", ["ev"], 17.5, 5, 2019, [C.ev, C.newBrand]),
     ]},
-    { id: "mg4", make: "mg", model: "MG4", he: "MG4", body: "hatch", segment: "mass", price: [119888, 148888], status: "on_sale", gens: [
+    { id: "mg4", make: "mg", model: "MG4", he: "MG4", body: "hatch", segment: "mass", price: [119888, 119888], status: "on_sale", gens: [
       T("EH32", 2022, null, "סוללה 51/64/77 קוט\"ש", "170–245", ["ev"], 16.5, 5, 2022, [C.ev, C.newBrand]),
     ]},
     { id: "mg5", make: "mg", model: "MG5", he: "MG5", body: "wagon", segment: "mass", price: [158888, 158888], status: "on_sale", gens: [

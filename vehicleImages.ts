@@ -54,6 +54,8 @@ const MODELS: Record<string, [string, string]> = {
   "atto 2": ["BYD Yuan Up", ""],
   "ev3": ["Kia EV3", ""],
   "i20": ["Hyundai i20", ""],
+  "venue": ["Hyundai Venue", ""],
+  "stonic": ["Kia Stonic", ""],
   "kodiaq": ["Škoda Kodiaq", ""],
   "e vitara": ["Suzuki e Vitara", ""],
 };

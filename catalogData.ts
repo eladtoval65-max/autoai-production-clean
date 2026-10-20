@@ -88,7 +88,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": null,
   "price": 119888,
   "priceMin": 112700,
-  "priceMax": 148888,
+  "priceMax": 119888,
   "sampleSize": null,
   "newPrice": 119888,
   "reliability": 70,
@@ -111,7 +111,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "תא מטען בינוני"
   ],
   "confidence": 65,
-  "priceSource": "carzone.co.il/MG (brand page, 2026-10-19)",
+  "priceSource": "carzone.co.il/MG (brand page, 2026-10-20)",
   "bands": {
    "7000": {
     "fuel": 50,
@@ -133,6 +133,128 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 110,
     "depreciation": 1190,
     "total": 2125
+   }
+  }
+ },
+ {
+  "id": "hyundai-venue",
+  "make": "Hyundai",
+  "model": "Venue",
+  "trim": "Prime 1.6",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 121,
+  "consumption": 7.7,
+  "price": 129900,
+  "priceMin": 122000,
+  "priceMax": 144990,
+  "sampleSize": null,
+  "newPrice": 129900,
+  "reliability": 84,
+  "safety": 74,
+  "economy": 74,
+  "comfort": 72,
+  "practicality": 74,
+  "insuranceMin": 350,
+  "insuranceMax": 505,
+  "why": "קרוסאובר קטן עם מנוע 1.6 בנזין רגיל (בלי טורבו) ותיבה רציפה. מבחן דרך מדד כ-13 ק\"מ לליטר. שירות יונדאי נפוץ; לא נבחן ב-Euro NCAP.",
+  "pros": [
+   "מנוע פשוט בלי טורבו",
+   "שירות יונדאי נפוץ",
+   "מהקרוסאוברים הזולים בשוק"
+  ],
+  "cons": [
+   "צריכה בפועל כ-13 ק\"מ לליטר",
+   "לא נבחן ב-Euro NCAP",
+   "תא מטען קטן משל הקונה"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Hyundai/Venue/ (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 319,
+    "insurance": 424,
+    "maintenance": 185,
+    "depreciation": 1083,
+    "total": 2132
+   },
+   "15000": {
+    "fuel": 683,
+    "insurance": 424,
+    "maintenance": 210,
+    "depreciation": 1083,
+    "total": 2521
+   },
+   "25000": {
+    "fuel": 1138,
+    "insurance": 424,
+    "maintenance": 235,
+    "depreciation": 1083,
+    "total": 3001
+   }
+  }
+ },
+ {
+  "id": "kia-stonic",
+  "make": "Kia",
+  "model": "Stonic",
+  "trim": "EX 1.0T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 100,
+  "consumption": 7.1,
+  "price": 129900,
+  "priceMin": 122000,
+  "priceMax": 137900,
+  "sampleSize": null,
+  "newPrice": 129900,
+  "reliability": 82,
+  "safety": 74,
+  "economy": 77,
+  "comfort": 72,
+  "practicality": 72,
+  "insuranceMin": 350,
+  "insuranceMax": 505,
+  "why": "קרוסאובר קטן עם מנוע 1.0 טורבו ותיבה רובוטית כפולת מצמד. מבחן דרך מדד כ-14 ק\"מ לליטר, כ-20% פחות מהמוצהר.",
+  "pros": [
+   "מחיר נמוך לקרוסאובר",
+   "חסכוני יחסית",
+   "קל לחנייה בעיר"
+  ],
+  "cons": [
+   "צריכה בפועל נמוכה מהמוצהר",
+   "תיבה כפולת מצמד: לבדוק התנהגות בזחילה",
+   "ביצועים חלשים בכביש מהיר"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Kia/Stonic/ (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 294,
+    "insurance": 424,
+    "maintenance": 185,
+    "depreciation": 1083,
+    "total": 2107
+   },
+   "15000": {
+    "fuel": 630,
+    "insurance": 424,
+    "maintenance": 210,
+    "depreciation": 1083,
+    "total": 2468
+   },
+   "25000": {
+    "fuel": 1050,
+    "insurance": 424,
+    "maintenance": 235,
+    "depreciation": 1083,
+    "total": 2913
    }
   }
  },
@@ -455,7 +577,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": null,
   "price": 154990,
   "priceMin": 145700,
-  "priceMax": 167000,
+  "priceMax": 164990,
   "sampleSize": null,
   "newPrice": 154990,
   "reliability": 72,
@@ -478,7 +600,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "רשת שירות קטנה יותר מהמותגים הוותיקים"
   ],
   "confidence": 62,
-  "priceSource": "carzone.co.il/BYDAuto/Atto-3/2026",
+  "priceSource": "carzone.co.il/BYDAuto (brand page, 2026-10-20)",
   "bands": {
    "7000": {
     "fuel": 52,
@@ -517,7 +639,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": null,
   "price": 154990,
   "priceMin": 145000,
-  "priceMax": 166990,
+  "priceMax": 179990,
   "sampleSize": null,
   "newPrice": 154990,
   "reliability": 80,
@@ -539,7 +661,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "4 כוכבים ולא 5"
   ],
   "confidence": 58,
-  "priceSource": null,
+  "priceSource": "carzone.co.il/Suzuki (brand page, 2026-10-20)",
   "bands": {
    "7000": {
     "fuel": 53,
@@ -578,7 +700,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": 5.4,
   "price": 159900,
   "priceMin": 150300,
-  "priceMax": 174990,
+  "priceMax": 159900,
   "sampleSize": null,
   "newPrice": 159900,
   "reliability": 94,
@@ -601,7 +723,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "צריכה בעיר פחות טובה מהמוצהר במבחנים"
   ],
   "confidence": 72,
-  "priceSource": "carzone.co.il/Toyota (brand page, 2026-10-19)",
+  "priceSource": "carzone.co.il/Toyota (brand page, 2026-10-20)",
   "bands": {
    "7000": {
     "fuel": 224,
