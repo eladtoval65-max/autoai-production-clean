@@ -97,3 +97,23 @@ describe("pricing details and partner delivery", () => {
     expect(p.phone).toBe("0501234567");
   });
 });
+
+import { MAKES } from "../data/generations";
+import { adText, decodeCard, encodeCard, genForYear, yearsOfModel } from "../features/sell/model/sellCard";
+
+describe("seller card", () => {
+  const corolla = MAKES.find((m) => m.id === "toyota")!.models.find((m) => m.id === "corolla")!;
+  it("round-trips through the link", () => {
+    const q = encodeCard({ makeId: "toyota", modelId: "corolla", year: 2018, pt: genForYear(corolla, 2018)!.pt[0], price: 65000, km: 15000 });
+    const c = decodeCard(q, MAKES)!;
+    expect(c.model.id).toBe("corolla");
+    expect(c.price).toBe(65000);
+  });
+  it("rejects tampered or incomplete links", () => {
+    expect(decodeCard("m=toyota&o=corolla&y=2018&e=rocket&p=65000", MAKES)).toBeNull();
+    expect(decodeCard("m=toyota&o=corolla&y=1990&e=petrol&p=65000", MAKES)).toBeNull();
+    expect(decodeCard("m=toyota&o=corolla&y=2018&e=petrol&p=10", MAKES)).toBeNull();
+  });
+  it("lists years newest first", () => expect(yearsOfModel(corolla)[0]).toBeGreaterThan(yearsOfModel(corolla).at(-1)!));
+  it("ad text is an estimate with the link", () => expect(adText("טויוטה קורולה 2018", 2345, "https://x/sell/card?a")).toMatch(/כ־₪2,350 בחודש.*https:\/\/x/));
+});

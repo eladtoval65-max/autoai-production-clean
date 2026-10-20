@@ -21,7 +21,7 @@ export default function LeadRequestModal({
 }: {
   vehicle: { id: string; make: string; match: number };
   budget?: number;
-  sourcePage: "recommendations" | "vehicle_details" | "comparison" | "plate_check" | "landing" | "model_page";
+  sourcePage: "recommendations" | "vehicle_details" | "comparison" | "plate_check" | "landing" | "model_page" | "sell_page" | "sell_card";
   onClose: () => void;
   defaultType?: RequestType;
   landingSlug?: string;

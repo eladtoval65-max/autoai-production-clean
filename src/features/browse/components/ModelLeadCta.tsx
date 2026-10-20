@@ -3,6 +3,7 @@
  * so they get the same consented lead form as the home page: used-car help by default, new-car if it's on sale.
  */
 import { useState } from "react";
+import { Link } from "wouter";
 import type { Make, ModelLine } from "../../../data/generations";
 import LeadRequestModal from "../../leads/LeadRequestModal";
 import { sendEvent } from "../../../shared/analytics";
@@ -19,6 +20,7 @@ export function ModelLeadCta({ make, model }: { make: Make; model: ModelLine }) 
         <p className="mt-1 text-[15px] text-[#c3cbd6]">נחזור אליכם לעזור עם {onSale ? "חדש או יד שנייה" : "רכב יד שנייה"}: מה לבדוק, כמה זה יעלה בחודש, ומה האלטרנטיבות.</p>
       </div>
       <button onClick={start} className="inline-flex min-h-12 items-center rounded-full bg-[#5fd3a7] px-6 text-[16px] font-bold text-ink hover:bg-[#7fe0bb]">רוצים שנחזור אליכם?</button>
+      <Link href="/sell" className="w-full text-[14px] text-[#c3cbd6] underline">מוכרים {name}? צרו כרטיס ״כמה עולה בחודש״ למודעה שלכם</Link>
       {open && (
         <LeadRequestModal vehicle={{ id: `model-${make.id}-${model.id}`, make: name, match: 0 }} sourcePage="model_page"
           defaultType={onSale ? "vehicle" : "used_car"} onClose={() => setOpen(false)} />

@@ -11,6 +11,8 @@ import PrivacyPage from "./src/features/legal/PrivacyPage";
 import TermsPage from "./src/features/legal/TermsPage";
 import AccessibilityPage from "./src/features/legal/AccessibilityPage";
 import AboutPage from "./src/features/legal/AboutPage";
+import SellPage from "./src/features/sell/SellPage";
+import SellCardPage from "./src/features/sell/SellCardPage";
 import LandingPage from "./src/features/landing/LandingPage";
 import BrowsePage from "./src/features/browse/BrowsePage";
 function Router() {
@@ -24,6 +26,8 @@ function Router() {
       <Route path="/terms" component={TermsPage} />
       <Route path="/accessibility" component={AccessibilityPage} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/sell/card" component={SellCardPage} />
+      <Route path="/sell" component={SellPage} />
       <Route path="/go/:slug" component={LandingPage} />
       <Route path="/cars/:make/:model" component={BrowsePage} />
       <Route path="/cars/:make" component={BrowsePage} />

@@ -2,26 +2,11 @@ import { useEffect, useMemo, useState } from "react";
 import type { Make, ModelLine, Powertrain } from "../../../data/generations";
 import { card, field } from "../../../shared/styles";
 import { FIRST_YEAR, genYears, numberHe, POWERTRAIN_HE, shekel } from "../model/labels";
-import { estimateUsedCost, PRICES, yearsOf, type UsedCost } from "../model/usedCost";
+import { estimateUsedCost, PRICES, yearsOf } from "../model/usedCost";
+import { CostBars } from "./CostBars";
 
 const KM_OPTIONS = [7000, 10000, 15000, 20000, 25000, 30000];
 const label = "text-[14px] font-semibold text-muted";
-
-/** Breakdown bars: each component's share of the monthly total. */
-function CostBars({ cost }: { cost: UsedCost }) {
-  const rows: [string, number][] = [["דלק / חשמל", cost.fuel], ["ירידת ערך", cost.depreciation], ["ביטוח (הערכה)", cost.insurance], ["טיפולים ותיקונים", cost.maintenance], ["רישוי", cost.licence]];
-  return (
-    <ul className="space-y-1.5">
-      {rows.map(([k, v]) => (
-        <li key={k} className="grid grid-cols-[120px_1fr_72px] items-center gap-2 text-[14px]">
-          <span>{k}</span>
-          <span className="h-2.5 rounded-full bg-mist"><span className="block h-2.5 rounded-full bg-go" style={{ width: `${(v / cost.total) * 100}%` }} /></span>
-          <span className="num text-end">{shekel(v)}</span>
-        </li>
-      ))}
-    </ul>
-  );
-}
 
 /** "How much will it cost me a month?" for a used car: pick generation, year, powertrain, enter the asking price. */
 export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLine }) {

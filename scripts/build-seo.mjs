@@ -15,7 +15,7 @@ async function loadMakes(root) {
 
 /** Public pages that should be indexed (admin, API and landing campaigns are not). */
 function sitePaths(makes) {
-  const paths = ["/", "/cars", "/about", "/privacy", "/terms", "/accessibility"];
+  const paths = ["/", "/cars", "/sell", "/about", "/privacy", "/terms", "/accessibility"];
   for (const mk of makes) {
     paths.push(`/cars/${mk.id}`);
     for (const m of mk.models) paths.push(`/cars/${mk.id}/${m.id}`);
