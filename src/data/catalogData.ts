@@ -198,6 +198,128 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-fabia",
+  "make": "Skoda",
+  "model": "Fabia",
+  "trim": "Selection 1.0 TSI",
+  "bodyType": "hatchback",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 343,
+  "powerHp": 115,
+  "consumption": 7.7,
+  "price": 120990,
+  "priceMin": 114000,
+  "priceMax": 135990,
+  "sampleSize": null,
+  "newPrice": 120990,
+  "reliability": 78,
+  "safety": 88,
+  "economy": 76,
+  "comfort": 72,
+  "practicality": 76,
+  "insuranceMin": 336,
+  "insuranceMax": 484,
+  "why": "האצ'בק קטן עם מנוע 1.0 טורבו ותיבת DSG 7 יבשה, 5 כוכבי Euro NCAP (2021). מבחן דרך מדד כ-13 ק\"מ לליטר. תא מטען 343 ליטר, גדול לקטגוריה.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2021)",
+   "תא מטען גדול לקטגוריה",
+   "מחיר כניסה נמוך"
+  ],
+  "cons": [
+   "צריכה בפועל כ-13 ק\"מ לליטר",
+   "תיבת DSG יבשה: לבדוק התנהגות בזחילה",
+   "ביצועים צנועים במנוע 1.0"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Skoda/Fabia/2026 + /compare/ (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 319,
+    "insurance": 406,
+    "maintenance": 194,
+    "depreciation": 1008,
+    "total": 2048
+   },
+   "15000": {
+    "fuel": 683,
+    "insurance": 406,
+    "maintenance": 220,
+    "depreciation": 1008,
+    "total": 2438
+   },
+   "25000": {
+    "fuel": 1138,
+    "insurance": 406,
+    "maintenance": 246,
+    "depreciation": 1008,
+    "total": 2919
+   }
+  }
+ },
+ {
+  "id": "mg-mg3-hybrid",
+  "make": "MG",
+  "model": "MG3 Hybrid",
+  "trim": "Comfort Hybrid 1.5",
+  "bodyType": "hatchback",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 192,
+  "consumption": 5.1,
+  "price": 126888,
+  "priceMin": 119000,
+  "priceMax": 127888,
+  "sampleSize": null,
+  "newPrice": 126888,
+  "reliability": 74,
+  "safety": 78,
+  "economy": 88,
+  "comfort": 70,
+  "practicality": 72,
+  "insuranceMin": 345,
+  "insuranceMax": 498,
+  "why": "האצ'בק קטן היברידי (1.5 + מנוע חשמלי, 192 כ\"ס משולב). מבחן דרך מדד כ-19.5 ק\"מ לליטר. 4 כוכבי Euro NCAP (2025); מנעול מושב הנהג נכשל במבחן והיצרן הודיע על תיקון.",
+  "pros": [
+   "חסכוני מאוד בדלק",
+   "מהיברידיים הזולים בשוק",
+   "ביצועים טובים לגודלו"
+  ],
+  "cons": [
+   "4 כוכבי Euro NCAP ותקלת מושב במבחן",
+   "שירות ורשת מוסכים מצומצמים יותר",
+   "ערך יד שנייה לא ודאי"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/MG/3 (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 211,
+    "insurance": 418,
+    "maintenance": 176,
+    "depreciation": 1057,
+    "total": 1983
+   },
+   "15000": {
+    "fuel": 453,
+    "insurance": 418,
+    "maintenance": 200,
+    "depreciation": 1057,
+    "total": 2249
+   },
+   "25000": {
+    "fuel": 755,
+    "insurance": 418,
+    "maintenance": 224,
+    "depreciation": 1057,
+    "total": 2575
+   }
+  }
+ },
+ {
   "id": "hyundai-venue",
   "make": "Hyundai",
   "model": "Venue",
@@ -2216,6 +2338,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 134,
     "depreciation": 2229,
     "total": 3688
+   }
+  }
+ },
+ {
+  "id": "kia-sorento-hybrid",
+  "make": "Kia",
+  "model": "Sorento Hybrid",
+  "trim": "EX Hybrid 1.6T",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 6,
+  "cargoLiters": null,
+  "powerHp": 230,
+  "consumption": 8,
+  "price": 319900,
+  "priceMin": 300000,
+  "priceMax": 319900,
+  "sampleSize": null,
+  "newPrice": 319900,
+  "reliability": 80,
+  "safety": 90,
+  "economy": 62,
+  "comfort": 84,
+  "practicality": 90,
+  "insuranceMin": 601,
+  "insuranceMax": 867,
+  "why": "רכב שטח גדול ל-6 מושבים עם מנוע 1.6 טורבו היברידי 230 כ\"ס, 5 כוכבי Euro NCAP (2020). מבחן דרך מדד כ-12.5 ק\"מ לליטר, כ-17% פחות מהמוצהר.",
+  "pros": [
+   "6 מושבים",
+   "5 כוכבי Euro NCAP (2020)",
+   "היברידי חסכוני יחסית לגודלו"
+  ],
+  "cons": [
+   "מחיר גבוה",
+   "צריכה בפועל כ-12.5 ק\"מ לליטר",
+   "תא מטען קטן כששורה שלישית פתוחה"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Kia/Sorento (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 331,
+    "insurance": 728,
+    "maintenance": 282,
+    "depreciation": 2666,
+    "total": 4128
+   },
+   "15000": {
+    "fuel": 710,
+    "insurance": 728,
+    "maintenance": 320,
+    "depreciation": 2666,
+    "total": 4545
+   },
+   "25000": {
+    "fuel": 1183,
+    "insurance": 728,
+    "maintenance": 358,
+    "depreciation": 2666,
+    "total": 5056
    }
   }
  },

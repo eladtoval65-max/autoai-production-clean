@@ -64,6 +64,10 @@ const MODELS: Record<string, [string, string]> = {
   "hr-v": ["Honda HR-V (third generation)", ""],
   "forester": ["Subaru Forester", ""],
   "lexus nx": ["Lexus NX", ""],
+  // Batch 13 — Wikipedia lead image only
+  "fabia": ["Škoda Fabia", ""],
+  "sorento": ["Kia Sorento", ""],
+  "mg3": ["MG3 (automobile)", ""],
 };
 
 const KEYS = Object.keys(MODELS).sort((a, b) => b.length - a.length);

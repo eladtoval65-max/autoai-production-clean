@@ -12,28 +12,41 @@ The daily market agent works through this list top to bottom and ticks items off
 
 ## Queue — missing models of makes already covered
 - [x] Toyota: Aygo X, Corolla Cross, C-HR+, Camry, Land Cruiser, Hilux (2026-10-20)
-- [ ] Toyota: Prius (used)
+- [x] Toyota: Prius (used) (2026-10-20)
 - [x] Hyundai: Venue (2026-10-20)
-- [ ] Hyundai: Kona, Kona EV, Ioniq 6, Santa Fe, Sonata, i30 (used), ix35/Tucson covered
+- [x] Hyundai: Kona, Kona Electric, Ioniq 6, Santa Fe, Sonata (still on sale), i30 (used) (2026-10-20)
 - [x] Kia: Stonic (2026-10-20)
-- [ ] Kia: EV3, Sorento, Carnival, EV9, Ceed (used), Rio (used)
-- [ ] Mazda: CX-90, Mazda6 (used), CX-3 (used)
-- [ ] Skoda: Fabia, Scala, Elroq, Enyaq, Rapid (used), Yeti (used)
-- [ ] BYD: Dolphin Surf, Atto 2, Sealion 05/07, Seal 05 DM-i
+- [x] Kia: EV3, Sorento, Carnival, EV9, Ceed (used), Rio (used) (2026-10-20)
+- [ ] Kia: Carnival YP generation (2014–2020) and Ceed ED (2010–2012) not filled — Wikipedia page lacked the details; JD/CD/UB horsepower not tied to a generation
+- [x] Mazda: CX-90, Mazda6 (used), CX-3 (used) (2026-10-20)
+- [ ] Mazda6 GH generation (2010–2012): engines/hp for Israel not on Wikipedia, not filled
+- [x] Skoda: Fabia, Scala, Elroq, Enyaq, Rapid (used), Yeti (used) (2026-10-20)
+- [ ] Skoda: carzone.co.il/Skoda/ brand page could not be read this run — prices taken from model/compare pages; re-check full ranges (Scala shows one priced trim only)
+- [x] BYD: Dolphin Surf, Atto 2, Sealion 7 (2026-10-20)
+- [ ] BYD: Sealion 05 DM-i (₪166,990–171,990), Seal 05 DM-i (₪174,990) — on price list, combined hp not confirmed
 - [ ] Omoda & Jaecoo: Omoda 7, Omoda 9
 - [ ] Chery: Tiggo 9, FX EV
-- [ ] Suzuki: Baleno (used), SX4 (used), Fronx, Celerio (used)
-- [ ] Peugeot: Rifter, e-208, 308 (used), 301 (used)
-- [ ] Volkswagen: T-Cross, T-Roc, ID.3, ID.Buzz, Passat (used), Jetta (used)
-- [ ] MG: MG3, S5, S6, EHS, S9, Cyberster
-- [ ] Mercedes-Benz: CLA, GLA, GLB, EQA, EQB, CLE
-- [ ] BMW: 5 Series, X1, X2, iX1, iX3, 2 Series Gran Coupé
-- [ ] Audi: A5 (new), A6, Q4 e-tron, Q6 e-tron, Q7, Q8
+- [x] Suzuki: Baleno (used), SX4 (used), Celerio (used) (2026-10-20)
+- [ ] Suzuki Fronx: not on the Suzuki price list 2026-10-20 — skip unless it appears
+- [x] Peugeot: Rifter, 308 (used, no longer on price list), 301 (used) (2026-10-20)
+- [ ] Peugeot: e-208; 308 T9/P5 engine outputs to fill
+- [x] Volkswagen: T-Cross, T-Roc (unverified: not on brand page), ID.3, Passat (used), Jetta (used) (2026-10-20)
+- [ ] Volkswagen: ID.Buzz; T-Roc status (model page shows ₪180,000–189,900 but brand page omits it)
+- [x] MG: MG3, S5 (2026-10-20)
+- [ ] MG: S6, S9, Cyberster; EHS (₪175,888) — decide whether to fold into the HS line
+- [x] Mercedes-Benz: GLA (2026-10-20)
+- [ ] Mercedes-Benz: CLA (₪319,900–419,900; C118 engine table unreadable), GLB, EQA, EQB, CLE
+- [x] BMW: 5 Series, X1 (iX1 noted in X1 line) (2026-10-20)
+- [ ] BMW: X2, iX3, 2 Series Gran Coupé
+- [x] Audi: Q7 (2026-10-20)
+- [ ] Audi: A5 (new), A6 (₪484,000–629,000; C9 not on Wikipedia yet), Q4 e-tron, Q6 e-tron, Q8
 - [ ] Seat/Cupra: verify current price lists for Ibiza, Ateca, Leon, Tarraco, Born
 
 ## Queue — seen on importer price lists 2026-10-20, not yet covered
-- [ ] Hyundai: Palisade, Ioniq 9, Elantra N / Ioniq 5 N (performance versions)
-- [ ] Volkswagen: Tayron, Golf GTI
+- [x] Hyundai: Palisade, Ioniq 9 (2026-10-20)
+- [ ] Hyundai: Elantra N / Ioniq 5 N (performance versions)
+- [x] Volkswagen: Tayron (2026-10-20)
+- [ ] Volkswagen: Golf GTI
 - [ ] Peugeot: e-3008 / e-5008 (check whether to fold into 3008/5008 lines)
 - [ ] Mercedes-Benz: EQE, EQE SUV, EQS SUV, GLC Coupé, GLE Coupé, GLS, S-Class, G-Class, CLE Cabrio, SL
 - [ ] BMW: 2 Series Coupé, iX2, 4 Series, X6, X7, 7 Series / i7, Z4

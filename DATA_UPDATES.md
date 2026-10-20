@@ -97,3 +97,30 @@ Skipped or flagged for owner review:
 - Arkana, X-Trail T32/T33 and Astra J: power is shown as "—" because Wikipedia gave no figure.
 - Clio: Israel still sells the facelifted Clio V. Clio VI (Europe 2025) was not added.
 - Pages that could not be opened: carzone.co.il/Honda, carzone.co.il/Subaru, several euroncap.com result pages (their stars are left null).
+
+## 2026-10-20 (catalog expansion 2: missing models of makes already covered)
+45 models added to `generations.ts` under existing makes (193 models now). List prices from the carzone.co.il brand pages read today; generations/engines/power from English Wikipedia; Euro NCAP stars only where a euroncap.com page (or a Wikipedia text statement) gave them, otherwise null. Consumption figures are CamaOla real-world estimates.
+- Toyota Prius (not on price list → discontinued) — https://www.carzone.co.il/Toyota · https://en.wikipedia.org/wiki/Toyota_Prius (+ /Toyota_Prius_(XW30), /Toyota_Prius_(XW50))
+- Hyundai Kona ₪176,990–207,990, Kona Electric ₪174,990–184,990, Ioniq 6 ₪224,990–247,990, Santa Fe ₪329,990–359,990, Sonata ₪219,990–234,990, Palisade ₪349,990–389,990, Ioniq 9 ₪354,990–409,990; i30 not listed — https://www.carzone.co.il/Hyundai/ · Wikipedia /Hyundai_Kona, /Hyundai_Ioniq_6, /Hyundai_Santa_Fe, /Hyundai_Sonata, /Hyundai_i30, /Hyundai_Palisade, /Hyundai_Ioniq_9 · NCAP: news.euroncap.com (Kona 2023 4★, Santa Fe 2024 4★ standard, Ioniq 9 2025 5★), https://www.euroncap.com/en/results/hyundai/ioniq+6/47747
+- Kia EV3 ₪169,900–186,900, Sorento ₪319,900, Carnival ₪298,900–349,900, EV9 ₪399,000–489,000; Ceed, Rio not listed — https://www.carzone.co.il/Kia/ · Wikipedia /Kia_EV3, /Kia_Sorento, /Kia_Carnival, /Kia_EV9, /Kia_Ceed, /Kia_Rio · NCAP: euroncap.com (EV3 2025 4★ standard, Sorento 2020 5★, Ceed 2019 4★ standard, Rio 2017 3★ standard)
+- Mazda CX-90 ₪254,900–329,900; Mazda6, CX-3 not listed (cartube: no longer marketed) — https://www.carzone.co.il/Mazda/ · https://www.cartube.co.il/מחירון-רכב-חדש/מאזדה · Wikipedia /Mazda6, /Mazda6_(third_generation), /Mazda_CX-3, /Mazda_CX-90
+- Skoda Fabia ₪120,990–135,990, Scala ₪138,490 (one priced trim), Elroq ₪182,990–197,990, Enyaq ₪206,490–298,000; Rapid, Yeti discontinued per Wikipedia — https://www.carzone.co.il/Skoda/Fabia/2026/compare/ · https://www.carzone.co.il/Skoda/Scala/2026/compare/ · https://www.carzone.co.il/Skoda/Elroq/ · https://www.carzone.co.il/Skoda/ENYAQ-iv/coupe/2026/compare/ + https://www.carzone.co.il/Skoda/ENYAQ-iv/2026/ · Wikipedia /Škoda_Fabia, /Škoda_Scala, /Škoda_Elroq, /Škoda_Enyaq, /Škoda_Rapid_(2012), /Škoda_Yeti · NCAP: euroncap.com (Fabia 2021, Scala 2019, Elroq 2025, Enyaq 2021 — all 5★)
+- Suzuki Baleno, SX4, Celerio (not listed → discontinued) — https://www.carzone.co.il/Suzuki · Wikipedia /Suzuki_Baleno_(2015), /Suzuki_SX4, /Suzuki_Celerio
+- BYD Dolphin Surf ₪114,990–123,990, Atto 2 ₪137,990–149,990 (EV ₪148,990; DM-i ₪137,990–149,990), Sealion 7 ₪198,990–237,990 — https://www.carzone.co.il/BYDAuto · Wikipedia /BYD_Seagull, /BYD_Atto_2, /BYD_Sealion_7
+- MG MG3 ₪119,888–127,888, S5 ₪138,888 — https://www.carzone.co.il/MG/ · Wikipedia /MG3_(automobile) · S5 via Wikipedia mirror of /MG_ES5 · NCAP: https://www.euroncap.com/articles/mg-3-receives-four-stars-but-suffers-rare-and-serious-seat-failure-in-euro-ncap-crash-test
+- Peugeot Rifter ₪178,990–189,990; 308, 301 not listed — https://www.carzone.co.il/Peugeot/ · Wikipedia /Peugeot_308, /Peugeot_301_(2012), /Citroën_Berlingo · NCAP 308 2022 4★ (news.euroncap.com)
+- Volkswagen T-Cross ₪144,900–169,900, ID.3 ₪245,000, Tayron ₪259,900; Passat, Jetta not listed; T-Roc status "unverified" (not on brand page; model page https://www.carzone.co.il/Volkswagen/T-Roc/ still shows ₪180,000–189,900) — https://www.carzone.co.il/Volkswagen · Wikipedia /Volkswagen_T-Cross, /Volkswagen_T-Roc, /Volkswagen_ID.3, /Volkswagen_Passat_(B6), /Volkswagen_Passat_(B8), /Volkswagen_Passat_(B9), /Volkswagen_Jetta_(A6), /Volkswagen_Tayron
+- Mercedes-Benz GLA ₪359,900–419,900 — https://www.carzone.co.il/Mercedes-Benz/ · Wikipedia /Mercedes-Benz_GLA
+- BMW X1 ₪319,900–329,900 (iX1 ₪379,900–409,900), 5 Series ₪479,900–555,000 — https://www.carzone.co.il/BMW/ · Wikipedia /BMW_X1_(E84), /BMW_X1_(F48), /BMW_X1_(U11), /BMW_5_Series_(F10), /BMW_5_Series_(G30), /BMW_i5
+- Audi Q7 ₪689,900–740,900 — https://www.carzone.co.il/Audi/ · Wikipedia /Audi_Q7
+
+Catalog (batch 13, 3 models; running costs are estimates, dataConfidence 60):
+- Skoda Fabia Selection 1.0 TSI ₪120,990, 115 hp, road test ~13 km/L — https://www.carzone.co.il/Skoda/Fabia/2026
+- Kia Sorento Hybrid EX 1.6T ₪319,900, 230 hp, 6 seats, road test ~12.5 km/L — https://www.carzone.co.il/Kia/Sorento?trim=EX-hybrid-1.6L-AT-4X2-6seats
+- MG3 Hybrid Comfort ₪126,888, road test ~19.5 km/L (192 hp system per Wikipedia) — https://www.carzone.co.il/MG/3?trim=Comfort-petrol-1.5L-AT-4X2-5seats
+
+Skipped / needs review:
+- carzone.co.il/Skoda/ brand page could not be fetched; Skoda prices come from model/compare pages.
+- Santa Fe and T-Roc kept out of the catalog: model page entry price contradicts itself (Santa Fe ₪319,990 vs ₪329,990); T-Roc missing from the brand page. Elroq and Dolphin Surf kept out: no consumption figure on the model page.
+- Not added: Mercedes CLA, Audi A6 (engine/generation data incomplete on Wikipedia), BYD Sealion 05 / Seal 05 DM-i (combined hp not confirmed), MG EHS (fold into HS?), Suzuki Fronx (not on price list).
+- Power shown as "—" where Wikipedia gave no figure (Prius XW50, Celerio, Ceed, Rio UB, 308 T9/P5, T-Roc gen 2, Tayron).
