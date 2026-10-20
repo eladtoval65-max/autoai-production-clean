@@ -21,7 +21,7 @@ export function SubScores({ items }: { items: (readonly [string, number])[] }) {
                 );
               })}
             </span>
-            <span className="min-w-[7.5rem] text-end" aria-label={`${label}: ${v.toFixed(1)} ${t.scoreOf10}`}>
+            <span role="img" className="min-w-[7.5rem] text-end" aria-label={`${label}: ${v.toFixed(1)} ${t.scoreOf10}`}>
               <span className="num text-[17px]">{v.toFixed(1)}</span> <span className="text-[14px] font-semibold text-muted">{t.scoreWord(v)}</span>
             </span>
           </li>

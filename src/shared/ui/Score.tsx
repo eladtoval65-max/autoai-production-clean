@@ -7,7 +7,7 @@ export function Score({ value, compact }: { value: number; compact?: boolean }) 
   const { t } = useLang();
   const v = ten(value);
   return (
-    <span className="inline-flex flex-wrap items-center gap-x-2 gap-y-0.5" aria-label={`${t.matchScore}: ${v.toFixed(1)} ${t.scoreOf10}, ${t.scoreWord(v)}`}>
+    <span role="img" className="inline-flex flex-wrap items-center gap-x-2 gap-y-0.5" aria-label={`${t.matchScore}: ${v.toFixed(1)} ${t.scoreOf10}, ${t.scoreWord(v)}`}>
       <span dir="ltr" className={`num leading-none ${compact ? "text-[20px]" : "text-[24px]"}`} aria-hidden>
         {v.toFixed(1)}<span className="text-[13px] font-semibold text-muted">/10</span>
       </span>

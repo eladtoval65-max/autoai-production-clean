@@ -23,7 +23,10 @@ export function requestIp(req: HeaderBag | undefined): string {
  * Enough to show a partner "this consent came from a real browser request", without storing the IP itself.
  */
 export function hashIp(ip: string): string {
-  const salt = process.env.LEAD_HASH_SALT || "camaola-consent-v1";
+  // Salt: LEAD_HASH_SALT if set, otherwise derived from DATABASE_URL (always set and secret in production),
+  // so the owner has nothing extra to configure. Changing it only affects new leads.
+  const secret = process.env.LEAD_HASH_SALT || createHash("sha256").update(`salt:${process.env.DATABASE_URL ?? ""}`).digest("hex");
+  const salt = secret || "camaola-consent-v1";
   return createHash("sha256").update(`${salt}:${ip}`).digest("hex");
 }
 
