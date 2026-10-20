@@ -72,7 +72,10 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] Lexus: LBX (₪205,990–246,990), RZ (₪299,990–439,990), ES EV (₪379,990–429,990), LM
 - [x] Volvo: XC40/EX40, XC60, XC90, EX30 (2026-10-20)
 - [ ] Volvo: EX90 (₪739,900–754,900), ES90 (₪399,900–539,900), S60/V60 (used)
-- [ ] Geely brands: Zeekr, Lynk & Co, Geely Starray
-- [ ] Great Wall: ORA, Haval, Tank
-- [ ] Xpeng, Leapmotor, Polestar, Smart, Genesis, Mini, Fiat, Jeep, Alfa Romeo, Porsche, Land Rover, Skywell, Dongfeng/Voyah, Aiways, KGM (SsangYong), Isuzu
+- [x] Geely brands: Zeekr (X, 7GT, 7X, 001), Lynk & Co (01 EM-P, 02, 08), Geely Starray EM-i (2026-10-20)
+- [x] Great Wall: ORA 03 / 05 / 07 (2026-10-20). Haval and Tank are not sold in Israel today (no carzone listing; only a 2014 Haval H6 page)
+- [x] Xpeng (P7+, G6, P7, G9), Leapmotor (T03, B10, C10), Polestar 2, Smart (#1, #3, #5), Genesis (GV60, GV70, G80, GV80), Mini (Cooper, Countryman, Aceman), Jeep (Avenger, Compass, Wrangler, Grand Cherokee), Fiat (Grande Panda, Doblò), KGM (Tivoli, Torres, Rexton), Isuzu D-Max, Land Rover (Evoque, Discovery Sport, Defender), Porsche (Macan, Cayenne), Alfa Romeo Junior (2026-10-20)
+- [ ] Skywell ET5 (₪166,900–187,900), Dongfeng Box (₪104,900) / Mage PHEV (₪149,900), Voyah Courage (₪175,900–190,900) / Free (₪399,985) / Dream (₪429,985) — researched 2026-10-20, not yet added (run limit)
+- [ ] Aiways — not researched
+- [ ] Not yet added, seen on price lists 2026-10-20: Xpeng X9 (₪399,990, model page failed); Genesis G90; Mini Cabrio as separate line; Jeep Wrangler 4xe; Fiat Ducato/Scudo/Doblò Cargo (commercial); KGM Musso / Musso EV; Land Rover Range Rover, Range Rover Sport, Velar, Discovery; Porsche Taycan, Panamera, 911, Cayenne Electric; Alfa Romeo Giulia, Stelvio
 - [ ] Any other make on carzone.co.il's make list with models on sale

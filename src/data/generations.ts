@@ -421,6 +421,9 @@ export const MAKES: Make[] = [
     { id: "coolray", make: "geely", model: "Coolray", he: "קולריי", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
       T("Gen1", 2020, null, "1.5 טורבו", "177", ["petrol"], 7.8, null, undefined, [C.newBrand, C.dct], "לא אומת שנמכר בישראל"),
     ]},
+    { id: "starray", make: "geely", model: "Starray EM-i", he: "סטארריי EM-i", body: "suv", segment: "mass", price: [169990, 181990], status: "on_sale", gens: [
+      T("P145", 2024, null, "פלאג-אין: 1.5 בנזין + סוללה 18.4 קוט\"ש", "99 (מנוע הבנזין)", ["phev"], 5.5, 5, 2025, [C.phev, C.newBrand], "טווח חשמלי מוצהר 83 ק\"מ; בסין נמכר בשם Galaxy Starship 7"),
+    ]},
   ]},
 
   { id: "chery", name: "Chery", he: "צ'רי", models: [
@@ -898,6 +901,201 @@ export const MAKES: Make[] = [
     { id: "grandland", make: "opel", model: "Grandland", he: "גרנדלנד", body: "suv", segment: "mass", price: [186990, 206990], status: "on_sale", gens: [
       T("Gen1 (Grandland X)", 2018, 2024, "1.2 PureTech, 1.5 / 2.0 דיזל, פלאג-אין", "118–201", ["petrol", "diesel", "phev"], 7.2, null, undefined, [C.history, C.puretech]),
       T("Gen2", 2025, null, "1.2 מיילד-היברידי, 1.6 פלאג-אין, חשמלי", "134–321", ["hybrid", "phev", "ev"], 6.6, 4, 2025, [C.recalls]),
+    ]},
+  ]},
+
+  // ── Catalog expansion 3 (2026-10-20): prices from carzone.co.il brand pages, generations from Wikipedia. See DATA_UPDATES.md.
+  { id: "zeekr", name: "Zeekr", he: "זיקר", models: [
+    { id: "x", make: "zeekr", model: "X", he: "X", body: "suv", segment: "mass", price: [169990, 186990], status: "on_sale", gens: [
+      T("BX1E", 2023, null, "סוללה 49–69 קוט\"ש", "340", ["ev"], 17.0, 5, 2024, [C.ev, C.newBrand], "בדף הדגם מופיעה גם גרסת Krypton 4X4 ב-₪209,990"),
+    ]},
+    { id: "7gt", make: "zeekr", model: "7GT", he: "7GT", body: "wagon", segment: "premium", price: [191990, 269990], status: "on_sale", gens: [
+      T("CC1E", 2025, null, "סוללה 75/100 קוט\"ש", "421", ["ev"], 17.5, 5, 2026, [C.ev, C.newBrand]),
+    ]},
+    { id: "7x", make: "zeekr", model: "7X", he: "7X", body: "suv", segment: "premium", price: [233990, 289990], status: "on_sale", gens: [
+      T("CX1E", 2024, null, "סוללה 75/100 קוט\"ש", "422", ["ev"], 19.0, 5, 2025, [C.ev, C.newBrand], "במבחן דרך: טווח של כ-460–500 ק\"מ"),
+    ]},
+    { id: "001", make: "zeekr", model: "001", he: "001", body: "wagon", segment: "premium", price: [289990, 349990], status: "on_sale", gens: [
+      T("Gen1", 2021, null, "סוללה 86–100 קוט\"ש", "272–544", ["ev"], 19.0, 5, 2024, [C.ev, C.newBrand], "ב-cartube המחירים מעט שונים (₪283,990–344,990)"),
+    ]},
+  ]},
+
+  { id: "lynkco", name: "Lynk & Co", he: "לינק אנד קו", models: [
+    { id: "02", make: "lynkco", model: "02", he: "02", body: "suv", segment: "mass", price: [159900, 169900], status: "on_sale", gens: [
+      T("Gen2 (EV)", 2024, null, "סוללה 66 קוט\"ש", "272", ["ev"], 17.5, 5, 2025, [C.ev, C.newBrand], "ב-cartube מופיע מחיר גבוה יותר (₪171,900–179,900)"),
+    ]},
+    { id: "01", make: "lynkco", model: "01 EM-P", he: "01 EM-P", body: "suv", segment: "mass", price: [179900, 198900], status: "on_sale", gens: [
+      T("CX11", 2017, null, "פלאג-אין: 1.5 טורבו בנזין", "261–280", ["phev"], 6.0, null, undefined, [C.phev, C.newBrand], "בישראל נמכרת גרסת הפלאג-אין EM-P (מ-2022); טווח חשמלי מוצהר 75 ק\"מ"),
+    ]},
+    { id: "08", make: "lynkco", model: "08", he: "08", body: "suv", segment: "mass", price: [229900, 249900], status: "on_sale", gens: [
+      T("DX11", 2023, null, "פלאג-אין: 1.5 טורבו + סוללה 28–38 קוט\"ש", "350", ["phev"], 6.5, 5, 2025, [C.phev, C.newBrand], "במבחן דרך: כ-180 ק\"מ חשמלי וממוצע 15.4 ק\"מ לליטר"),
+    ]},
+  ]},
+
+  { id: "ora", name: "ORA", he: "אורה", models: [
+    { id: "05", make: "ora", model: "05", he: "05", body: "suv", segment: "mass", price: [139990, 148990], status: "on_sale", gens: [
+      T("Gen1", 2025, null, "1.5 טורבו היברידי", "223", ["hybrid"], 6.8, null, undefined, [C.newBrand, C.hyHybrid], "במבחן דרך: 14.5–15.1 ק\"מ לליטר"),
+    ]},
+    { id: "03", make: "ora", model: "03 Funky Cat", he: "03 פאנקי קאט", body: "hatch", segment: "mass", price: [154422, 154422], status: "on_sale", gens: [
+      T("ES11", 2020, null, "סוללה 57.7 קוט\"ש (דגם 2026)", "171", ["ev"], 18.1, 5, 2022, [C.ev, C.newBrand], "במבחן דרך: כ-250 ק\"מ טווח אמיתי"),
+    ]},
+    { id: "07", make: "ora", model: "07", he: "07", body: "sedan", segment: "mass", price: [226900, 226900], status: "on_sale", gens: [
+      T("Lightning Cat", 2022, null, "סוללה 83.5 קוט\"ש", "204", ["ev"], 18.0, null, undefined, [C.ev, C.newBrand]),
+    ]},
+  ]},
+
+  { id: "xpeng", name: "XPENG", he: "אקספנג", models: [
+    { id: "p7-plus", make: "xpeng", model: "P7+", he: "P7+", body: "sedan", segment: "mass", price: [199990, 199990], status: "on_sale", gens: [
+      T("Gen1", 2024, null, "סוללה 74.9 קוט\"ש", "313", ["ev"], 15.5, null, undefined, [C.ev, C.newBrand], "במבחן דרך: 15.1–16 קוט\"ש ל-100 ק\"מ"),
+    ]},
+    { id: "g6", make: "xpeng", model: "G6", he: "G6", body: "suv", segment: "mass", price: [204990, 247990], status: "on_sale", gens: [
+      T("F30", 2023, null, "סוללה 66–87.5 קוט\"ש", "296", ["ev"], 17.5, 5, 2024, [C.ev, C.newBrand]),
+    ]},
+    { id: "p7", make: "xpeng", model: "P7", he: "P7", body: "sedan", segment: "mass", price: [214990, 281990], status: "on_sale", gens: [
+      T("P7 / P7i", 2020, null, "סוללה 64.4/86.2 קוט\"ש", "276", ["ev"], 16.5, 5, 2023, [C.ev, C.newBrand], "בישראל נמכרת גרסת P7i"),
+    ]},
+    { id: "g9", make: "xpeng", model: "G9", he: "G9", body: "suv", segment: "premium", price: [259990, 372990], status: "on_sale", gens: [
+      T("Gen1", 2022, null, "סוללה 79 קוט\"ש ומעלה", "351–575", ["ev"], 20.0, null, undefined, [C.ev, C.newBrand], "במבחן דרך: כ-400 ק\"מ בנסיעה מתונה"),
+    ]},
+  ]},
+
+  { id: "leapmotor", name: "Leapmotor", he: "ליפמוטור", models: [
+    { id: "t03", make: "leapmotor", model: "T03", he: "T03", body: "city", segment: "mass", price: [92900, 92900], status: "on_sale", gens: [
+      T("Gen1", 2020, null, "חשמלי", "95", ["ev"], 14.0, null, undefined, [C.ev, C.newBrand]),
+    ]},
+    { id: "b10", make: "leapmotor", model: "B10", he: "B10", body: "suv", segment: "mass", price: [139900, 149900], status: "on_sale", gens: [
+      T("Gen1", 2025, null, "סוללה 67.1 קוט\"ש", "218", ["ev"], 18.5, 5, 2025, [C.ev, C.newBrand], "במבחן דרך: כ-340 ק\"מ. גרסת מאריך טווח (REEV): ₪154,900–164,900"),
+    ]},
+    { id: "c10", make: "leapmotor", model: "C10", he: "C10", body: "suv", segment: "mass", price: [164900, 199900], status: "on_sale", gens: [
+      T("Gen1", 2024, null, "סוללה 69.9 קוט\"ש", "215", ["ev"], 19.5, 5, 2024, [C.ev, C.newBrand], "במבחן דרך: כ-340 ק\"מ. גרסת מאריך טווח (REEV): ₪174,900–184,900"),
+    ]},
+  ]},
+
+  { id: "polestar", name: "Polestar", he: "פולסטאר", models: [
+    { id: "polestar-2", make: "polestar", model: "Polestar 2", he: "פולסטאר 2", body: "sedan", segment: "premium", price: [244900, 324900], status: "on_sale", gens: [
+      T("Gen1", 2020, null, "סוללה 69–82 קוט\"ש", "231–477", ["ev"], 18.0, 5, 2021, [C.ev, C.recalls], "מחירון 2026 לפי cartube (יבואן מאיר)"),
+    ]},
+  ]},
+
+  { id: "smart", name: "Smart", he: "סמארט", models: [
+    { id: "1", make: "smart", model: "#1", he: "#1", body: "suv", segment: "mass", price: [196990, 252990], status: "on_sale", gens: [
+      T("HX11", 2022, null, "סוללה 66 קוט\"ש", "272", ["ev"], 17.5, 5, 2022, [C.ev, C.newBrand]),
+    ]},
+    { id: "3", make: "smart", model: "#3", he: "#3", body: "suv", segment: "mass", price: [211990, 267990], status: "on_sale", gens: [
+      T("HC11", 2023, null, "סוללה 49/66 קוט\"ש", "272", ["ev"], 17.0, 5, 2023, [C.ev, C.newBrand]),
+    ]},
+    { id: "5", make: "smart", model: "#5", he: "#5", body: "suv", segment: "premium", price: [259990, 299990], status: "on_sale", gens: [
+      T("HY11", 2024, null, "סוללה 100 קוט\"ש", "363", ["ev"], 20.0, 5, 2025, [C.ev, C.newBrand], "במבחן דרך: 430–540 ק\"מ"),
+    ]},
+  ]},
+
+  { id: "genesis", name: "Genesis", he: "ג'נסיס", models: [
+    { id: "gv60", make: "genesis", model: "GV60", he: "GV60", body: "suv", segment: "premium", price: [299990, 599990], status: "on_sale", gens: [
+      T("JW", 2021, null, "סוללה 77.4–84 קוט\"ש", "228–489", ["ev"], 19.0, 5, 2022, [C.ev, C.newBrand]),
+    ]},
+    { id: "gv70", make: "genesis", model: "GV70", he: "GV70", body: "suv", segment: "premium", price: [359990, 459990], status: "on_sale", gens: [
+      T("JK1", 2021, null, "2.5 טורבו בנזין / חשמלי", "300–489", ["petrol", "ev"], 10.5, null, undefined, [C.newBrand, C.history], "במבחן דרך: כ-9.5 ק\"מ לליטר. GV70 Electrified: ₪549,900–609,900"),
+    ]},
+    { id: "g80", make: "genesis", model: "G80", he: "G80", body: "sedan", segment: "premium", price: [399990, 499000], status: "on_sale", gens: [
+      T("RG3", 2020, null, "2.5 טורבו בנזין", "304", ["petrol"], 10.5, null, undefined, [C.newBrand, C.history]),
+    ]},
+    { id: "gv80", make: "genesis", model: "GV80", he: "GV80", body: "suv7", segment: "premium", price: [489990, 645990], status: "on_sale", gens: [
+      T("JX1", 2020, null, "3.5 טורבו V6 בנזין", "375–409", ["petrol"], 13.5, 5, 2021, [C.newBrand, C.history], "GV80 Coupe: ₪599,990–725,000 (במבחן דרך כ-8.1 ק\"מ לליטר)"),
+    ]},
+  ]},
+
+  { id: "mini", name: "MINI", he: "מיני", models: [
+    { id: "hatch", make: "mini", model: "Cooper (Hatch)", he: "קופר", body: "hatch", segment: "premium", price: [221900, 301900], status: "on_sale", gens: [
+      T("R56", 2010, 2013, "1.6 בנזין / 1.6 טורבו (Cooper S)", "120–211", ["petrol"], 7.0, null, undefined, [C.history, C.inspect]),
+      T("F56 / F55", 2014, 2024, "1.2/1.5 טורבו 3 צילינדרים / 2.0 טורבו", "75–306", ["petrol"], 6.8, null, undefined, [C.history, C.inspect]),
+      T("J01 (חשמלי)", 2023, null, "חשמלי", "218", ["ev"], 15.5, 5, 2025, [C.ev], "Cooper Electric: ₪234,900"),
+      T("F66 / F65", 2024, null, "1.5 טורבו בנזין / 2.0 טורבו", "156–204", ["petrol"], 6.8, 5, 2025, [C.history], "Cabrio: ₪266,900–321,900"),
+    ]},
+    { id: "countryman", make: "mini", model: "Countryman", he: "קאנטרימן", body: "suv", segment: "premium", price: [273000, 339000], status: "on_sale", gens: [
+      T("R60", 2010, 2016, "1.6 בנזין / 1.6 טורבו", "98–218", ["petrol"], 7.8, 5, 2010, [C.history, C.inspect]),
+      T("F60", 2017, 2023, "1.5 / 2.0 טורבו / פלאג-אין", "102–306", ["petrol", "phev"], 7.4, 5, 2017, [C.history, C.inspect]),
+      T("U25", 2024, null, "1.5 טורבו בנזין / חשמלי 66.5 קוט\"ש", "170–313", ["petrol", "ev"], 7.4, 5, 2024, [C.history], "במבחן דרך (1.5 טורבו): כ-13.5 ק\"מ לליטר. Countryman Electric: ₪339,000"),
+    ]},
+    { id: "aceman", make: "mini", model: "Aceman", he: "אייסמן", body: "suv", segment: "premium", price: [259900, 259900], status: "on_sale", gens: [
+      T("J05", 2024, null, "סוללה 54.2 קוט\"ש", "218", ["ev"], 15.5, 5, 2025, [C.ev], "לפי הסקירה: כ-350 ק\"מ טווח מציאותי"),
+    ]},
+  ]},
+
+  { id: "jeep", name: "Jeep", he: "ג'יפ", models: [
+    { id: "avenger", make: "jeep", model: "Avenger", he: "אוונג'ר", body: "suv", segment: "mass", price: [164900, 174900], status: "on_sale", gens: [
+      T("Gen1", 2023, null, "1.2 טורבו בנזין", "100", ["petrol"], 6.5, 3, 2024, [C.history, C.recalls]),
+    ]},
+    { id: "compass", make: "jeep", model: "Compass", he: "קומפאס", body: "suv", segment: "mass", price: [209900, 224900], status: "on_sale", gens: [
+      T("MK49", 2010, 2016, "2.0 / 2.4 בנזין", "158–172", ["petrol"], 9.5, 2, 2012, [C.history, C.inspect]),
+      T("Gen2", 2017, 2025, "טורבו בנזין / 2.4 בנזין / פלאג-אין", "—", ["petrol", "phev"], 8.5, null, undefined, [C.history, C.inspect]),
+      T("Gen3", 2025, null, "1.2 טורבו מיילד-היברידי", "145", ["petrol"], 7.5, null, undefined, [C.history, C.recalls], "במבחן דרך: כ-13.3 ק\"מ לליטר"),
+    ]},
+    { id: "wrangler", make: "jeep", model: "Wrangler", he: "רנגלר", body: "suv", segment: "premium", price: [349900, 429900], status: "on_sale", gens: [
+      T("JK", 2010, 2018, "3.6 V6 בנזין / 2.8 דיזל", "200–285", ["petrol", "diesel"], 13.0, null, undefined, [C.history, C.inspect, C.suspension]),
+      T("JL", 2018, null, "2.0 טורבו בנזין / 4xe פלאג-אין", "270–380", ["petrol", "phev"], 12.5, null, undefined, [C.history, C.suspension], "במבחן דרך (2.0 טורבו): כ-8 ק\"מ לליטר"),
+    ]},
+    { id: "grand-cherokee", make: "jeep", model: "Grand Cherokee", he: "גרנד צ'ירוקי", body: "suv", segment: "premium", price: [414900, 414900], status: "on_sale", gens: [
+      T("WK2", 2011, 2021, "3.6 V6 בנזין / 3.0 דיזל / V8", "191–717", ["petrol", "diesel"], 13.0, null, undefined, [C.history, C.inspect]),
+      T("WL", 2022, null, "2.0 טורבו", "329", ["petrol"], 11.6, 5, 2022, [C.history], "במבחן דרך: 8.6 ק\"מ לליטר"),
+    ]},
+  ]},
+
+  { id: "fiat", name: "Fiat", he: "פיאט", models: [
+    { id: "grande-panda", make: "fiat", model: "Grande Panda", he: "גרנדה פנדה", body: "city", segment: "mass", price: [119000, 126000], status: "on_sale", gens: [
+      T("Gen1", 2025, null, "1.2 טורבו בנזין", "110", ["petrol"], 6.5, null, undefined, [C.history, C.recalls]),
+    ]},
+    { id: "doblo", make: "fiat", model: "Doblò", he: "דובלו", body: "mpv", segment: "mass", price: [169990, 179990], status: "on_sale", gens: [
+      T("263", 2010, 2022, "1.4 בנזין / 1.3–2.0 דיזל", "90–135", ["petrol", "diesel"], 7.5, 3, 2017, [C.history, C.inspect]),
+      T("Gen3", 2022, null, "1.5 דיזל", "130", ["diesel"], 6.0, 4, 2018, [C.history], "דירוג Euro NCAP של הפלטפורמה המשותפת (2018). Maxi Combi 7 מקומות: ₪179,990"),
+    ]},
+  ]},
+
+  { id: "kgm", name: "KGM (SsangYong)", he: "KGM (סאנגיונג)", models: [
+    { id: "tivoli", make: "kgm", model: "Tivoli", he: "טיבולי", body: "suv", segment: "mass", price: [139900, 139900], status: "on_sale", gens: [
+      T("X100", 2015, null, "1.6 בנזין / 1.5 טורבו (מ-2019)", "163 (1.5 טורבו)", ["petrol"], 7.7, null, undefined, [C.history, C.inspect], "במבחן דרך: כ-13 ק\"מ לליטר"),
+    ]},
+    { id: "torres", make: "kgm", model: "Torres", he: "טורס", body: "suv", segment: "mass", price: [169900, 189900], status: "on_sale", gens: [
+      T("J100", 2022, null, "1.5 טורבו / 1.5 טורבו היברידי", "170–204", ["petrol", "hybrid"], 6.8, null, undefined, [C.history, C.hyHybrid]),
+    ]},
+    { id: "rexton", make: "kgm", model: "Rexton", he: "רקסטון", body: "suv7", segment: "mass", price: [219900, 299900], status: "on_sale", gens: [
+      T("Y400", 2017, null, "2.2 דיזל", "181–202", ["diesel"], 9.5, null, undefined, [C.history, C.inspect, C.suspension], "במבחן דרך: 9.3–12.4 ק\"מ לליטר"),
+    ]},
+  ]},
+
+  { id: "isuzu", name: "Isuzu", he: "איסוזו", models: [
+    { id: "d-max", make: "isuzu", model: "D-Max", he: "די-מקס", body: "pickup", segment: "mass", price: [259990, 312990], status: "on_sale", gens: [
+      T("Gen2", 2011, 2019, "2.5 טורבו דיזל", "117–163", ["diesel"], 9.5, null, undefined, [C.history, C.inspect, C.suspension]),
+      T("Gen3", 2019, null, "1.9 / 2.2 טורבו דיזל", "150–163", ["diesel"], 9.5, 5, 2020, [C.history, C.suspension], "בישראל: תא בודד ₪259,990, תא כפול ₪280,990–312,990"),
+    ]},
+  ]},
+
+  { id: "land-rover", name: "Land Rover", he: "לנד רובר", models: [
+    { id: "evoque", make: "land-rover", model: "Range Rover Evoque", he: "ריינג' רובר איווק", body: "suv", segment: "premium", price: [389000, 389000], status: "on_sale", gens: [
+      T("L538", 2011, 2018, "2.0 טורבו בנזין / 2.2 דיזל", "150–240", ["petrol", "diesel"], 9.5, 5, 2011, [C.history, C.inspect]),
+      T("L551", 2019, null, "2.0 טורבו בנזין", "250", ["petrol"], 10.0, 5, 2019, [C.history, C.recalls]),
+    ]},
+    { id: "discovery-sport", make: "land-rover", model: "Discovery Sport", he: "דיסקברי ספורט", body: "suv7", segment: "premium", price: [437900, 437900], status: "on_sale", gens: [
+      T("L550", 2014, null, "2.0 טורבו בנזין / 2.0 דיזל", "150–250", ["petrol", "diesel"], 8.5, 5, 2014, [C.history, C.inspect, C.recalls]),
+    ]},
+    { id: "defender", make: "land-rover", model: "Defender", he: "דיפנדר", body: "suv", segment: "premium", price: [495000, 1150000], status: "on_sale", gens: [
+      T("L663", 2020, null, "2.0 טורבו בנזין / 3.0 דיזל", "200–400", ["petrol", "diesel"], 10.0, 5, 2020, [C.history, C.recalls], "מחיר: Defender 110. Defender 90: ₪529,000–668,000; Defender 130: ₪726,600. במבחן דרך (3.0 דיזל): כ-10 ק\"מ לליטר"),
+    ]},
+  ]},
+
+  { id: "porsche", name: "Porsche", he: "פורשה", models: [
+    { id: "macan", make: "porsche", model: "Macan", he: "מקאן", body: "suv", segment: "premium", price: [587000, 877000], status: "on_sale", gens: [
+      T("95B", 2014, 2024, "2.0 טורבו / 3.0 V6 טורבו", "252–440", ["petrol"], 10.5, null, undefined, [C.history, C.inspect]),
+      T("Macan Electric", 2024, null, "חשמלי", "360 ומעלה", ["ev"], 20.0, 5, 2024, [C.ev], "במחירון הישראלי 2026 מופיעה רק הגרסה החשמלית"),
+    ]},
+    { id: "cayenne", make: "porsche", model: "Cayenne", he: "קאיין", body: "suv", segment: "premium", price: [787000, 1507000], status: "on_sale", gens: [
+      T("92A", 2010, 2017, "3.6 V6 / 4.8 V8 / 3.0 דיזל / היברידי", "240–570", ["petrol", "diesel", "hybrid"], 13.0, null, undefined, [C.history, C.inspect]),
+      T("9Y0", 2018, null, "3.0 V6 טורבו / פלאג-אין", "340–739", ["petrol", "phev"], 12.0, null, undefined, [C.history], "Cayenne Electric: ₪737,000–1,237,000"),
+    ]},
+  ]},
+
+  { id: "alfa-romeo", name: "Alfa Romeo", he: "אלפא רומיאו", models: [
+    { id: "junior", make: "alfa-romeo", model: "Junior", he: "ג'וניור", body: "suv", segment: "premium", price: [174900, 202900], status: "on_sale", gens: [
+      T("966", 2024, null, "1.2 טורבו מיילד-היברידי (Ibrida)", "136", ["petrol"], 6.7, null, undefined, [C.history, C.dct], "במבחן דרך: כ-15 ק\"מ לליטר"),
     ]},
   ]},
 ];

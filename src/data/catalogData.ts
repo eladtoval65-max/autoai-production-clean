@@ -625,6 +625,128 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "kgm-tivoli",
+  "make": "KGM",
+  "model": "Tivoli",
+  "trim": "EX 1.5T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 163,
+  "consumption": 7.7,
+  "price": 139900,
+  "priceMin": 139900,
+  "priceMax": 139900,
+  "sampleSize": null,
+  "newPrice": 139900,
+  "reliability": 74,
+  "safety": 68,
+  "economy": 72,
+  "comfort": 70,
+  "practicality": 74,
+  "insuranceMin": 365,
+  "insuranceMax": 527,
+  "why": "קרוסאובר קטן קוריאני (סאנגיונג לשעבר) עם 1.5 טורבו בנזין, 163 כ\"ס. במבחן דרך כ-13 ק\"מ לליטר.",
+  "pros": [
+   "מנוע חזק לקטגוריה",
+   "מחיר נמוך",
+   "תא נוסעים מרווח לגודלו"
+  ],
+  "cons": [
+   "צריכת דלק בינונית",
+   "דירוג Euro NCAP לא אומת",
+   "רשת שירות קטנה יחסית"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/KGM/Tivoli (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 319,
+    "insurance": 443,
+    "maintenance": 194,
+    "depreciation": 1166,
+    "total": 2243
+   },
+   "15000": {
+    "fuel": 683,
+    "insurance": 443,
+    "maintenance": 220,
+    "depreciation": 1166,
+    "total": 2633
+   },
+   "25000": {
+    "fuel": 1138,
+    "insurance": 443,
+    "maintenance": 246,
+    "depreciation": 1166,
+    "total": 3114
+   }
+  }
+ },
+ {
+  "id": "ora-05",
+  "make": "ORA",
+  "model": "05",
+  "trim": "1.5T Hybrid",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 223,
+  "consumption": 6.8,
+  "price": 139990,
+  "priceMin": 139990,
+  "priceMax": 148990,
+  "sampleSize": null,
+  "newPrice": 139990,
+  "reliability": 70,
+  "safety": 70,
+  "economy": 80,
+  "comfort": 74,
+  "practicality": 76,
+  "insuranceMin": 365,
+  "insuranceMax": 527,
+  "why": "קרוסאובר משפחתי היברידי (1.5 טורבו, 223 כ\"ס) של ORA מקבוצת GWM. במבחן דרך 14.5–15.1 ק\"מ לליטר. מותג חדש יחסית בישראל.",
+  "pros": [
+   "היברידי חסכוני במחיר נמוך",
+   "הספק גבוה לקטגוריה",
+   "טווח נסיעה ארוך למיכל"
+  ],
+  "cons": [
+   "מותג חדש: לבדוק שירות וחלפים באזורך",
+   "לא נבחן ב-Euro NCAP",
+   "ערך שמירה עדיין לא ידוע"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Ora/05/ (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 282,
+    "insurance": 443,
+    "maintenance": 185,
+    "depreciation": 1167,
+    "total": 2198
+   },
+   "15000": {
+    "fuel": 604,
+    "insurance": 443,
+    "maintenance": 210,
+    "depreciation": 1167,
+    "total": 2545
+   },
+   "25000": {
+    "fuel": 1007,
+    "insurance": 443,
+    "maintenance": 235,
+    "depreciation": 1167,
+    "total": 2973
+   }
+  }
+ },
+ {
   "id": "nissan-juke",
   "make": "Nissan",
   "model": "Juke",
@@ -1361,6 +1483,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "alfa-romeo-junior",
+  "make": "Alfa Romeo",
+  "model": "Junior",
+  "trim": "Core Ibrida 1.2T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 136,
+  "consumption": 6.7,
+  "price": 174900,
+  "priceMin": 174900,
+  "priceMax": 202900,
+  "sampleSize": null,
+  "newPrice": 174900,
+  "reliability": 70,
+  "safety": 70,
+  "economy": 78,
+  "comfort": 74,
+  "practicality": 70,
+  "insuranceMin": 418,
+  "insuranceMax": 603,
+  "why": "קרוסאובר קטן עם 1.2 טורבו מיילד-היברידי (Ibrida) ותיבה כפולת מצמד, 136 כ\"ס. במבחן דרך כ-15 ק\"מ לליטר.",
+  "pros": [
+   "חסכוני",
+   "עיצוב ומיתוג פרימיום",
+   "נוח לעיר"
+  ],
+  "cons": [
+   "תא מטען ומרווח אחורי קטנים",
+   "תיבה כפולת מצמד: לבדוק בזחילה",
+   "דירוג Euro NCAP לא אומת"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/Alfa-Romeo/Junior (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 278,
+    "insurance": 507,
+    "maintenance": 202,
+    "depreciation": 1458,
+    "total": 2566
+   },
+   "15000": {
+    "fuel": 595,
+    "insurance": 507,
+    "maintenance": 230,
+    "depreciation": 1458,
+    "total": 2911
+   },
+   "25000": {
+    "fuel": 992,
+    "insurance": 507,
+    "maintenance": 258,
+    "depreciation": 1458,
+    "total": 3336
+   }
+  }
+ },
+ {
   "id": "hyundai-kona-hybrid",
   "make": "Hyundai",
   "model": "Kona Hybrid",
@@ -1972,6 +2155,128 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "xpeng-p7-plus",
+  "make": "XPENG",
+  "model": "P7+",
+  "trim": "RWD 74.9 kWh",
+  "bodyType": "sedan",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 313,
+  "consumption": null,
+  "price": 199990,
+  "priceMin": 199990,
+  "priceMax": 199990,
+  "sampleSize": null,
+  "newPrice": 199990,
+  "reliability": 70,
+  "safety": 72,
+  "economy": 90,
+  "comfort": 82,
+  "practicality": 80,
+  "insuranceMin": 453,
+  "insuranceMax": 653,
+  "why": "סדאן חשמלי גדול, סוללה 74.9 קוט\"ש ו-313 כ\"ס. במבחן דרך 15.1–16 קוט\"ש ל-100 ק\"מ, כ-400–500 ק\"מ טווח לפי סגנון הנהיגה.",
+  "pros": [
+   "צריכת חשמל נמוכה לגודלו",
+   "מרווח ונוח",
+   "הנעה אחורית חזקה"
+  ],
+  "cons": [
+   "מותג חדש: לבדוק שירות וחלפים באזורך",
+   "לא נבחן ב-Euro NCAP",
+   "ערך שמירה עדיין לא ידוע"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/XPENG/P7-Plus (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 58,
+    "insurance": 549,
+    "maintenance": 106,
+    "depreciation": 1667,
+    "total": 2501
+   },
+   "15000": {
+    "fuel": 124,
+    "insurance": 549,
+    "maintenance": 120,
+    "depreciation": 1667,
+    "total": 2581
+   },
+   "25000": {
+    "fuel": 207,
+    "insurance": 549,
+    "maintenance": 134,
+    "depreciation": 1667,
+    "total": 2678
+   }
+  }
+ },
+ {
+  "id": "jeep-compass",
+  "make": "Jeep",
+  "model": "Compass",
+  "trim": "Altitude 1.2T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 145,
+  "consumption": 7.5,
+  "price": 209900,
+  "priceMin": 209900,
+  "priceMax": 224900,
+  "sampleSize": null,
+  "newPrice": 209900,
+  "reliability": 70,
+  "safety": 72,
+  "economy": 74,
+  "comfort": 76,
+  "practicality": 76,
+  "insuranceMin": 466,
+  "insuranceMax": 672,
+  "why": "קרוסאובר משפחתי עם 1.2 טורבו מיילד-היברידי, 145 כ\"ס. במבחן דרך כ-13.3 ק\"מ לליטר.",
+  "pros": [
+   "חסכוני יחסית לגודלו",
+   "מותג מוכר",
+   "נוחות נסיעה טובה"
+  ],
+  "cons": [
+   "יקר יחסית למתחרים בגודלו",
+   "מנוע קטן לרכב משפחתי",
+   "דירוג Euro NCAP של הדור הנוכחי לא אומת"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/Jeep/Compass (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 311,
+    "insurance": 565,
+    "maintenance": 211,
+    "depreciation": 1749,
+    "total": 2957
+   },
+   "15000": {
+    "fuel": 666,
+    "insurance": 565,
+    "maintenance": 240,
+    "depreciation": 1749,
+    "total": 3341
+   },
+   "25000": {
+    "fuel": 1110,
+    "insurance": 565,
+    "maintenance": 269,
+    "depreciation": 1749,
+    "total": 3814
+   }
+  }
+ },
+ {
   "id": "skoda-kodiaq",
   "make": "Skoda",
   "model": "Kodiaq",
@@ -2338,6 +2643,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 134,
     "depreciation": 2229,
     "total": 3688
+   }
+  }
+ },
+ {
+  "id": "mini-countryman",
+  "make": "MINI",
+  "model": "Countryman",
+  "trim": "C Classic 1.5T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 170,
+  "consumption": 7.4,
+  "price": 273000,
+  "priceMin": 273000,
+  "priceMax": 307000,
+  "sampleSize": null,
+  "newPrice": 273000,
+  "reliability": 74,
+  "safety": 88,
+  "economy": 74,
+  "comfort": 80,
+  "practicality": 76,
+  "insuranceMin": 546,
+  "insuranceMax": 788,
+  "why": "קרוסאובר פרימיום עם 1.5 טורבו בנזין, 170 כ\"ס. במבחן דרך כ-13.5 ק\"מ לליטר. Euro NCAP 5 כוכבים (2024).",
+  "pros": [
+   "5 כוכבים ב-Euro NCAP",
+   "איכות פנים גבוהה",
+   "מרווח יותר מהמיני הרגילה"
+  ],
+  "cons": [
+   "מחיר גבוה",
+   "ביטוח וטיפולים יקרים יחסית",
+   "צריכה בפועל נמוכה מהמוצהר"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/MINI/Countryman (2026-10-20)",
+  "bands": {
+   "7000": {
+    "fuel": 307,
+    "insurance": 662,
+    "maintenance": 264,
+    "depreciation": 2275,
+    "total": 3629
+   },
+   "15000": {
+    "fuel": 657,
+    "insurance": 662,
+    "maintenance": 300,
+    "depreciation": 2275,
+    "total": 4015
+   },
+   "25000": {
+    "fuel": 1095,
+    "insurance": 662,
+    "maintenance": 336,
+    "depreciation": 2275,
+    "total": 4489
    }
   }
  },

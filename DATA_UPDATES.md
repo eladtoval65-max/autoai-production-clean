@@ -124,3 +124,32 @@ Skipped / needs review:
 - Santa Fe and T-Roc kept out of the catalog: model page entry price contradicts itself (Santa Fe ₪319,990 vs ₪329,990); T-Roc missing from the brand page. Elroq and Dolphin Surf kept out: no consumption figure on the model page.
 - Not added: Mercedes CLA, Audi A6 (engine/generation data incomplete on Wikipedia), BYD Sealion 05 / Seal 05 DM-i (combined hp not confirmed), MG EHS (fold into HS?), Suzuki Fronx (not on price list).
 - Power shown as "—" where Wikipedia gave no figure (Prius XW50, Celerio, Ceed, Rio UB, 308 T9/P5, T-Roc gen 2, Tayron).
+
+## 2026-10-20 (catalog expansion 3)
+16 new makes, 45 models added to `generations.ts` (193 → 238 models, 30 → 46 makes). List prices = ranges on the carzone.co.il brand pages (model year 2026) unless noted; powertrain/power from the carzone model pages; generations and years from English Wikipedia model pages; Euro NCAP only where a euroncap.com page or the carzone model page states the stars for that generation, otherwise null. Consumption is a typical real-world estimate (road-test figure quoted on the carzone page where there is one).
+- Geely Starray EM-i ₪169,990–181,990 — https://www.carzone.co.il/Geely ; NCAP 5★ 2025 euroncap.com; https://en.wikipedia.org/wiki/Geely_Galaxy_Starship_7
+- Zeekr X ₪169,990–186,990, 7GT ₪191,990–269,990, 7X ₪233,990–289,990, 001 ₪289,990–349,990 — https://www.carzone.co.il/ZEEKR/ (cartube https://www.cartube.co.il/מחירון-רכב-חדש/זיקר lists the 001 at ₪283,990–344,990); NCAP from euroncap.com (X 2024, 7X 2025, 001 2024, 7GT July 2026); Wikipedia Zeekr_X, Zeekr_007, Zeekr_7X, Zeekr_001
+- Lynk & Co 02 ₪159,900–169,900 (cartube: ₪171,900–179,900), 01 EM-P ₪179,900–198,900, 08 ₪229,900–249,900 — https://www.carzone.co.il/lynkco ; NCAP 02/08 5★ 2025 euroncap.com; 01 EM-P left null (tested car was the HEV)
+- ORA 05 ₪139,990–148,990, 03 Funky Cat ₪154,422, 07 ₪226,900 — https://www.carzone.co.il/Ora ; Wikipedia Ora_5, Ora_Good_Cat, Ora_Lightning_Cat
+- XPENG P7+ ₪199,990, G6 ₪204,990–247,990, P7 (P7i) ₪214,990–281,990, G9 ₪259,990–372,990 — https://www.carzone.co.il/xpeng ; Wikipedia XPeng_P7%2B, XPeng_G6, XPeng_P7, XPeng_G9; G9 NCAP left null (stars not stated on the opened page)
+- Leapmotor T03 ₪92,900, B10 ₪139,900–149,900 (REEV ₪154,900–164,900), C10 ₪164,900–199,900 (REEV ₪174,900–184,900) — https://www.carzone.co.il/leapmotor ; NCAP B10 2025 / C10 2024 euroncap.com
+- Polestar 2 ₪244,900–324,900 — https://www.cartube.co.il/מחירון-רכב-חדש/פולסטאר (carzone shows only 2024); NCAP 5★ 2021 euroncap.com; https://en.wikipedia.org/wiki/Polestar_2
+- Smart #1 ₪196,990–252,990, #3 ₪211,990–267,990, #5 ₪259,990–299,990 — https://www.carzone.co.il/Smart ; NCAP per carzone model pages
+- Genesis GV60 ₪299,990–599,990, GV70 ₪359,990–459,990 (Electrified ₪549,900–609,900 in note), G80 ₪399,990–499,000, GV80 ₪489,990–645,990 — https://www.carzone.co.il/Genesis/ ; Wikipedia Genesis_GV60/GV70/G80/GV80
+- MINI Cooper (Hatch) ₪221,900–301,900, Countryman ₪273,000–339,000, Aceman ₪259,900 — https://www.carzone.co.il/MINI ; https://en.wikipedia.org/wiki/Mini_Hatch, Mini_Countryman, Mini_Aceman
+- Jeep Avenger ₪164,900–174,900, Compass ₪209,900–224,900, Wrangler ₪349,900–429,900, Grand Cherokee ₪414,900 (model page header shows ₪429,900) — https://www.carzone.co.il/Jeep ; Wikipedia Jeep_Compass, Jeep_Wrangler_(JK), Jeep_Wrangler_(JL), Jeep_Grand_Cherokee_(WK2); Wrangler NCAP left null (carzone page contradicts itself)
+- Fiat Grande Panda ₪119,000–126,000, Doblò ₪169,990–179,990 — https://www.carzone.co.il/Fiat ; https://en.wikipedia.org/wiki/Fiat_Dobl%C3%B2
+- KGM Tivoli ₪139,900, Torres ₪169,900–189,900, Rexton ₪219,900–299,900 — https://www.carzone.co.il/KGM ; Wikipedia SsangYong_Tivoli, KGM_Torres, SsangYong_Rexton
+- Isuzu D-Max ₪259,990–312,990 — https://www.carzone.co.il/Isuzu/ ; https://en.wikipedia.org/wiki/Isuzu_D-Max
+- Land Rover Range Rover Evoque ₪389,000, Discovery Sport ₪437,900, Defender ₪495,000–1,150,000 (110; 90 and 130 in note) — https://www.carzone.co.il/Land-Rover ; Wikipedia Range_Rover_Evoque, Land_Rover_Discovery_Sport, Land_Rover_Defender_(L663)
+- Porsche Macan ₪587,000–877,000 (only the Electric is listed), Cayenne ₪787,000–1,507,000 — https://www.carzone.co.il/Porsche ; https://en.wikipedia.org/wiki/Porsche_Macan, Porsche_Cayenne; Cayenne NCAP left null (2025 result is the Cayenne Electric)
+- Alfa Romeo Junior ₪174,900–202,900 — https://www.carzone.co.il/Alfa-Romeo ; https://en.wikipedia.org/wiki/Alfa_Romeo_Junior_(2024)
+
+Catalog batch 14 (6 models; list price, powertrain and road-test consumption from the model pages; running costs are estimates, dataConfidence 58–60): ORA 05 (carzone.co.il/Ora/05/), XPENG P7+ (/XPENG/P7-Plus), KGM Tivoli (/KGM/Tivoli), Jeep Compass (/Jeep/Compass), Alfa Romeo Junior (/Alfa-Romeo/Junior), MINI Countryman (/MINI/Countryman).
+
+Skipped / not added:
+- Haval, Tank: not sold in Israel (no current carzone listing; https://www.carzone.co.il/Great-Wall shows 2010–2014 only; auto.co.il guide says ORA is the only GWM brand marketed).
+- Xpeng X9 (₪399,990): model page failed to open, specs unverified.
+- Skywell, Dongfeng, Voyah, and DS (brand page https://www.carzone.co.il/DS-Automobiles read today): not added because of this run's 45-model limit (Nissan, Ford, Renault, Dacia, Honda, Subaru, Lexus, Volvo, Citroën and Opel were added by the earlier expansion run today) — queued in COVERAGE.md for the next run.
+- Failed URLs: carzone.co.il/leapmotor/2024/, carzone.co.il/XPENG/X9 model page, carzone.co.il/DS (/DS-Automobiles worked), cdn.euroncap.com Zeekr result pages.
+- No used-car prices were added.
