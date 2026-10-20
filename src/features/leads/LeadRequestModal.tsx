@@ -7,6 +7,7 @@ import { useState, type FormEvent } from "react";
 import { Check, X } from "lucide-react";
 import { Link } from "wouter";
 import { getUtm, sendEvent } from "../../shared/analytics";
+import { trackPixel } from "../../shared/cookieConsent";
 
 import type { LeadType as RequestType } from "@shared/leadPolicy";
 type Timeline = "now" | "three_months" | "later" | "unsure";
@@ -64,6 +65,7 @@ export default function LeadRequestModal({
         landingSlug,
       });
       sendEvent("lead_submit", landingSlug ? `go:${landingSlug}` : "home", false);
+      trackPixel("Lead"); // no personal data; no-op without cookie consent
       setReceivedId(saved.id);
     } catch {
       // The server's safe, user-facing message is displayed below.

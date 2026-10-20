@@ -23,6 +23,7 @@ src/
     i18n.tsx              he/en dictionary, LangProvider, shekel()
     analytics.ts          anonymous funnel events + UTM capture (no personal data)
     vehicleImages.ts      car photos (Wikipedia lead image → Commons fallback)
+    cookieConsent.ts      ad-cookie consent + Meta Pixel (loads only after "אישור"; VITE_META_PIXEL_ID)
     siteInfo.ts           operator name / id / contact from VITE_OPERATOR_* env (shown on the legal pages)
     format.ts, styles.ts  pure formatters; Tailwind class recipes (card, btnPrimary…)
     ui/                   Stars, Score, MonthlyTag, Money, CodeChip, CarPhoto, SaveBtn, Slider, BrandMark…
@@ -38,6 +39,7 @@ src/
     landing/              "/go/:slug" owner-edited campaign pages
     leads/                LeadRequestModal (consented lead form, shared by home and landing) + CollectionNotice
     legal/                /privacy, /terms, /accessibility, /about (methodology) on a shared LegalPage layout
+    sell/                 /sell + /sell/card: seller tools (monthly-cost card for their ad; uses browse/model/usedCost). Not a listings board.
   tests/                  vitest unit tests for model/ functions (npm test)
 
 server/admin/             /api/admin internals: auth (session cookie), http helpers, constants, router (action table),

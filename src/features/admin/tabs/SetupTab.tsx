@@ -1,6 +1,7 @@
 import { Check, X } from "lucide-react";
 import { useState } from "react";
 import { SITE, operatorComplete } from "../../../shared/siteInfo";
+import { PIXEL_ID } from "../../../shared/cookieConsent";
 import { card } from "../../../shared/styles";
 import { adminApi, errorText } from "../api";
 import { btnGo } from "../styles";
@@ -16,6 +17,7 @@ const checksFor = (s: SetupStatus): [boolean, string, string][] => [
   [s.chatKey, "מפתח לצ׳אט", "להוסיף ANTHROPIC_API_KEY ב-Vercel."],
   // Shown in the privacy/terms/accessibility pages; partners and the law expect a named operator.
   [operatorComplete, "פרטי מפעיל באתר", `להוסיף ב-Vercel: ${[!SITE.operatorName && "VITE_OPERATOR_NAME", !SITE.contactEmail && "VITE_CONTACT_EMAIL"].filter(Boolean).join(", ")} ולבצע Redeploy.`],
+  [Boolean(PIXEL_ID), "מעקב פרסום פייסבוק (לפני קמפיין ממומן)", "ליצור Pixel ב-Meta Events Manager ולהוסיף את המספר שלו כ-VITE_META_PIXEL_ID ב-Vercel."],
   [Boolean(s.siteUrl), "כתובת האתר למנועי חיפוש", "להוסיף SITE_URL (למשל https://camaola.co.il) כדי ש-sitemap.xml ייווצר בבנייה."],
 ];
 

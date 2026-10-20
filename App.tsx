@@ -13,6 +13,7 @@ import AccessibilityPage from "./src/features/legal/AccessibilityPage";
 import AboutPage from "./src/features/legal/AboutPage";
 import SellPage from "./src/features/sell/SellPage";
 import SellCardPage from "./src/features/sell/SellCardPage";
+import { CookieBanner } from "./src/shared/ui/CookieBanner";
 import LandingPage from "./src/features/landing/LandingPage";
 import BrowsePage from "./src/features/browse/BrowsePage";
 function Router() {
@@ -46,6 +47,7 @@ export default function App() {
           <TooltipProvider>
             <Toaster position="top-center" toastOptions={{ style: { borderRadius: 999, background: "#0e1b2c", color: "#ffffff", border: "none", fontFamily: "Assistant, sans-serif", fontSize: 15 } }} />
             <Router />
+            <CookieBanner />
           </TooltipProvider>
         </LangProvider>
       </ThemeProvider>
