@@ -150,3 +150,11 @@ describe("weekly report", () => {
     expect(html).not.toMatch(/05\d{8}/);
   });
 });
+
+import { problemsOf } from "../../server/report/healthModel";
+
+describe("health check", () => {
+  it("reports only failures, with details", () => {
+    expect(problemsOf([{ name: "א", ok: true }, { name: "עמוד /cars", ok: false, detail: "קוד 500" }, { name: "ב", ok: false }])).toEqual(["עמוד /cars — קוד 500", "ב"]);
+  });
+});

@@ -29,6 +29,7 @@ const functions = [
   { name: "event", entry: "api/event.ts", maxDuration: 10, helpers: true },
   { name: "landing", entry: "api/landing.ts", maxDuration: 10, helpers: true },
   { name: "report", entry: "api/report.ts", maxDuration: 30, helpers: true },
+  { name: "health", entry: "api/health.ts", maxDuration: 60, helpers: true },
   { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 30, helpers: false },
 ];
 
@@ -63,7 +64,8 @@ fs.writeFileSync(
       // Per-page HTML (own title/description for Google and link previews), see scripts/build-seo.mjs.
       overrides: seo.overrides,
       // Weekly owner email: Sundays 06:00 UTC (09:00 Israel summer time / 08:00 winter).
-      crons: [{ path: "/api/report", schedule: "0 6 * * 0" }],
+      // Daily self-check: 05:20 UTC; emails the owner only when something is broken.
+      crons: [{ path: "/api/report", schedule: "0 6 * * 0" }, { path: "/api/health", schedule: "20 5 * * *" }],
       routes: [
         { src: "^/api/chat/?$", dest: "/api/chat" },
         { src: "^/api/plate/?$", dest: "/api/plate" },
@@ -71,6 +73,7 @@ fs.writeFileSync(
         { src: "^/api/event/?$", dest: "/api/event" },
         { src: "^/api/landing/?$", dest: "/api/landing" },
         { src: "^/api/report/?$", dest: "/api/report" },
+        { src: "^/api/health/?$", dest: "/api/health" },
         { src: "^/api/((?:trpc|oauth)(?:/.*)?)$", dest: "/api/trpc?__p=$1" },
         { src: "^/api(/.*)?$", status: 404 },
         { src: "^/assets/[^/]+-[A-Za-z0-9_-]{8}\\.(?:js|css)$", headers: { "cache-control": "public, max-age=31536000, immutable" }, continue: true },
