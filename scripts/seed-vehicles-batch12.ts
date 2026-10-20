@@ -43,7 +43,7 @@ const newCars = [
     makeSlug: "honda", model: "HR-V", modelSlug: "hr-v",
     bodyType: "suv", seats: 5, cargoLiters: 335, fuelType: "hybrid", yearFrom: 2026, yearTo: 2026,
     powerHp: 131, combinedConsumption: 5.4, trimName: "Elegance 1.5 e:HEV",
-    newPrice: 184900, priceMin: 174000, priceMedian: 184900, priceMax: 199900,
+    newPrice: 184900, priceMin: 174000, priceMedian: 184900, priceMax: 224900,
     reliabilityScore: 88, safetyScore: 80, economyScore: 88, comfortScore: 76, practicalityScore: 74,
     ownershipNotes: "קרוסאובר היברידי (1.5 e:HEV). במבחן הדרך של carzone הצריכה תאמה את המוצהר, כ-18.5 ק\"מ לליטר. 4 כוכבי Euro NCAP (2022).",
     pros: ["חסכוני מאוד גם בפועל", "היברידי מלא בלי טעינה", "מוניטין אמינות של הונדה"],

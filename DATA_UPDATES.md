@@ -153,3 +153,117 @@ Skipped / not added:
 - Skywell, Dongfeng, Voyah, and DS (brand page https://www.carzone.co.il/DS-Automobiles read today): not added because of this run's 45-model limit (Nissan, Ford, Renault, Dacia, Honda, Subaru, Lexus, Volvo, Citroën and Opel were added by the earlier expansion run today) — queued in COVERAGE.md for the next run.
 - Failed URLs: carzone.co.il/leapmotor/2024/, carzone.co.il/XPENG/X9 model page, carzone.co.il/DS (/DS-Automobiles worked), cdn.euroncap.com Zeekr result pages.
 - No used-car prices were added.
+
+## 2026-10-20 (catalog expansion, second pass: re-check and fill gaps)
+Re-checked the first pass and filled what was missing: 1 make (DS) and 23 models added, no new catalog cars. After merging with the parallel expansion runs 2 and 3, the site has 47 makes, 261 models and 46 catalog cars.
+
+Euro NCAP stars confirmed in Euro NCAP's own text: page titles "… – N stars" or press releases on news.euroncap.com / euroncap.newsmarket.com / euroncap.com.
+- Renault Clio V: 5★ (2019).
+- Nissan:
+  - Qashqai J11: 5★ (2014). Named among "2014's five star cars" in the Best in Class 2014 release.
+  - Qashqai J12: 5★ (2021), 4★ in the 2025 re-rating. The site keeps 4★ and the note.
+  - Juke F15: 5★ (2011).
+  - X-Trail T32: 5★ (2014).
+- Ford:
+  - Focus Mk3: 5★ (2011).
+  - Kuga gen 2: 5★ (2012).
+  - Kuga gen 3: 5★ (2019).
+  - Explorer U625: 5★ (2019).
+  - Ranger P703: 5★ (2022).
+  - Mustang S550: 3★ (2017), after a 2★ first result.
+- Opel:
+  - Corsa F: 4★ (2019).
+  - Astra L: 4★ (2022).
+  - Mokka B: 4★ (2021).
+  - Grandland X: 5★ (2017).
+- Volvo:
+  - XC90 gen 2: 5★ (2015). Inferred from the 2015 release: 7 of 9 cars got five stars and the two four-star cars are named, so the page never states the XC90's stars directly. Weaker than a direct statement.
+  - EX30: 5★ (2024).
+  - EX40: 5★, keeps the XC40's 2018 rating.
+  - EX90: 5★ (2025).
+- Citroën:
+  - C4 C41: 4★ (2021).
+  - C5 Aircross gen 1: 4★ standard, 5★ with the safety pack (2019).
+  - Berlingo K9: 4★ (2018).
+- Honda:
+  - Civic 10th gen: 5★ (2017), after 4★ in July 2017.
+  - HR-V gen 2: 5★ (2015).
+  - ZR-V: 4★ (2023).
+- Subaru XV gen 2: 5★ (2017).
+- Lexus:
+  - UX: 5★ (2019).
+  - LBX: 5★ (2024).
+  - RZ: 5★ (2023).
+  - ES 7th gen: 5★ (2018).
+  - NX gen 1: 5★ (2014).
+- Renault 5 E-Tech: 4★ (2024).
+- Renault Symbioz: 4★ (2024).
+- Dacia:
+  - Bigster: 3★ (2024).
+  - Logan III: 2★ (2021).
+- DS:
+  - DS 3 Crossback: 4★ standard, 5★ with the safety pack (2019).
+  - DS 7: 5★ (2017).
+
+Still unconfirmed, left null: Citroën C3 gen 3 and gen 4, Opel Astra K, Renault Megane IV, Subaru Outback BS, Opel Frontera, Citroën C3 Aircross gen 2, Nissan Sentra (no Euro NCAP test).
+
+Corrections from re-reading the price lists:
+- Dacia Duster:
+  - Price ₪149,990–170,990 → ₪139,990–170,990. The 1.2T entry trim is on cartube (https://www.cartube.co.il/מחירון-רכב-חדש/161-make/161-דאצ-יה-דאסטר) and on carzone's model page.
+  - The 1.8 hybrid's power still differs between the sites: carzone 140 hp, cartube 155 hp.
+- Renault Arkana:
+  - Price ₪163,990–180,990 → ₪161,990–180,990.
+  - Power "—" → 143–158 hp (1.3T 158 hp, 1.6 hybrid 143 hp). Source: https://www.cartube.co.il/מחירון-רכב-חדש/73-רנו/466-רנו-ארקנה/compare
+- Opel Corsa:
+  - Price ₪126,990–129,990 → ₪126,990–134,990. carzone lists a GS Line at ₪134,990; cartube tops out at ₪129,990. Noted on the model.
+  - Edition trim is 100 hp; the GS Line MHEV is 145 hp per cartube and 136 hp per carzone.
+- Honda HR-V:
+  - Price ₪184,900–199,900 → ₪184,900–224,900. carzone's model page lists an Advance Style trim at ₪224,900; cartube does not show it. Noted on the model.
+  - The catalog priceMax was updated to match.
+- Subaru Outback: price ₪279,990 → ₪279,900–279,990 (carzone brand page ₪279,900, cartube ₪279,990).
+- carzone.co.il/Honda and carzone.co.il/Subaru opened on this pass and match the other figures.
+- Volvo XC40 B4: cartube and carzone both list it as a 2.0 turbo petrol, 197 hp. The model page's review text mentions an electric motor, but no 48V system is confirmed.
+- Power figures that were "—":
+  - Nissan X-Trail T32: 130–177 PS, from autonotizen.de and mobile.de (Wikipedia has no figures).
+  - Nissan X-Trail T33: 163–213 PS, from cartube and wapcar.my.
+  - Opel Astra J: 87–280 PS, from Wikipedia and cars-data.com.
+  - Subaru Outback BR: 150–260 PS, from Wikipedia "Subaru Legacy (fifth generation)".
+  - The X-Trail and Astra J sources are not Wikipedia; they were opened today.
+
+Models added (23):
+- Nissan, prices from cartube:
+  - Sentra ₪154,990–156,990, 2.0 149 hp.
+  - Leaf (discontinued).
+  - Note (discontinued).
+  - Wikipedia: Nissan_Sentra, Nissan_Leaf, Nissan_Note.
+- Ford, prices from cartube Ford model pages (/394, /398, /395, /400):
+  - Explorer ₪369,900–429,900.
+  - Ranger ₪294,000–490,000.
+  - Bronco ₪399,900–629,000.
+  - Mustang ₪445,000–505,000.
+  - Wikipedia: Ford_Explorer, Ford_Ranger_(T6), Ford_Ranger_(P703), Ford_Bronco, Ford_Mustang_(fifth|sixth|seventh_generation).
+- Renault, prices from carzone:
+  - 5 E-Tech ₪168,999–176,990. ₪168,999 is carzone's published figure, also in its news headline.
+  - Symbioz ₪159,990–166,990.
+- Dacia:
+  - Bigster ₪167,990–190,990 (carzone and cartube).
+  - Logan ₪127,990 (carzone /Dacia/Logan/2026).
+- Honda ZR-V ₪209,900–234,900 (carzone).
+- Subaru BRZ ₪229,900–259,900. The carzone model page lists a TS MT at ₪259,900, above its brand-page ₪249,900.
+- Lexus, prices from carzone:
+  - LBX ₪205,990–246,990.
+  - RZ ₪299,990–439,990.
+- Volvo, prices from carzone:
+  - EX90 ₪739,900–754,900.
+  - ES90 ₪399,900–539,900.
+- Opel, from carzone:
+  - Frontera ₪144,990–156,990.
+  - Crossland (discontinued).
+- Citroën C3 Aircross ₪129,990–139,990 (carzone).
+- New make DS, prices from https://www.carzone.co.il/DS-Automobiles:
+  - DS 3 ₪218,990.
+  - DS 7 ₪344,990.
+  - DS 4 (no longer marketed, per carzone and cmotors.co.il).
+- Missing generations:
+  - Honda Civic 8th gen (2010–2011). Source: Wikipedia "Honda Civic (eighth generation)".
+  - Honda CR-V 3rd gen (2010–2011). Source: Wikipedia "Honda CR-V (third generation)".

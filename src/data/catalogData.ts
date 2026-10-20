@@ -1864,7 +1864,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": 5.4,
   "price": 184900,
   "priceMin": 174000,
-  "priceMax": 199900,
+  "priceMax": 224900,
   "sampleSize": null,
   "newPrice": 184900,
   "reliability": 88,

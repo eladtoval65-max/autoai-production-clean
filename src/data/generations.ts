@@ -702,33 +702,47 @@ export const MAKES: Make[] = [
   { id: "nissan", name: "Nissan", he: "ניסאן", models: [
     { id: "qashqai", make: "nissan", model: "Qashqai", he: "קשקאי", body: "suv", segment: "mass", price: [178990, 231990], status: "on_sale", gens: [
       T("J10", 2010, 2013, "2.0 בנזין / 1.6 dCi דיזל", "131–140", ["petrol", "diesel"], 8.5, null, undefined, [C.history, C.inspect, C.cvt]),
-      T("J11", 2014, 2021, "1.2 / 1.3 / 1.6 DIG-T טורבו, 1.5 / 1.6 dCi דיזל", "110–163", ["petrol", "diesel"], 7.2, null, undefined, [C.history, C.inspect, "1.2 DIG-T (2012–2016): צריכת שמן מוגברת; לבדוק רישום הוספות שמן", "בגרסה עם CVT: " + C.cvt, "דיזל בנסיעות קצרות: לבדוק מסנן חלקיקים (DPF) ו-EGR"]),
-      T("J12", 2021, null, "1.3 טורבו מיילד-היברידי / 1.5 e-Power", "140–190", ["petrol", "hybrid"], 6.4, 4, 2025, [C.history, C.recalls, "בגרסת e-Power: " + C.hyHybrid]),
+      T("J11", 2014, 2021, "1.2 / 1.3 / 1.6 DIG-T טורבו, 1.5 / 1.6 dCi דיזל", "110–163", ["petrol", "diesel"], 7.2, 5, 2014, [C.history, C.inspect, "1.2 DIG-T (2012–2016): צריכת שמן מוגברת; לבדוק רישום הוספות שמן", "בגרסה עם CVT: " + C.cvt, "דיזל בנסיעות קצרות: לבדוק מסנן חלקיקים (DPF) ו-EGR"]),
+      T("J12", 2021, null, "1.3 טורבו מיילד-היברידי / 1.5 e-Power", "140–190", ["petrol", "hybrid"], 6.4, 4, 2025, [C.history, C.recalls, "בגרסת e-Power: " + C.hyHybrid], "ב-2021 קיבל 5 כוכבים; בבדיקה החוזרת (2025) 4 כוכבים"),
     ]},
     { id: "juke", make: "nissan", model: "Juke", he: "ג'וק", body: "suv", segment: "mass", price: [146990, 165990], status: "on_sale", gens: [
-      T("F15", 2011, 2019, "1.6 בנזין / 1.6 DIG-T טורבו", "94–190", ["petrol"], 7.8, null, undefined, [C.history, C.inspect, C.cvt]),
+      T("F15", 2011, 2019, "1.6 בנזין / 1.6 DIG-T טורבו", "94–190", ["petrol"], 7.8, 5, 2011, [C.history, C.inspect, C.cvt]),
       T("F16", 2020, null, "1.0 DIG-T טורבו / 1.6 היברידי (מ-2022)", "114–143", ["petrol", "hybrid"], 6.2, 5, 2019, [C.history, C.recalls, "בגרסת 1.0 טורבו: " + C.dct]),
     ]},
     { id: "x-trail", make: "nissan", model: "X-Trail", he: "אקס-טרייל", body: "suv7", segment: "mass", price: [209990, 239990], status: "on_sale", gens: [
       T("T31", 2010, 2014, "2.0 / 2.5 בנזין, 2.0 dCi דיזל", "150–177 (דיזל)", ["petrol", "diesel"], 9.5, null, undefined, [C.history, C.inspect, C.cvt]),
-      T("T32", 2014, 2022, "1.6 dCi דיזל (אירופה); בנזין בשווקים אחרים", "—", ["diesel", "petrol"], 7.8, null, undefined, [C.history, C.inspect, C.cvt]),
-      T("T33", 2022, null, "1.5 VC-Turbo מיילד-היברידי / e-Power", "—", ["petrol", "hybrid"], 7.4, 5, 2021, [C.history, C.recalls, "בגרסת e-Power: " + C.hyHybrid]),
+      T("T32", 2014, 2022, "1.6 / 1.3 DIG-T בנזין, 1.6 / 1.7 / 2.0 dCi דיזל", "130–177", ["petrol", "diesel"], 7.8, 5, 2014, [C.history, C.inspect, C.cvt]),
+      T("T33", 2022, null, "1.5 VC-Turbo מיילד-היברידי / e-Power", "163–213", ["petrol", "hybrid"], 7.4, 5, 2021, [C.history, C.recalls, "בגרסת e-Power: " + C.hyHybrid]),
     ]},
     { id: "micra", make: "nissan", model: "Micra", he: "מיקרה", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("K13", 2011, 2017, "1.2 בנזין / 1.2 DIG-S", "80–98", ["petrol"], 6.3, 4, 2010, [C.history, C.inspect, "בגרסה עם CVT: " + C.cvt]),
       T("K14", 2017, 2025, "1.0 / 0.9 טורבו בנזין, 1.5 dCi", "71–101", ["petrol", "diesel"], 6.0, 4, 2017, [C.history, C.inspect], "4 כוכבים בסיסי, 5 עם חבילת בטיחות; הדור החשמלי (2025) לא במחירון בישראל"),
     ]},
+    { id: "sentra", make: "nissan", model: "Sentra", he: "סנטרה", body: "sedan", segment: "mass", price: [154990, 156990], status: "on_sale", gens: [
+      T("B17", 2013, 2019, "1.8 בנזין / 1.6 טורבו", "130–188", ["petrol"], 7.5, null, undefined, [C.history, C.inspect, C.cvt]),
+      T("B18", 2020, 2025, "2.0 בנזין, CVT", "149", ["petrol"], 7.2, null, undefined, [C.history, C.cvt, C.recalls]),
+      T("B19", 2025, null, "2.0 בנזין, CVT", "149", ["petrol"], 7.0, null, undefined, [C.cvt, C.recalls], "לא נבחן ב-Euro NCAP"),
+    ]},
+    { id: "leaf", make: "nissan", model: "Leaf", he: "ליף", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("ZE0/AZE0", 2011, 2017, "חשמלי, סוללה 24 / 30 קוט\"ש", "110", ["ev"], 17.0, null, undefined, [C.ev, "סוללה בקירור אוויר פסיבי: לבדוק אובדן קיבולת, במיוחד אחרי טעינות מהירות רבות או חום"]),
+      T("ZE1", 2018, 2024, "חשמלי, סוללה 40 / 62 קוט\"ש", "147–214", ["ev"], 17.0, null, undefined, [C.ev, "סוללה בקירור אוויר פסיבי: לבדוק אובדן קיבולת, במיוחד אחרי טעינות מהירות רבות או חום"]),
+      T("Gen3", 2025, null, "חשמלי, סוללה 52 / 75 קוט\"ש", "174–214", ["ev"], 16.0, null, undefined, [C.ev], "לא במחירון היבואן בישראל"),
+    ]},
+    { id: "note", make: "nissan", model: "Note", he: "נוט", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("E11", 2010, 2013, "1.4 / 1.6 בנזין, 1.5 dCi", "88–110", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect]),
+      T("E12", 2013, 2017, "1.2 / 1.2 DIG-S בנזין, 1.5 dCi", "80–98", ["petrol", "diesel"], 6.0, null, undefined, [C.history, C.inspect, "בגרסה עם CVT: " + C.cvt], "באירופה הוחלף במיקרה K14"),
+    ]},
   ]},
 
   { id: "ford", name: "Ford", he: "פורד", models: [
     { id: "focus", make: "ford", model: "Focus", he: "פוקוס", body: "wagon", segment: "mass", price: [165900, 165900], status: "on_sale", gens: [
-      T("Mk3 (C346)", 2011, 2018, "1.0 / 1.5 / 1.6 EcoBoost, 1.6 בנזין, 1.5 / 1.6 TDCi", "85–250", ["petrol", "diesel"], 7.4, null, undefined, [C.history, C.inspect, "תיבת PowerShift כפולת מצמד: לבדוק רעידות בזחילה ובהתחלת נסיעה", "מנוע 1.0 EcoBoost: רצועת תזמון טבולה בשמן; לוודא החלפה לפי תוכנית היצרן", "1.6 EcoBoost: קריאת שירות (2017) על קירור לקוי וסכנת שריפה, לוודא ביצוע"]),
+      T("Mk3 (C346)", 2011, 2018, "1.0 / 1.5 / 1.6 EcoBoost, 1.6 בנזין, 1.5 / 1.6 TDCi", "85–250", ["petrol", "diesel"], 7.4, 5, 2011, [C.history, C.inspect, "תיבת PowerShift כפולת מצמד: לבדוק רעידות בזחילה ובהתחלת נסיעה", "מנוע 1.0 EcoBoost: רצועת תזמון טבולה בשמן; לוודא החלפה לפי תוכנית היצרן", "1.6 EcoBoost: קריאת שירות (2017) על קירור לקוי וסכנת שריפה, לוודא ביצוע"]),
       T("Mk4 (C519)", 2019, null, "1.0 EcoBoost (גם מיילד-היברידי) / 1.5 EcoBoost, 1.5 EcoBlue דיזל", "100–182", ["petrol", "hybrid", "diesel"], 6.9, 5, 2019, [C.history, C.recalls, "מנוע 1.0 EcoBoost: רצועת תזמון טבולה בשמן; לוודא החלפה לפי תוכנית היצרן", "בגרסה עם תיבה כפולת מצמד: " + C.dct], "הייצור הופסק בנובמבר 2025; בישראל משווקת גרסת הסטיישן בלבד"),
     ]},
     { id: "kuga", make: "ford", model: "Kuga", he: "קוגה", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2010, 2012, "2.0 TDCi דיזל", "136–163", ["diesel"], 8.5, null, undefined, [C.history, C.inspect]),
-      T("Gen2", 2013, 2019, "1.5 / 1.6 / 2.0 EcoBoost, 2.0 TDCi", "140–242", ["petrol", "diesel"], 9.0, null, undefined, [C.history, C.inspect, "1.6 EcoBoost (2012–2014): קריאת שירות על התחממות וסכנת שריפה, לוודא ביצוע"]),
-      T("Gen3", 2020, null, "1.5 EcoBoost, 2.5 היברידי / פלאג-אין, דיזל", "120–240", ["petrol", "hybrid", "phev", "diesel"], 6.5, null, undefined, [C.history, C.recalls, "בפלאג-אין: לוודא החלפת סוללה במסגרת קריאת השירות של 2020"]),
+      T("Gen2", 2013, 2019, "1.5 / 1.6 / 2.0 EcoBoost, 2.0 TDCi", "140–242", ["petrol", "diesel"], 9.0, 5, 2012, [C.history, C.inspect, "1.6 EcoBoost (2012–2014): קריאת שירות על התחממות וסכנת שריפה, לוודא ביצוע"]),
+      T("Gen3", 2020, null, "1.5 EcoBoost, 2.5 היברידי / פלאג-אין, דיזל", "120–240", ["petrol", "hybrid", "phev", "diesel"], 6.5, 5, 2019, [C.history, C.recalls, "בפלאג-אין: לוודא החלפת סוללה במסגרת קריאת השירות של 2020"]),
     ]},
     { id: "puma", make: "ford", model: "Puma", he: "פומה", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2020, null, "1.0 EcoBoost מיילד-היברידי", "125–155", ["hybrid", "petrol"], 6.3, 5, 2019, [C.history, "מנוע 1.0 EcoBoost: רצועת תזמון טבולה בשמן; לוודא החלפה לפי תוכנית היצרן", "בגרסה עם תיבה כפולת מצמד: " + C.dct], "Euro NCAP בדק שוב ב-2022: 4 כוכבים"),
@@ -737,13 +751,29 @@ export const MAKES: Make[] = [
       T("Mk6", 2010, 2017, "1.25 / 1.4 / 1.6 בנזין, 1.0 EcoBoost, דיזל", "60–200", ["petrol", "diesel"], 6.5, 5, 2012, [C.history, C.inspect, "תיבת PowerShift כפולת מצמד: לבדוק רעידות בזחילה ובהתחלת נסיעה", "מנוע 1.0 EcoBoost: רצועת תזמון טבולה בשמן; לוודא החלפה לפי תוכנית היצרן"]),
       T("Mk7", 2017, 2023, "1.1 בנזין / 1.0 EcoBoost (גם מיילד-היברידי), 1.5 TDCi", "70–200", ["petrol", "hybrid", "diesel"], 6.0, 5, 2017, [C.history, "מנוע 1.0 EcoBoost: רצועת תזמון טבולה בשמן; לוודא החלפה לפי תוכנית היצרן"], "הייצור הופסק ביולי 2023"),
     ]},
+    { id: "explorer", make: "ford", model: "Explorer", he: "אקספלורר", body: "suv7", segment: "mass", price: [369900, 429900], status: "on_sale", gens: [
+      T("U502", 2011, 2019, "2.0 / 2.3 EcoBoost, 3.5 V6, 3.5 EcoBoost", "240–365", ["petrol"], 12.5, null, undefined, [C.history, C.inspect]),
+      T("U625", 2020, null, "2.3 / 3.0 EcoBoost, היברידי / פלאג-אין", "285–450", ["petrol", "hybrid", "phev"], 12.0, 5, 2019, [C.history, C.recalls], "בישראל 2.3 טורבו 300 כ\"ס או ST 400 כ\"ס; Explorer החשמלי (2024) הוא דגם אחר"),
+    ]},
+    { id: "ranger", make: "ford", model: "Ranger", he: "ריינג'ר", body: "pickup", segment: "mass", price: [294000, 490000], status: "on_sale", gens: [
+      T("T6 (PX)", 2012, 2022, "2.2 / 3.2 TDCi, 2.0 EcoBlue דיזל", "118–210", ["diesel"], 10.0, null, undefined, [C.history, C.inspect, "רכב עבודה: לבדוק בלאי ארגז, וו גרירה ותחתית"]),
+      T("P703", 2022, null, "2.0 EcoBlue דיזל, 3.0 V6 טורבו בנזין (Raptor), פלאג-אין", "170–292", ["diesel", "petrol", "phev"], 10.0, 5, 2022, [C.history, C.recalls, "רכב עבודה: לבדוק בלאי ארגז, וו גרירה ותחתית"], "בישראל: דיזל 2.0 170 כ\"ס, Raptor 292 כ\"ס"),
+    ]},
+    { id: "bronco", make: "ford", model: "Bronco", he: "ברונקו", body: "suv", segment: "mass", price: [399900, 629000], status: "on_sale", gens: [
+      T("U725", 2021, null, "2.3 / 2.7 / 3.0 EcoBoost", "300–400", ["petrol"], 13.0, null, undefined, [C.history, C.recalls, "שימוש בשטח: לבדוק תחתית, מתלים ומערכת 4X4"]),
+    ]},
+    { id: "mustang", make: "ford", model: "Mustang", he: "מוסטנג", body: "sedan", segment: "premium", price: [445000, 505000], status: "on_sale", gens: [
+      T("S197", 2010, 2014, "3.7 / 4.0 V6, 4.6 / 5.0 V8", "210–662", ["petrol"], 13.5, null, undefined, [C.history, C.inspect]),
+      T("S550", 2015, 2023, "2.3 EcoBoost, 5.0 V8", "305–760", ["petrol"], 12.0, 3, 2017, [C.history, C.inspect], "ב-2017 קיבל 2 כוכבים, ו-3 אחרי עדכון עם בלימת חירום"),
+      T("S650", 2024, null, "5.0 V8 (בישראל), 2.3 EcoBoost", "315–500", ["petrol"], 13.0, null, undefined, [C.recalls], "בישראל רק V8 480–486 כ\"ס"),
+    ]},
   ]},
 
   { id: "renault", name: "Renault", he: "רנו", models: [
     { id: "clio", make: "renault", model: "Clio", he: "קליאו", body: "city", segment: "mass", price: [124990, 126990], status: "on_sale", gens: [
       T("Clio III", 2010, 2014, "1.2 / 1.4 / 1.6 בנזין, 1.5 dCi", "68–135", ["petrol", "diesel"], 7.0, 5, 2005, [C.history, C.inspect]),
       T("Clio IV", 2012, 2019, "0.9 / 1.2 TCe טורבו, 1.2 16V, 1.5 dCi", "75–120", ["petrol", "diesel"], 6.4, 5, 2012, [C.history, C.inspect, "1.2 TCe (2012–2016): צריכת שמן מוגברת שעלולה לפגוע בשסתומים; לבדוק רישום הוספות שמן", "בגרסה עם תיבת EDC: " + C.dct]),
-      T("Clio V", 2019, null, "1.0 TCe טורבו / 1.6 E-Tech היברידי", "90–145", ["petrol", "hybrid"], 6.0, null, undefined, [C.history, C.recalls], "בישראל משווק דור 5 במתיחת פנים (1.0 טורבו, 90 כ\"ס); דור 6 הושק באירופה ב-2025"),
+      T("Clio V", 2019, null, "1.0 TCe טורבו / 1.6 E-Tech היברידי", "90–145", ["petrol", "hybrid"], 6.0, 5, 2019, [C.history, C.recalls], "בישראל משווק דור 5 במתיחת פנים (1.0 טורבו, 90 כ\"ס); דור 6 הושק באירופה ב-2025"),
     ]},
     { id: "captur", make: "renault", model: "Captur", he: "קפצ'ור", body: "suv", segment: "mass", price: [151990, 151990], status: "on_sale", gens: [
       T("J87", 2013, 2019, "0.9 / 1.2 TCe טורבו, 1.5 dCi", "90–118", ["petrol", "diesel"], 6.8, 5, 2013, [C.history, C.inspect, "1.2 TCe (2012–2016): צריכת שמן מוגברת שעלולה לפגוע בשסתומים; לבדוק רישום הוספות שמן", "בגרסה עם תיבת EDC: " + C.dct]),
@@ -753,19 +783,25 @@ export const MAKES: Make[] = [
       T("Megane III", 2010, 2016, "1.2 / 1.4 / 1.6 / 2.0 בנזין וטורבו, 1.5 dCi", "85–273", ["petrol", "diesel"], 7.2, null, undefined, [C.history, C.inspect, "1.2 TCe (2012–2016): צריכת שמן מוגברת שעלולה לפגוע בשסתומים; לבדוק רישום הוספות שמן", "בגרסה עם תיבת EDC: " + C.dct]),
       T("Megane IV", 2016, 2024, "1.2 / 1.3 TCe טורבו, 1.5 dCi, 1.6 E-Tech פלאג-אין", "89–280", ["petrol", "diesel", "phev"], 6.6, null, undefined, [C.history, C.inspect, "בגרסה עם תיבת EDC: " + C.dct], "ייצור ההאצ'בק הופסק באפריל 2024; לא במחירון היבואן"),
     ]},
-    { id: "arkana", make: "renault", model: "Arkana", he: "ארקנה", body: "suv", segment: "mass", price: [163990, 180990], status: "on_sale", gens: [
-      T("Gen1 (CMF-B)", 2021, null, "1.3 טורבו מיילד-היברידי / E-Tech היברידי", "—", ["petrol", "hybrid"], 6.5, 5, 2019, [C.history, C.recalls, "תיבת EDC: " + C.dct]),
+    { id: "arkana", make: "renault", model: "Arkana", he: "ארקנה", body: "suv", segment: "mass", price: [161990, 180990], status: "on_sale", gens: [
+      T("Gen1 (CMF-B)", 2021, null, "1.3 טורבו מיילד-היברידי / 1.6 E-Tech היברידי", "143–158", ["petrol", "hybrid"], 6.5, 5, 2019, [C.history, C.recalls, "תיבת EDC: " + C.dct]),
     ]},
     { id: "austral", make: "renault", model: "Austral", he: "אוסטרל", body: "suv", segment: "mass", price: [179990, 187990], status: "on_sale", gens: [
       T("HHN", 2023, null, "1.3 טורבו מיילד-היברידי / 1.2 E-Tech היברידי", "130–203", ["petrol", "hybrid"], 6.6, 5, 2022, [C.history, C.recalls]),
     ]},
+    { id: "renault-5", make: "renault", model: "5 E-Tech", he: "5 E-Tech", body: "city", segment: "mass", price: [168999, 176990], status: "on_sale", gens: [
+      T("R5E", 2024, null, "חשמלי, סוללה 40 / 52 קוט\"ש", "95–150", ["ev"], 15.0, 4, 2024, [C.ev, C.recalls]),
+    ]},
+    { id: "symbioz", make: "renault", model: "Symbioz", he: "סימביוז", body: "suv", segment: "mass", price: [159990, 166990], status: "on_sale", gens: [
+      T("Gen1", 2024, null, "1.6 / 1.8 E-Tech היברידי, 1.3 מיילד-היברידי", "140–170", ["hybrid", "petrol"], 5.6, 4, 2024, [C.hyHybrid, C.recalls], "בישראל 1.8 היברידי 160 כ\"ס; מבחן דרך ב-carzone: 16–18 ק\"מ לליטר"),
+    ]},
   ]},
 
   { id: "dacia", name: "Dacia", he: "דאצ'יה", models: [
-    { id: "duster", make: "dacia", model: "Duster", he: "דאסטר", body: "suv", segment: "mass", price: [149990, 170990], status: "on_sale", gens: [
+    { id: "duster", make: "dacia", model: "Duster", he: "דאסטר", body: "suv", segment: "mass", price: [139990, 170990], status: "on_sale", gens: [
       T("Gen1", 2010, 2017, "1.6 בנזין, 1.2 TCe, 1.5 dCi", "85–125", ["petrol", "diesel"], 8.0, 3, 2011, [C.history, C.inspect, "1.2 TCe (2012–2016): צריכת שמן מוגברת שעלולה לפגוע בשסתומים; לבדוק רישום הוספות שמן", "גרסת 4X4: לבדוק תחתית ומערכת ההנעה"]),
       T("Gen2", 2018, 2024, "1.0 / 1.3 TCe טורבו, 1.6 בנזין, 1.5 dCi", "90–150", ["petrol", "diesel"], 7.3, 3, 2017, [C.history, C.inspect, "גרסת 4X4: לבדוק תחתית ומערכת ההנעה"]),
-      T("Gen3", 2024, null, "1.2 טורבו מיילד-היברידי / 1.6–1.8 היברידי", "130–155", ["petrol", "hybrid"], 6.5, 3, 2024, [C.history, C.recalls], "דף הדגם ב-carzone מציג גם גרסה ידנית ב-₪139,990, מתחת לטווח שבדף המותג"),
+      T("Gen3", 2024, null, "1.2 טורבו מיילד-היברידי / 1.6–1.8 היברידי", "130–155", ["petrol", "hybrid"], 6.5, 3, 2024, [C.history, C.recalls], "הגרסה הזולה (₪139,990) היא 1.2 טורבו; carzone ו-cartube חלוקים על כוח ההיברידי 1.8 (140 / 155 כ\"ס)"),
     ]},
     { id: "sandero", make: "dacia", model: "Sandero", he: "סנדרו", body: "city", segment: "mass", price: [121990, 121990], status: "on_sale", gens: [
       T("Sandero I", 2010, 2012, "1.2 / 1.4 / 1.6 בנזין, 1.5 dCi", "70–112", ["petrol", "diesel"], 7.0, 3, 2008, [C.history, C.inspect]),
@@ -775,12 +811,21 @@ export const MAKES: Make[] = [
     { id: "jogger", make: "dacia", model: "Jogger", he: "ג'וגר", body: "mpv", segment: "mass", price: [174990, 174990], status: "on_sale", gens: [
       T("Gen1", 2022, null, "1.0 TCe טורבו / 1.6–1.8 היברידי", "110–155", ["petrol", "hybrid"], 6.3, 1, 2021, [C.history, C.recalls], "7 מושבים"),
     ]},
+    { id: "bigster", make: "dacia", model: "Bigster", he: "ביגסטר", body: "suv", segment: "mass", price: [167990, 190990], status: "on_sale", gens: [
+      T("R1310", 2025, null, "1.8 היברידי, 1.2 היברידי 4X4, 1.2 טורבו", "130–155", ["hybrid", "petrol"], 6.8, 3, 2024, [C.history, C.recalls], "מבחן דרך ב-carzone: כ-14 ק\"מ לליטר"),
+    ]},
+    { id: "logan", make: "dacia", model: "Logan", he: "לוגן", body: "sedan", segment: "mass", price: [127990, 127990], status: "on_sale", gens: [
+      T("Logan I", 2010, 2012, "1.4 / 1.6 בנזין, 1.5 dCi", "65–105", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect]),
+      T("Logan II", 2013, 2020, "0.9 TCe / 1.2 בנזין, 1.5 dCi", "75–90", ["petrol", "diesel"], 6.5, null, undefined, [C.history, C.inspect]),
+      T("Logan III", 2021, null, "1.0 טורבו בנזין", "91", ["petrol"], 6.3, 2, 2021, [C.history, C.recalls]),
+    ]},
   ]},
 
   { id: "honda", name: "Honda", he: "הונדה", models: [
     { id: "civic", make: "honda", model: "Civic", he: "סיוויק", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("FN/FK/FD (דור 8)", 2010, 2011, "1.4 / 1.8 i-VTEC בנזין, 1.3 היברידי (IMA)", "100–142", ["petrol", "hybrid"], 7.4, null, undefined, [C.history, C.inspect, "בגרסת ההיברידי: סוללת IMA נוטה לאבד קיבולת; לבדוק תקינות"]),
       T("FK (דור 9)", 2012, 2016, "1.4 / 1.8 בנזין, 1.6 / 2.2 i-DTEC", "100–150", ["petrol", "diesel"], 7.3, null, undefined, [C.history, C.inspect, C.recalls]),
-      T("FK7 (דור 10)", 2017, 2021, "1.0 / 1.5 טורבו בנזין, 1.6 i-DTEC", "118–180", ["petrol", "diesel"], 6.9, null, undefined, [C.history, C.inspect, "מנוע 1.5 טורבו (2016–2018): דילול שמן בדלק; לבדוק מפלס וריח דלק בשמן", "בגרסה עם CVT: " + C.cvt]),
+      T("FK7 (דור 10)", 2017, 2021, "1.0 / 1.5 טורבו בנזין, 1.6 i-DTEC", "118–180", ["petrol", "diesel"], 6.9, 5, 2017, [C.history, C.inspect, "מנוע 1.5 טורבו (2016–2018): דילול שמן בדלק; לבדוק מפלס וריח דלק בשמן", "בגרסה עם CVT: " + C.cvt]),
       T("FL (דור 11)", 2022, null, "2.0 e:HEV היברידי", "181 (מנוע חשמלי)", ["hybrid"], 5.0, 5, 2022, [C.hyHybrid, C.recalls], "לא משווק עוד בישראל (cartube)"),
     ]},
     { id: "jazz", make: "honda", model: "Jazz", he: "ג'אז", body: "city", segment: "mass", price: [148900, 159900], status: "on_sale", gens: [
@@ -788,14 +833,18 @@ export const MAKES: Make[] = [
       T("GK", 2015, 2020, "1.3 / 1.5 בנזין, 1.5 היברידי", "98–135", ["petrol", "hybrid"], 6.0, null, undefined, [C.history, C.inspect, "בגרסה עם CVT: " + C.cvt]),
       T("GR", 2020, null, "1.5 e:HEV היברידי", "109", ["hybrid"], 4.8, 5, 2020, [C.hyHybrid, C.history]),
     ]},
-    { id: "hr-v", make: "honda", model: "HR-V", he: "HR-V", body: "suv", segment: "mass", price: [184900, 199900], status: "on_sale", gens: [
-      T("RU", 2015, 2021, "1.5 i-VTEC בנזין, 1.6 i-DTEC", "118–130", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect, C.cvt]),
-      T("RV", 2022, null, "1.5 e:HEV היברידי", "131", ["hybrid"], 5.4, 4, 2022, [C.hyHybrid, C.recalls]),
+    { id: "hr-v", make: "honda", model: "HR-V", he: "HR-V", body: "suv", segment: "mass", price: [184900, 224900], status: "on_sale", gens: [
+      T("RU", 2015, 2021, "1.5 i-VTEC בנזין, 1.6 i-DTEC", "118–130", ["petrol", "diesel"], 7.0, 5, 2015, [C.history, C.inspect, C.cvt]),
+      T("RV", 2022, null, "1.5 e:HEV היברידי", "131", ["hybrid"], 5.4, 4, 2022, [C.hyHybrid, C.recalls], "גרסת Advance Style ב-₪224,900 מופיעה רק ב-carzone; ב-cartube הטווח ₪184,900–199,900"),
     ]},
     { id: "cr-v", make: "honda", model: "CR-V", he: "CR-V", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("RE (דור 3)", 2010, 2011, "2.0 / 2.4 בנזין, 2.2 i-DTEC", "150–180", ["petrol", "diesel"], 9.5, null, undefined, [C.history, C.inspect]),
       T("RM (דור 4)", 2012, 2018, "2.0 / 2.4 בנזין, 1.6 / 2.2 i-DTEC", "118–184", ["petrol", "diesel"], 8.8, null, undefined, [C.history, C.inspect]),
       T("RW (דור 5)", 2018, 2023, "1.5 טורבו / 2.0 היברידי", "190–212", ["petrol", "hybrid"], 7.0, null, undefined, [C.history, C.inspect, "מנוע 1.5 טורבו (2017–2018): דילול שמן בדלק; לבדוק מפלס וריח דלק בשמן"]),
       T("RS (דור 6)", 2023, null, "2.0 e:HEV היברידי / e:PHEV", "181–204", ["hybrid", "phev"], 6.3, 4, 2024, [C.hyHybrid, C.recalls], "4 כוכבים בסיסי, 5 עם חבילת בטיחות; לא משווק עוד בישראל (cartube)"),
+    ]},
+    { id: "zr-v", make: "honda", model: "ZR-V", he: "ZR-V", body: "suv", segment: "mass", price: [209900, 234900], status: "on_sale", gens: [
+      T("RZ", 2023, null, "2.0 e:HEV היברידי", "184 (מנוע חשמלי)", ["hybrid"], 5.9, 4, 2023, [C.hyHybrid, C.recalls]),
     ]},
   ]},
 
@@ -807,7 +856,7 @@ export const MAKES: Make[] = [
     ]},
     { id: "crosstrek", make: "subaru", model: "XV / Crosstrek", he: "XV / קרוסטרק", body: "suv", segment: "mass", price: [175900, 185900], status: "on_sale", gens: [
       T("GP (XV)", 2012, 2017, "1.6 / 2.0 בוקסר", "עד 148", ["petrol"], 7.8, null, undefined, [C.history, C.inspect, C.cvt, "מנועי FB (2012–2014): צריכת שמן מוגברת; לבדוק רישום הוספות שמן"]),
-      T("GT (XV)", 2018, 2022, "1.6 / 2.0 בוקסר, 2.0 e-Boxer", "עד 152", ["petrol", "hybrid"], 7.6, null, undefined, [C.history, C.cvt]),
+      T("GT (XV)", 2018, 2022, "1.6 / 2.0 בוקסר, 2.0 e-Boxer", "עד 152", ["petrol", "hybrid"], 7.6, 5, 2017, [C.history, C.cvt]),
       T("GU (Crosstrek)", 2023, null, "2.0 / 2.5 בוקסר, e-Boxer", "152–182", ["petrol", "hybrid"], 7.8, 5, 2024, [C.history, C.recalls], "דף הדגם ב-carzone מציג 2.0 152 כ\"ס לצד גרסאות 2.5; לבדוק מול היבואן"),
     ]},
     { id: "forester", make: "subaru", model: "Forester", he: "פורסטר", body: "suv", segment: "mass", price: [212900, 279900], status: "on_sale", gens: [
@@ -816,20 +865,24 @@ export const MAKES: Make[] = [
       T("דור 5", 2019, 2024, "2.0 e-Boxer", "148", ["hybrid"], 8.0, 5, 2019, [C.history, C.cvt]),
       T("דור 6", 2024, null, "2.5 בוקסר / 2.5 היברידי", "180", ["petrol", "hybrid"], 8.4, 5, 2024, [C.history, C.recalls]),
     ]},
-    { id: "outback", make: "subaru", model: "Outback", he: "אאוטבק", body: "wagon", segment: "mass", price: [279990, 279990], status: "on_sale", gens: [
-      T("BR", 2010, 2014, "2.5 / 3.6 בוקסר, 2.0 דיזל", "—", ["petrol", "diesel"], 9.5, null, undefined, [C.history, C.inspect, "מנועי FB (2013): צריכת שמן מוגברת; לבדוק רישום הוספות שמן"]),
+    { id: "outback", make: "subaru", model: "Outback", he: "אאוטבק", body: "wagon", segment: "mass", price: [279900, 279990], status: "on_sale", gens: [
+      T("BR", 2010, 2014, "2.5 / 3.6 בוקסר, 2.0 דיזל", "150–260", ["petrol", "diesel"], 9.5, null, undefined, [C.history, C.inspect, "מנועי FB (2013): צריכת שמן מוגברת; לבדוק רישום הוספות שמן"]),
       T("BS", 2015, 2019, "2.5 / 3.6 בוקסר, 2.0 דיזל", "עד 256", ["petrol", "diesel"], 8.9, null, undefined, [C.history, C.cvt]),
       T("BT", 2020, 2025, "2.5 בוקסר", "182", ["petrol"], 8.7, 5, 2021, [C.history, C.cvt]),
       T("BU", 2025, null, "2.5 בוקסר", "180", ["petrol"], 8.7, null, undefined, [C.recalls], "דגם חדש במחירון 2026"),
+    ]},
+    { id: "brz", make: "subaru", model: "BRZ", he: "BRZ", body: "sedan", segment: "mass", price: [229900, 259900], status: "on_sale", gens: [
+      T("ZC6", 2012, 2020, "2.0 בוקסר", "200", ["petrol"], 8.5, null, undefined, [C.history, C.inspect]),
+      T("ZD8", 2021, null, "2.4 בוקסר", "228–235", ["petrol"], 9.0, null, undefined, [C.history], "קופה 4 מושבים; Premium ידנית ₪229,900 עד TS ₪259,900"),
     ]},
   ]},
 
   { id: "lexus", name: "Lexus", he: "לקסוס", models: [
     { id: "ux", make: "lexus", model: "UX", he: "UX", body: "suv", segment: "premium", price: [249990, 284990], status: "on_sale", gens: [
-      T("ZA10", 2019, null, "2.0 בנזין / 2.0 היברידי, חשמלי (300e)", "171–204", ["petrol", "hybrid", "ev"], 5.6, null, undefined, [C.toyHybrid, C.history, C.recalls]),
+      T("ZA10", 2019, null, "2.0 בנזין / 2.0 היברידי, חשמלי (300e)", "171–204", ["petrol", "hybrid", "ev"], 5.6, 5, 2019, [C.toyHybrid, C.history, C.recalls]),
     ]},
     { id: "nx", make: "lexus", model: "NX", he: "NX", body: "suv", segment: "premium", price: [334990, 445990], status: "on_sale", gens: [
-      T("AZ10", 2014, 2021, "2.0 טורבו / 2.5 היברידי", "194–235", ["petrol", "hybrid"], 7.3, null, undefined, [C.toyHybrid, C.history]),
+      T("AZ10", 2014, 2021, "2.0 טורבו / 2.5 היברידי", "194–235", ["petrol", "hybrid"], 7.3, 5, 2014, [C.toyHybrid, C.history]),
       T("AZ20", 2022, null, "2.5 היברידי / 2.5 פלאג-אין", "240–304", ["hybrid", "phev"], 6.4, 5, 2022, [C.toyHybrid, C.recalls, "NX 450h+ (ייצור 04/2021–06/2022): קריאת שירות לממיר מתח; לוודא ביצוע"]),
     ]},
     { id: "rx", make: "lexus", model: "RX", he: "RX", body: "suv", segment: "premium", price: [414990, 589990], status: "on_sale", gens: [
@@ -840,15 +893,21 @@ export const MAKES: Make[] = [
     { id: "es", make: "lexus", model: "ES", he: "ES", body: "sedan", segment: "premium", price: [354990, 374990], status: "on_sale", gens: [
       T("XV40", 2010, 2012, "2.4 / 3.5 V6", "165–272", ["petrol"], 9.5, null, undefined, [C.history, C.inspect, "קריאת שירות שטיחים ודוושת גז (2007–2009): לוודא ביצוע"]),
       T("XV60", 2012, 2018, "2.5 היברידי (300h), 2.0 / 2.5 / 3.5", "165–272", ["petrol", "hybrid"], 7.5, null, undefined, [C.toyHybrid, C.history]),
-      T("AXZH10", 2018, 2025, "2.5 היברידי (300h), 2.0 / 2.5 / 3.5", "170–302", ["petrol", "hybrid"], 6.0, null, undefined, [C.toyHybrid, C.history]),
+      T("AXZH10", 2018, 2025, "2.5 היברידי (300h), 2.0 / 2.5 / 3.5", "170–302", ["petrol", "hybrid"], 6.0, 5, 2018, [C.toyHybrid, C.history]),
       T("AXZH21", 2025, null, "2.5 היברידי (350h), חשמלי (350e / 500e)", "221–338", ["hybrid", "ev"], 6.0, null, undefined, [C.toyHybrid, C.recalls], "ES EV מתומחר בנפרד (₪379,990–429,990)"),
+    ]},
+    { id: "lbx", make: "lexus", model: "LBX", he: "LBX", body: "suv", segment: "premium", price: [205990, 246990], status: "on_sale", gens: [
+      T("AY10", 2024, null, "1.5 היברידי", "136", ["hybrid"], 4.8, 5, 2024, [C.toyHybrid, C.recalls]),
+    ]},
+    { id: "rz", make: "lexus", model: "RZ", he: "RZ", body: "suv", segment: "premium", price: [299990, 439990], status: "on_sale", gens: [
+      T("e-TNGA", 2023, null, "חשמלי, סוללה 71.4 / 72.8 קוט\"ש", "204–408", ["ev"], 18.5, 5, 2023, [C.ev, C.recalls]),
     ]},
   ]},
 
   { id: "volvo", name: "Volvo", he: "וולוו", models: [
     { id: "xc40", make: "volvo", model: "XC40 / EX40", he: "XC40 / EX40", body: "suv", segment: "premium", price: [249900, 359900], status: "on_sale", gens: [
       T("XC40 (CMA)", 2018, null, "T3 / T4 / T5 בנזין, B4 מיילד-היברידי, T4 / T5 פלאג-אין", "129–265", ["petrol", "hybrid", "phev"], 7.5, 5, 2018, [C.history, C.recalls, "בגרסת פלאג-אין: " + C.phev], "XC40 ₪249,900–279,900"),
-      T("EX40 (XC40 Recharge)", 2020, null, "חשמלי, מנוע אחד או שניים", "231–408", ["ev"], 19.5, null, undefined, [C.ev, C.recalls], "EX40 ₪359,900"),
+      T("EX40 (XC40 Recharge)", 2020, null, "חשמלי, מנוע אחד או שניים", "231–408", ["ev"], 19.5, 5, 2018, [C.ev, C.recalls], "EX40 ₪359,900"),
     ]},
     { id: "xc60", make: "volvo", model: "XC60", he: "XC60", body: "suv", segment: "premium", price: [299900, 474900], status: "on_sale", gens: [
       T("Gen1", 2010, 2017, "2.0 טורבו / T5 / T6 בנזין, D4 / D5 דיזל", "134–324", ["petrol", "diesel"], 10.0, 5, 2008, [C.history, C.inspect]),
@@ -856,10 +915,16 @@ export const MAKES: Make[] = [
     ]},
     { id: "xc90", make: "volvo", model: "XC90", he: "XC90", body: "suv7", segment: "premium", price: [519900, 634900], status: "on_sale", gens: [
       T("Gen1", 2010, 2014, "2.5T / 3.2 / V8 בנזין, D5 דיזל", "163–311", ["petrol", "diesel"], 12.5, null, undefined, [C.history, C.inspect]),
-      T("Gen2", 2015, null, "T5 / T6, B5 / B6 מיילד-היברידי, T8 פלאג-אין, D5 דיזל", "190–455", ["petrol", "hybrid", "phev", "diesel"], 8.5, null, undefined, [C.history, C.airSusp, "בגרסת פלאג-אין: " + C.phev]),
+      T("Gen2", 2015, null, "T5 / T6, B5 / B6 מיילד-היברידי, T8 פלאג-אין, D5 דיזל", "190–455", ["petrol", "hybrid", "phev", "diesel"], 8.5, 5, 2015, [C.history, C.airSusp, "בגרסת פלאג-אין: " + C.phev]),
     ]},
     { id: "ex30", make: "volvo", model: "EX30", he: "EX30", body: "suv", segment: "premium", price: [179900, 239900], status: "on_sale", gens: [
-      T("SEA2", 2024, null, "חשמלי 51 / 69 קוט\"ש, מנוע אחד או שניים", "268–422", ["ev"], 16.5, null, undefined, [C.ev, C.recalls, "קריאת שירות 2026 לסוללת המתח הגבוה (סכנת שריפה): לוודא ביצוע ואת הנחיית הטעינה עד 70% בגרסאות מסוימות"]),
+      T("SEA2", 2024, null, "חשמלי 51 / 69 קוט\"ש, מנוע אחד או שניים", "268–422", ["ev"], 16.5, 5, 2024, [C.ev, C.recalls, "קריאת שירות 2026 לסוללת המתח הגבוה (סכנת שריפה): לוודא ביצוע ואת הנחיית הטעינה עד 70% בגרסאות מסוימות"]),
+    ]},
+    { id: "ex90", make: "volvo", model: "EX90", he: "EX90", body: "suv7", segment: "premium", price: [739900, 754900], status: "on_sale", gens: [
+      T("SPA2", 2024, null, "חשמלי, סוללה 92–111 קוט\"ש", "275–671", ["ev"], 22.0, 5, 2025, [C.ev, C.recalls]),
+    ]},
+    { id: "es90", make: "volvo", model: "ES90", he: "ES90", body: "sedan", segment: "premium", price: [399900, 539900], status: "on_sale", gens: [
+      T("V551", 2025, null, "חשמלי, סוללה 88–106 קוט\"ש", "329–671", ["ev"], 17.5, null, undefined, [C.ev, C.recalls]),
     ]},
   ]},
 
@@ -871,36 +936,60 @@ export const MAKES: Make[] = [
     ]},
     { id: "c4", make: "citroen", model: "C4", he: "C4", body: "hatch", segment: "mass", price: [129990, 129990], status: "on_sale", gens: [
       T("Gen2", 2011, 2018, "1.4 / 1.6 VTi, 1.6 THP, 1.6 HDi / 2.0 HDi", "90–155", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect]),
-      T("C41", 2021, null, "1.2 PureTech, 1.2 היברידי, חשמלי ë-C4", "100–156", ["petrol", "hybrid", "ev"], 6.2, null, undefined, [C.history, C.puretech, C.recalls], "C4 X באותו מחיר"),
+      T("C41", 2021, null, "1.2 PureTech, 1.2 היברידי, חשמלי ë-C4", "100–156", ["petrol", "hybrid", "ev"], 6.2, 4, 2021, [C.history, C.puretech, C.recalls], "C4 X באותו מחיר"),
     ]},
     { id: "c5-aircross", make: "citroen", model: "C5 Aircross", he: "C5 איירקרוס", body: "suv", segment: "mass", price: [179990, 195990], status: "on_sale", gens: [
-      T("Gen1", 2019, 2025, "1.2 / 1.6 PureTech, 1.6 פלאג-אין, 1.5 / 2.0 BlueHDi", "130–225", ["petrol", "phev", "diesel"], 7.3, null, undefined, [C.history, C.puretech]),
+      T("Gen1", 2019, 2025, "1.2 / 1.6 PureTech, 1.6 פלאג-אין, 1.5 / 2.0 BlueHDi", "130–225", ["petrol", "phev", "diesel"], 7.3, 4, 2019, [C.history, C.puretech], "4 כוכבים בסיסי, 5 עם חבילת בטיחות"),
       T("Gen2 (STLA Medium)", 2025, null, "1.2 מיילד-היברידי, 1.6 פלאג-אין, חשמלי", "145–228", ["hybrid", "phev", "ev"], 6.5, null, undefined, [C.recalls]),
     ]},
     { id: "berlingo", make: "citroen", model: "Berlingo", he: "ברלינגו", body: "mpv", segment: "mass", price: [176990, 189990], status: "on_sale", gens: [
       T("Gen2", 2010, 2018, "1.6 בנזין, 1.6 HDi / BlueHDi", "75–120", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect, "לעיתים שימש כרכב עבודה: לבדוק בלאי כללי"]),
-      T("K9", 2019, null, "1.5 BlueHDi דיזל, 1.2 PureTech, חשמלי ë-Berlingo", "100–130", ["diesel", "petrol", "ev"], 6.0, null, undefined, [C.history, "בגרסת הבנזין: " + C.puretech], "כולל ë-Berlingo, מקסי וארוך"),
+      T("K9", 2019, null, "1.5 BlueHDi דיזל, 1.2 PureTech, חשמלי ë-Berlingo", "100–130", ["diesel", "petrol", "ev"], 6.0, 4, 2018, [C.history, "בגרסת הבנזין: " + C.puretech], "כולל ë-Berlingo, מקסי וארוך"),
+    ]},
+    { id: "c3-aircross", make: "citroen", model: "C3 Aircross", he: "C3 איירקרוס", body: "suv", segment: "mass", price: [129990, 139990], status: "on_sale", gens: [
+      T("Gen1", 2017, 2024, "1.2 PureTech, 1.5 / 1.6 BlueHDi", "82–133", ["petrol", "diesel"], 6.8, null, undefined, [C.history, C.puretech]),
+      T("CC24", 2024, null, "1.2 טורבו מיילד-היברידי, חשמלי ë-C3 Aircross", "101–145", ["hybrid", "petrol", "ev"], 6.4, null, undefined, [C.history, C.recalls], "בישראל 1.2 מיילד-היברידי 145 כ\"ס; גרסת 7 מושבים ב-₪139,990"),
+    ]},
+  ]},
+
+  { id: "ds", name: "DS", he: "DS", models: [
+    { id: "ds-3", make: "ds", model: "DS 3", he: "DS 3", body: "suv", segment: "premium", price: [218990, 218990], status: "on_sale", gens: [
+      T("DS3 (האצ'בק)", 2010, 2019, "1.2 PureTech / 1.6 VTi / THP, 1.6 HDi / BlueHDi", "82–210", ["petrol", "diesel"], 6.8, null, undefined, [C.history, C.inspect, C.puretech], "נמכר בתחילה כ-Citroën DS3"),
+      T("DS 3 Crossback", 2019, null, "1.2 PureTech, 1.5 BlueHDi, חשמלי E-Tense 50 / 54 קוט\"ש", "100–156", ["petrol", "diesel", "ev"], 6.2, 4, 2019, [C.history, C.recalls, C.puretech], "בישראל רק החשמלי (156 כ\"ס); 5 כוכבים עם חבילת בטיחות"),
+    ]},
+    { id: "ds-4", make: "ds", model: "DS 4", he: "DS 4", body: "hatch", segment: "premium", price: null, status: "discontinued", gens: [
+      T("Gen1", 2011, 2018, "1.2 / 1.6 בנזין, 1.6 / 2.0 דיזל", "120–211", ["petrol", "diesel"], 7.2, 5, 2011, [C.history, C.inspect]),
+      T("Gen2", 2021, null, "1.2 / 1.6 PureTech, 1.6 פלאג-אין, 1.5 BlueHDi", "130–225", ["petrol", "phev", "diesel"], 6.5, null, undefined, [C.history, C.puretech], "לא משווק עוד בישראל"),
+    ]},
+    { id: "ds-7", make: "ds", model: "DS 7", he: "DS 7", body: "suv", segment: "premium", price: [344990, 344990], status: "on_sale", gens: [
+      T("Gen1", 2018, null, "1.2 / 1.6 PureTech, 1.5 / 2.0 BlueHDi, 1.6 E-Tense פלאג-אין", "130–370", ["petrol", "diesel", "phev"], 7.0, 5, 2017, [C.history, C.recalls, "בגרסת פלאג-אין: " + C.phev], "בישראל רק E-Tense 225 פלאג-אין"),
     ]},
   ]},
 
   { id: "opel", name: "Opel", he: "אופל", models: [
-    { id: "corsa", make: "opel", model: "Corsa", he: "קורסה", body: "city", segment: "mass", price: [126990, 129990], status: "on_sale", gens: [
+    { id: "corsa", make: "opel", model: "Corsa", he: "קורסה", body: "city", segment: "mass", price: [126990, 134990], status: "on_sale", gens: [
       T("Corsa D", 2010, 2014, "1.2 / 1.4 בנזין, 1.3 CDTI", "60–210", ["petrol", "diesel"], 6.8, null, undefined, [C.history, C.inspect]),
       T("Corsa E", 2015, 2019, "1.0 טורבו / 1.2 / 1.4, 1.3 CDTI", "70–207", ["petrol", "diesel"], 6.5, null, undefined, [C.history, C.inspect]),
-      T("Corsa F", 2020, null, "1.2 PureTech, 1.2 מיילד-היברידי, חשמלי Corsa-e", "75–156", ["petrol", "hybrid", "ev"], 6.0, null, undefined, [C.history, C.puretech, C.recalls], "דף הדגם ב-carzone מציג גם גרסה ב-₪134,990"),
+      T("Corsa F", 2020, null, "1.2 PureTech, 1.2 מיילד-היברידי, חשמלי Corsa-e", "75–156", ["petrol", "hybrid", "ev"], 6.0, 4, 2019, [C.history, C.puretech, C.recalls], "בישראל 1.2 טורבו 100 כ\"ס או GS Line מיילד-היברידי; cartube מציג עד ₪129,990, carzone עד ₪134,990"),
     ]},
     { id: "astra", make: "opel", model: "Astra", he: "אסטרה", body: "hatch", segment: "mass", price: [167990, 167990], status: "on_sale", gens: [
-      T("Astra J", 2010, 2015, "1.4–2.0 טורבו בנזין, 2.0 CDTI", "—", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect]),
+      T("Astra J", 2010, 2015, "1.4–2.0 טורבו בנזין, 2.0 CDTI", "87–280", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect]),
       T("Astra K", 2016, 2021, "1.0 / 1.2 / 1.4 טורבו, 1.5 / 1.6 דיזל", "110–150", ["petrol", "diesel"], 6.5, null, undefined, [C.history, C.inspect]),
-      T("Astra L", 2022, null, "1.2 PureTech / מיילד-היברידי, 1.6 פלאג-אין, חשמלי", "עד 225", ["petrol", "hybrid", "phev", "ev"], 6.3, null, undefined, [C.history, C.puretech, C.recalls]),
+      T("Astra L", 2022, null, "1.2 PureTech / מיילד-היברידי, 1.6 פלאג-אין, חשמלי", "עד 225", ["petrol", "hybrid", "phev", "ev"], 6.3, 4, 2022, [C.history, C.puretech, C.recalls]),
     ]},
     { id: "mokka", make: "opel", model: "Mokka", he: "מוקה", body: "suv", segment: "mass", price: [149990, 149990], status: "on_sale", gens: [
       T("Mokka A/X", 2013, 2019, "1.4 טורבו / 1.6 בנזין, 1.6 / 1.7 CDTI", "108–150", ["petrol", "diesel"], 7.8, null, undefined, [C.history, C.inspect]),
-      T("Mokka B", 2021, null, "1.2 טורבו, 1.2 היברידי, חשמלי Mokka-e", "100–145", ["petrol", "hybrid", "ev"], 6.4, null, undefined, [C.history, C.puretech]),
+      T("Mokka B", 2021, null, "1.2 טורבו, 1.2 היברידי, חשמלי Mokka-e", "100–145", ["petrol", "hybrid", "ev"], 6.4, 4, 2021, [C.history, C.puretech]),
     ]},
     { id: "grandland", make: "opel", model: "Grandland", he: "גרנדלנד", body: "suv", segment: "mass", price: [186990, 206990], status: "on_sale", gens: [
-      T("Gen1 (Grandland X)", 2018, 2024, "1.2 PureTech, 1.5 / 2.0 דיזל, פלאג-אין", "118–201", ["petrol", "diesel", "phev"], 7.2, null, undefined, [C.history, C.puretech]),
+      T("Gen1 (Grandland X)", 2018, 2024, "1.2 PureTech, 1.5 / 2.0 דיזל, פלאג-אין", "118–201", ["petrol", "diesel", "phev"], 7.2, 5, 2017, [C.history, C.puretech]),
       T("Gen2", 2025, null, "1.2 מיילד-היברידי, 1.6 פלאג-אין, חשמלי", "134–321", ["hybrid", "phev", "ev"], 6.6, 4, 2025, [C.recalls]),
+    ]},
+    { id: "frontera", make: "opel", model: "Frontera", he: "פרונטרה", body: "suv", segment: "mass", price: [144990, 156990], status: "on_sale", gens: [
+      T("OV24", 2025, null, "1.2 טורבו מיילד-היברידי, חשמלי", "100–145", ["hybrid", "ev"], 6.4, null, undefined, [C.history, C.recalls], "בישראל 1.2 טורבו 145 כ\"ס; גרסת 7 מושבים ב-₪156,990"),
+    ]},
+    { id: "crossland", make: "opel", model: "Crossland", he: "קרוסלנד", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("Gen1", 2017, 2024, "1.2 / 1.2 טורבו בנזין, 1.5 / 1.6 דיזל", "75–130", ["petrol", "diesel"], 6.6, null, undefined, [C.history, C.puretech]),
     ]},
   ]},
 
