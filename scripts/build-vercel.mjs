@@ -20,7 +20,7 @@ fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 fs.cpSync(staticSrc, path.join(out, "static"), { recursive: true });
 const seo = await writeSeoFiles(root, path.join(out, "static"));
-console.log(`[build-vercel] robots.txt${seo.base ? ` + sitemap.xml (${seo.count} pages, ${seo.base})` : " (no SITE_URL: sitemap skipped)"}`);
+console.log(`[build-vercel] robots.txt${seo.base ? ` + sitemap.xml (${seo.count} pages, ${seo.base})` : " (no SITE_URL: sitemap skipped)"} + ${Object.keys(seo.overrides).length} page HTML files`);
 
 const functions = [
   { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },
@@ -59,6 +59,8 @@ fs.writeFileSync(
   JSON.stringify(
     {
       version: 3,
+      // Per-page HTML (own title/description for Google and link previews), see scripts/build-seo.mjs.
+      overrides: seo.overrides,
       routes: [
         { src: "^/api/chat/?$", dest: "/api/chat" },
         { src: "^/api/plate/?$", dest: "/api/plate" },
