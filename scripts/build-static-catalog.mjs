@@ -38,7 +38,7 @@ const out = [...merged.values()].filter((c) => !c.discontinued).map((c) => {
   // Totals are always recomputed from components + licensing; seed totals have had typos.
   for (const km of [7000, 15000, 25000]) {
     const b = bands[km]; const sum = b.fuel + b.insurance + b.maintenance + b.depreciation + REG;
-    if (b.total !== sum) console.warn(`  [fix] ${c.makeSlug} ${c.model} @${km}: total ${b.total} -> ${sum}`);
+    if (b.total && b.total !== sum) console.warn(`  [fix] ${c.makeSlug} ${c.model} @${km}: total ${b.total} -> ${sum}`);
     b.total = sum;
   }
   const price = c.priceMedian ?? c.newPrice;
@@ -76,6 +76,6 @@ export type CatalogCar = {
 };
 export const CATALOG_UPDATED = "2026-10";
 export const STATIC_CATALOG: CatalogCar[] = ${JSON.stringify(out, null, 1)};\n`;
-fs.writeFileSync(path.join(root, "catalogData.ts"), header + body);
-console.log(`[catalog] ${out.length} models → catalogData.ts`);
+fs.writeFileSync(path.join(root, "src/data/catalogData.ts"), header + body);
+console.log(`[catalog] ${out.length} models → src/data/catalogData.ts`);
 for (const c of out) console.log(`  ${c.make} ${c.model} · ${c.fuelType} · ₪${c.price.toLocaleString()} · ₪${c.bands[15000].total}/mo · conf ${c.confidence}`);

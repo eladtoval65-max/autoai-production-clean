@@ -8,7 +8,7 @@ import { build } from "esbuild";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const tmp = path.join(root, "node_modules/.cache/validate-gen.mjs");
 fs.mkdirSync(path.dirname(tmp), { recursive: true });
-await build({ entryPoints: [path.join(root, "generations.ts")], outfile: tmp, format: "esm", bundle: true, logLevel: "error" });
+await build({ entryPoints: [path.join(root, "src/data/generations.ts")], outfile: tmp, format: "esm", bundle: true, logLevel: "error" });
 const { MAKES, PRICES_VERIFIED } = await import(`${tmp}?t=${Date.now()}`);
 
 const problems = [];
@@ -43,7 +43,7 @@ for (const mk of MAKES) {
   }
 }
 // The recommendations catalog must still build and every total must equal its components + licensing.
-const cat = fs.readFileSync(path.join(root, "catalogData.ts"), "utf8");
+const cat = fs.readFileSync(path.join(root, "src/data/catalogData.ts"), "utf8");
 const cars = JSON.parse(cat.slice(cat.indexOf("= [") + 2).replace(/;\s*$/, ""));
 for (const c of cars) for (const km of [7000, 15000, 25000]) {
   const b = c.bands[km];

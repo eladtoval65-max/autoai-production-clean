@@ -190,3 +190,5 @@ const newCars = [
     insuranceMin: 510, insuranceMax: 730,
   },
 ];
+
+export {}; // makes this file a module so each batch has its own `newCars`

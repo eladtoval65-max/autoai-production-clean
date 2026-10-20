@@ -59,3 +59,5 @@ const newCars = [
     cons: ["מחיר גבוה", "צריכה בפועל גבוהה מהמוצהר בנסיעה מהירה"],
   },
 ];
+
+export {}; // makes this file a module so each batch has its own `newCars`

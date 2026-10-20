@@ -4,24 +4,24 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { LangProvider } from "./i18n";
-import Home from "./pages/Home";
-import AdminLeads from "./pages/AdminLeads";
+import { LangProvider } from "./src/shared/i18n";
+import HomePage from "./src/features/home/HomePage";
+import AdminPage from "./src/features/admin/AdminPage";
 import Privacy from "./pages/Privacy";
-import Landing from "./Landing";
-import Browse from "./Browse";
+import LandingPage from "./src/features/landing/LandingPage";
+import BrowsePage from "./src/features/browse/BrowsePage";
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/admin/leads" component={AdminLeads} />
-      <Route path="/admin" component={AdminLeads} />
+      <Route path="/" component={HomePage} />
+      <Route path="/admin/leads" component={AdminPage} />
+      <Route path="/admin" component={AdminPage} />
       <Route path="/privacy" component={Privacy} />
-      <Route path="/go/:slug" component={Landing} />
-      <Route path="/cars/:make/:model" component={Browse} />
-      <Route path="/cars/:make" component={Browse} />
-      <Route path="/cars" component={Browse} />
+      <Route path="/go/:slug" component={LandingPage} />
+      <Route path="/cars/:make/:model" component={BrowsePage} />
+      <Route path="/cars/:make" component={BrowsePage} />
+      <Route path="/cars" component={BrowsePage} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

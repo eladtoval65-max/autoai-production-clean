@@ -432,3 +432,5 @@ const newCars = [
     "priceSource": "not in carzone.co.il Peugeot 2026 lineup"
   }
 ];
+
+export {}; // makes this file a module so each batch has its own `newCars`

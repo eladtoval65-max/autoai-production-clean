@@ -7,13 +7,14 @@ export default defineConfig({
   root: templateRoot,
   resolve: {
     alias: {
-      "@": path.resolve(templateRoot, "client", "src"),
-      "@shared": path.resolve(templateRoot, "shared"),
-      "@assets": path.resolve(templateRoot, "attached_assets"),
+      // Same aliases as vite.config.ts: the project root.
+      "@": templateRoot,
+      "@shared": templateRoot,
+      "@assets": templateRoot,
     },
   },
   test: {
     environment: "node",
-    include: ["server/**/*.test.ts", "server/**/*.spec.ts"],
+    include: ["src/**/*.test.ts", "server/**/*.test.ts"],
   },
 });

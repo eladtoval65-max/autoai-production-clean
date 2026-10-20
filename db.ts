@@ -26,7 +26,7 @@ export async function getDb() {
   if (!_db && process.env.DATABASE_URL) {
     try {
       const pool = getPool();
-      _db = pool ? drizzle(pool) : null;
+      _db = pool ? (drizzle(pool) as unknown as ReturnType<typeof drizzle>) : null;
     } catch (error) {
       console.warn("[Database] Failed to connect:", error);
       _db = null;
