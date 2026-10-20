@@ -43,3 +43,5 @@ const newCars = [
     priceSource: "carzone.co.il/Kia/Stonic/ (2026-10-20)",
   },
 ];
+
+export {}; // makes this file a module so each batch has its own `newCars`
