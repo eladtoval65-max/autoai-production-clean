@@ -7,6 +7,7 @@ import { listLandings, saveLanding } from "./landings";
 import { listPartners, savePartner } from "./partners";
 import { initDatabase } from "./setup";
 import { getStats } from "./stats";
+import { sendWeekly } from "../report/weekly";
 import type { Action } from "./http";
 
 type Route = { method: "GET" | "POST" | "ANY"; run: Action };
@@ -29,4 +30,5 @@ export const ROUTES: Record<string, Route> = {
   landings: { method: "ANY", run: listLandings },
   landingSave: { method: "POST", run: saveLanding },
   stats: { method: "ANY", run: getStats },
+  reportNow: { method: "POST", run: async ({ pool }) => ({ result: await sendWeekly(pool, true) }) },
 };

@@ -3,6 +3,8 @@
  * Uses Resend's HTTP API when RESEND_API_KEY is set; silently skips otherwise.
  * Never logs contact details — only the HTTP status on failure.
  */
+import { sendOwnerEmail } from "./server/email";
+
 type LeadForEmail = {
   id: number; fullName: string; phone: string; city?: string | null; leadType: string; vehicleLabel: string;
   budget?: number | null; purchaseTimeline: string; sourcePage: string;
@@ -13,9 +15,7 @@ const WHEN_HE: Record<string, string> = { now: "בקרוב", three_months: "ב-3
 const esc = (v: unknown) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 export async function notifyNewLead(lead: LeadForEmail): Promise<void> {
-  const key = process.env.RESEND_API_KEY?.trim();
-  const to = process.env.AUTOAI_CONTACT_EMAIL?.trim();
-  if (!key || !to) return;
+  if (!process.env.RESEND_API_KEY?.trim() || !process.env.AUTOAI_CONTACT_EMAIL?.trim()) return;
   const intl = lead.phone.startsWith("0") ? `972${lead.phone.slice(1)}` : lead.phone;
   const rows: [string, string][] = [
     ["שם", lead.fullName], ["טלפון", lead.phone], ["עיר", lead.city || "—"], ["סוג פנייה", TYPE_HE[lead.leadType] ?? lead.leadType],
@@ -29,20 +29,5 @@ export async function notifyNewLead(lead: LeadForEmail): Promise<void> {
 <p style="margin:18px 0 0"><a href="tel:${esc(lead.phone)}" style="background:#0a7c59;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-weight:bold">התקשרות</a>
 &nbsp;<a href="https://wa.me/${esc(intl)}" style="background:#25d366;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-weight:bold">וואטסאפ</a></p>
 </div>`;
-  try {
-    const res = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: { authorization: `Bearer ${key}`, "content-type": "application/json" },
-      body: JSON.stringify({
-        from: process.env.LEAD_EMAIL_FROM?.trim() || "CamaOla <onboarding@resend.dev>",
-        to: [to],
-        subject: `ליד חדש #${lead.id}: ${TYPE_HE[lead.leadType] ?? lead.leadType}`,
-        html,
-      }),
-      signal: AbortSignal.timeout(5000),
-    });
-    if (!res.ok) console.error("[LeadNotify] email failed", res.status);
-  } catch (error) {
-    console.error("[LeadNotify] email error", error instanceof Error ? error.name : "unknown");
-  }
+  await sendOwnerEmail(`ליד חדש #${lead.id}: ${TYPE_HE[lead.leadType] ?? lead.leadType}`, html);
 }

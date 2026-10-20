@@ -132,3 +132,21 @@ describe("comparison pages", () => {
     for (const c of STATIC_CATALOG) expect(monthlyAt(c, 15000).total).toBe(c.bands[15000].total);
   });
 });
+
+import { renderWeekly, trend } from "../../server/report/weekly";
+
+describe("weekly report", () => {
+  const w = { visits: [120, 100] as [number, number], leads: [5, 5] as [number, number], optIns: 2, sentToPartner: 1, uncontacted: 3, followUpsDue: 0,
+    funnel: [{ k: "visit", n: 120 }], sources: [{ k: "instagram", n: 3 }], types: [{ k: "insurance", n: 2 }], owed: 200, paid: 0, sellCards: 4 };
+  it("states the trend in words", () => {
+    expect(trend([120, 100])).toContain("עלייה של 20");
+    expect(trend([5, 5])).toContain("כמו בשבוע שעבר");
+  });
+  it("lists what needs attention and never includes personal details", () => {
+    const { subject, html } = renderWeekly(w, "https://x.test");
+    expect(subject).toContain("120 ביקורים");
+    expect(html).toContain("3 פניות חדשות מחכות");
+    expect(html).toContain("ביטוח: 2");
+    expect(html).not.toMatch(/05\d{8}/);
+  });
+});
