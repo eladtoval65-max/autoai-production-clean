@@ -3,7 +3,7 @@
  * why it scored what it scored, plus the two privacy actions — consent certificate and erase details.
  */
 import { FileCheck2, UserX } from "lucide-react";
-import { leadQuality } from "@shared/leadPolicy";
+import { detailsSummary, leadQuality, parseDetails } from "@shared/leadPolicy";
 import { adminApi } from "../../../api";
 import { when } from "../../../format";
 import type { Lead } from "../../../types";
@@ -28,6 +28,7 @@ function QualityLine({ lead }: { lead: Lead }) {
   const { reasons } = leadQuality({
     purchaseTimeline: lead.purchaseTimeline as "now", budget: lead.budget, trimId: lead.trimId, city: lead.city,
     matchScore: lead.matchScore, partnerOptIn: Number(lead.partnerOptIn) === 1, isDuplicate: Boolean(lead.duplicateOfId),
+    hasDetails: Boolean(detailsSummary(parseDetails(lead.details))),
   });
   return <p className="mt-2"><b>ציון איכות {lead.qualityScore}:</b> <span className="text-muted">{reasons.join(" · ") || "בסיסי"}</span></p>;
 }
@@ -43,6 +44,7 @@ export function ConsentSection({ lead, run }: { lead: Lead; run: Run }) {
     <section className="space-y-3 rounded-2xl bg-mist p-4 text-[14px]">
       <p><b>מקור:</b> {lead.sourcePage}{lead.landingSlug && ` · /go/${lead.landingSlug}`}{lead.utmSource && ` · ${lead.utmSource}`}{lead.utmMedium && ` / ${lead.utmMedium}`}{lead.utmCampaign && ` · ${lead.utmCampaign}`}</p>
       <QualityLine lead={lead} />
+      {detailsSummary(parseDetails(lead.details)) && <p><b>פרטים לתמחור:</b> {detailsSummary(parseDetails(lead.details))}</p>}
       {lead.duplicateOfId && <p className="font-semibold text-alert">פנייה חוזרת: אותו טלפון כבר פנה בפנייה #{lead.duplicateOfId}. לא למכור פעמיים.</p>}
       <p><b>הסכמה לפנייה חוזרת</b> ({when(lead.consentAt)}{lead.consentVersion && ` · נוסח ${lead.consentVersion}`}): <span className="text-muted">{lead.consentText}</span></p>
       <p><b>הסכמה נפרדת להעברה לעסק:</b> {optIn ? <span className="text-go-deep">ניתנה בטופס — {lead.partnerOptInText}</span> : <span className="text-muted">לא ניתנה בטופס.</span>}</p>

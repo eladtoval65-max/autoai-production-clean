@@ -15,5 +15,5 @@ export const CLOSED_STATUSES = ["won", "lost", "closed"];
 export const LEAD_COLUMNS = `l.id, l.fullName, l.phone, l.city, l.leadType, l.vehicleLabel, l.budget, l.purchaseTimeline, l.sourcePage,
   l.utmSource, l.utmMedium, l.utmCampaign, l.landingSlug, l.status, l.followUpAt, l.partnerId, l.partnerConsentAt, l.partnerConsentNote,
   l.partnerSentAt, l.partnerPrice, l.partnerPaid, l.consentText, l.consentAt, l.createdAt, l.updatedAt, p.name AS partnerName,
-  l.consentVersion, l.partnerOptIn, l.partnerOptInText, l.duplicateOfId, l.qualityScore, l.anonymizedAt, l.trimId, l.matchScore, l.consentIpHash, l.consentUserAgent,
+  l.consentVersion, l.partnerOptIn, l.partnerOptInText, l.duplicateOfId, l.qualityScore, l.anonymizedAt, l.trimId, l.matchScore, l.consentIpHash, l.consentUserAgent, l.details,
   (SELECT COUNT(*) FROM lead_notes n WHERE n.leadId = l.id) AS noteCount`;

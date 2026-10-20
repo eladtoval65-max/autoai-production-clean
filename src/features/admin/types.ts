@@ -13,7 +13,7 @@ export type Lead = {
   partnerSentAt: string | null; partnerPrice: number | null; partnerPaid: number | boolean; consentText: string; consentAt: string; createdAt: string; noteCount: number;
   /** Consent proof and quality (schema v4; null on leads created before it). */
   consentVersion: string | null; partnerOptIn: number | boolean; partnerOptInText: string | null; duplicateOfId: number | null;
-  qualityScore: number | null; anonymizedAt: string | null; trimId: number | null; matchScore: number | null;
+  qualityScore: number | null; anonymizedAt: string | null; trimId: number | null; matchScore: number | null; details?: string | null;
 };
 
 /** One entry in a lead's history (call, WhatsApp, note, status change, partner hand-off). */
@@ -21,7 +21,7 @@ export type Note = { id: number; kind: string; body: string; createdAt: string }
 
 export type Partner = {
   id: number; name: string; type: string; contactName: string | null; phone: string | null; email: string | null; region: string | null;
-  pricePerLead: number | null; active: number | boolean; notes: string | null; leadCount: number; paidTotal: number; owedTotal: number;
+  pricePerLead: number | null; active: number | boolean; notes: string | null; webhookUrl?: string | null; leadCount: number; paidTotal: number; owedTotal: number;
 };
 
 export type LandingRow = {

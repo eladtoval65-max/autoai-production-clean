@@ -22,6 +22,7 @@ const ERRORS: Record<string, string> = {
   use_assign: "העברה לשותף נעשית דרך ״העברה לשותף״ עם תיעוד הסכמה.",
   partner_not_found: "השותף לא נמצא או לא פעיל.",
   confirm_required: "צריך לאשר מחיקה.",
+  bad_webhook: "כתובת השליחה האוטומטית חייבת להתחיל ב-https://",
   lead_anonymized: "פרטי הפנייה נמחקו; אי אפשר להעביר אותה לשותף.",
 };
 

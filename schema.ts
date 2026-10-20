@@ -330,6 +330,8 @@ export const leads = mysqlTable(
     qualityScore: int("qualityScore"),
     // Set when contact details were erased (customer request or retention period); the row stays for statistics.
     anonymizedAt: timestamp("anonymizedAt"),
+    // Optional pricing details for insurance / financing requests (JSON, see LeadDetails in leadPolicy.ts).
+    details: text("details"),
     createdAt: timestamp("createdAt").notNull().defaultNow(),
     updatedAt: timestamp("updatedAt").notNull().defaultNow().onUpdateNow(),
   },

@@ -71,3 +71,29 @@ describe("consent proof", () => {
     expect(cert).toContain(CONSENT_VERSION);
   });
 });
+
+import { detailsSummary, parseDetails } from "@shared/leadPolicy";
+import { isHttpsUrl, partnerPayload } from "../../server/admin/webhook";
+
+describe("pricing details and partner delivery", () => {
+  it("summarises only filled details", () => {
+    expect(detailsSummary({ driverAge: 24, claims3y: "0" })).toBe("גיל הנהג הצעיר: 24 · תביעות ב־3 השנים האחרונות: 0");
+    expect(detailsSummary(null)).toBe("");
+  });
+  it("parses stored JSON safely", () => {
+    expect(parseDetails('{"loanAmount":90000}')).toEqual({ loanAmount: 90000 });
+    expect(parseDetails("not json")).toBeNull();
+  });
+  it("accepts only https delivery addresses", () => {
+    expect(isHttpsUrl("https://hooks.zapier.com/x")).toBe(true);
+    expect(isHttpsUrl("http://example.com")).toBe(false);
+    expect(isHttpsUrl("javascript:alert(1)")).toBe(false);
+  });
+  it("sends the partner the lead, its details and the consent certificate", () => {
+    const p = partnerPayload({ id: 3, fullName: "דנה", phone: "0501234567", leadType: "insurance", vehicleLabel: "Corolla",
+      details: '{"driverAge":30}', consentText: "x", partnerOptIn: 1, partnerOptInText: "y" });
+    expect(p.details).toEqual({ driverAge: 30 });
+    expect(p.consentCertificate).toContain("תעודת הסכמה");
+    expect(p.phone).toBe("0501234567");
+  });
+});

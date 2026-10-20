@@ -61,6 +61,42 @@ export const RETENTION_MONTHS = 24;
 /** A repeat request from the same phone within this many days is marked as a duplicate of the first one. */
 export const DUPLICATE_WINDOW_DAYS = 30;
 
+/**
+ * Optional details that insurance agencies and finance companies need to price a quote. Never required;
+ * shown in the form only for the matching request type. Keys are validated on the server (routers.ts).
+ */
+export type LeadDetails = Partial<{
+  driverAge: number; licenseYears: number; claims3y: "0" | "1" | "2+"; carYear: number; // insurance
+  loanAmount: number; downPayment: number; months: number; // financing
+}>;
+
+export const DETAIL_FIELDS: Record<"insurance" | "financing", { key: keyof LeadDetails; label: string; kind: "number" | "claims"; min: number; max: number }[]> = {
+  insurance: [
+    { key: "driverAge", label: "גיל הנהג הצעיר", kind: "number", min: 17, max: 99 },
+    { key: "licenseYears", label: "ותק נהיגה (שנים)", kind: "number", min: 0, max: 80 },
+    { key: "claims3y", label: "תביעות ב־3 השנים האחרונות", kind: "claims", min: 0, max: 0 },
+    { key: "carYear", label: "שנת הרכב", kind: "number", min: 1990, max: 2030 },
+  ],
+  financing: [
+    { key: "loanAmount", label: "סכום מימון מבוקש (₪)", kind: "number", min: 1000, max: 2000000 },
+    { key: "downPayment", label: "הון עצמי (₪)", kind: "number", min: 0, max: 2000000 },
+    { key: "months", label: "מספר תשלומים", kind: "number", min: 6, max: 120 },
+  ],
+};
+
+/** One readable line of the filled details, for the admin, CSV, certificate and partner hand-off. */
+export function detailsSummary(details: LeadDetails | null | undefined): string {
+  if (!details) return "";
+  const all = [...DETAIL_FIELDS.insurance, ...DETAIL_FIELDS.financing];
+  return all.filter((f) => details[f.key] != null).map((f) => `${f.label}: ${details[f.key]}`).join(" · ");
+}
+
+/** Parses the stored JSON safely (bad or empty → null). */
+export function parseDetails(raw: unknown): LeadDetails | null {
+  if (!raw) return null;
+  try { const v = typeof raw === "string" ? JSON.parse(raw) : raw; return v && typeof v === "object" ? v as LeadDetails : null; } catch { return null; }
+}
+
 export type QualityInput = {
   purchaseTimeline: "now" | "three_months" | "later" | "unsure";
   budget?: number | null;
@@ -69,6 +105,7 @@ export type QualityInput = {
   matchScore?: number | null;
   partnerOptIn?: boolean;
   isDuplicate?: boolean;
+  hasDetails?: boolean;
 };
 
 /**
@@ -87,6 +124,7 @@ export function leadQuality(input: QualityInput): { score: number; reasons: stri
   if (input.city && input.city.trim()) add(5, "ציין אזור");
   if (input.matchScore && input.matchScore >= 80) add(5, "התאמה גבוהה לרכב");
   if (input.partnerOptIn) add(15, "הסכים להעברה לעסק");
+  if (input.hasDetails) add(5, "מסר פרטים לתמחור");
   if (input.isDuplicate) { score -= 40; reasons.push("פנייה חוזרת מאותו טלפון"); }
   return { score: Math.max(0, Math.min(100, score)), reasons };
 }

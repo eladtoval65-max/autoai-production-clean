@@ -6,13 +6,13 @@ import { PARTNER_TYPE } from "../../labels";
 import { btnGo, btnLine } from "../../styles";
 import type { Partner } from "../../types";
 
-export type PartnerDraft = { id: number; name: string; type: string; contactName: string; phone: string; email: string; region: string; pricePerLead: string; active: boolean; notes: string };
-export const EMPTY_PARTNER: PartnerDraft = { id: 0, name: "", type: "dealer", contactName: "", phone: "", email: "", region: "", pricePerLead: "", active: true, notes: "" };
+export type PartnerDraft = { id: number; name: string; type: string; contactName: string; phone: string; email: string; region: string; pricePerLead: string; active: boolean; notes: string; webhookUrl: string };
+export const EMPTY_PARTNER: PartnerDraft = { id: 0, name: "", type: "dealer", contactName: "", phone: "", email: "", region: "", pricePerLead: "", active: true, notes: "", webhookUrl: "" };
 
 /** Existing partner → editable draft (nulls become empty strings). */
 export const draftFromPartner = (p: Partner): PartnerDraft => ({
   id: p.id, name: p.name, type: p.type, contactName: p.contactName ?? "", phone: p.phone ?? "", email: p.email ?? "", region: p.region ?? "",
-  pricePerLead: p.pricePerLead == null ? "" : String(p.pricePerLead), active: Boolean(Number(p.active)), notes: p.notes ?? "",
+  pricePerLead: p.pricePerLead == null ? "" : String(p.pricePerLead), active: Boolean(Number(p.active)), notes: p.notes ?? "", webhookUrl: p.webhookUrl ?? "",
 });
 
 /** Create / edit a partner (business that may receive consented leads). */
@@ -36,6 +36,10 @@ export function PartnerForm({ initial, onSaved, onCancel }: { initial: PartnerDr
       <Field label="מחיר לליד (₪)"><input inputMode="numeric" value={draft.pricePerLead} onChange={set("pricePerLead")} dir="ltr" className={field} /></Field>
       <label className="flex min-h-11 items-center gap-2 self-end font-semibold"><input type="checkbox" checked={draft.active} onChange={(e) => setDraft({ ...draft, active: e.target.checked })} className="h-5 w-5 accent-[#0a7c59]" />פעיל</label>
       <Field label="הערות (תנאי הסכם, שעות)"><input value={draft.notes} onChange={set("notes")} className={field} /></Field>
+      <div className="sm:col-span-2">
+        <Field label="שליחה אוטומטית (Webhook, לא חובה)"><input type="url" value={draft.webhookUrl} onChange={set("webhookUrl")} placeholder="https://…" dir="ltr" className={field} /></Field>
+        <p className="mt-1 text-[13px] text-muted">כתובת https שהשותף נותן (מה-CRM שלו, Zapier או Make). כל ליד שמועבר אליו בהסכמה יישלח לשם מיד, עם תעודת ההסכמה.</p>
+      </div>
       {error && <p role="alert" className="font-semibold text-alert sm:col-span-3">{error}</p>}
       <div className="flex gap-2 sm:col-span-3"><button type="submit" className={btnGo}>שמירה</button><button type="button" onClick={onCancel} className={btnLine}>ביטול</button></div>
     </form>

@@ -7,6 +7,7 @@ import { RETENTION_MONTHS } from "@shared/leadPolicy";
 import { LEAD_STATUSES } from "../../schemaSetup";
 import { consentCertificate } from "./consentProof";
 import { handOffConsent } from "./handOff";
+import { sendToPartner } from "./webhook";
 import { CLOSED_STATUSES, LEAD_COLUMNS, LEAD_TYPES, NOTE_KINDS, TIMELINES } from "./constants";
 import { fail, int, optInt, optStr, rows, str, type Action } from "./http";
 
@@ -104,7 +105,7 @@ export const assignPartner: Action = async ({ pool, body }) => {
   const lead = rows(await pool.query("SELECT id, leadType, partnerOptIn, anonymizedAt FROM leads WHERE id = ?", [id]))[0];
   if (!lead) fail("not_found", 404);
   if (lead.anonymizedAt) fail("lead_anonymized");
-  const partner = rows(await pool.query("SELECT id, name, type, pricePerLead FROM partners WHERE id = ? AND active = 1", [partnerId]))[0];
+  const partner = rows(await pool.query("SELECT id, name, type, pricePerLead, webhookUrl FROM partners WHERE id = ? AND active = 1", [partnerId]))[0];
   if (!partner) fail("partner_not_found", 404);
   const note = handOffConsent(lead, partner.type, typed);
   if (!note) fail("consent_required");
@@ -113,6 +114,13 @@ export const assignPartner: Action = async ({ pool, body }) => {
     "UPDATE leads SET partnerId = ?, partnerConsentAt = NOW(), partnerConsentNote = ?, partnerSentAt = NOW(), partnerPrice = ?, partnerPaid = 0, status = 'sent_to_partner' WHERE id = ?",
     [partnerId, note, price, id]);
   await addHistory(pool, id!, "partner", `הועבר ל${partner.name}. הסכמת לקוח: ${note}`);
+  // Automatic delivery to the partner's system, when it gave us an address.
+  if (partner.webhookUrl) {
+    const full = rows(await pool.query(`SELECT ${LEAD_COLUMNS} ${FROM_LEADS} WHERE l.id = ?`, [id]))[0];
+    const sent = await sendToPartner(partner.webhookUrl, full);
+    await addHistory(pool, id!, "partner", sent.note);
+    return { ok: true, delivered: sent.ok };
+  }
   return { ok: true };
 };
 

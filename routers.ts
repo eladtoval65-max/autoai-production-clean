@@ -91,6 +91,16 @@ export const appRouter = router({
         consent: z.literal(true),
         // Separate, optional consent to be passed to ONE business of the category named in leadPolicy.ts.
         partnerConsent: z.boolean().default(false),
+        // Optional pricing details (insurance / financing), see LeadDetails in leadPolicy.ts.
+        details: z.object({
+          driverAge: z.number().int().min(17).max(99),
+          licenseYears: z.number().int().min(0).max(80),
+          claims3y: z.enum(["0", "1", "2+"]),
+          carYear: z.number().int().min(1990).max(2030),
+          loanAmount: z.number().int().min(1000).max(2000000),
+          downPayment: z.number().int().min(0).max(2000000),
+          months: z.number().int().min(6).max(120),
+        }).partial().strict().optional(),
         website: z.string().max(120).default(""), // Spam honeypot; ordinary users never see it.
       }).strict())
       .mutation(async ({ ctx, input }) => {
@@ -101,7 +111,8 @@ export const appRouter = router({
         if (!/^\S+@\S+\.\S+$/.test(process.env.AUTOAI_CONTACT_EMAIL ?? "")) {
           throw new TRPCError({ code: "SERVICE_UNAVAILABLE", message: "קליטת פניות עדיין אינה פעילה. נא לפנות לבעל האתר." });
         }
-        const { consent: _consent, website: _website, partnerConsent, ...details } = input;
+        const { consent: _consent, website: _website, partnerConsent, details: extra, ...details } = input;
+        const hasDetails = Boolean(extra && Object.keys(extra).length);
         try {
           // A repeat request from the same phone is kept (the customer may want something new) but linked to the first.
           const duplicateOfId = await findRecentLeadByPhone(details.phone, DUPLICATE_WINDOW_DAYS).catch(() => null);
@@ -117,7 +128,8 @@ export const appRouter = router({
             landingSlug: details.landingSlug || null,
             ...consentRecord(details.leadType, partnerConsent, ctx.req),
             duplicateOfId,
-            qualityScore: qualityScoreOf({ ...details, partnerOptIn: partnerConsent, isDuplicate: duplicateOfId !== null }),
+            details: hasDetails ? JSON.stringify(extra) : null,
+            qualityScore: qualityScoreOf({ ...details, partnerOptIn: partnerConsent, isDuplicate: duplicateOfId !== null, hasDetails }),
           });
           // Speed-to-lead: email the owner immediately (no-op when RESEND_API_KEY is unset).
           await notifyNewLead({ id: Number(id), ...details, city: details.city || null, budget: details.budget ?? null });

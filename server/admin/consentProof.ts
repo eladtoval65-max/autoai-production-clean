@@ -5,6 +5,8 @@
  * Pure function: takes a lead row (LEAD_COLUMNS shape) and returns the text. No database, no I/O.
  */
 
+import { detailsSummary, parseDetails } from "@shared/leadPolicy";
+
 type LeadRow = Record<string, any>; // eslint-disable-line @typescript-eslint/no-explicit-any
 
 const iso = (d: unknown) => (d ? new Date(d as string).toISOString().replace("T", " ").slice(0, 19) + " UTC" : "—");
@@ -19,6 +21,7 @@ export function consentCertificate(lead: LeadRow): string {
     `שם: ${lead.fullName}`,
     `טלפון: ${lead.phone}`,
     `סוג בקשה: ${lead.leadType} · רכב: ${lead.vehicleLabel}`,
+    ...(detailsSummary(parseDetails(lead.details)) ? [`פרטים לתמחור: ${detailsSummary(parseDetails(lead.details))}`] : []),
     `מקור: ${lead.sourcePage}${lead.landingSlug ? ` · /go/${lead.landingSlug}` : ""}${lead.utmSource ? ` · ${lead.utmSource}` : ""}`,
     "",
     "1) הסכמה לפנייה חוזרת מ״כמה עולה״",

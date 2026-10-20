@@ -2,6 +2,7 @@
  * CSV export of the visible leads (UTF-8 with BOM so Excel shows Hebrew correctly).
  * Contains personal data — the UI tells the owner to store the file securely.
  */
+import { detailsSummary, parseDetails } from "@shared/leadPolicy";
 import { LEAD_TYPE, STATUS, TIMELINE } from "../../labels";
 import type { Lead } from "../../types";
 
@@ -12,12 +13,12 @@ function csvCell(value: unknown): string {
   return `"${safe.replace(/"/g, '""')}"`;
 }
 
-const HEADER = ["מספר", "שם", "טלפון", "עיר", "סוג פנייה", "רכב", "תקציב", "מועד רכישה", "סטטוס", "מקור", "קמפיין", "שותף", "מחיר ליד", "שולם", "תאריך", "נוסח הסכמה", "זמן הסכמה", "הסכמה לשותף", "גרסת נוסח", "הסכמה נפרדת בטופס", "ציון איכות", "כפול של"];
+const HEADER = ["מספר", "שם", "טלפון", "עיר", "סוג פנייה", "רכב", "תקציב", "מועד רכישה", "סטטוס", "מקור", "קמפיין", "שותף", "מחיר ליד", "שולם", "תאריך", "נוסח הסכמה", "זמן הסכמה", "הסכמה לשותף", "גרסת נוסח", "הסכמה נפרדת בטופס", "ציון איכות", "כפול של", "פרטים לתמחור"];
 
 const rowFor = (r: Lead) => [
   r.id, r.fullName, r.phone, r.city, LEAD_TYPE[r.leadType] ?? r.leadType, r.vehicleLabel, r.budget, TIMELINE[r.purchaseTimeline] ?? r.purchaseTimeline,
   STATUS[r.status] ?? r.status, r.utmSource || r.landingSlug || r.sourcePage, r.utmCampaign, r.partnerName, r.partnerPrice, r.partnerPaid ? "כן" : "",
-  r.createdAt, r.consentText, r.consentAt, r.partnerConsentNote, r.consentVersion, Number(r.partnerOptIn) === 1 ? r.partnerOptInText : "", r.qualityScore, r.duplicateOfId,
+  r.createdAt, r.consentText, r.consentAt, r.partnerConsentNote, r.consentVersion, Number(r.partnerOptIn) === 1 ? r.partnerOptInText : "", r.qualityScore, r.duplicateOfId, detailsSummary(parseDetails(r.details)),
 ];
 
 /** Builds the file and triggers a download. */

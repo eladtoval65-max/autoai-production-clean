@@ -1,5 +1,6 @@
 import { LEAD_CONSENT_TEXT } from "@shared/const";
-import { partnerConsentText } from "@shared/leadPolicy";
+import { partnerConsentText, type LeadDetails } from "@shared/leadPolicy";
+import { LeadExtraFields } from "./LeadExtraFields";
 import { CollectionNotice } from "./CollectionNotice";
 import { trpc } from "@/lib/trpc";
 import { useState, type FormEvent } from "react";
@@ -31,6 +32,7 @@ export default function LeadRequestModal({
   const [leadType, setLeadType] = useState<RequestType>(defaultType ?? "vehicle");
   const [purchaseTimeline, setPurchaseTimeline] = useState<Timeline>("unsure");
   const [consent, setConsent] = useState(false);
+  const [details, setDetails] = useState<LeadDetails>({}); // optional insurance / financing details
   const [partnerConsent, setPartnerConsent] = useState(false); // separate and optional; never pre-ticked
   const [website, setWebsite] = useState(""); // Spam honeypot.
   const [requestId] = useState(() => crypto.randomUUID());
@@ -56,6 +58,7 @@ export default function LeadRequestModal({
         sourcePage,
         consent: true,
         partnerConsent,
+        details: (leadType === "insurance" || leadType === "financing") && Object.keys(details).length ? details : undefined,
         website,
         ...getUtm(),
         landingSlug,
@@ -92,6 +95,7 @@ export default function LeadRequestModal({
                   <option value="three_months">בשלושת החודשים הקרובים</option><option value="later">בהמשך השנה</option>
                 </select>
               </label>
+              <LeadExtraFields leadType={leadType} value={details} onChange={setDetails} fieldClass={fieldClass} />
               <div className="absolute -left-[9999px]" aria-hidden="true"><label>Website<input tabIndex={-1} autoComplete="off" value={website} onChange={event => setWebsite(event.target.value)} /></label></div>
               <label className="flex cursor-pointer items-start gap-3 border-t border-line pt-4 text-[14px] leading-6 text-muted">
                 <input type="checkbox" checked={consent} onChange={event => setConsent(event.target.checked)} required className="mt-1 h-5 w-5 shrink-0" />
