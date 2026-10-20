@@ -117,3 +117,18 @@ describe("seller card", () => {
   it("lists years newest first", () => expect(yearsOfModel(corolla)[0]).toBeGreaterThan(yearsOfModel(corolla).at(-1)!));
   it("ad text is an estimate with the link", () => expect(adText("טויוטה קורולה 2018", 2345, "https://x/sell/card?a")).toMatch(/כ־₪2,350 בחודש.*https:\/\/x/));
 });
+
+import { STATIC_CATALOG } from "../data/catalogData";
+import { comparePairs, findPair, monthlyAt, pairSlug } from "../features/compare/model/pairs";
+
+describe("comparison pages", () => {
+  const pairs = comparePairs();
+  it("has unique, canonical slugs", () => {
+    expect(new Set(pairs.map((p) => p.slug)).size).toBe(pairs.length);
+    for (const p of pairs) expect(p.slug).toBe(pairSlug(p.b.id, p.a.id));
+  });
+  it("finds a pair by slug", () => expect(findPair(pairs[0].slug)?.slug).toBe(pairs[0].slug));
+  it("monthly total at 15,000 km equals the catalog band", () => {
+    for (const c of STATIC_CATALOG) expect(monthlyAt(c, 15000).total).toBe(c.bands[15000].total);
+  });
+});

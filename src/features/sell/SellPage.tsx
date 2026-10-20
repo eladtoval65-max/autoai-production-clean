@@ -10,7 +10,7 @@ import { card, field } from "../../shared/styles";
 import { POWERTRAIN_HE } from "../browse/model/labels";
 import LeadRequestModal from "../leads/LeadRequestModal";
 import { CardView } from "./components/CardView";
-import { SellShell } from "./components/SellShell";
+import { PageShell as SellShell } from "../../shared/ui/PageShell";
 import { estimateUsedCost } from "../browse/model/usedCost";
 import { adText, decodeCard, encodeCard, genForYear, yearsOfModel, type Card } from "./model/sellCard";
 

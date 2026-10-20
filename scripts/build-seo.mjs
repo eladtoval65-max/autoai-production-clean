@@ -5,12 +5,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { build } from "esbuild";
 
-/** Loads MAKES and PRICES_VERIFIED from the TypeScript data file. */
-async function loadMakes(root) {
-  const tmp = path.join(root, "node_modules/.cache/seo-gen.mjs");
+/** Bundles one TypeScript module and imports it (data files and the pure comparison model). */
+async function loadTs(root, entry, name) {
+  const tmp = path.join(root, `node_modules/.cache/seo-${name}.mjs`);
   fs.mkdirSync(path.dirname(tmp), { recursive: true });
-  await build({ entryPoints: [path.join(root, "src/data/generations.ts")], outfile: tmp, format: "esm", bundle: true, logLevel: "error" });
+  await build({ entryPoints: [path.join(root, entry)], outfile: tmp, format: "esm", bundle: true, logLevel: "error" });
   return import(`${tmp}?t=${Date.now()}`);
+}
+/** MAKES and PRICES_VERIFIED, plus every comparison page (same pairs the site shows). */
+async function loadMakes(root) {
+  const data = await loadTs(root, "src/data/generations.ts", "gen");
+  const cmp = await loadTs(root, "src/features/compare/model/pairs.ts", "pairs");
+  const comparisons = cmp.comparePairs().map((p) => ({ path: `/compare/${p.slug}`, ...cmp.pairMeta(p) }));
+  return { ...data, comparisons };
 }
 
 const nf = new Intl.NumberFormat("he-IL");
@@ -21,10 +28,12 @@ const SUFFIX = " | כמה עולה";
  * Every public page with its own title and description (admin, API and campaign pages are not indexed).
  * The titles match what each page sets in the browser (document.title), so Google and the browser agree.
  */
-function sitePages(makes) {
+function sitePages(makes, comparisons = []) {
   const pages = [
     { path: "/", title: null, description: null }, // home keeps index.html's own tags
     { path: "/cars", title: "כל הדגמים לפי יצרן, משנת 2010" + SUFFIX, description: "כל דגמי הרכב בישראל מאז 2010 לפי יצרן: דורות, מנועים, מה לבדוק ביד שנייה ומחשבון עלות חודשית." },
+    { path: "/compare", title: "השוואות רכבים לפי עלות חודשית" + SUFFIX, description: "רכבים באותו טווח מחיר, זה מול זה: דלק, ביטוח (הערכה), טיפולים, ירידת ערך ורישוי — מי עולה פחות בחודש." },
+    ...comparisons,
     { path: "/sell", title: "מוכרים רכב? כרטיס ״כמה עולה בחודש״ למודעה" + SUFFIX, description: "צרו בחינם כרטיס שמראה לקונים כמה הרכב שלכם יעלה להם בחודש, והוסיפו אותו למודעה ביד2 או בכל מקום אחר." },
     { path: "/about", title: "איך מחשבים כמה עולה רכב" + SUFFIX, description: "השיטה: דלק או חשמל, ביטוח (הערכה), טיפולים, ירידת ערך ורישוי — המקורות ותאריך העדכון האחרון." },
     { path: "/privacy", title: "מדיניות פרטיות" + SUFFIX, description: "מה נאסף, למה, למי מועבר וכמה זמן נשמר — והזכויות שלכם." },
@@ -42,7 +51,7 @@ function sitePages(makes) {
   }
   return pages;
 }
-const sitePaths = (makes) => sitePages(makes).map((p) => p.path);
+const sitePaths = (makes, comparisons) => sitePages(makes, comparisons).map((p) => p.path);
 
 const esc = (t) => t.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 
@@ -66,11 +75,11 @@ export function siteUrl() {
 }
 
 export async function writeSeoFiles(root, staticDir) {
-  const { MAKES, PRICES_VERIFIED } = await loadMakes(root);
+  const { MAKES, PRICES_VERIFIED, comparisons } = await loadMakes(root);
   const base = siteUrl();
   const robots = ["User-agent: *", "Allow: /", "Disallow: /admin", "Disallow: /api/", "Disallow: /go/"];
   if (base) {
-    const urls = sitePaths(MAKES).map((p) => `  <url><loc>${base}${p}</loc><lastmod>${PRICES_VERIFIED}</lastmod></url>`);
+    const urls = sitePaths(MAKES, comparisons).map((p) => `  <url><loc>${base}${p}</loc><lastmod>${PRICES_VERIFIED}</lastmod></url>`);
     fs.writeFileSync(path.join(staticDir, "sitemap.xml"),
       `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`);
     robots.push(`Sitemap: ${base}/sitemap.xml`);
@@ -80,12 +89,12 @@ export async function writeSeoFiles(root, staticDir) {
   // One HTML file per page (cars/toyota/corolla.html …) served at its clean URL through config "overrides".
   const template = fs.readFileSync(path.join(staticDir, "index.html"), "utf8");
   const overrides = {};
-  for (const page of sitePages(MAKES)) {
+  for (const page of sitePages(MAKES, comparisons)) {
     if (!page.title) continue;
     const file = `${page.path.slice(1)}.html`;
     fs.mkdirSync(path.dirname(path.join(staticDir, file)), { recursive: true });
     fs.writeFileSync(path.join(staticDir, file), pageHtml(template, page, base));
     overrides[file] = { path: page.path.slice(1), contentType: "text/html; charset=utf-8" };
   }
-  return { base, count: base ? sitePaths(MAKES).length : 0, overrides };
+  return { base, count: base ? sitePaths(MAKES, comparisons).length : 0, overrides };
 }

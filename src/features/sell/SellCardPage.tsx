@@ -7,7 +7,7 @@ import { Link, useSearch } from "wouter";
 import { MAKES } from "../../data/generations";
 import LeadRequestModal from "../leads/LeadRequestModal";
 import { CardView } from "./components/CardView";
-import { SellShell } from "./components/SellShell";
+import { PageShell as SellShell } from "../../shared/ui/PageShell";
 import { decodeCard } from "./model/sellCard";
 
 export default function SellCardPage() {

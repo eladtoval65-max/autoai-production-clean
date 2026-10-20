@@ -1,9 +1,9 @@
 import type { ReactNode } from "react";
 import { Link } from "wouter";
-import { BrandMark } from "../../../shared/ui/BrandMark";
+import { BrandMark } from "./BrandMark";
 
-/** Light frame for the seller pages: header with brand and a link to the car browser. */
-export function SellShell({ children }: { children: ReactNode }) {
+/** Light page frame (seller tools, comparisons): header with brand and a link to the car browser. */
+export function PageShell({ children }: { children: ReactNode }) {
   return (
     <div dir="rtl" lang="he" className="min-h-screen bg-mist text-ink">
       <header className="border-b border-line bg-white">
