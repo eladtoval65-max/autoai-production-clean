@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { yad2Search, type Make, type ModelLine } from "../../../data/generations";
 import { modelYears, priceText, wikiTitle } from "../model/labels";
 import { GenerationCard } from "./GenerationCard";
+import { ModelLeadCta } from "./ModelLeadCta";
 import { StatusBadge } from "./StatusBadge";
 import { UsedCostCalculator } from "./UsedCostCalculator";
 import { WikiPhoto } from "./WikiPhoto";
@@ -34,6 +35,7 @@ export function ModelPage({ make, model }: { make: Make; model: ModelLine }) {
       <h2 className="mt-12 text-2xl">הדורות מאז 2010</h2>
       <ol className="mt-5 space-y-4">{[...model.gens].reverse().map((g) => <GenerationCard key={g.code} gen={g} />)}</ol>
       <div className="mt-10"><UsedCostCalculator make={make} model={model} /></div>
+      <ModelLeadCta make={make} model={model} />
     </>
   );
 }

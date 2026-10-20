@@ -7,6 +7,26 @@ import { monthlyFor } from "../../model/cost";
 import { isFleetOwnership, matchCatalogCar, plateDisplayFields, type PlateRecord } from "../../model/plate";
 import type { Car } from "../../types";
 
+/**
+ * Official checks a buyer should run before paying. We LINK to the government services and never state a car is
+ * "not stolen" ourselves: the police check only shows whether a theft was reported.
+ */
+function BuyerChecks() {
+  const links: [string, string][] = [
+    ["https://www.gov.il/apps/police/stolencar/", "האם דווח כגנוב (משטרת ישראל)"],
+    ["https://www.gov.il/he/service/recall-vehicle", "קריאות שירות בטיחותיות (ריקול)"],
+  ];
+  return (
+    <div className="mt-4 rounded-xl border border-line p-4 text-[15px]">
+      <p className="font-semibold">לפני שמשלמים — בדיקות רשמיות בחינם:</p>
+      <ul className="mt-2 space-y-1">
+        {links.map(([href, text]) => <li key={href}><a href={href} target="_blank" rel="noopener noreferrer" className="underline">{text}</a></li>)}
+      </ul>
+      <p className="mt-2 text-[13px] text-muted">ובנוסף: בדיקה במכון מורשה, והשוואת מספר השלדה ברכב לרישיון הרכב.</p>
+    </div>
+  );
+}
+
 type Props = { record: PlateRecord; cars: Car[]; km: number; onLead: (label: string) => void; onDetails: (id: string) => void };
 
 /** Registry facts for a found plate, ex-fleet warning, our monthly-cost estimate when the model is in the catalog, and a lead CTA. */
@@ -25,6 +45,7 @@ export function PlateResult({ record, cars, km, onLead, onDetails }: Props) {
         {fields.map(([k, v]) => <div key={k} className="min-w-0"><dt className="text-[13px] font-semibold text-muted">{t.plateFields[k]}</dt><dd className="m-0 break-words text-[16px] font-semibold">{v}</dd></div>)}
       </dl>
       {isFleetOwnership(record.ownership) && <p className="mt-4 rounded-xl bg-[#fff4e8] px-4 py-3 text-[15px] text-[#7a3410]">{t.plateLeasing}</p>}
+      <BuyerChecks />
       {match && (
         <div className="mt-5 rounded-xl bg-mist p-4">
           <p className="text-[14px] text-muted">{t.plateMatch}</p>
