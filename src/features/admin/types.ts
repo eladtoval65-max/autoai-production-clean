@@ -3,7 +3,7 @@
  */
 export type SetupStatus = {
   dbConfigured: boolean; dbReachable: boolean; leadsTable: boolean; schemaErrors?: string[];
-  contactEmail: boolean; emailAlerts: boolean; chatKey: boolean;
+  contactEmail: boolean; emailAlerts: boolean; chatKey: boolean; siteUrl?: boolean;
 };
 
 export type Lead = {
@@ -11,6 +11,9 @@ export type Lead = {
   purchaseTimeline: string; sourcePage: string; utmSource: string | null; utmMedium: string | null; utmCampaign: string | null; landingSlug: string | null;
   status: string; followUpAt: string | null; partnerId: number | null; partnerName: string | null; partnerConsentAt: string | null; partnerConsentNote: string | null;
   partnerSentAt: string | null; partnerPrice: number | null; partnerPaid: number | boolean; consentText: string; consentAt: string; createdAt: string; noteCount: number;
+  /** Consent proof and quality (schema v4; null on leads created before it). */
+  consentVersion: string | null; partnerOptIn: number | boolean; partnerOptInText: string | null; duplicateOfId: number | null;
+  qualityScore: number | null; anonymizedAt: string | null; trimId: number | null; matchScore: number | null;
 };
 
 /** One entry in a lead's history (call, WhatsApp, note, status change, partner hand-off). */

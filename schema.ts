@@ -319,6 +319,17 @@ export const leads = mysqlTable(
     partnerSentAt: timestamp("partnerSentAt"),
     partnerPrice: int("partnerPrice"),
     partnerPaid: boolean("partnerPaid").notNull().default(false),
+    // Consent proof (see leadPolicy.ts): text version, separate partner opt-in, and request fingerprint (hashed IP, browser).
+    consentVersion: varchar("consentVersion", { length: 20 }),
+    partnerOptIn: boolean("partnerOptIn").notNull().default(false),
+    partnerOptInText: text("partnerOptInText"),
+    consentIpHash: varchar("consentIpHash", { length: 64 }),
+    consentUserAgent: varchar("consentUserAgent", { length: 255 }),
+    // Lead quality: repeat request from the same phone, and an explainable 0–100 score.
+    duplicateOfId: int("duplicateOfId"),
+    qualityScore: int("qualityScore"),
+    // Set when contact details were erased (customer request or retention period); the row stays for statistics.
+    anonymizedAt: timestamp("anonymizedAt"),
     createdAt: timestamp("createdAt").notNull().defaultNow(),
     updatedAt: timestamp("updatedAt").notNull().defaultNow().onUpdateNow(),
   },

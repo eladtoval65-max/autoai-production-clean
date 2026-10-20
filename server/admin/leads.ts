@@ -3,7 +3,10 @@
  * Rule (do not relax): a lead is assigned to a partner ONLY with a recorded, explicit customer consent —
  * the original form consent covers a call back from CamaOla only.
  */
+import { RETENTION_MONTHS } from "@shared/leadPolicy";
 import { LEAD_STATUSES } from "../../schemaSetup";
+import { consentCertificate } from "./consentProof";
+import { handOffConsent } from "./handOff";
 import { CLOSED_STATUSES, LEAD_COLUMNS, LEAD_TYPES, NOTE_KINDS, TIMELINES } from "./constants";
 import { fail, int, optInt, optStr, rows, str, type Action } from "./http";
 
@@ -93,19 +96,57 @@ export const addNote: Action = async ({ pool, body }) => {
   return { ok: true };
 };
 
-/** POST assign {id, partnerId, consent: true, consentNote, price?} — consented hand-off to an active partner. */
+/** POST assign {id, partnerId, consent: true, consentNote?, price?} — consented hand-off to an active partner. */
 export const assignPartner: Action = async ({ pool, body }) => {
-  const id = int(body.id), partnerId = int(body.partnerId), note = str(body.consentNote, 300);
+  const id = int(body.id), partnerId = int(body.partnerId), typed = str(body.consentNote, 300);
   if (!id || !partnerId) fail("bad_request");
-  if (body.consent !== true || note.length < 5) fail("consent_required");
-  const partner = rows(await pool.query("SELECT id, name, pricePerLead FROM partners WHERE id = ? AND active = 1", [partnerId]))[0];
+  if (body.consent !== true) fail("consent_required");
+  const lead = rows(await pool.query("SELECT id, leadType, partnerOptIn, anonymizedAt FROM leads WHERE id = ?", [id]))[0];
+  if (!lead) fail("not_found", 404);
+  if (lead.anonymizedAt) fail("lead_anonymized");
+  const partner = rows(await pool.query("SELECT id, name, type, pricePerLead FROM partners WHERE id = ? AND active = 1", [partnerId]))[0];
   if (!partner) fail("partner_not_found", 404);
+  const note = handOffConsent(lead, partner.type, typed);
+  if (!note) fail("consent_required");
   const price = body.price === "" || body.price == null ? partner.pricePerLead ?? null : int(body.price);
   await pool.query(
     "UPDATE leads SET partnerId = ?, partnerConsentAt = NOW(), partnerConsentNote = ?, partnerSentAt = NOW(), partnerPrice = ?, partnerPaid = 0, status = 'sent_to_partner' WHERE id = ?",
     [partnerId, note, price, id]);
   await addHistory(pool, id!, "partner", `הועבר ל${partner.name}. הסכמת לקוח: ${note}`);
   return { ok: true };
+};
+
+/** GET consentProof&id= — the consent certificate a partner can keep with the lead (see consentProof.ts). */
+export const getConsentProof: Action = async ({ pool, query }) => {
+  const id = int(query.id);
+  const lead = rows(await pool.query(`SELECT ${LEAD_COLUMNS} ${FROM_LEADS} WHERE l.id = ?`, [id]))[0];
+  if (!lead) fail("not_found", 404);
+  return { certificate: consentCertificate(lead) };
+};
+
+/** Replaces contact details with placeholders; the row stays for statistics. */
+const ANONYMIZE_SET = "fullName = 'נמחק', phone = '0000000000', city = NULL, consentIpHash = NULL, consentUserAgent = NULL, anonymizedAt = NOW()";
+
+/** POST leadAnonymize {id, confirm: true} — erase a customer's details at their request, keeping anonymous statistics. */
+export const anonymizeLead: Action = async ({ pool, body }) => {
+  const id = int(body.id);
+  if (!id || body.confirm !== true) fail("confirm_required");
+  await pool.query(`UPDATE leads SET ${ANONYMIZE_SET} WHERE id = ?`, [id]);
+  await pool.query("DELETE FROM lead_notes WHERE leadId = ?", [id]); // notes may contain personal details
+  await addHistory(pool, id!, "note", "פרטי הקשר נמחקו לבקשת הלקוח");
+  return { ok: true };
+};
+
+/**
+ * POST purgeOld {confirm: true} — retention: anonymise leads older than RETENTION_MONTHS (privacy policy promise).
+ * Leads still open with a partner deal (sent_to_partner, unpaid) are kept until settled.
+ */
+export const purgeOldLeads: Action = async ({ pool, body }) => {
+  if (body.confirm !== true) fail("confirm_required");
+  const [result] = await pool.query(
+    `UPDATE leads SET ${ANONYMIZE_SET} WHERE anonymizedAt IS NULL AND createdAt < NOW() - INTERVAL ? MONTH
+       AND NOT (status = 'sent_to_partner' AND partnerPaid = 0)`, [RETENTION_MONTHS]);
+  return { ok: true, anonymized: (result as { affectedRows?: number }).affectedRows ?? 0 };
 };
 
 /** POST unassign {id} — cancels the hand-off; the lead goes back to "qualified". The consent record is kept. */

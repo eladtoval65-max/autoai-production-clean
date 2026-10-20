@@ -2,7 +2,7 @@
  * Action table for /api/admin: action name → handler and the HTTP method it requires.
  * Reads are GET (?action=…), writes are POST ({action, …}).
  */
-import { addNote, assignPartner, deleteLead, getLead, listLeads, unassignPartner, updateLead } from "./leads";
+import { addNote, anonymizeLead, assignPartner, deleteLead, getConsentProof, getLead, listLeads, purgeOldLeads, unassignPartner, updateLead } from "./leads";
 import { listLandings, saveLanding } from "./landings";
 import { listPartners, savePartner } from "./partners";
 import { initDatabase } from "./setup";
@@ -18,6 +18,9 @@ export const ROUTES: Record<string, Route> = {
   leadUpdate: { method: "POST", run: updateLead },
   setStatus: { method: "POST", run: updateLead }, // legacy name used by older admin pages
   leadDelete: { method: "POST", run: deleteLead },
+  leadAnonymize: { method: "POST", run: anonymizeLead },
+  purgeOld: { method: "POST", run: purgeOldLeads },
+  consentProof: { method: "ANY", run: getConsentProof },
   noteAdd: { method: "POST", run: addNote },
   assign: { method: "POST", run: assignPartner },
   unassign: { method: "POST", run: unassignPartner },

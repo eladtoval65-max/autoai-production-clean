@@ -21,6 +21,7 @@ export function getPool(): mysql.Pool | null {
   pool = mysql.createPool({
     uri: url,
     connectionLimit: 3,
+    timezone: "Z", // all timestamps are UTC, whatever the server's local time zone (consent proof depends on it)
     waitForConnections: true,
     ...(needsTls ? { ssl: { minVersion: "TLSv1.2", rejectUnauthorized: true } } : {}),
   });

@@ -3,7 +3,7 @@ export const ONE_YEAR_MS = 1000 * 60 * 60 * 24 * 365;
 export const AXIOS_TIMEOUT_MS = 30_000;
 export const UNAUTHED_ERR_MSG = 'Please login (10001)';
 export const NOT_ADMIN_ERR_MSG = 'You do not have required permission (10002)';
-export const LEAD_CONSENT_TEXT = "אני מבקש/ת שנציג ״כמה עולה״ יחזור אליי בנוגע לבקשת הרכב שבחרתי. פרטי הקשר והעדפות הרכב יישמרו במערכת ״כמה עולה״ לצורך טיפול בפנייה בלבד. בשלב זה פרטים אינם מועברים לעסקים חיצוניים; העברה כזו תדרוש הסכמה נפרדת.";
+export const LEAD_CONSENT_TEXT = "אני מבקש/ת שנציג ״כמה עולה״ יחזור אליי בנוגע לבקשת הרכב שבחרתי. פרטי הקשר והעדפות הרכב יישמרו במערכת ״כמה עולה״ לצורך טיפול בפנייה. הפרטים לא יועברו לעסק אחר, אלא אם סימנתי בנפרד הסכמה לכך.";
 
 // One-time nonce cookie that binds an OAuth login to the browser that started
 // it. The `__Host-` prefix forces the cookie host-only (Secure, Path=/, no

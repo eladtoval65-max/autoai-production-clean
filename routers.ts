@@ -1,10 +1,13 @@
 import { z } from "zod";
 import { TRPCError } from "@trpc/server";
 import { notifyNewLead } from "./leadNotify";
-import { COOKIE_NAME, LEAD_CONSENT_TEXT } from "@shared/const";
+import { COOKIE_NAME } from "@shared/const";
+import { DUPLICATE_WINDOW_DAYS } from "@shared/leadPolicy";
+import { consentRecord, leadRateLimited, qualityScoreOf, requestIp } from "./server/leads/intake";
 import {
   createLead,
   createSearchSession,
+  findRecentLeadByPhone,
   getVehicleCatalogItem,
   getTcoMultiBand,
   listLeadsForAdmin,
@@ -86,15 +89,22 @@ export const appRouter = router({
         utmCampaign: z.string().trim().max(120).optional(),
         landingSlug: z.string().trim().regex(/^[a-z0-9-]{1,60}$/).optional(),
         consent: z.literal(true),
+        // Separate, optional consent to be passed to ONE business of the category named in leadPolicy.ts.
+        partnerConsent: z.boolean().default(false),
         website: z.string().max(120).default(""), // Spam honeypot; ordinary users never see it.
       }).strict())
-      .mutation(async ({ input }) => {
+      .mutation(async ({ ctx, input }) => {
         if (input.website) throw new TRPCError({ code: "BAD_REQUEST", message: "Invalid request" });
+        if (leadRateLimited(requestIp(ctx.req))) {
+          throw new TRPCError({ code: "TOO_MANY_REQUESTS", message: "נשלחו יותר מדי בקשות. נסו שוב בעוד כמה דקות." });
+        }
         if (!/^\S+@\S+\.\S+$/.test(process.env.AUTOAI_CONTACT_EMAIL ?? "")) {
           throw new TRPCError({ code: "SERVICE_UNAVAILABLE", message: "קליטת פניות עדיין אינה פעילה. נא לפנות לבעל האתר." });
         }
-        const { consent: _consent, website: _website, ...details } = input;
+        const { consent: _consent, website: _website, partnerConsent, ...details } = input;
         try {
+          // A repeat request from the same phone is kept (the customer may want something new) but linked to the first.
+          const duplicateOfId = await findRecentLeadByPhone(details.phone, DUPLICATE_WINDOW_DAYS).catch(() => null);
           const id = await createLead({
             ...details,
             trimId: details.trimId ?? null,
@@ -105,8 +115,9 @@ export const appRouter = router({
             utmMedium: details.utmMedium || null,
             utmCampaign: details.utmCampaign || null,
             landingSlug: details.landingSlug || null,
-            consentText: LEAD_CONSENT_TEXT,
-            consentAt: new Date(),
+            ...consentRecord(details.leadType, partnerConsent, ctx.req),
+            duplicateOfId,
+            qualityScore: qualityScoreOf({ ...details, partnerOptIn: partnerConsent, isDuplicate: duplicateOfId !== null }),
           });
           // Speed-to-lead: email the owner immediately (no-op when RESEND_API_KEY is unset).
           await notifyNewLead({ id: Number(id), ...details, city: details.city || null, budget: details.budget ?? null });

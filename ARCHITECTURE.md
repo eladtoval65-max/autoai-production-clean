@@ -23,6 +23,7 @@ src/
     i18n.tsx              he/en dictionary, LangProvider, shekel()
     analytics.ts          anonymous funnel events + UTM capture (no personal data)
     vehicleImages.ts      car photos (Wikipedia lead image → Commons fallback)
+    siteInfo.ts           operator name / id / contact from VITE_OPERATOR_* env (shown on the legal pages)
     format.ts, styles.ts  pure formatters; Tailwind class recipes (card, btnPrimary…)
     ui/                   Stars, Score, MonthlyTag, Money, CodeChip, CarPhoto, SaveBtn, Slider, BrandMark…
   features/
@@ -35,19 +36,22 @@ src/
     browse/               "/cars…" makes → models → generations, used-car monthly cost calculator
     admin/                "/admin" owner CRM: leads (+ panel sections), partners, landing pages, stats, setup
     landing/              "/go/:slug" owner-edited campaign pages
-    leads/                LeadRequestModal (consented lead form, shared by home and landing)
+    leads/                LeadRequestModal (consented lead form, shared by home and landing) + CollectionNotice
+    legal/                /privacy, /terms, /accessibility, /about (methodology) on a shared LegalPage layout
   tests/                  vitest unit tests for model/ functions (npm test)
 
 server/admin/             /api/admin internals: auth (session cookie), http helpers, constants, router (action table),
-                          leads / partners / landings / stats / setup handlers
+                          leads / partners / landings / stats / setup handlers, handOff (consent rule), consentProof (certificate)
+server/leads/intake.ts    public lead intake: consent record (version, hashed IP, browser), rate limit, quality score
+leadPolicy.ts             (root, @shared/leadPolicy) consent texts + version, partner categories, collection notice, quality score
 api/                      Vercel function entry points (thin): chat, plate, admin, event, landing
-scripts/                  data pipeline (seed batches → catalogData, validate-data), Vercel build
+scripts/                  data pipeline (seed batches → catalogData, validate-data), Vercel build, build-seo (sitemap/robots)
 ```
 
 ## Security rules (never relax)
 - Never log API keys, request bodies, passwords, cookies or lead contact data.
-- Leads require explicit consent with the documented `LEAD_CONSENT_TEXT`; a lead goes to a partner only with a separately recorded consent (enforced in `server/admin/leads.ts`).
-- Admin endpoints require the owner session (`server/admin/auth.ts`). Rate limits: chat 12/min/IP, admin login 5/min/IP.
+- Leads require explicit consent with the documented `LEAD_CONSENT_TEXT`; a lead goes to a partner only with a separately recorded consent (enforced in `server/admin/handOff.ts`): either the form opt-in for that partner category, or a written note of how the customer agreed. Changing any consent text → bump `CONSENT_VERSION` in `leadPolicy.ts`.
+- Admin endpoints require the owner session (`server/admin/auth.ts`). Rate limits: chat 12/min/IP, admin login 5/min/IP, lead form 5 per 10 min/IP. The raw IP is never stored (salted hash only).
 - Never publish unverified data as fact; insurance is always an estimate, never a quote.
 
 ## Data

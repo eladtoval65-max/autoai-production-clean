@@ -1,11 +1,13 @@
 import { LEAD_CONSENT_TEXT } from "@shared/const";
+import { partnerConsentText } from "@shared/leadPolicy";
+import { CollectionNotice } from "./CollectionNotice";
 import { trpc } from "@/lib/trpc";
 import { useState, type FormEvent } from "react";
 import { Check, X } from "lucide-react";
 import { Link } from "wouter";
 import { getUtm, sendEvent } from "../../shared/analytics";
 
-type RequestType = "vehicle" | "financing" | "insurance" | "trade_in" | "used_car" | "test_drive";
+import type { LeadType as RequestType } from "@shared/leadPolicy";
 type Timeline = "now" | "three_months" | "later" | "unsure";
 
 export default function LeadRequestModal({
@@ -29,6 +31,7 @@ export default function LeadRequestModal({
   const [leadType, setLeadType] = useState<RequestType>(defaultType ?? "vehicle");
   const [purchaseTimeline, setPurchaseTimeline] = useState<Timeline>("unsure");
   const [consent, setConsent] = useState(false);
+  const [partnerConsent, setPartnerConsent] = useState(false); // separate and optional; never pre-ticked
   const [website, setWebsite] = useState(""); // Spam honeypot.
   const [requestId] = useState(() => crypto.randomUUID());
   const [receivedId, setReceivedId] = useState<number | null>(null);
@@ -52,6 +55,7 @@ export default function LeadRequestModal({
         purchaseTimeline,
         sourcePage,
         consent: true,
+        partnerConsent,
         website,
         ...getUtm(),
         landingSlug,
@@ -70,7 +74,7 @@ export default function LeadRequestModal({
         {receivedId === null ? (
           <>
             <h2 className="pe-12 text-[1.7rem] leading-tight">רוצים שנחזור אליכם?</h2>
-            <p className="mt-2 text-[15px] leading-6 text-muted">בקשה לגבי {vehicle.make.split(" · ")[0]}. פרטי הקשר יישמרו ב״כמה עולה״ בלבד; בשלב זה אין העברה אוטומטית לגורם מסחרי.</p>
+            <p className="mt-2 text-[15px] leading-6 text-muted">בקשה לגבי {vehicle.make.split(" · ")[0]}. פרטי הקשר נשמרים ב״כמה עולה״ ולא מועברים לאף עסק בלי הסכמה נפרדת שלכם.</p>
             <form className="mt-6 space-y-4" onSubmit={onSubmit}>
               <label className="block text-[15px] font-semibold">מה מעניין אתכם?
                 <select className={`mt-1 ${fieldClass}`} value={leadType} onChange={event => setLeadType(event.target.value as RequestType)}>
@@ -93,7 +97,12 @@ export default function LeadRequestModal({
                 <input type="checkbox" checked={consent} onChange={event => setConsent(event.target.checked)} required className="mt-1 h-5 w-5 shrink-0" />
                 <span>{LEAD_CONSENT_TEXT}</span>
               </label>
-              <Link href="/privacy" className="inline-block text-[14px] underline">מידע על פרטיות ופניות</Link>
+              <label className="flex cursor-pointer items-start gap-3 text-[14px] leading-6 text-muted">
+                <input type="checkbox" checked={partnerConsent} onChange={event => setPartnerConsent(event.target.checked)} className="mt-1 h-5 w-5 shrink-0" />
+                <span><b className="text-ink">לא חובה:</b> {partnerConsentText(leadType)}</span>
+              </label>
+              <CollectionNotice />
+              <Link href="/privacy" className="inline-block text-[14px] underline">מדיניות הפרטיות המלאה</Link>
               {create.error && <p role="alert" className="text-[15px] font-semibold text-alert">{create.error.message || "לא הצלחנו לשמור את הפנייה; נסו שוב."}</p>}
               <button type="submit" disabled={!consent || create.isPending} className="min-h-12 w-full rounded-full bg-go px-5 text-[17px] font-bold text-white hover:bg-go-deep disabled:opacity-50">{create.isPending ? "שומרים פנייה…" : "שליחת בקשה ל״כמה עולה״"}</button>
             </form>

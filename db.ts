@@ -319,6 +319,20 @@ export async function createLead(input: Omit<NewLead, "id" | "status" | "created
   return result[0].insertId;
 }
 
+/**
+ * The earliest lead from the same phone in the last `days` days (or null). Used to mark repeat requests,
+ * so a partner is never sold the same person twice and the owner sees one conversation.
+ */
+export async function findRecentLeadByPhone(phone: string, days: number): Promise<number | null> {
+  const db = await getDb();
+  if (!db) return null;
+  const since = new Date(Date.now() - days * 86_400_000);
+  const found = await db.select({ id: leads.id }).from(leads)
+    .where(and(eq(leads.phone, phone), gte(leads.createdAt, since)))
+    .orderBy(asc(leads.createdAt)).limit(1);
+  return found[0]?.id ?? null;
+}
+
 export async function listLeadsForAdmin(limit = 50) {
   const db = await getDb();
   if (!db) throw new Error("Database unavailable");

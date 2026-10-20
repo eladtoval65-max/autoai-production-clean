@@ -5,7 +5,20 @@ import { isOverdue, when } from "../../format";
 import { CLOSED_STATUSES, LEAD_TYPE } from "../../labels";
 import type { Lead } from "../../types";
 
-const COLUMNS = ["#", "נוצר", "שם", "טלפון", "סוג ורכב", "מקור", "סטטוס", "מעקב"];
+const COLUMNS = ["#", "נוצר", "שם", "טלפון", "סוג ורכב", "איכות", "מקור", "סטטוס", "מעקב"];
+
+/** Quality badge (0–100, see leadPolicy.ts) plus flags a partner cares about: opted in, repeat request. */
+function QualityCell({ lead }: { lead: Lead }) {
+  const score = lead.qualityScore;
+  const tone = score == null ? "bg-mist text-muted" : score >= 70 ? "bg-go-soft text-go-deep" : score >= 40 ? "bg-[#fff4e8] text-[#8a5300]" : "bg-mist text-muted";
+  return (
+    <td className="p-3 text-[13px]">
+      <span className={`inline-block rounded-full px-2 py-0.5 font-bold ${tone}`}>{score ?? "—"}</span>
+      {Number(lead.partnerOptIn) === 1 && <span className="mt-1 block text-go-deep">✓ הסכים לעסק</span>}
+      {lead.duplicateOfId && <span className="mt-1 block text-alert">כפול של #{lead.duplicateOfId}</span>}
+    </td>
+  );
+}
 
 /** Where the lead came from: UTM source, landing page, or the site page. */
 const sourceOf = (l: Lead) => l.utmSource || (l.landingSlug ? `/go/${l.landingSlug}` : l.sourcePage);
@@ -23,6 +36,7 @@ function LeadRow({ lead, onOpen }: { lead: Lead; onOpen: () => void }) {
       </td>
       <td className="p-3"><ContactButtons phone={lead.phone} /></td>
       <td className="p-3">{LEAD_TYPE[lead.leadType] ?? lead.leadType}<span className="block text-[13px] text-muted">{lead.vehicleLabel}</span></td>
+      <QualityCell lead={lead} />
       <td className="p-3 text-[14px]">{sourceOf(lead)}{lead.utmCampaign && <span className="block text-[12px] text-muted">{lead.utmCampaign}</span>}</td>
       <td className="p-3"><StatusPill status={lead.status} />{lead.partnerName && <span className="mt-1 block text-[12px] text-muted">{lead.partnerName}</span>}</td>
       <td className={`whitespace-nowrap p-3 text-[14px] ${overdue ? "font-bold text-alert" : "text-muted"}`}>

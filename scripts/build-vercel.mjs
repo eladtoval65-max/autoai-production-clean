@@ -5,6 +5,7 @@ import { build } from "esbuild";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { writeSeoFiles } from "./build-seo.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = path.join(root, ".vercel/output");
@@ -18,6 +19,8 @@ if (!fs.existsSync(path.join(staticSrc, "index.html"))) {
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 fs.cpSync(staticSrc, path.join(out, "static"), { recursive: true });
+const seo = await writeSeoFiles(root, path.join(out, "static"));
+console.log(`[build-vercel] robots.txt${seo.base ? ` + sitemap.xml (${seo.count} pages, ${seo.base})` : " (no SITE_URL: sitemap skipped)"}`);
 
 const functions = [
   { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },

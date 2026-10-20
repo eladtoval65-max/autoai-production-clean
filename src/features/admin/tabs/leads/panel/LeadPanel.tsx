@@ -6,20 +6,11 @@ import { btn, btnGo } from "../../../styles";
 import type { Lead } from "../../../types";
 import { FollowUp } from "./FollowUp";
 import { LeadEditForm } from "./LeadEditForm";
+import { ConsentSection } from "./ConsentSection";
 import { NotesSection } from "./NotesSection";
 import { PartnerSection } from "./PartnerSection";
 import { StatusButtons } from "./StatusButtons";
 import { useLeadDetail, type PanelMessage } from "./useLeadDetail";
-
-/** Where the lead came from and the exact consent text the customer agreed to. */
-function SourceAndConsent({ lead }: { lead: Lead }) {
-  return (
-    <section className="rounded-2xl bg-mist p-4 text-[14px]">
-      <p><b>מקור:</b> {lead.sourcePage}{lead.landingSlug && ` · /go/${lead.landingSlug}`}{lead.utmSource && ` · ${lead.utmSource}`}{lead.utmMedium && ` / ${lead.utmMedium}`}{lead.utmCampaign && ` · ${lead.utmCampaign}`}</p>
-      <p className="mt-2"><b>הסכמה מקורית</b> ({when(lead.consentAt)}): <span className="text-muted">{lead.consentText}</span></p>
-    </section>
-  );
-}
 
 function Message({ message }: { message: PanelMessage }) {
   if (!message) return null;
@@ -63,8 +54,8 @@ export function LeadPanel({ id, onClose, onChanged }: { id: number; onClose: () 
             <NotesSection notes={notes} onAdd={(kind, body) => run("noteAdd", { kind, body }, "נרשם")} />
             <PartnerSection lead={lead} partners={partners} run={run} />
             <LeadEditForm lead={lead} onSave={(fields) => run("leadUpdate", { fields }, "נשמר")} />
-            <SourceAndConsent lead={lead} />
-            <button onClick={remove} className="inline-flex items-center gap-2 text-[14px] font-bold text-alert"><Trash2 className="h-4 w-4" />מחיקת הפנייה (למשל לבקשת הלקוח)</button>
+            <ConsentSection lead={lead} run={run} />
+            <button onClick={remove} className="inline-flex items-center gap-2 text-[14px] font-bold text-alert"><Trash2 className="h-4 w-4" />מחיקת הפנייה לגמרי (כולל מהסטטיסטיקה)</button>
           </div>
         )}
       </aside>

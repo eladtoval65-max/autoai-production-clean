@@ -18,6 +18,7 @@ export async function setupStatus(pool: Pool | null) {
     contactEmail: /^\S+@\S+\.\S+$/.test(process.env.AUTOAI_CONTACT_EMAIL ?? ""),
     emailAlerts: Boolean(process.env.RESEND_API_KEY?.trim()),
     chatKey: Boolean(process.env.ANTHROPIC_API_KEY?.trim()),
+    siteUrl: Boolean(process.env.SITE_URL?.trim() || process.env.VERCEL_PROJECT_PRODUCTION_URL),
   };
 }
 

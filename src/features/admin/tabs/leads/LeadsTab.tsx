@@ -3,6 +3,8 @@ import { useState } from "react";
 import { EmptyBox } from "../../components/EmptyBox";
 import { isOverdue } from "../../format";
 import { CLOSED_STATUSES } from "../../labels";
+import { RETENTION_MONTHS } from "@shared/leadPolicy";
+import { adminApi, errorText } from "../../api";
 import { btnLine } from "../../styles";
 import { downloadLeadsCsv } from "./exportCsv";
 import { LeadsFilters } from "./LeadsFilters";
@@ -17,6 +19,14 @@ export function LeadsTab() {
   const { leads, busy, error, reload } = useLeads(filters);
   const newCount = leads.filter((l) => l.status === "new").length;
   const dueCount = leads.filter((l) => isOverdue(l.followUpAt, l.status, CLOSED_STATUSES)).length;
+
+  /** Retention promise in the privacy policy: erase contact details of leads older than RETENTION_MONTHS. */
+  async function purgeOld() {
+    if (!window.confirm(`למחוק פרטי קשר של פניות ישנות מ־${RETENTION_MONTHS} חודשים? (עסקאות שותף שלא שולמו נשמרות)`)) return;
+    const r = await adminApi<{ anonymized: number }>("purgeOld", { confirm: true });
+    window.alert(r.ok ? `נמחקו פרטים של ${r.data.anonymized} פניות.` : errorText(r));
+    reload();
+  }
 
   return (
     <section>
@@ -35,7 +45,7 @@ export function LeadsTab() {
       <LeadsFilters value={filters} onChange={setFilters} />
       {error && <p role="alert" className="mt-3 font-semibold text-alert">{error}</p>}
       {leads.length === 0 && !busy ? <EmptyBox text="אין פניות שמתאימות לסינון. אפשר להשאיר פנייה מהאתר כבדיקה." /> : <LeadsTable leads={leads} onOpen={setOpenId} />}
-      <p className="mt-4 text-[13px] text-muted">הפניות נשמרות לטיפול פנימי. העברה לשותף רק אחרי הסכמה נפרדת ומתועדת של הלקוח. קובץ ה-CSV כולל פרטים אישיים: לשמור במקום מוגן.</p>
+      <p className="mt-4 text-[13px] text-muted">הפניות נשמרות לטיפול פנימי. העברה לשותף רק אחרי הסכמה נפרדת ומתועדת של הלקוח. קובץ ה-CSV כולל פרטים אישיים: לשמור במקום מוגן.{" "}<button onClick={purgeOld} className="font-bold underline">ניקוי פניות ישנות</button></p>
       {openId !== null && <LeadPanel id={openId} onClose={() => setOpenId(null)} onChanged={reload} />}
     </section>
   );

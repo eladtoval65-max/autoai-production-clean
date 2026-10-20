@@ -7,7 +7,10 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { LangProvider } from "./src/shared/i18n";
 import HomePage from "./src/features/home/HomePage";
 import AdminPage from "./src/features/admin/AdminPage";
-import Privacy from "./pages/Privacy";
+import PrivacyPage from "./src/features/legal/PrivacyPage";
+import TermsPage from "./src/features/legal/TermsPage";
+import AccessibilityPage from "./src/features/legal/AccessibilityPage";
+import AboutPage from "./src/features/legal/AboutPage";
 import LandingPage from "./src/features/landing/LandingPage";
 import BrowsePage from "./src/features/browse/BrowsePage";
 function Router() {
@@ -17,7 +20,10 @@ function Router() {
       <Route path="/" component={HomePage} />
       <Route path="/admin/leads" component={AdminPage} />
       <Route path="/admin" component={AdminPage} />
-      <Route path="/privacy" component={Privacy} />
+      <Route path="/privacy" component={PrivacyPage} />
+      <Route path="/terms" component={TermsPage} />
+      <Route path="/accessibility" component={AccessibilityPage} />
+      <Route path="/about" component={AboutPage} />
       <Route path="/go/:slug" component={LandingPage} />
       <Route path="/cars/:make/:model" component={BrowsePage} />
       <Route path="/cars/:make" component={BrowsePage} />
