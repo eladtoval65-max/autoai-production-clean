@@ -1,3 +1,4 @@
+import { MakeBadge } from "./MakeBadge";
 import { useEffect } from "react";
 import { Link } from "wouter";
 import type { Make, ModelLine } from "../../../data/generations";
@@ -25,7 +26,7 @@ export function MakePage({ make }: { make: Make }) {
   useEffect(() => { document.title = `${make.he} — כל הדגמים והדורות מ-2010 | כמה עולה`; }, [make]);
   return (
     <>
-      <h1 className="text-[clamp(2rem,4vw,3rem)] leading-tight">{make.he} <span className="text-muted" dir="ltr">{make.name}</span></h1>
+      <h1 className="flex flex-wrap items-center gap-3 text-[clamp(2rem,4vw,3rem)] leading-tight"><MakeBadge id={make.id} name={make.name} size={52} />{make.he} <span className="text-muted" dir="ltr">{make.name}</span></h1>
       <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {make.models.map((m) => <li key={m.id}><ModelTile make={make} model={m} /></li>)}
       </ul>

@@ -4,6 +4,7 @@ import { Link } from "wouter";
 import { MAKES } from "../../../data/generations";
 import { card } from "../../../shared/styles";
 import { matchesQuery } from "../model/labels";
+import { MakeBadge } from "./MakeBadge";
 
 /** Search box: as the user types, matching models appear as quick links. */
 function ModelSearch({ query, setQuery }: { query: string; setQuery: (q: string) => void }) {
@@ -40,8 +41,13 @@ export function MakesGrid() {
         {makes.map((mk) => (
           <li key={mk.id}>
             <Link href={`/cars/${mk.id}`} className={`${card} flex h-full flex-col p-5 text-ink no-underline hover:border-go`}>
-              <span className="font-display text-xl font-bold">{mk.he}</span>
-              <span className="text-[14px] text-muted" dir="ltr">{mk.name}</span>
+              <span className="flex items-center gap-3">
+                <MakeBadge id={mk.id} name={mk.name} />
+                <span className="flex min-w-0 flex-col">
+                  <span className="font-display text-xl font-bold">{mk.he}</span>
+                  <span className="text-[14px] text-muted" dir="ltr">{mk.name}</span>
+                </span>
+              </span>
               <span className="mt-3 text-[14px] text-muted">{mk.models.map((m) => m.he).join(" · ")}</span>
             </Link>
           </li>

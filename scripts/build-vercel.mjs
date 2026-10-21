@@ -1,3 +1,5 @@
+// API sources live in api-src/ (not api/): Vercel auto-compiles anything in api/ file by file, unbundled,
+// and those copies replaced the bundled functions below (ERR_MODULE_NOT_FOUND in production).
 // Packages the Vite build + API functions into Vercel's Build Output API (v3).
 // Vercel uses .vercel/output when the build command creates it, so routing and
 // functions are fully defined here instead of being inferred by the platform.
@@ -23,13 +25,13 @@ const seo = await writeSeoFiles(root, path.join(out, "static"));
 console.log(`[build-vercel] robots.txt${seo.base ? ` + sitemap.xml (${seo.count} pages, ${seo.base})` : " (no SITE_URL: sitemap skipped)"} + ${Object.keys(seo.overrides).length} page HTML files`);
 
 const functions = [
-  { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },
-  { name: "plate", entry: "api/plate.ts", maxDuration: 15, helpers: true },
-  { name: "admin", entry: "api/admin.ts", maxDuration: 60, helpers: true },
-  { name: "event", entry: "api/event.ts", maxDuration: 10, helpers: true },
-  { name: "landing", entry: "api/landing.ts", maxDuration: 10, helpers: true },
-  { name: "report", entry: "api/report.ts", maxDuration: 30, helpers: true },
-  { name: "health", entry: "api/health.ts", maxDuration: 60, helpers: true },
+  { name: "chat", entry: "api-src/chat.ts", maxDuration: 30, helpers: true },
+  { name: "plate", entry: "api-src/plate.ts", maxDuration: 15, helpers: true },
+  { name: "admin", entry: "api-src/admin.ts", maxDuration: 60, helpers: true },
+  { name: "event", entry: "api-src/event.ts", maxDuration: 10, helpers: true },
+  { name: "landing", entry: "api-src/landing.ts", maxDuration: 10, helpers: true },
+  { name: "report", entry: "api-src/report.ts", maxDuration: 30, helpers: true },
+  { name: "health", entry: "api-src/health.ts", maxDuration: 60, helpers: true },
   { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 60, helpers: false },
 ];
 
