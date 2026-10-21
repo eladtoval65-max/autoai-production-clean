@@ -15,7 +15,7 @@ export function ChoiceOption({ choice, active, multi, onSelect }: { choice: Choi
     <button onClick={onSelect} aria-pressed={active} role={multi ? "checkbox" : undefined} aria-checked={multi ? active : undefined}
       className={`group flex h-full w-full items-center gap-3 rounded-xl border-2 px-4 py-3 text-start transition-colors ${active ? "border-go bg-go-soft" : "border-line bg-white hover:border-[#9fb0c2]"}`}>
       {choice.amount
-        ? <span className="num w-[5.4rem] shrink-0 text-[22px] leading-none text-ink" dir="ltr">{choice.amount}</span>
+        ? <span className="num min-w-[5.4rem] shrink-0 whitespace-nowrap text-[22px] leading-none text-ink" dir="ltr">{choice.amount}</span>
         : Icon && <span className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${active ? "bg-go text-white" : "bg-mist text-go"}`}><Icon aria-hidden className="h-5 w-5" strokeWidth={1.9} /></span>}
       <span className="min-w-0 flex-1">
         <span className="block text-[16px] font-bold leading-snug">{label}</span>

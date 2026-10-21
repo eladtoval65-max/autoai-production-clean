@@ -47,7 +47,7 @@ function FinderQuestion({ quiz, stepKey }: { quiz: Quiz; stepKey: StepKey }) {
     <div key={stepKey} className="swap">
       <h2 className="mt-5 text-[clamp(1.35rem,2.3vw,1.7rem)] leading-tight">{titles[stepKey]}</h2>
       <p className="mt-1 text-[15px] text-muted">{hint}</p>
-      <ul className={`mt-4 grid gap-2.5 ${options.length === 4 ? "sm:grid-cols-2" : ""}`}>
+      <ul className="mt-4 grid gap-2.5">
         {options.map((c) => {
           const v = String(c.value);
           return (

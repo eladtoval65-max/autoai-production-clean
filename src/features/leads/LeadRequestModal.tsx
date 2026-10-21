@@ -110,7 +110,7 @@ export default function LeadRequestModal({
               </label>
               <CollectionNotice />
               <Link href="/privacy" className="inline-block text-[14px] underline">מדיניות הפרטיות המלאה</Link>
-              {create.error && <p role="alert" className="text-[15px] font-semibold text-alert">{create.error.message || "לא הצלחנו לשמור את הפנייה; נסו שוב."}</p>}
+              {create.error && <p role="alert" className="text-[15px] font-semibold text-alert">{/[\u0590-\u05FF]/.test(create.error.message) ? create.error.message : "השרת לא הגיב כרגע. נסו שוב בעוד דקה — הפרטים שמילאתם נשמרו בטופס."}</p>}
               <button type="submit" disabled={!consent || create.isPending} className="min-h-12 w-full rounded-full bg-go px-5 text-[17px] font-bold text-white hover:bg-go-deep disabled:opacity-50">{create.isPending ? "שומרים פנייה…" : "שליחת בקשה ל״כמה עולה״"}</button>
             </form>
           </>

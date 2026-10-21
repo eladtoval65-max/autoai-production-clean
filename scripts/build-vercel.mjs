@@ -25,12 +25,12 @@ console.log(`[build-vercel] robots.txt${seo.base ? ` + sitemap.xml (${seo.count}
 const functions = [
   { name: "chat", entry: "api/chat.ts", maxDuration: 30, helpers: true },
   { name: "plate", entry: "api/plate.ts", maxDuration: 15, helpers: true },
-  { name: "admin", entry: "api/admin.ts", maxDuration: 30, helpers: true },
+  { name: "admin", entry: "api/admin.ts", maxDuration: 60, helpers: true },
   { name: "event", entry: "api/event.ts", maxDuration: 10, helpers: true },
   { name: "landing", entry: "api/landing.ts", maxDuration: 10, helpers: true },
   { name: "report", entry: "api/report.ts", maxDuration: 30, helpers: true },
   { name: "health", entry: "api/health.ts", maxDuration: 60, helpers: true },
-  { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 30, helpers: false },
+  { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 60, helpers: false },
 ];
 
 for (const fn of functions) {
