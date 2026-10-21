@@ -99,6 +99,10 @@ async function run(pool: Pool, stmt: string) {
   catch (e: any) { if (SKIP_ERRNO.has(e?.errno)) return false; throw e; }
 }
 
+/** Errors that mean "can't reach or log into the database" — no point trying the other statements. */
+const FATAL_CODES = new Set(["ER_ACCESS_DENIED_ERROR", "ER_DBACCESS_DENIED_ERROR", "ER_BAD_DB_ERROR", "ECONNREFUSED", "ENOTFOUND", "ETIMEDOUT", "PROTOCOL_CONNECTION_LOST"]);
+const isFatal = (e: any) => FATAL_CODES.has(e?.code);
+
 let ready: Promise<void> | null = null;
 /** Error codes of upgrade statements that failed on this instance (no SQL text, no data). */
 export let schemaErrors: string[] = [];
@@ -113,12 +117,16 @@ export function ensureSchema(pool: Pool): Promise<void> {
       try {
         const [rows] = await pool.query("SELECT version FROM app_schema WHERE id = 1");
         if (Number((rows as any[])[0]?.version ?? 0) >= SCHEMA_VERSION) return;
-      } catch { /* app_schema missing: fresh or pre-CRM database */ }
+      } catch (e) {
+        // Login / network failure: stop now (fast, clear error) instead of failing every statement until the timeout.
+        if (isFatal(e)) { console.error("[Schema] database unreachable", (e as any)?.code); throw e; }
+        /* otherwise app_schema is missing: fresh or pre-CRM database */
+      }
       const failed: string[] = [];
       // Each statement is independent: one unsupported DDL must not block the rest.
       const attempt = async (stmt: string, label: string) => {
         try { await run(pool, stmt); }
-        catch (e: any) { failed.push(`${label}:${e?.code ?? e?.errno ?? "error"}`); console.error("[Schema] statement failed", label, e?.code ?? e?.errno); }
+        catch (e: any) { if (isFatal(e)) throw e; failed.push(`${label}:${e?.code ?? e?.errno ?? "error"}`); console.error("[Schema] statement failed", label, e?.code ?? e?.errno); }
       };
       let i = 0;
       // Base Drizzle migrations only on a database that doesn't have them yet.
