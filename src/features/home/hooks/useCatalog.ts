@@ -1,16 +1,15 @@
 /**
- * Loads the car catalog: live database via tRPC when it has rows, otherwise the static sourced catalog.
+ * The car catalog the recommendations and comparisons run on.
+ *
+ * Source of truth = the static, sourced catalog (src/data/catalogData.ts): it is the one the daily agent
+ * verifies and updates, with full 7k/15k/25k cost bands for every car. The database copy (tRPC catalog.list)
+ * is an older seed with fewer cars and partial costs, so it is no longer used here — when the production
+ * database came back online it replaced the full catalog with that seed (comparisons showed only the licence fee).
  */
-import { useMemo } from "react";
-import { trpc } from "@/lib/trpc";
 import type { Car } from "../types";
-import { carFromDbRow, staticCars } from "../model/catalog";
+import { staticCars } from "../model/catalog";
 
-export function useCatalog(annualKm: number): Car[] {
-  const query = trpc.catalog.list.useQuery({ limit: 100, annualKm }, { retry: 1 });
-  return useMemo<Car[]>(() => {
-    const rows = query.data ?? [];
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    return rows.length ? rows.map((r) => carFromDbRow(r as any)) : staticCars;
-  }, [query.data]);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function useCatalog(_annualKm: number): Car[] {
+  return staticCars;
 }
