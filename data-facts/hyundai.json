@@ -1,0 +1,235 @@
+{
+  "make": "hyundai",
+  "updated": "2026-10-21",
+  "models": {
+    "tucson": {
+      "ix35 (LM)": {
+        "issues": [
+          {
+            "he": "קריאת שירות לקדם-מותחן חגורת הבטיחות של הנהג — לוודא במוסך מורשה שהתיקון בוצע",
+            "level": "recall",
+            "scope": "ייצור 11/2011–6/2012",
+            "source": {
+              "title": "What Car? — Used Hyundai ix35 2009-2015 reliability",
+              "url": "https://whatcar.com/hyundai/ix35/4x4/used-review/n19583/advice"
+            }
+          },
+          {
+            "he": "בעלים רבים מתלוננים על מיזוג אוויר חלש — לבדוק בנסיעת מבחן שהמזגן מקרר היטב",
+            "level": "widely_reported",
+            "source": {
+              "title": "Cars.co.za — Hyundai ix35 (2010-2016) Buyer's Guide",
+              "url": "https://www.cars.co.za/motoring-news/hyundai-ix35-2010-2016-buyers-guide/130998/"
+            }
+          },
+          {
+            "he": "ציפוי גלגל ההגה מתקלף אחרי כמה שנים (היצרן הוציא הודעת שירות) — לבדוק את מצב ההגה",
+            "level": "manufacturer",
+            "source": {
+              "title": "Cars.co.za — Hyundai ix35 (2010-2016) Buyer's Guide",
+              "url": "https://www.cars.co.za/motoring-news/hyundai-ix35-2010-2016-buyers-guide/130998/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין אוטומטי",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 10.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai ix35 בנזין 115–125 kW אוטומט, 2009–2013 (34 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1185-ix35.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=115&power_e=125&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7103/euroncap_hyundai_ix35_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 157500,
+          "year": 2010,
+          "note": "2.0 בנזין, הנעה קדמית, רמת גימור Inspire",
+          "source": {
+            "title": "וואלה! רכב — השקת יונדאי ix35 בישראל (6/2010)",
+            "url": "https://cars.walla.co.il/item/1683804"
+          }
+        }
+      },
+      "TL": {
+        "issues": [
+          {
+            "he": "קריאת שירות בארה״ב: מודול ABS עלול לקצר ולגרום לשריפה בתא המנוע — לבדוק שהוחלף הנתיך ועודכנה התוכנה",
+            "level": "recall",
+            "scope": "דגמי ארה״ב 2016–2021",
+            "source": {
+              "title": "NHTSA recall 20V-543 — Tucson ABS module",
+              "url": "https://static.nhtsa.gov/odi/rcl/2020/RCLRPT-20V543-3047.PDF"
+            }
+          },
+          {
+            "he": "תפס הביטחון המשני של מכסה המנוע עלול לא להחזיק — לוודא שבוצעה קריאת השירות (תפס חזק יותר ועדכון תוכנה)",
+            "level": "recall",
+            "scope": "ייצור 1/2015–3/2016",
+            "source": {
+              "title": "What Car? — Used Hyundai Tucson 2015-2020 reliability",
+              "url": "https://www.whatcar.com/hyundai/tucson/4x4/used-review/n17892/advice"
+            }
+          },
+          {
+            "he": "1.6 טורבו עם גיר רובוטי כפול מצמד: גמגום בזינוק מעמידה — לבדוק בנסיעה בפקקים ולוודא שבוצע עדכון התוכנה",
+            "level": "manufacturer",
+            "scope": "1.6 טורבו DCT, ייצור עד 11/2015",
+            "source": {
+              "title": "Consumer Reports — 2016 Hyundai Tucson transmission gets a free fix",
+              "url": "https://www.consumerreports.org/tucson/2016-hyundai-tucson-transmission-gets-a-free-fix"
+            }
+          },
+          {
+            "he": "קריאת שירות על אובדן אפשרי של סיוע הבלמים — לבדוק שהבלם לא קשה ושבוצע התיקון",
+            "level": "recall",
+            "scope": "2018–2020 (מתיחת פנים)",
+            "source": {
+              "title": "car-recalls.co.uk — Hyundai Tucson 2018-2020 loss of brake assistance",
+              "url": "https://car-recalls.co.uk/recall/hyundai-tucson-2018-2020-loss-of-brake-assistance/"
+            }
+          },
+          {
+            "he": "דיווחים על תקלות חשמל קטנות — לבדוק שכל המערכות (מסכים, חלונות, חיישנים) פועלות",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Hyundai Tucson 2015-2020 reliability",
+              "url": "https://www.whatcar.com/hyundai/tucson/4x4/used-review/n17892/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 GDI בנזין",
+            "pt": "petrol",
+            "hp": 132,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tucson בנזין 92–102 kW, 2015–2019 (130 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/189-Tucson.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=92&power_e=102&gearing=1"
+            }
+          },
+          {
+            "name": "1.6 טורבו בנזין DCT",
+            "pt": "petrol",
+            "hp": 177,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tucson בנזין 125–135 kW DCT, 2014–2018 (100 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/189-Tucson.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=125&power_e=135&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.euroncap.com/en/results/hyundai/tucson/21319"
+        },
+        "launchPrice": {
+          "ils": 142900,
+          "year": 2015,
+          "note": "1.6 בנזין, רמת גימור Prime",
+          "source": {
+            "title": "icar — יונדאי טוסון בישראל, החל מ-142,900 שקל (10/2015)",
+            "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_טוסון_בישראל._החל_מ-142,900_שקל/"
+          }
+        }
+      },
+      "NX4": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): משאבת הוואקום של מגבר הבלמים עלולה להינזק בהתנעה — לבדוק שאין הודעת אזהרה ושבוצע התיקון",
+            "level": "recall",
+            "scope": "2022–2023",
+            "source": {
+              "title": "car-recalls.eu — Hyundai Tucson 2022-2023 brake booster vacuum pump",
+              "url": "https://car-recalls.eu/recall/hyundai-tucson-2022-2023-brake-booster-vacuum-pump/"
+            }
+          },
+          {
+            "he": "קריאת שירות (EU): מנגנון ההגנה מפני היתפסות בחלונות האחוריים לא פועל כראוי — לוודא ביצוע",
+            "level": "recall",
+            "scope": "2022–2023",
+            "source": {
+              "title": "car-recalls.eu — Hyundai Tucson 2022-2023 rear window trapping",
+              "url": "https://car-recalls.eu/recall/hyundai-tucson-2022-2023-rear-window-trapping/"
+            }
+          },
+          {
+            "he": "כרית אוויר וילון צדדית עלולה להיות מורכבת מפותלת — לבדוק מול היבואן אם הרכב בקריאה",
+            "level": "recall",
+            "scope": "2021–2023",
+            "source": {
+              "title": "car-recalls.co.uk — Hyundai Tucson 2021-2023 side curtain airbag",
+              "url": "https://car-recalls.co.uk/recall/hyundai-tucson-2021-2023-the-side-curtain-airbag/"
+            }
+          },
+          {
+            "he": "בהיברידי: דיווחים על איבוד כוח לסירוגין ונורות אזהרה — לבקש היסטוריית טיפולים ועדכוני תוכנה",
+            "level": "widely_reported",
+            "scope": "1.6 טורבו היברידי",
+            "source": {
+              "title": "What Car? — Used Hyundai Tucson 2021-present reliability",
+              "url": "https://www.whatcar.com/hyundai/tucson/4x4/used-review/n25050/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו היברידי",
+            "pt": "hybrid",
+            "hp": 230,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tucson היברידי 164–174 kW, 2021–2025 (152 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/189-Tucson.html?fueltype=10&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=164&power_e=174&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://cdn.euroncap.com/media/65644/euroncap-2021-hyundai-tucson-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 160000,
+          "year": 2021,
+          "note": "2.0 בנזין 156 כ״ס, רמת גימור Premium",
+          "source": {
+            "title": "auto.co.il — יונדאי טוסון 2021 החדש בארץ, החל מ-160,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134413/"
+          }
+        }
+      }
+    },
+    "i20": {
+      "BC3": {
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://www.euroncap.com/en/results/hyundai/i20/46622"
+        }
+      }
+    },
+    "ioniq-6": {
+      "CE": {
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/hyundai-ioniq-6---euro-ncap-2022-results---5-stars/s/6fa14a30-b70d-4f91-a5cc-258dcf0bc1ae"
+        }
+      }
+    }
+  }
+}

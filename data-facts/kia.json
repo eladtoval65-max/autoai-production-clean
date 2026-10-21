@@ -1,0 +1,15 @@
+{
+  "make": "kia",
+  "updated": "2026-10-21",
+  "models": {
+    "sportage": {
+      "NQ5": {
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/kia-sportage---euro-ncap-2022-results---5-stars/s/cd4dfe1f-3d13-40bd-acba-4f0773fa76be"
+        }
+      }
+    }
+  }
+}

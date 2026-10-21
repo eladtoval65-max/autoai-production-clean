@@ -20,12 +20,18 @@ export function useQuiz() {
   const advance = () => setStep((s) => Math.min(s + 1, order.length));
 
   /** Budget or yearly-km answer; moves on after a short beat so the selection is visible. */
-  function chooseSingle(key: "budget" | "annualKm", value: string | number) {
+  function chooseSingle(key: "condition" | "budget" | "annualKm", value: string | number) {
     track(`answer_${key}`);
     setAnswers((prev) => {
       if (key === "annualKm") {
         const band = value as Answers["annualKmBand"];
         return { ...prev, annualKmBand: band, annualKm: KM_FOR_BAND[band] };
+      }
+      if (key === "condition") {
+        // Keep the budget sensible for the new condition (used budgets are lower).
+        const condition = value as Answers["condition"];
+        const budget = condition === "used" ? Math.min(prev.budget, 90000) : condition === "new" ? Math.max(prev.budget, 145000) : prev.budget;
+        return { ...prev, condition, budget };
       }
       return { ...prev, budget: Number(value) };
     });

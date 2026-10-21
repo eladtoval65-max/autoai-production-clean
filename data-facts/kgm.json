@@ -1,0 +1,39 @@
+{
+  "make": "kgm",
+  "updated": "2026-10-21",
+  "models": {
+    "tivoli": {
+      "X100": {
+        "issues": [
+          { "he": "כמה קריאות שירות על צנרת דלק בתא המנוע שעלולה להיסדק או לדלוף (סכנת שריפה) — לבדוק ריח דלק בתא המנוע ולוודא לפי מספר שלדה שהקריאות בוצעו", "level": "recall", "scope": "ייצור 2015–2020 (DVSA / Safety Gate)", "source": { "title": "car-recalls.eu — SsangYong Tivoli recalls (DVSA, RAPEX)", "url": "https://car-recalls.eu/common-problems/ssangyong/Tivoli/" } },
+          { "he": "חיווט שעלול להתחכך בצינור אספקת הדלק ולגרום לדליפה — לוודא ביצוע קריאת השירות", "level": "recall", "scope": "2015–2018", "source": { "title": "car-recalls.eu — SsangYong Tivoli recalls (DVSA, RAPEX)", "url": "https://car-recalls.eu/common-problems/ssangyong/Tivoli/" } },
+          { "he": "פלסטיקים פנימיים זולים שנשרטים בקלות — לבדוק את מצב תא הנוסעים, ולחפש סימני שימוש בשטח (פלסטיקים משוחררים מתחת לרכב)", "level": "widely_reported", "source": { "title": "What Car? — Used Ssangyong Tivoli 2015-present review", "url": "https://www.whatcar.com/ssangyong/tivoli/hatchback/used-review/n17889/advice" } }
+        ],
+        "engines": [
+          { "name": "1.6 / 1.5 טורבו בנזין", "pt": "petrol", "cons": 7.67, "unit": "L", "source": { "title": "Spritmonitor — SsangYong Tivoli, gasoline (30 vehicles)", "url": "https://www.spritmonitor.de/en/overview/46-Ssangyong/1494-Tivoli.html" } }
+        ],
+        "ncap": { "stars": null, "note": "לא נמצאה בדיקת Euro NCAP לדגם" },
+        "launchPrice": null
+      }
+    },
+    "torres": {
+      "J100": {
+        "issues": [
+          { "he": "קריאת שירות: מערכת שמירת נתיב וזיהוי ידיים על ההגה עובדות באופן מוגבל — לוודא שבוצע עדכון תוכנה למצלמה הקדמית (FCM)", "level": "recall", "scope": "ייצור 2022–2023 (KBA 13991R)", "source": { "title": "car-recalls.eu — SsangYong Torres: limited function of lane keeping (KBA)", "url": "https://car-recalls.eu/ssangyong-torres-limited-function-lane-keeping-kba/" } }
+        ],
+        "ncap": { "stars": null, "note": "לא נמצאה בדיקת Euro NCAP לדגם" },
+        "launchPrice": null
+      }
+    },
+    "rexton": {
+      "Y400": {
+        "issues": [],
+        "engines": [
+          { "name": "2.2 טורבו דיזל", "pt": "diesel", "hp": 181, "cons": 8.3, "unit": "L", "source": { "title": "What Car? — Ssangyong Rexton long-term test, report 4 (34.2 mpg)", "url": "https://whatcar.com/news/ssangyong-rexton-long-term-test-review-report-4/n23361" } }
+        ],
+        "ncap": { "stars": null, "note": "לא נמצאה בדיקת Euro NCAP לדגם" },
+        "launchPrice": null
+      }
+    }
+  }
+}

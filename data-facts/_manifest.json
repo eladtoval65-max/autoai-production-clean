@@ -1,0 +1,9523 @@
+[
+ {
+  "make": "toyota",
+  "name": "Toyota",
+  "models": [
+   {
+    "id": "corolla",
+    "model": "Corolla",
+    "he": "קורולה",
+    "status": "on_sale",
+    "price": [
+     159900,
+     159900
+    ],
+    "gens": [
+     {
+      "code": "E150",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 בנזין, אוטומטית 4",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "E170",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.6 בנזין, CVT",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.3,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "E210",
+      "from": 2019,
+      "to": null,
+      "engines": "1.8 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.3,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "yaris",
+    "model": "Yaris",
+    "he": "יאריס",
+    "status": "on_sale",
+    "price": [
+     140990,
+     143990
+    ],
+    "gens": [
+     {
+      "code": "XP130",
+      "from": 2011,
+      "to": 2020,
+      "engines": "1.33 בנזין / 1.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "XP210",
+      "from": 2020,
+      "to": null,
+      "engines": "1.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 4.4,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "yaris-cross",
+    "model": "Yaris Cross",
+    "he": "יאריס קרוס",
+    "status": "on_sale",
+    "price": [
+     159990,
+     160990
+    ],
+    "gens": [
+     {
+      "code": "XP210 Cross",
+      "from": 2021,
+      "to": null,
+      "engines": "1.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.2,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "rav4",
+    "model": "RAV4",
+    "he": "RAV4",
+    "status": "on_sale",
+    "price": [
+     219990,
+     299990
+    ],
+    "gens": [
+     {
+      "code": "XA30",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "XA40",
+      "from": 2013,
+      "to": 2018,
+      "engines": "2.0 בנזין / 2.5 היברידי (מ-2016)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "XA50",
+      "from": 2019,
+      "to": 2025,
+      "engines": "2.5 היברידי / פלאג-אין",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 5.9,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "XA60",
+      "from": 2026,
+      "to": null,
+      "engines": "היברידי / פלאג-אין (דור 6)",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 5.6,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "c-hr",
+    "model": "C-HR",
+    "he": "C-HR",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "AX10",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.8 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.4,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "AX20",
+      "from": 2024,
+      "to": null,
+      "engines": "1.8/2.0 היברידי, פלאג-אין",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 5.2,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "aygo-x",
+    "model": "Aygo X",
+    "he": "אייגו X",
+    "status": "on_sale",
+    "price": [
+     123990,
+     129990
+    ],
+    "gens": [
+     {
+      "code": "AB70",
+      "from": 2022,
+      "to": null,
+      "engines": "1.0 בנזין / 1.5 היברידי (מ-2026)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 4.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "corolla-cross",
+    "model": "Corolla Cross",
+    "he": "קורולה קרוס",
+    "status": "on_sale",
+    "price": [
+     179990,
+     192990
+    ],
+    "gens": [
+     {
+      "code": "XG10",
+      "from": 2022,
+      "to": null,
+      "engines": "1.8 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.7,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "c-hr-plus",
+    "model": "C-HR+",
+    "he": "C-HR+",
+    "status": "on_sale",
+    "price": [
+     179990,
+     229990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, הנעה קדמית או 4X4",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "camry",
+    "model": "Camry",
+    "he": "קאמרי",
+    "status": "on_sale",
+    "price": [
+     214990,
+     229990
+    ],
+    "gens": [
+     {
+      "code": "XV40",
+      "from": 2010,
+      "to": 2011,
+      "engines": "2.4 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "XV50",
+      "from": 2012,
+      "to": 2017,
+      "engines": "2.5 בנזין / 2.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "XV70",
+      "from": 2018,
+      "to": 2024,
+      "engines": "2.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.4,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "XV80",
+      "from": 2025,
+      "to": null,
+      "engines": "2.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.3,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "land-cruiser",
+    "model": "Land Cruiser",
+    "he": "לנד קרוזר",
+    "status": "on_sale",
+    "price": [
+     414990,
+     527990
+    ],
+    "gens": [
+     {
+      "code": "J150 (Prado)",
+      "from": 2010,
+      "to": 2023,
+      "engines": "3.0 / 2.8 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "J250",
+      "from": 2024,
+      "to": null,
+      "engines": "2.8 טורבו דיזל מיילד-היברידי / 2.4 טורבו היברידי",
+      "pt": [
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 10.4,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "hilux",
+    "model": "Hilux",
+    "he": "היילקס",
+    "status": "on_sale",
+    "price": [
+     309990,
+     359990
+    ],
+    "gens": [
+     {
+      "code": "AN10/AN20 (דור 7)",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.5 / 3.0 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "AN120/AN130 (דור 8)",
+      "from": 2016,
+      "to": null,
+      "engines": "2.4 / 2.8 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 9.9,
+      "ncap": null,
+      "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "prius",
+    "model": "Prius",
+    "he": "פריוס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "XW30",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.8 היברידי (פלאג-אין מ-2012)",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 4.6,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "XW50",
+      "from": 2016,
+      "to": 2022,
+      "engines": "1.8 היברידי / פלאג-אין",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 4.2,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "XW60",
+      "from": 2022,
+      "to": null,
+      "engines": "2.0 היברידי / פלאג-אין",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 4.4,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "hyundai",
+  "name": "Hyundai",
+  "models": [
+   {
+    "id": "tucson",
+    "model": "Tucson",
+    "he": "טוסון",
+    "status": "on_sale",
+    "price": [
+     189990,
+     229990
+    ],
+    "gens": [
+     {
+      "code": "ix35 (LM)",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "TL",
+      "from": 2016,
+      "to": 2020,
+      "engines": "1.6 GDI / 2.0 / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "NX4",
+      "from": 2021,
+      "to": null,
+      "engines": "2.0 / 1.6 טורבו היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "elantra",
+    "model": "Elantra",
+    "he": "אלנטרה",
+    "status": "on_sale",
+    "price": [
+     169990,
+     188990
+    ],
+    "gens": [
+     {
+      "code": "MD",
+      "from": 2011,
+      "to": 2015,
+      "engines": "1.6 / 1.8 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "AD",
+      "from": 2016,
+      "to": 2020,
+      "engines": "1.6 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "CN7",
+      "from": 2021,
+      "to": null,
+      "engines": "1.6 בנזין / 1.6 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 5.6,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ioniq-5",
+    "model": "Ioniq 5",
+    "he": "איוניק 5",
+    "status": "on_sale",
+    "price": [
+     214990,
+     247990
+    ],
+    "gens": [
+     {
+      "code": "NE",
+      "from": 2021,
+      "to": null,
+      "engines": "סוללה 58/77/84 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "i10",
+    "model": "i10",
+    "he": "i10",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "PA",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.1 / 1.2 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.4,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "IA",
+      "from": 2014,
+      "to": 2019,
+      "engines": "1.0 / 1.25 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 2
+     },
+     {
+      "code": "AC3",
+      "from": 2020,
+      "to": 2024,
+      "engines": "1.0 / 1.2 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.9,
+      "ncap": 3,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "i20",
+    "model": "i20",
+    "he": "i20",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "PB",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.25 / 1.4 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.9,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "GB",
+      "from": 2015,
+      "to": 2020,
+      "engines": "1.4 בנזין / 1.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.9,
+      "ncap": 4,
+      "checks": 2
+     },
+     {
+      "code": "BC3",
+      "from": 2021,
+      "to": null,
+      "engines": "1.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "venue",
+    "model": "Venue",
+    "he": "וניו",
+    "status": "on_sale",
+    "price": [
+     129900,
+     144990
+    ],
+    "gens": [
+     {
+      "code": "QX",
+      "from": 2020,
+      "to": null,
+      "engines": "1.6 בנזין, CVT",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "kona",
+    "model": "Kona",
+    "he": "קונה",
+    "status": "on_sale",
+    "price": [
+     176990,
+     207990
+    ],
+    "gens": [
+     {
+      "code": "OS",
+      "from": 2017,
+      "to": 2023,
+      "engines": "2.0 בנזין / 1.6 טורבו / 1.6 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "SX2",
+      "from": 2023,
+      "to": null,
+      "engines": "1.6 היברידי / 2.0 בנזין / 1.6 טורבו",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 5.8,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "kona-electric",
+    "model": "Kona Electric",
+    "he": "קונה חשמלית",
+    "status": "on_sale",
+    "price": [
+     174990,
+     184990
+    ],
+    "gens": [
+     {
+      "code": "OS EV",
+      "from": 2018,
+      "to": 2023,
+      "engines": "סוללה 39.2/64 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "SX2 EV",
+      "from": 2023,
+      "to": null,
+      "engines": "סוללה 48.4/65.4 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.8,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ioniq-6",
+    "model": "Ioniq 6",
+    "he": "איוניק 6",
+    "status": "on_sale",
+    "price": [
+     224990,
+     247990
+    ],
+    "gens": [
+     {
+      "code": "CE",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 53/77.4 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "santa-fe",
+    "model": "Santa Fe",
+    "he": "סנטה פה",
+    "status": "on_sale",
+    "price": [
+     329990,
+     359990
+    ],
+    "gens": [
+     {
+      "code": "CM (מתיחת פנים)",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.4 בנזין / 2.2 טורבו דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "DM",
+      "from": 2012,
+      "to": 2018,
+      "engines": "2.4 GDI בנזין / 2.2 טורבו דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "TM",
+      "from": 2018,
+      "to": 2023,
+      "engines": "2.4 בנזין / 2.2 דיזל / 1.6 טורבו היברידי ופלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 8.3,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "MX5",
+      "from": 2023,
+      "to": null,
+      "engines": "1.6 טורבו היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7.4,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "sonata",
+    "model": "Sonata",
+    "he": "סונטה",
+    "status": "on_sale",
+    "price": [
+     219990,
+     234990
+    ],
+    "gens": [
+     {
+      "code": "YF",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.0 / 2.4 בנזין / 2.4 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "LF",
+      "from": 2014,
+      "to": 2019,
+      "engines": "2.0 / 2.4 בנזין / 2.0 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7.9,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "DN8",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 היברידי / 2.5 בנזין",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "i30",
+    "model": "i30",
+    "he": "i30",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GD",
+      "from": 2011,
+      "to": 2016,
+      "engines": "1.4 / 1.6 בנזין, 1.6 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.4,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "PD",
+      "from": 2016,
+      "to": null,
+      "engines": "1.0 / 1.4 / 1.5 טורבו, 1.6 דיזל, מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "palisade",
+    "model": "Palisade",
+    "he": "פאליסייד",
+    "status": "on_sale",
+    "price": [
+     349990,
+     389990
+    ],
+    "gens": [
+     {
+      "code": "LX2",
+      "from": 2018,
+      "to": 2024,
+      "engines": "3.5 / 3.8 V6 בנזין, 2.2 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "LX3",
+      "from": 2025,
+      "to": null,
+      "engines": "2.5 טורבו היברידי / 3.5 V6",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ioniq-9",
+    "model": "Ioniq 9",
+    "he": "איוניק 9",
+    "status": "on_sale",
+    "price": [
+     354990,
+     409990
+    ],
+    "gens": [
+     {
+      "code": "ME1",
+      "from": 2025,
+      "to": null,
+      "engines": "סוללה 110.3 קוט\"ש, הנעה אחורית או 4X4",
+      "pt": [
+       "ev"
+      ],
+      "cons": 21,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "kia",
+  "name": "Kia",
+  "models": [
+   {
+    "id": "sportage",
+    "model": "Sportage",
+    "he": "ספורטאז'",
+    "status": "on_sale",
+    "price": [
+     184900,
+     219900
+    ],
+    "gens": [
+     {
+      "code": "SL",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "QL",
+      "from": 2016,
+      "to": 2021,
+      "engines": "1.6 GDI / 2.0 / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "NQ5",
+      "from": 2022,
+      "to": null,
+      "engines": "1.6 טורבו / 1.6 טורבו היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "picanto",
+    "model": "Picanto",
+    "he": "פיקנטו",
+    "status": "on_sale",
+    "price": [
+     99900,
+     99990
+    ],
+    "gens": [
+     {
+      "code": "TA",
+      "from": 2011,
+      "to": 2017,
+      "engines": "1.0 / 1.25 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 2
+     },
+     {
+      "code": "JA",
+      "from": 2017,
+      "to": null,
+      "engines": "1.0 / 1.2 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.8,
+      "ncap": 3,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "niro",
+    "model": "Niro",
+    "he": "נירו",
+    "status": "on_sale",
+    "price": [
+     176900,
+     179900
+    ],
+    "gens": [
+     {
+      "code": "DE",
+      "from": 2017,
+      "to": 2022,
+      "engines": "1.6 היברידי / פלאג-אין / חשמלי 64 קוט\"ש",
+      "pt": [
+       "hybrid",
+       "phev",
+       "ev"
+      ],
+      "cons": 5,
+      "ncap": 4,
+      "checks": 3
+     },
+     {
+      "code": "SG2",
+      "from": 2022,
+      "to": null,
+      "engines": "1.6 היברידי / חשמלי",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 4.8,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ev6",
+    "model": "EV6",
+    "he": "EV6",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "CV",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 58/77/84 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "seltos",
+    "model": "Seltos",
+    "he": "סלטוס",
+    "status": "on_sale",
+    "price": [
+     164900,
+     167990
+    ],
+    "gens": [
+     {
+      "code": "SP2",
+      "from": 2020,
+      "to": null,
+      "engines": "1.6 בנזין / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "stonic",
+    "model": "Stonic",
+    "he": "סטוניק",
+    "status": "on_sale",
+    "price": [
+     129900,
+     137900
+    ],
+    "gens": [
+     {
+      "code": "YB",
+      "from": 2018,
+      "to": null,
+      "engines": "1.0 טורבו, רובוטית כפולת מצמד",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.1,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ev3",
+    "model": "EV3",
+    "he": "EV3",
+    "status": "on_sale",
+    "price": [
+     169900,
+     186900
+    ],
+    "gens": [
+     {
+      "code": "SV",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 58.3/81.4 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "sorento",
+    "model": "Sorento",
+    "he": "סורנטו",
+    "status": "on_sale",
+    "price": [
+     319900,
+     319900
+    ],
+    "gens": [
+     {
+      "code": "XM",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.4 בנזין / 2.2 טורבו דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "דור 3",
+      "from": 2014,
+      "to": 2020,
+      "engines": "2.4 GDI בנזין / 2.2 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.4,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "MQ4",
+      "from": 2020,
+      "to": null,
+      "engines": "1.6 טורבו היברידי / פלאג-אין, 2.2 דיזל",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "carnival",
+    "model": "Carnival",
+    "he": "קרניבל",
+    "status": "on_sale",
+    "price": [
+     298900,
+     349900
+    ],
+    "gens": [
+     {
+      "code": "VQ (מתיחת פנים)",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.2 CRDi דיזל / 3.5 V6",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "KA4",
+      "from": 2020,
+      "to": null,
+      "engines": "1.6 טורבו היברידי (מ-2023) / 3.5 V6 / 2.2 דיזל",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ev9",
+    "model": "EV9",
+    "he": "EV9",
+    "status": "on_sale",
+    "price": [
+     399000,
+     489000
+    ],
+    "gens": [
+     {
+      "code": "MV",
+      "from": 2023,
+      "to": null,
+      "engines": "סוללה 76.1/99.8 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ceed",
+    "model": "Ceed",
+    "he": "סיד",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "JD",
+      "from": 2012,
+      "to": 2018,
+      "engines": "בנזין / דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "CD",
+      "from": 2018,
+      "to": 2026,
+      "engines": "1.0 / 1.4 / 1.5 טורבו, 1.6 בנזין, 1.6 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "rio",
+    "model": "Rio",
+    "he": "ריו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "UB",
+      "from": 2011,
+      "to": 2017,
+      "engines": "1.25 / 1.4 בנזין, 1.1/1.4 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.6,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "YB",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.0 טורבו / 1.6 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "mazda",
+  "name": "Mazda",
+  "models": [
+   {
+    "id": "mazda3",
+    "model": "Mazda3",
+    "he": "מאזדה 3",
+    "status": "on_sale",
+    "price": [
+     169900,
+     214900
+    ],
+    "gens": [
+     {
+      "code": "BL",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "BM",
+      "from": 2014,
+      "to": 2018,
+      "engines": "1.5 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "BP",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 / 2.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "cx-5",
+    "model": "CX-5",
+    "he": "CX-5",
+    "status": "on_sale",
+    "price": [
+     189900,
+     219900
+    ],
+    "gens": [
+     {
+      "code": "KE",
+      "from": 2012,
+      "to": 2016,
+      "engines": "2.0 / 2.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "KF",
+      "from": 2017,
+      "to": 2025,
+      "engines": "2.0 / 2.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.4,
+      "ncap": 5,
+      "checks": 1
+     },
+     {
+      "code": "KG",
+      "from": 2026,
+      "to": null,
+      "engines": "2.5 בנזין (דור 3)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "cx-30",
+    "model": "CX-30",
+    "he": "CX-30",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "DM",
+      "from": 2019,
+      "to": 2025,
+      "engines": "2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.3,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "mazda2",
+    "model": "Mazda2",
+    "he": "מאזדה 2",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "DE",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.3 / 1.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "DJ",
+      "from": 2015,
+      "to": 2024,
+      "engines": "1.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.2,
+      "ncap": 4,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "cx-60",
+    "model": "CX-60",
+    "he": "CX-60",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "KH",
+      "from": 2022,
+      "to": null,
+      "engines": "2.5 פלאג-אין / 3.3 דיזל",
+      "pt": [
+       "phev",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "mazda6",
+    "model": "Mazda6",
+    "he": "מאזדה 6",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GJ/GL",
+      "from": 2012,
+      "to": 2024,
+      "engines": "2.0 / 2.5 Skyactiv-G בנזין, 2.2 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "cx-3",
+    "model": "CX-3",
+    "he": "CX-3",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "DK",
+      "from": 2015,
+      "to": 2021,
+      "engines": "1.5 / 2.0 Skyactiv-G בנזין, 1.5/1.8 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "cx-90",
+    "model": "CX-90",
+    "he": "CX-90",
+    "status": "on_sale",
+    "price": [
+     254900,
+     329900
+    ],
+    "gens": [
+     {
+      "code": "KK",
+      "from": 2023,
+      "to": null,
+      "engines": "3.3 טורבו 6 צילינדרים מיילד-היברידי / 2.5 פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "skoda",
+  "name": "Skoda",
+  "models": [
+   {
+    "id": "octavia",
+    "model": "Octavia",
+    "he": "אוקטביה",
+    "status": "on_sale",
+    "price": [
+     159990,
+     180990
+    ],
+    "gens": [
+     {
+      "code": "Mk2 (1Z)",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.4/1.8 TSI, 1.6",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "Mk3 (5E)",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.2/1.4/1.8 TSI, 1.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Mk4 (NX)",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0/1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "kodiaq",
+    "model": "Kodiaq",
+    "he": "קודיאק",
+    "status": "on_sale",
+    "price": [
+     211990,
+     299990
+    ],
+    "gens": [
+     {
+      "code": "NS7",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.4/1.5/2.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "PS",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 TSI / 2.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.2,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "karoq",
+    "model": "Karoq",
+    "he": "קארוק",
+    "status": "on_sale",
+    "price": [
+     169490,
+     202990
+    ],
+    "gens": [
+     {
+      "code": "NU",
+      "from": 2018,
+      "to": null,
+      "engines": "1.0/1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "kamiq",
+    "model": "Kamiq",
+    "he": "קאמיק",
+    "status": "on_sale",
+    "price": [
+     139990,
+     154990
+    ],
+    "gens": [
+     {
+      "code": "NW4",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0/1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "superb",
+    "model": "Superb",
+    "he": "סופרב",
+    "status": "on_sale",
+    "price": [
+     203490,
+     293490
+    ],
+    "gens": [
+     {
+      "code": "B6 (3T)",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.4/1.8 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "B8 (3V)",
+      "from": 2016,
+      "to": 2023,
+      "engines": "1.4/1.8/2.0 TSI, פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.6,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "B9",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 TSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "fabia",
+    "model": "Fabia",
+    "he": "פאביה",
+    "status": "on_sale",
+    "price": [
+     120990,
+     135990
+    ],
+    "gens": [
+     {
+      "code": "5J (מתיחת פנים)",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.2 / 1.4 / 1.6 בנזין, 1.2/1.4 TSI, דיזל TDI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "NJ",
+      "from": 2014,
+      "to": 2022,
+      "engines": "1.0 / 1.2 TSI בנזין, 1.4 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.4,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "דור 4",
+      "from": 2021,
+      "to": null,
+      "engines": "1.0 / 1.5 TSI בנזין, DSG 7",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "scala",
+    "model": "Scala",
+    "he": "סקאלה",
+    "status": "on_sale",
+    "price": [
+     138490,
+     138490
+    ],
+    "gens": [
+     {
+      "code": "Scala",
+      "from": 2019,
+      "to": null,
+      "engines": "1.0 / 1.5 TSI בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "elroq",
+    "model": "Elroq",
+    "he": "אלרוק",
+    "status": "on_sale",
+    "price": [
+     182990,
+     197990
+    ],
+    "gens": [
+     {
+      "code": "MEB",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 52–77 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "enyaq",
+    "model": "Enyaq",
+    "he": "אניאק",
+    "status": "on_sale",
+    "price": [
+     206490,
+     279990
+    ],
+    "gens": [
+     {
+      "code": "MEB",
+      "from": 2020,
+      "to": null,
+      "engines": "חשמלי, סוללה 52/58/77 קוט\"ש (כולל קופה)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "rapid",
+    "model": "Rapid",
+    "he": "ראפיד",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "NH",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.2 / 1.4 TSI, 1.0 TSI (מ-2017), 1.4/1.6 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.9,
+      "ncap": null,
+      "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "yeti",
+    "model": "Yeti",
+    "he": "יטי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "5L",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.2 / 1.4 / 1.8 TSI בנזין, דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "byd",
+  "name": "BYD",
+  "models": [
+   {
+    "id": "atto-3",
+    "model": "Atto 3",
+    "he": "אטו 3",
+    "status": "on_sale",
+    "price": [
+     154990,
+     164990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": 2025,
+      "engines": "סוללת LFP 60 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "EVO",
+      "from": 2026,
+      "to": null,
+      "engines": "סוללה גדולה יותר, הנעה אחורית/כפולה",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "dolphin",
+    "model": "Dolphin",
+    "he": "דולפין",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "EA1",
+      "from": 2023,
+      "to": 2025,
+      "engines": "סוללת LFP 45/60 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "seal",
+    "model": "Seal",
+    "he": "סיל",
+    "status": "on_sale",
+    "price": [
+     198990,
+     219990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2023,
+      "to": null,
+      "engines": "סוללה 82.5 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "seal-u",
+    "model": "Seal U",
+    "he": "סיל U",
+    "status": "on_sale",
+    "price": [
+     194990,
+     216990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי 71.8/87 קוט\"ש / פלאג-אין DM-i",
+      "pt": [
+       "ev",
+       "phev"
+      ],
+      "cons": 19.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "tang",
+    "model": "Tang",
+    "he": "טאנג",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "EV",
+      "from": 2022,
+      "to": 2024,
+      "engines": "סוללה 86 קוט\"ש, 7 מקומות",
+      "pt": [
+       "ev"
+      ],
+      "cons": 24,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "dolphin-surf",
+    "model": "Dolphin Surf",
+    "he": "דולפין סרף",
+    "status": "on_sale",
+    "price": [
+     114990,
+     123990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 30–43.2 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 14,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "atto-2",
+    "model": "Atto 2",
+    "he": "אטו 2",
+    "status": "on_sale",
+    "price": [
+     137990,
+     149990
+    ],
+    "gens": [
+     {
+      "code": "SC3E",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי / 1.5 פלאג-אין (DM-i)",
+      "pt": [
+       "ev",
+       "phev"
+      ],
+      "cons": 15,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "sealion-7",
+    "model": "Sealion 7",
+    "he": "סי ליון 7",
+    "status": "on_sale",
+    "price": [
+     198990,
+     237990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 71.8–91.3 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "jaecoo",
+  "name": "Omoda & Jaecoo",
+  "models": [
+   {
+    "id": "jaecoo-7",
+    "model": "Jaecoo 7",
+    "he": "ג'אקו 7",
+    "status": "on_sale",
+    "price": [
+     179990,
+     202990
+    ],
+    "gens": [
+     {
+      "code": "J7",
+      "from": 2024,
+      "to": null,
+      "engines": "1.6 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "jaecoo-8",
+    "model": "Jaecoo 8",
+    "he": "ג'אקו 8",
+    "status": "on_sale",
+    "price": [
+     229900,
+     254900
+    ],
+    "gens": [
+     {
+      "code": "J8",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 טורבו פלאג-אין 4x4",
+      "pt": [
+       "phev"
+      ],
+      "cons": 6.4,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "jaecoo-5",
+    "model": "Jaecoo 5",
+    "he": "ג'אקו 5",
+    "status": "on_sale",
+    "price": [
+     150900,
+     163900
+    ],
+    "gens": [
+     {
+      "code": "J5",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 טורבו היברידי / חשמלי 59 קוט\"ש",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "omoda-5",
+    "model": "Omoda 5",
+    "he": "אומודה 5",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "C5",
+      "from": 2023,
+      "to": 2025,
+      "engines": "1.5 / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "omoda-e5",
+    "model": "Omoda E5",
+    "he": "אומודה E5",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "E5",
+      "from": 2024,
+      "to": 2025,
+      "engines": "סוללה 61 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "omoda-7",
+    "model": "Omoda 7",
+    "he": "אומודה 7",
+    "status": "on_sale",
+    "price": [
+     179900,
+     199900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "פלאג-אין SHS: 1.5 טורבו + מנוע חשמלי",
+      "pt": [
+       "phev"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "omoda-9",
+    "model": "Omoda 9",
+    "he": "אומודה 9",
+    "status": "on_sale",
+    "price": [
+     229900,
+     244900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "פלאג-אין SHS: 1.5 טורבו, הנעה כפולה, סוללה 34.5 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "tesla",
+  "name": "Tesla",
+  "models": [
+   {
+    "id": "model-3",
+    "model": "Model 3",
+    "he": "מודל 3",
+    "status": "on_sale",
+    "price": [
+     191592,
+     293567
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2019,
+      "to": 2023,
+      "engines": "RWD / Long Range / Performance",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Highland",
+      "from": 2024,
+      "to": null,
+      "engines": "RWD / Long Range / Performance",
+      "pt": [
+       "ev"
+      ],
+      "cons": 14.5,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "model-y",
+    "model": "Model Y",
+    "he": "מודל Y",
+    "status": "on_sale",
+    "price": [
+     243160,
+     333972
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": 2025,
+      "engines": "RWD / Long Range / Performance",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Juniper",
+      "from": 2025,
+      "to": null,
+      "engines": "RWD / Long Range / Performance",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "model-s",
+    "model": "Model S",
+    "he": "מודל S",
+    "status": "not_sold_new",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2014,
+      "to": null,
+      "engines": "סוללה 75–100 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 20,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "model-x",
+    "model": "Model X",
+    "he": "מודל X",
+    "status": "not_sold_new",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2016,
+      "to": null,
+      "engines": "סוללה 75–100 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 23,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "cybertruck",
+    "model": "Cybertruck",
+    "he": "סייברטראק",
+    "status": "not_sold_new",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "הנעה כפולה/משולשת",
+      "pt": [
+       "ev"
+      ],
+      "cons": 28,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "seat",
+  "name": "Seat",
+  "models": [
+   {
+    "id": "ibiza",
+    "model": "Ibiza",
+    "he": "איביזה",
+    "status": "on_sale",
+    "price": [
+     122390,
+     139900
+    ],
+    "gens": [
+     {
+      "code": "6J",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.2 / 1.4 / 1.2 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "6F (KJ)",
+      "from": 2018,
+      "to": null,
+      "engines": "1.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "arona",
+    "model": "Arona",
+    "he": "ארונה",
+    "status": "on_sale",
+    "price": [
+     132900,
+     143900
+    ],
+    "gens": [
+     {
+      "code": "KJ7",
+      "from": 2018,
+      "to": null,
+      "engines": "1.0 / 1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ateca",
+    "model": "Ateca",
+    "he": "אטקה",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "KH7",
+      "from": 2016,
+      "to": null,
+      "engines": "1.0 / 1.4 / 1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.2,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "leon",
+    "model": "Leon",
+    "he": "לאון",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "1P",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.2/1.4 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "5F",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.2/1.4 TSI, 1.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "KL",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0/1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "tarraco",
+    "model": "Tarraco",
+    "he": "טאראקו",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "KN2",
+      "from": 2019,
+      "to": null,
+      "engines": "1.5 / 2.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "cupra",
+  "name": "Cupra",
+  "models": [
+   {
+    "id": "formentor",
+    "model": "Formentor",
+    "he": "פורמנטור",
+    "status": "on_sale",
+    "price": [
+     199900,
+     306900
+    ],
+    "gens": [
+     {
+      "code": "KM7",
+      "from": 2021,
+      "to": null,
+      "engines": "1.5 TSI / 2.0 TSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "cupra-leon",
+    "model": "Leon",
+    "he": "לאון",
+    "status": "on_sale",
+    "price": [
+     189900,
+     264400
+    ],
+    "gens": [
+     {
+      "code": "KL",
+      "from": 2021,
+      "to": null,
+      "engines": "1.5 TSI / 2.0 TSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "born",
+    "model": "Born",
+    "he": "בורן",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "K1",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 58/77 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "cupra-ateca",
+    "model": "Ateca",
+    "he": "אטקה",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "KH7",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "terramar",
+    "model": "Terramar",
+    "he": "טרמאר",
+    "status": "on_sale",
+    "price": [
+     225900,
+     275900
+    ],
+    "gens": [
+     {
+      "code": "KM",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 TSI / פלאג-אין / 2.0 TSI",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "geely",
+  "name": "Geely",
+  "models": [
+   {
+    "id": "geometry-c",
+    "model": "Geometry C",
+    "he": "גיאומטרי C",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": 2023,
+      "engines": "סוללה 70 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ex5",
+    "model": "EX5",
+    "he": "EX5",
+    "status": "on_sale",
+    "price": [
+     161990,
+     169490
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "סוללת LFP 60 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "okavango",
+    "model": "Okavango",
+    "he": "אוקוונגו",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": null,
+      "engines": "1.5 טורבו מיילד-היברידי, 7 מקומות",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "preface",
+    "model": "Preface",
+    "he": "פריפייס",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": null,
+      "engines": "2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "coolray",
+    "model": "Coolray",
+    "he": "קולריי",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2020,
+      "to": null,
+      "engines": "1.5 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "starray",
+    "model": "Starray EM-i",
+    "he": "סטארריי EM-i",
+    "status": "on_sale",
+    "price": [
+     169990,
+     181990
+    ],
+    "gens": [
+     {
+      "code": "P145",
+      "from": 2024,
+      "to": null,
+      "engines": "פלאג-אין: 1.5 בנזין + סוללה 18.4 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 5.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "chery",
+  "name": "Chery",
+  "models": [
+   {
+    "id": "tiggo-8",
+    "model": "Tiggo 8 Pro",
+    "he": "טיגו 8 פרו",
+    "status": "on_sale",
+    "price": [
+     179990,
+     204990
+    ],
+    "gens": [
+     {
+      "code": "T18",
+      "from": 2022,
+      "to": null,
+      "engines": "1.6 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "tiggo-7",
+    "model": "Tiggo 7 Pro",
+    "he": "טיגו 7 פרו",
+    "status": "on_sale",
+    "price": [
+     159990,
+     186990
+    ],
+    "gens": [
+     {
+      "code": "T1E",
+      "from": 2023,
+      "to": null,
+      "engines": "1.6 טורבו / 1.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 8.6,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "fx",
+    "model": "FX",
+    "he": "FX",
+    "status": "on_sale",
+    "price": [
+     146990,
+     173990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "בנזין / חשמלי (FX EV)",
+      "pt": [
+       "petrol",
+       "ev"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "tiggo-4",
+    "model": "Tiggo 4 Pro",
+    "he": "טיגו 4 פרו",
+    "status": "on_sale",
+    "price": [
+     114990,
+     138990
+    ],
+    "gens": [
+     {
+      "code": "T19",
+      "from": 2023,
+      "to": null,
+      "engines": "1.5 טורבו / 1.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "arrizo-8",
+    "model": "Arrizo 8",
+    "he": "אריזו 8",
+    "status": "on_sale",
+    "price": [
+     159990,
+     181990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "1.6 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "tiggo-9",
+    "model": "Tiggo 9",
+    "he": "טיגו 9",
+    "status": "on_sale",
+    "price": [
+     217990,
+     244990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2023,
+      "to": null,
+      "engines": "פלאג-אין: 1.5 טורבו (143 כ\"ס) + מנועים חשמליים, 7 מקומות",
+      "pt": [
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "suzuki",
+  "name": "Suzuki",
+  "models": [
+   {
+    "id": "vitara",
+    "model": "Vitara",
+    "he": "ויטארה",
+    "status": "on_sale",
+    "price": [
+     154990,
+     179990
+    ],
+    "gens": [
+     {
+      "code": "LY",
+      "from": 2015,
+      "to": 2024,
+      "engines": "1.6 / 1.4 טורבו / 1.4 מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.6,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "e Vitara",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": 4,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "swift",
+    "model": "Swift",
+    "he": "סוויפט",
+    "status": "on_sale",
+    "price": [
+     119990,
+     129990
+    ],
+    "gens": [
+     {
+      "code": "FZ/NZ",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.2 / 1.4 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "AZ",
+      "from": 2017,
+      "to": 2024,
+      "engines": "1.2 / 1.2 מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 5.8,
+      "ncap": 3,
+      "checks": 1
+     },
+     {
+      "code": "AZH",
+      "from": 2024,
+      "to": null,
+      "engines": "1.2 מיילד-היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.1,
+      "ncap": 3,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "ignis",
+    "model": "Ignis",
+    "he": "איגניס",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "MF",
+      "from": 2017,
+      "to": null,
+      "engines": "1.2 / 1.2 מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 5.8,
+      "ncap": 3,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "s-cross",
+    "model": "S-Cross",
+    "he": "S-Cross",
+    "status": "on_sale",
+    "price": [
+     159990,
+     179990
+    ],
+    "gens": [
+     {
+      "code": "JY",
+      "from": 2014,
+      "to": 2021,
+      "engines": "1.6 / 1.4 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2022,
+      "to": null,
+      "engines": "1.4 טורבו מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "jimny",
+    "model": "Jimny",
+    "he": "ג'ימני",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "JB74",
+      "from": 2019,
+      "to": null,
+      "engines": "1.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.1,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "baleno",
+    "model": "Baleno",
+    "he": "בלנו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "WB",
+      "from": 2015,
+      "to": 2022,
+      "engines": "1.0 טורבו / 1.2 בנזין (גם מיילד-היברידי)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.8,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "sx4",
+    "model": "SX4",
+    "he": "SX4",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GY",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.5 / 1.6 / 2.0 בנזין, דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "celerio",
+    "model": "Celerio",
+    "he": "סלריו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "FE",
+      "from": 2014,
+      "to": 2025,
+      "engines": "1.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.2,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "mitsubishi",
+  "name": "Mitsubishi",
+  "models": [
+   {
+    "id": "outlander",
+    "model": "Outlander",
+    "he": "אאוטלנדר",
+    "status": "on_sale",
+    "price": [
+     189990,
+     244990
+    ],
+    "gens": [
+     {
+      "code": "GF/GG",
+      "from": 2013,
+      "to": 2021,
+      "engines": "2.0 / 2.4 בנזין / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 9,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "GN",
+      "from": 2022,
+      "to": null,
+      "engines": "1.5 טורבו / 2.4 פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "asx",
+    "model": "ASX",
+    "he": "ASX",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GA",
+      "from": 2010,
+      "to": 2022,
+      "engines": "1.6 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Gen2",
+      "from": 2023,
+      "to": 2024,
+      "engines": "1.0 / 1.3 טורבו (על בסיס רנו קפצ'ור)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "eclipse-cross",
+    "model": "Eclipse Cross",
+    "he": "אקליפס קרוס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GK",
+      "from": 2018,
+      "to": 2024,
+      "engines": "1.5 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.4,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "attrage",
+    "model": "Attrage",
+    "he": "אטראז'",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A10",
+      "from": 2014,
+      "to": 2022,
+      "engines": "1.2 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "space-star",
+    "model": "Space Star",
+    "he": "ספייס סטאר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A00",
+      "from": 2013,
+      "to": 2024,
+      "engines": "1.0 / 1.2 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.8,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "peugeot",
+  "name": "Peugeot",
+  "models": [
+   {
+    "id": "3008",
+    "model": "3008",
+    "he": "3008",
+    "status": "on_sale",
+    "price": [
+     186990,
+     206990
+    ],
+    "gens": [
+     {
+      "code": "T84 (Gen1)",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.6 / 1.6 THP",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "P84 (Gen2)",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.2 PureTech / 1.6 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Gen3",
+      "from": 2024,
+      "to": null,
+      "engines": "1.2 היברידי / חשמלי (e-3008)",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.2,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "2008",
+    "model": "2008",
+    "he": "2008",
+    "status": "on_sale",
+    "price": [
+     147990,
+     159990
+    ],
+    "gens": [
+     {
+      "code": "A94 (Gen1)",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.2 PureTech",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.6,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "P24 (Gen2)",
+      "from": 2020,
+      "to": null,
+      "engines": "1.2 PureTech / מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.5,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "208",
+    "model": "208",
+    "he": "208",
+    "status": "on_sale",
+    "price": [
+     130990,
+     139490
+    ],
+    "gens": [
+     {
+      "code": "A9 (Gen1)",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.2 PureTech / 1.6",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "P21 (Gen2)",
+      "from": 2020,
+      "to": null,
+      "engines": "1.2 PureTech",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.2,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "408",
+    "model": "408",
+    "he": "408",
+    "status": "on_sale",
+    "price": [
+     174990,
+     174990
+    ],
+    "gens": [
+     {
+      "code": "P54",
+      "from": 2023,
+      "to": null,
+      "engines": "1.2 PureTech / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 6.6,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "5008",
+    "model": "5008",
+    "he": "5008",
+    "status": "on_sale",
+    "price": [
+     208990,
+     235990
+    ],
+    "gens": [
+     {
+      "code": "T87 (MPV)",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.6 / 1.6 THP",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "P87",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.2 PureTech / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.3,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2025,
+      "to": null,
+      "engines": "1.2 היברידי / חשמלי (e-5008)",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "308",
+    "model": "308",
+    "he": "308",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "T7",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 בנזין / 1.6 THP",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "T9",
+      "from": 2013,
+      "to": 2021,
+      "engines": "1.2 PureTech / 1.6 בנזין, 1.5/1.6 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "P5",
+      "from": 2021,
+      "to": null,
+      "engines": "1.2 PureTech / פלאג-אין / חשמלי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev",
+       "ev"
+      ],
+      "cons": 6.4,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "301",
+    "model": "301",
+    "he": "301",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "M33",
+      "from": 2012,
+      "to": 2021,
+      "engines": "1.2 PureTech / 1.6 בנזין, 1.6 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": 3,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "rifter",
+    "model": "Rifter",
+    "he": "ריפטר",
+    "status": "on_sale",
+    "price": [
+     178990,
+     189990
+    ],
+    "gens": [
+     {
+      "code": "K9",
+      "from": 2018,
+      "to": null,
+      "engines": "1.5 BlueHDi דיזל / 1.2 PureTech",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "volkswagen",
+  "name": "Volkswagen",
+  "models": [
+   {
+    "id": "golf",
+    "model": "Golf",
+    "he": "גולף",
+    "status": "on_sale",
+    "price": [
+     169900,
+     196900
+    ],
+    "gens": [
+     {
+      "code": "Mk6",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.4 / 1.2 TSI / 1.4 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "Mk7",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.2/1.4 TSI, 1.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Mk8",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0/1.5 eTSI",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.2,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "tiguan",
+    "model": "Tiguan",
+    "he": "טיגואן",
+    "status": "on_sale",
+    "price": [
+     239900,
+     269900
+    ],
+    "gens": [
+     {
+      "code": "5N",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.4 TSI / 2.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.2,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "AD1",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.4/1.5/2.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Mk3",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 eTSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "polo",
+    "model": "Polo",
+    "he": "פולו",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "6R",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.2 / 1.4 / 1.2 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.6,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "AW",
+      "from": 2018,
+      "to": null,
+      "engines": "1.0 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "id-4",
+    "model": "ID.4",
+    "he": "ID.4",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "E21",
+      "from": 2021,
+      "to": null,
+      "engines": "סוללה 52/77 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "touareg",
+    "model": "Touareg",
+    "he": "טוארג",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "7P",
+      "from": 2011,
+      "to": 2018,
+      "engines": "3.0 V6 TDI / 3.6 V6",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 11,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "CR",
+      "from": 2018,
+      "to": null,
+      "engines": "3.0 V6 TSI/TDI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 10.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "t-cross",
+    "model": "T-Cross",
+    "he": "טי-קרוס",
+    "status": "on_sale",
+    "price": [
+     144900,
+     169900
+    ],
+    "gens": [
+     {
+      "code": "C11",
+      "from": 2018,
+      "to": null,
+      "engines": "1.0 / 1.5 TSI בנזין, DSG",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "t-roc",
+    "model": "T-Roc",
+    "he": "טי-רוק",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "A11",
+      "from": 2017,
+      "to": 2025,
+      "engines": "1.0 / 1.5 / 2.0 TSI בנזין, דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.3,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "דור 2",
+      "from": 2026,
+      "to": null,
+      "engines": "1.5 TSI בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "id-3",
+    "model": "ID.3",
+    "he": "ID.3",
+    "status": "on_sale",
+    "price": [
+     245000,
+     245000
+    ],
+    "gens": [
+     {
+      "code": "E11",
+      "from": 2019,
+      "to": null,
+      "engines": "חשמלי, סוללה 45–84 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "passat",
+    "model": "Passat",
+    "he": "פאסאט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "B7",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.4 / 1.8 / 2.0 TSI בנזין, דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 5
+     },
+     {
+      "code": "B8",
+      "from": 2014,
+      "to": 2023,
+      "engines": "1.4 / 1.5 / 1.8 / 2.0 TSI, GTE פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "B9",
+      "from": 2023,
+      "to": null,
+      "engines": "1.5 eTSI / פלאג-אין (סטיישן בלבד)",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "jetta",
+    "model": "Jetta",
+    "he": "ג'טה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A6 (Mk6)",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.2 / 1.4 TSI, 1.4 TSI היברידי, דיזל",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "tayron",
+    "model": "Tayron",
+    "he": "טיירון",
+    "status": "on_sale",
+    "price": [
+     259900,
+     259900
+    ],
+    "gens": [
+     {
+      "code": "Gen1 (גלובלי)",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 eTSI / פלאג-אין / 2.0 TSI",
+      "pt": [
+       "petrol",
+       "phev",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "mg",
+  "name": "MG",
+  "models": [
+   {
+    "id": "zs",
+    "model": "ZS",
+    "he": "ZS",
+    "status": "on_sale",
+    "price": [
+     137888,
+     137888
+    ],
+    "gens": [
+     {
+      "code": "ZS (Gen1)",
+      "from": 2018,
+      "to": 2024,
+      "engines": "1.5 / 1.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.6,
+      "ncap": 3,
+      "checks": 2
+     },
+     {
+      "code": "ZS Hybrid+",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.6,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "zs-ev",
+    "model": "ZS EV",
+    "he": "ZS EV",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "ZS EV",
+      "from": 2020,
+      "to": 2024,
+      "engines": "סוללה 44.5/51/72 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "mg4",
+    "model": "MG4",
+    "he": "MG4",
+    "status": "on_sale",
+    "price": [
+     119888,
+     119888
+    ],
+    "gens": [
+     {
+      "code": "EH32",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 51/64/77 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "mg5",
+    "model": "MG5",
+    "he": "MG5",
+    "status": "on_sale",
+    "price": [
+     158888,
+     158888
+    ],
+    "gens": [
+     {
+      "code": "EP",
+      "from": 2021,
+      "to": null,
+      "engines": "חשמלי 50/61 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "hs",
+    "model": "HS",
+    "he": "HS",
+    "status": "on_sale",
+    "price": [
+     154888,
+     158888
+    ],
+    "gens": [
+     {
+      "code": "AS23",
+      "from": 2019,
+      "to": 2024,
+      "engines": "1.5 טורבו / פלאג-אין (EHS)",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Gen2",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 טורבו / היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "mg3",
+    "model": "MG3",
+    "he": "MG3",
+    "status": "on_sale",
+    "price": [
+     119888,
+     127888
+    ],
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2011,
+      "to": 2023,
+      "engines": "1.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": 3,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 בנזין / 1.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 5.2,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "s5",
+    "model": "S5",
+    "he": "S5",
+    "status": "on_sale",
+    "price": [
+     138888,
+     138888
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 49.1–64 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "mercedes",
+  "name": "Mercedes-Benz",
+  "models": [
+   {
+    "id": "a-class",
+    "model": "A-Class",
+    "he": "A-Class",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "W176",
+      "from": 2013,
+      "to": 2018,
+      "engines": "A180 / A200 / A250",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "W177",
+      "from": 2018,
+      "to": null,
+      "engines": "A180 / A200 / A250e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "c-class",
+    "model": "C-Class",
+    "he": "C-Class",
+    "status": "on_sale",
+    "price": [
+     359900,
+     499900
+    ],
+    "gens": [
+     {
+      "code": "W204",
+      "from": 2010,
+      "to": 2014,
+      "engines": "C180 / C200 / C250",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "W205",
+      "from": 2014,
+      "to": 2021,
+      "engines": "C180 / C200 / C300 / C350e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "W206",
+      "from": 2021,
+      "to": null,
+      "engines": "C200 / C300 מיילד-היברידי / C300e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "e-class",
+    "model": "E-Class",
+    "he": "E-Class",
+    "status": "on_sale",
+    "price": [
+     509900,
+     749900
+    ],
+    "gens": [
+     {
+      "code": "W212",
+      "from": 2010,
+      "to": 2016,
+      "engines": "E200 / E250 / E300",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "W213",
+      "from": 2016,
+      "to": 2023,
+      "engines": "E200 / E300e / E350e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "W214",
+      "from": 2024,
+      "to": null,
+      "engines": "E200 / E300e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "glc",
+    "model": "GLC",
+    "he": "GLC",
+    "status": "on_sale",
+    "price": [
+     489900,
+     599900
+    ],
+    "gens": [
+     {
+      "code": "X253",
+      "from": 2016,
+      "to": 2022,
+      "engines": "GLC200 / 250 / 300 / 350e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "X254",
+      "from": 2023,
+      "to": null,
+      "engines": "GLC200 / GLC300e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "gle",
+    "model": "GLE",
+    "he": "GLE",
+    "status": "on_sale",
+    "price": [
+     629900,
+     829900
+    ],
+    "gens": [
+     {
+      "code": "W166 (ML/GLE)",
+      "from": 2012,
+      "to": 2018,
+      "engines": "ML350 / GLE400 / GLE500e",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 11,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "V167",
+      "from": 2019,
+      "to": null,
+      "engines": "GLE350de / 350e / 450",
+      "pt": [
+       "diesel",
+       "petrol",
+       "phev"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "gla",
+    "model": "GLA",
+    "he": "GLA",
+    "status": "on_sale",
+    "price": [
+     359900,
+     419900
+    ],
+    "gens": [
+     {
+      "code": "X156",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.6 / 2.0 טורבו בנזין, דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "H247",
+      "from": 2019,
+      "to": null,
+      "engines": "1.3 / 2.0 טורבו, 250e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "cla",
+    "model": "CLA",
+    "he": "CLA",
+    "status": "on_sale",
+    "price": [
+     309900,
+     479900
+    ],
+    "gens": [
+     {
+      "code": "C117",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.6 / 2.0 טורבו בנזין, 2.1 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "C118",
+      "from": 2019,
+      "to": 2025,
+      "engines": "1.3 / 2.0 טורבו בנזין, דיזל, 250e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "C178 / C174",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 טורבו מיילד-היברידי, או חשמלי 58/85 קוט\"ש (800V)",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "glb",
+    "model": "GLB",
+    "he": "GLB",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "X247",
+      "from": 2019,
+      "to": 2025,
+      "engines": "1.3 / 2.0 טורבו בנזין, 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2026,
+      "to": null,
+      "engines": "1.5 טורבו מיילד-היברידי, או חשמלי 85 קוט\"ש",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "eqa",
+    "model": "EQA",
+    "he": "EQA",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "H243",
+      "from": 2021,
+      "to": null,
+      "engines": "חשמלי, סוללה 66.5–70.5 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "eqb",
+    "model": "EQB",
+    "he": "EQB",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "X243",
+      "from": 2021,
+      "to": 2026,
+      "engines": "חשמלי, סוללה 66.5 קוט\"ש, עד 7 מקומות",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "bmw",
+  "name": "BMW",
+  "models": [
+   {
+    "id": "3-series",
+    "model": "3 Series",
+    "he": "סדרה 3",
+    "status": "on_sale",
+    "price": [
+     369900,
+     369900
+    ],
+    "gens": [
+     {
+      "code": "E90",
+      "from": 2010,
+      "to": 2011,
+      "engines": "318i / 320i",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "F30",
+      "from": 2012,
+      "to": 2018,
+      "engines": "316i / 320i / 328i / 330e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "G20",
+      "from": 2019,
+      "to": null,
+      "engines": "318i / 320i / 330e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "1-series",
+    "model": "1 Series",
+    "he": "סדרה 1",
+    "status": "on_sale",
+    "price": [
+     239900,
+     289900
+    ],
+    "gens": [
+     {
+      "code": "E87",
+      "from": 2010,
+      "to": 2011,
+      "engines": "116i / 118i",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "F20",
+      "from": 2012,
+      "to": 2019,
+      "engines": "116i / 118i / 120i",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.2,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "F40",
+      "from": 2020,
+      "to": 2024,
+      "engines": "118i / 120i",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "F70",
+      "from": 2025,
+      "to": null,
+      "engines": "120 / 120 מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "x3",
+    "model": "X3",
+    "he": "X3",
+    "status": "on_sale",
+    "price": [
+     424900,
+     459900
+    ],
+    "gens": [
+     {
+      "code": "F25",
+      "from": 2011,
+      "to": 2017,
+      "engines": "20i / 28i / 20d",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.2,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "G01",
+      "from": 2018,
+      "to": 2024,
+      "engines": "20i / 30e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.4,
+      "ncap": 5,
+      "checks": 1
+     },
+     {
+      "code": "G45",
+      "from": 2025,
+      "to": null,
+      "engines": "20 / 30e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "x5",
+    "model": "X5",
+    "he": "X5",
+    "status": "on_sale",
+    "price": [
+     774900,
+     774900
+    ],
+    "gens": [
+     {
+      "code": "E70",
+      "from": 2010,
+      "to": 2013,
+      "engines": "xDrive35i / 30d",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 12,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "F15",
+      "from": 2014,
+      "to": 2018,
+      "engines": "xDrive35i / 40e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 10.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "G05",
+      "from": 2019,
+      "to": null,
+      "engines": "xDrive40i / 45e / 50e",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "i4",
+    "model": "i4",
+    "he": "i4",
+    "status": "on_sale",
+    "price": [
+     494900,
+     614900
+    ],
+    "gens": [
+     {
+      "code": "G26",
+      "from": 2022,
+      "to": null,
+      "engines": "eDrive35 / eDrive40 / M50",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 4,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "x1",
+    "model": "X1",
+    "he": "X1",
+    "status": "on_sale",
+    "price": [
+     319900,
+     329900
+    ],
+    "gens": [
+     {
+      "code": "E84",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 טורבו בנזין / דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "F48",
+      "from": 2015,
+      "to": 2022,
+      "engines": "1.5 / 2.0 טורבו, 25e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "U11",
+      "from": 2022,
+      "to": null,
+      "engines": "1.5 / 2.0 טורבו מיילד-היברידי, פלאג-אין, iX1 חשמלי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev",
+       "ev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "5-series",
+    "model": "5 Series",
+    "he": "סדרה 5",
+    "status": "on_sale",
+    "price": [
+     479900,
+     555000
+    ],
+    "gens": [
+     {
+      "code": "F10",
+      "from": 2010,
+      "to": 2016,
+      "engines": "2.0 טורבו (520i/528i), 3.0, היברידי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 8.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "G30",
+      "from": 2016,
+      "to": 2023,
+      "engines": "2.0 טורבו, 530e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "G60",
+      "from": 2023,
+      "to": null,
+      "engines": "2.0 מיילד-היברידי, פלאג-אין, i5 חשמלי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev",
+       "ev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "x2",
+    "model": "X2",
+    "he": "X2",
+    "status": "on_sale",
+    "price": [
+     319900,
+     346900
+    ],
+    "gens": [
+     {
+      "code": "F39",
+      "from": 2018,
+      "to": 2023,
+      "engines": "1.5 / 2.0 טורבו בנזין, דיזל, 25e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "U10",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 טורבו מיילד-היברידי, 2.0 טורבו; iX2 חשמלי 66.5 קוט\"ש",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ix3",
+    "model": "iX3",
+    "he": "iX3",
+    "status": "on_sale",
+    "price": [
+     434900,
+     544900
+    ],
+    "gens": [
+     {
+      "code": "G08",
+      "from": 2020,
+      "to": 2025,
+      "engines": "חשמלי, סוללה 74 קוט\"ש נטו, הנעה אחורית",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "NA5 (Neue Klasse)",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 82.7/108.7 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "audi",
+  "name": "Audi",
+  "models": [
+   {
+    "id": "a3",
+    "model": "A3",
+    "he": "A3",
+    "status": "on_sale",
+    "price": [
+     227900,
+     298900
+    ],
+    "gens": [
+     {
+      "code": "8P",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.4 / 1.8 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "8V",
+      "from": 2013,
+      "to": 2020,
+      "engines": "1.0 / 1.2 / 1.4 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "8Y",
+      "from": 2021,
+      "to": null,
+      "engines": "1.0 / 1.5 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "a4",
+    "model": "A4",
+    "he": "A4",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "B8",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.8 / 2.0 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.4,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "B9",
+      "from": 2016,
+      "to": 2024,
+      "engines": "1.4 / 2.0 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "model": "Q3",
+    "he": "Q3",
+    "status": "on_sale",
+    "price": [
+     318900,
+     373000
+    ],
+    "gens": [
+     {
+      "code": "8U",
+      "from": 2012,
+      "to": 2018,
+      "engines": "1.4 / 2.0 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.2,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "F3",
+      "from": 2019,
+      "to": 2025,
+      "engines": "1.5 / 2.0 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 TFSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "q5",
+    "model": "Q5",
+    "he": "Q5",
+    "status": "on_sale",
+    "price": [
+     400000,
+     548900
+    ],
+    "gens": [
+     {
+      "code": "8R",
+      "from": 2010,
+      "to": 2017,
+      "engines": "2.0 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.6,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "FY",
+      "from": 2017,
+      "to": 2024,
+      "engines": "2.0 TFSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.4,
+      "ncap": 5,
+      "checks": 1
+     },
+     {
+      "code": "Gen3",
+      "from": 2025,
+      "to": null,
+      "engines": "2.0 TFSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "q8-e-tron",
+    "model": "Q8 e-tron",
+    "he": "Q8 e-tron",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GE (e-tron)",
+      "from": 2019,
+      "to": 2022,
+      "engines": "סוללה 71/95 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 24,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "GE (Q8 e-tron)",
+      "from": 2023,
+      "to": 2025,
+      "engines": "סוללה 89/114 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "model": "Q7",
+    "he": "Q7",
+    "status": "on_sale",
+    "price": [
+     689900,
+     740900
+    ],
+    "gens": [
+     {
+      "code": "4L",
+      "from": 2010,
+      "to": 2015,
+      "engines": "3.0 TFSI / 3.0 TDI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 12.5,
+      "ncap": 4,
+      "checks": 3
+     },
+     {
+      "code": "4M",
+      "from": 2015,
+      "to": null,
+      "engines": "3.0 TFSI / TDI, TFSI e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "q4-etron",
+    "model": "Q4 e-tron",
+    "he": "Q4 e-tron",
+    "status": "on_sale",
+    "price": [
+     299000,
+     359900
+    ],
+    "gens": [
+     {
+      "code": "F4",
+      "from": 2021,
+      "to": null,
+      "engines": "חשמלי, סוללה 52/59/77 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "a5",
+    "model": "A5",
+    "he": "A5",
+    "status": "on_sale",
+    "price": [
+     369100,
+     519000
+    ],
+    "gens": [
+     {
+      "code": "B8 (8T)",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.8 / 2.0 / 3.0 TFSI בנזין, TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "F5 (B9)",
+      "from": 2016,
+      "to": 2024,
+      "engines": "2.0 TFSI, 2.0 / 3.0 TDI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "B10",
+      "from": 2024,
+      "to": null,
+      "engines": "2.0 TFSI מיילד-היברידי, TFSI e פלאג-אין",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "model": "Q8",
+    "he": "Q8",
+    "status": "on_sale",
+    "price": [
+     726200,
+     822000
+    ],
+    "gens": [
+     {
+      "code": "4M",
+      "from": 2018,
+      "to": null,
+      "engines": "3.0 TFSI / TDI מיילד-היברידי, TFSI e פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 11,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "nissan",
+  "name": "Nissan",
+  "models": [
+   {
+    "id": "qashqai",
+    "model": "Qashqai",
+    "he": "קשקאי",
+    "status": "on_sale",
+    "price": [
+     178990,
+     231990
+    ],
+    "gens": [
+     {
+      "code": "J10",
+      "from": 2010,
+      "to": 2013,
+      "engines": "2.0 בנזין / 1.6 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "J11",
+      "from": 2014,
+      "to": 2021,
+      "engines": "1.2 / 1.3 / 1.6 DIG-T טורבו, 1.5 / 1.6 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": 5,
+      "checks": 5
+     },
+     {
+      "code": "J12",
+      "from": 2021,
+      "to": null,
+      "engines": "1.3 טורבו מיילד-היברידי / 1.5 e-Power",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.4,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "juke",
+    "model": "Juke",
+    "he": "ג'וק",
+    "status": "on_sale",
+    "price": [
+     146990,
+     165990
+    ],
+    "gens": [
+     {
+      "code": "F15",
+      "from": 2011,
+      "to": 2019,
+      "engines": "1.6 בנזין / 1.6 DIG-T טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "F16",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0 DIG-T טורבו / 1.6 היברידי (מ-2022)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.2,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "x-trail",
+    "model": "X-Trail",
+    "he": "אקס-טרייל",
+    "status": "on_sale",
+    "price": [
+     209990,
+     239990
+    ],
+    "gens": [
+     {
+      "code": "T31",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.0 / 2.5 בנזין, 2.0 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "T32",
+      "from": 2014,
+      "to": 2022,
+      "engines": "1.6 / 1.3 DIG-T בנזין, 1.6 / 1.7 / 2.0 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "T33",
+      "from": 2022,
+      "to": null,
+      "engines": "1.5 VC-Turbo מיילד-היברידי / e-Power",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "micra",
+    "model": "Micra",
+    "he": "מיקרה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "K13",
+      "from": 2011,
+      "to": 2017,
+      "engines": "1.2 בנזין / 1.2 DIG-S",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 4,
+      "checks": 3
+     },
+     {
+      "code": "K14",
+      "from": 2017,
+      "to": 2025,
+      "engines": "1.0 / 0.9 טורבו בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "sentra",
+    "model": "Sentra",
+    "he": "סנטרה",
+    "status": "on_sale",
+    "price": [
+     154990,
+     156990
+    ],
+    "gens": [
+     {
+      "code": "B17",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.8 בנזין / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "B18",
+      "from": 2020,
+      "to": 2025,
+      "engines": "2.0 בנזין, CVT",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "B19",
+      "from": 2025,
+      "to": null,
+      "engines": "2.0 בנזין, CVT",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "leaf",
+    "model": "Leaf",
+    "he": "ליף",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "ZE0/AZE0",
+      "from": 2011,
+      "to": 2017,
+      "engines": "חשמלי, סוללה 24 / 30 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "ZE1",
+      "from": 2018,
+      "to": 2024,
+      "engines": "חשמלי, סוללה 40 / 62 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 52 / 75 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "note",
+    "model": "Note",
+    "he": "נוט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "E11",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.4 / 1.6 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "E12",
+      "from": 2013,
+      "to": 2017,
+      "engines": "1.2 / 1.2 DIG-S בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "ford",
+  "name": "Ford",
+  "models": [
+   {
+    "id": "focus",
+    "model": "Focus",
+    "he": "פוקוס",
+    "status": "on_sale",
+    "price": [
+     165900,
+     165900
+    ],
+    "gens": [
+     {
+      "code": "Mk3 (C346)",
+      "from": 2011,
+      "to": 2018,
+      "engines": "1.0 / 1.5 / 1.6 EcoBoost, 1.6 בנזין, 1.5 / 1.6 TDCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 5
+     },
+     {
+      "code": "Mk4 (C519)",
+      "from": 2019,
+      "to": null,
+      "engines": "1.0 EcoBoost (גם מיילד-היברידי) / 1.5 EcoBoost, 1.5 EcoBlue דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "diesel"
+      ],
+      "cons": 6.9,
+      "ncap": 5,
+      "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "kuga",
+    "model": "Kuga",
+    "he": "קוגה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.0 TDCi דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.5 / 1.6 / 2.0 EcoBoost, 2.0 TDCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Gen3",
+      "from": 2020,
+      "to": null,
+      "engines": "1.5 EcoBoost, 2.5 היברידי / פלאג-אין, דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "puma",
+    "model": "Puma",
+    "he": "פומה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0 EcoBoost מיילד-היברידי",
+      "pt": [
+       "hybrid",
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "fiesta",
+    "model": "Fiesta",
+    "he": "פיאסטה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Mk6",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.25 / 1.4 / 1.6 בנזין, 1.0 EcoBoost, דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "Mk7",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.1 בנזין / 1.0 EcoBoost (גם מיילד-היברידי), 1.5 TDCi",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "diesel"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "explorer",
+    "model": "Explorer",
+    "he": "אקספלורר",
+    "status": "on_sale",
+    "price": [
+     369900,
+     429900
+    ],
+    "gens": [
+     {
+      "code": "U502",
+      "from": 2011,
+      "to": 2019,
+      "engines": "2.0 / 2.3 EcoBoost, 3.5 V6, 3.5 EcoBoost",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "U625",
+      "from": 2020,
+      "to": null,
+      "engines": "2.3 / 3.0 EcoBoost, היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 12,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ranger",
+    "model": "Ranger",
+    "he": "ריינג'ר",
+    "status": "on_sale",
+    "price": [
+     294000,
+     490000
+    ],
+    "gens": [
+     {
+      "code": "T6 (PX)",
+      "from": 2012,
+      "to": 2022,
+      "engines": "2.2 / 3.2 TDCi, 2.0 EcoBlue דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "P703",
+      "from": 2022,
+      "to": null,
+      "engines": "2.0 EcoBlue דיזל, 3.0 V6 טורבו בנזין (Raptor), פלאג-אין",
+      "pt": [
+       "diesel",
+       "petrol",
+       "phev"
+      ],
+      "cons": 10,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "bronco",
+    "model": "Bronco",
+    "he": "ברונקו",
+    "status": "on_sale",
+    "price": [
+     399900,
+     629000
+    ],
+    "gens": [
+     {
+      "code": "U725",
+      "from": 2021,
+      "to": null,
+      "engines": "2.3 / 2.7 / 3.0 EcoBoost",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 13,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "mustang",
+    "model": "Mustang",
+    "he": "מוסטנג",
+    "status": "on_sale",
+    "price": [
+     445000,
+     505000
+    ],
+    "gens": [
+     {
+      "code": "S197",
+      "from": 2010,
+      "to": 2014,
+      "engines": "3.7 / 4.0 V6, 4.6 / 5.0 V8",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 13.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "S550",
+      "from": 2015,
+      "to": 2023,
+      "engines": "2.3 EcoBoost, 5.0 V8",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 12,
+      "ncap": 3,
+      "checks": 2
+     },
+     {
+      "code": "S650",
+      "from": 2024,
+      "to": null,
+      "engines": "5.0 V8 (בישראל), 2.3 EcoBoost",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 13,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "renault",
+  "name": "Renault",
+  "models": [
+   {
+    "id": "clio",
+    "model": "Clio",
+    "he": "קליאו",
+    "status": "on_sale",
+    "price": [
+     124990,
+     126990
+    ],
+    "gens": [
+     {
+      "code": "Clio III",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.2 / 1.4 / 1.6 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Clio IV",
+      "from": 2012,
+      "to": 2019,
+      "engines": "0.9 / 1.2 TCe טורבו, 1.2 16V, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.4,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "Clio V",
+      "from": 2019,
+      "to": null,
+      "engines": "1.0 TCe טורבו / 1.6 E-Tech היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "captur",
+    "model": "Captur",
+    "he": "קפצ'ור",
+    "status": "on_sale",
+    "price": [
+     151990,
+     151990
+    ],
+    "gens": [
+     {
+      "code": "J87",
+      "from": 2013,
+      "to": 2019,
+      "engines": "0.9 / 1.2 TCe טורבו, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "Gen2 (CMF-B)",
+      "from": 2020,
+      "to": null,
+      "engines": "1.0 / 1.3 TCe טורבו, E-Tech היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "megane",
+    "model": "Megane",
+    "he": "מגאן",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Megane III",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.2 / 1.4 / 1.6 / 2.0 בנזין וטורבו, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "Megane IV",
+      "from": 2016,
+      "to": 2024,
+      "engines": "1.2 / 1.3 TCe טורבו, 1.5 dCi, 1.6 E-Tech פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 6.6,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "arkana",
+    "model": "Arkana",
+    "he": "ארקנה",
+    "status": "on_sale",
+    "price": [
+     161990,
+     180990
+    ],
+    "gens": [
+     {
+      "code": "Gen1 (CMF-B)",
+      "from": 2021,
+      "to": null,
+      "engines": "1.3 טורבו מיילד-היברידי / 1.6 E-Tech היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "austral",
+    "model": "Austral",
+    "he": "אוסטרל",
+    "status": "on_sale",
+    "price": [
+     179990,
+     187990
+    ],
+    "gens": [
+     {
+      "code": "HHN",
+      "from": 2023,
+      "to": null,
+      "engines": "1.3 טורבו מיילד-היברידי / 1.2 E-Tech היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.6,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "renault-5",
+    "model": "5 E-Tech",
+    "he": "5 E-Tech",
+    "status": "on_sale",
+    "price": [
+     168999,
+     176990
+    ],
+    "gens": [
+     {
+      "code": "R5E",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 40 / 52 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "symbioz",
+    "model": "Symbioz",
+    "he": "סימביוז",
+    "status": "on_sale",
+    "price": [
+     159990,
+     166990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "1.6 / 1.8 E-Tech היברידי, 1.3 מיילד-היברידי",
+      "pt": [
+       "hybrid",
+       "petrol"
+      ],
+      "cons": 5.6,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "dacia",
+  "name": "Dacia",
+  "models": [
+   {
+    "id": "duster",
+    "model": "Duster",
+    "he": "דאסטר",
+    "status": "on_sale",
+    "price": [
+     139990,
+     170990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.6 בנזין, 1.2 TCe, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": 3,
+      "checks": 4
+     },
+     {
+      "code": "Gen2",
+      "from": 2018,
+      "to": 2024,
+      "engines": "1.0 / 1.3 TCe טורבו, 1.6 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.3,
+      "ncap": 3,
+      "checks": 3
+     },
+     {
+      "code": "Gen3",
+      "from": 2024,
+      "to": null,
+      "engines": "1.2 טורבו מיילד-היברידי / 1.6–1.8 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.5,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "sandero",
+    "model": "Sandero",
+    "he": "סנדרו",
+    "status": "on_sale",
+    "price": [
+     121990,
+     121990
+    ],
+    "gens": [
+     {
+      "code": "Sandero I",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.2 / 1.4 / 1.6 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 3,
+      "checks": 2
+     },
+     {
+      "code": "Sandero II",
+      "from": 2013,
+      "to": 2020,
+      "engines": "0.9 TCe / 1.0 / 1.2 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": 4,
+      "checks": 2
+     },
+     {
+      "code": "Sandero III",
+      "from": 2021,
+      "to": null,
+      "engines": "1.0 TCe טורבו (ידנית או CVT), 1.0 ECO-G",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.4,
+      "ncap": 2,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "jogger",
+    "model": "Jogger",
+    "he": "ג'וגר",
+    "status": "on_sale",
+    "price": [
+     174990,
+     174990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": null,
+      "engines": "1.0 TCe טורבו / 1.6–1.8 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.3,
+      "ncap": 1,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "bigster",
+    "model": "Bigster",
+    "he": "ביגסטר",
+    "status": "on_sale",
+    "price": [
+     167990,
+     190990
+    ],
+    "gens": [
+     {
+      "code": "R1310",
+      "from": 2025,
+      "to": null,
+      "engines": "1.8 היברידי, 1.2 היברידי 4X4, 1.2 טורבו",
+      "pt": [
+       "hybrid",
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "logan",
+    "model": "Logan",
+    "he": "לוגן",
+    "status": "on_sale",
+    "price": [
+     127990,
+     127990
+    ],
+    "gens": [
+     {
+      "code": "Logan I",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.4 / 1.6 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Logan II",
+      "from": 2013,
+      "to": 2020,
+      "engines": "0.9 TCe / 1.2 בנזין, 1.5 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Logan III",
+      "from": 2021,
+      "to": null,
+      "engines": "1.0 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 2,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "honda",
+  "name": "Honda",
+  "models": [
+   {
+    "id": "civic",
+    "model": "Civic",
+    "he": "סיוויק",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "FN/FK/FD (דור 8)",
+      "from": 2010,
+      "to": 2011,
+      "engines": "1.4 / 1.8 i-VTEC בנזין, 1.3 היברידי (IMA)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.4,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "FK (דור 9)",
+      "from": 2012,
+      "to": 2016,
+      "engines": "1.4 / 1.8 בנזין, 1.6 / 2.2 i-DTEC",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.3,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "FK7 (דור 10)",
+      "from": 2017,
+      "to": 2021,
+      "engines": "1.0 / 1.5 טורבו בנזין, 1.6 i-DTEC",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.9,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "FL (דור 11)",
+      "from": 2022,
+      "to": null,
+      "engines": "2.0 e:HEV היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "jazz",
+    "model": "Jazz",
+    "he": "ג'אז",
+    "status": "on_sale",
+    "price": [
+     148900,
+     159900
+    ],
+    "gens": [
+     {
+      "code": "GE",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.2 / 1.5 בנזין, 1.3 היברידי (מ-2011)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.3,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "GK",
+      "from": 2015,
+      "to": 2020,
+      "engines": "1.3 / 1.5 בנזין, 1.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "GR",
+      "from": 2020,
+      "to": null,
+      "engines": "1.5 e:HEV היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 4.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "hr-v",
+    "model": "HR-V",
+    "he": "HR-V",
+    "status": "on_sale",
+    "price": [
+     184900,
+     224900
+    ],
+    "gens": [
+     {
+      "code": "RU",
+      "from": 2015,
+      "to": 2021,
+      "engines": "1.5 i-VTEC בנזין, 1.6 i-DTEC",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "RV",
+      "from": 2022,
+      "to": null,
+      "engines": "1.5 e:HEV היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.4,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "cr-v",
+    "model": "CR-V",
+    "he": "CR-V",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "RE (דור 3)",
+      "from": 2010,
+      "to": 2011,
+      "engines": "2.0 / 2.4 בנזין, 2.2 i-DTEC",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "RM (דור 4)",
+      "from": 2012,
+      "to": 2018,
+      "engines": "2.0 / 2.4 בנזין, 1.6 / 2.2 i-DTEC",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "RW (דור 5)",
+      "from": 2018,
+      "to": 2023,
+      "engines": "1.5 טורבו / 2.0 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "RS (דור 6)",
+      "from": 2023,
+      "to": null,
+      "engines": "2.0 e:HEV היברידי / e:PHEV",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 6.3,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "zr-v",
+    "model": "ZR-V",
+    "he": "ZR-V",
+    "status": "on_sale",
+    "price": [
+     209900,
+     234900
+    ],
+    "gens": [
+     {
+      "code": "RZ",
+      "from": 2023,
+      "to": null,
+      "engines": "2.0 e:HEV היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5.9,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "subaru",
+  "name": "Subaru",
+  "models": [
+   {
+    "id": "impreza",
+    "model": "Impreza",
+    "he": "אימפרזה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "GJ/GP",
+      "from": 2012,
+      "to": 2016,
+      "engines": "1.6 / 2.0 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "GK/GT",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.6 / 2.0 בוקסר, 2.0 e-Boxer (מ-2020)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.3,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "GU",
+      "from": 2024,
+      "to": null,
+      "engines": "2.0 e-Boxer / 2.5 בוקסר",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "crosstrek",
+    "model": "XV / Crosstrek",
+    "he": "XV / קרוסטרק",
+    "status": "on_sale",
+    "price": [
+     175900,
+     185900
+    ],
+    "gens": [
+     {
+      "code": "GP (XV)",
+      "from": 2012,
+      "to": 2017,
+      "engines": "1.6 / 2.0 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "GT (XV)",
+      "from": 2018,
+      "to": 2022,
+      "engines": "1.6 / 2.0 בוקסר, 2.0 e-Boxer",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.6,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "GU (Crosstrek)",
+      "from": 2023,
+      "to": null,
+      "engines": "2.0 / 2.5 בוקסר, e-Boxer",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "forester",
+    "model": "Forester",
+    "he": "פורסטר",
+    "status": "on_sale",
+    "price": [
+     212900,
+     279900
+    ],
+    "gens": [
+     {
+      "code": "דור 3",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.0 בוקסר, 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "דור 4",
+      "from": 2013,
+      "to": 2018,
+      "engines": "2.0 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "דור 5",
+      "from": 2019,
+      "to": 2024,
+      "engines": "2.0 e-Boxer",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "דור 6",
+      "from": 2024,
+      "to": null,
+      "engines": "2.5 בוקסר / 2.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 8.4,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "outback",
+    "model": "Outback",
+    "he": "אאוטבק",
+    "status": "on_sale",
+    "price": [
+     279900,
+     279990
+    ],
+    "gens": [
+     {
+      "code": "BR",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.5 / 3.6 בוקסר, 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "BS",
+      "from": 2015,
+      "to": 2019,
+      "engines": "2.5 / 3.6 בוקסר, 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.9,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "BT",
+      "from": 2020,
+      "to": 2025,
+      "engines": "2.5 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.7,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "BU",
+      "from": 2025,
+      "to": null,
+      "engines": "2.5 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.7,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "brz",
+    "model": "BRZ",
+    "he": "BRZ",
+    "status": "on_sale",
+    "price": [
+     229900,
+     259900
+    ],
+    "gens": [
+     {
+      "code": "ZC6",
+      "from": 2012,
+      "to": 2020,
+      "engines": "2.0 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "ZD8",
+      "from": 2021,
+      "to": null,
+      "engines": "2.4 בוקסר",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "lexus",
+  "name": "Lexus",
+  "models": [
+   {
+    "id": "ux",
+    "model": "UX",
+    "he": "UX",
+    "status": "on_sale",
+    "price": [
+     249990,
+     284990
+    ],
+    "gens": [
+     {
+      "code": "ZA10",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 בנזין / 2.0 היברידי, חשמלי (300e)",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 5.6,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "nx",
+    "model": "NX",
+    "he": "NX",
+    "status": "on_sale",
+    "price": [
+     334990,
+     445990
+    ],
+    "gens": [
+     {
+      "code": "AZ10",
+      "from": 2014,
+      "to": 2021,
+      "engines": "2.0 טורבו / 2.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.3,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "AZ20",
+      "from": 2022,
+      "to": null,
+      "engines": "2.5 היברידי / 2.5 פלאג-אין",
+      "pt": [
+       "hybrid",
+       "phev"
+      ],
+      "cons": 6.4,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "rx",
+    "model": "RX",
+    "he": "RX",
+    "status": "on_sale",
+    "price": [
+     414990,
+     589990
+    ],
+    "gens": [
+     {
+      "code": "AL10",
+      "from": 2010,
+      "to": 2015,
+      "engines": "3.5 V6 / 3.5 היברידי (450h), 2.7",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "AL20",
+      "from": 2016,
+      "to": 2022,
+      "engines": "2.0 טורבו / 3.5 V6 / 3.5 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "ALA10/ALH10",
+      "from": 2023,
+      "to": null,
+      "engines": "2.4 טורבו, 2.5 היברידי / פלאג-אין, 2.4 טורבו היברידי (500h)",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "es",
+    "model": "ES",
+    "he": "ES",
+    "status": "on_sale",
+    "price": [
+     354990,
+     374990
+    ],
+    "gens": [
+     {
+      "code": "XV40",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.4 / 3.5 V6",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "XV60",
+      "from": 2012,
+      "to": 2018,
+      "engines": "2.5 היברידי (300h), 2.0 / 2.5 / 3.5",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "AXZH10",
+      "from": 2018,
+      "to": 2025,
+      "engines": "2.5 היברידי (300h), 2.0 / 2.5 / 3.5",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "AXZH21",
+      "from": 2025,
+      "to": null,
+      "engines": "2.5 היברידי (350h), חשמלי (350e / 500e)",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "lbx",
+    "model": "LBX",
+    "he": "LBX",
+    "status": "on_sale",
+    "price": [
+     205990,
+     246990
+    ],
+    "gens": [
+     {
+      "code": "AY10",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 4.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "rz",
+    "model": "RZ",
+    "he": "RZ",
+    "status": "on_sale",
+    "price": [
+     299990,
+     439990
+    ],
+    "gens": [
+     {
+      "code": "e-TNGA",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 71.4 / 72.8 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "volvo",
+  "name": "Volvo",
+  "models": [
+   {
+    "id": "xc40",
+    "model": "XC40 / EX40",
+    "he": "XC40 / EX40",
+    "status": "on_sale",
+    "price": [
+     249900,
+     359900
+    ],
+    "gens": [
+     {
+      "code": "XC40 (CMA)",
+      "from": 2018,
+      "to": null,
+      "engines": "T3 / T4 / T5 בנזין, B4 מיילד-היברידי, T4 / T5 פלאג-אין",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "EX40 (XC40 Recharge)",
+      "from": 2020,
+      "to": null,
+      "engines": "חשמלי, מנוע אחד או שניים",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "xc60",
+    "model": "XC60",
+    "he": "XC60",
+    "status": "on_sale",
+    "price": [
+     299900,
+     474900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2017,
+      "engines": "2.0 טורבו / T5 / T6 בנזין, D4 / D5 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2017,
+      "to": null,
+      "engines": "T5 / B5 בנזין ומיילד-היברידי, T8 פלאג-אין, דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "xc90",
+    "model": "XC90",
+    "he": "XC90",
+    "status": "on_sale",
+    "price": [
+     519900,
+     634900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.5T / 3.2 / V8 בנזין, D5 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2015,
+      "to": null,
+      "engines": "T5 / T6, B5 / B6 מיילד-היברידי, T8 פלאג-אין, D5 דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ex30",
+    "model": "EX30",
+    "he": "EX30",
+    "status": "on_sale",
+    "price": [
+     179900,
+     239900
+    ],
+    "gens": [
+     {
+      "code": "SEA2",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי 51 / 69 קוט\"ש, מנוע אחד או שניים",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ex90",
+    "model": "EX90",
+    "he": "EX90",
+    "status": "on_sale",
+    "price": [
+     739900,
+     754900
+    ],
+    "gens": [
+     {
+      "code": "SPA2",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 92–111 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "es90",
+    "model": "ES90",
+    "he": "ES90",
+    "status": "on_sale",
+    "price": [
+     399900,
+     539900
+    ],
+    "gens": [
+     {
+      "code": "V551",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 88–106 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "s60",
+    "model": "S60",
+    "he": "S60",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2010,
+      "to": 2018,
+      "engines": "T3–T6 בנזין, D2–D5 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "SPA",
+      "from": 2018,
+      "to": 2024,
+      "engines": "T4 / T5 בנזין, T8 פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "v60",
+    "model": "V60",
+    "he": "V60",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2018,
+      "engines": "T3–T6 בנזין, D2–D5 דיזל, D5/D6 פלאג-אין דיזל",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "SPA",
+      "from": 2018,
+      "to": null,
+      "engines": "B3–B6 / T4–T6 בנזין, D3/D4 דיזל, T6/T8 פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "c40",
+    "model": "C40 / EC40",
+    "he": "C40 / EC40",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "C40 / EC40",
+      "from": 2021,
+      "to": null,
+      "engines": "חשמלי, סוללה 69–82 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 20,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "citroen",
+  "name": "Citroën",
+  "models": [
+   {
+    "id": "c3",
+    "model": "C3",
+    "he": "C3",
+    "status": "on_sale",
+    "price": [
+     99990,
+     114990
+    ],
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.1 / 1.4 / 1.6 VTi, 1.4 / 1.6 HDi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2017,
+      "to": 2024,
+      "engines": "1.2 PureTech, 1.5 / 1.6 BlueHDi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.3,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen4",
+      "from": 2024,
+      "to": null,
+      "engines": "1.2 טורבו בנזין / מיילד-היברידי, חשמלי ë-C3",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "c4",
+    "model": "C4",
+    "he": "C4",
+    "status": "on_sale",
+    "price": [
+     129990,
+     129990
+    ],
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2011,
+      "to": 2018,
+      "engines": "1.4 / 1.6 VTi, 1.6 THP, 1.6 HDi / 2.0 HDi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "C41",
+      "from": 2021,
+      "to": null,
+      "engines": "1.2 PureTech, 1.2 היברידי, חשמלי ë-C4",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.2,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "c5-aircross",
+    "model": "C5 Aircross",
+    "he": "C5 איירקרוס",
+    "status": "on_sale",
+    "price": [
+     179990,
+     195990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2019,
+      "to": 2025,
+      "engines": "1.2 / 1.6 PureTech, 1.6 פלאג-אין, 1.5 / 2.0 BlueHDi",
+      "pt": [
+       "petrol",
+       "phev",
+       "diesel"
+      ],
+      "cons": 7.3,
+      "ncap": 4,
+      "checks": 2
+     },
+     {
+      "code": "Gen2 (STLA Medium)",
+      "from": 2025,
+      "to": null,
+      "engines": "1.2 מיילד-היברידי, 1.6 פלאג-אין, חשמלי",
+      "pt": [
+       "hybrid",
+       "phev",
+       "ev"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "berlingo",
+    "model": "Berlingo",
+    "he": "ברלינגו",
+    "status": "on_sale",
+    "price": [
+     176990,
+     189990
+    ],
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.6 בנזין, 1.6 HDi / BlueHDi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "K9",
+      "from": 2019,
+      "to": null,
+      "engines": "1.5 BlueHDi דיזל, 1.2 PureTech, חשמלי ë-Berlingo",
+      "pt": [
+       "diesel",
+       "petrol",
+       "ev"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "c3-aircross",
+    "model": "C3 Aircross",
+    "he": "C3 איירקרוס",
+    "status": "on_sale",
+    "price": [
+     129990,
+     139990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2017,
+      "to": 2024,
+      "engines": "1.2 PureTech, 1.5 / 1.6 BlueHDi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "CC24",
+      "from": 2024,
+      "to": null,
+      "engines": "1.2 טורבו מיילד-היברידי, חשמלי ë-C3 Aircross",
+      "pt": [
+       "hybrid",
+       "petrol",
+       "ev"
+      ],
+      "cons": 6.4,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "ds",
+  "name": "DS",
+  "models": [
+   {
+    "id": "ds-3",
+    "model": "DS 3",
+    "he": "DS 3",
+    "status": "on_sale",
+    "price": [
+     218990,
+     218990
+    ],
+    "gens": [
+     {
+      "code": "DS3 (האצ'בק)",
+      "from": 2010,
+      "to": 2019,
+      "engines": "1.2 PureTech / 1.6 VTi / THP, 1.6 HDi / BlueHDi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "DS 3 Crossback",
+      "from": 2019,
+      "to": null,
+      "engines": "1.2 PureTech, 1.5 BlueHDi, חשמלי E-Tense 50 / 54 קוט\"ש",
+      "pt": [
+       "petrol",
+       "diesel",
+       "ev"
+      ],
+      "cons": 6.2,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ds-4",
+    "model": "DS 4",
+    "he": "DS 4",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2011,
+      "to": 2018,
+      "engines": "1.2 / 1.6 בנזין, 1.6 / 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2021,
+      "to": null,
+      "engines": "1.2 / 1.6 PureTech, 1.6 פלאג-אין, 1.5 BlueHDi",
+      "pt": [
+       "petrol",
+       "phev",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ds-7",
+    "model": "DS 7",
+    "he": "DS 7",
+    "status": "on_sale",
+    "price": [
+     344990,
+     344990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2018,
+      "to": null,
+      "engines": "1.2 / 1.6 PureTech, 1.5 / 2.0 BlueHDi, 1.6 E-Tense פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "opel",
+  "name": "Opel",
+  "models": [
+   {
+    "id": "corsa",
+    "model": "Corsa",
+    "he": "קורסה",
+    "status": "on_sale",
+    "price": [
+     126990,
+     134990
+    ],
+    "gens": [
+     {
+      "code": "Corsa D",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.2 / 1.4 בנזין, 1.3 CDTI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Corsa E",
+      "from": 2015,
+      "to": 2019,
+      "engines": "1.0 טורבו / 1.2 / 1.4, 1.3 CDTI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Corsa F",
+      "from": 2020,
+      "to": null,
+      "engines": "1.2 PureTech, 1.2 מיילד-היברידי, חשמלי Corsa-e",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "astra",
+    "model": "Astra",
+    "he": "אסטרה",
+    "status": "on_sale",
+    "price": [
+     167990,
+     167990
+    ],
+    "gens": [
+     {
+      "code": "Astra J",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.4–2.0 טורבו בנזין, 2.0 CDTI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Astra K",
+      "from": 2016,
+      "to": 2021,
+      "engines": "1.0 / 1.2 / 1.4 טורבו, 1.5 / 1.6 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Astra L",
+      "from": 2022,
+      "to": null,
+      "engines": "1.2 PureTech / מיילד-היברידי, 1.6 פלאג-אין, חשמלי",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev",
+       "ev"
+      ],
+      "cons": 6.3,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "mokka",
+    "model": "Mokka",
+    "he": "מוקה",
+    "status": "on_sale",
+    "price": [
+     149990,
+     149990
+    ],
+    "gens": [
+     {
+      "code": "Mokka A/X",
+      "from": 2013,
+      "to": 2019,
+      "engines": "1.4 טורבו / 1.6 בנזין, 1.6 / 1.7 CDTI",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Mokka B",
+      "from": 2021,
+      "to": null,
+      "engines": "1.2 טורבו, 1.2 היברידי, חשמלי Mokka-e",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.4,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "grandland",
+    "model": "Grandland",
+    "he": "גרנדלנד",
+    "status": "on_sale",
+    "price": [
+     186990,
+     206990
+    ],
+    "gens": [
+     {
+      "code": "Gen1 (Grandland X)",
+      "from": 2018,
+      "to": 2024,
+      "engines": "1.2 PureTech, 1.5 / 2.0 דיזל, פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.2,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2025,
+      "to": null,
+      "engines": "1.2 מיילד-היברידי, 1.6 פלאג-אין, חשמלי",
+      "pt": [
+       "hybrid",
+       "phev",
+       "ev"
+      ],
+      "cons": 6.6,
+      "ncap": 4,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "frontera",
+    "model": "Frontera",
+    "he": "פרונטרה",
+    "status": "on_sale",
+    "price": [
+     144990,
+     156990
+    ],
+    "gens": [
+     {
+      "code": "OV24",
+      "from": 2025,
+      "to": null,
+      "engines": "1.2 טורבו מיילד-היברידי, חשמלי",
+      "pt": [
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.4,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "crossland",
+    "model": "Crossland",
+    "he": "קרוסלנד",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2017,
+      "to": 2024,
+      "engines": "1.2 / 1.2 טורבו בנזין, 1.5 / 1.6 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.6,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "zeekr",
+  "name": "Zeekr",
+  "models": [
+   {
+    "id": "x",
+    "model": "X",
+    "he": "X",
+    "status": "on_sale",
+    "price": [
+     169990,
+     186990
+    ],
+    "gens": [
+     {
+      "code": "BX1E",
+      "from": 2023,
+      "to": null,
+      "engines": "סוללה 49–69 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "7gt",
+    "model": "7GT",
+    "he": "7GT",
+    "status": "on_sale",
+    "price": [
+     191990,
+     269990
+    ],
+    "gens": [
+     {
+      "code": "CC1E",
+      "from": 2025,
+      "to": null,
+      "engines": "סוללה 75/100 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "7x",
+    "model": "7X",
+    "he": "7X",
+    "status": "on_sale",
+    "price": [
+     233990,
+     289990
+    ],
+    "gens": [
+     {
+      "code": "CX1E",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 75/100 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "001",
+    "model": "001",
+    "he": "001",
+    "status": "on_sale",
+    "price": [
+     289990,
+     349990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": null,
+      "engines": "סוללה 86–100 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "lynkco",
+  "name": "Lynk & Co",
+  "models": [
+   {
+    "id": "02",
+    "model": "02",
+    "he": "02",
+    "status": "on_sale",
+    "price": [
+     159900,
+     169900
+    ],
+    "gens": [
+     {
+      "code": "Gen2 (EV)",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 66 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "01",
+    "model": "01 EM-P",
+    "he": "01 EM-P",
+    "status": "on_sale",
+    "price": [
+     179900,
+     198900
+    ],
+    "gens": [
+     {
+      "code": "CX11",
+      "from": 2017,
+      "to": null,
+      "engines": "פלאג-אין: 1.5 טורבו בנזין",
+      "pt": [
+       "phev"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "08",
+    "model": "08",
+    "he": "08",
+    "status": "on_sale",
+    "price": [
+     229900,
+     249900
+    ],
+    "gens": [
+     {
+      "code": "DX11",
+      "from": 2023,
+      "to": null,
+      "engines": "פלאג-אין: 1.5 טורבו + סוללה 28–38 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "ora",
+  "name": "ORA",
+  "models": [
+   {
+    "id": "05",
+    "model": "05",
+    "he": "05",
+    "status": "on_sale",
+    "price": [
+     139990,
+     151900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 טורבו היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "03",
+    "model": "03 Funky Cat",
+    "he": "03 פאנקי קאט",
+    "status": "on_sale",
+    "price": [
+     139900,
+     164900
+    ],
+    "gens": [
+     {
+      "code": "ES11",
+      "from": 2020,
+      "to": null,
+      "engines": "סוללה 57.7 קוט\"ש (דגם 2026)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.1,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "07",
+    "model": "07",
+    "he": "07",
+    "status": "on_sale",
+    "price": [
+     226900,
+     226900
+    ],
+    "gens": [
+     {
+      "code": "Lightning Cat",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 83.5 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "xpeng",
+  "name": "XPENG",
+  "models": [
+   {
+    "id": "p7-plus",
+    "model": "P7+",
+    "he": "P7+",
+    "status": "on_sale",
+    "price": [
+     199990,
+     199990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 74.9 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "g6",
+    "model": "G6",
+    "he": "G6",
+    "status": "on_sale",
+    "price": [
+     204990,
+     247990
+    ],
+    "gens": [
+     {
+      "code": "F30",
+      "from": 2023,
+      "to": null,
+      "engines": "סוללה 66–87.5 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "p7",
+    "model": "P7",
+    "he": "P7",
+    "status": "on_sale",
+    "price": [
+     214990,
+     281990
+    ],
+    "gens": [
+     {
+      "code": "P7 / P7i",
+      "from": 2020,
+      "to": null,
+      "engines": "סוללה 64.4/86.2 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "g9",
+    "model": "G9",
+    "he": "G9",
+    "status": "on_sale",
+    "price": [
+     259990,
+     372990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 79 קוט\"ש ומעלה",
+      "pt": [
+       "ev"
+      ],
+      "cons": 20,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "leapmotor",
+  "name": "Leapmotor",
+  "models": [
+   {
+    "id": "t03",
+    "model": "T03",
+    "he": "T03",
+    "status": "on_sale",
+    "price": [
+     92900,
+     92900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2020,
+      "to": null,
+      "engines": "חשמלי",
+      "pt": [
+       "ev"
+      ],
+      "cons": 14,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "b10",
+    "model": "B10",
+    "he": "B10",
+    "status": "on_sale",
+    "price": [
+     139900,
+     149900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "סוללה 67.1 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "c10",
+    "model": "C10",
+    "he": "C10",
+    "status": "on_sale",
+    "price": [
+     164900,
+     199900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 69.9 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "polestar",
+  "name": "Polestar",
+  "models": [
+   {
+    "id": "polestar-2",
+    "model": "Polestar 2",
+    "he": "פולסטאר 2",
+    "status": "on_sale",
+    "price": [
+     244900,
+     324900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2020,
+      "to": null,
+      "engines": "סוללה 69–82 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "smart",
+  "name": "Smart",
+  "models": [
+   {
+    "id": "1",
+    "model": "#1",
+    "he": "#1",
+    "status": "on_sale",
+    "price": [
+     196990,
+     252990
+    ],
+    "gens": [
+     {
+      "code": "HX11",
+      "from": 2022,
+      "to": null,
+      "engines": "סוללה 66 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "3",
+    "model": "#3",
+    "he": "#3",
+    "status": "on_sale",
+    "price": [
+     211990,
+     267990
+    ],
+    "gens": [
+     {
+      "code": "HC11",
+      "from": 2023,
+      "to": null,
+      "engines": "סוללה 49/66 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "5",
+    "model": "#5",
+    "he": "#5",
+    "status": "on_sale",
+    "price": [
+     229990,
+     299990
+    ],
+    "gens": [
+     {
+      "code": "HY11",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, הנעה אחורית או כפולה (Brabus)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 20,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "genesis",
+  "name": "Genesis",
+  "models": [
+   {
+    "id": "gv60",
+    "model": "GV60",
+    "he": "GV60",
+    "status": "on_sale",
+    "price": [
+     299990,
+     599990
+    ],
+    "gens": [
+     {
+      "code": "JW",
+      "from": 2021,
+      "to": null,
+      "engines": "סוללה 77.4–84 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "gv70",
+    "model": "GV70",
+    "he": "GV70",
+    "status": "on_sale",
+    "price": [
+     359990,
+     459990
+    ],
+    "gens": [
+     {
+      "code": "JK1",
+      "from": 2021,
+      "to": null,
+      "engines": "2.5 טורבו בנזין / חשמלי",
+      "pt": [
+       "petrol",
+       "ev"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "g80",
+    "model": "G80",
+    "he": "G80",
+    "status": "on_sale",
+    "price": [
+     399990,
+     499000
+    ],
+    "gens": [
+     {
+      "code": "RG3",
+      "from": 2020,
+      "to": null,
+      "engines": "2.5 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "gv80",
+    "model": "GV80",
+    "he": "GV80",
+    "status": "on_sale",
+    "price": [
+     489990,
+     645990
+    ],
+    "gens": [
+     {
+      "code": "JX1",
+      "from": 2020,
+      "to": null,
+      "engines": "3.5 טורבו V6 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 13.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "mini",
+  "name": "MINI",
+  "models": [
+   {
+    "id": "hatch",
+    "model": "Cooper (Hatch)",
+    "he": "קופר",
+    "status": "on_sale",
+    "price": [
+     221900,
+     301900
+    ],
+    "gens": [
+     {
+      "code": "R56",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 בנזין / 1.6 טורבו (Cooper S)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "F56 / F55",
+      "from": 2014,
+      "to": 2024,
+      "engines": "1.2/1.5 טורבו 3 צילינדרים / 2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "J01 (חשמלי)",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": 5,
+      "checks": 1
+     },
+     {
+      "code": "F66 / F65",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 טורבו בנזין / 2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "countryman",
+    "model": "Countryman",
+    "he": "קאנטרימן",
+    "status": "on_sale",
+    "price": [
+     273000,
+     339000
+    ],
+    "gens": [
+     {
+      "code": "R60",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.6 בנזין / 1.6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "F60",
+      "from": 2017,
+      "to": 2023,
+      "engines": "1.5 / 2.0 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "U25",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 טורבו בנזין / חשמלי 66.5 קוט\"ש",
+      "pt": [
+       "petrol",
+       "ev"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "aceman",
+    "model": "Aceman",
+    "he": "אייסמן",
+    "status": "on_sale",
+    "price": [
+     259900,
+     259900
+    ],
+    "gens": [
+     {
+      "code": "J05",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 54.2 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "jeep",
+  "name": "Jeep",
+  "models": [
+   {
+    "id": "avenger",
+    "model": "Avenger",
+    "he": "אוונג'ר",
+    "status": "on_sale",
+    "price": [
+     164900,
+     174900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2023,
+      "to": null,
+      "engines": "1.2 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "compass",
+    "model": "Compass",
+    "he": "קומפאס",
+    "status": "on_sale",
+    "price": [
+     209900,
+     224900
+    ],
+    "gens": [
+     {
+      "code": "MK49",
+      "from": 2010,
+      "to": 2016,
+      "engines": "2.0 / 2.4 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.5,
+      "ncap": 2,
+      "checks": 2
+     },
+     {
+      "code": "Gen2",
+      "from": 2017,
+      "to": 2025,
+      "engines": "טורבו בנזין / 2.4 בנזין / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2025,
+      "to": null,
+      "engines": "1.2 טורבו מיילד-היברידי",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "wrangler",
+    "model": "Wrangler",
+    "he": "רנגלר",
+    "status": "on_sale",
+    "price": [
+     349900,
+     429900
+    ],
+    "gens": [
+     {
+      "code": "JK",
+      "from": 2010,
+      "to": 2018,
+      "engines": "3.6 V6 בנזין / 2.8 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 13,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "JL",
+      "from": 2018,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / 4xe פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "grand-cherokee",
+    "model": "Grand Cherokee",
+    "he": "גרנד צ'ירוקי",
+    "status": "on_sale",
+    "price": [
+     414900,
+     414900
+    ],
+    "gens": [
+     {
+      "code": "WK2",
+      "from": 2011,
+      "to": 2021,
+      "engines": "3.6 V6 בנזין / 3.0 דיזל / V8",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 13,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "WL",
+      "from": 2022,
+      "to": null,
+      "engines": "2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 11.6,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "fiat",
+  "name": "Fiat",
+  "models": [
+   {
+    "id": "grande-panda",
+    "model": "Grande Panda",
+    "he": "גרנדה פנדה",
+    "status": "on_sale",
+    "price": [
+     119000,
+     126000
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "1.2 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "doblo",
+    "model": "Doblò",
+    "he": "דובלו",
+    "status": "on_sale",
+    "price": [
+     169990,
+     179990
+    ],
+    "gens": [
+     {
+      "code": "263",
+      "from": 2010,
+      "to": 2022,
+      "engines": "1.4 בנזין / 1.3–2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": 3,
+      "checks": 2
+     },
+     {
+      "code": "Gen3",
+      "from": 2022,
+      "to": null,
+      "engines": "1.5 דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "kgm",
+  "name": "KGM (SsangYong)",
+  "models": [
+   {
+    "id": "tivoli",
+    "model": "Tivoli",
+    "he": "טיבולי",
+    "status": "on_sale",
+    "price": [
+     139900,
+     139900
+    ],
+    "gens": [
+     {
+      "code": "X100",
+      "from": 2015,
+      "to": null,
+      "engines": "1.6 בנזין / 1.5 טורבו (מ-2019)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "torres",
+    "model": "Torres",
+    "he": "טורס",
+    "status": "on_sale",
+    "price": [
+     169900,
+     189900
+    ],
+    "gens": [
+     {
+      "code": "J100",
+      "from": 2022,
+      "to": null,
+      "engines": "1.5 טורבו / 1.5 טורבו היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "rexton",
+    "model": "Rexton",
+    "he": "רקסטון",
+    "status": "on_sale",
+    "price": [
+     219900,
+     299900
+    ],
+    "gens": [
+     {
+      "code": "Y400",
+      "from": 2017,
+      "to": null,
+      "engines": "2.2 דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "isuzu",
+  "name": "Isuzu",
+  "models": [
+   {
+    "id": "d-max",
+    "model": "D-Max",
+    "he": "די-מקס",
+    "status": "on_sale",
+    "price": [
+     259990,
+     312990
+    ],
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2011,
+      "to": 2019,
+      "engines": "2.5 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Gen3",
+      "from": 2019,
+      "to": null,
+      "engines": "1.9 / 2.2 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "land-rover",
+  "name": "Land Rover",
+  "models": [
+   {
+    "id": "evoque",
+    "model": "Range Rover Evoque",
+    "he": "ריינג' רובר איווק",
+    "status": "on_sale",
+    "price": [
+     389000,
+     389000
+    ],
+    "gens": [
+     {
+      "code": "L538",
+      "from": 2011,
+      "to": 2018,
+      "engines": "2.0 טורבו בנזין / 2.2 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "L551",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 10,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "discovery-sport",
+    "model": "Discovery Sport",
+    "he": "דיסקברי ספורט",
+    "status": "on_sale",
+    "price": [
+     437900,
+     437900
+    ],
+    "gens": [
+     {
+      "code": "L550",
+      "from": 2014,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "defender",
+    "model": "Defender",
+    "he": "דיפנדר",
+    "status": "on_sale",
+    "price": [
+     495000,
+     1150000
+    ],
+    "gens": [
+     {
+      "code": "L663",
+      "from": 2020,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / 3.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "porsche",
+  "name": "Porsche",
+  "models": [
+   {
+    "id": "macan",
+    "model": "Macan",
+    "he": "מקאן",
+    "status": "on_sale",
+    "price": [
+     587000,
+     877000
+    ],
+    "gens": [
+     {
+      "code": "95B",
+      "from": 2014,
+      "to": 2024,
+      "engines": "2.0 טורבו / 3.0 V6 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Macan Electric",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי",
+      "pt": [
+       "ev"
+      ],
+      "cons": 20,
+      "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "cayenne",
+    "model": "Cayenne",
+    "he": "קאיין",
+    "status": "on_sale",
+    "price": [
+     787000,
+     1507000
+    ],
+    "gens": [
+     {
+      "code": "92A",
+      "from": 2010,
+      "to": 2017,
+      "engines": "3.6 V6 / 4.8 V8 / 3.0 דיזל / היברידי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 13,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "9Y0",
+      "from": 2018,
+      "to": null,
+      "engines": "3.0 V6 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 12,
+      "ncap": null,
+      "checks": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "alfa-romeo",
+  "name": "Alfa Romeo",
+  "models": [
+   {
+    "id": "junior",
+    "model": "Junior",
+    "he": "ג'וניור",
+    "status": "on_sale",
+    "price": [
+     174900,
+     202900
+    ],
+    "gens": [
+     {
+      "code": "966",
+      "from": 2024,
+      "to": null,
+      "engines": "1.2 טורבו מיילד-היברידי (Ibrida)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ }
+]

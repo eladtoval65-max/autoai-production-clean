@@ -1,0 +1,40 @@
+{
+  "make": "polestar",
+  "updated": "2026-10-21",
+  "models": {
+    "polestar-2": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה במודול בקרת הסוללה (BECM) עלולה לגרום לאובדן הנעה בנסיעה — לוודא במוסך המורשה שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "ייצור מוקדם, 2020–2021",
+            "source": { "title": "Yahoo Autos — All Polestar 2s recalled for software glitch that can shut down the EV", "url": "https://autos.yahoo.com/polestar-2s-recalled-software-glitch-130000019.html" }
+          },
+          {
+            "he": "קריאת שירות: ממירי מתח (Inverter) ומחממי נוזל קירור במתח גבוה פגומים — לבקש אישור שהוחלפו",
+            "level": "recall",
+            "scope": "ייצור מוקדם, דצמבר 2019 – פברואר 2021",
+            "source": { "title": "electrive — Polestar announces wider recall (inverters, HV coolant heaters)", "url": "https://www.electrive.com/2020/10/31/polestar-announces-recall-campaign" }
+          },
+          {
+            "he": "קריאת שירות: תוכנת מערכת המולטימדיה עלולה להשבית את תמונת מצלמת הרוורס — לבדוק שהמצלמה עולה מיד בהילוך אחורי ושעדכון ה-OTA הותקן",
+            "level": "recall",
+            "scope": "שנתונים 2021–2024",
+            "source": { "title": "NHTSA recall 24V-477 — Polestar 2 rearview camera (IHU software)", "url": "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V477-2236.pdf" }
+          }
+        ],
+        "engines": [
+          { "name": "Standard Range מנוע יחיד (69 קוט״ש)", "pt": "ev", "hp": 231, "cons": 18.0, "unit": "kWh",
+            "source": { "title": "ev-database — Polestar 2 Standard Range Single Motor (MY21), 290 Wh/mi", "url": "https://ev-database.org/uk/car/1486/Polestar-2-Standard-Range-Single-Motor" } },
+          { "name": "Long Range מנוע כפול (78 קוט״ש)", "pt": "ev", "hp": 408, "cons": 19.4, "unit": "kWh",
+            "source": { "title": "ev-database — Polestar 2 Long Range Dual Motor (MY21-23), 313 Wh/mi", "url": "https://ev-database.uk/car/1488/Polestar-2-Long-Range-Dual-Motor" } },
+          { "name": "Long Range מנוע יחיד הנעה אחורית (82 קוט״ש, מ-2024)", "pt": "ev", "hp": 299, "cons": 16.9, "unit": "kWh",
+            "source": { "title": "ev-database — Polestar 2 Long Range Single Motor (MY24), 272 Wh/mi", "url": "https://ev-database.org/uk/car/1818/Polestar-2-Long-Range-Single-Motor" } }
+        ],
+        "ncap": { "stars": 5, "year": 2021, "url": "https://www.euroncap.com/en/results/polestar/2/42252" },
+        "launchPrice": { "ils": 255000, "year": 2022, "note": "מנוע יחיד, סוללה 69 קוט״ש", "source": { "title": "וואלה רכב — פולסטאר נכנסת לישראל (ספטמבר 2022)", "url": "https://cars.walla.co.il/item/3529568" } }
+      }
+    }
+  }
+}

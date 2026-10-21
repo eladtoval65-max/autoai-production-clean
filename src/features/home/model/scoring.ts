@@ -13,6 +13,8 @@ const USE_BODY: Record<string, string[]> = { city: ["hatchback", "sedan"], famil
 const PRIORITY_FIELD: Record<string, keyof Car> = { reliable: "reliability", economy: "economy", safety: "safety", comfort: "comfort" };
 
 function budgetPoints(car: Car, a: Answers) {
+  // Used: the estimated price is already within budget; closer to the budget = a newer car for the money.
+  if (car.condition === "used") { const r = car.price / a.budget; return r >= 0.7 ? 25 : r >= 0.5 ? 20 : r >= 0.3 ? 14 : 8; }
   if (car.price <= a.budget * 0.85) return 25;
   if (car.price <= a.budget) return 18;
   return car.price <= a.budget * 1.1 ? 8 : 0;
@@ -25,8 +27,9 @@ function usePoints(car: Car, a: Answers) {
 }
 
 function monthlyCostPoints(car: Car) {
-  const m = car.ownershipMonthly ?? 2200;
-  return m < 1500 ? 20 : m < 1800 ? 16 : m < 2200 ? 11 : 5;
+  // Thresholds at today's energy prices (petrol 95 ₪8.27/L, Oct 2026).
+  const m = car.ownershipMonthly ?? 2900;
+  return m < 2000 ? 20 : m < 2500 ? 16 : m < 3100 ? 11 : 5;
 }
 
 function priorityPoints(car: Car, a: Answers) {

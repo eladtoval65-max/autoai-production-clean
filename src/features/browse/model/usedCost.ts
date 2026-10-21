@@ -1,7 +1,7 @@
 /**
  * Monthly cost estimate for a USED car from its asking price. Pure function, no React.
  * Every figure is an estimate and is labelled as such in the UI:
- *  - energy: typical real-world consumption of the generation × petrol ₪7.10/L (diesel ₪7.40) or electricity ₪0.55/kWh;
+ *  - energy: typical real-world consumption × today's official prices (src/data/energyPrices.json: petrol 95 max price, home electricity tariff);
  *    plug-in hybrids assume half the km on electricity;
  *  - depreciation: a yearly rate by age (newer cars lose value faster), +3 points for EVs, +2 for premium brands;
  *  - insurance: mandatory + comprehensive approximation from the car's value (never a quote);
@@ -11,7 +11,9 @@
 import type { Generation, ModelLine, Powertrain } from "../../../data/generations";
 import { THIS_YEAR } from "./labels";
 
-export const PRICES = { petrolPerL: 7.1, dieselPerL: 7.4, electricityPerKwh: 0.55 } as const;
+import ENERGY from "../../../data/energyPrices.json";
+
+export const PRICES = { petrolPerL: ENERGY.petrolPerL, dieselPerL: ENERGY.dieselPerL, electricityPerKwh: ENERGY.electricityPerKwh } as const;
 const PHEV_ELECTRIC_SHARE = 0.5;
 const EV_DEFAULT_KWH = 17;      // used when a generation's consumption is in litres but the user picked "electric"
 const PETROL_DEFAULT_L = 6.5;   // used when a generation's consumption is in kWh but the user picked a fuel engine
@@ -33,7 +35,7 @@ function energyPerKm(gen: Generation, pt: Powertrain): number {
 }
 
 /** Yearly depreciation rate for a car of this age and type. */
-function depreciationRate(age: number, pt: Powertrain, premium: boolean): number {
+export function depreciationRate(age: number, pt: Powertrain, premium: boolean): number {
   let rate = age <= 2 ? 0.13 : age <= 5 ? 0.1 : age <= 9 ? 0.08 : 0.06;
   if (pt === "ev") rate += 0.03;
   if (premium) rate += 0.02;

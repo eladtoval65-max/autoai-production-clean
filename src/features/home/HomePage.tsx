@@ -28,7 +28,7 @@ import type { Car, Ranked, Tab } from "./types";
 export default function HomePage() {
   const { lang, t, dir } = useLang();
   const quiz = useQuiz();
-  const cars = useCatalog(quiz.answers.annualKm);
+  const cars = useCatalog(quiz.answers);
   const [tab, setTab] = useState<Tab>("results");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showLead, setShowLead] = useState(false);

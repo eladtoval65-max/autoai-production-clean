@@ -1,0 +1,34 @@
+{
+  "make": "isuzu",
+  "updated": "2026-10-21",
+  "models": {
+    "d-max": {
+      "Gen2": {
+        "issues": [
+          { "he": "סולר שנכנס לשמן המנוע במהלך ניקוי DPF (בעיקר בנסיעות קצרות) — לבדוק שמפלס השמן לא עולה ושהשמן לא דליל וריחו לא כסולר", "level": "widely_reported", "scope": "2.5 טורבו דיזל, 2012–2017", "source": { "title": "Farmers Weekly — Tips for buying a second-hand Isuzu D-Max", "url": "https://fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-isuzu-d-max" } },
+          { "he": "תקלות במסבי הטורבו (בעיקר הטורבו הגדול בגרסת הטווין-טורבו) — לבדוק עשן, שריקה ואובדן כוח, ולבקש היסטוריית טיפולים בטורבו", "level": "widely_reported", "scope": "2.5 טורבו דיזל", "source": { "title": "Farmers Weekly — Tips for buying a second-hand Isuzu D-Max", "url": "https://fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-isuzu-d-max" } },
+          { "he": "קריאות שירות על שבר אפשרי בקפיץ העלים האחורי בדאבל-קבינה — לוודא שהקריאה בוצעה ולבדוק את הקפיצים מתחת לרכב", "level": "recall", "scope": "דאבל-קבינה, 2018–2020 (קריאות S201910 / S202005, אוסטרליה)", "source": { "title": "australiancar.reviews — Isuzu D-Max RC (2012-20) recalls and faults", "url": "https://australiancar.reviews/?p=47104" } },
+          { "he": "חריקות מהמתלים בגלל שחיקת תותבי הבולמים — יצרן הוציא פינים ותותבים משופרים; להקשיב לחריקות במעבר על פסי האטה", "level": "manufacturer", "source": { "title": "australiancar.reviews — Isuzu D-Max RC (2012-20) recalls and faults", "url": "https://australiancar.reviews/?p=47104" } },
+          { "he": "הצטברות פחם במגוף EGR וסתימת DPF ברכבים שנוסעים בעיקר בעיר — לבדוק נורות אזהרה, אובדן כוח ותיעוד ניקוי/החלפה", "level": "widely_reported", "source": { "title": "Unsealed 4X4 — Isuzu D-Max & MU-X common problems", "url": "https://unsealed4x4.com.au/d-max-mu-x-common-problems-solutions/" } }
+        ],
+        "engines": [
+          { "name": "2.5 טורבו דיזל", "pt": "diesel", "cons": 9.66, "unit": "L", "source": { "title": "Spritmonitor — Isuzu D-Max, diesel (68 vehicles, mostly 2.5)", "url": "https://www.spritmonitor.de/en/overview/20-Isuzu/1097-D-Max.html" } }
+        ],
+        "ncap": { "stars": null, "note": "הדור הזה לא נבחן ב-Euro NCAP" },
+        "launchPrice": null
+      },
+      "Gen3": {
+        "issues": [
+          { "he": "קריאת שירות: בורג ציר ההגה התחתון עלול להיות מהודק בחוזק נמוך ולהשתחרר — לוודא לפי מספר שלדה שהקריאה בוצעה", "level": "recall", "scope": "2020–2022 (REC-005647, אוסטרליה)", "source": { "title": "Australian Vehicle Recalls — REC-005647 Isuzu D-Max & MU-X 2020-2022", "url": "https://vehiclerecalls.gov.au/recalls/rec-005647" } },
+          { "he": "קריאת שירות: צינור דלק עלול להשתפשף בתושבת מד השמן ולדלוף (סכנת שריפה) — לבדוק ריח סולר בתא המנוע ולוודא ביצוע הקריאה", "level": "recall", "scope": "2021–2023, דגמי 3.0 באוסטרליה — לבדוק התאמה לפי שלדה", "source": { "title": "CarsGuide — 2021-2023 Isuzu D-Max recalled for fire risk", "url": "https://carsguide.com.au/car-news/fire-risk-2021-2023-isuzu-d-max-ute-recalled-with-more-than-8000-units-of-the-dual-cab" } },
+          { "he": "סתימת DPF והצטברות פחם ב-EGR בנסיעות קצרות — לבדוק שאין נורות אזהרה ושהרכב עשה נסיעות בין-עירוניות", "level": "widely_reported", "source": { "title": "Unsealed 4X4 — Isuzu D-Max & MU-X common problems", "url": "https://unsealed4x4.com.au/d-max-mu-x-common-problems-solutions/" } }
+        ],
+        "engines": [
+          { "name": "1.9 טורבו דיזל", "pt": "diesel", "hp": 163, "cons": 9.44, "unit": "L", "source": { "title": "Spritmonitor — Isuzu D-Max, diesel with AdBlue (1.9, 14 vehicles)", "url": "https://www.spritmonitor.de/en/overview/20-Isuzu/1097-D-Max.html" } }
+        ],
+        "ncap": { "stars": 5, "year": 2020, "url": "https://www.euroncap.com/en/results/isuzu/d-max/47129" },
+        "launchPrice": { "ils": 194990, "year": 2020, "note": "קבינה יחידה 2X4 ידנית, רמת גימור S", "source": { "title": "icar — איסוזו די-מקס החדש בישראל: מ-194,990 שקלים", "url": "https://www.icar.co.il/חדשות_רכב/איסוזו_די_מקס_החדש_בישראל:_מ-194,990_שקלים/" } }
+      }
+    }
+  }
+}

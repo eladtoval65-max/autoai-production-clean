@@ -1,15 +1,23 @@
 /**
- * The car catalog the recommendations and comparisons run on.
+ * The cars the questionnaire ranks, for the chosen condition (new / used / either) and budget.
  *
- * Source of truth = the static, sourced catalog (src/data/catalogData.ts): it is the one the daily agent
- * verifies and updates, with full 7k/15k/25k cost bands for every car. The database copy (tRPC catalog.list)
- * is an older seed with fewer cars and partial costs, so it is no longer used here — when the production
- * database came back online it replaced the full catalog with that seed (comparisons showed only the licence fee).
+ * New: the 49 fully-researched catalog cars (src/data/catalogData.ts, verified daily) + every other model on sale
+ * with a verified list price. Used: every generation since 2012 at an estimated price that fits the budget
+ * (see model/expandedCatalog.ts). The older database seed (tRPC catalog.list) is no longer used here — it had
+ * fewer cars and partial costs.
  */
-import type { Car } from "../types";
+import { useMemo } from "react";
+import type { Answers, Car } from "../types";
 import { staticCars } from "../model/catalog";
+import { newFromModels, usedFromGenerations } from "../model/expandedCatalog";
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export function useCatalog(_annualKm: number): Car[] {
-  return staticCars;
+const NEW_CARS: Car[] = [...staticCars, ...newFromModels(staticCars)];
+
+export function useCatalog(answers: Pick<Answers, "condition" | "budget">): Car[] {
+  const { condition, budget } = answers;
+  return useMemo<Car[]>(() => {
+    if (condition === "new") return NEW_CARS;
+    const used = usedFromGenerations(budget);
+    return condition === "used" ? used : [...NEW_CARS, ...used];
+  }, [condition, budget]);
 }

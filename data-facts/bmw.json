@@ -1,0 +1,37 @@
+{
+  "make": "bmw",
+  "updated": "2026-10-21",
+  "models": {
+    "3-series": {
+      "E90": {
+        "engines": [
+          { "name": "320i 2.0 בנזין 170 כ״ס (נתוני תיבה ידנית)", "pt": "petrol", "hp": 170, "cons": 8.1, "unit": "L",
+            "source": { "title": "Spritmonitor — BMW 3er petrol 120–130 kW, 2007–2011, manual (165 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2007&constyear_e=2011&power_s=120&power_e=130&gearing=1" } }
+        ]
+      },
+      "F30": {
+        "engines": [
+          { "name": "320i 2.0 טורבו 184 כ״ס, אוטומטית", "pt": "petrol", "hp": 184, "cons": 8.2, "unit": "L",
+            "source": { "title": "Spritmonitor — BMW 3er petrol 130–140 kW, 2013–2017, automatic (120 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2013&constyear_e=2017&power_s=130&power_e=140&gearing=2" } }
+        ]
+      },
+      "G20": {
+        "engines": [
+          { "name": "320i 2.0 טורבו 184 כ״ס, אוטומטית", "pt": "petrol", "hp": 184, "cons": 7.4, "unit": "L",
+            "source": { "title": "Spritmonitor — BMW 3er petrol 130–140 kW, 2022–2026, automatic (55 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=130&power_e=140&gearing=2" } }
+        ],
+        "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/BMW/3-Series/38531" }
+      }
+    },
+    "1-series": {
+      "F40": {
+        "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/BMW/1-Series/38528" }
+      }
+    },
+    "ix3": {
+      "NA5 (Neue Klasse)": {
+        "ncap": { "stars": 5, "year": 2026, "url": "https://www.euroncap.com/assessments/bmw/ix3/1232/" }
+      }
+    }
+  }
+}

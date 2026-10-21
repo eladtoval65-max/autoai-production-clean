@@ -1,0 +1,75 @@
+{
+  "make": "smart",
+  "updated": "2026-10-21",
+  "models": {
+    "1": {
+      "HX11": {
+        "issues": [
+          {
+            "he": "קריאת שירות: אבזם חגורת הבטיחות האחורית השמאלית עלול להיפתח כשהחגורה האמצעית נעולה — לוודא מול היבואן שהותקן מבודד האבזם",
+            "level": "recall",
+            "scope": "ייצור 2024",
+            "source": { "title": "What Car? — Used Smart #1 reliability & recalls (30/04/2025)", "url": "https://www.whatcar.com/smart/hashtag-1/hatchback/used-review/n27478/reliability" }
+          },
+          {
+            "he": "קריאת שירות לתוכנת מערכת החירום eCall (תאימות למיקום Galileo) — עדכון אלחוטי; לבדוק שגרסת התוכנה עודכנה",
+            "level": "recall",
+            "scope": "שנתוני 2022–2023",
+            "source": { "title": "auto motor und sport — Rückruf Smart #1: E-Call-System (KBA 012747)", "url": "https://www.auto-motor-und-sport.de/verkehr/rueckruf-smart-1-software-e-call-system/" }
+          },
+          {
+            "he": "קריאת שירות בסין להחלפת סוללה בשל סיכון שריפה — לבקש מהיבואן בדיקת מספר שלדה מול קריאות פתוחות",
+            "level": "recall",
+            "scope": "דגמים בשוק הסיני (2026)",
+            "source": { "title": "S&P Global AutoTechInsight — Smart recalls over 18,000 EVs in China due to battery fire risk", "url": "https://autotechinsight.spglobal.com/news/5287134/smart-recalls-over-18000-evs-in-mainland-china-due-to-risk-of-battery-fire" }
+          }
+        ],
+        "engines": [
+          { "name": "Pro+ / Premium 66 קוט״ש, 272 כ״ס", "pt": "ev", "hp": 272, "cons": 18.5, "unit": "kWh",
+            "source": { "title": "EV Database — Smart #1 Pro+", "url": "https://ev-database.org/car/1667/Smart-1-Proplus" } },
+          { "name": "BRABUS 66 קוט״ש, הנעה כפולה 428 כ״ס", "pt": "ev", "hp": 428, "cons": 19.3, "unit": "kWh",
+            "source": { "title": "EV Database — Smart #1 Brabus", "url": "https://ev-database.org/uk/car/1748/Smart-1-Brabus" } }
+        ],
+        "ncap": { "stars": 5, "year": 2022, "url": "https://www.euroncap.com/assessments/smart/1/0923/" },
+        "launchPrice": { "ils": 174900, "year": 2023, "note": "Pro+", "source": { "title": "Carzone — סמארט #1 משווק בישראל, מחיר החל מ-174,900 ש״ח", "url": "https://www.carzone.co.il/news/2023-סמארט-1-משווק-בישראל-מחיר-החל-מ-174900-שח/" } }
+      }
+    },
+    "3": {
+      "HC11": {
+        "issues": [
+          {
+            "he": "קריאת שירות: עיגון שגוי של אבזמי החגורות האחוריים — החגורה האמצעית עלולה לשחרר את השמאלית; לוודא שבוצע תיקון אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 2024",
+            "source": { "title": "CarExpert — Smart EVs recalled (#1 and #3, rear seatbelt buckles)", "url": "https://www.carexpert.com.au/car-news/smart-evs-recalled" }
+          },
+          {
+            "he": "קריאת שירות בסין להחלפת סוללה בשל סיכון שריפה — לבקש מהיבואן בדיקת מספר שלדה מול קריאות פתוחות",
+            "level": "recall",
+            "scope": "דגמים בשוק הסיני (2026)",
+            "source": { "title": "S&P Global AutoTechInsight — Smart recalls over 18,000 EVs in China due to battery fire risk", "url": "https://autotechinsight.spglobal.com/news/5287134/smart-recalls-over-18000-evs-in-mainland-china-due-to-risk-of-battery-fire" }
+          }
+        ],
+        "engines": [
+          { "name": "Pro 49 קוט״ש, 272 כ״ס", "pt": "ev", "hp": 272, "cons": 17.7, "unit": "kWh",
+            "source": { "title": "EV Database — Smart #3 Pro", "url": "https://ev-database.org/car/2052/Smart-3-Pro" } }
+        ],
+        "ncap": { "stars": 5, "year": 2023, "url": "https://www.euroncap.com/assessments/smart/3/1029/" },
+        "launchPrice": { "ils": 204900, "year": 2024, "note": "Pro Plus", "source": { "title": "Carzone — סמארט #3 החדשה בישראל, מחיר החל מ-204,900 ש״ח", "url": "https://www.carzone.co.il/news/סמארט-3-החדשה-2024-בישראל-מחיר-החל-מ-204900-שח/" } }
+      }
+    },
+    "5": {
+      "HY11": {
+        "issues": [],
+        "engines": [
+          { "name": "Pro 76 קוט״ש, 340 כ״ס", "pt": "ev", "hp": 340, "cons": 20.1, "unit": "kWh",
+            "source": { "title": "EV Database — Smart #5 Pro", "url": "https://ev-database.org/car/3141/Smart-5-Pro" } },
+          { "name": "Pro+ / Premium 100 קוט״ש, 363 כ״ס", "pt": "ev", "hp": 363, "cons": 20.2, "unit": "kWh",
+            "source": { "title": "EV Database — Smart #5 Pro+", "url": "https://ev-database.org/car/3142/Smart-5-Proplus" } }
+        ],
+        "ncap": { "stars": 5, "year": 2025, "url": "https://news.euroncap.com/safercars/smart--5---euro-ncap-2025-results---5-stars/s/ff2e1582-c4d6-4201-a58e-8e99fe6d7896" },
+        "launchPrice": { "ils": 219990, "year": 2025, "note": "Pro", "source": { "title": "Carzone — סמארט #5 החדשה בישראל, מחיר החל מ-219,990 ש״ח", "url": "https://www.carzone.co.il/news/2025-סמארט-5-החדשה-בישראל-מחיר-החל-מ-219990-שח/" } }
+      }
+    }
+  }
+}

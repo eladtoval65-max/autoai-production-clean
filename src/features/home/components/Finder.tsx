@@ -2,7 +2,7 @@ import { ArrowLeft, ArrowRight, RotateCcw } from "lucide-react";
 import { useLang } from "../../../shared/i18n";
 import { btnPrimary, card } from "../../../shared/styles";
 import type { Quiz } from "../hooks/useQuiz";
-import { CHOICES, MULTI_STEPS } from "../model/questions";
+import { budgetChoices, CHOICES, MULTI_STEPS } from "../model/questions";
 import type { MultiKey, StepKey } from "../types";
 import { ChoiceOption } from "./ChoiceOption";
 
@@ -37,11 +37,11 @@ function FinderQuestion({ quiz, stepKey }: { quiz: Quiz; stepKey: StepKey }) {
   const { t, dir } = useLang();
   const { answers, step, setStep, chooseSingle, toggleMulti, continueMulti } = quiz;
   const multi = MULTI_STEPS.has(stepKey);
-  const titles: Record<StepKey, string> = { budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
+  const titles: Record<StepKey, string> = { condition: t.qCondition, budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
   const hint = multi ? t.pickMany : stepKey === "budget" ? t.hintBudget : stepKey === "annualKm" ? t.hintKm : t.hintDefault;
-  const selected: string[] = multi ? answers[stepKey as MultiKey] : [String(stepKey === "annualKm" ? answers.annualKmBand : answers.budget)];
+  const selected: string[] = multi ? answers[stepKey as MultiKey] : [String(stepKey === "annualKm" ? answers.annualKmBand : stepKey === "condition" ? answers.condition : answers.budget)];
   const Arrow = dir === "rtl" ? ArrowLeft : ArrowRight;
-  const options = CHOICES[stepKey];
+  const options = stepKey === "budget" ? budgetChoices(answers.condition) : CHOICES[stepKey];
 
   return (
     <div key={stepKey} className="swap">
@@ -53,7 +53,7 @@ function FinderQuestion({ quiz, stepKey }: { quiz: Quiz; stepKey: StepKey }) {
           return (
             <li key={v}>
               <ChoiceOption choice={c} multi={multi} active={selected.includes(v)}
-                onSelect={() => (multi ? toggleMulti(stepKey as MultiKey, v) : chooseSingle(stepKey as "budget" | "annualKm", c.value))} />
+                onSelect={() => (multi ? toggleMulti(stepKey as MultiKey, v) : chooseSingle(stepKey as "condition" | "budget" | "annualKm", c.value))} />
             </li>
           );
         })}

@@ -1,0 +1,11 @@
+{
+  "petrolPerL": 8.27,
+  "petrolDate": "2026-10-01",
+  "petrolSource": { "title": "משרד האנרגיה — מחיר מרבי לבנזין 95 בשירות עצמי, אוקטובר 2026", "url": "https://www.gov.il/BlobFolder/news/fuel-october-2026/he/fuel-october-2026.pdf" },
+  "dieselPerL": 8.3,
+  "dieselNote": "סולר אינו בפיקוח ומחירו משתנה בין תחנות; הערכה קרובה למחיר הבנזין",
+  "electricityPerKwh": 0.6352,
+  "electricityDate": "2026-07-01",
+  "electricitySource": { "title": "תעריף חשמל ביתי 2026 (רשות החשמל), דרך דהמרקר", "url": "https://www.supermarker.themarker.com/bills/guides/electricity-tariff-2026" },
+  "seedBasis": { "petrolPerL": 7.1, "dieselPerL": 7.4, "electricityPerKwh": 0.55 }
+}

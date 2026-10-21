@@ -60,7 +60,7 @@ export default function ComparePage() {
         ))}
       </div>
       <section className="mt-10 flex flex-wrap items-center justify-between gap-4 rounded-2xl bg-ink p-6 text-white">
-        <div><h2 className="text-[1.3rem]">עדיין מתלבטים?</h2><p className="mt-1 text-[15px] text-[#c3cbd6]">5 שאלות ונדרג לכם את כל הרכבים לפי עלות חודשית — או שנחזור אליכם.</p></div>
+        <div><h2 className="text-[1.3rem]">עדיין מתלבטים?</h2><p className="mt-1 text-[15px] text-[#c3cbd6]">6 שאלות ונדרג לכם את כל הרכבים לפי עלות חודשית — או שנחזור אליכם.</p></div>
         <div className="flex flex-wrap gap-2">
           <Link href="/" className="inline-flex min-h-12 items-center rounded-full bg-[#5fd3a7] px-6 text-[16px] font-bold text-ink no-underline hover:bg-[#7fe0bb]">לשאלון</Link>
           <button onClick={() => setLead(true)} className="inline-flex min-h-12 items-center rounded-full border border-white px-6 text-[16px] font-bold text-white">שיחזרו אליי</button>

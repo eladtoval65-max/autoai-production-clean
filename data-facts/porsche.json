@@ -1,0 +1,129 @@
+{
+  "make": "porsche",
+  "updated": "2026-10-21",
+  "models": {
+    "macan": {
+      "95B": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מחבר הדלק על אוגן משאבת הדלק עלול להיסדק ולדלוף — ריח דלק בתא הנוסעים הוא סימן אזהרה; לוודא שבוצע הטיפול (בדיקה והחלפה, כשעתיים)",
+            "level": "recall",
+            "scope": "מנועי בנזין, ייצור 11/2013–03/2018",
+            "source": { "title": "auto motor und sport — Rückruf Porsche Macan: Benzin-Leitung undicht (KBA, 2020)", "url": "https://www.auto-motor-und-sport.de/neuheiten/rueckruf-porsche-macan-benzin-leitung-undicht/" }
+          },
+          {
+            "he": "דווחו תקלות חשמל (לא במנוע), נוריות אזהרת מנוע וטיפולים ביחידות הבקרה — לבדוק בסריקת מחשב ולבקש היסטוריית טיפולים במוסך מורשה",
+            "level": "widely_reported",
+            "source": { "title": "What Car? — Used Porsche Macan 2014-present: reliability advice", "url": "https://www.whatcar.com/porsche/macan/4x4/used-review/n908/advice" }
+          }
+        ],
+        "engines": [
+          { "name": "2.0 טורבו 265 כ״ס (2019 ואילך)", "pt": "petrol", "hp": 265, "cons": 9.8, "unit": "L",
+            "source": { "title": "Spritmonitor — Porsche Macan petrol 190–200 kW, 2019–2023 (12 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/39-Porsche/1422-Macan.html?fueltype=2&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=190&power_e=200&gearing=4" } }
+        ],
+        "ncap": { "stars": null, "note": "הדור הזה לא נבחן ב-Euro NCAP" },
+        "launchPrice": null
+      },
+      "Macan Electric": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מצלמת הרוורס עלולה להציג תמונה מטושטשת או שחורה (תוכנה ואיטום לקוי) — לבדוק את המצלמה ולוודא שבוצע העדכון",
+            "level": "recall",
+            "scope": "שנתוני 2024–2025",
+            "source": { "title": "Kelley Blue Book — Porsche recalls Macan Electric due to backup camera", "url": "https://www.kbb.com/car-news/porsche-recalls-macan-electric-due-to-backup-camera" }
+          },
+          {
+            "he": "קריאת שירות: תכנות שגוי של הפנסים — אור גבוה בהיר מעבר לתקן; לוודא שבוצע עדכון התוכנה",
+            "level": "recall",
+            "scope": "שנתוני 2024–2025",
+            "source": { "title": "Kelley Blue Book — Porsche recalls Macan Electric to dim headlights", "url": "https://www.kbb.com/car-news/porsche-recalls-macan-electric-to-dim-headlights" }
+          }
+        ],
+        "engines": [
+          { "name": "Macan 4 Electric, 100 קוט״ש, 408 כ״ס", "pt": "ev", "hp": 408, "cons": 20.2, "unit": "kWh",
+            "source": { "title": "EV Database — Porsche Macan 4 Electric", "url": "https://ev-database.org/car/2084/Porsche-Macan-4-Electric" } }
+        ],
+        "launchPrice": null
+      }
+    },
+    "cayenne": {
+      "92A": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תפס (circlip) בתושבת דוושת הבלם עלול להשתחרר ולפגוע בתפעול הבלם — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2011–2016",
+            "source": { "title": "australiancar.reviews — Recalls & faults: Porsche 92A Cayenne (2016 brake pedal bracket)", "url": "https://australiancar.reviews/recalls-faults-porsche-92a-cayenne-2010-17/" }
+          },
+          {
+            "he": "קריאת שירות: מודול הפנס הקדמי עלול לא להינעל ולהשתחרר מהכנף — לבדוק שהפנסים יושבים היטב ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2011–2012",
+            "source": { "title": "australiancar.reviews — Recalls & faults: Porsche 92A Cayenne (2012 headlight module)", "url": "https://australiancar.reviews/recalls-faults-porsche-92a-cayenne-2010-17/" }
+          },
+          {
+            "he": "עלייה בצריכת שמן בהאטה (ואקום נמוך בבית הארכובה) — היצרן הוציא מפריד שמן משופר; לשאול על צריכת שמן ועל התקנת החלק",
+            "level": "manufacturer",
+            "scope": "Cayenne S / Turbo V8, 2011–2013",
+            "source": { "title": "australiancar.reviews — Porsche TIB WC55 (oil consumption, 92A Cayenne)", "url": "https://australiancar.reviews/recalls-faults-porsche-92a-cayenne-2010-17/" }
+          },
+          {
+            "he": "כשל מוקדם של שסתומי בקרת גל הזיזים בשל עומס על המחברים החשמליים — נורית מנוע/סרק לא יציב; לבדוק בסריקה אם הוחלפו",
+            "level": "manufacturer",
+            "scope": "2011–2012, כולל S Hybrid",
+            "source": { "title": "australiancar.reviews — Porsche TIB WC54 (camshaft control valves, 92A Cayenne)", "url": "https://australiancar.reviews/recalls-faults-porsche-92a-cayenne-2010-17/" }
+          },
+          {
+            "he": "קריאת שירות בהיברידי: דליפת דלק ממסילות ההזרקה, סיכון שריפה — לבדוק ריח דלק ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "Cayenne S Hybrid",
+            "source": { "title": "australiancar.reviews — Porsche 92A Cayenne S Hybrid fuel rail recall (2015)", "url": "https://australiancar.reviews/recalls-faults-porsche-92a-cayenne-2010-17/" }
+          }
+        ],
+        "engines": [],
+        "ncap": { "stars": null, "note": "הדור הזה לא נבחן ב-Euro NCAP" },
+        "launchPrice": null
+      },
+      "9Y0": {
+        "issues": [
+          {
+            "he": "קריאת שירות: עמוד ההגה עלול לא להיות מחובר כראוי ולהתנתק — לוודא בבדיקת מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2017–2021",
+            "source": { "title": "australiancar.reviews — Recalls: Porsche E3 Cayenne (AMB4 steering column, 2021)", "url": "https://australiancar.reviews/recalls-faults-porsche-e3-cayenne-2018/" }
+          },
+          {
+            "he": "קריאת שירות: מחבר מהיר בצנרת אספקת הדלק עלול לדלוף בחום מנוע גבוה — ריח דלק הוא סימן אזהרה; לוודא שבוצע",
+            "level": "recall",
+            "scope": "Turbo ו-Turbo S E-Hybrid, 2017–2019",
+            "source": { "title": "australiancar.reviews — Recalls: Porsche E3 Cayenne (ALA4 fuel line connector, 2020)", "url": "https://australiancar.reviews/recalls-faults-porsche-e3-cayenne-2018/" }
+          },
+          {
+            "he": "קריאת שירות בפלאג-אין: דלק עלול לחדור לצינור היניקה בתדלוק — רעידות/כבייה; לוודא שבוצע הטיפול",
+            "level": "recall",
+            "scope": "E-Hybrid 2018",
+            "source": { "title": "australiancar.reviews — Recalls: Porsche E3 Cayenne (AJ10 E-Hybrid, 2019)", "url": "https://australiancar.reviews/recalls-faults-porsche-e3-cayenne-2018/" }
+          },
+          {
+            "he": "קריאת שירות: אומי הידוק בזרועות הסרן האחורי עלולים להישבר, והתיקון הראשון גרם לשחיקת צמיגים — לבדוק שחיקה לא אחידה בצמיגים האחוריים",
+            "level": "recall",
+            "scope": "שנתון 2020",
+            "source": { "title": "australiancar.reviews — Recalls: Porsche E3 Cayenne (AMA9 / ANA1 rear trailing arm)", "url": "https://australiancar.reviews/recalls-faults-porsche-e3-cayenne-2018/" }
+          },
+          {
+            "he": "קריאת שירות לתוכנה: אזהרת שחיקת רפידות הבלם עלולה לא להופיע ברציפות — לבדוק עובי רפידות פיזית",
+            "level": "recall",
+            "scope": "2018–2019",
+            "source": { "title": "australiancar.reviews — Recalls: Porsche E3 Cayenne (AKA0 / AKB8 brake pad warning)", "url": "https://australiancar.reviews/recalls-faults-porsche-e3-cayenne-2018/" }
+          }
+        ],
+        "engines": [
+          { "name": "E-Hybrid פלאג-אין 462 כ״ס", "pt": "phev", "hp": 462, "cons": 8.7, "unit": "L",
+            "source": { "title": "Spritmonitor — Porsche Cayenne plug-in hybrid 335–345 kW, 2021–2025 (4 vehicles)", "url": "https://www.spritmonitor.de/fr/apercu/39-Porsche/362-Cayenne.html?fueltype=10&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=335&power_e=345&gearing=2" } }
+        ],
+        "ncap": { "stars": null, "note": "הדור הזה לא נבחן ב-Euro NCAP" },
+        "launchPrice": { "ils": 698000, "year": 2017, "note": "Cayenne בסיס 3.0 V6 טורבו, 340 כ״ס", "source": { "title": "ynet — פורשה קאיין חדש: החל מ-698 אלף שקל", "url": "https://www.ynet.co.il/articles/mobile/0,7340,L-5009821,00.html" } }
+      }
+    }
+  }
+}

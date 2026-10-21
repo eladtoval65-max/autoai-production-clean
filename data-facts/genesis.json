@@ -1,0 +1,24 @@
+{
+  "make": "genesis",
+  "updated": "2026-10-21",
+  "models": {
+    "g80": {
+      "RG3": {
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://www.euroncap.com/en/results/genesis/g80/42794"
+        }
+      }
+    },
+    "gv80": {
+      "JX1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://www.euroncap.com/en/results/genesis/gv80/42796"
+        }
+      }
+    }
+  }
+}

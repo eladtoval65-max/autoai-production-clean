@@ -26,6 +26,7 @@ export function CarCard({ car, rank, km, saved, inCompare, onSave, onCompare, on
       </div>
       <div className="flex min-w-0 flex-1 flex-col p-4">
         <h3 className="truncate text-[1.2rem] leading-tight">{shortName(car.make)}</h3>
+        {car.condition === "used" && <p className="mt-0.5 text-[13px] font-semibold text-go"><bdi>{car.years.split(" · ")[0]}</bdi> · יד שנייה · מחיר משוער</p>}
         <p className="mt-0.5 text-[14px] text-muted">
           {lang === "he" ? car.fuel : FUEL_EN[car.fuel] ?? car.fuel} · <span className="num text-[15px]"><bdi>{car.marketRange ?? shekel(car.price, nf)}</bdi></span>
         </p>

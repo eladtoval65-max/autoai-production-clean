@@ -11,6 +11,10 @@ const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3",
 const MAKES = { toyota: "Toyota", hyundai: "Hyundai", mazda: "Mazda", skoda: "Skoda", kia: "Kia", byd: "BYD", nissan: "Nissan", mg: "MG", ford: "Ford", volkswagen: "Volkswagen", peugeot: "Peugeot", jaecoo: "Jaecoo", chery: "Chery", tesla: "Tesla", suzuki: "Suzuki", honda: "Honda", citroen: "Citroën", lexus: "Lexus", subaru: "Subaru", ora: "ORA", xpeng: "XPENG", kgm: "KGM", jeep: "Jeep", "alfa-romeo": "Alfa Romeo", mini: "MINI", geely: "Geely" };
 const FUEL = { hybrid: "Hybrid", petrol: "Petrol", electric: "Electric", diesel: "Diesel" };
 const REG = 121;
+// Energy prices: the seeds were priced at seedBasis; fuel components are rescaled to today's official prices.
+const ENERGY = JSON.parse(fs.readFileSync(path.join(root, "src/data/energyPrices.json"), "utf8"));
+const energyFactor = (fuelType) => fuelType === "electric" ? ENERGY.electricityPerKwh / ENERGY.seedBasis.electricityPerKwh
+  : fuelType === "diesel" ? ENERGY.dieselPerL / ENERGY.seedBasis.dieselPerL : ENERGY.petrolPerL / ENERGY.seedBasis.petrolPerL;
 
 function readArray(file) {
   const src = fs.readFileSync(path.join(root, "scripts", `${file}.ts`), "utf8");
@@ -37,8 +41,8 @@ const out = [...merged.values()].filter((c) => !c.discontinued).map((c) => {
   }
   // Totals are always recomputed from components + licensing; seed totals have had typos.
   for (const km of [7000, 15000, 25000]) {
+    bands[km] = { ...bands[km], fuel: Math.round(bands[km].fuel * energyFactor(c.fuelType)) };
     const b = bands[km]; const sum = b.fuel + b.insurance + b.maintenance + b.depreciation + REG;
-    if (b.total && b.total !== sum) console.warn(`  [fix] ${c.makeSlug} ${c.model} @${km}: total ${b.total} -> ${sum}`);
     b.total = sum;
   }
   const price = c.priceMedian ?? c.newPrice;

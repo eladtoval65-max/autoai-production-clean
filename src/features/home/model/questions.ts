@@ -1,24 +1,44 @@
 /**
  * The questionnaire: step order, defaults and the answer options (Hebrew + English).
  */
-import { BatteryCharging, Building2, CircleDashed, Fuel, Gauge, MapPin, Milestone, PlugZap, Route, ShieldCheck, Sofa, Users, Wrench } from "lucide-react";
+import { BatteryCharging, Building2, CircleDashed, Repeat, Sparkles, Fuel, Gauge, MapPin, Milestone, PlugZap, Route, ShieldCheck, Sofa, Users, Wrench } from "lucide-react";
 import type { Answers, Choice, StepKey } from "../types";
 
 /** Full (5 steps) and quick (3 steps) question orders. */
-export const FULL_STEPS: StepKey[] = ["budget", "use", "priority", "fuel", "annualKm"];
-export const QUICK_STEPS: StepKey[] = ["budget", "use", "fuel"];
+export const FULL_STEPS: StepKey[] = ["condition", "budget", "use", "priority", "fuel", "annualKm"];
+export const QUICK_STEPS: StepKey[] = ["condition", "budget", "use", "fuel"];
 
 /** Steps where several answers can be picked, followed by an explicit "Continue". */
 export const MULTI_STEPS = new Set<StepKey>(["use", "priority", "fuel"]);
 
 /** Starting answers (mid budget, 15,000 km/yr). */
-export const EMPTY_ANSWERS: Answers = { budget: 180000, use: [], priority: [], fuel: [], family: "", annualKm: 15000, annualKmBand: "mid" };
+export const EMPTY_ANSWERS: Answers = { condition: "any", budget: 180000, use: [], priority: [], fuel: [], family: "", annualKm: 15000, annualKmBand: "mid" };
 
 /** Yearly km used for each mileage band. */
 export const KM_FOR_BAND = { low: 7000, mid: 15000, high: 25000 } as const;
 
+/** Budget brackets for used cars (asking prices are lower, so the brackets are too). */
+export const BUDGET_USED: Choice[] = [
+  { value: 50000, amount: "≤50K", he: ["עד ₪50,000", "רכב ראשון או רכב שני לבית"], en: ["Up to ₪50,000", "First car or second family car"] },
+  { value: 90000, amount: "50–90K", he: ["₪50,000 עד ₪90,000", "רכבי עיר ומשפחתיות בנות כמה שנים"], en: ["₪50,000–90,000", "City and family cars a few years old"] },
+  { value: 130000, amount: "90–130K", he: ["₪90,000 עד ₪130,000", "משפחתיות וקרוסאוברים צעירים"], en: ["₪90,000–130,000", "Young family cars and crossovers"] },
+  { value: 180000, amount: "130K+", he: ["מעל ₪130,000", "SUV, היברידיות וחשמליות צעירות"], en: ["Over ₪130,000", "Young SUVs, hybrids and EVs"] },
+];
+
+/** The budget options for the chosen condition ("any" uses the new-car brackets' wider top end + used low end). */
+export function budgetChoices(condition: Answers["condition"]): Choice[] {
+  if (condition === "used") return BUDGET_USED;
+  if (condition === "new") return CHOICES.budget;
+  return [BUDGET_USED[0], BUDGET_USED[1], ...CHOICES.budget];
+}
+
 /** Answer options per step. Budget brackets match today's new-car list prices. */
 export const CHOICES: Record<StepKey, Choice[]> = {
+  condition: [
+    { value: "used", icon: Repeat, he: ["יד שנייה", "כל הדגמים מ־2012, במחיר משוער לפי שנה"], en: ["Used", "Every model since 2012 at an estimated price"] },
+    { value: "new", icon: Sparkles, he: ["חדש", "לפי מחירון היבואנים היום"], en: ["New", "By today's importer list prices"] },
+    { value: "any", icon: CircleDashed, he: ["גם וגם", "תראו לי מה הכי משתלם"], en: ["Either", "Show me what pays off best"] },
+  ],
   budget: [
     { value: 145000, amount: "≤145K", he: ["עד ₪145,000", "רכבי עיר וקרוסאוברים קטנים"], en: ["Up to ₪145,000", "City cars and small crossovers"] },
     { value: 180000, amount: "145–180K", he: ["₪145,000 עד ₪180,000", "רוב הקרוסאוברים המשפחתיים"], en: ["₪145,000–180,000", "Most family crossovers"] },

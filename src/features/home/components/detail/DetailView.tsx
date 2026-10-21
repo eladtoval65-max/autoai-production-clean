@@ -88,11 +88,13 @@ export function DetailView({ car, answers, saved, onBack, onLead, toggleSaved }:
           <div className="mt-6"><CostBreakdown car={car} km={km} /></div>
           {ladder && <CostLadder ladder={ladder} />}
           {car.dataNote && <p className="mt-6 text-[13px] leading-6 text-muted">{car.dataNote}</p>}
+          {car.href && <a href={car.href} className="mt-3 inline-block text-[15px] font-bold text-go underline underline-offset-4">בעיות מוכרות, מנועים וצריכה — עמוד הדגם המלא ←</a>}
         </div>
         <div className="min-w-0 space-y-6">
           <section className={`${card} p-6`}>
             <h4 className="text-[1.2rem]">{t.overview}</h4>
             <p className="mt-2 text-[16px] leading-7">{car.why}</p>
+            {car.estimatedScores && <p className="mt-3 text-[13px] text-muted">הציונים משוערים מנתונים חלקיים: Euro NCAP, צריכה, קריאות שירות ובעיות מדווחות.</p>}
             <div className="mt-4"><SubScores items={[[t.reliability, car.reliability], [t.safety, car.safety], [t.economy, car.economy], [t.comfort, car.comfort]]} /></div>
           </section>
           <ProsCons car={car} />

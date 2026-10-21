@@ -38,7 +38,7 @@ export const staticCars: Car[] = STATIC_CATALOG.map((c) => {
     ownershipMonthly: b.total, fuelMonthly: b.fuel, insuranceMonthlyAmt: b.insurance, maintenanceMonthly: b.maintenance, depreciationMonthly: b.depreciation,
     marketRange: c.priceMin && c.priceMax ? `₪${Math.round(c.priceMin / 1000)}K–₪${Math.round(c.priceMax / 1000)}K` : undefined,
     dataNote: `אומדן ״כמה עולה״ · רמת ביטחון ${c.confidence}/100${c.sampleSize ? ` · מחיר שוק לפי ${c.sampleSize} מודעות` : ""} · עלות דלק לפי צריכה משוקללת. ביטוח: הערכה בלבד.`,
-    dataStatus: "estimated", dataConfidence: c.confidence, confidence: c.confidence, bands: c.bands, demo: true,
+    dataStatus: "estimated", dataConfidence: c.confidence, confidence: c.confidence, bands: c.bands, demo: true, condition: "new",
     spec: { hp: c.powerHp, seats: c.seats, cargo: c.cargoLiters, cons: c.consumption, ev: c.fuelType === "Electric" },
   };
 });

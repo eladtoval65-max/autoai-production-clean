@@ -33,7 +33,7 @@ export function ModelPage({ make, model }: { make: Make; model: ModelLine }) {
     <>
       <ModelHeader make={make} model={model} />
       <h2 className="mt-12 text-2xl">הדורות מאז 2010</h2>
-      <ol className="mt-5 space-y-4">{[...model.gens].reverse().map((g) => <GenerationCard key={g.code} gen={g} />)}</ol>
+      <ol className="mt-5 space-y-4">{[...model.gens].reverse().map((g) => <GenerationCard key={g.code} gen={g} makeId={make.id} modelId={model.id} />)}</ol>
       <div className="mt-10"><UsedCostCalculator make={make} model={model} /></div>
       <ModelLeadCta make={make} model={model} />
     </>

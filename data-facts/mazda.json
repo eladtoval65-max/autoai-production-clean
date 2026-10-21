@@ -1,0 +1,108 @@
+{
+  "make": "mazda",
+  "updated": "2026-10-21",
+  "models": {
+    "mazda3": {
+      "BL": {
+        "issues": [
+          {
+            "he": "לוח המחוונים העליון עלול להתרכך, להפוך דביק ומבריק ולסנוור בשמשה — לבדוק את מצב הדשבורד ולשאול אם הוחלף במסגרת הרחבת האחריות של מאזדה",
+            "level": "manufacturer",
+            "scope": "בעיקר 2010",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (melting dashboard, Mazda extended warranty)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          },
+          {
+            "he": "קריאת שירות על ידית כוונון גובה מושב הנהג שעלולה להישבר ולהתנתק ממסגרת המושב — לוודא שהותקן תושב החיזוק",
+            "level": "recall",
+            "scope": "2010–2011",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (NHTSA seat-lever recall)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          }
+        ],
+        "ncap": { "stars": 5, "year": 2009, "url": "https://cdn.euroncap.com/media/7481/euroncap_mazda_3_2009_5stars.pdf" }
+      },
+      "BM": {
+        "issues": [
+          {
+            "he": "תקלות במסך המולטימדיה: לחיצות \"רפאים\", כפתורים תקועים וצפצופים — לבדוק את המסך והבקר המרכזי בנסיעת מבחן ולשאול על עדכון תוכנה",
+            "level": "widely_reported",
+            "scope": "בעיקר 2014–2015",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (infotainment failure)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          },
+          {
+            "he": "תקלות חשמל, התרוקנות מצבר ובעיות התנעה — מאזדה מציינת שאביזרים שהותקנו בדיעבד (מצלמת דרך, מטענים, GPS) עלולים לגרום לכך; לבדוק מצבר ולהסיר התקנות לא מקוריות",
+            "level": "manufacturer",
+            "scope": "בעיקר 2014",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (electrical failures, Mazda communications)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          }
+        ]
+      },
+      "BP": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מערכת הבלימה האוטונומית (SBS) עלולה להפעיל בלימת חירום ללא מכשול — לוודא שבוצע עדכון תוכנה / החלפת לוח מחוונים",
+            "level": "recall",
+            "scope": "שנתונים 2019–2020",
+            "source": { "title": "NHTSA recall 19V-907 — Mazda3 Smart Braking System", "url": "https://static.nhtsa.gov/odi/rcl/2019/RCMN-19V907-6051.pdf" }
+          },
+          {
+            "he": "קריאת שירות: תקלת תוכנה במחשב המנוע (PCM) עלולה לגרום לכיבוי מנוע בנסיעה — לבדוק במוסך מורשה שבוצע עדכון",
+            "level": "recall",
+            "scope": "מנוע 2.5, 2019",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (engine stalling PCM recall)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          },
+          {
+            "he": "רעשי טרטור מחלקי פנים הרכב — להקשיב לחריקות ורעשים מהדשבורד והדלתות בנסיעה על כביש משובש",
+            "level": "widely_reported",
+            "scope": "בעיקר 2023",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (interior rattling)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          }
+        ],
+        "ncap": { "stars": 5, "year": 2019, "url": "https://cdn.euroncap.com/en/results/mazda/3/35876" }
+      }
+    },
+    "cx-5": {
+      "KF": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה במחשב המנוע (PCM) עלולה לגרום לכיבוי מנוע בנסיעה — לבדוק במוסך מורשה שבוצע עדכון",
+            "level": "recall",
+            "scope": "מנוע 2.5, 2018–2019",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (PCM recall incl. CX-5 and Mazda6)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          }
+        ],
+        "ncap": { "stars": 5, "year": 2017, "url": "https://www.euroncap.com/en/results/mazda/cx-5/27704" }
+      },
+      "KG": {
+        "ncap": { "stars": 5, "year": 2025, "url": "https://news.euroncap.com/safercars/mazda-cx-5---euro-ncap-2025-results---5-stars/s/488d20d2-478c-4535-b04a-515f76f6cea3" }
+      }
+    },
+    "cx-30": {
+      "DM": {
+        "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/mazda/cx-30/38857" }
+      }
+    },
+    "cx-60": {
+      "KH": {
+        "ncap": { "stars": 5, "year": 2022, "url": "https://cdn.euroncap.com/en/results/mazda/cx-60/46610" }
+      }
+    },
+    "mazda6": {
+      "GJ/GL": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה במחשב המנוע (PCM) עלולה לגרום לכיבוי מנוע בנסיעה — לבדוק במוסך מורשה שבוצע עדכון",
+            "level": "recall",
+            "scope": "מנוע 2.5, 2018–2019",
+            "source": { "title": "SlashGear — 9 Common Problems With The Mazda3 (PCM recall incl. CX-5 and Mazda6)", "url": "https://www.slashgear.com/2256080/mazda3-common-problems/" }
+          }
+        ],
+        "ncap": { "stars": 5, "year": 2018, "url": "https://cdn.euroncap.com/media/85428/euroncap-2018-mazda-6-datasheet.pdf" }
+      }
+    },
+    "cx-3": {
+      "DK": {
+        "ncap": { "stars": 4, "year": 2015, "url": "https://www.euroncap.com/en/results/Mazda/CX-3/20856" }
+      }
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "make": "skoda",
+  "updated": "2026-10-21",
+  "models": {
+    "octavia": {
+      "Mk2 (1Z)": {
+        "issues": [
+          {
+            "he": "מתיחה של שרשרת התזמון במנועי 1.4 TSI (EA111) — רעש נקישות קצר בהנעה קרה הוא סימן אזהרה; לבקש הוכחה להחלפת שרשרת",
+            "level": "manufacturer",
+            "scope": "1.4 TSI",
+            "source": {
+              "title": "AUTO BILD — VW TSI Steuerketten-Kulanz (EA111)",
+              "url": "https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html"
+            }
+          },
+          {
+            "he": "צריכת שמן גבוהה במנוע 1.8 TSI (טבעות בוכנה) — לבדוק מפלס שמן ולשאול כמה שמן מוסיפים בין טיפולים",
+            "level": "widely_reported",
+            "scope": "1.8 TSI",
+            "source": {
+              "title": "Gebrauchtwagenberater — Skoda Octavia II (1Z) Probleme",
+              "url": "https://gebrauchtwagenberater.de/skoda-octavia-mk2-probleme/"
+            }
+          },
+          {
+            "he": "ריקול לתיבת DSG (יחידת בקרה שקוראת לא נכון את חום המצמד, 2008–2009) — לוודא שהעדכון בוצע ושהתיבה מעבירה חלק בלי טלטולים",
+            "level": "recall",
+            "scope": "DSG, 2008–2009",
+            "source": {
+              "title": "Gebrauchtwagenberater — Skoda Octavia II (1Z) Probleme",
+              "url": "https://gebrauchtwagenberater.de/skoda-octavia-mk2-probleme/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TSI 122 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 7.07,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Octavia petrol 85–95 kW DSG, 2007–2011 (75 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/399-Octavia.html?fueltype=2&vehicletype=1&constyear_s=2007&constyear_e=2011&power_s=85&power_e=95&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "נבדק ב-2004 בפרוטוקול הישן — לא נמצא עמוד תוצאה תקף ב-euroncap.com"
+        },
+        "launchPrice": null
+      },
+      "Mk3 (5E)": {
+        "issues": [
+          {
+            "he": "תיבת DSG 7 הילוכים: יבואן שמפיון ביצע מבצע שירות להחלפת שמן התיבה (פגיעה חשמלית/מכנית באקלים חם) לרכבים מסוף 2012 עד רבעון 1 2013 — לוודא ביצוע ולבדוק העברות חלקות",
+            "level": "recall",
+            "scope": "DSG7, ייצור סוף 2012–2013",
+            "source": {
+              "title": "וואלה רכב — מבצע שירות לתיבות DSG7 של קבוצת פולקסווגן (2013)",
+              "url": "https://cars.walla.co.il/item/2695369"
+            }
+          },
+          {
+            "he": "כשלי תיבת DSG — נעילה בהילוך בגלל יחידת המכטרוניקה ורעידות מגלגל תנופה כפול שחוק, בעיקר 2013–2016 — לבדוק בנסיעת מבחן זינוק ועצירה",
+            "level": "widely_reported",
+            "scope": "DSG, 2013–2016",
+            "source": {
+              "title": "CompleteCar.ie — Octavia Mk3 used buying guide: reliability",
+              "url": "https://www.completecar.ie/used-car-reviews/review/10347/Skoda-Octavia-Mk3-2013-2020-used-car-buying-guide/reliability-recalls-warranty.html"
+            }
+          },
+          {
+            "he": "תקלות במשאבת המים — לחפש סימני נזילת נוזל קירור ולשאול אם הוחלפה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Skoda Octavia 2013–2020 reliability",
+              "url": "https://www.whatcar.com/skoda/octavia/hatchback/used-review/n851/advice"
+            }
+          },
+          {
+            "he": "ריקול לכרית האוויר של הנוסע (ייצור 07–11/2014) וכרית הנהג (01–02/2018) — לבדוק לפי מספר שלדה אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 2014 ו-2018",
+            "source": {
+              "title": "What Car? — Used Skoda Octavia 2013–2020 reliability (recalls)",
+              "url": "https://www.whatcar.com/skoda/octavia/hatchback/used-review/n851/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TSI 140 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 6.78,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Octavia petrol 98–108 kW DSG, 2011–2015 (55 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/399-Octavia.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=98&power_e=108&gearing=4"
+            }
+          },
+          {
+            "name": "1.0 TSI 116 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 116,
+            "cons": 6.01,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Octavia petrol 80–90 kW DSG, 2015–2019 (34 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/399-Octavia.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=80&power_e=90&gearing=4"
+            }
+          },
+          {
+            "name": "1.8 TSI 180 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 180,
+            "cons": 7.82,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Octavia petrol 127–137 kW DSG, 2012–2016 (79 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/399-Octavia.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=127&power_e=137&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://www.euroncap.com/en/results/skoda/octavia/8890"
+        },
+        "launchPrice": {
+          "ils": 131990,
+          "year": 2013,
+          "note": "1.2 TSI DSG, רמת גימור Ambiente",
+          "source": {
+            "title": "CarTube — סקודה אוקטביה החדשה בישראל: מחיר החל מ-131,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-אוקטביה-החדשה-בישראל-–-מחיר-החל-מ-131,990-שקל"
+          }
+        }
+      },
+      "Mk4 (NX)": {
+        "issues": [
+          {
+            "he": "ריקול: מגן חום בין משאבת הבלמים למערכת הפליטה עלול להיות מותקן לא נכון — נזילת נוזל בלמים וסכנת שריפה; לבדוק ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "2020–2024",
+            "source": {
+              "title": "Australian Government recall REC-005899 — Skoda Superb, Octavia 2020–2024",
+              "url": "https://vehiclerecalls.gov.au/recalls/rec-005899"
+            }
+          },
+          {
+            "he": "ריקול למערכת eCall (חיוג חירום) שעלולה לא לעבוד — ייצור 11/2019–05/2020",
+            "level": "recall",
+            "scope": "ייצור 2019–2020",
+            "source": {
+              "title": "car-recalls.eu — Skoda Octavia IV 2020 eCall (Safety Gate A12/01114/20)",
+              "url": "https://car-recalls.eu/es/recall/skoda-octavia-iv-2020-e-call/"
+            }
+          },
+          {
+            "he": "תקלות מולטימדיה וניווט הן התלונה הנפוצה ביותר — לבדוק מסך, מראה חכמה ובלוטות׳ ולוודא שעודכנה תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Skoda Octavia 2020–present reliability",
+              "url": "https://www.whatcar.com/skoda/octavia/hatchback/used-review/n23452/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 TSI e-TEC 150 כ״ס DSG (מיילד-היברידי)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.06,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Octavia 1.5 e-TEC (Hybrid Benzin) 105–115 kW auto, 2022–2026 (34 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/399-Octavia.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=105&power_e=115&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://cdn.euroncap.com/media/94990/euroncap-2019-škoda-octavia-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 134990,
+          "year": 2020,
+          "note": "1.0 TSI, רמת גימור Ambition",
+          "source": {
+            "title": "iCar — סקודה אוקטביה החדשה בישראל: מ-135,000 שקלים",
+            "url": "https://www.icar.co.il/חדשות_רכב/סקודה_אוקטביה_החדשה_בישראל:_מ-135,000_שקלים/"
+          }
+        }
+      }
+    }
+  }
+}

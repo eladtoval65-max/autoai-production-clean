@@ -23,6 +23,9 @@ export type Car = {
   dataNote?: string; dataStatus?: string; dataConfidence?: number;
   sourceName?: string; sourceUrl?: string; lastVerifiedAt?: string;
   demo?: boolean;                     // true when shown from the static catalog (DB not connected)
+  condition?: "new" | "used";         // new list-price car, or a used generation at an estimated price
+  href?: string;                      // model page with sources, issues and engines
+  estimatedScores?: boolean;          // sub-scores derived from partial data (shown with a note)
   bands?: Record<7000 | 15000 | 25000, CatalogBand>; // monthly cost at three yearly mileages
   confidence?: number;
   spec?: { hp: number | null; seats: number | null; cargo: number | null; cons: number | null; ev: boolean };
@@ -31,13 +34,14 @@ export type Car = {
 /** A car with its match score for the current answers (0–100). */
 export type Ranked = Car & { match: number };
 
-export type StepKey = "budget" | "use" | "priority" | "fuel" | "annualKm";
+export type StepKey = "condition" | "budget" | "use" | "priority" | "fuel" | "annualKm";
+export type Condition = "new" | "used" | "any";
 export type MultiKey = "use" | "priority" | "fuel";
 export type QuizMode = "quick" | "full";
 
 /** Questionnaire answers. use/priority/fuel allow several choices. */
 export type Answers = {
-  budget: number; use: string[]; priority: string[]; fuel: string[]; family: string;
+  condition: Condition; budget: number; use: string[]; priority: string[]; fuel: string[]; family: string;
   annualKm: number; annualKmBand: "low" | "mid" | "high";
 };
 
