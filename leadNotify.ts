@@ -10,7 +10,7 @@ type LeadForEmail = {
   budget?: number | null; purchaseTimeline: string; sourcePage: string;
 };
 
-const TYPE_HE: Record<string, string> = { vehicle: "בירור על רכב", financing: "מימון", insurance: "ביטוח", trade_in: "טרייד-אין", used_car: "רכב יד שנייה", test_drive: "נסיעת מבחן" };
+const TYPE_HE: Record<string, string> = { vehicle: "בירור על רכב", financing: "מימון", insurance: "ביטוח", trade_in: "טרייד-אין", used_car: "רכב יד שנייה", test_drive: "נסיעת מבחן", leasing: "ליסינג" };
 const WHEN_HE: Record<string, string> = { now: "בקרוב", three_months: "ב-3 החודשים הקרובים", later: "בהמשך השנה", unsure: "עוד לא החליט/ה" };
 const esc = (v: unknown) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 

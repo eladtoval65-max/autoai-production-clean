@@ -12,7 +12,7 @@
 /** Version of the consent + notice texts. Format: date of the change (bump on every wording change). */
 export const CONSENT_VERSION = "2026-10-20";
 
-export type LeadType = "vehicle" | "financing" | "insurance" | "trade_in" | "used_car" | "test_drive";
+export type LeadType = "vehicle" | "financing" | "insurance" | "trade_in" | "used_car" | "test_drive" | "leasing";
 
 /** The kind of business a customer may (optionally) agree to be passed to, per request type. */
 export const PARTNER_CATEGORY: Record<LeadType, string> = {
@@ -20,6 +20,7 @@ export const PARTNER_CATEGORY: Record<LeadType, string> = {
   test_drive: "סוכנות או יבואן רכב",
   used_car: "סוחר או סוכנות רכב יד־שנייה",
   trade_in: "סוחר או סוכנות רכב לטרייד־אין",
+  leasing: "חברת ליסינג",
   financing: "חברת מימון רכב בעלת רישיון",
   insurance: "סוכנות ביטוח בעלת רישיון",
 };
@@ -30,6 +31,7 @@ export const PARTNER_TYPES_FOR: Record<LeadType, string[]> = {
   test_drive: ["dealer", "importer"],
   used_car: ["used_lot", "dealer", "inspection"],
   trade_in: ["trade_in", "used_lot", "dealer"],
+  leasing: ["leasing"],
   financing: ["finance"],
   insurance: ["insurance"],
 };

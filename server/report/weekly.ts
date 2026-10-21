@@ -15,7 +15,7 @@ export type Weekly = {
 
 const FUNNEL = ["visit", "quiz_start", "quiz_complete", "results_view", "lead_open", "lead_submit"];
 const FUNNEL_HE: Record<string, string> = { visit: "ביקורים", quiz_start: "התחילו שאלון", quiz_complete: "סיימו שאלון", results_view: "ראו תוצאות", lead_open: "פתחו טופס", lead_submit: "שלחו פנייה" };
-const TYPE_HE: Record<string, string> = { vehicle: "בירור על רכב", financing: "מימון", insurance: "ביטוח", trade_in: "טרייד-אין", used_car: "יד שנייה", test_drive: "נסיעת מבחן" };
+const TYPE_HE: Record<string, string> = { vehicle: "בירור על רכב", financing: "מימון", insurance: "ביטוח", trade_in: "טרייד-אין", used_car: "יד שנייה", test_drive: "נסיעת מבחן", leasing: "ליסינג" };
 
 type Q = (sql: string, args?: unknown[]) => Promise<any[]>; // eslint-disable-line @typescript-eslint/no-explicit-any
 

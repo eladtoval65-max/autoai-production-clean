@@ -64,3 +64,20 @@ describe("used-car monthly cost", () => {
   });
   it("lists the generation's model years from 2010", () => expect(yearsOf(corolla.gens[0], 2010)[0]).toBe(2010));
 });
+
+import { compareLease, loanPayment as leaseLoan } from "../features/leasing/model/leasing";
+
+describe("leasing vs buying", () => {
+  const base = { price: 150000, months: 36, leaseDown: 0, leaseMonthly: 2500, leaseIncludesInsurance: false, leaseIncludesMaintenance: true,
+    buyDown: 150000, loanRate: 0, depreciationRate: 12, insuranceMonthly: 500, maintenanceMonthly: 200 };
+  it("cash purchase costs value loss + running costs", () => {
+    const r = compareLease(base);
+    const resale = 150000 * 0.88 ** 3;
+    expect(r.buy.valueLoss).toBe(Math.round(150000 - resale));
+    expect(r.buy.interest).toBe(0);
+    expect(r.buy.running).toBe(700 * 36);
+  });
+  it("adds to the lease only what it does not include", () => expect(compareLease(base).lease.extras).toBe(500 * 36));
+  it("a zero-interest loan costs no interest", () => expect(leaseLoan(36000, 0, 36)).toBe(1000));
+  it("financing adds interest", () => expect(compareLease({ ...base, buyDown: 30000, loanRate: 6 }).buy.interest).toBeGreaterThan(0));
+});

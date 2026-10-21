@@ -77,7 +77,7 @@ export const appRouter = router({
         fullName: z.string().trim().min(2).max(120),
         phone: z.string().trim().regex(/^05\d{8}$/, "מספר נייד ישראלי אינו תקין"),
         city: z.string().trim().max(80).optional(),
-        leadType: z.enum(["vehicle", "financing", "insurance", "trade_in", "used_car", "test_drive"]),
+        leadType: z.enum(["vehicle", "financing", "insurance", "trade_in", "used_car", "test_drive", "leasing"]),
         trimId: z.number().int().positive().optional(),
         vehicleLabel: z.string().trim().min(2).max(200),
         matchScore: z.number().int().min(0).max(100).optional(),

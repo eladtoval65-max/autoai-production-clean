@@ -298,7 +298,7 @@ export const leads = mysqlTable(
     fullName: varchar("fullName", { length: 120 }).notNull(),
     phone: varchar("phone", { length: 20 }).notNull(),
     city: varchar("city", { length: 80 }),
-    leadType: mysqlEnum("leadType", ["vehicle", "financing", "insurance", "trade_in", "used_car", "test_drive"]).notNull(),
+    leadType: mysqlEnum("leadType", ["vehicle", "financing", "insurance", "trade_in", "used_car", "test_drive", "leasing"]).notNull(),
     trimId: int("trimId").references(() => vehicleTrims.id),
     vehicleLabel: varchar("vehicleLabel", { length: 200 }).notNull(),
     matchScore: int("matchScore"),

@@ -22,7 +22,7 @@ export default function LeadRequestModal({
 }: {
   vehicle: { id: string; make: string; match: number };
   budget?: number;
-  sourcePage: "recommendations" | "vehicle_details" | "comparison" | "plate_check" | "landing" | "model_page" | "sell_page" | "sell_card" | "compare_page";
+  sourcePage: "recommendations" | "vehicle_details" | "comparison" | "plate_check" | "landing" | "model_page" | "sell_page" | "sell_card" | "compare_page" | "leasing_page";
   onClose: () => void;
   defaultType?: RequestType;
   landingSlug?: string;
@@ -86,6 +86,7 @@ export default function LeadRequestModal({
                   <option value="vehicle">בירור לגבי רכב</option><option value="used_car">רכב יד־שנייה</option>
                   <option value="financing">מימון</option><option value="insurance">ביטוח</option>
                   <option value="trade_in">טרייד־אין</option><option value="test_drive">נסיעת מבחן</option>
+                  <option value="leasing">ליסינג פרטי</option>
                 </select>
               </label>
               <label className="block text-[15px] font-semibold">שם מלא<input className={`mt-1 ${fieldClass}`} autoComplete="name" value={fullName} onChange={event => setFullName(event.target.value)} required minLength={2} maxLength={120} /></label>

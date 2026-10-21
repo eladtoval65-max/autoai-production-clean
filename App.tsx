@@ -16,6 +16,7 @@ import SellCardPage from "./src/features/sell/SellCardPage";
 import { CookieBanner } from "./src/shared/ui/CookieBanner";
 import ComparePage from "./src/features/compare/ComparePage";
 import CompareIndexPage from "./src/features/compare/CompareIndexPage";
+import LeasingPage from "./src/features/leasing/LeasingPage";
 import LandingPage from "./src/features/landing/LandingPage";
 import BrowsePage from "./src/features/browse/BrowsePage";
 function Router() {
@@ -31,6 +32,7 @@ function Router() {
       <Route path="/about" component={AboutPage} />
       <Route path="/compare/:slug" component={ComparePage} />
       <Route path="/compare" component={CompareIndexPage} />
+      <Route path="/leasing" component={LeasingPage} />
       <Route path="/sell/card" component={SellCardPage} />
       <Route path="/sell" component={SellPage} />
       <Route path="/go/:slug" component={LandingPage} />

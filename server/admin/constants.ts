@@ -2,10 +2,10 @@
  * Allowed values accepted from the admin UI. Anything else is rejected before touching the database.
  * Keep in sync with the labels in src/features/admin/labels.ts.
  */
-export const LEAD_TYPES = ["vehicle", "financing", "insurance", "trade_in", "used_car", "test_drive"];
+export const LEAD_TYPES = ["vehicle", "financing", "insurance", "trade_in", "used_car", "test_drive", "leasing"];
 export const TIMELINES = ["now", "three_months", "later", "unsure"];
 export const NOTE_KINDS = ["note", "call", "whatsapp", "email", "meeting"];
-export const PARTNER_TYPES = ["dealer", "importer", "finance", "insurance", "inspection", "trade_in", "used_lot", "other"];
+export const PARTNER_TYPES = ["dealer", "importer", "finance", "insurance", "inspection", "trade_in", "used_lot", "leasing", "other"];
 /** Funnel steps in order (anonymous site events). */
 export const FUNNEL = ["visit", "quiz_start", "quiz_complete", "results_view", "lead_open", "lead_submit"];
 /** Statuses after which a follow-up is no longer "due". */
