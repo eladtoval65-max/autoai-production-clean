@@ -1,0 +1,237 @@
+{
+  "make": "toyota",
+  "updated": "2026-10-21",
+  "models": {
+    "corolla": {
+      "E150": {
+        "issues": [
+          {
+            "he": "כרית אוויר נוסע של Takata — לוודא מול היבואן לפי מספר שלדה שהמנפח הוחלף",
+            "level": "recall",
+            "scope": "קריאה בארה״ב לקורולה 2003–2013 (19V741000); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA recall 19V741000 — Corolla passenger air bag inflator (Motorverso)",
+              "url": "https://www.motorverso.com/recalls/toyota/corolla/"
+            }
+          },
+          {
+            "he": "מתג ראשי של החלונות החשמליים עלול להתחמם ולהיתקע — לבדוק שכל החלונות עולים ויורדים מכל המתגים ושאין ריח שרוף בדלת הנהג",
+            "level": "recall",
+            "scope": "שנתונים 2009–2011",
+            "source": {
+              "title": "NHTSA recall 15V689000 — Corolla power window controls (Motorverso)",
+              "url": "https://www.motorverso.com/recalls/toyota/corolla/"
+            }
+          },
+          {
+            "he": "בקר כריות האוויר (ACU) עלול לא להפעיל את הכריות בתאונה מסוימת — לבדוק מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב לקורולה 2011–2019 (20V024000)",
+            "source": {
+              "title": "NHTSA recall 20V024000 — Corolla air bag control module (Motorverso)",
+              "url": "https://www.motorverso.com/recalls/toyota/corolla/"
+            }
+          },
+          {
+            "he": "דוושת גז עלולה להיתקע במצב לחוץ (קריאת הדוושה הגדולה של 2010) — לוודא שבוצע תיקון הדוושה ושטיח הנהג מקובע",
+            "level": "recall",
+            "scope": "שנתונים 2009–2010",
+            "source": {
+              "title": "NHTSA recall 10V017000 — Corolla accelerator pedal (Motorverso)",
+              "url": "https://www.motorverso.com/recalls/toyota/corolla/"
+            }
+          }
+        ]
+      },
+      "E170": {
+        "issues": [
+          {
+            "he": "בקר כריות האוויר (ACU) עלול לא להפעיל את הכריות בתאונה מסוימת — לבדוק מול היבואן לפי מספר שלדה אם הקריאה חלה ובוצעה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב לקורולה 2011–2019 (20V024000)",
+            "source": {
+              "title": "NHTSA recall 20V024000 — Corolla air bag control module (Motorverso)",
+              "url": "https://www.motorverso.com/recalls/toyota/corolla/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-releases-latest-round-of-crash-tests"
+        }
+      },
+      "E210": {
+        "issues": [
+          {
+            "he": "סוללת 12V חלשה, תקלות מולטימדיה/ניווט ופגמי מרכב קלים הם התלונות הנפוצות — לבדוק מצב מצבר 12V ותקינות המסך והמצלמה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Toyota Corolla 2019-present reliability",
+              "url": "https://www.whatcar.com/toyota/corolla/hatchback/used-review/n20451/reliability"
+            }
+          },
+          {
+            "he": "באג תוכנה בבקר ה-ABS/בקרת היציבות עלול לדרוש לחיצה חזקה יותר על הבלם — לוודא שבוצע עדכון תוכנה אצל היבואן",
+            "level": "recall",
+            "scope": "היברידי 2023–2025 (NHTSA 24V708000; באוסטרליה ZGG91)",
+            "source": {
+              "title": "NHTSA recall 24V708000 — skid control ECU software (Motorverso)",
+              "url": "https://www.motorverso.com/recalls/toyota/corolla-hybrid/"
+            }
+          },
+          {
+            "he": "משאבת מגבר בלמים פגומה עלולה לגרום לאובדן סיוע בבלימה — לבדוק שהקריאה בוצעה ושהבלם לא \"קשה\"",
+            "level": "recall",
+            "scope": "ייצור אפריל–מאי 2019",
+            "source": {
+              "title": "Australiancar.reviews — E210 Corolla Hybrid recalls (UGG33)",
+              "url": "https://australiancar.reviews/?p=47863"
+            }
+          },
+          {
+            "he": "מחברי חיווט בדלת תא המטען עלולים להתחמצן ולכבות את פנסי הרוורס — לבדוק שפנסי הרוורס נדלקים",
+            "level": "recall",
+            "scope": "ייצור דצמבר 2019",
+            "source": {
+              "title": "Australiancar.reviews — E210 Corolla Hybrid recalls (VG221)",
+              "url": "https://australiancar.reviews/?p=47863"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 היברידי 122 כ״ס",
+            "pt": "hybrid",
+            "hp": 122,
+            "cons": 5.02,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Corolla Hybrid 85–95 kW, 2020–2024 (87 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1734-Corolla_Hybrid.html?fueltype=10&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=85&power_e=95&gearing=2"
+            }
+          },
+          {
+            "name": "1.8 היברידי 140 כ״ס (מתיחת פנים)",
+            "pt": "hybrid",
+            "hp": 140,
+            "cons": 4.84,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Corolla hybrid 98–108 kW, 2023+ (31 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/435-Corolla.html?fueltype=10&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=98&power_e=108&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://cdn.euroncap.com/media/94948/euroncap-2019-toyota-corolla-datasheet.pdf"
+        }
+      }
+    },
+    "yaris": {
+      "XP130": {
+        "engines": [
+          {
+            "name": "1.5 היברידי",
+            "pt": "hybrid",
+            "hp": 101,
+            "cons": 4.81,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Yaris Hybrid 69–79 kW, 2015–2019 (351 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1287-Yaris_Hybrid.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=69&power_e=79&gearing=3"
+            }
+          }
+        ]
+      },
+      "XP210": {
+        "engines": [
+          {
+            "name": "1.5 היברידי 116 כ״ס",
+            "pt": "hybrid",
+            "hp": 116,
+            "cons": 4.27,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Yaris Hybrid 80–90 kW, 2019–2023 (228 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1287-Yaris_Hybrid.html?fueltype=10&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=80&power_e=90&gearing=3"
+            }
+          }
+        ]
+      }
+    },
+    "yaris-cross": {
+      "XP210 Cross": {
+        "engines": [
+          {
+            "name": "1.5 היברידי 131 כ״ס",
+            "pt": "hybrid",
+            "hp": 131,
+            "cons": 4.71,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Yaris Cross hybrid 91–101 kW, 2022–2026 (70 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1964-Yaris_Cross.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=91&power_e=101&gearing=3"
+            }
+          }
+        ]
+      }
+    },
+    "rav4": {
+      "XA40": {
+        "engines": [
+          {
+            "name": "2.5 היברידי",
+            "pt": "hybrid",
+            "hp": 197,
+            "cons": 6.97,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — RAV 4 Hybrid, 2014–2018 (41 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/440-RAV_4.html?fueltype=10&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=142&power_e=152&gearing=2"
+            }
+          }
+        ]
+      },
+      "XA50": {
+        "engines": [
+          {
+            "name": "2.5 היברידי",
+            "pt": "hybrid",
+            "hp": 218,
+            "cons": 6.09,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — RAV 4 Hybrid, 2017–2021 (28 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/49-Toyota/440-RAV_4.html?fueltype=10&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=126&power_e=136&gearing=3"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://mag.toyota.co.uk/2019-toyota-corolla-rav4-excel-euro-ncap/"
+        }
+      }
+    },
+    "c-hr": {
+      "AX10": {
+        "engines": [
+          {
+            "name": "1.8 היברידי 122 כ״ס",
+            "pt": "hybrid",
+            "hp": 122,
+            "cons": 5.22,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — C-HR Hybrid 85–95 kW, 2015–2019 (133 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1563-C-HR.html?fueltype=10&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=85&power_e=95&gearing=3"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
