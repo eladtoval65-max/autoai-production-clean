@@ -6,12 +6,12 @@
  *  - Euro NCAP stars: only where we are confident of the published result; otherwise null ("not known").
  *  - Consumption: typical real-world average (L/100 km, or kWh/100 km for EVs) — an ESTIMATE, not the claimed figure.
  *  - "Things to check": widely reported issues and inspection points — guidance for a pre-purchase check, not a diagnosis.
- *  - Current list price: from the Israeli importers' price lists as shown on carzone.co.il brand pages or cartube.co.il price lists (retrieved 2026-10-20).
+ *  - Current list price: from the Israeli importers' price lists as shown on carzone.co.il brand pages or cartube.co.il price lists (last re-checked on the PRICES_VERIFIED date below).
  *  - Used prices are NOT included: there is no free official source (Levi Yitzhak is paid; Yad2 listings are asking prices).
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-10-20";
+export const PRICES_VERIFIED = "2026-10-21";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -134,7 +134,7 @@ export const MAKES: Make[] = [
       T("IA", 2014, 2019, "1.0 / 1.25 בנזין", "66–87", ["petrol"], 6.0, 4, 2014, [C.history, C.inspect]),
       T("AC3", 2020, 2024, "1.0 / 1.2 בנזין", "67–84", ["petrol"], 5.9, 3, 2020, [C.history]),
     ]},
-    { id: "i20", make: "hyundai", model: "i20", he: "i20", body: "hatch", segment: "mass", price: [136900, 136900], status: "on_sale", gens: [
+    { id: "i20", make: "hyundai", model: "i20", he: "i20", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("PB", 2010, 2014, "1.25 / 1.4 בנזין", "78–100", ["petrol"], 6.9, 5, 2009, [C.history, C.inspect]),
       T("GB", 2015, 2020, "1.4 בנזין / 1.0 טורבו", "100", ["petrol"], 6.9, 4, 2015, [C.history, C.inspect]),
       T("BC3", 2021, null, "1.0 טורבו", "100", ["petrol"], 6.8, 4, 2021, [C.history, C.dct]),
@@ -289,8 +289,8 @@ export const MAKES: Make[] = [
     { id: "elroq", make: "skoda", model: "Elroq", he: "אלרוק", body: "suv", segment: "mass", price: [182990, 197990], status: "on_sale", gens: [
       T("MEB", 2025, null, "חשמלי, סוללה 52–77 קוט\"ש", "170–340", ["ev"], 16.5, 5, 2025, [C.ev, C.recalls]),
     ]},
-    { id: "enyaq", make: "skoda", model: "Enyaq", he: "אניאק", body: "suv", segment: "mass", price: [206490, 298000], status: "on_sale", gens: [
-      T("MEB", 2020, null, "חשמלי, סוללה 52/58/77 קוט\"ש (כולל קופה)", "148–340", ["ev"], 18.0, 5, 2021, [C.ev, C.history, C.recalls]),
+    { id: "enyaq", make: "skoda", model: "Enyaq", he: "אניאק", body: "suv", segment: "mass", price: [206490, 279990], status: "on_sale", gens: [
+      T("MEB", 2020, null, "חשמלי, סוללה 52/58/77 קוט\"ש (כולל קופה)", "148–340", ["ev"], 18.0, 5, 2021, [C.ev, C.history, C.recalls], "אניאק ₪206,490–229,990; אניאק קופה ₪243,990–279,990"),
     ]},
     { id: "rapid", make: "skoda", model: "Rapid", he: "ראפיד", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("NH", 2012, 2019, "1.2 / 1.4 TSI, 1.0 TSI (מ-2017), 1.4/1.6 TDI דיזל", "75–125", ["petrol", "diesel"], 6.9, null, undefined, [C.history, C.inspect, C.dsgDry, "מנוע 1.4 TSI: הצטברות פחמן בשסתומי היניקה ובלאי מנגנון הטורבו"]),
@@ -343,6 +343,12 @@ export const MAKES: Make[] = [
     ]},
     { id: "omoda-e5", make: "jaecoo", model: "Omoda E5", he: "אומודה E5", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("E5", 2024, 2025, "סוללה 61 קוט\"ש", "204", ["ev"], 18.0, null, undefined, [C.ev, C.newBrand]),
+    ]},
+    { id: "omoda-7", make: "jaecoo", model: "Omoda 7", he: "אומודה 7", body: "suv", segment: "mass", price: [179900, 199900], status: "on_sale", gens: [
+      T("Gen1", 2025, null, "פלאג-אין SHS: 1.5 טורבו + מנוע חשמלי", "143 בנזין + 204 חשמלי (הספק משולב לא פורסם)", ["phev"], 6.0, null, undefined, [C.phev, C.newBrand], "טווח חשמלי מוצהר 92 ק\"מ, כ-75 ק\"מ במבחן דרך"),
+    ]},
+    { id: "omoda-9", make: "jaecoo", model: "Omoda 9", he: "אומודה 9", body: "suv", segment: "mass", price: [229900, 244900], status: "on_sale", gens: [
+      T("Gen1", 2025, null, "פלאג-אין SHS: 1.5 טורבו, הנעה כפולה, סוללה 34.5 קוט\"ש", "443–537 (מקורות סותרים)", ["phev"], 7.0, 5, 2025, [C.phev, C.newBrand, C.recalls], "טווח חשמלי מוצהר 145 ק\"מ. ריקול תוכנת מנוע לרכבים שיוצרו 12/2024–4/2025"),
     ]},
   ]},
 
@@ -422,7 +428,7 @@ export const MAKES: Make[] = [
       T("Gen1", 2020, null, "1.5 טורבו", "177", ["petrol"], 7.8, null, undefined, [C.newBrand, C.dct], "לא אומת שנמכר בישראל"),
     ]},
     { id: "starray", make: "geely", model: "Starray EM-i", he: "סטארריי EM-i", body: "suv", segment: "mass", price: [169990, 181990], status: "on_sale", gens: [
-      T("P145", 2024, null, "פלאג-אין: 1.5 בנזין + סוללה 18.4 קוט\"ש", "99 (מנוע הבנזין)", ["phev"], 5.5, 5, 2025, [C.phev, C.newBrand], "טווח חשמלי מוצהר 83 ק\"מ; בסין נמכר בשם Galaxy Starship 7"),
+      T("P145", 2024, null, "פלאג-אין: 1.5 בנזין + סוללה 18.4 קוט\"ש", "214 (משולב; מנוע הבנזין 99–110)", ["phev"], 5.5, 5, 2025, [C.phev, C.newBrand], "טווח חשמלי מוצהר 83 ק\"מ; בסין נמכר בשם Galaxy Starship 7"),
     ]},
   ]},
 
@@ -441,6 +447,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "arrizo-8", make: "chery", model: "Arrizo 8", he: "אריזו 8", body: "sedan", segment: "mass", price: [159990, 181990], status: "on_sale", gens: [
       T("Gen1", 2024, null, "1.6 טורבו / פלאג-אין", "186–", ["petrol", "phev"], 7.8, null, undefined, [C.newBrand, C.dct]),
+    ]},
+    { id: "tiggo-9", make: "chery", model: "Tiggo 9", he: "טיגו 9", body: "suv7", segment: "mass", price: [217990, 244990], status: "on_sale", gens: [
+      T("Gen1", 2023, null, "פלאג-אין: 1.5 טורבו (143 כ\"ס) + מנועים חשמליים, 7 מקומות", "מעל 400 (הערכה, לא פורסם רשמית)", ["phev"], 7.0, null, undefined, [C.phev, C.newBrand], "הושק בסין ב-2023; בישראל גרסת פלאג-אין בלבד"),
     ]},
   ]},
 
@@ -629,6 +638,21 @@ export const MAKES: Make[] = [
       T("X156", 2013, 2019, "1.6 / 2.0 טורבו בנזין, דיזל", "107–375", ["petrol", "diesel"], 7.6, null, undefined, [C.history, C.inspect, C.mbChain]),
       T("H247", 2019, null, "1.3 / 2.0 טורבו, 250e פלאג-אין", "114–416", ["petrol", "diesel", "phev"], 7.0, null, undefined, [C.history, C.recalls], "דור חדש (H248) נחשף ביולי 2026"),
     ]},
+    { id: "cla", make: "mercedes", model: "CLA", he: "CLA", body: "sedan", segment: "premium", price: [309900, 479900], status: "on_sale", gens: [
+      T("C117", 2013, 2019, "1.6 / 2.0 טורבו בנזין, 2.1 דיזל", "109–381", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect, C.mbChain, C.dct]),
+      T("C118", 2019, 2025, "1.3 / 2.0 טורבו בנזין, דיזל, 250e פלאג-אין", "116–420", ["petrol", "diesel", "phev"], 7.0, 5, 2019, [C.history, C.recalls, C.dct]),
+      T("C178 / C174", 2025, null, "1.5 טורבו מיילד-היברידי, או חשמלי 58/85 קוט\"ש (800V)", "136–354", ["hybrid", "ev"], 6.5, 5, 2025, [C.recalls], "CLA ₪319,900–419,900; CLA חשמלי ₪309,900–479,900"),
+    ]},
+    { id: "glb", make: "mercedes", model: "GLB", he: "GLB", body: "suv7", segment: "premium", price: null, status: "unverified", gens: [
+      T("X247", 2019, 2025, "1.3 / 2.0 טורבו בנזין, 2.0 דיזל", "116–306", ["petrol", "diesel"], 7.8, 5, 2019, [C.history, C.recalls]),
+      T("Gen2", 2026, null, "1.5 טורבו מיילד-היברידי, או חשמלי 85 קוט\"ש", "135–354", ["hybrid", "ev"], 7.0, null, undefined, [C.recalls], "דור חדש נחשף בדצמבר 2025; לא מופיע במחירון היבואן באוקטובר 2026"),
+    ]},
+    { id: "eqa", make: "mercedes", model: "EQA", he: "EQA", body: "suv", segment: "premium", price: null, status: "on_sale", gens: [
+      T("H243", 2021, null, "חשמלי, סוללה 66.5–70.5 קוט\"ש", "190–292", ["ev"], 18.5, 5, 2019, [C.ev, C.recalls, "ריקול סוללת מתח גבוה (תאי Farasis, סכנת שריפה) בדגמי 2021–2024: לוודא שבוצע עדכון התוכנה"], "מחירי 2026 סותרים בין המקורות (₪299,000–439,900); ממתין לבדיקה"),
+    ]},
+    { id: "eqb", make: "mercedes", model: "EQB", he: "EQB", body: "suv7", segment: "premium", price: null, status: "unverified", gens: [
+      T("X243", 2021, 2026, "חשמלי, סוללה 66.5 קוט\"ש, עד 7 מקומות", "188–288", ["ev"], 19.5, 5, 2019, [C.ev, C.recalls, "ריקול סוללת מתח גבוה (תאי Farasis, סכנת שריפה) בדגמי 2021–2024: לוודא שבוצע עדכון התוכנה"], "מוחלף ב-GLB החשמלי"),
+    ]},
   ]},
 
   { id: "bmw", name: "BMW", he: "ב.מ.וו", models: [
@@ -666,6 +690,14 @@ export const MAKES: Make[] = [
       T("G30", 2016, 2023, "2.0 טורבו, 530e פלאג-אין", "168–616", ["petrol", "diesel", "phev"], 7.5, 5, 2017, [C.history, C.inspect]),
       T("G60", 2023, null, "2.0 מיילד-היברידי, פלאג-אין, i5 חשמלי", "194–717", ["petrol", "diesel", "phev", "ev"], 7.0, null, undefined, [C.history, C.recalls]),
     ]},
+    { id: "x2", make: "bmw", model: "X2", he: "X2", body: "suv", segment: "premium", price: [319900, 346900], status: "on_sale", gens: [
+      T("F39", 2018, 2023, "1.5 / 2.0 טורבו בנזין, דיזל, 25e פלאג-אין", "114–302", ["petrol", "diesel", "phev"], 7.5, null, undefined, [C.history, C.inspect]),
+      T("U10", 2024, null, "1.5 טורבו מיילד-היברידי, 2.0 טורבו; iX2 חשמלי 66.5 קוט\"ש", "150–313", ["petrol", "hybrid", "ev"], 7.0, 5, 2022, [C.history, C.recalls], "iX2 ₪394,900–424,900. התראת בטיחות באירופה (1/2025): ריתוך בסרוו הבלמים ברכבים שיוצרו 7/2022–11/2024"),
+    ]},
+    { id: "ix3", make: "bmw", model: "iX3", he: "iX3", body: "suv", segment: "premium", price: [434900, 544900], status: "on_sale", gens: [
+      T("G08", 2020, 2025, "חשמלי, סוללה 74 קוט\"ש נטו, הנעה אחורית", "286", ["ev"], 19.0, 5, 2017, [C.ev, C.history], "דירוג ה-X3 מ-2017 הוחל על ה-iX3; שנת סיום הייצור לא אומתה"),
+      T("NA5 (Neue Klasse)", 2025, null, "חשמלי, סוללה 82.7/108.7 קוט\"ש", "315–463", ["ev"], 17.0, 5, 2026, [C.ev]),
+    ]},
   ]},
 
   { id: "audi", name: "Audi", he: "אאודי", models: [
@@ -695,6 +727,17 @@ export const MAKES: Make[] = [
     { id: "q7", make: "audi", model: "Q7", he: "Q7", body: "suv7", segment: "premium", price: [689900, 740900], status: "on_sale", gens: [
       T("4L", 2010, 2015, "3.0 TFSI / 3.0 TDI", "237–493", ["petrol", "diesel"], 12.5, 4, 2006, [C.history, C.inspect, C.airSusp]),
       T("4M", 2015, null, "3.0 TFSI / TDI, TFSI e פלאג-אין", "215–500", ["petrol", "diesel", "phev"], 10.5, null, undefined, [C.history, C.inspect, C.airSusp], "דור 3 נחשף ביוני 2026"),
+    ]},
+    { id: "q4-etron", make: "audi", model: "Q4 e-tron", he: "Q4 e-tron", body: "suv", segment: "premium", price: [299000, 359900], status: "on_sale", gens: [
+      T("F4", 2021, null, "חשמלי, סוללה 52/59/77 קוט\"ש", "168–335", ["ev"], 19.0, 5, 2025, [C.ev, C.recalls], "Q4 ₪299,000–339,900; Q4 ספורטבק ₪319,000–359,900. מתיחת פנים 2026"),
+    ]},
+    { id: "a5", make: "audi", model: "A5", he: "A5", body: "sedan", segment: "premium", price: [369100, 519000], status: "on_sale", gens: [
+      T("B8 (8T)", 2010, 2016, "1.8 / 2.0 / 3.0 TFSI בנזין, TDI דיזל", "136–450", ["petrol", "diesel"], 8.5, null, undefined, [C.history, C.inspect, C.ea888]),
+      T("F5 (B9)", 2016, 2024, "2.0 TFSI, 2.0 / 3.0 TDI", "190–450", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect]),
+      T("B10", 2024, null, "2.0 TFSI מיילד-היברידי, TFSI e פלאג-אין", "150–639", ["petrol", "hybrid", "phev"], 7.0, 5, 2024, [C.history, C.recalls], "מחליף את A4; בישראל 40 TFSI ופלאג-אין 50/55 TFSI e"),
+    ]},
+    { id: "q8", make: "audi", model: "Q8", he: "Q8", body: "suv", segment: "premium", price: [726200, 822000], status: "on_sale", gens: [
+      T("4M", 2018, null, "3.0 TFSI / TDI מיילד-היברידי, TFSI e פלאג-אין", "230–640", ["petrol", "diesel", "hybrid", "phev"], 11.0, 5, 2019, [C.history, C.inspect, C.airSusp]),
     ]},
   ]},
   // ── Catalog expansion 2026-10-20: prices from cartube.co.il / carzone.co.il brand price lists, generations and engines
@@ -926,6 +969,17 @@ export const MAKES: Make[] = [
     { id: "es90", make: "volvo", model: "ES90", he: "ES90", body: "sedan", segment: "premium", price: [399900, 539900], status: "on_sale", gens: [
       T("V551", 2025, null, "חשמלי, סוללה 88–106 קוט\"ש", "329–671", ["ev"], 17.5, null, undefined, [C.ev, C.recalls]),
     ]},
+    { id: "s60", make: "volvo", model: "S60", he: "S60", body: "sedan", segment: "premium", price: null, status: "discontinued", gens: [
+      T("Gen2", 2010, 2018, "T3–T6 בנזין, D2–D5 דיזל", "114–367", ["petrol", "diesel"], 8.5, null, undefined, [C.history, C.inspect]),
+      T("SPA", 2018, 2024, "T4 / T5 בנזין, T8 פלאג-אין", "187–455", ["petrol", "phev"], 7.8, 5, 2018, [C.history, C.recalls, "בגרסת פלאג-אין: " + C.phev], "הייצור הסתיים ביוני 2024"),
+    ]},
+    { id: "v60", make: "volvo", model: "V60", he: "V60", body: "wagon", segment: "premium", price: null, status: "discontinued", gens: [
+      T("Gen1", 2010, 2018, "T3–T6 בנזין, D2–D5 דיזל, D5/D6 פלאג-אין דיזל", "115–367", ["petrol", "diesel", "phev"], 8.0, 5, 2011, [C.history, C.inspect]),
+      T("SPA", 2018, null, "B3–B6 / T4–T6 בנזין, D3/D4 דיזל, T6/T8 פלאג-אין", "150–462", ["petrol", "diesel", "hybrid", "phev"], 7.5, 5, 2018, [C.history, C.recalls, "בגרסת פלאג-אין: " + C.phev], "לא משווק עוד בישראל"),
+    ]},
+    { id: "c40", make: "volvo", model: "C40 / EC40", he: "C40 / EC40", body: "suv", segment: "premium", price: null, status: "discontinued", gens: [
+      T("C40 / EC40", 2021, null, "חשמלי, סוללה 69–82 קוט\"ש", "231–408", ["ev"], 20.0, 5, 2022, [C.ev, C.recalls], "שמו שונה ל-EC40 ב-2024; לא משווק עוד בישראל"),
+    ]},
   ]},
 
   { id: "citroen", name: "Citroën", he: "סיטרואן", models: [
@@ -1022,11 +1076,11 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "ora", name: "ORA", he: "אורה", models: [
-    { id: "05", make: "ora", model: "05", he: "05", body: "suv", segment: "mass", price: [139990, 148990], status: "on_sale", gens: [
+    { id: "05", make: "ora", model: "05", he: "05", body: "suv", segment: "mass", price: [139990, 151900], status: "on_sale", gens: [
       T("Gen1", 2025, null, "1.5 טורבו היברידי", "223", ["hybrid"], 6.8, null, undefined, [C.newBrand, C.hyHybrid], "במבחן דרך: 14.5–15.1 ק\"מ לליטר"),
     ]},
-    { id: "03", make: "ora", model: "03 Funky Cat", he: "03 פאנקי קאט", body: "hatch", segment: "mass", price: [154422, 154422], status: "on_sale", gens: [
-      T("ES11", 2020, null, "סוללה 57.7 קוט\"ש (דגם 2026)", "171", ["ev"], 18.1, 5, 2022, [C.ev, C.newBrand], "במבחן דרך: כ-250 ק\"מ טווח אמיתי"),
+    { id: "03", make: "ora", model: "03 Funky Cat", he: "03 פאנקי קאט", body: "hatch", segment: "mass", price: [139900, 164900], status: "on_sale", gens: [
+      T("ES11", 2020, null, "סוללה 57.7 קוט\"ש (דגם 2026)", "171", ["ev"], 18.1, 5, 2022, [C.ev, C.newBrand], "במבחן דרך: כ-250 ק\"מ טווח אמיתי. 2026: Classic ₪139,900, Design ₪151,900, Pro+ ₪164,900"),
     ]},
     { id: "07", make: "ora", model: "07", he: "07", body: "sedan", segment: "mass", price: [226900, 226900], status: "on_sale", gens: [
       T("Lightning Cat", 2022, null, "סוללה 83.5 קוט\"ש", "204", ["ev"], 18.0, null, undefined, [C.ev, C.newBrand]),
@@ -1073,8 +1127,8 @@ export const MAKES: Make[] = [
     { id: "3", make: "smart", model: "#3", he: "#3", body: "suv", segment: "mass", price: [211990, 267990], status: "on_sale", gens: [
       T("HC11", 2023, null, "סוללה 49/66 קוט\"ש", "272", ["ev"], 17.0, 5, 2023, [C.ev, C.newBrand]),
     ]},
-    { id: "5", make: "smart", model: "#5", he: "#5", body: "suv", segment: "premium", price: [259990, 299990], status: "on_sale", gens: [
-      T("HY11", 2024, null, "סוללה 100 קוט\"ש", "363", ["ev"], 20.0, 5, 2025, [C.ev, C.newBrand], "במבחן דרך: 430–540 ק\"מ"),
+    { id: "5", make: "smart", model: "#5", he: "#5", body: "suv", segment: "premium", price: [229990, 299990], status: "on_sale", gens: [
+      T("HY11", 2024, null, "חשמלי, הנעה אחורית או כפולה (Brabus)", "340–646", ["ev"], 20.0, 5, 2025, [C.ev, C.newBrand], "במבחן דרך: 430–540 ק\"מ"),
     ]},
   ]},
 

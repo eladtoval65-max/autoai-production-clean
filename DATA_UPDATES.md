@@ -267,3 +267,41 @@ Models added (23):
 - Missing generations:
   - Honda Civic 8th gen (2010–2011). Source: Wikipedia "Honda Civic (eighth generation)".
   - Honda CR-V 3rd gen (2010–2011). Source: Wikipedia "Honda CR-V (third generation)".
+
+## 2026-10-21 (daily agent)
+Prices checked on every brand page (all read today): carzone.co.il /Toyota /Hyundai /Kia /Lexus/ /Skoda/ /Volkswagen /SEAT /Cupra/ /Audi/ /Porsche /Ford /BYDAuto /Omoda-Jaecoo /chery /Geely /ZEEKR /LynkCo /Tesla /Smart /Peugeot /Citroen /DS-Automobiles /Opel /Jeep /Fiat /Alfa-Romeo /Renault /Dacia /MG /Suzuki /Nissan /Honda /Subaru /Mercedes-Benz /BMW /MINI/ /Volvo /XPENG /leapmotor /Genesis /KGM/ /Isuzu /Land-Rover; cartube.co.il price lists for Mazda, Mitsubishi and Polestar (carzone Polestar page is still 2024). The carzone ORA brand page could not be opened; ORA was checked on its model pages and cartube. `PRICES_VERIFIED` → 2026-10-21.
+
+Price changes (generations.ts):
+- Skoda Enyaq: ₪206,490–298,000 → ₪206,490–279,990. No trim at 298,000 on either source. Enyaq 206,490–229,990 and Enyaq Coupé 243,990–279,990 on both https://www.carzone.co.il/Skoda/ and https://www.cartube.co.il/מחירון-רכב-חדש/57-סקודה/364-סקודה-אניאק/compare (/365-סקודה-אניאק-קופה/compare).
+- ORA 05: ₪139,990–148,990 → ₪139,990–151,900 (Signature Matte trim) — https://www.carzone.co.il/Ora/05/
+- ORA 03 Funky Cat: ₪154,422 → ₪139,900–164,900 (Classic / Design / Pro+) — https://www.cartube.co.il/מחירון-רכב-חדש/14-אורה/83-אורה-03-פאנקי-קט/compare; Classic 139,900 also on https://www.auto.co.il/cars/ora/funky-cat/2026/580072/
+- Smart #5: ₪259,990–299,990 → ₪229,990–299,990 (Pro trim, 340 hp) — https://www.carzone.co.il/Smart/5/ and https://www.cartube.co.il/מחירון-רכב-חדש/סמארט/סמארט-5 (the carzone brand card still starts at 259,990). Power "363" → "340–646".
+- Hyundai i20: on_sale ₪136,900 → discontinued, price null. Not on https://www.carzone.co.il/Hyundai and marked "לא משווק יותר" on https://www.cartube.co.il/מחירון-רכב-חדש/יונדאי. Removed from the catalog (batch 15, `discontinued: true`).
+- Fact fix: Geely Starray EM-i power "99 (petrol engine)" → "214 combined" — https://www.cartube.co.il/מחירון-רכב-חדש/26-ג-ילי/148-ג-ילי-סטאריי/1416-em-i-ultra-2026 and https://www.auto.co.il/articles/test-drives/road-tests/geely-starray-test-drive/
+
+Checked and left unchanged (brand-page card disagrees with another source that still shows our figure — needs owner review):
+- Nissan Qashqai max: carzone card 203,990 (omits e-Power); cartube lists e-Power Tekna TT 231,990 (kept).
+- Honda HR-V max: carzone card 199,990; carzone model page https://www.carzone.co.il/Honda/HR-V/2026 still lists Advance Style 224,900 (kept); cartube shows only 184,900 / 199,900.
+- Subaru BRZ max: carzone card and cartube 249,900; carzone model page https://www.carzone.co.il/Subaru/BRZ/ TS MT 259,900 (kept, one more day).
+- Opel Corsa max (card 129,990 vs model page 134,990), Renault Arkana min (card 163,990 vs model page 161,990), Dacia Duster min (card 149,990 vs model page 139,990): model pages match our figures, kept.
+- Dacia Sandero and Logan have no brand-page card but current 2026 model pages at our prices — kept on sale.
+- Cupra Leon / Formentor ranges include the separately listed VZ versions; MINI Countryman includes Countryman Electric; Volvo XC40/EX40, Suzuki Vitara/e Vitara, Jaecoo 5 EV/hybrid, Chery FX/FX EV are combined lines — all match.
+- Not on the importer list today, one source only (unchanged): Toyota C-HR, Kia EV6, Mazda CX-60, VW Polo / ID.4 / Touareg / T-Roc, Seat Ateca / Leon / Tarraco, Cupra Born / Ateca, Geely Okavango / Preface / Coolray, Suzuki Ignis / Jimny, Mercedes A-Class (only A-Class AMG).
+
+Models added to generations.ts (15). Prices from the brand pages above; generations, engines and power from English Wikipedia (Omoda_C7, Chery_Tiggo_9, Mercedes-Benz_CLA, Mercedes-Benz_GLB, Mercedes-Benz_EQA, Mercedes-Benz_EQB, BMW_X2, BMW_iX3, Audi_Q4_e-tron, Audi_A5, Audi_Q8, Volvo_S60, Volvo_V60, Volvo_XC40) and the carzone model pages:
+- Omoda 7 ₪179,900–199,900 (https://www.carzone.co.il/Omoda-Jaecoo/Omoda-7/; combined power not published, per https://www.auto.co.il/articles/test-drives/road-tests/omoda-7-road-test/).
+- Omoda 9 ₪229,900–244,900 (https://www.carzone.co.il/Omoda-Jaecoo/Omoda-9/; power differs: carzone 537 hp, carmagazine 443 bhp — both shown). Euro NCAP 5★ 2025 (news.euroncap.com Omoda 9 2025).
+- Chery Tiggo 9 ₪217,990–244,990 (https://www.carzone.co.il/chery/Tiggo-9); system power only an estimate ("over 400 hp", carzone news), stated as such.
+- Mercedes CLA ₪309,900–479,900 (CLA 319,900–419,900 + CLA EQ 309,900–479,900 on the brand page). Euro NCAP: C118 5★ 2019, new CLA 5★ 2025 (news.euroncap.com). C117 left null.
+- Mercedes GLB: status unverified, price null (not on the brand page; carzone has only a 2022 page). X247 5★ 2019 (news.euroncap.com).
+- Mercedes EQA: on sale, price null — sources conflict (brand card 359,900–409,900; https://www.carzone.co.il/Mercedes-Benz/EQA/2026 from 299,000; https://www.cartube.co.il/מחירון-רכב-חדש/מרצדס/מרצדס-eqa 379,900–439,900). Needs owner review. 5★ 2019 (https://www.euroncap.com/en/results/mercedes-benz/eqa/43187). Battery recall (Farasis cells) — https://www.electrive.com/2025/02/17/mercedes-eqa-and-eqb-affected-by-battery-recall
+- Mercedes EQB: unverified, price null (only a MY2025 carzone page). 5★ 2019 (news.euroncap.com).
+- BMW X2 ₪319,900–346,900. U10 5★ (https://www.euroncap.com/en/results/bmw/x2/51929, based on the 2022 X1 test); F39 null. Brake-servo alert: https://car-recalls.eu/recall/bmw-x2-2022-2024-brakes-accident/
+- BMW iX3 ₪434,900–544,900. NA5 5★ 2026 (BMW press release https://www.press.bmwgroup.com/global/article/detail/T0459155EN/); G08 carries the 2017 X3 rating (Euro NCAP confirmed the carry-over).
+- Audi Q4 e-tron ₪299,000–359,900 (incl. Sportback). 5★ 2025 (news.euroncap.com Q4 e-tron 2025).
+- Audi A5 ₪369,100–519,000 (https://www.carzone.co.il/Audi/A5/). B10 5★ 2024 (news.euroncap.com A5 2024); B8 and F5 null.
+- Audi Q8 ₪726,200–822,000. 5★ 2019 (news.euroncap.com Q8 2019).
+- Volvo S60, V60, C40 / EC40: discontinued (absent from carzone /Volvo; cartube Volvo list marks them no longer marketed). S60/V60 SPA 5★ 2018 and V60 gen 1 5★ 2011 (Volvo press releases); C40 5★ 2022 (news.euroncap.com).
+Consumption figures are typical real-world estimates.
+
+Models added to the recommendation catalog (4, `scripts/seed-vehicles-batch15.ts`), chosen from the Jan–Sep 2026 sales top 20 (https://www.cartube.co.il/חדשות-רכב/מסירות-רכב-חדש-בישראל-ספטמבר-2026): MG S9 (#13), BYD Sealion 05 DM-i (#14), XPENG G6 (#17), Geely Starray EM-i (#20). Sources in the batch header. Running costs are estimates, dataConfidence 56–58. No fifth model: the verified ranking lists only these four outside the catalog. Catalog now 49 cars; generations.ts 47 makes, 276 models.

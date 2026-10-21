@@ -503,67 +503,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "hyundai-i20",
-  "make": "Hyundai",
-  "model": "i20",
-  "trim": "Prestige 1.0T",
-  "bodyType": "hatchback",
-  "fuelType": "Petrol",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": null,
-  "powerHp": 100,
-  "consumption": 6.5,
-  "price": 136900,
-  "priceMin": 128000,
-  "priceMax": 136900,
-  "sampleSize": null,
-  "newPrice": 136900,
-  "reliability": 84,
-  "safety": 82,
-  "economy": 76,
-  "comfort": 74,
-  "practicality": 70,
-  "insuranceMin": 360,
-  "insuranceMax": 520,
-  "why": "האצ'בק קטן עם שירות יונדאי נפוץ. מבחן דרך מדד כ-14 ק\"מ לליטר, פחות מהמוצהר (18). מחיר המחירון גבוה יחסית לגודל, כדאי לבדוק הנחות.",
-  "pros": [
-   "שירות יונדאי נפוץ",
-   "קל לחנייה בעיר",
-   "אמינות טובה"
-  ],
-  "cons": [
-   "צריכה בפועל גבוהה מהמוצהר",
-   "מחיר גבוה לגודל",
-   "דירוג Euro NCAP ישן (2021, 4 כוכבים)"
-  ],
-  "confidence": 64,
-  "priceSource": null,
-  "bands": {
-   "7000": {
-    "fuel": 269,
-    "insurance": 438,
-    "maintenance": 185,
-    "depreciation": 1141,
-    "total": 2154
-   },
-   "15000": {
-    "fuel": 577,
-    "insurance": 438,
-    "maintenance": 210,
-    "depreciation": 1141,
-    "total": 2487
-   },
-   "25000": {
-    "fuel": 962,
-    "insurance": 438,
-    "maintenance": 235,
-    "depreciation": 1141,
-    "total": 2897
-   }
-  }
- },
- {
   "id": "byd-atto-2-dmi",
   "make": "BYD",
   "model": "Atto 2 DM-i",
@@ -1360,6 +1299,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "byd-sealion-05-dmi",
+  "make": "BYD",
+  "model": "Sealion 05 DM-i",
+  "trim": "Comfort PHEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 463,
+  "powerHp": 213,
+  "consumption": 4.2,
+  "price": 166990,
+  "priceMin": 166990,
+  "priceMax": 171990,
+  "sampleSize": null,
+  "newPrice": 166990,
+  "reliability": 72,
+  "safety": 70,
+  "economy": 86,
+  "comfort": 78,
+  "practicality": 80,
+  "insuranceMin": 406,
+  "insuranceMax": 586,
+  "why": "קרוסאובר משפחתי פלאג-אין (1.5 בנזין + חשמלי, 213 כ\"ס משולב), סוללה 12.9 קוט\"ש וטווח חשמלי מוצהר של 62 ק\"מ (בגרסת Design סוללה 18.3 קוט\"ש). בסקירת carzone כ-24 ק\"מ לליטר כשמתחילים עם סוללה מלאה.",
+  "pros": [
+   "מחיר נמוך לפלאג-אין משפחתי",
+   "חסכוני מאוד עם טעינה בבית",
+   "תא מטען 463 ליטר"
+  ],
+  "cons": [
+   "לא נבחן ב-Euro NCAP",
+   "טווח חשמלי קצר בגרסת הבסיס",
+   "בלי טעינה בבית החיסכון קטן"
+  ],
+  "confidence": 56,
+  "priceSource": "carzone.co.il/BYDAuto/Sea-Lion-05/DMi/ (2026-10-21)",
+  "bands": {
+   "7000": {
+    "fuel": 200,
+    "insurance": 493,
+    "maintenance": 176,
+    "depreciation": 1392,
+    "total": 2382
+   },
+   "15000": {
+    "fuel": 428,
+    "insurance": 493,
+    "maintenance": 200,
+    "depreciation": 1392,
+    "total": 2634
+   },
+   "25000": {
+    "fuel": 713,
+    "insurance": 493,
+    "maintenance": 224,
+    "depreciation": 1392,
+    "total": 2943
+   }
+  }
+ },
+ {
   "id": "volkswagen-golf",
   "make": "Volkswagen",
   "model": "Golf",
@@ -1479,6 +1479,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 112,
     "depreciation": 1699,
     "total": 2790
+   }
+  }
+ },
+ {
+  "id": "geely-starray-em-i",
+  "make": "Geely",
+  "model": "Starray EM-i",
+  "trim": "Pro PHEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 214,
+  "consumption": 3.6,
+  "price": 169990,
+  "priceMin": 169990,
+  "priceMax": 181990,
+  "sampleSize": null,
+  "newPrice": 169990,
+  "reliability": 70,
+  "safety": 92,
+  "economy": 88,
+  "comfort": 80,
+  "practicality": 80,
+  "insuranceMin": 410,
+  "insuranceMax": 592,
+  "why": "קרוסאובר משפחתי פלאג-אין (1.5 בנזין + חשמלי, 214 כ\"ס משולב), סוללה 18.4 קוט\"ש וטווח חשמלי מוצהר של 83 ק\"מ. במבחן דרך 12–16 ק\"מ לליטר כשהסוללה ריקה. Euro NCAP 5 כוכבים (2025). החישוב מניח 50% מהנסיעה על חשמל.",
+  "pros": [
+   "5 כוכבים ב-Euro NCAP",
+   "טווח חשמלי ארוך יחסית",
+   "מחיר תחרותי לפלאג-אין"
+  ],
+  "cons": [
+   "בלי טעינה בבית הצריכה 12–16 ק\"מ לליטר",
+   "מותג חדש יחסית בישראל",
+   "ערך שמירה עדיין לא ידוע"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/Geely/Starray/ (2026-10-21)",
+  "bands": {
+   "7000": {
+    "fuel": 182,
+    "insurance": 499,
+    "maintenance": 176,
+    "depreciation": 1417,
+    "total": 2395
+   },
+   "15000": {
+    "fuel": 389,
+    "insurance": 499,
+    "maintenance": 200,
+    "depreciation": 1417,
+    "total": 2626
+   },
+   "25000": {
+    "fuel": 648,
+    "insurance": 499,
+    "maintenance": 224,
+    "depreciation": 1417,
+    "total": 2909
    }
   }
  },
@@ -1912,6 +1973,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "mg-s9",
+  "make": "MG",
+  "model": "S9",
+  "trim": "Comfort PHEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 7,
+  "cargoLiters": 332,
+  "powerHp": null,
+  "consumption": 3.8,
+  "price": 189888,
+  "priceMin": 189888,
+  "priceMax": 198888,
+  "sampleSize": null,
+  "newPrice": 189888,
+  "reliability": 68,
+  "safety": 75,
+  "economy": 82,
+  "comfort": 84,
+  "practicality": 90,
+  "insuranceMin": 438,
+  "insuranceMax": 633,
+  "why": "SUV גדול של 7 מקומות בהנעת פלאג-אין: 1.5 טורבו (143 כ\"ס) ומנוע חשמלי של 231 כ\"ס, סוללה 24.7 קוט\"ש. במבחן דרך 92 ק\"מ על חשמל וכ-13.1 ק\"מ לליטר כשהסוללה ריקה. החישוב מניח 50% מהנסיעה על חשמל, כלומר טעינה קבועה בבית.",
+  "pros": [
+   "7 מקומות במחיר נמוך לקטגוריה",
+   "טווח חשמלי ארוך (כ-90 ק\"מ)",
+   "מהנמכרים בישראל ב-2026"
+  ],
+  "cons": [
+   "בלי טעינה בבית הצריכה כ-13 ק\"מ לליטר",
+   "תא מטען קטן (332 ליטר) עם כל המושבים",
+   "דירוג Euro NCAP לא אומת"
+  ],
+  "confidence": 58,
+  "priceSource": "carzone.co.il/MG/S9/ (2026-10-21)",
+  "bands": {
+   "7000": {
+    "fuel": 199,
+    "insurance": 533,
+    "maintenance": 229,
+    "depreciation": 1582,
+    "total": 2664
+   },
+   "15000": {
+    "fuel": 427,
+    "insurance": 533,
+    "maintenance": 260,
+    "depreciation": 1582,
+    "total": 2923
+   },
+   "25000": {
+    "fuel": 712,
+    "insurance": 533,
+    "maintenance": 291,
+    "depreciation": 1582,
+    "total": 3239
+   }
+  }
+ },
+ {
   "id": "hyundai-tucson",
   "make": "Hyundai",
   "model": "Tucson",
@@ -2212,6 +2334,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 134,
     "depreciation": 1667,
     "total": 2678
+   }
+  }
+ },
+ {
+  "id": "xpeng-g6",
+  "make": "XPENG",
+  "model": "G6",
+  "trim": "RWD 80.2 kWh",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 296,
+  "consumption": null,
+  "price": 204990,
+  "priceMin": 204990,
+  "priceMax": 247990,
+  "sampleSize": null,
+  "newPrice": 204990,
+  "reliability": 70,
+  "safety": 72,
+  "economy": 88,
+  "comfort": 82,
+  "practicality": 82,
+  "insuranceMin": 459,
+  "insuranceMax": 663,
+  "why": "קרוסאובר חשמלי בגודל משפחתי, הנעה אחורית, 296 כ\"ס וסוללה 80.2 קוט\"ש (דגם 2026 המחודש). במבחן הדרך של הדגם הקודם כ-19 קוט\"ש ל-100 ק\"מ וטווח אמיתי של 445–475 ק\"מ.",
+  "pros": [
+   "טווח ארוך",
+   "מרווח ונוח",
+   "מהנמכרים בישראל ב-2026"
+  ],
+  "cons": [
+   "מותג חדש: לבדוק שירות וחלפים באזורך",
+   "דירוג Euro NCAP לא אומת",
+   "ערך שמירה עדיין לא ידוע"
+  ],
+  "confidence": 57,
+  "priceSource": "carzone.co.il/XPENG (brand page, 2026-10-21)",
+  "bands": {
+   "7000": {
+    "fuel": 70,
+    "insurance": 558,
+    "maintenance": 106,
+    "depreciation": 1708,
+    "total": 2563
+   },
+   "15000": {
+    "fuel": 151,
+    "insurance": 558,
+    "maintenance": 120,
+    "depreciation": 1708,
+    "total": 2658
+   },
+   "25000": {
+    "fuel": 252,
+    "insurance": 558,
+    "maintenance": 134,
+    "depreciation": 1708,
+    "total": 2773
    }
   }
  },
