@@ -1,0 +1,265 @@
+{
+  "make": "suzuki",
+  "updated": "2026-10-23",
+  "models": {
+    "swift": {
+      "AZ": {
+        "issues": [
+          {
+            "he": "ריקול: תוכנת מחשב המנוע — המצבר הראשי עלול לא להיטען בנסיעה ולהתרוקן (נורית A-STOP מהבהבת). ודאו שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "ייצור 7.1.2017–1.11.2017",
+            "source": {
+              "title": "What Car? — Used Suzuki Swift 2017-2024 reliability",
+              "url": "https://www.whatcar.com/suzuki/swift/hatchback/used-review/n959/reliability"
+            }
+          },
+          {
+            "he": "ריקול: בגרסת המיילד-היברידי רצועת מחולל-המתנע (ISG) עלולה להיקרע. בדקו מול סוזוקי שהרצועה הוחלפה.",
+            "level": "recall",
+            "scope": "מיילד-היברידי, ייצור 3.2.2017–13.3.2017",
+            "source": {
+              "title": "What Car? — Used Suzuki Swift 2017-2024 reliability",
+              "url": "https://www.whatcar.com/suzuki/swift/hatchback/used-review/n959/reliability"
+            }
+          },
+          {
+            "he": "ריקול: כריות וילון ומותחני חגורות עלולים להיפתח בטריקת דלת אחורית — נדרש עדכון תוכנה. ודאו שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 3.2.2017–13.2.2019",
+            "source": {
+              "title": "What Car? — Used Suzuki Swift 2017-2024 reliability",
+              "url": "https://www.whatcar.com/suzuki/swift/hatchback/used-review/n959/reliability"
+            }
+          },
+          {
+            "he": "בעלים מדווחים על תקלות חשמל קלות — נוריות אזהרה וחיישנים תקולים, ובלאי בחיפויי פנים. בדקו שאין נוריות דולקות בלוח.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Suzuki Swift 2017-2024 reliability",
+              "url": "https://www.whatcar.com/suzuki/swift/hatchback/used-review/n959/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.44,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Swift, Gasoline, whole-model average all generations/engines (2,020 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/430-Swift.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/suzuki-swift---euro-ncap-results-2017/s/b7d6e247-4b85-4a58-abec-e29b9cb71583"
+        },
+        "launchPrice": {
+          "ils": 78990,
+          "year": 2017,
+          "note": "GLX ידני 1.2 90 כ״ס; GLX אוטומט 91,990 ₪",
+          "source": {
+            "title": "Cartube — 2017 סוזוקי סוויפט החדשה בישראל, מחיר החל מ-78,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2017-סוזוקי-סוויפט-החדשה-בישראל-מחיר-החל-מ-78990-שקל"
+          }
+        }
+      }
+    },
+    "vitara": {
+      "LY": {
+        "issues": [
+          {
+            "he": "תקלת תכנות במערכת בלימת החירום האוטומטית — הרכב עלול לבלום שלא לצורך. בדקו מול סוזוקי שבוצע עדכון.",
+            "level": "manufacturer",
+            "scope": "ייצור 7.1.2015–6.5.2015",
+            "source": {
+              "title": "What Car? — Used Suzuki Vitara 2015-present reliability",
+              "url": "https://whatcar.com/suzuki/vitara/4x4/used-review/n882/reliability"
+            }
+          },
+          {
+            "he": "ברגי סרן אחורי ללא ציפוי נגד חיכוך עלולים להשתחרר, להינתק או להישבר (ריקול באוסטרליה פברואר 2016). בדקו שהרכב טופל.",
+            "level": "recall",
+            "scope": "ייצור 29.10.2015–17.12.2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki Vitara",
+              "url": "https://australiancar.reviews/?p=47833"
+            }
+          },
+          {
+            "he": "ריקול: טעות בספר הרכב לגבי התקנת מושבי בטיחות ISOFIX — עלול להוביל להתקנה שגויה. ודאו שמושב הילדים מעוגן לפי ההנחיות המתוקנות.",
+            "level": "recall",
+            "scope": "2015–2022 (אוסטרליה)",
+            "source": {
+              "title": "WhichCar — 2015-2022 Suzuki Vitara recalled",
+              "url": "https://whichcar.com.au/news/2015-2022-suzuki-vitara-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 120 כ״ס",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.01,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Vitara, Benzin, whole-model average all years/engines incl. 1.4/1.0 BoosterJet and older Vitara (616 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/48-Suzuki/426-Vitara.html"
+            }
+          },
+          {
+            "name": "1.4 טורבו מיילד-היברידי 129 כ״ס",
+            "pt": "hybrid",
+            "hp": 129,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Vitara, Hybrid Benzin, whole-model average incl. 1.5 full hybrid (160 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/48-Suzuki/426-Vitara.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-reveals-latest-safety-ratings/s/edb68d48-ceec-40e9-91c5-f600eb426b20"
+        },
+        "launchPrice": {
+          "ils": 125000,
+          "year": 2015,
+          "note": "GLX הנעה קדמית אוטומט 1.6; GLXV 4X4 מ-132,000 ₪",
+          "source": {
+            "title": "Cartube — סוזוקי ויטארה החדש בישראל, מחיר החל מ-125,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סוזקי-ויטארה-החדש-בישראל-מחיר-החל-מ-125,000-שקל"
+          }
+        }
+      }
+    },
+    "baleno": {
+      "WB": {
+        "issues": [
+          {
+            "he": "ריקול: תוכנה שגויה במחשב המנוע — המצבר לא נטען (נורית סטארט-סטופ מהבהבת), ובמקרה קיצון האורות מתעמעמים והמנוע נכבה ולא מתניע. ודאו שבוצע עדכון.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Suzuki Baleno 2016-2019 review reliability",
+              "url": "https://www.whatcar.com/suzuki/baleno/hatchback/used-review/n24328/reliability"
+            }
+          },
+          {
+            "he": "ריקול: בגרסאות מיילד-היברידי רצועת ה-ISG עלולה להיקרע, לעצור את משאבת המים ולגרום להתחממות וכבייה. בדקו שהרצועה הוחלפה.",
+            "level": "recall",
+            "scope": "מיילד-היברידי (SHVS)",
+            "source": {
+              "title": "What Car? — Used Suzuki Baleno 2016-2019 review reliability",
+              "url": "https://www.whatcar.com/suzuki/baleno/hatchback/used-review/n24328/reliability"
+            }
+          },
+          {
+            "he": "ריקול: מידע שגוי בספר הרכב על התקנת מושבי ISOFIX — ודאו התקנה נכונה של מושב הילדים.",
+            "level": "recall",
+            "scope": "נמכרו באוסטרליה 3.2016–6.2018",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Suzuki Baleno 2016-on",
+              "url": "https://australiancar.reviews/recalls-faults-suzuki-baleno-2016-on"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 5.98,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Baleno, Benzin, whole-model average incl. 1.0 BoosterJet and older Baleno (165 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/48-Suzuki/427-Baleno.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2016,
+          "url": "https://news.euroncap.com/safercars/suzuki-baleno---euro-ncap-results-2016/s/478f37d9-fded-401c-8ede-d8b01ef3b0bd"
+        }
+      }
+    },
+    "ignis": {
+      "MF": {
+        "issues": [
+          {
+            "he": "ריקול: תוכנת מחשב המנוע — נורית ENG A-STOP מהבהבת, המצבר לא נטען ובמקרה קיצון המנוע נכבה ולא מתניע. ודאו שבוצע תכנות מחדש.",
+            "level": "recall",
+            "scope": "ייצור עד נובמבר 2017",
+            "source": {
+              "title": "What Car? — Used Suzuki Ignis Hatchback 2016-2025 reliability",
+              "url": "https://www.whatcar.com/suzuki/ignis/hatchback/used-review/n933/reliability"
+            }
+          },
+          {
+            "he": "ריקול: רצועת ה-ISG (מערכת סטארט-סטופ/מיילד-היברידי) עלולה להיקרע — משאבת המים נעצרת והמנוע עלול להיכבות. בדקו שהרצועה הוחלפה.",
+            "level": "recall",
+            "scope": "ייצור פברואר 2017",
+            "source": {
+              "title": "Auto Express — Used Suzuki Ignis Mk2 (2017-2025) review",
+              "url": "https://www.autoexpress.co.uk/used-car-tests/353980/used-suzuki-ignis-mk2-2017-2025-review"
+            }
+          },
+          {
+            "he": "בתיבה האוטומטית מדווחות טלטלות (judder) בהתנעה קרה, ובמערכות מולטימדיה מוקדמות של Pioneer — קפיאה או אי-הדלקה. בדקו נסיעה קרה ותפקוד המסך.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Suzuki Ignis Hatchback 2016-2025 reliability",
+              "url": "https://www.whatcar.com/suzuki/ignis/hatchback/used-review/n933/reliability"
+            }
+          },
+          {
+            "he": "תיבה רובוטית (AGS) בדגמים המוקדמים פחות חלקה; מ-2020 הוצעה תיבת CVT עדיפה. בגרסאות מיילד-היברידי בדקו שהמצבר נטען בהאטות בפקקים.",
+            "level": "widely_reported",
+            "scope": "AGS עד 2020",
+            "source": {
+              "title": "Auto Express — Used Suzuki Ignis Mk2 (2017-2025) review",
+              "url": "https://www.autoexpress.co.uk/used-car-tests/353980/used-suzuki-ignis-mk2-2017-2025-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 5.9,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Ignis, Petrol, whole-model average incl. older 2000-2008 Ignis (309 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/48-Suzuki/422-Ignis.html"
+            }
+          },
+          {
+            "name": "1.2 מיילד-היברידי 83 כ״ס",
+            "pt": "hybrid",
+            "hp": 83,
+            "cons": 5.44,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Ignis, Hybrid petrol, whole-model average (51 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/48-Suzuki/422-Ignis.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2016,
+          "url": "https://news.euroncap.com/safercars/latest-euro-ncap-safety-ratings-for-2016/s/b8c1b819-6665-4d87-b80d-5ece388c45c8"
+        }
+      }
+    }
+  }
+}

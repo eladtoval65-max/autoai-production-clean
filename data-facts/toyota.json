@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "models": {
     "corolla": {
       "E150": {
@@ -52,6 +52,33 @@
             "source": {
               "title": "NHTSA recall 20V024000 — Corolla air bag control module (Motorverso)",
               "url": "https://www.motorverso.com/recalls/toyota/corolla/"
+            }
+          },
+          {
+            "he": "ריקול משאבת דלק בלחץ נמוך (Denso) — המשאבה עלולה להפסיק לפעול ולגרום לכיבוי מנוע ללא אפשרות התנעה מחדש או לריצה לא סדירה. בדקו מול היבואן שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "דגמי 2017–2019 (ייצור 12/2017–04/2019)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota E170 Corolla sedan (2013-19)",
+              "url": "https://www.australiancar.reviews/?p=47859"
+            }
+          },
+          {
+            "he": "ריקול כריות אוויר — בידוד בשבב מערכת כריות האוויר עלול להתקלף, נורית כרית אוויר נדלקת וכריות צד/וילון/קדמיות עלולות להיות מנוטרלות. ודאו שאין נורית כרית אוויר דולקת ושהריקול בוצע.",
+            "level": "recall",
+            "scope": "דגמי 2015–2016 (ייצור 06/2015–01/2016)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota E170 Corolla sedan (2013-19)",
+              "url": "https://www.australiancar.reviews/?p=47859"
+            }
+          },
+          {
+            "he": "צוואר מילוי הדלק עלול לזוז ממקומו, מכסה הדלק לא נסגר כראוי ונדלקת נורית מנוע (קודים P0455/P0456). אם נורית מנוע דולקת — בדקו את מיקום צוואר המילוי (עלון שירות T-SB-0086-16).",
+            "level": "manufacturer",
+            "scope": "דגמי 2014–2016",
+            "source": {
+              "title": "Samarins — Toyota Corolla sedan 2014-2019: pros and cons, common problems",
+              "url": "https://www.samarins.com/reviews/corolla.html"
             }
           }
         ],
@@ -144,6 +171,44 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1287-Yaris_Hybrid.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=69&power_e=79&gearing=3"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "ריקול כרית אוויר נהג (Takata) — לחות עלולה לחדור למכלול ולגרום לקריעתו בפתיחה. ודאו שכרית האוויר של הנהג הוחלפה במסגרת הריקול.",
+            "level": "recall",
+            "scope": "ייצור 08/2011–12/2014 ו-01/2015–09/2016",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris Hatchback 2011-2020 reliability",
+              "url": "https://whatcar.com/toyota/yaris/hatchback/used-review/n782/reliability"
+            }
+          },
+          {
+            "he": "ריקול חגורת בטיחות אחורית — קצה חד בפלטת העיגון עלול לחתוך את רצועת החגורה. בדקו שהחגורות האחוריות נבדקו/הוחלפו אצל היבואן.",
+            "level": "recall",
+            "scope": "ייצור 08/2011–01/2016",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris Hatchback 2011-2020 reliability",
+              "url": "https://whatcar.com/toyota/yaris/hatchback/used-review/n782/reliability"
+            }
+          },
+          {
+            "he": "ריקול הגה כוח חשמלי — ממסר במודול הבקרה עלול לקצר ולגרום לאובדן סיוע ההגה. ודאו שמודול הבקרה הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 07/2011–03/2012",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris Hatchback 2011-2020 reliability",
+              "url": "https://whatcar.com/toyota/yaris/hatchback/used-review/n782/reliability"
+            }
+          },
+          {
+            "he": "ריקול מערכת היברידית — המערכת עלולה להפסיק לפעול; נדרשת בדיקה ולעיתים החלפת ממיר DC. בהיברידית — ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "היברידית, ייצור 02/2018–04/2019",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris Hatchback 2011-2020 reliability",
+              "url": "https://whatcar.com/toyota/yaris/hatchback/used-review/n782/reliability"
+            }
+          }
         ]
       },
       "XP210": {
@@ -159,7 +224,49 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1287-Yaris_Hybrid.html?fueltype=10&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=80&power_e=90&gearing=3"
             }
           }
-        ]
+        ],
+        "issues": [
+          {
+            "he": "ריקול מנחת כניסת התיבה — חומר נגד קורוזיה שנמרח בטעות עלול לגרום להחלקת המנחת בהאצה חזקה ולמצב חירום/כיבוי המערכת ההיברידית. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "היברידית, דגמי 2019–2020",
+            "source": {
+              "title": "WhichCar — Transmission fault sparks hybrid Toyota Yaris recall",
+              "url": "https://whichcar.com.au/car-news/toyota-yaris-and-yaris-cross-recalled"
+            }
+          },
+          {
+            "he": "ריקול חיישן מכ״ם — כיול/אתחול החיישן אולי לא הושלם במפעל, מה שמשפיע על מערכות הבטיחות האקטיביות. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2020–2022",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris 2020-present reliability",
+              "url": "https://www.whatcar.com/toyota/yaris/hatchback/used-review/n24498/reliability"
+            }
+          },
+          {
+            "he": "ריקול חגורה אחורית אמצעית — קצה חד בתושבת עלול לפגוע ברצועה. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2020",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris 2020-present reliability",
+              "url": "https://www.whatcar.com/toyota/yaris/hatchback/used-review/n24498/reliability"
+            }
+          },
+          {
+            "he": "מצבר 12V חלש — התקלה הנפוצה ביותר בסקר הבעלים, לעיתים הרכב לא מתניע. בדקו מצב מצבר 12V ותאריך החלפה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris 2020-present reliability",
+              "url": "https://www.whatcar.com/toyota/yaris/hatchback/used-review/n24498/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/all/toyota-yaris---euro-ncap-2020-results---5-stars/s/af9289df-f24a-4067-ad61-cce31013b1da"
+        }
       }
     },
     "yaris-cross": {
@@ -174,6 +281,34 @@
             "source": {
               "title": "Spritmonitor — Yaris Cross hybrid 91–101 kW, 2022–2026 (70 vehicles)",
               "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1964-Yaris_Cross.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=91&power_e=101&gearing=3"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "ריקול מנחת כניסת התיבה — חומר נגד קורוזיה שנמרח בטעות עלול לגרום להחלקה בהאצה חזקה ולכיבוי המערכת ההיברידית בנסיעה. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "שנתון 2020 הראשונים",
+            "source": {
+              "title": "WhichCar — Transmission fault sparks hybrid Toyota Yaris recall",
+              "url": "https://whichcar.com.au/car-news/toyota-yaris-and-yaris-cross-recalled"
+            }
+          },
+          {
+            "he": "ריקול תושבת עיגון חגורה אחורית — התושבת עלולה להינזק בתאונה ולסכן את רצועת החגורה. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "ייצור 07/2020–10/2020",
+            "source": {
+              "title": "Driven Car Guide — Toyota NZ recalls selected Yaris Hybrid and Yaris Cross models",
+              "url": "https://www.drivencarguide.co.nz/news/toyota-nz-recalls-selected-yaris-hybrid-and-yaris-cross-models"
+            }
+          },
+          {
+            "he": "נוריות אזהרה בלתי צפויות דווחו ע״י חלק מהבעלים (רובן טופלו באחריות). בדקו בלוח המחוונים ובהיסטוריית השירות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Toyota Yaris Cross 2021-present reliability",
+              "url": "https://www.whatcar.com/toyota/yaris-cross/estate/used-review/n28038/reliability"
             }
           }
         ]
@@ -191,6 +326,26 @@
             "source": {
               "title": "Spritmonitor — RAV 4 Hybrid, 2014–2018 (41 vehicles)",
               "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/440-RAV_4.html?fueltype=10&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=142&power_e=152&gearing=2"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "ריקול חגורות בטיחות אחוריות — בתאונה חזיתית חזקה הרצועה עלולה לגעת במסגרת המתכת של הכרית ולהיחתך. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "4X4 ייצור עד 08/2014",
+            "source": {
+              "title": "Al Jazeera — Toyota recalls 2.9 million cars over seatbelt defect",
+              "url": "https://www.aljazeera.com/economy/2016/2/18/toyota-recalls-2-9-million-cars-over-seatbelt-defect"
+            }
+          },
+          {
+            "he": "ריקול תושבת מצבר 12V — מצבר חלופי עלול לא להתקבע במגש, לזוז ולגרום לקצר וסכנת שריפה. בדקו שהמצבר מקובע היטב ושהתפס/המגש הוחלפו.",
+            "level": "recall",
+            "scope": "שנתונים 2013–2018 (NHTSA 23V734000)",
+            "source": {
+              "title": "Motorverso — NHTSA Campaign 23V734000",
+              "url": "https://www.motorverso.com/recalls/toyota/23V734000/"
             }
           }
         ]
@@ -213,7 +368,27 @@
           "stars": 5,
           "year": 2019,
           "url": "https://mag.toyota.co.uk/2019-toyota-corolla-rav4-excel-euro-ncap/"
-        }
+        },
+        "issues": [
+          {
+            "he": "ריקול זרועות תחתונות קדמיות — סדקים בזרוע עלולים לגרום להיפרדותה מהגלגל ולאובדן שליטה. ודאו ששתי הזרועות הוחלפו.",
+            "level": "recall",
+            "scope": "2019–2020 כולל היברידית (NHTSA 20V286000)",
+            "source": {
+              "title": "Motorverso — NHTSA Campaign 20V286000",
+              "url": "https://www.motorverso.com/recalls/toyota/20V286000/"
+            }
+          },
+          {
+            "he": "בהיברידית — לא ניתן למלא את מיכל הדלק לקיבולת המלאה (צורת מיכל ומיקום מד הדלק), טווח נסיעה מקוצר. טויוטה פתחה תוכנית תמיכה ללקוחות; בדקו אם בוצעה.",
+            "level": "manufacturer",
+            "scope": "היברידית 2019–2020",
+            "source": {
+              "title": "Green Car Reports — Toyota RAV4 Hybrid fuel tank issue fix is coming soon",
+              "url": "https://www.greencarreports.com/news/1128456_toyota-rav4-hybrid-fuel-tank-issue-fix-is-coming-soon"
+            }
+          }
+        ]
       }
     },
     "c-hr": {
@@ -228,6 +403,42 @@
             "source": {
               "title": "Spritmonitor — C-HR Hybrid 85–95 kW, 2015–2019 (133 vehicles)",
               "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1563-C-HR.html?fueltype=10&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=85&power_e=95&gearing=3"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "ריקול חיווט יחידת הבקרה ההיברידית — רתמת החוטים עלולה להתחכך בכיסוי, להתחמם ולגרום לסכנת שריפה. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "היברידית, ייצור יפן 06/2015–05/2018",
+            "source": {
+              "title": "Autocar — Toyota to recall Prius and C-HR hybrids in UK over fire risk",
+              "url": "https://www.autocar.co.uk/node/87747"
+            }
+          },
+          {
+            "he": "ריקול תוכנת ESP — תוכנה פגומה עלולה למנוע פעולה תקינה של בקרת היציבות. ודאו שעודכנה.",
+            "level": "recall",
+            "scope": "02/2018",
+            "source": {
+              "title": "Auto Express — Used Toyota C-HR review",
+              "url": "https://autoexpress.co.uk/toyota/c-hr/355972/used-toyota-c-hr-review"
+            }
+          },
+          {
+            "he": "סדקים בשמשה הקדמית — הבעיה הנפוצה בפורומי הבעלים, סדק מתחיל בחלק העליון. בדקו את הפינה העליונה של השמשה; החלפה דורשת כיול מצלמת הבטיחות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Toyota C-HR review",
+              "url": "https://autoexpress.co.uk/toyota/c-hr/355972/used-toyota-c-hr-review"
+            }
+          },
+          {
+            "he": "מצבר 12V — התלונה הנפוצה ביותר בסקר האמינות 2024. בדקו את מצב המצבר ותאריך החלפתו.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Toyota C-HR 2016-2023 reliability",
+              "url": "https://www.whatcar.com/toyota/c-hr/hatchback/used-review/n892/reliability"
             }
           }
         ]

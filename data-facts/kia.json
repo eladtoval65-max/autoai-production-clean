@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "models": {
     "sportage": {
       "NQ5": {
@@ -8,6 +8,413 @@
           "stars": 5,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/kia-sportage---euro-ncap-2022-results---5-stars/s/cd4dfe1f-3d13-40bd-acba-4f0773fa76be"
+        },
+        "issues": [
+          {
+            "he": "ריקול: גלגל השיניים שמניע את משאבת הוואקום עלול להישבר בעומס בזמן התנעה, ואז נדרש כוח רב יותר על דוושת הבלם. התיקון: עדכון תוכנה למחשב המנוע שמפחית את עומס ההתנעה של מחולל המנוע ההיברידי המתון. בדקו שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "גרסאות עם היברידיות מתונה (ריקול בבריטניה, 2025)",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2022-present reliability",
+              "url": "https://www.whatcar.com/kia/sportage/estate/used-review/n25774/reliability"
+            }
+          },
+          {
+            "he": "ריקול: לוח המחוונים הדיגיטלי עלול לא לעלות או להישאר כבוי בהתנעה. התיקון: עדכון תוכנה. בדקו שהלוח נדלק תקין בכל התנעה ושהעדכון בוצע.",
+            "level": "recall",
+            "scope": "2023 כולל היברידית ופלאג-אין (NHTSA 23V298; ריקול דומה בבריטניה 2023)",
+            "source": {
+              "title": "WPXI — Recall alert: Kia recalls 108K vehicles because of blank LCD displays",
+              "url": "https://www.wpxi.com/news/trending/recall-alert-kia-recalls-108k-vehicles-because-blank-lcd-displays/MU7L3YIXTVD5LAUIJETXFNGWJA/"
+            }
+          },
+          {
+            "he": "ריקול: הסרעפת במגבר הבלמים עלולה לזוז ממקומה, לגרום לדליפת ואקום ולאובדן סיוע הבלימה. בדקו שהריקול בוצע ושדוושת הבלם לא קשה.",
+            "level": "recall",
+            "scope": "2023, ריקול בארה״ב (NHTSA 23V410, SC272)",
+            "source": {
+              "title": "PickupTruckTalk — Kia Sportage recall: nearly 100k SUVs recalled for brake assist",
+              "url": "https://pickuptrucktalk.com/2023/06/kia-sportage-recall-nearly-100k-suvs-recalled-for-brake-assist/"
+            }
+          },
+          {
+            "he": "דווחו תקלות מערכת מולטימדיה ונוריות אזהרה מזדמנות בלוח, בעיקר בגרסאות ההיברידיות. בנסיעת המבחן בדקו שאין נוריות דולקות ושהמולטימדיה עובדת, ובקשו מהמוסך סריקת תקלות.",
+            "level": "widely_reported",
+            "scope": "בעיקר היברידית",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2022-present reliability",
+              "url": "https://www.whatcar.com/kia/sportage/estate/used-review/n25774/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו היברידי",
+            "pt": "hybrid",
+            "cons": 6.54,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Sportage, Hybrid Gasoline, whole-model average (155 vehicles; petrol full-hybrid exists only in this generation)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/220-Sportage.html?fueltype=2"
+            }
+          }
+        ]
+      },
+      "QL": {
+        "issues": [
+          {
+            "he": "ריקול: קצר ביחידת הבקרה ההידראולית-אלקטרונית (HECU) של מערכת ה-ABS עלול לגרום לשריפה בתא המנוע. התיקון: החלפת נתיכים ועדכון תוכנה. בדקו שהריקול בוצע. נוריות ABS/לחץ אוויר בצמיגים או ריח שרוף הם סימן אזהרה.",
+            "level": "recall",
+            "scope": "2017–2021 (ריקול בארה״ב, SC206 / NHTSA 21V137)",
+            "source": {
+              "title": "Jalopnik — Kia tells owners of nearly 380,000 recalled cars to park outside",
+              "url": "https://jalopnik.com/kia-tells-owners-of-nearly-380-000-recalled-cars-to-par-1846438300"
+            }
+          },
+          {
+            "he": "ריקול: לחות ולכלוך על המעגל של מודול החיווט של וו הגרירה עלולים לגרום לקצר ולשריפה. ברכב עם וו גרירה מקורי בדקו שהנתיך ו/או המודול הוחלפו.",
+            "level": "recall",
+            "scope": "רכבים עם וו גרירה (NHTSA 22V703)",
+            "source": {
+              "title": "Cars.com — 2020 Kia Sportage recalls",
+              "url": "https://www.cars.com/research/kia-sportage-2020/recalls/"
+            }
+          },
+          {
+            "he": "דווחו תקלות במחשב המנוע ורעידות מצמד (judder). בנסיעת המבחן בדקו שאין נוריות תקלה ושהרכב יוצא מעמידה חלק, ובקשו היסטוריית טיפולים ותיקונים במוסך מורשה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Kia Sportage review 2016 to 2021 (Mk4): reliability and common problems",
+              "url": "https://www.carbuyer.co.uk/kia/sportage/151880/kia-sportage-suv-review/reliability"
+            }
+          },
+          {
+            "he": "בגרסאות הדיזל 2018–2022 דווח שיעור תקלות גבוה בסקר What Car? (56% לעומת 20% בבנזין): מנוע, תיבה/מצמד וחשמל. ברכב דיזל דרשו היסטוריית טיפולים מלאה ובדיקת מוסך מקיפה.",
+            "level": "widely_reported",
+            "scope": "דיזל 2018–2022",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2016-2022 reliability review",
+              "url": "https://www.whatcar.com/kia/sportage/4x4/used-review/n17426/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 132 כ״ס",
+            "pt": "petrol",
+            "hp": 132,
+            "cons": 8.51,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Sportage, gasoline, whole-model average across all generations and engines (774 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/220-Sportage.html?fueltype=2"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 137900,
+          "year": 2016,
+          "note": "1.6 בנזין Urban (גרסת הכניסה)",
+          "source": {
+            "title": "icar — קיה ספורטאז' החדש בישראל: מ-137,900 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/קיה_ספורטאז'_החדש_בישראל:_מ-137,900_שקל/"
+          }
+        }
+      }
+    },
+    "picanto": {
+      "JA": {
+        "issues": [
+          {
+            "he": "ריקול: חיווט חיישן המצבר עלול להיות קרוב מדי לצינור הזנת הדלק בלחץ נמוך, לשחוק אותו ולגרום לדליפת דלק ולסכנת שריפה. בדקו לפי מספר שלדה שהתיקון בוצע ושאין ריח דלק בתא המנוע.",
+            "level": "recall",
+            "scope": "דגמי מתיחת פנים (JA PE) 2020–2023",
+            "source": {
+              "title": "ACCC Product Safety Australia — Kia JA PE Picanto 2020–2023 recall (REC-006612)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006612"
+            }
+          },
+          {
+            "he": "ריקול: צליל האזהרה לא נשמע כשפנס הערפל האחורי נשאר דלוק, המנוע כבוי ודלת הנהג נפתחת. התיקון הוא עדכון תוכנה ללוח המחוונים. בדקו מול היבואן שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "2020–2022",
+            "source": {
+              "title": "CarExpert — Kia Picanto recalled",
+              "url": "https://www.carexpert.com.au/car-news/kia-picanto-recalled"
+            }
+          },
+          {
+            "he": "דגם אמין מאוד בסקר What Car?. התקלות היחידות שדווחו הן בתיבה/מצמד (כ-6% מהרכבים), ובדיווחים נדירים גם תקלות מיזוג ורעשי דלתות בדגמים מוקדמים. בנסיעת המבחן בדקו את המיזוג, האזינו לרעשים מהדלתות ובדקו שהמצמד/התיבה עובדים חלק.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Picanto Hatchback 2017-present reliability",
+              "url": "https://www.whatcar.com/kia/picanto/hatchback/used-review/n926/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 67 כ״ס",
+            "pt": "petrol",
+            "hp": 67,
+            "cons": 6.13,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Picanto, gasoline, whole-model average across all generations and engines (950 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/213-Picanto.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/kia-picanto---euro-ncap-results-2017/s/f113a3ec-7d59-4a58-80c5-90901abc5bd7"
+        },
+        "launchPrice": {
+          "ils": 64900,
+          "year": 2017,
+          "note": "1.0 ידני LX (גרסת הכניסה)",
+          "source": {
+            "title": "icar — קיה פיקנטו החדשה הגיעה לישראל",
+            "url": "https://www.icar.co.il/חדשות_רכב/קיה_פיקנטו_החדשה_הגיעה_לישראל/"
+          }
+        }
+      },
+      "TA": {
+        "issues": [
+          {
+            "he": "ריקול במזרח התיכון: החלפת צינור מילוי הדלק וצינור האוורור/פילוס שלו. בדקו לפי מספר שלדה שהוחלפו, ושאין ריח דלק או סימני דליפה ליד פתח המילוי.",
+            "level": "recall",
+            "scope": "ייצור 03/2011–06/2012",
+            "source": {
+              "title": "Carnity — 2012 Kia Picanto recall (UAE, fuel filler and leveling hose)",
+              "url": "https://carnity.com/recall/kia/2012-kia-picanto-r4/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 69 כ״ס",
+            "pt": "petrol",
+            "hp": 69,
+            "cons": 6.13,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Picanto, gasoline, whole-model average across all generations and engines (950 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/213-Picanto.html"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 61900,
+          "year": 2011,
+          "note": "1.0 ידני LX (גרסת הכניסה)",
+          "source": {
+            "title": "Cartube — קיה פיקנטו החדשה בישראל החל מ-61,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קיה-פיקנטו-החדשה-בישראל-החל-מ-61,900-שקל"
+          }
+        }
+      }
+    },
+    "niro": {
+      "DE": {
+        "issues": [
+          {
+            "he": "ריקול: מגע לקוי בממסר הראשי בתוך מכלול ממסרי ההספק (PRA) של המערכת ההיברידית עלול לגרום להתחממות מתחת למושב האחורי ולסכנת שריפה. הריקול הורחב ב-2022, ונדרש תיקון חדש גם ברכבים שכבר תוקנו. בדקו שבוצע התיקון העדכני (SC256).",
+            "level": "recall",
+            "scope": "היברידית 2017–2018 (NHTSA 18V666 / 22V836)",
+            "source": {
+              "title": "Cars.com — 2018 Kia Niro recalls",
+              "url": "https://www.cars.com/research/kia-niro-2018/recalls/"
+            }
+          },
+          {
+            "he": "ריקול עולמי: לחות שחודרת למחבר של מפעיל המצמד ההידראולי (HCA) עלולה לגרום לקצר ולשריפה בתא המנוע. סימן אזהרה הוא נורית HEV. התיקון: בדיקה, החלפת המפעיל לפי הצורך והחלפת נתיך. בדקו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "היברידית ופלאג-אין, ייצור 2015–2022 (NHTSA 23V534)",
+            "source": {
+              "title": "GIGA — Brandgefahr bei Kia: über 600.000 Fahrzeuge zurückgerufen",
+              "url": "https://www.giga.de/artikel/brandgefahr-bei-kia-ueber-600-000-fahrzeuge-zurueckgerufen-diese-modelle-trifft-es--r6rh95j97w"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 היברידי 142 כ״ס",
+            "pt": "hybrid",
+            "hp": 142,
+            "cons": 5.03,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Niro, Hybrid Gasoline, whole-model average across both generations (306 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/1540-Niro.html"
+            }
+          },
+          {
+            "name": "1.6 פלאג-אין היברידי",
+            "pt": "phev",
+            "cons": 2.87,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Niro, Plug-in hybrid gasoline, whole-model average across both generations (308 vehicles; fuel only)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/1540-Niro.html"
+            }
+          },
+          {
+            "name": "חשמלי 64 קוט״ש 204 כ״ס",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia e-Niro 64 kWh (2018–2020), real-world combined estimate",
+              "url": "https://ev-database.org/car/1125/Kia-e-Niro-64-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2016,
+          "url": "https://news.euroncap.com/safercars/kia-niro---euro-ncap-results-2016/s/720830d2-92a6-4fc6-b605-69dc2dc14926"
+        },
+        "launchPrice": {
+          "ils": 136900,
+          "year": 2016,
+          "note": "היברידית, רמת גימור יחידה",
+          "source": {
+            "title": "וואלה! רכב — השקת קיה נירו בישראל",
+            "url": "https://cars.walla.co.il/item/3011210"
+          }
+        }
+      }
+    },
+    "rio": {
+      "YB": {
+        "issues": [
+          {
+            "he": "ריקול: כבל ידית השחרור בדלתות האחוריות עלול להיות באורך שגוי, ואז נעילת הילדים לא עובדת. בדקו שנעילת הילדים בשתי הדלתות האחוריות פועלת ושהכבל נבדק או הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 10.4.2017–5.6.2017",
+            "source": {
+              "title": "What Car? — Used Kia Rio 2017-2023 reliability",
+              "url": "https://www.whatcar.com/kia/rio/hatchback/used-review/n17562/reliability"
+            }
+          },
+          {
+            "he": "ריקול: משאבת הבלמים הראשית יוצרה עם שוליים חדים שעלולים לפגוע באטם השמן ולהחליש את הבלימה. התיקון: החלפת המשאבה. בדקו שהריקול בוצע ושדוושת הבלם לא שוקעת.",
+            "level": "recall",
+            "scope": "2020–2021, ריקול בארה״ב (NHTSA 21V936, SC223)",
+            "source": {
+              "title": "Conceptcarz — 2020-2021 Kia Rio brake master cylinder recall",
+              "url": "https://www.conceptcarz.com/recall/30558/news.aspx"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 100 כ״ס",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.89,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Rio, gasoline, whole-model average across all generations and engines (636 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/214-Rio.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/kia-rio---euro-ncap-results-2017/s/5fc4356a-8f21-461d-8500-31dad82ec06c"
+        },
+        "launchPrice": {
+          "ils": 95900,
+          "year": 2017,
+          "note": "האצ'בק 1.4 GX (גרסת הכניסה)",
+          "source": {
+            "title": "icar — קיה ריו החדשה בישראל: תעלה 96,000 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/קיה_ריו_החדשה_בישראל:_תעלה_96,000_שקל/"
+          }
+        }
+      }
+    },
+    "ceed": {
+      "CD": {
+        "issues": [
+          {
+            "he": "ריקול: פגם בתכנון מסננת משאבת הטנדם (שמספקת שמן וואקום) עלול לגרום לכשל במגבר הבלמים. בדקו לפי מספר שלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2018–2020",
+            "source": {
+              "title": "Gebrauchtwagenberater — Kia Ceed III CD 2018-2025 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme/"
+            }
+          },
+          {
+            "he": "ריקול: מותחן חגורת הבטיחות עלול להיפעל באופן שגוי בתאונה, והכיסוי שלו עלול להשתחרר. בדקו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2021–2022",
+            "source": {
+              "title": "Gebrauchtwagenberater — Kia Ceed III CD 2018-2025 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme/"
+            }
+          },
+          {
+            "he": "בתיבת 7 ההילוכים הכפולה (DCT) דווחו העברות הילוך בקפיצות או הילוכים שלא נכנסים, בעיקר ברכבים ותיקים. נסיעה עירונית רבה מאיצה את בלאי המצמדים, והחלפתם יקרה. בנסיעת המבחן בדקו יציאה חלקה מעמידה בלי גמגום, ובקשו היסטוריית טיפולים.",
+            "level": "widely_reported",
+            "scope": "תיבת DCT 7 הילוכים",
+            "source": {
+              "title": "Gebrauchtwagenberater — Kia Ceed III CD 2018-2025 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme/"
+            }
+          },
+          {
+            "he": "התקלה הנפוצה ביותר בסקר What Car? היא במערכת הניווט והמולטימדיה (כ-4% מהבעלים), וכל הרכבים נשארו נסיעים. כן דווח בלם חניה חשמלי שלא משתחרר. בדקו את המולטימדיה, הניווט ובלם החניה החשמלי.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Ceed 2018-2026 reliability",
+              "url": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n19276/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין 140 כ״ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.26,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia ceed, gasoline, whole-model average across all generations and engines (2151 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/945-ceed.html"
+            }
+          },
+          {
+            "name": "1.6 דיזל 136 כ״ס",
+            "pt": "diesel",
+            "hp": 136,
+            "cons": 5.77,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia ceed, diesel, whole-model average across all generations and engines (1166 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/945-ceed.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "url": "https://news.euroncap.com/images-and-videos/all/kia-ceed/s/364dedff-e299-4b64-a72e-23101f5a7299"
+        },
+        "launchPrice": {
+          "ils": 124900,
+          "year": 2019,
+          "note": "האצ'בק 1.4 טורבו, רמת גימור יחידה",
+          "source": {
+            "title": "icar — קיה סיד החדשה בישראל: מ-125,000 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/קיה_סיד_החדשה_בישראל:_מ-125,000_שקל/"
+          }
         }
       }
     }

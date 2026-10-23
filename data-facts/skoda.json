@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -194,6 +194,399 @@
           "source": {
             "title": "iCar — סקודה אוקטביה החדשה בישראל: מ-135,000 שקלים",
             "url": "https://www.icar.co.il/חדשות_רכב/סקודה_אוקטביה_החדשה_בישראל:_מ-135,000_שקלים/"
+          }
+        }
+      }
+    },
+    "kodiaq": {
+      "NS7": {
+        "issues": [
+          {
+            "he": "ריקול כרית אוויר של הנהג (Takata): חומר ההנעה עלול להתפרק מלחות, והמנפח עלול להתפוצץ ולפזר רסיסי מתכת. בדקו לפי מספר השלדה (VIN) אצל היבואן שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "שנתוני 2017–2018",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Skoda Kodiaq",
+              "url": "https://australiancar.reviews/?p=47755"
+            }
+          },
+          {
+            "he": "ריקול: כרית האוויר של הנהג עלולה לא להתנפח מהר מספיק בתאונה. דרשו אישור שהכרית הוחלפה במוסך מורשה.",
+            "level": "recall",
+            "scope": "ייצור 8.1.2018–28.2.2018",
+            "source": {
+              "title": "What Car? — Used Skoda Kodiaq 2017-2024 reliability review",
+              "url": "https://www.whatcar.com/skoda/kodiaq/estate/used-review/n954/reliability"
+            }
+          },
+          {
+            "he": "ריקול: אומים שמחזיקים את מסגרת המושב בשורה השנייה עלולים להיות חסרים, והמושב לא יהיה מקובע. בדקו שבוצעה בדיקה והשלמת אומים במוסך.",
+            "level": "recall",
+            "scope": "ייצור 17–21.12.2018",
+            "source": {
+              "title": "What Car? — Used Skoda Kodiaq 2017-2024 reliability review",
+              "url": "https://www.whatcar.com/skoda/kodiaq/estate/used-review/n954/reliability"
+            }
+          },
+          {
+            "he": "ריקול תוכנה: מומנט מנוע נמוך מדי במהירות נמוכה פוגע בנהיגה. בנסיעת המבחן שימו לב לתגובה בזחילה ובזינוק, ובדקו שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "ייצור 12.10.2018–27.6.2019",
+            "source": {
+              "title": "What Car? — Used Skoda Kodiaq 2017-2024 reliability review",
+              "url": "https://www.whatcar.com/skoda/kodiaq/estate/used-review/n954/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4/1.5 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.55,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Kodiaq, ממוצע כל רכבי הבנזין בדגם (כל המנועים והשנים; 598 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/1575-Kodiaq.html?fueltype=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/-koda-and-mini-get-top-safety-ratings/s/d530daec-b958-4a7e-953d-8f380936758e"
+        },
+        "launchPrice": {
+          "ils": 179990,
+          "year": 2017,
+          "note": "1.4 TSI 150 כ״ס Ambition הנעה קדמית (הכותרת ציינה מחיר פתיחה של 174,990 ₪)",
+          "source": {
+            "title": "Cartube — סקודה קודיאק בישראל (13.6.2017)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קודיאק-בישראל-מחיר-174990-שקל"
+          }
+        }
+      }
+    },
+    "karoq": {
+      "NU": {
+        "issues": [
+          {
+            "he": "ריקול: בלם החניה עלול להשתחרר בזמן לא נכון כשלוחצים על המצמד. התיקון הוא עדכון תוכנה. בדקו מול היבואן שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 1.7.2017–31.8.2018 (גיר ידני)",
+            "source": {
+              "title": "What Car? — Used Skoda Karoq 2017-present reliability",
+              "url": "https://www.whatcar.com/skoda/karoq/estate/used-review/n17894/advice"
+            }
+          },
+          {
+            "he": "ריקול: תושבת משענות הראש האחוריות עלולה להיות מרותכת לא נכון. יש גם ריקול נפרד למשענת הראש האמצעית. בדקו שהטיפול בוצע.",
+            "level": "recall",
+            "scope": "ייצור 18.4.2018–31.8.2018",
+            "source": {
+              "title": "What Car? — Used Skoda Karoq 2017-present reliability",
+              "url": "https://www.whatcar.com/skoda/karoq/estate/used-review/n17894/advice"
+            }
+          },
+          {
+            "he": "ריקול: הציפוי בחיפוי עמוד A עלול להתקלף, ובקור החיפוי עלול להתנפץ כשכרית הווילון נפתחת. בדקו שהטיפול בוצע.",
+            "level": "recall",
+            "scope": "ייצור 21.10.2017–31.12.2017",
+            "source": {
+              "title": "What Car? — Used Skoda Karoq 2017-present reliability",
+              "url": "https://www.whatcar.com/skoda/karoq/estate/used-review/n17894/advice"
+            }
+          },
+          {
+            "he": "ריקול (קמפיין 69Y9): כרית האוויר של הנהג עלולה לא להתנפח במלואה מהר מספיק. בדקו לפי מספר השלדה.",
+            "level": "recall",
+            "scope": "שנתון 2018",
+            "source": {
+              "title": "australiancar.reviews — Skoda Karoq recalls",
+              "url": "https://australiancar.reviews/?p=47754"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.11,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Karoq, ממוצע כל רכבי הבנזין בדגם (1.0/1.5/2.0 TSI, כל השנים; 874 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/1636-Karoq.html"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 130000,
+          "year": 2018,
+          "note": "בערך: 1.0 TSI 115 כ״ס Ambition. הכתבה מציינת כ-130,000 ₪ לבסיס וכ-150,000 ₪ ל-Exclusive",
+          "source": {
+            "title": "וואלה! רכב — סקודה קארוק החדשה הושקה בישראל (8.5.2018)",
+            "url": "https://cars.walla.co.il/item/3156219"
+          }
+        }
+      }
+    },
+    "kamiq": {
+      "NW4": {
+        "issues": [
+          {
+            "he": "ריקול תוכנה למערכת החירום eCall: המערכת עלולה לא לפעול כראוי. בדקו שבוצע עדכון במוסך מורשה.",
+            "level": "recall",
+            "scope": "ייצור 10.7.2019–7.2.2020",
+            "source": {
+              "title": "What Car? — Used Skoda Kamiq 2019-present reliability",
+              "url": "https://www.whatcar.com/skoda/kamiq/hatchback/used-review/n21831/reliability"
+            }
+          },
+          {
+            "he": "ריקול: יחידת הקישוריות (OCU) עלולה לדרוש החלפה. בדקו לפי מספר השלדה שהיחידה הוחלפה.",
+            "level": "recall",
+            "scope": "ייצור 27.8.2019–17.9.2019",
+            "source": {
+              "title": "What Car? — Used Skoda Kamiq 2019-present reliability",
+              "url": "https://www.whatcar.com/skoda/kamiq/hatchback/used-review/n21831/reliability"
+            }
+          },
+          {
+            "he": "מערכת המולטימדיה ידועה בקריסות, ובעלים דיווחו על תקלות ניווט ומולטימדיה ועל חיישני חניה שמפסיקים לעבוד. בדקו שהמערכת יציבה ומעודכנת לתוכנה האחרונה, ושכל חיישני החניה פועלים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Skoda Kamiq 2019-present reliability",
+              "url": "https://www.whatcar.com/skoda/kamiq/hatchback/used-review/n21831/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.22,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Kamiq, ממוצע כל רכבי הבנזין בדגם (1.0/1.5 TSI, כל השנים; 501 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/1773-Kamiq.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/-koda-kamiq---euro-ncap-2019-results---5-stars/s/c2ed5937-83b2-44ea-b7e1-4300207d331c"
+        },
+        "launchPrice": {
+          "ils": 124990,
+          "year": 2020,
+          "note": "1.0 TSI Ambition (‏1.5 TSI Ambition: 130,990 ₪)",
+          "source": {
+            "title": "Cartube — סקודה קאמיק בישראל (5.2.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קאמיק-בישראל-מחיר-124990-שקל"
+          }
+        }
+      }
+    },
+    "fabia": {
+      "NJ": {
+        "issues": [
+          {
+            "he": "ריקול: פגם במנפח כרית האוויר של הנהג. הכרית עלולה להתנפח באופן לא מבוקר ולפזר רסיסי מתכת. בדקו לפי מספר השלדה מול היבואן.",
+            "level": "recall",
+            "scope": "ייצור 14.5.2014–18.8.2016",
+            "source": {
+              "title": "car-recalls.eu — Skoda Fabia (2014-2016) airbag injury",
+              "url": "https://car-recalls.eu/recall/skoda-fabia-2014-2016-airbag-injury/"
+            }
+          },
+          {
+            "he": "ריקול: כרית האוויר של הנהג עלולה לא להתנפח מהר מספיק. התיקון הוא החלפת יחידת הכרית. בדקו שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 8.1.2018–28.2.2018",
+            "source": {
+              "title": "What Car? — Used Skoda Fabia 2015-2021 reliability",
+              "url": "https://whatcar.com/skoda/fabia/hatchback/used-review/n808/reliability"
+            }
+          },
+          {
+            "he": "גיר DSG בעל 7 הילוכים ברכבים המוקדמים: בעלים דיווחו על העברות הילוך גסות ומקרטעות. בנסיעת מבחן בדקו זינוק, זחילה בפקקים והורדות הילוך.",
+            "level": "widely_reported",
+            "scope": "1.2 TSI DSG, שנים מוקדמות",
+            "source": {
+              "title": "What Car? — Used Skoda Fabia 2015-2021 reliability",
+              "url": "https://whatcar.com/skoda/fabia/hatchback/used-review/n808/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 TSI בנזין 110 כ״ס",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 6.35,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Fabia, ממוצע כל רכבי הבנזין בדגם (כל הדורות והמנועים; 5,539 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/398-Fabia.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://cdn.euroncap.com/media/4831/euroncap_skoda_fabia_2014_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 79990,
+          "year": 2015,
+          "note": "1.2 TSI 90 כ״ס ידני Active (‏1.2 TSI 110 כ״ס DSG Active: 94,990 ₪)",
+          "source": {
+            "title": "Cartube — סקודה פאביה החדשה 2015 בישראל (11.4.2015)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-פאביה-החדשה-2015-בישראל"
+          }
+        }
+      }
+    },
+    "superb": {
+      "B8 (3V)": {
+        "issues": [
+          {
+            "he": "ריקול לכריות האוויר ולמותחני חגורות הבטיחות (מרץ 2017), ועוד ריקולים לכריות אוויר במאי 2019 ובפברואר 2020. בדקו מול היבואן לפי מספר השלדה שכולם בוצעו.",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used Skoda Superb Mk3 (2015-2024) review and buyer's guide",
+              "url": "https://www.autoexpress.co.uk/skoda/superb/355304/used-skoda-superb-mk3-2015-2024-review-and-buyers-guide"
+            }
+          },
+          {
+            "he": "ריקול (ספטמבר 2019): תוכנה פגומה שעלולה לגרום למנוע לכבות. בדקו לפי מספר השלדה שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used Skoda Superb Mk3 (2015-2024) review and buyer's guide",
+              "url": "https://www.autoexpress.co.uk/skoda/superb/355304/used-skoda-superb-mk3-2015-2024-review-and-buyers-guide"
+            }
+          },
+          {
+            "he": "ריקול (נובמבר 2017): רכזות גלגלים אחוריות שיוצרו לקוי. בדקו שהטיפול בוצע.",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used Skoda Superb Mk3 (2015-2024) review and buyer's guide",
+              "url": "https://www.autoexpress.co.uk/skoda/superb/355304/used-skoda-superb-mk3-2015-2024-review-and-buyers-guide"
+            }
+          },
+          {
+            "he": "ריקול תוכנה לרכבים עם גג פנורמי (בערך אפריל 2016). ברכב עם גג נפתח בדקו שהגג פועל ושהעדכון בוצע.",
+            "level": "recall",
+            "scope": "רכבים עם גג פנורמי",
+            "source": {
+              "title": "Auto Express — Used Skoda Superb Mk3 (2015-2024) review and buyer's guide",
+              "url": "https://www.autoexpress.co.uk/skoda/superb/355304/used-skoda-superb-mk3-2015-2024-review-and-buyers-guide"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.26,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Superb, ממוצע כל רכבי הבנזין בדגם (כל הדורות והמנועים; 1,139 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/400-Superb.html"
+            }
+          },
+          {
+            "name": "1.4 TSI iV פלאג-אין 218 כ״ס",
+            "pt": "phev",
+            "hp": 218,
+            "cons": 4.49,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Superb, ממוצע כל רכבי הפלאג-אין בנזין בדגם (כל השנים; 264 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/400-Superb.html"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 159990,
+          "year": 2015,
+          "note": "1.4 TSI 150 כ״ס Ambition",
+          "source": {
+            "title": "Cartube — סקודה סופרב החדשה 2015 בישראל (11.10.2015)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-סופרב-החדשה-2015-בישראל-–-מחיר-החל-מ-159,990"
+          }
+        }
+      }
+    },
+    "rapid": {
+      "NH": {
+        "issues": [
+          {
+            "he": "גיר DSG7 יבש (DQ200): קורוזיה ביחידת המכטרוניקה עלולה לגרום לקצר ולשריפת הנתיך, ואז לאובדן הנעה פתאומי. התיקון הוא החלפת שמן הגיר הסינתטי בשמן מינרלי. בדקו בהיסטוריית הטיפולים שהפעולה בוצעה.",
+            "level": "manufacturer",
+            "scope": "DSG7, ייצור 1.10.2012–1.6.2013",
+            "source": {
+              "title": "australiancar.reviews — Skoda Rapid NH recalls & problems (Skoda UK NCA/2014/015)",
+              "url": "https://www.australiancar.reviews/?p=47762"
+            }
+          },
+          {
+            "he": "ריקול לגיר DSG7 (DQ200, קמפיין 35E1): מצבר הלחץ בבית המכטרוניקה עלול להיסדק. זה גורם לאובדן שמן ולחץ ולניתוק ההנעה לגלגלים. בדקו שהריקול בוצע, ושאין בנסיעה הודעות תקלה או ניתוקי הנעה.",
+            "level": "recall",
+            "scope": "DSG7, שנתוני 2014–2015",
+            "source": {
+              "title": "australiancar.reviews — Skoda Rapid NH recalls & problems",
+              "url": "https://www.australiancar.reviews/?p=47762"
+            }
+          },
+          {
+            "he": "ריקול כרית האוויר של הנהג (Takata): המנפח עלול להתפוצץ ולפזר רסיסי מתכת. בדקו לפי מספר השלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "שנים 2012–2017",
+            "source": {
+              "title": "car-recalls.eu — Skoda Rapid reliability & recalls",
+              "url": "https://car-recalls.eu/reliability/skoda/rapid/"
+            }
+          },
+          {
+            "he": "ריקול: ידית הנעילה של נעילת הילדים עלולה להישבר, והנעילה תתבטל בלי שתשימו לב, כך שאפשר לפתוח את הדלתות האחוריות מבפנים. בדקו שנעילת הילדים עובדת בשתי הדלתות.",
+            "level": "recall",
+            "scope": "שנתון 2016",
+            "source": {
+              "title": "australiancar.reviews — Skoda Rapid NH recalls & problems",
+              "url": "https://www.australiancar.reviews/?p=47762"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Rapid, ממוצע כל רכבי הבנזין בדגם (1.0/1.2/1.4 TSI, כל השנים; 726 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/772-Rapid.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-15-cars-dacia-budgets-on-safety/s/f911f1a0-c5e0-4b6a-af69-9b143954d4e4"
+        },
+        "launchPrice": {
+          "ils": 102990,
+          "year": 2013,
+          "note": "1.2 TSI ידני (‏1.4 TSI DSG: 114,990 ₪)",
+          "source": {
+            "title": "Cartube — סקודה ראפיד בישראל (12.3.2013)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-ראפיד-בישראל-–-מחיר-החל-מ-103-אלף-שקל"
           }
         }
       }

@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -220,6 +220,31 @@
           "year": 2021,
           "url": "https://www.euroncap.com/en/results/hyundai/i20/46622"
         }
+      },
+      "GB": {
+        "issues": [
+          {
+            "he": "ריקול בנושא צינור ואקום (vacuum hose); לוודא מול היבואן שהקריאה בוצעה ברכב.",
+            "level": "recall",
+            "source": {
+              "title": "car-recalls.eu — Hyundai i20 (2015 – 2020) vacuum hose",
+              "url": "https://car-recalls.eu/recall/hyundai-i20-2015-2020-vacuum-hose/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 100 כ״ס / 1.0 טורבו 100 כ״ס",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.12,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i20 petrol 69–79 kW manual, 2014–2018, 1.4 and 1.0 T-GDi combined (121 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/19-Hyundai/1128-i20.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=69&power_e=79&gearing=1"
+            }
+          }
+        ]
       }
     },
     "ioniq-6": {
@@ -228,6 +253,347 @@
           "stars": 5,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/hyundai-ioniq-6---euro-ncap-2022-results---5-stars/s/6fa14a30-b70d-4f91-a5cc-258dcf0bc1ae"
+        }
+      }
+    },
+    "i10": {
+      "IA": {
+        "issues": [
+          {
+            "he": "העברות הילוכים 'חורקות'/קשות בתיבה הידנית נפוצות; בנסיעת מבחן לבדוק שילוב חלק של כל ההילוכים. לרוב כיוון כבל ההילוכים פותר.",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית",
+            "source": {
+              "title": "Auto Express — Used Hyundai i10 (Mk2, 2014-2019) review",
+              "url": "https://www.autoexpress.co.uk/hyundai/i10/66480/hatchback/interior"
+            }
+          },
+          {
+            "he": "רפידות בלם אחוריות נוטות להיתקע לדיסקים; לבדוק חום/רעש בגלגלים האחוריים ובלאי לא אחיד בבלמים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Hyundai i10 2014-2020 reliability",
+              "url": "https://www.whatcar.com/hyundai/i10/hatchback/used-review/n820/advice"
+            }
+          },
+          {
+            "he": "דיווחים בודדים על החלקת מצמד; בנסיעת מבחן לבדוק שהסל\"ד לא קופץ בהאצה בהילוך גבוה.",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית",
+            "source": {
+              "title": "What Car? — Used Hyundai i10 2014-2020 reliability",
+              "url": "https://www.whatcar.com/hyundai/i10/hatchback/used-review/n820/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 66 כ״ס",
+            "pt": "petrol",
+            "hp": 66,
+            "cons": 5.71,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i10 petrol 44–54 kW manual, 2015–2019 (170 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/19-Hyundai/1079-i10.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=44&power_e=54&gearing=1"
+            }
+          },
+          {
+            "name": "1.25 בנזין 87 כ״ס",
+            "pt": "petrol",
+            "hp": 87,
+            "cons": 5.98,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i10 petrol 59–69 kW manual, 2015–2019 (135 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/19-Hyundai/1079-i10.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=59&power_e=69&gearing=1"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://news.euroncap.com/safercars/the-latest-euro-ncap-results-are-out/s/462b0278-68bd-4df0-8cd8-8c5fdcea4c8b"
+        },
+        "launchPrice": {
+          "ils": 59900,
+          "year": 2014,
+          "note": "Inspire 1.0 ידנית; Supreme 1.25 אוטומטית ב-78,900",
+          "source": {
+            "title": "CarTube — יונדאי i10 החדשה 2014 בישראל – מחיר החל מ-59,900",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i10-החדשה-2014-בישראל-–-מחיר-החל-מ-59,900"
+          }
+        }
+      },
+      "AC3": {
+        "issues": [
+          {
+            "he": "ריקול: מותחן חגורת הבטיחות האחורית הימנית עלול לפעול באופן לא תקין בהפעלה; לוודא מול היבואן שהחגורה נבדקה/הוחלפה.",
+            "level": "recall",
+            "scope": "טווח ייצור מסוים (ריקול בריטניה 06/2022)",
+            "source": {
+              "title": "What Car? — Used Hyundai i10 2020-present reliability",
+              "url": "https://www.whatcar.com/hyundai/i10/hatchback/used-review/n22719/reliability"
+            }
+          },
+          {
+            "he": "ריקול: שסתום EGR עלול לסבול מקצר פנימי שגורם לכיבוי מנוע; לוודא שהשסתום הוחלף במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "ריקול בריטניה 01/2025",
+            "source": {
+              "title": "What Car? — Used Hyundai i10 2020-present reliability",
+              "url": "https://www.whatcar.com/hyundai/i10/hatchback/used-review/n22719/reliability"
+            }
+          },
+          {
+            "he": "דיווחי בעלים על נורות אזהרה מזדמנות ותקלות מערכת מולטימדיה לסירוגין, לעיתים דרשו כמה ביקורים לעדכון תוכנה; לבדוק שכל המערכות החשמליות עובדות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Hyundai i10 2020-present reliability",
+              "url": "https://www.whatcar.com/hyundai/i10/hatchback/used-review/n22719/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 67 כ״ס",
+            "pt": "petrol",
+            "hp": 67,
+            "cons": 5.57,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i10 petrol 46–56 kW manual, 2020–2024 (64 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1079-i10.html?fueltype=2&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=46&power_e=56&gearing=1"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2020,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/all/hyundai-i10---euro-ncap-2020-results---3-stars/s/376ca69d-7289-4db8-9f6e-1d64bfd067b3"
+        }
+      }
+    },
+    "elantra": {
+      "AD": {
+        "issues": [
+          {
+            "he": "ריקול: טבעות השמן של הבוכנות במנוע 2.0 Nu MPI ייתכן שלא עברו טיפול תרמי כראוי (סיכון לנזק מנוע); לוודא ביצוע הקריאה ולבדוק צריכת שמן ורעשי מנוע.",
+            "level": "recall",
+            "scope": "מנוע 2.0, שנים 2019–2020 (NHTSA 21V301)",
+            "source": {
+              "title": "Motor Verso — 2020 Hyundai Elantra recalls (NHTSA 21V301000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2020/"
+            }
+          },
+          {
+            "he": "ריקול: מחבר פגום במנוע ההגה החשמלי (MDPS) עלול לגרום לאובדן סיוע הגה; לבדוק שההגה קל ואחיד ושמנוע ה-EPS הוחלף.",
+            "level": "recall",
+            "scope": "2017 (NHTSA 17V213)",
+            "source": {
+              "title": "Cars.com — 2017 Hyundai Elantra recalls",
+              "url": "https://cars.com/research/hyundai-elantra-2017/recalls/"
+            }
+          },
+          {
+            "he": "ריקול: מגבר הבלמים (בוסטר) עלול לכשול ולגרום לאובדן סיוע בלימה; לבדוק דוושת בלם רכה/קשה ושהמגבר הוחלף.",
+            "level": "recall",
+            "scope": "2017 (NHTSA 17V063)",
+            "source": {
+              "title": "Cars.com — 2017 Hyundai Elantra recalls",
+              "url": "https://cars.com/research/hyundai-elantra-2017/recalls/"
+            }
+          },
+          {
+            "he": "ריקול: אטם קצה במנפח כרית האוויר של הנהג אולי לא הותקן כראוי, מה שעלול להפחית את ניפוח הכרית; לוודא שמודול הכרית הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 04–09/2016 (NHTSA 16V956)",
+            "source": {
+              "title": "Cars.com — 2017 Hyundai Elantra recalls",
+              "url": "https://cars.com/research/hyundai-elantra-2017/recalls/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 128 כ״ס",
+            "pt": "petrol",
+            "hp": 128,
+            "cons": 7.07,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Elantra petrol 89–99 kW manual, 2017–2021 (6 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/182-Elantra.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=89&power_e=99&gearing=1"
+            }
+          },
+          {
+            "name": "2.0 בנזין 147 כ״ס",
+            "pt": "petrol",
+            "hp": 147,
+            "cons": 7.56,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2017 Hyundai Elantra (US), all engines, mostly 2.0L, 31.11 mpg US (316 vehicles)",
+              "url": "https://www.fuelly.com/car/hyundai/elantra/2017"
+            }
+          }
+        ]
+      }
+    },
+    "kona": {
+      "OS": {
+        "issues": [
+          {
+            "he": "ריקול: טבעות השמן של הבוכנות במנוע 2.0 Nu MPI ייתכן שלא עברו טיפול תרמי כראוי (סיכון לנזק מנוע); לוודא ביצוע הקריאה ולבדוק צריכת שמן.",
+            "level": "recall",
+            "scope": "מנוע 2.0, שנים 2019–2021 (NHTSA 21V301)",
+            "source": {
+              "title": "Motor Verso — NHTSA 21V301000 (2019-2020 Elantra, 2019-2021 Kona, Veloster 2.0 Nu MPI)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2020/"
+            }
+          },
+          {
+            "he": "ריקול: תוכנת יחידת בקרת כריות האוויר עלולה לגרום לכך שכריות לא ייפתחו כראוי בתאונה; לוודא שעודכנה התוכנה אצל היבואן.",
+            "level": "recall",
+            "scope": "ריקול 01/2019",
+            "source": {
+              "title": "What Car? — Used Hyundai Kona 2017-2023 reliability",
+              "url": "https://www.whatcar.com/hyundai/kona/hatchback/used-review/n18075/reliability"
+            }
+          },
+          {
+            "he": "ריקול: צינורות בלם פגומים/פגועים; לוודא ביצוע הקריאה ולבדוק נזילות נוזל בלמים.",
+            "level": "recall",
+            "scope": "ריקול 05/2019, בנזין/דיזל",
+            "source": {
+              "title": "Auto Express — Used Hyundai Kona Mk1 (2017-2023) review",
+              "url": "https://www.autoexpress.co.uk/hyundai/kona/353798/used-hyundai-kona-mk1-2017-2023-review"
+            }
+          },
+          {
+            "he": "ריקול: תוכנה פגומה במערכת הבלימה האוטונומית (AEB); התיקון הוא עדכון תוכנה — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "היברידית (וחשמלית), ריקול 01/2021",
+            "source": {
+              "title": "Auto Express — Used Hyundai Kona Mk1 (2017-2023) review",
+              "url": "https://www.autoexpress.co.uk/hyundai/kona/353798/used-hyundai-kona-mk1-2017-2023-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין 177 כ״ס",
+            "pt": "petrol",
+            "hp": 177,
+            "cons": 8.01,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Kona petrol 125–135 kW DCT, 2017–2021 (43 vehicles)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/19-Hyundai/1638-Kona.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=125&power_e=135&gearing=4"
+            }
+          },
+          {
+            "name": "1.6 היברידי 141 כ״ס",
+            "pt": "hybrid",
+            "hp": 141,
+            "cons": 5.31,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Kona Hybrid 99–109 kW automatic, 2018–2022 (43 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1638-Kona.html?fueltype=10&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=99&power_e=109&gearing=2"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 133900,
+          "year": 2018,
+          "note": "1.6 טורבו Premium; Supreme ב-139,900",
+          "source": {
+            "title": "icar — יונדאי קונה בישראל: מ-134,000 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_קונה_בישראל:_מ-134,000_שקל/"
+          }
+        }
+      }
+    },
+    "ioniq-5": {
+      "NE": {
+        "issues": [
+          {
+            "he": "ריקול: יחידת הטעינה המשולבת (ICCU) עלולה להינזק ולהפסיק לטעון את מצבר ה-12V, עד אובדן כוח הנעה בנסיעה; לוודא שבוצעו בדיקה/החלפת ICCU והנתיך ועדכון תוכנה (מחליף את ריקול 24V-204).",
+            "level": "recall",
+            "scope": "שנים 2022–2024 (NHTSA 24V868)",
+            "source": {
+              "title": "NHTSA recall acknowledgement 24V-868",
+              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V868-3172.pdf"
+            }
+          },
+          {
+            "he": "ריקול: שגיאת תוכנה ביחידת בורר ההילוכים (SCU) עלולה לשחרר את מנגנון החניה ולגרום להידרדרות הרכב; לוודא עדכון תוכנה.",
+            "level": "recall",
+            "scope": "2022 (NHTSA 22V324)",
+            "source": {
+              "title": "Motor Verso — Hyundai Ioniq 5 recalls (NHTSA 22V324000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/ioniq-5/"
+            }
+          },
+          {
+            "he": "ריקול: ציר ההנעה האחורי הפנימי אולי לא עבר טיפול תרמי כראוי ועלול להישבר תחת עומס; לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "2023, מספר קטן של רכבים (NHTSA 24V065)",
+            "source": {
+              "title": "Motor Verso — Hyundai Ioniq 5 recalls (NHTSA 24V065000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/ioniq-5/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "58 קוט״ש הנעה אחורית 168 כ״ס",
+            "pt": "ev",
+            "hp": 168,
+            "cons": 18.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 5 Standard Range 2WD (MY21), real-world 300 Wh/mi",
+              "url": "https://ev-database.org/uk/car/1476/Hyundai-IONIQ-5-Standard-Range-2WD"
+            }
+          },
+          {
+            "name": "72.6 קוט״ש הנעה אחורית 218 כ״ס",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 18.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 5 Long Range 2WD (MY21), real-world 189 Wh/km",
+              "url": "https://ev-database.org/car/1478/Hyundai-IONIQ-5-Long-Range-2WD"
+            }
+          },
+          {
+            "name": "77.4 קוט״ש הנעה כפולה 325 כ״ס",
+            "pt": "ev",
+            "hp": 325,
+            "cons": 19.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 5 Long Range AWD (MY22), real-world 192 Wh/km",
+              "url": "https://ev-database.org/car/1663/Hyundai-IONIQ-5-Long-Range-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/ford--hyundai-and-toyota-lead-the-way-to-making-safer-and-greener-choices/s/0184d965-e1fb-4965-90e8-d11baf19abd7"
+        },
+        "launchPrice": {
+          "ils": 190000,
+          "year": 2021,
+          "note": "Prestige, סוללת 72.6 קוט״ש (הגרסה היחידה בהשקה)",
+          "source": {
+            "title": "auto.co.il — יונדאי איוניק 5 2021 בארץ – מחיר החל מ-190,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134593/"
+          }
         }
       }
     }

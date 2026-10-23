@@ -1,0 +1,201 @@
+{
+  "make": "mitsubishi",
+  "updated": "2026-10-23",
+  "models": {
+    "outlander": {
+      "GF/GG": {
+        "issues": [
+          {
+            "he": "ריקול: מנגנון נעילת הדלתות עלול לא לפעול כראוי בחום, ודלת עלולה להיפתח בנסיעה. בדקו שהוחלפו מנעולי הדלתות במוסך מורשה.",
+            "level": "recall",
+            "scope": "ייצור 6.5.2015–14.3.2016",
+            "source": {
+              "title": "What Car? — Used Mitsubishi Outlander PHEV 2014-2021 reliability",
+              "url": "https://www.whatcar.com/mitsubishi/outlander-phev/4x4/used-review/n18054/advice"
+            }
+          },
+          {
+            "he": "ריקול: ממסר של מחשב המנוע עלול להתחמם ולגרום לכבייה של המנוע. ודאו שהממסר הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 5.12.2014–31.3.2016",
+            "source": {
+              "title": "What Car? — Used Mitsubishi Outlander PHEV 2014-2021 reliability",
+              "url": "https://www.whatcar.com/mitsubishi/outlander-phev/4x4/used-review/n18054/advice"
+            }
+          },
+          {
+            "he": "ריקול: מים חודרים למגן הגומי של קליפר בלם החניה, גורמים לקורוזיה ולירידה ביעילות בלם היד. בדקו שבוצעה בדיקה במוסך ושבלם החניה מחזיק.",
+            "level": "recall",
+            "scope": "ייצור עד 21.1.2016",
+            "source": {
+              "title": "What Car? — Used Mitsubishi Outlander PHEV 2014-2021 reliability",
+              "url": "https://www.whatcar.com/mitsubishi/outlander-phev/4x4/used-review/n18054/advice"
+            }
+          },
+          {
+            "he": "ריקול תוכנה: תקלה בבלימת חירום אוטומטית (AEB) ובבלימה של מערכות הסיוע (ESP). ודאו שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "ייצור אוגוסט 2016–ינואר 2018",
+            "source": {
+              "title": "What Car? — Used Mitsubishi Outlander PHEV 2014-2021 reliability",
+              "url": "https://www.whatcar.com/mitsubishi/outlander-phev/4x4/used-review/n18054/advice"
+            }
+          },
+          {
+            "he": "בפלאג-אין: בעלים מדווחים על ירידה בטווח החשמלי המוצג עם השנים, ועל דלת שקע טעינה שמתעקמת או מאבדת תפסים. בדקו טווח בטעינה מלאה ואת דלת הטעינה; ברכב שגרר — האזינו לרעשים ממערכת ההנעה הכפולה.",
+            "level": "widely_reported",
+            "scope": "PHEV",
+            "source": {
+              "title": "What Car? — Used Mitsubishi Outlander PHEV 2014-2021 reliability",
+              "url": "https://www.whatcar.com/mitsubishi/outlander-phev/4x4/used-review/n18054/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 PHEV פלאג-אין 224 כ״ס",
+            "pt": "phev",
+            "hp": 224,
+            "cons": 4.59,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Mitsubishi Outlander, Plug-in hybrid gasoline, whole-model average all PHEV years incl. 2.0 PHEV 2013-18 and 2022+ model (695+ vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/31-Mitsubishi/280-Outlander.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89"
+        }
+      }
+    },
+    "asx": {
+      "GA": {
+        "issues": [
+          {
+            "he": "ריקול: דוושת הבלם עלולה להיתקע — הוחלף מגבר הבלמים (בוסטר). בדקו שהטיפול בוצע ושהדוושה חוזרת חופשי.",
+            "level": "recall",
+            "scope": "ייצור 31.8.2010–4.7.2012",
+            "source": {
+              "title": "What Car? — Used Mitsubishi ASX 2010-present reliability",
+              "url": "https://whatcar.com/mitsubishi/asx/estate/used-review/n17896/advice"
+            }
+          },
+          {
+            "he": "ריקול: כבייה של המנוע בנסיעה — נדרש תכנות מחדש של מחשב המנוע. ודאו שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 19.4.2010–27.6.2012",
+            "source": {
+              "title": "What Car? — Used Mitsubishi ASX 2010-present reliability",
+              "url": "https://whatcar.com/mitsubishi/asx/estate/used-review/n17896/advice"
+            }
+          },
+          {
+            "he": "ריקול: בולמי הגז של דלת תא המטען עלולים להינתק בגלל קורוזיה. בדקו שהדלת נשארת פתוחה ושהבולמים הוחלפו.",
+            "level": "recall",
+            "scope": "ייצור 6.4.2010–10.9.2014",
+            "source": {
+              "title": "What Car? — Used Mitsubishi ASX 2010-present reliability",
+              "url": "https://whatcar.com/mitsubishi/asx/estate/used-review/n17896/advice"
+            }
+          },
+          {
+            "he": "ריקול: מים חודרים למנגנון המגבים וגורמים לקורוזיה ולהיתקעות. בדקו פעולת מגבים בכל המהירויות.",
+            "level": "recall",
+            "scope": "ייצור 21.5.2013–29.1.2016",
+            "source": {
+              "title": "What Car? — Used Mitsubishi ASX 2010-present reliability",
+              "url": "https://whatcar.com/mitsubishi/asx/estate/used-review/n17896/advice"
+            }
+          },
+          {
+            "he": "ריקול: ממסר מחשב המנוע עלול להתחמם ולגרום לתקלות מנוע. ודאו שהוחלף.",
+            "level": "recall",
+            "scope": "ייצור 5.12.2014–19.4.2016",
+            "source": {
+              "title": "What Car? — Used Mitsubishi ASX 2010-present reliability",
+              "url": "https://whatcar.com/mitsubishi/asx/estate/used-review/n17896/advice"
+            }
+          }
+        ]
+      }
+    },
+    "space-star": {
+      "A00": {
+        "issues": [
+          {
+            "he": "ריקול (שוק ארה״ב, Mirage): חיישן התאוצה ביחידת בקרת כריות האוויר עלול לפרש רעידות (כביש משובש/פנצ׳ר) כתקלה ולנטרל את הכריות. ודאו שבוצע עדכון תוכנה ושנורית כריות האוויר כבויה.",
+            "level": "recall",
+            "scope": "Mirage 2014–2018 (NHTSA 17V686)",
+            "source": {
+              "title": "Cars.com — Mitsubishi Mirage recalls (NHTSA 17V686000)",
+              "url": "https://www.cars.com/recalls/mitsubishi-mirage/"
+            }
+          },
+          {
+            "he": "ריקול (שוק ארה״ב): מים ומלח מנעלי הנהג חודרים דרך השטיח ומאכלים מחבר חשמלי מאחורי לוח הצד — עלול לעכב פתיחת כריות אוויר. בדקו רטיבות בשטיח בצד הנהג ושבוצעה החלפת מחבר והתקנת יריעה אטומה.",
+            "level": "recall",
+            "scope": "Mirage 2014–2015, ייצור 7.2013–9.2015 (NHTSA 15V815)",
+            "source": {
+              "title": "Cars.com — Mitsubishi Mirage recalls (NHTSA 15V815000)",
+              "url": "https://www.cars.com/recalls/mitsubishi-mirage/"
+            }
+          },
+          {
+            "he": "ריקול (שוק ארה״ב): התנגדות גבוהה בחיישן ההתנגשות עלולה לעכב את כריות האוויר הקדמיות או למנוע פתיחת כריות צד/וילון — הוחלפו חיישנים.",
+            "level": "recall",
+            "scope": "Mirage ייצור 27.7.2013–20.11.2013 (NHTSA 15V594)",
+            "source": {
+              "title": "Cars.com — Mitsubishi Mirage recalls (NHTSA 15V594000)",
+              "url": "https://www.cars.com/recalls/mitsubishi-mirage/"
+            }
+          },
+          {
+            "he": "בגרסאות אוטומטיות (CVT) חשוב להחליף שמן תיבה כל 90,000 ק״מ — בקשו תיעוד טיפולים; בדקו גם סימני תאונה ותיקונים זולים.",
+            "level": "manufacturer",
+            "scope": "CVT",
+            "source": {
+              "title": "RACV — Mitsubishi Mirage used car review",
+              "url": "https://www.racv.com.au/royalauto/transport/reviews/mitsubishi-mirage.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 80 כ״ס",
+            "pt": "petrol",
+            "hp": 80,
+            "cons": 5.57,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Mitsubishi Space Star, Gasoline, whole-model average all years/engines incl. 1.0 52 kW and older 1998-2005 Space Star (698 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/31-Mitsubishi/283-Space_Star.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/5960/euroncap_mitsubishi_space-star_mirage_2013_4stars.pdf"
+        }
+      }
+    },
+    "attrage": {
+      "A10": {
+        "issues": [
+          {
+            "he": "ריקול (שוק ארה״ב, Mirage G4): חיישן ביחידת בקרת כריות האוויר עלול לפרש רעידות כתקלה ולנטרל את כל הכריות (נורית SRS דולקת). ודאו שבוצע תכנות מחדש ושנורית כריות האוויר כבויה.",
+            "level": "recall",
+            "scope": "Mirage G4 2017–2018, ייצור 3.2016–11.2017 (NHTSA 19V330)",
+            "source": {
+              "title": "NHTSA recall 19V330 — Mirage G4 SRS (dealer notice)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCMN-19V330-0640.pdf"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
