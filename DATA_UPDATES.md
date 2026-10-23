@@ -305,3 +305,45 @@ Models added to generations.ts (15). Prices from the brand pages above; generati
 Consumption figures are typical real-world estimates.
 
 Models added to the recommendation catalog (4, `scripts/seed-vehicles-batch15.ts`), chosen from the Jan–Sep 2026 sales top 20 (https://www.cartube.co.il/חדשות-רכב/מסירות-רכב-חדש-בישראל-ספטמבר-2026): MG S9 (#13), BYD Sealion 05 DM-i (#14), XPENG G6 (#17), Geely Starray EM-i (#20). Sources in the batch header. Running costs are estimates, dataConfidence 56–58. No fifth model: the verified ranking lists only these four outside the catalog. Catalog now 49 cars; generations.ts 47 makes, 276 models.
+
+## 2026-10-23 (daily agent)
+No entry for 2026-10-22 (that run did not complete). Prices checked today on every brand page: carzone.co.il /Toyota /Lexus/ /Hyundai /Kia /Subaru /Skoda /Volkswagen /SEAT /Cupra /Audi /Porsche /Ford /Isuzu/ /BYDAuto /Omoda-Jaecoo /chery /Geely/ /ZEEKR/ /LynkCo /Tesla /Smart /Peugeot /Citroen /DS-Automobiles /Opel /Jeep/ /Fiat /Alfa-Romeo /Renault /Dacia /MG/ /Suzuki/ /Nissan /Honda /XPENG /leapmotor /Ora /KGM /Mercedes-Benz /BMW /MINI/ /Volvo /Land-Rover; cartube.co.il price lists for Mazda, Mitsubishi, Polestar 2 (compare page) and Genesis. The carzone Genesis brand page could not be opened; Genesis was checked on cartube plus carzone GV70 model pages. The cartube Polestar brand list, Fiat and Alfa Romeo lists could not be opened (carzone was enough for Fiat/Alfa). `PRICES_VERIFIED` → 2026-10-23.
+
+Price changes (generations.ts):
+- Subaru BRZ: ₪229,900–259,900 → ₪229,900–249,900. Brand card https://www.carzone.co.il/Subaru and https://www.cartube.co.il/מחירון-רכב-חדש/סובארו both top out at tS MT 249,900 (only the carzone model page still shows 259,900; second day flagged).
+
+Status changes (two independent sources):
+- Mercedes GLB unverified → discontinued: not on https://www.carzone.co.il/Mercedes-Benz; https://www.cartube.co.il/מחירון-רכב-חדש/מרצדס marks it "לא משווק יותר".
+- Suzuki Ignis and Jimny unverified → discontinued: not on https://www.carzone.co.il/Suzuki/; "לא משווק יותר" on https://www.cartube.co.il/מחירון-רכב-חדש/סוזוקי.
+- Seat Leon unverified → discontinued: not on https://www.carzone.co.il/SEAT; "לא משווק יותר" on https://www.cartube.co.il/מחירון-רכב-חדש/סיאט.
+
+Checked and left unchanged — needs owner review:
+- Open from 10-21, unchanged evidence: Mercedes EQA price (carzone card 359,900–409,900 / model page from 299,000 / cartube 379,900–439,900); Nissan Qashqai max (cartube e-Power 231,990 kept); Honda HR-V max (model page 224,900 kept); Opel Corsa max, Renault Arkana min, Dacia Duster min (model pages match ours); Smart #5 (model page from 229,990).
+- ORA 07: on carzone at 226,900 but cartube now marks it "לא משווק יותר" (one source each way, kept). ORA 03: carzone shows a flat 154,422 for every trim (placeholder); cartube 139,900–164,900 kept.
+- Kia EV6: not on the carzone brand page; cartube lists a 2026 GT-Line 4X4 at 309,900 (kept unverified). VW T-Roc (cartube 176,400–187,900) and ID.4 (cartube 234,900–292,900): same pattern, kept unverified. Mercedes A-Class and EQB: on cartube, not on carzone, kept unverified.
+- Seat Ateca: cartube list says "לא משווק יותר" but a cartube 2026 trim page shows 167,900 — kept unverified.
+- Audi Q3: carzone model page shows a 35 TFSI Comfort at 312,700, brand card and cartube start at 318,900 (kept).
+- Subaru Outback: carzone 279,900 vs cartube 279,990 — our range covers both.
+- Folding decisions (owner): Leapmotor B10 PHEV (154,900–164,900) into B10; MG EHS (175,888) into HS; Genesis GV70 Electrified (549,900–609,900) into GV70; Skoda Octavia RS (249,990), VW Golf GTI (304,900), Porsche Cayenne Coupé (797,000–1,797,000) into their base lines.
+- Single source only (unchanged): Toyota C-HR, Mazda CX-60, Geely Okavango / Preface / Coolray, Cupra Born / Ateca, Seat Tarraco, VW Polo / Touareg.
+- All other models on all makes matched the importer lists to the shekel.
+
+Models added to generations.ts (15). Prices from the brand pages above unless noted; generations, engines and power from English Wikipedia (BYD_Sealion_05_DM-i, BYD_Seal_05_DM-i, MGS6_EV, Roewe_RX9, MG_Cyberster, BMW_2_Series_Gran_Coupé, BMW_X6, Audi_Q6_e-tron, Audi_Q2, Audi_A6, Mercedes-Benz_CLE, Volkswagen_ID._Buzz, Porsche_Taycan, Range_Rover_Velar, Range_Rover_Sport) and maker press releases; consumption figures are typical real-world estimates:
+- BYD Sealion 05 DM-i ₪166,990–171,990 (https://www.carzone.co.il/BYDAuto/Sea-Lion-05); 212–213 hp combined (queenoftheroad / am-online). Euro NCAP null (only an ANCAP rating exists).
+- BYD Seal 05 DM-i ₪174,990 (https://www.carzone.co.il/BYDAuto/05-DMi/); 218 hp per Israeli spec (Wikipedia says 208 hp — noted).
+- MG S6 ₪168,888–178,888 (https://www.carzone.co.il/MG/S6/); 5★ 2025 (news.euroncap.com MG MGS6 EV 2025).
+- MG S9 ₪189,888–198,888 (https://www.carzone.co.il/MG/S9/); 295 hp combined (evpowered.co.uk); 5★ 2025 (news.euroncap.com MG MGS9 PHEV 2025).
+- MG Cyberster ₪363,888–393,888 (https://www.carzone.co.il/MG/Cyberster/); Israel spec 340/510 PS (queenoftheroad).
+- BMW 2 Series Gran Coupé ₪294,900–324,900 (https://www.carzone.co.il/BMW/2-Series/Gran-Coupe); F44 5★ 2019 (1 Series rating applied, euroncap.com/en/results/bmw/2-series-gran-coup%C3%A9/41291); F74 4★ 2025 (news.euroncap.com BMW 2 Series Gran Coupé 2025); F74 engines from https://www.press.bmwgroup.com/united-kingdom/article/detail/T0445675EN_GB/
+- BMW X6 ₪599,900–649,900 (brand card; cartube https://www.cartube.co.il/מחירון-רכב-חדש/ב-מ-וו/ב-מ-וו-x6 agrees); Euro NCAP null.
+- Audi Q6 e-tron ₪404,900–559,900 incl. Sportback (brand cards); 5★ 2024 (news.euroncap.com Audi Q6 e-tron 2024).
+- Audi Q2 ₪230,500 (https://www.carzone.co.il/Audi/Q2); 5★ 2016 (news.euroncap.com Audi Q2 2016). Production ended 04/2026 per Wikipedia; still on the Israeli list, so the generation stays open. Code "GA" not confirmed on Wikipedia.
+- Audi A6: on sale, price null — carzone brand card 484,000–629,000 vs https://www.cartube.co.il/מחירון-רכב-חדש/אודי/אודי-a6 467,000–611,000 (owner review). C7 5★ 2011, C8 5★ 2018 (Audi press release), C9 5★ 2024 (news.euroncap.com Audi A6 2024).
+- Mercedes CLE ₪399,900–519,990 (coupé, brand card; CLE Cabrio card 479,900–559,900 noted); 5★ 2025 (news.euroncap.com CLE Coupé 2025).
+- VW ID. Buzz: on sale, price null — carzone card 385,000–452,000, model page 335,000, cartube 335,000–455,000 (owner review). 5★ 2022 (VW press release volkswagen-newsroom.com ... five-stars-from-euro-ncap-for-the-id-buzz-15359).
+- Porsche Taycan: on sale, price null — carzone 757,000–1,897,000 vs https://www.cartube.co.il/מחירון-רכב-חדש/פורשה/פורשה-טייקן 700,000–1,550,000 (owner review). 5★ 2019 (news.euroncap.com Porsche Taycan 2019).
+- Range Rover Velar ₪530,900–586,400 (https://www.carzone.co.il/Land-Rover/Range-Rover-Velar); 5★ 2017 (news.euroncap.com Velar).
+- Range Rover Sport: on sale, price null — carzone 699,000–1,500,000 (page data inconsistent) vs https://www.cartube.co.il/מחירון-רכב-חדש/לנד-רובר/לנד-רובר-ריינג-רובר-ספורט 711,000–1,115,600. L461 5★ 2022 (euroncap.com/en/results/land-rover/range-rover-range-rover-sport/47131); L320/L494 null.
+
+Models added to the recommendation catalog (4, `scripts/seed-vehicles-batch16.ts`; new catalog make slug `deepal`). The cartube Jan–Sep top 20 is already fully in the catalog, so the next sellers were taken from the rechargeable-only ranking at https://www.cars-israel-statistics.com/dashboard-en.html (data.gov.il registrations): Deepal S05 (#11), Omoda 7 (#12), Geely EX5/E5 (#14), Tesla Model 3 (#15). Sources per figure in the batch header. Chery Tiggo 9 (#17) skipped: base-trim specs and power not verified. Running costs are estimates, dataConfidence 55–62. Photo mappings added for Model 3, EX5, Omoda 7.
+Catalog now 53 cars; generations.ts 47 makes, 291 models.

@@ -1176,6 +1176,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "deepal-s05",
+  "make": "Deepal",
+  "model": "S05",
+  "trim": "Max 2x4 (68.8 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 492,
+  "powerHp": 272,
+  "consumption": null,
+  "price": 159990,
+  "priceMin": 149990,
+  "priceMax": 189990,
+  "sampleSize": null,
+  "newPrice": 159990,
+  "reliability": 68,
+  "safety": 80,
+  "economy": 88,
+  "comfort": 80,
+  "practicality": 82,
+  "insuranceMin": 395,
+  "insuranceMax": 571,
+  "why": "קרוסאובר חשמלי של Changan: בגרסת Max 2x4 ‏272 כ\"ס, סוללה 68.8 קוט\"ש, טווח מוצהר 485 ק\"מ וצריכה מוצהרת 15.9 קוט\"ש ל-100 ק\"מ. במחירון גם גרסת פלאג-אין וגרסת 4X4. נבחן ב-Euro NCAP ב-2025.",
+  "pros": [
+   "מחיר נמוך ל-SUV חשמלי",
+   "טווח טוב בגרסת Max",
+   "תא מטען 492 ליטר"
+  ],
+  "cons": [
+   "מותג חדש: לבדוק שירות וחלפים באזורך",
+   "ערך שמירה עדיין לא ידוע",
+   "מפרט גרסת הבסיס לא אומת"
+  ],
+  "confidence": 55,
+  "priceSource": "carzone.co.il/Deepal/S05/compare/ (2026-10-23)",
+  "bands": {
+   "7000": {
+    "fuel": 65,
+    "insurance": 481,
+    "maintenance": 106,
+    "depreciation": 1667,
+    "total": 2440
+   },
+   "15000": {
+    "fuel": 139,
+    "insurance": 481,
+    "maintenance": 120,
+    "depreciation": 1667,
+    "total": 2528
+   },
+   "25000": {
+    "fuel": 231,
+    "insurance": 481,
+    "maintenance": 134,
+    "depreciation": 1667,
+    "total": 2634
+   }
+  }
+ },
+ {
   "id": "toyota-yaris-cross-hybrid",
   "make": "Toyota",
   "model": "Yaris Cross Hybrid",
@@ -1234,6 +1295,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 230,
     "depreciation": 1342,
     "total": 3119
+   }
+  }
+ },
+ {
+  "id": "geely-ex5",
+  "make": "Geely",
+  "model": "EX5",
+  "trim": "Pro (60.2 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 461,
+  "powerHp": 214,
+  "consumption": null,
+  "price": 161990,
+  "priceMin": 161990,
+  "priceMax": 169490,
+  "sampleSize": null,
+  "newPrice": 161990,
+  "reliability": 70,
+  "safety": 92,
+  "economy": 90,
+  "comfort": 80,
+  "practicality": 82,
+  "insuranceMin": 398,
+  "insuranceMax": 575,
+  "why": "קרוסאובר חשמלי משפחתי (נמכר מספטמבר 2026 בשם E5): 214 כ\"ס, סוללה 60.2 או 68.4 קוט\"ש וטווח מוצהר 410–475 ק\"מ. Euro NCAP 5 כוכבים (2025).",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "מחיר נמוך ל-SUV חשמלי משפחתי",
+   "תא מטען 461 ליטר"
+  ],
+  "cons": [
+   "מותג חדש יחסית בישראל",
+   "ערך שמירה עדיין לא ידוע",
+   "טווח בינוני בגרסת הבסיס"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Geely/ (2026-10-23)",
+  "bands": {
+   "7000": {
+    "fuel": 65,
+    "insurance": 485,
+    "maintenance": 106,
+    "depreciation": 1620,
+    "total": 2397
+   },
+   "15000": {
+    "fuel": 139,
+    "insurance": 485,
+    "maintenance": 120,
+    "depreciation": 1620,
+    "total": 2485
+   },
+   "25000": {
+    "fuel": 231,
+    "insurance": 485,
+    "maintenance": 134,
+    "depreciation": 1620,
+    "total": 2591
    }
   }
  },
@@ -1667,6 +1789,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "jaecoo-omoda-7",
+  "make": "Jaecoo",
+  "model": "Omoda 7",
+  "trim": "Elevate PHEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 204,
+  "consumption": 5,
+  "price": 179900,
+  "priceMin": 179900,
+  "priceMax": 199900,
+  "sampleSize": null,
+  "newPrice": 179900,
+  "reliability": 68,
+  "safety": 72,
+  "economy": 84,
+  "comfort": 80,
+  "practicality": 80,
+  "insuranceMin": 424,
+  "insuranceMax": 612,
+  "why": "קרוסאובר פלאג-אין (1.5 טורבו + חשמלי, 204 כ\"ס משולב), סוללה 18.4 קוט\"ש וטווח חשמלי מוצהר של 92 ק\"מ. בסקירת carzone כ-20 ק\"מ לליטר; עם טעינה קבועה בבית הצריכה נמוכה יותר.",
+  "pros": [
+   "טווח חשמלי ארוך (כ-90 ק\"מ מוצהר)",
+   "מהנמכרים בישראל ב-2026",
+   "מחיר תחרותי לפלאג-אין"
+  ],
+  "cons": [
+   "דירוג Euro NCAP לא אומת",
+   "מותג חדש: לבדוק שירות וחלפים באזורך",
+   "ערך שמירה עדיין לא ידוע"
+  ],
+  "confidence": 55,
+  "priceSource": "carzone.co.il/Omoda-Jaecoo/Omoda-7/ (2026-10-23)",
+  "bands": {
+   "7000": {
+    "fuel": 241,
+    "insurance": 516,
+    "maintenance": 194,
+    "depreciation": 1649,
+    "total": 2721
+   },
+   "15000": {
+    "fuel": 517,
+    "insurance": 516,
+    "maintenance": 220,
+    "depreciation": 1649,
+    "total": 3023
+   },
+   "25000": {
+    "fuel": 862,
+    "insurance": 516,
+    "maintenance": 246,
+    "depreciation": 1649,
+    "total": 3394
+   }
+  }
+ },
+ {
   "id": "toyota-corolla-cross-hybrid",
   "make": "Toyota",
   "model": "Corolla Cross Hybrid",
@@ -2090,6 +2273,68 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 314,
     "depreciation": 1376,
     "total": 3691
+   }
+  }
+ },
+ {
+  "id": "tesla-model-3",
+  "make": "Tesla",
+  "model": "Model 3",
+  "trim": "RWD Standard (57.5 kWh)",
+  "bodyType": "sedan",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 594,
+  "powerHp": 283,
+  "consumption": null,
+  "price": 191592,
+  "priceMin": 191592,
+  "priceMax": 293567,
+  "sampleSize": null,
+  "newPrice": 191592,
+  "reliability": 74,
+  "safety": 96,
+  "economy": 96,
+  "comfort": 82,
+  "practicality": 80,
+  "insuranceMin": 737,
+  "insuranceMax": 1040,
+  "why": "הסדאן החשמלי של טסלה: 5 כוכבי Euro NCAP (2025), 283 כ\"ס וסוללה 57.5 קוט\"ש בגרסת הבסיס, צריכה מוצהרת 13 קוט\"ש ל-100 ק\"מ — מהיעילים בשוק. ביטוח ותיקוני פחחות יקרים יחסית.",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "יעיל מאוד בצריכת חשמל",
+   "רשת טעינה מהירה",
+   "תא מטען 594 ליטר"
+  ],
+  "cons": [
+   "ביטוח ותיקונים יקרים",
+   "נסיעה קשיחה יחסית",
+   "רוב הפעולות דרך המסך"
+  ],
+  "confidence": 62,
+  "priceSource": "carzone.co.il/Tesla/Model-3 (2026-10-23)",
+  "bands": {
+   "7000": {
+    "fuel": 54,
+    "insurance": 885,
+    "maintenance": 106,
+    "depreciation": 1756,
+    "total": 2922
+   },
+   "15000": {
+    "fuel": 115,
+    "insurance": 885,
+    "maintenance": 120,
+    "depreciation": 1756,
+    "total": 2997
+   },
+   "25000": {
+    "fuel": 193,
+    "insurance": 885,
+    "maintenance": 134,
+    "depreciation": 1756,
+    "total": 3089
    }
   }
  },

@@ -2235,6 +2235,54 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "sealion-05",
+    "model": "Sealion 05 DM-i",
+    "he": "סי ליון 05 DM-i",
+    "status": "on_sale",
+    "price": [
+     166990,
+     171990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 בנזין + מנוע חשמלי, פלאג-אין, סוללה 12.9/18.3 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 4.2,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "seal-05",
+    "model": "Seal 05 DM-i",
+    "he": "סיל 05 DM-i",
+    "status": "on_sale",
+    "price": [
+     174990,
+     174990
+    ],
+    "gens": [
+     {
+      "code": "HA6",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 בנזין + מנוע חשמלי, פלאג-אין, סוללה 18.3 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 5.1,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -2638,7 +2686,7 @@
     "id": "leon",
     "model": "Leon",
     "he": "לאון",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -3212,7 +3260,7 @@
     "id": "ignis",
     "model": "Ignis",
     "he": "איגניס",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -3271,7 +3319,7 @@
     "id": "jimny",
     "model": "Jimny",
     "he": "ג'ימני",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -4168,6 +4216,27 @@
       "checks": 1
      }
     ]
+   },
+   {
+    "id": "id-buzz",
+    "model": "ID. Buzz",
+    "he": "ID. באז",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "MEB",
+      "from": 2022,
+      "to": null,
+      "engines": "חשמלי, סוללה 77/85 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 23,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -4374,6 +4443,78 @@
        "ev"
       ],
       "cons": 17,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "s6",
+    "model": "S6",
+    "he": "S6",
+    "status": "on_sale",
+    "price": [
+     168888,
+     178888
+    ],
+    "gens": [
+     {
+      "code": "ES39",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 77 קוט\"ש, הנעה אחורית או 4X4",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "s9",
+    "model": "S9",
+    "he": "S9",
+    "status": "on_sale",
+    "price": [
+     189888,
+     198888
+    ],
+    "gens": [
+     {
+      "code": "IS31",
+      "from": 2025,
+      "to": null,
+      "engines": "1.5 טורבו + מנוע חשמלי, פלאג-אין, סוללה 24.7 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "cyberster",
+    "model": "Cyberster",
+    "he": "סייברסטר",
+    "status": "on_sale",
+    "price": [
+     363888,
+     393888
+    ],
+    "gens": [
+     {
+      "code": "EC32",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 77 קוט\"ש, הנעה אחורית או 4X4",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
       "ncap": null,
       "checks": 2
      }
@@ -4693,7 +4834,7 @@
     "id": "glb",
     "model": "GLB",
     "he": "GLB",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -4763,6 +4904,32 @@
       "cons": 19.5,
       "ncap": 5,
       "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "cle",
+    "model": "CLE",
+    "he": "CLE",
+    "status": "on_sale",
+    "price": [
+     399900,
+     519990
+    ],
+    "gens": [
+     {
+      "code": "C236",
+      "from": 2023,
+      "to": null,
+      "engines": "1.5/2.0 טורבו מיילד-היברידי / 2.0 דיזל / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 2
      }
     ]
    }
@@ -5193,6 +5360,93 @@
       "checks": 1
      }
     ]
+   },
+   {
+    "id": "2-series-gran-coupe",
+    "model": "2 Series Gran Coupé",
+    "he": "סדרה 2 גראן קופה",
+    "status": "on_sale",
+    "price": [
+     294900,
+     324900
+    ],
+    "gens": [
+     {
+      "code": "F44",
+      "from": 2020,
+      "to": 2024,
+      "engines": "1.5 טורבו / 2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "F74",
+      "from": 2024,
+      "to": null,
+      "engines": "1.5 טורבו מיילד-היברידי / 2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 4,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "x6",
+    "model": "X6",
+    "he": "X6",
+    "status": "on_sale",
+    "price": [
+     599900,
+     649900
+    ],
+    "gens": [
+     {
+      "code": "E71",
+      "from": 2010,
+      "to": 2014,
+      "engines": "3.0 דיזל / 3.0 טורבו / 4.4 V8",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "F16",
+      "from": 2014,
+      "to": 2019,
+      "engines": "3.0 דיזל / 3.0 טורבו / 4.4 V8",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G06",
+      "from": 2019,
+      "to": null,
+      "engines": "3.0 דיזל / 3.0 טורבו מיילד-היברידי",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -5552,6 +5806,102 @@
       "cons": 11,
       "ncap": 5,
       "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "q6-e-tron",
+    "model": "Q6 e-tron",
+    "he": "Q6 e-tron",
+    "status": "on_sale",
+    "price": [
+     404900,
+     559900
+    ],
+    "gens": [
+     {
+      "code": "PPE",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 83/100 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "model": "Q2",
+    "he": "Q2",
+    "status": "on_sale",
+    "price": [
+     230500,
+     230500
+    ],
+    "gens": [
+     {
+      "code": "GA",
+      "from": 2016,
+      "to": null,
+      "engines": "1.0/1.5 TFSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "a6",
+    "model": "A6",
+    "he": "A6",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "C7",
+      "from": 2011,
+      "to": 2018,
+      "engines": "2.0 TFSI / 2.8 FSI / 3.0 TFSI / היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 8.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "C8",
+      "from": 2018,
+      "to": 2025,
+      "engines": "2.0 TFSI מיילד-היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "C9",
+      "from": 2025,
+      "to": null,
+      "engines": "2.0 TFSI / 3.0 TFSI / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 1
      }
     ]
    }
@@ -7072,7 +7422,7 @@
     "status": "on_sale",
     "price": [
      229900,
-     259900
+     249900
     ],
     "gens": [
      {
@@ -9406,6 +9756,82 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "velar",
+    "model": "Range Rover Velar",
+    "he": "ריינג' רובר וולאר",
+    "status": "on_sale",
+    "price": [
+     530900,
+     586400
+    ],
+    "gens": [
+     {
+      "code": "L560",
+      "from": 2017,
+      "to": null,
+      "engines": "2.0 טורבו / 3.0 טורבו בנזין / דיזל / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 11,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "range-rover-sport",
+    "model": "Range Rover Sport",
+    "he": "ריינג' רובר ספורט",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "L320",
+      "from": 2010,
+      "to": 2013,
+      "engines": "3.0 דיזל / 5.0 V8",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "L494",
+      "from": 2013,
+      "to": 2022,
+      "engines": "3.0 דיזל / 3.0 בנזין / 5.0 V8 / פלאג-אין",
+      "pt": [
+       "diesel",
+       "petrol",
+       "phev"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "L461",
+      "from": 2022,
+      "to": null,
+      "engines": "3.0 דיזל מיילד-היברידי / פלאג-אין / 4.4 V8",
+      "pt": [
+       "diesel",
+       "phev",
+       "petrol"
+      ],
+      "cons": 9,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -9485,6 +9911,27 @@
       "cons": 12,
       "ncap": null,
       "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "taycan",
+    "model": "Taycan",
+    "he": "טייקן",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "9J1",
+      "from": 2019,
+      "to": null,
+      "engines": "חשמלי, סוללה 79–105 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22.5,
+      "ncap": 5,
+      "checks": 2
      }
     ]
    }

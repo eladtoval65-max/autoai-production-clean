@@ -23,7 +23,8 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Skoda: Fabia, Scala, Elroq, Enyaq, Rapid (used), Yeti (used) (2026-10-20)
 - [ ] Skoda: carzone.co.il/Skoda/ brand page could not be read this run — prices taken from model/compare pages; re-check full ranges (Scala shows one priced trim only)
 - [x] BYD: Dolphin Surf, Atto 2, Sealion 7 (2026-10-20)
-- [ ] BYD: Sealion 05 DM-i (₪166,990–171,990, 213 hp per auto.co.il; added to the catalog 2026-10-21, generations.ts still to do), Seal 05 DM-i (₪174,990; carzone says 218 hp, not clear if combined), Atto 2 EV (₪148,990, separate from Atto 2 DM-i)
+- [x] BYD: Sealion 05 DM-i, Seal 05 DM-i (2026-10-23)
+- [ ] BYD: Atto 2 EV (₪148,990) — inside the Atto 2 range; decide whether to list separately
 - [x] Omoda & Jaecoo: Omoda 7, Omoda 9 (2026-10-21)
 - [x] Chery: Tiggo 9 (2026-10-21); FX EV stays inside the FX line (brand page lists FX 146,990–159,990 and FX EV 151,990–173,990)
 - [x] Suzuki: Baleno (used), SX4 (used), Celerio (used) (2026-10-20)
@@ -31,18 +32,22 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Peugeot: Rifter, 308 (used, no longer on price list), 301 (used) (2026-10-20)
 - [ ] Peugeot: e-208; 308 T9/P5 engine outputs to fill
 - [x] Volkswagen: T-Cross, T-Roc (unverified: not on brand page), ID.3, Passat (used), Jetta (used) (2026-10-20)
-- [ ] Volkswagen: ID.Buzz; T-Roc status (model page shows ₪180,000–189,900 but brand page omits it)
+- [x] Volkswagen: ID. Buzz (price null: sources disagree) (2026-10-23)
+- [ ] Volkswagen: T-Roc status (model page shows ₪180,000–189,900 but brand page omits it)
 - [x] MG: MG3, S5 (2026-10-20)
-- [ ] MG: S6, S9, Cyberster; EHS (₪175,888) — decide whether to fold into the HS line
+- [x] MG: S6, S9, Cyberster (2026-10-23)
+- [ ] MG: EHS (₪175,888) — decide whether to fold into the HS line (owner)
 - [x] Mercedes-Benz: GLA (2026-10-20)
 - [x] Mercedes-Benz: CLA, GLB (unverified: not on price list), EQA (price null: sources conflict), EQB (unverified) (2026-10-21)
-- [ ] Mercedes-Benz: CLE; EQA price to settle (carzone card 359,900–409,900, model page 299,000, cartube 379,900–439,900)
+- [x] Mercedes-Benz: CLE (coupé; cabrio noted) (2026-10-23)
+- [ ] Mercedes-Benz: EQA price to settle (carzone card 359,900–409,900, model page 299,000, cartube 379,900–439,900)
 - [x] BMW: 5 Series, X1 (iX1 noted in X1 line) (2026-10-20)
 - [x] BMW: X2 (iX2 noted in X2 line), iX3 (2026-10-21)
-- [ ] BMW: 2 Series Gran Coupé (₪294,900–324,900)
+- [x] BMW: 2 Series Gran Coupé, X6 (2026-10-23)
 - [x] Audi: Q7 (2026-10-20)
 - [x] Audi: A5, Q4 e-tron, Q8 (2026-10-21)
-- [ ] Audi: A6 (₪484,000–629,000; C9 not on Wikipedia yet), Q6 e-tron (₪404,900–559,900 incl. Sportback)
+- [x] Audi: A6 (price null: carzone and cartube disagree), Q6 e-tron (incl. Sportback), Q2 (2026-10-23)
+- [ ] Audi: A6 e-tron (separate model, ₪532,600–659,600 Sportback)
 - [ ] Seat/Cupra: verify current price lists for Ibiza, Ateca, Leon, Tarraco, Born
 
 ## Queue — seen on importer price lists 2026-10-20, not yet covered
@@ -98,5 +103,18 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Xpeng (P7+, G6, P7, G9), Leapmotor (T03, B10, C10), Polestar 2, Smart (#1, #3, #5), Genesis (GV60, GV70, G80, GV80), Mini (Cooper, Countryman, Aceman), Jeep (Avenger, Compass, Wrangler, Grand Cherokee), Fiat (Grande Panda, Doblò), KGM (Tivoli, Torres, Rexton), Isuzu D-Max, Land Rover (Evoque, Discovery Sport, Defender), Porsche (Macan, Cayenne), Alfa Romeo Junior (2026-10-20)
 - [ ] Skywell ET5 (₪166,900–187,900), Dongfeng Box (₪104,900) / Mage PHEV (₪149,900), Voyah Courage (₪175,900–190,900) / Free (₪399,985) / Dream (₪429,985) — researched 2026-10-20, not yet added (run limit)
 - [ ] Aiways — not researched
-- [ ] Not yet added, seen on price lists 2026-10-20: Xpeng X9 (₪399,990, model page failed); Genesis G90; Mini Cabrio as separate line; Jeep Wrangler 4xe; Fiat Ducato/Scudo/Doblò Cargo (commercial); KGM Musso / Musso EV; Land Rover Range Rover, Range Rover Sport, Velar, Discovery; Porsche Taycan, Panamera, 911, Cayenne Electric; Alfa Romeo Giulia, Stelvio
+- [ ] Not yet added, seen on price lists 2026-10-20: Xpeng X9 (₪399,990, model page failed); Genesis G90; Mini Cabrio as separate line; Jeep Wrangler 4xe; Fiat Ducato/Scudo/Doblò Cargo (commercial); KGM Musso / Musso EV; Land Rover Range Rover, Discovery; Porsche Panamera, 911, Cayenne Electric; Alfa Romeo Giulia, Stelvio
 - [ ] Any other make on carzone.co.il's make list with models on sale
+- [x] Porsche Taycan (price null: sources disagree); Land Rover Range Rover Velar, Range Rover Sport (price null: sources disagree) (2026-10-23)
+
+## Queue — seen on importer price lists 2026-10-23, not yet covered
+- [ ] Deepal (Changan) S05 — in the catalog since 2026-10-23 (batch 16); add the make to generations.ts
+- [ ] Hyundai Elantra N (₪224,900–234,900), Ioniq 5 N (₪409,900); Kia EV6 (cartube 2026 ₪309,900, not on carzone — owner)
+- [ ] Genesis G90 (₪849,900–899,900); GV70 Electrified as separate line?
+- [ ] Toyota City / ProAce / ProAce Verso (commercial)
+- [ ] VW Golf GTI (₪304,900), Taigo, ID.5, ID.7 (cartube only); Cupra Tavascan (cartube only); Skoda Octavia RS (₪249,990) fold?
+- [ ] Porsche Cayenne Coupé (₪797,000–1,797,000) fold into Cayenne?; Cayenne EV Coupé
+- [ ] Peugeot e-3008 (₪258,990), e-5008 (₪294,990); Alfa Romeo Giulia (₪339,990), Stelvio (₪369,990); Citroën C4 X (₪129,990)
+- [ ] MINI Cabrio (₪266,900–321,900); KGM Musso EV (₪239,900–259,900), Musso (₪274,900); XPENG X9 (₪399,990)
+- [ ] BMW 2 Coupé, iX1, iX2, 4 Series, X4, X7, 7 Series / i7, Z4, M models; Mercedes GLC Coupé, EQE, EQE SUV, GLS, S-Class, G-Class, SL
+- [ ] Leapmotor B10 PHEV (₪154,900–164,900) — fold into B10 (owner)
