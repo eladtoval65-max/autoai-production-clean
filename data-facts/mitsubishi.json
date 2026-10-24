@@ -278,6 +278,19 @@
               "url": "https://www.carcomplaints.com/Mitsubishi/Mirage_G4/2017/tsbs/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 80,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Mitsubishi Mirage G4 (שם האטראז׳ בארה״ב): ממוצעי שנתונים 2017–2021 של 36–41 mpg ≈ 6.3 ל׳/100 ק״מ",
+              "url": "https://www.fuelly.com/car/mitsubishi/mirage_g4"
+            }
+          }
         ]
       }
     },

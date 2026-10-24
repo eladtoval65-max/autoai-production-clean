@@ -389,6 +389,32 @@
             }
           }
         ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: צינור הבלם האחורי השמאלי עלול להינזק בהרכבה ולדלוף נוזל בלמים, וזה פוגע בבלימה. לחפש סימני דליפה ליד הגלגל האחורי השמאלי ולוודא שבוצעה הקריאה",
+            "level": "recall",
+            "scope": "שנת דגם 2023 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki JYB S-Cross (SSR30, Dec 2024)",
+              "url": "https://australiancar.reviews/?p=101979"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו מיילד-היברידי",
+            "pt": "hybrid",
+            "hp": 129,
+            "cons": 5.96,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — SX4 S-Cross Hybrid Gasoline 90–100 kW, 2021–2025, manual (52 vehicles; includes some 2021 previous-gen mild hybrids)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/1481-SX4_S-Cross.html?fueltype=10&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=90&power_e=100&gearing=1"
+            }
+          }
+        ]
       }
     },
     "jimny": {

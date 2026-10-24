@@ -154,6 +154,52 @@
             }
           }
         ]
+      },
+      "Mk8": {
+        "issues": [
+          {
+            "he": "ריקול: שירות החירום eCall עלול לא לפעול — תיקון בעדכון תוכנה ליחידת התקשורת; לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Volkswagen Golf 2020–present reliability",
+              "url": "https://whatcar.com/volkswagen/golf/hatchback/used-review/n23128/reliability"
+            }
+          },
+          {
+            "he": "ריקול: חיישני תאונה בדלתות הקדמיות (כריות אוויר) עלולים להיות פגומים — נבדקים ומוחלפים; לבדוק שאין נורית כרית אוויר דולקת",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Volkswagen Golf 2020–present reliability",
+              "url": "https://whatcar.com/volkswagen/golf/hatchback/used-review/n23128/reliability"
+            }
+          },
+          {
+            "he": "כשליש מהתקלות בסקר הבעלים במולטימדיה ובחשמל: מסך מגע איטי או קורס, הודעות אזהרה אחרי עדכוני תוכנה — לבדוק את המסך לאורך הנסיעה ולוודא שהתוכנה מעודכנת",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volkswagen Golf 2020–present reliability",
+              "url": "https://whatcar.com/volkswagen/golf/hatchback/used-review/n23128/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (eTSI היברידי מתון)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "Fleet World — מבחן ארוך טווח Golf 1.5 eTSI 150 DSG, צריכה במבחן 47.2 mpg",
+              "url": "https://fleetworld.co.uk/?p=83245"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/volkswagen-golf---euro-ncap-2019-results---5-stars/s/bc99d968-9e2d-44b2-87af-03e90da97978"
+        }
       }
     },
     "polo": {
@@ -488,6 +534,45 @@
             }
           }
         ]
+      },
+      "Mk3": {
+        "issues": [
+          {
+            "he": "הדור השלישי סיים בתחתית קטגוריה בסקר האמינות של What Car?; התקלות הנפוצות במולטימדיה, בבלמים ובחשמל, ותיקונים ארוכים — לבדוק מסך, חיישנים ובלמים ולבקש היסטוריית טיפולים",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volkswagen Tiguan 2024–present review",
+              "url": "https://www.whatcar.com/volkswagen/tiguan/4x4/used-review/n29000"
+            }
+          },
+          {
+            "he": "דוושת בלם \"חוטפת\" בגרסאות ההיברידיות (מתון ופלאג-אין) בגלל הבלימה הרגנרטיבית — לבדוק תחושת בלימה בנסיעת מבחן",
+            "level": "widely_reported",
+            "scope": "1.5 eTSI, פלאג-אין",
+            "source": {
+              "title": "What Car? — Used Volkswagen Tiguan 2024–present review",
+              "url": "https://www.whatcar.com/volkswagen/tiguan/4x4/used-review/n29000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (eTSI היברידי מתון)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "Auto Express — מבחן ארוך טווח Tiguan 1.5 eTSI 150 DSG, ממוצע 44.1 mpg",
+              "url": "https://www.autoexpress.co.uk/volkswagen/tiguan/369603/volkswagen-tiguan-andy-pringle-long-term-test"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/vw-tiguan---euro-ncap-2024-results---5-stars/s/2cb4fa23-ae1b-408e-8b8c-1fd03133637a"
+        }
       }
     },
     "passat": {
@@ -675,6 +760,19 @@
               "url": "https://cars.walla.co.il/item/2695369"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו היברידי",
+            "pt": "hybrid",
+            "hp": 170,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — 2013 Jetta Hybrid 1.4T 170hp, ממוצע בעלים בפועל 41.3 mpg (US)",
+              "url": "https://www.truedelta.com/Volkswagen-Jetta/mpg-280/2013"
+            }
+          }
         ]
       }
     },
@@ -706,7 +804,128 @@
               "url": "https://www.whatcar.com/volkswagen/t-cross/estate/used-review/n21913/reliability"
             }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — VW T-Cross, ממוצע כל רכבי הבנזין בדגם (481 רכבים, ללא פילוח מנוע)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/1742-T-Cross.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/volkswagen-t-cross---euro-ncap-2019-results---5-stars/s/4c4f1f4e-ea8a-423f-82df-aa86ec55f571"
+        }
+      }
+    },
+    "id-3": {
+      "E11": {
+        "issues": [
+          {
+            "he": "תקלות תוכנה וחשמל נפוצות: מסך מולטימדיה תקוע, נתוני ניווט, אזהרות שווא של חיישני חניה ובלימת תמרון, תקלות בבקרת שיוט אדפטיבית — לוודא שכל עדכוני התוכנה בוצעו",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volkswagen ID.3 2020–present reliability",
+              "url": "https://www.whatcar.com/volkswagen/id3/hatchback/used-review/n23492/reliability"
+            }
+          },
+          {
+            "he": "ריקול: מודול בסוללת המתח הגבוה עלול להיות לא תקין — ירידה בטווח, נורית אזהרה צהובה וסכנת התחממות; לבדוק מצב סוללה (SOH) וביצוע קריאות שירות",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Volkswagen ID.3 2020–present reliability (recall 29/12/2025)",
+              "url": "https://www.whatcar.com/volkswagen/id3/hatchback/used-review/n23492/reliability"
+            }
+          },
+          {
+            "he": "ריקול: כרית אוויר נוסע קדמי עלולה לא להיות מוברגת כראוי — לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Volkswagen ID.3 2020–present reliability (recall 09/03/2023)",
+              "url": "https://www.whatcar.com/volkswagen/id3/hatchback/used-review/n23492/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 58 קוט״ש",
+            "pt": "ev",
+            "hp": 190,
+            "cons": 15.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: ID.3 Neo 140 kW 58 kWh",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 79 קוט״ש",
+            "pt": "ev",
+            "hp": 231,
+            "cons": 16.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: ID.3 Neo 170 kW 79 kWh",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://news.euroncap.com/safercars/id.3-sets-the-tone-for-a-safe-and-clean-future/s/ae66920f-5cd5-4c3e-b6cb-27dca72279f8"
+        }
+      }
+    },
+    "id-4": {
+      "E21": {
+        "issues": [
+          {
+            "he": "ריקול: ידיות הדלת החיצוניות עלולות לחדור אליהן מים, מה שעלול לגרום לפתיחת דלת לא רצויה — ידיות מוחלפות ותוכנה מעודכנת; לוודא ביצוע ולהקשיב לקליקים של נעילה ללא סיבה",
+            "level": "recall",
+            "scope": "שנתונים 2021–2024 (ריקול ראשון 2023, הורחב ב-2024)",
+            "source": {
+              "title": "NHTSA recall 23V-312 (VW 57J5/57J8)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V312-7405.PDF"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 52 קוט״ש (Pure)",
+            "pt": "ev",
+            "hp": 170,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: ID.4 Pure",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 77 קוט״ש (Pro)",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 17.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: ID.4 Pro",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/dacia-aims-low-while--koda--vw-electrify/s/67b94981-1dad-416a-9657-ee51e5ae24e3"
+        }
       }
     }
   }

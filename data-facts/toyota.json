@@ -41,6 +41,19 @@
               "url": "https://www.motorverso.com/recalls/toyota/corolla/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 124,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Toyota Corolla, ממוצע כל הדורות (בנזין, 1,827 רכבים, 7.19 ל׳/100 ק״מ); אין נתון נפרד ל-E150 אוטומטית",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/435-Corolla.html"
+            }
+          }
         ]
       },
       "E170": {
@@ -440,6 +453,19 @@
               "url": "https://australiancar.reviews/?p=47898"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 158,
+            "cons": 9,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — RAV4 בנזין, שנתונים 2008–2012, 111–121 kW, CVT (9.02 ל׳/100 ק״מ, 6 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/440-RAV_4.html?fueltype=2&vehicletype=1&constyear_s=2008&constyear_e=2012&power_s=111&power_e=121&gearing=3"
+            }
+          }
         ]
       }
     },
@@ -754,6 +780,41 @@
             }
           }
         ]
+      },
+      "XV80": {
+        "issues": [
+          {
+            "he": "בורג בתוך הממיר (אינוורטר) של מערכת ההנעה ההיברידית עלול להיות לא מהודק — סכנת אובדן הנעה ואף שריפה. לוודא מול היבואן לפי מספר שלדה אם הרכב כלול ואם בוצע תיקון",
+            "level": "recall",
+            "scope": "קאמרי היברידית 2025–2026 (NHTSA 25V869)",
+            "source": {
+              "title": "NHTSA 25V869 — 2025–2026 Camry Hybrid inverter bolt (owner letter)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2025/RCAK-25V869-6542.pdf"
+            }
+          },
+          {
+            "he": "לוח השעונים הדיגיטלי (7 אינץ׳) עלול להישאר ריק בהתנעה, ואיתו לא פועלים פנסי איתות/מהבהבים וחלק מהצפצופים. לבדוק שהלוח נדלק בכל התנעה ולוודא ביצוע עדכון התוכנה",
+            "level": "recall",
+            "scope": "רכבים עם לוח 7 אינץ׳, ייצור 12/2023–7/2026 (קריאה עולמית)",
+            "source": {
+              "title": "Fox Business — Toyota recalls 655K Camrys globally over display defect",
+              "url": "https://foxbusiness.com/lifestyle/toyota-recalls-655k-camrys-globally-over-display-defect-can-knock-out-safety-indicators"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי",
+            "pt": "hybrid",
+            "hp": 225,
+            "cons": 4.9,
+            "unit": "L",
+            "source": {
+              "title": "Guide Auto — 2025 Toyota Camry test (XLE AWD): צריכה שנמדדה 4.9 ל׳/100 ק״מ; 225 כ״ס בהנעה קדמית",
+              "url": "https://www.guideautoweb.com/en/articles/74159/2025-toyota-camry-eclipsing-the-competition"
+            }
+          }
+        ]
       }
     },
     "prius": {
@@ -883,6 +944,32 @@
             }
           }
         ]
+      },
+      "XW60": {
+        "issues": [
+          {
+            "he": "מתג פתיחת הדלת האחורית (בידית החיצונית) לא אטום מספיק למים — אחרי שטיפה הדלת עלולה להיפתח בנסיעה אם אינה נעולה. לוודא מול היבואן שהמתגים בשתי הדלתות האחוריות הוחלפו",
+            "level": "recall",
+            "scope": "פריוס ופריוס פלאג-אין, ייצור 10/2022–4/2024 (NHTSA 24V274)",
+            "source": {
+              "title": "NHTSA recall report 24V274 — Prius / Prius Prime rear door opener switch",
+              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V274-3413.PDF"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 פלאג-אין היברידי",
+            "pt": "phev",
+            "hp": 223,
+            "cons": 3.3,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2024 Toyota Prius Prime (פריוס פלאג-אין, שוק ארה״ב): 71.11 mpg ממוצע משולב מ-28 רכבים ≈ 3.3 ל׳/100 ק״מ (כולל נסיעה חשמלית)",
+              "url": "https://www1.fuelly.com/car/toyota/prius_prime/2024"
+            }
+          }
+        ]
       }
     },
     "hilux": {
@@ -953,6 +1040,37 @@
           "url": "https://news.euroncap.com/safercars/toyota-hilux---euro-ncap-results-2016/s/33625a6d-fe7a-49a4-92f1-331fafc6d2ff",
           "note": "3 כוכבים בציוד הבטיחות הסטנדרטי, 5 כוכבים עם חבילת בטיחות אופציונלית"
         }
+      },
+      "AN10/AN20 (דור 7)": {
+        "issues": [
+          {
+            "he": "כרית האוויר של הנהג (Takata) — חומר ההנעה עלול להתדרדר ובפתיחה לפזר רסיסים. לוודא מול היבואן לפי מספר שלדה שהמנפח הוחלף",
+            "level": "recall",
+            "scope": "ייצור 1999–2017",
+            "source": {
+              "title": "car-recalls.eu — Toyota Hilux (1999–2017) driver airbag Takata, RAPEX 26/2024",
+              "url": "https://car-recalls.eu/recall/toyota-hilux-1999-2017-driver-airbag-takata/"
+            }
+          },
+          {
+            "he": "תקלה במחולל הגז של כרית הנהג עלולה לגרום לניפוח לא מבוקר — לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "ייצור 2011–2014",
+            "source": {
+              "title": "car-recalls.eu — Toyota Hilux (2011–2014) airbag, RAPEX 31/2017",
+              "url": "https://car-recalls.eu/recall/toyota-hilux-2011-2014/"
+            }
+          },
+          {
+            "he": "כבל הספירלה בעמוד ההגה עלול להיפגע ולנטרל את כרית הנהג — לבדוק שנורית כרית האוויר כבויה ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "שנתונים 2005–2010",
+            "source": {
+              "title": "car-recalls.eu — Toyota Hilux (2005–2010) airbag spiral cable, RAPEX 17/2014",
+              "url": "https://car-recalls.eu/recall/toyota-hilux-2005-2010/"
+            }
+          }
+        ]
       }
     },
     "land-cruiser": {
@@ -1014,6 +1132,43 @@
             "source": {
               "title": "Cars4Starters — 2019MY Toyota Prado GXL review (2.8 diesel, mostly urban test with some dirt driving)",
               "url": "https://cars4starters.com.au/2019my-toyota-prado-gxl/"
+            }
+          }
+        ]
+      }
+    },
+    "aygo-x": {
+      "AB70": {
+        "issues": [
+          {
+            "he": "רצועות פגומות עלולות למנוע פתיחה תקינה של החלק הקדמי של כריות הווילון — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 6.3.2022–5.4.2022 (22SMD-091)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Aygo X (2022) curtain airbags, RAPEX 43/2022",
+              "url": "https://car-recalls.eu/recall/toyota-aygo-x-2022-curtain-airbags/"
+            }
+          },
+          {
+            "he": "מגבר הבלמים עלול לפעול לא תקין ולהאריך את מרחק הבלימה — לבדוק דוושת בלם רכה/קשה בנסיעת מבחן ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "ייצור 30.6.2022–22.8.2022 (22SMD-101)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Aygo X (2022) brake booster, RAPEX 45/2022",
+              "url": "https://car-recalls.eu/recall/toyota-aygo-x-2022-brake-booster/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין",
+            "pt": "petrol",
+            "hp": 72,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Aygo בנזין 2020–2024, 48–58 kW, CVT (4.99 ל׳/100 ק״מ, 9 רכבים; כולל מעט Aygo קודמת)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/773-Aygo.html?fueltype=2&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=48&power_e=58&gearing=3"
             }
           }
         ]

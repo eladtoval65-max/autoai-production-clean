@@ -111,7 +111,20 @@
             "title": "icar — פיג'ו 208 בישראל: החל מ-85,990 שקל (9.2012)",
             "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_208_בישראל:_החל_מ-_85,990_שקל/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 PureTech בנזין 82 כ״ס",
+            "pt": "petrol",
+            "hp": 82,
+            "cons": 6.18,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 208 petrol 55–65 kW manual, 2014–2018 (197 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1281-208.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=55&power_e=65&gearing=1"
+            }
+          }
+        ]
       }
     },
     "301": {
@@ -151,6 +164,19 @@
             "source": {
               "title": "car-recalls.eu — Peugeot 301 (2018–2022) 1.5 BlueHDi camshaft chain, recall MXL",
               "url": "https://car-recalls.eu/recall/peugeot-301-2018-2022-bluehdi-failure/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 HDi דיזל 92 כ״ס",
+            "pt": "diesel",
+            "hp": 92,
+            "cons": 5.13,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 301 diesel 63–73 kW manual, 2011–2015 (only 5 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1350-301.html?fueltype=1&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=63&power_e=73&gearing=1"
             }
           }
         ]
@@ -217,6 +243,148 @@
             "title": "icar — פיג'ו 308 החדשה בישראל, המחיר: מ-132,990 שקלים (9.2014)",
             "url": "https://www.icar.co.il/חדשות_רכב/פיג’ו_308_החדשה_בישראל._המחיר:_מ-132,990_שקלים/"
           }
+        },
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.25,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 308 petrol 91–101 kW automatic, 2014–2018 (75 vehicles)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/36-Peugeot/1041-308.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=91&power_e=101&gearing=2"
+            }
+          }
+        ]
+      },
+      "P5": {
+        "issues": [
+          {
+            "he": "קריאת שירות (MUN): חיבור מהיר במשאבת הדלק בלחץ גבוה עלול לדלוף בתא המנוע — סכנת שריפה. לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "גרסאות מיילד-היברידי ופלאג-אין, ייצור 29.4.2023–13.9.2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 408 / 308 III (2023–2024) fuel leak, recall MUN",
+              "url": "https://car-recalls.eu/recall/peugeot-408-2023-2024-fuel-leak/"
+            }
+          },
+          {
+            "he": "קריאת שירות (MWY): צינור הדלק בלחץ נמוך עלול להתחכך בבורג סליל ההצתה ולדלוף — סכנת שריפה. לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 18.1.2024–28.11.2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 3008/308/408/5008 (2024) fuel line, recall MWY",
+              "url": "https://car-recalls.eu/recall/peugeot-3008-2024-fuel-line/"
+            }
+          },
+          {
+            "he": "קריאת שירות (M4B): ידיות הדלתות הפנימיות עלולות להיות מנוטרלות כשהמנוע פועל, ולמנוע יציאה אחרי תאונה — לבדוק שהידיות הפנימיות פותחות ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.11.2023–9.2.2026",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 408/308/3008/5008 (2023–2026) door handles, recall M4B",
+              "url": "https://car-recalls.eu/recall/peugeot-408-2023-2026-door-handles/"
+            }
+          },
+          {
+            "he": "קריאת שירות (MEQ): מומנט הידוק שגוי בחיבורים מכניים וחשמליים — סכנת אובדן הנעה או שריפה. לבדוק לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 22.8.2022–9.1.2023 (כמות קטנה)",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 308 (2022–2023) incorrect torque, recall MEQ",
+              "url": "https://car-recalls.eu/recall/peugeot-308-2022-2023-accident-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.06,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 308 petrol 91–101 kW automatic, 2019–2023 (48 vehicles; includes late T9)",
+              "url": "https://www.spritmonitor.de/fr/apercu/36-Peugeot/1041-308.html?fueltype=2&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=91&power_e=101&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/peugeot-308---euro-ncap-2022-results---4-stars/s/be79548e-0b6f-4e98-bc10-f0b2496ba796"
+        }
+      }
+    },
+    "408": {
+      "P54": {
+        "issues": [
+          {
+            "he": "קריאת שירות (MUN): חיבור מהיר במשאבת הדלק בלחץ גבוה עלול לדלוף בתא המנוע — סכנת שריפה. לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "גרסאות מיילד-היברידי ופלאג-אין, ייצור 29.4.2023–13.9.2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 408 (2023–2024) fuel leak, recall MUN",
+              "url": "https://car-recalls.eu/recall/peugeot-408-2023-2024-fuel-leak/"
+            }
+          },
+          {
+            "he": "קריאת שירות (MWY): צינור הדלק בלחץ נמוך עלול להתחכך בבורג סליל ההצתה ולדלוף — סכנת שריפה. לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 18.1.2024–28.11.2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 3008/308/408/5008 (2024) fuel line, recall MWY",
+              "url": "https://car-recalls.eu/recall/peugeot-3008-2024-fuel-line/"
+            }
+          },
+          {
+            "he": "קריאת שירות (M4B): ידיות הדלתות הפנימיות עלולות להיות מנוטרלות כשהמנוע פועל, ולמנוע יציאה אחרי תאונה — לבדוק שהידיות פותחות ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.11.2023–9.2.2026",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 408 (2023–2026) door handles, recall M4B",
+              "url": "https://car-recalls.eu/recall/peugeot-408-2023-2026-door-handles/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלת תוכנה עלולה למנוע הצגת אזהרה כשמצלמת הבלימה האוטונומית (AEB) חסומה — לוודא עדכון תוכנה",
+            "level": "recall",
+            "scope": "ייצור 2024",
+            "source": {
+              "title": "CarExpert — Peugeot 308, 3008 and 408 recalled (REC-006716)",
+              "url": "https://www.carexpert.com.au/car-news/peugeot-308-3008-and-408-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.37,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 408 petrol 91–101 kW automatic, 2021–2025 (20 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/36-Peugeot/2083-408.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=91&power_e=101&gearing=2"
+            }
+          },
+          {
+            "name": "1.6 פלאג-אין 225 כ״ס",
+            "pt": "phev",
+            "hp": 225,
+            "cons": 4.83,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 408 plug-in hybrid 160–170 kW, 2021–2025 (16 vehicles; petrol only, excludes electricity)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/2083-408.html?fueltype=6&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=160&power_e=170&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/peugeot-408---euro-ncap-2022-results---4-stars/s/e93836d1-6b7f-4cc4-85ec-f750380c1fd5"
         }
       }
     },
@@ -322,7 +490,20 @@
           "stars": 5,
           "year": 2013,
           "url": "https://news.euroncap.com/images-and-videos/peugeot-2008---euro-ncap-results-2013/s/425a14c7-86bb-46bd-8df1-1c78e8bc8cf7"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 110 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 6.97,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 2008 petrol 77–87 kW automatic, 2014–2018 (44 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1309-2008.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=77&power_e=87&gearing=2"
+            }
+          }
+        ]
       }
     },
     "3008": {
@@ -410,6 +591,59 @@
             }
           }
         ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאת שירות (MU8/MYV): ברגי תושבת מפרק הכדור בזרוע המתלה הקדמית התחתונה עלולים להישבר ולפגוע בהיגוי — לוודא לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 24.7.2023–28.2.2025",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 3008 (2023–2024) suspension arm screws, recalls MU8/MYV",
+              "url": "https://car-recalls.eu/recall/peugeot-3008-2023-2024-suspension-arm-screws-break/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות (MWY): צינור הדלק בלחץ נמוך עלול להתחכך בבורג סליל ההצתה ולדלוף — סכנת שריפה. רלוונטי לגרסאות בנזין/היברידי",
+            "level": "recall",
+            "scope": "ייצור 18.1.2024–28.11.2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 3008 (2024) fuel line, recall MWY",
+              "url": "https://car-recalls.eu/recall/peugeot-3008-2024-fuel-line/"
+            }
+          },
+          {
+            "he": "קריאת שירות (M4B): ידיות הדלתות הפנימיות עלולות להיות מנוטרלות כשהמנוע פועל — לבדוק שהידיות הפנימיות פותחות ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.11.2023–9.2.2026",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 408/308/3008/5008 (2023–2026) door handles, recall M4B",
+              "url": "https://car-recalls.eu/recall/peugeot-408-2023-2026-door-handles/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלת תוכנה עלולה למנוע הצגת אזהרה כשמצלמת הבלימה האוטונומית (AEB) חסומה — לוודא עדכון תוכנה",
+            "level": "recall",
+            "scope": "ייצור 2024",
+            "source": {
+              "title": "CarExpert — Peugeot 308, 3008 and 408 recalled (REC-006716)",
+              "url": "https://www.carexpert.com.au/car-news/peugeot-308-3008-and-408-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "e-3008 חשמלי 210 כ״ס (73 קוט״ש)",
+            "pt": "ev",
+            "hp": 211,
+            "cons": 19.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Peugeot e-3008 73 kWh (real range 235 mi / 378 km on 73 kWh usable ≈ 19.3 kWh/100km; 17.1 mild – 22.7 cold)",
+              "url": "https://ev-database.org/imp/car/2003/Peugeot-e-3008-73-kWh"
+            }
+          }
+        ]
       }
     },
     "5008": {
@@ -459,7 +693,20 @@
             "title": "icar — פיג'ו 5008 החדשה בישראל: מ-180,000 שקל (12.2017)",
             "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_5008_החדשה_בישראל:_מ-180,000_שקל/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 8.01,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 5008 petrol 91–101 kW automatic, 2016–2020 (29 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1174-5008.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=91&power_e=101&gearing=2"
+            }
+          }
+        ]
       }
     },
     "rifter": {
@@ -499,6 +746,19 @@
             "source": {
               "title": "What Car? — Used Peugeot Rifter 2018-present reliability",
               "url": "https://whatcar.com/peugeot/rifter/estate/used-review/n19921/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 BlueHDi דיזל 130 כ״ס",
+            "pt": "diesel",
+            "hp": 130,
+            "cons": 6.47,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Rifter diesel (AdBlue) 91–101 kW manual, 2018–2022 (16 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/36-Peugeot/1713-Rifter.html?fueltype=8&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=91&power_e=101&gearing=1"
             }
           }
         ]

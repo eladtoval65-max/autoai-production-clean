@@ -1,0 +1,147 @@
+{
+  "make": "honda",
+  "updated": "2026-10-24",
+  "models": {
+    "jazz": {
+      "GK": {
+        "issues": [
+          {
+            "he": "קריאת שירות: המדחף של משאבת הדלק יוצר בצפיפות נמוכה, ועלול להיסדק או להתעוות. המשאבה מפסיקה לעבוד, והמנוע כבה בנסיעה או לא מתניע. בבדיקה: לוודא שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "ייצור 2017–2019 (קוד הונדה 6FE)",
+            "source": {
+              "title": "car-recalls.eu — Honda Jazz (2017–2019) fuel pump (6FE, RAPEX A12/01906/24); UK DVSA R/2020/186",
+              "url": "https://car-recalls.eu/recall/honda-jazz-2017-2019-fuel-pump/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.3 בנזין",
+            "pt": "petrol",
+            "hp": 102,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda Jazz 1.3 (GK) 75 kW: real-world average from 293 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-Jazz/Jazz/jazz-1-3-gk_42111/verbrauch/"
+            }
+          }
+        ]
+      },
+      "GR": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תוכנה פגומה גורמת לכך שמערכות עזר לנהג (המצלמה הקדמית) לא תמיד מופעלות כראוי אחרי ההתנעה. התיקון: עדכון תוכנה. בבדיקה: לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 01/2020–01/2021 (בריטניה, אוגוסט 2022)",
+            "source": {
+              "title": "Auto Express — Used Honda Jazz (Mk4, 2020-date) review: recalls",
+              "url": "https://auth.autoexpress.co.uk/honda/jazz/363028/used-honda-jazz-mk4-2020-date-review-reliable-supermini-plenty-space"
+            }
+          },
+          {
+            "he": "חלק מהבעלים דיווחו על תקלות חשמל קטנות במערכת המולטימדיה ובמזגן. בבדיקה: לבדוק את המסך, את המצלמה ואת קירור המזגן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Honda Jazz 2020-present reliability",
+              "url": "https://www.whatcar.com/honda/jazz/hatchback/used-review/n24519/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 היברידי e:HEV (נתון מגרסת 107 כ״ס, 2023+)",
+            "pt": "hybrid",
+            "hp": 107,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda Jazz 1.5 Hybrid (GR) 79 kW, 2023+: real-world average from 48 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-Jazz/Jazz/jazz-1-5-hybrid-gr_50417/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://news.euroncap.com/safercars/the-stars-align-for-mazda-mx-30-and-honda-jazz/s/e0119180-47d5-4e75-b7a7-99588d6d4876"
+        }
+      }
+    },
+    "civic": {
+      "FK7 (דור 10)": {
+        "issues": [
+          {
+            "he": "דלק עלול לחדור לשמן המנוע ולדלל אותו, בעיקר בנסיעות קצרות ובמזג אוויר קר. הסימנים: מפלס שמן שעולה, ריח דלק בתא הנוסעים, ולעתים גמגום או כיבוי. הונדה הוציאה עדכון תוכנה והאריכה את האחריות בארה״ב. בבדיקה: לבדוק את מפלס השמן וריח הדלק בשמן, ולוודא שהעדכון בוצע.",
+            "level": "manufacturer",
+            "scope": "1.5 טורבו, 2016–2018",
+            "source": {
+              "title": "Consumer Reports — Honda extends warranty on troubled turbo engines (2016–18 Civic 1.5T oil dilution)",
+              "url": "https://www.consumerreports.org/car-recalls-defects/honda-extends-warranty-on-troubled-turbo-engines"
+            }
+          },
+          {
+            "he": "קריאת שירות: רכיב במשאבת הדלק עלול להתנפח בגלל פגם ייצור. המשאבה מפסיקה לעבוד והמנוע כבה בנסיעה. בבדיקה: לוודא שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "2018–2019 (קוד הונדה 6FE)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Honda FC1/FC6 Civic (campaign 6FE, REC-000585); also car-recalls.eu 6FE covers Civic",
+              "url": "https://www.australiancar.reviews/?p=46933"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 182,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda Civic 1.5 (FK) 134 kW, 2018–2022: real-world average from 102 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-Civic/Civic/civic-1-5-fk_46708/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "hr-v": {
+      "RU": {
+        "issues": [
+          {
+            "he": "קריאת שירות: צמת החוטים בתא הנוסעים עלולה לא להיות מקובעת כראוי ליד שלדת הצד השמאלי ומגדל המתלה. החוטים עלולים להישחק, ואז יש קצר והמנוע עלול לכבות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 29.9.2014–19.4.2018 (RAPEX A12/1261/18)",
+            "source": {
+              "title": "car-recalls.eu — Honda HR-V (2014–2018) wiring harness (RAPEX 35/2018, A12/1261/18)",
+              "url": "https://car-recalls.eu/listing/honda-hr-v-2014-2018/"
+            }
+          },
+          {
+            "he": "קריאת שירות: רכיב במשאבת הדלק עלול להתנפח בגלל פגם ייצור. המשאבה מפסיקה לעבוד והמנוע כבה בנסיעה. בבדיקה: לוודא שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "שנות דגם 2018–2020 (קוד הונדה 6FE)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Honda RU5 HR-V (campaign 6FE, REC-000585)",
+              "url": "https://australiancar.reviews/?p=46954"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 בנזין",
+            "pt": "petrol",
+            "hp": 131,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda HR-V 1.5 (RU) 96 kW, 2015–2019: real-world average from 331 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-HR-V/HR-V/hr-v-1-5-ru_42109/verbrauch/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -771,6 +771,70 @@
           }
         ]
       }
+    },
+    "cx-90": {
+      "KK": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תיבת ההגה עלולה לגרום להכבדה פתאומית של ההגה. בבדיקה: לוודא שהקריאה בוצעה, ולשים לב בנסיעת המבחן אם ההגה מכביד פתאום.",
+            "level": "recall",
+            "scope": "2023 (אוסטרליה R202401)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mazda KK CX-90 (R202401 / REC-005882)",
+              "url": "https://australiancar.reviews/?p=98718"
+            }
+          },
+          {
+            "he": "קריאת שירות: המערכת מזהה בטעות חפצים מחזירי אור בצד הדרך ובולמת בלי צורך במהירות נמוכה. התיקון: עדכון תוכנה. בבדיקה: לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "2023 (אוסטרליה R202404)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mazda KK CX-90 (R202404 / REC-005973)",
+              "url": "https://australiancar.reviews/?p=98718"
+            }
+          },
+          {
+            "he": "קריאת שירות: המנוע עלול לא להתניע מחדש אחרי עצירה אוטומטית (i-stop), ותוכנה פגומה עלולה להדליק נורות אזהרה ולשבש את התראת החגורות ואת המצלמות. התיקון: עדכון תוכנה למחשבי המנוע, הסוללה והלוח. בבדיקה: לוודא שהעדכונים בוצעו.",
+            "level": "recall",
+            "scope": "3.3 טורבו בנזין מיילד-היברידי, 2023–2024",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mazda KK CX-90 (REC-006173); Carscoops — three CX-90 recalls (Nov 2024)",
+              "url": "https://australiancar.reviews/?p=98718"
+            }
+          },
+          {
+            "he": "קריאת שירות: נורות תקלה עלולות להידלק בנסיעה, והרכב נכנס למצב חירום עם הספק מוגבל (קוד P061B). התיקון: תכנות מחדש של מחשבי המנוע. בבדיקה: לוודא שהקריאה בוצעה ושאין נורות דולקות.",
+            "level": "recall",
+            "scope": "שנת דגם 2024 (ארה״ב)",
+            "source": {
+              "title": "Carscoops — Mazda issues three CX-90 recalls on the same day (Nov 2024)",
+              "url": "https://www.carscoops.com/2024/11/mazda-issues-three-cx-90-recalls-on-the-same-day/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מחשב המרכב עלול להציג מפלס דלק שגוי, כך שהנהג לא שם לב שהמכל ריק והמנוע מאבד כוח פתאום. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "3.3 בנזין, 2023–2025 (אוסטרליה R202504)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mazda KK CX-90 (R202504 / REC-006434)",
+              "url": "https://australiancar.reviews/?p=98718"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.3 טורבו בנזין 6 צילינדרים מיילד-היברידי",
+            "pt": "petrol",
+            "hp": 340,
+            "cons": 9.7,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide — 2024 Mazda CX-90 3.3 Turbo S AWD test drive: observed 24.2 mpg (US) over 207 miles, 65% city (= 9.7 L/100km)",
+              "url": "https://blog.consumerguide.com/test-drive-2024-mazda-cx-90/"
+            }
+          }
+        ]
+      }
     }
   }
 }

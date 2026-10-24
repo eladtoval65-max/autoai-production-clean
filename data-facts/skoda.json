@@ -265,6 +265,37 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קודיאק-בישראל-מחיר-174990-שקל"
           }
         }
+      },
+      "PS": {
+        "issues": [
+          {
+            "he": "ריקול: קצה מסגרת המושב הקדמי עלול לפגוע בכרית האוויר הצדדית בעת פתיחתה — מותקן מגן נגד שפשוף; לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 08/2024–12/2025",
+            "source": {
+              "title": "Car-Recalls.eu — KBA 16172R (72SG): Skoda Kodiaq side airbag",
+              "url": "https://car-recalls.eu/es/skoda-recalls-50000-kodiaqs-over-side-airbag-issues-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (היברידי מתון)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Kodiaq 1.5 TSI 150 e-Tec DSG long-term test report 6: ממוצע 40.0 mpg",
+              "url": "https://www.whatcar.com/news/skoda-kodiaq-long-term-test-report-6/n27715"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/-koda-kodiaq---euro-ncap-2024-results---5-stars/s/91c4ea1a-27a1-49b7-8b23-40ddd176095a"
+        }
       }
     },
     "karoq": {
@@ -686,6 +717,24 @@
             }
           }
         ]
+      },
+      "B9": {
+        "issues": [
+          {
+            "he": "ריקול: כרית האוויר של הנוסע הקדמי — מכסה מחולל הגז עלול להיקרע בתאונה; לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "מספר קטן של רכבים, 2025",
+            "source": {
+              "title": "What Car? — Used Skoda Superb 2024–present reliability (recall 09/07/2025)",
+              "url": "https://www.whatcar.com/skoda/superb/hatchback/used-review/n29184/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/images-and-videos/-koda-superb---euro-ncap-2024-results---5-stars/s/3ae9f756-08aa-4560-bf22-77fd26e098a2"
+        }
       }
     },
     "rapid": {
@@ -917,6 +966,39 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7567/euroncap_skoda_yeti_2009_5stars.pdf"
+        }
+      }
+    },
+    "elroq": {
+      "MEB": {
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 59 קוט״ש (60)",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: Škoda Elroq 60",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 77 קוט״ש (85)",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: Škoda Elroq 85",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/-koda-elroq---euro-ncap-2025-results---5-stars/s/b090ea92-05cc-415c-bc11-10af5f9fda36"
         }
       }
     }

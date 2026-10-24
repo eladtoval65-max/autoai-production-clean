@@ -324,6 +324,19 @@
               "url": "https://australiancar.reviews/?p=47056"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.25 / 1.4 בנזין",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i20, gasoline average 6.29 L/100km (1,264 vehicles; all-generations model average, not PB-only)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1128-i20.html"
+            }
+          }
         ]
       }
     },
@@ -522,6 +535,19 @@
             "source": {
               "title": "Gebrauchtwagenberater — Hyundai i10 I PA 2008-2013 Probleme und Schwachstellen",
               "url": "https://gebrauchtwagenberater.de/hyundai-i10-mk1-probleme/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.1 / 1.2 בנזין",
+            "pt": "petrol",
+            "hp": 69,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i10, gasoline average 6.11 L/100km (1,179 vehicles; all-generations model average, not PA-only)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1079-i10.html"
             }
           }
         ]
@@ -1118,6 +1144,37 @@
             }
           }
         ]
+      },
+      "SX2 EV": {
+        "issues": [
+          {
+            "he": "קמפיין שירות (לא ריקול): טעינה בעמדת AC ביתית עלולה להיפסק מוקדם או לרדת לקצב נמוך — לוודא שבוצע עדכון תוכנת הטעינה ולבדוק טעינה בעמדה.",
+            "level": "manufacturer",
+            "scope": "2024–2025 (ארה״ב)",
+            "source": {
+              "title": "Recharged — 2024 Hyundai Kona Electric recalls list (VCMS charging software campaign)",
+              "url": "https://recharged.com/articles/2024-hyundai-kona-electric-recalls-list"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 65.4 קוט״ש",
+            "pt": "ev",
+            "hp": 215,
+            "cons": 17,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai Kona Electric 65 kWh, real-range combined 273 Wh/mi (~170 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1830/Hyundai-Kona-Electric-65-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2023,
+          "url": "https://news.euroncap.com/images-and-videos/all/hyundai-kona---euro-ncap-2023-results---4-stars/s/8f489793-0cc1-4801-a788-d97aa89a5c1c"
+        }
       }
     },
     "santa-fe": {
@@ -1194,7 +1251,71 @@
               "url": "https://www.consumerreports.org/cars/hyundai/santa-fe/2013/reliability/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 197,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Santa Fe, diesel average 8.81 L/100km (366 vehicles; all-generations model average, not DM-only)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/185-Santa_Fe.html"
+            }
+          }
         ]
+      },
+      "MX5": {
+        "issues": [
+          {
+            "he": "ריקול: רתמת החיווט של כרית האוויר הצדדית מתחת לספסל האחורי עלולה להימחץ בקיפול/כיוון המושב, והכרית עלולה לא להיפתח או להיפתח שלא לצורך — לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנת דגם 2024, ייצור מרץ–יולי 2024",
+            "source": {
+              "title": "car-recalls.eu — Hyundai Santa Fe MX5 (2024) wiring harness / seat airbag (Safety Gate 42/2024, Hyundai 41D130)",
+              "url": "https://car-recalls.eu/it/recall/hyundai-santa-fe-mx5-2024-wiring-harness-seat-airbag/"
+            }
+          },
+          {
+            "he": "ריקול: תקלת תוכנה עלולה לגרום ללוח המחוונים להפסיק להציג מהירות, מפלס דלק ואזהרות — לוודא שעודכנה התוכנה.",
+            "level": "recall",
+            "scope": "שנת דגם 2025 (אוסטרליה, 2026)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai MX5 Santa Fe (61D052, instrument cluster software)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-mx5-santa-fe-2024/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו היברידי",
+            "pt": "hybrid",
+            "hp": 215,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Santa Fe, hybrid gasoline average 7.47 L/100km (23 vehicles; covers TM and MX5 hybrids, not MX5-only)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/185-Santa_Fe.html"
+            }
+          },
+          {
+            "name": "1.6 טורבו פלאג-אין",
+            "pt": "phev",
+            "hp": 253,
+            "cons": 4.8,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Santa Fe, plug-in hybrid average 4.77 L/100km fuel only (46 vehicles; covers TM and MX5 PHEVs, not MX5-only)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/185-Santa_Fe.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/hyundai-santa-fe---euro-ncap-2024-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/4078f035-3622-4c2c-932f-79f76ca98ff4"
+        }
       }
     },
     "sonata": {
@@ -1229,6 +1350,122 @@
             "source": {
               "title": "Green Car Reports — 2015 Hyundai Sonata 2.4 gas mileage review (30.4 mpg US over 362 miles, ~2/3 highway; single test car)",
               "url": "https://www.greencarreports.com/news/1093734_2015-hyundai-sonata-gas-mileage-review-of-new-mid-size-sedan"
+            }
+          }
+        ]
+      },
+      "YF": {
+        "issues": [
+          {
+            "he": "ריקול מנוע: שאריות שבבי מתכת מייצור גל הארכובה עלולות לחסום שימון למיסבי טלטלים — נקישות מתכתיות מחזוריות ועד כשל מנוע. לבדוק שאין נקישות מהמנוע ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2.0 טורבו / 2.4 GDI, 2011–2012 (ארה״ב, NHTSA 15V568)",
+            "source": {
+              "title": "NHTSA 15V568000 via Justia — 2011 Hyundai Sonata engine (connecting rod bearings)",
+              "url": "https://auto-recalls.justia.com/hyundai/sonata/2011/15v568000"
+            }
+          },
+          {
+            "he": "ריקול: מפרקי הציר הביניים בעמוד ההגה עלולים להיות מורכבים או מהודקים לא כראוי — סכנת אובדן שליטה בהגה. לבדוק שאין חופש או נקישות בהגה ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2011 (ארה״ב, ספטמבר 2010)",
+            "source": {
+              "title": "Consumer Reports — 2011 Hyundai Sonata reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata/2011/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: כבל ההעברה של תיבת ההילוכים עלול להתנתק — ההילוך בפועל לא תואם את התצוגה והרכב עלול להתגלגל בחניה. לבדוק שבורר ההילוכים מגיע ל-P בבירור ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2011–2012 (ארה״ב, 2014)",
+            "source": {
+              "title": "Consumer Reports — 2011 Hyundai Sonata reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata/2011/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: מעגל ההגה החשמלי עלול להיכשל ולגרום לאובדן סיוע ההגה — לבדוק שאין נורת אזהרה ושההגה קל ואחיד.",
+            "level": "recall",
+            "scope": "2011, ייצור דצמבר 2009–אוקטובר 2010 (ארה״ב)",
+            "source": {
+              "title": "Consumer Reports — 2011 Hyundai Sonata reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata/2011/reliability/"
+            }
+          },
+          {
+            "he": "בעלים מדווחים על תקלות במולטימדיה/בלוטות׳, בעיות מיזוג ותיבה שמחליקה — לבדוק את המסך, המזגן והעברות הילוכים בנסיעת מבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Consumer Reports — 2011 Hyundai Sonata reliability (owner-reported trouble spots)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata/2011/reliability/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 בנזין",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — Hyundai Sonata real-world fuel economy, 2011 2.4L I4 (6-sp manual row) 7.82 L/100km",
+              "url": "https://www.truedelta.com/Hyundai-Sonata/mpg-121&gas_unit=3"
+            }
+          },
+          {
+            "name": "2.4 היברידי",
+            "pt": "hybrid",
+            "hp": 206,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — Hyundai Sonata real-world fuel economy, 2012 Hybrid 7.24 L/100km",
+              "url": "https://www.truedelta.com/Hyundai-Sonata/mpg-121&gas_unit=3"
+            }
+          }
+        ]
+      },
+      "DN8": {
+        "issues": [
+          {
+            "he": "ריקול: שסתום אל-חוזר פגום עלול להכניס אוויר למיכל הדלק, המיכל נוגע במערכת הפליטה החמה ועלול להינמס — סכנת שריפה. לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2020–2023 (ארה״ב, NHTSA 25V796)",
+            "source": {
+              "title": "Consumer Reports — 2020 Hyundai Sonata reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata/2020/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: תפס תא המטען עלול להינזק ולא לאפשר פתיחה מבפנים — לבדוק שהתפס והידית הפנימית פועלים.",
+            "level": "recall",
+            "scope": "2020 כולל היברידית (ארה״ב, NHTSA 22V196)",
+            "source": {
+              "title": "Consumer Reports — 2020 Hyundai Sonata Hybrid reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata-hybrid/2020/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: מערכת החניה המרוחקת (RSPA) עלולה לא למנוע תזוזה לא מכוונת בתקלה — לוודא עדכון תוכנה.",
+            "level": "recall",
+            "scope": "2020 עם Remote Smart Parking Assist (ארה״ב)",
+            "source": {
+              "title": "Consumer Reports — 2020 Hyundai Sonata reliability (recalls, NHTSA 20V213)",
+              "url": "https://www.consumerreports.org/cars/hyundai/sonata/2020/reliability/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בנזין",
+            "pt": "petrol",
+            "hp": 191,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — Hyundai Sonata real-world fuel economy, 2021 2.5L I4 7.1 L/100km",
+              "url": "https://www.truedelta.com/Hyundai-Sonata/mpg-121&gas_unit=3"
             }
           }
         ]
