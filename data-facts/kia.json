@@ -755,6 +755,123 @@
           }
         }
       }
+    },
+    "sorento": {
+      "דור 3": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בחלק מגרסאות הדיזל מחמם ה-PTC עלול להתחמם יתר על המידה בגלל מגע פגום במחבר. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דיזל",
+            "source": {
+              "title": "What Car? — Used Kia Sorento 2015-2020 reliability",
+              "url": "https://www.whatcar.com/kia/sorento/4x4/used-review/n811/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינור הדלק בלחץ נמוך שמותקן על המנוע עלול לדלוף. בבדיקה: להריח ריח סולר בתא המנוע ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דיזל",
+            "source": {
+              "title": "What Car? — Used Kia Sorento 2015-2020 reliability",
+              "url": "https://www.whatcar.com/kia/sorento/4x4/used-review/n811/reliability"
+            }
+          },
+          {
+            "he": "במנוע 2.4 GDI יש מאות תלונות בארה״ב על צריכת שמן מוגברת ועל נזק למנוע ואפילו תפיסה. בבדיקה: לבדוק את מפלס השמן, להקשיב לנקישות מהמנוע ולבקש היסטוריית טיפולים מלאה.",
+            "level": "widely_reported",
+            "scope": "2.4 GDI (תלונות לשנתון 2016 בארה״ב)",
+            "source": {
+              "title": "CarComplaints — 2016 Kia Sorento engine problems (NHTSA complaints)",
+              "url": "https://www.carcomplaints.com/Kia/Sorento/2016//engine/engine.shtml"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל 200 כ״ס",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Kia Sorento 2.2 CRDi AWD (UM) 147 kW, 2014–2021 (1,252 user reports)",
+              "url": "https://www.autokostencheck.de/Kia/Kia-Sorento/Sorento/sorento-2-2-crdi-allrad-um_39944/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "ev6": {
+      "CV": {
+        "issues": [
+          {
+            "he": "קריאת שירות: יחידת הטעינה המשולבת (ICCU) עלולה להינזק ולהפסיק לטעון את מצבר ה-12V. המצבר מתרוקן, ובמקרה הגרוע הרכב מאבד כוח הנעה. בארה״ב הקריאה הוצאה פעמיים. בבדיקה: לוודא מול היבואן שה-ICCU טופל או הוחלף ולשאול על תקלות מצבר 12V.",
+            "level": "recall",
+            "scope": "2022–2024",
+            "source": {
+              "title": "CarComplaints — Kia EV6 ICCU recall issued a second time (SC327)",
+              "url": "https://m.carcomplaints.com/news/2024/kia-ev6-iccu-recall.shtml"
+            }
+          },
+          {
+            "he": "קריאת שירות (2022): תנודת מתח כשהרכב כבוי וחונה עלולה לשחרר זמנית את נעילת החניה. התיקון הוא עדכון תוכנה ליחידת בורר ההילוכים (SCU). בבדיקה: לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Kia EV6 2021-present reliability",
+              "url": "https://whatcar.com/kia/ev6/estate/used-review/n25914/reliability"
+            }
+          },
+          {
+            "he": "בעלים מדווחים על תקלות במולטימדיה, במצבר 12V, בשקע הטעינה ובכניסה ללא מפתח, ולפעמים צריך כמה ביקורים במוסך. בבדיקה: לבדוק טעינה בעמדה מהירה ובשקע ביתי, ולנסות את הכניסה ללא מפתח.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia EV6 2021-present reliability",
+              "url": "https://whatcar.com/kia/ev6/estate/used-review/n25914/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 58 קוט\"ש",
+            "pt": "ev",
+            "hp": 168,
+            "cons": 17.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia EV6 Standard Range 2WD (2021–2024), real-world 177 Wh/km",
+              "url": "https://ev-database.org/car/1480/Kia-EV6-Standard-Range-2WD"
+            }
+          },
+          {
+            "name": "חשמלי 77.4 קוט\"ש",
+            "pt": "ev",
+            "hp": 225,
+            "cons": 18,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia EV6 Long Range 2WD (2021–2024), real-world 180 Wh/km",
+              "url": "https://ev-database.org/car/1481/Kia-EV6-Long-Range-2WD"
+            }
+          },
+          {
+            "name": "חשמלי 84 קוט\"ש",
+            "pt": "ev",
+            "hp": 225,
+            "cons": 17.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia EV6 Long Range 2WD (MY25), real-world 176 Wh/km",
+              "url": "https://ev-database.org/car/3028/Kia-EV6-Long-Range-2WD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/all/kia-ev6---euro-ncap-2022-results---5-stars/s/08e150a9-e2e5-431d-9644-27ed060929b5"
+        }
+      }
     }
   }
 }

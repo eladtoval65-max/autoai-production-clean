@@ -295,6 +295,36 @@
             }
           }
         ]
+      },
+      "PB": {
+        "issues": [
+          {
+            "he": "מגע פגום במתג אורות הבלם עלול לגרום לאורות בלם שלא נדלקים, קושי בהתנעה, השבתת שיוט ובאוטומטית — קושי לצאת מ-P; התיקון: החלפת המגע. לבדוק שאורות הבלם עובדים.",
+            "level": "manufacturer",
+            "scope": "עלון שירות 2012 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai PB i20 (TSB June 2012, brake light switch)",
+              "url": "https://australiancar.reviews/?p=47056"
+            }
+          },
+          {
+            "he": "רעידות מצמד בזינוק מעמידה; היצרן הוציא מצמד משופר — בגיר ידני לבדוק זינוק חלק ולשאול אם הוחלף מצמד.",
+            "level": "manufacturer",
+            "scope": "גיר ידני",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai PB i20 (clutch shudder, revised clutch released)",
+              "url": "https://australiancar.reviews/?p=47056"
+            }
+          },
+          {
+            "he": "ירידת לחץ אוויר בצמיגים בגלל ונטילים דולפים — לבדוק לחצי אוויר ומצב הוונטילים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai PB i20 (leaking tyre valves)",
+              "url": "https://australiancar.reviews/?p=47056"
+            }
+          }
+        ]
       }
     },
     "ioniq-6": {
@@ -303,6 +333,50 @@
           "stars": 5,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/hyundai-ioniq-6---euro-ncap-2022-results---5-stars/s/6fa14a30-b70d-4f91-a5cc-258dcf0bc1ae"
+        },
+        "issues": [
+          {
+            "he": "ריקול ICCU: יחידת הטעינה המשולבת עלולה להינזק ולהפסיק לטעון את מצבר ה-12V, מה שעלול לגרום לאובדן כוח הנעה; התיקון — בדיקה/החלפת ה-ICCU והנתיך ועדכון תוכנה. לוודא מול היבואן שבוצע.",
+            "level": "recall",
+            "scope": "דגמי 2023–2024 (ארה״ב, NHTSA 24V-204) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA recall 24V-204 — Hyundai IONIQ 5/IONIQ 6 ICCU",
+              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V204-6233.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 53 קוט\"ש",
+            "pt": "ev",
+            "hp": 151,
+            "cons": 14.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 6 Standard Range 2WD (MY23-25), EVDB real range 149 Wh/km",
+              "url": "https://ev-database.org/car/1717/Hyundai-IONIQ-6-Standard-Range-2WD"
+            }
+          },
+          {
+            "name": "חשמלי 77.4 קוט\"ש",
+            "pt": "ev",
+            "hp": 228,
+            "cons": 14.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 6 Long Range 2WD (MY23-25), EVDB real range 149 Wh/km",
+              "url": "https://ev-database.org/car/1718/Hyundai-IONIQ-6-Long-Range-2WD"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 214000,
+          "year": 2023,
+          "note": "רמת גימור Premium, 151 כ״ס, סוללת 53 קוט\"ש",
+          "source": {
+            "title": "auto.co.il — יונדאי איוניק 6 2023 בארץ – מחיר החל מ-214,000 שקלים (8.5.2023)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136173/"
+          }
         }
       }
     },
@@ -422,6 +496,35 @@
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/hyundai-i10---euro-ncap-2020-results---3-stars/s/376ca69d-7289-4db8-9f6e-1d64bfd067b3"
         }
+      },
+      "PA": {
+        "issues": [
+          {
+            "he": "כיוון גובה הפנסים עלול לזוז מעצמו והפנסים מאבדים כיוון — לבדוק את כיוון האורות בבדיקה לפני קנייה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Gebrauchtwagenberater — Hyundai i10 I PA 2008-2013 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/hyundai-i10-mk1-probleme/"
+            }
+          },
+          {
+            "he": "הגה כוח חשמלי: דווח על הגה כבד ונורת אזהרה EPS; גם בבדיקות TÜV מערכת ההיגוי מסומנת לעתים — לבדוק שאין נורת EPS ושההגה קל ואחיד.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Gebrauchtwagenberater — Hyundai i10 I PA 2008-2013 Probleme und Schwachstellen (TÜV/EPS)",
+              "url": "https://gebrauchtwagenberater.de/hyundai-i10-mk1-probleme/"
+            }
+          },
+          {
+            "he": "בגיר ידני: העברות קשות כשהמנוע קר, הילוך אחורי שנכנס בקושי ורעידות/בלאי מהיר במצמד בנסיעה עירונית — לבדוק בנסיעת מבחן.",
+            "level": "widely_reported",
+            "scope": "גיר ידני 5 הילוכים",
+            "source": {
+              "title": "Gebrauchtwagenberater — Hyundai i10 I PA 2008-2013 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/hyundai-i10-mk1-probleme/"
+            }
+          }
+        ]
       }
     },
     "elantra": {
@@ -934,6 +1037,198 @@
             "source": {
               "title": "ClearVIN — 2024 Hyundai Kona recalls (NHTSA 24V308000, also covers certain 2024 Elantra and Venue)",
               "url": "https://www.clearvin.com/car-recalls/hyundai/kona/2024/"
+            }
+          },
+          {
+            "he": "ריקול: מותחני חגורות הבטיחות הקדמיות עלולים להתפוצץ בעת הפעלה ולפזר רסיסים; התיקון — התקנת מכסה על המותחן. לוודא מול היבואן שבוצע.",
+            "level": "recall",
+            "scope": "דגמי 2020–2022 (ארה״ב, NHTSA 22V-458 שהחליף את 21V-796) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ConceptCarz — 2020 Hyundai Venue recall, NHTSA 22V458000 (front seat belt pretensioners)",
+              "url": "https://www.conceptcarz.com/recall/30086/Hyundai-Venue.aspx"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין CVT",
+            "pt": "petrol",
+            "hp": 121,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide — Test drive 2020 Hyundai Venue Denim (35.7 mpg US over 519 miles, 65% highway; single test car, not a fleet average)",
+              "url": "https://blog.consumerguide.com/test-drive-2020-hyundai-venue-denim-edition/"
+            }
+          }
+        ]
+      }
+    },
+    "kona-electric": {
+      "OS EV": {
+        "issues": [
+          {
+            "he": "ריקול סוללה: פגם בתאי הסוללה (LG) שעלול לגרום לקצר ושריפה; התיקון — החלפת מארז הסוללה. חובה לוודא מול היבואן שהסוללה הוחלפה.",
+            "level": "recall",
+            "scope": "יוצרו 28.8.2018–2.3.2020",
+            "source": {
+              "title": "InsideEVs — NHTSA advises Hyundai Kona Electric owners to park outside (battery replacement recall)",
+              "url": "https://insideevs.com/news/497871/nhtsa-hyundai-kona-electric-park-outside/"
+            }
+          },
+          {
+            "he": "תקלת תוכנה שעלולה למנוע פתיחת כריות אוויר בתאונה; התיקון עדכון תוכנה — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "יוצרו 9.5.2018–19.12.2018",
+            "source": {
+              "title": "What Car? — Used Hyundai Kona Electric 2018-2023 reliability",
+              "url": "https://www.whatcar.com/hyundai/kona-electric/hatchback/used-review/n22559/reliability"
+            }
+          },
+          {
+            "he": "בעלים דיווחו על תקלות חשמל — נורות אזהרה ובעיות סוללה, ולעתים המתנה ארוכה לחלקים — לבדוק היסטוריית טיפולים ונורות בלוח.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Hyundai Kona Electric 2018-2023 reliability (owner survey)",
+              "url": "https://www.whatcar.com/hyundai/kona-electric/hatchback/used-review/n22559/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 39.2 קוט\"ש",
+            "pt": "ev",
+            "hp": 136,
+            "cons": 16,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai Kona Electric 39 kWh (MY20-21), EVDB real range 160 Wh/km",
+              "url": "https://ev-database.org/car/1239/Hyundai-Kona-Electric-39-kWh"
+            }
+          },
+          {
+            "name": "חשמלי 64 קוט\"ש",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 16.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai Kona Electric 64 kWh (MY20-21), EVDB real range 164 Wh/km",
+              "url": "https://ev-database.org/car/1204/Hyundai-Kona-Electric-64-kWh"
+            }
+          }
+        ]
+      }
+    },
+    "santa-fe": {
+      "TM": {
+        "issues": [
+          {
+            "he": "ריקול: מערכת החירום eCall לא נרשמה עם מספר השלדה של הרכב; התיקון עדכון אצל היבואן — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "יוצרו 1.9.2020–14.12.2020 (בריטניה)",
+            "source": {
+              "title": "What Car? — Used Hyundai Santa Fe 2018-2024 reliability",
+              "url": "https://www.whatcar.com/hyundai/santa-fe/4x4/used-review/n19303/reliability"
+            }
+          },
+          {
+            "he": "ריקול: ברגי עיגון כריות אוויר הווילון עלולים לפגוע בכרית בעת פתיחתה; התיקון — כיסוי מגן על הברגים. לוודא שבוצע.",
+            "level": "recall",
+            "scope": "דגם 2019 (ארה״ב, NHTSA 18V-715) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2019 Hyundai Santa Fe recalls (NHTSA 18V715000)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/santa-fe/2019/"
+            }
+          },
+          {
+            "he": "ריקול: מים עלולים להצטבר במודול החשמל של וו הגרירה ולגרום לקצר ושריפה; התיקון — נתיך וערכת חיווט. ברכב עם וו גרירה — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "דגמי 2019–2023 עם וו גרירה (ארה״ב, NHTSA 23V-181) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2019 Hyundai Santa Fe recalls (NHTSA 23V181000)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/santa-fe/2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Hyundai Santa Fe 2.2 CRDi long-term test (34 mpg UK average over ~5,050 miles; single car)",
+              "url": "https://www.whatcar.com/news/hyundai-santa-fe-long-term-review/n19136"
+            }
+          }
+        ]
+      },
+      "DM": {
+        "issues": [
+          {
+            "he": "ריקול: יחידת ה-ABS עלולה לדלוף נוזל בלמים ולגרום לקצר ושריפה בתא המנוע — לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "Santa Fe Sport 2013 בארה״ב (ריקול 2023) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Consumer Reports — 2013 Hyundai Santa Fe reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/santa-fe/2013/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: כבל התפס המשני של מכסה המנוע עלול להיתקע, והמכסה עלול להיפתח בנסיעה — לבדוק שהמכסה ננעל היטב ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דגמי 2013–2017 (ארה״ב, ריקול 2017)",
+            "source": {
+              "title": "Consumer Reports — 2013 Hyundai Santa Fe reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/santa-fe/2013/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: חצי סרן קדמי ימני עלול להישבר — אובדן הנעה ורכב חונה עלול להתגלגל — לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "Santa Fe Sport 2.4 הנעה קדמית, 2013 (ארה״ב)",
+            "source": {
+              "title": "Consumer Reports — 2013 Hyundai Santa Fe reliability (recalls)",
+              "url": "https://www.consumerreports.org/cars/hyundai/santa-fe/2013/reliability/"
+            }
+          }
+        ]
+      }
+    },
+    "sonata": {
+      "LF": {
+        "issues": [
+          {
+            "he": "מנועי Theta II GDI 2.0/2.4: שבבי מתכת מייצור גל הארכובה עלולים לגרום לבלאי מסבים — נקישות, נורת לחץ שמן וכיבוי מנוע. לבדוק רעשי מנוע, ולוודא שבוצע עדכון KSDS והאם קיימת הרחבת אחריות.",
+            "level": "manufacturer",
+            "scope": "2.0 / 2.4 GDI",
+            "source": {
+              "title": "The Drive — How to tell if your 2011-2019 Hyundai or Kia engine might fail",
+              "url": "https://www.thedrive.com/guides-and-gear/how-to-tell-if-your-2011-2019-hyundai-or-kia-engine-might-fail"
+            }
+          },
+          {
+            "he": "ריקול: בלאי מוקדם של מסבי טלטל במנוע ההיברידי 2.0 GDI — נקישות ונורת לחץ שמן, ובמקרים חריגים סכנת שריפה; התיקון — בדיקה/החלפת מנוע ועדכון KSDS. לוודא שבוצע.",
+            "level": "recall",
+            "scope": "סונטה היברידית 2016 (ארה״ב, Hyundai recall 198)",
+            "source": {
+              "title": "NHTSA — Hyundai recall 198 (non-crash engine fires), incl. 2016 Sonata Hybrid 2.0 GDI",
+              "url": "https://static.nhtsa.gov/odi/rcl/2020/RCMN-20V746-7654.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 בנזין",
+            "pt": "petrol",
+            "hp": 185,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "Green Car Reports — 2015 Hyundai Sonata 2.4 gas mileage review (30.4 mpg US over 362 miles, ~2/3 highway; single test car)",
+              "url": "https://www.greencarreports.com/news/1093734_2015-hyundai-sonata-gas-mileage-review-of-new-mid-size-sedan"
             }
           }
         ]

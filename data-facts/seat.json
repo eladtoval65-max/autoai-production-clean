@@ -55,6 +55,77 @@
             }
           }
         ]
+      },
+      "6J": {
+        "issues": [
+          {
+            "he": "במנוע 1.2 TSI שרשרת התזמון והמותחן נשחקים, והחלפה נדרשת בערך כל 65–95 אלף ק״מ. בבדיקה: להקשיב לקרקוש בהנעה קרה ולבקש הוכחה להחלפת שרשרת.",
+            "level": "widely_reported",
+            "scope": "1.2 TSI",
+            "source": {
+              "title": "Autocar — Seat Ibiza 2008-2017 used buying guide: reliability",
+              "url": "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability"
+            }
+          },
+          {
+            "he": "במנועי הטורבו הקטנים מפעיל הטורבו האלקטרוני עלול להיכשל אם חודרים מים לשקע שלו, והזרוע שמחברת אותו לטורבו עלולה להיתקע. התוצאה: מצב חירום (לימפ). בבדיקה: נסיעת מבחן עם האצות, ולוודא שאין נורת מנוע.",
+            "level": "widely_reported",
+            "scope": "מנועי טורבו (TSI)",
+            "source": {
+              "title": "Autocar — Seat Ibiza 2008-2017 used buying guide: reliability",
+              "url": "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability"
+            }
+          },
+          {
+            "he": "בדגמי בנזין מוקדמים סלילי ההצתה עלולים להיכשל, והסימן הוא סרק לא יציב ורעידות. בבדיקה: לבדוק שהמנוע עובד חלק בסרק.",
+            "level": "widely_reported",
+            "scope": "בנזין, שנים ראשונות",
+            "source": {
+              "title": "Autocar — Seat Ibiza 2008-2017 used buying guide: reliability",
+              "url": "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability"
+            }
+          },
+          {
+            "he": "הקונדנסר של המזגן והרדיאטור עלולים לדלוף. בבדיקה: לוודא שהמזגן מקרר היטב ואין רעש שריקה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autocar — Seat Ibiza 2008-2017 used buying guide: reliability",
+              "url": "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability"
+            }
+          },
+          {
+            "he": "מנועי חלונות חשמליים עלולים להיכשל, והתיקון הוא החלפת המנוע. בבדיקה: להפעיל את כל החלונות עד הסוף.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autocar — Seat Ibiza 2008-2017 used buying guide: reliability",
+              "url": "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 85 כ״ס",
+            "pt": "petrol",
+            "hp": 85,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Ibiza 1.4 (6J) 63 kW, 2008–2015 (1,733 user reports)",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Ibiza/Ibiza-IV/ibiza-1-4-6j_20686/verbrauch/"
+            }
+          },
+          {
+            "name": "1.2 TSI טורבו בנזין 105 כ״ס",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Ibiza ST 1.2 TSI (6J) 77 kW, 2010–2015 (191 user reports, station-wagon body)",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Ibiza/Ibiza/ibiza-st-1-2-tsi-6j_35747/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "arona": {
@@ -159,6 +230,138 @@
             }
           }
         ]
+      },
+      "KL": {
+        "issues": [
+          {
+            "he": "תקלות נפוצות במערכת המולטימדיה ובאלקטרוניקה, כולל נורות אזהרה בלוח המחוונים, ולפעמים התיקון במוסך לוקח זמן. בבדיקה: להפעיל את המסך, הניווט והבלוטות׳, ולוודא שאין הודעות אזהרה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Seat Leon 2020-present reliability",
+              "url": "https://www.whatcar.com/seat/leon/hatchback/used-review/n23151/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות (בריטניה, 2022): כיסוי המנוע עלול להשתחרר, והתיקון הוא הסרת הכיסוי. נכללו רכבים שיוצרו 10/2020–2/2022. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 10/2020–2/2022",
+            "source": {
+              "title": "Auto Express — Used SEAT Leon (Mk4, 2020-date) review",
+              "url": "https://auth.autoexpress.co.uk/seat/leon/358641/used-seat-leon-mk4-2020-date-review"
+            }
+          },
+          {
+            "he": "קריאת שירות (בריטניה, 2021): חגורות הבטיחות הקדמיות עלולות לא להיות מעוגנות כראוי. נכללו רכבים שיוצרו 9/2020–8/2021. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 9/2020–8/2021",
+            "source": {
+              "title": "Auto Express — Used SEAT Leon (Mk4, 2020-date) review",
+              "url": "https://auth.autoexpress.co.uk/seat/leon/358641/used-seat-leon-mk4-2020-date-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 TSI טורבו בנזין 130 כ״ס",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Leon 1.5 TSI (KL) 96 kW, 2020– (129 user reports)",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Leon/Leon/leon-1-5-tsi-kl_48830/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 TSI טורבו בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Leon 1.5 TSI (KL) 110 kW, 2020– (11 user reports)",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Leon/Leon/leon-1-5-tsi-kl_48832/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://www.euroncap.com/en/results/seat/leon/41397"
+        }
+      }
+    },
+    "ateca": {
+      "KH7": {
+        "issues": [
+          {
+            "he": "במנוע 1.5 TSI עלולות להופיע רעידות (ג׳אדר) בהילוך ראשון. עדכון תוכנה יכול לשפר. בבדיקה: לנסוע לאט ולצאת מעצירה כמה פעמים, ולשאול אם בוצע עדכון.",
+            "level": "widely_reported",
+            "scope": "1.5 TSI (מ-2018)",
+            "source": {
+              "title": "Auto Express — Used SEAT Ateca review",
+              "url": "https://autoexpress.co.uk/seat/ateca/352160/used-seat-ateca-review"
+            }
+          },
+          {
+            "he": "דווחו רעשי קרקוש מתוך הדשבורד שקשה לתקן. בבדיקה: להקשיב לרעשים בנסיעה על כביש משובש.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used SEAT Ateca review",
+              "url": "https://autoexpress.co.uk/seat/ateca/352160/used-seat-ateca-review"
+            }
+          },
+          {
+            "he": "כמה בעלים דיווחו על תקלות בדלת תא מטען חשמלית. בבדיקה: לפתוח ולסגור את הדלת כמה פעמים.",
+            "level": "widely_reported",
+            "scope": "דלת תא מטען חשמלית",
+            "source": {
+              "title": "What Car? — Used Seat Ateca 2016-present reliability",
+              "url": "https://www.whatcar.com/seat/ateca/estate/used-review/n840/reliability"
+            }
+          },
+          {
+            "he": "לדגם היו כמה קריאות שירות בבריטניה (בין היתר: בלם חניה חשמלי, משענות ראש, כריות אוויר, מסגרת מושב הנוסע ודומם מנוע). בבדיקה: לבדוק מול היבואן לפי מספר שלדה שכל הקריאות בוצעו.",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used SEAT Ateca review",
+              "url": "https://autoexpress.co.uk/seat/ateca/352160/used-seat-ateca-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 TSI טורבו בנזין 115 כ״ס",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Ateca 1.0 (5FP) 81 kW, 2020– (32 user reports)",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Ateca/Ateca/ateca-1-0-5fp_49390/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 TSI טורבו בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Ateca 1.5 TSI (5FP) 110 kW, 2018– (1,035 user reports)",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Ateca/Ateca/ateca-1-5-tsi-5fp_46350/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 139900,
+          "year": 2016,
+          "note": "רמת גימור Style, 1.4 TSI 150 כ״ס DSG",
+          "source": {
+            "title": "cartube — סיאט אטקה בישראל: מחיר החל מ-139,900 שקל (5.12.2016)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-אטקה-בישראל-מחיר-החל-מ-139900-שקל"
+          }
+        }
       }
     }
   }

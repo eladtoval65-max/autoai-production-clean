@@ -6,9 +6,9 @@
       "BL": {
         "issues": [
           {
-            "he": "משטח הדשבורד עלול להתפרק בחום ולחות ולהפוך דביק ומבריק. מאזדה הרחיבה את האחריות על הדשבורד. בבדיקה: לגעת בדשבורד ולבדוק אם הוא דביק או מבריק, ולשאול אם הוחלף.",
+            "he": "משטח הדשבורד עלול להתפרק בחום ולחות ולהפוך דביק. מאזדה הרחיבה את האחריות ל-10 שנים לתקלה הזו בלבד (לא לדהייה או עיוות). בבדיקה: לגעת בדשבורד, לבדוק אם הוא דביק, ולשאול אם הוחלף.",
             "level": "manufacturer",
-            "scope": "מאזדה 3 שנת 2010, ייצור 10/2008–4/2010 (בארה״ב)",
+            "scope": "מאזדה 3 שנתון 2010, ייצור 7.10.2008–28.4.2010 (ארה״ב)",
             "source": {
               "title": "Mazda USA — Mazda3 and Mazda6 Warranty Extension Statement (2016)",
               "url": "https://news.mazdausa.com/2016-08-05-Mazda3-and-Mazda6-Warranty-Extension-Statement"
@@ -121,8 +121,8 @@
             "level": "manufacturer",
             "scope": "ייצור 30.4.2015–4.11.2017 (בריטניה)",
             "source": {
-              "title": "What Car? — Used Mazda 3 2014-2019 reliability",
-              "url": "https://whatcar.com/mazda/3/hatchback/used-review/n825/advice"
+              "title": "What Car? — Used Mazda 3 2014-2019 reliability & common problems",
+              "url": "https://www.whatcar.com/mazda/3/hatchback/used-review/n825/reliability"
             }
           }
         ],
@@ -157,12 +157,12 @@
       "BP": {
         "issues": [
           {
-            "he": "קריאת שירות: מערכת הבלימה האוטונומית (SBS) עלולה להפעיל בלימת חירום ללא מכשול — לוודא שבוצע עדכון תוכנה / החלפת לוח מחוונים",
+            "he": "קריאת שירות: תקלת תוכנה במערכת הבלימה האוטונומית (SBS) עלולה לזהות מכשול שלא קיים ולבלום בלימת חירום בנסיעה. התיקון: עדכון תוכנת ה-SBS, ובחלק מהרכבים גם החלפה או תכנות מחדש של לוח המחוונים. בבדיקה: לוודא שקריאה 19V-907 בוצעה.",
             "level": "recall",
-            "scope": "שנתונים 2019–2020",
+            "scope": "בנזין, שנתונים 2019–2020, ייצור 25.9.2018–23.10.2019 (ארה״ב)",
             "source": {
-              "title": "NHTSA recall 19V-907 — Mazda3 Smart Braking System",
-              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCMN-19V907-6051.pdf"
+              "title": "NHTSA 19V-907 — Part 573 Safety Recall Report (Mazda3 Smart Braking System)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V907-6397.PDF"
             }
           },
           {
@@ -193,7 +193,7 @@
             }
           },
           {
-            "he": "בעלים דיווחו על תקלות במסך המולטימדיה ועל התראות שווא מחיישנים. בדרך כלל אלה תקלות קלות שמתוקנות בעדכון תוכנה. בבדיקה: לוודא שהותקנה גרסת התוכנה האחרונה ושאין נורות אזהרה.",
+            "he": "חלק מבעלי גרסאות הבנזין דיווחו על תקלות חשמל מזדמנות, כמו מסך מולטימדיה שלא עובד והתראות חיישנים. לרוב אלה תקלות קלות שנפתרו בקלות, ו-What Car? ממליץ לוודא שהותקן עדכון התוכנה האחרון של המולטימדיה. בבדיקה: לבדוק את המסך ושאין נורות אזהרה.",
             "level": "widely_reported",
             "scope": "בנזין",
             "source": {
@@ -249,7 +249,7 @@
             "scope": "2017–2019",
             "source": {
               "title": "AustralianCar.Reviews — Recalls: Mazda KF CX-5 (R202104)",
-              "url": "https://australiancar.reviews/?p=47275"
+              "url": "https://www.australiancar.reviews/recalls-faults-mazda-kf-cx-5-2017/"
             }
           },
           {
@@ -259,14 +259,6 @@
             "source": {
               "title": "NHTSA 18V-426 — Part 573 Safety Recall Report (CX-5 curtain airbags)",
               "url": "https://static.nhtsa.gov/odi/rcl/2018/RCLRPT-18V426-9049.pdf"
-            }
-          },
-          {
-            "he": "נקישות מדוושת הבלם בלחיצה אחרי שהמנוע מגיע ללחץ עבודה. המקור הוא רעש מהסרבו (מגבר הבלם), שהוחלף. בבדיקה: ללחוץ על הבלם כשהמנוע פועל ולהקשיב.",
-            "level": "widely_reported",
-            "source": {
-              "title": "AustralianCar.Reviews — Recalls & faults: Mazda KF CX-5",
-              "url": "https://australiancar.reviews/?p=47275"
             }
           }
         ],
@@ -304,7 +296,7 @@
             "scope": "2015–2016 (קריאה באוסטרליה R202001 — לבדוק תחולה על הרכב הישראלי)",
             "source": {
               "title": "AustralianCar.Reviews — Recalls & faults: Mazda KE CX-5 (R202001)",
-              "url": "https://australiancar.reviews/?p=47276"
+              "url": "https://www.australiancar.reviews/recalls-faults-mazda-ke-cx-5-2012-16/"
             }
           },
           {
@@ -313,7 +305,7 @@
             "scope": "PRA 2016/15630 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
             "source": {
               "title": "AustralianCar.Reviews — Recalls & faults: Mazda KE CX-5 (PRA 2016/15630)",
-              "url": "https://australiancar.reviews/?p=47276"
+              "url": "https://www.australiancar.reviews/recalls-faults-mazda-ke-cx-5-2012-16/"
             }
           },
           {
@@ -322,7 +314,7 @@
             "scope": "2012–2013, ייצור עד 11.11.2013 (TSB 05-004/14)",
             "source": {
               "title": "AustralianCar.Reviews — Recalls & faults: Mazda KE CX-5 (TSB 05-004/14)",
-              "url": "https://australiancar.reviews/?p=47276"
+              "url": "https://www.australiancar.reviews/recalls-faults-mazda-ke-cx-5-2012-16/"
             }
           },
           {
@@ -331,7 +323,7 @@
             "scope": "Skyactiv-G, ייצור עד 1.12.2013 (TSB 01-010/14)",
             "source": {
               "title": "AustralianCar.Reviews — Recalls & faults: Mazda KE CX-5 (TSB 01-010/14)",
-              "url": "https://australiancar.reviews/?p=47276"
+              "url": "https://www.australiancar.reviews/recalls-faults-mazda-ke-cx-5-2012-16/"
             }
           },
           {
@@ -340,7 +332,7 @@
             "scope": "2012–2013, ייצור עד 25.6.2013 (TSB 09-041/15)",
             "source": {
               "title": "AustralianCar.Reviews — Recalls & faults: Mazda KE CX-5 (TSB 09-041/15)",
-              "url": "https://australiancar.reviews/?p=47276"
+              "url": "https://www.australiancar.reviews/recalls-faults-mazda-ke-cx-5-2012-16/"
             }
           }
         ],
@@ -349,11 +341,11 @@
             "name": "2.5 בנזין 184 כ״ס (נתון אמריקאי לשנתון 2014, רוב הרכבים 2.5)",
             "pt": "petrol",
             "hp": 184,
-            "cons": 8.92,
+            "cons": 8.9,
             "unit": "L",
             "source": {
-              "title": "Fuelly — 2014 Mazda CX-5, 26.38 US MPG avg ≈ 8.92 L/100km (551 vehicles, mostly 2.5L)",
-              "url": "https://www.fuelly.com/car/mazda/cx-5/2014"
+              "title": "Fuelly — 2014 Mazda CX-5, 26.43 US MPG avg ≈ 8.90 L/100km (545 vehicles, mostly 2.5L)",
+              "url": "https://www.fuelly.com/car/mazda/cx-5/2014?page=2"
             }
           }
         ],
@@ -444,10 +436,10 @@
           {
             "he": "קריאת שירות בפלאג-אין: תקלת תוכנה עלולה להכניס את הרכב למצב חירום ולגרום לאובדן הנעה. בבדיקה: לוודא שעדכון התוכנה בוצע.",
             "level": "recall",
-            "scope": "פלאג-אין 2023 (קריאה באוסטרליה R202302 — לבדוק תחולה על הרכב הישראלי)",
+            "scope": "פלאג-אין, שנתון 2023 (קריאה באוסטרליה R202302, 766 רכבים — לבדוק תחולה על הרכב הישראלי)",
             "source": {
-              "title": "AustralianCar.Reviews — Recalls & faults: Mazda KH CX-60 (R202302)",
-              "url": "https://australiancar.reviews/?p=98725"
+              "title": "vehiclerecalls.gov.au — REC-005820 (R202302), Mazda CX-60 (KH) PHEV 2023: fail-safe mode, loss of motive power",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005820"
             }
           },
           {
@@ -460,12 +452,12 @@
             }
           },
           {
-            "he": "קריאת שירות בדיזל: תוכנת בקר התיבה עלולה להשאיר את המצמד מנותק אחרי האטה, ואז הרכב לא נוסע כשלוחצים על הגז. בבדיקה: לוודא שעדכון בקר התיבה בוצע.",
+            "he": "קריאת שירות בדיזל: תקלת תוכנה בבקר התיבה עלולה להשאיר את המצמד בין המנוע למנוע החשמלי מנותק אחרי בלימה חזקה, ואז הרכב לא נוסע כשלוחצים על הגז. בבדיקה: לוודא שעדכון בקר התיבה בוצע.",
             "level": "recall",
-            "scope": "3.3 דיזל 2023–2024 (קריאה באוסטרליה 202405 — לבדוק תחולה)",
+            "scope": "דיזל, 2023–2024 (קריאה באוסטרליה R202405 — לבדוק תחולה על הרכב הישראלי)",
             "source": {
-              "title": "AustralianCar.Reviews — Recalls & faults: Mazda KH CX-60 (202405)",
-              "url": "https://australiancar.reviews/?p=98725"
+              "title": "vehiclerecalls.gov.au — REC-006046 (R202405), Mazda CX-60 (KH) / CX-90 (KK) diesel 2023–2024 transmission control module",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006046"
             }
           }
         ],
@@ -508,10 +500,10 @@
           {
             "he": "קריאת שירות בדיזל: פיח מצטבר בשסתום סגירת היניקה. התוצאות: אובדן כוח, נורות אזהרה, ובמקרה הגרוע כיבוי המנוע. התיקון: בדיקה, החלפת חלקים ועדכון תוכנה. בבדיקה: לוודא שקריאה R201912 בוצעה.",
             "level": "recall",
-            "scope": "2.2 דיזל, 2012–2018 (קריאה באוסטרליה — לבדוק תחולה על הרכב הישראלי)",
+            "scope": "2.2 דיזל, 2012–2018 (GJ/GL; קריאה באוסטרליה R201912 — לבדוק תחולה על הרכב הישראלי)",
             "source": {
-              "title": "AustralianCar.Reviews — Recalls, faults & TSBs: Mazda GJ Mazda6 (R201912, PRA 2019/17867)",
-              "url": "https://australiancar.reviews/?p=47297"
+              "title": "ACCC Product Safety — Mazda diesel intake shutter valve recall (Mazda3 BM, Mazda6 GJ/GL, CX-5 KE/KF, 2012–2018)",
+              "url": "https://www.productsafety.gov.au/node/19990"
             }
           },
           {
@@ -582,19 +574,37 @@
           {
             "he": "קריאת שירות: המדחף של משאבת הדלק בלחץ נמוך עלול להתעוות. המשאבה מפסיקה לעבוד והמנוע כבה בנסיעה. בבדיקה: לוודא שהמשאבה הוחלפה.",
             "level": "recall",
-            "scope": "2017–2019",
+            "scope": "ייצור 18.10.2017–6.9.2019 (קריאה אירופית AM039A)",
             "source": {
-              "title": "AustralianCar.Reviews — Recalls & faults: Mazda DK CX-3 (R202104)",
+              "title": "car-recalls.eu — Mazda CX-3 (2017–2019) low-pressure fuel pump (AM039A, RAPEX A12/00177/22)",
+              "url": "https://car-recalls.eu/recall/mazda-cx-3-2017-low-pressure-fuel-pump/"
+            }
+          },
+          {
+            "he": "קריאת שירות: על כיפות בולמי הגז של דלת תא המטען נמרח צבע לא מתאים. הכיפה עלולה להחליד ולהיסדק. בבדיקה: לוודא שהקריאה בוצעה ולבדוק אם יש חלודה על הבולמים.",
+            "level": "recall",
+            "scope": "PRA 2016/15630 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Mazda DK CX-3 (PRA 2016/15630)",
               "url": "https://www.australiancar.reviews/?p=47274"
+            }
+          },
+          {
+            "he": "קריאת שירות: תפס פגום בצינור הבלמים (רכבים שיוצרו במאי 2016). בבדיקה: לוודא שהקריאה בוצעה, ולבדוק את מפלס נוזל הבלמים ואם יש סימני דליפה ליד הגלגלים.",
+            "level": "recall",
+            "scope": "ייצור מאי 2016 (בריטניה, קריאה מיולי 2017)",
+            "source": {
+              "title": "Auto Express — Used Mazda CX-3 (Mk1, 2015-2020) review: recalls",
+              "url": "https://www.autoexpress.co.uk/mazda/cx-3/interior"
             }
           },
           {
             "he": "קריאת שירות: פגם בצמת החוטים של מצלמת הרוורס גורם לתמונה מעוותת או מהבהבת. בבדיקה: לשלב לרוורס ולבדוק את התמונה, ולוודא שהקריאה בוצעה.",
             "level": "recall",
-            "scope": "2016–2021",
+            "scope": "2015–2020 (קריאה באוסטרליה R202301 — לבדוק תחולה על הרכב הישראלי)",
             "source": {
-              "title": "ClearVIN — 2018 Mazda CX-3 recalls (NHTSA 23V-487)",
-              "url": "https://www.clearvin.com/car-recalls/mazda/cx-3/2018/"
+              "title": "vehiclerecalls.gov.au — REC-005733 (R202301), Mazda3 (BM/BN) & CX-3 (DK) rear-view camera harness",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005733"
             }
           },
           {
@@ -607,10 +617,10 @@
             }
           },
           {
-            "he": "בעלים רבים דיווחו על תקלות במזגן, ויש מקרים שבהם המערכת הוחלפה באחריות. בבדיקה: לוודא שהמזגן מקרר היטב ולבדוק את היסטוריית התיקונים.",
+            "he": "בעלים רבים דיווחו על תקלות במזגן, והסוכנויות החליפו מערכות באחריות. בבדיקה: לוודא שהמזגן מקרר היטב ולבדוק בהיסטוריית הטיפולים אם המערכת הוחלפה.",
             "level": "widely_reported",
             "source": {
-              "title": "Auto Express — Used Mazda CX-3 (Mk1, 2015-2020) review",
+              "title": "Auto Express — Used Mazda CX-3 (Mk1, 2015-2020) review: what should you look out for?",
               "url": "https://www.autoexpress.co.uk/mazda/cx-3/interior"
             }
           }
@@ -700,7 +710,66 @@
             "title": "auto.co.il — מאזדה 2 החדשה בארץ (3.6.2015)",
             "url": "https://www.auto.co.il/articles/car-news/111645/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 בנזין (גרסת 90 כ״ס אירופית)",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mazda 2 1.5 (DJ1) 66 kW, 2014– (878 user reports; Israeli 1.5 version has higher output)",
+              "url": "https://www.autokostencheck.de/Mazda/Mazda-2/Mazda-2/mazda-2-1-5-dj1_39916/verbrauch/"
+            }
+          }
+        ]
+      },
+      "DE": {
+        "issues": [
+          {
+            "he": "קריאת שירות קריטית (אוסטרליה): מנפח כרית האוויר של טקאטה עלול להתפוצץ בפתיחה ולפזר רסיסי מתכת. בבדיקה: לוודא לפי מספר שלדה שהמנפח הוחלף. אם לא — לא לנסוע עד ההחלפה.",
+            "level": "recall",
+            "scope": "Mazda2 DE (PRA 2016/15522)",
+            "source": {
+              "title": "ACCC Product Safety — Mazda2 (DE) Takata airbag inflator recall PRA 2016/15522",
+              "url": "https://www.productsafety.gov.au/node/9492"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): הזרועות שמגביהות את מושב הנהג (הגבהה ידנית) עלולות להישבר או להשתחרר, והמושב נוטה. בבדיקה: לבדוק שהמושב יציב ולא מקרקש, ולוודא שקריאה 17V-082 בוצעה.",
+            "level": "recall",
+            "scope": "2011 (ארה״ב)",
+            "source": {
+              "title": "ClearVIN — 2011 Mazda2 recalls (NHTSA 17V082000)",
+              "url": "https://www.clearvin.com/es/car-recalls/mazda/mazda2/2011"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 בנזין 103 כ״ס",
+            "pt": "petrol",
+            "hp": 103,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mazda 2 1.5 (DE) 76 kW, 2007–2010 (151 user reports)",
+              "url": "https://www.autokostencheck.de/Mazda/Mazda-2/Mazda-2/mazda-2-1-5-de_13500/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 בנזין 102 כ״ס (מתיחת פנים)",
+            "pt": "petrol",
+            "hp": 102,
+            "cons": 6.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mazda 2 1.5 (DEE) 75 kW, 2011–2014 (38 user reports)",
+              "url": "https://www.autokostencheck.de/Mazda/Mazda-2/Mazda-2/mazda-2-1-5-dee_36709/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

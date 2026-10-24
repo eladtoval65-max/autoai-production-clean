@@ -64,6 +64,45 @@
             }
           }
         ]
+      },
+      "J10": {
+        "issues": [
+          {
+            "he": "קריאת שירות לבורג הגה שעלול להיות חלש מדי — ההגה עלול להיתלש מעמוד ההגה; לוודא לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנת דגם 2012 (ייצור פברואר–מאי 2012)",
+            "source": {
+              "title": "car-recalls.eu — Nissan Qashqai / Qashqai+2 (J10) 2012: steering wheel bolts",
+              "url": "https://car-recalls.eu/recall/nissan-qashqai-qashqai2-2012/"
+            }
+          },
+          {
+            "he": "קריאת שירות ליחידת הבקרה של ההגה הכוח החשמלי — סיוע ההגה עלול להיעלם פתאום ונורית אזהרה נדלקת; לוודא שהיחידה הוחלפה",
+            "level": "recall",
+            "scope": "ייצור 10/2010–02/2011",
+            "source": {
+              "title": "Auto Bild — Rückruf Nissan Qashqai/X-Trail (EPS-Steuergerät)",
+              "url": "https://www.autobild.de/artikel/nissan-qashqai-x-trail-rueckruf-2773190.html"
+            }
+          },
+          {
+            "he": "קריאת שירות לצינור בלמים שעלול להתחכך בתיבת ה-CVT ולדלוף — לבדוק מפלס נוזל בלמים ונורית אזהרה, ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "2.0 בנזין עם CVT, ייצור 08/2010–02/2011",
+            "source": {
+              "title": "Auto Bild — Rückruf Nissan Qashqai (Bremsleitung, 2.0 CVT)",
+              "url": "https://www.autobild.de/artikel/nissan-qashqai-rueckruf-1870626.html"
+            }
+          },
+          {
+            "he": "בולמי זעזועים אחוריים שחוקים — נקישות ורעשים מאחור; להקשיב בנסיעת מבחן על כביש משובש",
+            "level": "widely_reported",
+            "source": {
+              "title": "WhoCanFixMyCar — Common problems with the Nissan Qashqai",
+              "url": "https://www.whocanfixmycar.com/advice/nissan-qashqai-common-problems"
+            }
+          }
+        ]
       }
     },
     "juke": {
@@ -115,6 +154,35 @@
             "source": {
               "title": "Spritmonitor — Juke petrol 81–91 kW manual, 2010–2014 (74 vehicles)",
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/1210-Juke.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=81&power_e=91&gearing=1"
+            }
+          }
+        ]
+      },
+      "F16": {
+        "issues": [
+          {
+            "he": "קריאת שירות לגב המושב האחורי שעלול לא להינעל אחרי קיפול — לבדוק שהמושב ננעל היטב",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Nissan Juke 2019–2025 reliability",
+              "url": "https://www.whatcar.com/nissan/juke/hatchback/used-review/n22637/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות לכרית האוויר של הנהג שעלולה להיקרע בעת הפתיחה — לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Nissan Juke 2019–2025 reliability",
+              "url": "https://www.whatcar.com/nissan/juke/hatchback/used-review/n22637/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות לתוכנת מערכת ההנעה ההיברידית — לוודא שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "היברידי",
+            "source": {
+              "title": "What Car? — Used Nissan Juke 2019–2025 reliability",
+              "url": "https://www.whatcar.com/nissan/juke/hatchback/used-review/n22637/reliability"
             }
           }
         ]
@@ -178,6 +246,285 @@
           "year": 2017,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/nissan-micra---euro-ncap-results-2017/s/c4637b21-bc54-4049-9863-31d3b2db16a7"
         }
+      },
+      "K13": {
+        "issues": [
+          {
+            "he": "קריאת שירות לכרית האוויר של הנהג — עלולה לא להיפתח כראוי; לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 2010–2012",
+            "source": {
+              "title": "What Car? — Used Nissan Micra 2010–2016 review",
+              "url": "https://www.whatcar.com/nissan/micra/hatchback/used-review/n809/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות לתקלה במחשב המנוע שעלולה לגרום להאצה קצרה לא מכוונת — לוודא שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "ייצור 2010–2015",
+            "source": {
+              "title": "What Car? — Used Nissan Micra 2010–2016 review",
+              "url": "https://www.whatcar.com/nissan/micra/hatchback/used-review/n809/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות לכפתור ההתנעה שעלול להיתקע — לבדוק שהכפתור חוזר למקומו אחרי התנעה",
+            "level": "recall",
+            "scope": "דגמים עם כפתור התנעה, ייצור 06/2013–03/2015",
+            "source": {
+              "title": "What Car? — Used Nissan Micra 2010–2016 review",
+              "url": "https://www.whatcar.com/nissan/micra/hatchback/used-review/n809/advice"
+            }
+          },
+          {
+            "he": "תיבת CVT רגישה להזנחה — דורשת החלפת שמן כל 3 שנים; לבקש הוכחה לטיפולים ולבדוק שאין רעידות או גמגום",
+            "level": "widely_reported",
+            "scope": "CVT",
+            "source": {
+              "title": "What Car? — Used Nissan Micra 2010–2016 review",
+              "url": "https://www.whatcar.com/nissan/micra/hatchback/used-review/n809/advice"
+            }
+          },
+          {
+            "he": "זרועות מתלה תחתונות ותותביהן נשחקים מוקדם — להקשיב לנקישות מקדימה ולבדוק על הרמה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Nissan Micra 2010–2016 review",
+              "url": "https://www.whatcar.com/nissan/micra/hatchback/used-review/n809/advice"
+            }
+          }
+        ]
+      }
+    },
+    "x-trail": {
+      "T32": {
+        "issues": [
+          {
+            "he": "קריאת שירות לבולמי הגז של דלת תא המטען שעלולים להחליד ולהיסדק — לבדוק שהדלת נשארת פתוחה ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "ייצור 04/2014–12/2015",
+            "source": {
+              "title": "What Car? — Used Nissan X-Trail 2014–2022 reliability",
+              "url": "https://www.whatcar.com/nissan/x-trail/4x4/used-review/n827/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות לחיישן חמצן פגום ועדכון תוכנה למחשב המנוע — לוודא ביצוע אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 04/2015–06/2016",
+            "source": {
+              "title": "What Car? — Used Nissan X-Trail 2014–2022 reliability",
+              "url": "https://www.whatcar.com/nissan/x-trail/4x4/used-review/n827/advice"
+            }
+          },
+          {
+            "he": "נוריות ABS ו-ESP נדלקות ללא סיבה — לרוב בגלל מגע לקוי בכבל ההארקה של תושבת המנוע השמאלית; לבדוק שאין נוריות דולקות",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Nissan X-Trail Mk3 common problems (2014–2021)",
+              "url": "https://uk.haynes.com/de/blogs/tips-tutorials/nissan-x-trail-mk3-common-problems-2014-2021"
+            }
+          },
+          {
+            "he": "מזגן שמפסיק לקרר פתאום (תקלה ביחידת בקרת המיזוג) — לבדוק שהמזגן מקרר היטב לאורך כל הנסיעה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Nissan X-Trail Mk3 common problems (2014–2021)",
+              "url": "https://uk.haynes.com/de/blogs/tips-tutorials/nissan-x-trail-mk3-common-problems-2014-2021"
+            }
+          },
+          {
+            "he": "התנעה קשה עם נורית מנוע (חיישן גל זיזים / טורבו) — לבדוק התנעה קרה ולסרוק תקלות שמורות",
+            "level": "widely_reported",
+            "scope": "2.0 dCi",
+            "source": {
+              "title": "Haynes — Nissan X-Trail Mk3 common problems (2014–2021)",
+              "url": "https://uk.haynes.com/de/blogs/tips-tutorials/nissan-x-trail-mk3-common-problems-2014-2021"
+            }
+          }
+        ]
+      }
+    },
+    "note": {
+      "E12": {
+        "issues": [
+          {
+            "he": "קריאת שירות לכרית אוויר עם מחולל גז פגום שעלולה לא להיפתח בתאונה — לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 08/2016–10/2016",
+            "source": {
+              "title": "ÖAMTC — Rückruf Nissan Note/Pulsar: Airbag löst möglicherweise nicht aus",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/nissan-note-pulsar-airbag-loest-moeglicherweise-nicht-aus-18345133"
+            }
+          },
+          {
+            "he": "קריאת שירות ליחידת ה-ABS ששאריות ייצור עלולות לחסום בה שסתום — לוודא ביצוע ושאין נורית ABS דולקת",
+            "level": "recall",
+            "scope": "ייצור 04/2016",
+            "source": {
+              "title": "ÖAMTC — Rückruf Nissan Note: ABS-Steuerventil kann blockiert werden",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/nissan-note-abs-steuerventil-kann-blockiert-werden-18348011"
+            }
+          },
+          {
+            "he": "תקלות מתלים וחשמל (כולל חשמל מנוע בחלק מדגמי הבנזין) מדווחות בסקרי אמינות — לבדוק רעשי מתלים ותקינות כל המערכות החשמליות",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Nissan Note 2013–2017 reliability",
+              "url": "https://www.whatcar.com/nissan/note/hatchback/used-review/n999/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2013,
+          "url": "https://news.euroncap.com/find-a-car/star-rating/nissan-note---euro-ncap-results-2013/s/7023351c-1fd2-4428-983e-108bafafc893"
+        }
+      }
+    },
+    "leaf": {
+      "ZE1": {
+        "issues": [
+          {
+            "he": "קריאת שירות ללוחית בתיבה שעלולה למנוע נעילת חניה (P) — הרכב עלול לזוז כשהוא חונה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "ייצור 07–09/2019",
+            "source": {
+              "title": "Auto Express — Used Nissan Leaf (Mk2, 2018–date) review",
+              "url": "https://www.autoexpress.co.uk/nissan/leaf/356628/used-nissan-leaf-mk2-2018-date-review"
+            }
+          },
+          {
+            "he": "קריאת שירות למודול בקרת הרכב — במקרים נדירים האצה לא מכוונת אחרי ניתוק בקרת השיוט; לוודא שעדכון בוצע",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Nissan Leaf 2018–2024 reliability",
+              "url": "https://www.whatcar.com/nissan/leaf/hatchback/used-review/n18923/reliability"
+            }
+          },
+          {
+            "he": "טעינה מהירה מואטת כשהסוללה מתחממת (במיוחד אחרי טעינה מהירה קודמת באותו יום) — חשוב באקלים חם; לבדוק שעודכנה התוכנה",
+            "level": "manufacturer",
+            "scope": "דגמים מוקדמים",
+            "source": {
+              "title": "What Car? — Used Nissan Leaf 2018–2024 reliability",
+              "url": "https://www.whatcar.com/nissan/leaf/hatchback/used-review/n18923/reliability"
+            }
+          },
+          {
+            "he": "תקלות חשמל ונוריות אזהרה ללא סיבה ברורה — לבדוק את כל המערכות ולבדוק את בריאות הסוללה (למשל באפליקציית LeafSpy)",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Nissan Leaf (Mk2, 2018–date) review",
+              "url": "https://www.autoexpress.co.uk/nissan/leaf/356628/used-nissan-leaf-mk2-2018-date-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 40 קוט\"ש",
+            "pt": "ev",
+            "hp": 150,
+            "cons": 16.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Nissan LEAF 40 kWh (MY18-22), EVDB real-range consumption 166 Wh/km",
+              "url": "https://ev-database.org/de/pkw/1106/Nissan-LEAF-40-kWh"
+            }
+          },
+          {
+            "name": "חשמלי 62 קוט\"ש (e+)",
+            "pt": "ev",
+            "hp": 217,
+            "cons": 17.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Nissan LEAF e+ 62 kWh (MY19-22), EVDB real-range consumption 281 Wh/mi (~175 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1144/Nissan-LEAF-eplus-62-kWh"
+            }
+          }
+        ]
+      },
+      "ZE0/AZE0": {
+        "issues": [
+          {
+            "he": "מצב הסוללה הוא העיקר — לבדוק קצב התרוקנות והאם נטענת עד הסוף; החלפת סוללה יקרה מאוד",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Nissan Leaf 2011–2018 reliability",
+              "url": "https://www.whatcar.com/nissan/leaf/hatchback/used-review/n823/reliability"
+            }
+          },
+          {
+            "he": "דגמים ללא משאבת חום (לפני עדכון 2013 ורמת Visia) — טווח נמוך מאוד בחורף עם חימום; לבדוק אם יש משאבת חום",
+            "level": "widely_reported",
+            "scope": "לפני עדכון 2013 / Visia",
+            "source": {
+              "title": "What Car? — Used Nissan Leaf 2011–2018 reliability",
+              "url": "https://www.whatcar.com/nissan/leaf/hatchback/used-review/n823/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 24 קוט\"ש",
+            "pt": "ev",
+            "hp": 109,
+            "cons": 16.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Nissan LEAF 24 kWh (MY14-17), EVDB real-range consumption 163 Wh/km",
+              "url": "https://ev-database.org/car/1019/Nissan-Leaf-24-kWh"
+            }
+          },
+          {
+            "name": "חשמלי 30 קוט\"ש",
+            "pt": "ev",
+            "hp": 109,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Nissan LEAF 30 kWh (MY15-17), EVDB real-range consumption 165 Wh/km",
+              "url": "https://ev-database.org/car/1020/Nissan-Leaf-30-kWh"
+            }
+          }
+        ]
+      }
+    },
+    "sentra": {
+      "B17": {
+        "issues": [
+          {
+            "he": "עלון שירות של ניסאן לרעידות (judder) בתיבת ה-CVT וקודי תקלה בתיבה — לבדוק בנסיעת מבחן שאין רעידות בהאצה וסריקת תקלות",
+            "level": "manufacturer",
+            "scope": "CVT, 2013–2017",
+            "source": {
+              "title": "CarComplaints — Nissan TSB NTB17-034h (CVT judder), 2013 Sentra",
+              "url": "https://www.carcomplaints.com/Nissan/Sentra/2013/tsb/tsb-ntb17-034h.shtml"
+            }
+          },
+          {
+            "he": "כשל יקר בתיבת ה-CVT הוא התלונה הנפוצה ביותר — לבקש היסטוריית טיפולים לתיבה ולהימנע מרכב עם גמגום, החלקה או רעש",
+            "level": "widely_reported",
+            "scope": "CVT",
+            "source": {
+              "title": "CarComplaints — 2013 Nissan Sentra problems (141 transmission complaints)",
+              "url": "https://m.carcomplaints.com/Nissan/Sentra/2013"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 בנזין, CVT",
+            "pt": "petrol",
+            "cons": 8.28,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2016 Nissan Sentra, all versions (mostly 1.8), 28.42 US MPG, 77 vehicles (US data, converted)",
+              "url": "https://www1.fuelly.com/car/nissan/sentra/2016?page=3"
+            }
+          }
+        ]
       }
     }
   }

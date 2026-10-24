@@ -71,6 +71,89 @@
             "url": "https://cars.walla.co.il/item/2614534"
           }
         }
+      },
+      "Mk6": {
+        "issues": [
+          {
+            "he": "מתיחת שרשרת תזמון וצריכת שמן גבוהה במנועי 1.2 TSI ו-1.4 TSI — לקנות רק אם יש תיעוד להחלפת שרשרת; להקשיב לנקישות בהנעה קרה ולבדוק מפלס שמן",
+            "level": "widely_reported",
+            "scope": "1.2 TSI / 1.4 TSI",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Golf 6 (5K) 2008–2012 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-golf-mk6-probleme/"
+            }
+          },
+          {
+            "he": "תיבת DSG 7 הילוכים (DQ200, מצמד יבש): בלאי מצמד מהיר בנסיעה עירונית וגרירה — לבדוק בנסיעת מבחן שאין טלטול או גמגום בזינוק, ולוודא החלפת שמן תיבה כל 50–60 אלף ק״מ",
+            "level": "widely_reported",
+            "scope": "DSG7",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Golf 6 (5K) 2008–2012 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-golf-mk6-probleme/"
+            }
+          },
+          {
+            "he": "מבצע שירות של היצרן לתיבת DQ200: שמן סינתטי שעלול לגרום לתקלות חשמליות הוחלף בשמן מינרלי — לוודא אצל היבואן שהמבצע בוצע",
+            "level": "manufacturer",
+            "scope": "DSG7",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Golf 6 (5K) 2008–2012 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-golf-mk6-probleme/"
+            }
+          },
+          {
+            "he": "ריקול למתנע — מתג סולנואיד פגום עלול להישאר מחובר ובמקרה הגרוע לגרום לשריפה; לבדוק ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 2011",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Golf 6 (5K) 2008–2012 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-golf-mk6-probleme/"
+            }
+          },
+          {
+            "he": "חלודה בקשתות הגלגלים ובדלת תא המטען, וחדירת מים דרך הפנסים האחוריים והמגב האחורי — לבדוק רטיבות בתא המטען וסימני חלודה; גם מזגן נוטה לתקלות",
+            "level": "widely_reported",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Golf 6 (5K) 2008–2012 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-golf-mk6-probleme/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין (TSI) 122 כ״ס",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Golf VI hatchback, user fuel reports: 1.4 TSI 122KM (79 reports, all gearboxes)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/golf/vi/hatchback-5d/strona-16/"
+            }
+          },
+          {
+            "name": "1.2 טורבו בנזין (TSI) 105 כ״ס",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Golf VI hatchback, user fuel reports: 1.2 TSI 105KM (18 reports, all gearboxes)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/golf/vi/hatchback-5d/strona-16/"
+            }
+          },
+          {
+            "name": "1.4 בנזין 80 כ״ס",
+            "pt": "petrol",
+            "hp": 80,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Golf VI hatchback, user fuel reports: 1.4 80KM (21 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/golf/vi/hatchback-5d/strona-16/"
+            }
+          }
+        ]
       }
     },
     "polo": {
@@ -131,6 +214,68 @@
           "year": 2017,
           "url": "https://news.euroncap.com/safercars/xceedingly-good/s/304c1a7e-30a8-4c6a-998b-b6d2bc5ee13a"
         }
+      },
+      "6R": {
+        "issues": [
+          {
+            "he": "מנועי EA111 (1.2, 1.2 TSI, 1.4): בעיות שרשרת תזמון שעלולות להסתיים בנזק למנוע וצריכת שמן גבוהה (לעיתים מעל ליטר ל-1,000 ק״מ) — להקשיב לנקישות בהנעה קרה ולבקש תיעוד; מאפריל 2014 הותקן מנוע 1.2 TSI חדש (EA211) עם רצועת תזמון ללא בעיה ידועה",
+            "level": "widely_reported",
+            "scope": "מנועי EA111, עד 2014",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Polo 6R Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-polo-probleme/"
+            }
+          },
+          {
+            "he": "ריקול לטורבו של 1.2 TSI — מפעיל לחץ הטעינה פגום וגורם לאובדן כוח (קריאה ממרץ 2012); לוודא ביצוע",
+            "level": "recall",
+            "scope": "1.2 TSI, 2010–2012",
+            "source": {
+              "title": "AUTO BILD — VW Polo V (6R) Gebrauchtwagen-Test",
+              "url": "https://www.autobild.de/artikel/vw-polo-v-gebrauchtwagen-test-4510688.html"
+            }
+          },
+          {
+            "he": "תיבת DSG 7 הילוכים (DQ200): בלאי מצמד מוקדם ובעיות העברה, לעיתים נפתר בעדכון תוכנה — לבדוק זינוק חלק בלי טלטולים",
+            "level": "widely_reported",
+            "scope": "DSG7",
+            "source": {
+              "title": "AUTO BILD — VW Polo V (6R) Gebrauchtwagen-Test",
+              "url": "https://www.autobild.de/artikel/vw-polo-v-gebrauchtwagen-test-4510688.html"
+            }
+          },
+          {
+            "he": "מבצע שירות בישראל לתיבות DSG7 בקבוצת פולקסווגן: החלפת שמן סינתטי במינרלי בגלל כשלים חשמליים באקלים חם ולח — לוודא ביצוע אצל היבואן",
+            "level": "recall",
+            "scope": "DSG7, ייצור סוף 2012–רבעון 1 2013",
+            "source": {
+              "title": "וואלה רכב — תיבת ה-DSG שוב נקראת למוסך (נובמבר 2013)",
+              "url": "https://cars.walla.co.il/item/2695369"
+            }
+          },
+          {
+            "he": "ריקול לכריות אוויר קדמיות (פגם במחולל הגז) ולגל זיזים/מכוונן גל זיזים במנוע EA211 — לבדוק לפי מספר שלדה שכל הקריאות בוצעו",
+            "level": "recall",
+            "scope": "כריות: כל הסדרה; מכוונן גל זיזים: 2013, 2015",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Polo 6R Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-polo-probleme/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין (TSI) 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Polo V facelift 1.2 TSI BMT 90KM 2014–2017, user fuel reports (22 reports)",
+              "url": "https://www.autocentrum.pl/volkswagen/polo/v/hatchback-5d-facelifting/silnik-benzynowy-1.2-tsi-bluemotion-technology-90km-2014-2017/"
+            }
+          }
+        ]
       }
     },
     "t-roc": {
@@ -279,6 +424,286 @@
             "source": {
               "title": "Spritmonitor — Tiguan petrol 105–115 kW DSG, 2016–2020 (116 vehicles)",
               "url": "https://www.spritmonitor.de/es/vista_previa/50-Volkswagen/1045-Tiguan.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=105&power_e=115&gearing=4"
+            }
+          }
+        ]
+      },
+      "5N": {
+        "issues": [
+          {
+            "he": "1.4 TSI: שרשרת תזמון עלולה להימתח כבר בקילומטראז׳ נמוך וצריכת שמן גבוהה; ב-2.0 TSI הבעיה פחות נפוצה אך צריכת שמן גבוהה בשנתונים מוקדמים — לבקש תיעוד החלפת שרשרת ולבדוק מפלס שמן",
+            "level": "widely_reported",
+            "scope": "1.4 TSI / 2.0 TSI",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Tiguan I (5N): Typische Probleme & Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/"
+            }
+          },
+          {
+            "he": "תיבת DSG: טלטולים בזינוק, העברות גסות ובלאי מצמד מהיר (בעיקר בעיר ובגרירה) — לבדוק העברות חלקות במהירות נמוכה ולדרוש היסטוריית טיפולים מלאה",
+            "level": "widely_reported",
+            "scope": "DSG",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Tiguan I (5N): Typische Probleme & Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/"
+            }
+          },
+          {
+            "he": "הנעה כפולה 4Motion (Haldex דור 4): בוצת שמן משביתה את המשאבה וההנעה האחורית מפסיקה — סימן: גלגלים קדמיים מסתחררים; להחליף שמן ומסנן Haldex אחרי הקנייה",
+            "level": "widely_reported",
+            "scope": "4Motion, עד 10/2013",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Tiguan I (5N): Typische Probleme & Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/"
+            }
+          },
+          {
+            "he": "קריאת שירות בישראל לכ-1,000 טיגואן — החלפת נתיך חשמלי שעלול לגרום לכשל בתאורה החיצונית; לוודא ביצוע",
+            "level": "recall",
+            "scope": "שנתונים 2008–2011",
+            "source": {
+              "title": "וואלה רכב — תיבת ה-DSG שוב נקראת למוסך, גם הטיגואן והאמרוק (נובמבר 2013)",
+              "url": "https://cars.walla.co.il/item/2695369"
+            }
+          },
+          {
+            "he": "בדוח TÜV נמצאו ליקויים במתלים פי 6 מהממוצע ובקפיצים ובולמים פי 3.5 — לבדוק תותבים, בולמים ונקישות מעל מהמורות",
+            "level": "widely_reported",
+            "source": {
+              "title": "t-online — Der VW Tiguan als Gebrauchter mit Altersschwäche (TÜV-Report 2017)",
+              "url": "https://www.t-online.de/auto/id_82611714/der-vw-tiguan-als-gebrauchter-mit-alterschwaeche.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (TSI) 200 כ״ס",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 9.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Tiguan I 2.0 TSI 200KM 2009–2011, user fuel reports (only 3 reports — small sample)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/tiguan/i/suv/silnik-benzynowy-2.0-tsi-200km-2009-2011/"
+            }
+          }
+        ]
+      }
+    },
+    "passat": {
+      "B7": {
+        "issues": [
+          {
+            "he": "1.4 TSI (EA111): שרשרת תזמון נמתחת וגרמה לנזקי מנוע; הבעיה הוקלה לקראת סוף הייצור אך לא נפתרה — להקשיב לנקישות בהנעה קרה ובשינויי עומס",
+            "level": "widely_reported",
+            "scope": "1.4 TSI",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B7 2010–2015 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b7-probleme/"
+            }
+          },
+          {
+            "he": "1.8/2.0 TSI: צריכת שמן גבוהה (נפתרת רק בהחלפת בוכנות וטבעות); ליצרן מבצע שירות TPI 2025422 לרכבים עד סוף 2012 כשהצריכה מתועדת מעל 0.5 ליטר ל-1,000 ק״מ — לבדוק מפלס שמן ולשאול על הוספות",
+            "level": "manufacturer",
+            "scope": "1.8 / 2.0 TSI, עד 2012",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B7 2010–2015 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b7-probleme/"
+            }
+          },
+          {
+            "he": "תיבת DSG 7 (DQ200) במנועי הבנזין הקטנים: בלאי מצמד גבוה בנסיעה עירונית — לבדוק זינוק בלי גמגום וטלטול ולוודא החלפת שמן תיבה כל 50–60 אלף ק״מ",
+            "level": "widely_reported",
+            "scope": "DSG7",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B7 2010–2015 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b7-probleme/"
+            }
+          },
+          {
+            "he": "מבצע שירות בישראל לתיבות DSG7 בקבוצת פולקסווגן: החלפת שמן סינתטי במינרלי בגלל כשלים חשמליים באקלים חם ולח — לוודא ביצוע אצל היבואן",
+            "level": "recall",
+            "scope": "DSG7, ייצור סוף 2012–רבעון 1 2013",
+            "source": {
+              "title": "וואלה רכב — תיבת ה-DSG שוב נקראת למוסך (נובמבר 2013)",
+              "url": "https://cars.walla.co.il/item/2695369"
+            }
+          },
+          {
+            "he": "ריקול למתנע (מתג מגנטי עלול להישאר מחובר — סיכון שריפה) ולמנועי דיזל EA189 (עדכון תוכנה 23R7) — לבדוק ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "מתנע: ייצור 2011; דיזל EA189",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B7 2010–2015 Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b7-probleme/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 טורבו בנזין (TSI) 160 כ״ס",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Passat B7 Limousine 1.8 TSI 160KM 2010–2012, user fuel reports (14 reports)",
+              "url": "https://www.autocentrum.pl/volkswagen/passat/b7/limousine/silnik-benzynowy-1.8-tsi-160km-2010-2012/"
+            }
+          }
+        ]
+      },
+      "B8": {
+        "issues": [
+          {
+            "he": "תיבת DSG 7 (DQ200, מצמד יבש) — בלאי מצמד גבוה; מותקנת עם מנועי הבנזין עד 250 ניוטון-מטר (כולם חוץ מ-2.0 TSI) — לבדוק זינוק חלק. תיבות DQ250/DQ381 (מצמד רטוב) עמידות אך דורשות החלפת שמן לפי הספר",
+            "level": "widely_reported",
+            "scope": "DSG",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B8 Probleme und Kaufberatung",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b8-bekannte-probleme/"
+            }
+          },
+          {
+            "he": "ריקול לכיסוי המנוע — עלול להשתחרר, לגעת בחלקים חמים ולהימס, ובמקרה הגרוע לגרום לשריפה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "2020–2022",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B8 Probleme und Kaufberatung (KBA recalls)",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b8-bekannte-probleme/"
+            }
+          },
+          {
+            "he": "ריקולים למערכת הבלמים — בורג מגבר בלם שלא הודק כראוי (2019) ויחס דוושת בלם (2018–2019) — לבדוק לפי מספר שלדה שבוצעו",
+            "level": "recall",
+            "scope": "2018–2019",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B8 Probleme und Kaufberatung (KBA recalls)",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b8-bekannte-probleme/"
+            }
+          },
+          {
+            "he": "ריקול ל-1.5 TSI עם תיבה ידנית — עלול לא להאיץ מעמידה; עדכון תוכנה",
+            "level": "recall",
+            "scope": "1.5 TSI ידני, ייצור 05–06/2019",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B8 Probleme und Kaufberatung (KBA recalls)",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b8-bekannte-probleme/"
+            }
+          },
+          {
+            "he": "תקלות חשמל: מצלמה אחורית שנכבית לסירוגין, כשלים במערכת המולטימדיה, וכיסוי תא מטען תקול — לבדוק את כל המערכות בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "Gebrauchtwagenberater — VW Passat B8 Probleme und Kaufberatung",
+              "url": "https://gebrauchtwagenberater.de/vw-passat-b8-bekannte-probleme/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין (TSI ACT) 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Passat B8 user fuel reports: 1.4 TSI BMT ACT 150KM (14 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/passat/b8/strona-4/"
+            }
+          },
+          {
+            "name": "1.5 טורבו בנזין (TSI evo) 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Passat B8 user fuel reports: 1.5 TSI EVO 150KM (50 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/passat/b8/strona-4/"
+            }
+          },
+          {
+            "name": "1.8 טורבו בנזין (TSI) 180 כ״ס",
+            "pt": "petrol",
+            "hp": 180,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Passat B8 user fuel reports: 1.8 TSI BMT 180KM (67 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/volkswagen/passat/b8/strona-4/"
+            }
+          }
+        ]
+      }
+    },
+    "jetta": {
+      "A6 (Mk6)": {
+        "issues": [
+          {
+            "he": "תיבת DSG 7 (DQ200): יחידת המכטרוניקה היא התקלה הנפוצה ביותר, וגם החלקת מצמד בהאצה חזקה — לבדוק זינוק והעברות בנסיעת מבחן ולשאול על החלפות",
+            "level": "widely_reported",
+            "scope": "DSG7",
+            "source": {
+              "title": "WapCar — used Volkswagen Jetta (Mk6) common problems",
+              "url": "https://www.wapcar.my/news/22792/amp"
+            }
+          },
+          {
+            "he": "1.4 TSI 160 כ״ס (טורבו + מגדש) בדגמים מוקדמים: בוכנות סדוקות — מומלץ לבצע בדיקת דחיסה לפני קנייה",
+            "level": "widely_reported",
+            "scope": "1.4 TSI 160 כ״ס, דגמים מוקדמים",
+            "source": {
+              "title": "WapCar — used Volkswagen Jetta (Mk6) common problems",
+              "url": "https://www.wapcar.my/news/22792/amp"
+            }
+          },
+          {
+            "he": "התחממות מנוע עקב משאבת מים, רדיאטור או מנוע מאוורר תקולים, ודליפת שמן מאטם מכסה שרשרת התזמון — לבדוק מד חום, נוזל קירור וסימני שמן",
+            "level": "widely_reported",
+            "source": {
+              "title": "WapCar — used Volkswagen Jetta (Mk6) common problems",
+              "url": "https://www.wapcar.my/news/22792/amp"
+            }
+          },
+          {
+            "he": "מבצע שירות בישראל לתיבות DSG7 בקבוצת פולקסווגן: החלפת שמן סינתטי במינרלי בגלל כשלים חשמליים באקלים חם ולח — לוודא ביצוע אצל היבואן",
+            "level": "recall",
+            "scope": "DSG7, ייצור סוף 2012–רבעון 1 2013",
+            "source": {
+              "title": "וואלה רכב — תיבת ה-DSG שוב נקראת למוסך (נובמבר 2013)",
+              "url": "https://cars.walla.co.il/item/2695369"
+            }
+          }
+        ]
+      }
+    },
+    "t-cross": {
+      "C11": {
+        "issues": [
+          {
+            "he": "ריקול לכריות אוויר וילון שעלולות לא להיפתח במלואן בתאונת צד — כריות מוחלפות; לבדוק ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 21/05–10/06/2019",
+            "source": {
+              "title": "What Car? — Used Volkswagen T-Cross 2019–present reliability",
+              "url": "https://www.whatcar.com/volkswagen/t-cross/estate/used-review/n21913/reliability"
+            }
+          },
+          {
+            "he": "תקלת תוכנה ביחידת לוח המחוונים — ייתכן שלא תופיע התרעה כשנוסע אחורי לא חגור; לוודא עדכון תוכנה",
+            "level": "manufacturer",
+            "source": {
+              "title": "What Car? — Used Volkswagen T-Cross 2019–present reliability",
+              "url": "https://www.whatcar.com/volkswagen/t-cross/estate/used-review/n21913/reliability"
+            }
+          },
+          {
+            "he": "תקלות חשמל ומערכת פליטה הן העיקריות בסקר הבעלים, כולל באגים במולטימדיה ובמצלמה האחורית — לבדוק את המסך והמצלמה בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volkswagen T-Cross 2019–present reliability",
+              "url": "https://www.whatcar.com/volkswagen/t-cross/estate/used-review/n21913/reliability"
             }
           }
         ]

@@ -51,6 +51,67 @@
           "year": 2019,
           "url": "https://news.euroncap.com/images-and-videos/peugeot-208---euro-ncap-2019-results---4-stars/s/06fbc20b-7298-4106-ba0a-0c20a67fb8a7"
         }
+      },
+      "A9 (Gen1)": {
+        "issues": [
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק מוקדם (וגם צריכת שמן מוגברת) — לבקש הוכחה לטיפולים במועד ולהחלפת רצועה, ולבדוק מפלס שמן; Stellantis הרחיבה באירופה כיסוי ל-10 שנים / 175 אלף ק״מ, כך שברכבים ותיקים הכיסוי עלול כבר לפוג",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Vauxhall (Stellantis) — Extended warranty for PureTech engines (10 years / 175,000 km)",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "he": "קריאת שירות (JZR): שחיקת הרצועה המניעה את משאבת הוואקום עלולה לפגוע בה ולהחליש את סיוע הבלמים — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "1.2 טורבו, ייצור 3.2013–4.2017",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208 (2013–2017) vacuum pump / brake booster, recall JZR",
+              "url": "https://car-recalls.eu/recall/peugeot-208-vacuum-pump-brake-booster/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KLZ): שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק ולגרום לדמימת מנוע בנסיעה — לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.2.2015–11.4.2018",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/301/308/3008/5008 (2015–2018) timing belt, recall KLZ",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2015-timing-belt/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי עיגון זרועות המתלה הקדמיות עלולים להישבר (רעידות, פגיעה בהיגוי) — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Peugeot 208 2012-2019 reliability",
+              "url": "https://whatcar.com/peugeot/208/hatchback/used-review/n884/advice"
+            }
+          },
+          {
+            "he": "מסך המולטימדיה עלול לקפוא או לקרוס לגמרי, ותקלות חשמל נפוצות — לבדוק שהמסך, הרדיו והמתגים עובדים ושאין נורות אזהרה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Peugeot 208 2012-2019 reliability",
+              "url": "https://whatcar.com/peugeot/208/hatchback/used-review/n884/advice"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6331/euroncap_peugeot_208_2012_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 85990,
+          "year": 2012,
+          "note": "רמת גימור Access, מנוע 1.2 82 כ״ס ידנית",
+          "source": {
+            "title": "icar — פיג'ו 208 בישראל: החל מ-85,990 שקל (9.2012)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_208_בישראל:_החל_מ-_85,990_שקל/"
+          }
+        }
       }
     },
     "301": {
@@ -64,8 +125,99 @@
               "title": "car-recalls.eu — Peugeot 301 (2016) relay",
               "url": "https://car-recalls.eu/uk/recall/peugeot-301-2016/"
             }
+          },
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק מוקדם (וגם צריכת שמן מוגברת) — לבקש הוכחה לטיפולים במועד ולהחלפת רצועה, ולבדוק מפלס שמן; Stellantis הרחיבה באירופה כיסוי ל-10 שנים / 175 אלף ק״מ, כך שברכבים ותיקים הכיסוי עלול כבר לפוג",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Vauxhall (Stellantis) — Extended warranty for PureTech engines (10 years / 175,000 km)",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "he": "קריאת שירות (KLZ): שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק ולגרום לדמימת מנוע בנסיעה — לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.2.2015–11.4.2018",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/301/308/3008/5008 (2015–2018) timing belt, recall KLZ",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2015-timing-belt/"
+            }
+          },
+          {
+            "he": "קריאת שירות (MXL): שרשרת גל הזיזים במנוע 1.5 BlueHDi עלולה להיחלש עקב פיחום שמן ולהיקרע (נזק למנוע) — לוודא לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "דיזל 1.5 BlueHDi, ייצור 20.2.2018–1.1.2022",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 301 (2018–2022) 1.5 BlueHDi camshaft chain, recall MXL",
+              "url": "https://car-recalls.eu/recall/peugeot-301-2018-2022-bluehdi-failure/"
+            }
           }
         ]
+      }
+    },
+    "308": {
+      "T9": {
+        "issues": [
+          {
+            "he": "בדגמים מוקדמים רצועת התזמון (רצה בשמן) עלולה להתפרק; מסוף 2015 הותקן חלק משופר. גם במנוע 1.2 PureTech — לבקש הוכחה להחלפת רצועה ולטיפולים במועד",
+            "level": "widely_reported",
+            "scope": "כל המנועים מלבד 1.6 בנזין; בעיקר עד סוף 2015",
+            "source": {
+              "title": "Auto Express — Used Peugeot 308 Mk2 (2013-2021) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/peugeot/308/353600/used-peugeot-308-mk2-2013-2021-review-and-buyers-guide"
+            }
+          },
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק מוקדם (וגם צריכת שמן מוגברת) — לבקש הוכחה לטיפולים במועד ולהחלפת רצועה, ולבדוק מפלס שמן; Stellantis הרחיבה באירופה כיסוי ל-10 שנים / 175 אלף ק״מ, כך שברכבים ותיקים הכיסוי עלול כבר לפוג",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Vauxhall (Stellantis) — Extended warranty for PureTech engines (10 years / 175,000 km)",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "he": "נזק לסרן האחורי שמתבטא בנקישות מתכתיות — להקשיב לרעשים מאחור בנסיעה על מהמורות",
+            "level": "widely_reported",
+            "scope": "ייצור עד סוף 2015",
+            "source": {
+              "title": "Auto Express — Used Peugeot 308 Mk2 (2013-2021) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/peugeot/308/353600/used-peugeot-308-mk2-2013-2021-review-and-buyers-guide"
+            }
+          },
+          {
+            "he": "קריאות שירות: דלתות עלולות לא להינעל או להיפתח מעצמן (ייצור 24.8–11.11.2015), וחיווט המתנע עלול להישחק (ייצור 2.10.2013–4.4.2017) — לוודא שהקריאות בוצעו",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Peugeot 308 2013-2021 reliability",
+              "url": "https://whatcar.com/peugeot/308/hatchback/used-review/n850/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות (MXL): שרשרת גל הזיזים במנוע 1.5 BlueHDi עלולה להיחלש עקב פיחום שמן ולהיקרע (נזק למנוע) — לוודא לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "1.5 BlueHDi דיזל, ייצור 20.2.2018–1.1.2022",
+            "source": {
+              "title": "car-recalls.eu — Peugeot (2018–2022) 1.5 BlueHDi camshaft chain, recall MXL",
+              "url": "https://car-recalls.eu/recall/peugeot-301-2018-2022-bluehdi-failure/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89"
+        },
+        "launchPrice": {
+          "ils": 132990,
+          "year": 2014,
+          "note": "רמת גימור Active, 1.2 טורבו 130 כ״ס אוטומטית",
+          "source": {
+            "title": "icar — פיג'ו 308 החדשה בישראל, המחיר: מ-132,990 שקלים (9.2014)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיג’ו_308_החדשה_בישראל._המחיר:_מ-132,990_שקלים/"
+          }
+        }
       }
     },
     "2008": {
@@ -116,6 +268,60 @@
           "stars": 4,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/peugeot-2008---euro-ncap-2019-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/771eedad-c774-4ca7-ba7a-b409cb0fcf1d"
+        }
+      },
+      "A94 (Gen1)": {
+        "issues": [
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק מוקדם (וגם צריכת שמן מוגברת) — לבקש הוכחה לטיפולים במועד ולהחלפת רצועה, ולבדוק מפלס שמן; Stellantis הרחיבה באירופה כיסוי ל-10 שנים / 175 אלף ק״מ, כך שברכבים ותיקים הכיסוי עלול כבר לפוג",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Vauxhall (Stellantis) — Extended warranty for PureTech engines (10 years / 175,000 km)",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי עיגון זרועות המתלה הקדמיות עלולים להישבר — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 24.9.2013–26.11.2014",
+            "source": {
+              "title": "What Car? — Used Peugeot 2008 2013-2019 reliability",
+              "url": "https://www.whatcar.com/peugeot/2008/estate/used-review/n857/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: ממסר המתנע עלול להתחמם ובמקרים קיצוניים לגרום לשריפה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 15.5–12.10.2016",
+            "source": {
+              "title": "What Car? — Used Peugeot 2008 2013-2019 reliability",
+              "url": "https://www.whatcar.com/peugeot/2008/estate/used-review/n857/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: מפעיל תיבת ההילוכים האוטומטית עלול לגרום לבעיות בהעברת הילוכים ודורש החלפה — לבדוק העברות חלקות ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 13.5–25.8.2016",
+            "source": {
+              "title": "What Car? — Used Peugeot 2008 2013-2019 reliability",
+              "url": "https://www.whatcar.com/peugeot/2008/estate/used-review/n857/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות (KLZ): שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק ולגרום לדמימת מנוע בנסיעה — לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.2.2015–11.4.2018",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/301/308/3008/5008 (2015–2018) timing belt, recall KLZ",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2015-timing-belt/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://news.euroncap.com/images-and-videos/peugeot-2008---euro-ncap-results-2013/s/425a14c7-86bb-46bd-8df1-1c78e8bc8cf7"
         }
       }
     },
@@ -175,6 +381,127 @@
           "year": 2016,
           "url": "https://news.euroncap.com/safercars/top-marks-for-mercedes-benz-e-class-and-peugeot-3008-in-euro-ncap-safety-tests/s/edd09b52-e2b0-469e-a67f-8dcd5cf3bcd5"
         }
+      },
+      "T84 (Gen1)": {
+        "issues": [
+          {
+            "he": "תקלות חשמל הן סוג התקלה הנפוץ ביותר, לצד תקלות במערכת החימום והאוורור — לבדוק את כל המתגים, המיזוג והחימום",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Peugeot 3008 2009-2016 reliability",
+              "url": "https://www.whatcar.com/peugeot/3008/estate/used-review/n537/advice"
+            }
+          },
+          {
+            "he": "בלם היד החשמלי עלול להציג התראת תקלה, וקליפרים עלולים להיתקע; צמיגים קדמיים ורפידות/דיסקים נשחקים מהר — לבדוק בלמים, צמיגים ונורות אזהרה",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarGurus UK — Peugeot 3008 review (2009-2016)",
+              "url": "https://www.cargurus.co.uk/research/Peugeot-3008-Crossover-2009-mg340"
+            }
+          },
+          {
+            "he": "קריאת שירות (KLZ): שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק ולגרום לדמימת מנוע בנסיעה — לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.2.2015–11.4.2018 (לבדוק לפי שלדה בדגמי 2015–2016)",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/301/308/3008/5008 (2015–2018) timing belt, recall KLZ",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2015-timing-belt/"
+            }
+          }
+        ]
+      }
+    },
+    "5008": {
+      "P87": {
+        "issues": [
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק מוקדם (וגם צריכת שמן מוגברת) — לבקש הוכחה לטיפולים במועד ולהחלפת רצועה, ולבדוק מפלס שמן; Stellantis הרחיבה באירופה כיסוי ל-10 שנים / 175 אלף ק״מ, כך שברכבים ותיקים הכיסוי עלול כבר לפוג",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Vauxhall (Stellantis) — Extended warranty for PureTech engines (10 years / 175,000 km)",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "he": "קריאת שירות (KGG/KGH): סיכה לא מספקת של משאבת הוואקום עלולה לשבור אותה ולהחליש את סיוע הבלמים — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.4.2017–11.12.2020",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 5008 (2017–2020) vacuum pump, recalls KGG/KGH",
+              "url": "https://car-recalls.eu/recall/peugeot-5008-2017-2020-vacuum-pump/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KLZ): שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק ולגרום לדמימת מנוע בנסיעה — לבדוק לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.2.2015–11.4.2018",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/301/308/3008/5008 (2015–2018) timing belt, recall KLZ",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2015-timing-belt/"
+            }
+          },
+          {
+            "he": "דיווחים על תקלות חשמל (פתיחת תא מטען, מנעולי דלתות, מולטימדיה) ועל מערכת Start/Stop ששוחקת את מצבר ה-12V — לבדוק את כל המערכות ואת מצב המצבר",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Peugeot 5008 Mk2 (2017-2024) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/peugeot/5008/357856/used-peugeot-5008-mk2-2017-2024-buyers-guide-still-looks-sharp-despite-its-age"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 179900,
+          "year": 2017,
+          "note": "רמת גימור Active, 1.6 טורבו (בנזין ודיזל באותו מחיר)",
+          "source": {
+            "title": "icar — פיג'ו 5008 החדשה בישראל: מ-180,000 שקל (12.2017)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_5008_החדשה_בישראל:_מ-180,000_שקל/"
+          }
+        }
+      }
+    },
+    "rifter": {
+      "K9": {
+        "issues": [
+          {
+            "he": "קריאת שירות (MXL): שרשרת גל הזיזים במנוע 1.5 BlueHDi עלולה להיחלש עקב פיחום שמן ולהיקרע (נזק למנוע) — לוודא לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "1.5 BlueHDi, ייצור עד 1.2023 — לבדוק לפי מספר שלדה",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 1.5 BlueHDi camshaft chain (models incl. Rifter), recall MXL",
+              "url": "https://car-recalls.eu/recall/peugeot-5008-2017-2023-bluehdi-failure/amp/"
+            }
+          },
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק מוקדם (וגם צריכת שמן מוגברת) — לבקש הוכחה לטיפולים במועד ולהחלפת רצועה, ולבדוק מפלס שמן; Stellantis הרחיבה באירופה כיסוי ל-10 שנים / 175 אלף ק״מ, כך שברכבים ותיקים הכיסוי עלול כבר לפוג",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Vauxhall (Stellantis) — Extended warranty for PureTech engines (10 years / 175,000 km)",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "he": "קריאת שירות (JUD): חגורת הבטיחות של הנוסע הקדמי פגומה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 7.2018–11.2019",
+            "source": {
+              "title": "car-recalls.eu — Peugeot Rifter (2018–2019) seatbelt, recall JUD",
+              "url": "https://car-recalls.eu/recall/peugeot-rifter-2018-2019/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: רכיב בבלם היד עלול להשתחרר — לוודא שהוחלף בחלק המתוקן; קיימות גם קריאות להגה, מוטות היגוי וחגורות אחוריות",
+            "level": "recall",
+            "scope": "ייצור עד 20.12.2018 (בלם יד)",
+            "source": {
+              "title": "What Car? — Used Peugeot Rifter 2018-present reliability",
+              "url": "https://whatcar.com/peugeot/rifter/estate/used-review/n19921/advice"
+            }
+          }
+        ]
       }
     }
   }

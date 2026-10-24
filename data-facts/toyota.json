@@ -402,6 +402,45 @@
             }
           }
         ]
+      },
+      "XA30": {
+        "issues": [
+          {
+            "he": "מתג החלון החשמלי בדלת הנהג עלול להיתקע, להתחמם ואף להינמס — לבדוק את פעולת כל החלונות ולוודא ביצוע הקריאות",
+            "level": "recall",
+            "scope": "יוצרו 10/2005–6/2010",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XA30 RAV4 (PRA 2012/13327, 2015/14999)",
+              "url": "https://australiancar.reviews/?p=47898"
+            }
+          },
+          {
+            "he": "רצועת חגורת הבטיחות עלולה להיחתך במגע עם מסגרת המושב בתאונה חזיתית — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "יוצרו 8/2005–11/2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XA30 RAV4 (PRA 2016/15214)",
+              "url": "https://australiancar.reviews/?p=47898"
+            }
+          },
+          {
+            "he": "זרוע מתלה אחורית מתכווננת עלולה לא להיות מהודקת אחרי כיוון פרונט ולהשתחרר — לבדוק רעשים מהמתלה האחורי ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XA30 RAV4 (PRA 2012/13422)",
+              "url": "https://australiancar.reviews/?p=47898"
+            }
+          },
+          {
+            "he": "נהמה מצמד ההנעה של הדיפרנציאל האחורי בגרסאות 4X4 — להקשיב לרעש בנסיעת מבחן",
+            "level": "manufacturer",
+            "scope": "גרסאות הנעה כפולה 2006–2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XA30 RAV4 (TSB T-SB-0080-13)",
+              "url": "https://australiancar.reviews/?p=47898"
+            }
+          }
+        ]
       }
     },
     "c-hr": {
@@ -613,6 +652,108 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קאמרי-היברידית-החדשה-2018-בישראל-מחיר-175000-שקל"
           }
         }
+      },
+      "XV50": {
+        "issues": [
+          {
+            "he": "צינור ניקוז של מעבה המיזוג עלול להיסתם ולטפטף מים על בקר כריות האוויר (סכנת קצר) — לוודא מול היבואן שהקריאה בוצעה ולבדוק רטיבות בשטיח הקדמי",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, שנתונים 2012–2013",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (02/05/14, 2012–2013 Camry & Camry Hybrid)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          },
+          {
+            "he": "צינור דלק שקומט בייצור עלול לדלוף — לבדוק ריח דלק בתא המנוע ולוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "רכבים שיוצרו 10/2011–7/2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XV50 Camry Hybrid (PRA 2012/13258)",
+              "url": "https://australiancar.reviews/recalls-faults-toyota-xv50-camry-hybrid-2012-17/"
+            }
+          },
+          {
+            "he": "מתג המגבים עלול לעשות קצר ולהשבית את המגבים — לבדוק שהמגבים עובדים בכל המהירויות ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, שנתונים 2013–2014",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (11/08/13, 2013–2014 Camry & Camry Hybrid)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          },
+          {
+            "he": "בורג זרוע מתלה קדמית תחתונה שמאלית עלול להשתחרר מהמפרק הכדורי — לבדוק רעשים מהמתלה הקדמי ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, שנתון 2014",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (12/12/14, 2014 Camry & Camry Hybrid)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          },
+          {
+            "he": "בקר ההגה החשמלי עלול להיפגע בייצור ולגרום לאובדן סיוע בהיגוי — לבדוק נורת אזהרה של ההגה ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, שנתון 2015",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (05/07/15, 2015 Camry & Camry Hybrid)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי",
+            "pt": "hybrid",
+            "hp": 200,
+            "cons": 5.68,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — 2013 Camry 2.5 Hybrid CVT, owner-reported real-world average 5.68 L/100km (~13 vehicles, US data)",
+              "url": "https://www.truedelta.com/Toyota-Camry/mpg-264/2013&gas_unit=3"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 219900,
+          "year": 2013,
+          "note": "גרסת בנזין 2.5 (רמת גימור אחת); ההיברידית ב-239,900 ש״ח",
+          "source": {
+            "title": "icar — טויוטה קאמרי מגיעה לישראל: החל מ-219,900 שקל (18.8.2013)",
+            "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_קאמרי_מגיעה_לישראל:_החל_מ-219,900_שקל/"
+          }
+        }
+      },
+      "XV40": {
+        "issues": [
+          {
+            "he": "דוושת גז עלולה להיות קשה, לחזור לאט או להיתקע לחוצה חלקית — לוודא שבוצע תיקון הדוושה (קריאת 2010)",
+            "level": "recall",
+            "scope": "שנתונים 2007–2010",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (02/05/10, Camry 2007–2010)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          },
+          {
+            "he": "צינור לחץ של ההגה ההידראולי קצר מדי ועלול לשפשף את צינור הבלמים עד לדליפת נוזל בלמים — לבדוק נוזל בלמים ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, שנתון 2010 עם מנוע 4 צילינדרים",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (03/04/10, 2010 Camry 4-cyl 2AR-FE)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          },
+          {
+            "he": "גומיית מפרק כדורי בזרוע מתלה קדמית עלולה להיפגע ולדלוף גריז — לבדוק מצב הגומיות ורעשים מהמתלה הקדמי",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, רכבים שיוצרו 3–7/2011",
+            "source": {
+              "title": "TrueDelta — Toyota Camry recalls list (12/16/14, 2011 Camry built Mar–Jul 2011)",
+              "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          }
+        ]
       }
     },
     "prius": {
@@ -682,6 +823,200 @@
             "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_פריוס_החדשה_בישראל_-_המחיר_(כמעט)_ללא_שינוי/"
           }
         }
+      },
+      "XW30": {
+        "issues": [
+          {
+            "he": "תוכנת בקר ההיברידי עלולה לגרום לנזק לרכיבי הממיר ולכיבוי המערכת בנסיעה — לוודא שבוצעו כל עדכוני התוכנה (כמה קריאות חוזרות)",
+            "level": "recall",
+            "scope": "כל שנות הייצור 2009–2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW30 Prius (PRA 2014/13991, LGG76, VGG42)",
+              "url": "https://australiancar.reviews/?p=47894"
+            }
+          },
+          {
+            "he": "סדק בלוחית היניקה במיכל הדלק עלול לגרום לדליפת דלק כשהמיכל מלא — לבדוק ריח דלק ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "יוצרו 4/2009–2/2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW30 Prius (PRA 2016/15491)",
+              "url": "https://australiancar.reviews/?p=47894"
+            }
+          },
+          {
+            "he": "ריתוך במנפח כרית אוויר וילון עלול להיסדק — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "יוצרו 4/2009–4/2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW30 Prius (PRA 2016/15480)",
+              "url": "https://australiancar.reviews/?p=47894"
+            }
+          },
+          {
+            "he": "תקלה במפעיל הבלמים (brake actuator) יקרה לתיקון, ודווח גם על נקישות מציר ההגה העליון — לבדוק תחושת בלימה ורעשי היגוי בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "HonestJohn — Toyota Prius (2009–2015) review, owner reports",
+              "url": "https://www.honestjohn.co.uk/toyota/prius/2009/"
+            }
+          },
+          {
+            "he": "מצבר 12V מאבד קיבולת אם הרכב עומד הרבה — לבדוק מצב המצבר; לא להתניע בכבלים",
+            "level": "widely_reported",
+            "source": {
+              "title": "HonestJohn — Toyota Prius (2009–2015) review, owner reports",
+              "url": "https://www.honestjohn.co.uk/toyota/prius/2009/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 היברידי",
+            "pt": "hybrid",
+            "hp": 136,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "Auto Bild — Toyota Prius III Life Dauertest, average over 100,000 km",
+              "url": "https://www.autobild.de/artikel/toyota-prius-iii-life-dauertest-3567712.html"
+            }
+          }
+        ]
+      }
+    },
+    "hilux": {
+      "AN120/AN130 (דור 8)": {
+        "issues": [
+          {
+            "he": "מסנן חלקיקים (DPF) עלול להיסתם — עשן לבן, ריח פליטה ועלייה בצריכה. לוודא שבוצעו עדכוני התוכנה/החומרה של טויוטה ושיש מתג ריענון ידני",
+            "level": "manufacturer",
+            "scope": "דיזל 2.4/2.8, נמכרו 10/2015–4/2020",
+            "source": {
+              "title": "carsales — Toyota HiLux, Prado, Fortuner DPF class action settled",
+              "url": "https://www.carsales.com.au/editorial/details/toyota-hilux-prado-fortuner-dpf-class-action-settled-153256/"
+            }
+          },
+          {
+            "he": "אבק דק עלול לכסות את חיישן זרימת האוויר (MAF) ולהכניס את המנוע למצב חירום — לבדוק מצב מסנן האוויר, במיוחד ברכב שנסע בשטח",
+            "level": "manufacturer",
+            "scope": "2.8 טורבו דיזל (1GD-FTV)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota Mk.8 Hilux Utility (2015-on) (service bulletin 3/2017)",
+              "url": "https://www.australiancar.reviews/?p=47878"
+            }
+          },
+          {
+            "he": "משאבת דלק בלחץ נמוך עלולה להפסיק לעבוד — כיבוי מנוע או אי-התנעה. לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "רכבים שיוצרו 9/2017–5/2019",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota Mk.8 Hilux Utility (2015-on) (VGG17/VGG05)",
+              "url": "https://www.australiancar.reviews/?p=47878"
+            }
+          },
+          {
+            "he": "תקלה פנימית במגבר הבלמים עלולה לגרום לאובדן סיוע בבלימה חוזרת — לבדוק שדוושת הבלם אינה קשה ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "דיזל, נמכרו 8/2018–8/2020 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota Mk.8 Hilux Utility (2015-on) (VGG75)",
+              "url": "https://www.australiancar.reviews/?p=47878"
+            }
+          },
+          {
+            "he": "נקישה מגל ההינע בהעברה מחניה או בזינוק — לבדוק בנסיעת מבחן; התיקון היה החלפת גל ההינע",
+            "level": "widely_reported",
+            "scope": "שנתונים 2015–2016",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota Mk.8 Hilux Utility (2015-on) (known faults)",
+              "url": "https://www.australiancar.reviews/?p=47878"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.8 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 177,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide — 2016 Toyota HiLux SR5 long-term review (2.8 auto 4x4, average over the loan, often towing)",
+              "url": "https://draft.carsguide.com.au/car-reviews/2016-toyota-hilux-sr5-review-long-term-40699"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2016,
+          "url": "https://news.euroncap.com/safercars/toyota-hilux---euro-ncap-results-2016/s/33625a6d-fe7a-49a4-92f1-331fafc6d2ff",
+          "note": "3 כוכבים בציוד הבטיחות הסטנדרטי, 5 כוכבים עם חבילת בטיחות אופציונלית"
+        }
+      }
+    },
+    "land-cruiser": {
+      "J150 (Prado)": {
+        "issues": [
+          {
+            "he": "בוכנות סדוקות במנוע 3.0 — דפיקות חזקות, עשן שחור ואובדן כוח. טויוטה הכירה בבעיה בעלון שירות; לבדוק היסטוריית מזרקים והאם הרכב עבר שבב",
+            "level": "manufacturer",
+            "scope": "3.0 טורבו דיזל 1KD-FTV, 2009–2014",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota 150-Series Landcruiser Prado (2009-23) (TSB EG-008T-0112)",
+              "url": "https://www.australiancar.reviews/?p=47886"
+            }
+          },
+          {
+            "he": "מזרקי דלק נכשלים לרוב סביב 120–140 אלף ק״מ — דפיקה בהתנעה קרה, סרק לא יציב וצריכה גבוהה. לבדוק מתי הוחלפו המזרקים",
+            "level": "widely_reported",
+            "scope": "3.0 טורבו דיזל 1KD-FTV",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota 150-Series Landcruiser Prado (2009-23) (known faults)",
+              "url": "https://www.australiancar.reviews/?p=47886"
+            }
+          },
+          {
+            "he": "מסנן חלקיקים (DPF) עלול להיסתם — עשן לבן, ריח וצריכה גבוהה. לוודא ביצוע עדכוני טויוטה ושקיים מתג ריענון ידני",
+            "level": "manufacturer",
+            "scope": "2.8 טורבו דיזל, נמכרו 10/2015–4/2020",
+            "source": {
+              "title": "carsales — Toyota HiLux, Prado, Fortuner DPF class action settled",
+              "url": "https://www.carsales.com.au/editorial/details/toyota-hilux-prado-fortuner-dpf-class-action-settled-153256/"
+            }
+          },
+          {
+            "he": "משאבת דלק בלחץ נמוך עלולה להפסיק לעבוד — כיבוי או אי-התנעה. לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "יוצרו 9/2013–3/2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota 150-Series Landcruiser Prado (2009-23) (VGG17/VGG05)",
+              "url": "https://www.australiancar.reviews/?p=47886"
+            }
+          },
+          {
+            "he": "כבל ספירלי של כרית האוויר של הנהג עלול להתבלות — נורת כרית אוויר דולקת. לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "3.0 דיזל, יוצרו 9/2009–6/2010",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Toyota 150-Series Landcruiser Prado (2009-23) (PRA 2014/14079)",
+              "url": "https://www.australiancar.reviews/?p=47886"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.8 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 177,
+            "cons": 10.8,
+            "unit": "L",
+            "source": {
+              "title": "Cars4Starters — 2019MY Toyota Prado GXL review (2.8 diesel, mostly urban test with some dirt driving)",
+              "url": "https://cars4starters.com.au/2019my-toyota-prado-gxl/"
+            }
+          }
+        ]
       }
     }
   }

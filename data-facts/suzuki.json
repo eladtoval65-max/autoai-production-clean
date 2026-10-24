@@ -427,6 +427,104 @@
           }
         ]
       }
+    },
+    "celerio": {
+      "FE": {
+        "issues": [
+          {
+            "he": "קריאת שירות בהשקה (2015): בגרסאות הגה ימני בבריטניה, אירלנד, אוסטרליה וניו זילנד דוושת הבלם עלולה להיתקע לחוצה עד הסוף, ואז הבלמים מפסיקים לעבוד. היצרן החליף רכיב בדוושה. בבדיקה: לוודא שהדוושה חוזרת חלק ושהקריאה בוצעה אם הרכב יובא מאחת המדינות האלה.",
+            "level": "recall",
+            "scope": "הגה ימני, 2015",
+            "source": {
+              "title": "Autocar — Suzuki Celerio brake failure recall work begins",
+              "url": "https://www.autocar.co.uk/node/65618"
+            }
+          },
+          {
+            "he": "קריאת שירות: בייצור ינואר–פברואר 2018 תושבת במושבים הקדמיים עלולה להיות מותקנת לא נכון, וזה עלול לגרום לתקלה בכרית האוויר הצדדית. בבדיקה: לבדוק לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 1–2/2018",
+            "source": {
+              "title": "RAC — Suzuki Celerio (2015–2019) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/suzuki/celerio/celerio-2015-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 68 כ״ס",
+            "pt": "petrol",
+            "hp": 68,
+            "cons": 5.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Suzuki Celerio 1.0 (LF) 50 kW, 2014–2020 (379 user reports)",
+              "url": "https://www.autokostencheck.de/Suzuki/Suzuki-Celerio/Celerio/celerio-1-0-lf_39844/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "sx4": {
+      "GY": {
+        "issues": [
+          {
+            "he": "כבל מתחת למכסה המנוע עלול להשתפשף בקצה הכנף הפנימית, ורוב התקלות החשמליות מגיעות משם. בבדיקה: לפתוח את מכסה המנוע ולחפש כבל שחוק ליד הכנף.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+            }
+          },
+          {
+            "he": "מערכת ההנעה הכפולה עלולה לא לעבוד כראוי (להיתקע בהנעה קדמית או במצב 4X4 נעול). בבדיקה: לנסות את כל מצבי ההנעה.",
+            "level": "widely_reported",
+            "scope": "4X4",
+            "source": {
+              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+            }
+          },
+          {
+            "he": "רפידות הבלמים נשחקות מהר, ונסיעה עם רפידות שחוקות פוגעת בדיסקים. בבדיקה: להקשיב לחריקות ולבדוק שפה או חריצים בדיסקים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+            }
+          },
+          {
+            "he": "בגרסאות הדיזל: תקלות במצערת EGR ובטורבו, דליפות מהמזרקים וסתימת מסנן חלקיקים. בבדיקה: לבדוק עשן, כוח במשיכה וסימני דליפה סביב המזרקים.",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+            }
+          },
+          {
+            "he": "הגנת החלודה בינונית, במיוחד באזור הקורה הקדמית בכלים ותיקים. בבדיקה: לבדוק חלודה מתחת לרכב בחלק הקדמי.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 120 כ״ס",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Suzuki SX4 1.6 (GY) 88 kW, 2009–2014 (279 user reports)",
+              "url": "https://www.autokostencheck.de/Suzuki/Suzuki-SX4/SX4/sx4-1-6-gy_34957/verbrauch/"
+            }
+          }
+        ]
+      }
     }
   }
 }
