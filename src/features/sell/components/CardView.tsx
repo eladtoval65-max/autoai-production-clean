@@ -2,11 +2,11 @@ import { CostBars } from "../../browse/components/CostBars";
 import { POWERTRAIN_HE, shekel } from "../../browse/model/labels";
 import { estimateUsedCost, PRICES } from "../../browse/model/usedCost";
 import { card } from "../../../shared/styles";
-import type { Card } from "../model/sellCard";
+import { costInputOf, type Card } from "../model/sellCard";
 
 /** The monthly-cost card itself (used both in the seller's preview and on the shared page). */
 export function CardView({ c }: { c: Card }) {
-  const cost = estimateUsedCost({ gen: c.gen, segment: c.model.segment, year: c.year, powertrain: c.pt, askingPrice: c.price, kmPerYear: c.km });
+  const cost = estimateUsedCost(costInputOf(c));
   if (!cost) return null;
   return (
     <section className={`${card} p-5 sm:p-6`} aria-label="כמה יעלה בחודש">

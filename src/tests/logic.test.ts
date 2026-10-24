@@ -5,6 +5,7 @@
 import { describe, expect, it } from "vitest";
 import { MAKES } from "../data/generations";
 import { estimateUsedCost, yearsOf } from "../features/browse/model/usedCost";
+import { prosConsFor } from "../features/browse/model/prosCons";
 import { monthlyGap, winnerIndex, winsPerCar } from "../features/home/model/compare";
 import { bandAt, REGISTRATION } from "../features/home/model/cost";
 import { staticCars } from "../features/home/model/catalog";
@@ -63,6 +64,27 @@ describe("used-car monthly cost", () => {
     expect(Math.round(c.total)).toBe(Math.round(c.fuel + c.depreciation + c.insurance + c.maintenance + c.licence));
   });
   it("lists the generation's model years from 2010", () => expect(yearsOf(corolla.gens[0], 2010)[0]).toBe(2010));
+  it("spreads scheduled maintenance by km, ignores risk items", () => {
+    const src = { title: "t", url: "https://example.com" };
+    const items = [
+      { he: "רצועת תזמון", kind: "scheduled" as const, intervalKm: 90000, costIls: [2700, 2700] as [number, number], source: src },
+      { he: "סוללה היברידית", kind: "risk" as const, costIls: [15000, 20000] as [number, number], source: src },
+    ];
+    const plain = estimateUsedCost({ gen, segment: "mass", year: 2016, powertrain: "petrol", askingPrice: 60000, kmPerYear: 15000 })!;
+    const withItems = estimateUsedCost({ gen, segment: "mass", year: 2016, powertrain: "petrol", askingPrice: 60000, kmPerYear: 15000, maintenanceItems: items })!;
+    expect(withItems.maintenanceItems).toHaveLength(1);
+    expect(Math.round(withItems.maintenance - plain.maintenance)).toBe(Math.round((2700 * 15000 / 90000) / 12));
+  });
+  it("insures powerful cars higher than their value alone", () => {
+    const strong = { ...gen, hp: "320" };
+    const a = estimateUsedCost({ gen, segment: "mass", year: 2016, powertrain: "petrol", askingPrice: 60000, kmPerYear: 15000 })!;
+    const b = estimateUsedCost({ gen: strong, segment: "mass", year: 2016, powertrain: "petrol", askingPrice: 60000, kmPerYear: 15000 })!;
+    expect(b.insurance).toBeGreaterThan(a.insurance);
+  });
+  it("derives pros/cons only from known data", () => {
+    const pc = prosConsFor(corolla, corolla.gens[2], {});
+    expect(pc.pros.some((p) => p.includes("Euro NCAP"))).toBe(true);
+  });
 });
 
 import { compareLease, loanPayment as leaseLoan } from "../features/leasing/model/leasing";

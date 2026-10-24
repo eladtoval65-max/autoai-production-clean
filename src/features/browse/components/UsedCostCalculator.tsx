@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Make, ModelLine, Powertrain } from "../../../data/generations";
+import { factsFor } from "../../../data/facts";
 import { card, field } from "../../../shared/styles";
 import { FIRST_YEAR, genYears, numberHe, POWERTRAIN_HE, shekel } from "../model/labels";
 import { estimateUsedCost, PRICES, yearsOf } from "../model/usedCost";
@@ -22,7 +23,8 @@ export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLi
   useEffect(() => { setYear(years[years.length - 1]); setPowertrain(gen.pt[0]); }, [genIndex]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const askingPrice = Number(price.replace(/[^\d]/g, ""));
-  const cost = estimateUsedCost({ gen, segment: model.segment, year, powertrain, askingPrice, kmPerYear: km });
+  const maintenanceItems = factsFor(make.id, model.id, gen.code).maintenance;
+  const cost = estimateUsedCost({ gen, segment: model.segment, year, powertrain, askingPrice, kmPerYear: km, body: model.body, maintenanceItems });
 
   return (
     <section className={`${card} p-5 sm:p-6`} aria-labelledby="calc-h">
@@ -43,11 +45,16 @@ export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLi
             <p className="mt-1 text-[13px] text-muted">ירידת ערך שנתית מוערכת: {Math.round(cost.depreciationRate * 100)}%</p>
           </div>
           <CostBars cost={cost} />
+          {cost.maintenanceItems.length > 0 && (
+            <p className="text-[13px] text-muted lg:col-span-2">הטיפולים כוללים לפי הנתונים של הדור: {cost.maintenanceItems.map((s) => `${s.item.he.split(/[,:(]/)[0].trim()} (≈${shekel(s.monthly)} בחודש)`).join(" · ")}.</p>
+          )}
         </div>
       ) : <p className="mt-5 rounded-xl bg-mist px-4 py-3 text-[15px] text-muted">הכניסו מחיר כדי לראות את החישוב.</p>}
       <p className="mt-4 text-[13px] text-muted">
-        כל המספרים הם הערכה בלבד: צריכה לפי ממוצע בפועל לדור, דלק ₪{PRICES.petrolPerL.toFixed(2)} לליטר, חשמל ₪{PRICES.electricityPerKwh} לקוט"ש, ביטוח לפי שווי הרכב (לא הצעת מחיר).
-        כדאי להשוות את המחיר המבוקש למחירון (לוי יצחק) ולבצע בדיקה במכון לפני קנייה.
+        כל המספרים הם הערכה בלבד: צריכה לפי ממוצע בפועל לדור, דלק ₪{PRICES.petrolPerL.toFixed(2)} לליטר, חשמל ₪{PRICES.electricityPerKwh} לקוט"ש, ביטוח לפי שווי הרכב, הספק וסוג הרכב (לא הצעת מחיר).
+        כדאי להשוות את המחיר המבוקש למחירון —{" "}
+        <a className="underline" href="https://www.yad2.co.il/price-list" target="_blank" rel="noopener noreferrer">מחירון יד2</a> (חינם),{" "}
+        <a className="underline" href="https://carlistprice.mot.gov.il/" target="_blank" rel="noopener noreferrer">מחירון משרד התחבורה</a> או לוי יצחק — ולבצע בדיקה במכון לפני קנייה.
       </p>
     </section>
   );

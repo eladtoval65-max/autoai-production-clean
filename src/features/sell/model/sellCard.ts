@@ -3,10 +3,17 @@
  * Pure functions, no React. Nothing is stored on our server — the whole card lives in the link.
  */
 import type { Generation, Make, ModelLine, Powertrain } from "../../../data/generations";
+import { factsFor } from "../../../data/facts";
 import { FIRST_YEAR, THIS_YEAR } from "../../browse/model/labels";
 
 export type CardInput = { makeId: string; modelId: string; year: number; pt: Powertrain; price: number; km: number };
 export type Card = CardInput & { make: Make; model: ModelLine; gen: Generation };
+
+/** Inputs for the shared used-cost estimate (incl. body type and the generation's sourced maintenance items). */
+export const costInputOf = (c: Card) => ({
+  gen: c.gen, segment: c.model.segment, year: c.year, powertrain: c.pt, askingPrice: c.price, kmPerYear: c.km,
+  body: c.model.body, maintenanceItems: factsFor(c.make.id, c.model.id, c.gen.code).maintenance,
+});
 
 const POWERTRAINS: Powertrain[] = ["petrol", "diesel", "hybrid", "phev", "ev"];
 

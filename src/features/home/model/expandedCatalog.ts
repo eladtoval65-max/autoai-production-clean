@@ -14,6 +14,7 @@ import { factsFor } from "../../../data/facts";
 import { MAKES, type Generation, type Make, type ModelLine, type Powertrain } from "../../../data/generations";
 import { THIS_YEAR } from "../../browse/model/labels";
 import { depreciationRate, estimateUsedCost } from "../../browse/model/usedCost";
+import { prosConsFor } from "../../browse/model/prosCons";
 import type { Car } from "../types";
 
 const FIRST_USED_YEAR = 2012;
@@ -47,11 +48,12 @@ function scoresFor(make: Make, model: ModelLine, gen: Generation) {
 }
 
 /** Monthly cost bands at 7k / 15k / 25k km for a car of this price and model year. */
-function bandsFor(model: ModelLine, gen: Generation, year: number, price: number) {
+function bandsFor(make: Make, model: ModelLine, gen: Generation, year: number, price: number) {
   const pt = gen.pt[0];
+  const maintenanceItems = factsFor(make.id, model.id, gen.code).maintenance;
   const bands = {} as NonNullable<Car["bands"]>;
   for (const km of KM_BANDS) {
-    const c = estimateUsedCost({ gen, segment: model.segment, year, powertrain: pt, askingPrice: price, kmPerYear: km });
+    const c = estimateUsedCost({ gen, segment: model.segment, year, powertrain: pt, askingPrice: price, kmPerYear: km, body: model.body, maintenanceItems });
     if (!c) return undefined;
     const r = (n: number) => Math.round(n);
     bands[km] = { fuel: r(c.fuel), insurance: r(c.insurance), maintenance: r(c.maintenance), depreciation: r(c.depreciation), total: r(c.total) };
@@ -62,14 +64,14 @@ function bandsFor(model: ModelLine, gen: Generation, year: number, price: number
 /** Shared Car fields for a model/generation. */
 function baseCar(make: Make, model: ModelLine, gen: Generation, year: number, price: number): Omit<Car, "id" | "years" | "why" | "condition"> {
   const s = scoresFor(make, model, gen);
-  const bands = bandsFor(model, gen, year, price);
+  const bands = bandsFor(make, model, gen, year, price);
   const b = bands?.[15000];
   const f = factsFor(make.id, model.id, gen.code);
   return {
     make: `${make.name} ${model.model}`, price, bodyType: BODY_TO_TYPE[model.body], use: USE_BY_BODY[model.body], fuel: PT_HE[gen.pt[0]],
     score: Math.round((s.reliability + s.safety + s.economy + s.comfort + s.fun) / 5),
     reliability: s.reliability, safety: s.safety, economy: s.economy, comfort: s.comfort, fun: s.fun,
-    pros: [], cons: (f.issues ?? []).slice(0, 2).map((i) => i.he),
+    ...(() => { const pc = prosConsFor(model, gen, f); return { pros: pc.pros, cons: [...pc.cons, ...(f.issues ?? []).slice(0, 2).map((i) => i.he)].slice(0, 4) }; })(),
     bands, ownershipMonthly: b?.total, fuelMonthly: b?.fuel, insuranceMonthlyAmt: b?.insurance, maintenanceMonthly: b?.maintenance, depreciationMonthly: b?.depreciation,
     dataStatus: "estimated", estimatedScores: true, href: `/cars/${make.id}/${model.id}`,
     spec: { hp: Number(String(gen.hp).split(/[–-]/)[0]) || null, seats: model.body === "suv7" ? 7 : 5, cargo: null, cons: mainConsumption(make, model, gen), ev: gen.pt[0] === "ev" },

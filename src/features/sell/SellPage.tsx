@@ -12,7 +12,7 @@ import LeadRequestModal from "../leads/LeadRequestModal";
 import { CardView } from "./components/CardView";
 import { PageShell as SellShell } from "../../shared/ui/PageShell";
 import { estimateUsedCost } from "../browse/model/usedCost";
-import { adText, decodeCard, encodeCard, genForYear, yearsOfModel, type Card } from "./model/sellCard";
+import { adText, costInputOf, decodeCard, encodeCard, genForYear, yearsOfModel, type Card } from "./model/sellCard";
 
 const label = "text-[14px] font-semibold text-muted";
 const KM = [7000, 10000, 15000, 20000, 25000, 30000];
@@ -87,7 +87,7 @@ export default function SellPage() {
 }
 
 /** Monthly total for the share text. */
-const totalOf = (c: Card) => estimateUsedCost({ gen: c.gen, segment: c.model.segment, year: c.year, powertrain: c.pt, askingPrice: c.price, kmPerYear: c.km })?.total ?? 0;
+const totalOf = (c: Card) => estimateUsedCost(costInputOf(c))?.total ?? 0;
 
 /** Copy-link / copy-text buttons with a short confirmation. */
 function ShareButtons({ onShare, copied }: { onShare: (kind: "link" | "text") => void; copied: string }) {

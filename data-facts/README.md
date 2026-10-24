@@ -23,7 +23,13 @@ Keys MUST match `_manifest.json` (make id → model id → generation `code`). N
             "source": { "title": "Spritmonitor — Corolla 1.8 Hybrid (E21)", "url": "https://..." } }
         ],
         "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/toyota/corolla/..." },  // or { "stars": null, "note": "not tested" }
-        "launchPrice": { "ils": 129900, "year": 2019, "note": "רמת גימור בסיסית", "source": { "title": "...", "url": "https://..." } }  // or null
+        "launchPrice": { "ils": 129900, "year": 2019, "note": "רמת גימור בסיסית", "source": { "title": "...", "url": "https://..." } },  // or null
+        "maintenance": [               // costly items a used buyer should budget for (0–5; only with a sourced ₪ range)
+          { "he": "החלפת רצועת תזמון ומשאבת מים", "kind": "scheduled",   // scheduled | wear | risk
+            "intervalKm": 90000, "intervalYears": 6,                     // scheduled/wear need at least one interval; risk has none
+            "costIls": [2500, 3800], "scope": "1.4 TSI",                // ₪ range incl. labour; Israeli garage/importer price preferred
+            "source": { "title": "...", "url": "https://..." } }
+        ]
       }
     }
   }
@@ -35,4 +41,5 @@ Rules
 - Consumption = REAL-WORLD average (Spritmonitor, Fuelly, ev-database.org real range, long-term tests), not the brochure figure.
 - Issues are shown on the site as "דווח בהרחבה" (widely reported) / "קריאת שירות" (recall) / "מוכר ע״י היצרן" — never as a diagnosis.
 - Hebrew text: short, practical, tells the buyer what to check. No brand bashing, no guesses.
+- maintenance: scheduled/wear items are spread into the used-car monthly cost (cost ÷ interval); risk items (e.g. hybrid battery, DSG mechatronic) are shown but not added. Prices: Israeli sources first (importer service price lists, garage price articles on Ynet/Walla/auto.co.il/ice.co.il); a foreign price only converted and labelled as such in the source title.
 - Validate: `node data-facts/validate.mjs <makeId>`

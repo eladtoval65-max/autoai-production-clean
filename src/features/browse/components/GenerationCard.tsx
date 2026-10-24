@@ -1,10 +1,13 @@
-import type { Generation } from "../../../data/generations";
+import type { Generation, ModelLine } from "../../../data/generations";
 import { factsFor } from "../../../data/facts";
 import { card } from "../../../shared/styles";
 import { genYears, hpText, POWERTRAIN_HE } from "../model/labels";
 import { monthlyEnergy } from "../model/energy";
+import { prosConsFor } from "../model/prosCons";
 import { EnginesTable } from "./facts/EnginesTable";
 import { IssuesList } from "./facts/IssuesList";
+import { MaintenanceList } from "./facts/MaintenanceList";
+import { ProsConsBox } from "./facts/ProsConsBox";
 import { SourceLink } from "./facts/SourceLink";
 import { NcapStars } from "./NcapStars";
 
@@ -14,10 +17,11 @@ const consumptionText = (g: Generation) =>
 
 /**
  * One generation: years and code, Euro NCAP, engines with real-world consumption and monthly fuel cost,
- * powertrains, launch price, and sourced known issues + what to check before buying.
+ * powertrains, launch price, pros/cons derived from that data, sourced known issues + what to check before buying,
+ * and costly maintenance items to budget for.
  */
-export function GenerationCard({ gen, makeId, modelId }: { gen: Generation; makeId: string; modelId: string }) {
-  const f = factsFor(makeId, modelId, gen.code);
+export function GenerationCard({ gen, makeId, model }: { gen: Generation; makeId: string; model: ModelLine }) {
+  const f = factsFor(makeId, model.id, gen.code);
   const engines = f.engines ?? [];
   const ncap = f.ncap?.stars != null ? { ...gen, ncap: f.ncap.stars, ncapYear: f.ncap.year ?? gen.ncapYear } : gen;
   const ev = gen.pt[0] === "ev";
@@ -39,7 +43,9 @@ export function GenerationCard({ gen, makeId, modelId }: { gen: Generation; make
         {f.launchPrice && <span className="ms-2 text-[14px] text-muted">מחיר בהשקה בישראל ({f.launchPrice.year}): <bdi>₪{f.launchPrice.ils.toLocaleString("he-IL")}</bdi> <SourceLink source={f.launchPrice.source} /></span>}
       </p>
       {gen.note && <p className="mt-3 text-[15px] text-muted">{gen.note}</p>}
+      <ProsConsBox pc={prosConsFor(model, gen, f)} />
       <IssuesList issues={f.issues ?? []} checks={gen.checks} />
+      <MaintenanceList items={f.maintenance ?? []} />
     </li>
   );
 }
