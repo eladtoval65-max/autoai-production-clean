@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -219,6 +219,56 @@
           "stars": 4,
           "year": 2021,
           "url": "https://www.euroncap.com/en/results/hyundai/i20/46622"
+        },
+        "issues": [
+          {
+            "he": "ריקול: תקלת תוכנה אפשרית בתיבת ההילוכים שעלולה להשבית את הרכב; התיקון הוא עדכון תוכנה — לוודא מול היבואן שבוצע.",
+            "level": "recall",
+            "scope": "שנים 2023–2024 (ריקול בבריטניה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "What Car? — Used Hyundai i20 2020-present reliability",
+              "url": "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability"
+            }
+          },
+          {
+            "he": "ריקול: מספר השלדה (VIN) עלול שלא להיות רשום נכון ביחידת ה-eCall; התיקון הוא איפוס ועדכון — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "שנת דגם 2020 (ריקול בבריטניה)",
+            "source": {
+              "title": "What Car? — Used Hyundai i20 2020-present reliability",
+              "url": "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability"
+            }
+          },
+          {
+            "he": "בעלים דיווחו על כיבויי מנוע לסירוגין ונורות אזהרה לא מוסברות — לבדוק בנסיעת מבחן ובהיסטוריית הטיפולים אם טופלו תקלות כאלה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Hyundai i20 2020-present reliability (owner survey)",
+              "url": "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין 100 כ״ס",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.46,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i20 petrol 69–79 kW automatic, 2018–2022 (25 vehicles; includes some late GB-generation cars)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/19-Hyundai/1128-i20.html?fueltype=2&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=69&power_e=79&gearing=2"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 99900,
+          "year": 2021,
+          "note": "1.0 טורבו, רמת גימור Intense, אוטומטית",
+          "source": {
+            "title": "Cartube — יונדאי i20 החדשה 2021 בישראל: מחיר 99,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i20-החדשה-2021-בישראל-מחיר-99900-שקל"
+          }
         }
       },
       "GB": {
@@ -438,6 +488,121 @@
             }
           }
         ]
+      },
+      "CN7": {
+        "issues": [
+          {
+            "he": "ריקול: מותחני חגורות הבטיחות הקדמיות עלולים לא לפעול כראוי בתאונה; לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 22V354, שנים 2021–2022 כולל היברידית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2021 Hyundai Elantra recalls (NHTSA 22V354000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2021/"
+            }
+          },
+          {
+            "he": "ריקול: לוח מעגל פגום עלול לפגוע בתמונת מצלמת הרוורס; לבדוק שהתמונה תקינה ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 24V879, שנים 2021–2022 כולל היברידית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2021 Hyundai Elantra recalls (NHTSA 24V879000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2021/"
+            }
+          },
+          {
+            "he": "ריקול (היברידית): שגיאת תוכנה ביחידת בקרת המנוע החשמלי עלולה לגרום להאצה לא מכוונת לאחר שחרור דוושת הבלם; לוודא שעודכנה התוכנה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 23V589, היברידית 2021–2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2022 Hyundai Elantra Hybrid recalls (NHTSA 23V589000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra-hybrid/2022/"
+            }
+          },
+          {
+            "he": "ריקול: השמשה הקדמית אולי לא הודבקה כראוי בייצור ועלולה להיתלש; לבדוק את איטום השמשה ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 21V00M — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2021 Hyundai Elantra recalls (NHTSA 21V00M000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2021/"
+            }
+          },
+          {
+            "he": "ריקול: קצר חשמלי בשסתום ה-EGR עלול לגרום לאובדן כוח הנעה; לוודא שהשסתום הוחלף.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 24V308, דגמי 2024 מסוימים — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2024 Hyundai Kona recalls (NHTSA 24V308000, also covers certain 2024 Elantra and Venue)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/kona/2024/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 היברידי 139 כ״ס",
+            "pt": "hybrid",
+            "hp": 139,
+            "cons": 4,
+            "unit": "L",
+            "source": {
+              "title": "AutoGuide — 2021 Hyundai Elantra Hybrid review (week-long test, ~59 mpg / 4.0 L/100km observed)",
+              "url": "https://www.autoguide.com/manufacturer/hyundai/2021-hyundai-elantra-hybrid-review-sneak-attack"
+            }
+          }
+        ]
+      },
+      "MD": {
+        "issues": [
+          {
+            "he": "ריקול: כרית הגומי של עוצר דוושת הבלם עלולה להתפרק ולהשאיר את מתג אורות הבלם לחוץ; לבדוק שאורות הבלם נכבים כשלא בולמים ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 17V769 / 16V574, שנים 2013–2014 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2013 Hyundai Elantra recalls (NHTSA 17V769000, 16V574000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2013/"
+            }
+          },
+          {
+            "he": "ריקול: תושבת המחוברת לריפוד התקרה עלולה לזוז בעת פתיחת כרית אוויר צידית; לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 13V115, ייצור 11/2010–03/2013 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2013 Hyundai Elantra recalls (NHTSA 13V115000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2013/"
+            }
+          },
+          {
+            "he": "ריקול: תקלה בחיישן מערכת בקרת היציבות (ESC) עלולה להשפיע על הבלמים; לוודא ביצוע הקריאה ושאין נורת ESC/ABS דולקת.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 15V871, ייצור 10/2010–10/2011 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2011 Hyundai Elantra recalls (NHTSA 15V871000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2011/"
+            }
+          },
+          {
+            "he": "ריקול נרחב על יחידת בקרת ה-ABS/בקרת המשיכה; לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 23V651, שנים 2011–2015 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — 2013 Hyundai Elantra recalls (NHTSA 23V651000)",
+              "url": "https://www.motorverso.com/recalls/hyundai/elantra/2013/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 132 כ״ס",
+            "pt": "petrol",
+            "hp": 132,
+            "cons": 8.54,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Elantra petrol 93–103 kW manual, 2011–2015 (10 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/19-Hyundai/182-Elantra.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=93&power_e=103&gearing=1"
+            }
+          }
+        ]
       }
     },
     "kona": {
@@ -513,6 +678,50 @@
             "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_קונה_בישראל:_מ-134,000_שקל/"
           }
         }
+      },
+      "SX2": {
+        "issues": [
+          {
+            "he": "ריקול: כבלי מצבר 12V עלולים להשתפשף בתושבת מחשב המנוע ולגרום לקצר ולשריפה בתאונה; לוודא שהותקן שרוול מגן.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 23V901, דגמי 2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — NHTSA 23V901000 (2024 Hyundai Kona)",
+              "url": "https://www.motorverso.com/recalls/hyundai/23V901000/"
+            }
+          },
+          {
+            "he": "ריקול: מנגנוני הגלילה של חגורות הבטיחות האחוריות עלולים לא לפעול כראוי; לבדוק שהחגורות האחוריות ננעלות ונגללות ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 23V650, דגמי 2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motor Verso — NHTSA 23V650000 (2024 Hyundai Kona)",
+              "url": "https://www.motorverso.com/recalls/hyundai/23V650000/"
+            }
+          },
+          {
+            "he": "ריקול: קצר חשמלי בשסתום ה-EGR עלול לגרום לאובדן כוח הנעה; לוודא שהשסתום הוחלף.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 24V308, דגמי 2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2024 Hyundai Kona recalls (NHTSA 24V308000)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/kona/2024/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 היברידי 141 כ״ס",
+            "pt": "hybrid",
+            "hp": 141,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "GoAuto — 2024 Hyundai Kona Hybrid review (~1,000 km mixed driving, 5.2 L/100km observed)",
+              "url": "https://goauto.com.au/amp/hyundai/kona/2024-hyundai-kona-hybrid-review/2024-04-26/93641.html"
+            }
+          }
+        ]
       }
     },
     "ioniq-5": {
@@ -595,6 +804,139 @@
             "url": "https://www.auto.co.il/articles/car-news/local-news/134593/"
           }
         }
+      }
+    },
+    "i30": {
+      "PD": {
+        "issues": [
+          {
+            "he": "ריקול: הפרעה באספקת שמן (למשאבת הוואקום) עלולה לגרום לנזק פתאומי ולכשל במגבר הבלמים; לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 23.10.2018–27.10.2020, קוד יצרן 21DC03 (Rapex A12/00185/24)",
+            "source": {
+              "title": "car-recalls.eu — Hyundai i30 (2018–2020) engine defect recall",
+              "url": "https://car-recalls.eu/uk/%D0%B7%D0%B3%D0%B0%D0%B4%D1%83%D0%B2%D0%B0%D1%82%D0%B8/hyundai-i30-2018-2020-%D0%BD%D0%B5%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D1%96%D1%81%D1%82%D1%8C-%D0%B4%D0%B2%D0%B8%D0%B3%D1%83%D0%BD%D0%B0/"
+            }
+          },
+          {
+            "he": "ריקול: מאיץ (impeller) משאבת הדלק עלול להתעוות ולגרום לכיבוי מנוע ואובדן כוח הנעה; לוודא שהמשאבה טופלה.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה 51D143, שנים 2020–2021 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai PD i30",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-pd-i30-2017/"
+            }
+          },
+          {
+            "he": "ריקול: תוכנה שגויה במנוע גג השמש עלולה למנוע עצירה אוטומטית בעת חסימה; לבדוק שהגג נעצר כשנתקל במכשול ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה 81C095, 07–10/2018 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai PD i30",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-pd-i30-2017/"
+            }
+          },
+          {
+            "he": "דווחו קפיאות מסך ותקלות לסירוגין במערכת המולטימדיה ונורות אזהרה ללא סיבה ברורה — לבדוק את המסך ולוח השעונים בנסיעת מבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Hyundai i30 Hatchback 2017-present reliability",
+              "url": "https://www.whatcar.com/hyundai/i30/hatchback/used-review/n905/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין 120 כ״ס",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i30 petrol 83–93 kW manual, 2017–2021 (89 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/19-Hyundai/1046-i30.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=83&power_e=93&gearing=1"
+            }
+          },
+          {
+            "name": "1.4 טורבו בנזין 140 כ״ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 6.98,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i30 petrol 98–108 kW DCT, 2016–2020 (64 vehicles)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/19-Hyundai/1046-i30.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=98&power_e=108&gearing=4"
+            }
+          }
+        ]
+      },
+      "GD": {
+        "issues": [
+          {
+            "he": "במנוע 1.6 GDI דווחו צריכת שמן חריגה (מעל ליטר ל-1,000 ק״מ) ו״נקישות בוכנה״ בהתנעה קרה עקב שריטות בצילינדרים; לבדוק מפלס שמן, רעשי מנוע קר ועשן מהפליטה.",
+            "level": "widely_reported",
+            "scope": "1.6 GDI, 2012–2016",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai GD i30 (2012-16)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-gd-i30-2012-16/"
+            }
+          },
+          {
+            "he": "עלולים להופיע נקישות/חבטות מההגה בסיבוב עקב בלאי צימוד הגומי במנוע ההגה החשמלי (עלון שירות 14-ST-002-1); לסובב את ההגה בעמידה ולהקשיב.",
+            "level": "manufacturer",
+            "scope": "2012–2014",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai GD i30 (TSB 14-ST-002-1)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-gd-i30-2012-16/"
+            }
+          },
+          {
+            "he": "ריקול: קליפרי בלם היד עלולים לא להשתחרר כראוי (תוקן בהחלפת אטם); לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "גיר ידני, ייצור 01–02/2012 (ריקול בבריטניה)",
+            "source": {
+              "title": "What Car? — Used Hyundai i30 Hatchback 2012-2017 reliability",
+              "url": "https://www.whatcar.com/hyundai/i30/hatchback/used-review/n768/reliability"
+            }
+          },
+          {
+            "he": "ציפוי ההגה עלול להתקלף (עלון שירות SE03513) — בעיה קוסמטית, לבדוק את מצב ההגה.",
+            "level": "manufacturer",
+            "scope": "ייצור לפני 12/2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai GD i30 (TSB SE03513)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-gd-i30-2012-16/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 GDI בנזין 135 כ״ס (ידנית)",
+            "pt": "petrol",
+            "hp": 135,
+            "cons": 7.15,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai i30 petrol 94–104 kW manual, 2010–2014 (47 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1046-i30.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=94&power_e=104&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "venue": {
+      "QX": {
+        "issues": [
+          {
+            "he": "ריקול: קצר חשמלי בשסתום ה-EGR עלול לגרום לאובדן כוח הנעה; לוודא שהשסתום הוחלף.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 24V308, דגמי 2024 מסוימים — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2024 Hyundai Kona recalls (NHTSA 24V308000, also covers certain 2024 Elantra and Venue)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/kona/2024/"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "models": {
     "swift": {
       "AZ": {
@@ -68,6 +68,82 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-סוזוקי-סוויפט-החדשה-בישראל-מחיר-החל-מ-78990-שקל"
           }
         }
+      },
+      "FZ/NZ": {
+        "issues": [
+          {
+            "he": "ריקול: חבק צינור מילוי הדלק הותקן לא נכון — דלק עלול לדלוף ולגרום לסכנת שריפה. לבדוק ריח דלק ליד פתח המילוי ושבוצע הטיפול.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה 2012 (PRA 2012/13081, 2012/13143) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki Mk.6 Swift (2011-17)",
+              "url": "https://australiancar.reviews/?p=47830"
+            }
+          },
+          {
+            "he": "ריקול: בגרסאות אוטומט/CVT ברגי צלחת ההנעה עלולים להשתחרר — רעש, ובמקרה קיצון המנוע נכבה ולא מתניע. לוודא שהטיפול בוצע ולהאזין לנקישות.",
+            "level": "recall",
+            "scope": "אוטומט/CVT, קריאה באוסטרליה 11.2013 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki Mk.6 Swift (2011-17)",
+              "url": "https://australiancar.reviews/?p=47830"
+            }
+          },
+          {
+            "he": "ריקול: ברגי גלגלת משאבת המים עלולים להשתחרר והרצועה ליפול — המנוע עלול להיכבות. לוודא שהטיפול בוצע.",
+            "level": "recall",
+            "scope": "ייצור 28.6.2013–4.10.2013 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki Mk.6 Swift (2011-17)",
+              "url": "https://australiancar.reviews/?p=47830"
+            }
+          },
+          {
+            "he": "ריקול: מכסה תיבת ההגה בצורה לא נכונה מאפשר חדירת מים, חלודה ובלאי — במקרה קיצון כשל בהיגוי. לבדוק חופש בהגה ושבוצע הטיפול.",
+            "level": "recall",
+            "scope": "ייצור 12.3.2012–30.12.2014 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki Mk.6 Swift (2011-17)",
+              "url": "https://australiancar.reviews/?p=47830"
+            }
+          },
+          {
+            "he": "התקלה הנפוצה היחידה בסקר בעלים היא מצבר; בנוסף שמשה קדמית זקופה נוטה לפגיעות אבנים ופנסים גדולים יקרים — לבדוק סדקים בשמשה ובפנסים ואת מצב המצבר.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Suzuki Swift Hatchback 2010-2017 reliability",
+              "url": "https://www.whatcar.com/suzuki/swift/hatchback/used-review/n781/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 94 כ״ס",
+            "pt": "petrol",
+            "hp": 94,
+            "cons": 6.44,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Swift, Gasoline, whole-model average all generations/engines (2,020 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/430-Swift.html"
+            }
+          }
+        ]
+      },
+      "AZH": {
+        "engines": [
+          {
+            "name": "1.2 מיילד-היברידי 83 כ״ס",
+            "pt": "hybrid",
+            "hp": 83,
+            "cons": 5.34,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Swift, Hybrid Gasoline, whole-model average incl. 2017–2024 mild hybrid (162 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/430-Swift.html"
+            }
+          }
+        ]
       }
     },
     "vitara": {
@@ -259,6 +335,97 @@
           "year": 2016,
           "url": "https://news.euroncap.com/safercars/latest-euro-ncap-safety-ratings-for-2016/s/b8c1b819-6665-4d87-b80d-5ece388c45c8"
         }
+      }
+    },
+    "s-cross": {
+      "JY": {
+        "issues": [
+          {
+            "he": "ריקול: בגרסאות 4X4 מפלס שמן לא נכון בדיפרנציאל האחורי — רעש חריג ובהמשך סכנת כשל בגיר/מיסבים. להאזין לזמזום מאחור ולוודא שבוצע הטיפול.",
+            "level": "recall",
+            "scope": "4X4, קריאה באוסטרליה 1.2014 (PRA 2014/13965) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki JY S-Cross",
+              "url": "https://australiancar.reviews/?p=47828"
+            }
+          },
+          {
+            "he": "ריקול: ברגי הסרן האחורי עלולים להשתחרר או להישבר — לוודא שבוצע הטיפול.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה 2.2016 (PRA 2016/15216) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki JY S-Cross",
+              "url": "https://australiancar.reviews/?p=47828"
+            }
+          },
+          {
+            "he": "ריקול: תפרי גב המושב הקדמי ליד כרית האוויר הצדדית מחוץ לטולרנס — עלולים לפגוע בפתיחת הכרית. לוודא שבוצע הטיפול.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה 4.2016 (PRA 2016/15330) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki JY S-Cross",
+              "url": "https://australiancar.reviews/?p=47828"
+            }
+          },
+          {
+            "he": "בעלים מתלוננים על חריקות ורעשים בתא הנוסעים ופלסטיקים שנשרטים; בחישוקים גדולים — לבדוק פגיעות שפה, ובגרסאות 4X4 לבדוק את תחתית הרכב.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Suzuki SX4 S-Cross 2013-2021 reliability",
+              "url": "https://whatcar.com/suzuki/sx4-s-cross/hatchback/used-review/n940/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 120 כ״ס",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 6.65,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki SX4 S-Cross (2013–2021), Gasoline, whole-model average incl. 1.4/1.0 BoosterJet (339 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/1481-SX4_S-Cross.html"
+            }
+          }
+        ]
+      }
+    },
+    "jimny": {
+      "JB74": {
+        "issues": [
+          {
+            "he": "ריקול: תכנון לקוי של רתמת החוטים בדלתות — החוטים עלולים להיחתך בפתיחה/סגירה ולמנוע פתיחת כריות צד ווילון. לבדוק שנורית כריות האוויר כבויה ושבוצע הטיפול.",
+            "level": "recall",
+            "scope": "דגמי 2019–2020 שנמכרו 8.2018–12.2020 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "WhichCar — 2018-2020 Suzuki Jimny recall (door loom)",
+              "url": "https://whichcar.com.au/car-news/2018-2020-suzuki-jimny-recall"
+            }
+          },
+          {
+            "he": "ריקול: מאייד (impeller) במשאבת הדלק עלול להתנפח ולהיעצר — המנוע עלול לכבות בנסיעה. לוודא שמשאבת הדלק הוחלפה.",
+            "level": "recall",
+            "scope": "ייצור 2018–2019 (קמפיין SSR29, אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki GJ/JJ Jimny (2018-on)",
+              "url": "https://australiancar.reviews/?p=102086"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 בנזין 102 כ״ס",
+            "pt": "petrol",
+            "hp": 102,
+            "cons": 8.22,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Jimny, Gasoline, whole-model average incl. older 1.3 Jimny (494 vehicles); power 75 kW/102 PS per ADAC",
+              "url": "https://www.spritmonitor.de/de/uebersicht/48-Suzuki/423-Jimny.html"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,0 +1,165 @@
+{
+  "make": "seat",
+  "updated": "2026-10-24",
+  "models": {
+    "ibiza": {
+      "6F (KJ)": {
+        "issues": [
+          {
+            "he": "ריקול לאבזם חגורה אחורית שמאלית שעלול להשתחרר כשיושבים שלושה מאחור — לוודא אצל היבואן שהותקן הספייסר",
+            "level": "recall",
+            "scope": "ייצור 05/2017–09/2018",
+            "source": {
+              "title": "What Car? — Used Seat Ibiza 2017–present reliability",
+              "url": "https://whatcar.com/seat/ibiza/hatchback/used-review/n987/reliability"
+            }
+          },
+          {
+            "he": "ריקול לבלם יד — אום הכוונון משתחרר ומהלך הידית גדל; לוודא תיקון ושבלם היד מחזיק",
+            "level": "recall",
+            "scope": "ייצור 05/2017–11/2018",
+            "source": {
+              "title": "What Car? — Used Seat Ibiza 2017–present reliability",
+              "url": "https://whatcar.com/seat/ibiza/hatchback/used-review/n987/reliability"
+            }
+          },
+          {
+            "he": "ריקול — שמן מנוע עלול להגיע למגבר הבלם דרך צינור הוואקום; לבדוק תחולה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 08/2019–02/2020 (בריטניה)",
+            "source": {
+              "title": "car-recalls.co.uk — Seat Ibiza (2019–2020) brake servo vacuum hose",
+              "url": "https://car-recalls.co.uk/recall/seat-ibiza-2019-2020-the-brake-servo-vacuum-hose/"
+            }
+          },
+          {
+            "he": "ריקול לכרית אוויר של הנהג שעלולה לא להתנפח בקצב הנכון — לבדוק תחולה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 12/2017 (בריטניה)",
+            "source": {
+              "title": "car-recalls.co.uk — Seat Ibiza (2017) driver's airbag",
+              "url": "https://car-recalls.co.uk/recall/seat-ibiza-2017-the-drivers-airbag-may-not-inflate-fast-enough/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין (TSI) 110–115 כ״ס",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 6.01,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ibiza petrol 76–86 kW manual, 2015–2019 (171 vehicles; includes some late 6J)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/44-Seat/391-Ibiza.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=76&power_e=86&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "arona": {
+      "KJ7": {
+        "issues": [
+          {
+            "he": "ריקול לאבזם חגורה אחורית שמאלית שעלול להשתחרר מעצמו (ובהמשך ריקול נוסף להחלפת האבזם הכפול, 2020) — לוודא ששני התיקונים בוצעו",
+            "level": "recall",
+            "scope": "ייצור 05/2017–09/2018",
+            "source": {
+              "title": "car-recalls.eu — Seat Arona recalls",
+              "url": "https://car-recalls.eu/common-problems/seat/Arona/"
+            }
+          },
+          {
+            "he": "ריקול לבלם יד — אום הכוונון זז ומהלך הידית גדל; לוודא שהותקן אום נעילה",
+            "level": "recall",
+            "scope": "ייצור 05/2017–11/2018",
+            "source": {
+              "title": "car-recalls.co.uk — Seat Arona (2017–2018) handbrake lever",
+              "url": "https://car-recalls.co.uk/recall/seat-arona-2017-2018-the-handbrake-lever-travel-for-parking-can-increase/"
+            }
+          },
+          {
+            "he": "ריקול לכרית אוויר של הנהג שעלולה לא להתנפח מהר מספיק — לבדוק תחולה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 12/2017",
+            "source": {
+              "title": "car-recalls.eu — Seat Arona (2017) airbag",
+              "url": "https://car-recalls.eu/recall/seat-arona-2017/"
+            }
+          },
+          {
+            "he": "תקלות במערכת Front Assist (חיישן תקול) ורעש שקשוק מהדשבורד בצד הנוסע — לבדוק בנסיעת מבחן שאין הודעות שגיאה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used SEAT Arona (Mk1, 2017–date) review",
+              "url": "https://auth.autoexpress.co.uk/seat/arona/356701/used-seat-arona-mk1-2017-date-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין (TSI) 110–115 כ״ס אוטומט",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 6.46,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Arona petrol 76–86 kW automatic, 2019–2023 (78 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/44-Seat/1640-Arona.html?fueltype=2&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=76&power_e=86&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/xceedingly-good/s/304c1a7e-30a8-4c6a-998b-b6d2bc5ee13a"
+        },
+        "launchPrice": {
+          "ils": 109900,
+          "year": 2017,
+          "note": "1.0 TSI אוטומט, רמת Style",
+          "source": {
+            "title": "iCar — סיאט ארונה בישראל: מ-110,000 שקל (12/2017)",
+            "url": "https://www.icar.co.il/חדשות_רכב/סיאט_ארונה_בישראל:_מ-110,000_שקל/"
+          }
+        }
+      }
+    },
+    "leon": {
+      "5F": {
+        "issues": [
+          {
+            "he": "ריקול למנעולי ילדים בדלתות האחוריות שעלולים להשתחרר — לוודא ביצוע ולבדוק שהנעילה עובדת",
+            "level": "recall",
+            "scope": "ייצור 11/2015–04/2016",
+            "source": {
+              "title": "What Car? — Used Seat Leon 2013–2020 reliability",
+              "url": "https://whatcar.com/seat/leon/hatchback/used-review/n805/reliability"
+            }
+          },
+          {
+            "he": "דיווחים על חדירת מים ותקלות חשמל/מולטימדיה ומזגן — לבדוק רטיבות בתא הנוסעים ותפקוד המסך והמזגן",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Seat Leon 2013–2020 reliability",
+              "url": "https://whatcar.com/seat/leon/hatchback/used-review/n805/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין (TSI) 140 כ״ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 6.44,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Leon petrol 98–108 kW manual, 2012–2016 (170 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/44-Seat/392-Leon.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=98&power_e=108&gearing=1"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

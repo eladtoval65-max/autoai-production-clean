@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -69,6 +69,50 @@
           "year": 2013,
           "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89"
         }
+      },
+      "GN": {
+        "issues": [
+          {
+            "he": "ריקול תוכנה: תמונת מצלמת הרוורס עלולה לקפוא או לא להופיע — לבדוק שהמצלמה עולה מיד בהילוך אחורי ושבוצע עדכון למערכת המולטימדיה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Outlander 2022–2024, PHEV 2023–2025 (NHTSA 25V369, מחליף 23V345) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2023 Mitsubishi Outlander PHEV recalls (NHTSA 25V369000, 23V345000)",
+              "url": "https://www.cars.com/research/mitsubishi-outlander_phev-2023/recalls/"
+            }
+          },
+          {
+            "he": "ריקול: חיישני מגע בגלגל ההגה עלולים להיות פגומים כך שמערכת MI-PILOT לא מזהה ידיים על ההגה ולא פועלת — לוודא שההגה הוחלף.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה: גרסאות Exceed/Exceed Tourer 2022–2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Mail Community — Over seven thousand Mitsubishis recalled (2025)",
+              "url": "https://upperyarra.mailcommunity.com.au/news/2025-04-03/over-seven-thousand-mitsubishis-recalled/"
+            }
+          },
+          {
+            "he": "ריקול: תקלת מחשב — הוחלף מחשב ההגה החשמלי (EPS) או תוכנתו מחדש יחידות ACC/FCM/ETACS — לוודא שהרכב טופל.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה, כ-4,855 רכבים מהדור החדש — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "S&P Global AutoTechInsight — Mitsubishi recalling almost 5,000 new-generation Outlander in Australia",
+              "url": "https://autotechinsight.spglobal.com/news/22130/mitsubishi-recalling-almost-5000-new-generation-outlander-in-australia"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 פלאג-אין",
+            "pt": "phev",
+            "hp": 252,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "WhichCar — 2023 Outlander PHEV long-term review, 7.8 L/100km over 6,894 km (~50% EV driving, 185 kW)",
+              "url": "https://www.whichcar.com.au/reviews/mitsubishi-outlander-phev-long-term-review"
+            }
+          }
+        ]
       }
     },
     "asx": {
@@ -117,6 +161,19 @@
             "source": {
               "title": "What Car? — Used Mitsubishi ASX 2010-present reliability",
               "url": "https://whatcar.com/mitsubishi/asx/estate/used-review/n17896/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 117 כ״ס",
+            "pt": "petrol",
+            "hp": 117,
+            "cons": 6.91,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Mitsubishi ASX, Gasoline, whole-model average all years/engines incl. 2.0 and 2023+ ASX (312 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/31-Mitsubishi/1209-ASX.html"
             }
           }
         ]
@@ -192,6 +249,87 @@
             "source": {
               "title": "NHTSA recall 19V330 — Mirage G4 SRS (dealer notice)",
               "url": "https://static.nhtsa.gov/odi/rcl/2019/RCMN-19V330-0640.pdf"
+            }
+          },
+          {
+            "he": "עדכון יצרן: תכנות מחדש של מחשב תיבת ה-CVT להפחתת מכות בהעברה — בנסיעת מבחן לבדוק שאין טלטולים בהאצה ובעצירה, ולבקש תיעוד עדכון.",
+            "level": "manufacturer",
+            "scope": "CVT (שוק ארה״ב, Mirage G4, TSB-17-23-003)",
+            "source": {
+              "title": "CarComplaints — 2017 Mitsubishi Mirage G4 TSBs (TSB-17-23-003)",
+              "url": "https://www.carcomplaints.com/Mitsubishi/Mirage_G4/2017/tsbs/"
+            }
+          },
+          {
+            "he": "עלון יצרן: דליפות נוזל קירור מצינורות קירור תיבת ה-CVT — לבדוק סימני רטיבות סביב צינורות התיבה ומפלס נוזל קירור.",
+            "level": "manufacturer",
+            "scope": "CVT (שוק ארה״ב, Mirage G4, TIN-18-23-002)",
+            "source": {
+              "title": "CarComplaints — 2017 Mitsubishi Mirage G4 TSBs (TIN-18-23-002)",
+              "url": "https://www.carcomplaints.com/Mitsubishi/Mirage_G4/2017/tsbs/"
+            }
+          },
+          {
+            "he": "עלון יצרן: חריקה/ציוץ מרצועת האלטרנטור — להקשיב בהתנעה קרה ולבדוק מצב הרצועה.",
+            "level": "manufacturer",
+            "scope": "שוק ארה״ב, Mirage G4 (TIN-20-11A-001)",
+            "source": {
+              "title": "CarComplaints — 2017 Mitsubishi Mirage G4 TSBs (TIN-20-11A-001)",
+              "url": "https://www.carcomplaints.com/Mitsubishi/Mirage_G4/2017/tsbs/"
+            }
+          }
+        ]
+      }
+    },
+    "eclipse-cross": {
+      "GK": {
+        "issues": [
+          {
+            "he": "ריקול: תוכנה שגויה ביחידת מצלמת בלימת החירום (FCM) עלולה לעבד תמונה לא נכון — לוודא שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "ייצור 2017–2021 (אירופה, 6.2021)",
+            "source": {
+              "title": "car-recalls.eu — Mitsubishi Eclipse Cross forward camera recall",
+              "url": "https://car-recalls.eu/recall/mitsubishi-eclipse-cross-forward-camera/"
+            }
+          },
+          {
+            "he": "ריקול: הלחמה לקויה במחבר השמשה המחוממת עלולה לגרום להתחממות יתר של המחבר — לוודא שהרכב טופל.",
+            "level": "recall",
+            "scope": "ייצור 2018–2019, שמשה מחוממת (אירופה, 3.2021)",
+            "source": {
+              "title": "car-recalls.eu — Mitsubishi Eclipse Cross windshield recall",
+              "url": "https://car-recalls.eu/recall/mitsubishi-eclipse-cross-windshield/"
+            }
+          },
+          {
+            "he": "ריקול: תפס של פס הקשת בגלגל הקדמי הימני עלול להשתחרר במהירות גבוהה והפס עלול ליפול — לבדוק שהפס מחובר היטב ושבוצע הטיפול.",
+            "level": "recall",
+            "scope": "ייצור 2017–2020 (אירופה, 10.2021)",
+            "source": {
+              "title": "car-recalls.eu — Mitsubishi Eclipse Cross wheel arch moulding recall",
+              "url": "https://car-recalls.eu/recall/mitsubishi-eclipse-cross-2020-wheel-arch-moulding/"
+            }
+          },
+          {
+            "he": "פלסטיקים קשיחים בתא המטען נשרטים בקלות ומדף המטען רעוע; בדגמי בסיס ללא חיישני חניה — לבדוק פגיעות חניה ושפות חישוקים (ואז כיוון פרונט).",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Mitsubishi Eclipse Cross 2018-present reliability",
+              "url": "https://www.whatcar.com/mitsubishi/eclipse-cross/hatchback/used-review/n17941/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "Cars.co.za — Eclipse Cross 1.5 Turbo GLS (2020) review, test average 8.7 L/100km (110 kW version)",
+              "url": "https://www.cars.co.za/motoring-news/mitsubishi-eclipse-cross-15-turbo-gls-2020-review/20697/"
             }
           }
         ]

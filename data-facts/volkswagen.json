@@ -1,0 +1,288 @@
+{
+  "make": "volkswagen",
+  "updated": "2026-10-24",
+  "models": {
+    "golf": {
+      "Mk7": {
+        "issues": [
+          {
+            "he": "מתיחת שרשרת תזמון במנועי TSI (בעיקר דגמים מוקדמים; גם שמן לא תקני עלול לגרום לכך) — להקשיב לנקישות בהנעה קרה ולבקש תיעוד טיפולים/החלפת שרשרת",
+            "level": "widely_reported",
+            "scope": "מנועי TSI בנזין",
+            "source": {
+              "title": "Parkers — Volkswagen Golf Mk7 (2013–2020) used buying guide",
+              "url": "https://parkers.co.uk/volkswagen/golf/hatchback-2013/used-review"
+            }
+          },
+          {
+            "he": "תיבת DSG: העברות בטלטול או זינוק במצערת נמוכה מעידים על תקלה יקרה — לבדוק נסיעת מבחן בפקקים ולוודא החלפות שמן תיבה לפי הספר",
+            "level": "widely_reported",
+            "scope": "DSG",
+            "source": {
+              "title": "Parkers — Volkswagen Golf Mk7 (2013–2020) used buying guide",
+              "url": "https://parkers.co.uk/volkswagen/golf/hatchback-2013/used-review"
+            }
+          },
+          {
+            "he": "בלם יד חשמלי שמשתחרר באיטיות או Hill Hold שלא עובד — לבדוק בנסיעת מבחן; לעיתים נפתר בעדכון תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Volkswagen Golf Mk7 (2013–2020) used buying guide",
+              "url": "https://parkers.co.uk/volkswagen/golf/hatchback-2013/used-review"
+            }
+          },
+          {
+            "he": "חדירת מים דרך הדלתות הקדמיות וריח עובש (בתי רמקולים סדוקים) בדגמים מוקדמים — לבדוק רטיבות בשטיחים ובתחתית הדלתות",
+            "level": "widely_reported",
+            "scope": "2013–2015",
+            "source": {
+              "title": "Parkers — Volkswagen Golf Mk7 (2013–2020) used buying guide",
+              "url": "https://parkers.co.uk/volkswagen/golf/hatchback-2013/used-review"
+            }
+          },
+          {
+            "he": "בולמי זעזועים דולפים ובלאי תותבים במתלה הקדמי — לחפש שמן על הבולמים ולהקשיב לנקישות מעל מהמורות",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Volkswagen Golf Mk7 (2013–2019) reliability",
+              "url": "https://www.carbuyer.co.uk/volkswagen/golf/73525/used-volkswagen-golf-review-2013-to-2019-mk7/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין (TSI)",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 6.33,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Golf petrol 87–97 kW manual, 2013–2017 (560 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/50-Volkswagen/452-Golf.html?fueltype=2&vehicletype=1&constyear_s=2013&constyear_e=2017&power_s=87&power_e=97&gearing=1"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 129900,
+          "year": 2013,
+          "note": "1.2 TSI 105 כ״ס DSG, רמת Trendline",
+          "source": {
+            "title": "וואלה רכב — מבחן השקה גולף 7 בישראל (פברואר 2013)",
+            "url": "https://cars.walla.co.il/item/2614534"
+          }
+        }
+      }
+    },
+    "polo": {
+      "AW": {
+        "issues": [
+          {
+            "he": "ריקול לאבזמי חגורות אחוריות (נוסע אמצעי עלול לשחרר את החגורה של השכן בתמרון חד) — לוודא אצל היבואן שהותקן הספייסר",
+            "level": "recall",
+            "scope": "ייצור 05/2017–10/2018",
+            "source": {
+              "title": "What Car? — Used Volkswagen Polo 2018–present reliability",
+              "url": "https://whatcar.com/volkswagen/polo/hatchback/used-review/n17425/reliability"
+            }
+          },
+          {
+            "he": "ריקול לבלם יד — אום הכוונון עלול להשתחרר ומהלך הידית גדל; לוודא שבוצע תיקון ושבלם היד מחזיק במדרון",
+            "level": "recall",
+            "scope": "ייצור 10/2017–10/2018",
+            "source": {
+              "title": "What Car? — Used Volkswagen Polo 2018–present reliability",
+              "url": "https://whatcar.com/volkswagen/polo/hatchback/used-review/n17425/reliability"
+            }
+          },
+          {
+            "he": "ריקול — שמן מנוע עלול להגיע למגבר הבלם דרך צינורות הוואקום; לוודא ביצוע בדיקה אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 10/2019–02/2020",
+            "source": {
+              "title": "What Car? — Used Volkswagen Polo 2018–present reliability",
+              "url": "https://whatcar.com/volkswagen/polo/hatchback/used-review/n17425/reliability"
+            }
+          },
+          {
+            "he": "ריקול לכרית האוויר של הנוסע (בית מחולל הגז עלול להתפוצץ בפתיחה) — לבדוק תחולה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "שנתונים 2022–2025, הודעה 08/2025 (EU)",
+            "source": {
+              "title": "car-recalls.eu — Volkswagen Polo (2022–2025) airbag injury",
+              "url": "https://car-recalls.eu/recall/volkswagen-polo-2022-2025-airbag-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין (TSI) 95 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 6.23,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Polo petrol 65–75 kW DSG, 2017–2021 (73 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/50-Volkswagen/451-Polo.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=65&power_e=75&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/xceedingly-good/s/304c1a7e-30a8-4c6a-998b-b6d2bc5ee13a"
+        }
+      }
+    },
+    "t-roc": {
+      "A11": {
+        "issues": [
+          {
+            "he": "ריקול — בלם החניה החשמלי עלול להשתחרר מעצמו בעזיבת דוושת המצמד (ידני); לוודא עדכון תוכנה",
+            "level": "recall",
+            "scope": "ייצור 11/2017–06/2018",
+            "source": {
+              "title": "car-recalls.eu — VW T-Roc common problems & recalls",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/t%20roc/"
+            }
+          },
+          {
+            "he": "ריקול — כיסויי מנוע עלולים להשתחרר (סיכון שריפה לפי ההודעה); לוודא שהוחלפו",
+            "level": "recall",
+            "scope": "ייצור 09/2020–02/2022",
+            "source": {
+              "title": "car-recalls.eu — VW T-Roc common problems & recalls",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/t%20roc/"
+            }
+          },
+          {
+            "he": "ריקול לספויילר אחורי שחלקיו עלולים להיפרד, ולמשענות ראש אחוריות — לבדוק ביצוע אצל היבואן",
+            "level": "recall",
+            "scope": "2018–2019",
+            "source": {
+              "title": "Auto Express — Used Volkswagen T-Roc Mk1 (2017–2025) review",
+              "url": "https://www.autoexpress.co.uk/volkswagen/t-roc/356215/used-volkswagen-t-roc-mk1-2017-2025-review"
+            }
+          },
+          {
+            "he": "בלם חניה שמשתחרר בקושי — לפעמים נפתר בעדכון תוכנה ולפעמים מתג מצמד תקול; לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Volkswagen T-Roc Mk1 (2017–2025) review",
+              "url": "https://www.autoexpress.co.uk/volkswagen/t-roc/356215/used-volkswagen-t-roc-mk1-2017-2025-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (TSI) 150 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.13,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — T-Roc petrol 105–115 kW DSG, 2016–2020 (92 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/1639-T-Roc.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=105&power_e=115&gearing=4"
+            }
+          },
+          {
+            "name": "1.0 טורבו בנזין (TSI) 115 כ״ס ידני",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — T-Roc petrol 79–89 kW manual, 2016–2020 (57 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/1639-T-Roc.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=79&power_e=89&gearing=1"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (TSI) 190 כ״ס אוטומט",
+            "pt": "petrol",
+            "hp": 190,
+            "cons": 8.07,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — T-Roc petrol 135–145 kW automatic, 2015–2019 (24 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/1639-T-Roc.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=135&power_e=145&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/xceedingly-good/s/304c1a7e-30a8-4c6a-998b-b6d2bc5ee13a"
+        },
+        "launchPrice": {
+          "ils": 170000,
+          "year": 2024,
+          "note": "רמת Style; לפי וואלה הדגם הגיע לישראל כשש שנים אחרי השקתו בעולם (גרסת מתיחת פנים)",
+          "source": {
+            "title": "וואלה רכב — מבחן פולקסווגן טי-רוק (ינואר 2024)",
+            "url": "https://cars.walla.co.il/item/3639150"
+          }
+        }
+      }
+    },
+    "tiguan": {
+      "AD1": {
+        "issues": [
+          {
+            "he": "1.4 TSI: דליפות שמן וצריכת שמן מהירה עם נורת שמן — מקור בצינור כניסת אוויר לטורבו פגום; לבדוק מפלס שמן ולשאול על הוספות שמן",
+            "level": "widely_reported",
+            "scope": "1.4 TSI",
+            "source": {
+              "title": "Haynes — VW Tiguan Mk2 common problems",
+              "url": "https://haynes.com/en-gb/tips-tutorials/vw-tiguan-mk2-common-problems"
+            }
+          },
+          {
+            "he": "שריקה/רחש מתא המנוע בהאצה (אטם סעפת פליטה) ודליפת שמן ממכסה מסנן השמן — לבדוק בנסיעת מבחן ומתחת למנוע",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — VW Tiguan Mk2 common problems",
+              "url": "https://haynes.com/en-gb/tips-tutorials/vw-tiguan-mk2-common-problems"
+            }
+          },
+          {
+            "he": "ריקול לספוילר גג שעלול להתנתק — לוודא ביצוע אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 05/2016–06/2019",
+            "source": {
+              "title": "Auto Express — Used Volkswagen Tiguan Mk2 (2016–2024) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/volkswagen/tiguan/354032/used-volkswagen-tiguan-mk2-2016-2024-buyers-guide-big-selling-suv-second"
+            }
+          },
+          {
+            "he": "הדגם עבר כ-16 קריאות שירות (בין היתר מושבים קדמיים, פנסים, קדם-מותחני חגורות וכריות, מתנע מתחמם, דיסקי בלם) — לבדוק לפי מספר שלדה שכולן בוצעו",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used Volkswagen Tiguan Mk2 (2016–2024) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/volkswagen/tiguan/354032/used-volkswagen-tiguan-mk2-2016-2024-buyers-guide-big-selling-suv-second"
+            }
+          },
+          {
+            "he": "מזגן שמקרר חלש (דליפת גז/שסתום מילוי) וחיישני חניה שמפסיקים לעבוד (צמת חיווט) — לבדוק את שתי המערכות",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — VW Tiguan Mk2 common problems",
+              "url": "https://haynes.com/en-gb/tips-tutorials/vw-tiguan-mk2-common-problems"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין (TSI) 150 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.89,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tiguan petrol 105–115 kW DSG, 2016–2020 (116 vehicles)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/50-Volkswagen/1045-Tiguan.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=105&power_e=115&gearing=4"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

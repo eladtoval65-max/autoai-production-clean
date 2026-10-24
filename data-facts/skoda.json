@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -448,6 +448,128 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-פאביה-החדשה-2015-בישראל"
           }
         }
+      },
+      "דור 4": {
+        "issues": [
+          {
+            "he": "ריקול: כרית האוויר של הנוסע הקדמי עלולה להיקרע או לא לתפקד כראוי בעת פתיחה (פגם ייצור). התיקון הוא החלפת הכרית. לבדוק לפי מספר שלדה מול היבואן שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 21.6.2021–10.6.2022, KBA 013100 (קוד יצרן 69EU)",
+            "source": {
+              "title": "car-recalls.eu — Skoda recalls 50,000 Fabia 2021–2022 for passenger airbag (KBA)",
+              "url": "https://car-recalls.eu/it/skoda-recall-50000-fabia-2021-2022-passenger-airbag-kba/"
+            }
+          },
+          {
+            "he": "ריקול נוסף: בית מחולל הגז של כרית האוויר של הנוסע הקדמי עלול להתפקע בעת פתיחה. לבדוק לפי מספר שלדה מול היבואן שהרכב לא כלול או שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 7.9.2022–20.3.2025, קוד יצרן 69EB (כ-1,666 רכבים בעולם)",
+            "source": {
+              "title": "car-recalls.eu — Skoda Fabia (2022–2025) airbag injury (Safety Gate SR/02896/25)",
+              "url": "https://car-recalls.eu/es/recall/skoda-fabia-2022-2025-airbag-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 TSI בנזין 150 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 5.93,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Fabia petrol 105–115 kW, DSG, 2021–2025 (29 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/398-Fabia.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=105&power_e=115&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/-koda-fabia---euro-ncap-2021-results---5-stars/s/3b321ba5-fd73-418d-85fe-4ddad5c2f0ce"
+        },
+        "launchPrice": {
+          "ils": 114990,
+          "year": 2022,
+          "note": "1.0 TSI 110 כ״ס DSG Ambition (‏1.5 TSI 150 כ״ס Style: 128,990 ₪), לא כולל אגרת רישוי",
+          "source": {
+            "title": "מלכת הכביש — סקודה פאביה החדשה: 2 מנועים, 3 רמות אבזור מ-115,000 שקלים (14.6.2022)",
+            "url": "https://www.queenoftheroad.co.il/%d7%a1%d7%a7%d7%95%d7%93%d7%94-%d7%a4%d7%90%d7%91%d7%99%d7%94-%d7%94%d7%97%d7%93%d7%a9%d7%94-2-%d7%9e%d7%a0%d7%95%d7%a2%d7%99%d7%9d-3-%d7%a8%d7%9e%d7%95%d7%aa-%d7%90%d7%91%d7%96%d7%95%d7%a8-%d7%9e-11/"
+          }
+        }
+      },
+      "5J (מתיחת פנים)": {
+        "issues": [
+          {
+            "he": "גיר DSG בעל 7 הילוכים (DQ200): קורוזיה ביחידת המכטרוניקה עלולה לגרום לקצר, לשריפת נתיך הגיר ולאובדן הנעה פתאומי. לבדוק לפי מספר שלדה שהקריאה בוצעה ושההעברות חלקות.",
+            "level": "recall",
+            "scope": "DSG 7 הילוכים, שנת דגם 2013 — קריאה באוסטרליה (PRA 2014/14013), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Skoda 5J Fabia (2011–14)",
+              "url": "https://australiancar.reviews/recalls-faults-skoda-5j-fabia-2011-14/"
+            }
+          },
+          {
+            "he": "גיר DSG בעל 7 הילוכים: סדק במצבר הלחץ ההידראולי עלול לגרום לאיבוד שמן ולחץ ולניתוק ההנעה. לבדוק שקריאת השירות (35E1) בוצעה.",
+            "level": "recall",
+            "scope": "DSG 7 הילוכים, 2008–2015 — קריאה באוסטרליה (PRA 2019/17887), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-001196 Skoda Fabia/Octavia/Rapid/Roomster/Superb/Yeti 2008–2015",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001196"
+            }
+          },
+          {
+            "he": "ריקול כרית אוויר נהג (Takata): חומר ההנעה עלול להתפרק מלחות והמנפח עלול להתפוצץ ולפזר רסיסים. לבדוק לפי מספר שלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "שנות דגם 2013–2015 — קריאה באוסטרליה (PRA 2018/16909), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Skoda 5J Fabia (2011–14)",
+              "url": "https://australiancar.reviews/recalls-faults-skoda-5j-fabia-2011-14/"
+            }
+          },
+          {
+            "he": "מנוע 1.2 TSI מוקדם: התארכות שרשרת התזמון — רעש נקישות בהתנעה, נורת מנוע ובמקרים קשים נזק למנוע. לשמוע את ההתנעה הקרה ולבקש תיעוד החלפת שרשרת.",
+            "level": "widely_reported",
+            "scope": "1.2 TSI (CBZ), ייצור לפני 18.6.2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Skoda 5J Fabia (2011–14)",
+              "url": "https://australiancar.reviews/recalls-faults-skoda-5j-fabia-2011-14/"
+            }
+          },
+          {
+            "he": "מנוע 1.2 TSI: שסתום ה-wastegate של הטורבו עלול להיתקע מפיח — מצב חירום, עיכוב בתגובה וקוד P334B. לבדוק שבוצע מבצע השירות 24W6 (שים + עדכון תוכנה).",
+            "level": "manufacturer",
+            "scope": "1.2 TSI (CBZ), לפני 2012, מבצע שירות 24W6",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Skoda 5J Fabia (2011–14)",
+              "url": "https://australiancar.reviews/recalls-faults-skoda-5j-fabia-2011-14/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.62,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Fabia petrol 72–82 kW, DSG, 2009–2013 (46 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/398-Fabia.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=72&power_e=82&gearing=4"
+            }
+          },
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס ידני",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.67,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Fabia petrol 72–82 kW, manual, 2009–2013 (160 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/398-Fabia.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=72&power_e=82&gearing=1"
+            }
+          }
+        ]
       }
     },
     "superb": {
@@ -520,6 +642,50 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-סופרב-החדשה-2015-בישראל-–-מחיר-החל-מ-159,990"
           }
         }
+      },
+      "B6 (3T)": {
+        "issues": [
+          {
+            "he": "גיר DSG בעל 7 הילוכים (DQ200): סדק במצבר הלחץ ההידראולי עלול לגרום לאיבוד שמן ולחץ ולניתוק ההנעה. לבדוק לפי מספר שלדה שקריאת השירות (35E1) בוצעה.",
+            "level": "recall",
+            "scope": "DSG 7 הילוכים, 2008–2015 — קריאה באוסטרליה (PRA 2019/17887), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-001196 Skoda Fabia/Octavia/Rapid/Roomster/Superb/Yeti 2008–2015",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001196"
+            }
+          },
+          {
+            "he": "גיר DSG בעל 7 הילוכים (DQ200): קורוזיה ביחידת המכטרוניקה עלולה לגרום לקצר ולאובדן הנעה פתאומי. לבדוק שהקריאה בוצעה ושהגיר מעביר חלק בנסיעת מבחן.",
+            "level": "recall",
+            "scope": "ייצור 11/2008–8/2011 — קריאה באוסטרליה (PRA 2013/13635), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Skoda 3T Superb (2009–15)",
+              "url": "https://australiancar.reviews/?p=47766"
+            }
+          },
+          {
+            "he": "ריקול כרית אוויר נהג (Takata): המנפח עלול להתפוצץ בפתיחה ולפזר רסיסי מתכת. לבדוק לפי מספר שלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "שנות דגם 2014–2015 — קריאה באוסטרליה (PRA 2018/16909), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Skoda 3T Superb (2009–15)",
+              "url": "https://australiancar.reviews/?p=47766"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 TSI בנזין 160 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 8.14,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Superb petrol 113–123 kW, DSG, 2009–2013 (60 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/400-Superb.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=113&power_e=123&gearing=4"
+            }
+          }
+        ]
       }
     },
     "rapid": {
@@ -588,6 +754,169 @@
             "title": "Cartube — סקודה ראפיד בישראל (12.3.2013)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-ראפיד-בישראל-–-מחיר-החל-מ-103-אלף-שקל"
           }
+        }
+      }
+    },
+    "scala": {
+      "Scala": {
+        "issues": [
+          {
+            "he": "ריקול: תוכנת מודול התקשורת של מערכת החיוג לחירום (eCall) אינה עומדת במפרט. לבדוק לפי מספר שלדה שעודכנה.",
+            "level": "recall",
+            "scope": "דגמי 2019, הודעה 19.3.2021",
+            "source": {
+              "title": "car-recalls.eu — Skoda Scala (2019) eCall",
+              "url": "https://car-recalls.eu/recall/skoda-scala-2019-ecall/"
+            }
+          },
+          {
+            "he": "ריקול: תפרים פגומים בריפודי המושבים עלולים לפגוע בפעולת כריות האוויר הצדדיות. לבדוק לפי מספר שלדה שבוצע תיקון.",
+            "level": "recall",
+            "scope": "דגמי 2019, הודעה 29.3.2020",
+            "source": {
+              "title": "car-recalls.eu — Skoda Scala (2019) seat covers / side airbags",
+              "url": "https://car-recalls.eu/recall/skoda-scala-2019-2/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 TSI בנזין 115 כ״ס",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 5.72,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Scala petrol 80–90 kW, manual, 2018–2022 (113 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/45-Skoda/1746-Scala.html?fueltype=2&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=80&power_e=90&gearing=1"
+            }
+          },
+          {
+            "name": "1.5 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 5.88,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Scala petrol 105–115 kW, manual, 2021–2025 (48 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/45-Skoda/1746-Scala.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=105&power_e=115&gearing=1"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/press-media/tesla-mercedes-and-skoda-score-a-touchdown-in-euro-ncap-s-latest-safety-tests/"
+        },
+        "launchPrice": {
+          "ils": 118000,
+          "year": 2019,
+          "note": "1.0 TSI 115 כ״ס Ambition (רמת הגימור היחידה בהשקה)",
+          "source": {
+            "title": "וואלה! רכב — סקודה סקאלה בישראל: החל מ-118 אלף שקלים (9.9.2019)",
+            "url": "https://cars.walla.co.il/item/3311695"
+          }
+        }
+      }
+    },
+    "enyaq": {
+      "MEB": {
+        "issues": [
+          {
+            "he": "בסקר האמינות של What Car? הדיווח הנפוץ ביותר היה תקלות חשמל שאינן במערכת ההנעה (כרבע מהבעלים שדיווחו על תקלה), ומיעוט תקלות במולטימדיה/ניווט. לבדוק בנסיעת מבחן שכל המערכות, המסכים והמצלמות פועלים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Skoda Enyaq 2021-present reliability",
+              "url": "https://whatcar.com/skoda/enyaq/4x4/used-review/n25767/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי iV 80 ‏204 כ״ס (סוללה 77 קוט״ש)",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 17.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Škoda Enyaq iV 80 (MY21–23), real-world combined 175 Wh/km",
+              "url": "https://ev-database.org/car/1280/Skoda-Enyaq-iV-80"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/-koda-enyaq-iv---euro-ncap-2021-results---5-stars/s/10c1e273-520d-49fe-b9e6-843c660c998e"
+        }
+      }
+    },
+    "yeti": {
+      "5L": {
+        "issues": [
+          {
+            "he": "גיר DSG בעל 7 הילוכים (DQ200): קורוזיה במכטרוניקה (2013) וסדק במצבר הלחץ (2013–2015) עלולים לגרום לאובדן הנעה פתאומי. לבדוק לפי מספר שלדה ששתי הקריאות בוצעו.",
+            "level": "recall",
+            "scope": "DSG 7 הילוכים — קריאות באוסטרליה PRA 2014/14013, PRA 2019/17887, לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Skoda 5L Yeti",
+              "url": "https://australiancar.reviews/?p=47767"
+            }
+          },
+          {
+            "he": "ריקול כרית אוויר נהג (Takata): המנפח עלול להתפוצץ בפתיחה ולפזר רסיסי מתכת. לבדוק לפי מספר שלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "שנות דגם 2014–2017 — קריאה באוסטרליה (PRA 2018/16909), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Skoda 5L Yeti",
+              "url": "https://australiancar.reviews/?p=47767"
+            }
+          },
+          {
+            "he": "מנוע 1.2 TSI מוקדם: התארכות שרשרת התזמון — רעש נקישות בהתנעה ואף דילוג שיניים. לשמוע התנעה קרה ולבקש תיעוד החלפת שרשרת.",
+            "level": "widely_reported",
+            "scope": "1.2 TSI (CBZ), ייצור לפני 18.6.2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Skoda 5L Yeti",
+              "url": "https://australiancar.reviews/?p=47767"
+            }
+          },
+          {
+            "he": "גיר DSG עלול לכשול — העברות מקרטעות או מאוחרות, חריקות או כיבוי מנוע. לבדוק בנסיעת מבחן זינוק, זחילה בפקקים והורדות הילוך.",
+            "level": "widely_reported",
+            "scope": "גרסאות DSG",
+            "source": {
+              "title": "What Car? — Used Skoda Yeti 2009-2017 advice",
+              "url": "https://www.whatcar.com/skoda/yeti/estate/used-review/n621/advice"
+            }
+          },
+          {
+            "he": "מנוע 1.8 TSI (EA888) שנבנה עד 1.5.2012: תופסן מותחן שרשרת גל הזיזים עלול להיכשל (אפילו סביב 30 אלף ק״מ) ולגרום לנזק כבד למנוע. לבדוק שהותקן החלק המעודכן.",
+            "level": "widely_reported",
+            "scope": "1.8 TSI, מנועים שיוצרו לפני 1.5.2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Skoda 5L Yeti",
+              "url": "https://australiancar.reviews/?p=47767"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס DSG",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 7.38,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Skoda Yeti petrol 72–82 kW, DSG, 2008–2012 (61 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/1154-Yeti.html?fueltype=2&vehicletype=1&constyear_s=2008&constyear_e=2012&power_s=72&power_e=82&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7567/euroncap_skoda_yeti_2009_5stars.pdf"
         }
       }
     }

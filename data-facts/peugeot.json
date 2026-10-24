@@ -1,0 +1,181 @@
+{
+  "make": "peugeot",
+  "updated": "2026-10-24",
+  "models": {
+    "208": {
+      "P21 (Gen2)": {
+        "issues": [
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק ולסתום את משאבת השמן — לבקש הוכחה לטיפולים במועד ולבדיקת/החלפת הרצועה; Stellantis הרחיבה אחריות ל-10 שנים / 175 אלף ק״מ (באירופה)",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Caroom — Stellantis propose une extension de garantie pour le moteur 1.2 PureTech",
+              "url": "https://www.caroom.fr/blog/stellantis-propose-une-extension-de-garantie-pour-le-problematique-moteur-1-2-puretech-25285.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: כיוון גלגלים קדמיים עלול להיות שגוי — לבדוק שהרכב נוסע ישר ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 12.9.2019–18.3.2020, קוד HFV",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208 (2020) wheel alignment",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2020-wheel-alignment/"
+            }
+          },
+          {
+            "he": "קריאת שירות: סיכה לא מספקת של משאבת הוואקום עלולה לשבור אותה ולהחליש את סיוע הבלמים — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.4.2017–11.12.2020, קודים KGG/KGH",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208 (2017–2020) vacuum pump",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2017-2020-vacuum-pump/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech בנזין 100 כ״ס",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 5.88,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 208 petrol 69–79 kW manual, 2022–2026 (36 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1281-208.html?fueltype=2&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=69&power_e=79&gearing=1"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "url": "https://news.euroncap.com/images-and-videos/peugeot-208---euro-ncap-2019-results---4-stars/s/06fbc20b-7298-4106-ba0a-0c20a67fb8a7"
+        }
+      }
+    },
+    "301": {
+      "M33": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ממסר חשמלי פגום עלול למנוע הנעה או להפעיל את המתנע באופן בלתי צפוי (סכנת שריפה) — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "דגמי 2016, RAPEX 18/2017 — לבדוק תחולה לפי מספר שלדה",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 301 (2016) relay",
+              "url": "https://car-recalls.eu/uk/recall/peugeot-301-2016/"
+            }
+          }
+        ]
+      }
+    },
+    "2008": {
+      "P24 (Gen2)": {
+        "issues": [
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק ולסתום את משאבת השמן — לבקש הוכחה לטיפולים במועד ולבדיקת/החלפת הרצועה; Stellantis הרחיבה אחריות ל-10 שנים / 175 אלף ק״מ (באירופה)",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech (לא המיילד-היברידי עם שרשרת)",
+            "source": {
+              "title": "Caroom — Stellantis propose une extension de garantie pour le moteur 1.2 PureTech",
+              "url": "https://www.caroom.fr/blog/stellantis-propose-une-extension-de-garantie-pour-le-problematique-moteur-1-2-puretech-25285.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינורות בלם אחוריים הותקנו בניתוב שגוי ועלולים להיקרע — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 8.11–2.12.2019, קוד JTX",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 2008 II (2019) brake hoses",
+              "url": "https://car-recalls.eu/recall/peugeot-2008-ii-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: סיכה לא מספקת של משאבת הוואקום עלולה לשבור אותה ולהחליש את סיוע הבלמים — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.4.2017–11.12.2020, קודים KGG/KGH",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/3008 (2017–2020) vacuum pump",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2017-2020-vacuum-pump/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס, EAT8",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.14,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 2008 petrol 91–101 kW automatic, 2018–2022 (37 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1309-2008.html?fueltype=2&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=91&power_e=101&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/peugeot-2008---euro-ncap-2019-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/771eedad-c774-4ca7-ba7a-b409cb0fcf1d"
+        }
+      }
+    },
+    "3008": {
+      "P84 (Gen2)": {
+        "issues": [
+          {
+            "he": "רצועת תזמון רטובה במנוע 1.2 PureTech נשחקת מוקדם, ושבריה סותמים מעברי שמן; המנוע גם עלול לשרוף שמן — מעל 65 אלף ק״מ לבקש הוכחה להחלפת רצועה ולבדוק מפלס שמן",
+            "level": "widely_reported",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Autocar — Peugeot 3008 (2016–2024) used reliability",
+              "url": "https://www.autocar.co.uk/car-review/peugeot/3008-2016-2024/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: סיכה לא מספקת של משאבת הוואקום עלולה לשבור אותה ולהחליש את סיוע הבלמים — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.4.2017–11.12.2020, קודים KGG/KGH",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 208/2008/3008 (2017–2020) vacuum pump",
+              "url": "https://car-recalls.eu/recall/peugeot-208-2017-2020-vacuum-pump/"
+            }
+          },
+          {
+            "he": "גג פנורמי עלול לדלוף מים לתא — לבדוק כתמי רטיבות בריפוד הגג ובשטיחים",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autocar — Peugeot 3008 (2016–2024) used reliability",
+              "url": "https://www.autocar.co.uk/car-review/peugeot/3008-2016-2024/reliability"
+            }
+          },
+          {
+            "he": "בלם יד חשמלי עלול להיתקע — לבדוק שהוא משתחרר ונועל כראוי; תיבה אוטומטית: רעידות או העברות מאוחרות עלולות להעיד על דליפת שמן או תקלה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autocar — Peugeot 3008 (2016–2024) used reliability",
+              "url": "https://www.autocar.co.uk/car-review/peugeot/3008-2016-2024/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.58,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — 3008 petrol 92–102 kW automatic, 2017–2021 (58 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/36-Peugeot/1150-3008.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=92&power_e=102&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://news.euroncap.com/safercars/top-marks-for-mercedes-benz-e-class-and-peugeot-3008-in-euro-ncap-safety-tests/s/edd09b52-e2b0-469e-a67f-8dcd5cf3bcd5"
+        }
+      }
+    }
+  }
+}

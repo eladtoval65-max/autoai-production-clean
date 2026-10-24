@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "models": {
     "corolla": {
       "E150": {
@@ -86,7 +86,20 @@
           "stars": 5,
           "year": 2013,
           "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-releases-latest-round-of-crash-tests"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.6 בנזין 132 כ״ס, CVT",
+            "pt": "petrol",
+            "hp": 132,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Corolla petrol 92–102 kW CVT, 2015–2019 (18 vehicles)",
+              "url": "https://www.spritmonitor.de/fr/apercu/49-Toyota/435-Corolla.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=92&power_e=102&gearing=3"
+            }
+          }
+        ]
       },
       "E210": {
         "issues": [
@@ -442,6 +455,233 @@
             }
           }
         ]
+      },
+      "AX20": {
+        "issues": [
+          {
+            "he": "תכנות לוח המחוונים הדיגיטלי עלול לגרום לכיבוי התצוגה (מד מהירות ונוריות אזהרה) — לוודא שהלוח עודכן אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 2022–2025 (Toyota 25SD-063, RAPEX SR/02991/25)",
+            "source": {
+              "title": "car-recalls.eu — Toyota C-HR (2022–2025) display failure",
+              "url": "https://car-recalls.eu/recall/toyota-c-hr-2022-2025-display-failure/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 היברידי 197 כ״ס",
+            "pt": "hybrid",
+            "hp": 197,
+            "cons": 5.07,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — C-HR hybrid 140–150 kW automatic, 2022–2026 (24 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/1563-C-HR.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=140&power_e=150&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/toyota-c-hr---euro-ncap-2024-results---5-stars/s/e1e97525-fd77-493a-8673-cabeb0ffcc7a"
+        }
+      }
+    },
+    "corolla-cross": {
+      "XG10": {
+        "issues": [
+          {
+            "he": "באג תוכנה בבקר בקרת היציבות עלול לבטל את סיוע הבלמים בכניסה לפנייה — הדוושה מתקשה ומרחק העצירה מתארך. לוודא שבוצע עדכון תוכנה אצל היבואן",
+            "level": "recall",
+            "scope": "קריאה בארה״ב להיברידית 2023–2024 (NHTSA 24V-708); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TFLcar — Toyota recalls 2023-2024 Corolla Cross Hybrid models due to braking problem (24V-708)",
+              "url": "https://tflcar.com/2024/10/toyota-corolla-cross-hybrid-braking-recall-news"
+            }
+          },
+          {
+            "he": "צליל האזהרה להולכי רגל עלול להיות שקט מדי ברוורס — לוודא שבוצע עדכון התוכנה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב להיברידית 2023–2025; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — Toyota recalls 74,000 Corolla Cross Hybrid SUVs over pedestrian warning sound",
+              "url": "https://cars.com/articles/toyota-recalls-74000-corolla-cross-hybrid-suvs-over-pedestrian-warning-sound-523314/"
+            }
+          },
+          {
+            "he": "סדקים במפרק העליון של ציר ההגה הביניים עלולים לגרום לאובדן שליטה בהגה — לוודא מול היבואן לפי מספר שלדה שהציר הוחלף",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה 2023–2024 (ZGGA1 / REC-006191); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Vehicle Recalls (Australia) — REC-006191, Toyota Corolla Cross steering intermediate shaft",
+              "url": "https://vehiclerecalls.gov.au/recalls/rec-006191"
+            }
+          },
+          {
+            "he": "תכנות לוח המחוונים הדיגיטלי עלול לגרום לכיבוי התצוגה (מד מהירות ונוריות אזהרה) — לוודא שהלוח עודכן אצל היבואן",
+            "level": "recall",
+            "scope": "ייצור 2022–2025 (Toyota 25SD-063, RAPEX SR/02991/25)",
+            "source": {
+              "title": "car-recalls.eu — Toyota (C-HR, Corolla Cross and others) 2022–2025 display failure",
+              "url": "https://car-recalls.eu/recall/toyota-c-hr-2022-2025-display-failure/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 היברידי 140 כ״ס",
+            "pt": "hybrid",
+            "hp": 140,
+            "cons": 5.13,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Corolla Cross hybrid 98–108 kW CVT, 2023–2027 (21 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/2074-Corolla_Cross.html?fueltype=10&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=98&power_e=108&gearing=3"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 168900,
+          "year": 2022,
+          "note": "גרסת Active, 1.8 היברידי 140 כ״ס",
+          "source": {
+            "title": "Cartube — טויוטה קורולה קרוס בישראל: מחיר 168,900 שקל (29.9.2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קורולה-קרוס-בישראל-מחיר-168900-שקל"
+          }
+        }
+      }
+    },
+    "camry": {
+      "XV70": {
+        "issues": [
+          {
+            "he": "משאבת דלק בלחץ נמוך (Denso) עלולה להפסיק לפעול — כיבוי מנוע בנסיעה או ריצה לא סדירה. לוודא מול היבואן שהמשאבה הוחלפה",
+            "level": "recall",
+            "scope": "ייצור 06/2018–02/2019 (באוסטרליה VGG05) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XV70 Camry Hybrid",
+              "url": "https://australiancar.reviews/recalls-faults-toyota-xv70-camry-hybrid-2017/"
+            }
+          },
+          {
+            "he": "משאבת מגבר הבלמים עלולה להפסיק לפעול ולבטל את סיוע הבלימה — לוודא שהקריאה בוצעה ושהבלם לא \"קשה\"",
+            "level": "recall",
+            "scope": "ייצור 05/2019 (באוסטרליה UGG33) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XV70 Camry Hybrid",
+              "url": "https://australiancar.reviews/recalls-faults-toyota-xv70-camry-hybrid-2017/"
+            }
+          },
+          {
+            "he": "מנגנון הנעילה של חגורת הבטיחות האחורית-אמצעית עלול לא לנעול — לבדוק שהחגורה ננעלת במשיכה חדה ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 08–09/2019 (באוסטרליה UGG59) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XV70 Camry Hybrid",
+              "url": "https://australiancar.reviews/recalls-faults-toyota-xv70-camry-hybrid-2017/"
+            }
+          },
+          {
+            "he": "קאמרי נפוצה כמונית/רכב הסעות — לבדוק בהיסטוריה שימוש מסחרי וקילומטראז׳ גבוה, וסימני שפשוף בפינות המרכב (ראות אחורית מוגבלת)",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Toyota Camry 2019-2022 reliability",
+              "url": "https://production.whatcar.com/toyota/camry/saloon/used-review/n25503/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי",
+            "pt": "hybrid",
+            "hp": 218,
+            "cons": 5.84,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Camry hybrid 155–165 kW CVT, 2017–2021 (37 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/433-Camry.html?fueltype=10&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=155&power_e=165&gearing=3"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 175000,
+          "year": 2018,
+          "note": "גרסת LE היברידית",
+          "source": {
+            "title": "Cartube — טויוטה קאמרי היברידית החדשה 2018 בישראל: מחיר 175,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קאמרי-היברידית-החדשה-2018-בישראל-מחיר-175000-שקל"
+          }
+        }
+      }
+    },
+    "prius": {
+      "XW50": {
+        "issues": [
+          {
+            "he": "כבל בלם החניה עלול להשתחרר מהקליפר האחורי — בלם היד לא יחזיק. לבדוק שבלם החניה מחזיק בעלייה ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 08/2015–10/2016 (כ-340 אלף רכבים בעולם) — קריאה באוסטרליה, לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW50 Prius (PRA 2016/15676)",
+              "url": "https://australiancar.reviews/?p=47891"
+            }
+          },
+          {
+            "he": "רתמת חיווט המנוע ליד יחידת בקרת ההספק עלולה להישחק ולגרום לקצר וסכנת שריפה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2015–2018 (באוסטרליה LGG58) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW50 Prius (LGG58)",
+              "url": "https://australiancar.reviews/?p=47891"
+            }
+          },
+          {
+            "he": "שבב במערכת כריות האוויר עלול לגרום לנטרול כריות — לוודא שנורית כרית האוויר כבה אחרי ההתנעה ושהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 11–12/2015 — קריאה באוסטרליה, לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW50 Prius (PRA 2018/16585)",
+              "url": "https://australiancar.reviews/?p=47891"
+            }
+          },
+          {
+            "he": "מתג תזכורת חגורת הנהג עלול לקצר ולהשמיע צפצופים גם כשהחגורה חגורה — לבדוק ולוודא שאבזם החגורה הוחלף",
+            "level": "recall",
+            "scope": "ייצור 11/2015–01/2018 (באוסטרליה VGG01) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Toyota XW50 Prius (VGG01)",
+              "url": "https://australiancar.reviews/?p=47891"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 היברידי 122 כ״ס",
+            "pt": "hybrid",
+            "hp": 122,
+            "cons": 4.48,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Prius 85–95 kW CVT, 2015–2019, logged as petrol (175 vehicles; 40 logged as hybrid avg 4.60)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/49-Toyota/439-Prius.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=85&power_e=95&gearing=3"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-premieres-first-rating-with-pedestrian-detection"
+        },
+        "launchPrice": {
+          "ils": 148900,
+          "year": 2016,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "icar — טויוטה פריוס החדשה בישראל: המחיר (כמעט) ללא שינוי (7.3.2016)",
+            "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_פריוס_החדשה_בישראל_-_המחיר_(כמעט)_ללא_שינוי/"
+          }
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "models": {
     "sportage": {
       "NQ5": {
@@ -120,6 +120,55 @@
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_ספורטאז'_החדש_בישראל:_מ-137,900_שקל/"
           }
         }
+      },
+      "SL": {
+        "issues": [
+          {
+            "he": "דווח שריפוד העור במושבים נוטה להיקרע. לבדוק את מצב ריפוד המושבים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2010-2016 reliability",
+              "url": "https://whatcar.com/kia/sportage/4x4/used-review/n429/advice"
+            }
+          },
+          {
+            "he": "תאורת לוחית הרישוי האחורית עלולה להתקלקל בגלל חדירת מים. לבדוק שהתאורה דולקת ושאין סימני לחות בפנס.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2010-2016 reliability",
+              "url": "https://whatcar.com/kia/sportage/4x4/used-review/n429/advice"
+            }
+          },
+          {
+            "he": "דווח על הצטברות עיבוי רב על החלונות הקדמיים שקשה לנקות. לבדוק שמערכת המיזוג והאוורור מנקה את השמשה במהירות, ולחפש סימני רטיבות בתא הנוסעים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2010-2016 reliability",
+              "url": "https://whatcar.com/kia/sportage/4x4/used-review/n429/advice"
+            }
+          },
+          {
+            "he": "מומלץ לבדוק את מערכות החשמל בתא הנוסעים, ובמיוחד את מערכת הניווט ובקרת האקלים, וכן לוודא שהמושבים זזים על המסילות ושתא המטען נפתח בלי להיתקע.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Sportage 2010-2016 reliability",
+              "url": "https://whatcar.com/kia/sportage/4x4/used-review/n429/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 10.17,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Sportage petrol 115–125 kW, manual, 2010–2014 (33 vehicles; no automatic-only filter available)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/23-Kia/220-Sportage.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=115&power_e=125&gearing=1"
+            }
+          }
+        ]
       }
     },
     "picanto": {
@@ -286,6 +335,75 @@
             "url": "https://cars.walla.co.il/item/3011210"
           }
         }
+      },
+      "SG2": {
+        "issues": [
+          {
+            "he": "ריקול: חיווט הרצפה מתחת למושב הנוסע הקדמי עלול להינזק, וכתוצאה מכך כריות האוויר הקדמיות וחגורות הבטיחות לא יפעלו כראוי או שכרית וילון תיפתח שלא לצורך. לבדוק שהריקול בוצע ושאין נורית כרית אוויר דולקת.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, 2023–2025 היברידית, פלאג-אין וחשמלית (SC332, NHTSA 25V024) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Fox Business — Over 80,000 Kia electric, hybrid vehicles recalled over issues with airbags",
+              "url": "https://www.foxbusiness.com/lifestyle/over-80000-kia-electric-hybrid-vehicles-recalled-over-issues-airbags-nhtsa"
+            }
+          },
+          {
+            "he": "ריקול: גל הינע שעבר טיפול חום לקוי עלול להישבר תחת עומס ולגרום לאובדן הנעה. התיקון: החלפת גל ההינע. לבדוק שהריקול בוצע.",
+            "level": "recall",
+            "scope": "חשמלית, קריאה בארה״ב (SC295, NHTSA 24V057) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — Kia Niro EV 2023 US recalls",
+              "url": "https://www.clearvin.com/car-recalls/kia/niro-ev/2023/"
+            }
+          },
+          {
+            "he": "ריקול: ברגי גלגל השיניים של הדיפרנציאל ביחידת ההנעה עלולים להיות לא מהודקים כראוי, מה שעלול לגרום לאובדן הנעה או לנעילת הדיפרנציאל. התיקון: החלפת יחידת ההנעה. לבדוק שהריקול בוצע ולהקשיב לרעשים מההנעה.",
+            "level": "recall",
+            "scope": "חשמלית, קריאה בארה״ב (SC308, NHTSA 24V271) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — Kia Niro EV 2023 US recalls",
+              "url": "https://www.clearvin.com/car-recalls/kia/niro-ev/2023/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 היברידי",
+            "pt": "hybrid",
+            "hp": 141,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Niro petrol hybrid 100–110 kW, automatic, 2020–2024 (89 vehicles; range also includes late first-generation cars)",
+              "url": "https://www.spritmonitor.de/fr/apercu/23-Kia/1540-Niro.html?fueltype=10&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=100&power_e=110&gearing=2"
+            }
+          },
+          {
+            "name": "חשמלי 64.8 קוט״ש 204 כ״ס",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 18.72,
+            "unit": "kWh",
+            "source": {
+              "title": "Spritmonitor — Kia Niro electric 145–155 kW, 2022–2026 (59 vehicles; 2022 may include some first-generation e-Niro)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/23-Kia/1540-Niro.html?fueltype=5&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=145&power_e=155&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/kia-niro---euro-ncap-2022-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/0b1e4652-586e-456d-a124-bdc2acff7434"
+        },
+        "launchPrice": {
+          "ils": 199900,
+          "year": 2023,
+          "note": "גרסה חשמלית (64.8 קוט״ש) בהשקה בפברואר 2023; גרסת הפלאג-אין הושקה ב-184,900 ש״ח",
+          "source": {
+            "title": "מלכת הכביש — קיה נירו החדש בישראל: חשמלי מלא ופלאג אין מ-185,000₪",
+            "url": "https://www.queenoftheroad.co.il/?p=77247"
+          }
+        }
       }
     },
     "rio": {
@@ -337,6 +455,67 @@
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_ריו_החדשה_בישראל:_תעלה_96,000_שקל/"
           }
         }
+      },
+      "UB": {
+        "issues": [
+          {
+            "he": "דווחו חריקות ורעשי טרטור מלוח המחוונים, מעמוד ההגה ומעמודי ה-A. בנסיעת מבחן על כבישים משובשים להקשיב לרעשים מתא הנוסעים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Rio Hatchback 2011-2017 reliability",
+              "url": "https://whatcar.com/kia/rio/hatchback/used-review/n774/advice"
+            }
+          },
+          {
+            "he": "חלק מהבעלים דיווחו על תקלות במערכת בקרת היציבות (ESP) ובמערכת הסיוע לזינוק בעלייה. לבדוק שאין נורית ESP דולקת ושהרכב לא מתדרדר לאחור בזינוק בעלייה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Rio Hatchback 2011-2017 reliability",
+              "url": "https://whatcar.com/kia/rio/hatchback/used-review/n774/advice"
+            }
+          },
+          {
+            "he": "בגרסאות הידניות דווח על קושי לשלב להילוך אחורי מדי פעם. בנסיעת המבחן לשלב לאחור כמה פעמים ולוודא שההילוך נכנס בקלות.",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית",
+            "source": {
+              "title": "What Car? — Used Kia Rio Hatchback 2011-2017 reliability",
+              "url": "https://whatcar.com/kia/rio/hatchback/used-review/n774/advice"
+            }
+          },
+          {
+            "he": "דווחו רעשי צפצוף או חריקה מרצועת האביזרים (ריצה למחולל ולאביזרים) בסיבובים נמוכים. להקשיב במנוע בסרק כשהרדיו והמאוורר כבויים, ולוודא שהמזגן מקרר מהר.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoTrader.ca — Used Vehicle Review: Kia Rio, 2012-2017",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/kia/rio/used-vehicle-review-kia-rio-2012-2017/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 109 כ״ס (אוטומטית)",
+            "pt": "petrol",
+            "hp": 109,
+            "cons": 8.37,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Rio petrol 75–85 kW, automatic, 2011–2015 (12 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/214-Rio.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=75&power_e=85&gearing=2"
+            }
+          },
+          {
+            "name": "1.4 בנזין 109 כ״ס (ידנית)",
+            "pt": "petrol",
+            "hp": 109,
+            "cons": 7.14,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Rio petrol 75–85 kW, manual, 2011–2015 (74 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/214-Rio.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=75&power_e=85&gearing=1"
+            }
+          }
+        ]
       }
     },
     "ceed": {
@@ -414,6 +593,165 @@
           "source": {
             "title": "icar — קיה סיד החדשה בישראל: מ-125,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_סיד_החדשה_בישראל:_מ-125,000_שקל/"
+          }
+        }
+      },
+      "JD": {
+        "issues": [
+          {
+            "he": "דווח על דלתות שלא ננעלות. לבדוק שכל הדלתות ננעלות ונפתחות בשלט ובמפתח.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Cee'd 2012-2018 reliability",
+              "url": "https://www.whatcar.com/kia/ceed/hatchback/used-review/n834/advice"
+            }
+          },
+          {
+            "he": "דווח על פנסים קדמיים מהבהבים (חלקם הוחלפו באחריות) ועל תקלות בנורות לד של אורות היום. לבדוק שהפנסים ואורות היום דולקים בצורה יציבה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarGurus UK — Kia Ceed 2012-2018 review",
+              "url": "https://www.cargurus.co.uk/research/Kia-ceed-2012-mg284"
+            }
+          },
+          {
+            "he": "בגרסאות הידניות: מצמד שנתפס מיד כשמרימים את הדוושה מהרצפה מעיד בדרך כלל על מצמד שעומד להיגמר. לבדוק את נקודת התפיסה בנסיעת המבחן.",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית",
+            "source": {
+              "title": "CarGurus UK — Kia Ceed 2012-2018 review",
+              "url": "https://www.cargurus.co.uk/research/Kia-ceed-2012-mg284"
+            }
+          },
+          {
+            "he": "רעשי בלמים עלולים לנבוע מחלודה בשולי הדיסקים שמתחככת בקליפרים. להקשיב לרעשים בבלימה ולבדוק את שולי הדיסקים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarGurus UK — Kia Ceed 2012-2018 review",
+              "url": "https://www.cargurus.co.uk/research/Kia-ceed-2012-mg284"
+            }
+          },
+          {
+            "he": "בדיזל: דשי מערבולת (swirl flaps) עלולים להיכשל בקילומטראז׳ גבוה, ואם דש נשאב למנוע הנזק עלול להיות חמור. בדיזל עם קילומטראז׳ גבוה לבדוק אם בוצע טיפול בדשים.",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "CarGurus UK — Kia Ceed 2012-2018 review",
+              "url": "https://www.cargurus.co.uk/research/Kia-ceed-2012-mg284"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 135 כ״ס",
+            "pt": "petrol",
+            "hp": 135,
+            "cons": 7.18,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia ceed petrol 94–104 kW, manual, 2012–2016 (194 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/945-ceed.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=94&power_e=104&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "stonic": {
+      "YB": {
+        "issues": [
+          {
+            "he": "ריקול: תקלה שעלולה לפגוע ביכולת הבלימה. לבדוק מול היבואן לפי מספר שלדה שהריקול בוצע, ובנסיעת מבחן לוודא בלימה חזקה ואחידה.",
+            "level": "recall",
+            "scope": "שנתונים 2019–2020 (כ-20,781 רכבים לפי What Car?) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "What Car? — Used Kia Stonic 2017-present: advice/reliability",
+              "url": "https://www.whatcar.com/kia/stonic/estate/used-review/n18483/advice"
+            }
+          },
+          {
+            "he": "ריקול: קצר בשסתום החזרת גזי הפליטה (EGR) עלול לגרום לכיבוי המנוע עוד לפני שנורית האזהרה נדלקת. לבדוק מול היבואן לפי מספר שלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "ייצור 11.1.2024–14.2.2024 (EU Safety Gate A12/02768/24, קוד קיה 241099)",
+            "source": {
+              "title": "car-recalls.eu — Kia Stonic (2024): engine stall",
+              "url": "https://car-recalls.eu/recall/kia-stonic-2024-engine-stall/"
+            }
+          },
+          {
+            "he": "ריקול: תקלת תוכנה מכבה את אורות היום (DRL) במצב חיסכון בדלק. התיקון: עדכון תוכנה. לבדוק שאורות היום דולקים ושהעדכון בוצע.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה, דגמי 2025–2026 (REC-006665) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — Kia Stonic recalled",
+              "url": "https://www.carexpert.com.au/car-news/kia-stonic-recalled"
+            }
+          },
+          {
+            "he": "בעלים דיווחו על נוריות אזהרת מנוע שנדלקות באופן בלתי צפוי. בנסיעת המבחן לוודא שאין נוריות דולקות ולבקש סריקת תקלות במוסך.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Kia Stonic 2017-present: advice/reliability",
+              "url": "https://www.whatcar.com/kia/stonic/estate/used-review/n18483/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין 120 כ״ס",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.02,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Kia Stonic petrol 83–93 kW, semi-automatic/DCT, 2021–2025 (7 vehicles; manual 2016–2020 averages 6.27 from 46 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/23-Kia/1637-Stonic.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=83&power_e=93&gearing=4"
+            }
+          }
+        ]
+      }
+    },
+    "seltos": {
+      "SP2": {
+        "issues": [
+          {
+            "he": "ריקול: טבעות שמן בבוכנות שיוצרו באופן לקוי עלולות לפגוע בדפנות הצילינדר ולהגדיל את צריכת השמן, עד נזק למנוע. סימנים: רעש חריג מהמנוע ונורית לחץ שמן. לבדוק שהריקול בוצע, לבדוק את מפלס השמן ולבקש היסטוריית טיפולים.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, 2021–2023 (NHTSA 25V099) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — Kia Seltos 2023 US safety recalls (NHTSA 25V099000)",
+              "url": "https://www.clearvin.com/de/car-recalls/kia/seltos/2023"
+            }
+          },
+          {
+            "he": "ריקול: בקר משאבת השמן החשמלית של מערכת ה-Idle Stop & Go עלול להתחמם יתר על המידה. התיקון: בדיקה והחלפת הבקר. לבדוק מול היבואן לפי מספר שלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, 2023–2024 (NHTSA 23V531) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — Kia Seltos 2023 US safety recalls (NHTSA 23V531000)",
+              "url": "https://www.clearvin.com/de/car-recalls/kia/seltos/2023"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 198,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "AnyAuto — Kia Seltos GT-Line 1.6T 2024 review (146 kW, 8AT AWD, fuel on test)",
+              "url": "https://www.anyauto.com.au/?p=33130"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 133900,
+          "year": 2020,
+          "note": "רמת גימור Urban, מנוע 2.0 בנזין 149 כ״ס עם תיבת iVT",
+          "source": {
+            "title": "Cartube — קיה סלטוס 2020 בישראל: מחיר 133,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קיה-סלטוס-2020-בישראל-מחיר-133900-שקל"
           }
         }
       }

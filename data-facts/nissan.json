@@ -1,0 +1,184 @@
+{
+  "make": "nissan",
+  "updated": "2026-10-24",
+  "models": {
+    "qashqai": {
+      "J11": {
+        "issues": [
+          {
+            "he": "קריאת שירות למאוורר הרדיאטור שעלול להיכשל (2019) — לוודא שהקריאה בוצעה ושהמאוורר מופעל כשהמנוע חם",
+            "level": "recall",
+            "scope": "קריאה בבריטניה, 2019 — לבדוק תחולה לפי מספר שלדה",
+            "source": {
+              "title": "Carbuyer — Used Nissan Qashqai (2014–2021) reliability",
+              "url": "https://www.carbuyer.co.uk/nissan/qashqai/137625/used-nissan-qashqai-review-2014-to-2021-mk2/reliability"
+            }
+          },
+          {
+            "he": "חדירת מים לתא הנוסעים ולחיישני החניה — לבדוק לחות בשטיחים ותקינות חיישני החניה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Nissan Qashqai (2014–2021) reliability",
+              "url": "https://www.carbuyer.co.uk/nissan/qashqai/137625/used-nissan-qashqai-review-2014-to-2021-mk2/reliability"
+            }
+          },
+          {
+            "he": "מצבר חלש ותקלות במיזוג האוויר — לבדוק שהמזגן מקרר היטב ולבקש בדיקת מצבר",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Nissan Qashqai (2014–2021) reliability",
+              "url": "https://www.carbuyer.co.uk/nissan/qashqai/137625/used-nissan-qashqai-review-2014-to-2021-mk2/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות למתגי נעילת ילדים שעלולים להיות פגומים (2020) — לבדוק שנעילת הילדים בדלתות האחוריות עובדת",
+            "level": "recall",
+            "scope": "קריאה בבריטניה, 2020 — לבדוק תחולה לפי מספר שלדה",
+            "source": {
+              "title": "Carbuyer — Used Nissan Qashqai (2014–2021) reliability",
+              "url": "https://www.carbuyer.co.uk/nissan/qashqai/137625/used-nissan-qashqai-review-2014-to-2021-mk2/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 DIG-T טורבו בנזין, CVT",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 8.43,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Qashqai petrol 80–90 kW automatic, 2015–2019 (68 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/33-Nissan/986-Qashqai.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=80&power_e=90&gearing=2"
+            }
+          },
+          {
+            "name": "1.6 DIG-T טורבו בנזין",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 7.77,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Qashqai petrol 115–125 kW manual, 2014–2018 (134 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/33-Nissan/986-Qashqai.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=115&power_e=125&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "juke": {
+      "F15": {
+        "issues": [
+          {
+            "he": "מתיחת שרשרת תזמון במנוע 1.6 DIG-T טורבו — ברכב עם קילומטראז׳ גבוה לבקש הוכחה להחלפת שרשרת ולהקשיב לרעשים",
+            "level": "widely_reported",
+            "scope": "1.6 DIG-T",
+            "source": {
+              "title": "Parkers — Nissan Juke (2010–2019) used review",
+              "url": "https://parkers.co.uk/nissan/juke/suv-2010/used-review"
+            }
+          },
+          {
+            "he": "תיבת CVT (Xtronic) עלולה להיכשל אם לא הוחלף שמן התיבה — לבקש הוכחה להחלפת שמן; רעידות, רעשים או הודעת תקלה בנסיעת מבחן — לוותר",
+            "level": "widely_reported",
+            "scope": "CVT",
+            "source": {
+              "title": "Parkers — Nissan Juke (2010–2019) used review",
+              "url": "https://parkers.co.uk/nissan/juke/suv-2010/used-review"
+            }
+          },
+          {
+            "he": "חלודה מוקדמת — לבדוק תושבות מתלה קדמי, ספים, סאבפריים ובסיס השמשה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Nissan Juke (2010–2019) used review",
+              "url": "https://parkers.co.uk/nissan/juke/suv-2010/used-review"
+            }
+          },
+          {
+            "he": "טורבו איטי בתגובה עלול להעיד על הרעבת שמן בטורבו או תקלה בצנרת/ווסטגייט — לבדוק תגובת טורבו בנסיעת מבחן",
+            "level": "widely_reported",
+            "scope": "1.6 DIG-T",
+            "source": {
+              "title": "Parkers — Nissan Juke (2010–2019) used review",
+              "url": "https://parkers.co.uk/nissan/juke/suv-2010/used-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 117,
+            "cons": 7.37,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Juke petrol 81–91 kW manual, 2010–2014 (74 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/33-Nissan/1210-Juke.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=81&power_e=91&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "micra": {
+      "K14": {
+        "issues": [
+          {
+            "he": "קריאת שירות לחיווט מתג ההצתה ברכבים מוקדמים (2017) — המנוע עלול לכבות ולא להניע מחדש; לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור מוקדם, 2017",
+            "source": {
+              "title": "RAC — Nissan Micra (2017–2023) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/nissan/micra/micra-2017-2023/"
+            }
+          },
+          {
+            "he": "קריאת שירות לכרית האוויר של הנוסע (עלולה להיקרע בפתיחה) בדגמי ייצור 2019 — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 2019",
+            "source": {
+              "title": "RAC — Nissan Micra (2017–2023) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/nissan/micra/micra-2017-2023/"
+            }
+          },
+          {
+            "he": "קריאת שירות לגוללי חגורות בטיחות שעלולים לא להינעל בתאונה — לבדוק תחולה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 26.9–3.10.2017",
+            "source": {
+              "title": "car-recalls.eu — Nissan Micra (2017) seat belts",
+              "url": "https://car-recalls.eu/recall/nissan-micra-2017-2/"
+            }
+          },
+          {
+            "he": "בדיזל 1.5 dCi מסנן החלקיקים נסתם בנסיעה עירונית ועלול לגרום לדלק בשמן (מפלס שמן עולה) — לבדוק מפלס שמן ולעשות נסיעת מבחן בכביש מהיר",
+            "level": "widely_reported",
+            "scope": "1.5 dCi",
+            "source": {
+              "title": "RAC — Nissan Micra (2017–2023) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/nissan/micra/micra-2017-2023/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "0.9 טורבו בנזין (IG-T)",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Micra petrol 61–71 kW manual, 2015–2019 (37 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/33-Nissan/302-Micra.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=61&power_e=71&gearing=1"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/all/nissan-micra---euro-ncap-results-2017/s/c4637b21-bc54-4049-9863-31d3b2db16a7"
+        }
+      }
+    }
+  }
+}
