@@ -1,0 +1,114 @@
+{
+  "make": "chery",
+  "updated": "2026-10-24",
+  "models": {
+    "tiggo-7": {
+      "T1E": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול בסין: תפס של צמת החיווט של מחשב המנוע (ECU) לא קובע כנדרש; שחיקה עלולה לגרום לדום מנוע. בבדיקה: לוודא מול היבואן שהקריאה בוצעה אם הרכב בתחולה.",
+            "scope": "מנוע 1.6 טורבו; ריקול בשוק הסיני – לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "news18a (Internet Info Agency) — Chery recalls 1,108 Tiggo 7 and Explore 06 over engine wiring harness",
+              "url": "https://english.news18a.com/m/news/english_226697.html"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "ב-Euro NCAP 2025 כרית האוויר הווילונית נפתחה באופן שגוי בגלל בעיית ייצור (דירוג ראשוני 4 כוכבים); צ'רי תיקנה את הייצור והרכב קיבל 5 כוכבים. בבדיקה: לברר מול היבואן אם יחידות מוקדמות דורשות תיקון.",
+            "scope": "דגם 2025 שנבדק באירופה – לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Euro NCAP Newsroom — CHERY TIGGO 7 (reassessment) 2025 results",
+              "url": "https://news.euroncap.com/safercars/chery-tiggo-7--reassessment----euro-ncap-2025-results---5-stars/s/1c2d531a-1155-4690-adc8-274c482e0790"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 186,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "auto.co.il — מבחן דרכים צ'רי טיגו 7 פרו (תצרוכת נמדדת 12 ק\"מ/ל')",
+              "url": "https://www.auto.co.il/articles/test-drives/road-tests/135657/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/chery-tiggo-7--reassessment----euro-ncap-2025-results---5-stars/s/1c2d531a-1155-4690-adc8-274c482e0790"
+        },
+        "launchPrice": {
+          "ils": 154990,
+          "year": 2022,
+          "note": "רמת גימור בסיסית (Comfort), 1.6 טורבו",
+          "source": {
+            "title": "מלכת הכביש — מותג צ'רי בישראל: מחירי השקה FX, טיגו 7 פרו, טיגו 8 פרו (08.11.2022)",
+            "url": "https://www.queenoftheroad.co.il/%d7%9e%d7%95%d7%aa%d7%92-%d7%a6%d7%a8%d7%99-%d7%91%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%a7%d7%a8%d7%95%d7%a1%d7%90%d7%95%d7%91%d7%a8%d7%99%d7%9d-5-7-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%91%d7%a0/"
+          }
+        }
+      }
+    },
+    "tiggo-8": {
+      "T18": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול באוסטרליה: צינור בלם עלול להתחכך במנוע ולהינזק – ירידה בביצועי הבלימה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק את צינורות הבלם בתא המנוע.",
+            "scope": "ייצור 2023–2026, גרסת מנוע 2.0 באוסטרליה – לבדוק תחולה על הרכב הישראלי (1.6 טורבו)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Chery Tiggo 8 Pro 2.0 2023–2026 brake pipe recall",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006636"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 167990,
+          "year": 2022,
+          "note": "רמת גימור בסיסית (Luxury), 1.6 טורבו",
+          "source": {
+            "title": "מלכת הכביש — מותג צ'רי בישראל: מחירי השקה (08.11.2022)",
+            "url": "https://www.queenoftheroad.co.il/%d7%9e%d7%95%d7%aa%d7%92-%d7%a6%d7%a8%d7%99-%d7%91%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%a7%d7%a8%d7%95%d7%a1%d7%90%d7%95%d7%91%d7%a8%d7%99%d7%9d-5-7-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%91%d7%a0/"
+          }
+        }
+      }
+    },
+    "tiggo-4": {
+      "T19": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול באוסטרליה: בגלל תקלת תוכנה התרעת הקול של מערכת הבלימה האוטונומית (AEB) עלולה לא לפעול; תיקון בעדכון תוכנה. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "ייצור 2024 – לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Chery Tiggo 4 2024 AEB alarm recall",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006263"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול באוסטרליה לגרסת ההיברידית: בגלל תקלת תוכנה שסתום מערכת אדי הדלק (EVAP) עלול לא לפעול כנדרש. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "Tiggo 4 Hybrid ייצור 2025–2026 – לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — Chery Tiggo 4 Hybrid recalled (Sep 2026)",
+              "url": "https://www.carexpert.com.au/car-news/chery-tiggo-4-hybrid-recalled"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 120990,
+          "year": 2024,
+          "note": "רמת גימור יחידה (Noble), 1.5 אטמוספרי",
+          "source": {
+            "title": "Cartube — צ'רי טיגו 4 פרו נחת בישראל, מחיר 120,990 ש\"ח",
+            "url": "https://www.cartube.co.il/חדשות-רכב/צ-רי-טיגו-4-פרו-נחת-בישראל-מחיר-120990-שקל"
+          }
+        }
+      }
+    }
+  }
+}

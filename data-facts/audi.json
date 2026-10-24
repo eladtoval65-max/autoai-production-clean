@@ -1,0 +1,322 @@
+{
+  "make": "audi",
+  "updated": "2026-10-24",
+  "models": {
+    "a3": {
+      "8V": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול לתיבת DSG שבעה הילוכים (יבשה): בית מצבר הלחץ עלול לדלוף שמן ולגרום לאובדן הנעה ולמצב חירום. בבדיקה: לוודא מול היבואן שהריקול בוצע, ובנסיעת מבחן לבדוק שאין רעידות/מכות בהעברת הילוכים או נורית תיבה.",
+            "scope": "A3 עם DSG שבעה הילוכים, שנים 2008–2016 (ריקול באוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Drive.com.au — ריקול 80,000 רכבי VW/Audi/Skoda עם תיבת DSG",
+              "url": "https://www.drive.com.au/news/new-recall-of-80-000-volkswagen-audi-and-skoda-cars-with-dsg-gearboxes-some-for-the-second-time-in-six-years/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול לרצועת תזמון (גל זיזים) שעלולה להיות חלשה מדי ולהיקרע, או ברגי מווסת גל הזיזים שעלולים להשתחרר ולגרום לדליפת שמן. בבדיקה: לוודא שהריקול (קוד 15H3) בוצע.",
+            "scope": "ייצור 12/2013–09/2014",
+            "source": {
+              "title": "car-recalls.eu — ריקול Audi A3 (2013–2014) רצועת גל זיזים",
+              "url": "https://car-recalls.eu/recall/audi-a3-2013-2014/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול לתפסני גלגל אחוריים (rear hub carriers) שלא יוצרו לפי התקן. בבדיקה: לוודא בספר השירות/אצל היבואן שהתיקון בוצע.",
+            "scope": "רכבים שיוצרו באוגוסט 2017",
+            "source": {
+              "title": "Autocar — Audi A3 2012–2020 אמינות ובעיות נפוצות",
+              "url": "https://www.autocar.co.uk/car-review/audi/a3-2012-2020/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "משאבת מים דולפת — תקלה מדווחת אצל בעלי A3. בבדיקה: לחפש כתמי נוזל קירור מתחת לרכב ולבדוק שמפלס נוזל הקירור יציב.",
+            "source": {
+              "title": "Carbuyer — סקירת Audi A3 משומשת 2012–2020, אמינות",
+              "url": "https://www.carbuyer.co.uk/audi/a3/76459/used-audi-a3-review-2012-to-2020-mk3/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "רעשי טרטור במנוע 1.4 TFSI, ובהתנעה קרה חריקות/טרטורים שעלולים להעיד על בלאי רצועות. בבדיקה: להתניע מנוע קר ולהקשיב לרעשים חריגים.",
+            "scope": "מנועי 1.4 TFSI",
+            "source": {
+              "title": "Carbuyer — סקירת Audi A3 משומשת 2012–2020, אמינות",
+              "url": "https://www.carbuyer.co.uk/audi/a3/76459/used-audi-a3-review-2012-to-2020-mk3/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 116,
+            "cons": 5.76,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Audi A3 1.0 TFSI 2018, 116 כ\"ס (רכב בודד, 41,466 ק\"מ)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/941140.html"
+            }
+          },
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 6.48,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Audi A3 8V 1.4 TFSI 2013, 122 כ\"ס (רכב בודד, 118,745 ק\"מ)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/567096.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.euroncap.com/en/results/audi/a3/10912"
+        }
+      },
+      "8Y": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול למוט החיבור בין דוושת הבלם למגבר הבלמים האלקטרו-מכני — עלול להשתחרר ולגרום לאובדן בלימה רגילה. בבדיקה: לוודא מול היבואן שהריקול בוצע.",
+            "source": {
+              "title": "What Car? — Audi A3 משומשת 2020–היום, אמינות וריקולים",
+              "url": "https://whatcar.com/audi/a3/hatchback/used-review/n23495/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול לחגורות הבטיחות הקדמיות — כושר הריסון עלול להיות נמוך מהמתוכנן בתאונה. בבדיקה: לוודא שהריקול בוצע.",
+            "source": {
+              "title": "What Car? — Audi A3 משומשת 2020–היום, אמינות וריקולים",
+              "url": "https://whatcar.com/audi/a3/hatchback/used-review/n23495/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול למחבר חשמלי בתא הנוסעים שייתכן שלא הותקן כראוי. בבדיקה: לוודא שהריקול בוצע.",
+            "source": {
+              "title": "What Car? — Audi A3 משומשת 2020–היום, אמינות וריקולים",
+              "url": "https://whatcar.com/audi/a3/hatchback/used-review/n23495/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תקלות במערכת המולטימדיה/ניווט הן רוב התקלות המדווחות בסקר What Car? (44%). בבדיקה: לבדוק את כל פונקציות המסך, החיבור לטלפון והניווט, ולוודא עדכוני תוכנה.",
+            "source": {
+              "title": "What Car? — Audi A3 משומשת 2020–היום, אמינות (סקר בעלים)",
+              "url": "https://whatcar.com/audi/a3/hatchback/used-review/n23495/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין (30 TFSI)",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 6.85,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Audi A3 Sportback 30 TFSI 2023, 110 כ\"ס ידני (רכב בודד, 4,719 ק\"מ)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/1463884.html"
+            }
+          },
+          {
+            "name": "1.5 טורבו בנזין (35 TFSI)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.13,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Audi A3 Sportback (8Y) 35 TFSI mild hybrid 2021, 150 כ\"ס אוטומט (רכב בודד, 13,993 ק\"מ)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/1366907.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://www.euroncap.com/assessments/audi/a3/0786/"
+        }
+      }
+    },
+    "a4": {
+      "B8": {
+        "issues": [
+          {
+            "level": "manufacturer",
+            "he": "צריכת שמן מוגברת במנוע 2.0 TFSI (EA888) — Audi הוציאה עלון שירות; התיקון: החלפת שסתום ויסות לחץ בבית הארכובה, אטם גל ארכובה קדמי ועדכון תוכנה (בחלק מהמקרים טבעות בוכנה). בבדיקה: לבדוק מפלס שמן במדיד, לשאול כמה שמן מוסיפים בין טיפולים ולוודא שהתיקון בוצע.",
+            "scope": "2.0 TFSI, שנות דגם 2009–2011 (עלון שירות אמריקאי) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — עלון שירות Audi: צריכת שמן גבוהה 2.0L TFSI (EA888)",
+              "url": "https://static.nhtsa.gov/odi/tsbs/2013/MC-10121300-9999.pdf"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "דיווחים נרחבים על שמן ש\"נעלם\" בין טיפולים ועל אצוות פגומה של טבעות בוכנה בדגמים מוקדמים. בבדיקה: עשן כחלחל מהאגזוז, מפלס שמן נמוך, ותיעוד תיקון במוסך מורשה.",
+            "source": {
+              "title": "AutoTrader.ca — סקירת Audi A4 משומשת 2009–2016",
+              "url": "https://editorialsui.autotrader.ca/editorial/20180927/used-vehicle-review-audi-a4-2009-2016"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תקלות במשאבת מים, בעיקר בשנים המוקדמות. בבדיקה: מפלס נוזל קירור יורד או סימני דליפה בתא המנוע.",
+            "scope": "שנים מוקדמות של הדור",
+            "source": {
+              "title": "AutoTrader.ca — סקירת Audi A4 משומשת 2009–2016",
+              "url": "https://editorialsui.autotrader.ca/editorial/20180927/used-vehicle-review-audi-a4-2009-2016"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תקלות במזרקי דלק, משאבת דלק וסלילי הצתה. בבדיקה: רעידות בסרק, החטאות הצתה ונורית מנוע; לסרוק תקלות בדיאגנוסטיקה.",
+            "source": {
+              "title": "AutoTrader.ca — סקירת Audi A4 משומשת 2009–2016",
+              "url": "https://editorialsui.autotrader.ca/editorial/20180927/used-vehicle-review-audi-a4-2009-2016"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "הצטברות פחם על שסתומי היניקה (מנוע הזרקה ישירה) — גורמת לאובדן כוח וסרק לא יציב. בבדיקה: ברכב עם קילומטראז' גבוה לשאול אם בוצע ניקוי שסתומים.",
+            "source": {
+              "title": "AutoTrader.ca — סקירת Audi A4 משומשת 2009–2016",
+              "url": "https://editorialsui.autotrader.ca/editorial/20180927/used-vehicle-review-audi-a4-2009-2016"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 8.0,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — ממוצע Audi A4 1.8 TFSI 169–171 כ\"ס, 46 רכבים (גרסת 160 כ\"ס המוקדמת לא כלולה)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/3-Audi/21-A4.html?fueltype=2&power_s=169&power_e=171&page=2&gearing=1&exactmodel=1.8+TFSI&sort=5&powerunit=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://www.euroncap.com/en/ratings-rewards/latest-safety-ratingses/results/audi/a4/15749"
+        }
+      }
+    },
+    "q3": {
+      "8U": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול: מודול בקרת המרכב (BCM) מוגדר שגוי ועלול לגרום לתקלה בפנסי האיתות הקדמיים מסוג LED ללא התרעה. בבדיקה: לוודא שהריקול בוצע ולבדוק פעולת האיתותים.",
+            "scope": "ייצור 2014–2018",
+            "source": {
+              "title": "car-recalls.eu — ריקול Audi Q3 (2014–2018) פנסים/אלקטרוניקה",
+              "url": "https://car-recalls.eu/recall/audi-q3-2014-2018/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול: אם מכבים את הרכב בזמן סגירת גג השמש, הגג עלול להמשיך להיסגר (סכנת היתפסות). התיקון: עדכון תוכנה. בבדיקה: לוודא שהעדכון בוצע.",
+            "scope": "שנת דגם 2015 בארה\"ב (NHTSA 15V200000) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — ריקולים Audi Q3 2015 (נתוני NHTSA)",
+              "url": "https://www.clearvin.com/en/car-recalls/audi/q3/2015/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "לפי סקר האמינות של What Car?, גרסאות הבנזין אמינות יותר מהדיזל (12% מול 25% תקלות); התקלות בבנזין היו בעיקר במרכב, בחשמל ובמולטימדיה. בבדיקה: לבדוק את כל המערכות החשמליות והמסך.",
+            "source": {
+              "title": "What Car? — Audi Q3 משומשת 2011–2018, אמינות",
+              "url": "https://www.whatcar.com/audi/q3/estate/used-review/n843/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.71,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Audi Q3 1.4 TFSI 2014, 150 כ\"ס ידני (רכב בודד, 17,748 ק\"מ)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/651533.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://www.euroncap.com/en/results/audi/q3/10957"
+        }
+      },
+      "F3": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול: הבורג של מוט החיבור בין דוושת הבלם למגבר הבלמים האלקטרו-מכני עלול להשתחרר — סכנת אובדן בלימה. בבדיקה: לוודא מול היבואן שהריקול בוצע.",
+            "scope": "ייצור 24.08.2020–19.07.2021",
+            "source": {
+              "title": "car-recalls.eu — ריקול Audi Q3 (2020) דוושת בלם",
+              "url": "https://car-recalls.eu/recall/audi-q3-2020-brake-pedal/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול: כיסוי המנוע הדקורטיבי עלול להשתחרר ולגעת בטורבו החם — סכנת שריפה. בבדיקה: לוודא שהריקול (קוד 10H8) בוצע.",
+            "scope": "מנוע 2.0 TFSI, ייצור 19.11.2020–10.03.2022",
+            "source": {
+              "title": "car-recalls.eu — ריקול Audi Q3 (2021) כיסוי מנוע/סכנת שריפה",
+              "url": "https://car-recalls.eu/recall/audi-q3-2021-engine-cover-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול: מסגרת המושב הקדמי ייתכן שלא הוברגה כראוי למסילה. בבדיקה: לוודא שהריקול בוצע ושאין חופש תנועה במושבים.",
+            "source": {
+              "title": "What Car? — Audi Q3 משומשת 2018–2025, אמינות וריקולים",
+              "url": "https://www.whatcar.com/audi/q3/estate/used-review/n20308/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בעלים מדווחים על תקלות אלקטרוניקה — חיישנים תקולים ונוריות אזהרה — וכן על בעיות במערכת הדלק ובטורבו. בבדיקה: סריקת תקלות בדיאגנוסטיקה ולוודא שאין נוריות דולקות.",
+            "source": {
+              "title": "What Car? — Audi Q3 משומשת 2018–2025, אמינות (סקר בעלים)",
+              "url": "https://www.whatcar.com/audi/q3/estate/used-review/n20308/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (35 TFSI)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.74,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Audi Q3 35 TFSI 2020, 150 כ\"ס אוטומט (רכב בודד, 43,711 ק\"מ)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/1150468.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://www.euroncap.com/assessments/audi/q3/0745/"
+        }
+      }
+    }
+  }
+}

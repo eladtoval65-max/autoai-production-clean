@@ -1,0 +1,92 @@
+{
+  "make": "geely",
+  "updated": "2026-10-24",
+  "models": {
+    "coolray": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות למערכת הדלק: שודרגו משאבת הדלק השקועה וצינור האוורור של מיכל הדלק (סדקים בגומי, ריח דלק). בבדיקה: להריח ריח דלק ולוודא שהקריאה בוצעה.",
+            "scope": "לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "За рулём (zr.ru) — Geely Coolray с пробегом: неисправности",
+              "url": "https://www.zr.ru/content/articles/962849-geely-coolray-s-probegom/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "במנועי 1.5 טורבו מוקדמים דווח על שבירת טלטל (שאטון); המנוע עודכן ב-2021 (סירקולציית שמן). בבדיקה: היסטוריית טיפולים מלאה, רעשי מנוע, ועדיפות לייצור 2021 ואילך.",
+            "scope": "ייצור עד 2021",
+            "source": {
+              "title": "За рулём (zr.ru) — Geely Coolray с пробегом: неисправности",
+              "url": "https://www.zr.ru/content/articles/962849-geely-coolray-s-probegom/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "דיסקי בלם מתעקמים כבר בקילומטראז' נמוך ומחלידים מהר. בבדיקה: רעידות בהגה בבלימה ומצב הדיסקים.",
+            "source": {
+              "title": "За рулём (zr.ru) — Geely Coolray с пробегом: неисправности",
+              "url": "https://www.zr.ru/content/articles/962849-geely-coolray-s-probegom/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "גג פנורמי נתקע במסילות – רעשים ותקלת מנוע חשמלי (טופל במתיחת הפנים). בבדיקה: לפתוח ולסגור את הגג כמה פעמים.",
+            "scope": "לפני מתיחת הפנים",
+            "source": {
+              "title": "За рулём (zr.ru) — Geely Coolray с пробегом: неисправности",
+              "url": "https://www.zr.ru/content/articles/962849-geely-coolray-s-probegom/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תיבת 7DCT רובוטית מטלטלת כשהיא קרה, ותלונה נפוצה על תפקוד מערכת המיזוג. בבדיקה: נסיעת מבחן בהתנעה קרה ובדיקת המזגן.",
+            "source": {
+              "title": "За рулём (zr.ru) — Geely Coolray с пробегом: неисправности",
+              "url": "https://www.zr.ru/content/articles/962849-geely-coolray-s-probegom/"
+            }
+          }
+        ]
+      }
+    },
+    "geometry-c": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול בישראל (כ-5,000 רכבים): תוכנת בקרת הסוללה (BMS) עלולה להפעיל נורת התראה ולהגביל כוח עד האטה ועצירה. בבדיקה: לוודא שעדכון התוכנה בוצע אצל היבואן.",
+            "scope": "ייצור 20/07/2021–26/09/2022",
+            "source": {
+              "title": "מלכת הכביש — ריקול ל-5000 ג'ילי גאומטרי C בישראל (12.2022)",
+              "url": "https://www.queenoftheroad.co.il/?p=77336"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "סוללה 70 קוט\"ש (C460)",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 18.1,
+            "unit": "kWh",
+            "source": {
+              "title": "42how — Geometry C with ~96,000 km, owner evaluation (short 50 km measured drive only)",
+              "url": "https://en.42how.com/2022/06/24/what-is-the-experience-of-driving-an-electric-car-with-100000-kilometers-of-mileage-evaluation-by-mr-feng/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 133900,
+          "year": 2021,
+          "note": "רמת גימור בסיסית (PRO C350, סוללה 53 קוט\"ש); C460 PRO (70 קוט\"ש) – 142,900 ש\"ח",
+          "source": {
+            "title": "מלכת הכביש — ג'ילי גאומטרי C בישראל מ-133,900 שקלים (01.11.2021)",
+            "url": "https://www.queenoftheroad.co.il/geely-%d7%92%d7%90%d7%95%d7%9e%d7%98%d7%a8%d7%99-c-%d7%a7%d7%a8%d7%95%d7%a1%d7%90%d7%95%d7%91%d7%a8-%d7%97%d7%a9%d7%9e%d7%9c%d7%99-%d7%97%d7%93%d7%a9-450-%d7%a7%d7%9e-%d7%9e-133900-%d7%a9%d7%a7/"
+          }
+        }
+      }
+    }
+  }
+}

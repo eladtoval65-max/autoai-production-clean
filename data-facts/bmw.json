@@ -1,36 +1,400 @@
 {
   "make": "bmw",
-  "updated": "2026-10-21",
+  "updated": "2026-10-24",
   "models": {
     "3-series": {
       "E90": {
         "engines": [
-          { "name": "320i 2.0 בנזין 170 כ״ס (נתוני תיבה ידנית)", "pt": "petrol", "hp": 170, "cons": 8.1, "unit": "L",
-            "source": { "title": "Spritmonitor — BMW 3er petrol 120–130 kW, 2007–2011, manual (165 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2007&constyear_e=2011&power_s=120&power_e=130&gearing=1" } }
+          {
+            "name": "320i 2.0 בנזין 170 כ״ס (נתוני תיבה ידנית)",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 3er petrol 120–130 kW, 2007–2011, manual (165 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2007&constyear_e=2011&power_s=120&power_e=130&gearing=1"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת ריקול: חיכוך וקורוזיה במגע של צמת חיווט עלולים לגרום לקצר ואף לשריפה גם כשהרכב חונה. בבדיקה: לוודא מול יבואן BMW לפי מספר שלדה שהקריאה בוצעה.",
+            "scope": "ייצור 20.7.2004–8.7.2011 (E90–E93)",
+            "source": {
+              "title": "car-recalls.eu — BMW 3-Series (2004–2011) recall, cable harness fire risk",
+              "url": "https://car-recalls.eu/recall/bmw-3-series-ventilator-fire/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תקלות חוזרות בסלילי הצתה ובמזרקים במנועי הבנזין 4 צילינדרים (318i/320i) – רעידות, מנוע לא חלק ונורית מנוע. בבדיקה: לבדוק שהמנוע עובד חלק בסרק ובהאצה ולבקש היסטוריית החלפות סלילים/מזרקים.",
+            "scope": "מנועי בנזין 4 צילינדרים, מ-2007",
+            "source": {
+              "title": "HonestJohn — BMW 3 Series Touring (2005–2012) good/bad owner reports",
+              "url": "https://www.honestjohn.co.uk/bmw/3-series/touring/2005/good/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "דיווחים על התארכות שרשרת התזמון ושבירת מובילי הפלסטיק שלה ב-318i/320i, עם תיקונים יקרים (נזק ל-Vanos). בבדיקה: להאזין לרעשי שקשוק בהתנעה קרה ולבקש תיעוד טיפולי שמן סדירים.",
+            "scope": "320i/318i",
+            "source": {
+              "title": "HonestJohn — BMW 3 Series Touring (2005–2012) good/bad owner reports",
+              "url": "https://www.honestjohn.co.uk/bmw/3-series/touring/2005/good/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תקלות חשמל נפוצות יחסית, כולל נזק למערכת ההצתה ממשיכת המפתח בלי לשחרר, וכן מנוע מגבים וידיות דלת. בבדיקה: לבדוק שהמפתח נכנס ויוצא חלק ושכל המערכות החשמליות פועלות.",
+            "source": {
+              "title": "What Car? — Used BMW 3 Series 2005–2012 reliability & common problems",
+              "url": "https://www.whatcar.com/bmw/3-series/saloon/used-review/n201/reliability"
+            }
+          }
         ]
       },
       "F30": {
         "engines": [
-          { "name": "320i 2.0 טורבו 184 כ״ס, אוטומטית", "pt": "petrol", "hp": 184, "cons": 8.2, "unit": "L",
-            "source": { "title": "Spritmonitor — BMW 3er petrol 130–140 kW, 2013–2017, automatic (120 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2013&constyear_e=2017&power_s=130&power_e=140&gearing=2" } }
-        ]
+          {
+            "name": "320i 2.0 טורבו 184 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 184,
+            "cons": 8.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 3er petrol 130–140 kW, 2013–2017, automatic (120 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2013&constyear_e=2017&power_s=130&power_e=140&gearing=2"
+            }
+          },
+          {
+            "name": "330e פלאג-אין 2.0 טורבו",
+            "pt": "phev",
+            "hp": 252,
+            "cons": 4.98,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 3er plug-in hybrid gasoline average (all 3er generations, petrol only, electricity not included)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/37-3er.html"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "כשל מובילי שרשרת התזמון (פלסטיק שמתפורר) במנוע N20 2.0 טורבו – רעש שקשוק בהתנעה קרה ובמקרים קשים כיבוי מנוע ונזק כבד. בבדיקה: להאזין לשקשוק בהתנעה קרה ולבקש הוכחה להחלפת ערכת שרשרת.",
+            "scope": "320i/328i ייצור 2011–תחילת 2015 (מנוע N20)",
+            "source": {
+              "title": "Autodoc — BMW F30 N20 engine timing chain guide failures",
+              "url": "https://www.autodoc.co.uk/info/bmw-f30-n20-engine-timing-chain-guide-failures"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (יולי 2013) לגירים ידניים בשל סיכון לכשל מצמד. בבדיקה: לוודא שהקריאה בוצעה (רלוונטי לגיר ידני בלבד).",
+            "scope": "גיר ידני, 2013",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (F30, 2012–2018) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/36924/used-bmw-3-series-f30-mk6-2012-2018-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (יוני 2015) בשל סיכון לדמימת מנוע עקב הרעבת דלק. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "scope": "2015",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (F30, 2012–2018) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/36924/used-bmw-3-series-f30-mk6-2012-2018-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (אוקטובר 2016) לתקלות חשמל שעלולות לפגוע בהגה הכוח החשמלי. בבדיקה: לוודא שהקריאה בוצעה ושאין נורית אזהרת היגוי.",
+            "scope": "2016, דגמים מסוימים",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (F30, 2012–2018) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/36924/used-bmw-3-series-f30-mk6-2012-2018-review"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "חריקות ממנגנון הכוונון וצירי המושבים הקדמיים עקב קורוזיה. בבדיקה: להזיז ולכוונן את המושבים ולהקשיב לחריקות.",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (F30, 2012–2018) review",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/36924/used-bmw-3-series-f30-mk6-2012-2018-review"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6113/euroncap_bmw_3_series_2012_5stars.pdf"
+        }
       },
       "G20": {
         "engines": [
-          { "name": "320i 2.0 טורבו 184 כ״ס, אוטומטית", "pt": "petrol", "hp": 184, "cons": 7.4, "unit": "L",
-            "source": { "title": "Spritmonitor — BMW 3er petrol 130–140 kW, 2022–2026, automatic (55 vehicles)", "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=130&power_e=140&gearing=2" } }
+          {
+            "name": "320i 2.0 טורבו 184 כ״ס, אוטומטית",
+            "pt": "petrol",
+            "hp": 184,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 3er petrol 130–140 kW, 2022–2026, automatic (55 vehicles)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/6-BMW/37-3er.html?fueltype=2&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=130&power_e=140&gearing=2"
+            }
+          },
+          {
+            "name": "330e פלאג-אין 2.0 טורבו",
+            "pt": "phev",
+            "hp": 248,
+            "cons": 4.98,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 3er plug-in hybrid gasoline average (all 3er generations, petrol only, electricity not included)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/37-3er.html"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/BMW/3-Series/38531" }
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/BMW/3-Series/38531"
+        },
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול (דצמבר 2019) לגלי ארכובה פגומים ברכבים מוקדמים. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "scope": "ייצור מוקדם 2019",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (Mk7, 2019–date) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/356968/used-bmw-3-series-mk7-2019-date"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "שתי קריאות ריקול (2020) למארזי סוללה פגומים בדגמי הפלאג-אין (330e). בבדיקה: לוודא שהקריאות בוצעו ושאין הודעות תקלה במערכת ההיברידית.",
+            "scope": "330e, 2020",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (Mk7, 2019–date) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/356968/used-bmw-3-series-mk7-2019-date"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (אוגוסט 2021) בשל כשלי משאבת שמן – התיקון הוא עדכון תוכנה. בבדיקה: לוודא שהעדכון בוצע.",
+            "scope": "2021",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (Mk7, 2019–date) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/356968/used-bmw-3-series-mk7-2019-date"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (מרץ 2021) לדיסקי בלם שלא עמדו בתקן. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "2021",
+            "source": {
+              "title": "Auto Express — Used BMW 3 Series (Mk7, 2019–date) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/3-series/356968/used-bmw-3-series-mk7-2019-date"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בסקר האמינות של What Car כ-13% מדגמי הבנזין והפלאג-אין דיווחו על תקלה, בעיקר חשמל, מנוע ומערכת מולטימדיה. בבדיקה: לבדוק את כל מערכות המולטימדיה והחשמל ולשאול על עדכוני תוכנה.",
+            "source": {
+              "title": "What Car? — Used BMW 3 Series 2019–present reliability & common problems",
+              "url": "https://www.whatcar.com/bmw/3-series/saloon/used-review/n20393/reliability"
+            }
+          }
+        ]
       }
     },
     "1-series": {
       "F40": {
-        "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/BMW/1-Series/38528" }
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/BMW/1-Series/38528"
+        }
+      },
+      "F20": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול (יולי 2013): רכבים שיוצרו בין פברואר ליוני עלולים לאבד הנעה עקב כשל מצמד. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "ייצור פברואר–יוני 2013",
+            "source": {
+              "title": "Auto Express — Used BMW 1 Series (Mk2, 2011–2019) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/1-series/66204/used-bmw-1-series-mk2-2011-2019-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (יוני 2015) למשאבת דלק פגומה – הרכב עלול לא להתניע או לכבות בנסיעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "ייצור ספטמבר 2013–מרץ 2015",
+            "source": {
+              "title": "Auto Express — Used BMW 1 Series (Mk2, 2011–2019) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/1-series/66204/used-bmw-1-series-mk2-2011-2019-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (דצמבר 2016) לסיכון לכשל הגה כוח חשמלי ברכבים שיוצרו עד דצמבר 2015. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "ייצור עד דצמבר 2015",
+            "source": {
+              "title": "Auto Express — Used BMW 1 Series (Mk2, 2011–2019) review, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/1-series/66204/used-bmw-1-series-mk2-2011-2019-review"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "עלים סותמים את פתחי הניקוז שמתחת לשמשה הקדמית, ומים חודרים למערכות החשמל וגורמים נזק. בבדיקה: לפתוח מכסה מנוע, לבדוק שהניקוזים נקיים ולחפש סימני רטיבות.",
+            "source": {
+              "title": "Auto Express — Used BMW 1 Series (Mk2, 2011–2019) review",
+              "url": "https://www.autoexpress.co.uk/bmw/1-series/66204/used-bmw-1-series-mk2-2011-2019-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין (116i)",
+            "pt": "petrol",
+            "hp": 136,
+            "cons": 9.0,
+            "unit": "L",
+            "source": {
+              "title": "carsales.com.au — BMW 116i 2012 road test (measured consumption; power 100kW = 136hp)",
+              "url": "https://www.carsales.com.au/editorial/details/bmw-116i-2012-road-test-31544"
+            }
+          },
+          {
+            "name": "1.5 טורבו בנזין 3 צילינדרים (118i)",
+            "pt": "petrol",
+            "hp": 134,
+            "cons": 8.45,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 1er gasoline average (all 1er generations and petrol engines combined)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/36-1er.html?page=12"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (120i)",
+            "pt": "petrol",
+            "hp": 181,
+            "cons": 8.45,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW 1er gasoline average (all 1er generations and petrol engines combined)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/36-1er.html?page=12"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/images-and-videos/bmw-1-series---crash-tests-2011/s/73e3d2a5-5ffc-4972-8191-2cf207ad1ed0"
+        }
       }
     },
     "ix3": {
       "NA5 (Neue Klasse)": {
-        "ncap": { "stars": 5, "year": 2026, "url": "https://www.euroncap.com/assessments/bmw/ix3/1232/" }
+        "ncap": {
+          "stars": 5,
+          "year": 2026,
+          "url": "https://www.euroncap.com/assessments/bmw/ix3/1232/"
+        }
+      }
+    },
+    "x1": {
+      "F48": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ריקול (אוגוסט 2018) לחיישני גל ארכובה פגומים. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "scope": "2018",
+            "source": {
+              "title": "Auto Express — Used BMW X1 (Mk2, 2015–2022) buyer's guide, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/x1/355620/used-bmw-x1-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול (יולי 2018) בשל פגם ייצור בסרן הקדמי. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "2018",
+            "source": {
+              "title": "Auto Express — Used BMW X1 (Mk2, 2015–2022) buyer's guide, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/x1/355620/used-bmw-x1-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאות ריקול ב-2020 למכלולי היגוי פגומים ולתקלות בסוללת הפלאג-אין (xDrive25e). בבדיקה: לוודא שכל הקריאות בוצעו, במיוחד בגרסת הפלאג-אין.",
+            "scope": "2020; סוללה – xDrive25e",
+            "source": {
+              "title": "Auto Express — Used BMW X1 (Mk2, 2015–2022) buyer's guide, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/x1/355620/used-bmw-x1-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "שתי קריאות ריקול (ינואר–פברואר 2017) לרכבים שיוצרו בספטמבר–דצמבר 2016, חלקם עם כריות אוויר פגומות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "ייצור ספטמבר–דצמבר 2016",
+            "source": {
+              "title": "Auto Express — Used BMW X1 (Mk2, 2015–2022) buyer's guide, recalls",
+              "url": "https://www.autoexpress.co.uk/bmw/x1/355620/used-bmw-x1-review"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בעלים מדווחים על תקלות בחשמל שאינו של המנוע ובמערכת המולטימדיה, עם המתנה ארוכה ועלות גבוהה לחלקים. בבדיקה: לבדוק את כל מערכות החשמל והמסך.",
+            "source": {
+              "title": "What Car? — Used BMW X1 2015–2022 reliability & common problems",
+              "url": "https://www.whatcar.com/bmw/x1/estate/used-review/n812/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין 3 צילינדרים (sDrive18i)",
+            "pt": "petrol",
+            "hp": 136,
+            "cons": 8.15,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW X1 gasoline average (all X1 generations and petrol engines combined)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/1153-X1.html"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (sDrive20i)",
+            "pt": "petrol",
+            "hp": 192,
+            "cons": 8.15,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW X1 gasoline average (all X1 generations and petrol engines combined)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/1153-X1.html"
+            }
+          },
+          {
+            "name": "xDrive25e פלאג-אין הנעה כפולה",
+            "pt": "phev",
+            "hp": 217,
+            "cons": 4.06,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — BMW X1 plug-in hybrid gasoline average (all X1 PHEVs incl. later xDrive30e; petrol only, electricity not included)",
+              "url": "https://www.spritmonitor.de/en/overview/6-BMW/1153-X1.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/all/fiat/bmw-x1---euro-ncap-results-2015/s/0ffc807c-b78b-48b7-9a05-fd6cf0086798"
+        }
       }
     }
   }

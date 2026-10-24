@@ -993,6 +993,40 @@
               "url": "https://car-recalls.eu/common-problems/volkswagen/touareg/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "3.0 V6 טורבו דיזל 286 כ\"ס",
+            "pt": "diesel",
+            "hp": 286,
+            "cons": 9.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volkswagen Touareg fuel consumption (averages from user reports, 2018 model)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Volkswagen-Touareg"
+            }
+          },
+          {
+            "name": "3.0 V6 טורבו דיזל 231 כ\"ס",
+            "pt": "diesel",
+            "hp": 231,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volkswagen Touareg fuel consumption (averages from user reports, 2018 model)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Volkswagen-Touareg"
+            }
+          },
+          {
+            "name": "3.0 V6 TSI בנזין",
+            "pt": "petrol",
+            "cons": 11.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volkswagen Touareg fuel consumption (averages from user reports, 2018 model; power not listed)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Volkswagen-Touareg"
+            }
+          }
         ]
       }
     }

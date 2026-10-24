@@ -1,0 +1,348 @@
+{
+  "make": "tesla",
+  "updated": "2026-10-24",
+  "models": {
+    "model-3": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "NHTSA פתחה בחקירה על ניתוק זרוע הקישור התחתונה (lower lateral link) במתלה הקדמי, שעלול לגרום לאובדן שליטה. בבדיקה: לבדוק במוסך את זרועות המתלה הקדמי, רעשי נקישה וסטיית כיוון/כיוון גלגלים חריג.",
+            "scope": "שנתוני 2018–2020 (חקירה, לא קריאה); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Drive Tesla Canada — NHTSA investigates Model 3/Y suspension",
+              "url": "https://driveteslacanada.ca/news/tesla-model-3-model-y-suspension-investigation-nhtsa/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: כבל המצלמה האחורית עלול להישחק מפתיחה וסגירה של תא המטען, והתמונה מהמצלמה האחורית נעלמת. בבדיקה: לוודא שהמצלמה האחורית עובדת ושהקריאה בוצעה.",
+            "scope": "ייצור 2017–2020; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TopAuto — Tesla recalls all Model 3 cars made between 2017 and 2020",
+              "url": "https://topauto.co.za/news/33296/tesla-recalls-all-model-3-cars-made-between-2017-and-2020/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: תקלה בשסתום ההתפשטות של משאבת החום עלולה לגרום לאובדן חימום ולהפשרת שמשה לא מספקת בקור. התיקון בעדכון תוכנה. בבדיקה: לוודא שהמזגן מחמם ושהתוכנה עודכנה.",
+            "scope": "שנתוני 2021–2022 עם משאבת חום; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Electrek — Tesla heat pump problem explained in NHTSA recall",
+              "url": "https://electrek.co/2022/02/09/tesla-heat-pump-problem-causing-loss-heat-explained-nhtsa-recall/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "\"בלימת רפאים\" — בלימה פתאומית ללא סיבה בזמן שימוש ב-Autopilot, נחקרה ע\"י NHTSA. בבדיקה: נסיעת מבחן עם בקרת שיוט אדפטיבית בכביש מהיר.",
+            "scope": "שנתוני 2021–2022",
+            "source": {
+              "title": "Automotive Fleet — Tesla's unexpected braking subject of NHTSA probe",
+              "url": "https://www.automotive-fleet.com/10161842/teslas-unexpected-braking-is-latest-subject-of-nhtsa-safety-probe"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: לוח אלקטרוני בהגה הכוח עלול להיפגע ולגרום לאובדן סיוע ההגה אחרי עצירה. התיקון בעדכון תוכנה אלחוטי. בבדיקה: לוודא שהתוכנה עודכנה.",
+            "scope": "ייצור 28.2.2023–11.10.2023 (שוק ארה\"ב); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NBC Los Angeles — Tesla recalls over 375,000 vehicles over power steering",
+              "url": "https://www.nbclosangeles.com/news/business/money-report/tesla-recalls-over-375000-vehicles-in-u-s-due-to-failing-power-assisted-steering-systems/3638124/?os=0"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "RWD / Standard Range Plus הנעה אחורית",
+            "pt": "ev",
+            "hp": 283,
+            "cons": 14.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model 3 RWD (CATL 6L) 2021–2023, real-range consumption",
+              "url": "https://ev-database.org/car/1555/Tesla-Model-3-RWD"
+            }
+          },
+          {
+            "name": "Long Range הנעה כפולה",
+            "pt": "ev",
+            "hp": 441,
+            "cons": 15.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model 3 Long Range AWD 2020–2022, real-range consumption",
+              "url": "https://ev-database.org/car/1321/Tesla-Model-3-Long-Range-AWD"
+            }
+          },
+          {
+            "name": "Performance הנעה כפולה",
+            "pt": "ev",
+            "hp": 513,
+            "cons": 16.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model 3 Performance 2020–2022, real-range consumption",
+              "url": "https://ev-database.org/car/1322/Tesla-Model-3-Performance"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/Tesla/Model-3/37573"
+        },
+        "launchPrice": {
+          "ils": 179213,
+          "year": 2021,
+          "note": "רמת גימור בסיסית",
+          "source": {
+            "title": "icar — נחשפו המחירים של טסלה בישראל (02.02.2021)",
+            "url": "https://www.icar.co.il/%D7%A8%D7%9B%D7%91-%D7%97%D7%A9%D7%9E%D7%9C%D7%99/%D7%A0%D7%97%D7%A9%D7%A4%D7%95_%D7%94%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%98%D7%A1%D7%9C%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+          }
+        }
+      },
+      "Highland": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאה: לוח המעגלים במחשב הרכב עלול לקצר ולגרום לאובדן תמונת המצלמה האחורית. תיקון בעדכון תוכנה והחלפת מחשב במידת הצורך. בבדיקה: לוודא שהמצלמה האחורית עובדת ושהקריאה בוצעה.",
+            "scope": "שנתוני 2024–2025; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "FOX 32 Chicago — Tesla recalls nearly 240,000 vehicles over rearview camera issue",
+              "url": "https://www.fox32chicago.com/news/tesla-recall-vehicles-jan-2025-rearview-camera-issue"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: מגעני (contactors) סוללת המתח הגבוה עלולים להיפתח פתאום ולגרום לאובדן הנעה בנסיעה. טסלה מחליפה את המגענים. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "scope": "ייצור 8.3.2025–12.8.2025; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — recall report 25V690 (Model 3 2025 / Model Y 2026)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2025/RCLRPT-25V690-8658.pdf"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה אירופית: בתאונת צד מול עמוד הכוח על כתף הנוסע עלול לחרוג מהמותר. בבדיקה: לברר מול טסלה לפי מספר שלדה אם הרכב כלול ואם בוצע תיקון.",
+            "scope": "ייצור 30.6.2024–8.5.2026 (ייצור סין)",
+            "source": {
+              "title": "car-recalls.eu — Tesla Model 3 2024–2026 bodywork/injury recall",
+              "url": "https://car-recalls.eu/recall/tesla-model-3-2024-2026-bodywork-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "RWD הנעה אחורית",
+            "pt": "ev",
+            "hp": 279,
+            "cons": 13.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database (UK) — Tesla Model 3 RWD (Highland, CATL 6M) 2025, real-range 222 Wh/mi converted to kWh/100km",
+              "url": "https://ev-database.org/uk/car/3186/Tesla-Model-3-RWD"
+            }
+          },
+          {
+            "name": "Long Range הנעה כפולה",
+            "pt": "ev",
+            "hp": 498,
+            "cons": 14.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model 3 Long Range AWD (Highland) 2023–2025, real-range consumption",
+              "url": "https://ev-database.org/car/1992/Tesla-Model-3-Long-Range-AWD"
+            }
+          },
+          {
+            "name": "Performance הנעה כפולה",
+            "pt": "ev",
+            "hp": 627,
+            "cons": 15.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model 3 Performance (Highland) 2024–2025, real-range consumption",
+              "url": "https://ev-database.org/car/2188/Tesla-Model-3-Performance"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/tesla-model-3---euro-ncap-2025-results---5-stars/s/bf232c62-8a8a-435a-aa69-dbafc0a82459"
+        }
+      }
+    },
+    "model-y": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "NHTSA פתחה בחקירה על ניתוק זרוע הקישור התחתונה במתלה הקדמי, שעלול לגרום לאובדן שליטה. בבדיקה: לבדוק במוסך את זרועות המתלה הקדמי, רעשי נקישה וכיוון גלגלים.",
+            "scope": "שנתוני 2021–2023 (חקירה, לא קריאה); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Drive Tesla Canada — NHTSA investigates Model 3/Y suspension",
+              "url": "https://driveteslacanada.ca/news/tesla-model-3-model-y-suspension-investigation-nhtsa/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: תקלה בשסתום משאבת החום עלולה לגרום לאובדן חימום ולהפשרת שמשה לא מספקת בקור. תיקון בעדכון תוכנה. בבדיקה: לוודא שהחימום עובד ושהתוכנה עודכנה.",
+            "scope": "שנתוני 2021–2022; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Electrek — Tesla heat pump problem explained in NHTSA recall",
+              "url": "https://electrek.co/2022/02/09/tesla-heat-pump-problem-causing-loss-heat-explained-nhtsa-recall/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "\"בלימת רפאים\" — בלימה פתאומית ללא סיבה בזמן Autopilot, נחקרה ע\"י NHTSA. בבדיקה: נסיעת מבחן עם בקרת שיוט אדפטיבית בכביש מהיר.",
+            "scope": "שנתוני 2021–2022",
+            "source": {
+              "title": "Automotive Fleet — Tesla's unexpected braking subject of NHTSA probe",
+              "url": "https://www.automotive-fleet.com/10161842/teslas-unexpected-braking-is-latest-subject-of-nhtsa-safety-probe"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: לוח אלקטרוני בהגה הכוח עלול להיפגע ולגרום לאובדן סיוע ההגה אחרי עצירה. תיקון בעדכון תוכנה אלחוטי. בבדיקה: לוודא שהתוכנה עודכנה.",
+            "scope": "ייצור 28.2.2023–11.10.2023 (שוק ארה\"ב); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NBC Los Angeles — Tesla recalls over 375,000 vehicles over power steering",
+              "url": "https://www.nbclosangeles.com/news/business/money-report/tesla-recalls-over-375000-vehicles-in-u-s-due-to-failing-power-assisted-steering-systems/3638124/?os=0"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: לוח המעגלים במחשב הרכב עלול לקצר ולגרום לאובדן תמונת המצלמה האחורית. תיקון בעדכון תוכנה והחלפת מחשב במידת הצורך. בבדיקה: לוודא שהמצלמה האחורית עובדת ושהקריאה בוצעה.",
+            "scope": "שנתוני 2023–2025; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "FOX 32 Chicago — Tesla recalls nearly 240,000 vehicles over rearview camera issue",
+              "url": "https://www.fox32chicago.com/news/tesla-recall-vehicles-jan-2025-rearview-camera-issue"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "RWD הנעה אחורית",
+            "pt": "ev",
+            "hp": 295,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database (UK) — Tesla Model Y RWD (CATL 6L) 2022–2024, real-range 271 Wh/mi converted to kWh/100km",
+              "url": "https://ev-database.org/uk/car/1743/Tesla-Model-Y-RWD"
+            }
+          },
+          {
+            "name": "Long Range הנעה כפולה",
+            "pt": "ev",
+            "hp": 514,
+            "cons": 16.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model Y Long Range AWD 2022–2025, real-range consumption",
+              "url": "https://ev-database.org/car/1619/Tesla-Model-Y-Long-Range-AWD"
+            }
+          },
+          {
+            "name": "Performance הנעה כפולה",
+            "pt": "ev",
+            "hp": 534,
+            "cons": 17.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model Y Performance 2022–2025, real-range consumption (estimate)",
+              "url": "https://ev-database.org/car/1183/Tesla-Model-Y-Performance"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/tesla/model+y/46618"
+        },
+        "launchPrice": {
+          "ils": 331000,
+          "year": 2022,
+          "note": "Long Range — גרסת ההשקה בישראל",
+          "source": {
+            "title": "icar — טסלה מודל Y: החל השיווק בישראל (05.04.2022)",
+            "url": "https://www.icar.co.il/רכב-חשמלי/טסלה_מודל_Y:_החל_השיווק_בישראל/"
+          }
+        }
+      },
+      "Juniper": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאה: מגעני סוללת המתח הגבוה עלולים להיפתח פתאום ולגרום לאובדן הנעה בנסיעה. טסלה מחליפה את המגענים. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "scope": "שנתון 2026, ייצור 15.3.2025–15.8.2025; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — recall report 25V690 (Model 3 2025 / Model Y 2026)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2025/RCLRPT-25V690-8658.pdf"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאה: פנסי הרוורס עלולים לא להידלק בהילוך אחורי. בבדיקה: להכניס להילוך אחורי ולוודא ששני פנסי הרוורס דולקים.",
+            "scope": "ייצור 6.2.2025–26.7.2025; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Recharged — 2026 Tesla Model Y recalls list",
+              "url": "https://recharged.com/articles/2026-tesla-model-y-recalls-list/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "RWD הנעה אחורית",
+            "pt": "ev",
+            "hp": 299,
+            "cons": 16.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model Y RWD (Juniper) 2025, real-range consumption",
+              "url": "https://ev-database.org/car/3103/Tesla-Model-Y-RWD"
+            }
+          },
+          {
+            "name": "Long Range הנעה כפולה",
+            "pt": "ev",
+            "hp": 514,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model Y Long Range AWD (Juniper) 2025, real-range consumption",
+              "url": "https://ev-database.org/car/3104/Tesla-Model-Y-Long-Range-AWD"
+            }
+          },
+          {
+            "name": "Performance הנעה כפולה",
+            "pt": "ev",
+            "hp": 627,
+            "cons": 17.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Tesla Model Y Performance (Juniper) 2025–2026, real-range consumption",
+              "url": "https://ev-database.org/car/3269/Tesla-Model-Y-Performance"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/tesla-model-y---euro-ncap-2025-results---5-stars/s/f12506af-158b-4631-a546-6ca7685dea9d"
+        },
+        "launchPrice": {
+          "ils": 247637,
+          "year": 2025,
+          "note": "RWD — רמת גימור בסיסית",
+          "source": {
+            "title": "Queen of the Road — טסלה מודל Y החדש 2025 תחילת שיווק (21.02.2025)",
+            "url": "https://www.queenoftheroad.co.il/טסלה-מודל-y/"
+          }
+        }
+      }
+    }
+  }
+}

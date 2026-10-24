@@ -317,6 +317,55 @@
             }
           }
         ]
+      },
+      "Astra L": {
+        "issues": [
+          {
+            "level": "manufacturer",
+            "he": "מנועי 1.2 PureTech מהדורות קודמות (EB) – צריכת שמן מוגברת ושחיקה מוקדמת של רצועת התזמון הרטובה; סטלנטיס הרחיבה אחריות עד 10 שנים/175,000 ק\"מ בתנאים. בבדיקה: לבדוק מפלס ונורת שמן, היסטוריית החלפת רצועה ותחולת האחריות המורחבת על הרכב.",
+            "scope": "1.2 PureTech (דורות EB קודמים); הדף אינו מציין דגמים – לבדוק תחולה על האסטרה הספציפית",
+            "source": {
+              "title": "Vauxhall UK — Extended warranty for PureTech 1.0 and 1.2 engines",
+              "url": "https://stage1-www.vauxhall.co.uk/maintenance-services0/warranties-care/extended-warranty-for-puretech.html"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מותחן חגורת הבטיחות הקדמית עלול לא לפעול כראוי כשכרית הנוסע מנוטרלת. בבדיקה: לוודא שקריאה KDY בוצעה.",
+            "scope": "ייצור 23.4.2022–17.5.2022",
+            "source": {
+              "title": "eauto.org.ua — Opel Astra 2022 recall campaign KDY (EU Safety Gate)",
+              "url": "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/opel-astra-2022-9143"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "רכיב מסומרר המחזיק את כרית האוויר הצידית (וילון) הותקן לא נכון – הכרית עלולה להיפתח לא כראוי. בבדיקה: לוודא שקריאה KA6 בוצעה.",
+            "scope": "ייצור 10.3.2022–27.4.2022",
+            "source": {
+              "title": "eauto.org.ua — Opel Astra 2022 recall campaign KA6 (EU Safety Gate)",
+              "url": "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/opel-astra-2022-8645"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "Astra Electric חשמלית",
+            "pt": "ev",
+            "hp": 156,
+            "cons": 16.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Opel Astra Electric 58 kWh (MY26) real-world consumption estimate; earlier 54 kWh version not checked",
+              "url": "https://ev-database.org/de/pkw/3450/Opel-Astra-Electric-58-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/opel-vauxhall-astra---euro-ncap-2022-results---4-stars/s/7d53288c-90b0-4550-8ae7-b1ebf60b7e75"
+        }
       }
     },
     "grandland": {

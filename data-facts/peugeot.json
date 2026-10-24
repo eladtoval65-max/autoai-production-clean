@@ -818,6 +818,55 @@
             }
           }
         ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "צינור הדלק בלחץ נמוך עלול להתחכך בבורג סליל ההצתה, להינזק ולדלוף – סכנת שריפה. בבדיקה: לוודא שקריאה MWY בוצעה.",
+            "scope": "ייצור 11.3.2024–27.11.2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 5008 (2024) fuel line recall (Rapex 19/2025)",
+              "url": "https://car-recalls.eu/recall/peugeot-5008-2024-fuel-line/amp/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בורגי תושבת מפרק הכדור בזרוע המתלה הקדמית התחתונה עלולים להישבר – אובדן שליטה. בבדיקה: לוודא שקריאה MYV בוצעה.",
+            "scope": "גרסאות היברידיות 2024–2025 (אוסטרליה); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Peugeot 3008 & 5008 2024-2025 recall REC-006583",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006583"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תקלת תוכנה עלולה לנטרל את ידיות הדלת הפנימיות כשהמנוע פועל. התיקון: עדכון תוכנה. בבדיקה: לוודא שהעדכון בוצע ולנסות את כל הידיות מבפנים.",
+            "scope": "ייצור 2024–2025 (אוסטרליה); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — Peugeot 308, 3008, 408 and 5008 recalled",
+              "url": "https://www.carexpert.com.au/car-news/peugeot-308-3008-408-and-5008-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "e-5008 חשמלי 73 קוט\"ש",
+            "pt": "ev",
+            "hp": 213,
+            "cons": 19.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Peugeot e-5008 73 kWh real range consumption",
+              "url": "https://ev-database.org/car/2149/Peugeot-e-5008-73-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/peugeot-5008---euro-ncap-2025-results---4-stars/s/59a024f2-aba5-4370-bb52-56838899bebe"
+        }
       }
     },
     "rifter": {

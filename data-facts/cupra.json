@@ -1,0 +1,140 @@
+{
+  "make": "cupra",
+  "updated": "2026-10-24",
+  "models": {
+    "formentor": {
+      "KM7": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "כיסוי המנוע (מכסה דקורטיבי) במנוע 2.0 TSI עלול להשתחרר ולגעת באזור הטורבו החם – סכנת שריפה. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה (קוד 10H7) בוצעה.",
+            "scope": "2.0 TSI, ייצור 07/2020–03/2022",
+            "source": {
+              "title": "car-recalls.eu — Cupra Formentor 2020-2022 engine cover fire recall (Rapex A12/00608/22)",
+              "url": "https://car-recalls.eu/recall/cupra-formentor-2020-engine-cover-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בגרסאות הפלאג-אין (e-Hybrid) נתיך פגום עלול ליצור קשת חשמלית בקצר ולגרום לשריפה. בבדיקה: לוודא שקריאה 93N9 בוצעה.",
+            "scope": "e-Hybrid, ייצור 10/2020–02/2022",
+            "source": {
+              "title": "car-recalls.eu — Cupra Formentor Hybrid short-circuit fire recall (Rapex 18/2022)",
+              "url": "https://car-recalls.eu/recall/cupra-formentor-hybrid-2020-short-circuit-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "נקודות עיגון חגורות הבטיחות הקדמיות עלולות להיות לקויות עקב תקלת ייצור. בבדיקה: לוודא לפי מספר שלדה שהרכב לא בתחולה או שהקריאה בוצעה.",
+            "scope": "ייצור 09/2020–08/2021",
+            "source": {
+              "title": "car-recalls.eu — Cupra Formentor 2020-2021 seatbelt anchorage recall (Rapex 39/2021)",
+              "url": "https://car-recalls.eu/recall/cupra-formentor-2020-seatbelt-anchorage/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בעלים מדווחים על תקלות תוכנה ומולטימדיה: מסך קופא או מושחר, התראות שווא של מערכות בטיחות (שמירת נתיב, SOS) ותקלות חשמל. בבדיקה: להפעיל את המסך וכל המערכות, ולבדוק שעודכנה תוכנה במוסך.",
+            "source": {
+              "title": "What Car? — Used Cupra Formentor 2020-present reliability",
+              "url": "https://www.whatcar.com/cupra/formentor/estate/used-review/n25335/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בגרסאות הפלאג-אין דווח על תקלות במנגנון פתח הטעינה ועל הודעות שגיאה בתיבת ההילוכים (DSG), במקרה אחד הרכב לא היה נהיג. בבדיקה: לבדוק טעינה ונעילת המחבר, ולחפש היסטוריית תקלות גיר.",
+            "scope": "e-Hybrid",
+            "source": {
+              "title": "What Car? — Used Cupra Formentor 2020-present reliability",
+              "url": "https://www.whatcar.com/cupra/formentor/estate/used-review/n25335/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "Auto Express — Cupra Formentor V1 1.5 TSI long-term test (39.6mpg over 22,380 miles)",
+              "url": "https://www.autoexpress.co.uk/cupra/formentor/356131/cupra-formentor-v1-long-term-test-review"
+            }
+          },
+          {
+            "name": "1.5 e-Hybrid פלאג-אין VZ",
+            "pt": "phev",
+            "hp": 272,
+            "cons": 4.9,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Cupra Formentor VZ 1.5 e-Hybrid long-term test report 5 (57.2mpg test economy)",
+              "url": "https://www.whatcar.com/news/cupra-formentor-long-term-test-report-5/n27425"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/cupra-formentor---euro-ncap-2021-results---5-stars/s/6ffe2eba-e908-49cf-9e4d-01093ef32c94"
+        }
+      }
+    },
+    "cupra-leon": {
+      "KL": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מחצלת הגנה מחום הותקנה לא נכון; במקרים נדירים מיכל נוזל הבלמים עלול להימס ולדלוף לתא המנוע. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "scope": "רכבים עם מגבר בלמים אלקטרומכני וגיר DSG, תקופת ייצור מוגבלת (קריאה 01/2024)",
+            "source": {
+              "title": "What Car? — Used Cupra Leon 2020-present reliability (recalls)",
+              "url": "https://www.whatcar.com/cupra/leon/hatchback/used-review/n28603/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כיסוי המנוע במנוע 2.0 TSI עלול להשתחרר ולגעת באזור הטורבו החם – סכנת שריפה (קריאה משותפת ל-Leon/Formentor/Ateca). בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "scope": "2.0 TSI, ייצור 07/2020–03/2022",
+            "source": {
+              "title": "car-recalls.eu — Seat/Cupra (Ateca, Formentor, Leon; types KL/KM) engine cover fire recall",
+              "url": "https://car-recalls.eu/recall/cupra-formentor-2020-engine-cover-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בגרסאות הפלאג-אין נתיך פגום עלול ליצור קשת חשמלית בקצר ולגרום לשריפה (Leon ו-Formentor, סוגים KL/KM). בבדיקה: לוודא שקריאה 93N9 בוצעה.",
+            "scope": "e-Hybrid, ייצור 10/2020–02/2022",
+            "source": {
+              "title": "car-recalls.eu — Formentor/Leon hybrid short-circuit fire recall (Rapex 18/2022)",
+              "url": "https://car-recalls.eu/recall/cupra-formentor-hybrid-2020-short-circuit-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "נקודות עיגון חגורות הבטיחות הקדמיות עלולות להיות לקויות (Leon ו-Formentor). בבדיקה: לוודא לפי מספר שלדה.",
+            "scope": "ייצור 09/2020–08/2021",
+            "source": {
+              "title": "car-recalls.eu — Leon/Formentor seatbelt anchorage recall (Rapex 39/2021)",
+              "url": "https://car-recalls.eu/recall/cupra-formentor-2020-seatbelt-anchorage/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תקלות תוכנה וחשמל חוזרות: מסכים לא מגיבים, קריסות מערכת ונורות אזהרה 'רפאים', גם בבנזין וגם בפלאג-אין. בבדיקה: לבדוק את המסך ולוודא עדכוני תוכנה בהיסטוריית השירות.",
+            "source": {
+              "title": "What Car? — Used Cupra Leon 2020-present reliability",
+              "url": "https://www.whatcar.com/cupra/leon/hatchback/used-review/n28603/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://news.euroncap.com/safercars/cupra-leon---euro-ncap-2020-results---5-stars/s/0472dc0f-eeef-46c3-a975-adfbaeda58ce"
+        }
+      }
+    }
+  }
+}

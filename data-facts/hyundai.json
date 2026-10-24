@@ -1562,6 +1562,47 @@
               "url": "https://www.clearvin.com/car-recalls/hyundai/palisade/2020/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "3.8 V6 בנזין",
+            "pt": "petrol",
+            "hp": 295,
+            "cons": 14,
+            "unit": "L",
+            "source": {
+              "title": "Sound Telegraph (ACM) — 2021 Hyundai Palisade Highlander V6 review, consumption measured over a test week",
+              "url": "https://www.soundtelegraph.com.au/lifestyle/motoring/2021-hyundai-palisade-highlander-v6-review-ng-b881856306z"
+            }
+          },
+          {
+            "name": "2.2 טורבו דיזל הנעה כפולה",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "GoAuto — Hyundai Palisade Elite diesel AWD review, consumption on test (Private Fleet's test of the Highlander diesel recorded 9.0 L/100km)",
+              "url": "https://goauto.com.au/car-reviews/hyundai/2022-02-07/86919.html"
+            }
+          }
+        ]
+      }
+    },
+    "staria": {
+      "US4": {
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 177,
+            "cons": 13.9,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide — Hyundai Staria diesel family review (130kW; 13.9L/100km over 120km heavy urban test, not long-term)",
+              "url": "https://www.carsguide.com.au/family/hyundai-staria-diesel-101803"
+            }
+          }
         ]
       }
     }

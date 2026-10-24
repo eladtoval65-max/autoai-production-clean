@@ -213,6 +213,42 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-Civic/Civic/civic-sth-1-8-fd1_12476/verbrauch/"
             }
           }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בחלק מהרכבים שיוצרו בתחילת 2010 חסר פין שמחבר את דוושת הבלם למערכת הבלימה. הדוושה יכולה לשקוע עמוק יותר ומרחק הבלימה מתארך. בבדיקה: לוודא שהקריאה בוצעה (התקנת הפין).",
+            "scope": "ייצור תחילת 2010; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "What Car? — Common Honda Civic ('06-'12) problems",
+              "url": "https://www.whatcar.com/news/common-honda-civic-06-12-problems/n10262"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "שחיקה לא אחידה (\"גלים\") בצד הפנימי של הצמיגים האחוריים, שגורמת לרעידות ולרעש. הונדה פרסמה עלון שירות שבו מוחלפת זרוע ההיגוי העליונה האחורית ונעשה כיוון פרונט. בבדיקה: לבדוק את שחיקת הצמיגים האחוריים ולשאול אם הזרוע הוחלפה.",
+            "scope": "עלון השירות פורסם בארה\"ב; לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Samarins — Honda Civic 2006-2011 pros and cons, common problems",
+              "url": "https://www.samarins.com/reviews/civic_06.html"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "תושבת מנוע הידראולית בצד הנוסע שנקרעת או דולפת, ובעקבותיה רעידות בתא הנוסעים ונקישות מקדימה מימין. הונדה פרסמה עלון שירות שמנחה לבדוק אותה. בבדיקה: לשים לב לרעידות בסרק ולנקישות בהחלפת הילוך בין D ל-R.",
+            "source": {
+              "title": "Samarins — Honda Civic 2006-2011 pros and cons, common problems (Honda Service Bulletin 06-060)",
+              "url": "https://www.samarins.com/reviews/civic_06.html"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בסקר J.D. Power הבעלים התלוננו בעיקר על בלמים רועשים, על פגמים בצבע ועל שחיקה לא אחידה של הצמיגים. בבדיקה: להקשיב לבלמים בנסיעת המבחן ולבדוק את מצב הצבע והלכה.",
+            "source": {
+              "title": "What Car? — Common Honda Civic ('06-'12) problems",
+              "url": "https://www.whatcar.com/news/common-honda-civic-06-12-problems/n10262"
+            }
+          }
         ]
       }
     },
