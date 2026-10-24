@@ -124,8 +124,14 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Catalog (batch 17): Skoda Scala, Skoda Kamiq, Chery FX, Mitsubishi Outlander
 
 ## Queue — seen 2026-10-24, not yet covered
-- [ ] Porsche 911 / 911 Cabriolet (₪997,000–2,297,000 carzone): no "coupe" body type in generations.ts — owner to decide (CLE uses "sedan")
-- [ ] Catalog next: Kia Niro (H1 2026 #18 — trim list / power conflict), Citroën Berlingo (#27), Hyundai Elantra (#34)
-- [ ] Suzuki: our "vitara" line carries the e-Vitara price (₪154,990–179,990); petrol Vitara carzone ₪159,990–169,990 vs cartube ₪156,900 — split into vitara / e-vitara (owner)
-- [ ] Hyundai Staria (₪315,900–339,900, cartube), Ioniq 6 N (₪399,900, cartube); Lexus LM (₪930,990–1,089,990); Mercedes EQE SUV, EQS SUV, GLE Coupé, GLC Coupé, G-Class, SL; BMW X4, Z4, iX1, iX2, 2 Coupé; Audi A8, e-tron GT, Q5 Sportback; Land Rover Defender 90/130 already noted under Defender
+- [x] Porsche 911 (body "sedan" as for CLE; price null: sources disagree), BMW Z4 (same body convention) (2026-10-24)
+- [x] Catalog: Kia Niro Hybrid, Citroën Berlingo, Hyundai Elantra Hybrid (batch 18, 2026-10-24)
+- [x] Suzuki Vitara: the line holds both the petrol LY and the "e Vitara" generation (gen code can't be moved); combined range ₪154,990–179,990 covers petrol ₪156,900–169,990 — note updated, no split needed (2026-10-24)
+- [x] Hyundai Staria (unverified: cartube only), Lexus LM, Mercedes EQE SUV / G-Class (price null), GLE Coupé (note under GLE), BMW X4, Z4, Audi A8 / e-tron GT (price null), Deepal S07 (2026-10-24)
+- [ ] Still open: Hyundai Ioniq 6 N (cartube only); Mercedes EQS SUV, GLC Coupé, SL; BMW iX1, iX2, 2 Coupé; Audi Q5 Sportback; Genesis G90 (₪849,900–899,900, both sources agree — generation data not yet verified)
 - [ ] MG Marvel R (cartube only ₪198,888–214,888); Cupra Tavascan (cartube only); Porsche 718 Cayman/Boxster (cartube only)
+
+## Owner-review decisions taken 2026-10-24 (owner asked the agent to resolve open items)
+- Folded variants stay inside their base line, with the variant price in the generation note: Elantra N, Ioniq 5 N, Sportage Long, Octavia RS, Golf GTI, MG EHS, GV70 Electrified (+ cartube 3.5 Sport), GV80 Coupé, Cayenne Coupé, GLE Coupé, Atto 2 EV, e-3008 / e-5008, Leapmotor B10/C10 REEV.
+- Catalog fixes: MG4 Luxury → ₪142,888; Qashqai trim → e-Power Tekna ₪227,990; J7 → Executive 1.6T ₪169,900; Yaris Cross line top → ₪163,990.
+- Genesis re-checked on both sites: GV60 / GV70 ranges match carzone (cartube differs at the top) — kept.

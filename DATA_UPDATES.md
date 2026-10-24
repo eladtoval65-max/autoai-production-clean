@@ -384,3 +384,25 @@ Models added to generations.ts (15). Prices from the brand pages above; generati
 
 Models added to the recommendation catalog (4, `scripts/seed-vehicles-batch17.ts`; new catalog make slug `mitsubishi`), from the H1 2026 model ranking https://www.cartube.co.il/חדשות-רכב/זינוק-במסירות-רכב-חדש-מסירות-רכב-חדש-בישראל-יוני-2026: Skoda Scala (#17), Mitsubishi Outlander (#20), Chery FX (#21), Skoda Kamiq (#25). Kia Niro (#18) skipped (trim list / power conflict). Sources per figure in the batch header; running costs are estimates, dataConfidence 56–60. Photo mappings added for Scala, Kamiq, Outlander.
 Catalog now 57 cars; generations.ts 48 makes, 306 models.
+
+### 2026-10-24 — second pass (owner asked to resolve all open items)
+Catalog (`scripts/seed-vehicles-batch18.ts`; depreciation rate kept, insurance scaled by (new/old)^0.6):
+- MG4 Electric Luxury 64 kWh: ₪119,888 → ₪142,888 (+19%) — https://www.carzone.co.il/MG/4/2026 and https://www.cartube.co.il/מחירון-רכב-חדש/mg/mg-4/6825-mg4-luxury agree (Urban 54 kWh stays 119,888 as line minimum).
+- Nissan Qashqai: trim "e-Power Acenta Tech ₪194,990" not on any list → e-Power Tekna ₪227,990 (+17%), 190 hp — https://www.cartube.co.il/מחירון-רכב-חדש/ניסאן (and trim page 6460), carzone brand-page top 227,990.
+- Jaecoo J7: "1.6T ₪179,990" was the Elegance PHEV price (both sites) → Executive 1.6T ₪169,900, 147 hp — https://www.carzone.co.il/Omoda-Jaecoo/Jaecoo-7 (−5.6%; carzone only, cartube petrol trims unpriced).
+- Toyota Yaris Cross line top → ₪163,990 (https://www.carzone.co.il/Toyota/Yaris-Cross/2026, https://www.cartube.co.il/מחירון-רכב-חדש/36-טויוטה/198-טויוטה-יאריס-קרוס/compare); generations.ts range ₪159,990–160,990 → ₪159,990–163,990.
+- New: Kia Niro Hybrid (EX ₪176,900), Hyundai Elantra Hybrid (Prime ₪169,990), Citroën Berlingo (Combi ₪176,990) — sources in the batch header. dataConfidence 56–60.
+
+generations.ts — 10 more models (prices from the carzone brand pages, second source cartube; generations from English Wikipedia):
+- Hyundai Staria: unverified, price null (not on carzone; https://www.cartube.co.il/מחירון-רכב-חדש/יונדאי/יונדאי-סטאריה 315,900–339,900).
+- Lexus LM ₪930,990–1,089,990 (carzone + https://www.cartube.co.il/מחירון-רכב-חדש/263-make/263-לקסוס-lm).
+- Mercedes EQE SUV: price null (carzone 584,900–664,900 vs https://www.cartube.co.il/מחירון-רכב-חדש/מרצדס/מרצדס-eqe-suv 707,800–845,900); 5★ 2023 (https://www.euroncap.com/en/results/mercedes-benz/eqe+suv/50192).
+- Mercedes G-Class: price null (carzone 1,199,900–1,299,900 vs cartube G 500 1,430,000); W463 II 5★ 2019 (news.euroncap.com G-Class 2019).
+- BMW X4 ₪484,000 (carzone; cartube marks 2026 trims no longer marketed — one source each, kept on sale). BMW Z4 ₪449,900 (carzone sDrive20i; cartube 449,900–625,000); G29 5★ 2019 (news.euroncap.com BMW Z4 2019). Z4 and 911 use body "sedan" (no coupé/roadster type; CLE precedent).
+- Audi A8: price null (carzone 998,400–1,051,200 vs https://www.cartube.co.il/מחירון-רכב-חדש/אודי/אודי-a8 972,250–1,024,000); D5 power not on Wikipedia → "לא אומת". Audi e-tron GT: price null (carzone 999,600 vs cartube 987,400–1,401,900); code "J1" = platform.
+- Porsche 911: price null (carzone 997,000–2,297,000 vs cartube 925,000–1,885,000).
+- Deepal S07 ₪201,990 (carzone + cartube); 5★ 2024 (news.euroncap.com Deepal S07 2024).
+Notes added for folded variants: Elantra N, Ioniq 5 N, Sportage Long, Octavia RS, Golf GTI, MG EHS, GLE Coupé, GV70 3.5 Sport (cartube), GV80 Coupé, Cayenne Coupé, Yaris Cross facelift trims, Vitara petrol price.
+Genesis re-checked (https://www.carzone.co.il/Genesis opened this time; https://www.cartube.co.il/מחירון-רכב-חדש/ג-נסיס): ours match carzone — no change. Genesis G90 (both agree 849,900–899,900) not added: generation data not verified today.
+Still open (conflicting sources, unchanged): Lynk & Co 02 (carzone 159,900–169,900 vs cartube 171,900–179,900), BYD Dolphin (cartube only), Mercedes EQA / A-Class / EQB, VW T-Roc / ID.4 / ID. Buzz, Audi A6, Taycan, RR Sport. MG Cyberster: carzone 2026 compare and cartube now agree on 363,888–393,888 (ours).
+Totals now: catalog 60 cars; generations.ts 48 makes, 316 models.

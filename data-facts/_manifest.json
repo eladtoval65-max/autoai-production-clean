@@ -95,7 +95,7 @@
     "status": "on_sale",
     "price": [
      159990,
-     160990
+     163990
     ],
     "gens": [
      {
@@ -1018,6 +1018,28 @@
       "cons": 21,
       "ncap": 5,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "staria",
+    "model": "Staria",
+    "he": "סטאריה",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "US4",
+      "from": 2021,
+      "to": null,
+      "engines": "2.2 דיזל / 1.6 טורבו היברידי (מ-2024)",
+      "pt": [
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 3
      }
     ]
    }
@@ -5045,6 +5067,63 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "eqe-suv",
+    "model": "EQE SUV",
+    "he": "EQE SUV",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "X294",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 89–96 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "g-class",
+    "model": "G-Class",
+    "he": "G קלאס",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "W463",
+      "from": 2010,
+      "to": 2018,
+      "engines": "דיזל / בנזין V8 ו-V12",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 15,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "W463 II",
+      "from": 2018,
+      "to": null,
+      "engines": "דיזל / בנזין / G 580 חשמלי",
+      "pt": [
+       "diesel",
+       "petrol",
+       "ev"
+      ],
+      "cons": 13,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -5681,6 +5760,81 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "x4",
+    "model": "X4",
+    "he": "X4",
+    "status": "on_sale",
+    "price": [
+     484000,
+     484000
+    ],
+    "gens": [
+     {
+      "code": "F26",
+      "from": 2015,
+      "to": 2018,
+      "engines": "2.0 / 3.0 טורבו בנזין, 2.0 / 3.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G02",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 / 3.0 טורבו בנזין, 2.0 / 3.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "z4",
+    "model": "Z4",
+    "he": "Z4",
+    "status": "on_sale",
+    "price": [
+     449900,
+     449900
+    ],
+    "gens": [
+     {
+      "code": "E89",
+      "from": 2010,
+      "to": 2016,
+      "engines": "2.0 / 3.0 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G29",
+      "from": 2019,
+      "to": null,
+      "engines": "2.0 / 3.0 טורבו בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -6159,6 +6313,63 @@
       ],
       "cons": 18,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "a8",
+    "model": "A8",
+    "he": "A8",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "D4",
+      "from": 2010,
+      "to": 2017,
+      "engines": "3.0 TDI / 3.0–4.0 TFSI / 2.0 היברידי",
+      "pt": [
+       "diesel",
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "D5",
+      "from": 2018,
+      "to": null,
+      "engines": "60 TFSI e פלאג-אין / S8",
+      "pt": [
+       "phev",
+       "petrol"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "e-tron-gt",
+    "model": "e-tron GT",
+    "he": "e-tron GT",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "J1",
+      "from": 2021,
+      "to": null,
+      "engines": "חשמלי, סוללה 84–93 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": null,
       "checks": 2
      }
     ]
@@ -7938,6 +8149,30 @@
       ],
       "cons": 18.5,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "lm",
+    "model": "LM",
+    "he": "LM",
+    "status": "on_sale",
+    "price": [
+     930990,
+     1089990
+    ],
+    "gens": [
+     {
+      "code": "AAWH10",
+      "from": 2023,
+      "to": null,
+      "engines": "2.5 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 8,
+      "ncap": null,
       "checks": 2
      }
     ]
@@ -10394,6 +10629,52 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "911",
+    "model": "911",
+    "he": "911",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "997",
+      "from": 2010,
+      "to": 2012,
+      "engines": "3.6 / 3.8 בנזין, 3.6 / 3.8 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 11,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "991",
+      "from": 2012,
+      "to": 2019,
+      "engines": "3.4 / 3.8 / 4.0 בנזין, 3.0 / 3.8 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "992",
+      "from": 2019,
+      "to": null,
+      "engines": "3.0 / 3.7 טורבו, 4.0 בנזין, 3.6 T-Hybrid",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -10497,6 +10778,30 @@
        "ev"
       ],
       "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "s07",
+    "model": "S07",
+    "he": "S07",
+    "status": "on_sale",
+    "price": [
+     201990,
+     201990
+    ],
+    "gens": [
+     {
+      "code": "C673",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 66.8–80 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
       "ncap": 5,
       "checks": 2
      }

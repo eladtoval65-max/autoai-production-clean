@@ -136,68 +136,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "mg-mg4-electric",
-  "make": "MG",
-  "model": "MG4 Electric",
-  "trim": "Luxury 64 kWh",
-  "bodyType": "hatchback",
-  "fuelType": "Electric",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 363,
-  "powerHp": 190,
-  "consumption": null,
-  "price": 119888,
-  "priceMin": 112700,
-  "priceMax": 119888,
-  "sampleSize": null,
-  "newPrice": 119888,
-  "reliability": 70,
-  "safety": 82,
-  "economy": 92,
-  "comfort": 78,
-  "practicality": 74,
-  "insuranceMin": 433,
-  "insuranceMax": 617,
-  "why": "האצ'בק חשמלי עם הנעה אחורית, מהחשמליות הזולות בישראל. בגרסה המעודכנת סוללה של 64 קוט\"ש וטווח מוצהר של כ-450 ק\"מ.",
-  "pros": [
-   "מחיר נמוך לחשמלית",
-   "עלות נסיעה נמוכה מאוד",
-   "5 כוכבי Euro NCAP (2022)",
-   "אחריות ארוכה לסוללה"
-  ],
-  "cons": [
-   "פחת גבוה כחשמלית",
-   "מותג סיני: ערך יד שנייה פחות יציב",
-   "תא מטען בינוני"
-  ],
-  "confidence": 65,
-  "priceSource": "carzone.co.il/MG (brand page, 2026-10-20)",
-  "bands": {
-   "7000": {
-    "fuel": 58,
-    "insurance": 525,
-    "maintenance": 85,
-    "depreciation": 1190,
-    "total": 1979
-   },
-   "15000": {
-    "fuel": 124,
-    "insurance": 525,
-    "maintenance": 95,
-    "depreciation": 1190,
-    "total": 2055
-   },
-   "25000": {
-    "fuel": 207,
-    "insurance": 525,
-    "maintenance": 110,
-    "depreciation": 1190,
-    "total": 2153
-   }
-  }
- },
- {
   "id": "skoda-fabia",
   "make": "Skoda",
   "model": "Fabia",
@@ -743,6 +681,68 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 235,
     "depreciation": 1167,
     "total": 3139
+   }
+  }
+ },
+ {
+  "id": "mg-mg4-electric",
+  "make": "MG",
+  "model": "MG4 Electric",
+  "trim": "Luxury 64 kWh",
+  "bodyType": "hatchback",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 363,
+  "powerHp": 190,
+  "consumption": null,
+  "price": 142888,
+  "priceMin": 119888,
+  "priceMax": 144888,
+  "sampleSize": null,
+  "newPrice": 142888,
+  "reliability": 70,
+  "safety": 82,
+  "economy": 92,
+  "comfort": 78,
+  "practicality": 74,
+  "insuranceMin": 481,
+  "insuranceMax": 686,
+  "why": "האצ'בק חשמלי עם הנעה אחורית. בגרסת Luxury סוללה של 64 קוט\"ש ו-190 כ\"ס; במחירון גם Urban (54 קוט\"ש) ב-₪119,888 ו-X Range (77 קוט\"ש) ב-₪144,888.",
+  "pros": [
+   "עלות נסיעה נמוכה מאוד",
+   "5 כוכבי Euro NCAP (2022)",
+   "אחריות ארוכה לסוללה",
+   "גרסת Urban זולה במיוחד"
+  ],
+  "cons": [
+   "פחת גבוה כחשמלית",
+   "מותג סיני: ערך יד שנייה פחות יציב",
+   "תא מטען בינוני"
+  ],
+  "confidence": 65,
+  "priceSource": "carzone.co.il/MG/4/2026 + cartube MG4 Luxury (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 58,
+    "insurance": 583,
+    "maintenance": 85,
+    "depreciation": 1418,
+    "total": 2265
+   },
+   "15000": {
+    "fuel": 124,
+    "insurance": 583,
+    "maintenance": 95,
+    "depreciation": 1418,
+    "total": 2341
+   },
+   "25000": {
+    "fuel": 207,
+    "insurance": 583,
+    "maintenance": 110,
+    "depreciation": 1418,
+    "total": 2439
    }
   }
  },
@@ -1434,7 +1434,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": 5.3,
   "price": 160990,
   "priceMin": 151300,
-  "priceMax": 160990,
+  "priceMax": 163990,
   "sampleSize": null,
   "newPrice": 160990,
   "reliability": 92,
@@ -1728,6 +1728,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "jaecoo-jaecoo-j7",
+  "make": "Jaecoo",
+  "model": "J7",
+  "trim": "Executive 1.6T",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 478,
+  "powerHp": 147,
+  "consumption": 8,
+  "price": 169900,
+  "priceMin": 169900,
+  "priceMax": 202990,
+  "sampleSize": null,
+  "newPrice": 169900,
+  "reliability": 70,
+  "safety": 80,
+  "economy": 82,
+  "comfort": 82,
+  "practicality": 84,
+  "insuranceMin": 524,
+  "insuranceMax": 732,
+  "why": "מהנמכרים בישראל. SUV קומפקטי מקבוצת Chery: בגרסת Executive מנוע 1.6 טורבו בנזין 147 כ\"ס; גרסאות הפלאג-אין (342 כ\"ס) מ-₪179,990. 5 כוכבי Euro NCAP וציוד עשיר; צריכת דלק גבוהה יחסית בגרסת הבנזין.",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "ציוד עשיר",
+   "עיצוב מודרני"
+  ],
+  "cons": [
+   "צריכת דלק גבוהה יחסית (כ-8 ליטר ל-100 ק\"מ)",
+   "אמינות לטווח ארוך לא מוכחת",
+   "ערך יד שנייה לא ידוע"
+  ],
+  "confidence": 65,
+  "priceSource": "carzone.co.il/Omoda-Jaecoo/Jaecoo-7 (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 386,
+    "insurance": 628,
+    "maintenance": 210,
+    "depreciation": 1416,
+    "total": 2761
+   },
+   "15000": {
+    "fuel": 827,
+    "insurance": 628,
+    "maintenance": 240,
+    "depreciation": 1416,
+    "total": 3232
+   },
+   "25000": {
+    "fuel": 1378,
+    "insurance": 628,
+    "maintenance": 270,
+    "depreciation": 1416,
+    "total": 3813
+   }
+  }
+ },
+ {
   "id": "kia-ev3",
   "make": "Kia",
   "model": "EV3",
@@ -1850,6 +1911,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "hyundai-elantra-hybrid",
+  "make": "Hyundai",
+  "model": "Elantra Hybrid",
+  "trim": "Prime 1.6 HEV",
+  "bodyType": "sedan",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 474,
+  "powerHp": 139,
+  "consumption": 5.2,
+  "price": 169990,
+  "priceMin": 169990,
+  "priceMax": 188990,
+  "sampleSize": null,
+  "newPrice": 169990,
+  "reliability": 80,
+  "safety": 70,
+  "economy": 86,
+  "comfort": 80,
+  "practicality": 80,
+  "insuranceMin": 430,
+  "insuranceMax": 619,
+  "why": "סדאן משפחתי היברידי (בישראל רק היברידי): 1.6 בנזין ומנוע חשמלי, 139 כ\"ס, תיבת DCT 6. צריכה מוצהרת 22.7 ק\"מ לליטר; במבחן auto.co.il כ-19.3 ק\"מ לליטר (בו השתמשנו).",
+  "pros": [
+   "חסכוני בדלק",
+   "תא מטען 474 ליטר",
+   "מרווח מאחור"
+  ],
+  "cons": [
+   "אין דירוג Euro NCAP לדגם",
+   "ביצועים בינוניים",
+   "פחות פופולרי מ-SUV ביד שנייה"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il/cars/hyundai/elantra-hybrid/2026 + carzone.co.il/Hyundai/Elantra/2026 (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 250,
+    "insurance": 530,
+    "maintenance": 185,
+    "depreciation": 1417,
+    "total": 2503
+   },
+   "15000": {
+    "fuel": 536,
+    "insurance": 530,
+    "maintenance": 210,
+    "depreciation": 1417,
+    "total": 2814
+   },
+   "25000": {
+    "fuel": 893,
+    "insurance": 530,
+    "maintenance": 235,
+    "depreciation": 1417,
+    "total": 3196
+   }
+  }
+ },
+ {
   "id": "alfa-romeo-junior",
   "make": "Alfa Romeo",
   "model": "Junior",
@@ -1907,6 +2029,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 258,
     "depreciation": 1458,
     "total": 3499
+   }
+  }
+ },
+ {
+  "id": "kia-niro-hybrid",
+  "make": "Kia",
+  "model": "Niro Hybrid",
+  "trim": "EX HEV 1.6",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 404,
+  "powerHp": 138,
+  "consumption": 4.6,
+  "price": 176900,
+  "priceMin": 176900,
+  "priceMax": 179900,
+  "sampleSize": null,
+  "newPrice": 176900,
+  "reliability": 80,
+  "safety": 80,
+  "economy": 88,
+  "comfort": 78,
+  "practicality": 80,
+  "insuranceMin": 441,
+  "insuranceMax": 634,
+  "why": "קרוסאובר היברידי של קיה (מתיחת פנים 2026): 1.6 בנזין ומנוע חשמלי, 138 כ\"ס משולב, צריכה מוצהרת 21.7 ק\"מ לליטר. Euro NCAP ‏(2022): 4 כוכבים בתצורה בסיסית, 5 עם חבילת הבטיחות.",
+  "pros": [
+   "חסכוני מאוד בדלק",
+   "היברידי מלא בלי צורך בטעינה",
+   "תא מטען 404 ליטר"
+  ],
+  "cons": [
+   "4 כוכבי Euro NCAP בלי חבילת הבטיחות",
+   "שתי רמות גימור בלבד",
+   "הספק בינוני"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il (Niro Hybrid 2026 launch article) + cartube trim page (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 222,
+    "insurance": 543,
+    "maintenance": 176,
+    "depreciation": 1474,
+    "total": 2536
+   },
+   "15000": {
+    "fuel": 476,
+    "insurance": 543,
+    "maintenance": 200,
+    "depreciation": 1474,
+    "total": 2814
+   },
+   "25000": {
+    "fuel": 794,
+    "insurance": 543,
+    "maintenance": 224,
+    "depreciation": 1474,
+    "total": 3156
    }
   }
  },
@@ -1969,6 +2152,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 248,
     "depreciation": 1475,
     "total": 3141
+   }
+  }
+ },
+ {
+  "id": "citroen-berlingo",
+  "make": "Citroën",
+  "model": "Berlingo",
+  "trim": "Combi Shine PK 1.5 BlueHDi",
+  "bodyType": "minivan",
+  "fuelType": "Diesel",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 775,
+  "powerHp": 130,
+  "consumption": 5.8,
+  "price": 176990,
+  "priceMin": 176990,
+  "priceMax": 189990,
+  "sampleSize": null,
+  "newPrice": 176990,
+  "reliability": 72,
+  "safety": 70,
+  "economy": 78,
+  "comfort": 70,
+  "practicality": 92,
+  "insuranceMin": 441,
+  "insuranceMax": 634,
+  "why": "רכב משפחתי מרווח במיוחד (פאן): דיזל 1.5 ‏130 כ\"ס ותיבה אוטומטית 8, צריכה מוצהרת 17.2 ק\"מ לליטר. דלתות הזזה ותא מטען של 775 ליטר; גרסה ארוכה עם 7 מקומות ב-₪189,990.",
+  "pros": [
+   "תא מטען ענק (775 ליטר)",
+   "דלתות הזזה",
+   "גרסת 7 מקומות"
+  ],
+  "cons": [
+   "נוחות ושקט פחותים מ-SUV",
+   "דירוג Euro NCAP פג תוקף",
+   "מנוע דיזל: מתאים יותר לנסיעות רבות"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il/cars/citroen/berlingo/2026 + carzone.co.il/Citroen/Berlingo/2026 (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 282,
+    "insurance": 543,
+    "maintenance": 229,
+    "depreciation": 1622,
+    "total": 2797
+   },
+   "15000": {
+    "fuel": 603,
+    "insurance": 543,
+    "maintenance": 260,
+    "depreciation": 1622,
+    "total": 3149
+   },
+   "25000": {
+    "fuel": 1006,
+    "insurance": 543,
+    "maintenance": 291,
+    "depreciation": 1622,
+    "total": 3583
    }
   }
  },
@@ -2092,67 +2336,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 255,
     "depreciation": 1501,
     "total": 3321
-   }
-  }
- },
- {
-  "id": "jaecoo-jaecoo-j7",
-  "make": "Jaecoo",
-  "model": "J7",
-  "trim": "1.6T",
-  "bodyType": "suv",
-  "fuelType": "Petrol",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 478,
-  "powerHp": 186,
-  "consumption": 8,
-  "price": 179990,
-  "priceMin": 169200,
-  "priceMax": 202990,
-  "sampleSize": null,
-  "newPrice": 179990,
-  "reliability": 70,
-  "safety": 80,
-  "economy": 82,
-  "comfort": 82,
-  "practicality": 84,
-  "insuranceMin": 542,
-  "insuranceMax": 758,
-  "why": "מהנמכרים בישראל. SUV קומפקטי מקבוצת Chery עם מנוע 1.6 טורבו בנזין (גם בגרסת פלאג-אין), 5 כוכבי Euro NCAP וציוד עשיר. צריכת דלק גבוהה יחסית ואמינות לטווח ארוך עוד לא מוכחת.",
-  "pros": [
-   "5 כוכבי Euro NCAP",
-   "ציוד עשיר",
-   "עיצוב מודרני"
-  ],
-  "cons": [
-   "צריכת דלק גבוהה יחסית (כ-8 ליטר ל-100 ק\"מ)",
-   "אמינות לטווח ארוך לא מוכחת",
-   "ערך יד שנייה לא ידוע"
-  ],
-  "confidence": 65,
-  "priceSource": "carzone.co.il/Omoda-Jaecoo (2026-10-19)",
-  "bands": {
-   "7000": {
-    "fuel": 386,
-    "insurance": 650,
-    "maintenance": 210,
-    "depreciation": 1500,
-    "total": 2867
-   },
-   "15000": {
-    "fuel": 827,
-    "insurance": 650,
-    "maintenance": 240,
-    "depreciation": 1500,
-    "total": 3338
-   },
-   "25000": {
-    "fuel": 1378,
-    "insurance": 650,
-    "maintenance": 270,
-    "depreciation": 1500,
-    "total": 3919
    }
   }
  },
@@ -2580,67 +2763,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 134,
     "depreciation": 1756,
     "total": 3089
-   }
-  }
- },
- {
-  "id": "nissan-qashqai",
-  "make": "Nissan",
-  "model": "Qashqai",
-  "trim": "e-Power Acenta Tech",
-  "bodyType": "suv",
-  "fuelType": "Hybrid",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 479,
-  "powerHp": 205,
-  "consumption": 5.3,
-  "price": 194990,
-  "priceMin": 183300,
-  "priceMax": 194990,
-  "sampleSize": null,
-  "newPrice": 194990,
-  "reliability": 78,
-  "safety": 86,
-  "economy": 72,
-  "comfort": 84,
-  "practicality": 86,
-  "insuranceMin": 516,
-  "insuranceMax": 739,
-  "why": "SUV קומפקטי פופולרי בגרסת e-Power: מנוע הבנזין רק טוען, והגלגלים מונעים בחשמל. נסיעה חלקה ושקטה, מחיר גבוה יחסית לסגמנט.",
-  "pros": [
-   "נסיעה חלקה כמו בחשמלי",
-   "חסכוני בעיר",
-   "שירות ניסאן ותיק בישראל"
-  ],
-  "cons": [
-   "מחיר גבוה לסגמנט",
-   "בכביש מהיר החיסכון קטן יותר",
-   "אחריות 3 שנים בלבד"
-  ],
-  "confidence": 68,
-  "priceSource": "auto.co.il Qashqai e-Power Acenta Tech 2026",
-  "bands": {
-   "7000": {
-    "fuel": 256,
-    "insurance": 628,
-    "maintenance": 200,
-    "depreciation": 1624,
-    "total": 2829
-   },
-   "15000": {
-    "fuel": 547,
-    "insurance": 628,
-    "maintenance": 225,
-    "depreciation": 1624,
-    "total": 3145
-   },
-   "25000": {
-    "fuel": 913,
-    "insurance": 628,
-    "maintenance": 250,
-    "depreciation": 1624,
-    "total": 3536
    }
   }
  },
@@ -3192,6 +3314,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 115,
     "depreciation": 2109,
     "total": 3296
+   }
+  }
+ },
+ {
+  "id": "nissan-qashqai",
+  "make": "Nissan",
+  "model": "Qashqai",
+  "trim": "e-Power Tekna",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 479,
+  "powerHp": 190,
+  "consumption": 5.3,
+  "price": 227990,
+  "priceMin": 178990,
+  "priceMax": 231990,
+  "sampleSize": null,
+  "newPrice": 227990,
+  "reliability": 78,
+  "safety": 86,
+  "economy": 72,
+  "comfort": 84,
+  "practicality": 86,
+  "insuranceMin": 567,
+  "insuranceMax": 812,
+  "why": "SUV קומפקטי פופולרי בגרסת e-Power (190 כ\"ס): מנוע הבנזין רק טוען, והגלגלים מונעים בחשמל. גרסאות ה-e-Power במחירון: Tekna ‏₪227,990 ו-Tekna TT ‏₪231,990; גרסאות 1.3 טורבו מ-₪178,990.",
+  "pros": [
+   "נסיעה חלקה כמו בחשמלי",
+   "חסכוני בעיר",
+   "שירות ניסאן ותיק בישראל"
+  ],
+  "cons": [
+   "מחיר גבוה לסגמנט",
+   "בכביש מהיר החיסכון קטן יותר",
+   "אחריות 3 שנים בלבד"
+  ],
+  "confidence": 68,
+  "priceSource": "cartube.co.il Nissan price list + carzone.co.il/Nissan (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 256,
+    "insurance": 690,
+    "maintenance": 200,
+    "depreciation": 1899,
+    "total": 3166
+   },
+   "15000": {
+    "fuel": 547,
+    "insurance": 690,
+    "maintenance": 225,
+    "depreciation": 1899,
+    "total": 3482
+   },
+   "25000": {
+    "fuel": 913,
+    "insurance": 690,
+    "maintenance": 250,
+    "depreciation": 1899,
+    "total": 3873
    }
   }
  },
