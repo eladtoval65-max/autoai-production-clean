@@ -927,6 +927,74 @@
           "url": "https://news.euroncap.com/safercars/dacia-aims-low-while--koda--vw-electrify/s/67b94981-1dad-416a-9657-ee51e5ae24e3"
         }
       }
+    },
+    "touareg": {
+      "7P": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תפס (clip) חסר בדוושת הבלם עלול לגרום לניתוק הדוושה ולאובדן בלימה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתון 2011 (NHTSA 16V-170, שוק אמריקאי)",
+            "source": {
+              "title": "CarComplaints — 2011 Volkswagen Touareg recall: missing brake pedal clip may cause loss of braking (NHTSA 16V-170)",
+              "url": "https://www.carcomplaints.com/Volkswagen/Touareg/2011/recalls/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 V6 טורבו דיזל TDI",
+            "pt": "diesel",
+            "hp": 262,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — VW Touareg II 3.0 TDI (7P) 193 kW, 2014–2018: real-world average from 2,798 user reports",
+              "url": "https://www.autokostencheck.de/VW/VW-Touareg/Touareg-II/touareg-3-0-tdi-7p_39376/verbrauch/"
+            }
+          }
+        ]
+      },
+      "CR": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מודולי התאים בסוללת המתח הגבוה עלולים להתחמם יתר על המידה בזמן טעינה ולגרום לשריפה. בגרסת ההיברידי הנטען — לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "דגמים עם סוללת מתח גבוה (PHEV), 2018–2024",
+            "source": {
+              "title": "car-recalls.eu — VW Touareg common problems: Touareg (2018–2024) high-voltage battery fire risk (RAPEX, 21/11/2025)",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/touareg/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בדלת תא המטען החשמלית, אם פותחים ודוחפים אותה ידנית גבוה מדי, קפיץ דחוס עלול להשתחרר מהבוכנה בכוח ולגרום לפציעה. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתון 2019 (ייצור 01/2019)",
+            "source": {
+              "title": "Australian Government vehicle recalls — REC-004990 (VW campaign 55L6): 2019 Touareg tailgate strut springs",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-004990"
+            }
+          },
+          {
+            "he": "קריאת שירות: הותקנו אומים באיכות חומר חריגה בחיבור הזרועות הרוחביות (transverse link). לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 22/09/2020–03/11/2020",
+            "source": {
+              "title": "car-recalls.eu — VW Touareg common problems: Touareg (2020) transverse link nuts (UK recall, 21/06/2021)",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/touareg/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר הצדדית במושב השמאלי הקדמי עלולה שלא להיות מקובעת כראוי. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 17/08/2023–23/10/2023",
+            "source": {
+              "title": "car-recalls.eu — VW Touareg common problems: Touareg (2023) front-left side airbag not secured correctly (RAPEX 02/02/2024; UK 20/12/2023)",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/touareg/"
+            }
+          }
+        ]
+      }
     }
   }
 }

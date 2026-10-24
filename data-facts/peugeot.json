@@ -315,6 +315,52 @@
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/peugeot-308---euro-ncap-2022-results---4-stars/s/be79548e-0b6f-4e98-bc10-f0b2496ba796"
         }
+      },
+      "T7": {
+        "issues": [
+          {
+            "he": "קריאת שירות (אוסטרליה): צינור החזרת הדלק עלול להתחכך בתושבת מסנן הדלק, להישחק ולדלוף. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה, ולחפש ריח דלק או סימני דליפה.",
+            "level": "recall",
+            "scope": "ייצור 3.2010–10.2010",
+            "source": {
+              "title": "aucn.net.au — Peugeot 308, 3008 and RCZ fuel return pipe recall (PRA 2011/12409, built Mar–Oct 2010)",
+              "url": "https://aucn.net.au/australian-car/recalls/peugeot-308-3008-and-rcz-vehicles-fuel-return-pipe_1.html"
+            }
+          },
+          {
+            "he": "קריאת שירות (אוסטרליה): ייתכן שמכלול תיבת ההגה לא הודק כראוי, ושליטת ההיגוי עלולה להיפגע. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה מאוקטובר 2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Peugeot T7 308 (PRA 2012/13336 steering rack incorrectly tightened)",
+              "url": "https://australiancar.reviews/?p=47609"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Peugeot 308 1.6 (4) 2007–2013, 88 kW / 120 PS: real-world average from 146 user reports",
+              "url": "https://www.autokostencheck.de/Peugeot/Peugeot-308/308/308-1-6-4_18319/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Peugeot 308 SW 1.6 T (4) 2010–2013, 115 kW / 156 PS (SW estate body): real-world average from 29 user reports",
+              "url": "https://www.autokostencheck.de/Peugeot/Peugeot-308/308-SW/308-sw-1-6-t-4_34828/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "408": {
@@ -590,6 +636,30 @@
               "url": "https://car-recalls.eu/recall/peugeot-208-2015-timing-belt/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 8.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Peugeot 3008 1.6 120 VTi 2009–2015, 88 kW: real-world average from 52 user reports",
+              "url": "https://www.autokostencheck.de/Peugeot/Peugeot-3008/3008/3008-1-6-120-vti_30721/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 8.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Peugeot 3008 1.6 (0U) 2009–2015, 115 kW / 156 PS (THP): real-world average from 85 user reports",
+              "url": "https://www.autokostencheck.de/Peugeot/Peugeot-3008/3008/3008-1-6-0u_34823/verbrauch/"
+            }
+          }
         ]
       },
       "Gen3": {
@@ -704,6 +774,47 @@
             "source": {
               "title": "Spritmonitor — 5008 petrol 91–101 kW automatic, 2016–2020 (29 vehicles)",
               "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1174-5008.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=91&power_e=101&gearing=2"
+            }
+          }
+        ]
+      },
+      "T87 (MPV)": {
+        "issues": [
+          {
+            "he": "בלם היד החשמלי עלול להתקלקל — להפעיל ולשחרר אותו כמה פעמים בבדיקה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Peugeot 5008 MPV 2009–2016 review: what goes wrong",
+              "url": "https://www.whatcar.com/peugeot/5008/mpv/used-review/n775/advice"
+            }
+          },
+          {
+            "he": "אטמי הדלתות עלולים לגרום לרעשי רוח ולחדירת מים — לבדוק רטיבות בשטיחים ובדלתות האחוריות",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Peugeot 5008 MPV 2009–2016 review: what goes wrong",
+              "url": "https://www.whatcar.com/peugeot/5008/mpv/used-review/n775/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות (אוסטרליה, 2014): צמת החיווט של מושב הנהג עלולה להישחק מחיכוך ולגרום לתקלה חשמלית או להתחממות מקומית. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Peugeot 5008 (PRA 2014/14044 driver's seat wiring harness)",
+              "url": "https://australiancar.reviews/?p=47620"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 8.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Peugeot 5008 1.6 (0) 2010–2015, 115 kW / 156 PS (THP): real-world average from 41 user reports",
+              "url": "https://www.autokostencheck.de/Peugeot/Peugeot-5008/5008/5008-1-6-0_35701/verbrauch/"
             }
           }
         ]

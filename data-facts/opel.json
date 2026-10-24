@@ -1,0 +1,150 @@
+{
+  "make": "opel",
+  "updated": "2026-10-24",
+  "models": {
+    "corsa": {
+      "Corsa F": {
+        "issues": [
+          {
+            "he": "קריאת שירות: משאבת הדלק בלחץ גבוה לא חוזקה למנוע במומנט הנכון, ודלק עלול לדלוף. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 18.3.2019–14.2.2020",
+            "source": {
+              "title": "eauto.org.ua — Vauxhall/Opel Corsa 2019–2020 recall 20-C-105, high-pressure fuel pump torque (EU Safety Gate A12/01451/20)",
+              "url": "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/vauxhall-corsa-2019-2020-6873"
+            }
+          },
+          {
+            "he": "ב־1.2 PureTech 100 רצועת התזמון שקועה בשמן. היא עלולה להישחק מוקדם ולפזר חלקיקים שסותמים את מערכת הסיכה, וזה עלול להסתיים בנזק כבד למנוע. Stellantis הוציאה קריאות להחלפת רצועה ועדכון תוכנה. לבדוק תיעוד החלפת רצועה וטיפולים לפי היצרן.",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech 100 (רצועה)",
+            "source": {
+              "title": "Italpassion — Stellantis 1.2 PureTech engine: list of belt-driven and chain-driven models",
+              "url": "https://italpassion.fr/en/guides/stellantis-1-2-puretech-engine-list-of-belt-driven-and-chain-driven-models"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין (PureTech)",
+            "pt": "petrol",
+            "hp": 101,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Corsa F 1.2 74 kW petrol (2024+ variant): real-world average from 142 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(F)/corsa-f-1-2-u_50689/verbrauch/"
+            }
+          },
+          {
+            "name": "1.2 היברידי מתון",
+            "pt": "hybrid",
+            "hp": 136,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Corsa F 1.2 100 kW (2023+, listed as hybrid): real-world average from 40 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(F)/corsa-f-1-2-u_50870/verbrauch/"
+            }
+          },
+          {
+            "name": "חשמלי 50 קוט״ש (Corsa-e)",
+            "pt": "ev",
+            "hp": 136,
+            "cons": 16.2,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Opel Corsa-e (MY20-21) 50 kWh: EVDB real-world consumption estimate 162 Wh/km",
+              "url": "https://ev-database.org/car/1192/Opel-Corsa-e"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/opel-vauxhall/corsa/38859"
+        }
+      }
+    },
+    "astra": {
+      "Astra K": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כריות האוויר הצדדיות הקדמיות עלולות לא להיפתח כראוי בתאונה, ונדרשת החלפת מודול. קריאה נוספת עוסקת בכרית האוויר של הנוסע הקדמי ברכבים שיוצרו בין 19.6 ל־9.11.2016. לוודא ביצוע לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 25.8–1.12.2016 (כריות צד)",
+            "source": {
+              "title": "What Car? — Used Vauxhall Astra 2015–2021 reliability (recalls)",
+              "url": "https://www.whatcar.com/vauxhall/astra/hatchback/used-review/n17406/advice"
+            }
+          },
+          {
+            "he": "ב־1.0 טורבו מדווחים על איבוד כוח פתאומי שחולף מעצמו ולעתים רעש מתכתי מתא המנוע. בדרך כלל התיקון הוא החלפת שמן ומסנן. לבדוק היסטוריית טיפולים ולהקשיב למנוע.",
+            "level": "widely_reported",
+            "scope": "1.0 טורבו",
+            "source": {
+              "title": "Haynes — Vauxhall Astra K common problems (2016–2021)",
+              "url": "https://haynes.com/en-gb/tips-tutorials/vauxhall-astra-k-common-problems-2016-2021"
+            }
+          },
+          {
+            "he": "חריקה במתלה הקדמי במעבר על פסי האטה, בגלל תותב פגום בזרוע התחתונה. בנסיעת מבחן: לעבור לאט על פס האטה ולהקשיב.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Vauxhall Astra K common problems (2016–2021)",
+              "url": "https://haynes.com/en-gb/tips-tutorials/vauxhall-astra-k-common-problems-2016-2021"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Astra K 1.0 77 kW: real-world average from 456 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Astra/Astra-(K)/astra-k-1-0-b-k_41366/verbrauch/"
+            }
+          },
+          {
+            "name": "1.4 טורבו בנזין (2019–2021)",
+            "pt": "petrol",
+            "hp": 146,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Astra K 1.4 107 kW (2019–2021): real-world average from 24 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Astra/Astra-(K)/astra-k-1-4-b-k_47897/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "grandland": {
+      "Gen1 (Grandland X)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: סוללת המתח הגבוה עלולה להתחמם יתר על המידה. בדגמי הפלאג־אין: לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "2019–2022, ככל הנראה PHEV",
+            "source": {
+              "title": "car-recalls.eu — Opel/Vauxhall Grandland X common problems & UK recalls: HV battery overheating (2019–2022)",
+              "url": "https://car-recalls.eu/common-problems/opel/Grandland-x/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בעיה באטם במודול כניסת האוויר לרדיאטור. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "2019",
+            "source": {
+              "title": "car-recalls.eu — Opel/Vauxhall Grandland X common problems & UK recalls: engine cooling radiator sealing baffle (2019)",
+              "url": "https://car-recalls.eu/common-problems/opel/Grandland-x/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

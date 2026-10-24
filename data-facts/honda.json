@@ -67,6 +67,49 @@
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/the-stars-align-for-mazda-mx-30-and-honda-jazz/s/e0119180-47d5-4e75-b7a7-99588d6d4876"
         }
+      },
+      "GE": {
+        "issues": [
+          {
+            "he": "קריאות שירות לכרית האוויר של הנהג (Takata): המנפח עלול להיקרע בפתיחה ולפזר רסיסים. בבדיקה: לוודא לפי מספר שלדה שהמנפח הוחלף.",
+            "level": "recall",
+            "scope": "שנים 2008–2014 (לפי קריאות באוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Honda GE6/GE8 Jazz (PRA 2015/14819, 2016/15197, 2019/17661)",
+              "url": "https://australiancar.reviews/recalls-faults-honda-ge6-ge8-jazz-2008-13/"
+            }
+          },
+          {
+            "he": "קריאת שירות: סיכה לא מספקת בין קפיץ למנוף נדנדה עלולה לשבור את הקפיץ, והמנוע עלול לכבות ולא להתניע מחדש. בבדיקה: לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "טווחי שלדה מסוימים, קריאה מ־2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Honda GE6/GE8 Jazz (PRA 2011/12369, Feb 2011)",
+              "url": "https://australiancar.reviews/recalls-faults-honda-ge6-ge8-jazz-2008-13/"
+            }
+          },
+          {
+            "he": "מנוע המפוח של המזגן עלול לעבוד רק במהירות הגבוהה. בבדיקה: לנסות את כל מהירויות המפוח.",
+            "level": "widely_reported",
+            "source": {
+              "title": "australiancar.reviews — Honda GE Jazz known faults (A/C blower motor/resistor)",
+              "url": "https://australiancar.reviews/recalls-faults-honda-ge6-ge8-jazz-2008-13/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda Jazz 1.2 i-VTEC (GG5, 2009–2015) 66 kW: real-world average from 303 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-Jazz/Jazz/jazz-1-2-gg5_34589/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "civic": {
@@ -104,6 +147,73 @@
             }
           }
         ]
+      },
+      "FK (דור 9)": {
+        "issues": [
+          {
+            "he": "קריאת שירות בדיזל: תוכנת בקרת המנוע לא מונעת הצטברות גופרית בממיר הקטליטי, והרכב חורג מתקן הפליטות (NOx). אין סיכון בטיחותי. בבדיקה: לוודא שעדכון התוכנה בוצע, לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "1.6 i-DTEC דיזל, ייצור 02/2015–05/2018",
+            "source": {
+              "title": "car-recalls.eu — Honda Civic (2015–2018) diesel emissions software (Honda 6ER, RAPEX A12/00115/20)",
+              "url": "https://car-recalls.eu/recall/honda-civic-2015-2018/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 בנזין",
+            "pt": "petrol",
+            "hp": 141,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda Civic Tourer 1.8 (FK) 104 kW: real-world average from 417 user reports (same engine as hatchback)",
+              "url": "https://www.autokostencheck.de/Honda/Honda-Civic/Civic-Tourer/civic-tourer-1-8-fk2_38524/verbrauch/"
+            }
+          }
+        ]
+      },
+      "FL (דור 11)": {
+        "issues": [
+          {
+            "he": "קריאת שירות (אוסטרליה): תקלת תוכנה עלולה לאפס את מחשב המנוע במעבר לנסיעה חשמלית, למחוק קודי תקלה ולכבות את נורת Check Engine. בבדיקה: לוודא שעדכון התוכנה בוצע, לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "2.0 e:HEV, שנים 2022–2023 (קריאה בשוק האוסטרלי)",
+            "source": {
+              "title": "Australian Government vehicle recall REC-005680 — Honda Civic Hybrid 2022–2023 ECU reset",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005680"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 היברידי",
+            "pt": "hybrid",
+            "hp": 184,
+            "cons": 3.8,
+            "unit": "L",
+            "source": {
+              "title": "GoAuto — 2023 Honda Civic e:HEV LX review: 3.8 L/100km achieved on GoAuto's test loop (claim 4.2)",
+              "url": "https://goauto.com.au/amp/90027/2023-honda-civic-e-hev-lx-review.html"
+            }
+          }
+        ]
+      },
+      "FN/FK/FD (דור 8)": {
+        "engines": [
+          {
+            "name": "1.8 בנזין i-VTEC",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda Civic sedan 1.8 (FD1) 103 kW, 2006–2012: real-world average from 39 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-Civic/Civic/civic-sth-1-8-fd1_12476/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "hr-v": {
@@ -138,6 +248,127 @@
             "source": {
               "title": "autokostencheck.de — Honda HR-V 1.5 (RU) 96 kW, 2015–2019: real-world average from 331 user reports",
               "url": "https://www.autokostencheck.de/Honda/Honda-HR-V/HR-V/hr-v-1-5-ru_42109/verbrauch/"
+            }
+          }
+        ]
+      },
+      "RV": {
+        "engines": [
+          {
+            "name": "1.5 היברידי",
+            "pt": "hybrid",
+            "hp": 131,
+            "cons": 4.8,
+            "unit": "L",
+            "source": {
+              "title": "automobile.at / Motor1 — Honda HR-V e:HEV (3rd gen, 2022) real consumption test: 4.8 L/100km measured over ~360 km Rome–Forlì (WLTP 5.4)",
+              "url": "https://www.automobile.at/magazin/569236"
+            }
+          }
+        ]
+      }
+    },
+    "cr-v": {
+      "RM (דור 4)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: המדחף של משאבת הדלק עלול להיסדק ולהתעוות, והמנוע עלול לכבות בנסיעה או לא להתניע. בבדיקה: לוודא לפי מספר שלדה שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "קוד דגם RE5, ייצור 2017–2018",
+            "source": {
+              "title": "car-recalls.eu — Honda CR-V (2017–2020) fuel pump (Honda 6FE, RAPEX A12/01906/24; type codes incl. RE5)",
+              "url": "https://car-recalls.eu/recall/honda-cr-v-2017-2020-fuel-pump/?noamp=mobile"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 155,
+            "cons": 9.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda CR-V 2.0 (RE5, 2012–2018) 114 kW: real-world average from 36 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-CR-V/CR-V/cr-v-2-0-re5_37462/verbrauch/"
+            }
+          }
+        ]
+      },
+      "RW (דור 5)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: המדחף של משאבת הדלק עלול להיסדק ולהתעוות, והמנוע עלול לכבות בנסיעה או לא להתניע. בבדיקה: לוודא לפי מספר שלדה שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "1.5 טורבו (RW1/RW2) והיברידי (RT5/RT6), ייצור 2018–2020",
+            "source": {
+              "title": "car-recalls.eu — Honda CR-V (2017–2020) fuel pump (Honda 6FE, RAPEX A12/01906/24)",
+              "url": "https://car-recalls.eu/recall/honda-cr-v-2017-2020-fuel-pump/?noamp=mobile"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 172,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda CR-V 1.5 (RW, 2018–2023) 127 kW: real-world average from 77 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-CR-V/CR-V/cr-v-1-5-rw_46546/verbrauch/"
+            }
+          }
+        ]
+      },
+      "RE (דור 3)": {
+        "issues": [
+          {
+            "he": "קריאות שירות (Takata): מנפח כרית האוויר של הנהג ושל הנוסע עלול להתפוצץ בפריסה ולפזר רסיסי מתכת לתא הנוסעים. לוודא לפי מספר שלדה שהמנפחים הוחלפו.",
+            "level": "recall",
+            "scope": "שנתון 2011 (קריאות בשוק האמריקאי, למשל NHTSA 16V-061, 16V-346)",
+            "source": {
+              "title": "CarComplaints — 2011 Honda CR-V recall list (NHTSA 16V-061, 16V-346, 17V-030, 18V-042, 18V-661, 19V-182 and more: frontal air bag inflators)",
+              "url": "https://www.carcomplaints.com/Honda/CR-V/2011/recalls/index.shtml"
+            }
+          },
+          {
+            "he": "קריאת שירות: הזרוע האחורית (trailing arm) עלולה להתנתק ולגרום לאובדן שליטה. לבדוק את מצב הזרועות האחוריות ולוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתון 2011 (NHTSA 23V-228, שוק אמריקאי)",
+            "source": {
+              "title": "CarComplaints — 2011 Honda CR-V recall: rear trailing arm may detach (NHTSA 23V-228, March 2023)",
+              "url": "https://www.carcomplaints.com/Honda/CR-V/2011/recalls/index.shtml"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל i-DTEC",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Honda CR-V 2.2 CTDi (RE6) 110 kW, 2010–2015: real-world average from 441 user reports",
+              "url": "https://www.autokostencheck.de/Honda/Honda-CR-V/CR-V/cr-v-2-2-ctdi-re6_34592/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "zr-v": {
+      "RZ": {
+        "engines": [
+          {
+            "name": "2.0 היברידי",
+            "pt": "hybrid",
+            "hp": 184,
+            "cons": 4.4,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 Germany — Honda ZR-V e:HEV real consumption test: 4.4 L/100km measured over ~360 km Rome–Forlì (WLTP 5.8)",
+              "url": "https://de.motor1.com/reviews/693225/tatsachlicher-verbrauchstest-honda-zrv-vollhybrid/"
             }
           }
         ]

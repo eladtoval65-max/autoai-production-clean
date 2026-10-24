@@ -1,0 +1,199 @@
+{
+  "make": "citroen",
+  "updated": "2026-10-24",
+  "models": {
+    "c3": {
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאת שירות (HLX/HUZ): ייתכן שמשאבת הוואקום לא משומנת מספיק ועלולה להישבר. במקרה כזה סיוע הבלימה יורד. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 7.2.2017–13.11.2019",
+            "source": {
+              "title": "car-recalls.eu — Citroën C3 (2017–2019) vacuum pump, recall HLX/HUZ (RAPEX A11/00078/23); also lists C3 Aircross, C4 Cactus, Berlingo",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2017-2019-vacuum-pump/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שהברגים המחזיקים את כריות האוויר הווילון לא רותכו כראוי, וכריות האוויר עלולות לא לפעול כנדרש בתאונת צד. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 4.1.2017–22.2.2017",
+            "source": {
+              "title": "car-recalls.eu — Citroën C3 (2017) curtain airbag studs not properly welded (RAPEX, published 28.7.2017)",
+              "url": "https://car-recalls.eu/listing/citroen-c3-2017/"
+            }
+          },
+          {
+            "he": "רצועת התזמון של מנוע 1.2 PureTech רצה בתוך שמן ועלולה להתבלות מוקדם, לצד צריכת שמן מוגברת. החלקיקים עלולים לסתום את מערכת השימון ולגרום לנזק למנוע. סטלנטיס הרחיבה את האחריות לעד 10 שנים או 180 אלף ק״מ, בתנאי שהרכב טופל לפי לוח הטיפולים. בבדיקה: לדרוש היסטוריית טיפולים מלאה, לברר מתי הוחלפה הרצועה ולבדוק את מפלס השמן.",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Citroën Belgium — Extended warranty for PureTech 1.0 and 1.2 engines (timing belt degradation / oil consumption, up to 10 years or 180,000 km)",
+              "url": "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 82,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroën C3 1.2 (S) 2018–2024, 61 kW: real-world average from 166 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3/c3-1-2-s_46346/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "c4": {
+      "C41": {
+        "issues": [
+          {
+            "he": "קריאת שירות (HQM): ייתכן שתבריגי ברגי הגלגלים פגומים, והגלגל עלול להשתחרר. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 10.2.2021–11.2.2021",
+            "source": {
+              "title": "eauto.org.ua — Citroën C4 (2021) recall HQM: wheel bolt threads may be damaged (EU Safety Gate 10003709)",
+              "url": "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/citroen-c4-2021-7546"
+            }
+          },
+          {
+            "he": "רצועת התזמון של מנוע 1.2 PureTech רצה בתוך שמן ועלולה להתבלות מוקדם, לצד צריכת שמן מוגברת. החלקיקים עלולים לסתום את מערכת השימון ולגרום לנזק למנוע. סטלנטיס הרחיבה את האחריות לעד 10 שנים או 180 אלף ק״מ, בתנאי שהרכב טופל לפי לוח הטיפולים. בבדיקה: לדרוש היסטוריית טיפולים מלאה, לברר מתי הוחלפה הרצועה ולבדוק את מפלס השמן.",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Citroën Belgium — Extended warranty for PureTech 1.0 and 1.2 engines (timing belt degradation / oil consumption, up to 10 years or 180,000 km)",
+              "url": "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroën C4 1.2 (B) 2020–, 96 kW / 131 PS: real-world average from 167 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C4/C4/c4-1-2-b_49245/verbrauch/"
+            }
+          },
+          {
+            "name": "חשמלי 46 קוט״ש",
+            "pt": "ev",
+            "hp": 136,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Citroën ë-C4 (2020–2021), 46.3 kWh usable: EVDB real-range consumption 165 Wh/km (combined estimate, not owner data)",
+              "url": "https://ev-database.org/car/1286/Citroen-e-C4"
+            }
+          }
+        ]
+      }
+    },
+    "c5-aircross": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות (JHH): תקלת תוכנה עלולה לגרום למנוע לכבות בנסיעה בגובה ובטמפרטורות נמוכות, וכך לאבד את סיוע הבלימה. בבדיקה: לוודא לפי מספר שלדה שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "ייצור 20.6.2018–16.6.2020",
+            "source": {
+              "title": "car-recalls.eu — Citroën C5 Aircross / DS7 (2018–2020) engine stall, recall JHH (RAPEX A12/00311/23)",
+              "url": "https://car-recalls.eu/recall/citroen-c5-aircross-2018-2020-engine-stall/"
+            }
+          },
+          {
+            "he": "קריאת שירות (JQF): תקלה בתאי סוללת ההנעה עלולה לגרום להתחממות, לעשן ואף לשריפה. התיקון הוא עדכון תוכנה לניטור הסוללה, ואם מתגלה פגם הסוללה מוחלפת. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "גרסת הפלאג-אין, 2020–2022",
+            "source": {
+              "title": "car-recalls.eu — Citroën C5 Aircross (2020–2022) traction battery fault, fire risk (KBA 012738, recall JQF)",
+              "url": "https://car-recalls.eu/citroen-c5-aircross-traction-battery-fault-fire/amp/"
+            }
+          },
+          {
+            "he": "רצועת התזמון של מנוע 1.2 PureTech רצה בתוך שמן ועלולה להתבלות מוקדם, לצד צריכת שמן מוגברת. החלקיקים עלולים לסתום את מערכת השימון ולגרום לנזק למנוע. סטלנטיס הרחיבה את האחריות לעד 10 שנים או 180 אלף ק״מ, בתנאי שהרכב טופל לפי לוח הטיפולים. בבדיקה: לדרוש היסטוריית טיפולים מלאה, לברר מתי הוחלפה הרצועה ולבדוק את מפלס השמן.",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Citroën Belgium — Extended warranty for PureTech 1.0 and 1.2 engines (timing belt degradation / oil consumption, up to 10 years or 180,000 km)",
+              "url": "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroën C5 Aircross 1.2 (A) 2019–, 96 kW / 131 PS: real-world average from 167 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C5/C5-Aircross/c5-aircross-1-2-a_46688/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "c3-aircross": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות (HLX/HUZ): ייתכן שמשאבת הוואקום לא משומנת מספיק ועלולה להישבר. במקרה כזה סיוע הבלימה יורד. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 7.2.2017–13.11.2019",
+            "source": {
+              "title": "car-recalls.eu — Citroën C3 (2017–2019) vacuum pump, recall HLX/HUZ (RAPEX A11/00078/23); also lists C3 Aircross, C4 Cactus, Berlingo",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2017-2019-vacuum-pump/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיווט שגוי במחבר של חיישן מיקום המושב. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Citroën C3 Aircross 2017–2025 reliability (recalls list: seat position sensor connector, 12,649 vehicles)",
+              "url": "https://whatcar.com/citroen/c3-aircross/hatchback/used-review/n18783/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שברגי הגלגלים נגד גניבה לא הודקו במומנט הנכון. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Citroën C3 Aircross 2017–2025 reliability (recalls list: anti-theft wheel bolt torque, 4,595 vehicles)",
+              "url": "https://whatcar.com/citroen/c3-aircross/hatchback/used-review/n18783/advice"
+            }
+          },
+          {
+            "he": "רצועת התזמון של מנוע 1.2 PureTech רצה בתוך שמן ועלולה להתבלות מוקדם, לצד צריכת שמן מוגברת. החלקיקים עלולים לסתום את מערכת השימון ולגרום לנזק למנוע. סטלנטיס הרחיבה את האחריות לעד 10 שנים או 180 אלף ק״מ, בתנאי שהרכב טופל לפי לוח הטיפולים. בבדיקה: לדרוש היסטוריית טיפולים מלאה, לברר מתי הוחלפה הרצועה ולבדוק את מפלס השמן.",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Citroën Belgium — Extended warranty for PureTech 1.0 and 1.2 engines (timing belt degradation / oil consumption, up to 10 years or 180,000 km)",
+              "url": "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroën C3 Aircross 1.2 (2) 2017–, 81 kW / 110 PS: real-world average from 174 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3-Aircross/c3-aircross-1-2-2_46053/verbrauch/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

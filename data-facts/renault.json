@@ -1,0 +1,183 @@
+{
+  "make": "renault",
+  "updated": "2026-10-24",
+  "models": {
+    "clio": {
+      "Clio IV": {
+        "issues": [
+          {
+            "he": "קריאת שירות: צינורות הבלמים הקדמיים עלולים להיות מורכבים באופן שגוי ותפסי הבלמים האחוריים מסוג לא נכון — ירידה ביכולת הבלימה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2013–2014 (טווח שלדות מוגדר)",
+            "source": {
+              "title": "ACCC Product Safety Australia — Renault Clio IV brake hoses recall, PRA 2014/14449",
+              "url": "https://www.productsafety.gov.au/node/10501"
+            }
+          },
+          {
+            "he": "בעלי רכב מדווחים על תקלות במתלים ובמערכת החשמל — לבדוק רעשים מהמתלים ותקינות כל המערכות החשמליות בנסיעת מבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "heycar UK — Renault Clio (2013–2019) review: HonestJohn Satisfaction Index, owners report suspension and electrics issues",
+              "url": "https://heycar.co.uk/renault/clio_2013"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "0.9 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.42,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Clio petrol 61–71 kW (0.9 TCe 90), manual, built 2012–2016: real-world average from 197 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/41-Renault/368-Clio.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=61&power_e=71&gearing=1"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 90,
+            "cons": 4.65,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Clio diesel 61–71 kW (dCi 90) EDC automatic, built 2012–2016: real-world average from only 8 vehicles",
+              "url": "https://www.spritmonitor.de/fr/apercu/41-Renault/368-Clio.html?fueltype=1&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=61&power_e=71&gearing=4"
+            }
+          }
+        ]
+      },
+      "Clio V": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלה פנימית אפשרית בבקר מנוע ההגה החשמלי עלולה לגרום לאובדן סיוע ההגה בעמידה או בנסיעה. לוודא ביצוע הקריאה (קוד 0D9V) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור אפריל–אוקטובר 2019",
+            "source": {
+              "title": "car-recalls.eu — Renault Clio V (2019) steering assistance, Renault code 0D9V, RAPEX A12/00239/20",
+              "url": "https://car-recalls.eu/recall/renault-clio-v-2019-2/"
+            }
+          },
+          {
+            "he": "בעלי גרסאות ההיברידיות מדווחים על תקלות חשמל שדרשו ביקורים במוסך — לבדוק היסטוריית טיפולים והודעות שגיאה בלוח המחוונים.",
+            "level": "widely_reported",
+            "scope": "E-Tech היברידי",
+            "source": {
+              "title": "What Car? — Used Renault Clio 2019–2023 reliability (owner feedback: electrical issues, particularly on hybrids)",
+              "url": "https://whatcar.com/renault/clio/hatchback/used-review/n22574/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 101,
+            "cons": 5.88,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Clio petrol 69–79 kW (TCe 100, all listed 74 kW), manual, built 2017–2021: real-world average from 72 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/41-Renault/368-Clio.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=69&power_e=79&gearing=1"
+            }
+          },
+          {
+            "name": "1.6 היברידי",
+            "pt": "hybrid",
+            "cons": 5.03,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Clio, all 'Hybrid Gasoline' entries (E-Tech): real-world average from 155 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/41-Renault/368-Clio.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://euroncap.newsmarket.com/images-and-videos/renault-clio---euro-ncap-2019-results---5-stars/s/a6490b29-4bb6-4ffc-8b6a-a5eb65e8bcd9"
+        }
+      }
+    },
+    "captur": {
+      "J87": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ההדק החיובי של המצבר עלול לגעת בצלעות הקירור של האלטרנטור — קצר חשמלי וסכנת שריפה בתא המנוע. לוודא ביצוע הקריאה (קוד 0D78) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "0.9 TCe (H4Bt), ייצור עד 24.7.2019",
+            "source": {
+              "title": "car-recalls.eu — Renault Captur (2013–2019) battery terminal / alternator fire risk, Renault code 0D78, RAPEX A12/00347/20",
+              "url": "https://car-recalls.eu/recall/renault-captur-2013-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "0.9 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.71,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Captur petrol 61–71 kW (0.9 TCe 90), manual, built 2013–2017: real-world average from 97 vehicles",
+              "url": "https://www.spritmonitor.de/de/uebersicht/41-Renault/1305-Captur.html?fueltype=2&vehicletype=1&constyear_s=2013&constyear_e=2017&power_s=61&power_e=71&gearing=1"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 90,
+            "cons": 5.09,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Captur diesel 61–71 kW (dCi 90), manual, built 2012–2016: real-world average from 67 vehicles",
+              "url": "https://www.spritmonitor.de/de/uebersicht/41-Renault/1305-Captur.html?fueltype=1&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=61&power_e=71&gearing=1"
+            }
+          }
+        ]
+      },
+      "Gen2 (CMF-B)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלה פנימית אפשרית בבקר מנוע ההגה החשמלי עלולה לגרום לאובדן סיוע ההגה. נוגע לייצור המוקדם — לוודא ביצוע הקריאה (קוד 0D9V) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור אפריל–אוקטובר 2019",
+            "source": {
+              "title": "car-recalls.eu — Renault Captur II (2019) steering assistance, Renault code 0D9V, RAPEX A12/00239/20",
+              "url": "https://car-recalls.eu/recall/renault-captur-ii-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 היברידי",
+            "pt": "hybrid",
+            "hp": 145,
+            "cons": 5.63,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Captur, all 'Hybrid Benzin' entries (E-Tech): real-world average from 68 vehicles",
+              "url": "https://www.spritmonitor.de/de/uebersicht/41-Renault/1305-Captur.html"
+            }
+          },
+          {
+            "name": "1.6 פלאג-אין היברידי",
+            "pt": "phev",
+            "cons": 2.95,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Renault Captur, all 'Plug-in-Hybrid Benzin' entries (E-Tech PHEV): real-world fuel-only average from 77 vehicles (electricity not included)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/41-Renault/1305-Captur.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://euroncap.newsmarket.com/find-a-car/renault-captur---euro-ncap-2019-results---5-stars/s/c5f2796b-85df-4664-abc8-ee5b2b5318bc"
+        }
+      }
+    }
+  }
+}

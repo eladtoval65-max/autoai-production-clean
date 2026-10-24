@@ -1316,6 +1316,45 @@
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/hyundai-santa-fe---euro-ncap-2024-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/4078f035-3622-4c2c-932f-79f76ca98ff4"
         }
+      },
+      "CM (מתיחת פנים)": {
+        "issues": [
+          {
+            "he": "מרווח לא מספיק בין כיסוי המנוע לצינור החזרת הדלק עלול לגרום לדליפת סולר וסכנת שריפה — לבדוק ריח סולר בתא המנוע ולוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "2.2 דיזל, נמכרו 9/2009–12/2011 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai CM Santa Fe (PRA 2012/13062, fuel return hose)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-cm-santa-fe-2006-12/"
+            }
+          },
+          {
+            "he": "פגם ייצור בצינור הזנת הדלק עלול לגרום לדליפת סולר ושריפה בתא המנוע — לבדוק סימני דליפה ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "דיזל, שנתון 2012 (נמכרו 8–11/2011 באוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai CM Santa Fe (PRA 2017/16337, fuel feed hose)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-cm-santa-fe-2006-12/"
+            }
+          },
+          {
+            "he": "נורת מנוע עם קוד P0401 (זרימת EGR לא מספקת), בעיקר בגלל הצטברות פחמן — לבדוק נורת מנוע ותחזוקת מערכת ה-EGR",
+            "level": "manufacturer",
+            "scope": "2.2 דיזל (R-Series)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai CM Santa Fe (service bulletin 11/2010, DTC P0401)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-cm-santa-fe-2006-12/"
+            }
+          },
+          {
+            "he": "תקלה במגע מתג אור הבלם — אורות בלם לא נדלקים, ובמקרים מסוימים קושי בהתנעה, בשיוט או ביציאה מ-P. לבדוק שאורות הבלם עובדים",
+            "level": "manufacturer",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai CM Santa Fe (service bulletin 6/2012, brake light switch)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-cm-santa-fe-2006-12/"
+            }
+          }
+        ]
       }
     },
     "sonata": {
@@ -1466,6 +1505,48 @@
             "source": {
               "title": "TrueDelta — Hyundai Sonata real-world fuel economy, 2021 2.5L I4 7.1 L/100km",
               "url": "https://www.truedelta.com/Hyundai-Sonata/mpg-121&gas_unit=3"
+            }
+          }
+        ]
+      }
+    },
+    "palisade": {
+      "LX2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כריות הווילון בשורה השלישית עלולות לא להיפתח כראוי בתאונה. לוודא לפי מספר שלדה שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2025 (ייצור 04/2019–06/2025, NHTSA 26V-034)",
+            "source": {
+              "title": "TFLcar — Hyundai recalls 568,576 Palisade (2020–2025) over third-row side curtain airbags (NHTSA 26V-034)",
+              "url": "https://tflcar.com/2026/01/hyundai-palisade-third-row-airbag-recall/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי העיגון של כריות הווילון עלולים לפגוע בכרית בזמן הפריסה. התיקון: התקנת כיסוי מגן על הברגים — לוודא ביצוע.",
+            "level": "recall",
+            "scope": "שנתון 2020 (NHTSA 19V-802)",
+            "source": {
+              "title": "ClearVIN — 2020 Hyundai Palisade recalls (NHTSA 19V-802: side curtain airbag mounting bolts)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/palisade/2020/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברכבים עם רתמת חשמל לוו גרירה, לחות ולכלוך בכרטיס הרתמה עלולים לגרום לקצר ולשריפה. לוודא שהותקנו נתיך וכבל מאריך לפי הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2022 עם וו גרירה (NHTSA 22V-633)",
+            "source": {
+              "title": "ClearVIN — 2020 Hyundai Palisade recalls (NHTSA 22V-633: tow hitch harness short / fire risk)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/palisade/2020/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מנוע המגבים עלול להפסיק לפעול. לבדוק שהמגבים עובדים ולוודא החלפת זרוע המגב בצד הנהג לפי הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2021 (NHTSA 22V-627)",
+            "source": {
+              "title": "ClearVIN — 2020 Hyundai Palisade recalls (NHTSA 22V-627: windshield wiper may become inoperative)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/palisade/2020/"
             }
           }
         ]

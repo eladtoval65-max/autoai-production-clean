@@ -1,0 +1,303 @@
+{
+  "make": "ford",
+  "updated": "2026-10-24",
+  "models": {
+    "focus": {
+      "Mk3 (C346)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מחסור בנוזל קירור עלול לגרום להתחממות מקומית של ראש המנוע, לסדק ולדליפת שמן בלחץ עם סכנת שריפה בתא המנוע. לבדוק מפלס נוזל קירור, סימני דליפה, ולוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "1.6 טורבו (EcoBoost), ייצור 6/2010–12/2014",
+            "source": {
+              "title": "car-recalls.eu — Ford Focus (2010–2014) engine fire risk, RAPEX A12/0168/18 (also Kuga, C-Max, Fiesta ST); engine identified as 1.6 EcoBoost by GoAuto",
+              "url": "https://car-recalls.eu/recall/ford-focus-2010-2014/"
+            }
+          },
+          {
+            "he": "קריאת שירות: לוחית הלחץ של המצמד עלולה להישבר בנסיעה — תקלה בהנעה וסכנת שריפה. ברכב ידני: לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "תיבה ידנית, ייצור 8/2013–6/2016",
+            "source": {
+              "title": "car-recalls.eu — Ford Kuga (2013–2016) clutch pressure plate, RAPEX A12/1883/19 (type codes incl. DYB = Focus Mk3)",
+              "url": "https://car-recalls.eu/recall/ford-kuga-2013-2016/"
+            }
+          },
+          {
+            "he": "חגורת משאבת השמן (בתוך המנוע) עלולה להישחק ולהיקרע, לסתום את יניקת השמן ולגרום לאובדן לחץ שמן ולנזק למנוע. Ford הכריזה על קריאה בארה״ב — לבדוק היסטוריית טיפולים ונורית לחץ שמן.",
+            "level": "manufacturer",
+            "scope": "1.0 טורבו (EcoBoost); קריאה רשמית בארה״ב לשנים 2016–2018",
+            "source": {
+              "title": "The Drive — Ford 1.0 EcoBoost oil pump belt recall (NHTSA 23V905), 2016–2018 Focus",
+              "url": "https://www.thedrive.com/news/fords-self-clogging-1-0-liter-ecoboost-engine-is-finally-getting-recalled.md"
+            }
+          },
+          {
+            "he": "דווחו דליפות נוזל קירור מבית התרמוסטט, כשלי מערכת עצור-סע כשהמצבר חלש, ותקלות בתיבה האוטומטית ובהגה הכוח. לבדוק סימני נוזל קירור, תקינות המצבר ועבודה חלקה של התיבה בנסיעת מבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Ford Focus (2011–2018, Mk3) reliability and common problems",
+              "url": "https://www.carbuyer.co.uk/reviews/ford/focus/hatchback/143875/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Focus 1.5 (DYB) 110 kW/150 PS, 2014–2018: real-world average from 212 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Focus/Focus/focus-fliessheck-1-5-dyb_39605/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Focus 1.6 (EcoBoost, DYB) 110 kW/150 PS, 2011–2014: real-world average from 225 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Focus/Focus/focus-fliessheck-1-6-dyb_35451/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Mk4 (C519)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כבל ההארקה של מצבר ה-48V במערכת ההיברידית המתונה לא חוזק כראוי — עלול להתחמם ולגרום לתקלות חשמל ובמקרה קיצון לשריפה. לוודא ביצוע הקריאה (Ford 21S36) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "1.0 טורבו היברידי מתון (mHEV), ייצור 13/8/2020–19/1/2021",
+            "source": {
+              "title": "Caradisiac — Ford rappelle ses Focus hybrides (48V battery ground cable, Ford recall 21S36)",
+              "url": "https://www.caradisiac.com/ford-rappelle-ses-focus-hybrides-pour-un-risque-de-surchauffe-194592.htm"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה בתוכנת יחידת הטלמטיקה עלולה לפגוע במערכת החיוג האוטומטי לחירום (eCall). לוודא עדכון תוכנה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 7/2019–2/2021 (מספר רכבים קטן)",
+            "source": {
+              "title": "car-recalls.eu — Ford Focus (2019–2021) eCall TCU software, Ford 21C12, RAPEX 25/2021",
+              "url": "https://car-recalls.eu/recall/ford-focus-2019-ecall/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו היברידי מתון",
+            "pt": "hybrid",
+            "hp": 125,
+            "cons": 5.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Focus M Hybrid 1.0 (DEH) 92 kW/125 PS, 2020–2025: real-world average from 37 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Focus/Focus/focus-m-hybrid-1-0-deh_48890/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Focus 1.5 (DEH) 111 kW/150 PS, 2018–2025: real-world average from 162 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Focus/Focus/focus-1-5-deh_46591/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/ford-focus---euro-ncap-2019-results---5-stars/s/74a7df59-f476-4e49-91d2-8669776d9632"
+        }
+      }
+    },
+    "kuga": {
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: התחממות מקומית של ראש המנוע (מחזור נוזל קירור לקוי) עלולה לסדוק אותו ולגרום לדליפת שמן ולשריפה בתא המנוע. לבדוק מפלס ודליפות נוזל קירור ולוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "1.6 טורבו (EcoBoost), ייצור 12/2012–7/2014",
+            "source": {
+              "title": "GoAuto — Ford issues global recall for 1.6-litre turbo engine (Kuga built Dec 2012–Jul 2014)",
+              "url": "https://goauto.com.au/amp/24417/ford-issues-global-recall-for-1-6-litre-turbo-engine.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: לוחית הלחץ של המצמד עלולה להישבר בנסיעה — תקלה בהנעה וסכנת שריפה. ברכב ידני: לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 8/2013–6/2016",
+            "source": {
+              "title": "car-recalls.eu — Ford Kuga (2013–2016) clutch pressure plate, RAPEX A12/1883/19",
+              "url": "https://car-recalls.eu/recall/ford-kuga-2013-2016/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Kuga 1.5 (DM2) 110 kW/150 PS, 2014–2021: real-world average from 1,326 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-1-5-dm2_39598/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאת שירות: זיהום בתאי הסוללה אצל הספק עלול לגרום להתחממות יתר של סוללת ההנעה ולשריפה. Ford החליפה את חבילת הסוללה — לוודא שההחלפה בוצעה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "2.5 פלאג-אין (PHEV), דגמים מוקדמים 2020",
+            "source": {
+              "title": "Fleet News — Ford to replace Kuga PHEV batteries following fire warning (Nov 2020)",
+              "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2020/11/02/ford-to-replace-kuga-phev-batteries-following-fire-warning"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Kuga 1.5 (DFK) 88 kW/119 PS, 2019–: real-world average from 35 user reports (150 PS version not separately sourced)",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-1-5-dfk_48400/verbrauch/"
+            }
+          },
+          {
+            "name": "2.5 היברידי",
+            "pt": "hybrid",
+            "hp": 152,
+            "cons": 7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Kuga 2.5 Hybrid FWD (DFK, full hybrid) 112 kW/152 PS (system 190 PS), 2020–: real-world average from 208 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-2-5-hybrid-dfk_49505/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "puma": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קפיץ האחיזה של כרית האוויר של הנהג בהגה עלול להיות מחוץ למפרט — הכרית עלולה לא להישאר מעוגנת בהגה לאחר פתיחתה. לוודא החלפת הקפיץ לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 11/2019–1/2020",
+            "source": {
+              "title": "Derbyshire Times — Ford Puma recalled and roll-out halted over airbag fault (Feb 2020)",
+              "url": "https://www.derbyshiretimes.co.uk/lifestyle/cars/ford-puma-recalled-and-roll-out-halted-over-airbag-fault-1996047"
+            }
+          }
+        ]
+      }
+    },
+    "fiesta": {
+      "Mk6": {
+        "issues": [
+          {
+            "he": "קריאת שירות בבריטניה: פגם בתכנון צינור נוזל הקירור במנוע 1.0 טורבו עלול לגרום להתחממות ובמקרים קשים לנזק למנוע. לבדוק היסטוריית התחממות ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "1.0 טורבו (EcoBoost), ייצור 2011–2013",
+            "source": {
+              "title": "ClickMechanic — Common problems with Ford Fiesta (UK recalls: 1.0 EcoBoost coolant hose, clutch pressure plate)",
+              "url": "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/"
+            }
+          },
+          {
+            "he": "קריאת שירות: לוחית הלחץ של המצמד ברכב ידני עלולה להישבר ולגרום לאובדן הנעה פתאומי. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "תיבה ידנית, ייצור 2010–2015",
+            "source": {
+              "title": "ClickMechanic — Common problems with Ford Fiesta (UK recalls: 1.0 EcoBoost coolant hose, clutch pressure plate)",
+              "url": "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/"
+            }
+          },
+          {
+            "he": "תיבת PowerShift הכפולת-מצמד: דווחו העברות הילוך בטלטולים, היסוס ותקלות בתיבה (בלאי מצמדים / יחידת בקרה). בנסיעת מבחן לבדוק זינוק חלק מעצירה ולשאול על עדכוני תוכנה והחלפת מצמדים.",
+            "level": "widely_reported",
+            "scope": "תיבה אוטומטית PowerShift, 2011–2017",
+            "source": {
+              "title": "ClickMechanic — Common problems with Ford Fiesta (PowerShift 6-speed dual-clutch, 2011–2017)",
+              "url": "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 97,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Fiesta 1.4 71 kW/97 PS, 2008–2012: real-world average from 649 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Fiesta/Fiesta-1.4/fiesta-1-4_27676/verbrauch/"
+            }
+          },
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 125,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Fiesta 1.0 EcoBoost (JA8) 92 kW/125 PS, 2012–2017: real-world average from 455 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Fiesta/Fiesta-1.0/fiesta-1-0-ja8_37645/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Mk7": {
+        "issues": [
+          {
+            "he": "קריאת שירות בבריטניה: קצר בחיווט חיישן ניטור המצבר עלול לגרום להתחממות ובמקרים נדירים לשריפה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 9/2017–10/2018",
+            "source": {
+              "title": "ClickMechanic — Common problems with Ford Fiesta (UK recalls: battery monitoring wiring 2017–2018; brake booster R/2018/039)",
+              "url": "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/"
+            }
+          },
+          {
+            "he": "קריאת שירות בבריטניה (R/2018/039): סרעפת פגומה במגבר הבלמים — לוודא ביצוע הקריאה ולבדוק שדוושת הבלם אינה קשה.",
+            "level": "recall",
+            "scope": "דגמי 2017",
+            "source": {
+              "title": "ClickMechanic — Common problems with Ford Fiesta (UK recall R/2018/039, brake booster diaphragm)",
+              "url": "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 125,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Fiesta 1.0 EcoBoost (JHH) 92 kW/125 PS, 2017–2023: real-world average from 401 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Fiesta/Fiesta-1.0/fiesta-1-0-jhh_45679/verbrauch/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

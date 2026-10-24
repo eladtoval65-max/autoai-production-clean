@@ -1,0 +1,115 @@
+{
+  "make": "dacia",
+  "updated": "2026-10-24",
+  "models": {
+    "duster": {
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מסגרת המושב האחורי עלולה שלא להיות חזקה מספיק לריסון מטען בתא המטען בתאונה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 26.11.2018–29.10.2019",
+            "source": {
+              "title": "car-recalls.eu — Dacia Duster (2018–2019) rear seat frame strength, RAPEX published 27/03/2020",
+              "url": "https://car-recalls.eu/recall/dacia-duster-2018-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.3 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 131,
+            "cons": 7.51,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Duster petrol 91–101 kW (TCe 130, all listed 96 kW), manual, built 2018–2022: real-world average from 107 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/113-Dacia/1196-Duster.html?fueltype=2&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=91&power_e=101&gearing=1"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 116,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Duster diesel with AdBlue 80–90 kW (Blue dCi 115), manual, built 2020–2024: real-world average from 96 vehicles",
+              "url": "https://www.spritmonitor.de/fr/apercu/113-Dacia/1196-Duster.html?fueltype=8&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=80&power_e=90&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "sandero": {
+      "Sandero III": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הטבעת/דסקית במנעול מכסה המנוע עלולה להיסדק, ומכסה המנוע עלול להיפתח בנסיעה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2.9.2020–15.1.2021",
+            "source": {
+              "title": "Motorpasión — Dacia Sandero / Logan (3rd gen) bonnet lock recall, July 2021",
+              "url": "https://www.motorpasion.com/furgonetas-y-caravanas/nuevos-dacia-sandero-logan-a-revision-espana-capo-podria-abrirse-marcha-defecto-cierre/amp"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 91,
+            "cons": 6.17,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Sandero petrol 62–72 kW (TCe 90), manual, built 2020–2024: real-world average from 87 vehicles",
+              "url": "https://www.spritmonitor.de/fr/apercu/113-Dacia/1122-Sandero.html?fueltype=2&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=62&power_e=72&gearing=1"
+            }
+          }
+        ]
+      }
+    },
+    "jogger": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ברגי חיבור ציר הגלגל האחורי לא הודקו למומנט הנכון — גלגל אחורי עלול להשתחרר. לוודא ביצוע הקריאה (קוד 0EKB) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 28.3.2024–10.10.2024",
+            "source": {
+              "title": "car-recalls.eu — Dacia Jogger (2024) rear stub axle torque, Dacia code 0EKB, Safety Gate SR/00267/25",
+              "url": "https://car-recalls.eu/recall/dacia-jogger-2024-suspension-accident/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "cons": 6.54,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Jogger, all 'Gasoline' entries (all petrol engines): real-world average from 130 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/113-Dacia/1990-Jogger.html"
+            }
+          },
+          {
+            "name": "1.6 היברידי",
+            "pt": "hybrid",
+            "cons": 5.61,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Jogger, all 'Hybrid Gasoline' entries (Hybrid 140): real-world average from 96 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/113-Dacia/1990-Jogger.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 1,
+          "year": 2021,
+          "url": "https://euroncap.newsmarket.com/find-a-car/all/dacia-jogger---euro-ncap-2021-results---1-stars/s/3c911d87-f792-4623-8e98-307c3d1933a3"
+        }
+      }
+    }
+  }
+}

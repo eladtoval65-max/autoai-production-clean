@@ -867,6 +867,43 @@
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A7%D7%99%D7%94_%D7%A1%D7%95%D7%A8%D7%A0%D7%98%D7%95_%D7%94%D7%97%D7%93%D7%A9_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-234,900_%D7%A9%D7%A7%D7%9C%D7%99%D7%9D/"
           }
         }
+      },
+      "XM": {
+        "issues": [
+          {
+            "he": "דליפת נוזל בלמים עלולה לגרום לקצר במעגל ה-ABS/ESC ולהתחממות תיבת הנתיכים — סכנת שריפה גם כשהרכב חונה. לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 15/01/2010–17/06/2013",
+            "source": {
+              "title": "car-recalls.eu — Kia Sorento (2010–2013) fire risk, Kia code 241A04XMa, RAPEX 28/2025",
+              "url": "https://car-recalls.eu/recall/kia-sorento-2010-2013-fire-risk/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 בנזין",
+            "pt": "petrol",
+            "hp": 174,
+            "cons": 10.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Kia Sorento 2.4 (XM) 128 kW, 2009–2012: real-world average from 20 user reports",
+              "url": "https://www.autokostencheck.de/Kia/Kia-Sorento/Sorento/sorento-2-4-xm_34619/verbrauch/"
+            }
+          },
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 197,
+            "cons": 9.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Kia Sorento 2.2 CRDi Allrad (XM) 145 kW, 2009–2012: real-world average from 420 user reports",
+              "url": "https://www.autokostencheck.de/Kia/Kia-Sorento/Sorento/sorento-2-2-crdi-allrad-xm_34623/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "ev6": {
@@ -1032,6 +1069,32 @@
             "source": {
               "title": "Car and Driver long-term test (via Yahoo Autos) — 2022 Kia Carnival 3.5 V6, 22 mpg US over 34,191 miles",
               "url": "https://autos.yahoo.com/welcome-2022-kia-carnival-minivan-120000256.html"
+            }
+          }
+        ]
+      },
+      "VQ (מתיחת פנים)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חום עלול לגרום לסדקים קטנים במסילת הדלק (fuel rail) בגרסאות הבנזין ולדליפת דלק עם סכנת שריפה. לבדוק ריח דלק בתא המנוע ולוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "מנוע בנזין (3.5 V6), שנתונים 2010–2015",
+            "source": {
+              "title": "Australian Government vehicle recalls — REC-000790 (PRA 2020/18231): Kia Carnival MY2010–2015 petrol fuel rail cracks",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-000790"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל CRDi",
+            "pt": "diesel",
+            "hp": 195,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autocentrum.pl — Kia Carnival II 2.2 CRDi VGT 195 KM: real-world average from only 6 user reports",
+              "url": "https://www.autocentrum.pl/spalanie/kia/carnival/ii/silnik-diesla-2.2-crdi-vgt-195km-2010-2010/"
             }
           }
         ]

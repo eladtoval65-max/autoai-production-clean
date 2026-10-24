@@ -1,0 +1,179 @@
+{
+  "make": "mg",
+  "updated": "2026-10-24",
+  "models": {
+    "zs": {
+      "ZS (Gen1)": {
+        "issues": [
+          {
+            "he": "קריאת שירות (אוסטרליה): תקלת תוכנה אפשרית במערכת בקרת היציבות. אם המערכת נכשלת, סיוע ההגה עלול לרדת וההגה נעשה כבד. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "דגמי 2016–2018",
+            "source": {
+              "title": "Australian Government vehicle recalls — REC-001007: MG ZS 2016–2018, Stability Control System software fault (1,828 vehicles)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001007"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 בנזין",
+            "pt": "petrol",
+            "hp": 106,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — MG ZS 1.5 (SZS1) 78 kW: real-world average from 72 user reports (2022 model years)",
+              "url": "https://www.autokostencheck.de/MG/MG-ZS/ZS/mg-zs-1-5-szs1_50188/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "zs-ev": {
+      "ZS EV": {
+        "issues": [
+          {
+            "he": "בעלים מדווחים על תקלות חשמל ותוכנה: נורות אזהרה אקראיות, מסך מולטימדיה שקופא או מאתחל בנסיעה ותקלות בחיישני לחץ אוויר בצמיגים. בבדיקה: לבדוק את המסך והמערכות ולברר אם בוצעו עדכוני תוכנה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used MG ZS EV 2019–present reliability",
+              "url": "https://www.whatcar.com/mg-motor-uk/zs-ev/hatchback/used-review/n22835/reliability"
+            }
+          },
+          {
+            "he": "בריאות הסוללה (SoH) משתנה בין רכבים: כ־88%–98% ברכבים שנבדקו, ובעיות סוללה נדירות נקשרו לטעינה מהירה מרובה (למשל שימוש כמונית). לבקש בדיקת מצב סוללה לפני קנייה ולבדוק את מכסה שקע הטעינה, שנוטה להינזק.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Electrifying.com — Used MG ZS EV review (2019–2025)",
+              "url": "https://www.electrifying.com/used-reviews/mg/zs-ev/review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 44.5 קוט״ש (2019–2021)",
+            "pt": "ev",
+            "hp": 143,
+            "cons": 19.3,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG ZS EV (2019–2021) 44.5 kWh: EVDB real-world consumption estimate 193 Wh/km",
+              "url": "https://ev-database.org/car/1201/MG-ZS-EV"
+            }
+          },
+          {
+            "name": "חשמלי 51 קוט״ש",
+            "pt": "ev",
+            "hp": 177,
+            "cons": 18.5,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG ZS EV Standard Range 51.1 kWh (2021–2025): EVDB real-world consumption estimate 185 Wh/km",
+              "url": "https://ev-database.org/car/1540/MG-ZS-EV-Standard-Range"
+            }
+          },
+          {
+            "name": "חשמלי 72 קוט״ש",
+            "pt": "ev",
+            "hp": 156,
+            "cons": 18.5,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG ZS EV Long Range 72.6 kWh (2021–2025): EVDB real-world consumption estimate 185 Wh/km",
+              "url": "https://ev-database.org/car/1541/MG-ZS-EV-Long-Range"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/mg/zs-ev/39678"
+        }
+      }
+    },
+    "mg4": {
+      "EH32": {
+        "issues": [
+          {
+            "he": "קריאת שירות (בריטניה): הרכב עלול להינעל בנעילה כפולה (superlock) כשהוא עדיין במצב פעיל לאחר עצירה. במצב כזה הדלתות לא נפתחות מבפנים ומבחוץ, השלט מושבת והחלונות לא פועלים. התיקון הוא עדכון תוכנה, ויש לוודא שבוצע לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "דגמי 2022",
+            "source": {
+              "title": "UK DVSA recall R/2022/355 — MG4 superlock while in running mode (software update)",
+              "url": "https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make/MG%20MOTOR/model/MG4/year/2022/recalls"
+            }
+          },
+          {
+            "he": "בעלים מדווחים שמערכת שמירת הנתיב מושכת את ההגה בפתאומיות לכיוון הנתיב הנגדי או השוליים. MG הודתה בבעיה והודיעה על עדכון תוכנה ללא עלות. לברר אם העדכון בוצע ולבדוק את התנהגות המערכת בנסיעת מבחן.",
+            "level": "manufacturer",
+            "source": {
+              "title": "Which? (July 2024) — MG responds to reports of lane assist concerns from MG4 owners",
+              "url": "https://www.which.co.uk/news/article/mg-responds-to-reports-of-shocking-lane-assist-concerns-from-mg4-owners-a8rUj5d7sZrF"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 51 קוט״ש",
+            "pt": "ev",
+            "hp": 170,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG4 EV Standard Range 51 kWh (MY22-25): EVDB real-world consumption estimate 275 Wh/mi (≈171 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1707/MG-MG4-EV-Standard-Range"
+            }
+          },
+          {
+            "name": "חשמלי 64 קוט״ש",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG4 Electric 64 kWh (MY22-25): EVDB real-world consumption estimate 171 Wh/km",
+              "url": "https://ev-database.org/car/1708/MG-MG4-Electric-64-kWh"
+            }
+          },
+          {
+            "name": "חשמלי 77 קוט״ש",
+            "pt": "ev",
+            "hp": 245,
+            "cons": 17.8,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG4 EV Extended Range 77 kWh (MY23-25): EVDB real-world consumption estimate 286 Wh/mi (≈178 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1973/MG-MG4-EV-Extended-Range"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://euroncap.com/en/results/MG/4%20Electric/48646"
+        }
+      }
+    },
+    "hs": {
+      "AS23": {
+        "issues": [
+          {
+            "he": "קריאת שירות (אוסטרליה): בגרסת הפלאג־אין, שטיח הרצפה עלול להיתפס בין אום לבורג ההארקה. אם האום משתחרר מרעידות, החיווט מתחת לרצפה עלול להתחמם ולגרום לשריפה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "PHEV (EHS), דגמי 2021–2022",
+            "source": {
+              "title": "Australian Government vehicle recalls — REC-005652: MG HS PHEV / HS +EV 2021–2022, ground stud wiring may overheat (fire risk)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005652"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/mg/hs/39677"
+        }
+      }
+    }
+  }
+}

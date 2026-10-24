@@ -527,6 +527,50 @@
             }
           }
         ]
+      },
+      "T31": {
+        "issues": [
+          {
+            "he": "יחידת הבקרה של ההגה החשמלי עלולה להפסיק לפעול — ההגה נעשה כבד בעיקר במהירות נמוכה ונדלקת נורית אזהרה. לבדוק בנסיעת מבחן ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "ייצור 8–10/2010 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Nissan T31 X-Trail (PRA 2011/12922, EPS control unit)",
+              "url": "https://www.australiancar.reviews/?p=47586"
+            }
+          },
+          {
+            "he": "בידוד מחיצת תא המנוע עלול להתעוות ולהתקרב לטורבו, עם סכנת עשן/שריפה — לבדוק ריח שרוף ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "טורבו דיזל (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Nissan T31 X-Trail (PRA 2012/13310, bulkhead insulator)",
+              "url": "https://www.australiancar.reviews/?p=47586"
+            }
+          },
+          {
+            "he": "מסנן החלקיקים (DPF) לא מתנקה ברכב שנוסע בעיקר נסיעות קצרות — לבדוק נורות אזהרה ולשאול על אופי הנסיעה",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Nissan T31 X-Trail (known problems: DPF regeneration)",
+              "url": "https://www.australiancar.reviews/?p=47586"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 173,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Nissan X-Trail 2.0 dCi Allrad (T31) 127 kW, 2007–2014: real-world average from only 4 user reports",
+              "url": "https://www.autokostencheck.de/Nissan/Nissan-X-Trail/X-Trail/x-trail-2-0-dci-allrad-t31_16241/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "note": {

@@ -289,6 +289,32 @@
           "year": 2020,
           "url": "https://www.euroncap.com/en/results/seat/leon/41397"
         }
+      },
+      "1P": {
+        "issues": [
+          {
+            "he": "כרית האוויר של הנהג (Takata) — חומר ההנעה עלול להתדרדר ובפתיחה לפזר רסיסים. לוודא מול היבואן לפי מספר שלדה שהמנפח הוחלף",
+            "level": "recall",
+            "scope": "ייצור 2009–2010",
+            "source": {
+              "title": "car-recalls.eu — Seat Leon (2009–2010) driver airbag Takata (listed 21/06/2024)",
+              "url": "https://car-recalls.eu/recall/seat-leon-2009-2010-airbag-takata/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 125,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Leon 1.4 TSI (1P) 92 kW, 2007–2012: real-world average from 1,394 user reports",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Leon/Leon/leon-1-4-tsi-1p_20798/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "ateca": {
@@ -362,6 +388,52 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-אטקה-בישראל-מחיר-החל-מ-139900-שקל"
           }
         }
+      }
+    },
+    "tarraco": {
+      "KN2": {
+        "issues": [
+          {
+            "he": "בורג עיגון ההגה עלול להישבר ולגרום לאובדן היגוי — לוודא ביצוע הקריאה (החלפת הבורג) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 4/2016–9/2024 (Ateca ו-Tarraco)",
+            "source": {
+              "title": "car-recalls.eu — Seat Ateca and Tarraco: broken steering bolt (KBA 17017R, Seat code 48T7)",
+              "url": "https://car-recalls.eu/seat-ateca-tarraco-broken-bolt-steering-failure-kba/amp/"
+            }
+          },
+          {
+            "he": "כיסוי המנוע העליון עלול להשתחרר ולגעת בטורבו החם — סכנת שריפה. לבדוק שהכיסוי מחובר היטב ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "2.0 TSI, ייצור 2–11/2021",
+            "source": {
+              "title": "car-recalls.eu — Seat Tarraco (2021) engine cover fire risk, code 10H7, RAPEX 16/2022",
+              "url": "https://car-recalls.eu/recall/seat-tarraco-2021-engine-cover-fire/amp/"
+            }
+          },
+          {
+            "he": "חלקים ממנפח כרית האוויר הצידית (וילון) עלולים להינתק בפתיחה ולגרום לפציעה — לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "שנתונים 2019–2020",
+            "source": {
+              "title": "car-recalls.eu — Seat Tarraco common problems (head airbag recall 2019–2020, published 12/01/2024)",
+              "url": "https://car-recalls.eu/common-problems/seat/tarraco/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 190,
+            "cons": 10.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Tarraco 2.0 TSI 4DRIVE (KN) 140 kW: real-world average from 478 user reports",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Tarraco/Tarraco/tarraco-2-0-tsi-4drive-kn_46723/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }
