@@ -564,6 +564,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-scala",
+  "make": "Skoda",
+  "model": "Scala",
+  "trim": "Selection 1.0 TSI",
+  "bodyType": "hatchback",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 446,
+  "powerHp": 115,
+  "consumption": 5.7,
+  "price": 138490,
+  "priceMin": 138490,
+  "priceMax": 138490,
+  "sampleSize": null,
+  "newPrice": 138490,
+  "reliability": 78,
+  "safety": 80,
+  "economy": 80,
+  "comfort": 76,
+  "practicality": 80,
+  "insuranceMin": 364,
+  "insuranceMax": 525,
+  "why": "האצ'בק משפחתי של סקודה (מתיחת פנים 2026), מנוע 1.0 טורבו 115 כ\"ס. גרסה אחת במחירון. תא מטען גדול (446 ליטר) לגודל הרכב.",
+  "pros": [
+   "תא מטען 446 ליטר",
+   "מחיר נמוך לרכב משפחתי",
+   "מהנמכרים בישראל ב-2026"
+  ],
+  "cons": [
+   "רמת גימור אחת בלבד",
+   "מנוע קטן לנסיעות עמוסות",
+   "צריכה מוצהרת לפי שיטת מדידה ישנה (17.5–19.2 ק\"מ לליטר)"
+  ],
+  "confidence": 60,
+  "priceSource": "carzone.co.il/Skoda/Scala/2026 (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 276,
+    "insurance": 440,
+    "maintenance": 202,
+    "depreciation": 1154,
+    "total": 2193
+   },
+   "15000": {
+    "fuel": 591,
+    "insurance": 440,
+    "maintenance": 230,
+    "depreciation": 1154,
+    "total": 2536
+   },
+   "25000": {
+    "fuel": 984,
+    "insurance": 440,
+    "maintenance": 258,
+    "depreciation": 1154,
+    "total": 2957
+   }
+  }
+ },
+ {
   "id": "kgm-tivoli",
   "make": "KGM",
   "model": "Tivoli",
@@ -747,6 +808,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-kamiq",
+  "make": "Skoda",
+  "model": "Kamiq",
+  "trim": "Advance 1.0 TSI",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": null,
+  "powerHp": 115,
+  "consumption": 5.5,
+  "price": 146990,
+  "priceMin": 139990,
+  "priceMax": 154990,
+  "sampleSize": null,
+  "newPrice": 146990,
+  "reliability": 78,
+  "safety": 80,
+  "economy": 80,
+  "comfort": 76,
+  "practicality": 78,
+  "insuranceMin": 378,
+  "insuranceMax": 544,
+  "why": "קרוסאובר קומפקטי של סקודה (מתיחת פנים 2026), מנוע 1.0 טורבו 115 כ\"ס בכל הגרסאות. צריכה לפי carzone כ-18.3 ק\"מ לליטר.",
+  "pros": [
+   "חסכוני בדלק",
+   "מרווח לגודלו",
+   "שלוש רמות גימור במחיר נוח"
+  ],
+  "cons": [
+   "מנוע קטן לנסיעות עמוסות",
+   "מפרט התיבה ונפח המטען לא אומתו",
+   "אין גרסה היברידית"
+  ],
+  "confidence": 56,
+  "priceSource": "carzone.co.il/Skoda/Kamiq/2026 (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 263,
+    "insurance": 456,
+    "maintenance": 202,
+    "depreciation": 1225,
+    "total": 2267
+   },
+   "15000": {
+    "fuel": 565,
+    "insurance": 456,
+    "maintenance": 230,
+    "depreciation": 1225,
+    "total": 2597
+   },
+   "25000": {
+    "fuel": 941,
+    "insurance": 456,
+    "maintenance": 258,
+    "depreciation": 1225,
+    "total": 3001
+   }
+  }
+ },
+ {
   "id": "jaecoo-j5-ev",
   "make": "Jaecoo",
   "model": "J5 EV",
@@ -804,6 +926,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 123,
     "depreciation": 1635,
     "total": 2749
+   }
+  }
+ },
+ {
+  "id": "chery-fx",
+  "make": "Chery",
+  "model": "FX",
+  "trim": "Comfort HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 372,
+  "powerHp": 246,
+  "consumption": 5.3,
+  "price": 152990,
+  "priceMin": 146990,
+  "priceMax": 173990,
+  "sampleSize": null,
+  "newPrice": 152990,
+  "reliability": 68,
+  "safety": 80,
+  "economy": 84,
+  "comfort": 78,
+  "practicality": 78,
+  "insuranceMin": 477,
+  "insuranceMax": 681,
+  "why": "קרוסאובר משפחתי של צ'רי. בגרסה ההיברידית 1.5 טורבו ומנוע חשמלי, 246 כ\"ס משולב וכ-18.8 ק\"מ לליטר מוצהר. במחירון גם גרסת בנזין 1.6 טורבו וגרסה חשמלית (FX EV).",
+  "pros": [
+   "הספק גבוה להיברידי בקטגוריה",
+   "צריכה נמוכה",
+   "מחיר תחרותי"
+  ],
+  "cons": [
+   "אמינות לטווח ארוך לא מוכחת",
+   "ערך יד שנייה לא ידוע",
+   "תא מטען בינוני (372 ליטר)"
+  ],
+  "confidence": 56,
+  "priceSource": "carzone.co.il/chery/FX/ (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 256,
+    "insurance": 576,
+    "maintenance": 216,
+    "depreciation": 1530,
+    "total": 2699
+   },
+   "15000": {
+    "fuel": 550,
+    "insurance": 576,
+    "maintenance": 245,
+    "depreciation": 1530,
+    "total": 3022
+   },
+   "25000": {
+    "fuel": 917,
+    "insurance": 576,
+    "maintenance": 274,
+    "depreciation": 1530,
+    "total": 3418
    }
   }
  },
@@ -1193,14 +1376,15 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "sampleSize": null,
   "newPrice": 159990,
   "reliability": 68,
-  "safety": 80,
+  "safety": 92,
   "economy": 88,
   "comfort": 80,
   "practicality": 82,
   "insuranceMin": 395,
   "insuranceMax": 571,
-  "why": "קרוסאובר חשמלי של Changan: בגרסת Max 2x4 ‏272 כ\"ס, סוללה 68.8 קוט\"ש, טווח מוצהר 485 ק\"מ וצריכה מוצהרת 15.9 קוט\"ש ל-100 ק\"מ. במחירון גם גרסת פלאג-אין וגרסת 4X4. נבחן ב-Euro NCAP ב-2025.",
+  "why": "קרוסאובר חשמלי של Changan: בגרסת Max 2x4 ‏272 כ\"ס, סוללה 68.8 קוט\"ש, טווח מוצהר 485 ק\"מ וצריכה מוצהרת 15.9 קוט\"ש ל-100 ק\"מ. במחירון גם גרסת פלאג-אין וגרסת 4X4. 5 כוכבי Euro NCAP (2025).",
   "pros": [
+   "5 כוכבי Euro NCAP (2025)",
    "מחיר נמוך ל-SUV חשמלי",
    "טווח טוב בגרסת Max",
    "תא מטען 492 ליטר"
@@ -1976,7 +2160,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "id": "chery-tiggo8pro",
   "make": "Chery",
   "model": "Tiggo 8 Pro",
-  "trim": "Noble 1.6T",
+  "trim": "Comfort 1.6T",
   "bodyType": "suv",
   "fuelType": "Hybrid",
   "years": "2026",
@@ -2273,6 +2457,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 314,
     "depreciation": 1376,
     "total": 3691
+   }
+  }
+ },
+ {
+  "id": "mitsubishi-outlander",
+  "make": "Mitsubishi",
+  "model": "Outlander",
+  "trim": "Intense MHEV 1.5T (7 מקומות)",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 7,
+  "cargoLiters": 137,
+  "powerHp": 174,
+  "consumption": 8.5,
+  "price": 189990,
+  "priceMin": 189990,
+  "priceMax": 244990,
+  "sampleSize": null,
+  "newPrice": 189990,
+  "reliability": 74,
+  "safety": 70,
+  "economy": 66,
+  "comfort": 78,
+  "practicality": 86,
+  "insuranceMin": 562,
+  "insuranceMax": 796,
+  "why": "SUV גדול עם 7 מקומות: 1.5 טורבו מיילד-היברידי 174 כ\"ס ותיבת CVT. צריכה מוצהרת כ-11.8 ק\"מ לליטר. תא המטען קטן (137 ליטר) כשכל המושבים פתוחים.",
+  "pros": [
+   "7 מקומות במחיר נמוך יחסית",
+   "מרווח",
+   "מהנמכרים בישראל ב-2026"
+  ],
+  "cons": [
+   "צריכת דלק גבוהה יחסית",
+   "תא מטען קטן עם שורה שלישית",
+   "אין דירוג Euro NCAP לדגם"
+  ],
+  "confidence": 56,
+  "priceSource": "carzone.co.il/Mitsubishi/Outlander (2026-10-24)",
+  "bands": {
+   "7000": {
+    "fuel": 409,
+    "insurance": 675,
+    "maintenance": 238,
+    "depreciation": 1742,
+    "total": 3185
+   },
+   "15000": {
+    "fuel": 876,
+    "insurance": 675,
+    "maintenance": 270,
+    "depreciation": 1742,
+    "total": 3684
+   },
+   "25000": {
+    "fuel": 1459,
+    "insurance": 675,
+    "maintenance": 302,
+    "depreciation": 1742,
+    "total": 4299
    }
   }
  },
@@ -3078,7 +3323,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "id": "mini-countryman",
   "make": "MINI",
   "model": "Countryman",
-  "trim": "C Classic 1.5T",
+  "trim": "C Classic HUD 1.5T",
   "bodyType": "suv",
   "fuelType": "Petrol",
   "years": "2026",

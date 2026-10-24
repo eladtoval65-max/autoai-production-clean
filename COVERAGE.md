@@ -47,7 +47,7 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Audi: Q7 (2026-10-20)
 - [x] Audi: A5, Q4 e-tron, Q8 (2026-10-21)
 - [x] Audi: A6 (price null: carzone and cartube disagree), Q6 e-tron (incl. Sportback), Q2 (2026-10-23)
-- [ ] Audi: A6 e-tron (separate model, ₪532,600–659,600 Sportback)
+- [x] Audi: A6 e-tron (separate model, ₪532,600–659,600 Sportback) (2026-10-24)
 - [ ] Seat/Cupra: verify current price lists for Ibiza, Ateca, Leon, Tarraco, Born
 
 ## Queue — seen on importer price lists 2026-10-20, not yet covered
@@ -108,7 +108,7 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Porsche Taycan (price null: sources disagree); Land Rover Range Rover Velar, Range Rover Sport (price null: sources disagree) (2026-10-23)
 
 ## Queue — seen on importer price lists 2026-10-23, not yet covered
-- [ ] Deepal (Changan) S05 — in the catalog since 2026-10-23 (batch 16); add the make to generations.ts
+- [x] Deepal (Changan) S05 — make added to generations.ts (2026-10-24); Deepal S07 (₪201,990) seen on the brand page, not yet covered
 - [ ] Hyundai Elantra N (₪224,900–234,900), Ioniq 5 N (₪409,900); Kia EV6 (cartube 2026 ₪309,900, not on carzone — owner)
 - [ ] Genesis G90 (₪849,900–899,900); GV70 Electrified as separate line?
 - [ ] Toyota City / ProAce / ProAce Verso (commercial)
@@ -118,3 +118,14 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] MINI Cabrio (₪266,900–321,900); KGM Musso EV (₪239,900–259,900), Musso (₪274,900); XPENG X9 (₪399,990)
 - [ ] BMW 2 Coupé, iX1, iX2, 4 Series, X4, X7, 7 Series / i7, Z4, M models; Mercedes GLC Coupé, EQE, EQE SUV, GLS, S-Class, G-Class, SL
 - [ ] Leapmotor B10 PHEV (₪154,900–164,900) — fold into B10 (owner)
+
+## Done 2026-10-24
+- [x] generations.ts: Alfa Romeo Giulia, Stelvio (unverified: cartube only); KGM Musso, Musso EV; Land Rover Range Rover (price null: sources disagree), Discovery; Porsche Panamera (price null: sources disagree); BMW X7, 4 Series (coupé/GC/cabrio), 7 Series (incl. i7); Mercedes GLS (price null), S-Class, EQE (price null); Audi A6 e-tron; Deepal S05
+- [x] Catalog (batch 17): Skoda Scala, Skoda Kamiq, Chery FX, Mitsubishi Outlander
+
+## Queue — seen 2026-10-24, not yet covered
+- [ ] Porsche 911 / 911 Cabriolet (₪997,000–2,297,000 carzone): no "coupe" body type in generations.ts — owner to decide (CLE uses "sedan")
+- [ ] Catalog next: Kia Niro (H1 2026 #18 — trim list / power conflict), Citroën Berlingo (#27), Hyundai Elantra (#34)
+- [ ] Suzuki: our "vitara" line carries the e-Vitara price (₪154,990–179,990); petrol Vitara carzone ₪159,990–169,990 vs cartube ₪156,900 — split into vitara / e-vitara (owner)
+- [ ] Hyundai Staria (₪315,900–339,900, cartube), Ioniq 6 N (₪399,900, cartube); Lexus LM (₪930,990–1,089,990); Mercedes EQE SUV, EQS SUV, GLE Coupé, GLC Coupé, G-Class, SL; BMW X4, Z4, iX1, iX2, 2 Coupé; Audi A8, e-tron GT, Q5 Sportback; Land Rover Defender 90/130 already noted under Defender
+- [ ] MG Marvel R (cartube only ₪198,888–214,888); Cupra Tavascan (cartube only); Porsche 718 Cayman/Boxster (cartube only)

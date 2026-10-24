@@ -4932,6 +4932,119 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "gls",
+    "model": "GLS",
+    "he": "GLS",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "X166",
+      "from": 2013,
+      "to": 2019,
+      "engines": "3.0 V6 טורבו / 4.7 V8 / 3.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "X167",
+      "from": 2020,
+      "to": null,
+      "engines": "3.0 טורבו מיילד-היברידי / 3.0 דיזל / 4.0 V8",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 11,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "s-class",
+    "model": "S-Class",
+    "he": "S קלאס",
+    "status": "on_sale",
+    "price": [
+     899900,
+     1349900
+    ],
+    "gens": [
+     {
+      "code": "W221",
+      "from": 2010,
+      "to": 2013,
+      "engines": "3.5 V6 / 4.7–5.5 V8 / V12 / דיזל / S400 היברידי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 12,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "W222",
+      "from": 2014,
+      "to": 2020,
+      "engines": "3.0 V6 / 4.0–4.7 V8 / V12 / דיזל / היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "W223",
+      "from": 2021,
+      "to": null,
+      "engines": "3.0 טורבו מיילד-היברידי / 4.0 V8 / דיזל / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "eqe",
+    "model": "EQE",
+    "he": "EQE",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "V295",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי",
+      "pt": [
+       "ev"
+      ],
+      "cons": 20,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -5447,6 +5560,127 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "x7",
+    "model": "X7",
+    "he": "X7",
+    "status": "on_sale",
+    "price": [
+     940000,
+     940000
+    ],
+    "gens": [
+     {
+      "code": "G07",
+      "from": 2019,
+      "to": null,
+      "engines": "3.0 טורבו בנזין / 3.0 דיזל / 4.4 V8 (מיילד-היברידי מ-2022)",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "4-series",
+    "model": "4 Series",
+    "he": "סדרה 4",
+    "status": "on_sale",
+    "price": [
+     409000,
+     575000
+    ],
+    "gens": [
+     {
+      "code": "F32",
+      "from": 2014,
+      "to": 2020,
+      "engines": "2.0 / 3.0 טורבו בנזין, 2.0 / 3.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G22",
+      "from": 2021,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / 2.0–3.0 דיזל / M440i מיילד-היברידי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "7-series",
+    "model": "7 Series",
+    "he": "סדרה 7",
+    "status": "on_sale",
+    "price": [
+     899900,
+     1315900
+    ],
+    "gens": [
+     {
+      "code": "F01",
+      "from": 2010,
+      "to": 2015,
+      "engines": "3.0 טורבו / 4.4 V8 / V12 / 3.0 דיזל / ActiveHybrid",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 11,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G11",
+      "from": 2016,
+      "to": 2022,
+      "engines": "2.0 / 3.0 טורבו / 4.4 V8 / V12 / דיזל / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G70",
+      "from": 2023,
+      "to": null,
+      "engines": "3.0 טורבו מיילד-היברידי / דיזל / פלאג-אין / i7 חשמלי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev",
+       "ev"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -5902,6 +6136,30 @@
       "cons": 7.5,
       "ncap": 5,
       "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "a6-e-tron",
+    "model": "A6 e-tron",
+    "he": "A6 e-tron",
+    "status": "on_sale",
+    "price": [
+     532600,
+     659600
+    ],
+    "gens": [
+     {
+      "code": "PPE",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי (פלטפורמת PPE)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": 5,
+      "checks": 2
      }
     ]
    }
@@ -7073,7 +7331,7 @@
     "status": "on_sale",
     "price": [
      184900,
-     224900
+     199990
     ],
     "gens": [
      {
@@ -8309,7 +8567,7 @@
     "status": "on_sale",
     "price": [
      126990,
-     134990
+     129990
     ],
     "gens": [
      {
@@ -9621,6 +9879,66 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "musso",
+    "model": "Musso",
+    "he": "מוסו",
+    "status": "on_sale",
+    "price": [
+     274900,
+     274900
+    ],
+    "gens": [
+     {
+      "code": "Q200",
+      "from": 2018,
+      "to": 2025,
+      "engines": "2.2 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Q300",
+      "from": 2026,
+      "to": null,
+      "engines": "2.2 טורבו דיזל, אוטומטית 6",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "musso-ev",
+    "model": "Musso EV",
+    "he": "מוסו EV",
+    "status": "on_sale",
+    "price": [
+     239900,
+     259900
+    ],
+    "gens": [
+     {
+      "code": "O100",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 80.6 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 23,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -9832,6 +10150,97 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "range-rover",
+    "model": "Range Rover",
+    "he": "ריינג' רובר",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "L322",
+      "from": 2010,
+      "to": 2012,
+      "engines": "5.0 V8 / 4.4 TDV8 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 14,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "L405",
+      "from": 2013,
+      "to": 2021,
+      "engines": "3.0 V6 / 5.0 V8 / 3.0 ו-4.4 דיזל / היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "L460",
+      "from": 2022,
+      "to": null,
+      "engines": "3.0 טורבו מיילד-היברידי / 4.4 V8 / 3.0 דיזל / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 10.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "discovery",
+    "model": "Discovery",
+    "he": "דיסקברי",
+    "status": "on_sale",
+    "price": [
+     710000,
+     710000
+    ],
+    "gens": [
+     {
+      "code": "L319",
+      "from": 2010,
+      "to": 2016,
+      "engines": "2.7 / 3.0 דיזל, 5.0 V8, 3.0 סופרצ'רג'ר",
+      "pt": [
+       "diesel",
+       "petrol"
+      ],
+      "cons": 12,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "L462",
+      "from": 2017,
+      "to": null,
+      "engines": "3.0 דיזל / 2.0–3.0 בנזין (מיילד-היברידי מ-2021)",
+      "pt": [
+       "diesel",
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 10,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -9934,6 +10343,57 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "panamera",
+    "model": "Panamera",
+    "he": "פנמרה",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "970",
+      "from": 2010,
+      "to": 2016,
+      "engines": "3.6 V6 / 3.0 V6 טורבו / 4.8 V8 / דיזל / היברידי / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid",
+       "phev"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "971",
+      "from": 2017,
+      "to": 2024,
+      "engines": "2.9 V6 / 4.0 V8 טורבו / דיזל (עד 2018) / פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "976",
+      "from": 2024,
+      "to": null,
+      "engines": "2.9 V6 / 4.0 V8 טורבו / פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -9961,6 +10421,83 @@
       ],
       "cons": 6.7,
       "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "giulia",
+    "model": "Giulia",
+    "he": "ג'וליה",
+    "status": "on_sale",
+    "price": [
+     339990,
+     339990
+    ],
+    "gens": [
+     {
+      "code": "952",
+      "from": 2016,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / 2.2 דיזל / 2.9 V6 (Quadrifoglio)",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "stelvio",
+    "model": "Stelvio",
+    "he": "סטלביו",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "949",
+      "from": 2017,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / 2.2 דיזל / 2.9 V6 (Quadrifoglio)",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "deepal",
+  "name": "Deepal",
+  "models": [
+   {
+    "id": "s05",
+    "model": "S05",
+    "he": "S05",
+    "status": "on_sale",
+    "price": [
+     149990,
+     189990
+    ],
+    "gens": [
+     {
+      "code": "C857",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 56.1–68.8 קוט\"ש / פלאג-אין עם מאריך טווח 1.5",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
       "checks": 2
      }
     ]

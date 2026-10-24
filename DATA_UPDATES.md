@@ -347,3 +347,40 @@ Models added to generations.ts (15). Prices from the brand pages above unless no
 
 Models added to the recommendation catalog (4, `scripts/seed-vehicles-batch16.ts`; new catalog make slug `deepal`). The cartube Jan–Sep top 20 is already fully in the catalog, so the next sellers were taken from the rechargeable-only ranking at https://www.cars-israel-statistics.com/dashboard-en.html (data.gov.il registrations): Deepal S05 (#11), Omoda 7 (#12), Geely EX5/E5 (#14), Tesla Model 3 (#15). Sources per figure in the batch header. Chery Tiggo 9 (#17) skipped: base-trim specs and power not verified. Running costs are estimates, dataConfidence 55–62. Photo mappings added for Model 3, EX5, Omoda 7.
 Catalog now 53 cars; generations.ts 47 makes, 291 models.
+
+## 2026-10-24 (daily agent)
+Prices checked today on every brand page: carzone.co.il /Toyota /Lexus/ /Hyundai /Kia /Skoda /Volkswagen /SEAT /Cupra /Audi /Porsche /BYDAuto /Omoda-Jaecoo /chery/ /Geely /ZEEKR /LynkCo /Tesla /Smart /Deepal /Peugeot /Citroen /DS-Automobiles /Opel /Jeep /Fiat /Alfa-Romeo /Renault /Dacia /MG /Suzuki /Nissan /Honda /Subaru /Ford /Isuzu /KGM/ /XPENG/ /leapmotor /Ora /Mercedes-Benz /BMW /MINI /Volvo /Land-Rover; cartube.co.il price lists for Mazda, Mitsubishi, Genesis, Polestar and as second source for Toyota, Lexus, Hyundai, Kia, VW, Seat, Cupra, Audi, Porsche, BYD, Lynk & Co, Opel, Renault, Dacia, MG, Suzuki, Nissan, Honda, Subaru, Isuzu, Leapmotor, ORA, Mercedes, Land Rover. Could not open: carzone /Genesis (Genesis checked on cartube only), cartube BMW list (BMW carzone only). `PRICES_VERIFIED` → 2026-10-24.
+
+Price changes (generations.ts):
+- Opel Corsa: ₪126,990–134,990 → ₪126,990–129,990. https://www.carzone.co.il/Opel and https://www.cartube.co.il/מחירון-רכב-חדש/13-אופל (Edition 126,990 / GS Line 129,990).
+- Honda HR-V: ₪184,900–224,900 → ₪184,900–199,990. https://www.carzone.co.il/Honda (184,900–199,990) and https://www.cartube.co.il/מחירון-רכב-חדש/הונדה (184,900–199,900); only the old carzone model page still shows Advance Style 224,900.
+
+Catalog (batch 17), no price changes: trim names corrected — Chery Tiggo 8 Pro ₪179,990 is "Comfort 1.6T" (https://www.carzone.co.il/chery/Tiggo-8-Pro/; Noble = 189,990); MINI Countryman ₪273,000 is "C Classic HUD" (https://www.carzone.co.il/MINI/Countryman). Deepal S05 Euro NCAP 5★ 2025 now stated (https://www.euroncap.com/assessments/deepal/s05/1162/).
+
+Checked and left unchanged — needs owner review:
+- MG4 catalog entry: "Luxury 64 kWh" at ₪119,888, but cartube (https://www.cartube.co.il/מחירון-רכב-חדש/mg) lists Urban 119,888 / Luxury 142,888 / X-Range 144,888 and carzone news says "new MG4 from 142,888", while the carzone brand page still shows 119,888. +19% on the named trim; kept.
+- Nissan Qashqai catalog trim "e-Power Acenta Tech ₪194,990" exists on neither source (e-Power trims: Tekna 227,990 / Tekna TT 231,990). Kept.
+- Jaecoo 7: carzone model page shows Executive 1.6 at ₪169,900 (below the brand-page min 179,990); catalog J7 "1.6T ₪179,990" is the Elegance PHEV price there. Kept.
+- Toyota Yaris Cross facelift: cartube 159,990–163,990 (Urban 162,490) vs carzone 159,990–160,990. Single source, kept.
+- Genesis (cartube only): GV60 top 599,990 → 429,990 (−28%), GV70 top 459,990 → 609,900 incl. EV (+33%). >25% on one source — not applied.
+- Suzuki "Vitara" line carries the e-Vitara price; petrol Vitara carzone 159,990–169,990 vs cartube 156,900 (split needed).
+- Catalog priceMin values are ~94% of the trim price, not the line minimum (e.g. Picanto 93,900); left as is (pre-existing convention).
+- Open from earlier, unchanged evidence: Mercedes EQA, A-Class, EQB; VW ID. Buzz, T-Roc, ID.4, Polo, Touareg; Audi A6; Porsche Taycan; RR Sport; Kia EV6 (cartube only 309,900); BYD Dolphin (cartube 149,990–156,990, absent from carzone); Lynk & Co 02 (carzone 159,900–169,900 vs cartube 171,900–179,900); ORA 03 (carzone flat 154,422); Smart #5 brand-page min 259,990 vs model page + cartube 229,990 (ours); MG Cyberster (carzone 363,888–393,888 vs cartube 348,888–378,888); Leapmotor T03 (cartube 89,900); Renault Austral (cartube 177,990–199,990); Dacia Sandero (cartube only); Lexus/Hyundai tops that differ on cartube.
+- All other models on all makes matched the brand pages to the shekel.
+
+Models added to generations.ts (15). Prices from the brand pages above; generations, engines and power from English Wikipedia (Alfa_Romeo_Giulia_(2015), Alfa_Romeo_Stelvio, SsangYong_Musso, KGM_Musso_EV, Range_Rover_(L322/L405/L460), Land_Rover_Discovery, Porsche_Panamera, BMW_X7, BMW_4_Series_(F32/G22), BMW_7_Series_(F01/G11/G70), Mercedes-Benz_GL-Class_(X166), Mercedes-Benz_GLS_(X167), Mercedes-Benz_S-Class_(W221/W222/W223), Mercedes-Benz_EQE, Audi_A6_e-tron, Deepal_S05); consumption figures are typical real-world estimates:
+- Alfa Romeo Giulia ₪339,990 (carzone; cartube 339,990–369,990; Quadrifoglio 729,900 separate). 5★ 2016 (https://www.media.stellantis.com/ch-it/alfa-romeo/press/alfa-romeo-giulia-conquista-le-5-stelle-euro-ncap).
+- Alfa Romeo Stelvio: unverified, price null — not on carzone; https://www.cartube.co.il/מחירון-רכב-חדש/19-אלפא-רומיאו 369,990–399,990. 5★ 2017 (https://www.euroncap.com/en/results/alfa+romeo/stelvio/27419).
+- KGM Musso ₪274,900 (carzone + https://www.cartube.co.il/מחירון-רכב-חדש/20-אלפין/20-kgm-סאנגיונג-kgm-מוסו); Q300 launch https://www.auto.co.il/articles/car-news/local-news/new-kgm-musso-israel/
+- KGM Musso EV ₪239,900–259,900 (carzone + https://www.cartube.co.il/מחירון-רכב-חדש/סאנגיונג/kgm-מוסו-ev); power conflict noted.
+- Land Rover Range Rover: on sale, price null — carzone 949,000–1,782,000 vs https://www.cartube.co.il/מחירון-רכב-חדש/42-לנד-רובר 1,225,400–1,452,900. L460 5★ 2022 (https://www.euroncap.com/en/results/land+rover/range+rover/47130); L405 rating not confirmed → null.
+- Land Rover Discovery ₪710,000 (carzone; cartube 711,000). L462 5★ 2017 (https://www.euroncap.com/en/results/land+rover/discovery/26434).
+- Porsche Panamera: on sale, price null — carzone 867,000–1,897,000 vs https://www.cartube.co.il/מחירון-רכב-חדש/62-פורשה 790,000–1,570,000.
+- BMW X7 ₪940,000; BMW 4 Series ₪409,000–575,000 (coupé + Gran Coupé + cabrio; G22 5★ 2019 https://www.euroncap.com/en/results/bmw/4-series-coup%C3%A9/42776); BMW 7 Series ₪899,900–1,315,900 (incl. i7) — https://www.carzone.co.il/BMW
+- Mercedes GLS: on sale, price null — carzone 789,900–1,599,900 vs cartube 1,049,900. Mercedes S-Class ₪899,900–1,349,900 (carzone; cartube 899,000–1,349,900). Mercedes EQE: on sale, price null — carzone 499,900–649,900 vs cartube 558,900–1,049,900; 5★ 2022 (https://www.euroncap.com/assessments/mercedes-benz/eqe/0936/).
+- Audi A6 e-tron ₪532,600–659,600 (Sportback, https://www.carzone.co.il/Audi); 5★ 2025 (https://www.euroncap.com/en/results/audi/a6+e-tron/54308). Generation code not on Wikipedia — "PPE" (platform) used, noted.
+- Deepal S05 (new make) ₪149,990–189,990 (https://www.carzone.co.il/Deepal; cartube agrees); 5★ 2025 (https://www.euroncap.com/assessments/deepal/s05/1162/).
+- Porsche 911 not added: no coupé body type in generations.ts (owner).
+
+Models added to the recommendation catalog (4, `scripts/seed-vehicles-batch17.ts`; new catalog make slug `mitsubishi`), from the H1 2026 model ranking https://www.cartube.co.il/חדשות-רכב/זינוק-במסירות-רכב-חדש-מסירות-רכב-חדש-בישראל-יוני-2026: Skoda Scala (#17), Mitsubishi Outlander (#20), Chery FX (#21), Skoda Kamiq (#25). Kia Niro (#18) skipped (trim list / power conflict). Sources per figure in the batch header; running costs are estimates, dataConfidence 56–60. Photo mappings added for Scala, Kamiq, Outlander.
+Catalog now 57 cars; generations.ts 48 makes, 306 models.
