@@ -190,6 +190,32 @@
             }
           }
         ]
+      },
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: גופי החימום במתזי המים המחוממים לא נאטמו כראוי. מים עלולים לחדור ולגרום לקורוזיה ולהתחממות, ובמקרה הגרוע לשריפה. לוודא לפי מספר שלדה שבוצעה הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 15.1.2008–31.10.2010",
+            "source": {
+              "title": "car-recalls.eu — Ford Kuga (2008–2010) heated washer jets, RAPEX A12/0487/16 and A12/0889/17",
+              "url": "https://car-recalls.eu/recall/ford-kuga-2008-2010/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 140,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Kuga 2.0 TDCi Allrad (DM2) 103 kW/140 PS, 2010–2015: real-world average from 325 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-2-0-tdci-allrad-dm2_34527/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "puma": {
@@ -297,6 +323,68 @@
             }
           }
         ]
+      }
+    },
+    "ranger": {
+      "T6 (PX)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שסתום פנימי במערכת ההזרקה אולי לא הורכב נכון. כשל עלול לגרום לאובדן לחץ במסילת הדלק ולכיבוי המנוע. לוודא לפי מספר שלדה שהרכיב נבדק או הוחלף.",
+            "level": "recall",
+            "scope": "2.2 ו־3.2 TDCi, ייצור ספטמבר 2014–ינואר 2015",
+            "source": {
+              "title": "ÖAMTC — Ford TDCi recall (Transit, Transit Custom, Ranger 2.2/3.2 Duratorq): possible injection valve failure",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/moeglicher-ausfall-des-einspritzventils-bei-ford-tdci-dieselmotoren-18347308"
+            }
+          },
+          {
+            "he": "קריאת שירות (אוסטרליה): לשונית קפיץ במנעול הדלת הצדדית עלולה להישבר, והדלת עלולה לא להינעל ולהיפתח בנסיעה. לוודא לפי מספר שלדה שבוצע מבצע 18S06.",
+            "level": "recall",
+            "scope": "ייצור 23.5.2011–20.5.2015",
+            "source": {
+              "title": "australiancar.reviews — Ford PX Ranger recalls: side-door latch pawl spring tab, campaign 18S06 (PRA 2018/17164)",
+              "url": "https://australiancar.reviews/?p=46771"
+            }
+          },
+          {
+            "he": "קריאת שירות (אוסטרליה): גלגלי השיניים של משאבת נוזל התיבה האוטומטית עלולים להישבר בנסיעה, וזה גורם לאובדן הנעה. לוודא לפי מספר שלדה שבוצע מבצע 20S10.",
+            "level": "recall",
+            "scope": "ייצור 19.12.2017–15.10.2019",
+            "source": {
+              "title": "australiancar.reviews — Ford PX Ranger recalls: transmission fluid pump gears, campaign 20S10 (PRA 2020/18271)",
+              "url": "https://australiancar.reviews/?p=46771"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Ranger 3.2 TDCi Pick Up (2AB) 147 kW/200 PS, 2013–2019: average consumption of 1,488 users",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Ranger/Ranger/ranger-3-2-tdci-pick-up-2ab_47389.html"
+            }
+          },
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 125,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Ford Ranger 2.2 TDCi Pick Up (2AB) 92 kW/125 PS, 2013–2019: real-world average from 62 user reports",
+              "url": "https://www.autokostencheck.de/Ford/Ford-Ranger/Ranger/ranger-2-2-tdci-pick-up-2ab_47387/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro%20ncap%20awards%20first%205%20star%20rating%20for%20a%20pick-up/s/e44bbad7-ff48-4a64-b3f2-c24e4b2b77f8"
+        }
       }
     }
   }

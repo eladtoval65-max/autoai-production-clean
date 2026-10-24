@@ -265,6 +265,17 @@
               "url": "https://www.automobile.at/magazin/569236"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "קריאת שירות: מערכת המולטימדיה (מסך השמע) עלולה לא לעלות. התיקון: עדכון תוכנה. בבדיקה: להתניע ולוודא שהמסך ומצלמת הרוורס עולים, ולוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2019–2022 (חופף לתחילת הדור, 2021–2022) — לבדוק תחולה לפי מספר שלדה",
+            "source": {
+              "title": "car-recalls.eu — Honda HR-V (2019–2022) audio display system does not boot (KBA 13938R, Honda code 6AR)",
+              "url": "https://car-recalls.eu/es/honda-hr-v-audio-display-system-does-not-boot-kba/"
+            }
+          }
         ]
       }
     },
@@ -369,6 +380,44 @@
             "source": {
               "title": "Motor1 Germany — Honda ZR-V e:HEV real consumption test: 4.4 L/100km measured over ~360 km Rome–Forlì (WLTP 5.8)",
               "url": "https://de.motor1.com/reviews/693225/tatsachlicher-verbrauchstest-honda-zrv-vollhybrid/"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "קריאת שירות: השומן בתיבת ההגה מתמעט עם הזמן, וכוח ההיגוי עלול להשתנות באופן לא צפוי. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה, ובנסיעת מבחן לשים לב להגה שמתקשה או \"קופץ\".",
+            "level": "recall",
+            "scope": "e:HEV, ייצור עד 1.8.2024",
+            "source": {
+              "title": "car-recalls.eu — Honda ZR-V (2021–2024) steering gearbox grease (Honda 6JP, RAPEX SR/00641/25)",
+              "url": "https://car-recalls.eu/es/recall/honda-zr-v-2021-2024-steering-injury/"
+            }
+          },
+          {
+            "he": "קריאת שירות: רעידות המנוע עלולות לסדוק את משאבת הדלק בלחץ גבוה, ולגרום לדליפת דלק וסכנת שריפה. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה ולבדוק שאין ריח דלק בתא המנוע.",
+            "level": "recall",
+            "scope": "ייצור 1.10.2021–31.8.2024",
+            "source": {
+              "title": "car-recalls.eu — Honda ZR-V (2021–2024) high-pressure fuel pump crack, fuel leak (Honda 6YP, RAPEX SR/00179/25)",
+              "url": "https://car-recalls.eu/es/recall/honda-zr-v-2021-2024-fuel-fire/"
+            }
+          },
+          {
+            "he": "קריאת שירות: משענת הראש של הנוסע הקדמי עלולה להיות מעוותת מהייצור ולא להגן כראוי. בבדיקה: לבדוק את משענת הראש הימנית ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2023",
+            "source": {
+              "title": "car-recalls.eu — Honda ZR-V (2023) deformed front passenger head restraint (KBA 013493, Honda 6HL)",
+              "url": "https://car-recalls.eu/sk/Deformovan%C3%A1-opierka-hlavy-Honda-ZR-V-KBA/"
+            }
+          },
+          {
+            "he": "קריאת שירות: האזעקה לא נדרכת כשנועלים את הרכב עם המפתח המכני. התיקון: החלפת צמת החוטים בדלת הנהג. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2023",
+            "source": {
+              "title": "car-recalls.eu — Honda ZR-V (2023) alarm not activated with mechanical key (KBA 13810, Honda 6AM)",
+              "url": "https://car-recalls.eu/it/honda-zr-v-alarm-system-not-activated-kba/"
             }
           }
         ]

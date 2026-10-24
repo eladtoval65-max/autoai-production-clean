@@ -39,6 +39,41 @@
             }
           }
         ]
+      },
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הצופר החד-טוני אינו תואם למערכת החשמל של הרכב, ועלול להשפיע על פעולת כרית האוויר של הנהג — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור מתחילת הייצור ועד 25.5.2017, רכבים עם צופר חד-טוני",
+            "source": {
+              "title": "car-recalls.eu — 18 recalls in October 2017: Dacia recalls Dusters for faulty horn (EU RAPEX)",
+              "url": "https://car-recalls.eu/18-recalls-october-2017-dacia-recalls-dusters-faulty-horn/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג עלולה שלא להיפתח בתאונה — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 2012–2013",
+            "source": {
+              "title": "car-recalls.eu — Dacia: recalls in 2017 (Duster 2012–2013 driver airbag may not deploy, Jan 2017)",
+              "url": "https://car-recalls.eu/uk/2017-recalls/dacia-5-recalls-involving-4-models-in-2017/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 114,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Duster 1.6 4x4 (SD, 84 kW/114 PS, 2015–): real-world average from 105 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Duster/Duster/dacia-duster-1-6-4x4-sd_41204/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "sandero": {
@@ -67,6 +102,114 @@
             }
           }
         ]
+      },
+      "Sandero I": {
+        "engines": [
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 75,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Sandero 1.2 16V 75 (55 kW/75 PS, 2009–2015): real-world average from 376 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/sandero_25699/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Sandero 1.6 (SD, 77 kW/105 PS, 2010–2015): real-world average from 69 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/dacia-sandero-1-6-sd_35415/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 68,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Sandero 1.5 dCi (SD, 50 kW/68 PS, 2009–2010): real-world average from 100 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/dacia-sandero-1-5-d-sd_8524/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Sandero II": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג עלולה שלא להיפתח בתאונה — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור בתקופות בין 24.9.2012 ל-15.12.2013",
+            "source": {
+              "title": "car-recalls.eu — Dacia Sandero (2012–2013) driver airbag (EU RAPEX A12/0013/17)",
+              "url": "https://car-recalls.eu/recall/dacia-sandero-2012-2013/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: המפתח עלול להיתקע במצב התנעה ולגרום נזק למתנע — עד אי-התנעה או סכנת שריפה. לוודא ביצוע הקריאה (קוד 0DCB) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "1.5 דיזל, ייצור 1.9.2017–19.10.2018",
+            "source": {
+              "title": "car-recalls.eu — Dacia Sandero (2017–2018) key may jam in start position (recall 0DCB, RAPEX A12/00104/21)",
+              "url": "https://car-recalls.eu/recall/dacia-sandero-2017-key-ignition/"
+            }
+          },
+          {
+            "he": "קריאת שירות: עלולים להיווצר סדקים ברכזת הגלגל הקדמי, עד ניתוק הגלגל — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 22–25.9.2017",
+            "source": {
+              "title": "car-recalls.eu — Dacia Sandero (2017) front wheel hub cracks (RAPEX A12/0528/18)",
+              "url": "https://car-recalls.eu/fr/inscription/Dacia-Sandero-2017/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "0.9 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Sandero 0.9 TCe (SD, 66 kW/90 PS, 2012–2021): real-world average from 1,015 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/dacia-sandero-0-9-sd_37587/verbrauch/"
+            }
+          },
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 75,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Sandero 1.2 16V 75 (55 kW/75 PS, 2009–2015, spans Sandero I and II): real-world average from 376 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/sandero_25699/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 90,
+            "cons": 4.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Sandero 1.5 dCi (SD, 66 kW/90 PS, 2012–2021): real-world average from 443 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/dacia-sandero-1-5-d-sd_37589/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2013,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-four-new-results/s/ea98fd7b-0efd-4a0c-9f8a-498dd933e319"
+        }
       }
     },
     "jogger": {
@@ -108,6 +251,100 @@
           "stars": 1,
           "year": 2021,
           "url": "https://euroncap.newsmarket.com/find-a-car/all/dacia-jogger---euro-ncap-2021-results---1-stars/s/3c911d87-f792-4623-8e98-307c3d1933a3"
+        }
+      }
+    },
+    "logan": {
+      "Logan I": {
+        "engines": [
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 75,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Logan 1.4 (SD, 55 kW/75 PS, 2005–2010): real-world average from 80 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Logan/Logan/logan-1-4-sd_8525/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Logan II": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג עלולה שלא להיפתח בתאונה — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 2012–2013",
+            "source": {
+              "title": "car-recalls.eu — Dacia: recalls in 2017 (Logan 2012–2013 driver airbag may not deploy, Jan 2017)",
+              "url": "https://car-recalls.eu/uk/2017-recalls/dacia-5-recalls-involving-4-models-in-2017/"
+            }
+          },
+          {
+            "he": "קריאת שירות: עלולים להיווצר סדקים ברכזת הגלגל הקדמי, עד ניתוק הגלגל — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 22–25.9.2017",
+            "source": {
+              "title": "car-recalls.eu — Dacia Logan (2017) front wheel hub cracks (RAPEX A12/0528/18)",
+              "url": "https://car-recalls.eu/fr/inscription/dacia-logan-2017/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "0.9 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Logan 0.9 TCe (SD, 66 kW/90 PS, 2012–2021): real-world average from 146 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Logan/Logan/dacia-logan-0-9-sd_37858/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 75,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Logan 1.5 dCi (SR, 55 kW/75 PS, 2017–2021): real-world average from 11 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Logan/Logan/dacia-logan-1-5-d-sr_46064/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Logan III": {
+        "issues": [
+          {
+            "he": "קריאת שירות: פגם בתפס/מוט נעילת מכסה המנוע — במקרים קיצוניים המכסה עלול להיפתח בנסיעה. לוודא ביצוע הקריאה (קוד 0DLP) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור פיטשט 5.11–23.12.2020",
+            "source": {
+              "title": "car-recalls.eu — Dacia Sandero/Logan bonnet lock recall (code 0DLP, May 2021)",
+              "url": "https://car-recalls.eu/es/dacia-sandero-logan-bonnet-lock-recall/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 91,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Dacia Logan 1.0 TCe (DJF, 67 kW/91 PS, 2023–): real-world average from only 5 user reports",
+              "url": "https://www.autokostencheck.de/Dacia/Dacia-Logan/Logan/logan-1-0-djf_50717/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 2,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/dacia-logan---euro-ncap-2021-results---2-stars/s/ab2d84b7-8dfb-4857-ab86-4d8e8453802e"
         }
       }
     }

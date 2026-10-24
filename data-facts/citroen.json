@@ -46,6 +46,66 @@
             }
           }
         ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מחולל הגז של כרית האוויר של הנהג ו/או הנוסע מלפנים עלול להיות פגום, לנפח את הכרית באופן לא מבוקר ולפזר שברי מתכת — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 09/2009–04/2017 (קודי סיטרואן GYY, HNU)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 (2009–2017) airbag gas generator (GYY/HNU, RAPEX A12/00148/21, A12/01369/21)",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2010-airbag/"
+            }
+          },
+          {
+            "he": "במנוע 1.6 בנזין (משפחת Prince/EP6) שיוצר לפני נובמבר 2011 מותח שרשרת התזמון עלול לאבד מתיחות — לשים לב לנקישות בהתנעה קרה ולדליפת שמן באזור המותח, ולבקש היסטוריית החלפות שמן תכופות",
+            "level": "widely_reported",
+            "scope": "1.6 VTi, ייצור עד 11/2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Citroën Mk.2 C3 (2010–16), Prince engine timing chain tensioner",
+              "url": "https://australiancar.reviews/?p=46630"
+            }
+          },
+          {
+            "he": "בית הטרמוסטט הפלסטי במנוע 1.6 בנזין עלול להיסדק ולדלוף נוזל קירור, לרוב אחרי כ-80 אלף ק״מ — לבדוק סימני נוזל קירור ורמת הנוזל",
+            "level": "widely_reported",
+            "scope": "1.6 VTi",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Citroën Mk.2 C3 (2010–16), EP6 thermostat housing",
+              "url": "https://australiancar.reviews/?p=46630"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroen C3 1.4 VTi 95 (2010–2018): real-world average from 76 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3/c3-1-4-vti-95-s_35377/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 90,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroen C3 1.6 HDi 90 PS (2009–2011): real-world average from 19 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3/c3-1-6-hdi-s_34364/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7397/euroncap_citroen_c3_2009_4stars.pdf"
+        }
       }
     },
     "c4": {
@@ -91,6 +151,50 @@
             "source": {
               "title": "ev-database.org — Citroën ë-C4 (2020–2021), 46.3 kWh usable: EVDB real-range consumption 165 Wh/km (combined estimate, not owner data)",
               "url": "https://ev-database.org/car/1286/Citroen-e-C4"
+            }
+          }
+        ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מחולל הגז של כרית האוויר של הנהג ו/או הנוסע מלפנים עלול להיות פגום ולפזר שברי מתכת בעת פתיחה — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 09/2009–04/2017 (קודי סיטרואן GYY, HNU)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3/C4/DS3/DS4/DS5 (2009–2017) airbag gas generator (GYY/HNU, RAPEX A12/00148/21)",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2010-airbag/"
+            }
+          },
+          {
+            "he": "קריאת שירות: שיני רצועת התזמון עלולות להישחק מוקדם (בעיקר בתנאי אבק), והמנוע עלול לכבות בנסיעה מהירה ולא להתניע — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 05/2015–04/2018 (קוד HQX); סוג המנוע לא פורט במקור",
+            "source": {
+              "title": "car-recalls.eu — Citroen Berlingo/C3/C4/DS4 and others (2015–2018) timing belt (HQX, RAPEX A12/01186/21)",
+              "url": "https://car-recalls.eu/recall/citroen-berlingo-2018-timing-belt/"
+            }
+          },
+          {
+            "he": "במנועי 1.6 בנזין (Prince, כולל THP טורבו) שיוצרו לפני נובמבר 2011 מותח שרשרת התזמון עלול לגרום לנקישות ולדליפת שמן; בגרסת הטורבו מצטבר פחם על שסתומי היניקה (רעידות, החטאות הצתה) — לבדוק נקישות בהתנעה קרה וחיווי תקלת מנוע",
+            "level": "widely_reported",
+            "scope": "1.6 VTi / 1.6 THP",
+            "source": {
+              "title": "australiancar.reviews — Citroën C4 (B7) recalls & faults: Prince engine timing chain tensioner, carbon build-up",
+              "url": "https://australiancar.reviews/?p=46636"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 111,
+            "cons": 5.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroen C4 1.6 HDi 82 kW/111 PS (2011–2018): real-world average from 36 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-C4/C4/c4-1-6-hdi-n_35909/verbrauch/"
             }
           }
         ]
@@ -190,6 +294,80 @@
             "source": {
               "title": "autokostencheck.de — Citroën C3 Aircross 1.2 (2) 2017–, 81 kW / 110 PS: real-world average from 174 user reports",
               "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3-Aircross/c3-aircross-1-2-2_46053/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "berlingo": {
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תיבת הנתיכים עלולה לחדור אליה מים ולגרום לקצר ולסכנת שריפה — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 28/11/2014–09/07/2018 (קוד KZM)",
+            "source": {
+              "title": "car-recalls.eu — Citroen Berlingo (2014–2018) fuse box short circuit (KZM, RAPEX A12/01555/23)",
+              "url": "https://car-recalls.eu/recall/citroen-berlingo-2014-2018-fuse-box-short-circuit/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: שיני רצועת התזמון עלולות להישחק מוקדם, והמנוע עלול לכבות בנסיעה ולא להתניע — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 05/2015–04/2018 (קוד HQX); סוג המנוע לא פורט במקור",
+            "source": {
+              "title": "car-recalls.eu — Citroen Berlingo (2015–2018) timing belt (HQX, RAPEX A12/01186/21)",
+              "url": "https://car-recalls.eu/recall/citroen-berlingo-2018-timing-belt/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroen Berlingo 1.6 88 kW/120 PS (2009–2011): real-world average from 221 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-Berlingo/Berlingo/berlingo-1-6-7_34374/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 111,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroen Berlingo 1.6 HDi 82 kW/111 PS (2010–2012): real-world average from 112 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-Berlingo/Berlingo/berlingo-1-6-hdi-7_35109/verbrauch/"
+            }
+          }
+        ]
+      },
+      "K9": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חגורת הבטיחות של הנוסע מלפנים פגומה ותפקוד הריסון שלה נפגע — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 07/2018–11/2019 (קוד HAZ)",
+            "source": {
+              "title": "car-recalls.eu — Citroen Berlingo (2018–2019) front passenger seatbelt (HAZ, RAPEX A12/00344/20)",
+              "url": "https://car-recalls.eu/recall/citroen-berlingo-2018-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 102,
+            "cons": 5.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Citroen Berlingo 1.5 HDi 75 kW/102 PS (2018–): real-world average from 87 user reports",
+              "url": "https://www.autokostencheck.de/Citroen/Citroen-Berlingo/Berlingo/berlingo-1-5-hdi-e_46411/verbrauch/"
             }
           }
         ]

@@ -64,6 +64,141 @@
           "year": 2019,
           "url": "https://www.euroncap.com/en/results/opel-vauxhall/corsa/38859"
         }
+      },
+      "Corsa D": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חלק במערכת ההיגוי (ציר ההגה האמצעי) לא עמד בתקני האיכות של היצרן. במקרה הגרוע ההגה עלול לאבד יכולת היגוי. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "רכבים שנרשמו מפברואר 2014",
+            "source": {
+              "title": "Auto Express — Vauxhall Corsa and Adam urgent steering recall extended (cars registered from February 2014)",
+              "url": "https://cdn1.autoexpress.co.uk/vauxhall/adam/88745/vauxhall-corsa-and-adam-urgent-recall-extended"
+            }
+          },
+          {
+            "he": "אופל הזהירה שצירי היגוי אמצעיים מחומר לא מאושר נמכרו כחלפים (מק״ט 13365907 / 13434280) ועלולים להישבר. אם ההגה תוקן מ־2014 ואילך — לבדוק במוסך מורשה (בדיקה של כ־10 דקות).",
+            "level": "manufacturer",
+            "scope": "רכבים שבהם תוקנה מערכת ההיגוי מפברואר 2014",
+            "source": {
+              "title": "firmenauto.de — Rückruf: Gefährliche Lenkung bei Opel Corsa (D) und Adam (Lenkzwischenwelle)",
+              "url": "https://www.firmenauto.de/fahrzeuge/pkw/rueckruf-gefaehrliche-lenkung-bei-opel-corsa-und-adam/"
+            }
+          },
+          {
+            "he": "שרשרת התזמון במנועי 1.2 ו־1.4 נוטה להימתח, בעיקר בנסיעות קצרות, ועלולה לגרום לנזק למנוע. לשמוע רעשי שרשרת בהתנעה קרה ולבקש תיעוד על החלפת שרשרת.",
+            "level": "widely_reported",
+            "scope": "1.2 / 1.4 בנזין",
+            "source": {
+              "title": "gebrauchtwagenberater.de — Opel Corsa D (2006–2014) Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/opel-corsa-d-s07-schwachstellen-kaufberatung/"
+            }
+          },
+          {
+            "he": "מתג לחץ השמן נוטה לדלוף עם הגיל. השמן עלול לזרום דרך החיווט עד מחשב המנוע ולפגוע בו. לבדוק סימני שמן סביב המתג והמחברים.",
+            "level": "widely_reported",
+            "scope": "1.2 / 1.4 בנזין",
+            "source": {
+              "title": "gebrauchtwagenberater.de — Opel Corsa D (2006–2014) Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/opel-corsa-d-s07-schwachstellen-kaufberatung/"
+            }
+          },
+          {
+            "he": "מודול ההצתה עלול להתקלקל ולגרום להחטאות הצתה. בנסיעת מבחן לשים לב לרעידות ולגמגום בהאצה.",
+            "level": "widely_reported",
+            "scope": "1.2 / 1.4 בנזין",
+            "source": {
+              "title": "gebrauchtwagenberater.de — Opel Corsa D (2006–2014) Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/opel-corsa-d-s07-schwachstellen-kaufberatung/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 86,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Corsa D 1.2 63 kW (2009–2014): real-world average from 625 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(D)/corsa-d-1-2-s-d_34764/verbrauch/"
+            }
+          },
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 87,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Corsa D 1.4 64 kW (2009/2011–2014): real-world average from 1,934 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(D)/corsa-d-1-4-s-d_34767/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Corsa E": {
+        "issues": [
+          {
+            "he": "בכל המנועים יש שרשרת תזמון. טיפולים לא סדירים שוחקים את המותחנים ומייצרים רעשי שרשרת, ובקילומטראז׳ גבוה השרשרת עלולה להימתח ולגרום להחטאות. לשמוע רעשים בהתנעה קרה ולבדוק היסטוריית טיפולים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Vauxhall Corsa Hatchback (2014–2019) used review: reliability",
+              "url": "https://parkers.co.uk/vauxhall/corsa/hatchback-2014/used-review"
+            }
+          },
+          {
+            "he": "החטאות ו״חורים״ בהאצה במנועי הבנזין נגרמים בדרך כלל מסלילי הצתה שחוקים. לבדוק נסיעה חלקה ולברר מתי הוחלפו המצתים.",
+            "level": "widely_reported",
+            "scope": "מנועי בנזין",
+            "source": {
+              "title": "Parkers — Vauxhall Corsa Hatchback (2014–2019) used review: reliability",
+              "url": "https://parkers.co.uk/vauxhall/corsa/hatchback-2014/used-review"
+            }
+          },
+          {
+            "he": "תקלות חשמל שקשה לאתר: חלונות, נעילה מרכזית, מראות, מיזוג ומערכת המולטימדיה. לבדוק שכל המערכות עובדות. ברכב עם סטארט־סטופ לוודא שהמערכת פועלת, כי מצבר AGM חלש גורם לתקלות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Vauxhall Corsa Hatchback (2014–2019) used review: reliability",
+              "url": "https://parkers.co.uk/vauxhall/corsa/hatchback-2014/used-review"
+            }
+          },
+          {
+            "he": "לתיבה הרובוטית Easytronic יש מצמד רגיל שנשחק, והתיקון שלה מסובך. ברכב עם תיבה זו לבדוק החלפת הילוכים חלקה בנסיעת מבחן.",
+            "level": "widely_reported",
+            "scope": "תיבת Easytronic בלבד",
+            "source": {
+              "title": "Parkers — Vauxhall Corsa Hatchback (2014–2019) used review: reliability",
+              "url": "https://parkers.co.uk/vauxhall/corsa/hatchback-2014/used-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Corsa E 1.0 66 kW (2014–2019): real-world average from 200 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(E)/corsa-e-1-0-s-d_39305/verbrauch/"
+            }
+          },
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Corsa E 1.4 66 kW (2017–2020): real-world average from 211 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(E)/corsa-e-1-4-s-d_45940/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "astra": {
@@ -120,6 +255,68 @@
             }
           }
         ]
+      },
+      "Astra J": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מערכת הסיוע לזינוק בעלייה עלולה לפעול לא תקין. התיקון הוא תכנות מחדש של מחשב הבלמים (EBCM). לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2010–2015",
+            "source": {
+              "title": "SicurAUTO.it — Richiamo Opel Astra J, Zafira C e Cascada 2010–2015: hill-start assist, EBCM reprogramming (MIT 15R058)",
+              "url": "https://www.sicurauto.it/news/richiamo-opel-per-oltre-32mila-astra-j-zafira-c-e-cascada/"
+            }
+          },
+          {
+            "he": "ב־1.4 טורבו שרשרת התזמון נוטה להימתח, בעיקר ברכבים מ־2010–2013 ואחרי טיפולים לא סדירים. הסימנים: רעש שקשוק בהתנעה קרה ופעולה לא חלקה. לבדוק תיעוד החלפת שרשרת ומותחן.",
+            "level": "widely_reported",
+            "scope": "1.4 טורבו, 2010–2013",
+            "source": {
+              "title": "Autopartspro — Problems with the Opel Astra J",
+              "url": "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-astra-j-3605"
+            }
+          },
+          {
+            "he": "תושבות המנוע נשחקות, בדרך כלל סביב 100–130 אלף ק״מ. הסימנים: רעידות בהגה בסרק ונקישה בלחיצה על הגז.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autopartspro — Problems with the Opel Astra J",
+              "url": "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-astra-j-3605"
+            }
+          },
+          {
+            "he": "דליפות נוזל קירור, בעיקר ממיכל העיבוי (סדקים דקים) ומצינורות הרדיאטור. לבדוק את גובה הנוזל ולחפש סימני דליפה מתחת לרכב.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autopartspro — Problems with the Opel Astra J",
+              "url": "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-astra-j-3605"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Astra J 1.4t 103 kW (2009–2015): real-world average from 1,898 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Astra/Astra-(J)/astra-j-1-4t-p-j_34787/verbrauch/"
+            }
+          },
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 116,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Astra J 1.6 85 kW (2012–2018): real-world average from 37 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Astra/Astra-(J)/astra-j-1-6-p-j_37256/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "grandland": {
@@ -141,6 +338,150 @@
             "source": {
               "title": "car-recalls.eu — Opel/Vauxhall Grandland X common problems & UK recalls: engine cooling radiator sealing baffle (2019)",
               "url": "https://car-recalls.eu/common-problems/opel/Grandland-x/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.32,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Opel Grandland X petrol 91–101 kW (1.2 Turbo 130 PS), automatic, 2016–2020: average of 64 vehicles / 4,694 fuel-ups",
+              "url": "https://www.spritmonitor.de/en/overview/35-Opel/1635-Grandland_X.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=91&power_e=101&gearing=2"
+            }
+          },
+          {
+            "name": "1.6 טורבו פלאג-אין היברידי 4X4 (Hybrid4)",
+            "pt": "phev",
+            "hp": 300,
+            "cons": 4.03,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Opel Grandland X plug-in hybrid 216–226 kW (Hybrid4 300 PS), automatic, 2018–2022: average petrol use of 34 vehicles / 1,333 fuel-ups (petrol only, electricity not included)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/35-Opel/1635-Grandland_X.html?fueltype=6&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=216&power_e=226&gearing=2"
+            }
+          }
+        ]
+      }
+    },
+    "mokka": {
+      "Mokka A/X": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר עלול להתבלות עם השנים ולהתפוצץ בלחץ יתר בזמן הפתיחה. רסיסי מתכת עלולים לפגוע ביושבים. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 10.10.2011–23.5.2018 (קוד אופל KU3)",
+            "source": {
+              "title": "car-recalls.eu — Opel Mokka (2011–2018) airbag inflator recall KU3 (RAPEX SR/02979/25)",
+              "url": "https://car-recalls.eu/it/richiami/opel-mokka-Lesioni-da-airbag-2011-2018/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מים עלולים לחדור למחבר של מערכת ה־ABS ולגרום לקצר. במוסך בודקים את אטם מסיט המים ומחליפים לפי הצורך. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנות דגם 2015–2016",
+            "source": {
+              "title": "ÖAMTC — Opel Mokka Rückruf wegen möglichem Wassereintritt (ABS-Stecker), MY 2015–2016",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/opel-mokka-rueckruf-wegen-moeglichem-wassereintritt-18344986"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 152,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Mokka X 1.4t 4x4 112 kW (2016–2019): real-world average from 114 user reports (4x4 152 PS variant, not the 140 PS FWD)",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Mokka/Mokka/mokka-x-1-4t-4x4-j-a_44899/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Mokka B": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה בניהול סוללת המתח הגבוה. מצב Ready עלול לא להופיע, הכוח עלול לרדת, והרכב עלול לכבות בנסיעה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "Mokka-e חשמלי, ייצור 12.5.2022–3.2.2023 (קוד KRB)",
+            "source": {
+              "title": "car-recalls.eu — Opel Mokka (2022–2023) HV battery software recall KRB (RAPEX SR/01465/25)",
+              "url": "https://car-recalls.eu/recall/opel-mokka-2022-2023-hv-battery-software/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מתחת ל־3°C המגב הקדמי מפסיק לפעול כשהרכב עוצר, ולא חוזר לפעול עד שהרכב עובר את 10 קמ״ש. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 16.2.2021–23.7.2021 (קוד 21-C-182)",
+            "source": {
+              "title": "car-recalls.eu — Opel Mokka (2021) windscreen wiper recall 21-C-182 (RAPEX A12/00044/22)",
+              "url": "https://car-recalls.eu/recall/opel-mokka-2021-windscreen-wiper/?noamp=mobile"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 131,
+            "cons": 7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Mokka B 1.2 96 kW (2020–): real-world average from 383 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Mokka/Mokka/mokka-b-1-2-u_49250/verbrauch/"
+            }
+          },
+          {
+            "name": "חשמלי 50 קוט״ש",
+            "pt": "ev",
+            "hp": 136,
+            "cons": 18.8,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Opel Mokka-e (2021): real-world combined consumption 160 Wh/km (mild) to 215 Wh/km (cold); figure is the mean of the two",
+              "url": "https://ev-database.org/car/1278/Opel-Mokka-e"
+            }
+          }
+        ]
+      }
+    },
+    "crossland": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: משאבת הוואקום עלולה לקבל סיכה לא מספקת ולהישבר, ואז סיוע הבלימה יורד. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 12.4.2017–28.8.2018 (קוד O3A)",
+            "source": {
+              "title": "car-recalls.eu — Opel Crossland X (2017–2018) vacuum pump recall O3A (RAPEX A11/00077/23)",
+              "url": "https://car-recalls.eu/recall/opel-crossland-x-2017-2018-vacuum-pump/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: משאבת הדלק בלחץ גבוה לא חוזקה למנוע במומנט הנכון, ודלק עלול לדלוף לכביש. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 18.3.2019–14.2.2020 (קוד 20-C-105)",
+            "source": {
+              "title": "car-recalls.eu — Opel Crossland X (2019–2020) high-pressure fuel pump torque recall 20-C-105 (RAPEX A12/01451/20)",
+              "url": "https://car-recalls.eu/recall/opel-crossland-x-2020-fuel-leak/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Crossland X 1.2 81 kW (2017–): real-world average from 63 user reports",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Crossland/Crossland/crossland-x-1-2-p7-monocab-c_45958/verbrauch/"
             }
           }
         ]

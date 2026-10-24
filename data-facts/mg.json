@@ -172,7 +172,102 @@
           "stars": 5,
           "year": 2019,
           "url": "https://www.euroncap.com/en/results/mg/hs/39677"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין היברידי (EHS)",
+            "pt": "phev",
+            "hp": 258,
+            "cons": 4.78,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — MG EHS plug-in hybrid 185–195 kW (258 PS), automatic, 2019–2023: average petrol use of 18 vehicles / 632 fuel-ups (petrol only, electricity not included; depends on charging habits)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/29-MG/1970-EHS.html?fueltype=6&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=185&power_e=195&gearing=2"
+            }
+          }
+        ]
+      }
+    },
+    "mg3": {
+      "Gen2": {
+        "issues": [
+          {
+            "he": "בדגמים מוקדמים שרשרת התזמון עלולה להימתח ולדלג על שן. הסימנים הם עבודה לא חלקה והתנעה קשה, ובמקרה הגרוע נזק למנוע. לבדוק אם הותקנה השרשרת המשודרגת ולהקשיב לרעשים בהתנעה קרה.",
+            "level": "widely_reported",
+            "scope": "שנים מוקדמות",
+            "source": {
+              "title": "What Car? — Used MG 3 2013–2024 reliability review (timing chain on early models)",
+              "url": "https://www.whatcar.com/mg-motor-uk/mg3/hatchback/used-review/n1001/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי רצועות מיכל הדלק יוצרו במפרט שגוי. לוודא לפי מספר שלדה שבוצע התיקון.",
+            "level": "recall",
+            "scope": "543 רכבים בבריטניה",
+            "source": {
+              "title": "What Car? — Used MG 3 2013–2024 reliability review (fuel tank strap bolt recall)",
+              "url": "https://www.whatcar.com/mg-motor-uk/mg3/hatchback/used-review/n1001/reliability"
+            }
+          },
+          {
+            "he": "בחלק מהרכבים דוושת המצמד נשארת למטה ואינה חוזרת. בנסיעת מבחן לבדוק שהדוושה חוזרת כרגיל. זה בדרך כלל תיקון פשוט במוסך.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used MG 3 2013–2024 reliability review (clutch pedal not returning)",
+              "url": "https://www.whatcar.com/mg-motor-uk/mg3/hatchback/used-review/n1001/reliability"
+            }
+          },
+          {
+            "he": "בדגמים מוקדמים אטמי הדלתות עלולים להכניס מים. לבדוק אם יש רטיבות במושבים ובשטיחים.",
+            "level": "widely_reported",
+            "scope": "שנים מוקדמות",
+            "source": {
+              "title": "What Car? — Used MG 3 2013–2024 reliability review (door seals on early cars)",
+              "url": "https://www.whatcar.com/mg-motor-uk/mg3/hatchback/used-review/n1001/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 בנזין",
+            "pt": "petrol",
+            "hp": 106,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — MG 3 (2013 on) 1.5: owner-reported average 43.1 mpg (UK) ≈ 6.6 l/100km",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/mg/3-2013/15"
+            }
+          }
+        ]
+      }
+    },
+    "mg5": {
+      "EP": {
+        "engines": [
+          {
+            "name": "חשמלי 50 קוט״ש",
+            "pt": "ev",
+            "hp": 156,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG MG5 EV (48.8 kWh usable): EVDB real-range vehicle consumption estimate 168 Wh/km",
+              "url": "https://ev-database.org/car/1313/MG-MG5-EV"
+            }
+          },
+          {
+            "name": "חשמלי 61 קוט״ש",
+            "pt": "ev",
+            "hp": 156,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — MG MG5 Electric Long Range (57.4 kWh usable): EVDB real-range vehicle consumption estimate 171 Wh/km",
+              "url": "https://ev-database.org/car/1474/MG-MG5-Electric-Long-Range"
+            }
+          }
+        ]
       }
     }
   }

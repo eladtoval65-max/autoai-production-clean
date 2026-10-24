@@ -1,0 +1,84 @@
+{
+  "make": "volvo",
+  "updated": "2026-10-24",
+  "models": {
+    "xc60": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: אחרי מילוי נוזל קירור עלולות להישאר בועות אוויר במערכת — קירור לקוי, התחממות, נזק למנוע וסכנת שריפה. לוודא ביצוע הקריאה (R10025/R10026) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2014–2017",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC60 (2014–2017) engine cooling system air pockets (Volvo R10025/R10026, RAPEX A12/01056/20, A12/01063/20)",
+              "url": "https://car-recalls.eu/recall/volvo-xc60-air-overheating-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו דיזל (D4)",
+            "pt": "diesel",
+            "hp": 181,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo XC60 2.0 D4 (2013–2015) 133 kW: real-world average from 526 user reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-XC60/XC60/xc60-2-0-d4-d_38701/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "xc40": {
+      "XC40 (CMA)": {
+        "issues": [
+          {
+            "he": "קריאת שירות (ארה״ב): חומרת בלימת החירום האוטונומית (AEB) לא תאמה את התוכנה — המערכת עלולה לא לזהות עצמים או הולכי רגל. לוודא עדכון תוכנה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 9.11.2018–11.3.2020 (קריאה של NHTSA)",
+            "source": {
+              "title": "Consumer Reports — Volvo recall incl. XC40 (NHTSA 20V144, Volvo R29998): AEB software incompatibility",
+              "url": "https://www.consumerreports.org/car-recalls-defects/volvo-recalls-cars-suvs-because-safety-systems-may-not-work"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (T3)",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo XC40 T3 (2019–) 120 kW: real-world average from 208 user reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-XC40/XC40/xc40-t3-x_47704/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (T4)",
+            "pt": "petrol",
+            "hp": 190,
+            "cons": 8.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo XC40 T4 (2018–) 140 kW: real-world average from 362 user reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-XC40/XC40/xc40-t4-x_46916/verbrauch/"
+            }
+          },
+          {
+            "name": "1.5 טורבו פלאג-אין (T5 Recharge)",
+            "pt": "phev",
+            "hp": 262,
+            "cons": 4.8,
+            "unit": "L",
+            "source": {
+              "title": "Motor1.com (DE) — Volvo XC40 T5 Plug-in-Hybrid measured test: 4.80 L/100km over 360 km, started with full battery",
+              "url": "https://de.motor1.com/reviews/505554/volvo-xc40-t5-pluginhybrid-verbrauchstest/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

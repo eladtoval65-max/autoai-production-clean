@@ -1354,6 +1354,19 @@
               "url": "https://australiancar.reviews/recalls-faults-hyundai-cm-santa-fe-2006-12/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.2 CRDi טורבו דיזל",
+            "pt": "diesel",
+            "hp": 197,
+            "cons": 8.91,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai Santa Fe diesel 140–150 kW (2.2 CRDi 197 PS), automatic, 2009–2013: average of 46 vehicles / 5,687 fuel-ups (year range may include some early DM cars)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/185-Santa_Fe.html?fueltype=1&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=140&power_e=150&gearing=2"
+            }
+          }
         ]
       }
     },

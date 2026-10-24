@@ -1070,6 +1070,30 @@
               "url": "https://car-recalls.eu/recall/toyota-hilux-2005-2010/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.5 D-4D טורבו דיזל",
+            "pt": "diesel",
+            "hp": 144,
+            "cons": 9.44,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Toyota Hilux diesel 101–111 kW (2.5 D-4D 144 PS), manual, 2008–2012: average of 13 vehicles / 733 fuel-ups",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/445-Hilux.html?fueltype=1&vehicletype=1&constyear_s=2008&constyear_e=2012&power_s=101&power_e=111&gearing=1"
+            }
+          },
+          {
+            "name": "3.0 D-4D טורבו דיזל",
+            "pt": "diesel",
+            "hp": 171,
+            "cons": 10.78,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Toyota Hilux diesel 121–131 kW (3.0 D-4D 171 PS), automatic, 2009–2013: average of 21 vehicles / 1,472 fuel-ups",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/445-Hilux.html?fueltype=1&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=121&power_e=131&gearing=2"
+            }
+          }
         ]
       }
     },

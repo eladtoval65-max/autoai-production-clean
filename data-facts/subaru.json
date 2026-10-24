@@ -1,5 +1,233 @@
 {
   "make": "subaru",
-  "updated": "2026-10-21",
-  "models": {}
+  "updated": "2026-10-24",
+  "models": {
+    "impreza": {
+      "GJ/GP": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קפיץ שסתום במנוע עלול להיות חלש מדי ולהישבר, והמנוע עלול לכבות בנסיעה. לוודא ביצוע הקריאה (SRT261) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2012–2013",
+            "source": {
+              "title": "car-recalls.eu — Subaru Impreza/XV (2012–2013) engine valve spring, Subaru SRT261, RAPEX A12/0666/19",
+              "url": "https://car-recalls.eu/subaru-recalls-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מתג אור הבלמים עלול להיות פגום ואורות הבלימה לא יידלקו. לבדוק שאורות הבלם עובדים ולוודא ביצוע הקריאה (SRT270) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור עד 03/2017",
+            "source": {
+              "title": "car-recalls.eu — Subaru Impreza (2007–2017) brake light switch, Subaru SRT270, RAPEX A12/0822/19",
+              "url": "https://car-recalls.eu/recall/subaru-impreza-2007-2017/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיווט באזור עמוד ההגה עלול להישחק ולגרום לקצר — מגבים, פנסים או צופר עלולים להפסיק לעבוד, ואף כיבוי מנוע. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתוני 2012–2014",
+            "source": {
+              "title": "car-recalls.eu — Subaru Impreza XV (2012–2014) steering column wiring harness, RAPEX A12/0217/16",
+              "url": "https://car-recalls.eu/recall/subaru-impreza-xv-2012-2014/amp/"
+            }
+          }
+        ]
+      },
+      "GK/GT": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בלם החניה החשמלי (EPB) עלול לא לפעול כמתוכנן והרכב עלול להידרדר כשהוא בחניה. לוודא ביצוע הקריאה (SRT324) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2017–2019",
+            "source": {
+              "title": "car-recalls.eu — Subaru Impreza (2017–2019) electronic park brake, Subaru SRT324, Safety Gate A12/02023/23",
+              "url": "https://car-recalls.eu/recall/subaru-impreza-2017-2019-electronic-park-brake/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 114,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru Impreza 1.6 AWD (G5, 2017–) 84 kW: real-world average from 39 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-Impreza/Impreza/subaru-impreza-1-6-awd-g5_45895/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "crosstrek": {
+      "GP (XV)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קפיץ שסתום במנוע עלול להיות חלש מדי ולהישבר, והמנוע עלול לכבות בנסיעה. לוודא ביצוע הקריאה (SRT261) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2012–2013",
+            "source": {
+              "title": "car-recalls.eu — Subaru XV (2012–2013) engine valve spring, Subaru SRT261, RAPEX A12/0666/19",
+              "url": "https://car-recalls.eu/recall/subaru-xv-2012-2013/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיווט באזור עמוד ההגה עלול להישחק ולגרום לקצר — מגבים, פנסים או צופר עלולים להפסיק לעבוד, ואף כיבוי מנוע. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתוני 2012–2014",
+            "source": {
+              "title": "car-recalls.eu — Subaru Impreza XV (2012–2014) steering column wiring harness, RAPEX A12/0217/16",
+              "url": "https://car-recalls.eu/recall/subaru-impreza-xv-2012-2014/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מתג אור הבלמים עלול להיות פגום ואורות הבלימה לא יידלקו. לבדוק שאורות הבלם עובדים ולוודא ביצוע הקריאה (SRT270) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור עד 03/2017",
+            "source": {
+              "title": "car-recalls.eu — Subaru XV (2011–2017) brake light switch, Subaru SRT270, RAPEX A12/0822/19",
+              "url": "https://car-recalls.eu/subaru-recalls-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru XV 2.0 (G4, 2012–2018) 110 kW: real-world average from 455 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-XV/XV/subaru-xv-2-0-g4_36981/verbrauch/"
+            }
+          }
+        ]
+      },
+      "GT (XV)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בלם החניה החשמלי (EPB) עלול לא לפעול כמתוכנן והרכב עלול להידרדר כשהוא בחניה. לוודא ביצוע הקריאה (SRT324) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2017–2019",
+            "source": {
+              "title": "car-recalls.eu — Subaru XV (2017–2019) electronic park brake, Subaru SRT324, Safety Gate A12/02023/23",
+              "url": "https://car-recalls.eu/recall/subaru-xv-2017-2019-electronic-park-brake/?noamp=mobile"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 114,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru XV 1.6 AWD (G5, 2017–2018) 84 kW: real-world average from 72 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-XV/XV/subaru-xv-1-6-awd-g5_45897/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru XV 2.0 AWD (G5, 2017–2018) 115 kW: real-world average from 194 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-XV/XV/subaru-xv-2-0-awd-g5_45898/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 היברידי (e-Boxer)",
+            "pt": "hybrid",
+            "hp": 150,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "Motor1.com (DE) — 'Tatsächlicher Verbrauch' test, Subaru XV 2.0ie e-Boxer: measured 6.0 L/100km (single magazine test drive)",
+              "url": "https://de.motor1.com/reviews/404843/tatsachlicher-verbrauch-subaru-xv-20ie-eboxer-test/"
+            }
+          }
+        ]
+      }
+    },
+    "forester": {
+      "דור 4": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מתג אור הבלמים עלול להיות פגום ואורות הבלימה לא יידלקו. לבדוק שאורות הבלם עובדים ולוודא ביצוע הקריאה (SRT270) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור עד 03/2017",
+            "source": {
+              "title": "car-recalls.eu — Subaru Forester (2007–2017, incl. type SJ) brake light switch, Subaru SRT270, RAPEX A12/0822/19",
+              "url": "https://car-recalls.eu/recall/subaru-forester-2007-2017/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיבור חשמלי במערכת זיהוי הנוסע במושב הקדמי עלול להתרופף, וכרית האוויר של הנוסע עלולה להיות מנוטרלת. לוודא ביצוע הקריאה (SRT280) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2015–2018",
+            "source": {
+              "title": "car-recalls.eu — Subaru Forester (2015–2018) occupant detection / airbag, Subaru SRT280, RAPEX A12/01148/20",
+              "url": "https://car-recalls.eu/recall/subaru-forester-passenger-detection/"
+            }
+          },
+          {
+            "he": "קריאת שירות: קפיץ שסתום במנוע עלול להיות חלש מדי ולהישבר, והמנוע עלול לכבות בנסיעה. לוודא ביצוע הקריאה (SRT261) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2012–2014",
+            "source": {
+              "title": "car-recalls.eu — Subaru Forester (2012–2014) engine valve spring, Subaru SRT261, RAPEX A12/0666/19",
+              "url": "https://car-recalls.eu/recall/subaru-forester-2012-2014/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru Forester 2.0 (SJ, listed 2017–2020) 110 kW: real-world average from 132 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-Forester/Forester/subaru-forester-2-0-sj_45593/verbrauch/"
+            }
+          }
+        ]
+      },
+      "דור 5": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תכנות שגוי של מחשב המנוע משאיר את סליל ההצתה תחת מתח אחרי כיבוי, מה שעלול לגרום להתחממות, קצר וסכנת שריפה. לוודא ביצוע הקריאה (SRT284) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור עד 2020",
+            "source": {
+              "title": "car-recalls.eu — Subaru Forester (2017–2020) ignition coil / ECM programming, Subaru SRT284, RAPEX A12/00327/20",
+              "url": "https://car-recalls.eu/recall/subaru-forester-2019-ignition-coil-fire/"
+            }
+          }
+        ]
+      }
+    },
+    "outback": {
+      "BS": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בלם החניה החשמלי (EPB) עלול לא לפעול כמתוכנן והרכב עלול להידרדר כשהוא בחניה. לוודא ביצוע הקריאה (SRT324) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2015–2018",
+            "source": {
+              "title": "car-recalls.eu — Subaru Outback (2015–2018) electronic park brake, Subaru SRT324, Safety Gate A12/02023/23",
+              "url": "https://car-recalls.eu/recall/subaru-outback-2015-2018-electronic-park-brake/"
+            }
+          }
+        ]
+      }
+    }
+  }
 }

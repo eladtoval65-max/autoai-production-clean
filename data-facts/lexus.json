@@ -1,5 +1,137 @@
 {
   "make": "lexus",
-  "updated": "2026-10-21",
-  "models": {}
+  "updated": "2026-10-24",
+  "models": {
+    "nx": {
+      "AZ10": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מחשב הבלמים תוכנת באופן שגוי — כשמערכת Brake Hold מכובה, בלם החניה עלול לא להישלב אוטומטית והרכב עלול להתגלגל אם לא הועבר ל-P. לוודא ביצוע עדכון התוכנה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "NX 300h, ייצור 2014–2016",
+            "source": {
+              "title": "car-recalls.eu — Lexus NX 300h (2014–2016) brake control module / parking brake (RAPEX A12/0014/17)",
+              "url": "https://car-recalls.eu/uk/recall/lexus-nx-300h-2014-2016/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה אפשרית בחיישני הלחץ של מערכת כריות האוויר — כריות צד, וילון או קדמיות עלולות לא להיפתח בתאונה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "NX 300h, ייצור 2015",
+            "source": {
+              "title": "car-recalls.eu — Lexus NX300h (2015) airbag pressure sensors (RAPEX A12/0208/18)",
+              "url": "https://car-recalls.eu/fr/recall/lexus-nx300h-2015/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי (300h)",
+            "pt": "hybrid",
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Lexus NX300h overview: real-world average 7.31 L/100km from 97 vehicles logged as 'Hybrid Benzin'",
+              "url": "https://www.spritmonitor.de/de/uebersicht/26-Lexus/1462-NX300h.html"
+            }
+          }
+        ]
+      }
+    },
+    "rx": {
+      "AL10": {
+        "engines": [
+          {
+            "name": "3.5 V6 היברידי (450h)",
+            "pt": "hybrid",
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Lexus RX 450 Hybrid (HAL1, 2009–2015): real-world average from 120 user reports",
+              "url": "https://www.autokostencheck.de/Lexus/Lexus/Lexus-RX-450/lexus-rx450-hybrid-hal1_36674/verbrauch/"
+            }
+          }
+        ]
+      },
+      "AL20": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חומר פגום בגוף החימום של מתזי השמשה מאפשר חדירת לחות — קצר, התחממות וסכנת שריפה. לוודא ביצוע הקריאה (19SMD-121) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "RX 450h, ייצור 05/2015–02/2018",
+            "source": {
+              "title": "car-recalls.eu — Lexus RX 450h (2015–2018) washer jet heating element (Lexus 19SMD-121, RAPEX A12/00216/20)",
+              "url": "https://car-recalls.eu/recall/lexus-rx-450h-2015-2018/"
+            }
+          }
+        ]
+      }
+    },
+    "es": {
+      "XV60": {
+        "issues": [
+          {
+            "he": "קריאת שירות (ארה״ב): מערכת טרום-התנגשות (PCS) עלולה לבלום לפתע כשהמכ״ם מזהה לוח פלדה בכביש כמכשול. ברכב עם PCS — לוודא החלפת הרכיבים לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ES 300h עם PCS, ייצור 06/2012–07/2015 (קריאה של NHTSA)",
+            "source": {
+              "title": "NHTSA recall 15V728000 — Lexus ES300h/ES350 Pre-Collision System unexpected braking (via Justia)",
+              "url": "https://auto-recalls.justia.com/lexus/es300h/2013/15v728000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי (300h)",
+            "pt": "hybrid",
+            "cons": 5.9,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide — 2014 Lexus ES 300h measured real-world 40.0 mpg (US) = 5.9 L/100km, 160 miles, 55% city",
+              "url": "https://blog.consumerguide.com/cg-real-world-fuel-economy-lexus-es-300h/"
+            }
+          }
+        ]
+      }
+    },
+    "ux": {
+      "ZA10": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מחזיק פחמים פגום במנוע משאבת מגבר הבלמים — עלול לגרום לאובדן פתאומי של סיוע הבלימה. לוודא ביצוע הקריאה (19SMD063) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "UX 250h, ייצור 26.4.2019–6.6.2019",
+            "source": {
+              "title": "car-recalls.eu — Lexus UX 250h (2019) brake booster pump motor (Lexus 19SMD063, RAPEX A12/1199/19)",
+              "url": "https://car-recalls.eu/recall/lexus-ux-250h-2019/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 היברידי (250h)",
+            "pt": "hybrid",
+            "hp": 184,
+            "cons": 4.4,
+            "unit": "L",
+            "source": {
+              "title": "Motor1.com (DE) — Lexus UX 250h measured test: 4.35 L/100km over 360 km Rome–Forlì standard route",
+              "url": "https://de.motor1.com/reviews/351795/tatsachlicher-verbrauch-lexus-ux-250h-im-test/"
+            }
+          },
+          {
+            "name": "חשמלי 45 קוט״ש (300e)",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 19.1,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Lexus UX 300e: estimated real-world energy consumption 191 Wh/km (45 kWh usable)",
+              "url": "https://ev-database.org/car/1251/Lexus-UX-300e"
+            }
+          }
+        ]
+      }
+    }
+  }
 }
