@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "corolla": {
       "E150": {
@@ -1156,6 +1156,41 @@
             "source": {
               "title": "Cars4Starters — 2019MY Toyota Prado GXL review (2.8 diesel, mostly urban test with some dirt driving)",
               "url": "https://cars4starters.com.au/2019my-toyota-prado-gxl/"
+            }
+          }
+        ]
+      },
+      "J250": {
+        "issues": [
+          {
+            "he": "שגיאת תוכנה בלוח המחוונים הדיגיטלי 12.3 אינץ׳: בהתנעה חלקים מהתצוגה עלולים לא להופיע, כולל נורות אזהרה של לחץ שמן, טמפרטורת מנוע וטעינה — לוודא שבוצע עדכון התוכנה (במוסך או OTA) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "Prado 250 עם לוח מחוונים 12.3 אינץ׳, ייצור 24.6.2024–21.6.2025 (קריאה באוסטרליה, REC-006616; בארה״ב NHTSA 26V-341 לשנות 2024–2025)",
+            "source": {
+              "title": "CarExpert — Toyota Prado recalled (instrument cluster software), June 2026",
+              "url": "https://www.carexpert.com.au/car-news/toyota-prado-recalled"
+            }
+          },
+          {
+            "he": "כרית האוויר התחתונה של הנהג עלולה לא להיפתח כראוי אם הורכבה מחדש במומנט שגוי בעת התקנת בקר בלמי נגרר אופציונלי — ברכב עם אביזרי גרירה לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "שנת דגם 2024, רכבים שנמסרו באוסטרליה בלבד (קמפיין ZFU03, REC-006302, מרץ 2025)",
+            "source": {
+              "title": "australiancar.reviews — Toyota 250-Series Prado (2024-on), recall ZFU03 / REC-006302",
+              "url": "https://australiancar.reviews/?p=101707"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.8 טורבו דיזל היברידי קל",
+            "pt": "mhev",
+            "hp": 204,
+            "cons": 10.6,
+            "unit": "L",
+            "source": {
+              "title": "Chasing Cars — Prado 250 GX 2.8 diesel long-term review, 10.6 L/100km average (mostly urban)",
+              "url": "https://www.chasingcars.com.au/reviews/large-suvs/toyota-land-cruiser-prado-250-series-long-term-review/"
             }
           }
         ]

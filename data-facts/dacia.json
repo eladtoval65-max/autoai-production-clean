@@ -1,6 +1,6 @@
 {
   "make": "dacia",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "duster": {
       "Gen2": {
@@ -74,6 +74,66 @@
             }
           }
         ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "בלם החניה (מפעיל P) עלול לא להינעל כראוי עקב חיישן מיקום לא מכויל — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 13.3.2024–26.2.2025; קוד יצרן 0EYA, Safety Gate OU/00152/25 (10.2025)",
+            "source": {
+              "title": "car-recalls.eu — Dacia Duster 2024–2025 parking brake, 0EYA (Oct 2025)",
+              "url": "https://car-recalls.eu/fr/recall/dacia-duster-2024-2025-parking-brake/"
+            }
+          },
+          {
+            "he": "בגרסאות 4x4 ידניות: רתמת חיווט ABS אחורית עלולה להתחכך בצמיג ולגרום לכשל ABS/ESP — לוודא ביצוע הקריאה (בדיקה/החלפת רתמה)",
+            "level": "recall",
+            "scope": "4x4 עם תיבה ידנית 6 הילוכים, ייצור 19.6.2024–3.9.2024; KBA 15066R, קוד 0EGV",
+            "source": {
+              "title": "car-recalls.eu — Dacia Duster ABS cable rubbing, KBA 15066R (Jun 2025)",
+              "url": "https://car-recalls.eu/fr/dacia-duster-rubbed-cable-abs-esp-malfunction-kba/"
+            }
+          },
+          {
+            "he": "מערכת ניטור לחץ אוויר מכוילת לגרסת 4x4 בלבד ובגרסאות הנעה קדמית מציגה התרעת אובדן לחץ שגויה — לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "ייצור 23.1.2024–25.3.2025; KBA 15504R, קוד 0EWP (נובמבר 2025)",
+            "source": {
+              "title": "car-recalls.eu — Dacia Duster faulty TPMS, KBA 15504R (Nov 2025)",
+              "url": "https://car-recalls.eu/fr/dacia-duster-faulty-tyre-pressure-monitoring-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין מיילד היברידי 130",
+            "pt": "mhev",
+            "hp": 130,
+            "cons": 6.39,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Duster mild hybrid 96 kW manual 2022–2026, 20 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/113-Dacia/1196-Duster.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=91&power_e=101&gearing=1"
+            }
+          },
+          {
+            "name": "1.6 היברידי 140",
+            "pt": "hybrid",
+            "hp": 140,
+            "cons": 5.64,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Dacia Duster Hybrid 140 (104 kW, automatic) 2023–2027, 63 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/113-Dacia/1196-Duster.html?fueltype=10&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=99&power_e=109&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/dacia-duster---euro-ncap-2024-results---3-stars/s/17d50887-5eb5-49ea-892a-81b31f3d52af"
+        }
       }
     },
     "sandero": {
@@ -136,6 +196,53 @@
             "source": {
               "title": "autokostencheck.de — Dacia Sandero 1.5 dCi (SD, 50 kW/68 PS, 2009–2010): real-world average from 100 user reports",
               "url": "https://www.autokostencheck.de/Dacia/Dacia-Sandero/Sandero/dacia-sandero-1-5-d-sd_8524/verbrauch/"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "קריאת שירות למנוע 1.2 (75 כ״ס): חצאי קונוסים (Valve cotters) פגומים בראש המנוע עלולים לגרום לנזק למנוע — לוודא ביצוע הקריאה לפי מספר שלדה ברכבים מתוצרת ספטמבר–נובמבר 2010",
+            "level": "recall",
+            "scope": "1.2 בנזין, ייצור 17.9.2010–30.11.2010 (כ-78 אלף רכבי רנו/דאצ׳יה בעולם)",
+            "source": {
+              "title": "Cotidianul — Dacia Logan/Sandero recalled, 1.0/1.2 engines built Sep–Nov 2010 (Oct 2011)",
+              "url": "https://www.cotidianul.ro/mii-de-masini-dacia-rechemate-in-service/"
+            }
+          },
+          {
+            "he": "נורית אזהרת ABS בלוח המחוונים עלולה לא לפעול ולא להתריע על תקלה — לוודא שהנורית נדלקת בהנעה ושבוצעה החלפה ברכבים מתוצרת 2008",
+            "level": "recall",
+            "scope": "Logan ו-Sandero, ייצור 26.5.2008–12.11.2008",
+            "source": {
+              "title": "motonews.pl — Dacia Logan i Sandero do serwisu, ABS warning lamp (UOKiK, May 2009)",
+              "url": "https://www.motonews.pl/dacia/news-5189-dacia-logan-i-sandero-do-serwisu.html"
+            }
+          },
+          {
+            "he": "דו״ח TÜV: שיעור כשלים גבוה במתלים (Achsaufhängung) כבר בטסט הראשון, ובהמשך בהגה ובצירי ההנעה — לבדוק מפרקים, גומיות ותותבים ומשחק בהגה בהרמה",
+            "level": "widely_reported",
+            "scope": "Sandero I (2008–2012), TÜV Report 2019",
+            "source": {
+              "title": "t-online — Dacia Sandero patzt oft schon beim ersten HU-Termin (TÜV Report)",
+              "url": "https://www.t-online.de/auto/technik/id_85237644/dacia-sandero-patzt-oft-schon-beim-ersten-hu-termin.html"
+            }
+          },
+          {
+            "he": "בלמים ומערכת פליטה: TÜV מדווח על ליקויים בבלם הרגל, דיסקים חלודים ומערכת פליטה שתושבותיה מחלידות ונפרצות — לבדוק יעילות בלימה, מצב דיסקים ודליפות באגזוז",
+            "level": "widely_reported",
+            "scope": "Sandero I (2008–2012)",
+            "source": {
+              "title": "gebrauchtwagenberater.de — Dacia Sandero Probleme und Schwachstellen (TÜV/ADAC)",
+              "url": "https://gebrauchtwagenberater.de/dacia-sandero-probleme/"
+            }
+          },
+          {
+            "he": "סטטיסטיקת התקלות של ADAC: מתגי הצתה (מנעול סוויץ׳), מתנעים ומצברים פגומים — לבדוק התנעה חוזרת, מצב מצבר וסוויץ׳ תקין",
+            "level": "widely_reported",
+            "scope": "Sandero I (2008–2012)",
+            "source": {
+              "title": "gebrauchtwagenberater.de — Dacia Sandero Probleme (ADAC Pannenstatistik)",
+              "url": "https://gebrauchtwagenberater.de/dacia-sandero-probleme/"
             }
           }
         ]
@@ -266,6 +373,53 @@
             "source": {
               "title": "autokostencheck.de — Dacia Logan 1.4 (SD, 55 kW/75 PS, 2005–2010): real-world average from 80 user reports",
               "url": "https://www.autokostencheck.de/Dacia/Dacia-Logan/Logan/logan-1-4-sd_8525/verbrauch/"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "קריאת שירות: חצאי קונוסים של שסתומים (Valve cotters) עלולים להיות פגומים ולגרום לנזק חמור למנוע — לוודא ביצוע הקריאה לפי מספר שלדה ברכבים מתוצרת סוף 2010",
+            "level": "recall",
+            "scope": "ייצור ספטמבר–נובמבר 2010 (בעיקר מנועי 1.2/1.0 של רנו; יש לבדוק לפי שלדה)",
+            "source": {
+              "title": "HotNews.ro — Dacia and Renault recall ~5,000 cars, valve half-cones (Sep 2011)",
+              "url": "https://hotnews.ro/dacia-and-renault-to-recall-5-000-cars-due-to-potential-faulty-engine-parts-665885"
+            }
+          },
+          {
+            "he": "קריאות שירות נוספות: נורית ABS שאינה מתריעה על תקלה, וחלודה בתושבות הבולמים האחוריים — לבדוק את תושבות הבולמים האחוריים לחלודה ולוודא ביצוע הקריאות",
+            "level": "recall",
+            "scope": "Logan I; נורית ABS — ייצור 26.5.2008–12.11.2008",
+            "source": {
+              "title": "Auto Bild — Dacia Logan Schwachstellen, Mängel, Stärken (recalls)",
+              "url": "https://www.autobild.de/artikel/dacia-logan-schwachstellen-maengel-staerken-28377085.html"
+            }
+          },
+          {
+            "he": "צנרת בלמים בעייתית ובלם רגל שנכשל לעיתים קרובות בטסט TÜV, דיסקים חלשים — לבדוק צנרת בלמים לחלודה ויעילות בלימה",
+            "level": "widely_reported",
+            "scope": "Logan I (2005–2012), TÜV",
+            "source": {
+              "title": "Auto Bild — Dacia Logan Schwachstellen (TÜV findings)",
+              "url": "https://www.autobild.de/artikel/dacia-logan-schwachstellen-maengel-staerken-28377085.html"
+            }
+          },
+          {
+            "he": "מתלים והגה: מגיל ~7 שנים תושבות המתלים נחלשות ויש בעיות מעל הממוצע במפרקי ההגה; מערכת פליטה מחלידה ונזילות שמן נפוצות — לבדוק בהרמה",
+            "level": "widely_reported",
+            "scope": "Logan I, TÜV",
+            "source": {
+              "title": "Auto Bild — Dacia Logan Schwachstellen (TÜV findings)",
+              "url": "https://www.autobild.de/artikel/dacia-logan-schwachstellen-maengel-staerken-28377085.html"
+            }
+          },
+          {
+            "he": "תקלות חשמל לפי ADAC: חיישן גל ארכובה (2006–2009), כבלי הצתה (עד 2009), מתנעים (2010–2012) ומנעולי הצתה (2011+) — לבדוק התנעה חלקה, רעידות/ניתוקים ותיעוד החלפות",
+            "level": "widely_reported",
+            "scope": "Logan I/MCV, לפי שנות ייצור כמצוין",
+            "source": {
+              "title": "Auto Zeitung — Dacia Logan MCV gebraucht (ADAC Pannenstatistik)",
+              "url": "https://www.autozeitung.de/dacia-logan-mcv-gebraucht-baujahr-2007-2013-185189.html"
             }
           }
         ]

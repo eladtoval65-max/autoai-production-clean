@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "golf": {
       "Mk7": {
@@ -1028,6 +1028,39 @@
             }
           }
         ]
+      }
+    },
+    "id-buzz": {
+      "MEB": {
+        "engines": [
+          {
+            "name": "חשמלי 77 קוט״ש",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 22.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volkswagen ID. Buzz Pro (2022–2024), 77 kWh נטו, צריכה ריאלית 223 Wh/km",
+              "url": "https://ev-database.org/car/1651/Volkswagen-ID-Buzz-Pro"
+            }
+          },
+          {
+            "name": "חשמלי 79 קוט״ש",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 21.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volkswagen ID. Buzz SWB Pro (2024–2026), 79 kWh נטו / 84 ברוטו, 210 kW, 351 Wh/mi",
+              "url": "https://ev-database.org/uk/car/2232/Volkswagen-ID-Buzz-SWB-Pro"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/vw/id.+buzz/47766"
+        }
       }
     }
   }

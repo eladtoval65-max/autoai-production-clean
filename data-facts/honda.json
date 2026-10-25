@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "jazz": {
       "GK": {
@@ -402,6 +402,67 @@
             }
           }
         ]
+      },
+      "RS (דור 6)": {
+        "issues": [
+          {
+            "he": "ירידה בכמות הגריז בתיבת ההגה עלולה לגרום לתנודות בכוח ההיגוי ולסכנת אובדן שליטה — לוודא ביצוע הקריאה (קוד הונדה 6JP) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "CR-V e:HEV / e:PHEV (סוג אישור RS), ייצור 08/2021–08/2024 (כולל גם סיוויק ו-ZR-V); EU",
+            "source": {
+              "title": "car-recalls.eu — Honda CR-V 2021–2024 steering, RAPEX 8/2025 SR/00641/25, Honda code 6JP, 21/02/2025",
+              "url": "https://car-recalls.eu/es/llamada/Honda-CR-V-2021-2024-lesi%C3%B3n-en-la-direcci%C3%B3n/"
+            }
+          },
+          {
+            "he": "רעידות מנוע עלולות לגרום לסדק במשאבת הדלק בלחץ גבוה, לדליפת דלק ולסכנת שריפה — לוודא ביצוע הקריאה (קוד 6YP) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "CR-V (סוג אישור RS) וגם סיוויק/ZR-V, ייצור 10/2021–08/2024; EU",
+            "source": {
+              "title": "car-recalls.eu — Honda CR-V 2021–2024 high-pressure fuel pump fire, RAPEX 3/2025 SR/00179/25, Honda code 6YP, 17/01/2025",
+              "url": "https://car-recalls.eu/es/llamada/Honda-CR-V-2021-2024-combustible-fuego/"
+            }
+          },
+          {
+            "he": "בחלק מהרכבים הותקן וו גרירה לא נכון (סימון שגוי); בתאונה מאחור הוא עלול לפגוע ביחידת הסוללה (IPU) ולגרום לקצר במתח גבוה ולשריפה — ברכב עם וו גרירה לוודא בדיקה/החלפה לפי הקריאה (קוד 6LV)",
+            "level": "recall",
+            "scope": "CR-V e:HEV / e:PHEV, ייצור 04/2023–03/2024, 642 רכבים; KBA 14731R",
+            "source": {
+              "title": "car-recalls.eu — Honda CR-V wrong towbar fitted, KBA 14731R / Honda 6LV, 04/2025",
+              "url": "https://car-recalls.eu/fr/honda-cr-v-wrong-towbar-fitted-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 היברידי e:HEV",
+            "pt": "hybrid",
+            "hp": 184,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Used Honda CR-V 2023-present review, ~38mpg (UK) on test route",
+              "url": "https://www.whatcar.com/honda/cr-v/estate/used-review/n28389"
+            }
+          },
+          {
+            "name": "2.0 פלאג-אין e:PHEV",
+            "pt": "phev",
+            "hp": 184,
+            "cons": 4.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Honda CR-V Plug-in-Hybrid 130–140kW auto 2021–2025, 8 vehicles (petrol only, with charging)",
+              "url": "https://www.spritmonitor.de/de/uebersicht/18-Honda/174-CR-V.html?fueltype=6&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=130&power_e=140&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2024,
+          "note": "4 כוכבים באבזור סטנדרטי, 5 כוכבים עם חבילת בטיחות אופציונלית",
+          "url": "https://www.euroncap.com/en/results/honda/cr-v/51119"
+        }
       }
     },
     "zr-v": {

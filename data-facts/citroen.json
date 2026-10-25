@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "c3": {
       "Gen3": {
@@ -106,6 +106,68 @@
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7397/euroncap_citroen_c3_2009_4stars.pdf"
         }
+      },
+      "Gen4": {
+        "issues": [
+          {
+            "he": "דליפת דלק אפשרית בצינור הלחץ הגבוה בין המשאבה למסילה (אומים רופפים) — סכנת שריפה; לוודא ביצוע הקריאה (קוד GJ6) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "C3 V5 (הדור החדש) ודגמי סטלנטיס נוספים, ייצור 03/2024–04/2025",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 2024–2025 fuel fire, RAPEX 33/2025 SR/02935/25, code GJ6, 08/2025",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2024-2025-fuel-fire/?noamp=mobile"
+            }
+          },
+          {
+            "he": "מרווח קטן מדי בין צינור מסנן החלקיקים למכסה ההגנה של מתנע-אלטרנטור 48V; חדירת מים עלולה לגרום לקשת חשמלית ושריפה — לוודא ביצוע הקריאה (קוד GW6)",
+            "level": "recall",
+            "scope": "ייצור 22/11/2024–22/12/2025 (C3 ודגמי סטלנטיס נוספים)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 2024–2025 electronic fire, Safety Gate 12/2026 SR/00841/26, code GW6, 03/2026",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2024-2025-electronic-fire/"
+            }
+          },
+          {
+            "he": "רתמת ההגה החשמלי מנותבת בין שני ברגים ועלולה להינזק — קצר, אובדן סיוע הגה וסכנת שריפה; לוודא ביצוע הקריאה (קוד GW9)",
+            "level": "recall",
+            "scope": "C3 / C3 איירקרוס, ייצור 21/02/2025–21/05/2025",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 2025 steering fire, Safety Gate 12/2026 SR/00905/26, code GW9, 03/2026",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2025-steering-fire/"
+            }
+          },
+          {
+            "he": "תושבת דוושת הבלם עלולה להיות לא מעוגנת כראוי בגלל פין חסר או מורכב לא נכון — סכנת ניתוק הדוושה; לוודא ביצוע הקריאה (קוד GQ8)",
+            "level": "recall",
+            "scope": "C3 V5 / C3 איירקרוס, ייצור מ-15/05/2025 (עד 09–11/2025)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 2025 brakes, Safety Gate 50/2025 SR/04252/25, code GQ8, 12/2025",
+              "url": "https://car-recalls.eu/recall/citroen-c3-2025-brakes-injury/"
+            }
+          },
+          {
+            "he": "תקלת תוכנה במודול הגוף: אין התראה כשמערכת זיהוי מגבלת המהירות (ISA) טועה — עדכון תוכנה במוסך מורשה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "C3 / C3 איירקרוס, ייצור 05/04/2024–07/05/2025; KBA 15914R/15916R (קודים GQ7, GR2)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 & C3 Aircross ISA software, KBA 15914R/15916R, 01/2026",
+              "url": "https://car-recalls.eu/fr/citroen-c3-and-c3-aircross-intelligent-speed-assistance-error-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 44 קוט״ש",
+            "pt": "ev",
+            "hp": 113,
+            "cons": 17.2,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database — Citroën ë-C3 Standard Range 44 kWh, 172 Wh/km real-world estimate",
+              "url": "https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh"
+            }
+          }
+        ]
       }
     },
     "c4": {

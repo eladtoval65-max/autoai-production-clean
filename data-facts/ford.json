@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -230,6 +230,19 @@
               "url": "https://www.derbyshiretimes.co.uk/lifestyle/cars/ford-puma-recalled-and-roll-out-halted-over-airbag-fault-1996047"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין מיילד היברידי",
+            "pt": "mhev",
+            "hp": 125,
+            "cons": 6.26,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Puma 1.0 EcoBoost Hybrid 92 kW (125 PS) manual 2019–2023, 79 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/159-Puma.html?fueltype=2&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=87&power_e=97&gearing=1"
+            }
+          }
         ]
       }
     },
@@ -385,6 +398,358 @@
           "year": 2011,
           "url": "https://news.euroncap.com/safercars/euro%20ncap%20awards%20first%205%20star%20rating%20for%20a%20pick-up/s/e44bbad7-ff48-4a64-b3f2-c24e4b2b77f8"
         }
+      },
+      "P703": {
+        "issues": [
+          {
+            "he": "ייתכן שהאומים של צינורות הדלק בלחץ גבוה (בין המשאבה למזרקים) לא הודקו כראוי, ודליפת סולר על הטורבו או המפלט עלולה לגרום לשריפה — לבדוק אם יש ריח סולר בתא המנוע ולוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 21.7.2022–6.4.2023 (דרום אפריקה), קריאת פורד 23S58, Safety Gate A12/00187/24",
+            "source": {
+              "title": "car-recalls.eu — Ford Ranger 2022–2023 fuel line nuts, 23S58, Feb 2024",
+              "url": "https://car-recalls.eu/sk/odvolanie/ford-ranger-2022-2023-fuel-pump-injector/"
+            }
+          },
+          {
+            "he": "באג תוכנה: כשהמצבר חלש, התיבה עלולה להיכנס ל-P בנסיעה איטית (מתחת ל-6 קמ״ש) בלי שאורות הבלם נדלקים — לוודא עדכון תוכנה לפי מספר שלדה ולבדוק את מצב המצבר",
+            "level": "recall",
+            "scope": "אוסטרליה, דגמי 2021–2023, קמפיין 23S40 (REC-005759), הורחבה ב-REC-006541",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-005759, Ford Ranger/Everest 2021–2023, transmission park software",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005759"
+            }
+          },
+          {
+            "he": "במנוע 2.0 EcoBlue רצועת התזמון רצה בתוך השמן (wet belt). סולר שמדלל את השמן פוגע ברצועה, ושברי רצועה עלולים לסתום את מסננת משאבת השמן — לבקש היסטוריית טיפולים, להריח את השמן ולבדוק אם יש בו סולר, ולוודא החלפת רצועה לפי לוח הזמנים של פורד",
+            "level": "widely_reported",
+            "scope": "מנועי 2.0 EcoBlue דיזל",
+            "source": {
+              "title": "Autobiz.ie — Ford EcoBlue 2.0 timing belt issues",
+              "url": "https://www.autobiz.ie/aftermarket/ford-ecoblue-20-timing-belt-issues"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 ביטורבו דיזל",
+            "pt": "diesel",
+            "hp": 205,
+            "cons": 10.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Ranger 2.0 EcoBlue Bi-Turbo 205PS 2021–2025 automatic, 38 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/164-Ranger.html?fueltype=8&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=146&power_e=156&gearing=2"
+            }
+          },
+          {
+            "name": "3.0 V6 טורבו בנזין (ראפטור)",
+            "pt": "petrol",
+            "hp": 292,
+            "cons": 14.8,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Ranger Raptor 3.0 V6 292PS 2020–2024, 13 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/164-Ranger.html?fueltype=2&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=210&power_e=220&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/ford/ranger/48750"
+        }
+      }
+    },
+    "explorer": {
+      "U502": {
+        "issues": [
+          {
+            "he": "זרועות טואו (toe link) במתלה האחורי עלולות להישבר ולגרום לאובדן שליטה בהיגוי — לוודא ביצוע הקריאה (כולל ההרחבות מ-2020 ו-2021) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, דגמי 2011–2017 (19V-435, הורחבה ב-20V-675 וב-21V-537)",
+            "source": {
+              "title": "NHTSA — Recall 19V-435 (Ford 19S17), rear suspension toe links, June 2019",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCAK-19V435-5204.pdf"
+            }
+          },
+          {
+            "he": "משאבת המים במנוע 3.5 V6 פנימית ומונעת משרשרת התזמון. דליפה בה עלולה להכניס נוזל קירור לשמן ולהרוס את המנוע — לבדוק אם יש סימני דליפה מחור הניקוז, אם צריך להוסיף נוזל קירור שוב ושוב ואם יש תיעוד של החלפת המשאבה",
+            "level": "widely_reported",
+            "scope": "מנועי 3.5 V6 ו-3.5 EcoBoost (Cyclone), 2011–2019",
+            "source": {
+              "title": "The Autopian — Ford 3.5/3.7 Cyclone internal water pump failures",
+              "url": "https://www.theautopian.com/heres-how-a-bad-water-pump-design-can-total-an-older-ford-explorer-taurus-or-flex/"
+            }
+          },
+          {
+            "he": "תושבות ציר ההנעה (link shaft bracket) עלולות להישבר, ואז מצב P לא נועל והרכב עלול לזוז או לאבד הנעה — לבדוק לפי מספר שלדה אם הרכב כלול בקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 20V-692 (נובמבר 2020), חלק מהרכבים בלבד",
+            "source": {
+              "title": "CarComplaints — 2016 Ford Explorer recall list (NHTSA 20V692000)",
+              "url": "https://www.carcomplaints.com/Ford/Explorer/2016/recalls/index.shtml"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.5 V6 בנזין",
+            "pt": "petrol",
+            "hp": 290,
+            "cons": 12.4,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Explorer 3.5 V6 294PS 2011–2015, 13 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/754-Explorer.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=211&power_e=221&gearing=2"
+            }
+          }
+        ]
+      },
+      "U625": {
+        "issues": [
+          {
+            "he": "בורג תושבת הסרן האחורי עלול להישבר בהאצה – רעש ורעידות חזקים, ניתוק כוח לגלגלים האחוריים ואף הידרדרות הרכב במצב P. לבדוק רעשים/רעידות מאחור ולוודא ביצוע הקריאות (עדכון PCM ותיקון הבורגים) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Explorer 2020–2022, ייצור 22/10/2018–06/07/2022 (Chicago Assembly), כל המנועים",
+            "source": {
+              "title": "NHTSA — Recall 23V-675 (Ford 23S55), rear axle bolt fracture, Oct 2023",
+              "url": "https://static.nhtsa.gov/odi/rcl/2023/RCMN-23V675-2642.pdf"
+            }
+          },
+          {
+            "he": "המשך לאותה תקלת בורג סרן: עדכון תוכנה שמפעיל בלם חניה חשמלי אוטומטית בהעברה ל-P, ותוכנית שביעות רצון 22N06 לתיקון הבורגים/בית הסרן. לוודא שבוצעו 22S27 ו-23S16 (למי שפספס את העדכון)",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Explorer 2020 (22V-255, יוני 2022); 23V-199 – רכבים שלא קיבלו את העדכון, ייצור 02/2019–04/2022, 2.3/3.0 ST/3.3",
+            "source": {
+              "title": "NHTSA — Recall 22V-255 (Ford 22S27) owner letter, June 2022",
+              "url": "https://static.nhtsa.gov/odi/rcl/2022/RCONL-22V255-7626.pdf"
+            }
+          },
+          {
+            "he": "במנוע 2.3 עם תיבת 10R60: איפוס מחשב המנוע בנסיעה עלול לפגוע במנגנון החניה – הרכב לא נכנס ל-P ועלול לזוז. לבדוק שהרכב ננעל ב-P בשיפוע ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Explorer 2020–2022 2.3 ליטר, ייצור 13/05/2019–25/08/2022",
+            "source": {
+              "title": "NHTSA — Recall 23V-069 (Ford 23S05), park system damage, Feb 2023",
+              "url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V069-7584.PDF"
+            }
+          },
+          {
+            "he": "ברכבים עם מצלמת 360°: התמונה ממצלמה (כולל מצלמת הרוורס) עלולה להיעלם ולהיות מוחלפת במסך כחול. לבדוק את כל המצלמות בכמה התנעות ולוודא עדכון תוכנת מודול IPMB",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Explorer 2020–2023 עם מצלמת 360°, ייצור 19/10/2018–03/01/2023",
+            "source": {
+              "title": "NHTSA — Recall 23V-022 (Ford 23S02), 360-degree camera video loss, Jan 2023",
+              "url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V022-4349.PDF"
+            }
+          },
+          {
+            "he": "בסדרת ייצור מוקדמת רתמת חיווט לא מקובעת עלולה להתחכך בגלגלת המזגן – קצר וסכנת שריפה. ברכבי 2020 מוקדמים לוודא התקנת אזיקון הקיבוע (קריאה 19S32)",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Explorer 2020 2.3/3.3, ייצור 28/05/2019–18/07/2019",
+            "source": {
+              "title": "NHTSA — Recall 19V-687 (Ford 19S32), wiring harness contacting A/C pulley, Sep 2019",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V687-7105.PDF"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 V6 טורבו פלאג-אין",
+            "pt": "phev",
+            "hp": 457,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Explorer Plug-in-Hybrid Benzin, ממוצע 7.51 ל׳/100 ק״מ, 32 vehicles",
+              "url": "https://www.spritmonitor.de/de/uebersicht/17-Ford/754-Explorer.html"
+            }
+          }
+        ]
+      }
+    },
+    "mustang": {
+      "S550": {
+        "issues": [
+          {
+            "he": "צינור מקרר השמן עלול להתנתק ולגרום לאובדן שמן פתאומי, נזק למנוע וסכנת שריפה — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 16V-779, דגמי 2015–2017 שיוצרו בין 24.2.2015 ל-30.8.2016",
+            "source": {
+              "title": "NHTSA — Recall 16V-779 (Ford 16S40), engine oil cooler tube, Dec 2016",
+              "url": "https://static.nhtsa.gov/odi/rcl/2016/RCAK-16V779-4195.pdf"
+            }
+          },
+          {
+            "he": "תיבה ידנית MT82: דווח על העברות קשות כשהתיבה קרה, חריקות, בלאי סינכרונים ומצמד שנתקע. בנסיעת מבחן לבדוק את כל ההילוכים כשהרכב קר. יש עליה עלוני שירות של פורד (TSB 18-2267 ו-18-2175)",
+            "level": "manufacturer",
+            "scope": "תיבה ידנית 6 הילוכים MT82/MT82-D4, דגמי 2011–2019",
+            "source": {
+              "title": "Hagerty — Class action over Mustang MT82 gearbox, TSB 18-2267/18-2175",
+              "url": "https://www.hagerty.com/media/news/class-action-suit-targets-alleged-mustang-mt82-gearbox-defects/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.3 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 317,
+            "cons": 10.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Mustang 2.3 EcoBoost 317PS 2013–2017, 13 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/567-Mustang.html?fueltype=2&vehicletype=1&constyear_s=2013&constyear_e=2017&power_s=228&power_e=238&gearing=2"
+            }
+          },
+          {
+            "name": "5.0 V8 בנזין",
+            "pt": "petrol",
+            "hp": 450,
+            "cons": 12.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Mustang GT 5.0 V8 450PS 2017–2021, 148 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/567-Mustang.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=326&power_e=336&gearing=2"
+            }
+          }
+        ]
+      },
+      "S197": {
+        "issues": [
+          {
+            "he": "מנפח כרית האוויר של הנהג (טקאטה) עלול להתפוצץ בזמן פתיחת הכרית — לוודא לפי מספר שלדה שהמנפח הוחלף",
+            "level": "recall",
+            "scope": "קריאה בארה״ב 15V-319 (Ford 15S21), מוסטנג 2005–2014 שיוצרו עד 21.6.2014",
+            "source": {
+              "title": "NHTSA — Recall 15V-319, Takata PSDI-4 driver airbag inflator, 2015",
+              "url": "https://static.nhtsa.gov/odi/rcl/2015/RCLRPT-15V319-6950.PDF"
+            }
+          },
+          {
+            "he": "תיבה ידנית MT82: דווח על העברות קשות כשהתיבה קרה, חריקות ובלאי סינכרונים, ובייצור המוקדם גם על ברגי מצמד שמשתחררים. בנסיעת מבחן לבדוק את כל ההילוכים כשהרכב קר",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית 6 הילוכים MT82, דגמי 2011–2014",
+            "source": {
+              "title": "Hagerty — Class action over Mustang MT82 gearbox defects (2011–2019)",
+              "url": "https://www.hagerty.com/media/news/class-action-suit-targets-alleged-mustang-mt82-gearbox-defects/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.7 V6 בנזין",
+            "pt": "petrol",
+            "hp": 309,
+            "cons": 10.5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Mustang 3.7 V6 309PS 2009–2013 automatic, 17 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/567-Mustang.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=222&power_e=232&gearing=2"
+            }
+          },
+          {
+            "name": "5.0 V8 בנזין",
+            "pt": "petrol",
+            "hp": 426,
+            "cons": 12.8,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Ford Mustang GT 5.0 V8 426PS 2011–2015 manual, 32 vehicles",
+              "url": "https://www.spritmonitor.de/en/overview/17-Ford/567-Mustang.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=308&power_e=318&gearing=1"
+            }
+          }
+        ]
+      },
+      "S650": {
+        "issues": [
+          {
+            "he": "זרועות (knuckle) המתלה האחורי עלולות להכיל פגמי יציקה ולהישבר – שינוי זווית הגלגלים האחוריים ואובדן שליטה בבלימה/האצה. לוודא בדיקת מספרים סידוריים והחלפה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Mustang 2024 (בנזין), ייצור 25/07/2023–15/09/2023",
+            "source": {
+              "title": "NHTSA — Recall 24V-593, rear suspension knuckle casting defect, Aug 2024",
+              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V593-3301.PDF"
+            }
+          },
+          {
+            "he": "בגיר ידני: צינור לחץ המצמד עלול לא להיות מקובע, לגעת במערכת הפליטה ולהינמס – דליפת נוזל, אי-יכולת להחליף הילוך, דומם ואף סכנת שריפה. לבדוק דוושת מצמד ונזילות ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Mustang 2024 עם תיבה ידנית, ייצור 27/09/2022–23/05/2024",
+            "source": {
+              "title": "NHTSA — Recall 24V-394 (Ford 24S36), clutch pressure line, 2024",
+              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V394-6519.PDF"
+            }
+          },
+          {
+            "he": "עודף שרוול מתכווץ על עין הארקה ברתמת החיווט עלול לפגוע בפעולת מערכות ברכב; באוסטרליה הוכרזה קריאה ועצירת מכירות. לוודא מול היבואן אם הרכב כלול ואם בוצע תיקון",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה (ספט׳ 2026): קופה וקבריולט שיוצרו 05/2023–05/2026, ללא Dark Horse",
+            "source": {
+              "title": "CarExpert — Ford Mustang recalled, stop-sale issued in Australia, 14 Sep 2026",
+              "url": "https://www.carexpert.com.au/car-news/ford-mustang-recalled-stop-sale-issued-in-australia"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "5.0 V8 בנזין",
+            "pt": "petrol",
+            "cons": 14.7,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2025 Ford Mustang GT Fastback review, measured 14.7 L/100km (380 km, auto)",
+              "url": "https://www.carexpert.com.au/car-reviews/2025-ford-mustang-gt-fastback-review"
+            }
+          },
+          {
+            "name": "2.3 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 315,
+            "cons": 10.7,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2026 Ford Mustang EcoBoost Fastback review, as tested 10.7 L/100km",
+              "url": "https://www.carexpert.com.au/car-reviews/2026-ford-mustang-ecoboost-fastback-review"
+            }
+          }
+        ]
+      }
+    },
+    "bronco": {
+      "U725": {
+        "issues": [
+          {
+            "he": "שסתומי יניקה במנועי 2.7/3.0 EcoBoost עלולים להישבר בנסיעה ולגרום לכשל מנוע — לוודא ביצוע הקריאה (בדיקת מחזור מנוע והחלפת מנוע לפי הצורך) לפי מספר שלדה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Bronco 2021–2022 עם 2.7 EcoBoost; NHTSA 24V635, פורד 24S55 (2024)",
+            "source": {
+              "title": "NHTSA — Recall 24V635, 2.7L/3.0L Nano EcoBoost intake valves (2024)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V635-9443.pdf"
+            }
+          },
+          {
+            "he": "גג קשיח (Molded-In-Color) עלול להתקלף/להיסדק ובמקרים חמורים חלקים מהשכבה החיצונית ניתקים בנסיעה — לבדוק סדקים והתקלפות בגג ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: Bronco 2021–2022 גג קשיח MIC; 3 דלתות ייצור 23.9.2020–13.1.2022, 5 דלתות עד 22.10.2021; NHTSA 26V299 (2026)",
+            "source": {
+              "title": "PickupTruckTalk — 2021–2022 Bronco hardtop recall, NHTSA 26V299 (May 2026)",
+              "url": "https://pickuptrucktalk.com/2026/05/2021-2022-ford-bronco-recall-16k-hard-top-detach/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.3/2.7 טורבו בנזין (ממוצע כל המנועים, שנתון 2022)",
+            "pt": "petrol",
+            "cons": 13.46,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2022 Ford Bronco, 17.47 MPG(US), 175 vehicles (all engines)",
+              "url": "https://www1.fuelly.com/car/ford/bronco/2022"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "sportage": {
       "NQ5": {
@@ -1095,6 +1095,74 @@
             "source": {
               "title": "autocentrum.pl — Kia Carnival II 2.2 CRDi VGT 195 KM: real-world average from only 6 user reports",
               "url": "https://www.autocentrum.pl/spalanie/kia/carnival/ii/silnik-diesla-2.2-crdi-vgt-195km-2010-2010/"
+            }
+          }
+        ]
+      }
+    },
+    "ev9": {
+      "MV": {
+        "issues": [
+          {
+            "he": "תקלת תוכנה במערכת הבלימה האלקטרונית המשולבת (IEB): בשימוש בחניה מרחוק דרך המפתח (RSPA) נדרש כוח בלימה גבוה יותר ומרחק העצירה מתארך — לוודא ביצוע עדכון התוכנה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "כל גרסאות EV9 שנת דגם 2023–2024 (קריאה באוסטרליה, קמפיין 241164)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Kia MV EV9 2023–2024, REC-006126 (IEB software)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006126"
+            }
+          },
+          {
+            "he": "פגם ייצור: חלק מהרכבים הורכבו ללא ברגי עיגון של מושבים, והמושב עלול לזוז בבלימה חזקה או בתאונה — לוודא ביצוע הקריאה לפי מספר שלדה ולבדוק שהמושבים מקובעים היטב",
+            "level": "recall",
+            "scope": "EV9 שנת דגם 2023–2024 (קריאה באוסטרליה, קמפיין 251010, ינואר 2025)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Kia MV EV9 2023–2024, REC-006250 (missing seat mounting bolts)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006250"
+            }
+          },
+          {
+            "he": "הגנה לא מספקת של ריפוד התקרה (headliner) בתאונה — בקריאה מוחלפות לוחיות סופגות האנרגיה בתקרה; לוודא ביצוע הקריאה לפי מספר שלדה ברכבים מייצור 2023–2024",
+            "level": "recall",
+            "scope": "קריאה בארה״ב: EV9 שנת דגם 2024 שיוצרו 25.9.2023–21.3.2024 (NHTSA 24V400, Kia SC317)",
+            "source": {
+              "title": "CBT News — Kia EV9 headliner recall, NHTSA 24V400, June 2024",
+              "url": "https://www.cbtnews.com/kia-recalls-over-2000-ev9-electric-suvs-due-to-inadequate-headliner-protection/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 76.1 קוט״ש הנעה אחורית",
+            "pt": "ev",
+            "hp": 215,
+            "cons": 20.9,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Kia EV9 76.1 kWh RWD, real consumption 209 Wh/km",
+              "url": "https://ev-database.org/car/1833/Kia-EV9-761-kWh-RWD"
+            }
+          },
+          {
+            "name": "חשמלי 99.8 קוט״ש הנעה אחורית",
+            "pt": "ev",
+            "hp": 201,
+            "cons": 21.3,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Kia EV9 99.8 kWh RWD, real consumption 213 Wh/km",
+              "url": "https://ev-database.org/de/pkw/1834/Kia-EV9-998-kWh-RWD"
+            }
+          },
+          {
+            "name": "חשמלי 99.8 קוט״ש הנעה כפולה",
+            "pt": "ev",
+            "hp": 380,
+            "cons": 22.1,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Kia EV9 99.8 kWh AWD, real consumption 221 Wh/km",
+              "url": "https://ev-database.org/car/1835/Kia-EV9-998-kWh-AWD"
             }
           }
         ]
