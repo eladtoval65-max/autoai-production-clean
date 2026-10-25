@@ -807,6 +807,19 @@
           "year": 2024,
           "url": "https://news.euroncap.com/images-and-videos/-koda-superb---euro-ncap-2024-results---5-stars/s/3ae9f756-08aa-4560-bf22-77fd26e098a2"
         },
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין מיילד-היברידי",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Skoda Superb IV 1.5 TSI (110 kW): reported real-world average 7.2 l/100 km from only 7 user reports",
+              "url": "https://www.autokostencheck.de/Skoda/Skoda-Superb/Superb-IV/superb-1-5-tsi-nz_50778/verbrauch/"
+            }
+          }
+        ],
         "launchPrice": {
           "ils": 202490,
           "year": 2024,

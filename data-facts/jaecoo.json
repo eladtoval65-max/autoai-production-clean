@@ -1,0 +1,113 @@
+{
+  "make": "jaecoo",
+  "updated": "2026-10-25",
+  "models": {
+    "jaecoo-7": {
+      "J7": {
+        "issues": [
+          {
+            "he": "קריאת שירות (בריטניה ואירופה): תפס צמת החיווט של מחשב המנוע (ECU) לא הותקן עד הסוף. השחיקה עלולה להדליק נורת מנוע ולגרום לדום מנוע בנסיעה. התיקון: בדיקת התפס והחלפת הצמה במידת הצורך. לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "1.6 טורבו בנזין, ייצור 04/2025–12/2025",
+            "source": {
+              "title": "UK DVSA recall R/2026/069 (02-03-2026) — Jaecoo 7 ICE (T1EJ) wiring harness interference, 7,317 vehicles",
+              "url": "https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make/OMODA%20and%20JAECOO%20UK%20LIMITED/model/JAECOO%207%20ICE/year/2025/recalls"
+            }
+          },
+          {
+            "he": "קריאת שירות עולמית (KBA): חיבור לקוי בין מחשב המנוע לצמת החיווט עלול לגרום לכשל במערכת ההנעה. כ-19,758 רכבים בעולם. לוודא מול היבואן לפי מספר שלדה אם הרכב בתחולה ואם התיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 1.4.2025–8.12.2025",
+            "source": {
+              "title": "car-recalls.eu — Jaecoo 7 ECU wiring harness, KBA 16221R, RC-2026-001-EU (KBA 08.04.2026)",
+              "url": "https://car-recalls.eu/sk/the-jaecoo-7recall-lose-power-wiring-control-unit-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות (אוסטרליה): צמת חיווט מתחת למושבים הקדמיים עלולה להתחכך בתושבת קורת המושב ולהינזק, ולגרום לאובדן הנעה או כיבוי מנוע ללא אזהרה. לוודא מול היבואן אם הרכב בתחולה.",
+            "level": "recall",
+            "scope": "ייצור 2025–2026 (171 רכבים באוסטרליה, REC-006694) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — Jaecoo J7 recalled (Aug 2026): under-seat wiring harness, REC-006694",
+              "url": "https://www.carexpert.com.au/car-news/jaecoo-j7-recalled-1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 147,
+            "cons": 8.6,
+            "unit": "L",
+            "source": {
+              "title": "autocentrum.pl — Jaecoo 7 1.6T 147 KM (2025–): owner-reported average 8.6 l/100 km from 17 reports",
+              "url": "https://www.autocentrum.pl/spalanie/jaecoo/7/silnik-benzynowy-1.6t-147km-od-2025/"
+            }
+          },
+          {
+            "name": "1.5 טורבו פלאג-אין היברידי (SHS)",
+            "pt": "phev",
+            "cons": 6.7,
+            "unit": "L",
+            "source": {
+              "title": "autocentrum.pl — Jaecoo 7 1.5 SuperHybrid 204 KM (2025–): owner-reported petrol average 6.7 l/100 km from only 7 reports (depends on charging habits)",
+              "url": "https://www.autocentrum.pl/spalanie/jaecoo/7/silnik-hybrydowy-1.5-superhybrid-204km-od-2025/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/jaecoo-7-phev---euro-ncap-2025-results---5-stars/s/bbdedb15-f910-48b3-88ed-6c393b8a73b3"
+        },
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2024,
+          "note": "אקזקיוטיב, 1.6 טורבו, הנעה קדמית",
+          "source": {
+            "title": "Cartube — ג'אקו J7 בישראל, מחיר 169,900 שקל (24.07.2024)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ג-אקו-j7-בישראל-מחיר-169900-שקל"
+          }
+        }
+      }
+    },
+    "omoda-5": {
+      "C5": {
+        "issues": [
+          {
+            "he": "קריאת שירות (אוסטרליה): בורג חיבור צינור הבלמים עלול שלא להיות מהודק מספיק, ונוזל בלמים עלול לדלוף — פגיעה בבלימה. לוודא לפי מספר שלדה שהקריאה בוצעה ולבדוק סימני דליפה ומפלס נוזל בלמים.",
+            "level": "recall",
+            "scope": "שנתונים 2022–2023 (5,901 רכבים באוסטרליה, REC-005891) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — Chery Omoda 5 recalled (9 Feb 2024): brake pipe union bolt",
+              "url": "https://www.carexpert.com.au/car-news/chery-omoda-5-recalled"
+            }
+          },
+          {
+            "he": "קריאת שירות (מלזיה, 2024 ושוב 2026): ריתוכים בזרועות הסרן האחורי עלולים להיות חלשים ולהישבר. צ'רי הודיעה על בדיקות מונעות גם בשווקים נוספים. לברר מול היבואן אם הרכב בתחולה, ולבדוק בהרמה את אזור הסרן האחורי.",
+            "level": "recall",
+            "scope": "דגם לפני מתיחת פנים; הרכבה מקומית במלזיה — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CnEVPost — Chery recalls 8,878 Omoda 5 in Malaysia over rear axle trailing-arm welds (12 Oct 2026)",
+              "url": "https://cnevpost.com/2026/10/12/chery-recalls-omoda-5-malaysia/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 147,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "autocentrum.pl — Omoda 5 1.6 T-GDI 147 KM (2024–): owner-reported average 8.3 l/100 km from 33 reports",
+              "url": "https://www.autocentrum.pl/spalanie/omoda/5/silnik-benzynowy-1.6-t-gdi-147km-od-2024/"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

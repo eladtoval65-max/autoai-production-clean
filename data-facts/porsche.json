@@ -1,6 +1,6 @@
 {
   "make": "porsche",
-  "updated": "2026-10-21",
+  "updated": "2026-10-25",
   "models": {
     "macan": {
       "95B": {
@@ -80,7 +80,10 @@
             "source": { "title": "australiancar.reviews — Porsche 92A Cayenne S Hybrid fuel rail recall (2015)", "url": "https://australiancar.reviews/recalls-faults-porsche-92a-cayenne-2010-17/" }
           }
         ],
-        "engines": [],
+        "engines": [
+          { "name": "3.0 V6 טורבו דיזל", "pt": "diesel", "hp": 245, "cons": 9.8, "unit": "L",
+            "source": { "title": "autokostencheck.de — Porsche Cayenne II Diesel 3.0 TDI (92A, 2011–2014) 180 kW: reported real-world average 9.8 l/100 km from 2,798 user reports", "url": "https://www.autokostencheck.de/Porsche/Porsche-Cayenne/Cayenne-II/cayenne-diesel-3-0-tdi-92a_36126/verbrauch/" } }
+        ],
         "ncap": { "stars": null, "note": "הדור הזה לא נבחן ב-Euro NCAP" },
         "launchPrice": null
       },

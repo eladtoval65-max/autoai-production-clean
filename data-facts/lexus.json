@@ -48,6 +48,19 @@
               "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005410"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי (350h)",
+            "pt": "hybrid",
+            "hp": 244,
+            "cons": 6.28,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Lexus NX350h (hybrid, model sold only in this generation): average of 26 vehicles / 960 fill-ups",
+              "url": "https://www.spritmonitor.de/en/overview/26-Lexus/2000-NX350h.html"
+            }
+          }
         ]
       }
     },

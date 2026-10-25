@@ -28,6 +28,35 @@
             }
           }
         ]
+      },
+      "ZS Hybrid+": {
+        "engines": [
+          {
+            "name": "1.5 היברידי",
+            "pt": "hybrid",
+            "hp": 194,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "Auto Express — MG ZS Hybrid+ mpg: 48.7 mpg (UK) ≈ 5.8 L/100km in 'fairly typical use across a variety of roads' (single test car)",
+              "url": "https://autoexpress.co.uk/mg/zs/mpg"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/mg-zs-hybrid---euro-ncap-2024-results---4-stars/s/248e14cf-bbf6-4fe3-8c72-05f19e7e36bf"
+        },
+        "launchPrice": {
+          "ils": 155888,
+          "year": 2024,
+          "note": "רמת גימור יחידה LUXURY",
+          "source": {
+            "title": "Bizportal — MG ZS חדשה: קרוסאובר היברידי חסכוני ולא יקר (11.11.2024)",
+            "url": "https://www.bizportal.co.il/car/news/article/836459"
+          }
+        }
       }
     },
     "zs-ev": {

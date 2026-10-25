@@ -281,6 +281,19 @@
               "url": "https://car-recalls.eu/recall/subaru-forester-2019-ignition-coil-fire/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בוקסר היברידי (e-Boxer)",
+            "pt": "hybrid",
+            "hp": 150,
+            "cons": 8.26,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Subaru Forester e-Boxer 105–115 kW, CVT, model years 2022–2026: average of 12 vehicles / 1,247 fill-ups",
+              "url": "https://www.spritmonitor.de/de/uebersicht/47-Subaru/407-Forester.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=105&power_e=115&gearing=3"
+            }
+          }
         ]
       },
       "דור 3": {
@@ -448,6 +461,19 @@
             "source": {
               "title": "car-recalls.eu — Subaru Outback (2021–2022) reversing lights and camera switch, Subaru SRT351, KBA 013830 (May 2024)",
               "url": "https://car-recalls.eu/es/subaru-outback-failure-reversing-lights-camera-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 169,
+            "cons": 8.38,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Subaru Outback petrol 119–129 kW, CVT, model years 2021–2025: average of 84 vehicles / 5,527 fill-ups",
+              "url": "https://www.spritmonitor.de/de/uebersicht/47-Subaru/411-Outback.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=119&power_e=129&gearing=3"
             }
           }
         ]

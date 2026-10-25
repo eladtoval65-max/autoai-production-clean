@@ -1,6 +1,6 @@
 {
   "make": "cupra",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "formentor": {
       "KM7": {
@@ -133,7 +133,20 @@
           "stars": 5,
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/cupra-leon---euro-ncap-2020-results---5-stars/s/0472dc0f-eeef-46c3-a975-adfbaeda58ce"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Cupra Leon 1.5 TSI (KL) 110 kW: reported real-world average 7.6 l/100 km from 136 user reports",
+              "url": "https://www.autokostencheck.de/Cupra/Cupra-Leon/Leon/cupra-leon-1-5-tsi-kl_50056/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

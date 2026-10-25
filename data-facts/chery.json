@@ -1,6 +1,6 @@
 {
   "make": "chery",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "tiggo-7": {
       "T1E": {
@@ -66,6 +66,19 @@
             }
           }
         ],
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין היברידי",
+            "pt": "phev",
+            "hp": 347,
+            "cons": 5.5,
+            "unit": "L",
+            "source": {
+              "title": "auto.co.il — צ'רי טיגו 8 פרו במבחן טווח (10.07.2025): 18.3 ק\"מ לליטר בממוצע לאורך יותר מ-1,100 ק\"מ שהתחילו בסוללה מלאה, נהיגה מעורבת (מבחן בודד)",
+              "url": "https://www.auto.co.il/articles/general-articles/139320/"
+            }
+          }
+        ],
         "launchPrice": {
           "ils": 167990,
           "year": 2022,
@@ -96,6 +109,18 @@
             "source": {
               "title": "CarExpert — Chery Tiggo 4 Hybrid recalled (Sep 2026)",
               "url": "https://www.carexpert.com.au/car-news/chery-tiggo-4-hybrid-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 היברידי",
+            "pt": "hybrid",
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert NZ — 2026 Chery Tiggo 4 Hybrid review (1 May 2026): reviewer matched the 5.4 L/100km claim over a test week of ~50:50 motorway/urban driving (single-car test, not a fleet average)",
+              "url": "https://www.carexpert.co.nz/car-reviews/2026-cherry-tiggo-4-hybrid-review"
             }
           }
         ],
