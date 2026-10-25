@@ -406,3 +406,40 @@ Notes added for folded variants: Elantra N, Ioniq 5 N, Sportage Long, Octavia RS
 Genesis re-checked (https://www.carzone.co.il/Genesis opened this time; https://www.cartube.co.il/מחירון-רכב-חדש/ג-נסיס): ours match carzone — no change. Genesis G90 (both agree 849,900–899,900) not added: generation data not verified today.
 Still open (conflicting sources, unchanged): Lynk & Co 02 (carzone 159,900–169,900 vs cartube 171,900–179,900), BYD Dolphin (cartube only), Mercedes EQA / A-Class / EQB, VW T-Roc / ID.4 / ID. Buzz, Audi A6, Taycan, RR Sport. MG Cyberster: carzone 2026 compare and cartube now agree on 363,888–393,888 (ours).
 Totals now: catalog 60 cars; generations.ts 48 makes, 316 models.
+
+## 2026-10-25 (daily agent)
+Prices checked today: carzone.co.il brand pages /Toyota /Lexus/ /Hyundai /Kia /Genesis/ /Subaru /Suzuki /Skoda /Volkswagen /SEAT /Audi /Nissan /Isuzu /Ford /Tesla /BYDAuto /Omoda-Jaecoo /chery/ /Geely/ /ZEEKR/ /LynkCo /Smart /Deepal /XPENG/ /leapmotor /Ora /MG /KGM/ /Peugeot /Citroen /DS-Automobiles /Opel /Jeep /Fiat /Alfa-Romeo /Renault /Dacia /Mercedes-Benz /BMW /MINI /Volvo /Land-Rover; cartube.co.il price lists for Mazda, Mitsubishi, Polestar and as second source for Toyota, Lexus, Hyundai, Kia, Genesis, Subaru, Honda, Suzuki, VW, Seat, Cupra, Audi, Porsche, Nissan, Tesla, BYD, Omoda/Jaecoo, Chery, Geely, Lynk & Co, Smart, Deepal, XPENG, Leapmotor, ORA, MG, KGM, Peugeot, Citroën, Jeep, Alfa Romeo, Renault, Dacia, Mercedes, BMW (opened today), Land Rover. Could not open: carzone /Honda (HR-V model page used), /Cupra, /Porsche (Cupra and Porsche checked on cartube only — no changes applied); cartube Skoda, MINI, Volvo lists. `PRICES_VERIFIED` → 2026-10-25.
+
+Price changes (generations.ts):
+- Audi Q4 e-tron: ₪299,000–359,900 → ₪314,900–379,900 (Q4 314,900–377,800 on both https://www.carzone.co.il/Audi and https://www.cartube.co.il/מחירון-רכב-חדש/10-אודי; Sportback 334,900–379,900 carzone, cartube to 397,800). Note updated.
+- Audi A6: price null → ₪484,000–629,000 (carzone https://www.carzone.co.il/Audi; cartube 484,500–629,000 — now within ₪500).
+- MG4: ₪119,888 → ₪119,888–144,888 (carzone model page https://www.carzone.co.il/MG/4 Urban 119,888 / Luxury 142,888 / X-Range 144,888; https://www.cartube.co.il/מחירון-רכב-חדש/6-mg agrees).
+Status → discontinued, price null (absent from the carzone brand page AND absent / "לא משווק יותר" on cartube): Toyota C-HR (https://www.cartube.co.il/מחירון-רכב-חדש/36-טויוטה), VW Polo (https://www.cartube.co.il/מחירון-רכב-חדש/60-פולקסווגן), Seat Ateca and Tarraco (https://www.cartube.co.il/מחירון-רכב-חדש/54-סיאט), Geely Okavango, Preface, Coolray (https://www.cartube.co.il/מחירון-רכב-חדש/26-ג-ילי).
+Catalog: no price changes — every catalog trim price matched its source today.
+
+Checked and left unchanged — needs owner review:
+- Jeep Avenger: carzone 164,900–179,900 (https://www.carzone.co.il/Jeep/Avenger) vs cartube ICE 159,900–174,900 (EV 179,900–199,900); ours 164,900–174,900.
+- Subaru BRZ: carzone 229,900–259,900 vs cartube 229,900–249,900 (ours).
+- MG ZS: carzone model page 136,888–137,888 vs cartube 137,888 (ours). MG HS: cartube has no 154,888 petrol trim.
+- One-source "no longer marketed" (cartube only; carzone still lists): ORA 07, MG5, KGM Tivoli (also in catalog), Voyah Free/Dream. Kia EV6: cartube brand list 309,900 but its trim page says no longer marketed; carzone absent.
+- Porsche (carzone failed; cartube only): Macan 635,000–930,000 (ours 587,000–877,000), Cayenne 695,000–1,075,000 (ours 787,000–1,507,000) — not applied.
+- Toyota Yaris Cross Urban (carzone 160,990 vs cartube 162,490), Corolla (159,900 vs 159,990), Land Cruiser top (527,990 vs 530,990), Outback (279,900 vs 279,990) — kept.
+- Renault 5 min 168,999 on carzone (= ours) vs 168,990 cartube — likely a carzone typo; kept.
+- Toyota C-HR / Polo / Seat / Geely status changes above: the generation data stays (used market).
+- Catalog notes: Tucson "Premium 1.6T" ₪189,990 — cartube names the trim at that price "1.6 Turbo Hybrid One"; Tesla Model Y trim is "Premium RWD" on cartube; several catalog priceMin values (C3 94,000, Seal U 188,000, J8 215,000, Tiggo 4 126,000, Model Y 235,000) are below the line minimum (pre-existing convention, see 2026-10-24).
+- Still open (sources disagree, unchanged): Lynk & Co 02, BYD Dolphin (cartube only) and Atto 2 Boost, Leapmotor T03, ORA 03, Mercedes A-Class / EQA / EQB / GLS / EQE / EQE SUV / G-Class, Range Rover / RR Sport, VW ID. Buzz (max 452,000 vs 455,000), T-Roc / ID.4 (cartube only), Audi A8 / e-tron GT / Q6 e-tron (cartube ~120k higher), Porsche Taycan / Panamera / 911, Hyundai Staria, Alfa Romeo Stelvio (cartube only), Renault Austral, Honda HR-V top.
+
+Models added to generations.ts (10). Prices from the carzone brand pages, second source cartube; generations/engines/power from English Wikipedia (Genesis_G90, Mercedes-Benz_EQS_SUV, Mercedes-Benz_SL-Class / SL_(R232), BMW_2_Series_(F22) / (G42), XPeng_X9, Skyworth_EV6, Voyah_Courage, Nammi_01, Aeolus_Haohan, Roewe_Marvel_X); consumption figures are typical real-world estimates:
+- Genesis G90 ₪849,900–899,900 (https://www.carzone.co.il/Genesis/ + https://www.cartube.co.il/מחירון-רכב-חדש/ג-נסיס agree). No generation codes on Wikipedia → "Gen1"/"Gen2". NCAP null.
+- Mercedes EQS SUV (X296): price null — carzone 874,900–1,039,900 vs cartube 990,000–1,350,000. NCAP null (EQS 2021 rating covers the hatchback only).
+- Mercedes SL (R230/R231/R232): price null — carzone 999,900–1,899,900 vs cartube 1,390,000–1,950,000.
+- BMW 2 Series Coupé (F22/G42) ₪319,900–329,900 (218i trims, carzone https://www.carzone.co.il/BMW and https://www.cartube.co.il/מחירון-רכב-חדש/ב-מ-וו/ב-מ-וו-סדרה-2 agree; M240i noted). G42 4★ 2022 (https://www.euroncap.com/en/results/bmw/2+series+coup%C3%A9/45236).
+- XPENG X9 (H93) ₪399,990 (carzone https://www.carzone.co.il/XPENG/ + https://www.cartube.co.il/מחירון-רכב-חדש/22-אקספנג/109-אקספנג-x9). 5★ 2026 (https://www.euroncap.com/assessments/xpeng/x9/1231/).
+- MG Marvel R: discontinued (carzone MG page says replaced by S6, no price; no cartube listing). 4★ 2021 (https://www.euroncap.com/en/results/mg/marvel+r/43818). Power 180–288 hp from carzone (Wikipedia inconsistent).
+- New make Skywell: ET5 ₪166,900–187,900 (https://www.carzone.co.il/Skywell + https://www.cartube.co.il/מחירון-רכב-חדש/סקייוול/סקייוול-et5).
+- New make Voyah: Courage ₪175,900–190,900 (https://www.carzone.co.il/Voyah/Courage/ + https://www.cartube.co.il/מחירון-רכב-חדש/33-וויה); 5★ 2025 (https://www.euroncap.com/en/results/voyah/courage/54896).
+- New make Dongfeng: Box price null — carzone 104,900 (https://www.carzone.co.il/Dongfeng/Box/) vs cartube 113,900; 3★ 2025 (https://www.euroncap.com/en/results/dongfeng/box/57178). Mage ₪149,900 (https://www.carzone.co.il/Dongfeng/Mage/ + cartube trim page 6994 agree; Israeli spec 1.5T PHEV 188 hp, 17 kWh).
+- Not added: Mercedes GLC Coupé (coupé generation years not verified), Voyah Free/Dream (sources disagree on whether sold).
+
+Models added to the recommendation catalog (5, `scripts/seed-vehicles-batch19.ts`): Toyota Yaris Hybrid (Eco ₪140,990), Peugeot 2008 (Allure MHEV ₪149,990), Mazda CX-5 (Comfort AWD ₪189,900), Skoda Karoq (Selection ₪169,490), Kia Seltos (LX Plus ₪164,900). Sources per figure in the batch header; running costs are estimates, dataConfidence 56–60. None of the five is in the H1 2026 top 20 (https://www.queenoftheroad.co.il/?p=86435) — chosen as the most common mainstream models still missing from the catalog. Photo mappings added for Yaris, CX-5, Karoq, Seltos.
+Totals now: catalog 65 cars; generations.ts 51 makes, 326 models.

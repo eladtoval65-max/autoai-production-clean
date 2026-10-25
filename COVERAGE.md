@@ -135,3 +135,16 @@ The daily market agent works through this list top to bottom and ticks items off
 - Folded variants stay inside their base line, with the variant price in the generation note: Elantra N, Ioniq 5 N, Sportage Long, Octavia RS, Golf GTI, MG EHS, GV70 Electrified (+ cartube 3.5 Sport), GV80 Coupé, Cayenne Coupé, GLE Coupé, Atto 2 EV, e-3008 / e-5008, Leapmotor B10/C10 REEV.
 - Catalog fixes: MG4 Luxury → ₪142,888; Qashqai trim → e-Power Tekna ₪227,990; J7 → Executive 1.6T ₪169,900; Yaris Cross line top → ₪163,990.
 - Genesis re-checked on both sites: GV60 / GV70 ranges match carzone (cartube differs at the top) — kept.
+
+## Done 2026-10-25
+- [x] generations.ts: Genesis G90; Mercedes EQS SUV (price null), SL (price null; body "sedan" as for Z4/911); BMW 2 Series Coupé; XPENG X9; MG Marvel R (discontinued); new makes Skywell (ET5), Voyah (Courage), Dongfeng (Box — price null, Mage)
+- [x] Catalog (batch 19): Toyota Yaris Hybrid, Peugeot 2008, Mazda CX-5, Skoda Karoq, Kia Seltos
+- [x] Status → discontinued (absent from both carzone and cartube): Toyota C-HR, VW Polo, Seat Ateca, Seat Tarraco, Geely Okavango / Preface / Coolray
+
+## Queue — seen 2026-10-25, not yet covered
+- [ ] Mercedes GLC Coupé (carzone 505,900–679,900 vs cartube 499,900–709,900; C253/C254 coupé years not verified on Wikipedia), GLC EQ (₪439,900–639,900), CLE Cabrio (₪479,900–559,900, fold into CLE?), AMG GT 4-door, CLS (cartube only)
+- [ ] Voyah Free (₪399,985) / Dream (₪429,985): carzone lists them, cartube marks them no longer marketed — wait for agreement
+- [ ] BMW iX1 (₪379,900–409,900) / iX2 (₪394,900–424,900) separate lines?; i5, iX, 8 Series (cartube only)
+- [ ] Citroën C4 X (₪129,990, both sources agree), Renault Kangoo (₪177,990, both agree), Opel Zafira / Combo Life XL, Fiat Ulisse, Alfa Romeo Tonale (cartube only)
+- [ ] Commercial: Toyota City / ProAce (Verso), Peugeot Boxer, Citroën Jumpy, Fiat Scudo / Ducato, Renault Trafic / Master, Ford F-250 / F-350 / E-Transit, VW Caddy / Transporter / Crafter / Amarok / Caravelle
+- [ ] VW Taigo, ID.5, ID.7 (cartube only); Cupra Tavascan (cartube only, carzone /Cupra failed); Porsche 718 Cayman / Boxster (cartube only)

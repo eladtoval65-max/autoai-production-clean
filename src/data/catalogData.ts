@@ -685,6 +685,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "toyota-yaris-hybrid",
+  "make": "Toyota",
+  "model": "Yaris Hybrid",
+  "trim": "Eco 1.5 HEV",
+  "bodyType": "hatchback",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 286,
+  "powerHp": 116,
+  "consumption": 3.9,
+  "price": 140990,
+  "priceMin": 140990,
+  "priceMax": 143990,
+  "sampleSize": null,
+  "newPrice": 140990,
+  "reliability": 88,
+  "safety": 76,
+  "economy": 92,
+  "comfort": 70,
+  "practicality": 62,
+  "insuranceMin": 385,
+  "insuranceMax": 553,
+  "why": "רכב עירוני היברידי: 1.5 בנזין ומנוע חשמלי, 116 כ\"ס ותיבה רציפה; צריכה מוצהרת 25.6 ק\"מ לליטר. Euro NCAP ‏(12/2025): 4 כוכבים.",
+  "pros": [
+   "חסכוני מאוד בדלק",
+   "היברידי מלא בלי צורך בטעינה",
+   "קל לתפעול"
+  ],
+  "cons": [
+   "תא מטען קטן (286 ליטר)",
+   "מרווח צפוף מאחור",
+   "4 כוכבי Euro NCAP"
+  ],
+  "confidence": 60,
+  "priceSource": "auto.co.il Yaris 2026 Eco + cartube Toyota Yaris price list (2026-10-25)",
+  "bands": {
+   "7000": {
+    "fuel": 188,
+    "insurance": 474,
+    "maintenance": 150,
+    "depreciation": 1175,
+    "total": 2108
+   },
+   "15000": {
+    "fuel": 403,
+    "insurance": 474,
+    "maintenance": 170,
+    "depreciation": 1175,
+    "total": 2343
+   },
+   "25000": {
+    "fuel": 672,
+    "insurance": 474,
+    "maintenance": 190,
+    "depreciation": 1175,
+    "total": 2632
+   }
+  }
+ },
+ {
   "id": "mg-mg4-electric",
   "make": "MG",
   "model": "MG4 Electric",
@@ -865,6 +926,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 258,
     "depreciation": 1225,
     "total": 3001
+   }
+  }
+ },
+ {
+  "id": "peugeot-2008",
+  "make": "Peugeot",
+  "model": "2008",
+  "trim": "Allure 1.2T MHEV",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 434,
+  "powerHp": 145,
+  "consumption": 5,
+  "price": 149990,
+  "priceMin": 147990,
+  "priceMax": 159990,
+  "sampleSize": null,
+  "newPrice": 149990,
+  "reliability": 70,
+  "safety": 70,
+  "economy": 82,
+  "comfort": 76,
+  "practicality": 70,
+  "insuranceMin": 399,
+  "insuranceMax": 574,
+  "why": "קרוסאובר קטן: 1.2 טורבו בנזין עם מערכת מיילד-היברידית 48V, ‏145 כ\"ס ותיבה כפולת מצמד; צריכה מוצהרת 20 ק\"מ לליטר. Euro NCAP ‏(2019, לפני מתיחת הפנים): 4 כוכבים, 5 עם חבילת הבטיחות.",
+  "pros": [
+   "עיצוב חיצוני ופנימי",
+   "התנהגות כביש טובה",
+   "מנוע זריז וחסכוני"
+  ],
+  "cons": [
+   "ארגונומיה דורשת הסתגלות (מיזוג במסך)",
+   "מושב אחורי צפוף",
+   "דירוג Euro NCAP ישן (2019)"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il 2008 MHEV Allure + cartube Peugeot 2008 price list (2026-10-25)",
+  "bands": {
+   "7000": {
+    "fuel": 241,
+    "insurance": 492,
+    "maintenance": 185,
+    "depreciation": 1375,
+    "total": 2414
+   },
+   "15000": {
+    "fuel": 517,
+    "insurance": 492,
+    "maintenance": 210,
+    "depreciation": 1375,
+    "total": 2715
+   },
+   "25000": {
+    "fuel": 862,
+    "insurance": 492,
+    "maintenance": 235,
+    "depreciation": 1375,
+    "total": 3085
    }
   }
  },
@@ -1544,6 +1666,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "kia-seltos",
+  "make": "Kia",
+  "model": "Seltos",
+  "trim": "LX Plus 2.0",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 468,
+  "powerHp": 149,
+  "consumption": 7.6,
+  "price": 164900,
+  "priceMin": 164900,
+  "priceMax": 167990,
+  "sampleSize": null,
+  "newPrice": 164900,
+  "reliability": 80,
+  "safety": 60,
+  "economy": 68,
+  "comfort": 76,
+  "practicality": 80,
+  "insuranceMin": 423,
+  "insuranceMax": 608,
+  "why": "SUV קומפקטי: 2.0 בנזין אטמוספרי ‏149 כ\"ס ותיבה רציפה; צריכה מוצהרת 13.1 ק\"מ לליטר (במבחן כ-11). תא מטען 468 ליטר. לא נבחן ב-Euro NCAP.",
+  "pros": [
+   "נוחות נסיעה",
+   "מרווח ומעשי",
+   "מנוע זריז"
+  ],
+  "cons": [
+   "צריכת דלק גבוהה בנסיעה אמיתית",
+   "איכות חומרים בינונית",
+   "לא נבחן ב-Euro NCAP"
+  ],
+  "confidence": 56,
+  "priceSource": "carzone.co.il/Kia/Seltos + auto.co.il Seltos 2026 (2026-10-25)",
+  "bands": {
+   "7000": {
+    "fuel": 367,
+    "insurance": 520,
+    "maintenance": 176,
+    "depreciation": 1374,
+    "total": 2558
+   },
+   "15000": {
+    "fuel": 785,
+    "insurance": 520,
+    "maintenance": 200,
+    "depreciation": 1374,
+    "total": 3000
+   },
+   "25000": {
+    "fuel": 1308,
+    "insurance": 520,
+    "maintenance": 224,
+    "depreciation": 1374,
+    "total": 3547
+   }
+  }
+ },
+ {
   "id": "ford-focus-wagon",
   "make": "Ford",
   "model": "Focus Wagon",
@@ -1662,6 +1845,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 224,
     "depreciation": 1392,
     "total": 3060
+   }
+  }
+ },
+ {
+  "id": "skoda-karoq",
+  "make": "Skoda",
+  "model": "Karoq",
+  "trim": "Selection 1.5 TSI",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 426,
+  "powerHp": 150,
+  "consumption": 6.4,
+  "price": 169490,
+  "priceMin": 169490,
+  "priceMax": 202990,
+  "sampleSize": null,
+  "newPrice": 169490,
+  "reliability": 78,
+  "safety": 65,
+  "economy": 76,
+  "comfort": 74,
+  "practicality": 84,
+  "insuranceMin": 430,
+  "insuranceMax": 618,
+  "why": "SUV קומפקטי מעשי: 1.5 טורבו בנזין ‏150 כ\"ס ותיבת DSG 7; צריכה מוצהרת 15.6 ק\"מ לליטר. תא מטען 426 ליטר ומושב אחורי מרווח.",
+  "pros": [
+   "תא מטען ומרחב אחורי גדולים",
+   "ארגונומיה נוחה",
+   "מעשי לשימוש משפחתי"
+  ],
+  "cons": [
+   "מתלים רכים והטיית מרכב",
+   "ציוד בסיסי ברמת Selection",
+   "אין דירוג Euro NCAP מאומת"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Karoq 2026 + carzone.co.il/Skoda/Karoq/2026 (2026-10-25)",
+  "bands": {
+   "7000": {
+    "fuel": 309,
+    "insurance": 529,
+    "maintenance": 194,
+    "depreciation": 1412,
+    "total": 2565
+   },
+   "15000": {
+    "fuel": 662,
+    "insurance": 529,
+    "maintenance": 220,
+    "depreciation": 1412,
+    "total": 2944
+   },
+   "25000": {
+    "fuel": 1103,
+    "insurance": 529,
+    "maintenance": 246,
+    "depreciation": 1412,
+    "total": 3411
    }
   }
  },
@@ -2580,6 +2824,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 291,
     "depreciation": 1582,
     "total": 3356
+   }
+  }
+ },
+ {
+  "id": "mazda-cx-5",
+  "make": "Mazda",
+  "model": "CX-5",
+  "trim": "Comfort AWD 2.5",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 541,
+  "powerHp": 187,
+  "consumption": 9,
+  "price": 189900,
+  "priceMin": 189900,
+  "priceMax": 219900,
+  "sampleSize": null,
+  "newPrice": 189900,
+  "reliability": 86,
+  "safety": 90,
+  "economy": 62,
+  "comfort": 82,
+  "practicality": 76,
+  "insuranceMin": 460,
+  "insuranceMax": 662,
+  "why": "SUV משפחתי בדור חדש (בישראל מ-03/2026): 2.5 בנזין ‏187 כ\"ס, תיבה אוטומטית 6 והנעה כפולה. צריכה מוצהרת כ-11 ק\"מ לליטר (בפועל פחות). Euro NCAP ‏(12/2025): 5 כוכבים.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2025)",
+   "תא נוסעים בתחושה יוקרתית",
+   "אמינות טובה"
+  ],
+  "cons": [
+   "צריכת דלק גבוהה יחסית",
+   "מערכת מולטימדיה לא נוחה",
+   "מרווח פנימי בינוני"
+  ],
+  "confidence": 58,
+  "priceSource": "cartube CX-5 AWD Comfort trim page + carzone.co.il/Mazda/CX-5/2026 (2026-10-25)",
+  "bands": {
+   "7000": {
+    "fuel": 434,
+    "insurance": 566,
+    "maintenance": 202,
+    "depreciation": 1582,
+    "total": 2905
+   },
+   "15000": {
+    "fuel": 931,
+    "insurance": 566,
+    "maintenance": 230,
+    "depreciation": 1582,
+    "total": 3430
+   },
+   "25000": {
+    "fuel": 1551,
+    "insurance": 566,
+    "maintenance": 258,
+    "depreciation": 1582,
+    "total": 4078
    }
   }
  },

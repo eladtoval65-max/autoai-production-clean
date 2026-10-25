@@ -77,6 +77,11 @@ const MODELS: Record<string, [string, string]> = {
   "outlander": ["Mitsubishi Outlander", ""],
   "elantra": ["Hyundai Elantra", ""],
   "berlingo": ["Citroën Berlingo", ""],
+  // Batch 19 — Wikipedia lead image only
+  "yaris": ["Toyota Yaris", ""],
+  "cx-5": ["Mazda CX-5", ""],
+  "karoq": ["Škoda Karoq", ""],
+  "seltos": ["Kia Seltos", ""],
 };
 
 const KEYS = Object.keys(MODELS).sort((a, b) => b.length - a.length);

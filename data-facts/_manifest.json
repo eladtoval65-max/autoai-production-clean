@@ -179,7 +179,7 @@
     "id": "c-hr",
     "model": "C-HR",
     "he": "C-HR",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2687,7 +2687,7 @@
     "id": "ateca",
     "model": "Ateca",
     "he": "אטקה",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2753,7 +2753,7 @@
     "id": "tarraco",
     "model": "Tarraco",
     "he": "טאראקו",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2948,7 +2948,7 @@
     "id": "okavango",
     "model": "Okavango",
     "he": "אוקוונגו",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2969,7 +2969,7 @@
     "id": "preface",
     "model": "Preface",
     "he": "פריפייס",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2990,7 +2990,7 @@
     "id": "coolray",
     "model": "Coolray",
     "he": "קולריי",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -3972,7 +3972,7 @@
     "id": "polo",
     "model": "Polo",
     "he": "פולו",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -4330,7 +4330,7 @@
     "status": "on_sale",
     "price": [
      119888,
-     119888
+     144888
     ],
     "gens": [
      {
@@ -4538,6 +4538,27 @@
       ],
       "cons": 18,
       "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "marvel-r",
+    "model": "Marvel R",
+    "he": "מארוול R",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": 2026,
+      "engines": "חשמלי, הנעה אחורית או 4X4",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19.5,
+      "ncap": 4,
       "checks": 2
      }
     ]
@@ -5121,6 +5142,73 @@
       ],
       "cons": 13,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "eqs-suv",
+    "model": "EQS SUV",
+    "he": "EQS SUV",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "X296",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 107.8 קוט\"ש נטו",
+      "pt": [
+       "ev"
+      ],
+      "cons": 23,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "sl",
+    "model": "SL",
+    "he": "SL",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "R230",
+      "from": 2010,
+      "to": 2011,
+      "engines": "3.0 V6 עד 6.2 V8 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "R231",
+      "from": 2012,
+      "to": 2020,
+      "engines": "3.0 V6 טורבו, 4.7 / 5.5 V8 טורבו, V12",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "R232",
+      "from": 2022,
+      "to": null,
+      "engines": "2.0 טורבו מיילד-היברידי, 4.0 V8 טורבו, SL 63 S E פלאג-אין",
+      "pt": [
+       "petrol",
+       "phev"
+      ],
+      "cons": 11,
+      "ncap": null,
       "checks": 2
      }
     ]
@@ -5835,6 +5923,44 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "2-series-coupe",
+    "model": "2 Series Coupé",
+    "he": "סדרה 2 קופה",
+    "status": "on_sale",
+    "price": [
+     319900,
+     329900
+    ],
+    "gens": [
+     {
+      "code": "F22",
+      "from": 2014,
+      "to": 2021,
+      "engines": "1.5 / 2.0 / 3.0 טורבו בנזין, 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "G42",
+      "from": 2022,
+      "to": null,
+      "engines": "2.0 טורבו בנזין / דיזל, M240i 3.0",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -6100,8 +6226,8 @@
     "he": "Q4 e-tron",
     "status": "on_sale",
     "price": [
-     299000,
-     359900
+     314900,
+     379900
     ],
     "gens": [
      {
@@ -6250,7 +6376,10 @@
     "model": "A6",
     "he": "A6",
     "status": "on_sale",
-    "price": null,
+    "price": [
+     484000,
+     629000
+    ],
     "gens": [
      {
       "code": "C7",
@@ -9385,6 +9514,30 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "x9",
+    "model": "X9",
+    "he": "X9",
+    "status": "on_sale",
+    "price": [
+     399990,
+     399990
+    ],
+    "gens": [
+     {
+      "code": "H93",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 84.5–105 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 21,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -9672,6 +9825,42 @@
       "cons": 13.5,
       "ncap": 5,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "g90",
+    "model": "G90",
+    "he": "G90",
+    "status": "on_sale",
+    "price": [
+     849900,
+     899900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2016,
+      "to": 2021,
+      "engines": "3.3 / 3.8 V6, 5.0 V8 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 13,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Gen2",
+      "from": 2021,
+      "to": null,
+      "engines": "3.5 טורבו V6 בנזין (בגרסה הארוכה גם מיילד-היברידי 48V)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 3
      }
     ]
    }
@@ -10803,6 +10992,117 @@
       ],
       "cons": 18.5,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "skywell",
+  "name": "Skywell",
+  "models": [
+   {
+    "id": "et5",
+    "model": "ET5",
+    "he": "ET5",
+    "status": "on_sale",
+    "price": [
+     166900,
+     187900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": null,
+      "engines": "חשמלי, סוללה 55/72/86 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "voyah",
+  "name": "Voyah",
+  "models": [
+   {
+    "id": "courage",
+    "model": "Courage",
+    "he": "קורג'",
+    "status": "on_sale",
+    "price": [
+     175900,
+     190900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 77–109 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "dongfeng",
+  "name": "Dongfeng",
+  "models": [
+   {
+    "id": "box",
+    "model": "Box",
+    "he": "בוקס",
+    "status": "on_sale",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 31.5/42.3 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 14.5,
+      "ncap": 3,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "mage",
+    "model": "Mage",
+    "he": "מייג'",
+    "status": "on_sale",
+    "price": [
+     149900,
+     149900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2023,
+      "to": null,
+      "engines": "1.5 טורבו פלאג-אין, סוללה 17 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 5,
+      "ncap": null,
       "checks": 2
      }
     ]

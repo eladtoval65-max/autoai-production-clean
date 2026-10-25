@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-10-24";
+export const PRICES_VERIFIED = "2026-10-25";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -81,7 +81,7 @@ export const MAKES: Make[] = [
       T("XA50", 2019, 2025, "2.5 היברידי / פלאג-אין", "218–306", ["hybrid", "phev"], 5.9, 5, 2019, [C.toyHybrid, C.history, C.recalls]),
       T("XA60", 2026, null, "היברידי / פלאג-אין (דור 6)", "—", ["hybrid", "phev"], 5.6, null, undefined, [C.recalls], "דור חדש, הושק בישראל ב-2026"),
     ]},
-    { id: "c-hr", make: "toyota", model: "C-HR", he: "C-HR", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "c-hr", make: "toyota", model: "C-HR", he: "C-HR", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("AX10", 2017, 2023, "1.8 היברידי", "122", ["hybrid"], 5.4, 5, 2017, [C.toyHybrid, C.history, "ראות אחורית מוגבלת: לבדוק מצלמה וחיישנים"]),
       T("AX20", 2024, null, "1.8/2.0 היברידי, פלאג-אין", "140–223", ["hybrid", "phev"], 5.2, null, undefined, [C.toyHybrid, C.recalls], "במחירון הנוכחי מופיע C-HR+ החשמלי (₪179,990–229,990), דגם אחר"),
     ]},
@@ -389,7 +389,7 @@ export const MAKES: Make[] = [
     { id: "arona", make: "seat", model: "Arona", he: "ארונה", body: "suv", segment: "mass", price: [132900, 143900], status: "on_sale", gens: [
       T("KJ7", 2018, null, "1.0 / 1.5 TSI", "115–150", ["petrol"], 6.5, 5, 2017, [C.history, C.dsgDry]),
     ]},
-    { id: "ateca", make: "seat", model: "Ateca", he: "אטקה", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "ateca", make: "seat", model: "Ateca", he: "אטקה", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("KH7", 2016, null, "1.0 / 1.4 / 1.5 TSI", "115–150", ["petrol"], 7.2, 5, 2016, [C.history, C.dsgDry]),
     ]},
     { id: "leon", make: "seat", model: "Leon", he: "לאון", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
@@ -397,7 +397,7 @@ export const MAKES: Make[] = [
       T("5F", 2013, 2019, "1.2/1.4 TSI, 1.0 TSI", "110–150", ["petrol"], 6.6, 5, 2012, [C.history, C.inspect, C.dsgDry]),
       T("KL", 2020, null, "1.0/1.5 TSI", "110–150", ["petrol"], 6.3, 5, 2020, [C.history, C.dsgDry]),
     ]},
-    { id: "tarraco", make: "seat", model: "Tarraco", he: "טאראקו", body: "suv7", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "tarraco", make: "seat", model: "Tarraco", he: "טאראקו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
       T("KN2", 2019, null, "1.5 / 2.0 TSI", "150–190", ["petrol"], 8.2, 5, 2019, [C.history]),
     ]},
   ]},
@@ -427,13 +427,13 @@ export const MAKES: Make[] = [
     { id: "ex5", make: "geely", model: "EX5", he: "EX5", body: "suv", segment: "mass", price: [161990, 169490], status: "on_sale", gens: [
       T("Gen1", 2025, null, "סוללת LFP 60 קוט\"ש", "218", ["ev"], 17.5, null, undefined, [C.ev, C.newBrand], "במחירון הישראלי מופיע בשם E5"),
     ]},
-    { id: "okavango", make: "geely", model: "Okavango", he: "אוקוונגו", body: "suv7", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "okavango", make: "geely", model: "Okavango", he: "אוקוונגו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2021, null, "1.5 טורבו מיילד-היברידי, 7 מקומות", "177–190", ["petrol"], 8.5, null, undefined, [C.newBrand], "לא אומת שנמכר בישראל"),
     ]},
-    { id: "preface", make: "geely", model: "Preface", he: "פריפייס", body: "sedan", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "preface", make: "geely", model: "Preface", he: "פריפייס", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2021, null, "2.0 טורבו", "218", ["petrol"], 8.0, null, undefined, [C.newBrand], "לא אומת שנמכר בישראל"),
     ]},
-    { id: "coolray", make: "geely", model: "Coolray", he: "קולריי", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "coolray", make: "geely", model: "Coolray", he: "קולריי", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2020, null, "1.5 טורבו", "177", ["petrol"], 7.8, null, undefined, [C.newBrand, C.dct], "לא אומת שנמכר בישראל"),
     ]},
     { id: "starray", make: "geely", model: "Starray EM-i", he: "סטארריי EM-i", body: "suv", segment: "mass", price: [169990, 181990], status: "on_sale", gens: [
@@ -559,7 +559,7 @@ export const MAKES: Make[] = [
       T("AD1", 2017, 2023, "1.4/1.5/2.0 TSI", "150–220", ["petrol"], 8.0, 5, 2016, [C.history, C.inspect]),
       T("Mk3", 2024, null, "1.5 eTSI / פלאג-אין", "150–272", ["petrol", "phev"], 7.0, 5, 2024, [C.history]),
     ]},
-    { id: "polo", make: "volkswagen", model: "Polo", he: "פולו", body: "city", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "polo", make: "volkswagen", model: "Polo", he: "פולו", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("6R", 2010, 2017, "1.2 / 1.4 / 1.2 TSI", "60–105", ["petrol"], 6.6, 5, 2009, [C.history, C.inspect, C.tsiChain, C.dsgDry]),
       T("AW", 2018, null, "1.0 TSI", "95–115", ["petrol"], 6.0, 5, 2017, [C.history, C.dsgDry], "לא מופיע במחירון פולקסווגן הנוכחי"),
     ]},
@@ -604,7 +604,7 @@ export const MAKES: Make[] = [
     { id: "zs-ev", make: "mg", model: "ZS EV", he: "ZS EV", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("ZS EV", 2020, 2024, "סוללה 44.5/51/72 קוט\"ש", "143–156", ["ev"], 17.5, 5, 2019, [C.ev, C.newBrand]),
     ]},
-    { id: "mg4", make: "mg", model: "MG4", he: "MG4", body: "hatch", segment: "mass", price: [119888, 119888], status: "on_sale", gens: [
+    { id: "mg4", make: "mg", model: "MG4", he: "MG4", body: "hatch", segment: "mass", price: [119888, 144888], status: "on_sale", gens: [
       T("EH32", 2022, null, "סוללה 51/64/77 קוט\"ש", "170–245", ["ev"], 16.5, 5, 2022, [C.ev, C.newBrand]),
     ]},
     { id: "mg5", make: "mg", model: "MG5", he: "MG5", body: "wagon", segment: "mass", price: [158888, 158888], status: "on_sale", gens: [
@@ -629,6 +629,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "cyberster", make: "mg", model: "Cyberster", he: "סייברסטר", body: "sedan", segment: "premium", price: [363888, 393888], status: "on_sale", gens: [
       T("EC32", 2023, null, "חשמלי, סוללה 77 קוט\"ש, הנעה אחורית או 4X4", "340–510", ["ev"], 18.0, null, undefined, [C.ev, C.newBrand], "רודסטר 2 מושבים; בישראל מ-2025"),
+    ]},
+    { id: "marvel-r", make: "mg", model: "Marvel R", he: "מארוול R", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("Gen1", 2021, 2026, "חשמלי, הנעה אחורית או 4X4", "180–288", ["ev"], 19.5, 4, 2021, [C.ev, C.newBrand], "הספקים לפי carzone; לפי carzone הוחלף ב-S6. לא מופיע במחירוני carzone ו-cartube"),
     ]},
   ]},
 
@@ -695,6 +698,14 @@ export const MAKES: Make[] = [
     { id: "g-class", make: "mercedes", model: "G-Class", he: "G קלאס", body: "suv", segment: "premium", price: null, status: "on_sale", gens: [
       T("W463", 2010, 2018, "דיזל / בנזין V8 ו-V12", "208–621", ["diesel", "petrol"], 15.0, null, undefined, [C.history, C.inspect, C.suspension]),
       T("W463 II", 2018, null, "דיזל / בנזין / G 580 חשמלי", "255–585", ["diesel", "petrol", "ev"], 13.0, 5, 2019, [C.history, C.recalls], "הדור השני של W463. מחיר לא מוצג: carzone (₪1,199,900–1,299,900; G EQ ‏₪1,359,900) ו-cartube (G 500 ‏₪1,430,000) לא מסכימים"),
+    ]},
+    { id: "eqs-suv", make: "mercedes", model: "EQS SUV", he: "EQS SUV", body: "suv7", segment: "premium", price: null, status: "on_sale", gens: [
+      T("X296", 2023, null, "חשמלי, סוללה 107.8 קוט\"ש נטו", "355–658", ["ev"], 23.0, null, undefined, [C.ev, C.recalls, C.airSusp], "מחיר לא מוצג: carzone (₪874,900–1,039,900) ו-cartube (₪990,000–1,350,000) לא מסכימים. דירוג Euro NCAP של EQS לא כולל את ה-SUV"),
+    ]},
+    { id: "sl", make: "mercedes", model: "SL", he: "SL", body: "sedan", segment: "premium", price: null, status: "on_sale", gens: [
+      T("R230", 2010, 2011, "3.0 V6 עד 6.2 V8 בנזין", "228–518", ["petrol"], 12.5, null, undefined, [C.history, C.inspect, C.suspension], "רודסטר (אין באתר סוג מרכב קבריולה)"),
+      T("R231", 2012, 2020, "3.0 V6 טורבו, 4.7 / 5.5 V8 טורבו, V12", "362–621", ["petrol"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "רודסטר"),
+      T("R232", 2022, null, "2.0 טורבו מיילד-היברידי, 4.0 V8 טורבו, SL 63 S E פלאג-אין", "375–603", ["petrol", "phev"], 11.0, null, undefined, [C.history, C.recalls], "רודסטר AMG. מחיר לא מוצג: carzone (₪999,900–1,899,900) ו-cartube (₪1,390,000–1,950,000) לא מסכימים"),
     ]},
   ]},
 
@@ -770,6 +781,10 @@ export const MAKES: Make[] = [
       T("E89", 2010, 2016, "2.0 / 3.0 טורבו בנזין", "154–335", ["petrol"], 8.5, null, undefined, [C.history, C.inspect, C.bmwChain], "רודסטר (אין באתר סוג מרכב קבריולה)"),
       T("G29", 2019, null, "2.0 / 3.0 טורבו בנזין", "194–382", ["petrol"], 7.5, 5, 2019, [C.history, C.recalls], "רודסטר; הייצור הסתיים ב-2026. carzone: sDrive20i ‏₪449,900; ב-cartube ‏₪449,900–625,000"),
     ]},
+    { id: "2-series-coupe", make: "bmw", model: "2 Series Coupé", he: "סדרה 2 קופה", body: "sedan", segment: "premium", price: [319900, 329900], status: "on_sale", gens: [
+      T("F22", 2014, 2021, "1.5 / 2.0 / 3.0 טורבו בנזין, 2.0 דיזל", "134–335", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect, C.bmwChain], "קופה (ו-F23 קבריולה); אין באתר סוג מרכב קופה"),
+      T("G42", 2022, null, "2.0 טורבו בנזין / דיזל, M240i 3.0", "154–382", ["petrol", "diesel"], 7.0, 4, 2022, [C.history, C.recalls], "קופה. במחירון 218i M-Sport ‏₪319,900 ו-M-Shadow ‏₪329,900 (carzone ו-cartube); M240i: carzone ‏₪487,900–499,900, cartube ‏₪478,900"),
+    ]},
   ]},
 
   { id: "audi", name: "Audi", he: "אאודי", models: [
@@ -800,8 +815,8 @@ export const MAKES: Make[] = [
       T("4L", 2010, 2015, "3.0 TFSI / 3.0 TDI", "237–493", ["petrol", "diesel"], 12.5, 4, 2006, [C.history, C.inspect, C.airSusp]),
       T("4M", 2015, null, "3.0 TFSI / TDI, TFSI e פלאג-אין", "215–500", ["petrol", "diesel", "phev"], 10.5, null, undefined, [C.history, C.inspect, C.airSusp], "דור 3 נחשף ביוני 2026"),
     ]},
-    { id: "q4-etron", make: "audi", model: "Q4 e-tron", he: "Q4 e-tron", body: "suv", segment: "premium", price: [299000, 359900], status: "on_sale", gens: [
-      T("F4", 2021, null, "חשמלי, סוללה 52/59/77 קוט\"ש", "168–335", ["ev"], 19.0, 5, 2025, [C.ev, C.recalls], "Q4 ₪299,000–339,900; Q4 ספורטבק ₪319,000–359,900. מתיחת פנים 2026"),
+    { id: "q4-etron", make: "audi", model: "Q4 e-tron", he: "Q4 e-tron", body: "suv", segment: "premium", price: [314900, 379900], status: "on_sale", gens: [
+      T("F4", 2021, null, "חשמלי, סוללה 52/59/77 קוט\"ש", "168–335", ["ev"], 19.0, 5, 2025, [C.ev, C.recalls], "Q4 ₪314,900–377,800 (carzone ו-cartube מסכימים); Q4 ספורטבק ₪334,900–379,900 ב-carzone (cartube עד ₪397,800). מתיחת פנים 2026"),
     ]},
     { id: "a5", make: "audi", model: "A5", he: "A5", body: "sedan", segment: "premium", price: [369100, 519000], status: "on_sale", gens: [
       T("B8 (8T)", 2010, 2016, "1.8 / 2.0 / 3.0 TFSI בנזין, TDI דיזל", "136–450", ["petrol", "diesel"], 8.5, null, undefined, [C.history, C.inspect, C.ea888]),
@@ -817,10 +832,10 @@ export const MAKES: Make[] = [
     { id: "q2", make: "audi", model: "Q2", he: "Q2", body: "suv", segment: "premium", price: [230500, 230500], status: "on_sale", gens: [
       T("GA", 2016, null, "1.0/1.5 TFSI", "116–150", ["petrol"], 6.5, 5, 2016, [C.history, C.inspect, C.dsgDry], "הייצור הסתיים באפריל 2026 בלי דור המשך; במחירון עדיין גרסה אחת"),
     ]},
-    { id: "a6", make: "audi", model: "A6", he: "A6", body: "sedan", segment: "premium", price: null, status: "on_sale", gens: [
+    { id: "a6", make: "audi", model: "A6", he: "A6", body: "sedan", segment: "premium", price: [484000, 629000], status: "on_sale", gens: [
       T("C7", 2011, 2018, "2.0 TFSI / 2.8 FSI / 3.0 TFSI / היברידי", "180–310", ["petrol", "hybrid"], 8.5, 5, 2011, [C.history, C.inspect, C.ea888]),
       T("C8", 2018, 2025, "2.0 TFSI מיילד-היברידי / פלאג-אין", "245–367", ["petrol", "phev"], 7.8, 5, 2018, [C.history, C.recalls]),
-      T("C9", 2025, null, "2.0 TFSI / 3.0 TFSI / פלאג-אין", "204–367", ["petrol", "phev"], 7.5, 5, 2024, [C.recalls], "מחיר לא מוצג: carzone (₪484,000–629,000) ו-cartube (₪467,000–611,000) לא מסכימים. A6 e-tron החשמלי הוא דגם נפרד"),
+      T("C9", 2025, null, "2.0 TFSI / 3.0 TFSI / פלאג-אין", "204–367", ["petrol", "phev"], 7.5, 5, 2024, [C.recalls], "מחיר לפי carzone ‏(₪484,000–629,000); ב-cartube ‏₪484,500–629,000 (10/2026). A6 e-tron החשמלי הוא דגם נפרד"),
     ]},
     { id: "a6-e-tron", make: "audi", model: "A6 e-tron", he: "A6 e-tron", body: "sedan", segment: "premium", price: [532600, 659600], status: "on_sale", gens: [
       T("PPE", 2025, null, "חשמלי (פלטפורמת PPE)", "282–496", ["ev"], 18.0, 5, 2025, [C.ev, C.recalls], "קוד הדור אינו מופיע בוויקיפדיה (PPE = שם הפלטפורמה). מחיר: Sportback; S6 e-tron ‏₪869,600–884,900"),
@@ -1196,6 +1211,9 @@ export const MAKES: Make[] = [
     { id: "g9", make: "xpeng", model: "G9", he: "G9", body: "suv", segment: "premium", price: [259990, 372990], status: "on_sale", gens: [
       T("Gen1", 2022, null, "סוללה 79 קוט\"ש ומעלה", "351–575", ["ev"], 20.0, null, undefined, [C.ev, C.newBrand], "במבחן דרך: כ-400 ק\"מ בנסיעה מתונה"),
     ]},
+    { id: "x9", make: "xpeng", model: "X9", he: "X9", body: "mpv", segment: "premium", price: [399990, 399990], status: "on_sale", gens: [
+      T("H93", 2024, null, "חשמלי, סוללה 84.5–105 קוט\"ש", "315–530", ["ev"], 21.0, 5, 2026, [C.ev, C.newBrand], "7 מקומות; במחירון FWD Long Range בלבד. בעולם גם גרסת מאריך טווח"),
+    ]},
   ]},
 
   { id: "leapmotor", name: "Leapmotor", he: "ליפמוטור", models: [
@@ -1240,6 +1258,10 @@ export const MAKES: Make[] = [
     ]},
     { id: "gv80", make: "genesis", model: "GV80", he: "GV80", body: "suv7", segment: "premium", price: [489990, 645990], status: "on_sale", gens: [
       T("JX1", 2020, null, "3.5 טורבו V6 בנזין", "375–409", ["petrol"], 13.5, 5, 2021, [C.newBrand, C.history], "GV80 Coupe: ₪599,990–725,000 (במבחן דרך כ-8.1 ק\"מ לליטר); GV80 קופה: ₪599,990–725,000"),
+    ]},
+    { id: "g90", make: "genesis", model: "G90", he: "G90", body: "sedan", segment: "premium", price: [849900, 899900], status: "on_sale", gens: [
+      T("Gen1", 2016, 2021, "3.3 / 3.8 V6, 5.0 V8 בנזין", "311–419", ["petrol"], 13.0, null, undefined, [C.history, C.inspect, C.newBrand], "נקרא EQ900 בקוריאה; ויקיפדיה אינה מציינת קוד דור"),
+      T("Gen2", 2021, null, "3.5 טורבו V6 בנזין (בגרסה הארוכה גם מיילד-היברידי 48V)", "375–409", ["petrol"], 12.5, null, undefined, [C.newBrand, C.history, C.airSusp], "במחירון: Legendary ‏₪849,900, Executive ‏₪879,900, Black ‏₪899,900"),
     ]},
   ]},
 
@@ -1387,6 +1409,27 @@ export const MAKES: Make[] = [
     ]},
     { id: "s07", make: "deepal", model: "S07", he: "S07", body: "suv", segment: "mass", price: [201990, 201990], status: "on_sale", gens: [
       T("C673", 2023, null, "חשמלי, סוללה 66.8–80 קוט\"ש", "218–258", ["ev"], 18.5, 5, 2024, [C.ev, C.newBrand], "נקרא S7 עד מתיחת הפנים של 2024; במחירון Premium Tech"),
+    ]},
+  ]},
+
+  { id: "skywell", name: "Skywell", he: "סקייוול", models: [
+    { id: "et5", make: "skywell", model: "ET5", he: "ET5", body: "suv", segment: "mass", price: [166900, 187900], status: "on_sale", gens: [
+      T("Gen1", 2021, null, "חשמלי, סוללה 55/72/86 קוט\"ש", "201", ["ev"], 18.0, null, undefined, [C.ev, C.newBrand], "נקרא בסין Skyworth EV6. במחירון XR86 Comfort ‏₪166,900 עד XR86 Pro GT ‏₪187,900"),
+    ]},
+  ]},
+
+  { id: "voyah", name: "Voyah", he: "וויה", models: [
+    { id: "courage", make: "voyah", model: "Courage", he: "קורג'", body: "suv", segment: "mass", price: [175900, 190900], status: "on_sale", gens: [
+      T("Gen1", 2024, null, "חשמלי, סוללה 77–109 קוט\"ש", "288–543", ["ev"], 18.5, 5, 2025, [C.ev, C.newBrand], "מותג של Dongfeng. במחירון Elegant RWD ‏₪175,900, Ultimate AWD ‏₪190,900"),
+    ]},
+  ]},
+
+  { id: "dongfeng", name: "Dongfeng", he: "דונגפנג", models: [
+    { id: "box", make: "dongfeng", model: "Box", he: "בוקס", body: "city", segment: "mass", price: null, status: "on_sale", gens: [
+      T("Gen1", 2024, null, "חשמלי, סוללה 31.5/42.3 קוט\"ש", "94", ["ev"], 14.5, 3, 2025, [C.ev, C.newBrand], "נקרא בסין Nammi 01. מחיר לא מוצג: carzone ‏₪104,900 ו-cartube ‏₪113,900 לא מסכימים"),
+    ]},
+    { id: "mage", make: "dongfeng", model: "Mage", he: "מייג'", body: "suv", segment: "mass", price: [149900, 149900], status: "on_sale", gens: [
+      T("Gen1", 2023, null, "1.5 טורבו פלאג-אין, סוללה 17 קוט\"ש", "188", ["phev"], 5.0, null, undefined, [C.phev, C.newBrand], "נקרא בסין Aeolus Haohan; הספק ונתוני סוללה לפי המפרט הישראלי (carzone, cartube)"),
     ]},
   ]},
 ];
