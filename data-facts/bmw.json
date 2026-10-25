@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "3-series": {
       "E90": {
@@ -261,7 +261,7 @@
             "name": "1.6 טורבו בנזין (116i)",
             "pt": "petrol",
             "hp": 136,
-            "cons": 9.0,
+            "cons": 9,
             "unit": "L",
             "source": {
               "title": "carsales.com.au — BMW 116i 2012 road test (measured consumption; power 100kW = 136hp)",
@@ -395,6 +395,279 @@
           "year": 2015,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/fiat/bmw-x1---euro-ncap-results-2015/s/0ffc807c-b78b-48b7-9a05-fd6cf0086798"
         }
+      },
+      "E84": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנהג עלול להתקלקל עם השנים ולפזר שברי מתכת בפריסה. לוודא לפי מספר שלדה שהוחלף.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2015",
+            "source": {
+              "title": "car-recalls.eu — BMW X1 (2010–2015) driver airbag inflator degradation (EU recall 28/02/2026)",
+              "url": "https://car-recalls.eu/common-problems/bmw/X1/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מחבר כבל המצבר החיובי בתיבת חלוקת החשמל הקדמית עלול להינזק מרעידות — כיבוי מנוע ואובדן מערכות חשמל. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 03/2009–11/2011",
+            "source": {
+              "title": "car-recalls.eu — BMW X1 (2009–2011) positive battery cable connector, RAPEX A12/00039/20",
+              "url": "https://car-recalls.eu/recall/bmw-x1-2009-2011-2/amp/"
+            }
+          }
+        ]
+      }
+    },
+    "x3": {
+      "F25": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנהג עלול להתקלקל עם השנים ולפזר שברי מתכת בפריסה. לוודא לפי מספר שלדה שהוחלף.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2015",
+            "source": {
+              "title": "car-recalls.eu — BMW X3 (2010–2015) driver airbag inflator degradation (EU recall 28/02/2026)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X3/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מצנן ה-EGR עלול לדלוף עם הזמן ולגרום לאירוע תרמי (סכנת שריפה). רלוונטי לדיזל — לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 10/2010–03/2015 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW X3 (2010–2015) EGR cooler leak (UK recall 31/07/2022)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X3/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "xDrive20i 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 184,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW X3 xDrive20i (F25, 135 kW/184 PS, 2011–2017): real-world average from 526 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X3/bmwxdrive-20i-x3_36306/verbrauch/"
+            }
+          }
+        ]
+      },
+      "G01": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנוע ההתנעה RSW22 עלול להישחק ולהתקלקל — לבדוק התנעה תקינה ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2026",
+            "source": {
+              "title": "car-recalls.eu — BMW X3 (2020–2026) RSW22 starter (EU recall 08/08/2026)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X3/"
+            }
+          },
+          {
+            "he": "קריאת שירות: דליפות לא מזוהות במערכת ה-EGR עלולות לגרום לאירוע תרמי בסעפת היניקה. רלוונטי לדיזל — לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 07/2017–08/2020 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW X3 (2017–2020) EGR system leaks (UK recall 21/08/2022)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X3/"
+            }
+          },
+          {
+            "he": "קריאת שירות: שלושת הברגים שמחברים את המנוע החשמלי לתיבת ההגה לא הודקו כראוי. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 23.8–18.9.2023 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW X3 (2023) steering gear motor screws (UK recall 20/12/2023)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X3/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "xDrive20i 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 184,
+            "cons": 9.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW X3 20i xDrive (G3X/G01, 135 kW/184 PS, 2017–): real-world average from 327 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X3/x3-20i-xdrive-g3x_46762/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "5-series": {
+      "G30": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מים עלולים לחדור לממסר מנוע ההתנעה ולגרום לקורוזיה ולתקלות חשמל. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2015–2021",
+            "source": {
+              "title": "car-recalls.eu — BMW 5 Series (2015–2021) starter relay water ingress (EU recall 22/09/2026)",
+              "url": "https://car-recalls.eu/fr/common-problems/bmw/5-series/"
+            }
+          },
+          {
+            "he": "קריאת שירות: במקרים נדירים מנוע ההתנעה עלול להישאר מופעל ברציפות (סכנת התחממות). לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 02/2017–06/2020 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW 5 Series (2015–2018) starter permanently activated (UK recall 11/09/2022)",
+              "url": "https://car-recalls.eu/fr/common-problems/bmw/5-series/"
+            }
+          },
+          {
+            "he": "קריאת שירות: דליפות לא מזוהות במערכת ה-EGR עלולות לגרום לאירוע תרמי בסעפת היניקה. רלוונטי לדיזל.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 03/2016–06/2020 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW 5 Series (2016–2020) EGR system leaks (UK recall 21/08/2022)",
+              "url": "https://car-recalls.eu/fr/common-problems/bmw/5-series/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "520i 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 184,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW 520i (G5L/G30, 135 kW/184 PS, 2017–2024): real-world average from 375 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-5er/520/520i-g5l_45705/verbrauch/"
+            }
+          }
+        ]
+      },
+      "F10": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מצנן ה-EGR עלול לדלוף עם הזמן ולגרום לאירוע תרמי (סכנת שריפה). רלוונטי לדיזל — לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 01/2012–02/2017 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW 5 Series (2012–2017) EGR cooler leak (UK recall 31/07/2022)",
+              "url": "https://car-recalls.eu/fr/common-problems/bmw/5-series/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "528i 3.0 בנזין 6 צילינדרים",
+            "pt": "petrol",
+            "hp": 258,
+            "cons": 10.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW 528i (F10, 190 kW/258 PS, 2010–2011): real-world average from 786 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-5er/528/528i-5l-f10_34030/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "x5": {
+      "E70": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כריות האוויר של הנהג והנוסע הקדמי עלולות להיפתח בעוצמה מופרזת ולפזר רסיסים. לוודא לפי מספר שלדה שהוחלפו.",
+            "level": "recall",
+            "scope": "ייצור 12/2006–06/2013 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW X5 (2006–2013) driver and front passenger airbags (UK recall 30/08/2023)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/x5/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "xDrive35i 3.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 306,
+            "cons": 13.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW X5 xDrive35i (E70, 225 kW/306 PS, 2010–2013): real-world average from 697 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X5/x5-xdrive-35i-x5_34332/verbrauch/"
+            }
+          }
+        ]
+      },
+      "F15": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מצנן ה-EGR עלול לדלוף עם הזמן ולגרום לאירוע תרמי (סכנת שריפה). רלוונטי לדיזל — לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 11/2015–06/2018 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW X5 (2015–2018) EGR cooler leak (UK recall 31/07/2022)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/x5/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "xDrive30d 3.0 דיזל",
+            "pt": "diesel",
+            "hp": 258,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW X5 xDrive30d (F15, 190 kW/258 PS, 2013–2018): real-world average from 3001 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X5/x5-xdrive-30d-f15_38116/verbrauch/"
+            }
+          }
+        ]
+      },
+      "G05": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנוע ההתנעה RSW22 עלול להישחק ולהתקלקל — לבדוק התנעה תקינה ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2026",
+            "source": {
+              "title": "car-recalls.eu — BMW X5 (2020–2026) RSW22 starter (EU recall 08/08/2026)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/x5/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מגעי החשמל של מנוע ההתנעה עלולים להתחמם — התנעה לא תקינה, וניסיונות חוזרים עלולים לגרום לשריפה. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2018–2025",
+            "source": {
+              "title": "car-recalls.eu — BMW X5 (2018–2025) starter electrical contacts overheating (EU recall 02/11/2025)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/x5/"
+            }
+          },
+          {
+            "he": "קריאת שירות: דליפות לא מזוהות במערכת ה-EGR עלולות לגרום לאירוע תרמי בסעפת היניקה. רלוונטי לדיזל.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 03/2018–07/2020 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — BMW X5 (2018–2020) EGR system leaks (UK recall 21/08/2022)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/x5/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "xDrive40i 3.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 340,
+            "cons": 11.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — BMW X5 xDrive40i (G5X/G05, 250 kW/340 PS, 2018–): real-world average from 366 user reports",
+              "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X5/x5-xdrive-40i-g5x_46937/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

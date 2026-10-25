@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "a3": {
       "8V": {
@@ -144,6 +144,32 @@
           "year": 2020,
           "url": "https://www.euroncap.com/assessments/audi/a3/0786/"
         }
+      },
+      "8P": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנהג עלול להתנפח באופן בלתי מבוקר ולפזר שברי מתכת (קריאה עולמית ל-A3/A4 מ-2004–2013). לוודא לפי מספר שלדה שהוחלף.",
+            "level": "recall",
+            "scope": "שנתונים 2004–2013",
+            "source": {
+              "title": "car-recalls.eu — Audi A3 / A3 Cabrio (2004–2013) driver airbag inflator (EU recall 20/03/2026; KBA: 187,586 A3/A4 recalled)",
+              "url": "https://car-recalls.eu/common-problems/Audi/a3/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TFSI טורבו בנזין",
+            "pt": "petrol",
+            "hp": 125,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi A3 1.4 TFSI (8P, 92 kW/125 PS, 2008–2012): real-world average from 146 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-A3/A3/a3-1-4-tfsi-8p_5905/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "a4": {
@@ -197,7 +223,7 @@
             "name": "1.8 טורבו בנזין",
             "pt": "petrol",
             "hp": 170,
-            "cons": 8.0,
+            "cons": 8,
             "unit": "L",
             "source": {
               "title": "Spritmonitor — ממוצע Audi A4 1.8 TFSI 169–171 כ\"ס, 46 רכבים (גרסת 160 כ\"ס המוקדמת לא כלולה)",
@@ -210,6 +236,41 @@
           "year": 2008,
           "url": "https://www.euroncap.com/en/ratings-rewards/latest-safety-ratingses/results/audi/a4/15749"
         }
+      },
+      "B9": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ערכי כיוון (טואו/קמבר) של הסרן האחורי עלולים לחרוג מהמפרט — לבדוק בלאי צמיגים אחוריים ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 11/2019–02/2021 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Audi A4 (2019–2021) rear axle toe/camber (UK recall 14/02/2022)",
+              "url": "https://car-recalls.eu/common-problems/Audi/a4/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תפר ריתוך פגום במסגרת גב המושב הקדמי עלול להישבר בתאונה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתון 2023",
+            "source": {
+              "title": "car-recalls.eu — Audi A4 (2023) front seat back frame weld (EU recall 15/12/2023)",
+              "url": "https://car-recalls.eu/common-problems/Audi/a4/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TFSI טורבו בנזין 190 כ״ס",
+            "pt": "petrol",
+            "hp": 190,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi A4 2.0 TFSI 140 kW/190 PS (site lists type as B8, built 2015–2018 = B9 generation): real-world average from 428 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-A4/A4/a4-2-0-tfsi-b8_41829/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "q3": {
@@ -296,6 +357,15 @@
               "title": "What Car? — Audi Q3 משומשת 2018–2025, אמינות (סקר בעלים)",
               "url": "https://www.whatcar.com/audi/q3/estate/used-review/n20308/reliability"
             }
+          },
+          {
+            "he": "קריאת שירות (2026): בורג עיגון תיבת ההגה עלול להחליד ולהישבר — סכנת אובדן היגוי. לוודא לפי מספר שלדה שהבורג הוחלף (קוד 48LG).",
+            "level": "recall",
+            "scope": "ייצור 31.10.2017–23.5.2024, לפי מספר שלדה",
+            "source": {
+              "title": "Joyn newstime — Rückruf Audi Q3 (31.10.2017–23.05.2024): Lenkgetriebe-Schraube, KBA 17014R, Code 48LG",
+              "url": "https://newstime.joyn.de/themen/rueckrufe/rueckruf-vw-audi-modelle-191779"
+            }
           }
         ],
         "engines": [
@@ -316,6 +386,250 @@
           "year": 2018,
           "url": "https://www.euroncap.com/assessments/audi/q3/0745/"
         }
+      }
+    },
+    "q5": {
+      "8R": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנהג עלול להתנפח באופן בלתי מבוקר ולפזר שברי מתכת. לוודא לפי מספר שלדה שהוחלף.",
+            "level": "recall",
+            "scope": "שנתונים 2008–2013",
+            "source": {
+              "title": "car-recalls.eu — Audi Q5 (2008–2013) driver airbag inflator (EU recall, 20/03/2026)",
+              "url": "https://car-recalls.eu/common-problems/Audi/q5/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TFSI בנזין, טיפטרוניק",
+            "pt": "petrol",
+            "hp": 225,
+            "cons": 9.5,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Audi Q5 (2008–2017) 2.0 TFSI 225 quattro tiptronic: real-world average 29.7 mpg (≈9.5 L/100km)",
+              "url": "https://www.honestjohn.co.uk/realmpg/audi/q5-2008"
+            }
+          }
+        ]
+      },
+      "FY": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ערכי כיוון (טואו/קמבר) של הסרן האחורי עלולים לחרוג מהמפרט — לבדוק בלאי צמיגים אחוריים לא אחיד ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 11/2019–02/2021 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Audi Q5 (2019–2021) rear axle toe/camber (UK recall 14/02/2022)",
+              "url": "https://car-recalls.eu/common-problems/Audi/q5/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שהותקנו בסרן האחורי אומים שאינם עומדים במפרט — לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 11/2019–02/2021 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Audi Q5 (2019–2021) rear axle nuts (UK recall 25/06/2021)",
+              "url": "https://car-recalls.eu/common-problems/Audi/q5/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בגרסת הפלאג-אין (TFSI e) מודולי הסוללה עלולים להתחמם בטעינה — סכנת שריפה. לוודא ביצוע הקריאה לפני טעינה ביתית.",
+            "level": "recall",
+            "scope": "TFSI e פלאג-אין, 2019–2024",
+            "source": {
+              "title": "car-recalls.eu — Audi Q5 (2019–2024) high-voltage battery cell modules may overheat during charging (EU recall 14/11/2025)",
+              "url": "https://car-recalls.eu/common-problems/Audi/q5/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TFSI בנזין quattro",
+            "pt": "petrol",
+            "hp": 252,
+            "cons": 9.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi Q5 2.0 TFSI quattro (FY, 185 kW/252 PS, 2016–): real-world average from only 8 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q5/Q5/q5-2-0-tfsi-quattro-fy_45239/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "q2": {
+      "GA": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הפס הדקורטיבי בעמוד C עלול להשתחרר חלקית ואף ליפול בנסיעה. לבדוק שהוא מקובע היטב ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2016–2021",
+            "source": {
+              "title": "car-recalls.eu — Audi Q2 (2016–2021) C-pillar side blade may detach (EU recall 04/10/2026)",
+              "url": "https://car-recalls.eu/common-problems/Audi/Q2/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בלם החניה החשמלי עלול להשתחרר בזמן שחרור דוושת המצמד (ידני). לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 01/2017–06/2018 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Audi Q2 (2017–2018) electro-mechanical park brake release (UK recall 24/10/2018)",
+              "url": "https://car-recalls.eu/common-problems/Audi/Q2/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ריתוך בין דוושת הבלם ללוחית הדוושה עלול להישבר. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתון 2020",
+            "source": {
+              "title": "car-recalls.eu — Audi Q2 (2020) brake pedal weld joint (EU recall 15/03/2021)",
+              "url": "https://car-recalls.eu/common-problems/Audi/Q2/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 TFSI טורבו בנזין",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi Q2 1.0 TFSI (GA, 85 kW/115 PS, 2016–): real-world average from 425 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q2/Q2/q2-1-0-tfsi-ga_45229/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "q7": {
+      "4M": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בגרסת הפלאג-אין מודולי סוללת המתח הגבוה עלולים להתחמם בטעינה — סכנת שריפה. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "TFSI e פלאג-אין, 2019–2024",
+            "source": {
+              "title": "car-recalls.eu — Audi Q7 (2019–2024) high-voltage battery cell modules overheating during charging (EU recall 07/11/2025)",
+              "url": "https://car-recalls.eu/common-problems/Audi/Q7/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ערכי כיוון (טואו/קמבר) של הסרן האחורי עלולים לחרוג מהמפרט — לבדוק בלאי צמיגים אחוריים ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 11/2019–02/2021 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Audi Q7 (2019–2021) rear axle toe/camber (UK recall 14/02/2022)",
+              "url": "https://car-recalls.eu/common-problems/Audi/Q7/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר הצדית במושב הקדמי השמאלי לא קובעה כראוי ועלולה לא להיפתח. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתון 2023",
+            "source": {
+              "title": "car-recalls.eu — Audi Q7 (2023) side airbag insufficiently secured (EU recall 26/02/2024)",
+              "url": "https://car-recalls.eu/common-problems/Audi/Q7/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 TFSI V6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 333,
+            "cons": 11.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi Q7 3.0 TFSI (4M, 245 kW/333 PS, 2015–2019): real-world average from 189 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q7/Q7-II/q7-3-0-tfsi-4m_39740/verbrauch/"
+            }
+          }
+        ]
+      },
+      "4L": {
+        "engines": [
+          {
+            "name": "3.0 TFSI V6 בנזין 272 כ״ס",
+            "pt": "petrol",
+            "hp": 272,
+            "cons": 14.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi Q7 3.0 TFSI (4L, 200 kW/272 PS, 2009–2015): real-world average from 336 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q7/Q7/q7-3-0-tfsi-4l_34114/verbrauch/"
+            }
+          },
+          {
+            "name": "3.0 TFSI V6 בנזין 333 כ״ס",
+            "pt": "petrol",
+            "hp": 333,
+            "cons": 13.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi Q7 3.0 TFSI (4L, 245 kW/333 PS, 2009–2015): real-world average from 310 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q7/Q7/q7-3-0-tfsi-4l_34117/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "a6": {
+      "C7": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רשת מסנן השמן בצנרת אספקת השמן לשני מגדשי הטורבו צפופה מדי — סכנת נזק לטורבו. רלוונטי למנועי ביטורבו; לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "מנועי ביטורבו, ייצור 05/2012–03/2017 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Audi A6 (2012–2017) turbocharger oil supply strainer mesh too small (UK recall 03/05/2022)",
+              "url": "https://car-recalls.eu/common-problems/Audi/A6/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TFSI quattro טורבו בנזין",
+            "pt": "petrol",
+            "hp": 252,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi A6 2.0 TFSI quattro (4G/C7, 185 kW/252 PS, 2014–2018): real-world average from 77 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-A6/A6-Limousine/a6-2-0-tfsi-quattro-4g_40127/verbrauch/"
+            }
+          }
+        ]
+      },
+      "C8": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בגרסת הפלאג-אין מודולי סוללת המתח הגבוה עלולים להתחמם בטעינה — סכנת שריפה. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "TFSI e פלאג-אין, 2019–2024",
+            "source": {
+              "title": "car-recalls.eu — Audi A6 (2019–2024) high-voltage battery cell modules overheating during charging (EU recall 14/11/2025)",
+              "url": "https://car-recalls.eu/common-problems/Audi/A6/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "40 TFSI 2.0 טורבו בנזין (מיילד-היברידי)",
+            "pt": "petrol",
+            "hp": 204,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi A6 Avant 40 TFSI (F2/C8, 150 kW/203 PS, 2020–2025): real-world average from 68 user reports",
+              "url": "https://www.autokostencheck.de/Audi/Audi-A6/A6-Avant/a6-avant-40-tfsi-f2_48565/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

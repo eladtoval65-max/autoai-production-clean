@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -56,6 +56,41 @@
             "source": {
               "title": "autokostencheck.de — Subaru Impreza 1.6 AWD (G5, 2017–) 84 kW: real-world average from 39 user reports",
               "url": "https://www.autokostencheck.de/Subaru/Subaru-Impreza/Impreza/subaru-impreza-1-6-awd-g5_45895/verbrauch/"
+            }
+          }
+        ]
+      },
+      "GU": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רתמת החשמל בלוח המחוונים עלולה להשתפשף בתושבת קורת ההגה ולגרום לקצר — אובדן כוח הנעה בנסיעה. לוודא ביצוע הקריאה (WRL-23) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתון 2024 (קריאה בארה״ב)",
+            "source": {
+              "title": "NHTSA 23V551000 (via Justia) — 2024 Subaru Crosstrek / Impreza instrument panel harness, Subaru WRL-23",
+              "url": "https://auto-recalls.justia.com/subaru/crosstrek/2024/23v551000"
+            }
+          },
+          {
+            "he": "קריאת שירות: בטבעת החיצונית של גל ההנעה הקדמי עלולים להיווצר סדקים עד שבירה — אובדן הנעה או הידרדרות בחניה. לוודא ביצוע הקריאה (WRP-23).",
+            "level": "recall",
+            "scope": "ייצור 5–13.9.2023 (קריאה בארה״ב)",
+            "source": {
+              "title": "NHTSA 23V754000 (via Justia) — 2024 Crosstrek / Impreza, 2023–2024 Forester front driveshaft, Subaru WRP-23",
+              "url": "https://auto-recalls.justia.com/subaru/crosstrek/2024/23v754000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 e-Boxer מיילד-היברידי",
+            "pt": "hybrid",
+            "hp": 136,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "AutoScout24 — Erster Test Subaru Impreza 2.0ie e-Boxer (2024, 136 PS): test consumption \"nahe der acht Liter\" (≈8 L/100km) on first test drive",
+              "url": "https://www.autoscout24.de/informieren/testberichte/subaru/impreza/erster-test-subaru-impreza-e-boxer-einer-fuers-volk/"
             }
           }
         ]
@@ -153,6 +188,41 @@
             }
           }
         ]
+      },
+      "GU (Crosstrek)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רתמת החשמל בלוח המחוונים עלולה להשתפשף בתושבת קורת ההגה ולגרום לקצר — אובדן כוח הנעה בנסיעה. לוודא ביצוע הקריאה (WRL-23) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתון 2024 (קריאה בארה״ב)",
+            "source": {
+              "title": "NHTSA 23V551000 (via Justia) — 2024 Subaru Crosstrek / Impreza instrument panel harness, Subaru WRL-23",
+              "url": "https://auto-recalls.justia.com/subaru/crosstrek/2024/23v551000"
+            }
+          },
+          {
+            "he": "קריאת שירות: בטבעת החיצונית של גל ההנעה הקדמי עלולים להיווצר סדקים עד שבירה — אובדן הנעה או הידרדרות בחניה. לוודא ביצוע הקריאה (WRP-23).",
+            "level": "recall",
+            "scope": "ייצור 5–13.9.2023 (קריאה בארה״ב)",
+            "source": {
+              "title": "NHTSA 23V754000 (via Justia) — 2024 Crosstrek / Impreza, 2023–2024 Forester front driveshaft, Subaru WRP-23",
+              "url": "https://auto-recalls.justia.com/subaru/crosstrek/2024/23v754000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 e-Boxer מיילד-היברידי",
+            "pt": "hybrid",
+            "hp": 136,
+            "cons": 9,
+            "unit": "L",
+            "source": {
+              "title": "AutoScout24.at — Test Subaru Crosstrek 2.0ie (Dec 2024, 136 PS): Testverbrauch \"über neun Litern\" (9+ L/100km)",
+              "url": "https://www.autoscout24.at/informieren/testberichte/subaru/crosstrek/test-subaru-crosstrek-2-0ie-gegen-den-strom/"
+            }
+          }
+        ]
       }
     },
     "forester": {
@@ -212,6 +282,59 @@
             }
           }
         ]
+      },
+      "דור 3": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנוסע הקדמי עלול לספוג לחות ולהתפרק בפריסה. לוודא שהוחלף במסגרת הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתונים 2009–2012 (קריאה באוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Subaru SH Forester (front passenger airbag inflator, PRA 2016/15766)",
+              "url": "https://www.australiancar.reviews/?p=47792"
+            }
+          },
+          {
+            "he": "קריאת שירות: מתג ההצתה שהותקן כחלק חלופי עלול להיות פגום — לוודא ביצוע הקריאה (SRT 272) לפי מספר שלדה.",
+            "level": "recall",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Subaru SH Forester (replacement ignition switch, campaign SRT 272, PRA 2019/17514)",
+              "url": "https://www.australiancar.reviews/?p=47792"
+            }
+          },
+          {
+            "he": "קריאת שירות: כריות אוויר חלופיות מסוג Takata שהותקנו בעבר מוחלפות שוב — לוודא ביצוע הקריאה (SRT-271) לפי מספר שלדה.",
+            "level": "recall",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Subaru SH Forester (replacement Takata airbags, campaign SRT-271, PRA 2019/17508)",
+              "url": "https://www.australiancar.reviews/?p=47792"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 9.7,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru Forester (2008–2013) 2.0 Automatic: real-world average 29.0 mpg (≈9.7 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/forester-2008/20-automatic"
+            }
+          },
+          {
+            "name": "2.0 בוקסר דיזל",
+            "pt": "diesel",
+            "hp": 147,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru Forester (2008–2013) 2.0 D: real-world average 45.1 mpg (≈6.3 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/forester-2008/20-automatic"
+            }
+          }
+        ]
       }
     },
     "outback": {
@@ -224,6 +347,135 @@
             "source": {
               "title": "car-recalls.eu — Subaru Outback (2015–2018) electronic park brake, Subaru SRT324, Safety Gate A12/02023/23",
               "url": "https://car-recalls.eu/recall/subaru-outback-2015-2018-electronic-park-brake/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 175,
+            "cons": 8.4,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru Outback (2014–2021) 2.5 Lineartronic: real-world average 33.8 mpg (≈8.4 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/outback-2014/25-lineatronic"
+            }
+          }
+        ]
+      },
+      "BR": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קבלים ביחידת הבקרה של בלם החניה החשמלי (EPB) עלולים להיות חלשים — הבלם עלול להינעל או להשתחרר שלא בכוונה. לבדוק שבלם החניה עובד תקין ולוודא ביצוע הקריאה (SRT240) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2010–2014",
+            "source": {
+              "title": "car-recalls.eu — Subaru Outback (2010–2014) EPB control unit capacitors, Subaru SRT240, RAPEX A12/00592/20",
+              "url": "https://car-recalls.eu/recall/subaru-outback-2010-2014/"
+            }
+          },
+          {
+            "he": "קריאת שירות: הכיסוי התחתון של מנוע מגבי השמשה הקדמית עלול להימס (סכנת שריפה). לוודא ביצוע הקריאה לפי מספר שלדה ולבדוק שהמגבים עובדים בכל המהירויות.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2014 (קריאה באוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Subaru BR Outback (front wiper motor cover, PRA 2016/15655)",
+              "url": "https://www.australiancar.reviews/?p=47810"
+            }
+          },
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנוסע הקדמי (Takata) — לוודא שהוחלף במסגרת הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2014 (קריאה באוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Subaru BR Outback (Takata front passenger airbag, PRA 2017/16013)",
+              "url": "https://www.australiancar.reviews/?p=47810"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינור מצנן שמן של תיבת ה-CVT עלול לדלוף שמן — לבדוק סימני שמן מתחת לרכב ובאזור התיבה.",
+            "level": "recall",
+            "scope": "שנתון 2010 (קריאה באוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Subaru BR Outback (CVT oil cooler hose, PRA 2010/11647)",
+              "url": "https://www.australiancar.reviews/?p=47810"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 167,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru Legacy/Outback (2009–2014) 2.5i Lineartronic: real-world average 35.3 mpg (≈8.0 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/legacy-outback-2009"
+            }
+          },
+          {
+            "name": "3.6 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 260,
+            "cons": 9,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru Legacy/Outback (2009–2014) 3.6 R: real-world average 31.3 mpg (≈9.0 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/legacy-outback-2009"
+            }
+          },
+          {
+            "name": "2.0 בוקסר דיזל",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru Legacy/Outback (2009–2014) 2.0 D: real-world average 46.2 mpg (≈6.1 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/legacy-outback-2009"
+            }
+          }
+        ]
+      },
+      "BT": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מתג פגום עלול לגרום לכשל באורות הרוורס ובמצלמה האחורית — המתג מוחלף במוסך מורשה. לבדוק שאורות הרוורס והמצלמה עובדים ולוודא ביצוע הקריאה (SRT351).",
+            "level": "recall",
+            "scope": "ייצור 2021–2022",
+            "source": {
+              "title": "car-recalls.eu — Subaru Outback (2021–2022) reversing lights and camera switch, Subaru SRT351, KBA 013830 (May 2024)",
+              "url": "https://car-recalls.eu/es/subaru-outback-failure-reversing-lights-camera-kba/"
+            }
+          }
+        ]
+      }
+    },
+    "brz": {
+      "ZC6": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קפיץ שסתום במנוע עלול להיות חלש מדי ולהישבר, והמנוע עלול לכבות בנסיעה. לוודא ביצוע הקריאה (SRT261) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 2013",
+            "source": {
+              "title": "car-recalls.eu — Subaru BRZ (2013) engine valve spring, Subaru SRT261, RAPEX A12/0666/19",
+              "url": "https://car-recalls.eu/listing/subaru-brz-2013/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Subaru BRZ (2012–2020) 2.0i: real-world average 36.9 mpg (≈7.7 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/brz-2012/20i"
             }
           }
         ]

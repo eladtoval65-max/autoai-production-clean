@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "c-class": {
       "W204": {
@@ -344,6 +344,161 @@
             "source": {
               "title": "Spritmonitor — Mercedes E-Klasse petrol, automatic, built 2009–2013, 130–140 kW (95 vehicles, incl. coupe/estate)",
               "url": "https://www.spritmonitor.de/de/uebersicht/28-Mercedes-Benz/262-E-Klasse.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=130&power_e=140&gearing=2"
+            }
+          }
+        ]
+      },
+      "W213": {
+        "issues": [
+          {
+            "he": "קריאת שירות: משאבת הקירור המבוקרת בוואקום עלולה לא להיות אטומה — נוזל קירור חודר למעגל הוואקום, סכנת שריפה. לוודא ביצוע הקריאה (2090008).",
+            "level": "recall",
+            "scope": "ייצור 2017–2021",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLC/E-Class etc. (2017–2021) coolant pump, Mercedes 2090008, RAPEX A12/00045/22",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-glc-2017-coolant-pump-fire/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שגלגל ההגה לא חובר כראוי לתיבת ההגה — סכנת אובדן היגוי. לוודא ביצוע הקריאה (4692101).",
+            "level": "recall",
+            "scope": "ייצור 14.5–25.5.2018",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz E-Class (2018) steering wheel to steering gear connection, Mercedes 4692101, RAPEX A12/0135/18",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-e-class-2018/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת מודול החיוג לחירום (eCall) פגומה — ייתכן שלא תיווצר שיחה עם המוקד. לוודא עדכון (5499637).",
+            "level": "recall",
+            "scope": "ייצור 2016–2018",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz E-Class (2016–2018) eCall module software, Mercedes 5499637, RAPEX A12/0065/18",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-e-class-2016-2018/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "E 200 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 184,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes E 200 T-Modell (R1ES/W213 estate, 135 kW/183 PS, 2016–2024): real-world average from 290 user reports",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-E-Klasse/E-200/e-200-t-modell-r1es_44966/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "gla": {
+      "X156": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חלקיק כלוא עלול לפגוע באטימה בין מסילת הדלק למזרק — דליפת דלק לתא המנוע. לבדוק ריח דלק ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2016–2020",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLA (2016–2020) fuel rail / injector seal (EU recall 09/01/2022)",
+              "url": "https://car-recalls.eu/common-problems/mercedes-benz/GLA/"
+            }
+          },
+          {
+            "he": "קריאת שירות: קדח במפרק הקרדן של עמוד ההגה עלול להיות במידה שגויה — המפרק עלול להשתחרר ולפגוע ביכולת ההיגוי. לוודא ביצוע הקריאה (4692030).",
+            "level": "recall",
+            "scope": "ייצור 30.11.2016–14.7.2017",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLA (2016–2017) steering shaft universal joint, Mercedes 4692030, RAPEX A12/00857/21",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-gla-2016-steering/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מערכת החיוג לחירום (eCall) עלולה לא לפעול לפי המפרט. לוודא עדכון.",
+            "level": "recall",
+            "scope": "ייצור 01/2016–01/2021 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLA (2016–2021) emergency call system (UK recall 13/05/2021)",
+              "url": "https://car-recalls.eu/common-problems/mercedes-benz/GLA/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "GLA 200 1.6 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes GLA 200 (X156, 115 kW/156 PS, 2013–2020): real-world average from 29 user reports",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-GLA-Klasse/GLA-200/gla-200-245-g_38491/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "glc": {
+      "X253": {
+        "issues": [
+          {
+            "he": "קריאת שירות: משאבת הקירור המבוקרת בוואקום עלולה לא להיות אטומה — נוזל קירור חודר למעגל הוואקום, סכנת שריפה. לוודא ביצוע הקריאה (2090008).",
+            "level": "recall",
+            "scope": "ייצור 27.1.2017–12.10.2021",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLC (2017–2021) vacuum-controlled coolant pump, Mercedes 2090008, RAPEX A12/00045/22",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-glc-2017-coolant-pump-fire/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת מודול החיוג לחירום (eCall) פגומה — ייתכן שלא תיווצר שיחה עם המוקד. לוודא עדכון (5499637).",
+            "level": "recall",
+            "scope": "ייצור 2016–2018",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLC (2016–2018) eCall module software, Mercedes 5499637, RAPEX A12/0065/18",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-glc-2016-2018/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "GLC 250 4MATIC 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 211,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes GLC 250 Coupé 4MATIC (204 X, 155 kW/211 PS, 2016–2022): real-world average from 335 user reports (coupé body, same drivetrain)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-GLC-Klasse/GLC-250/glc-250-coupe-4matic-204-x_44981/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "cla": {
+      "C117": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קדח במפרק הקרדן של עמוד ההגה עלול להיות במידה שגויה — המפרק עלול להשתחרר ולפגוע בהיגוי. לוודא ביצוע הקריאה (4692030).",
+            "level": "recall",
+            "scope": "ייצור 30.11.2016–14.7.2017",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz CLA/GLA/A/B (2016–2017) steering shaft universal joint, Mercedes 4692030, RAPEX A12/00857/21",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-gla-2016-steering/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "CLA 250 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 211,
+            "cons": 8.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes CLA 250 Coupé (117, 155 kW/211 PS, 2012–2018): real-world average from 1656 user reports",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-CLA-Klasse/CLA-250/cla-250-coupe-117_37073/verbrauch/"
             }
           }
         ]

@@ -1,6 +1,6 @@
 {
   "make": "mg",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "zs": {
       "ZS (Gen1)": {
@@ -240,6 +240,32 @@
             }
           }
         ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מסילת מושב הנהג עלולה להשתחרר בתאונה חזיתית והמושב לזוז קדימה. לוודא ביצוע הקריאה (תיקון חינם בסוכנות) — רלוונטי לרכבים שיוצרו לפני אוגוסט 2025.",
+            "level": "recall",
+            "scope": "ייצור עד 08/2025, כולל Hybrid+",
+            "source": {
+              "title": "Euro NCAP — urges MG3 owners to complete free safety recall repair (13 May 2026); also vehiclerecalls.gov.au REC-006468",
+              "url": "https://www.euroncap.com/press-media/euro-ncap-urges-mg-3-owners-to-complete-free-safety-recall-repair/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 היברידי (Hybrid+)",
+            "pt": "hybrid",
+            "hp": 194,
+            "cons": 5.6,
+            "unit": "L",
+            "source": {
+              "title": "Auto Express — MG3 Hybrid+ review: 50.4 mpg (≈5.6 L/100km) averaged over 3,200 miles of long-term testing",
+              "url": "https://www.autoexpress.co.uk/mg/mg3/362988/mg3-review"
+            }
+          }
+        ]
       }
     },
     "mg5": {
@@ -265,6 +291,16 @@
             "source": {
               "title": "ev-database.org — MG MG5 Electric Long Range (57.4 kWh usable): EVDB real-range vehicle consumption estimate 171 Wh/km",
               "url": "https://ev-database.org/car/1474/MG-MG5-Electric-Long-Range"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "בעלים דיווחו על תקלות חשמל קלות ותקלות במערכת המולטימדיה, ועל עיכובים בתיקונים בגלל מחסור בחלפים — לבדוק את המסך והמערכות ולברר זמינות שירות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used MG5 2020–2025 review: reliability (owners report minor electrical niggles and infotainment glitches)",
+              "url": "https://www.whatcar.com/mg-motor-uk/mg5/estate/used-review/n25508/advice"
             }
           }
         ]

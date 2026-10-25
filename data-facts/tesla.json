@@ -1,6 +1,6 @@
 {
   "make": "tesla",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "model-3": {
       "Gen1": {
@@ -298,7 +298,7 @@
             "name": "RWD הנעה אחורית",
             "pt": "ev",
             "hp": 299,
-            "cons": 16.0,
+            "cons": 16,
             "unit": "kWh",
             "source": {
               "title": "EV Database — Tesla Model Y RWD (Juniper) 2025, real-range consumption",
@@ -341,6 +341,85 @@
             "title": "Queen of the Road — טסלה מודל Y החדש 2025 תחילת שיווק (21.02.2025)",
             "url": "https://www.queenoftheroad.co.il/טסלה-מודל-y/"
           }
+        }
+      }
+    },
+    "model-s": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שבב הזיכרון (eMMC 8GB) של המסך המרכזי נשחק — עלולים להיעלם מצלמת הרוורס, בקרת הפשרת השמשה ופנסי האיתות. לוודא שהוחלף הלוח (SB-21-21-001).",
+            "level": "recall",
+            "scope": "שנתונים 2012–2018",
+            "source": {
+              "title": "NHTSA campaign 21V035000 (via Motorverso) — Tesla Model S 2012–2018 / Model X 2016–2018 center display eMMC wear",
+              "url": "https://www.motorverso.com/recalls/tesla/21V035000/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי האלומיניום של מנוע סיוע ההגה עלולים להחליד ולהישבר — אובדן הגה כוח. לוודא ביצוע הקריאה (SB-18-32-002).",
+            "level": "recall",
+            "scope": "שנתונים 2012–2016 עם תיבת הגה Bosch",
+            "source": {
+              "title": "NHTSA campaign 18V204000 (via Motorverso) — Tesla Model S 2012–2016 power steering assist motor bolts",
+              "url": "https://www.motorverso.com/recalls/tesla/18V204000/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 100 קוט״ש (Long Range)",
+            "pt": "ev",
+            "hp": 541,
+            "cons": 17.9,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Tesla Model S Long Range (2019–2020, 95 kWh usable): EVDB real-range vehicle consumption estimate 179 Wh/km",
+              "url": "https://ev-database.org/car/1194/Tesla-Model-S-Long-Range"
+            }
+          }
+        ]
+      }
+    },
+    "model-x": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שבב הזיכרון (eMMC) של המסך המרכזי נשחק — עלולים להיעלם מצלמת הרוורס, בקרת הפשרה ופנסי האיתות. לוודא שהוחלף הלוח (SB-21-21-001).",
+            "level": "recall",
+            "scope": "שנתונים 2016–2018",
+            "source": {
+              "title": "NHTSA campaign 21V035000 (via Motorverso) — Tesla Model S 2012–2018 / Model X 2016–2018 center display eMMC wear",
+              "url": "https://www.motorverso.com/recalls/tesla/21V035000/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כבלים במושבי השורה השנייה המתקפלים עלולים לדרוש כיוונון — גב המושב השמאלי עלול לזוז קדימה בתאונה. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 28.10.2016–16.8.2017, מושבים מתקפלים",
+            "source": {
+              "title": "Electrek — Tesla recalls 11,000 Model X over second-row seat cables (12 Oct 2017)",
+              "url": "https://electrek.co/2017/10/12/tesla-recall-model-x-vehicles/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 100 קוט״ש (Long Range)",
+            "pt": "ev",
+            "hp": 423,
+            "cons": 21.8,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Tesla Model X Long Range (2019, 95 kWh usable): EVDB real-range vehicle consumption estimate 218 Wh/km",
+              "url": "https://ev-database.org/car/1175/Tesla-Model-X-Long-Range"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/press-media/best-in-class-battle-heats-up-in-latest-batch-of-results/"
         }
       }
     }

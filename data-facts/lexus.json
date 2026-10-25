@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "nx": {
       "AZ10": {
@@ -36,6 +36,19 @@
             }
           }
         ]
+      },
+      "AZ20": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ריתוך לקוי באזור עיגון הבולמים הקדמיים בגוף הרכב — הבולם עלול להתנתק. לוודא ביצוע הקריאה (XGG20) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "NX 350h / 450h+, שנתונים 2021–2022 (קריאה באוסטרליה)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Lexus NX350h / NX450h+ 2021–2022 front shock absorber mounting welds, REC-005410, campaign XGG20",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005410"
+            }
+          }
+        ]
       }
     },
     "rx": {
@@ -51,6 +64,35 @@
               "url": "https://www.autokostencheck.de/Lexus/Lexus/Lexus-RX-450/lexus-rx450-hybrid-hal1_36674/verbrauch/"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "שמשה קדמית עלולה לחרוק או לרשרש בחלקה העליון או התחתון — היצרן פרסם הוראת שירות; לבדוק בנסיעת מבחן על כביש משובש.",
+            "level": "manufacturer",
+            "scope": "RX 350 / RX 450h מוקדמים",
+            "source": {
+              "title": "australiancar.reviews — Lexus AL10 RX problems (Lexus Service Bulletin L-SB-0090-08 Rev 1, windscreen rattle)",
+              "url": "https://australiancar.reviews/?p=47226"
+            }
+          },
+          {
+            "he": "רעש נקישות מעמוד ההגה החשמלי — התיקון של היצרן הוא החלפת מכלול עמוד ההגה; להקשיב לרעשים בסיבוב ההגה.",
+            "level": "manufacturer",
+            "scope": "RX 350, שנתונים 2010–2011",
+            "source": {
+              "title": "australiancar.reviews — Lexus AL10 RX problems (Lexus Service Bulletin L-SB-0026-11, EPS steering column rattle)",
+              "url": "https://australiancar.reviews/?p=47226"
+            }
+          },
+          {
+            "he": "רעש רוח מהחלונות הקדמיים — התיקון של היצרן הוא זכוכית אקוסטית חדשה; לבדוק בנסיעה במהירות גבוהה.",
+            "level": "manufacturer",
+            "scope": "RX 350, שנתון 2010",
+            "source": {
+              "title": "australiancar.reviews — Lexus AL10 RX problems (Lexus Service Bulletin L-SB-0014-10 Rev1, wind noise)",
+              "url": "https://australiancar.reviews/?p=47226"
+            }
+          }
         ]
       },
       "AL20": {
@@ -62,6 +104,37 @@
             "source": {
               "title": "car-recalls.eu — Lexus RX 450h (2015–2018) washer jet heating element (Lexus 19SMD-121, RAPEX A12/00216/20)",
               "url": "https://car-recalls.eu/recall/lexus-rx-450h-2015-2018/"
+            }
+          },
+          {
+            "he": "קריאת שירות: משאבת הדלק בלחץ נמוך עלולה להפסיק לפעול והמנוע עלול לכבות בנסיעה. לוודא ביצוע הקריאה לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 07/2017–09/2019 (קריאה באוסטרליה, VGG17/VGG05)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Lexus AL20 RX (low-pressure fuel pump, campaigns VGG17/VGG05, PRA 2020/18243)",
+              "url": "https://www.australiancar.reviews/?p=47225"
+            }
+          },
+          {
+            "he": "קריאת שירות: במערכת האורות הגבוהים האדפטיביים (AHS) עלולים להיווצר סדקים והמחזיר להתנתק — לבדוק תפקוד פנסים ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 2019–2022",
+            "source": {
+              "title": "CarExpert — Lexus RX recalled (Adaptive High Beam System defect, REC-006213, 16 Dec 2024)",
+              "url": "https://www.carexpert.com.au/car-news/lexus-rx-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.5 V6 היברידי (450h)",
+            "pt": "hybrid",
+            "hp": 313,
+            "cons": 8.4,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Lexus RX (2015 on) 450h: real-world average 33.8 mpg (≈8.4 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/lexus/rx-2015/450h"
             }
           }
         ]
@@ -89,6 +162,32 @@
             "source": {
               "title": "Consumer Guide — 2014 Lexus ES 300h measured real-world 40.0 mpg (US) = 5.9 L/100km, 160 miles, 55% city",
               "url": "https://blog.consumerguide.com/cg-real-world-fuel-economy-lexus-es-300h/"
+            }
+          }
+        ]
+      },
+      "AXZH10": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנוע משאבת מגבר הבלמים עלול להפסיק לפעול בגלל מחזיק מברשות פגום — אובדן סיוע לבלימה. לוודא ביצוע הקריאה (19SMD063) לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ES 300h, ייצור 26.4.2019–6.6.2019",
+            "source": {
+              "title": "car-recalls.eu — Lexus ES 300h (2019) brake booster pump motor, Lexus 19SMD063, RAPEX A12/1199/19",
+              "url": "https://car-recalls.eu/recall/lexus-es-300h-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי (300h)",
+            "pt": "hybrid",
+            "hp": 218,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Lexus ES (2018 on) 300h: real-world average 56.0 mpg (≈5.0 L/100km), 55+ submissions",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/lexus/es-2018"
             }
           }
         ]
@@ -128,6 +227,62 @@
             "source": {
               "title": "ev-database.org — Lexus UX 300e: estimated real-world energy consumption 191 Wh/km (45 kWh usable)",
               "url": "https://ev-database.org/car/1251/Lexus-UX-300e"
+            }
+          }
+        ]
+      }
+    },
+    "lbx": {
+      "AY10": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה ביחידת סייען החניה — תמונת מצלמת הרוורס עלולה לקפוא או לא להופיע אם משלבים לאחור מיד אחרי ההתנעה. לוודא עדכון תוכנה (25SD-108).",
+            "level": "recall",
+            "scope": "ייצור 2024–2025",
+            "source": {
+              "title": "car-recalls.eu — Lexus LBX (2024–2025) parking assist / rear camera software, Toyota-Lexus 25SD-108, Safety Gate SR/03911/25",
+              "url": "https://car-recalls.eu/recall/lexus-lbx-2024-2025-electronic-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 היברידי",
+            "pt": "hybrid",
+            "hp": 136,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Lexus LBX 1.5 Hybrid long-term test report 5 (Aug 2024): test economy 56.2 mpg (≈5.0 L/100km) after ~1,300 miles",
+              "url": "https://whatcar.com/news/lexus-lbx-long-term-test-report-5/n27058"
+            }
+          }
+        ]
+      }
+    },
+    "rz": {
+      "e-TNGA": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תוכנת מחשב המיזוג עלולה להיכנס למצב חירום שמפסיק את החימום ופוגע בהפשרת השמשה. לוודא עדכון תוכנה בסוכנות.",
+            "level": "recall",
+            "scope": "RZ 450e, ייצור 2023–2024 (קריאות בדרום אפריקה ובפיליפינים)",
+            "source": {
+              "title": "Autocar Philippines — Toyota recalls Lexus RZ (HVAC control ECU failsafe, RZ450e built Feb 2023–Feb 2024), 12 Nov 2025",
+              "url": "https://autocar.com.ph/toyota-recalls-lexus-rz-lx700h-due-to-faulty-ecu-and-a-c/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 71.4 קוט״ש (450e)",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Lexus RZ 450e (MY23–25, 64 kWh usable): EVDB real-range vehicle consumption estimate 183 Wh/km",
+              "url": "https://ev-database.org/car/1677/Lexus-RZ-450e"
             }
           }
         ]

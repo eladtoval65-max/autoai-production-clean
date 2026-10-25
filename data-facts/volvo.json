@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "xc60": {
       "Gen1": {
@@ -25,6 +25,59 @@
             "source": {
               "title": "autokostencheck.de — Volvo XC60 2.0 D4 (2013–2015) 133 kW: real-world average from 526 user reports",
               "url": "https://www.autokostencheck.de/Volvo/Volvo-XC60/XC60/xc60-2-0-d4-d_38701/verbrauch/"
+            }
+          }
+        ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בגרסאות הפלאג-אין הבלימה עלולה להיות מנוטרלת בשימוש במצב B או One Pedal Drive — לוודא עדכון תוכנה.",
+            "level": "recall",
+            "scope": "פלאג-אין, 2019–2025",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC60 (2019–2025) braking disabled in B mode / One Pedal Drive (EU recall 11/07/2025)",
+              "url": "https://car-recalls.eu/common-problems/volvo/Xc60/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תאי סוללת המתח הגבוה עלולים להתחמם כשהסוללה טעונה במלואה (פלאג-אין). לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "T8 / T6 פלאג-אין, 2020–2022",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC60 (2020–2022) high-voltage battery cell overheating (EU recall 11/04/2025)",
+              "url": "https://car-recalls.eu/common-problems/volvo/Xc60/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מסב הדחף במגדש הטורבו עלול להיות חלש מדי — לבדוק רעשי טורבו ואובדן כוח ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 02/2019–09/2019 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC60 (2019) turbocharger thrust bearing (UK recall 18/10/2021)",
+              "url": "https://car-recalls.eu/common-problems/volvo/Xc60/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נתיך 15A עלול להישרף ולהשבית את משאבת הדלק בלחץ נמוך — המנוע עלול לכבות. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 11/2018–03/2020 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC60 (2018–2020) low pressure fuel pump fuse (UK recall 07/06/2021)",
+              "url": "https://car-recalls.eu/common-problems/volvo/Xc60/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "T5 2.0 טורבו בנזין AWD",
+            "pt": "petrol",
+            "hp": 250,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo XC60 II T5 AWD (U, 184 kW/250 PS, 2018–): real-world average from 16 user reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-XC60/XC60-II/xc60-t5-awd-u_47056/verbrauch/"
             }
           }
         ]
@@ -75,6 +128,138 @@
             "source": {
               "title": "Motor1.com (DE) — Volvo XC40 T5 Plug-in-Hybrid measured test: 4.80 L/100km over 360 km, started with full battery",
               "url": "https://de.motor1.com/reviews/505554/volvo-xc40-t5-pluginhybrid-verbrauchstest/"
+            }
+          }
+        ]
+      }
+    },
+    "xc90": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: צינור ההגה הכוח עלול להשתפשף ולדלוף — אובדן סיוע הגה. לבדוק דליפות נוזל הגה ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "D5, 2008–2010 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Volvo Mk.1 XC90 (power steering hose, PRA 2015/14803)",
+              "url": "https://australiancar.reviews/?p=48017"
+            }
+          },
+          {
+            "he": "קריאת שירות: פגם ייצור בצינור לחץ הדלק — דליפת דלק וסכנת שריפה. לבדוק ריח דלק בתא המנוע ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "3.2 / D5, שנתון 2010 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Volvo Mk.1 XC90 (fuel pressure line, PRA 2010/11608 & 2010/11809)",
+              "url": "https://australiancar.reviews/?p=48017"
+            }
+          },
+          {
+            "he": "קריאת שירות: דליפה מתיבת ההגה עלולה לגרום לאובדן פתאומי של סיוע ההגה. לבדוק סימני נוזל ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2011 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Volvo Mk.1 XC90 (steering gear leak, PRA 2011/12577)",
+              "url": "https://australiancar.reviews/?p=48017"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.2 בנזין 6 צילינדרים",
+            "pt": "petrol",
+            "hp": 243,
+            "cons": 10.1,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Volvo XC90 (2002–2015) 3.2 Geartronic: real-world average 27.9 mpg (≈10.1 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/volvo/xc90-2002"
+            }
+          },
+          {
+            "name": "D5 דיזל אוטומטי",
+            "pt": "diesel",
+            "hp": 185,
+            "cons": 9.5,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Volvo XC90 (2002–2015) D5 Geartronic: real-world average 29.8 mpg (≈9.5 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/volvo/xc90-2002"
+            }
+          },
+          {
+            "name": "4.4 V8 בנזין",
+            "pt": "petrol",
+            "hp": 315,
+            "cons": 12.3,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Volvo XC90 (2002–2015) V8: real-world average 22.9 mpg (≈12.3 L/100km)",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/volvo/xc90-2002"
+            }
+          }
+        ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בגרסאות הפלאג-אין הבלימה עלולה להיות מנוטרלת בשימוש במצב B או One Pedal Drive — לוודא עדכון תוכנה.",
+            "level": "recall",
+            "scope": "פלאג-אין, 2019–2025",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC90 (2019–2025) braking disabled in B mode / One Pedal Drive (EU recall 11/07/2025)",
+              "url": "https://car-recalls.eu/common-problems/volvo/xc90/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תאי סוללת המתח הגבוה עלולים להתחמם כשהסוללה טעונה במלואה (T8). לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "T8 פלאג-אין, 2020–2022",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC90 (2020–2022) high-voltage battery cell overheating (EU recall 11/04/2025)",
+              "url": "https://car-recalls.eu/common-problems/volvo/xc90/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מסב הדחף במגדש הטורבו עלול להיות חלש מדי — לבדוק רעשי טורבו ולוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 02/2019–09/2019 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC90 (2019) turbocharger thrust bearing (UK recall 18/10/2021)",
+              "url": "https://car-recalls.eu/common-problems/volvo/xc90/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נתיך 15A עלול להישרף ולהשבית את משאבת הדלק בלחץ נמוך — המנוע עלול לכבות. לוודא ביצוע הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 11/2018–12/2019 (בריטניה)",
+            "source": {
+              "title": "car-recalls.eu — Volvo XC90 (2018–2019) low pressure fuel pump fuse (UK recall 07/06/2021)",
+              "url": "https://car-recalls.eu/common-problems/volvo/xc90/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "T5 2.0 טורבו בנזין AWD",
+            "pt": "petrol",
+            "hp": 254,
+            "cons": 10.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo XC90 II 2.0 T5 AWD (L, 187 kW/254 PS, 2016–): real-world average from 88 user reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-XC90/XC90-II/xc90-2-0-t5-awd-l_44861/verbrauch/"
+            }
+          },
+          {
+            "name": "D5 2.0 דיזל AWD",
+            "pt": "diesel",
+            "hp": 224,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo XC90 II 2.0 D5 AWD (L, 165 kW/224 PS, 2014–): real-world average from 1024 user reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-XC90/XC90-II/xc90-2-0-d5-awd-l_39966/verbrauch/"
             }
           }
         ]
