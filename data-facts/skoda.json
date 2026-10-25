@@ -743,6 +743,15 @@
           "stars": 5,
           "year": 2024,
           "url": "https://news.euroncap.com/images-and-videos/-koda-superb---euro-ncap-2024-results---5-stars/s/3ae9f756-08aa-4560-bf22-77fd26e098a2"
+        },
+        "launchPrice": {
+          "ils": 202490,
+          "year": 2024,
+          "note": "1.5 טורבו Selection",
+          "source": {
+            "title": "Cartube — סקודה סופרב החדשה 2025 בישראל (22.12.2024)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-סופרב-החדשה-2025-בישראל-מחיר-202490-שקל"
+          }
         }
       }
     },
@@ -1008,6 +1017,15 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/-koda-elroq---euro-ncap-2025-results---5-stars/s/b090ea92-05cc-415c-bc11-10af5f9fda36"
+        },
+        "launchPrice": {
+          "ils": 179990,
+          "year": 2026,
+          "note": "Advance 60, מחיר השקה (מחיר רגיל 182,990 ₪)",
+          "source": {
+            "title": "auto.co.il — סקודה פותחת מתקפה חשמלית בישראל (16.09.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/skoda-electric-cars-israel/"
+          }
         }
       }
     }

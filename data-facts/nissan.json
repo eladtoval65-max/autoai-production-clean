@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "qashqai": {
       "J11": {
@@ -791,6 +791,43 @@
             }
           }
         ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאה בארה״ב: פגם ייצור בתאי הסוללה אצל הספק עלול לגרום לקצר פנימי והתחממות (סכנת שריפה). התיקון: החלפת מודולים או סוללה — לוודא לפי מספר שלדה שהרכב אינו כלול או שתוקן.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (NHTSA 26V188, 51 רכבים, ייצור 07–11/2025) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — Part 573 Safety Recall Report 26V188 (2026 LEAF, battery cell)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V188-8548.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 52 קוט״ש",
+            "pt": "ev",
+            "hp": 177,
+            "cons": 16.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — טבלת צריכה בפועל: Nissan LEAF Standard Range 52 kWh",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי 75 קוט״ש",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Nissan LEAF Extended Range 75 kWh (MY26)",
+              "url": "https://ev-database.org/car/3366/Nissan-LEAF-Extended-Range-75-kWh"
+            }
+          }
+        ]
       }
     },
     "sentra": {
@@ -853,6 +890,41 @@
             }
           }
         ]
+      },
+      "B19": {
+        "issues": [
+          {
+            "he": "קריאה בארה״ב לסנטרה 2026: ייתכן שהריתוך של תושבת במסגרת המושבים הקדמיים לקוי והמסגרת עלולה להשתחרר. התיקון: החלפת המושבים הקדמיים — לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (NHTSA 26V145, ניסאן PMA64) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2026 Nissan Sentra recalls (NHTSA 26V145000)",
+              "url": "https://www.clearvin.com/car-recalls/nissan/sentra/2026/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין CVT",
+            "pt": "petrol",
+            "hp": 149,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide — 2026 Nissan Sentra SL review (נמדד 30.1 mpg, 65% עירוני)",
+              "url": "https://blog.consumerguide.com/2026-nissan-sentra-sl-review-prices-and-specs/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 155000,
+          "year": 2025,
+          "note": "מחיר התחלתי בהשקה",
+          "source": {
+            "title": "icar — ניסאן סנטרה דור תשיעי (25.09.25)",
+            "url": "https://icar.co.il/news/syrmiff3lg"
+          }
+        }
       }
     }
   }

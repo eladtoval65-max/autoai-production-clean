@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -534,6 +534,72 @@
             }
           }
         ]
+      }
+    },
+    "frontera": {
+      "OV24": {
+        "issues": [
+          {
+            "he": "קריאת שירות לרתמת החיווט של ההגה החשמלי: עלולה להינזק מרעידות ולגרום לקצר, אובדן סיוע הגה או שריפה. לוודא לפי מספר שלדה שהרתמה תוקנה.",
+            "level": "recall",
+            "scope": "ייצור עד 13.1.2026",
+            "source": {
+              "title": "car-recalls.eu — Citroën C3/C3 Aircross & Opel Frontera power-steering harness fire risk (KBA 16277R, Opel KV9)",
+              "url": "https://car-recalls.eu/fr/citroen-c3-c3-aircross-fire-risk-due-damaged-cables-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות לדוושת הבלם: מוט הדחיפה עלול להישבר. לוודא לפי מספר שלדה שהוחלף.",
+            "level": "recall",
+            "scope": "ייצור 10.6.2025–2.8.2025 (388 רכבים)",
+            "source": {
+              "title": "car-recalls.eu — First recall 2025 Opel Frontera brake pedal (KBA 15618R, Opel KUX)",
+              "url": "https://car-recalls.eu/fr/first-recall-2025-opel-frontera-brake-pedal-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות לדליפת דלק מצינור הלחץ הגבוה (אומים משוחררים) — סכנת שריפה. לבדוק לפי מספר שלדה שבוצעה, ולהריח דלק בתא המנוע.",
+            "level": "recall",
+            "scope": "ייצור 30.7.2024–23.4.2025",
+            "source": {
+              "title": "car-recalls.eu — Opel Frontera (2024–2025) fuel leak / fire (SR/02932/25)",
+              "url": "https://car-recalls.eu/sk/odvolanie/opel-frontera-2024-2025-fuel-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היברידי",
+            "pt": "hybrid",
+            "hp": 145,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Frontera היברידי 102–112 קו״ט, אוטומטי (11 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/35-Opel/325-Frontera.html?fueltype=10&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=102&power_e=112&gearing=2"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 44 קוט״ש",
+            "pt": "ev",
+            "hp": 113,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Opel Frontera Electric 44 kWh",
+              "url": "https://ev-database.org/car/2238/Opel-Frontera-Electric-44-kWh"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 147000,
+          "year": 2025,
+          "note": "GS, 5 מושבים (7 מושבים 159,000 ₪)",
+          "source": {
+            "title": "carzone — אופל פרונטרה החדשה 2025 שוברת את שוק ה-7 מושבים",
+            "url": "https://www.carzone.co.il/news/2025-אופל-פרונטרה-החדשה-שוברת-את-שוק-ה-7-מושבים/"
+          }
+        }
       }
     }
   }

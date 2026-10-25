@@ -467,6 +467,41 @@
             }
           }
         ]
+      },
+      "XA60": {
+        "issues": [
+          {
+            "he": "קריאה בארה״ב לראב 4 פלאג-אין 2026: תקלה ביחידת הבקרה של ההנעה ההיברידית עלולה לכבות את המערכת בנסיעה (אובדן כוח). התיקון: עדכון תוכנה — לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, פלאג-אין בלבד — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "FOX 29 — Toyota recalls approximately 31,000 2026 RAV4 Plug-in Hybrids",
+              "url": "https://www.fox29.com/news/toyota-recalls-approximately-31000-rav4s-whose-engines-could-lose-power-high-speeds"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי (הנעה קדמית)",
+            "pt": "hybrid",
+            "hp": 192,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "NRMA Open Road — 2026 Toyota RAV4 fuel consumption test (Cruiser 2WD, 774 ק״מ)",
+              "url": "https://mynrma.com.au/open-road/car-reviews/toyota/2026-toyota-rav4-fuel-consumption-test"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 219990,
+          "year": 2026,
+          "note": "E-XPERIENCE, היברידית הנעה קדמית",
+          "source": {
+            "title": "מלכת הכביש — טויוטה ראב 4 חדש דור 6 (2026) מ-219,990 ₪",
+            "url": "https://www.queenoftheroad.co.il/טויוטה-ראב-4-החדש-2026-בישראל/"
+          }
+        }
       }
     },
     "c-hr": {
@@ -1231,6 +1266,70 @@
             }
           }
         ]
+      }
+    },
+    "c-hr-plus": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאה בארה״ב ל-C-HR החשמלית (התאומה של C-HR+): שגיאת תוכנה בבקר ההנעה עלולה לגרום להטענת יתר בבלימה רגנרטיבית ולכיבוי ההנעה בנסיעה. התיקון: עדכון תוכנה (26TA17) — לבדוק מול היבואן לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (ייצור 02–07/2026) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Electrek — Toyota recalls 8,521 electric C-HR SUVs (Toyota recall 26TA17)",
+              "url": "https://electrek.co/2026/09/10/toyota-recalls-8521-electric-c-hr-suvs-update/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 57.7 קוט״ש הנעה קדמית",
+            "pt": "ev",
+            "hp": 167,
+            "cons": 16.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Toyota C-HR+ 57.7 kWh (MY26)",
+              "url": "https://ev-database.org/car/3393/Toyota-C-HRplus-577-kWh"
+            }
+          },
+          {
+            "name": "חשמלי 77 קוט״ש הנעה קדמית",
+            "pt": "ev",
+            "hp": 224,
+            "cons": 16.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Toyota C-HR+ 77 kWh (MY26)",
+              "url": "https://ev-database.org/car/3394/Toyota-C-HRplus-77-kWh"
+            }
+          },
+          {
+            "name": "חשמלי 77 קוט״ש הנעה כפולה",
+            "pt": "ev",
+            "hp": 338,
+            "cons": 19,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Toyota C-HR+ 77 kWh AWD (MY26) (306 Wh/mi)",
+              "url": "https://ev-database.org/imp/car/3395/Toyota-C-HRplus-77-kWh-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/toyota-c-hr----euro-ncap-2025-results---5-stars/s/68af7395-fab7-479f-93b6-e5840c69f8b0"
+        },
+        "launchPrice": {
+          "ils": 179990,
+          "year": 2026,
+          "note": "Motion 2X4, סוללת 57.7 קוט״ש",
+          "source": {
+            "title": "auto.co.il — טויוטה C-HR+ 2026 Motion 2X4",
+            "url": "https://www.auto.co.il/cars/toyota/plusch-r/2026/motion-2x4/"
+          }
+        }
       }
     }
   }

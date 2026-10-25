@@ -501,6 +501,48 @@
           "url": "https://news.euroncap.com/safercars/dacia-logan---euro-ncap-2021-results---2-stars/s/ab2d84b7-8dfb-4857-ab86-4d8e8453802e"
         }
       }
+    },
+    "bigster": {
+      "R1310": {
+        "issues": [
+          {
+            "he": "קריאת שירות לקפיצי המתלה האחורי: יוצרו בגאומטריה שגויה ועלולים להישבר. לוודא לפי מספר שלדה שהוחלפו.",
+            "level": "recall",
+            "scope": "ייצור 9.1.2026–25.2.2026",
+            "source": {
+              "title": "car-recalls.eu — Dacia Duster and Bigster: rear springs may break (KBA 16608R, Dacia 0F8W)",
+              "url": "https://car-recalls.eu/dacia-duster-bigster-rear-springs-may-break-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 היברידי מלא",
+            "pt": "hybrid",
+            "hp": 155,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Bigster היברידי 110–120 קו״ט, אוטומטי (130 רכבים)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/113-Dacia/2242-Bigster.html?fueltype=10&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=110&power_e=120&gearing=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/dacia-bigster---euro-ncap-2024-results---3-stars/s/b34fb983-368d-41ed-84fa-1e49ed6ddae9"
+        },
+        "launchPrice": {
+          "ils": 169990,
+          "year": 2025,
+          "note": "Expression (1.2 טורבו 4X4 ידני או 1.8 היברידי)",
+          "source": {
+            "title": "cartube — דאצ'יה ביגסטר נחת בישראל, מחיר 169,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/דאצ-יה-ביגסטר-נחת-בישראל-מחיר169990-שקל"
+          }
+        }
+      }
     }
   }
 }

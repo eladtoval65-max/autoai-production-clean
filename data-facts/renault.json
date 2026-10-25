@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "clio": {
       "Clio IV": {
@@ -382,6 +382,110 @@
           "stars": 5,
           "year": 2022,
           "url": "https://www.euroncap.com/assessments/renault/austral/0943/"
+        }
+      }
+    },
+    "renault-5": {
+      "R5E": {
+        "issues": [
+          {
+            "he": "קריאת שירות באירופה (רנו 0F49): פגם ייצור בתא סוללה עלול לגרום לקצר פנימי, אובדן טווח או כשל טעינה, ובמקרה הגרוע לסכנת שריפה. לוודא לפי מספר שלדה מול היבואן שהרכב אינו כלול או שתוקן.",
+            "level": "recall",
+            "scope": "ייצור 12.12.2025–28.1.2026",
+            "source": {
+              "title": "car-recalls.eu — Renault 5 E-Tech (2025–2026) EV battery fire (Safety Gate SR/00796/26)",
+              "url": "https://car-recalls.eu/recall/renault-5-e-tech-2025-2026-ev-hybrid-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 40 קוט״ש",
+            "pt": "ev",
+            "hp": 120,
+            "cons": 15.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Renault 5 E-Tech 40kWh 120hp",
+              "url": "https://ev-database.org/car/2134/Renault-5-E-Tech-40kWh-120hp"
+            }
+          },
+          {
+            "name": "חשמלי 52 קוט״ש",
+            "pt": "ev",
+            "hp": 150,
+            "cons": 15.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Renault 5 E-Tech 52kWh 150hp",
+              "url": "https://ev-database.org/car/2135/Renault-5-E-Tech-52kWh-150hp"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/renault-5---euro-ncap-2024-results---4-stars/s/8820f060-a3da-4b41-81d7-6e9e05db3943"
+        },
+        "launchPrice": {
+          "ils": 169000,
+          "year": 2025,
+          "note": "בסיס, 120 כ״ס, סוללת 40 קוט״ש",
+          "source": {
+            "title": "וואלה רכב — רנו 5 החשמלית בישראל (26.10.2025)",
+            "url": "https://cars.walla.co.il/item/3789713"
+          }
+        }
+      }
+    },
+    "symbioz": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות לחיבור בסוללת ההנעה בגרסאות ההיברידיות: חיבור פגום עלול להתחמם ולגרום לשריפה. לוודא לפי מספר שלדה שהבדיקה והתיקון בוצעו.",
+            "level": "recall",
+            "scope": "ייצור 1.12.2025–6.2.2026",
+            "source": {
+              "title": "autoevolution — Renault fire-risk recall for Captur and Symbioz hybrids (0FDZ)",
+              "url": "https://www.autoevolution.com/news/renault-issues-fire-risk-recall-for-captur-and-symbioz-hybrid-vehicles-277276.html"
+            }
+          },
+          {
+            "he": "קריאת שירות לבלם החניה: חיישן המפעיל מותקן בזווית שגויה והבלם עלול לא להינעל. לוודא שהקריאה בוצעה ושהרכב לא זז במצב P.",
+            "level": "recall",
+            "scope": "ייצור 12.4.2024–7.5.2025",
+            "source": {
+              "title": "car-recalls.eu — Renault Symbioz (2024–2025) parking brake actuator (Renault 0EY9)",
+              "url": "https://car-recalls.eu/recall/renault-symbioz-2024-2025-electronic-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 E-Tech היברידי מלא",
+            "pt": "hybrid",
+            "hp": 160,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "PetrolBlog — מבחן ארוך טווח Symbioz E-Tech 160: ממוצע 54.7 mpg בריטי בשישה חודשים (הומר ל-ל׳/100 ק״מ)",
+              "url": "https://petrolblog.com/articles/long-term-renault-symbioz-e-tech-160"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2024,
+          "url": "https://www.euroncap.com/en/results/renault/captur/52564"
+        },
+        "launchPrice": {
+          "ils": 159990,
+          "year": 2026,
+          "note": "Techno, 1.8 היברידי 160 כ״ס",
+          "source": {
+            "title": "מלכת הכביש — רנו סימביוז, רכב היברידי חדש בישראל מ-159,990 ש\"ח",
+            "url": "https://www.queenoftheroad.co.il/רנו-סימביוז-רכב-היברידי-חדש/"
+          }
         }
       }
     }

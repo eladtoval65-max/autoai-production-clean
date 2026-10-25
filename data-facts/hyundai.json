@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -1587,6 +1587,59 @@
             }
           }
         ]
+      },
+      "LX3": {
+        "issues": [
+          {
+            "he": "קריאה בארה״ב לפאליסייד 2026 (כולל היברידית): החיווט באבזם חגורת הבטיחות השמאלי בשורה השלישית עלול להינזק, ואז המערכת לא מזהה אם החגורה רכוסה. לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (ייצור 05/2025–11/2025) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Carscoops — 2026 Hyundai Palisade seat belt buckle recall (46,787 vehicles)",
+              "url": "https://www.carscoops.com/2026/03/hyundai-palisade-seat-recall/"
+            }
+          },
+          {
+            "he": "קריאה בארה״ב: מושבי השורה השנייה והשלישית החשמליים עלולים לא לזהות נוסע ולהמשיך לזוז. התיקון הוא עדכון תוכנה — לוודא שבוצע, ולהרחיק ילדים בזמן קיפול חשמלי.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (NHTSA 26V160, Limited/Calligraphy) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Lemberg Law — 2026 Hyundai Palisade recalls (NHTSA 26V160000)",
+              "url": "https://lemberglaw.com/recalls/2026-hyundai-palisade/"
+            }
+          },
+          {
+            "he": "קריאה בארה״ב: תקלת תוכנה עלולה לכבות את תצוגת לוח המחוונים. התיקון הוא עדכון תוכנה — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (NHTSA 26V047) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Lemberg Law — 2026 Hyundai Palisade recalls (NHTSA 26V047000)",
+              "url": "https://lemberglaw.com/recalls/2026-hyundai-palisade/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 טורבו היברידי",
+            "pt": "hybrid",
+            "hp": 329,
+            "cons": 9,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2026 Hyundai Palisade Calligraphy Hybrid AWD review (מחשב הדרך במבחן)",
+              "url": "https://www.carexpert.com.au/car-reviews/2026-hyundai-palisade-calligraphy-hybrid-awd-review"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 349990,
+          "year": 2026,
+          "note": "היברידית, רמת גימור Excellence",
+          "source": {
+            "title": "Cartube — יונדאי פליסייד החדש 2026 נחת בישראל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-פליסייד-החדש-2026-נחת-בישראל-מחיר-349990-שקל"
+          }
+        }
       }
     },
     "staria": {
@@ -1603,7 +1656,80 @@
               "url": "https://www.carsguide.com.au/family/hyundai-staria-diesel-101803"
             }
           }
-        ]
+        ],
+        "issues": [
+          {
+            "he": "בגרסת הנוסעים דווח שהחלונות הפנורמיים בשורה השנייה נשברים בסגירת הדלת ההזזה (כ-2,000 מקרים בקוריאה; יונדאי החליפה חלונות). לבדוק שאין סדקים בזגוגיות ולברר אם הוחלפו.",
+            "level": "widely_reported",
+            "scope": "דיווח מקוריאה, 2021 (ייצור מוקדם)",
+            "source": {
+              "title": "WapCar — Hyundai Staria windows have a tendency to break (citing Korea IT Times)",
+              "url": "https://www.wapcar.my/news/28217/amp"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 269900,
+          "year": 2022,
+          "note": "נוסעים, 9 מקומות, Premium, 2.2 דיזל 177 כ״ס (מסחרית סגורה מ-236,900 ₪)",
+          "source": {
+            "title": "icar — יונדאי סטאריה בישראל: מ-237,000 שקלים",
+            "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_סטאריה_בישראל:_מ-237,000_שקלים/"
+          }
+        }
+      }
+    },
+    "ioniq-9": {
+      "ME1": {
+        "issues": [
+          {
+            "he": "קריאה בארה״ב: מושבי השורה השנייה החשמליים עלולים לא לזהות נוסע או חפץ בזמן קיפול חשמלי. התיקון: עדכון תוכנה — לבדוק לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב (NHTSA 26V588, Limited/Calligraphy, ייצור 03/2025–05/2026) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — Part 573 Safety Recall Report 26V588 (2026 IONIQ 9, 2nd-row power seat)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V588-0403.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 110.3 קוט״ש הנעה אחורית",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 21,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 9 Long Range RWD",
+              "url": "https://ev-database.org/car/3067/Hyundai-IONIQ-9-Long-Range-RWD"
+            }
+          },
+          {
+            "name": "חשמלי 110.3 קוט״ש הנעה כפולה",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 22.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 9 Long Range AWD",
+              "url": "https://ev-database.org/car/3068/Hyundai-IONIQ-9-Long-Range-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/hyundai-ioniq-9---euro-ncap-2025-results---5-stars/s/22d367a5-af59-4fc6-af44-095f24595954"
+        },
+        "launchPrice": {
+          "ils": 354990,
+          "year": 2026,
+          "note": "Excellence 2X4 (רמת גימור בסיס)",
+          "source": {
+            "title": "cartube — יונדאי איוניק 9 נחת בישראל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-איוניק-9-נחת-בישראל-מחיר-354990-שקל"
+          }
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "models": {
     "swift": {
       "AZ": {
@@ -143,7 +143,21 @@
               "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/430-Swift.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/suzuki-swift---euro-ncap-2024-results---3-stars/s/485d0d3f-c209-4114-bdc9-0135c714928d"
+        },
+        "launchPrice": {
+          "ils": 113990,
+          "year": 2024,
+          "note": "GLX ידנית (אוטומטית 126,990 ₪)",
+          "source": {
+            "title": "Cartube — 2024 סוזוקי סוויפט החדשה בישראל (5.6.2024)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2024-סוזוקי-סוויפט-החדשה-בישראל-מחיר-113990-שקל"
+          }
+        }
       }
     },
     "vitara": {
@@ -213,6 +227,57 @@
           "source": {
             "title": "Cartube — סוזוקי ויטארה החדש בישראל, מחיר החל מ-125,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סוזקי-ויטארה-החדש-בישראל-מחיר-החל-מ-125,000-שקל"
+          }
+        }
+      },
+      "e Vitara": {
+        "engines": [
+          {
+            "name": "חשמלי 49 קוט״ש הנעה קדמית",
+            "pt": "ev",
+            "hp": 144,
+            "cons": 17.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Suzuki e VITARA 49 kWh 2WD",
+              "url": "https://ev-database.org/car/3211/Suzuki-e-VITARA-49-kWh-2WD"
+            }
+          },
+          {
+            "name": "חשמלי 61 קוט״ש הנעה קדמית",
+            "pt": "ev",
+            "hp": 174,
+            "cons": 18.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Suzuki e VITARA 61 kWh 2WD",
+              "url": "https://ev-database.org/car/3212/Suzuki-e-VITARA-61-kWh-2WD"
+            }
+          },
+          {
+            "name": "חשמלי 61 קוט״ש AllGrip 4X4",
+            "pt": "ev",
+            "hp": 184,
+            "cons": 19.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Suzuki e VITARA 61 kWh 4WD AllGrip",
+              "url": "https://ev-database.org/de/pkw/3213/Suzuki-e-VITARA-61-kWh-4WD-AllGrip"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/suzuki-e-vitara---euro-ncap-2025-results---4-stars/s/9e2c6c76-fb91-4cae-a17c-aa9718be9348"
+        },
+        "launchPrice": {
+          "ils": 154990,
+          "year": 2026,
+          "note": "GLX הנעה קדמית",
+          "source": {
+            "title": "auto.co.il — סוזוקי e-ויטארה בארץ – המחיר החל מ-155,000 שקלים (20.05.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/suzuki-e-vitara-price/"
           }
         }
       }

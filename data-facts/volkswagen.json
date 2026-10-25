@@ -720,6 +720,59 @@
             }
           }
         ]
+      },
+      "B9": {
+        "issues": [
+          {
+            "he": "קריאת שירות לכרית האוויר של הנוסע הקדמי: בפריסה בית מחולל הגז עלול להתפוצץ או שחלקים ממנו יינתקו. לוודא לפי מספר שלדה שהרכב אינו כלול או שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "פאסאט שיוצרו 05/2022–05/2025 (חלק מהרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Volkswagen Passat (2022–2025) airbag (VW 69UN/69UK, KBA 15191R/15053R)",
+              "url": "https://car-recalls.eu/recall/volkswagen-passat-2022-2025-airbag-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 eTSI בנזין מיילד-היברידי",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Passat בנזין 105–115 קו״ט, DSG, 2022–2026 (54 רכבים; עשוי לכלול גם B8 מאוחרות)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/456-Passat.html?fueltype=2&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=105&power_e=115&gearing=4"
+            }
+          },
+          {
+            "name": "2.0 TDI דיזל",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Passat דיזל 105–115 קו״ט, DSG, 2023–2027 (82 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/456-Passat.html?fueltype=8&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=105&power_e=115&gearing=4"
+            }
+          },
+          {
+            "name": "1.5 eHybrid פלאג-אין",
+            "pt": "phev",
+            "hp": 272,
+            "cons": 4.1,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Passat פלאג-אין 195–205 קו״ט, 2023–2027 (16 רכבים; דלק בלבד, ללא חשמל)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/456-Passat.html?fueltype=6&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=195&power_e=205&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/vw-passat---euro-ncap-2024-results---5-stars/s/69ed0691-3d98-4510-8eef-3f8ab8e95224"
+        }
       }
     },
     "jetta": {
@@ -1060,6 +1113,99 @@
           "stars": 5,
           "year": 2022,
           "url": "https://www.euroncap.com/en/results/vw/id.+buzz/47766"
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות עולמית (KBA 16271R): מודולים בסוללת המתח הגבוה עלולים לא לעמוד במפרט — נורית אזהרה, ירידה בטווח ובמקרים נדירים סכנת שריפה. התיקון: עדכון תוכנה ובדיקת מודולים. לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 24.6.2023–23.8.2024",
+            "source": {
+              "title": "newmobility.news — VW Group plans recall of around 100,000 BEVs (KBA 16271R)",
+              "url": "https://newmobility.news/en/2026/03/25/vw-group-plans-recall-of-around-100000-bevs/"
+            }
+          },
+          {
+            "he": "קריאה בארה״ב: ספסל השורה השלישית רחב מספיק לשלושה אך יש בו שתי חגורות בלבד; התיקון: חיפוי שמצר את הספסל. רלוונטי בעיקר לגרסה הארוכה עם שלוש שורות — לבדוק תחולה.",
+            "level": "recall",
+            "scope": "קריאה בארה״ב, 2025 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Jalopnik — VW ID. Buzz recalled for third-row seats that are too roomy (5,637 vehicles)",
+              "url": "https://www.jalopnik.com/1858275/vw-id-buzz-recall-third-row-seats-too-roomy/"
+            }
+          }
+        ]
+      }
+    },
+    "tayron": {
+      "Gen1 (גלובלי)": {
+        "issues": [
+          {
+            "he": "קריאת שירות ללוח המחוונים: פגם עלול לפגוע בהגנת כרית האוויר של הנוסע הקדמי. לוודא לפי מספר שלדה שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור ינואר 2025 (כ-1,637 רכבים)",
+            "source": {
+              "title": "car-recalls.eu — New Volkswagen Tayron first recall (KBA 14849R, VW 69TE)",
+              "url": "https://car-recalls.eu/es/new-volkswagen-tayron-first-recall-kba/"
+            }
+          },
+          {
+            "he": "תקלת תוכנה במנוע ההגה החשמלי — מאמץ ההיגוי עלול להשתנות פתאום. התיקון: עדכון תוכנה — לבדוק מול היבואן.",
+            "level": "recall",
+            "scope": "קריאה באוסטרליה (2025–2026, קמפיין 48AA) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — VW Golf, Tiguan, Tayron 2025–2026 power steering software (REC-006602)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006602"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TDI דיזל",
+            "pt": "diesel",
+            "hp": 193,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tayron דיזל 137–147 קו״ט (10 רכבים)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/2233-Tayron.html?fueltype=1&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=137&power_e=147&gearing=4"
+            }
+          },
+          {
+            "name": "1.5 eHybrid פלאג-אין 204 כ״ס",
+            "pt": "phev",
+            "hp": 204,
+            "cons": 2.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tayron פלאג-אין 145–155 קו״ט (7 רכבים; דלק בלבד)",
+              "url": "https://www.spritmonitor.de/en/overview/50-Volkswagen/2233-Tayron.html?fueltype=6&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=145&power_e=155&gearing=4"
+            }
+          },
+          {
+            "name": "1.5 eHybrid פלאג-אין 272 כ״ס",
+            "pt": "phev",
+            "hp": 272,
+            "cons": 2.3,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Tayron פלאג-אין 195–205 קו״ט (12 רכבים; דלק בלבד)",
+              "url": "https://www.spritmonitor.de/fr/apercu/50-Volkswagen/2233-Tayron.html?fueltype=6&vehicletype=1&constyear_s=2023&constyear_e=2027&power_s=195&power_e=205&gearing=4"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://www.euroncap.com/en/results/vw/tayron/54898"
+        },
+        "launchPrice": {
+          "ils": 259900,
+          "year": 2026,
+          "note": "Elegance, 1.5 טורבו מיילד-היברידי 150 כ״ס",
+          "source": {
+            "title": "carzone — פולקסווגן טיירון 2026 מחיר החל מ-259,900 ש\"ח",
+            "url": "https://www.carzone.co.il/news/פולקסווגן-טיירון-2026-מחיר-החל-מ-259900-שח"
+          }
         }
       }
     }

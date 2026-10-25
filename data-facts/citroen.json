@@ -359,6 +359,51 @@
             }
           }
         ]
+      },
+      "CC24": {
+        "issues": [
+          {
+            "he": "קריאת שירות לרתמת החיווט של ההגה החשמלי: עלולה להינזק מרעידות ולגרום לקצר, אובדן סיוע הגה או שריפה. לוודא לפי מספר שלדה שהרתמה תוקנה.",
+            "level": "recall",
+            "source": {
+              "title": "car-recalls.eu — Citroën C3/C3 Aircross fire risk due to damaged cables (KBA 16276R, Citroën GW9)",
+              "url": "https://car-recalls.eu/fr/citroen-c3-c3-aircross-fire-risk-due-damaged-cables-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היברידי",
+            "pt": "hybrid",
+            "hp": 145,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — C3 Aircross Hybrid 145 long-term test report 4: 44.8 mpg בריטי (הומר)",
+              "url": "https://www.whatcar.com/news/citroen-c3-aircross-long-term-test-report-4/n29168"
+            }
+          },
+          {
+            "name": "ë-C3 Aircross חשמלי, סוללה 44 קוט״ש",
+            "pt": "ev",
+            "hp": 113,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Citroën ë-C3 Aircross Comfort Range 44 kWh",
+              "url": "https://ev-database.org/car/2224/Citroen-e-C3-Aircross-Comfort-Range-44-kWh"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 145000,
+          "year": 2025,
+          "note": "MAX, 5 מושבים (7 מושבים 157,000 ₪)",
+          "source": {
+            "title": "auto.co.il — סיטרואן C3 איירקרוס החדש בארץ, המחיר החל מ-145,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/new-citroen-c3-aircross/"
+          }
+        }
       }
     },
     "berlingo": {
