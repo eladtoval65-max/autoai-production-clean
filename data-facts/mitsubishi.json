@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-10-24",
+  "updated": "2026-10-30",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -191,7 +191,41 @@
               "url": "https://www.autokostencheck.de/Mitsubishi/Mitsubishi-ASX/ASX/asx-1-3-rjb_50956/verbrauch/"
             }
           }
-        ]
+        ],
+        "issues": [
+          {
+            "he": "תקלות חשמל ומולטימדיה: בעלי הרכב התאום (רנו קפצ'ור II) מדווחים על תקלות במערכת המולטימדיה ועל נורות אזהרה שגויות בלוח המחוונים. בקנייה: לבדוק שהמסך לא נתקע ושאין נורות אזהרה דולקות, ולבקש היסטוריית עדכוני תוכנה.",
+            "level": "widely_reported",
+            "scope": "מדווח על רנו קפצ'ור II (2020 ואילך), שעליה מבוסס ה-ASX",
+            "source": {
+              "title": "What Car? — Used Renault Captur 2020-present review: reliability",
+              "url": "https://www.whatcar.com/renault/captur/hatchback/used-review/n24277/reliability"
+            }
+          },
+          {
+            "he": "כניסה ללא מפתח: חלק מהבעלים דיווחו שהדלתות לא ננעלות או לא נפתחות כראוי. בקנייה: לבדוק נעילה ופתיחה עם השלט ובלעדיו.",
+            "level": "widely_reported",
+            "scope": "מדווח על רנו קפצ'ור II (התאום)",
+            "source": {
+              "title": "What Car? — Used Renault Captur 2020-present review: reliability",
+              "url": "https://www.whatcar.com/renault/captur/hatchback/used-review/n24277/reliability"
+            }
+          },
+          {
+            "he": "תיבה אוטומטית: דווחו תקלות בודדות, בעיקר בגרסאות האוטומטיות. לפי המקור הן אינן נפוצות. בנסיעת מבחן: לבדוק העברות חלקות בזחילה ובהאצה.",
+            "level": "widely_reported",
+            "scope": "מדווח על רנו קפצ'ור II אוטומטית (התאום)",
+            "source": {
+              "title": "What Car? — Used Renault Captur 2020-present review: reliability",
+              "url": "https://www.whatcar.com/renault/captur/hatchback/used-review/n24277/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/mitsubishi-asx---euro-ncap-2024-results---standard-equipment-4-stars-and-with-safety-pack-0-stars/s/e1c40aab-946c-42d1-a109-7a0e6bccbc21"
+        }
       }
     },
     "space-star": {

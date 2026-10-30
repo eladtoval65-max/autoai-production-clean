@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "corolla": {
       "E150": {
@@ -812,6 +812,19 @@
             "source": {
               "title": "TrueDelta — Toyota Camry recalls list (12/16/14, 2011 Camry built Mar–Jul 2011)",
               "url": "https://www.truedelta.com/Toyota-Camry-recalls-264&o=1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 בנזין",
+            "pt": "petrol",
+            "hp": 157,
+            "cons": 10.5,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide — Used Toyota Camry review 2006–2011: owner of a 2.4 petrol Altise reports 10.5 L/100km (single owner report; Consumer Guide testers measured 19.0–26.2 mpg US ≈ 12.4–9.0 L/100km for the 2.4)",
+              "url": "https://www.carsguide.com.au/car-reviews/toyota-camry-used-review-2006-2011-56751"
             }
           }
         ]

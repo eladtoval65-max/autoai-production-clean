@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-10-24",
+  "updated": "2026-10-30",
   "models": {
     "mazda3": {
       "BL": {
@@ -286,6 +286,28 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/mazda-cx-5---euro-ncap-2025-results---5-stars/s/488d20d2-478c-4535-b04a-515f76f6cea3"
+        },
+        "engines": [
+          {
+            "name": "2.5 בנזין מיקרו-היברידי (e-Skyactiv G)",
+            "pt": "petrol",
+            "hp": 141,
+            "cons": 6.0,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 España — Mazda CX-5 e-SKYACTIV G 2026 prueba de consumo real: 5.95 L/100km measured (Rome–Forlì, 360 km, AWD; European 141 CV version, Israeli spec quoted as 187hp)",
+              "url": "https://es.motor1.com/reviews/805314/mazda-cx5-eco-consumo-real/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 189900,
+          "year": 2026,
+          "note": "רמת גימור Comfort, 2.5 בנזין, הנעה כפולה (Executive: 204,900; Pure Black: 219,900)",
+          "source": {
+            "title": "Cartube — מאזדה CX-5 החדש 2026 נחת בישראל, מחיר 189,900 שקל (12.3.2026)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מאזדה-cx-5-החדש-2026-נחת-בישראל-מחיר-189900-שקל"
+          }
         }
       },
       "KE": {

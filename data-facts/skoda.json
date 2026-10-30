@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -1102,7 +1102,44 @@
             "title": "auto.co.il — סקודה פותחת מתקפה חשמלית בישראל (16.09.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/skoda-electric-cars-israel/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מערכת חשמל ו-12V: דווחו כ-20 מקרים מאז מאי 2025 של רכבים שנתקעו עם אזהרה על מערכת החשמל או על מצבר ה-12V. בשנתון 2027 דווחו גם השבתות אחרי טעינה, שבחלקן נמצא פגום מחשב הבקרה של הסוללה. בקנייה: לבדוק את מצב מצבר ה-12V ואת היסטוריית התקלות במוסך.",
+            "level": "widely_reported",
+            "scope": "2025–2027; לפי המקור לא היה ריקול לאלרוק עד אוקטובר 2026",
+            "source": {
+              "title": "CarWiki.de — Skoda Elroq Probleme (Stand 22.10.2026)",
+              "url": "https://carwiki.de/skoda-elroq-probleme/"
+            }
+          },
+          {
+            "he": "מולטימדיה: דווחו פסים על המסך, ולמוסכים יצא עלון טכני TPI 2077768 (אינו ריקול). גרסה 5.6.3 פתרה את הבעיה רק בחלק מהמקרים. בגרסה 6.0 (שנתון 2027) דווחו פרופילים והגדרות שנמחקים וניתוקים של CarPlay ו-Android Auto. בקנייה: לבדוק את גרסת התוכנה.",
+            "level": "manufacturer",
+            "scope": "TPI 2077768",
+            "source": {
+              "title": "CarWiki.de — Skoda Elroq Probleme (TPI 2077768)",
+              "url": "https://carwiki.de/skoda-elroq-probleme/"
+            }
+          },
+          {
+            "he": "מיזוג אוויר: דווחו כ-20 מקרים של דליפת גז מזגן, לעיתים כבר ב-1,000 הק\"מ הראשונים. בקנייה: לבדוק שהמזגן מקרר כראוי.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarWiki.de — Skoda Elroq Probleme",
+              "url": "https://carwiki.de/skoda-elroq-probleme/"
+            }
+          },
+          {
+            "he": "כניסה ללא מפתח ותא מטען: דווחו כ-25 מקרים של בעיות בנעילה ובפתיחה, ותא המטען נפתח לעיתים מעצמו. בקיץ 2025 הזמינו סוכנים חלק מהבעלים לבדיקה חינמית שבה הוחלפו בורג כדורי או בולמי גומי. בקנייה: לבדוק נעילה ופתיחה ולשאול אם הפעולה בוצעה.",
+            "level": "widely_reported",
+            "scope": "פעולת סוכנים בקיץ 2025, לא ריקול",
+            "source": {
+              "title": "CarWiki.de — Skoda Elroq Probleme",
+              "url": "https://carwiki.de/skoda-elroq-probleme/"
+            }
+          }
+        ]
       }
     }
   }

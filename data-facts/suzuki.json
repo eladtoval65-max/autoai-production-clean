@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "swift": {
       "AZ": {
@@ -279,7 +279,18 @@
             "title": "auto.co.il — סוזוקי e-ויטארה בארץ – המחיר החל מ-155,000 שקלים (20.05.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/suzuki-e-vitara-price/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "שגיאת תוכנה בתצוגת צריכת החשמל הממוצעת: ביוני-אוגוסט 2026 פתחה סוזוקי (מרוטי, הודו) מבצע שירות לעדכון תוכנה חינמי, כי התצוגה מראה צריכה שגויה. לפי המקור, הסוללה, המנוע ומערכת הטעינה לא מושפעים. בקנייה: לוודא שעדכון התוכנה של מערכת התצוגה בוצע.",
+            "level": "manufacturer",
+            "scope": "מבצע שירות (לא ריקול) בהודו, אוגוסט 2026; כל ה-e Vitara מיוצרות בהודו",
+            "source": {
+              "title": "Cars24 — Maruti e Vitara service campaign launched over power consumption display error (Aug 2026)",
+              "url": "https://www.cars24.com/news/auto/maruti-e-vitara-service-campaign-launched-over-power-consumption-display-error/"
+            }
+          }
+        ]
       }
     },
     "baleno": {

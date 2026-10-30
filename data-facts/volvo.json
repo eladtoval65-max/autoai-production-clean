@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "xc60": {
       "Gen1": {
@@ -131,6 +131,63 @@
             }
           }
         ]
+      },
+      "EX40 (XC40 Recharge)": {
+        "issues": [
+          {
+            "he": "ריקול: איפוס מעבד מודול בקרת הסוללה (BECM) עלול לנתק את מערכת המתח הגבוה ולגרום לאובדן הנעה — עדכון תוכנה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "2021–2022",
+            "source": {
+              "title": "NHTSA recall 21V109000 (Volvo R10078) — XC40 Recharge BECM reset",
+              "url": "https://recallcheck.net/recall/21V109000"
+            }
+          },
+          {
+            "he": "ריקול: תוכנה 3.5.14 עלולה לגרום לאובדן בלימה בירידה ארוכה במצב One Pedal Drive ללא נגיעה בדוושות — לוודא עדכון לגרסה 3.6.4",
+            "level": "recall",
+            "scope": "XC40 חשמלי 2023–2024, EX40 2025–2026",
+            "source": {
+              "title": "electrive — Loss of brake function: Volvo recalls over 14,000 EVs and PHEVs in the US (NHTSA 25V392)",
+              "url": "https://www.electrive.com/2025/06/23/loss-of-brake-function-volvo-recalls-over-14000-evs-and-phevs-in-the-us"
+            }
+          },
+          {
+            "he": "ריקול: תמונת מצלמת הרוורס עלולה לא להופיע בהילוך אחורי — עדכון תוכנה; לבדוק שהמצלמה עובדת",
+            "level": "recall",
+            "source": {
+              "title": "CarComplaints — 2021 Volvo XC40 recalls, NHTSA 25V282000 (rearview camera)",
+              "url": "https://www.carcomplaints.com/Volvo/XC40/2021/recalls"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי דו-מנועי 75 קוט\"ש (P8 Twin)",
+            "pt": "ev",
+            "hp": 408,
+            "cons": 22.4,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Volvo XC40 Recharge Twin Pure Electric (2021–2022): EVDB real-range vehicle consumption 224 Wh/km",
+              "url": "https://ev-database.org/car/1520/Volvo-XC40-Recharge-Twin-Pure-Electric"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://cdn.euroncap.com/media/85417/euroncap-2018-volvo-xc40-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 299900,
+          "year": 2021,
+          "note": "P8 דו-מנועי, גימור Recharge Pro",
+          "source": {
+            "title": "cartube — וולוו XC40 Recharge החשמלית בישראל: מחיר 299,900 שקל (9.8.2021)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/וולוו-xc40-recharged-החשמלית-בישראל-מחיר-299900-שקל"
+          }
+        }
       }
     },
     "xc90": {
@@ -263,6 +320,425 @@
             }
           }
         ]
+      }
+    },
+    "ex30": {
+      "SEA2": {
+        "issues": [
+          {
+            "he": "ריקול סוללה: סיכון לקצר ולהתחממות יתר של הסוללה, עד כדי שריפה. התיקון הוא החלפת מודולים בסוללה. עד לתיקון יש להגביל את הטעינה ל-70% ולחנות בחוץ. בדקו מול היבואן שהריקול בוצע.",
+            "level": "recall",
+            "scope": "Single Motor Extended Range ו-Twin Motor Performance (סוללת 69 קוט\"ש)",
+            "source": {
+              "title": "Electrek — Volvo issues major recall affecting over 40,000 EX30 (Volvo R10355 / NHTSA 26V001)",
+              "url": "https://electrek.co/2026/02/23/volvo-issues-major-recall-affecting-over-40000-electric-suvs/"
+            }
+          },
+          {
+            "he": "ריקול תוכנה: בגלל תקלה במסך המרכזי עלול להופיע פס צבע במקום מידע חיוני כמו המהירות. התיקון הוא עדכון OTA. ודאו שהתוכנה מעודכנת.",
+            "level": "recall",
+            "scope": "כל ה-EX30 שיוצרו עד אמצע 2024 (כ-72 אלף רכבים)",
+            "source": {
+              "title": "Carwow — Volvo EX30 recall: 72k EVs affected by software glitch (June 2024)",
+              "url": "https://carwow.co.uk/volvo/ex30/news/7757/volvo-ex30-recall"
+            }
+          },
+          {
+            "he": "ריקול באוסטרליה: בהנעה המסך עלול להיכנס למצב בדיקה ולהסתיר מידע כמו המהירות. התיקון הוא עדכון תוכנה.",
+            "level": "recall",
+            "scope": "1,255 רכבים באוסטרליה",
+            "source": {
+              "title": "CarExpert — Volvo EX30 recalled (REC-005968, infotainment test mode)",
+              "url": "https://www.carexpert.com.au/car-news/volvo-ex30-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 51 קוט\"ש, מנוע אחורי",
+            "pt": "ev",
+            "hp": 268,
+            "cons": 17.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volvo EX30 Single Motor: real-world estimate 288 Wh/mi (≈179 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1909/Volvo-EX30-Single-Motor"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 69 קוט\"ש, מנוע אחורי (Extended Range)",
+            "pt": "ev",
+            "hp": 268,
+            "cons": 17.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volvo EX30 Single Motor ER: real-world estimate 178 Wh/km",
+              "url": "https://ev-database.org/car/1910/Volvo-EX30-Single-Motor-ER"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/volvo-ex30---euro-ncap-2024-results---5-stars/s/bbb90aa8-161c-4163-86fe-32fc8c486a8e"
+        },
+        "launchPrice": {
+          "ils": 190000,
+          "year": 2024,
+          "note": "מחיר ההשקה של הגרסה הבסיסית (51 קוט\"ש, 272 כ\"ס). באפריל 2024 הוזל לכ-180,000 ₪",
+          "source": {
+            "title": "icar — וולוו EX30: עדכון מחירים (אפריל 2024)",
+            "url": "https://www.icar.co.il/חדשות_רכב/hy2ggr2k0/"
+          }
+        }
+      }
+    },
+    "s60": {
+      "Gen2": {
+        "issues": [
+          {
+            "he": "דווחו תקלות במערכת הפליטה בגרסאות דיזל 2.0 — לבדוק רעשים/דליפות במערכת הפליטה ונורות אזהרה",
+            "level": "widely_reported",
+            "scope": "דיזל 2.0",
+            "source": {
+              "title": "What Car? — Used Volvo S60 2010-2018 reliability review",
+              "url": "https://www.whatcar.com/volvo/s60/saloon/used-review/n18696/reliability"
+            }
+          },
+          {
+            "he": "תקלות ברדאר של בקרת השיוט האדפטיבית, המופיעות כהודעות אזהרה בלוח המחוונים — לבקש בדיקת מחשב לקודי תקלה שמורים",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volvo S60 2010-2018 reliability review",
+              "url": "https://www.whatcar.com/volvo/s60/saloon/used-review/n18696/reliability"
+            }
+          },
+          {
+            "he": "בעלים דיווחו שחימום החלון האחורי לא עובד כראוי — לבדוק שהוא מפשיר את כל השמשה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volvo S60 2010-2018 reliability review",
+              "url": "https://www.whatcar.com/volvo/s60/saloon/used-review/n18696/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (T5 AWD)",
+            "pt": "petrol",
+            "hp": 245,
+            "cons": 9.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo S60 2.0 AWD 245 PS (2016–2018): real-world user average from 15 reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-S60/S60/s60-2-0-awd-f_45114/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 239000,
+          "year": 2010,
+          "note": "גרסת בסיס, 2.0 טורבו 203 כ\"ס",
+          "source": {
+            "title": "auto.co.il — וולוו S60 החדשה הגיעה לישראל (3.11.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/117814/"
+          }
+        }
+      },
+      "SPA": {
+        "issues": [
+          {
+            "he": "ריקול: אומים של זרועות הטואו בציר האחורי עלולים להיות לא מהודקים — שינוי פתאומי בהתנהגות הרכב. לוודא ביצוע ריקול",
+            "level": "recall",
+            "scope": "שנת דגם 2019",
+            "source": {
+              "title": "NHTSA recall 19V327000 (Volvo R19938) — rear toe link lock nuts, 2019 S60",
+              "url": "https://recallcheck.net/recall/19V327000"
+            }
+          },
+          {
+            "he": "ריקול: נתיך במשאבת הדלק בלחץ נמוך עלול להיכשל ולגרום לכיבוי מנוע בנסיעה — לוודא ביצוע",
+            "level": "recall",
+            "source": {
+              "title": "CarComplaints — 2019 Volvo S60 recalls, NHTSA 21V414000 (fuel pump fuse)",
+              "url": "https://carcomplaints.com/Volvo/S60/2019/recalls"
+            }
+          },
+          {
+            "he": "ריקול: מערכת הבלימה האוטונומית (AEB) עלולה לא לפעול כמצופה — עדכון תוכנה; לוודא ביצוע",
+            "level": "recall",
+            "source": {
+              "title": "CarComplaints — 2019 Volvo S60 recalls, NHTSA 20V144000 (automatic emergency braking)",
+              "url": "https://carcomplaints.com/Volvo/S60/2019/recalls"
+            }
+          },
+          {
+            "he": "ריקול: כריות אוויר עלולות לא להיפתח כראוי בתאונה — לוודא ביצוע ריקול",
+            "level": "recall",
+            "source": {
+              "title": "CarComplaints — 2019 Volvo S60 recalls, NHTSA 23V780000 (air bags)",
+              "url": "https://carcomplaints.com/Volvo/S60/2019/recalls"
+            }
+          },
+          {
+            "he": "ריקול (פלאג-אין): תוכנה 3.5.14 עלולה לגרום לאובדן בלימה בירידה ארוכה במצב B ללא נגיעה בדוושות — לוודא עדכון לגרסה 3.6.4",
+            "level": "recall",
+            "scope": "T8 פלאג-אין 2023–2025",
+            "source": {
+              "title": "electrive — Loss of brake function: Volvo recalls over 14,000 EVs and PHEVs in the US (NHTSA 25V392)",
+              "url": "https://www.electrive.com/2025/06/23/loss-of-brake-function-volvo-recalls-over-14000-evs-and-phevs-in-the-us"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (T4)",
+            "pt": "petrol",
+            "hp": 211,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo S60 T4 (2019–) 211 PS: real-world user average from 12 reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-S60/S60/s60-t4-z_47717/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://cdn.euroncap.com/en/results/Volvo/S60/34631"
+        },
+        "launchPrice": {
+          "ils": 248900,
+          "year": 2019,
+          "note": "T4 R-Design, 190 כ\"ס",
+          "source": {
+            "title": "cartube — וולוו S60 החדשה 2019 בישראל: מחיר 248,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/וולוו-s60-החדשה-2019-בישראל-מחיר-248900-שקל"
+          }
+        }
+      }
+    },
+    "v60": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "סתימת מסנן חלקיקים (DPF) בדיזלים מוקדמים, בעיקר ברכבים שנסעו קצר — לבדוק נורות אזהרה והיסטוריית נסיעות",
+            "level": "widely_reported",
+            "scope": "דיזל, שנים מוקדמות",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2010-2018 reliability review",
+              "url": "https://www.whatcar.com/volvo/v60/estate/used-review/n17961/reliability"
+            }
+          },
+          {
+            "he": "תקלות במערכת EGR במנועי D4 — נורת מנוע ולעיתים מצב חירום (limp mode). לבדוק בסריקת מחשב",
+            "level": "widely_reported",
+            "scope": "דיזל D4",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2010-2018 reliability review",
+              "url": "https://www.whatcar.com/volvo/v60/estate/used-review/n17961/reliability"
+            }
+          },
+          {
+            "he": "דווחו נקישות במנועי הדיזל בסל\"ד נמוך — להקשיב בנסיעת מבחן",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2010-2018 reliability review",
+              "url": "https://www.whatcar.com/volvo/v60/estate/used-review/n17961/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (T5)",
+            "pt": "petrol",
+            "hp": 245,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo V60 2.0 T5 245 PS (2013–2018): real-world user average from 90 reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-V60/V60/v60-2-0-t5-f_38707/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-names-2011-best-in-class-cars/s/0d149bd3-19a1-485c-ad80-f85452b93e63"
+        },
+        "launchPrice": {
+          "ils": 259000,
+          "year": 2010,
+          "note": "גרסת בסיס, 2.0 טורבו 203 כ\"ס",
+          "source": {
+            "title": "auto.co.il — ועכשיו הסטיישן: וולוו V60 הגיעה לישראל (20.12.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/117632/"
+          }
+        }
+      },
+      "SPA": {
+        "issues": [
+          {
+            "he": "ריקול: אומים/ברגים במתלה האחורי עלולים להיות רופפים — לוודא ביצוע בדיקה/הידוק בסוכנות",
+            "level": "recall",
+            "scope": "ייצור 25.9.2018–1.4.2019",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2018-present reliability (recalls)",
+              "url": "https://whatcar.com/volvo/v60/estate/used-review/n19188/reliability"
+            }
+          },
+          {
+            "he": "ריקול: הבלימה האוטונומית עלולה לא לבלום מול התנגשות צפויה — עדכון תוכנה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "ייצור מ-21.1.2019",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2018-present reliability (AEB recall)",
+              "url": "https://whatcar.com/volvo/v60/estate/used-review/n19188/reliability"
+            }
+          },
+          {
+            "he": "ריקול: תקלה במודול הקישוריות (VCM) עלולה למנוע שליחת מיקום לשירותי חירום אחרי תאונה — עדכון תוכנה",
+            "level": "recall",
+            "scope": "ייצור 26.9–30.10.2018",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2018-present reliability (VCM emergency-call recall)",
+              "url": "https://whatcar.com/volvo/v60/estate/used-review/n19188/reliability"
+            }
+          },
+          {
+            "he": "ריקול (פלאג-אין): תוכנה 3.5.14 עלולה לגרום לאובדן בלימה בירידה ארוכה במצב B ללא נגיעה בדוושות — לוודא עדכון לגרסה 3.6.4",
+            "level": "recall",
+            "scope": "פלאג-אין 2024–2025",
+            "source": {
+              "title": "electrive — Loss of brake function: Volvo recalls over 14,000 EVs and PHEVs in the US (NHTSA 25V392)",
+              "url": "https://www.electrive.com/2025/06/23/loss-of-brake-function-volvo-recalls-over-14000-evs-and-phevs-in-the-us"
+            }
+          },
+          {
+            "he": "בסקר בעלים דווחו בעיקר תקלות חשמל ומערכת מולטימדיה/ניווט — לבדוק את כל המערכות האלקטרוניות",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volvo V60 2018-present reliability (owner survey)",
+              "url": "https://whatcar.com/volvo/v60/estate/used-review/n19188/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (T5)",
+            "pt": "petrol",
+            "hp": 250,
+            "cons": 8.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Volvo V60 T5 250 PS (2018–): real-world user average from 133 reports",
+              "url": "https://www.autokostencheck.de/Volvo/Volvo-V60/V60/v60-t5-z_46449/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 טורבו פלאג-אין (T8)",
+            "pt": "phev",
+            "hp": 390,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "TCS Fahrzeugtest Volvo V60 T8 AWD R-Design (2019) — measured test consumption 6.4 L/100km plus 3.2 kWh/100km",
+              "url": "https://www.tcs.ch/mam/Digital-Media/PDF/Auto-Test/fahrzeugtest-volvo-v60-t8-awd-r-design.pdf"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://cdn.euroncap.com/media/85434/euroncap-2018-volvo-v60-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 289900,
+          "year": 2020,
+          "note": "T8 פלאג-אין, גימור Inscription",
+          "source": {
+            "title": "cartube — וולוו סטיישן חוזרת לישראל: V60 החדשה ו-V60 קרוס קאנטרי (13.8.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/וולוו-סטיישן-חוזרת-לישראל-v60-החדשה-v60-קרוס-קאנטרי"
+          }
+        }
+      }
+    },
+    "c40": {
+      "C40 / EC40": {
+        "issues": [
+          {
+            "he": "ריקול: תמונת מצלמת הרוורס עלולה לא להופיע בהילוך אחורי — עדכון תוכנה (25V908 מחליף את 25V282); לוודא ביצוע התיקון העדכני",
+            "level": "recall",
+            "source": {
+              "title": "Consumer Reports — 2022 Volvo C40 reliability (NHTSA recalls 25V282 / 25V908000, rearview camera)",
+              "url": "https://www.consumerreports.org/cars/volvo/c40/2022/reliability/"
+            }
+          },
+          {
+            "he": "ריקול: תוכנה 3.5.14 עלולה לגרום לאובדן בלימה בירידה ארוכה במצב One Pedal Drive ללא נגיעה בדוושות — לוודא עדכון לגרסה 3.6.4",
+            "level": "recall",
+            "scope": "C40 2023, EC40 2025",
+            "source": {
+              "title": "electrive — Loss of brake function: Volvo recalls over 14,000 EVs and PHEVs in the US (NHTSA 25V392)",
+              "url": "https://www.electrive.com/2025/06/23/loss-of-brake-function-volvo-recalls-over-14000-evs-and-phevs-in-the-us"
+            }
+          },
+          {
+            "he": "Consumer Reports מדרג את C40 2022 כפחות אמין מהממוצע לשנתו — מומלץ לבדוק היסטוריית טיפולים ועדכוני תוכנה",
+            "level": "widely_reported",
+            "scope": "2022",
+            "source": {
+              "title": "Consumer Reports — 2022 Volvo C40 reliability (below-average predicted reliability)",
+              "url": "https://www.consumerreports.org/cars/volvo/c40/2022/reliability/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי חד-מנועי 69 קוט\"ש (הנעה אחורית)",
+            "pt": "ev",
+            "hp": 238,
+            "cons": 18.6,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Volvo C40 Recharge Single Motor (RWD, 2022–2024): EVDB vehicle consumption 300 Wh/mi ≈ 186 Wh/km",
+              "url": "https://ev-database.org/uk/car/1799/Volvo-C40-Recharge-Single-Motor"
+            }
+          },
+          {
+            "name": "חשמלי דו-מנועי 78 קוט\"ש (P8 Twin)",
+            "pt": "ev",
+            "hp": 408,
+            "cons": 21.2,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Volvo C40 Recharge Twin Pure Electric (MY22-23): EVDB vehicle consumption 341 Wh/mi ≈ 212 Wh/km",
+              "url": "https://ev-database.org/imp/car/1421/Volvo-C40-Recharge-Twin-Pure-Electric"
+            }
+          },
+          {
+            "name": "חשמלי דו-מנועי 82 קוט\"ש (Twin, 2024)",
+            "pt": "ev",
+            "hp": 408,
+            "cons": 19.8,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Volvo C40 Recharge Twin Motor (MY24): EVDB vehicle consumption 198 Wh/km",
+              "url": "https://ev-database.org/car/1801/Volvo-C40-Recharge-Twin-Motor"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 279900,
+          "year": 2022,
+          "note": "P6 חד-מנועי, גימור Ultimate",
+          "source": {
+            "title": "icar — וולוו C40 בישראל: מ-280,000 שקלים (19.4.2022)",
+            "url": "https://www.icar.co.il/רכב-חשמלי/וולוו_C40_בישראל:_מ-280,000_שקלים/"
+          }
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "nx": {
       "AZ10": {
@@ -151,6 +151,75 @@
             }
           }
         ]
+      },
+      "ALA10/ALH10": {
+        "issues": [
+          {
+            "he": "ריקול: בעיה ברצועת חגורת הבטיחות של המושב האמצעי בשורה השנייה. ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2024–2025: RX350, RX350h, RX500h",
+            "source": {
+              "title": "Motorverso — 2024 Lexus RX recalls: NHTSA 25V059000 (second-row center seat belt webbing)",
+              "url": "https://www.motorverso.com/recalls/lexus/rx/2024/"
+            }
+          },
+          {
+            "he": "ריקול: בעיה במשענות הראש של הנהג והנוסע הקדמי. בדקו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2024: RX350, RX350h",
+            "source": {
+              "title": "Motorverso — 2024 Lexus RX recalls: NHTSA 24V482000 (front head restraints)",
+              "url": "https://www.motorverso.com/recalls/lexus/rx/2024/"
+            }
+          },
+          {
+            "he": "ריקול תוכנה: ייתכן שתמונת מצלמת הרוורס לא תוצג בהילוך אחורי. בדקו שהעדכון בוצע ושהמצלמה עובדת.",
+            "level": "recall",
+            "scope": "2023–2026 RX350 (גרסת ארה\"ב)",
+            "source": {
+              "title": "Motorverso — Lexus RX recalls: NHTSA 26V162000 (rearview camera software)",
+              "url": "https://www.motorverso.com/recalls/lexus/rx/2024/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי (350h)",
+            "pt": "hybrid",
+            "hp": 246,
+            "cons": 7.0,
+            "unit": "L",
+            "source": {
+              "title": "AutoTrader.ca — 2023 Lexus RX 350h review: 7.0 L/100km observed over 565 km of mixed driving",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/lexus/rx/2023-lexus-rx-350h-review-and-video/"
+            }
+          },
+          {
+            "name": "2.5 היברידי נטען (450h+)",
+            "pt": "phev",
+            "hp": 304,
+            "cons": 2.7,
+            "unit": "L",
+            "source": {
+              "title": "CAR magazine — Lexus RX 450h+ long-term test, month 1 logbook: 103.8 mpg UK (≈2.7 L/100km; depends heavily on charging)",
+              "url": "https://carmagazine.co.uk/our-cars/2023/lexus-rx-450h"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/assessments/lexus/rx/0995/"
+        },
+        "launchPrice": {
+          "ils": 399990,
+          "year": 2022,
+          "note": "RX 350h Kyushu. 450h+ החל מ-464,990, 500h F-Sport 549,990 ₪",
+          "source": {
+            "title": "Cartube — 2023 לקסוס RX החדש בישראל, מחיר 399,990 שקל (דצמבר 2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2023-לקסוס-rx-החדש-בישראל-מחיר-399990-שקל"
+          }
+        }
       }
     },
     "es": {
@@ -201,6 +270,49 @@
             "source": {
               "title": "HonestJohn Real MPG — Lexus ES (2018 on) 300h: real-world average 56.0 mpg (≈5.0 L/100km), 55+ submissions",
               "url": "https://www.dev.honestjohn.co.uk/realmpg/lexus/es-2018"
+            }
+          }
+        ]
+      },
+      "XV40": {
+        "issues": [
+          {
+            "he": "כרית אוויר של הנוסע הקדמי (מנפח Takata) עלולה להתפוצץ בפתיחה ולפזר רסיסי מתכת — חובה לוודא לפי מספר שלדה שהמנפח הוחלף",
+            "level": "recall",
+            "scope": "ES 350 שנתוני 2010–2012 (קריאות NHTSA)",
+            "source": {
+              "title": "ClearVIN — 2011 Lexus ES350 recalls: NHTSA 19V005000 and 16V340000 (passenger frontal air bag inflator), 19V741000 (replacement inflators)",
+              "url": "https://www.clearvin.com/car-recalls/lexus/es350/2011/"
+            }
+          },
+          {
+            "he": "שטיחון נהג לא מקובע או לא מקורי עלול לתקוע את דוושת הגז במצב לחוץ — לוודא ביצוע הקריאה (קיצור דוושה ועדכון תוכנה שהבלם גובר על הגז) ושהשטיחון מקורי ומעוגן",
+            "level": "recall",
+            "scope": "ES 350 שנתון 2010 (NHTSA 09V388000)",
+            "source": {
+              "title": "CarComplaints — 2010 Lexus ES 350 recall: pedal entrapment, NHTSA 09V388000",
+              "url": "https://m.carcomplaints.com/Lexus/ES_350/2010/recalls/pedal-entrapment-09v388000.shtml"
+            }
+          },
+          {
+            "he": "זמזום מצד ימין של לוח המחוונים בבלימה או בגלישה — נפתר בהחלפת שסתום אל-חוזר במגבר הבלמים. בנסיעת מבחן להקשיב לזמזום בבלימה",
+            "level": "widely_reported",
+            "scope": "ES 350 שנתונים 2007–2010",
+            "source": {
+              "title": "Consumer Guide — Used 2007–12 Lexus ES 350: trouble spots (vacuum booster check valve)",
+              "url": "https://consumerguide.com/used/2007-12-lexus-es-350/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.5 V6 בנזין",
+            "pt": "petrol",
+            "cons": 11.9,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide — Used 2007–12 Lexus ES 350: test cars averaged 19.7 mpg (US) overall ≈ 11.9 L/100km",
+              "url": "https://consumerguide.com/used/2007-12-lexus-es-350/"
             }
           }
         ]

@@ -1,38 +1,184 @@
 {
   "make": "kgm",
-  "updated": "2026-10-21",
+  "updated": "2026-10-30",
   "models": {
     "tivoli": {
       "X100": {
         "issues": [
-          { "he": "כמה קריאות שירות על צנרת דלק בתא המנוע שעלולה להיסדק או לדלוף (סכנת שריפה) — לבדוק ריח דלק בתא המנוע ולוודא לפי מספר שלדה שהקריאות בוצעו", "level": "recall", "scope": "ייצור 2015–2020 (DVSA / Safety Gate)", "source": { "title": "car-recalls.eu — SsangYong Tivoli recalls (DVSA, RAPEX)", "url": "https://car-recalls.eu/common-problems/ssangyong/Tivoli/" } },
-          { "he": "חיווט שעלול להתחכך בצינור אספקת הדלק ולגרום לדליפה — לוודא ביצוע קריאת השירות", "level": "recall", "scope": "2015–2018", "source": { "title": "car-recalls.eu — SsangYong Tivoli recalls (DVSA, RAPEX)", "url": "https://car-recalls.eu/common-problems/ssangyong/Tivoli/" } },
-          { "he": "פלסטיקים פנימיים זולים שנשרטים בקלות — לבדוק את מצב תא הנוסעים, ולחפש סימני שימוש בשטח (פלסטיקים משוחררים מתחת לרכב)", "level": "widely_reported", "source": { "title": "What Car? — Used Ssangyong Tivoli 2015-present review", "url": "https://www.whatcar.com/ssangyong/tivoli/hatchback/used-review/n17889/advice" } }
+          {
+            "he": "כמה קריאות שירות על צנרת דלק בתא המנוע שעלולה להיסדק או לדלוף (סכנת שריפה) — לבדוק ריח דלק בתא המנוע ולוודא לפי מספר שלדה שהקריאות בוצעו",
+            "level": "recall",
+            "scope": "ייצור 2015–2020 (DVSA / Safety Gate)",
+            "source": {
+              "title": "car-recalls.eu — SsangYong Tivoli recalls (DVSA, RAPEX)",
+              "url": "https://car-recalls.eu/common-problems/ssangyong/Tivoli/"
+            }
+          },
+          {
+            "he": "חיווט שעלול להתחכך בצינור אספקת הדלק ולגרום לדליפה — לוודא ביצוע קריאת השירות",
+            "level": "recall",
+            "scope": "2015–2018",
+            "source": {
+              "title": "car-recalls.eu — SsangYong Tivoli recalls (DVSA, RAPEX)",
+              "url": "https://car-recalls.eu/common-problems/ssangyong/Tivoli/"
+            }
+          },
+          {
+            "he": "פלסטיקים פנימיים זולים שנשרטים בקלות — לבדוק את מצב תא הנוסעים, ולחפש סימני שימוש בשטח (פלסטיקים משוחררים מתחת לרכב)",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Ssangyong Tivoli 2015-present review",
+              "url": "https://www.whatcar.com/ssangyong/tivoli/hatchback/used-review/n17889/advice"
+            }
+          }
         ],
         "engines": [
-          { "name": "1.6 / 1.5 טורבו בנזין", "pt": "petrol", "cons": 7.67, "unit": "L", "source": { "title": "Spritmonitor — SsangYong Tivoli, gasoline (30 vehicles)", "url": "https://www.spritmonitor.de/en/overview/46-Ssangyong/1494-Tivoli.html" } }
+          {
+            "name": "1.6 / 1.5 טורבו בנזין",
+            "pt": "petrol",
+            "cons": 7.67,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — SsangYong Tivoli, gasoline (30 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/46-Ssangyong/1494-Tivoli.html"
+            }
+          }
         ],
-        "ncap": { "stars": null, "note": "לא נמצאה בדיקת Euro NCAP לדגם" },
+        "ncap": {
+          "stars": null,
+          "note": "לא נמצאה בדיקת Euro NCAP לדגם"
+        },
         "launchPrice": null
       }
     },
     "torres": {
       "J100": {
         "issues": [
-          { "he": "קריאת שירות: מערכת שמירת נתיב וזיהוי ידיים על ההגה עובדות באופן מוגבל — לוודא שבוצע עדכון תוכנה למצלמה הקדמית (FCM)", "level": "recall", "scope": "ייצור 2022–2023 (KBA 13991R)", "source": { "title": "car-recalls.eu — SsangYong Torres: limited function of lane keeping (KBA)", "url": "https://car-recalls.eu/ssangyong-torres-limited-function-lane-keeping-kba/" } }
+          {
+            "he": "קריאת שירות: מערכת שמירת נתיב וזיהוי ידיים על ההגה עובדות באופן מוגבל — לוודא שבוצע עדכון תוכנה למצלמה הקדמית (FCM)",
+            "level": "recall",
+            "scope": "ייצור 2022–2023 (KBA 13991R)",
+            "source": {
+              "title": "car-recalls.eu — SsangYong Torres: limited function of lane keeping (KBA)",
+              "url": "https://car-recalls.eu/ssangyong-torres-limited-function-lane-keeping-kba/"
+            }
+          }
         ],
-        "ncap": { "stars": null, "note": "לא נמצאה בדיקת Euro NCAP לדגם" },
-        "launchPrice": null
+        "ncap": {
+          "stars": null,
+          "note": "לא נמצאה בדיקת Euro NCAP לדגם"
+        },
+        "launchPrice": {
+          "ils": 175000,
+          "year": 2024,
+          "note": "1.5 טורבו 163 כ״ס, הנעה קדמית, אקזקיוטיב (4X4 לקשרי – 190,000 ש״ח)",
+          "source": {
+            "title": "וואלה רכב — פרצוף קשוח: KGM טורס מסתער על ישראל במחיר מפתיע (17.9.2024)",
+            "url": "https://cars.walla.co.il/item/3692057"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2025 KGM Torres review: tested 9.2 L/100km, mostly freeway/highway (claim 7.9); וואלה measured ~10 km/L in Israeli test",
+              "url": "https://www.carexpert.com.au/car-reviews/2025-kgm-torres-review"
+            }
+          },
+          {
+            "name": "1.5 טורבו היברידי",
+            "pt": "hybrid",
+            "hp": 204,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2026 KGM Torres Hybrid review: observed 6.3 L/100km mixed driving (claim 5.6; system 150 kW)",
+              "url": "https://www.carexpert.com.au/car-reviews/2026-kgm-torres-hybrid-review"
+            }
+          }
+        ]
       }
     },
     "rexton": {
       "Y400": {
-        "issues": [],
-        "engines": [
-          { "name": "2.2 טורבו דיזל", "pt": "diesel", "hp": 181, "cons": 8.3, "unit": "L", "source": { "title": "What Car? — Ssangyong Rexton long-term test, report 4 (34.2 mpg)", "url": "https://whatcar.com/news/ssangyong-rexton-long-term-test-review-report-4/n23361" } }
+        "issues": [
+          {
+            "he": "נתיך מאוורר הקירור של המנוע עלול להישרף — התחממות יתר ואובדן כוח הנעה פתאומי בנסיעה. לוודא לפי מספר שלדה שהנתיך הוחלף, ולבדוק שמאוורר הקירור פועל",
+            "level": "recall",
+            "scope": "שנתונים 2020–2024 (אוסטרליה REC-006327 / ISB-2025003) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-006327: SsangYong Musso & Rexton 2020–2024, engine cooling fan fuse (campaign ISB-2025003)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006327"
+            }
+          }
         ],
-        "ncap": { "stars": null, "note": "לא נמצאה בדיקת Euro NCAP לדגם" },
-        "launchPrice": null
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 181,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Ssangyong Rexton long-term test, report 4 (34.2 mpg)",
+              "url": "https://whatcar.com/news/ssangyong-rexton-long-term-test-review-report-4/n23361"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "לא נמצאה בדיקת Euro NCAP לדגם"
+        },
+        "launchPrice": {
+          "ils": 240000,
+          "year": 2018,
+          "note": "2.2 טורבו דיזל 181 כ״ס, רמת גימור יחידה",
+          "source": {
+            "title": "וואלה רכב — שטח אמיתי: סאנגיונג רקסטון החדש נחת בישראל (12.3.2018)",
+            "url": "https://cars.walla.co.il/item/3141977"
+          }
+        }
+      }
+    },
+    "musso": {
+      "Q200": {
+        "issues": [
+          {
+            "he": "נתיך מאוורר הקירור של המנוע עלול להישרף — התחממות יתר ואובדן כוח הנעה פתאומי בנסיעה. לוודא לפי מספר שלדה שהנתיך הוחלף, ולבדוק שמאוורר הקירור פועל",
+            "level": "recall",
+            "scope": "שנתונים 2020–2024 (אוסטרליה REC-006327 / ISB-2025003) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-006327: SsangYong Musso & Rexton 2020–2024, engine cooling fan fuse (campaign ISB-2025003)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006327"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 181,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2025 KGM SsangYong Musso XLV review: as tested 9.2 L/100km (claim 8.6–9.0; 133 kW)",
+              "url": "https://www.carexpert.com.au/car-reviews/2025-kgm-ssangyong-musso-xlv-review"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 259990,
+          "year": 2023,
+          "note": "2.2 טורבו דיזל 202 כ״ס 4X4, רמת EX (פרימיום 279,900 ש״ח) — מחיר בחזרת הדגם לישראל ב-2023",
+          "source": {
+            "title": "4X4 אתר השטח הישראלי — סאנגיונג מוסו: טנדר 4X4 חוזר לישראל בגרסה חדשה (22.3.2023)",
+            "url": "https://www.4x4.co.il/article/16036"
+          }
+        }
       }
     }
   }

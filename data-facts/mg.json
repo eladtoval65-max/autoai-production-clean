@@ -1,6 +1,6 @@
 {
   "make": "mg",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "zs": {
       "ZS (Gen1)": {
@@ -215,6 +215,46 @@
             }
           }
         ]
+      },
+      "Gen2": {
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 168,
+            "cons": 14.2,
+            "unit": "L",
+            "source": {
+              "title": "Chasing Cars — MG HS Essence 2025 review: 14.2 L/100km on test, mostly urban driving",
+              "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/mg-hs-essence-2025-review/"
+            }
+          },
+          {
+            "name": "1.5 היברידי (Hybrid+)",
+            "pt": "hybrid",
+            "hp": 221,
+            "cons": 4.9,
+            "unit": "L",
+            "source": {
+              "title": "WhichCar — MG HS Hybrid+ review: 4.9 L/100km average on test",
+              "url": "https://www.whichcar.com.au/?p=673898"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/mg-hs---euro-ncap-2024-results---5-stars/s/883eea85-31b9-4934-a145-f5be27c6c0a1"
+        },
+        "launchPrice": {
+          "ils": 172888,
+          "year": 2025,
+          "note": "Luxury 1.5 טורבו בנזין (170 כ\"ס). היברידי: 192,888, פלאג-אין: 202,888 ₪",
+          "source": {
+            "title": "Cartube — 2025 MG HS החדש בישראל: בנזין, היברידי או פלאג-אין",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2025-mg-hs-החדש-בישראל-בנזין-היברידי-או-פלאג-אין"
+          }
+        }
       }
     },
     "mg3": {
@@ -333,6 +373,48 @@
             }
           }
         ]
+      }
+    },
+    "marvel-r": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי 70 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 179,
+            "cons": 19.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — MG Marvel R (2021-2025): vehicle consumption 192 Wh/km (real-world estimate, combined); 179 PS",
+              "url": "https://ev-database.org/car/1524/MG-Marvel-R"
+            }
+          },
+          {
+            "name": "חשמלי 70 קוט\"ש, הנעה כפולה Performance",
+            "pt": "ev",
+            "hp": 288,
+            "cons": 20.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — MG Marvel R Performance (2021-2025): vehicle consumption 200 Wh/km (real-world estimate, combined); 288 PS",
+              "url": "https://ev-database.org/car/1475/MG-Marvel-R-Performance"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://www.euroncap.com/en/results/mg/marvel-r/43818"
+        },
+        "launchPrice": {
+          "ils": 205888,
+          "year": 2023,
+          "note": "הנעה אחורית, Luxury (הנעה כפולה Performance: 218,888)",
+          "source": {
+            "title": "Cartube — MG מארוול R בישראל: מחיר 205,888 שקל (21.6.2023)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/mg-%D7%9E%D7%90%D7%A8%D7%95%D7%95%D7%9C-r-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-205888-%D7%A9%D7%A7%D7%9C"
+          }
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -32,7 +32,40 @@
               "url": "https://car-recalls.eu/recall/subaru-impreza-xv-2012-2014/amp/"
             }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין בוקסר",
+            "pt": "petrol",
+            "hp": 114,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru Impreza 1.6 AWD (G4, 2012–2018) 84 kW: real-world average from 67 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-Impreza/Impreza/subaru-impreza-1-6-awd-g4_36983/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 בנזין בוקסר",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Subaru Impreza 2.0 AWD (G4, listed 2016–2018) 110 kW: real-world average from 53 user reports",
+              "url": "https://www.autokostencheck.de/Subaru/Subaru-Impreza/Impreza/subaru-impreza-2-0-awd-g4_44708/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 127000,
+          "year": 2013,
+          "note": "1.6 ליטר 114 כ״ס, דגם בסיס (המאובזר 129,000 ש״ח)",
+          "source": {
+            "title": "Wheel — סובארו אימפרזה החדשה בישראל – החל מ-127 אלף שקל (10.6.2013)",
+            "url": "https://wheel.co.il/%D7%A1%D7%95%D7%91%D7%90%D7%A8%D7%95-%D7%90%D7%99%D7%9E%D7%A4%D7%A8%D7%96%D7%94-%D7%94%D7%97%D7%93%D7%A9%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+          }
+        }
       },
       "GK/GT": {
         "issues": [
@@ -348,6 +381,75 @@
             }
           }
         ]
+      },
+      "דור 6": {
+        "issues": [
+          {
+            "he": "ריקול: בחישוקי האלומיניום בקוטר 18 אינץ' משטח מושב הברגים הוגדר לא נכון, ולכן הגלגל עלול שלא להיות מחובר כראוי. בדקו שהריקול בוצע (בדיקה או החלפה של החישוקים).",
+            "level": "recall",
+            "scope": "2025, חישוקי 18 אינץ'",
+            "source": {
+              "title": "Lemberg Law — 2025 Subaru Forester recalls: NHTSA 25V033000 (wheels)",
+              "url": "https://lemberglaw.com/recalls/2025-subaru-forester/"
+            }
+          },
+          {
+            "he": "ריקול: ייתכן שברגי עיגון מושב הילד לא הודקו כראוי במפעל ועלולים להשתחרר. ודאו שהריקול בוצע, במיוחד אם תתקינו מושב בטיחות.",
+            "level": "recall",
+            "scope": "2025, כולל ההיברידית",
+            "source": {
+              "title": "KBB — Subaru recalls 2025 Forester Hybrid over loose child seat anchors (NHTSA 25V419000)",
+              "url": "https://www.kbb.com/car-news/subaru-recalls-2025-forester-hybrid-over-loose-child-seat-anchors"
+            }
+          },
+          {
+            "he": "ריקול באוסטרליה בהיברידית: סדק אפשרי בתמיכת נעילת החניה (parking pawl) בתיבה. הרכב עלול לזוז גם כשהוא במצב P. בהיברידית ודאו שהריקול בוצע ובדקו שהרכב נשאר נעול ב-P במדרון.",
+            "level": "recall",
+            "scope": "e-Boxer היברידי, שנתון 2026 (42 רכבים באוסטרליה)",
+            "source": {
+              "title": "Cars24 Australia — Subaru Forester Hybrid recalled over parking lock defect (REC-006737, SRT-390)",
+              "url": "https://www.cars24.com.au/car-news/subaru-forester-hybrid-recall-parking-lock-defect/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 182,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "RAA (South Australia) — 2025 Subaru Forester review: 8.3 L/100km on test (petrol model)",
+              "url": "https://samove.raa.com.au/car-review-2025-subaru-forester/"
+            }
+          },
+          {
+            "name": "2.5 בוקסר היברידי (e-Boxer)",
+            "pt": "hybrid",
+            "hp": 194,
+            "cons": 6.95,
+            "unit": "L",
+            "source": {
+              "title": "Chasing Cars — Subaru Forester Hybrid long-term review: 6.95 L/100km measured at the pump over 5,393 km",
+              "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/subaru-forester-hybrid-long-term-review/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://cdn.euroncap.com/media/85199/euroncap-2024-subaru-forester-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 205900,
+          "year": 2024,
+          "note": "Premium 2.5 בנזין. Sport: 218,900, Limited: 234,900, Limited Plus: 249,900 ₪",
+          "source": {
+            "title": "Cartube — סובארו פורסטר החדש 2024 בישראל, מחיר החל מ-205,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סובארו-פורסטר-החדש-2024-בישראל-מחיר-החל-מ-205,900-שקל"
+          }
+        }
       }
     },
     "outback": {
@@ -505,6 +607,59 @@
             }
           }
         ]
+      },
+      "ZD8": {
+        "issues": [
+          {
+            "he": "ריקול: פנסי האיתות האחוריים עלולים להפסיק לפעול לסירוגין. הפתרון הוא החלפת שני הפנסים האחוריים. בדקו שהריקול בוצע ושהאיתות האחורי עובד בשני הצדדים.",
+            "level": "recall",
+            "scope": "שנתון 2022",
+            "source": {
+              "title": "CarComplaints — 2022 Subaru BRZ recall NHTSA 23V609000 (Subaru WRM-23), rear turn signals inoperative",
+              "url": "https://m.carcomplaints.com/Toyota/GR86/2022/recalls/23v609000.shtml"
+            }
+          },
+          {
+            "he": "במנוע 2.4 (FA24) דווחו ירידות חדות בלחץ השמן בפניות ימינה חזקות בסל\"ד גבוה במסלול, וגם כשלי מנוע (מסבים) אצל רכבים שנהגו בהם במסלול או באוטוקרוס. לפני קנייה שאלו אם הרכב נהג במסלול, בדקו את היסטוריית החלפות השמן ואת מפלס השמן, והקשיבו לרעשי מנוע.",
+            "level": "widely_reported",
+            "scope": "מנוע 2.4 FA24, בעיקר בשימוש מסלול",
+            "source": {
+              "title": "Hagerty — FA24 engine failures don't daunt the BRZ and GR86 faithful (Aug 2023)",
+              "url": "https://www.hagerty.com/media/?p=334658"
+            }
+          },
+          {
+            "he": "בבדיקה עם מכשור של BRZ ו-GR86 מדגם 2022 נמדדה צניחה בלחץ השמן מכ-62 ל-28 psi בפניות ימינה במסלול. ברכב שנהגו בו במסלול מומלץ לבדוק אם הותקנו מגן שמן (baffle) או מצנן שמן.",
+            "level": "widely_reported",
+            "scope": "מנוע 2.4, נהיגת מסלול",
+            "source": {
+              "title": "The Drive — 2022 Subaru BRZ owner's instrumented testing shows big oil pressure drops on track",
+              "url": "https://www.thedrive.com/news/2022-subaru-brz-owners-instrumented-testing-shows-big-oil-pressure-drops-on-track"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 228,
+            "cons": 9.4,
+            "unit": "L",
+            "source": {
+              "title": "Philadelphia Inquirer — 2022 Subaru BRZ review: ~25 mpg (US) observed in test, 6-speed manual (25 mpg US = 9.4 L/100km)",
+              "url": "https://www.inquirer.com/cars/2022-subaru-brz-sporty-coupe-review-20220429.html"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 229900,
+          "year": 2023,
+          "note": "Premium עם תיבה ידנית. Limited אוטומטית: 239,900 ₪",
+          "source": {
+            "title": "Cartube — סובארו BRZ החדשה 2023 בישראל, מחיר 229,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סובארו-brz-החדשה-2023-בישראל-מחיר-229900-שקל"
+          }
+        }
       }
     }
   }

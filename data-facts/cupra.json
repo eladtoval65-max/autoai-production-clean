@@ -1,6 +1,6 @@
 {
   "make": "cupra",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "formentor": {
       "KM7": {
@@ -147,6 +147,100 @@
             }
           }
         ]
+      }
+    },
+    "cupra-ateca": {
+      "KH7": {
+        "issues": [
+          {
+            "he": "ריקול הגה כוח: באג תוכנה עלול לנטרל זמנית את הגה הכוח החשמלי בתנאי נסיעה מסוימים. ההגה ממשיך לעבוד, אבל נדרש מאמץ רב יותר, במיוחד בפניות. התיקון הוא עדכון תוכנה חינמי. בקנייה: לוודא במוסך לפי מספר שלדה שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "שנתונים 2024–2026 (גם לאון, פורמנטור וטראמר)",
+            "source": {
+              "title": "Australian Government vehicle recalls — REC-006608 (campaign 48T5): Cupra Ateca, Leon, Formentor, Terramar 2024–2026, power steering software",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006608"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין 4Drive",
+            "pt": "petrol",
+            "hp": 300,
+            "cons": 10.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Cupra Ateca 2.0 TFSI 4Drive Verbrauch: 10.7 L/100km average of 479 user reports (range 8.0–16.1)",
+              "url": "https://www.autokostencheck.de/Cupra/Cupra-Ateca/Ateca/cupra-ateca-2-0-tfsi-4drive-5fp_50432/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 249900,
+          "year": 2019,
+          "note": "2.0 TSI 300 כ\"ס, הנעה כפולה, DSG; חבילת PRO בתוספת 17,000 ש\"ח",
+          "source": {
+            "title": "Cartube — קופרה אטקה בישראל: מחיר 249,900 שקל (2.12.2019)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קופרה-אטקה-בישראל-מחיר-249900-שקל"
+          }
+        }
+      }
+    },
+    "born": {
+      "K1": {
+        "issues": [
+          {
+            "he": "ריקול מודולי סוללה: מודולים בסוללת המתח הגבוה עלולים לא לעמוד במפרט. התוצאה: ירידה בטווח, נורת אזהרה צהובה, ולפי ה-KBA גם סכנת שריפה. התיקון: עדכון תוכנה, בדיקת המודולים והחלפת מודולים חריגים. בקנייה: לוודא לפי מספר שלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "יוצרו 7.2.2022–21.4.2024 (צוויקאו); מרץ 2026",
+            "source": {
+              "title": "electrive — VW plans recall of around 100,000 MEB electric cars (KBA 16269R, Cupra code 93S4)",
+              "url": "https://www.electrive.com/2026/03/24/vw-plans-recall-of-around-100000-meb-electric-cars/"
+            }
+          },
+          {
+            "he": "מולטימדיה ותוכנה: לפי הבעלים זהו מקור התסכול העיקרי. המערכת איטית, נתקעת, קורסת ומאתחלת את עצמה, ובאפליקציה ובחלק ממערכות העזר (התרעת התנגשות) יש תקלות דומות. בקנייה: לבדוק את גרסת התוכנה ושהמסך מגיב כראוי.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Cupra Born 2022-present review: reliability",
+              "url": "https://www.whatcar.com/cupra/born/hatchback/used-review/n26026/reliability"
+            }
+          },
+          {
+            "he": "חימום ומיזוג: לפי הבעלים, תקלה במחמם המתח הגבוה (HV Heating Matrix), שמשמש לחימום ולמיזוג, נפוצה. בקנייה: לבדוק שהחימום והמזגן עובדים היטב.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Cupra Born 2022-present review: reliability",
+              "url": "https://www.whatcar.com/cupra/born/hatchback/used-review/n26026/reliability"
+            }
+          },
+          {
+            "he": "מצבר 12V: דווח על מצבר 12V שמתרוקן. בקנייה: לבדוק את מצב המצבר.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Cupra Born 2022-present review: reliability",
+              "url": "https://www.whatcar.com/cupra/born/hatchback/used-review/n26026/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 58 קוט\"ש e-Boost",
+            "pt": "ev",
+            "hp": 231,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — CUPRA Born 170 kW - 58 kWh (MY22-24): vehicle consumption 168 Wh/km (real-world estimate, combined)",
+              "url": "https://ev-database.org/car/1517/CUPRA-Born-170-kW---58-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/cupra-born---euro-ncap-2025-results---5-stars/s/e878d999-0c1c-49e7-8670-955a04b8b649"
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "geely",
-  "updated": "2026-10-24",
+  "updated": "2026-10-30",
   "models": {
     "coolray": {
       "Gen1": {
@@ -46,6 +46,19 @@
             "source": {
               "title": "За рулём (zr.ru) — Geely Coolray с пробегом: неисправности",
               "url": "https://www.zr.ru/content/articles/962849-geely-coolray-s-probegom/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 177,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoDeal (PH) — 2020 Geely Coolray review: reviewer measured 13.3 km/L (≈7.5 L/100km) in mixed provincial/highway driving at 60 km/h average (city 7.2 km/L, highway 19.6 km/L)",
+              "url": "https://www.autodeal.com.ph/articles/car-reviews/2020-geely-coolray-review"
             }
           }
         ]
