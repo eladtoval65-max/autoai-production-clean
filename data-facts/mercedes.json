@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "c-class": {
       "W204": {
@@ -135,6 +135,64 @@
           "stars": 5,
           "year": 2014,
           "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-s-best-in-class-cars-of-2014"
+        }
+      },
+      "W206": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בורג החיבור בין החיווט לתיבת הנתיכים (ברגלי הנוסע מקדימה) עלול שלא להיות מהודק — אובדן הנעה בנסיעה וסכנת התחממות/שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2021–2022 (RC5036); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz W206 C-Class sedan (RC5036, REC-006026)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-w206-c-class-sedan-2021/"
+            }
+          },
+          {
+            "he": "קריאת שירות: פגם ייצור בתיבת הנתיכים עלול לגרום לכשל במערכות ניהול הרכב — אובדן הנעה פתאומי או שריפה. התיקון: החלפת תיבת הנתיכים. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2023–2024 (RC3270); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz W206 C-Class sedan (RC3270, REC-005923)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-w206-c-class-sedan-2021/"
+            }
+          },
+          {
+            "he": "קריאת שירות: הפעלת גב המושב עלולה לשחוק עם הזמן את רתמת החיווט של כריות האוויר הצדדיות — הכריות עלולות לא להיפתח. בבדיקה: לוודא שהקריאה בוצעה ושאין נורית כרית אוויר.",
+            "level": "recall",
+            "scope": "שנתון 2023 (RC5030); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz W206 C-Class sedan (RC5030, REC-006007)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-w206-c-class-sedan-2021/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "C200 1.5 טורבו בנזין מיילד-היברידי",
+            "pt": "petrol",
+            "hp": 204,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes C 200 4MATIC (W206/R2CW, 150 kW/204 PS, 2021–): real-world average from 47 user reports (4MATIC variant; no FWD figure available)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-C-Klasse/C-200/c-200-4matic-r2cw_49572/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/top-of-the-line-safety-for-kia--mercedes-benz--volkswagen---volvo/s/42b0a061-4b50-43da-911a-dff731bcfb9d"
+        },
+        "launchPrice": {
+          "ils": 330000,
+          "year": 2021,
+          "note": "C180 1.5 טורבו מיילד-היברידי 170 כ״ס, רמת גימור Avantgarde",
+          "source": {
+            "title": "auto.co.il — מרצדס C קלאס 2022 החדשה בארץ – מחיר החל מ-330,000 שקלים (23.8.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134639/"
+          }
         }
       }
     },
@@ -437,6 +495,46 @@
             }
           }
         ]
+      },
+      "H247": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מסמרות העצירה במסילות כוונון המושב האחורי עלולות לחסור — המושב עלול לנוע מעבר לקצה המסילה בבלימה/תאונה. בבדיקה: לוודא שהקריאה בוצעה ושהמושב האחורי נעצר בקצה המסילה.",
+            "level": "recall",
+            "scope": "שנתון 2024 (RC5133); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — Mercedes-Benz GLA 2024, REC-006325 (RC5133) rear seat adjustment stop rivets",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006325"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "GLA 200 1.3 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes GLA 200 (H247/F2B, 120 kW/163 PS, 2020–): real-world average from 252 user reports",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-GLA-Klasse/GLA-200/gla-200-f2b_48714/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/images-and-videos/mercedes-benz-gla---euro-ncap-2019-results---5-stars/s/ee1114eb-54c6-4283-8a4d-88eb43e99a4c"
+        },
+        "launchPrice": {
+          "ils": 289900,
+          "year": 2020,
+          "note": "GLA 200 1.3 טורבו 163 כ״ס, רמת גימור Exclusive",
+          "source": {
+            "title": "icar — מרצדס משיקה בישראל GLA ו-GLB (13.7.2020)",
+            "url": "https://www.icar.co.il/חדשות_רכב/מרצדס_משיקה_בישראל_GLA_ו-GLB/"
+          }
+        }
       }
     },
     "glc": {
@@ -502,6 +600,226 @@
             }
           }
         ]
+      },
+      "C118": {
+        "issues": [
+          {
+            "he": "קריאת שירות: דליפת שמן מצינור הזנת השמן של הטורבו במנוע 1.3 — סכנת שריפה. בבדיקה: לחפש סימני שמן מתחת למנוע ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "1.3 טורבו (M282), נמכרו 12/2019–03/2020 (RC2819); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz C118 CLA-Class (RC2819)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-c118-cla-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת הגיבוי של יחידת הבקרה של ההגה החשמלי עלולה לא לפעול — אובדן סיוע היגוי אם היחידה כושלת. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "שנתונים 2019–2024 (RC5008); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz C118 CLA-Class (RC5008, REC-005949)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-c118-cla-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינור הזנת הדלק בתא המנוע עלול להישחק ולדלוף — סכנת שריפה. בבדיקה: ריח דלק בתא המנוע ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2020 (RC3065); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz C118 CLA-Class (RC3065, REC-005513)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-c118-cla-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיישן התנגשות צדי עלול שלא להיות מקובע — עיכוב בפתיחת כריות האוויר. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2019 (RC2919); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz C118 CLA-Class (RC2919, REC-001691)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-c118-cla-class-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "CLA 200 1.3 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes CLA 200 Shooting Brake (F2CLA, 120 kW/163 PS, 2023–): real-world average from 31 user reports (Shooting Brake body, same engine as the coupé)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-CLA-Klasse/CLA-200/cla-200-shooting-brake-f2cla_50480/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/mercedes-benz-cla---euro-ncap-2019-results---5-stars/s/8d44fad4-065b-42bf-9a79-429c3611670e"
+        },
+        "launchPrice": {
+          "ils": 252900,
+          "year": 2019,
+          "note": "CLA 180 1.3 טורבו 136 כ״ס, רמת גימור Style",
+          "source": {
+            "title": "cartube — מרצדס CLA החדשה 2019 בישראל, מחיר 252,900 שקל (10.6.2019)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מרצדס-cla-החדשה-2019-בישראל-מחיר-252900-שקל"
+          }
+        }
+      }
+    },
+    "glb": {
+      "X247": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תוכנת הגיבוי של יחידת הבקרה של ההגה החשמלי עלולה לא לפעול — אובדן סיוע היגוי אם היחידה כושלת. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2024 (RC5008); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz X247 GLB (RC5008, REC-005949)",
+              "url": "https://australiancar.reviews/?p=100767"
+            }
+          },
+          {
+            "he": "קריאת שירות: כיסויי בתי הגלגלים הקדמיים עלולים שלא להיות מחוברים כראוי ולהתנתק בנסיעה. בבדיקה: לבדוק שהכיסויים מקובעים ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "GLB 250, שנתונים 2019–2020 (RC2892)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz X247 GLB (RC2892, REC-001631)",
+              "url": "https://australiancar.reviews/?p=100767"
+            }
+          },
+          {
+            "he": "קריאת שירות: צמיגים שאינם עומדים במפרט הייצור עלולים לאבד לחץ פתאומית. בבדיקה: לוודא שהקריאה בוצעה ולבדוק את מצב הצמיגים.",
+            "level": "recall",
+            "scope": "שנתון 2024 (RC5085); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz X247 GLB (RC5085, REC-006158)",
+              "url": "https://australiancar.reviews/?p=100767"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "GLB 200 1.3 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 163,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mercedes GLB 200 (X247/F2B facelift, 120 kW/163 PS, 2023–): real-world average from 38 user reports",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-GLB-Klasse/GLB-200/glb-200-f2b_50492/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/mercedes-benz-glb---euro-ncap-2019-results---5-stars/s/2e98ae00-21fe-4d79-8b04-e8f441475e07"
+        },
+        "launchPrice": {
+          "ils": 349900,
+          "year": 2020,
+          "note": "GLB 200 1.3 טורבו 163 כ״ס, רמת גימור Exclusive",
+          "source": {
+            "title": "icar — מרצדס משיקה בישראל GLA ו-GLB (13.7.2020)",
+            "url": "https://www.icar.co.il/חדשות_רכב/מרצדס_משיקה_בישראל_GLA_ו-GLB/"
+          }
+        }
+      }
+    },
+    "eqa": {
+      "H243": {
+        "issues": [
+          {
+            "he": "קריאת שירות: סכנת קצר בסוללת המתח הגבוה (ספק Farasis) ושריפה, בעיקר בטעינה מעל 80%. התיקון: עדכון תוכנת ניהול הסוללה; עד ביצועו הומלץ להגביל טעינה ל-80%. בבדיקה: חובה לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 2021–2024",
+            "source": {
+              "title": "electrive — Mercedes EQA and EQB affected by battery recall (KBA/NHTSA, Feb 2025)",
+              "url": "https://www.electrive.com/2025/02/17/mercedes-eqa-and-eqb-affected-by-battery-recall"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת הגיבוי של יחידת הבקרה של ההגה החשמלי עלולה לא לפעול — אובדן סיוע היגוי אם היחידה כושלת. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "שנתונים 2020–2024 (RC5008); לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mercedes-Benz H243 EQA (RC5008, REC-005949)",
+              "url": "https://australiancar.reviews/?p=100755"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "EQA 250 חשמלי 66.5 קוט\"ש",
+            "pt": "ev",
+            "hp": 188,
+            "cons": 18.8,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Mercedes-Benz EQA 250 (2021–2022): EVDB real-world combined estimate 302 Wh/mi (≈18.8 kWh/100km)",
+              "url": "https://ev-database.org/uk/car/1147/Mercedes-Benz-EQA-250"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/mercedes-benz/eqa/43187"
+        },
+        "launchPrice": {
+          "ils": 299900,
+          "year": 2021,
+          "note": "EQA 250, רמת גימור Electric",
+          "source": {
+            "title": "icar — מרצדס EQA בישראל: מ-300,000 שקלים (12.4.2021)",
+            "url": "https://www.icar.co.il/רכב-חשמלי/מרצדס_EQA_בישראל:_מ-300,000_שקלים/"
+          }
+        }
+      }
+    },
+    "eqb": {
+      "X243": {
+        "issues": [
+          {
+            "he": "קריאת שירות: סכנת קצר בסוללת המתח הגבוה (EB330, ספק Farasis) ושריפה, בעיקר בטעינה מעל 80%. התיקון: עדכון תוכנת ניהול הסוללה; עד ביצועו הומלץ להגביל טעינה ל-80%. בבדיקה: חובה לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 2021–2024",
+            "source": {
+              "title": "electrive — Mercedes EQA and EQB affected by battery recall (KBA/NHTSA, Feb 2025)",
+              "url": "https://www.electrive.com/2025/02/17/mercedes-eqa-and-eqb-affected-by-battery-recall"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "EQB 300 4MATIC חשמלי 66.5 קוט\"ש",
+            "pt": "ev",
+            "hp": 228,
+            "cons": 19.6,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Mercedes-Benz EQB 300 4MATIC (2022–2023): EVDB real-world combined estimate 196 Wh/km",
+              "url": "https://ev-database.org/de/pkw/1559/Mercedes-Benz-EQB-300-4MATIC"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/mercedes-eq-eqb---euro-ncap-2019-results---5-stars/s/f180107e-71df-47be-815a-d3de0ecaf368"
+        },
+        "launchPrice": {
+          "ils": 349900,
+          "year": 2022,
+          "note": "EQB 300 4MATIC, רמת גימור Electric",
+          "source": {
+            "title": "cartube — שבעה מושבים חשמלי: מרצדס EQB 2022 בישראל, מחיר 349,900 שקל (18.7.2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/שבעה-מושבים-חשמלי-2022-מרצדס-eqb-בישראל-מחיר-349900-שקל"
+          }
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "3-series": {
       "E90": {
@@ -216,6 +216,56 @@
           "stars": 5,
           "year": 2019,
           "url": "https://www.euroncap.com/en/results/BMW/1-Series/38528"
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות (2020): בד כרית האוויר של הנהג עלול להיפגע מהכיסוי בעת הפתיחה — כרית הנהג מוחלפת. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2020",
+            "source": {
+              "title": "What Car? — Used BMW 1 Series 2019-present reliability (recall 27/04/2020, driver's airbag)",
+              "url": "https://www.whatcar.com/bmw/1-series/hatchback/used-review/n22357/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות (2020): ברגי מכסי מיסבי גל הזיזים עלולים להשתחרר — בדיקה והחלפת בית גל הזיזים או ראש המנוע. בבדיקה: לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2020",
+            "source": {
+              "title": "What Car? — Used BMW 1 Series 2019-present reliability (recall 27/07/2020, camshaft bearing cap screws)",
+              "url": "https://www.whatcar.com/bmw/1-series/hatchback/used-review/n22357/advice"
+            }
+          },
+          {
+            "he": "בעלים מדווחים בעיקר על תקלות חשמל ומולטימדיה ונורות אזהרה שנדלקות ללא סיבה ברורה. בבדיקה: לבדוק את מסך המולטימדיה, שאין נורות אזהרה ושהתוכנה עודכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used BMW 1 Series 2019-present reliability & common problems",
+              "url": "https://www.whatcar.com/bmw/1-series/hatchback/used-review/n22357/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין 3 צילינדרים (118i)",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — BMW 1 Series F40 118i 140 HP AT, user-reported real consumption (number of reports not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/bmw-1-serija"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 199000,
+          "year": 2019,
+          "note": "118i, רמת גימור Vibe",
+          "source": {
+            "title": "auto.co.il — ב.מ.וו סדרה 1 החדשה בישראל - החל מ-199 אלף שקל (06.11.2019)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/132890/"
+          }
         }
       },
       "F20": {
@@ -304,6 +354,50 @@
           "stars": 5,
           "year": 2026,
           "url": "https://www.euroncap.com/assessments/bmw/ix3/1232/"
+        }
+      },
+      "G08": {
+        "issues": [
+          {
+            "he": "קריאת שירות: יחידת ההידראוליקה של מערכת הבלמים עלולה להיות פגומה — ירידה בסיוע הבלימה, ABS לא זמין ומרחק בלימה ארוך. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור עד 01/02/2021",
+            "source": {
+              "title": "car-recalls.eu — BMW iX3 (2020–2021) brakes hydraulic unit, RAPEX A12/00590/21",
+              "url": "https://car-recalls.eu/recall/bmw-ix3-2021-brakes-hydraulic-unit/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלת תוכנה ביחידת ניהול הסוללה — בתאונה קשה עלול להיגרם נזק למערכת 12V (נורות, תאורה וחיוג חירום). תוקן בעדכון תוכנה במוסך. בבדיקה: לוודא שהעדכון בוצע",
+            "level": "recall",
+            "scope": "ייצור 07/2019–05/2021",
+            "source": {
+              "title": "electrive — Software issues plague BMW iX3 (battery management unit recall, July 2021)",
+              "url": "https://www.electrive.com/2021/07/10/software-issues-plague-bmw-ix3/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 74 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 19.2,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — BMW iX3 (MY21), EVDB real-range consumption 192 Wh/km",
+              "url": "https://ev-database.org/car/1136/BMW-iX3"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 429900,
+          "year": 2021,
+          "note": "רמת גימור יחידה",
+          "source": {
+            "title": "cartube.co.il — ב.מ.וו iX3 החשמלי 2021 בישראל: מחיר 429,900 שקל (19.04.2021)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ב-מ-וו-ix3-החשמלי-2021-בישראל-מחיר-429900-שקל"
+          }
         }
       }
     },
@@ -414,6 +508,19 @@
             "source": {
               "title": "car-recalls.eu — BMW X1 (2009–2011) positive battery cable connector, RAPEX A12/00039/20",
               "url": "https://car-recalls.eu/recall/bmw-x1-2009-2011-2/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין (sDrive18i)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — BMW X1 2012 E84 2.0 18i 150 HP AT, user-reported real consumption (number of reports not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/BMW-X1"
             }
           }
         ]
@@ -668,6 +775,157 @@
             }
           }
         ]
+      }
+    },
+    "x2": {
+      "F39": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה בחיישן גל הארכובה — המנוע עלול לעבור למצב חירום עם ירידה בכוח. בבדיקה: לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 16/05/2018–07/06/2018",
+            "source": {
+              "title": "car-recalls.eu — BMW X2 common problems & recalls (UK recall 19/08/2018, crankshaft sensor software)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X2/"
+            }
+          },
+          {
+            "he": "קריאת שירות בפלאג-אין: זיהומים בסוללת המתח הגבוה עלולים לגרום לקצר. בבדיקה: לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "xDrive25e, ייצור 02/2020–09/2020",
+            "source": {
+              "title": "car-recalls.eu — BMW X2 common problems & recalls (UK recall 14/12/2020, PHEV high-voltage battery impurities)",
+              "url": "https://car-recalls.eu/common-problems/Bmw/X2/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מוט ההגה עלול היה להיות מורכב ללא דסקית כדורית נדרשת; וכן קריאה למחולל הגז של מותחן חגורת הבטיחות הקדמית. בבדיקה: לוודא שכל הקריאות בוצעו",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used BMW X2 2018-present reliability (recalls: steering tie rod, seatbelt retractor)",
+              "url": "https://www.whatcar.com/bmw/x2/hatchback/used-review/n18831/advice"
+            }
+          },
+          {
+            "he": "בגרסאות M Sport עם חישוקים גדולים נפוצה פגיעה בחישוקים מהמדרכה. בבדיקה: לבדוק את שולי החישוקים ואת איכות תיקוני הצבע בפגושים",
+            "level": "widely_reported",
+            "scope": "M Sport",
+            "source": {
+              "title": "What Car? — Used BMW X2 2018-present reliability & common problems",
+              "url": "https://www.whatcar.com/bmw/x2/hatchback/used-review/n18831/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין 3 צילינדרים (sDrive18i)",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — BMW X2 2017 (F39) 1.5 18i Automatic, user-reported real consumption (number of reports not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/BMW-X2"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 259900,
+          "year": 2018,
+          "note": "sDrive18i, רמת גימור Vibe",
+          "source": {
+            "title": "cartube.co.il — ב.מ.וו X2 בישראל: מחיר 259,900 שקל (07.02.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ב-מ-וו-x2-בישראל-מחיר-259900-שקל"
+          }
+        }
+      }
+    },
+    "i4": {
+      "G26": {
+        "issues": [
+          {
+            "he": "קריאת שירות (NHTSA 22V541): נזק פנימי בסוללת המתח הגבוה עלול לגרום לקצר ולסכנת שריפה — הסוללה מוחלפת. בבדיקה: לוודא מול היבואן שהסוללה הוחלפה אם הרכב בקריאה",
+            "level": "recall",
+            "scope": "eDrive40 / M50, 2022",
+            "source": {
+              "title": "NHTSA recall 22V541000 — BMW i4/iX high-voltage battery internal damage (vehiclesafetyrecalls.com)",
+              "url": "https://vehiclesafetyrecalls.com/recall/22V541000"
+            }
+          },
+          {
+            "he": "קריאת שירות (NHTSA 23V295): חיבורים לא מאובטחים במעגל ניטור תאי הסוללה עלולים לגרום לאובדן הנעה. בבדיקה: לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "eDrive35 / eDrive40 / M50, 2023",
+            "source": {
+              "title": "NHTSA recall 23V295000 — BMW i4/iX battery cell monitoring circuit (vehiclesafetyrecalls.com)",
+              "url": "https://vehiclesafetyrecalls.com/recall/23V295000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 67 קוט\"ש (eDrive35)",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 15.6,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — BMW i4 eDrive35 (2022–2024), EVDB real-range consumption 156 Wh/km",
+              "url": "https://ev-database.org/car/1785/BMW-i4-eDrive35"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/bmw/i4/46241"
+        },
+        "launchPrice": {
+          "ils": 339000,
+          "year": 2022,
+          "note": "eDrive40, רמת גימור Pure",
+          "source": {
+            "title": "cartube.co.il — ב.מ.וו i4 החשמלית בישראל: מחיר 339,000 שקל (15.03.2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ב-מ-וו-i4-החשמלית-בישראל-מחיר-339000-שקל"
+          }
+        }
+      }
+    },
+    "2-series-gran-coupe": {
+      "F44": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג עלולה להיפגע בעת הפתיחה ולא להתנפח כראוי. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 25/01/2020–12/03/2020",
+            "source": {
+              "title": "car-recalls.eu — BMW 2 Gran Coupe (2020) driver's airbag, RAPEX A12/00702/20",
+              "url": "https://car-recalls.eu/recall/bmw-2-gran-coupe-2020/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין 3 צילינדרים (218i)",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — BMW 2 Series F44 218i 140 HP AT, user-reported real consumption (number of reports not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/BMW-2-serija"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 249000,
+          "year": 2020,
+          "note": "218i, רמת גימור Sport",
+          "source": {
+            "title": "auto.co.il — ב.מ.וו סדרה 2 החדשה - מ-249 אלף שקל (16.03.2020)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/133500/"
+          }
+        }
       }
     }
   }

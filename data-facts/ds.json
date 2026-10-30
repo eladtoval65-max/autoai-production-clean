@@ -1,0 +1,143 @@
+{
+  "make": "ds",
+  "updated": "2026-10-30",
+  "models": {
+    "ds-3": {
+      "DS 3 Crossback": {
+        "issues": [
+          {
+            "he": "רצועת התזמון במנוע 1.2 PureTech רצה בשמן ועלולה להתפרק ולגרום לבעיות סיכה ואף להשבתת המנוע — לבקש הוכחה להחלפת רצועה במועד (כל 6 שנים / כ-100 אלף ק״מ) וטיפולים בזמן",
+            "level": "widely_reported",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Auto Express — Used DS 3 (Crossback) Mk1 2019-date buyer's guide",
+              "url": "https://www.autoexpress.co.uk/ds/3/65197/used-ds-3-mk1-2019-date-buyers-guide-smart-stylish-far-perfect"
+            }
+          },
+          {
+            "he": "קריאת שירות: פגם במיכל הדלק — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "דגמי 05/2019–09/2019",
+            "source": {
+              "title": "RAC — DS 3 Crossback (2019-2023) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/ds/3-crossback/3-crossback-2019-2023/"
+            }
+          },
+          {
+            "he": "קריאת שירות (02/2020): כשל אפשרי בצנרת הבלמים — לוודא ביצוע",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used DS 3 (Crossback) Mk1 2019-date buyer's guide (recalls)",
+              "url": "https://www.autoexpress.co.uk/ds/3/65197/used-ds-3-mk1-2019-date-buyers-guide-smart-stylish-far-perfect"
+            }
+          },
+          {
+            "he": "בחשמלי: קריאות שירות לחיווט (2022) ולתוכנת בקר סוללת ההנעה שעלולה לגרום לאובדן הנעה (2023), וחיווי טווח לא אמין — לוודא ביצוע הקריאות ולבדוק את קריאת הטווח בטעינה מלאה",
+            "level": "recall",
+            "scope": "E-Tense חשמלי",
+            "source": {
+              "title": "Auto Express — Used DS 3 (Crossback) Mk1 2019-date buyer's guide (recalls, E-Tense)",
+              "url": "https://www.autoexpress.co.uk/ds/3/65197/used-ds-3-mk1-2019-date-buyers-guide-smart-stylish-far-perfect"
+            }
+          },
+          {
+            "he": "תקלות חשמל: מסך מגע שנכבה או נתקע, ידיות דלת נשלפות שלא פועלות כראוי ותקלות מיזוג — לבדוק את כל הפונקציות בנסיעת המבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — DS 3 Crossback (2019-2023) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/ds/3-crossback/3-crossback-2019-2023/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין 130 כ״ס",
+            "pt": "petrol",
+            "hp": 131,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — DS 3 Crossback 1.2 (96 kW/131 PS, 2019–): real-world average from 18 user reports",
+              "url": "https://www.autokostencheck.de/DS/Citroen-DS3/DS3-Crossback/ds3-crossback-1-2-u_47613/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "note": "4 כוכבים בציוד סטנדרטי, 5 כוכבים עם חבילת בטיחות אופציונלית",
+          "url": "https://news.euroncap.com/safercars/choose-a-car/ds-3-crossback/s/817e9fee-0e61-4f08-879d-5f1afd0b2b38"
+        },
+        "launchPrice": {
+          "ils": 178990,
+          "year": 2019,
+          "note": "1.2 PureTech 130 כ״ס אוטומטית, SO CHIC",
+          "source": {
+            "title": "cartube — DS3 קרוסבק בישראל: מחיר 178,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ds3-קרוסבק-בישראל-מחיר-178990-שקל"
+          }
+        }
+      }
+    },
+    "ds-7": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות (HDD): ברגי חיבור בסרן האחורי עלולים להישבר — סכנת ניתוק גלגל. לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 04/11/2019–18/01/2020",
+            "source": {
+              "title": "car-recalls.eu — DS7 Crossback (2019–2020) rear axle screws (Rapex 29/2020)",
+              "url": "https://car-recalls.eu/recall/ds7-crossback-2019-2020-2/amp/"
+            }
+          },
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 PureTech ידועה בבלאי מוקדם ובצריכת שמן — Stellantis הרחיבה באירופה כיסוי לכל מנועי PureTech 1.0/1.2 (כולל DS) ל-10 שנים / 180 אלף ק״מ; לבקש הוכחת טיפולים במועד ובדיקת רצועה",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "J2R Auto — Stellantis élargit sa garantie sur les moteurs PureTech (27/05/2025; Citroën, DS, Opel, Peugeot)",
+              "url": "https://j2rauto.com/rechange/stellantis-elargit-sa-garantie-sur-les-moteurs-puretech"
+            }
+          },
+          {
+            "he": "שרשרת התזמון במנוע הדיזל 1.5 BlueHDi ידועה בבעיות — Stellantis הרחיבה כיסוי ל-10 שנים (כולל DS 7 Crossback, מנועים 2017–2023); לבקש היסטוריית טיפולים ולהקשיב לרעשי שרשרת",
+            "level": "manufacturer",
+            "scope": "1.5 BlueHDi, 2017–2023",
+            "source": {
+              "title": "AM Online — BlueHDi engine timing chain issues lead Stellantis to extend warranty",
+              "url": "https://www.am-online.com/news/bluehdi-engine-timing-chain-issues-lead-stellantis-to-extend-warranty"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 BlueHDi טורבו דיזל 180 כ״ס",
+            "pt": "diesel",
+            "hp": 177,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — DS 7 Crossback 2.0 HDI (130 kW/177 PS, 2017–): real-world average from 185 user reports",
+              "url": "https://www.autokostencheck.de/DS/Citroen-DS7/DS7-Crossback/ds-7-crossback-2-0-hdi-j_46050/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://euroncap.com/en/results/ds/7-crossback/28749"
+        },
+        "launchPrice": {
+          "ils": 239900,
+          "year": 2018,
+          "note": "2.0 דיזל 180 כ״ס, SO CHIC עם חבילת Performance Line",
+          "source": {
+            "title": "cartube — DS 7 קרוסבק 2018 בישראל: מחיר 239,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ds-7-קרוסבק-2018-בישראל-מחיר-239900-שקל"
+          }
+        }
+      }
+    }
+  }
+}

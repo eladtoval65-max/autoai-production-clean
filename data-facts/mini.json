@@ -1,0 +1,323 @@
+{
+  "make": "mini",
+  "updated": "2026-10-30",
+  "models": {
+    "hatch": {
+      "R56": {
+        "issues": [
+          {
+            "he": "מותחן שרשרת התזמון (מנועי Prince) עם אטם רך מדי — רעשי שקשוק בהתנעה קרה או דליפת שמן במותחן. בבדיקה: להאזין לרעש שרשרת בהתנעה ולבקש תיעוד החלפת מותחן/שרשרת",
+            "level": "manufacturer",
+            "scope": "1.6 / 1.6 טורבו, ייצור עד 11/2011",
+            "source": {
+              "title": "australiancar.reviews — Problems and faults: Mini R56 Cooper (SI M11 03 11)",
+              "url": "https://australiancar.reviews/?p=47463"
+            }
+          },
+          {
+            "he": "בית הטרמוסטט מפלסטיק נסדק ומדליף נוזל קירור (לרוב אחרי כ-80 אלף ק\"מ) — לבדוק סימני נוזל קירור מעל תיבת ההילוכים ושאין התחממות",
+            "level": "widely_reported",
+            "scope": "1.6 / 1.6 טורבו",
+            "source": {
+              "title": "australiancar.reviews — Problems and faults: Mini R56 Cooper (thermostat housing leak)",
+              "url": "https://australiancar.reviews/?p=47463"
+            }
+          },
+          {
+            "he": "דליפת שמן מסולנואיד בקרת משאבת השמן שעלולה לחדור לחיווט — לבדוק דליפות שמן באזור המשאבה והמחברים",
+            "level": "manufacturer",
+            "scope": "1.6 / 1.6 טורבו, ייצור עד 01/2013",
+            "source": {
+              "title": "australiancar.reviews — Problems and faults: Mini R56 Cooper (SI M11 01 12)",
+              "url": "https://australiancar.reviews/?p=47463"
+            }
+          },
+          {
+            "he": "הצטברות פחם על שסתומי היניקה במנוע הטורבו (הזרקה ישירה) — רעידות, החטאות ונורת מנוע. בבדיקה: לוודא מנוע חלק בסרק ולשאול על ניקוי פחם",
+            "level": "manufacturer",
+            "scope": "1.6 טורבו (Cooper S)",
+            "source": {
+              "title": "australiancar.reviews — Problems and faults: Mini R56 Cooper (SI M12 02 10)",
+              "url": "https://australiancar.reviews/?p=47463"
+            }
+          },
+          {
+            "he": "קריאת שירות: משאבת נוזל הקירור החשמלית של הטורבו עלולה לקצר ולהתחמם (סכנת שריפה) — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "Cooper S, ייצור עד 01/2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mini R56 Cooper (PRA 2012/13083)",
+              "url": "https://australiancar.reviews/?p=47463"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mini Cooper 1.6 (90 kW/122 PS, 2009–2014), ממוצע 567 דיווחי משתמשים",
+              "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Cooper/cooper-1-6-ukl-l_34146/verbrauch/"
+            }
+          }
+        ]
+      },
+      "F56 / F55": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כריות האוויר עלולות לא להיפתח בתאונה — לוודא מול היבואן שהוחלפו המודולים",
+            "level": "recall",
+            "scope": "ייצור 14/09–21/10/2016",
+            "source": {
+              "title": "What Car? — Used Mini Hatchback 2014-2024 reliability (recalls)",
+              "url": "https://www.whatcar.com/mini/hatchback/hatchback/used-review/n906/reliability"
+            }
+          },
+          {
+            "he": "תקלות VANOS / חיישני גל זיזים — רעידות ונורת מנוע; תוקן בעדכון תוכנה ולעיתים בהחלפת יחידות VANOS. בבדיקה: מנוע חלק וללא קודי תקלה",
+            "level": "manufacturer",
+            "scope": "1.5 טורבו ו-2.0 טורבו, 2014–2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls/faults: Mini F55/F56 Cooper (SI M11 02 15)",
+              "url": "https://australiancar.reviews/?p=47461"
+            }
+          },
+          {
+            "he": "דליפת שמן מאטם מכסה השסתומים עם צריכת שמן ותקלות תערובת — לבדוק סימני שמן סביב ראש המנוע",
+            "level": "manufacturer",
+            "scope": "1.5 טורבו, 2014–2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls/faults: Mini F55/F56 Cooper (SI M11 03 15)",
+              "url": "https://australiancar.reviews/?p=47461"
+            }
+          },
+          {
+            "he": "דווחו תקלות חשמל (כולל מסך המולטימדיה), רעשי מתלים ובעיות היגוי — לבדוק את כל המערכות ולהאזין לרעשים בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Mini Hatchback 2014-2024 reliability",
+              "url": "https://www.whatcar.com/mini/hatchback/hatchback/used-review/n906/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות (EU): מארז סוללת המתח הגבוה עלול לא להיות אטום — חדירת מים, כיבוי בנסיעה וסכנת שריפה. לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "Cooper SE חשמלי, ייצור 06/2020–12/2022",
+            "source": {
+              "title": "car-recalls.eu — Mini Cooper (2020-2022) high-voltage battery fire",
+              "url": "https://car-recalls.eu/recall/mini-cooper-2020-2022-high-voltage-battery-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 136,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mini Cooper 1.5 (100 kW, 2014–2024), ממוצע 122 דיווחי משתמשים",
+              "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Cooper/cooper-1-5-ukl-l_39007/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 165000,
+          "year": 2014,
+          "note": "Cooper 1.5 טורבו 136 כ\"ס, אוטומטית, רמת גימור Pepper",
+          "source": {
+            "title": "cartube — מיני קופר החדשה 2014 בישראל – מחיר החל מ-165,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מיני-קופר-החדשה-2014-בישראל-–-מחיר-החל-מ-165,000-שקל"
+          }
+        }
+      },
+      "J01 (חשמלי)": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): מודולי תאים בסוללת המתח הגבוה עלולים שלא להיות לפי המפרט — קצר וסכנת שריפה גם בחניה. לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 04/2023–11/2024",
+            "source": {
+              "title": "car-recalls.eu — Mini Cooper (2023-2024) EV, fire (HV battery cell modules)",
+              "url": "https://car-recalls.eu/recall/mini-cooper-2024-ev-hybrid-fire/"
+            }
+          },
+          {
+            "he": "קריאת שירות (EU): ריתוך פגום בציר מנוע הסרוו של הבלמים — ירידה בבלימה והשבתת ABS/DSC. לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 12/2023–08/2024",
+            "source": {
+              "title": "car-recalls.eu — Mini Cooper (2023-2024) brakes, accident",
+              "url": "https://car-recalls.eu/recall/mini-cooper-2023-2024-brakes-accident/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 40.7 קוט\"ש (Cooper E)",
+            "pt": "ev",
+            "hp": 184,
+            "cons": 14.6,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Mini Cooper E (2023-2026), צריכה בטווח אמיתי משולב 146 Wh/km",
+              "url": "https://ev-database.org/car/1997/Mini-Cooper-E"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/all-brands/for-safer-cars--size-isn-t-everything--mini-cooper-electric-and-audi-a6-e-tron-gain-five-star-rating/S/cf78fd72-0eda-43ae-8551-13b503edf441"
+        },
+        "launchPrice": {
+          "ils": 239900,
+          "year": 2024,
+          "note": "Cooper E, רמת גימור Classic",
+          "source": {
+            "title": "Carzone — מיני קופר החשמלית החדשה 2024: מחיר החל מ-239,900 ש\"ח",
+            "url": "https://www.carzone.co.il/news/מיני-קופר-החשמלית-החדשה-2024-מחיר-החל-מ-239900-שח"
+          }
+        }
+      }
+    },
+    "countryman": {
+      "R60": {
+        "issues": [
+          {
+            "he": "מותחן שרשרת התזמון עם אטם רך מדי — שקשוק שרשרת או דליפת שמן. בבדיקה: להאזין בהתנעה קרה ולבקש תיעוד טיפולי שמן תכופים",
+            "level": "manufacturer",
+            "scope": "1.6 / 1.6 טורבו, ייצור עד 11/2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mini R60 Countryman (2011-16) (SI M11 03 11)",
+              "url": "https://australiancar.reviews/recalls-faults-mini-r60-countryman-2011-16/"
+            }
+          },
+          {
+            "he": "בית הטרמוסטט מפלסטיק נסדק ומדליף נוזל קירור (לרוב אחרי כ-80 אלף ק\"מ) — לבדוק דליפות והתחממות",
+            "level": "widely_reported",
+            "scope": "1.6 / 1.6 טורבו",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mini R60 Countryman (2011-16)",
+              "url": "https://australiancar.reviews/recalls-faults-mini-r60-countryman-2011-16/"
+            }
+          },
+          {
+            "he": "דליפת שמן מסולנואיד משאבת השמן אל החיווט — לבדוק סימני שמן באזור",
+            "level": "manufacturer",
+            "scope": "ייצור עד 01/2013",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mini R60 Countryman (2011-16) (SI M11 01 12)",
+              "url": "https://australiancar.reviews/recalls-faults-mini-r60-countryman-2011-16/"
+            }
+          },
+          {
+            "he": "סלילי הצתה (Bosch) כושלים — החטאות ורעידות; הוחלפו בסלילי Delphi. בבדיקה: מנוע חלק וללא נורת מנוע",
+            "level": "manufacturer",
+            "scope": "1.6 בנזין (Cooper)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mini R60 Countryman (2011-16) (SI M12 01 15)",
+              "url": "https://australiancar.reviews/recalls-faults-mini-r60-countryman-2011-16/"
+            }
+          },
+          {
+            "he": "קריאת שירות: משאבת נוזל הקירור של הטורבו עלולה לקצר ולהתחמם (סכנת שריפה) — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "Cooper S, ייצור עד 01/2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mini R60 Countryman (PRA 2012/13083)",
+              "url": "https://australiancar.reviews/recalls-faults-mini-r60-countryman-2011-16/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mini Cooper Countryman 1.6 (88 kW/120 PS, 2010–2017), ממוצע 32 דיווחי משתמשים",
+              "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Countryman/cooper-countryman-1-6-ukl-x_35078/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://www.euroncap.com/en/results/mini/countryman/11005"
+        }
+      },
+      "F60": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): בפלאג-אין — זיהום תאים / שארית ריתוך בסוללת המתח הגבוה עלולים לגרום לקצר ושריפה. לוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "פלאג-אין (Cooper SE ALL4), ייצור 02–10/2020",
+            "source": {
+              "title": "car-recalls.eu — Mini Countryman PHEV (2020) fire",
+              "url": "https://car-recalls.eu/recall/mini-countryman-phev-fire/"
+            }
+          },
+          {
+            "he": "קריאת שירות (EU): מיסבי הסרן הקדמי עלולים להיכשל — לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור 26/04–01/05/2018",
+            "source": {
+              "title": "car-recalls.eu — Mini Countryman (2018) suspension",
+              "url": "https://car-recalls.eu/recall/mini-countryman-2018/"
+            }
+          },
+          {
+            "he": "תקלות בתושבות מנוע ובחיישן גל ארכובה עלולות להכניס את הרכב למצב חירום (Limp mode) — לבדוק רעידות ונורות אזהרה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Mini Countryman 2017-2024 reliability",
+              "url": "https://www.whatcar.com/mini/countryman/hatchback/used-review/n887/reliability"
+            }
+          },
+          {
+            "he": "נוזל שנשפך ליד הקונסולה המרכזית חודר למעגלי בורר ההילוכים (תקלת חיישן לחות, תיקון יקר) — לבדוק שאין הודעות תקלה בתיבה",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Mini Countryman 2017-2024 reliability",
+              "url": "https://www.whatcar.com/mini/countryman/hatchback/used-review/n887/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 136,
+            "cons": 7.9,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Mini Countryman Cooper 1.5 (100 kW, 2016–2024), ממוצע 140 דיווחי משתמשים",
+              "url": "https://www.autokostencheck.de/Mini/Mini-Countryman/Countryman/mini-countryman-cooper-1-5-fmx_45302/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/-koda-and-mini-get-top-safety-ratings/s/d530daec-b958-4a7e-953d-8f380936758e"
+        },
+        "launchPrice": {
+          "ils": 195000,
+          "year": 2017,
+          "note": "Cooper 1.5 טורבו 136 כ\"ס, רמת גימור Urban",
+          "source": {
+            "title": "cartube — מיני קאנטרימן החדש 2017 בישראל, מחיר החל מ-195,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2017-מיני-קאנטרימן-החדש-בישראל-מחיר-החל-מ-195000-שקל"
+          }
+        }
+      }
+    }
+  }
+}

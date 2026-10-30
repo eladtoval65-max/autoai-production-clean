@@ -1,0 +1,262 @@
+{
+  "make": "jeep",
+  "updated": "2026-10-30",
+  "models": {
+    "compass": {
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): וילונות כריות האוויר הצדדיות (נהג ונוסע) עלולים להיות לא מחוברים — לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 12/2020–07/2021",
+            "source": {
+              "title": "car-recalls.eu — Jeep Compass 2020-2021 side curtain airbags (recall Z93, Safety Gate)",
+              "url": "https://car-recalls.eu/recall/jeep-compass-2020-2021-airbag/"
+            }
+          },
+          {
+            "he": "קריאת שירות (EU): זרוע דוושת הבלם עלולה להתנתק אחרי מכה חזקה בדוושה ולגרום לאובדן בלימה — לוודא ביצוע קריאה B7B",
+            "level": "recall",
+            "scope": "4xe ומיילד-היבריד, ייצור 07/2023–09/2024",
+            "source": {
+              "title": "car-recalls.eu — Jeep Compass 2023-2024 brake pedal (recall B7B, MHEV/PHEV)",
+              "url": "https://car-recalls.eu/recall/jeep-compass-2023-2024-brakes-accident/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין MultiAir",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Compass 1.4 T (MX) 140 PS, 2017+, user-reported average of 229 reports (111 of them at 9.4)",
+              "url": "https://www.autokostencheck.de/Jeep/Jeep-Compass/Compass/jeep-compass-1-4-t-mx_45579/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/occupant-protection-a-side-issue-for-some/s/abb73dc9-5dcf-41d9-894f-fac8d0872e64"
+        },
+        "launchPrice": {
+          "ils": 210000,
+          "year": 2018,
+          "note": "1.4 טורבו 170 כ״ס, 4X4, רמת גימור Limited",
+          "source": {
+            "title": "ynet — ג'יפ קומפאס בישראל. המחיר: החל מ-210 אלף שקלים",
+            "url": "https://www.ynet.co.il/articles/mobile/0,7340,L-5278452,00.html"
+          }
+        }
+      },
+      "MK49": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): תקלה ביחידת הבקרה של מערכות הריסון עלולה למנוע פתיחת כריות אוויר ומותחני חגורות — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 02/2009–08/2014",
+            "source": {
+              "title": "car-recalls.eu — Jeep Compass 2009-2014 occupant restraint control unit (Rapex 41/2017)",
+              "url": "https://car-recalls.eu/recall/jeep-compass-2009-2014/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 בנזין",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 11.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Compass 2.4 (PK) 170 PS, 2006–2015, user-reported average of 356 reports",
+              "url": "https://www.autokostencheck.de/Jeep/Chrysler-Jeep/Jeep-Compass/jeep-compass-2-4-pk_7718/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 2,
+          "year": 2012,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-announces-new-crash-tests-results--jeep-compass-disappoints--honda-civic-impresses/s/7c769ae3-910a-4fe4-8e5d-023f7dd62c1d"
+        }
+      }
+    },
+    "wrangler": {
+      "JL": {
+        "issues": [
+          {
+            "he": "קריאת שירות (KBA): פגם בתאים של סוללת המתח הגבוה עלול לגרום לשריפה — לוודא עדכון תוכנה ובדיקת סוללה (ולפי הצורך החלפה) במוסך מורשה",
+            "level": "recall",
+            "scope": "4xe, ייצור 07/2020–11/2025",
+            "source": {
+              "title": "car-recalls.eu — Jeep recalls over 375,000 Wrangler/Grand Cherokee for HV battery fire risk (KBA 15822R)",
+              "url": "https://car-recalls.eu/jeep-recalls-375000-vehicles-battery-fire-risk-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KBA): נתיך בסוללת המתח הגבוה מחובר לא כראוי ועלול לגרום לאובדן הנעה — לוודא ביצוע",
+            "level": "recall",
+            "scope": "4xe, ייצור 01–05/2022",
+            "source": {
+              "title": "car-recalls.eu — Jeep Wrangler 4xe PHEV: loss of drive due to faulty HV battery fuse (KBA 012497)",
+              "url": "https://car-recalls.eu/jeep-wrangler-4xe-phev-loss-of-drive-faulty-hv-battery-fuse-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 272,
+            "cons": 13,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Wrangler 2.0 272 PS, 2019+, user-reported average of 641 reports",
+              "url": "https://www.autokostencheck.de/Jeep/Jeep-Wrangler/Jeep-Wrangler/jeep-wrangler-2-0-jk_47377/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 1,
+          "year": 2018,
+          "url": "https://news.euroncap.com/safercars/panda--wrangler-off-the-pace-in-latest-safety-ratings/s/33e7b559-4146-49d2-be40-d58c7d12a061"
+        }
+      },
+      "JK": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מנפח כרית האוויר של הנוסע מלפנים (טאקטה) עלול להתפוצץ — לוודא מול היבואן שהוחלף",
+            "level": "recall",
+            "scope": "2010–2013",
+            "source": {
+              "title": "AutoGuide — Jeep Wrangler recalls over the years (NHTSA list: passenger airbag inflator, 2016/2018)",
+              "url": "https://www.autoguide.com/auto-news/2018/05/jeep-wrangler-recalls-over-the-years-are-you-affected-.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: קפיץ השעון (clockspring) של כרית האוויר בהגה עלול להיפגע — נורית כרית אוויר דולקת היא סימן; לוודא ביצוע",
+            "level": "recall",
+            "scope": "2010–2016",
+            "source": {
+              "title": "AutoGuide — Jeep Wrangler recalls over the years (NHTSA list: airbag clockspring, 2013/2016)",
+              "url": "https://www.autoguide.com/auto-news/2018/05/jeep-wrangler-recalls-over-the-years-are-you-affected-.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.6 V6 בנזין",
+            "pt": "petrol",
+            "hp": 284,
+            "cons": 13.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Wrangler 3.6 (JK) 284 PS, 2011–2016, user-reported average of 821 reports",
+              "url": "https://www.autokostencheck.de/Jeep/Chrysler-Jeep/Jeep-Wrangler/jeep-wrangler-3-6-jk_36500/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "grand-cherokee": {
+      "WK2": {
+        "issues": [
+          {
+            "he": "קריאת שירות (NHTSA 16V-240): ידית ההילוכים המונוסטבילית מבלבלת ונהגים יצאו מהרכב כשלא היה בחניה — לוודא שעודכנה התוכנה (Auto Park)",
+            "level": "recall",
+            "scope": "2014–2015",
+            "source": {
+              "title": "NHTSA recall 16V-240 — monostable shifter, 2014-2015 Jeep Grand Cherokee",
+              "url": "https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V240-3644.PDF"
+            }
+          },
+          {
+            "he": "בית מסנן השמן/מצנן השמן במנוע 3.6 הוא מקור נפוץ לדליפות שמן — לבדוק סימני שמן בחלק העליון של המנוע",
+            "level": "widely_reported",
+            "scope": "3.6 V6",
+            "source": {
+              "title": "Samarins — 2014-2021 Jeep Grand Cherokee: pros, cons, common problems",
+              "url": "https://samarins.com/reviews/grand-cherokee.html"
+            }
+          },
+          {
+            "he": "תקתוק מתחת למכסי השסתומים במנוע 3.6 עשוי להעיד על זרועות נדנדה שחוקות שעלולות לפגוע בגל הזיזים — להאזין למנוע בהתנעה קרה",
+            "level": "widely_reported",
+            "scope": "3.6 V6",
+            "source": {
+              "title": "Samarins — 2014-2021 Jeep Grand Cherokee: pros, cons, common problems",
+              "url": "https://samarins.com/reviews/grand-cherokee.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.6 V6 בנזין",
+            "pt": "petrol",
+            "hp": 286,
+            "cons": 13.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Grand Cherokee 3.6 (WK) 286 PS, 2011–2017, user-reported average of 94 reports",
+              "url": "https://www.autokostencheck.de/JEEP/Chrysler-Jeep/Jeep-Grand-Cherokee/jeep-grand-cherokee-3-6-wk_36496/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "avenger": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): צינור הדלק בלחץ גבוה בין המשאבה למסילה עלול לדלוף בגלל אומים רופפים — סכנת שריפה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "בנזין, ייצור 01/2024–05/2025",
+            "source": {
+              "title": "car-recalls.eu — Jeep Avenger 2024-2025 high-pressure fuel hose leak",
+              "url": "https://car-recalls.eu/recall/jeep-avenger-2024-2025-fuel-fire/"
+            }
+          },
+          {
+            "he": "קריאת שירות (EU): מרווח קטן מדי בין צינור מסנן החלקיקים לאלטרנטור-מתנע 48V — חדירת מים עלולה לגרום לקשת חשמלית ושריפה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "גרסאות עם מערכת 48V, ייצור 03/2023–12/2025",
+            "source": {
+              "title": "car-recalls.eu — Jeep Avenger 2023-2025 48V starter-alternator clearance (SR/00844/26)",
+              "url": "https://car-recalls.eu/recall/jeep-avenger-2023-2025-electronic-fire/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KBA): סיכון לסדק בתיבת ההגה ולכשל היגוי — לוודא שתיבת ההגה הוחלפה",
+            "level": "recall",
+            "scope": "2024",
+            "source": {
+              "title": "car-recalls.eu — Jeep Avenger: steering failure may occur (KBA 14511R)",
+              "url": "https://car-recalls.eu/jeep-avenger-steering-failure-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 101,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Avenger 1.2 (FH1) 101 PS, 2024+, user-reported average of 50 reports (38 at 6.1)",
+              "url": "https://www.autokostencheck.de/Jeep/Jeep-Avenger/Avenger/jeep-avenger-1-2-fh1_50700/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2024,
+          "url": "https://www.euroncap.com/en/results/jeep/avenger/52562"
+        }
+      }
+    }
+  }
+}

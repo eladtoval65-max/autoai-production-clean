@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "models": {
     "a3": {
       "8V": {
@@ -575,6 +575,25 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-Q7/Q7/q7-3-0-tfsi-4l_34117/verbrauch/"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "קריאת שירות: דליפת דלק בחיבור מסילת הדלק למזרקים (סכנת שריפה) — להריח ריח דלק בתא המנוע ולוודא שהוחלפו מסילות הדלק",
+            "level": "recall",
+            "scope": "3.0 TFSI, ייצור 04/2011–02/2012",
+            "source": {
+              "title": "NHTSA recall 15V-019 — Audi Q7 2011-2012 3.0 TFSI fuel rail leak",
+              "url": "https://static.nhtsa.gov/odi/rcl/2015/RCLRPT-15V019-4663.PDF"
+            }
+          },
+          {
+            "he": "שחיקה מהירה של הצמיגים הקדמיים (בעיקר בשוליים החיצוניים) — לבדוק את מצב הצמיגים ולבקש בדיקת כיוון גלגלים",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Audi Q7 2006-2015 reliability review",
+              "url": "https://www.whatcar.com/audi/q7/4x4/used-review/n245/reliability"
+            }
+          }
         ]
       }
     },
@@ -630,6 +649,119 @@
             }
           }
         ]
+      }
+    },
+    "q4-etron": {
+      "F4": {
+        "issues": [
+          {
+            "he": "קריאת שירות (EU): מוט הפיתול במנגנון חגורת הבטיחות עלול להישבר והחגורה תשתחרר בתאונה — לבדוק מול היבואן לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 17/06/2025–10/09/2025",
+            "source": {
+              "title": "car-recalls.eu — Audi Q4 e-tron (2025) seat belt torsion bar (EU Safety Gate 10/04/2026)",
+              "url": "https://car-recalls.eu/recall/audi-q4-e-tron-2025-torsion-bar/"
+            }
+          },
+          {
+            "he": "קריאת שירות (גרמניה, KBA): תקלת תוכנה עלולה לגרום לכשל בבלם החניה — לוודא שבוצע עדכון התוכנה ולבדוק שבלם החניה מחזיק בשיפוע",
+            "level": "recall",
+            "source": {
+              "title": "auto motor und sport — Audi Q4 e-tron Rückruf: Parkbremse kann ausfallen",
+              "url": "https://www.auto-motor-und-sport.de/verkehr/audi-q4-e-tron-rueckruf-parkbremse-kann-ausfallen/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 52 קוט\"ש (Q4 35)",
+            "pt": "ev",
+            "hp": 170,
+            "cons": 18.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi Q4 e-tron 35 (52 kWh usable, 2021–2023): real-world combined consumption 297 Wh/mi ≈ 185 Wh/km",
+              "url": "https://ev-database.org/imp/car/1179/Audi-Q4-e-tron-35"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://cdn.euroncap.com/en/results/audi/q4-e-tron/43490"
+        },
+        "launchPrice": {
+          "ils": 290000,
+          "year": 2021,
+          "note": "Q4 e-tron 40, 204 כ״ס, סוללה 77 קוט״ש נטו",
+          "source": {
+            "title": "auto.co.il — אודי Q4 e-tron בארץ – מחיר החל מ-290,000 שקלים",
+            "url": "https://www.auto.co.il/article/134757-local-news-audi-q4-e-tron"
+          }
+        }
+      }
+    },
+    "a5": {
+      "F5 (B9)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: פגם ייצור עלול למנוע פעולת כריות האוויר ומותחני החגורות — לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 05/2016–10/2016",
+            "source": {
+              "title": "What Car? — Used Audi A5 Sportback 2016-2024 reliability (recalls)",
+              "url": "https://www.whatcar.com/audi/a5/hatchback/used-review/n19056/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנוסע הקדמי עלולה להיות לא מקובעת — לוודא שבוצעו בדיקה ותיקון",
+            "level": "recall",
+            "scope": "ייצור 02/2017–07/2017",
+            "source": {
+              "title": "What Car? — Used Audi A5 Sportback 2016-2024 reliability (recalls)",
+              "url": "https://www.whatcar.com/audi/a5/hatchback/used-review/n19056/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: פגם יציקה במזלג הבולם עלול לגרום לשבירתו — לבדוק מול היבואן לפי מספר שלדה שהוחלף",
+            "level": "recall",
+            "scope": "ייצור 26/02/2019–14/03/2019",
+            "source": {
+              "title": "What Car? — Used Audi A5 Sportback 2016-2024 reliability (recalls)",
+              "url": "https://www.whatcar.com/audi/a5/hatchback/used-review/n19056/reliability"
+            }
+          },
+          {
+            "he": "דיווחים על תקלות במולטימדיה (ניתוק טלפון, הבהוב ותקיעת מסך) ורעשי חיפוי — לבדוק את המערכת בנסיעת המבחן ולוודא עדכון תוכנה אחרון",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Audi A5 Sportback 2016-2024 reliability",
+              "url": "https://www.whatcar.com/audi/a5/hatchback/used-review/n19056/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TFSI טורבו בנזין 190 כ״ס",
+            "pt": "petrol",
+            "hp": 190,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi A5 F5 Sportback 2.0 TFSI 190 KM (2017–2018): user-reported average (only 4 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a5/f5/sportback/silnik-benzynowy-2.0-tfsi-190km-2017-2018/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 359900,
+          "year": 2017,
+          "note": "A5 קופה 2.0 TFSI 190 כ״ס, הנעה קדמית",
+          "source": {
+            "title": "cartube — 2017 אודי A5 החדשה בישראל – מחיר החל מ-359,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2017-אודי-a5-החדשה-בישראל-–-מחיר-החל-מ-359900-שקל"
+          }
+        }
       }
     }
   }

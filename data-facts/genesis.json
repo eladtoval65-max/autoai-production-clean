@@ -1,6 +1,6 @@
 {
   "make": "genesis",
-  "updated": "2026-10-21",
+  "updated": "2026-10-30",
   "models": {
     "g80": {
       "RG3": {
@@ -8,6 +8,57 @@
           "stars": 5,
           "year": 2021,
           "url": "https://www.euroncap.com/en/results/genesis/g80/42794"
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות: חיבורי צינור הדלק בין מסילות הדלק עלולים להשתחרר — סכנת דליפת דלק ושריפה. בבדיקה: לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "כל הגרסאות, 2020–2025",
+            "source": {
+              "title": "vehiclerecalls.gov.au REC-006682 — Genesis GV70 (JK1), GV80 (JX1), G80 (RG3) 2020-2025, fuel pipe may loosen",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006682"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): משאבת הדלק עלולה להיכשל בחום ולגרום לאובדן כוח מנוע. בבדיקה: לוודא שהקריאה בוצעה ושאין גמגומים/כיבוי מנוע",
+            "level": "recall",
+            "scope": "בנזין, 2022–2023",
+            "source": {
+              "title": "NHTSA 24V-282 — 2022-2023 Genesis GV70/GV80/G80/G90 fuel pump failure",
+              "url": "https://vehiclesafetyrecalls.com/recall/24V282000"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): מותחן חגורת הבטיחות הקדמית עלול להתפרק בהפעלה ולפזר שברי מתכת בתא — לוודא שהותקן הכיסוי מטעם היבואן",
+            "level": "recall",
+            "scope": "2021–2023",
+            "source": {
+              "title": "NHTSA 23V-094 — seat belt pretensioner (2022 GV70, 2020-23 GV80, 2021-23 G80, 2023 GV60)",
+              "url": "https://auto-recalls.justia.com/genesis/gv70/2022/23v094000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 304,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "AutoScout24 — Genesis G80 2.5T im Test: Testverbrauch rund 10 l/100 km",
+              "url": "https://www.autoscout24.at/informieren/testberichte/genesis/g80/genesis-g80-2-5t-im-test-heizt-er-der-oberklasse-ein/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 385000,
+          "year": 2021,
+          "note": "2.5 טורבו 304 כ״ס, רמת גימור Elegant",
+          "source": {
+            "title": "auto.co.il — ג'נסיס G80 2021 החדשה בישראל, החל מ-385,000 שקלים (24.2.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134294/"
+          }
         }
       }
     },
@@ -17,6 +68,186 @@
           "stars": 5,
           "year": 2021,
           "url": "https://www.euroncap.com/en/results/genesis/gv80/42796"
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות: חיבורי צינור הדלק בין מסילות הדלק עלולים להשתחרר — סכנת דליפת דלק ושריפה. בבדיקה: לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "כל הגרסאות, 2020–2025",
+            "source": {
+              "title": "vehiclerecalls.gov.au REC-006682 — Genesis GV70 (JK1), GV80 (JX1), G80 (RG3) 2020-2025, fuel pipe may loosen",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006682"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): משאבת הדלק עלולה להיכשל בחום ולגרום לאובדן כוח מנוע. בבדיקה: לוודא שהקריאה בוצעה ושאין גמגומים/כיבוי מנוע",
+            "level": "recall",
+            "scope": "בנזין, 2022–2023",
+            "source": {
+              "title": "NHTSA 24V-282 — 2022-2023 Genesis GV70/GV80/G80/G90 fuel pump failure",
+              "url": "https://vehiclesafetyrecalls.com/recall/24V282000"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): מותחן חגורת הבטיחות הקדמית עלול להתפרק בהפעלה ולפזר שברי מתכת בתא — לוודא שהותקן הכיסוי מטעם היבואן",
+            "level": "recall",
+            "scope": "2020–2023",
+            "source": {
+              "title": "NHTSA 23V-094 — seat belt pretensioner (2022 GV70, 2020-23 GV80, 2021-23 G80, 2023 GV60)",
+              "url": "https://auto-recalls.justia.com/genesis/gv70/2022/23v094000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.5 טורבו V6 בנזין",
+            "pt": "petrol",
+            "hp": 380,
+            "cons": 16.7,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide — GV80 3.5T Luxury long-term report 2: 16.7 L/100km over 1,075 km of mostly suburban family driving (279 kW)",
+              "url": "https://carsguide.com.au/family/genesis-gv80-35t-luxury-long-term-p2-91117"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 499000,
+          "year": 2021,
+          "note": "3.0 טורבו דיזל 278 כ״ס, רמת גימור Elegant",
+          "source": {
+            "title": "auto.co.il — ג'נסיס GV80 2021 החדש בישראל, החל מ-499,000 שקלים (23.2.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134293/"
+          }
+        }
+      }
+    },
+    "gv70": {
+      "JK1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חיבורי צינור הדלק בין מסילות הדלק עלולים להשתחרר — סכנת דליפת דלק ושריפה. בבדיקה: לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "כל הגרסאות, 2020–2025",
+            "source": {
+              "title": "vehiclerecalls.gov.au REC-006682 — Genesis GV70 (JK1), GV80 (JX1), G80 (RG3) 2020-2025, fuel pipe may loosen",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006682"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): משאבת הדלק עלולה להיכשל בחום ולגרום לאובדן כוח מנוע. בבדיקה: לוודא שהקריאה בוצעה ושאין גמגומים/כיבוי מנוע",
+            "level": "recall",
+            "scope": "בנזין, 2022–2023",
+            "source": {
+              "title": "NHTSA 24V-282 — 2022-2023 Genesis GV70/GV80/G80/G90 fuel pump failure",
+              "url": "https://vehiclesafetyrecalls.com/recall/24V282000"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): מותחן חגורת הבטיחות הקדמית עלול להתפרק בהפעלה ולפזר שברי מתכת בתא — לוודא שהותקן הכיסוי מטעם היבואן",
+            "level": "recall",
+            "scope": "2022",
+            "source": {
+              "title": "NHTSA 23V-094 — seat belt pretensioner (2022 GV70, 2020-23 GV80, 2021-23 G80, 2023 GV60)",
+              "url": "https://auto-recalls.justia.com/genesis/gv70/2022/23v094000"
+            }
+          },
+          {
+            "he": "קריאת שירות: יחידת הטעינה המשולבת (ICCU) עלולה להינזק ולהפסיק לטעון את מצבר ה-12V — אובדן הנעה. בבדיקה: לוודא עדכון תוכנה/החלפת ICCU מול היבואן",
+            "level": "recall",
+            "scope": "Electrified GV70 חשמלי",
+            "source": {
+              "title": "NHTSA 24V-204 (superseded by 24V-868) — ICCU damage, Genesis GV60 / Electrified GV70",
+              "url": "https://auto-recalls.justia.com/genesis/gv60/2023/24v204000"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): תקלת תוכנה עלולה להשבית את תצוגת לוח המחוונים — לוודא עדכון תוכנה",
+            "level": "recall",
+            "scope": "Electrified GV70 חשמלי, 2023–2025",
+            "source": {
+              "title": "cars.com — Electrified GV70 recalls, NHTSA 25V-105 instrument panel display software",
+              "url": "https://www.cars.com/research/genesis-electrified_gv70-2023/recalls/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 304,
+            "cons": 10.6,
+            "unit": "L",
+            "source": {
+              "title": "What Car? — Genesis GV70 2.5T long-term test report 5: 26.6 mpg (UK) real-world ≈ 10.6 L/100km",
+              "url": "https://www.whatcar.com/news/genesis-gv70-long-term-test-report-5/n26637"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/genesis-gv70---euro-ncap-2021-results---5-stars/s/11de247b-5c0d-4bd7-91ef-6a9764e03fd8"
+        },
+        "launchPrice": {
+          "ils": 339000,
+          "year": 2021,
+          "note": "2.5 טורבו 304 כ״ס, הנעה כפולה, רמת גימור Elegant",
+          "source": {
+            "title": "auto.co.il — ג'נסיס GV70 2021 בארץ, החל מ-339,000 שקלים (9.6.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134518/"
+          }
+        }
+      }
+    },
+    "gv60": {
+      "JW": {
+        "issues": [
+          {
+            "he": "קריאת שירות: יחידת הטעינה המשולבת (ICCU) עלולה להינזק ולהפסיק לטעון את מצבר ה-12V — אובדן הנעה. בבדיקה: לוודא עדכון תוכנה/החלפת ICCU מול היבואן",
+            "level": "recall",
+            "scope": "2023–2024",
+            "source": {
+              "title": "NHTSA 24V-204 (superseded by 24V-868) — ICCU damage, Genesis GV60 / Electrified GV70",
+              "url": "https://auto-recalls.justia.com/genesis/gv60/2023/24v204000"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה״ב): מותחן חגורת הבטיחות הקדמית עלול להתפרק בהפעלה ולפזר שברי מתכת בתא — לוודא שהותקן הכיסוי מטעם היבואן",
+            "level": "recall",
+            "scope": "2023",
+            "source": {
+              "title": "NHTSA 23V-094 — seat belt pretensioner (2022 GV70, 2020-23 GV80, 2021-23 G80, 2023 GV60)",
+              "url": "https://auto-recalls.justia.com/genesis/gv70/2022/23v094000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 77.4 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 228,
+            "cons": 19,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Genesis GV60 Premium (MY22-24): 190 Wh/km real-world estimate; 168 kW (228 PS)",
+              "url": "https://ev-database.org/car/1647/Genesis-GV60-Premium"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/es/results/genesis/gv60/46605"
+        },
+        "launchPrice": {
+          "ils": 295000,
+          "year": 2022,
+          "note": "הנעה אחורית 228 כ״ס, רמת גימור Premium",
+          "source": {
+            "title": "CarTube — ג'נסיס GV60 החשמלי 2022 בישראל, מחיר 295,000 שקל (12.6.2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ג-נסיס-gv60-החשמלי-2022-בישראל-מחיר-295000-שקל"
+          }
         }
       }
     }
