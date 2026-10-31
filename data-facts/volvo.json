@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "xc60": {
       "Gen1": {
@@ -739,6 +739,34 @@
             "url": "https://www.icar.co.il/רכב-חשמלי/וולוו_C40_בישראל:_מ-280,000_שקלים/"
           }
         }
+      }
+    },
+    "ex90": {
+      "SPA2": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "זרועות ההרמה של הדלת האחורית עלולות להתנתק — הדלת עלולה ליפול ולגרום לפציעה. לבדוק לפי VIN שבוצעה קריאת השירות (R10342)",
+            "scope": "שנת דגם 2025",
+            "source": {
+              "title": "car-recalls.eu — Volvo EX90 (2025) tailgate lifting arms, Safety Gate SR/03572/25",
+              "url": "https://car-recalls.eu/recall/volvo-ex90-2025-bodywork-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי Twin Motor (סוללה 111 קוט\"ש)",
+            "pt": "ev",
+            "hp": 402,
+            "cons": 21.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volvo EX90 Twin Motor (MY24–25): vehicle consumption 345 Wh/mi (≈21.4 kWh/100km, converted)",
+              "url": "https://ev-database.org/uk/car/1775/Volvo-EX90-Twin-Motor"
+            }
+          }
+        ]
       }
     }
   }

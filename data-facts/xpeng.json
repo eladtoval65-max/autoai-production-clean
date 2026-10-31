@@ -1,0 +1,133 @@
+{
+  "make": "xpeng",
+  "models": {
+    "p7-plus": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי, הנעה אחורית, סוללה 74.9 קוט\"ש",
+            "pt": "ev",
+            "cons": 16.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — XPENG P7+ RWD Long Range: 163 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מגע לקוי בצמת חיישן מנוע ההגה — נורית תקלת הגה וכשל בסיוע ההגה. הוחלפה מערכת ההגה בגרסה משופרת. לבדוק שבוצעה ההחלפה",
+            "scope": "יוצרו 08/2024–04/2025, ריקול בסין",
+            "source": {
+              "title": "CnEVPost — Xpeng recalls 47,490 P7+ sedans (steering, SAMR 2025)",
+              "url": "https://cnevpost.com/2025/09/12/xpeng-recalls-p7-plus/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ידיות הפתיחה המכניות לחירום בדלתות בצבע דומה לחיפוי וקשות לאיתור — הותקנו מדבקות סימון. לוודא שהמדבקות קיימות ולהכיר את מיקום הידיות",
+            "scope": "ריקול בסין 2026",
+            "source": {
+              "title": "CnEVPost — China's biggest auto recall (door emergency releases), incl. Xpeng P7+, G6, X9",
+              "url": "https://cnevpost.com/2026/08/21/china-biggest-auto-recall-hits-tesla-xiaomi-leapmotor-others/"
+            }
+          }
+        ]
+      }
+    },
+    "g6": {
+      "F30": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ידיות הפתיחה המכניות לחירום בדלתות קשות לאיתור — הותקנו מדבקות סימון. לוודא שהמדבקות קיימות ולהכיר את מיקום הידיות",
+            "scope": "ריקול בסין 2026",
+            "source": {
+              "title": "CnEVPost — China's biggest auto recall (door emergency releases), incl. Xpeng G6",
+              "url": "https://cnevpost.com/2026/08/21/china-biggest-auto-recall-hits-tesla-xiaomi-leapmotor-others/"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "היצרן הזהיר מפני בעיה אפשרית בוו הגרירה במספר מוגבל של רכבים — לא להרכיב מנשא אופניים על הוו עד להודעה. לברר מול היבואן אם הרכב נבדק",
+            "source": {
+              "title": "Elektromobilni.pl — Xpeng warns G6 and G9 owners: no bike racks on tow hitch (2026)",
+              "url": "https://elektromobilni.pl/xpeng-ostrzega-wlascicieli-g6-i-g9-hak-nie-dla-bagaznikow-rowerowych/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי RWD Long Range (סוללה 87.5 קוט\"ש)",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 18.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — XPENG G6 RWD Long Range (MY24): EVDB real-range consumption 182 Wh/km (estimate)",
+              "url": "https://ev-database.org/car/2182/XPENG-G6-RWD-Long-Range"
+            }
+          }
+        ]
+      }
+    },
+    "g9": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "manufacturer",
+            "he": "היצרן הזהיר מפני בעיה אפשרית בוו הגרירה במספר מוגבל של רכבים — לא להרכיב מנשא אופניים על הוו עד להודעה. לברר מול היבואן אם הרכב נבדק",
+            "source": {
+              "title": "Elektromobilni.pl — Xpeng warns G6 and G9 owners: no bike racks on tow hitch (2026)",
+              "url": "https://elektromobilni.pl/xpeng-ostrzega-wlascicieli-g6-i-g9-hak-nie-dla-bagaznikow-rowerowych/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי AWD Performance (סוללה 92 קוט\"ש)",
+            "pt": "ev",
+            "hp": 575,
+            "cons": 19.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — XPENG G9 AWD Performance (MY25): EVDB real-range consumption 194 Wh/km",
+              "url": "https://ev-database.org/car/3279/XPENG-G9-AWD-Performance"
+            }
+          }
+        ]
+      }
+    },
+    "x9": {
+      "H93": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ידיות הפתיחה המכניות לחירום בדלתות קשות לאיתור — הותקנו מדבקות סימון. לוודא שהמדבקות קיימות ולהכיר את מיקום הידיות",
+            "scope": "ריקול בסין 2026",
+            "source": {
+              "title": "CnEVPost — China's biggest auto recall (door emergency releases), incl. Xpeng X9",
+              "url": "https://cnevpost.com/2026/08/21/china-biggest-auto-recall-hits-tesla-xiaomi-leapmotor-others/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי FWD Long Range (סוללה 106 קוט\"ש)",
+            "pt": "ev",
+            "hp": 320,
+            "cons": 19.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — XPENG X9 FWD Long Range (MY26): EVDB real-range consumption 193 Wh/km (estimate)",
+              "url": "https://ev-database.org/car/3612/XPENG-X9-FWD-Long-Range"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "updated": "2026-10-31"
+}

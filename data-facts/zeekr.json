@@ -1,0 +1,21 @@
+{
+  "make": "zeekr",
+  "models": {
+    "x": {
+      "BX1E": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ידיות הפתיחה המכניות לחירום בדלתות קשות לאיתור לאחר תאונה. לוודא שבוצע התיקון ולהכיר את מיקום הידיות",
+            "scope": "ריקול בסין 2026 (007 ו-X)",
+            "source": {
+              "title": "CnEVPost — China's biggest auto recall (door emergency releases), incl. Zeekr 007 and X",
+              "url": "https://cnevpost.com/2026/08/21/china-biggest-auto-recall-hits-tesla-xiaomi-leapmotor-others/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "updated": "2026-10-31"
+}

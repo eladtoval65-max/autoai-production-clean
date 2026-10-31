@@ -262,7 +262,20 @@
             "title": "cartube — ג'יפ גרנד צ'ירוקי החדש 2023 בישראל: מחיר 399,900 שקל (נובמבר 2022)",
             "url": "https://www.cartube.co.il/חדשות-רכב/ג-יפ-גרנד-צ-ירוקי-החדש-2023-בישראל-מחיר-399900-שקל"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "2.0 טורבו פלאג-אין (4xe)",
+            "pt": "phev",
+            "hp": 381,
+            "cons": 11.1,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Jeep Grand Cherokee V 2.0 4xe 381 KM: 6 owner reports, listed average 9.5 L/100km; 11.1 excluding one 2.0 L/100km outlier report",
+              "url": "https://www.autocentrum.pl/spalanie/jeep/grand-cherokee/v/silnik-hybrydowy-2.0-4xe-plug-in-381km-od-2023/"
+            }
+          }
+        ]
       }
     },
     "avenger": {

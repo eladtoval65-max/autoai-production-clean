@@ -427,6 +427,32 @@
           }
         }
       }
+    },
+    "s5": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 64 קוט\"ש",
+            "pt": "ev",
+            "cons": 17.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — MG MGS5 EV 64 kWh: 170 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 49 קוט\"ש",
+            "pt": "ev",
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — MG MGS5 EV 49 kWh: 171 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ]
+      }
     }
   }
 }

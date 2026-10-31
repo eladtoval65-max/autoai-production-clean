@@ -906,6 +906,175 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/אודי-e-tron-בישראל-מחיר-392500-שקל"
           }
         }
+      },
+      "GE (Q8 e-tron)": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מומנט הידוק מופרז עלול לשבור את חיבור צינור הבלמים — דליפת נוזל וכשל במעגל בלימה. לבדוק שבוצעה קריאת השירות (47DE)",
+            "scope": "יוצרו 2023–2024 (KBA 13973R)",
+            "source": {
+              "title": "car-recalls.eu — Audi Q8 e-tron brake circuit failure, KBA 13973R",
+              "url": "https://car-recalls.eu/it/audi-q8-e-tron-brake-circuit-fail-kba/"
+            }
+          }
+        ]
+      }
+    },
+    "a8": {
+      "D4": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בגרסאות 4.0 TFSI: חוט התיל באטם מיכל הרדיאטור עלול להתעוות ולגעת ברכיבים חמים — סכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "A8/S8 4.0 TFSI, 2010–2018",
+            "source": {
+              "title": "car-recalls.eu — Audi A8/S8 D4 4.0 TFSI fire risk (week 39/20)",
+              "url": "https://car-recalls.eu/audi-a8-fire-risk-39-20/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בדיזל 3.0/4.2 TDI יורו 6: תוכנת בקרת פליטות שהוגדרה כלא מורשית — לוודא שבוצע עדכון התוכנה (קוד 23X6)",
+            "scope": "3.0 / 4.2 TDI יורו 6, 2009–2018",
+            "source": {
+              "title": "car-recalls.eu — Audi A8 (2009–2018) emission software, RAPEX A12/01220/21",
+              "url": "https://car-recalls.eu/recall/audi-a8-2009-emission-software/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "ברכבים ותיקים עם קילומטראז' גבוה: תקלות חשמל במערכת הניווט, המיזוג ובהתנעה, וחריקות/זמזומים מחיפויי פנים. לבדוק את כל המערכות בנסיעת מבחן",
+            "scope": "בעיקר שנים מוקדמות",
+            "source": {
+              "title": "What Car? — Used Audi A8 2010–2017 reliability",
+              "url": "https://whatcar.com/audi/a8/saloon/used-review/n919/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 V6 טורבו (TFSI בנזין / TDI דיזל)",
+            "pt": "petrol",
+            "hp": 290,
+            "cons": 8.9,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2014 Audi A8 quattro, all engines (mostly 3.0 TDI and 3.0 TFSI): 26.3 mpg US average, 11 vehicles, 756 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/audi/a8_quattro/2014"
+            }
+          }
+        ]
+      }
+    },
+    "q8": {
+      "4M": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "רכיב מתלה עלול להיות חלש ולהישבר — הצמיג נלחץ לבית הגלגל. לבדוק לפי VIN שבוצעה קריאת השירות (קוד 40O4)",
+            "scope": "יוצרו 11–12/2018",
+            "source": {
+              "title": "car-recalls.eu — Audi Q8 (2018) suspension, RAPEX A12/0618/19",
+              "url": "https://car-recalls.eu/recall/audi-q8-2018/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "צינור שמן בתיבה האוטומטית עם פגם ייצור — דליפת שמן לכביש. לבדוק שבוצעה קריאת השירות (קוד 38C7) ושאין כתמי שמן מתחת לרכב",
+            "scope": "יוצרו 09–12/2019",
+            "source": {
+              "title": "car-recalls.eu — Audi Q8 (2019) gearbox oil line, RAPEX A12/00997/20",
+              "url": "https://car-recalls.eu/recall/audi-q8-2019/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בורג חיבור ציר ההגה לתיבת ההגה עלול להשתחרר — כשל בהגה. לבדוק שבוצעה קריאת השירות (קוד 36A1)",
+            "scope": "יוצרו 01/2015–02/2019 (מפעל סלובקיה)",
+            "source": {
+              "title": "car-recalls.eu — Steering failure risk Audi Q7/Q8, VW Touareg (Audi code 36A1)",
+              "url": "https://car-recalls.eu/steering-failure-audi-q7-q8-vw-touareg/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 TFSI טורבו מיילד-היברידי (55)",
+            "pt": "mhev",
+            "hp": 340,
+            "cons": 11.2,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi Q8 55 TFSI 340 KM: 11.2 L/100km, 12 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/q8/suv/silnik-benzynowy-3.0-55-tfsi-340km-od-2019/"
+            }
+          },
+          {
+            "name": "3.0 TDI טורבו דיזל (50)",
+            "pt": "diesel",
+            "hp": 286,
+            "cons": 9.0,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi Q8 50 TDI 286 KM: 9.0 L/100km, 13 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/q8/suv/silnik-diesla-3.0-50-tdi-286km-od-2018/"
+            }
+          }
+        ]
+      }
+    },
+    "e-tron-gt": {
+      "J1": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "פגמי תאים בסוללת המתח הגבוה עלולים לגרום לקצר ולשריפה — התיקון: החלפת מודולי סוללה. לבדוק לפי VIN שבוצעה קריאת השירות (931A)",
+            "scope": "יוצרו 2020–2024 (KBA 14366R)",
+            "source": {
+              "title": "car-recalls.eu — Audi e-tron GT HV battery defects / fire, KBA 14366R",
+              "url": "https://car-recalls.eu/audi-e-tron-gt-defects-hv-battery-fire-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "חריגות בפרמטרים של מודולי סוללה — סיכון מוגבר לשריפה. לבדוק שבוצעו קריאות השירות (93VN/931A/931B)",
+            "scope": "יוצרו 01/2020–02/2024",
+            "source": {
+              "title": "car-recalls.eu — Audi e-tron GT (2020–2024) battery modules fire, RAPEX A12/01575/24",
+              "url": "https://car-recalls.eu/recall/audi-e-tron-gt-2020-2024-battery-modules-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי quattro (סוללה 93 קוט\"ש)",
+            "pt": "ev",
+            "hp": 530,
+            "cons": 20.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi e-tron GT quattro (2021–2024): vehicle consumption 202 Wh/km (estimate)",
+              "url": "https://ev-database.org/car/1420/Audi-e-tron-GT-quattro"
+            }
+          }
+        ]
+      }
+    },
+    "a6-e-tron": {
+      "PPE": {
+        "engines": [
+          {
+            "name": "חשמלי Sportback (הנעה אחורית)",
+            "pt": "ev",
+            "cons": 15.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — Audi A6 Sportback e-tron: 156 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ]
       }
     }
   }

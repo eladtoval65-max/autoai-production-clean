@@ -493,7 +493,20 @@
             "title": "Carzone — מרצדס E-Class החדשה 2024: מחיר החל מ-539,000 ש״ח",
             "url": "https://www.carzone.co.il/news/2024-מרצדס-E-Class-החדשה-מחיר-החל-מ-539000-שח/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "2.0 טורבו מיילד-היברידי (E200)",
+            "pt": "petrol",
+            "hp": 204,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes E-Class W214 sedan fuel reports: E 200 2.0 204 KM, 8.3 L/100km (only 1 owner report — indicative)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-e/w214/sedan/"
+            }
+          }
+        ]
       }
     },
     "gla": {
@@ -1169,6 +1182,190 @@
             "url": "https://www.icar.co.il/חדשות_רכב/מרצדס_S_קלאס_החדשה_בישראל:_החל_מ-870,000_שקל/"
           }
         }
+      },
+      "W221": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "מתלי אוויר (AIRMATIC): משאבה שעובדת ארוכות ורועשת או הודעות אזהרה — לבדוק שהרכב שומר גובה אחרי לילה בחניה ושאין הודעות בלוח",
+            "source": {
+              "title": "AutoTrader.ca — Used Vehicle Review: Mercedes-Benz S-Class 2007–2013 (W221)",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/mercedes-benz/s-class/used-vehicle-review-mercedes-benz-s-class-2007-2013-w221/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "גוף השסתומים בתיבה האוטומטית (בעיקר ברכבים מוקדמים): העברות קשות או אי-העלאת הילוך — תיקון יקר. גם תושבות מנוע שחוקות (רעידות בסל\"ד נמוך) ומחשבי דלת שכושלים",
+            "scope": "בעיקר 2007–2009",
+            "source": {
+              "title": "AutoTrader.ca — Used Vehicle Review: Mercedes-Benz S-Class 2007–2013 (W221)",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/mercedes-benz/s-class/used-vehicle-review-mercedes-benz-s-class-2007-2013-w221/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בדיזל: נקישה בסרק עלולה להעיד על שרשרת תזמון מתוחה — אם מוזנחת, נזק קטסטרופלי למנוע. גם אטם ניקוז בתיבת האוויר שנסתם ומציף את רצפת הנוסע — לבדוק רטיבות בשטיחים",
+            "source": {
+              "title": "What Car? — Used Mercedes S-Class 2006–2013 reliability",
+              "url": "https://www.whatcar.com/mercedes-benz/s-class/saloon/used-review/n837/advice"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בדיזל: מסנן דלק פגום עלול לגרום לדליפת דלק. לבדוק שבוצעה קריאת השירות",
+            "scope": "דיזל, יוצרו 01/2009–12/2011",
+            "source": {
+              "title": "What Car? — Used Mercedes S-Class 2006–2013 reliability (recalls section)",
+              "url": "https://www.whatcar.com/mercedes-benz/s-class/saloon/used-review/n837/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "5.5 V8 בנזין (S500)",
+            "pt": "petrol",
+            "hp": 388,
+            "cons": 11.7,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2011 Mercedes-Benz S550 (US name for S500, 5.5 V8, 4Matic): 20.1 mpg US average, 3 vehicles, 225 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/mercedes-benz/s550/2011"
+            }
+          }
+        ]
+      }
+    },
+    "gls": {
+      "X166": {
+        "engines": [
+          {
+            "name": "3.0 טורבו דיזל (350d)",
+            "pt": "diesel",
+            "hp": 258,
+            "cons": 12.6,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes GLS X166 fuel reports: 350 d 258 KM, 12.6 L/100km, 5 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/gls/x166/"
+            }
+          },
+          {
+            "name": "4.7 V8 טורבו בנזין (GL 500)",
+            "pt": "petrol",
+            "hp": 435,
+            "cons": 16.3,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes GL-Class X166 fuel reports: GL 500 435 KM, 16.3 L/100km, 3 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-gl/x166/"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "ברגי האלומיניום של תיבת ההגה עלולים להישבר ותיבת ההגה להתנתק — סכנת תאונה. לבדוק לפי VIN שבוצעה קריאת השירות (קוד 4694204)",
+            "scope": "יוצרו 04/2010–04/2017 (סוג 166)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLS/GL (2010–2017) steering box bolts, RAPEX A12/00185/23",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-gls-gl-2010-2017-steering/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מכסה מיכל השמן של מערכת Active Curve (מייצבים אקטיביים) עלול לדלוף — שמן על רכיבים חמים וסכנת שריפה. לבדוק שבוצעה קריאת השירות ושאין סימני שמן בתא המנוע",
+            "scope": "יוצרו 11/2010–06/2016, עם Active Curve",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GL (2010–2016) engine fire, RAPEX A12/1385/18",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-gl-2010-2016/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "חיבורי ברגים מאוכלים בהגה הכוח עלולים לגרום לכשל בסיוע ההגה. לבדוק שבוצעה קריאת השירות (החלפת ברגים, קוד 4694207)",
+            "scope": "2010–2016 (KBA 14536R)",
+            "source": {
+              "title": "car-recalls.eu — Power steering failure on older Mercedes-Benz models (GL/GLS incl.), KBA 14536R",
+              "url": "https://car-recalls.eu/power-steering-failure-several-mercedes-benz-models-kba/"
+            }
+          }
+        ]
+      }
+    },
+    "eqe": {
+      "V295": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "תוכנת ההנעה החשמלית לא לפי המפרט — עלולה לכבות ולגרום לאובדן הנעה בנסיעה. לבדוק שבוצע עדכון התוכנה (5496213)",
+            "scope": "2020–2023 (KBA 012871)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz EQE and EQS drive loss due to software, KBA 012871",
+              "url": "https://car-recalls.eu/mercedes-benz-eqe-eqs-drive-loss-faulty-software-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "התבריג של וו הגרירה בפגושים לא לפי המפרט — הבורג עלול להשתחרר בזמן גרירה. לבדוק שבוצעה קריאת השירות (3190301)",
+            "scope": "יוצרו 02/2021–03/2022",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz EQE/EQS (2021–2022) tow eye, RAPEX A12/01146/22",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-eqe-2022-tow-eye/"
+            }
+          }
+        ]
+      }
+    },
+    "eqe-suv": {
+      "X294": {
+        "engines": [
+          {
+            "name": "חשמלי 350+ (סוללה 96 קוט\"ש נטו)",
+            "pt": "ev",
+            "hp": 292,
+            "cons": 20.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mercedes-Benz EQE SUV 350+ (MY23–24): vehicle consumption 202 Wh/km (estimate)",
+              "url": "https://ev-database.org/car/2046/Mercedes-Benz-EQE-SUV-350plus"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "באג בתוכנה עלול לנתק את הסוללה ולגרום לאובדן הנעה פתאומי ללא אזהרה. לבדוק שבוצע עדכון התוכנה במוסך (לא מתבצע באוויר)",
+            "scope": "שנת דגם 2024, ריקול בארה״ב",
+            "source": {
+              "title": "KBB — Recall alert: Mercedes-Benz EQE, EQS sedans and SUVs (2024, 14,912 EVs)",
+              "url": "https://www.kbb.com/car-news/recall-alert-mercedes-benz-eqe-eqs-sedans-and-suvs"
+            }
+          }
+        ]
+      }
+    },
+    "eqs-suv": {
+      "X296": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "באג בתוכנה עלול לנתק את הסוללה ולגרום לאובדן הנעה פתאומי ללא אזהרה. לבדוק שבוצע עדכון התוכנה במוסך",
+            "scope": "שנת דגם 2024, ריקול בארה״ב",
+            "source": {
+              "title": "KBB — Recall alert: Mercedes-Benz EQE, EQS sedans and SUVs (2024, 14,912 EVs)",
+              "url": "https://www.kbb.com/car-news/recall-alert-mercedes-benz-eqe-eqs-sedans-and-suvs"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "לוגיקת ניהול התקלות עלולה לנטרל את ההנעה החשמלית — אובדן הנעה. לבדוק שבוצע עדכון התוכנה",
+            "scope": "2023 (NHTSA 23V405)",
+            "source": {
+              "title": "InsideEVs — Mercedes recalls EQE, EQS, EQS SUV for faulty software (NHTSA 23V405)",
+              "url": "https://insideevs.com/news/673076/mercedes-eqs-eqe-recall-software/"
+            }
+          }
+        ]
       }
     }
   }

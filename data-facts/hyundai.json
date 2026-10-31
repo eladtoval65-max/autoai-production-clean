@@ -1744,6 +1744,30 @@
               "url": "https://car-recalls.eu/recall/hyundai-accent-2009-2014-abs-fire/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 97,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Hyundai Accent III (MC) fuel reports: 1.4 97 KM, 6.9 L/100km, 13 owner reports (sedan + hatch)",
+              "url": "https://www.autocentrum.pl/spalanie/hyundai/accent/iii/"
+            }
+          },
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 112,
+            "cons": 8.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Hyundai Accent III (MC) fuel reports: 1.6 112 KM, 8.4 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/hyundai/accent/iii/"
+            }
+          }
         ]
       },
       "RB": {

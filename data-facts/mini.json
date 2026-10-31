@@ -376,6 +376,52 @@
           }
         }
       }
+    },
+    "aceman": {
+      "J05": {
+        "engines": [
+          {
+            "name": "חשמלי SE (סוללה 54.2 קוט\"ש)",
+            "pt": "ev",
+            "cons": 17.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — Mini Aceman SE: 170 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי E (סוללה 42.5 קוט\"ש)",
+            "pt": "ev",
+            "cons": 16.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — Mini Aceman E: 167 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מודולי תאים בסוללת המתח הגבוה לא לפי המפרט — קצר ובמקרים נדירים שריפה גם בחניה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "Cooper/Aceman חשמליים, יוצרו 04/2023–11/2024",
+            "source": {
+              "title": "car-recalls.eu — Mini Aceman (2023–2024) HV battery fire, RAPEX A12/03519/24",
+              "url": "https://car-recalls.eu/recall/mini-aceman-2024-ev-hybrid-fire/amp/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "הציר החלול של מנוע הסרוו בבלמים רותך לא נכון — בלחץ בלימה גבוה עלול להישבר; מרחק בלימה ארוך יותר ללא ABS/DSC. לבדוק שבוצעה קריאת השירות",
+            "scope": "יוצרו 12/2023–08/2024",
+            "source": {
+              "title": "car-recalls.eu — Mini Aceman/Cooper/Countryman (2023–2024) brakes, Safety Gate SR/00051/25",
+              "url": "https://car-recalls.eu/recall/mini-aceman-2023-2024-brakes-accident/"
+            }
+          }
+        ]
+      }
     }
   }
 }

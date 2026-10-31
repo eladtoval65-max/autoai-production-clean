@@ -306,6 +306,58 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/ריינג-רובר-ספורט-החדש-בישראל-–-מחיר-החל-מ-705,000-שקל"
           }
         }
+      },
+      "L320": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "בדיזל V6 2.7/3.0: כשל מסבים תחתונים — נקישה שמתגברת בעומס ונורית לחץ שמן; תוקן רק ב-2012. ב-2.7 גם בלאי טורבו (עשן לבן) ותקלות EGR. לבקש היסטוריית טיפולים ולהקשיב למנוע",
+            "scope": "2.7 / 3.0 TDV6",
+            "source": {
+              "title": "CarsGuide — Used car review: Land Rover Range Rover Sport 2005–2013",
+              "url": "https://www.carsguide.com.au/car-reviews/used-car-review-land-rover-range-rover-sport-2005-2013-101689"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "ב-5.0 V8 סופרצ'רג'ר: רעש תקתוק/שקשוק בהתנעה — בדרך כלל מותח שרשרת התזמון (שופר בדגם 2012). לבדוק התנעה קרה",
+            "scope": "5.0 V8 סופרצ'רג'ר, עד 2011",
+            "source": {
+              "title": "CarsGuide — Used car review: Land Rover Range Rover Sport 2005–2013",
+              "url": "https://www.carsguide.com.au/car-reviews/used-car-review-land-rover-range-rover-sport-2005-2013-101689"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "מתלי אוויר: כשל מדחס (הרכב שוקע או דולף אוויר) ויחידות מתלה שכושלות. לבדוק שהרכב שומר גובה אחרי חניה",
+            "source": {
+              "title": "CarsGuide — Used car review: Land Rover Range Rover Sport 2005–2013",
+              "url": "https://www.carsguide.com.au/car-reviews/used-car-review-land-rover-range-rover-sport-2005-2013-101689"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "המנוע עלול לכבות בנסיעה ללא סימני אזהרה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "שנות דגם 2012–2013, יוצרו 04/2012–05/2013",
+            "source": {
+              "title": "car-recalls.eu — Land Rover Discovery 4 / Range Rover Sport engine cut-out, RAPEX A12/0665/16",
+              "url": "https://car-recalls.eu/recall/land-rover-range-rover-sport-2012/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "5.0 V8 בנזין / סופרצ'רג'ר",
+            "pt": "petrol",
+            "hp": 375,
+            "cons": 15.1,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Range Rover Sport, model year 2012 row (US spec, 5.0 V8 / supercharged): 15.6 mpg US average, 30 vehicles, 922 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/land_rover/range_rover_sport/all"
+            }
+          }
+        ]
       }
     },
     "discovery": {
@@ -379,6 +431,57 @@
             "url": "https://cars.walla.co.il/item/3032976"
           }
         }
+      },
+      "L319": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "מתלי אוויר (מדחס, בולמי אוויר, חיישני גובה) — נקודת תורפה ידועה: גובה לא אחיד או שקיעה בלילה. לבדוק את כל מצבי הגובה ושהרכב לא שוקע בחניה",
+            "source": {
+              "title": "What Car? — Used Land Rover Discovery 2004–2016 reliability",
+              "url": "https://www.whatcar.com/land-rover/discovery/4x4/used-review/n745/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בדיזל V6 2.7/3.0: כשל עייפות בגל הארכובה (נדיר אך הרסני), EGR ופילטר חלקיקים שנסתמים בנסיעות קצרות, ורצועת תזמון כל 7 שנים — לבקש תיעוד החלפה ולהקשיב לנקישות מהמנוע",
+            "scope": "2.7 TDV6 / 3.0 TDV6 / SDV6",
+            "source": {
+              "title": "What Car? — Used Land Rover Discovery 2004–2016 reliability",
+              "url": "https://www.whatcar.com/land-rover/discovery/4x4/used-review/n745/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "דליפות שמן מהמנוע, התיבה ותיבת ההעברה; לכלוך במערכת הבלמים שגורם לכשל בבלם החניה החשמלי; תקלות חשמל (חלונות, נעילה, מגב אחורי). לבדוק מתחת לרכב ואת בלם החניה",
+            "source": {
+              "title": "Carbuyer — Used Land Rover Discovery buying guide 2009–2016 (Mk4)",
+              "url": "https://carbuyer.co.uk/tips-and-advice/162061/used-land-rover-discovery-buying-guide-2009-2016-mk4"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "המנוע עלול לכבות בנסיעה ללא סימני אזהרה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "שנות דגם 2012–2013, יוצרו 04/2012–05/2013",
+            "source": {
+              "title": "car-recalls.eu — Land Rover Discovery 4 / Range Rover Sport engine cut-out, RAPEX A12/0665/16",
+              "url": "https://car-recalls.eu/recall/land-rover-range-rover-sport-2012/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "5.0 V8 בנזין",
+            "pt": "petrol",
+            "hp": 375,
+            "cons": 16.6,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2013 Land Rover LR4 (US name for Discovery 4, 5.0 V8): 14.1 mpg US average, 29 vehicles, 3,250 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/land_rover/lr4/2013"
+            }
+          }
+        ]
       }
     },
     "defender": {
@@ -457,6 +560,154 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/לנד-רובר-דיפנדר-2020-החדש-בישראל-מחיר-425000-שקל"
           }
         }
+      }
+    },
+    "range-rover": {
+      "L322": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "כשל דיפרנציאל קדמי — צימוד גל ההינע נשחק ואין הנעה לגלגלים הקדמיים (לעיתים כבר אחרי 65 אלף ק\"מ). לבדוק רעשים וחסימות בפניות",
+            "source": {
+              "title": "What Car? — Used Land Rover Range Rover 2002–2013 reliability",
+              "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n752/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "מתלי אוויר — המדחס הוא האשם הנפוץ. לבדוק את שלושת מצבי הגובה ושהרכב שומר גובה בחניה; גם תותבי רכזת אחורית שנשחקים (נקישות בבורות)",
+            "source": {
+              "title": "What Car? — Used Land Rover Range Rover 2002–2013 reliability",
+              "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n752/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "תיבה אוטומטית עלולה לכשול סביב 160 אלף ק\"מ, ותקלות חשמל (חלונות, מושבים, מראות, לוח פיוזים, לוח מחוונים). לבדוק העברות חלקות וכל מערכת חשמלית",
+            "source": {
+              "title": "Carbuyer — Used Range Rover buying guide 2002–2013 (Mk3)",
+              "url": "https://carbuyer.co.uk/tips-and-advice/153127/used-range-rover-buying-guide-2002-2013-mk3"
+            }
+          }
+        ]
+      },
+      "L405": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "בעלים מדווחים על תקלות במתלי האוויר, בחשמל המנוע ובחשמל הפנים, במיזוג ובמולטימדיה, ועל דליפות מהמנוע, מהגג הנפתח ומהדלת האחורית. לבדוק שהרכב שומר גובה, רטיבות בתא המטען ותקינות כל המערכות",
+            "source": {
+              "title": "What Car? — Used Land Rover Range Rover 2013–2022 reliability",
+              "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n872/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מודול בקרת המאוורר עלול להתקצר ולגרום לשריפה בתא המנוע גם כשהמנוע כבוי; וחיבור מסילת המזרקים לצינור החזרת הדלק עלול לדלוף — סכנת שריפה. לבדוק לפי VIN שבוצעו הקריאות",
+            "source": {
+              "title": "What Car? — Used Land Rover Range Rover 2013–2022 reliability (recalls)",
+              "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n872/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ברגי זרוע המתלה האחורית הימנית עלולים להישבר, ואומי גלגל עלולים להיסדק ולהשתחרר. לבדוק לפי VIN שבוצעו הקריאות",
+            "source": {
+              "title": "What Car? — Used Land Rover Range Rover 2013–2022 reliability (recalls)",
+              "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n872/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בפלאג-אין (P400e) שנות דגם 2018–2019: מד הדלק מראה כ-30% כשהמיכל ריק, והמנוע נכבה. לבדוק שבוצע עדכון",
+            "scope": "P400e, שנות דגם 2018–2019",
+            "source": {
+              "title": "What Car? — Used Land Rover Range Rover 2013–2022 reliability (recalls)",
+              "url": "https://www.whatcar.com/land-rover/range-rover/4x4/used-review/n872/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "4.4 SDV8 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 339,
+            "cons": 11.7,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Range Rover IV fuel reports: 4.4 SDV8 339 KM, 11.7 L/100km, 7 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/land-rover/range-rover/iv/"
+            }
+          },
+          {
+            "name": "3.0 TDV6 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 258,
+            "cons": 9.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Range Rover IV fuel reports: 3.0 TDV6 258 KM, 9.5 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/land-rover/range-rover/iv/"
+            }
+          },
+          {
+            "name": "5.0 V8 סופרצ'רג'ר בנזין",
+            "pt": "petrol",
+            "hp": 510,
+            "cons": 10.9,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Range Rover IV fuel reports: 5.0 V8 S/C 510 KM, 10.9 L/100km, 3 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/land-rover/range-rover/iv/"
+            }
+          }
+        ]
+      }
+    },
+    "velar": {
+      "L560": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "תקלות חשמל כמו מסכי מולטימדיה שמחשיכים ומצלמות רוורס שלא עובדות, רעשים מחלקי המתלה ותקלות חיישני מנוע קלות. לבדוק את שני המסכים, המצלמה ורעשים בכביש משובש",
+            "source": {
+              "title": "What Car? — Used Range Rover Velar 2017–present review",
+              "url": "https://whatcar.com/land-rover/range-rover-velar/estate/used-review/n17576/advice"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "מנועי הדיזל 4 צילינדרים (D180/D240) רועשים בהתנעה קרה; זמינות חלפים איטית ותיקונים יקרים מחוץ לאחריות. להתניע קר ולבדוק אחריות/היסטוריה",
+            "source": {
+              "title": "What Car? — Used Range Rover Velar 2017–present review",
+              "url": "https://whatcar.com/land-rover/range-rover-velar/estate/used-review/n17576/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (P250)",
+            "pt": "petrol",
+            "hp": 250,
+            "cons": 10.0,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Range Rover Velar 2.0 Si4 250 KM (2017–2020): 10.0 L/100km, 7 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/land-rover/range-rover-velar/suv/silnik-benzynowy-2.0-si4-250km-2017-2020/"
+            }
+          },
+          {
+            "name": "2.0 טורבו דיזל (D240)",
+            "pt": "diesel",
+            "hp": 240,
+            "cons": 9.3,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Range Rover Velar 2.0 SD4 240 KM (2017–2020): 9.3 L/100km, 4 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/land-rover/range-rover-velar/suv/silnik-diesla-2.0-sd4-240km-2017-2020/"
+            }
+          }
+        ]
       }
     }
   }

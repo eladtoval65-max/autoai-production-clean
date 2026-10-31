@@ -84,6 +84,60 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/פורשה-911-החדשה-בישראל-–-החל-מ-879,000-שקל"
           }
         }
+      },
+      "997": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "במנועי 997.1 (עד 2008): שריטות צילינדר (Bore scoring) וכשל מסב גל ביניים (IMS) — סימנים: פיח בצינור פליטה שמאלי בלבד ותקתוק בסרק. לבקש בדיקת בורוסקופ לפני קנייה",
+            "scope": "997.1 Carrera, בעיקר לפני 2006",
+            "source": {
+              "title": "PistonHeads — Porsche 911 (997) buying guide",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/porsche-911-997--ph-buying-guide/32793"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "גם מנועי 9A1 של 997.2 עלולים לסבול משריטות צילינדר — צריכת שמן, רעש מנוע, מיספיירים וצינור פליטה אחד מפויח יותר. לבדוק צריכת שמן ולבקש בורוסקופ",
+            "scope": "997.2 (מ-2008, מנוע 9A1)",
+            "source": {
+              "title": "LN Engineering — Are 997.2 / 991.1 9A1 engines susceptible to bore scoring? (specialist rebuilder)",
+              "url": "https://docs.lnengineering.com/article/130-are-porsche-997-2-and-991-1-9a1-ma1-engines-susceptible-to-bore-scoring"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "סלילי הצתה (כל ~80 אלף ק\"מ), חריקות מתלה קדמי מתותבים שחוקים, קורוזיה בצד הפנימי של הדיסקים הקדמיים ומעבי מזגן שמתכרסמים. לבדוק מזגן וחריקות",
+            "source": {
+              "title": "PistonHeads — Porsche 911 (997) buying guide",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/porsche-911-997--ph-buying-guide/32793"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.6 בנזין (Carrera)",
+            "pt": "petrol",
+            "hp": 325,
+            "cons": 13.2,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Porsche 911 997 Carrera 3.6 325 KM: 13.2 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/porsche/911/997/coupe/silnik-benzynowy-3.6-325km-2005-2010/"
+            }
+          },
+          {
+            "name": "3.8 בנזין (Carrera S)",
+            "pt": "petrol",
+            "hp": 355,
+            "cons": 14.8,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Porsche 911 997 Carrera S 3.8 355 KM: 14.8 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/porsche/911/997/coupe/silnik-benzynowy-3.8-355km-2005-2010/"
+            }
+          }
+        ]
       }
     },
     "macan": {
@@ -305,6 +359,120 @@
             "url": "https://www.ynet.co.il/articles/mobile/0,7340,L-5009821,00.html"
           }
         }
+      }
+    },
+    "panamera": {
+      "970": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "דליפת נוזל קירור מבית טרמוסטט סדוק או ממשאבת מים; חלק מהבעלים דיווחו על צריכת שמן; תקלות חשמל כשהמצבר לא טעון; דיסקים קרמיים עלולים להיסדק. לבדוק סימני נוזל קירור ומפלס שמן",
+            "source": {
+              "title": "Auto123 — Porsche Panamera used review (2013)",
+              "url": "https://www.auto123.com/en/news/amp/porsche-panamera-used/50687/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.6 V6 / 4.8 V8 בנזין",
+            "pt": "petrol",
+            "hp": 300,
+            "cons": 13.2,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2011 Porsche Panamera, all engines (3.6 V6, 4.8 V8, Turbo): 17.8 mpg US average, 8 vehicles, 409 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/porsche/panamera/2011"
+            }
+          }
+        ]
+      },
+      "971": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "חדירת לחות ליחידת הבקרה של המשאבה העזר של המיזוג — קצר וסכנת שריפה (גם אחרי חניה בשימוש בכפתור AUTO-REST). לבדוק לפי VIN שבוצעה הקריאה",
+            "source": {
+              "title": "What Car? — Used Porsche Panamera 2016–2023 reliability (recalls)",
+              "url": "https://whatcar.com/porsche/panamera/hatchback/used-review/n17973/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "צמת ההגה החשמלי עלולה להילכד ולהינזק — אובדן סיוע הגה; גם מוטות מייצב אחורי שמשמיעים רעש עם נורית אזהרה. לבדוק לפי VIN שבוצעו הקריאות",
+            "source": {
+              "title": "What Car? — Used Porsche Panamera 2016–2023 reliability (recalls)",
+              "url": "https://whatcar.com/porsche/panamera/hatchback/used-review/n17973/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "אמינות מעורבת: אלקטרוניקה מורכבת, מולטימדיה, חיישנים ונוריות אזהרה, ותקלות יקרות במערכת ההיברידית בגרסאות E-Hybrid. לבדוק נוריות והיסטוריית טיפולים במוסך מורשה",
+            "source": {
+              "title": "What Car? — Used Porsche Panamera 2016–2023 reliability",
+              "url": "https://whatcar.com/porsche/panamera/hatchback/used-review/n17973/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.9 V6 טורבו בנזין (4S)",
+            "pt": "petrol",
+            "hp": 440,
+            "cons": 13.7,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Porsche Panamera II fuel reports: 2.9 440 KM, 13.7 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/porsche/panamera/ii/"
+            }
+          }
+        ]
+      }
+    },
+    "taycan": {
+      "9J1": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "פגמי ייצור בתאי סוללת המתח הגבוה עלולים לגרום לקצר ולשריפה. לבדוק לפי VIN שבוצעה קריאת השירות (החלפת מודול סוללה)",
+            "scope": "יוצרו 07/2018–03/2024 (קודים ARA4/ARA5/ARB5/ARB6)",
+            "source": {
+              "title": "car-recalls.eu — Porsche Taycan (2018–2024) HV battery fire, RAPEX A12/00997/24",
+              "url": "https://car-recalls.eu/recall/porsche-taycan-2019-2023-hv-battery-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "פגמי תאים בסוללת המתח הגבוה — סכנת קצר ושריפה; התיקון: החלפת מודול הסוללה הפגוע. לבדוק שבוצעה קריאת השירות (APB5)",
+            "scope": "KBA 013423",
+            "source": {
+              "title": "car-recalls.eu — Porsche Taycan cell defects in HV battery, KBA 013423",
+              "url": "https://car-recalls.eu/porsche-taycan-cell-defects-high-voltage-battery-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "איטום לא מספק של סוללת המתח הגבוה — חדירת לחות וסכנת שריפה. בסדנה מבצעים בדיקת אטימות ומחליפים סוללה במידת הצורך. לבדוק שבוצעה הקריאה (APB2)",
+            "scope": "KBA 013145",
+            "source": {
+              "title": "car-recalls.eu — Porsche Taycan moisture penetration / fire risk, KBA 013145",
+              "url": "https://car-recalls.eu/porsche-taycan-moisture-penetration-risk-fire-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 4S (סוללה 79 קוט\"ש)",
+            "pt": "ev",
+            "hp": 530,
+            "cons": 18.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Porsche Taycan 4S (2020–2023): vehicle consumption 180 Wh/km (real-world estimate)",
+              "url": "https://ev-database.org/car/1237/Porsche-Taycan-4S"
+            }
+          }
+        ]
       }
     }
   }

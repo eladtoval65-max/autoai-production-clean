@@ -1,0 +1,22 @@
+{
+  "make": "leapmotor",
+  "models": {
+    "t03": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 37.3 קוט\"ש",
+            "pt": "ev",
+            "cons": 16.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — Leapmotor T03: 160 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "updated": "2026-10-31"
+}

@@ -1,0 +1,32 @@
+{
+  "make": "dongfeng",
+  "models": {
+    "box": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 42.3 קוט\"ש",
+            "pt": "ev",
+            "cons": 15.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — Dongfeng Box 42.3 kWh: 157 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 31.4 קוט\"ש",
+            "pt": "ev",
+            "cons": 15.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy-consumption cheatsheet — Dongfeng Box 31.4 kWh: 153 Wh/km",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "updated": "2026-10-31"
+}

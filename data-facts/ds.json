@@ -270,6 +270,72 @@
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F_DS4_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C_-_%D7%94%D7%97%D7%9C_%D7%9E-157,990_%D7%A9%D7%A7%D7%9C"
           }
         }
+      },
+      "Gen2": {
+        "engines": [
+          {
+            "name": "1.2 PureTech טורבו בנזין",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — DS 4 II fuel reports: 1.2 PureTech 130 KM, 6.4 L/100km, 4 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/ds/4/ii/"
+            }
+          },
+          {
+            "name": "1.6 PureTech טורבו בנזין",
+            "pt": "petrol",
+            "hp": 181,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — DS 4 II fuel reports: 1.6 PureTech 181 KM, 7.1 L/100km, 6 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/ds/4/ii/"
+            }
+          },
+          {
+            "name": "1.5 BlueHDi טורבו דיזל",
+            "pt": "diesel",
+            "hp": 130,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — DS 4 II 1.5 BlueHDi 130 KM: 5.7 L/100km, 6 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/ds/4/ii/hatchback/silnik-diesla-1.5-bluehdi-130km-od-2021/"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בדיזל 1.5 BlueHDi: פחמון שמן ולחץ מגע גבוה מחלישים את שרשרת גל הזיזים 7 מ\"מ — השרשרת עלולה להיקרע ולגרום לכשל מנוע. לבדוק לפי VIN שבוצעה קריאת השירות (NY5)",
+            "scope": "1.5 BlueHDi, יוצרו 07/2020–01/2023",
+            "source": {
+              "title": "car-recalls.eu — DS4 (2020–2023) 1.5 BlueHDi camshaft chain, Safety Gate SR/02583/25",
+              "url": "https://car-recalls.eu/recall/ds4-2020-2023-bluehdi-failure/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כיול שגוי של אבחון משאבת האוריאה (AdBlue) — הנהג לא מקבל אזהרה כשממיר ה-SCR מושבת. לבדוק שבוצע עדכון מחשב המנוע (JTC)",
+            "scope": "דיזל, שנות דגם 2019–2022 (KBA 012941)",
+            "source": {
+              "title": "car-recalls.eu — DS3/DS4/DS7 faulty urea pump diagnosis, KBA 012941",
+              "url": "https://car-recalls.eu/ds-recall-faulty-diagnosis-engine-control-unit-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כריות אוויר וילון הותקנו לא נכון (2022), ותבריג בית וו הגרירה במידות שגויות (2021). לבדוק לפי VIN שבוצעו הקריאות",
+            "scope": "2021–2022",
+            "source": {
+              "title": "car-recalls.eu — 2022 DS Automobiles recalls (DS4 head airbags, towing eye)",
+              "url": "https://car-recalls.eu/2022-ds-automobiles-recalls/"
+            }
+          }
+        ]
       }
     }
   }

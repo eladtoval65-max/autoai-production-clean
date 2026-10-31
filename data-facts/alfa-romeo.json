@@ -1,0 +1,114 @@
+{
+  "make": "alfa-romeo",
+  "models": {
+    "stelvio": {
+      "949": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בית מגבר הבלם (BSM) הורכב לא נכון — חיבור פגום בין דוושת הבלם למגבר, והרכב נעצר רק בבלימת חירום. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 2019–2020 (KBA 14789R)",
+            "source": {
+              "title": "car-recalls.eu — Giulia & Stelvio brake failure, KBA 14789R (2025)",
+              "url": "https://car-recalls.eu/brake-failure-two-alfa-romeo-models-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "פגם ייצור בחיישן לחץ/טמפרטורת הדלק — דליפת דלק בתא המנוע וסכנת שריפה. לבדוק שבוצעה קריאת השירות (קוד 6396)",
+            "scope": "יוצרו 11/2020–05/2021",
+            "source": {
+              "title": "car-recalls.eu — Alfa Romeo Giulia/Stelvio fuel pressure sensor, RAPEX A12/01833/21",
+              "url": "https://car-recalls.eu/recall/alfa_romeo-giulia-2020-fuel-pressure-temperature-sensor/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מודול הבלמים המשולב (IBS) עלול להיות פגום ולגרום לכשל ABS. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "2019–2021",
+            "source": {
+              "title": "car-recalls.eu — Alfa Romeo Stelvio common problems & recalls (RAPEX 2021)",
+              "url": "https://car-recalls.eu/common-problems/alfa-romeo/stelvio/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "התקלות הנפוצות לפי בעלים: מצבר 12V (16%), חשמל כללי ומערכת מולטימדיה/ניווט. לבדוק מצב מצבר, נוריות אזהרה ותקינות המסך",
+            "source": {
+              "title": "What Car? — Used Alfa Romeo Stelvio 2017–present reliability",
+              "url": "https://www.whatcar.com/alfa-romeo/stelvio/estate/used-review/n1004/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 280,
+            "cons": 10.0,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2018 Alfa Romeo Stelvio (mostly 2.0 turbo, US spec): 23.5 mpg US average, 31 vehicles, 2,411 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/alfa_romeo/stelvio/2018"
+            }
+          }
+        ]
+      }
+    },
+    "giulia": {
+      "952": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בית מגבר הבלם (BSM) הורכב לא נכון — חיבור פגום בין דוושת הבלם למגבר, והרכב נעצר רק בבלימת חירום. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 2019–2020 (KBA 14789R)",
+            "source": {
+              "title": "car-recalls.eu — Giulia & Stelvio brake failure, KBA 14789R (2025)",
+              "url": "https://car-recalls.eu/brake-failure-two-alfa-romeo-models-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "פגם ייצור בחיישן לחץ/טמפרטורת הדלק — דליפת דלק בתא המנוע וסכנת שריפה. לבדוק שבוצעה קריאת השירות (קוד 6396)",
+            "scope": "יוצרו 11/2020–05/2021",
+            "source": {
+              "title": "car-recalls.eu — Alfa Romeo Giulia (2020–2021) fuel pressure sensor, RAPEX A12/01833/21",
+              "url": "https://car-recalls.eu/recall/alfa_romeo-giulia-2020-fuel-pressure-temperature-sensor/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "האצה לא רצויה כשבקרת השיוט האדפטיבית פעילה — תוקן בעדכון תוכנת מודול הבלמים; וגם תצוגת דלק שמראה יותר דלק מהקיים. לוודא שבוצעו העדכונים",
+            "scope": "קריאות 2019",
+            "source": {
+              "title": "What Car? — Used Alfa Romeo Giulia 2016–present reliability (recalls)",
+              "url": "https://www.whatcar.com/alfa-romeo/giulia/saloon/used-review/n18031/reliability"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "בעלים מדווחים על תקלות חשמל, נוריות אזהרה וחיישנים, קפיאת מערכת המולטימדיה, רעשי מתלים ותקלות בלמים. לבדוק נוריות, מסך ורעשים בנסיעה",
+            "source": {
+              "title": "What Car? — Used Alfa Romeo Giulia 2016–present reliability",
+              "url": "https://www.whatcar.com/alfa-romeo/giulia/saloon/used-review/n18031/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 280,
+            "cons": 9.0,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Alfa Romeo Giulia, model year 2017 row (US, mostly 2.0 turbo): 26.0 mpg US average, 37 vehicles, 2,429 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/alfa_romeo/giulia"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "updated": "2026-10-31"
+}
