@@ -7,17 +7,20 @@
  * fewer cars and partial costs.
  */
 import { useMemo } from "react";
+import { useFacts } from "../../../data/useFacts";
 import type { Answers, Car } from "../types";
 import { staticCars } from "../model/catalog";
 import { newFromModels, usedFromGenerations } from "../model/expandedCatalog";
 
-const NEW_CARS: Car[] = [...staticCars, ...newFromModels(staticCars)];
 
 export function useCatalog(answers: Pick<Answers, "condition" | "budget">): Car[] {
   const { condition, budget } = answers;
+  // Sourced facts (launch prices, consumption, issues) load in the background; candidates are rebuilt when they arrive.
+  const { version } = useFacts();
+  const newCars = useMemo<Car[]>(() => [...staticCars, ...newFromModels(staticCars)], [version]); // eslint-disable-line react-hooks/exhaustive-deps
   return useMemo<Car[]>(() => {
-    if (condition === "new") return NEW_CARS;
+    if (condition === "new") return newCars;
     const used = usedFromGenerations(budget);
-    return condition === "used" ? used : [...NEW_CARS, ...used];
-  }, [condition, budget]);
+    return condition === "used" ? used : [...newCars, ...used];
+  }, [condition, budget, newCars]);
 }

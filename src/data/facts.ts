@@ -1,7 +1,7 @@
 /**
  * Sourced per-generation facts (data-facts/<make>.json): known issues, engines with real-world consumption,
  * Euro NCAP result, the Israeli launch price and costly maintenance items. Every item carries its source; see data-facts/README.md.
- * Loaded at build time (Vite glob), so pages stay static and fast.
+ * Bundled at build time (Vite glob), one chunk per make, loaded on demand.
  */
 export type Source = { title: string; url: string };
 export type IssueLevel = "recall" | "manufacturer" | "widely_reported";
@@ -20,10 +20,37 @@ export type MaintenanceItem = { he: string; kind: MaintenanceKind; intervalKm?: 
 export type GenFacts = { issues?: Issue[]; engines?: EngineFact[]; ncap?: NcapFact | null; launchPrice?: LaunchPrice | null; maintenance?: MaintenanceItem[] };
 type MakeFile = { make: string; updated?: string; models: Record<string, Record<string, GenFacts>> };
 
-const files = import.meta.glob<MakeFile>("../../data-facts/[a-z]*.json", { eager: true, import: "default" });
-const BY_MAKE: Record<string, MakeFile> = Object.fromEntries(Object.values(files).map((f) => [f.make, f]));
+/**
+ * Each make's file is its own small chunk, fetched on demand (a model page loads one make; the questionnaire and
+ * guides load all in the background), so the first page load stays light. factsFor() is synchronous and returns {}
+ * until the make is loaded — pages call useFacts() to load and re-render.
+ */
+const loaders = import.meta.glob<MakeFile>("../../data-facts/[a-z]*.json", { import: "default" });
+const BY_MAKE: Record<string, MakeFile> = {};
+const pending = new Map<string, Promise<void>>();
+const listeners = new Set<() => void>();
+const pathOf = (makeId: string) => `../../data-facts/${makeId}.json`;
 
-/** Facts for one generation, or an empty object when none were collected yet. */
+/** Loads one make's facts (no-op when already loaded or unknown). */
+export function loadMakeFacts(makeId: string): Promise<void> {
+  if (BY_MAKE[makeId]) return Promise.resolve();
+  const loader = loaders[pathOf(makeId)];
+  if (!loader) return Promise.resolve();
+  if (!pending.has(makeId)) {
+    pending.set(makeId, loader().then((f) => { BY_MAKE[f.make] = f; listeners.forEach((l) => l()); }).catch(() => { pending.delete(makeId); }));
+  }
+  return pending.get(makeId)!;
+}
+
+/** Loads every make (questionnaire, guides). */
+export const loadAllFacts = () => Promise.all(Object.keys(loaders).map((p) => loadMakeFacts(p.split("/").pop()!.replace(".json", "")))).then(() => undefined);
+
+export const factsLoaded = (makeId?: string) => (makeId ? Boolean(BY_MAKE[makeId]) || !loaders[pathOf(makeId)] : Object.keys(BY_MAKE).length >= Object.keys(loaders).length);
+
+/** Subscribe to "more facts arrived" (used by the useFacts hook). */
+export function onFactsLoaded(cb: () => void): () => void { listeners.add(cb); return () => { listeners.delete(cb); }; }
+
+/** Facts for one generation, or an empty object when none were collected (or loaded) yet. */
 export function factsFor(makeId: string, modelId: string, code: string): GenFacts {
   return BY_MAKE[makeId]?.models?.[modelId]?.[code] ?? {};
 }

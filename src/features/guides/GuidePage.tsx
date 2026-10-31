@@ -1,4 +1,5 @@
 /** /guides and /guides/:slug — practical buyer guides built on the site's sourced data. */
+import { useFacts } from "../../data/useFacts";
 import { useEffect } from "react";
 import { Link, useParams } from "wouter";
 import { PageShell } from "../../shared/ui/PageShell";
@@ -26,6 +27,7 @@ export function GuidesIndexPage() {
 }
 
 export function GuidePage() {
+  useFacts(); // data-driven tables need every make's facts
   const { slug = "" } = useParams<{ slug: string }>();
   const meta = guideBySlug(slug);
   const Body = meta ? GUIDE_BODIES[meta.slug] : null;

@@ -2,6 +2,7 @@
  * /sell/card?… — the public card a seller shares in their ad. Buyers land here, see the monthly estimate,
  * and can compare alternatives or ask us for help (consented lead).
  */
+import { useFacts } from "../../data/useFacts";
 import { useEffect, useState } from "react";
 import { Link, useSearch } from "wouter";
 import { MAKES } from "../../data/generations";
@@ -14,6 +15,7 @@ export default function SellCardPage() {
   const search = useSearch();
   const c = decodeCard(search, MAKES);
   const [lead, setLead] = useState(false);
+  useFacts(c?.make.id ?? "none");
   const name = c ? `${c.make.he} ${c.model.he} ${c.year}` : "";
   useEffect(() => { document.title = c ? `${name} — כמה יעלה לך בחודש | כמה עולה` : "כרטיס לא נמצא | כמה עולה"; }, [c, name]);
 

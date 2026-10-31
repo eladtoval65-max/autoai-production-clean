@@ -1,3 +1,4 @@
+import { useFacts } from "../../../data/useFacts";
 import { ExternalLink } from "lucide-react";
 import { useEffect } from "react";
 import { yad2Search, type Make, type ModelLine } from "../../../data/generations";
@@ -29,6 +30,7 @@ function ModelHeader({ make, model }: { make: Make; model: ModelLine }) {
 
 /** /cars/:make/:model — every generation since 2010 (newest first) and the used-car monthly cost calculator. */
 export function ModelPage({ make, model }: { make: Make; model: ModelLine }) {
+  useFacts(make.id); // this make's sourced facts (issues, engines, maintenance) — re-renders when loaded
   useEffect(() => { document.title = `${make.he} ${model.he} — כל הדורות, מה לבדוק וכמה עולה בחודש | כמה עולה`; }, [make, model]);
   return (
     <>

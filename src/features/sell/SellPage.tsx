@@ -3,6 +3,7 @@
  * The seller builds a "monthly cost" card for the car they're selling and shares its link / text in their ad.
  * Nothing is saved on our side. Optional: a consented trade-in request.
  */
+import { useFacts } from "../../data/useFacts";
 import { useEffect, useMemo, useState } from "react";
 import { MAKES, type Powertrain } from "../../data/generations";
 import { sendEvent } from "../../shared/analytics";
@@ -25,6 +26,7 @@ async function copy(text: string): Promise<boolean> {
 export default function SellPage() {
   const [makeId, setMakeId] = useState(MAKES[0].id);
   const make = MAKES.find((m) => m.id === makeId)!;
+  useFacts(makeId); // maintenance items for the monthly cost
   const [modelId, setModelId] = useState(make.models[0].id);
   const model = make.models.find((m) => m.id === modelId) ?? make.models[0];
   const years = useMemo(() => yearsOfModel(model), [model]);

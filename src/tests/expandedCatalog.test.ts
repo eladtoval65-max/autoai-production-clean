@@ -1,9 +1,11 @@
-import { describe, expect, it } from "vitest";
+import { beforeAll, describe, expect, it } from "vitest";
+import { loadAllFacts } from "../data/facts";
 import { MAKES } from "../data/generations";
 import { staticCars } from "../features/home/model/catalog";
 import { estimatedValue, newFromModels, usedFromGenerations } from "../features/home/model/expandedCatalog";
 
 describe("expanded questionnaire catalog", () => {
+  beforeAll(() => loadAllFacts());
   it("adds every on-sale model with a list price that the rich catalog lacks, without duplicates", () => {
     const extra = newFromModels(staticCars);
     const ids = new Set([...staticCars, ...extra].map((c) => c.id));
