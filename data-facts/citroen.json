@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "c3": {
       "Gen3": {
@@ -478,6 +478,209 @@
             }
           }
         ]
+      }
+    },
+    "c4-picasso": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "תיבת ההילוכים הרובוטית EGS בעייתית (נסיעה לא חלקה, כשלי מצמד מוקדמים) — לבדוק עדכון תוכנה ומצב מצמד, ולהעדיף ידנית",
+            "scope": "גרסאות EGS (רובוטית)",
+            "source": {
+              "title": "What Car? — Used Citroën C4 Picasso 2007–2013 reliability",
+              "url": "https://www.whatcar.com/citroen/c4-picasso/mpv/used-review/n294/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול על תקלה בבלם החניה החשמלי (04/2011) — לבדוק שבוצעה קריאת השירות ושהבלם משתחרר ונועל כראוי",
+            "source": {
+              "title": "Auto Express — Used Citroen C4 Picasso (Mk1, 2007–2013) review (רשימת ריקולים)",
+              "url": "https://cdn1.autoexpress.co.uk/citroen/c4-picasso/96702/used-citroen-c4-picasso-review"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקולים על דליפת דלק (02/2011) ועל חגורות בטיחות (06/2010, 03/2012) — לבדוק מול סיטרואן שכל קריאות השירות בוצעו",
+            "source": {
+              "title": "Auto Express — Used Citroen C4 Picasso (Mk1, 2007–2013) review (רשימת ריקולים)",
+              "url": "https://cdn1.autoexpress.co.uk/citroen/c4-picasso/96702/used-citroen-c4-picasso-review"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "ידית תא המטען מפלסטיק נשברת מעייפות ואחריה נכשל מתג פתיחת הדלת; תקלות במחשב הבקרה מנטרלות פונקציות (למשל פתיחת מכסה הדלק) — לבדוק את כל הפונקציות החשמליות",
+            "source": {
+              "title": "Auto Express — Used Citroen C4 Picasso (Mk1, 2007–2013) review",
+              "url": "https://cdn1.autoexpress.co.uk/citroen/c4-picasso/96702/used-citroen-c4-picasso-review"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7409/euroncap_citroen_c4_picasso_2009_5stars.pdf"
+        },
+        "engines": [
+          {
+            "name": "1.6 HDi דיזל רובוטי (EGS6)",
+            "pt": "diesel",
+            "hp": 109,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — C4 Picasso HDi 110 FAP Tendance EGS6 (80 kW), מבחן 05/2007 (אותו דור, לפני מתיחת הפנים)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/c4-picasso/1generation/209477/"
+            }
+          }
+        ]
+      },
+      "Gen2 (EMP2)": {
+        "issues": [
+          {
+            "level": "manufacturer",
+            "he": "רצועת תזמון טבולה בשמן במנוע 1.2 PureTech מתבלה מוקדם (וגם צריכת שמן מוגזמת) — סטלנטיס מכירה בבעיה ומציעה כיסוי עד 10 שנים או 112 אלף מייל (כ-180 אלף ק״מ) בתנאי טיפולים לפי היצרן; לדרוש היסטוריית טיפולים מלאה ולבדוק מתי הוחלפה הרצועה",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Stellantis — extends compensation policy for PureTech 1.0 and 1.2 engines (7.5.2025)",
+              "url": "https://www.media.stellantis.com/uk-en/ds/press/stellantis-extends-compensation-policy-for-european-consumers-claims-on-previous-generations-of-puretech-1-0-and-1-2-engines"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ברגי זרוע המתלה הקדמית עלולים להיכשל ולגרום לאובדן שליטה — לבדוק שבוצעה קריאת השירות",
+            "scope": "יוצרו 26/03/2013–26/01/2015",
+            "source": {
+              "title": "What Car? — Used Citroen C4 Picasso 2013–2018 reliability (recalls)",
+              "url": "https://whatcar.com/citroen/c4-picasso/mpv/used-review/n901/advice"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "דליפת דלק ממסילת הדלק על חלקי מנוע חמים (סכנת שריפה) ומחמם מסנן דלק פגום — לבדוק שבוצעו קריאות השירות",
+            "scope": "יוצרו עד 15/07/2014",
+            "source": {
+              "title": "What Car? — Used Citroen C4 Picasso 2013–2018 reliability (recalls)",
+              "url": "https://whatcar.com/citroen/c4-picasso/mpv/used-review/n901/advice"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תוכנת ניהול מנוע שלא מספקת קירור מספק (סכנת התחממות) — לבדוק שבוצע עדכון התוכנה",
+            "scope": "יוצרו 05/12/2012–21/04/2015",
+            "source": {
+              "title": "What Car? — Used Citroen C4 Picasso 2013–2018 reliability (recalls)",
+              "url": "https://whatcar.com/citroen/c4-picasso/mpv/used-review/n901/advice"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מנעולי דלתות שעלולים לאפשר פתיחה בלתי צפויה של הדלת — לבדוק שבוצעה החלפת המנעולים",
+            "scope": "יוצרו 05/05/2015–21/11/2015",
+            "source": {
+              "title": "What Car? — Used Citroen C4 Picasso 2013–2018 reliability (recalls)",
+              "url": "https://whatcar.com/citroen/c4-picasso/mpv/used-review/n901/advice"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://www.euroncap.com/en/results/citron/c4-picasso/8865"
+        },
+        "launchPrice": {
+          "ils": 180000,
+          "year": 2014,
+          "note": "גרנד C4 פיקאסו קומפורט פאק, 2.0 HDi דיזל 150 כ״ס אוטומטית",
+          "source": {
+            "title": "וואלה רכב — השקת סיטרואן C4 גרנד פיקאסו החדשה (12.3.2014)",
+            "url": "https://cars.walla.co.il/item/2728409"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.6 THP בנזין ידני",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "TCS (שווייץ) — מבחן C4 Picasso THP 155 Exclusive החדשה, ידני 6, 10/2013 — צריכה במבחן",
+              "url": "https://www.tcs.ch/mam/Digital-Media/PDF/Auto-Test/Test-vetture-Citro-n-C4-Picasso.pdf"
+            }
+          }
+        ]
+      }
+    },
+    "c4-x": {
+      "C43": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "צינור הדלק בלחץ גבוה (בין המשאבה למסילה) עלול לדלוף בגלל אומים רופפים — סכנת שריפה; לבדוק שבוצעה קריאת השירות",
+            "scope": "יוצרו 25/10/2023–23/04/2025",
+            "source": {
+              "title": "car-recalls.eu — Citroen C4 X (2023–2025) fuel fire recall",
+              "url": "https://car-recalls.eu/recall/citroen-c4-x-2023-2025-fuel-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מרווח לא מספיק בין צינור מסנן החלקיקים למכסה מגן של מתנע-אלטרנטור 48V — חדירת מים, קשת חשמלית וסכנת שריפה; לבדוק שבוצעה קריאת השירות (קוד GW6)",
+            "scope": "גרסאות היברידיות 48V, יוצרו 10/2023–01/2026",
+            "source": {
+              "title": "car-recalls.eu — Citroen C4 X (2023–2026) electronic fire recall",
+              "url": "https://car-recalls.eu/recall/citroen-c4-x-2023-2026-electronic-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תקלת תוכנה במערכת הסוללה במתח גבוה — מצב Ready לא זמין, אובדן כוח או כיבוי פתאומי בנסיעה; לבדוק שבוצע עדכון (קוד NT2)",
+            "scope": "ë-C4 X חשמלי, יוצרו 18/08/2022–02/03/2023",
+            "source": {
+              "title": "car-recalls.eu — Citroen C4 X (2022–2023) HV battery software recall",
+              "url": "https://car-recalls.eu/es/recall/citroen-c4-x-2022-2023-hv-battery-software/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "יציקה פגומה של בלוק שסתומי מערכת הבלמים — דליפת נוזל בלמים פנימית ונטרול ESP/ABS; לבדוק שבוצעה קריאת השירות",
+            "scope": "יוצרו 29/05/2024–03/06/2024",
+            "source": {
+              "title": "car-recalls.eu — Citroen C4 X (2024) brake fluid leak recall",
+              "url": "https://car-recalls.eu/recall/citroen-c4-x-2024-brake-fluid-leak/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקול בישראל (לובינסקי): מערכת החירום e-Call עלולה לפעול באופן לא תקין — עדכון תוכנה מרחוק; לוודא שהעדכון הושלם",
+            "scope": "124 רכבים בישראל, יוצרו 02/2023–11/2023",
+            "source": {
+              "title": "auto.co.il — קריאה לתיקון (Recall) לרכבי סיטרואן C4 ו-C4X (26.11.2023)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/136746/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "ë-C4 X חשמלי",
+            "pt": "ev",
+            "hp": 136,
+            "cons": 16.7,
+            "unit": "kWh",
+            "source": {
+              "title": "ADAC — ë-C4 X 136 Shine Pack, מבחן Ecotest (כולל הפסדי טעינה)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/citroen-e-c4-x/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/citro-n-c4---euroncap-2021-results---4-stars/s/eed3f65a-e773-49b0-9bb1-4e88af7f9297",
+          "note": "דירוג ה-C4 משנת 2021 חל גם על גרסת ה-C4 X וה-ë-C4"
+        }
       }
     }
   }

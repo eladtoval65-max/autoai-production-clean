@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -1730,6 +1730,161 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-איוניק-9-נחת-בישראל-מחיר-354990-שקל"
           }
         }
+      }
+    },
+    "i25": {
+      "MC": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "זיהומים בנוזל הבלמים פוגעים באטמי O במודול ה-ABS – נוזל עלול להגיע ללוח האלקטרוני ולגרום לקצר ושריפה (גם בחניה). לבדוק לפי VIN שבוצעה קריאת השירות (41D091)",
+            "scope": "תוצרת 26.5.2009–31.10.2014",
+            "source": {
+              "title": "car-recalls.eu — Hyundai Accent (2009–2014) ABS fire, RAPEX SR/00813/25 (2025)",
+              "url": "https://car-recalls.eu/recall/hyundai-accent-2009-2014-abs-fire/"
+            }
+          }
+        ]
+      },
+      "RB": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "זיהומים בנוזל הבלמים פוגעים באטמי O במודול ה-ABS – נוזל עלול להגיע ללוח האלקטרוני ולגרום לקצר ושריפה. לבדוק לפי VIN שבוצעה קריאת השירות (41D091)",
+            "scope": "תוצרת 26.5.2009–31.10.2014",
+            "source": {
+              "title": "car-recalls.eu — Hyundai Accent (2009–2014) ABS fire, RAPEX SR/00813/25 (2025)",
+              "url": "https://car-recalls.eu/recall/hyundai-accent-2009-2014-abs-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "שקע ה-12V עלול להתחמם יתר על המידה בשימוש במדחס של ערכת תיקון הצמיגים – סכנת שריפה. לבדוק שבוצעה קריאת השירות (01D062)",
+            "scope": "תוצרת 2008–2012 (סוג RB כלול)",
+            "source": {
+              "title": "car-recalls.eu — Hyundai Accent (2008–2012) 12V socket fire, RAPEX A12/00805/21 (2021)",
+              "url": "https://car-recalls.eu/ro/rechemare/priza-hyundai-accent-12v-foc/"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "מגע פגום במתג אורות הבלימה – אורות בלם לא נדלקים, נורית אזהרה, קושי בהתנעה ובאוטומטית קושי להוציא מ-P. לבדוק שאורות הבלם עובדים ושהוחלף המגע לפי עלון השירות",
+            "scope": "עלון שירות יוני 2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai RB Accent (2011–18)",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-rb-accent-2011-18/"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "ציפוי הדמוי-עור של ההגה מתקלף (קוסמטי) – יונדאי פרסמה עלון שירות להחלפת גוף ההגה",
+            "scope": "תוצרת עד יוני 2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Hyundai RB Accent (2011–18), TSB SE03513",
+              "url": "https://australiancar.reviews/recalls-faults-hyundai-rb-accent-2011-18/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 107000,
+          "year": 2011,
+          "note": "1.4 ליטר 109 כ\"ס, אוטומטית 4 הילוכים (1.6 ליטר 124 כ\"ס – 109,000 ₪)",
+          "source": {
+            "title": "וואלה רכב — יונדאי i25 (9.3.2011)",
+            "url": "https://cars.walla.co.il/item/1802648"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.6 בנזין אוטומטי",
+            "pt": "petrol",
+            "hp": 138,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — Accent סדאן 2013 (ארה״ב, 1.6 GDI 138 כ״ס) אוטומט 6 הילוכים: 33 MPG, מומר מ-MPG אמריקאי (235.21/mpg); כ-24 רכבים בכל הדגם לשנה זו; ייתכן שמפרט המנוע בישראל שונה",
+              "url": "https://www.truedelta.com/Hyundai-Accent/mpg-118/2013"
+            }
+          }
+        ]
+      }
+    },
+    "i40": {
+      "VF": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "חשש לדליפת נוזל בלמים לתוך יחידת ה-ABS, שעלולה לגרום לקצר ולשריפה — לבדוק לפי מספר שלדה שבוצעה קריאת השירות (קוד 41D091)",
+            "scope": "רכבים שיוצרו 11/2010–10/2014",
+            "source": {
+              "title": "car-recalls.eu — Hyundai i40 (2010–2014) brakes fire recall",
+              "url": "https://car-recalls.eu/es/recall/hyundai-i40-2010-2014-brakes-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "שקע ה-12V עלול להתחמם יתר על המידה בעת הפעלת מדחס ערכת תיקון הצמיגים (סכנת שריפה) — לוודא שבוצעה קריאת השירות (קוד 01D062)",
+            "scope": "רכבים שיוצרו 2011–2012",
+            "source": {
+              "title": "car-recalls.eu — Hyundai i40 12V socket fire recall",
+              "url": "https://car-recalls.eu/recall/hyundai-i40-12v-socket-fire/amp/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תקלה אפשרית באספקת שמן למנוע ובמגבר הבלמים (בלימה קשה יותר) — לבדוק שבוצעה קריאת השירות (קוד 21D036)",
+            "scope": "רכבים שיוצרו 12/2018–05/2020",
+            "source": {
+              "title": "car-recalls.eu — Hyundai i40 (2018–2020) brake booster recall",
+              "url": "https://car-recalls.eu/es/recall/hyundai-i40-2018-2020-brake-booster/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "דיווחים על צריכת שמן גבוהה (מעל ליטר ל-1,000 ק\"מ) ונקישות במנוע קר בגלל שריטות בצילינדרים — לבדוק מפלס שמן ולהקשיב להתנעה קרה",
+            "scope": "מנוע 2.0 GDi בנזין",
+            "source": {
+              "title": "australiancar.reviews — Hyundai VF i40 recalls and faults",
+              "url": "https://www.australiancar.reviews/?p=47063"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "מסנן החלקיקים (DPF) נוטה להיסתם בנסיעה עירונית בעיקר, ורגנרציה שנקטעת עלולה לדלל את השמן בסולר — לבדוק שמפלס השמן לא עולה",
+            "scope": "דיזל 1.7 CRDi",
+            "source": {
+              "title": "What Car? — Used Hyundai i40 Tourer reliability",
+              "url": "https://www.whatcar.com/hyundai/i40/estate/used-review/n18394/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro%20ncap%20releases%20crash%20test%20results%20for%2010%20cars%20and%20brings%20additional%20advanced%20reward/s/f5f1a221-904c-4c4f-b260-ef6e560551e0"
+        },
+        "launchPrice": {
+          "ils": 161000,
+          "year": 2012,
+          "note": "סדאן Premium, 2.0 בנזין 177 כ\"ס אוטומטי",
+          "source": {
+            "title": "icar — יונדאי i40 הושקה בישראל (28.02.12)",
+            "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_i40_הושקה_בישראל/"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.7 CRDi דיזל אוטומטי",
+            "pt": "diesel",
+            "hp": 136,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — i40 Tourer (סטיישן) 2011–2019, 1.7 CRDi 136 אוטומטי: 43.2 mpg בריטי, מומר מ-MPG בריטי (282.48/mpg); מספר דיווחים למנוע לא מוצג",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/hyundai/i40-tourer-2011"
+            }
+          }
+        ]
       }
     }
   }

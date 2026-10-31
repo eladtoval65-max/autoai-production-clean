@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "sportage": {
       "NQ5": {
@@ -1163,6 +1163,143 @@
             "source": {
               "title": "ev-database.org — Kia EV9 99.8 kWh AWD, real consumption 221 Wh/km",
               "url": "https://ev-database.org/car/1835/Kia-EV9-998-kWh-AWD"
+            }
+          }
+        ]
+      }
+    },
+    "optima": {
+      "TF": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "דליפה פנימית של נוזל בלמים ביחידת ה-ABS/ESC עלולה לגרום לקצר, התחממות ושריפה בתא המנוע — לבדוק לפי מספר שלדה שבוצעה קריאת השירות",
+            "scope": "רכבים שיוצרו 02/2010–07/2015",
+            "source": {
+              "title": "car-recalls.eu — Kia Optima (2010–2015) brake fluid leak fire recall",
+              "url": "https://car-recalls.eu/recall/kia-optima-2010-2015-leak-brake-fluid-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בלאי מוקדם של מיסבי טלטל עקב שגיאות עיבוד בייצור — נקישות מחזוריות ונורת לחץ שמן, סכנת כיבוי מנוע בנסיעה; לוודא שבוצעה בדיקה/החלפת מנוע במסגרת הריקול",
+            "scope": "2.4 GDi בנזין, שנים 2011–2014 (ריקול באוסטרליה ובארה״ב)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-000782 Kia Optima 2010–2014 connecting rod bearing",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-000782"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בשל פגם ייצור המנוע עלול להתחמם עקב דליפת דלק או שמן ולהשבת — לבדוק לפי מספר שלדה שבוצעה קריאת השירות (קוד 230047)",
+            "scope": "רכבים שיוצרו 01/2011–09/2018 (חלק מהרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Kia Optima (2011–2018) engine failure recall",
+              "url": "https://car-recalls.eu/recall/kia-optima-2011-2018-engine-failure/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 163900,
+          "year": 2012,
+          "note": "EX-PANORAMIC אוטומטי, 2.0 בנזין 165 כ\"ס",
+          "source": {
+            "title": "cartube — קיה אופטימה החדשה בישראל – מחיר החל מ-163,900 שקל (22.11.2012)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קיה-אופטימה-החדשה-בישראל-–-מחיר-החל-מ-163,900-שקל"
+          }
+        },
+        "engines": [
+          {
+            "name": "2.4 בנזין אוטומטי",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 8.69,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — Optima 2013 גרסת ארה״ב 2.4 200 כ״ס אוטומט 6, ממוצע בעלים 27.06 MPG (מומר מ-MPG; מדגם קטן — 22 רכבים בכל גרסאות 2013 יחד, ללא פירוט לפי מנוע)",
+              "url": "https://www.truedelta.com/Kia-Optima/mpg-149/2013"
+            }
+          },
+          {
+            "name": "2.0 היברידי אוטומטי",
+            "pt": "hybrid",
+            "hp": 190,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — Optima Hybrid Spirit אוטומט (2.0 + חשמלי, 140 kW מערכת), מבחן 12/2012",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/optima/tf/233845/"
+            }
+          }
+        ]
+      },
+      "Gen4": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בשל פגם ייצור המנוע עלול להתחמם עקב דליפת דלק או שמן ולהשבת — לבדוק לפי מספר שלדה שבוצעה קריאת השירות (קוד 230047)",
+            "scope": "רכבים שיוצרו עד 09/2018 (כולל דגם JF, חלק מהרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Kia Optima (2011–2018) engine failure recall",
+              "url": "https://car-recalls.eu/recall/kia-optima-2011-2018-engine-failure/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "נזק אפשרי למיסבי הטלטל — נקישות או נורת לחץ שמן, סכנת כשל מנוע; לוודא שבוצעו בדיקת מנוע ועדכון תוכנת KSDS",
+            "scope": "היברידי ופלאג-אין 2.0 Nu GDI, שנים 2017–2018 (ריקול בקנדה/ארה״ב)",
+            "source": {
+              "title": "Transport Canada Recall 2021666 — Kia Optima Hybrid/PHEV",
+              "url": "https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2021666"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תקלת תוכנה במערכת הבלימה האוטונומית (FCA) שעלולה לא לבלום מול רכב עומד — לוודא שבוצע עדכון תוכנה",
+            "scope": "דגמי ארה״ב 2019 עם מנועי 1.6/2.0 טורבו",
+            "source": {
+              "title": "NHTSA recall report 19V-539 — 2019 Kia Optima FCA",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V539-9732.PDF"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "דיווחים על כיבויי מנוע, צריכת שמן מוגזמת וכשל מנוע מלא, בעיקר בשנת 2016 — לבדוק צריכת שמן והיסטוריית טיפולים",
+            "scope": "בעיקר דגמי ארה״ב 2016–2018 (מנועי בנזין)",
+            "source": {
+              "title": "Samarins — 2016-2020 Kia Optima: Pros and Cons, Problems",
+              "url": "https://www.samarins.com/reviews/kia-optima-16.html"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "מנגנון חלון חשמלי שמפסיק לעבוד — עלון שירות BOD 300 (החלפת גלגל שיניים בתוף המנגנון); לבדוק את כל החלונות",
+            "scope": "2016–2017",
+            "source": {
+              "title": "Samarins — 2016-2020 Kia Optima: Pros and Cons, Problems",
+              "url": "https://www.samarins.com/reviews/kia-optima-16.html"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 178000,
+          "year": 2016,
+          "note": "1.7 טורבו דיזל 141 כ\"ס, תיבה רובוטית כפולת מצמדים (רמת גימור לא פורסמה)",
+          "source": {
+            "title": "auto.co.il — קיה אופטימה החדשה בישראל (16.02.2016)",
+            "url": "https://www.auto.co.il/articles/car-news/110798/"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.7 CRDi דיזל אוטומטי (DCT)",
+            "pt": "diesel",
+            "hp": 141,
+            "cons": 5.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — Optima 1.7 CRDi Spirit DCT (JF), 104 kW, מבחן 01/2016",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/optima/jf/251018/"
             }
           }
         ]

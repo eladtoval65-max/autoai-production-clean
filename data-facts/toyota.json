@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "corolla": {
       "E150": {
@@ -1343,6 +1343,232 @@
             "url": "https://www.auto.co.il/cars/toyota/plusch-r/2026/motion-2x4/"
           }
         }
+      }
+    },
+    "auris": {
+      "E150": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "כרית האוויר של הנהג (Takata) – חומר ההנעה עלול להתבלות ובפתיחה לפזר רסיסים מהמנפח. לבדוק שבוצעה קריאת השירות (בדיקה לפי VIN אצל היבואן)",
+            "scope": "תוצרת 2006–2017 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris (2006–2017) driver airbag Takata, RAPEX A12/01662/24 (2024)",
+              "url": "https://car-recalls.eu/recall/toyota-auris-2006-2017-driver-airbag-takata/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "סדק אפשרי ביחידת בקרת אדי הדלק (EVAP) שמחוברת למיכל – כשהמיכל מלא דלק עלול לדלוף ולגרום לשריפה. לבדוק שבוצעה קריאת השירות",
+            "scope": "תוצרת 2006–2015",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris (2006–2015) fuel tank fire risk, RAPEX A12/0849/16",
+              "url": "https://car-recalls.eu/recall/toyota-auris-2006-2015/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תוכנת מחשב המערכת ההיברידית עלולה לא להיכנס למצב חירום (fail-safe) בתקלות מסוימות – הרכב עלול לאבד כוח ולכבות בנסיעה. לבדוק שבוצע עדכון התוכנה בקריאת שירות",
+            "scope": "1.8 היברידי (ZWE150), תוצרת 26.5.2010–9.5.2014",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris HV (2010–2014) ECU fail-safe software, RAPEX A12/1721/18 (2018)",
+              "url": "https://car-recalls.eu/recall/toyota-auris-hv-2010-2014/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מחשב המנוע עלול להתאפס ולכבות את המערכת ההיברידית – הרכב עלול לעצור בנסיעה. לוודא שבוצעה קריאת השירות",
+            "scope": "היברידי, תוצרת 2010–2014",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris (2010–2014) ECU reset / hybrid system shutdown, RAPEX A12/0950/15",
+              "url": "https://car-recalls.eu/recall/toyota-auris-2010-2014/amp/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "חריקת בלמים קדמיים (הצטברות אבק בלמים) ובלם יד חלש שלא תמיד מחזיק בשיפוע – לבדוק בנסיעת מבחן ובחנייה בעלייה",
+            "source": {
+              "title": "What Car? — Used Toyota Auris Hatchback 2007–2013 reliability",
+              "url": "https://car-leasing.whatcar.com/toyota/auris/hatchback/used-review/n645/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין אוטומטי",
+            "pt": "petrol",
+            "hp": 124,
+            "cons": 6.97,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Toyota Auris בנזין, ממוצע כל הדורות וכל סוגי התיבות (763 רכבים) — לא מסונן לדור/תיבה",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/985-Auris.html?fueltype=2"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 126000,
+          "year": 2010,
+          "note": "אוריס 5 דלתות מתיחת פנים, 1.6 ליטר 124 כ\"ס, אוטומטית רגילה 4 הילוכים",
+          "source": {
+            "title": "cartube — טויוטה ישראל משיקה את האוריס המחודשת (14.4.2010)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94-%D7%9E%D7%A9%D7%99%D7%A7%D7%94-%D7%90%D7%AA-%D7%94%D7%90%D7%95%D7%A8%D7%99%D7%A1-%D7%94%D7%9E%D7%97%D7%95%D7%93%D7%A9%D7%AA"
+          }
+        }
+      },
+      "E180": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "טרנזיסטורים בממיר המתח של מודול ההספק (IPM) במערכת ההיברידית עלולים להינזק מעומס חום – המערכת עלולה לכבות ללא מצב חירום ולאבד כוח בנסיעה. לבדוק שבוצעה קריאת השירות (20SMD-058)",
+            "scope": "1.8 היברידי (ZWE186), תוצרת 3.5.2014–2.12.2018",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris HV (2014–2018) Intelligent Power Module, RAPEX A12/01049/20 (2020)",
+              "url": "https://car-recalls.eu/recall/toyota-auris-hybrid-safemode/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "תוכנת מחשב המערכת ההיברידית עלולה לא להיכנס למצב חירום (fail-safe) בתקלות מסוימות – אובדן כוח וכיבוי בנסיעה. לבדוק שבוצע עדכון התוכנה",
+            "scope": "1.8 היברידי (ZWE186), תוצרת עד 9.5.2014",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris HV (2010–2014) ECU fail-safe software, RAPEX A12/1721/18 (2018)",
+              "url": "https://car-recalls.eu/recall/toyota-auris-hv-2010-2014/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כרית האוויר של הנהג (Takata) – חומר ההנעה עלול להתבלות ובפתיחה לפזר רסיסים. לבדוק שבוצעה קריאת השירות (לפי VIN)",
+            "scope": "תוצרת 2006–2017 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris (2006–2017) driver airbag Takata, RAPEX A12/01662/24 (2024)",
+              "url": "https://car-recalls.eu/recall/toyota-auris-2006-2017-driver-airbag-takata/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "סדק אפשרי ביחידת בקרת אדי הדלק (EVAP) שליד המיכל – דליפת דלק וסכנת שריפה. לבדוק שבוצעה קריאת השירות",
+            "scope": "תוצרת 2006–2015",
+            "source": {
+              "title": "car-recalls.eu — Toyota Auris (2006–2015) fuel tank fire risk, RAPEX A12/0849/16",
+              "url": "https://car-recalls.eu/recall/toyota-auris-2006-2015/"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "התרוקנות מצבר כשמתג מהבהבי החירום לחוץ חלקית – הרכב לא מתניע. טויוטה מכירה בתקלה ומתקנת בעדכון תוכנה אצל הסוכנות; לשאול אם בוצע",
+            "scope": "תוצרת 2012–2014",
+            "source": {
+              "title": "What Car? — Used Toyota Auris Hatchback 2013–2019 reliability",
+              "url": "https://www.whatcar.com/toyota/auris/hatchback/used-review/n17421/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין אוטומטי (CVT)",
+            "pt": "petrol",
+            "hp": 132,
+            "cons": 6.97,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Toyota Auris בנזין, ממוצע כל הדורות וכל סוגי התיבות (763 רכבים) — לא מסונן לדור/תיבה",
+              "url": "https://www.spritmonitor.de/en/overview/49-Toyota/985-Auris.html?fueltype=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://news.euroncap.com/safercars/all/euro-ncap-s-latest-results/s/fe3d02d0-e7ad-4cad-90b9-9617d39f8f2f"
+        },
+        "launchPrice": {
+          "ils": 129900,
+          "year": 2013,
+          "note": "1.6 ליטר 132 כ\"ס, אוטומטית רציפה (CVT); ההיברידית 1.8 – 139,900 ₪",
+          "source": {
+            "title": "icar — טויוטה אוריס החדשה בארץ, החל מ-129,900 שקל (28.1.2013)",
+            "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_אוריס_החדשה_בארץ._החל_מ-129,900_שקל/"
+          }
+        }
+      }
+    },
+    "avensis": {
+      "T270": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "כרית האוויר של הנהג (Takata) – חומר ההנעה עלול להתבלות ובפתיחה לפזר רסיסים. לבדוק שבוצעה קריאת השירות (לפי VIN)",
+            "scope": "תוצרת 1999–2017 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Avensis (1999–2017) driver airbag Takata, RAPEX A12/01662/24 (2024)",
+              "url": "https://car-recalls.eu/recall/toyota-avensis-1999-2017-driver-airbag-takata/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מנפח כרית האוויר של הנוסע הקדמי עלול להיות פגום ולפזר שברי מתכת בפתיחה. לבדוק שבוצעה קריאת השירות (18SMD-104)",
+            "scope": "תוצרת 2001–2014 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Avensis (2001–2014) passenger airbag, RAPEX A12/00376/20 (2020)",
+              "url": "https://car-recalls.eu/recall/toyota-avensis-2001-2014/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כריות האוויר הצדדיות עלולות לא להיפתח בתאונה. לבדוק שבוצעה קריאת השירות",
+            "scope": "תוצרת 6.9.2016–21.10.2016",
+            "source": {
+              "title": "What Car? — Used Toyota Avensis 2015–2018 reliability",
+              "url": "https://whatcar.com/toyota/avensis/saloon/used-review/n18931/reliability"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "גג פנורמי – יישום פריימר לקוי עלול לגרום לזכוכית הגג להתנתק מהמסגרת וליפול לתא הנוסעים. ברכב עם גג פנורמי – לבדוק שבוצעה קריאת השירות",
+            "scope": "תוצרת 8–12/2013, עם גג פנורמי",
+            "source": {
+              "title": "car-recalls.eu — Toyota Avensis (2013) T27 panorama roof, RAPEX A12/1286/15",
+              "url": "https://car-recalls.eu/recall/toyota-avensis-2013/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "דוושת ההאצה עלולה לא לחזור למצב סרק או לחזור באיטיות – לוודא שהמכלול תוקן בקריאת השירות של 2010",
+            "scope": "דגמי 2010 מוקדמים",
+            "source": {
+              "title": "What Car? — Used Toyota Avensis saloon 2009–2015 reliability",
+              "url": "https://whatcar.com/toyota/avensis/saloon/used-review/n881/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7587/euroncap_toyota_avensis_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 147000,
+          "year": 2009,
+          "note": "סדאן, 2.0 בנזין 152 כ\"ס, אוטומטית רציפה Multidrive S (סטיישן: 159,000 ₪)",
+          "source": {
+            "title": "וואלה רכב — טויוטה אוונסיס החדשה (20.1.2009)",
+            "url": "https://cars.walla.co.il/item/1420715"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.8 Valvematic בנזין אוטומטי (CVT)",
+            "pt": "petrol",
+            "hp": 147,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — Avensis 1.8 Life Multidrive S (CVT), 108 kW, מבחן 02/2012 (מדידת מעבדה ADAC, לא ממוצע בעלים)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/ecotest/details/3104/toyota-avensis-18-life-multidrive-s/"
+            }
+          }
+        ]
       }
     }
   }

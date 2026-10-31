@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "clio": {
       "Clio IV": {
@@ -487,6 +487,132 @@
             "url": "https://www.queenoftheroad.co.il/רנו-סימביוז-רכב-היברידי-חדש/"
           }
         }
+      }
+    },
+    "kangoo": {
+      "Gen2": {
+        "issues": [
+          {
+            "level": "widely_reported",
+            "he": "צריכת שמן מוגזמת במנוע 1.2 TCe (H5Ft) שעלולה להוביל לפגיעה בשסתומים ולכשל מנוע — לבדוק צריכת שמן, עשן כחול, ולברר אם בוצע עדכון תוכנה/החלפת טבעות",
+            "scope": "1.2 TCe, מנועים שיוצרו 10/2012–07/2016",
+            "source": {
+              "title": "UFC-Que Choisir — Moteur 1.2 Renault : 400 000 voitures en danger (Kangoo 2 ברשימה)",
+              "url": "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "רכיבי הסרן האחורי עלולים שלא להיות מהודקים כראוי — סכנת נעילה או ניתוק של הגלגלים האחוריים; לבדוק שבוצעה קריאת השירות (קוד 0D8L)",
+            "scope": "יוצרו 04/09/2019–11/10/2019",
+            "source": {
+              "title": "car-recalls.eu — Renault Kangoo (2019) rear axle recall, RAPEX A12/00178/20",
+              "url": "https://car-recalls.eu/recall/renault-kangoo-2019/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "חיווט כרית האוויר של הנהג עלול להתחכך בחלק מתכתי של מתג הצופר ולגרום לפתיחה לא רצויה של הכרית — לבדוק שבוצעה קריאת השירות",
+            "scope": "דגמי אוסטרליה, ריקול 02/2015 (טווח VIN מוגדר)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Renault X61 Kangoo (PRA 2015/14538)",
+              "url": "https://australiancar.reviews/?p=47691"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "צנרת ABS שעלולה להיות מורכבת באופן שגוי ולהפחית את יכולת הבלימה בבלימה חזקה — לבדוק שבוצעה קריאת השירות",
+            "scope": "דגמי אוסטרליה, ריקול 09/2014 (טווח VIN מוגדר)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Renault X61 Kangoo (PRA 2014/14348)",
+              "url": "https://australiancar.reviews/?p=47691"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין ידני",
+            "pt": "petrol",
+            "hp": 106,
+            "cons": 9.3,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — Kangoo II 1.6 16V 105 Privilège, ידני 5, מבחן 08/2008 (תחילת הדור)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/kangoo/ii/212690/"
+            }
+          },
+          {
+            "name": "1.5 dCi דיזל ידני",
+            "pt": "diesel",
+            "hp": 86,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — Kangoo II dCi 85 Expression (63 kW), מבחן 08/2008 (גרסה מוקדמת של ה-1.5 dCi)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/kangoo/ii/212494/"
+            }
+          }
+        ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "לשוניות הנעילה של הדלתות האחוריות (דלתות כנף) בולטות כשהדלת פתוחה — סכנת פגיעת ראש בעת העמסה; לבדוק שבוצעה קריאת השירות (קוד 0EUB)",
+            "scope": "יוצרו 05/2020–05/2025 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Renault Kangoo (2020–2025) bodywork injury recall",
+              "url": "https://car-recalls.eu/recall/renault-kangoo-2020-2025-bodywork-injury/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מסגרת בסיס מושב הנוסע הקדמי פגומה/לא מהודקת כראוי, ועלולה לפגוע בתפקוד עיגון ISOFIX — לבדוק שבוצעה קריאת השירות (קוד 0E5L)",
+            "scope": "יוצרו 16/05/2023–20/06/2023",
+            "source": {
+              "title": "car-recalls.eu — Renault Kangoo (2023) ISOFIX / front seat frame recall",
+              "url": "https://car-recalls.eu/recall/renault-kangoo-2023-isofix/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://www.euroncap.com/press-media/kangoo-and-mokka-return-with-four-stars-in-euro-ncap-safety-tests/"
+        },
+        "launchPrice": {
+          "ils": 177990,
+          "year": 2025,
+          "note": "גרסת אבולושן, 1.5 טורבו דיזל 115 כ״ס אוטומטית 7 הילוכים — חזרת הקנגו (נוסעים) לישראל ב-2025, הגרסה היחידה",
+          "source": {
+            "title": "auto.co.il — רנו קנגו חוזר לישראל (25.8.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/139447/"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.3 TCe בנזין ידני",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Ecotest — Kangoo III TCe 130 FAP Intens, ידני 6, מבחן 08/2021",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/kangoo/iii/320759/"
+            }
+          },
+          {
+            "name": "E-Tech חשמלי",
+            "pt": "ev",
+            "hp": 122,
+            "cons": 21.9,
+            "unit": "kWh",
+            "source": {
+              "title": "ADAC — מבחן Kangoo E-Tech Electric EV45 Techno (45 kWh), Ecotest כולל הפסדי טעינה",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/renault-kangoo-e-tech-electric/"
+            }
+          }
+        ]
       }
     }
   }
