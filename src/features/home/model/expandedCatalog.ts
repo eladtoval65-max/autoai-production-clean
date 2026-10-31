@@ -13,7 +13,8 @@
 import { factsFor } from "../../../data/facts";
 import { MAKES, type Generation, type Make, type ModelLine, type Powertrain } from "../../../data/generations";
 import { THIS_YEAR } from "../../browse/model/labels";
-import { depreciationRate, estimateUsedCost } from "../../browse/model/usedCost";
+import { estimateUsedCost } from "../../browse/model/usedCost";
+import { estimatedValue } from "../../browse/model/usedValue";
 import { prosConsFor } from "../../browse/model/prosCons";
 import type { Car } from "../types";
 
@@ -100,17 +101,7 @@ export function newFromModels(rich: Car[]): Car[] {
   return out;
 }
 
-/** Estimated used value of a generation at a model year, from its sourced starting price. Null when unknown. */
-export function estimatedValue(make: Make, model: ModelLine, gen: Generation, year: number): number | null {
-  const launch = factsFor(make.id, model.id, gen.code).launchPrice;
-  const isCurrent = gen === model.gens[model.gens.length - 1] && gen.to == null;
-  const start = launch?.ils ?? (isCurrent && model.price ? model.price[0] : null);
-  if (!start) return null;
-  // Launch price is in the launch year's shekels; a car bought new in `year` cost about that.
-  let value = start;
-  for (let age = 1; age <= THIS_YEAR - year; age++) value *= 1 - depreciationRate(age, gen.pt[0], model.segment === "premium");
-  return Math.round(value / 500) * 500;
-}
+export { estimatedValue } from "../../browse/model/usedValue";
 
 /** Every generation since 2012, at the newest model year whose estimated price fits the budget. */
 export function usedFromGenerations(budget: number): Car[] {

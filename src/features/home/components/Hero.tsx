@@ -1,5 +1,6 @@
 import { Clock, Receipt, UserX } from "lucide-react";
 import { useLang } from "../../../shared/i18n";
+import { CarSearch } from "../../../shared/ui/CarSearch";
 import type { Quiz } from "../hooks/useQuiz";
 import type { Ranked } from "../types";
 import { Finder } from "./Finder";
@@ -20,6 +21,8 @@ export function Hero({ quiz, leader, onResults }: { quiz: Quiz; leader?: Ranked;
           <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-[15px] font-semibold">
             {t.trust.map((item, i) => { const I = TRUST_ICONS[i]; return <li key={item} className="flex items-center gap-1.5"><I className="h-4 w-4 text-go" aria-hidden />{item}</li>; })}
           </ul>
+          <CarSearch className="mt-6 max-w-[34rem]" />
+          <p className="mt-6 text-[15px] font-bold">או שנמצא לכם את הרכב המתאים:</p>
           <Finder quiz={quiz} onResults={onResults} />
         </div>
         {leader && <LeaderPanel car={leader} km={quiz.answers.annualKm} started={quiz.step > 0} />}

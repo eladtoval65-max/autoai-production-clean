@@ -1,6 +1,8 @@
 import { useFacts } from "../../../data/useFacts";
 import { ExternalLink } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { usePriceReports } from "../hooks/usePriceReports";
+import { MonthlyAtAGlance, type Pick } from "./MonthlyAtAGlance";
 import { yad2Search, type Make, type ModelLine } from "../../../data/generations";
 import { modelYears, priceText, wikiTitle } from "../model/labels";
 import { GenerationCard } from "./GenerationCard";
@@ -31,13 +33,19 @@ function ModelHeader({ make, model }: { make: Make; model: ModelLine }) {
 /** /cars/:make/:model — every generation since 2010 (newest first) and the used-car monthly cost calculator. */
 export function ModelPage({ make, model }: { make: Make; model: ModelLine }) {
   useFacts(make.id); // this make's sourced facts (issues, engines, maintenance) — re-renders when loaded
+  const reported = usePriceReports(make.id, model.id);
+  const [km, setKm] = useState(15000);
+  const [pick, setPick] = useState<Pick | null>(null);
+  // Arriving from the search ("…#cost"): show the monthly-cost table right away.
+  useEffect(() => { if (window.location.hash === "#cost") setTimeout(() => document.getElementById("cost")?.scrollIntoView({ block: "start" }), 50); }, [model.id]);
   useEffect(() => { document.title = `${make.he} ${model.he} — כל הדורות, מה לבדוק וכמה עולה בחודש | כמה עולה`; }, [make, model]);
   return (
     <>
       <ModelHeader make={make} model={model} />
+      <MonthlyAtAGlance make={make} model={model} km={km} setKm={setKm} reported={reported} onPick={(p) => setPick({ ...p })} />
       <h2 className="mt-12 text-2xl">הדורות מאז 2010</h2>
       <ol className="mt-5 space-y-4">{[...model.gens].reverse().map((g) => <GenerationCard key={g.code} gen={g} makeId={make.id} model={model} />)}</ol>
-      <div className="mt-10"><UsedCostCalculator make={make} model={model} /></div>
+      <div className="mt-10"><UsedCostCalculator make={make} model={model} reported={reported} pick={pick} initialKm={km} /></div>
       <PriceAlertCard make={make} model={model} />
       <ModelLeadCta make={make} model={model} />
     </>

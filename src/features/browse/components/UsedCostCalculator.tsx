@@ -1,6 +1,8 @@
-import { usePriceReports, useReportPrice } from "../hooks/usePriceReports";
+import { useReportPrice, type PriceYear } from "../hooks/usePriceReports";
+import { estimatedValue } from "../model/usedValue";
+import type { Pick } from "./MonthlyAtAGlance";
 import { PricesSeen } from "./PricesSeen";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Make, ModelLine, Powertrain } from "../../../data/generations";
 import { factsFor } from "../../../data/facts";
 import { card, field } from "../../../shared/styles";
@@ -12,22 +14,34 @@ const KM_OPTIONS = [7000, 10000, 15000, 20000, 25000, 30000];
 const label = "text-[14px] font-semibold text-muted";
 
 /** "How much will it cost me a month?" for a used car: pick generation, year, powertrain, enter the asking price. */
-export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLine }) {
+export function UsedCostCalculator({ make, model, reported = [], pick, initialKm = 15000 }: { make: Make; model: ModelLine; reported?: PriceYear[]; pick?: Pick | null; initialKm?: number }) {
   const [genIndex, setGenIndex] = useState(model.gens.length - 1);
   const gen = model.gens[genIndex];
   const years = useMemo(() => yearsOf(gen, FIRST_YEAR), [gen]);
   const [year, setYear] = useState(years[years.length - 1]);
   const [powertrain, setPowertrain] = useState<Powertrain>(gen.pt[0]);
   const [price, setPrice] = useState("");
-  const [km, setKm] = useState(15000);
+  const [km, setKm] = useState(initialKm);
+  const pendingYear = useRef<number | null>(null);
 
   // A different generation has different years and powertrains: reset those choices.
-  useEffect(() => { setYear(years[years.length - 1]); setPowertrain(gen.pt[0]); }, [genIndex]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { setYear(pendingYear.current ?? years[years.length - 1]); pendingYear.current = null; setPowertrain(gen.pt[0]); }, [genIndex]); // eslint-disable-line react-hooks/exhaustive-deps
+  // "פירוט" in the at-a-glance table: jump to that generation, year and price.
+  useEffect(() => {
+    if (!pick) return;
+    const i = model.gens.findIndex((g) => g.code === pick.genCode);
+    if (i < 0) return;
+    if (i === genIndex) setYear(pick.year); else { pendingYear.current = pick.year; setGenIndex(i); }
+    setPrice(pick.price.toLocaleString("he-IL"));
+  }, [pick]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => setKm(initialKm), [initialKm]);
 
-  const askingPrice = Number(price.replace(/[^\d]/g, ""));
+  const typedPrice = Number(price.replace(/[^\d]/g, ""));
+  // No price typed yet → visitors' reported price for that year, else our estimate (clearly labelled), so there's always an answer.
+  const fallbackPrice = reported.find((r) => r.year === year)?.median ?? estimatedValue(make, model, gen, year) ?? 0;
+  const askingPrice = typedPrice || fallbackPrice;
   const maintenanceItems = factsFor(make.id, model.id, gen.code).maintenance;
-  useReportPrice({ makeId: make.id, modelId: model.id, genCode: gen.code, year, price: askingPrice, source: "calc" });
-  const reported = usePriceReports(make.id, model.id);
+  useReportPrice({ makeId: make.id, modelId: model.id, genCode: gen.code, year, price: typedPrice, source: "calc" }); // only what the visitor typed
   const cost = estimateUsedCost({ gen, segment: model.segment, year, powertrain, askingPrice, kmPerYear: km, body: model.body, maintenanceItems });
 
   return (
@@ -38,7 +52,7 @@ export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLi
         <label className={label}>דור<select value={genIndex} onChange={(e) => setGenIndex(Number(e.target.value))} className={field}>{model.gens.map((g, i) => <option key={g.code} value={i}>{genYears(g.from, g.to)} ({g.code})</option>)}</select></label>
         <label className={label}>שנת ייצור<select value={year} onChange={(e) => setYear(Number(e.target.value))} className={field}>{years.map((y) => <option key={y}>{y}</option>)}</select></label>
         <label className={label}>הנעה<select value={powertrain} onChange={(e) => setPowertrain(e.target.value as Powertrain)} className={field}>{gen.pt.map((p) => <option key={p} value={p}>{POWERTRAIN_HE[p]}</option>)}</select></label>
-        <label className={label}>מחיר מבוקש (₪)<input inputMode="numeric" dir="ltr" placeholder="85,000" value={price} onChange={(e) => setPrice(e.target.value)} className={field} /></label>
+        <label className={label}>מחיר מבוקש (₪)<input inputMode="numeric" dir="ltr" placeholder={fallbackPrice ? fallbackPrice.toLocaleString("he-IL") : "85,000"} value={price} onChange={(e) => setPrice(e.target.value)} className={field} /></label>
         <label className={label}>ק"מ בשנה<select value={km} onChange={(e) => setKm(Number(e.target.value))} className={field}>{KM_OPTIONS.map((k) => <option key={k} value={k}>{numberHe(k)}</option>)}</select></label>
       </div>
       {cost ? (
@@ -46,6 +60,7 @@ export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLi
           <div>
             <p className="text-[14px] text-muted">עלות חודשית משוערת</p>
             <p className="num text-[2.6rem] leading-none text-go">{shekel(cost.total)}</p>
+            {!typedPrice && <p className="mt-1 text-[13px] font-semibold text-muted">לפי מחיר משוער של {shekel(askingPrice)} — הכניסו את המחיר שקיבלתם לחישוב מדויק</p>}
             <p className="mt-1 text-[13px] text-muted">ירידת ערך שנתית מוערכת: {Math.round(cost.depreciationRate * 100)}%</p>
           </div>
           <CostBars cost={cost} />
