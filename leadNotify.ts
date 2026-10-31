@@ -27,7 +27,7 @@ export async function notifyNewLead(lead: LeadForEmail): Promise<void> {
   ];
   const html = `<div dir="rtl" style="font-family:Arial,sans-serif;font-size:15px;color:#0e1b2c">
 <h2 style="margin:0 0 8px">ליד חדש #${lead.id}: ${esc(TYPE_HE[lead.leadType] ?? lead.leadType)}</h2>
-<p style="margin:0 0 14px;color:#4d5b6c">כדאי לחזור תוך 5 דקות. הלקוח נתן הסכמה מתועדת ליצירת קשר.</p>
+${parseDetails(lead.details)?.contactVia === "whatsapp" ? '<p style="margin:0 0 8px;font-weight:bold;color:#0a7c59">מעדיף/ה שנחזור בוואטסאפ</p>' : ""}<p style="margin:0 0 14px;color:#4d5b6c">כדאי לחזור תוך 5 דקות. הלקוח נתן הסכמה מתועדת ליצירת קשר.</p>
 <table style="border-collapse:collapse">${rows.map(([k, v]) => `<tr><td style="padding:4px 12px 4px 0;color:#4d5b6c">${k}</td><td style="padding:4px 0;font-weight:bold">${esc(v)}</td></tr>`).join("")}</table>
 <p style="margin:18px 0 0"><a href="tel:${esc(lead.phone)}" style="background:#0a7c59;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-weight:bold">התקשרות</a>
 &nbsp;<a href="https://wa.me/${esc(intl)}" style="background:#25d366;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-weight:bold">וואטסאפ</a></p>

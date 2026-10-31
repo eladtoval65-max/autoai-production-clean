@@ -103,3 +103,20 @@ describe("leasing vs buying", () => {
   it("a zero-interest loan costs no interest", () => expect(leaseLoan(36000, 0, 36)).toBe(1000));
   it("financing adds interest", () => expect(compareLease({ ...base, buyDown: 30000, loanRate: 6 }).buy.interest).toBeGreaterThan(0));
 });
+
+import { summarize, validReport } from "../../server/prices/reports";
+
+describe("anonymous price reports", () => {
+  it("accepts only real model-years and plausible prices", () => {
+    expect(validReport({ makeId: "toyota", modelId: "corolla", genCode: "E210", year: 2021, price: 95000 })).toMatchObject({ year: 2021, source: "calc" });
+    expect(validReport({ makeId: "toyota", modelId: "corolla", genCode: "E210", year: 2005, price: 95000 })).toBeNull();
+    expect(validReport({ makeId: "toyota", modelId: "nope", genCode: "E210", year: 2021, price: 95000 })).toBeNull();
+    expect(validReport({ makeId: "toyota", modelId: "corolla", genCode: "E210", year: 2021, price: 100 })).toBeNull();
+  });
+  it("needs 5 reports per year and ignores outliers", () => {
+    const rows = [90, 92, 95, 97, 100, 400].map((k) => ({ year: 2021, price: k * 1000 }));
+    const [s] = summarize(rows);
+    expect(s.n).toBe(5); expect(s.median).toBe(95000);
+    expect(summarize(rows.slice(0, 4))).toEqual([]);
+  });
+});

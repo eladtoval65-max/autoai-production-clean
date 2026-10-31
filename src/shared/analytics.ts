@@ -47,3 +47,13 @@ export function sendEvent(name: string, page = "home", once = true) {
     else void fetch("/api/event", { method: "POST", headers: { "content-type": "application/json" }, body, keepalive: true });
   } catch { /* ignore */ }
 }
+
+/**
+ * Anonymous asking price typed into the used-car calculator / seller card: make, model, generation, year, price
+ * and the random tab id only. Sent after the visitor stops typing (see useReportPrice).
+ */
+export function reportPrice(r: { makeId: string; modelId: string; genCode: string; year: number; price: number; source: "calc" | "sell" }) {
+  try {
+    void fetch("/api/event", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ name: "price_report", sid: sid(), ...r }), keepalive: true }).catch(() => undefined);
+  } catch { /* never affects the UI */ }
+}

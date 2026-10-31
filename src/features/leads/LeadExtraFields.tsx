@@ -5,16 +5,32 @@
  * government vehicle registry (the same lookup as the site's plate check).
  */
 import { useState } from "react";
-import { DETAIL_FIELDS, monthHe, type DetailField, type LeadDetails, type LeadType } from "@shared/leadPolicy";
+import { CONTACT_FIELD, DETAIL_FIELDS, monthHe, type DetailField, type LeadDetails, type LeadType } from "@shared/leadPolicy";
 import { lookupPlate, normalizePlate } from "../home/model/plate";
 
 type Props = { leadType: LeadType; value: LeadDetails; onChange: (next: LeadDetails) => void; fieldClass: string };
 
 /** Only the keys that belong to this request type (switching type must not send the previous type's answers). */
 export function detailsFor(leadType: LeadType, details: LeadDetails): LeadDetails | undefined {
-  const keys = new Set(DETAIL_FIELDS[leadType].map((f) => f.key));
+  const keys = new Set([CONTACT_FIELD.key, ...DETAIL_FIELDS[leadType].map((f) => f.key)]);
   const picked = Object.fromEntries(Object.entries(details).filter(([k, v]) => keys.has(k as keyof LeadDetails) && v !== "" && v != null));
   return Object.keys(picked).length ? (picked as LeadDetails) : undefined;
+}
+
+/** "How should we get back to you?" — WhatsApp / call / either, as three buttons (asked for every request type). */
+export function ContactViaField({ value, onChange }: { value: LeadDetails; onChange: (next: LeadDetails) => void }) {
+  return (
+    <fieldset>
+      <legend className="text-[15px] font-semibold">{CONTACT_FIELD.label}</legend>
+      <div className="mt-1 grid grid-cols-3 gap-2">
+        {CONTACT_FIELD.options!.map(([k, label]) => (
+          <label key={k} className={`flex min-h-11 cursor-pointer items-center justify-center rounded-full border text-[15px] font-semibold ${value.contactVia === k ? "border-go bg-[#e6f4ee] text-go-deep" : "border-line bg-white"}`}>
+            <input type="radio" name="contactVia" value={k} checked={value.contactVia === k} onChange={() => onChange({ ...value, contactVia: k as LeadDetails["contactVia"] })} className="sr-only" />{label}
+          </label>
+        ))}
+      </div>
+    </fieldset>
+  );
 }
 
 export function LeadExtraFields({ leadType, value, onChange, fieldClass }: Props) {

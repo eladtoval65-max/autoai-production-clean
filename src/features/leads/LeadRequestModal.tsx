@@ -1,6 +1,6 @@
 import { LEAD_CONSENT_TEXT } from "@shared/const";
 import { partnerConsentText, type LeadDetails } from "@shared/leadPolicy";
-import { detailsFor, LeadExtraFields } from "./LeadExtraFields";
+import { ContactViaField, detailsFor, LeadExtraFields } from "./LeadExtraFields";
 import { CollectionNotice } from "./CollectionNotice";
 import { trpc } from "@/lib/trpc";
 import { useState, type FormEvent } from "react";
@@ -91,6 +91,7 @@ export default function LeadRequestModal({
               </label>
               <label className="block text-[15px] font-semibold">שם מלא<input className={`mt-1 ${fieldClass}`} autoComplete="name" value={fullName} onChange={event => setFullName(event.target.value)} required minLength={2} maxLength={120} /></label>
               <label className="block text-[15px] font-semibold">טלפון נייד<input className={`mt-1 ${fieldClass}`} dir="ltr" autoComplete="tel" type="tel" inputMode="tel" placeholder="0501234567" pattern="05[0-9]{8}" value={phone} onChange={event => setPhone(event.target.value.replace(/[\s-]/g, ""))} required /></label>
+              <ContactViaField value={details} onChange={setDetails} />
               <label className="block text-[15px] font-semibold">עיר / אזור (לא חובה)<input className={`mt-1 ${fieldClass}`} autoComplete="address-level2" value={city} onChange={event => setCity(event.target.value)} maxLength={80} /></label>
               <label className="block text-[15px] font-semibold">מתי מתכננים לקנות?
                 <select className={`mt-1 ${fieldClass}`} value={purchaseTimeline} onChange={event => setPurchaseTimeline(event.target.value as Timeline)}>

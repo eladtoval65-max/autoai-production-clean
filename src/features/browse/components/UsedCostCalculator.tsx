@@ -1,3 +1,5 @@
+import { usePriceReports, useReportPrice } from "../hooks/usePriceReports";
+import { PricesSeen } from "./PricesSeen";
 import { useEffect, useMemo, useState } from "react";
 import type { Make, ModelLine, Powertrain } from "../../../data/generations";
 import { factsFor } from "../../../data/facts";
@@ -24,6 +26,8 @@ export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLi
 
   const askingPrice = Number(price.replace(/[^\d]/g, ""));
   const maintenanceItems = factsFor(make.id, model.id, gen.code).maintenance;
+  useReportPrice({ makeId: make.id, modelId: model.id, genCode: gen.code, year, price: askingPrice, source: "calc" });
+  const reported = usePriceReports(make.id, model.id);
   const cost = estimateUsedCost({ gen, segment: model.segment, year, powertrain, askingPrice, kmPerYear: km, body: model.body, maintenanceItems });
 
   return (
@@ -50,7 +54,9 @@ export function UsedCostCalculator({ make, model }: { make: Make; model: ModelLi
           )}
         </div>
       ) : <p className="mt-5 rounded-xl bg-mist px-4 py-3 text-[15px] text-muted">הכניסו מחיר כדי לראות את החישוב.</p>}
+      <PricesSeen years={reported} name={`${make.he} ${model.he}`} />
       <p className="mt-4 text-[13px] text-muted">
+        המחיר שתכניסו נשמר בלי שום פרט מזהה (רק דגם, שנה ומחיר) כדי להציג לגולשים אחרים מחירים מהשוק.{" "}
         כל המספרים הם הערכה בלבד: צריכה לפי ממוצע בפועל לדור, דלק ₪{PRICES.petrolPerL.toFixed(2)} לליטר, חשמל ₪{PRICES.electricityPerKwh} לקוט"ש, ביטוח לפי שווי הרכב, הספק וסוג הרכב (לא הצעת מחיר).
         כדאי להשוות את המחיר המבוקש למחירון —{" "}
         <a className="underline" href="https://www.yad2.co.il/price-list" target="_blank" rel="noopener noreferrer">מחירון יד2</a> (חינם),{" "}

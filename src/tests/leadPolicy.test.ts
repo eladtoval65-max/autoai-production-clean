@@ -182,3 +182,10 @@ describe("smart lead details", () => {
     expect(detailsSummary({ needsFinancing: "yes" })).toContain("כן");
   });
 });
+
+describe("contact preference", () => {
+  it("is kept for every request type and shown in the summary", () => {
+    expect(detailsFor("vehicle", { contactVia: "whatsapp" })).toEqual({ contactVia: "whatsapp" });
+    expect(detailsSummary({ contactVia: "whatsapp" })).toBe("איך נוח שנחזור אליכם: וואטסאפ");
+  });
+});

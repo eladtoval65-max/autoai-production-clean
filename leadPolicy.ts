@@ -78,6 +78,7 @@ export type LeadDetails = Partial<{
   loanAmount: number; downPayment: number; months: number;               // financing
   tradeInKm: number;                                                      // trade-in
   needsFinancing: "yes" | "no" | "unsure"; hasTradeIn: "yes" | "no";     // buying
+  contactVia: "phone" | "whatsapp" | "any";                               // every request: how the customer prefers to be contacted
 }>;
 
 export type DetailField = {
@@ -117,6 +118,9 @@ export const DETAIL_FIELDS: Record<LeadType, DetailField[]> = {
   vehicle: BUYING, used_car: BUYING, test_drive: BUYING, leasing: [BUYING[1]],
 };
 
+/** Asked on every request (not per type): many people don't answer calls from unknown numbers. */
+export const CONTACT_FIELD: DetailField = { key: "contactVia", label: "איך נוח שנחזור אליכם?", kind: "choice", options: [["whatsapp", "וואטסאפ"], ["phone", "שיחת טלפון"], ["any", "לא משנה"]] };
+
 const MONTHS_HE = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"];
 export const monthHe = (m: number) => MONTHS_HE[m - 1] ?? String(m);
 
@@ -130,7 +134,7 @@ export function monthsToRenewal(renewalMonth: number | undefined, now = new Date
 export function detailsSummary(details: LeadDetails | null | undefined): string {
   if (!details) return "";
   const seen = new Set<string>();
-  const all = Object.values(DETAIL_FIELDS).flat().filter((f) => !seen.has(f.key) && seen.add(f.key));
+  const all = [CONTACT_FIELD, ...Object.values(DETAIL_FIELDS).flat()].filter((f) => !seen.has(f.key) && seen.add(f.key));
   return all.filter((f) => details[f.key] != null && details[f.key] !== "").map((f) => {
     const v = details[f.key]!;
     const shown = f.kind === "month" ? monthHe(Number(v)) : f.kind === "choice" ? f.options?.find(([k]) => k === v)?.[1] ?? v : v;

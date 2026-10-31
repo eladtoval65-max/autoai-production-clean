@@ -3,6 +3,7 @@
  * The seller builds a "monthly cost" card for the car they're selling and shares its link / text in their ad.
  * Nothing is saved on our side. Optional: a consented trade-in request.
  */
+import { useReportPrice } from "../browse/hooks/usePriceReports";
 import { useFacts } from "../../data/useFacts";
 import { useEffect, useMemo, useState } from "react";
 import { MAKES, type Powertrain } from "../../data/generations";
@@ -44,6 +45,7 @@ export default function SellPage() {
   useEffect(() => { setYear(years[0]); }, [modelId]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => { if (!gen.pt.includes(pt)) setPt(gen.pt[0]); }, [gen]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  useReportPrice({ makeId: make.id, modelId: model.id, genCode: gen.code, year, price: Number(price.replace(/[^\d]/g, "")), source: "sell" });
   const query = encodeCard({ makeId: make.id, modelId: model.id, year, pt, price: Number(price.replace(/[^\d]/g, "")), km });
   const cardData = decodeCard(query, MAKES);
   const url = `${window.location.origin}/sell/card?${query}`;

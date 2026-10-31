@@ -35,7 +35,7 @@ export function StatsTab() {
   return (
     <section className="space-y-6">
       <div className="flex flex-wrap items-end justify-between gap-3">
-        <div><h1 className="text-2xl">נתונים ומשפך</h1><p className="mt-1 text-[14px] text-muted">דוח שבועי נשלח למייל אוטומטית בכל יום ראשון בבוקר.</p><div className="mt-2"><ReportNowButton /></div></div>
+        <div><h1 className="text-2xl">נתונים ומשפך</h1><p className="mt-1 text-[14px] text-muted">דוח שבועי נשלח למייל אוטומטית בכל יום ראשון בבוקר.</p><div className="mt-2"><ReportNowButton /></div>{stats.priceReports != null && <p className="mt-1 text-[14px] text-muted">מחירי יד שנייה שגולשים הקלידו (אנונימי): <b>{stats.priceReports}</b></p>}</div>
         <div className="flex gap-1 rounded-full border border-line bg-white p-1" role="group" aria-label="טווח">
           {RANGES.map((d) => <button key={d} onClick={() => setDays(d)} aria-pressed={days === d} className={`min-h-9 rounded-full px-4 text-[14px] font-bold ${days === d ? "bg-ink text-white" : "text-muted"}`}>{d} ימים</button>)}
         </div>

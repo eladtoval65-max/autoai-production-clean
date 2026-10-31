@@ -30,7 +30,7 @@ export type LandingRow = {
 };
 
 export type Stats = {
-  days: number; byDay: { d: string; n: number }[]; byStatus: { k: string; n: number }[]; byType: { k: string; n: number }[]; bySource: { k: string; n: number }[]; byOutcome?: { k: string; n: number }[];
+  days: number; byDay: { d: string; n: number }[]; byStatus: { k: string; n: number }[]; byType: { k: string; n: number }[]; bySource: { k: string; n: number }[]; byOutcome?: { k: string; n: number }[]; priceReports?: number;
   funnel: { k: string; n: number }[]; money: { paid: number; owed: number }; followUpsDue: number;
 };
 
