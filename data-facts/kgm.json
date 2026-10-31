@@ -1,6 +1,6 @@
 {
   "make": "kgm",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "tivoli": {
       "X100": {
@@ -179,6 +179,34 @@
             "url": "https://www.4x4.co.il/article/16036"
           }
         }
+      }
+    },
+    "musso-ev": {
+      "O100": {
+        "issues": [
+          {
+            "he": "KGM הודתה שבאוסטרליה פורסם הרכב עם 8 כריות אוויר, אך בפועל יש 6 — חסרות כרית ברכיים לנהג וכרית מרכזית קדמית (ANCAP פרסמה התרעה). בבדיקה: לוודא מול היבואן כמה כריות אוויר מותקנות ברכב הספציפי.",
+            "level": "manufacturer",
+            "scope": "אוסטרליה, כ-306 רכבים עד יולי 2026 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "EV Central — KGM Musso EV missing two airbags it was advertised with",
+              "url": "https://evcentral.com.au/safety-shock-for-new-electric-ute-kgm-musso-ev-missing-two-airbags-it-was-advertised-with/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 81 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 238,
+            "cons": 22.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — KGM Musso EV 4WD: real-world 225 Wh/km (estimate)",
+              "url": "https://ev-database.org/car/3227/KGM-Musso-EV-4WD"
+            }
+          }
+        ]
       }
     }
   }

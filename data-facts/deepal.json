@@ -1,0 +1,22 @@
+{
+  "make": "deepal",
+  "models": {
+    "s07": {
+      "C673": {
+        "engines": [
+          {
+            "name": "חשמלי, הנעה אחורית (Standard)",
+            "pt": "ev",
+            "cons": 19.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — energy consumption cheatsheet: Changan Deepal S07 Standard 312 Wh/mi real-world (≈19.4 kWh/100km)",
+              "url": "https://ev-database.org/imp/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "updated": "2026-10-31"
+}

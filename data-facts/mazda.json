@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "mazda3": {
       "BL": {
@@ -292,7 +292,7 @@
             "name": "2.5 בנזין מיקרו-היברידי (e-Skyactiv G)",
             "pt": "petrol",
             "hp": 141,
-            "cons": 6.0,
+            "cons": 6,
             "unit": "L",
             "source": {
               "title": "Motor1 España — Mazda CX-5 e-SKYACTIV G 2026 prueba de consumo real: 5.95 L/100km measured (Rome–Forlì, 360 km, AWD; European 141 CV version, Israeli spec quoted as 187hp)",
@@ -308,7 +308,27 @@
             "title": "Cartube — מאזדה CX-5 החדש 2026 נחת בישראל, מחיר 189,900 שקל (12.3.2026)",
             "url": "https://www.cartube.co.il/חדשות-רכב/מאזדה-cx-5-החדש-2026-נחת-בישראל-מחיר-189900-שקל"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "תוכנית שירות של מאזדה: תקשורת בין יחידת המולטימדיה למודול התקשורת עלולה להתנתק — שירותים מקוונים לא זמינים, נורית אזהרה וצפצוף, ועדכוני תוכנה מרחוק (OTA) שלא מושלמים. התיקון: צריבת תוכנה מעודכנת במוסך. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהעדכון בוצע.",
+            "level": "manufacturer",
+            "scope": "דגמי 2026 בשוק האמריקאי שיוצרו 16.12.2025–10.7.2026 (תוכנית SSPE2) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — Mazda owner notice, Special Service Program SSPE2: Ethernet Communication and OTA Update Concerns (2026MY CX-5, Sept 2026)",
+              "url": "https://static.nhtsa.gov/odi/tsbs/2026/MC-11037897-0001.pdf"
+            }
+          },
+          {
+            "he": "תוכנית שירות של מאזדה: תקלת תוכנה במודול התקשורת ובמודול הבקרה (BCM) עלולה להשאיר מערכות ערות אחרי כיבוי ולרוקן את המצבר. התיקון: צריבת תוכנת BCM במוסך. בבדיקה: לשאול אם הרכב סבל ממצבר ריק ולוודא שהעדכון בוצע.",
+            "level": "manufacturer",
+            "scope": "דגמי 2026 בשוק האמריקאי (תוכנית MSP67) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA — Mazda dealer bulletin, Special Service Program SSPE2 & MSP67 (2026MY CX-5, battery depletion after IG OFF; updated 21.8.2026)",
+              "url": "https://static.nhtsa.gov/odi/tsbs/2026/MC-11036736-0001.pdf"
+            }
+          }
+        ]
       },
       "KE": {
         "issues": [

@@ -478,6 +478,44 @@
           }
         }
       }
+    },
+    "cyberster": {
+      "EC32": {
+        "issues": [
+          {
+            "he": "דלתות המספריים החשמליות נעצרות באמצע כשחיישן המכשולים מזהה אדם קרוב, והנוסע לא תמיד מגיע לכפתור השחרור — תקלה תפעולית שדווחה במבחן ארוך טווח. בבדיקה: לפתוח ולסגור את שתי הדלתות כמה פעמים, מהכפתור ומהשלט.",
+            "level": "widely_reported",
+            "scope": "כל הגרסאות",
+            "source": {
+              "title": "Top Gear — MG Cyberster Trophy long-term review, report 4",
+              "url": "https://www.topgear.com/long-term-car-reviews/mg-motor-uk/cyberster/250kw-trophy-single-motor-77-kwh-2dr-auto/report-4"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 77 קוט\"ש, הנעה אחורית (Trophy)",
+            "pt": "ev",
+            "cons": 17.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — energy consumption cheatsheet: MG Cyberster Trophy 286 Wh/mi real-world (≈17.8 kWh/100km)",
+              "url": "https://ev-database.org/imp/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי 77 קוט\"ש, הנעה כפולה 4X4 (GT)",
+            "pt": "ev",
+            "hp": 510,
+            "cons": 18.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — MG Cyberster GT (375 kW / 510 PS): 304 Wh/mi real-world avg (≈18.9 kWh/100km; 16.5 mild – 22.2 cold)",
+              "url": "https://ev-database.org/car/2203/MG-Cyberster-GT"
+            }
+          }
+        ]
+      }
     }
   }
 }

@@ -352,6 +352,19 @@
               "url": "https://www.motorverso.com/recalls/genesis/g90/2023/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "3.5 V6 טורבו עם מגדש חשמלי (E-Supercharger), הנעה כפולה",
+            "pt": "mhev",
+            "hp": 409,
+            "cons": 12.4,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide — Test Drive: 2023 Genesis G90 3.5T E-Supercharger AWD (real-world 18.9 mpg ≈ 12.4 ל'/100 ק\"מ, 334 מייל, 60% עירוני)",
+              "url": "https://blog.consumerguide.com/test-drive-2023-genesis-g90/"
+            }
+          }
         ]
       }
     }

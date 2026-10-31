@@ -291,6 +291,15 @@
               "title": "Citroën Belgium — Extended warranty for PureTech 1.0 and 1.2 engines (timing belt degradation / oil consumption, up to 10 years or 180,000 km)",
               "url": "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html"
             }
+          },
+          {
+            "level": "recall",
+            "he": "אומים רופפים בצינור הלחץ הגבוה בין משאבת הדלק למסילה — דליפת דלק וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 2023/2024–04/2025 (לפני השקת הדור החדש)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C5 Aircross (2023–2025) fuel leak / fire, Safety Gate SR/02935/25 (code GJ6)",
+              "url": "https://car-recalls.eu/recall/citroen-c5-aircross-2025-fuel-fire/"
+            }
           }
         ],
         "engines": [
@@ -308,17 +317,7 @@
         ]
       },
       "Gen2 (STLA Medium)": {
-        "issues": [
-          {
-            "level": "recall",
-            "he": "אומים רופפים בצינור הלחץ הגבוה בין משאבת הדלק למסילה — דליפת דלק וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
-            "scope": "יוצרו 2023/2024–04/2025 (כולל הדור החדש)",
-            "source": {
-              "title": "car-recalls.eu — Citroen C5 Aircross (2023–2025) fuel leak / fire, Safety Gate SR/02935/25 (code GJ6)",
-              "url": "https://car-recalls.eu/recall/citroen-c5-aircross-2025-fuel-fire/"
-            }
-          }
-        ],
+        "issues": [],
         "ncap": {
           "stars": 4,
           "year": 2025,
@@ -332,7 +331,20 @@
             "title": "auto.co.il — סיטרואן C5 איירקרוס החדש בישראל – החל מ-180 אלף שקל",
             "url": "https://www.auto.co.il/articles/car-news/local-news/c5-aircross-2026/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "חשמלי 73 קוט\"ש, הנעה קדמית",
+            "pt": "ev",
+            "hp": 213,
+            "cons": 19.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Citroën C5 Aircross Comfort Range (73.7 kWh, 157 kW): צריכה ריאלית משוקללת 197 Wh/km",
+              "url": "https://ev-database.org/car/3230/Citroen-C5-Aircross-Comfort-Range"
+            }
+          }
+        ]
       }
     },
     "c3-aircross": {

@@ -68,6 +68,83 @@
             "url": "https://www.auto.co.il/articles/car-news/117736/"
           }
         }
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאה: שרשרת גל הזיזים במנוע 1.5 BlueHDi עלולה להתארך ולהישבר בגלל פיח בשמן — עלול לגרום להשבתת מנוע. פיאט הרחיבה כיסוי מיוחד ל-10 שנים/240 אלף ק\"מ בכפוף לטיפולים בזמן. בבדיקה: לוודא שהקריאה בוצעה, ספר טיפולים מלא עם שמן מאושר, ולהקשיב לרעשי שרשרת.",
+            "level": "recall",
+            "scope": "1.5 BlueHDi (DV5R), ייצור 19.5.2022–31.1.2023, אירופה (קוד F511) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Fiat Doblo 2022–2023 BlueHDi failure (RAPEX SR/02657/25)",
+              "url": "https://car-recalls.eu/fr/recall/fiat-doblo-2022-2023-bluehdi-failure/"
+            }
+          },
+          {
+            "he": "פיאט מודה בבלאי מוקדם של שרשרת התזמון במנועי 1.5 BlueHDi ומעניקה תוכנית כיסוי מורחבת (תוכנה לשיפור לחץ שמן ומעבר לשמן FPW9.55535/03). בבדיקה: לבדוק זכאות לפי מספר שלדה אצל היבואן ולוודא שעדכון התוכנה בוצע.",
+            "level": "manufacturer",
+            "scope": "דובלו 2022–2023, 1.5 BlueHDi",
+            "source": {
+              "title": "Fiat UK — 1.5 BlueHDi engine key information",
+              "url": "https://www.fiat.co.uk/owners/1-5-blue-hdi-engine-key-information"
+            }
+          },
+          {
+            "he": "קריאה: תקלה במעגל הוואקום עלולה לנטרל את מערכת סיוע הבלימה ההידראולית (HBC) ולהפחית את יעילות הבלימה. בבדיקה: לוודא שהקריאה בוצעה ושהבלמים לא 'קשים' בלחיצה ממושכת.",
+            "level": "recall",
+            "scope": "ייצור 14.9.2023–20.1.2024, אירופה (קוד 6799) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Fiat Doblo 2023–2024 brakes (Safety Gate A12/03178/24)",
+              "url": "https://car-recalls.eu/recall/fiat-doblo-2023-2024-brakes-accident/?noamp=mobile"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו דיזל, אוטומטית 8",
+            "pt": "diesel",
+            "hp": 130,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "Green NCAP datasheet — Fiat Doblo 2024 1.5 diesel 96 kW: On-Road Drive 5.8 L/100km (highway 8.5)",
+              "url": "https://greenncap.com/wp-content/uploads/datasheets/2024/fiat-doblo-2024-0143.pdf"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 172990,
+          "year": 2023,
+          "note": "1.5 טורבו דיזל 130 כ\"ס, קומבי קצר 5 מושבים",
+          "source": {
+            "title": "Cartube — פיאט דובלו החדש 2023 בישראל: מחיר 172,990 שקל (20.04.2023)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פיאט-דובלו-החדש-2023-בישראל-מחיר-172990-שקל"
+          }
+        }
+      }
+    },
+    "grande-panda": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רתמת החיווט של ההגה החשמלי עלולה להינזק מרעידות ולגרום לקצר או לשריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2024–2025 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Stellantis recall swells: fire risk now affects over 800,000 vehicles (week 12/26)",
+              "url": "https://car-recalls.eu/stellantis-recall-swells-fire-risk-now-affects-over-800000-vehicles-12-26/"
+            }
+          },
+          {
+            "he": "קריאת שירות בגרסה המיילד-היברידית: מגע בין צינור מסנן החלקיקים לכיסוי ההדק של המתנע-גנרטור 48V עלול לגרום לשריפה בתא המנוע. בבדיקה: אם הרכב היברידי — לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "1.2 מיילד-היברידי בלבד (KBA 16287R, פיאט) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Stellantis: Another engine fire risk (KBA, 31.03.2026)",
+              "url": "https://car-recalls.eu/stellantis-another-engine-fire-risk-kba/"
+            }
+          }
+        ]
       }
     }
   }

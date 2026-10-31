@@ -412,7 +412,20 @@
             "title": "Cartube — 2026 אודי Q3 החדש נחת בישראל - מחיר 318,900 שקל",
             "url": "https://www.cartube.co.il/component/tags/tag/אודי-q3"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 TFSI פלאג-אין (e-hybrid, 200 קו\"ט)",
+            "pt": "phev",
+            "hp": 272,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Audi Q3 1.5 TFSI e-Hybrid 200 kW (FJ) ab 2025: ממוצע בנזין מדווח ע\"י משתמשים 6.6 ל'/100 ק\"מ (7 דיווחים בלבד)",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q3/Q3/q3-1-5-tfsi-e-hybrid-200-kw-fj_52890/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "q5": {

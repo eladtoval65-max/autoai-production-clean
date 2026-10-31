@@ -423,6 +423,34 @@
           }
         ]
       }
+    },
+    "lm": {
+      "AAWH10": {
+        "issues": [
+          {
+            "he": "קריאה: תקלה בתכנות לוח השעונים פוגעת בזיכרון, והתצוגה (מד מהירות ונורות אזהרה) עלולה לכבות. בבדיקה: לוודא שהקריאה בוצעה ושלוח השעונים עובד תקין.",
+            "level": "recall",
+            "scope": "ייצור 2024–2025, אירופה (קוד 25SD-063) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Lexus LM350h 2024–2025 display failure (Safety Gate SR/02991/25)",
+              "url": "https://car-recalls.eu/recall/lexus-lm350h-2024-2025-display-failure/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 היברידי, הנעה כפולה E-Four",
+            "pt": "hybrid",
+            "hp": 250,
+            "cons": 7,
+            "unit": "L",
+            "source": {
+              "title": "GoAuto — 2025 Lexus LM 350h Sports Luxury review: indicated 7.0 L/100km on test",
+              "url": "https://www.goauto.com.au/car-reviews/lexus/lm/350h-awd/2025-lexus-lm-350h-sports-luxury-review/2025-08-27/97207.html"
+            }
+          }
+        ]
+      }
     }
   }
 }

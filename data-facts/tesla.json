@@ -1,6 +1,6 @@
 {
   "make": "tesla",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "model-3": {
       "Gen1": {
@@ -421,6 +421,51 @@
           "year": 2019,
           "url": "https://www.euroncap.com/press-media/best-in-class-battle-heats-up-in-latest-batch-of-results/"
         }
+      }
+    },
+    "cybertruck": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאה: פס הקישוט הנירוסטה מעל החלונות (cant rail) עלול להתנתק בגלל כשל בדבק ולהפוך למפגע בכביש. התיקון: החלפת הפס ללא עלות. בבדיקה: לוודא שהקריאה בוצעה ושהפס מחובר היטב לאורך כל הגג.",
+            "level": "recall",
+            "scope": "ייצור נובמבר 2023–פברואר 2025, ארה\"ב (כ-46,000 רכבים) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NBC News — Tesla recalls 46,000 Cybertrucks, citing exterior panel (cant rail)",
+              "url": "https://www.nbcnews.com/business/autos/tesla-recalls-46000-cybertrucks-citing-exterior-panel-says-can-increas-rcna197329"
+            }
+          },
+          {
+            "he": "קריאה: כרית דוושת ההאצה עלולה להשתחרר ולהיתקע בחיפוי, מה שעלול לגרום להאצה לא רצויה. התיקון: החלפה/תיקון מכלול הדוושה. בבדיקה: לוודא שהקריאה בוצעה ושהדוושה יציבה.",
+            "level": "recall",
+            "scope": "שנתון 2024, ייצור 13.11.2023–4.4.2024, ארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ABC News — Tesla recalling nearly 4,000 Cybertrucks because accelerator pedal can get stuck",
+              "url": "https://abcnews.go.com/US/wireStory/tesla-recalling-4000-cybertrucks-accelerator-pedal-stuck-109428692"
+            }
+          },
+          {
+            "he": "קריאה: מנוע המגב הקדמי עלול להפסיק לפעול בפתאומיות (נזק לרכיב בבדיקת הספק); בקריאה נפרדת — קישוט שולי ארגז המטען (sail applique) עלול להשתחרר. בבדיקה: להפעיל את המגב בכל המהירויות ולוודא ששתי הקריאות בוצעו.",
+            "level": "recall",
+            "scope": "שנתון 2024, ייצור נובמבר 2023–מאי 2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "The Register — Tesla Cybertruck recalled again (wiper motor, bed trim)",
+              "url": "https://www.theregister.com/2024/06/25/tesla_cybertruck_recalled_again/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 123 קוט\"ש, הנעה כפולה (AWD)",
+            "pt": "ev",
+            "cons": 28,
+            "unit": "kWh",
+            "source": {
+              "title": "ArenaEV — Edmunds real-world range test, Cybertruck AWD: 45.1 kWh/100 mi (≈28.0 kWh/100 km)",
+              "url": "https://www.arenaev.com/tesla_cybertruck_range_test_reveals_some_surprises-news-3194.php"
+            }
+          }
+        ]
       }
     }
   }

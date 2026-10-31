@@ -1,6 +1,6 @@
 {
   "make": "jaecoo",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "jaecoo-7": {
       "J7": {
@@ -104,6 +104,50 @@
             "source": {
               "title": "autocentrum.pl — Omoda 5 1.6 T-GDI 147 KM (2024–): owner-reported average 8.3 l/100 km from 33 reports",
               "url": "https://www.autocentrum.pl/spalanie/omoda/5/silnik-benzynowy-1.6-t-gdi-147km-od-2024/"
+            }
+          }
+        ]
+      }
+    },
+    "omoda-e5": {
+      "E5": {
+        "issues": [
+          {
+            "he": "קריאה: מערכת ההתרעה הקולית להולכי רגל (AVAS) לא הופעלה, כך שהרכב שקט לחלוטין במהירות נמוכה. התיקון בסוכנות ללא עלות. בבדיקה: לוודא שנשמע צליל בנסיעה איטית ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתוני 2025–2026, ניו זילנד (RCB-2604) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "EVs & Beyond — Omoda E5 recalled in NZ over silent pedestrian warning system",
+              "url": "https://evsandbeyond.co.nz/omoda-e5-recall-avas-pedestrian-warning/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 61 קוט\"ש, הנעה קדמית",
+            "pt": "ev",
+            "hp": 211,
+            "cons": 17.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Omoda E5: real-world 178 Wh/km (estimate)",
+              "url": "https://ev-database.org/car/3046/Omoda-E5"
+            }
+          }
+        ]
+      }
+    },
+    "omoda-7": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין SHS",
+            "pt": "phev",
+            "cons": 5.9,
+            "unit": "L",
+            "source": {
+              "title": "Fleet World — Seven days with an Omoda 7 SHS-P: 47.8 mpg UK (≈5.9 L/100km) over a week incl. 450-mile trip, never plugged in (PHEV fuel figure)",
+              "url": "https://fleetworld.co.uk/sutties-seven-days-with-an-omoda-7-shs-p-plug-in-hybrid-suv/"
             }
           }
         ]

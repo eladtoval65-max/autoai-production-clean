@@ -278,7 +278,42 @@
             "title": "Carzone — 2026 קופרה טרמאר החדשה מחיר החל מ-225,900 ש\"ח",
             "url": "https://www.carzone.co.il/news/2026-קופרה-טררמאר-החדשה-מחיר-החל-מ-225900-שח/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין היברידי מתון (eTSI)",
+            "pt": "mhev",
+            "hp": 150,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2026 Cupra Terramar review (Terramar S 110kW, 7.3L/100km as tested vs 5.7 claimed)",
+              "url": "https://www.carexpert.com.au/car-reviews/2026-cupra-terramar-review"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (VZ), הנעה כפולה",
+            "pt": "petrol",
+            "hp": 265,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2025 Cupra Terramar VZ review (195kW, 9.2L/100km as tested vs 8.2 claimed)",
+              "url": "https://www.carexpert.com.au/car-reviews/2025-cupra-terramar-vz-review"
+            }
+          },
+          {
+            "name": "1.5 טורבו פלאג-אין (e-Hybrid VZ)",
+            "pt": "phev",
+            "hp": 272,
+            "cons": 4.3,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 — Tatsächlicher Verbrauchstest Cupra Terramar VZ e-Hybrid 272 PS (בנזין בלבד, נסיעה אחת של 360 ק\"מ שהחלה בסוללה מלאה)",
+              "url": "https://de.motor1.com/reviews/748000/tats%C3%A4chlicher-verbrauchstest-cupra-terramar-pluginhybrid/"
+            }
+          }
+        ]
       }
     }
   }

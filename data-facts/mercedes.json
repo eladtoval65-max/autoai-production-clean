@@ -1767,6 +1767,30 @@
               "url": "https://australiancar.reviews/?p=47435"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "5.5 V8 בנזין (SL 500)",
+            "pt": "petrol",
+            "hp": 388,
+            "cons": 15.3,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mercedes SL 500 (230) 2008–2011, 388 PS: ממוצע מדווח ע\"י משתמשים 15.3 ל'/100 ק\"מ (69 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-SL-Klasse/SL-500/sl-500-230_15187/verbrauch/"
+            }
+          },
+          {
+            "name": "6.2 V8 בנזין (SL 63 AMG)",
+            "pt": "petrol",
+            "hp": 525,
+            "cons": 17.8,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mercedes SL 63 AMG (230) 2008–2011, 525 PS: ממוצע מדווח ע\"י משתמשים 17.8 ל'/100 ק\"מ (290 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-SL-Klasse/SL-63/sl-63-amg-230_15276/verbrauch/"
+            }
+          }
         ]
       },
       "R232": {
@@ -1807,7 +1831,42 @@
             "title": "Cartube — מרצדס AMG SL החדשה 2022 בישראל, מחיר 1,190,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/מרצדס-amg-sl-החדשה-2022-בישראל-מחיר-1190000-שקל"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (AMG SL 43)",
+            "pt": "mhev",
+            "hp": 381,
+            "cons": 11.8,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mercedes SL 43 AMG (R1slamg) ab 2022, 381 PS: ממוצע מדווח ע\"י משתמשים 11.8 ל'/100 ק\"מ (77 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-SL-Klasse/SL-43/sl-43-amg-r1slamg_49917/verbrauch/"
+            }
+          },
+          {
+            "name": "4.0 V8 טווין-טורבו (AMG SL 55)",
+            "pt": "petrol",
+            "hp": 476,
+            "cons": 13.4,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mercedes SL 55 AMG 4matic+ (R1slamg) ab 2022, 476 PS: ממוצע מדווח ע\"י משתמשים 13.4 ל'/100 ק\"מ (30 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-SL-Klasse/SL-55/sl-55-amg-4matic-r1slamg_49918/verbrauch/"
+            }
+          },
+          {
+            "name": "4.0 V8 טווין-טורבו (AMG SL 63)",
+            "pt": "petrol",
+            "hp": 585,
+            "cons": 16.1,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mercedes SL 63 AMG 4matic+ (R1slamg) ab 2022, 585 PS: ממוצע מדווח ע\"י משתמשים 16.1 ל'/100 ק\"מ (93 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-SL-Klasse/SL-63/sl-63-amg-4matic-r1slamg_49919/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

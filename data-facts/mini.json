@@ -213,7 +213,31 @@
             "title": "Carzone — מיני קופר החדשה 2024 מחיר החל מ-205,000 ש\"ח",
             "url": "https://www.carzone.co.il/news/מיני-קופר-החדשה-2024-מחיר-החל-מ-205000-שח/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (Cooper C)",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mini Cooper C 1.5 (FM6) ab 2024, 156 PS: ממוצע מדווח ע\"י משתמשים 6.6 ל'/100 ק\"מ (37 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Cooper/mini-cooper-c-1-5-fm6_51050/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (Cooper S)",
+            "pt": "petrol",
+            "hp": 204,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Verbrauch Mini Cooper S 2.0 (FM6) ab 2024, 204 PS: ממוצע מדווח ע\"י משתמשים 7.3 ל'/100 ק\"מ (26 דיווחים)",
+              "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Cooper-S/mini-cooper-s-2-0-fm6_51051/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "countryman": {

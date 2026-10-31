@@ -27,7 +27,27 @@
             "title": "וואלה! רכב — השקת ליפמוטור T03 בישראל (22.11.2022)",
             "url": "https://cars.walla.co.il/item/3542037"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מדחס המיזוג מתואר כרכיב הבעייתי ביותר ונוטה להיכשל אחרי תום האחריות הבסיסית (3 שנים/100 אלף ק\"מ); תקלה בו עלולה להשפיע גם על מערכת המתח הגבוה. בבדיקה: לוודא שהמזגן מקרר וחימום פועל כראוי ולבקש היסטוריית טיפולים במוסך מורשה.",
+            "level": "widely_reported",
+            "scope": "כל שנות הייצור; דיווח מאיטליה",
+            "source": {
+              "title": "Autoblog.it — Leapmotor T03, l'esperienza dopo 80.000 km e 5 anni sulle strade italiane",
+              "url": "https://www.autoblog.it/post/leapmotor-t03-lesperienza-dopo-80-000-km-e-5-anni-sulle-strade-italiane"
+            }
+          },
+          {
+            "he": "חדירת רוח/רעשי רוח מהדלתות הקדמיות ומהחלונות המשולשים הקדמיים — בעיה שלא נפתרה לגמרי גם ברכבים חדשים יותר. בבדיקה: נסיעת מבחן במהירות בין-עירונית ובדיקת אטמי הדלתות.",
+            "level": "widely_reported",
+            "scope": "דגמים מוקדמים וחדשים; דיווח מאיטליה",
+            "source": {
+              "title": "Autoblog.it — Leapmotor T03, l'esperienza dopo 80.000 km e 5 anni sulle strade italiane",
+              "url": "https://www.autoblog.it/post/leapmotor-t03-lesperienza-dopo-80-000-km-e-5-anni-sulle-strade-italiane"
+            }
+          }
+        ]
       }
     }
   },

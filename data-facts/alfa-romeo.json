@@ -45,7 +45,7 @@
             "name": "2.0 טורבו בנזין",
             "pt": "petrol",
             "hp": 280,
-            "cons": 10.0,
+            "cons": 10,
             "unit": "L",
             "source": {
               "title": "Fuelly — 2018 Alfa Romeo Stelvio (mostly 2.0 turbo, US spec): 23.5 mpg US average, 31 vehicles, 2,411 fuel-ups (converted)",
@@ -99,7 +99,7 @@
             "name": "2.0 טורבו בנזין",
             "pt": "petrol",
             "hp": 280,
-            "cons": 9.0,
+            "cons": 9,
             "unit": "L",
             "source": {
               "title": "Fuelly — Alfa Romeo Giulia, model year 2017 row (US, mostly 2.0 turbo): 26.0 mpg US average, 37 vehicles, 2,429 fuel-ups (converted)",
@@ -107,6 +107,61 @@
             }
           }
         ]
+      }
+    },
+    "junior": {
+      "966": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מגע בין צינור מסנן החלקיקים לכיסוי ההדק של המתנע-גנרטור 48V עלול לגרום לחדירת מים ולשריפה בתא המנוע. התיקון: החלפת הכיסוי ובדיקת מרווח הצינור. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "מיילד-היברידי, ייצור 27.11.2023–18.12.2025 (KBA 16289R) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Stellantis: Another engine fire risk (KBA, 31.03.2026)",
+              "url": "https://car-recalls.eu/stellantis-another-engine-fire-risk-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מערכת פילוס הפנסים במטריקס LED עלולה לא לפעול; התיקון הוא לימוד מחדש של יחידת הבקרה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2024 (KBA 14788R) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Two recalls for the Alfa Romeo Junior (KBA, 04.03.2025)",
+              "url": "https://car-recalls.eu/two-recalls-alfa-romeo-junior-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כיול שגוי של ההגה החשמלי עלול לנטרל את התרעת סטייה מנתיב בפניות מעל 90 קמ\"ש; התיקון עדכון כיול. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2024 (KBA 14900R) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Two recalls for the Alfa Romeo Junior (KBA, 04.03.2025)",
+              "url": "https://car-recalls.eu/two-recalls-alfa-romeo-junior-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היברידי 136 כ\"ס",
+            "pt": "mhev",
+            "hp": 136,
+            "cons": 4.75,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 España — Alfa Junior Ibrida prueba de consumo real: 4.75 L/100km (single 360 km Rome–Forlì route test)",
+              "url": "https://es.motor1.com/reviews/744646/alfa-junior-ibrida-consumo-real/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2024,
+          "note": "החל מ-169,900 ש\"ח, 1.2 טורבו היברידי מתון 136 כ\"ס",
+          "source": {
+            "title": "ice — אלפא רומיאו ג'וניור הושקה בישראל (15.12.2024)",
+            "url": "https://www.ice.co.il/auto/news/article/1042457"
+          }
+        }
       }
     }
   },

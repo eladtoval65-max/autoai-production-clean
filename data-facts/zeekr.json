@@ -102,7 +102,18 @@
             "title": "auto.co.il — זיקר 001 בישראל – מחיר החל מ-270,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/136808/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות בסין (38,277 רכבים) לסוללת 86 קוט\"ש של ספק Sunwoda: התנגדות פנימית חריגה עלולה לגרום לאובדן קיבולת ולסיכון בטיחותי; הסוללה מוחלפת ללא תשלום. לפי הדיווח הגרסה האירופית עם סוללת 100 קוט\"ש אינה כלולה. בבדיקה: לוודא שהרכב הוא בגרסת 100 קוט\"ש (ולא יבוא אישי של WE 86) ולבדוק את מצב הסוללה (SoH).",
+            "level": "recall",
+            "scope": "Zeekr 001 WE 86 קוט\"ש, ייצור 07/2021–03/2024, שוק סיני — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarNewsChina — Geely-owned Zeekr recalls over 38,000 units of the 001 liftback in China (SAMR filing, Feb 2026)",
+              "url": "https://carnewschina.com/2026/02/09/geely-owned-zeekr-recalls-over-38000-units-of-the-001-liftback-in-china/"
+            }
+          }
+        ]
       }
     },
     "7x": {

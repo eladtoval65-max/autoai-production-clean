@@ -17,7 +17,75 @@
             "title": "icar — עוד סינית, הפעם לא חשמלית: לינק אנד קו נוחתת בישראל (16.01.2023)",
             "url": "https://www.icar.co.il/חדשות_רכב/עוד_סינית,_הפעם_לא_חשמלית_-_לינק_אנד_קו_נוחתת_בישראל/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "גג פנורמי רגיש: ניקוז סתום עלול לגרום לחדירת מים לתא הנוסעים בלי שישימו לב. בבדיקה: לבדוק רטיבות בשטיחים ובריפוד התקרה ולנקות את פתחי הניקוז של הגג.",
+            "level": "widely_reported",
+            "scope": "כל הדגמים עם גג פנורמי",
+            "source": {
+              "title": "AUTO BILD — Lynk & Co 01 Gebrauchtwagen-Test",
+              "url": "https://www.autobild.de/artikel/lynk-co-01-gebrauchtwagen-test-26443915.html"
+            }
+          },
+          {
+            "he": "דיווחים על באגים במערכת המולטימדיה, תקלות בבקרי החלונות והגג הנפתח, ומשטח טעינה אלחוטית שלא תמיד עובד. בבדיקה: להפעיל את כל החלונות, הגג והמסך ולוודא שהתוכנה עודכנה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AUTO BILD — Lynk & Co 01 Gebrauchtwagen-Test",
+              "url": "https://www.autobild.de/artikel/lynk-co-01-gebrauchtwagen-test-26443915.html"
+            }
+          },
+          {
+            "he": "חלפים מסוימים מגיעים רק אחרי שבועות, ועלויות תיקון קרובות לרמת וולוו; הרבה רכבים הגיעו מצי השכרה/מנויים עם בלאי גבוה יותר. בבדיקה: לברר היסטוריית שימוש (ליסינג/מנוי) ולוודא זמינות חלפים אצל היבואן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AUTO BILD — Lynk & Co 01 Gebrauchtwagen-Test",
+              "url": "https://www.autobild.de/artikel/lynk-co-01-gebrauchtwagen-test-26443915.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "פלאג-אין 1.5 טורבו בנזין + חשמלי",
+            "pt": "phev",
+            "hp": 261,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 — Lynk & Co 01 PHEV real consumption test: 6.4 L/100km city-suburban with empty battery (5.0 L mixed route starting full)",
+              "url": "https://de.motor1.com/reviews/578004/tatsachlicher-verbrauch-lynk6co01-pluginhybrid-test/"
+            }
+          }
+        ]
+      }
+    },
+    "08": {
+      "DX11": {
+        "issues": [
+          {
+            "he": "קריאת שירות בסין (SAMR): פגם ברכיב הספק ביחידת הלידאר עלול לגרום למערכת הנהיגה המסייעת לא לזהות או להגיב למכשולים; הלידאר מוחלף ללא תשלום. בבדיקה: לברר אם הרכב מצויד בלידאר ואם הקריאה חלה עליו.",
+            "level": "recall",
+            "scope": "ייצור 08.01–10.12.2025, שוק סיני — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CnEVPost — Geely recalls ~93,000 vehicles incl. Lynk & Co 08 over LiDAR defect (21.08.2026)",
+              "url": "https://cnevpost.com/2026/08/21/geely-recalls-lidar-defect/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין, 345 כ\"ס",
+            "pt": "phev",
+            "hp": 345,
+            "cons": 1.55,
+            "unit": "L",
+            "source": {
+              "title": "automobile.at (Motor1) — Tatsächlicher Verbrauch: Lynk & Co 08 (2026): 1.55 L/100km fuel over 360 km starting with full 39.6 kWh battery, ~59% electric (PHEV fuel figure)",
+              "url": "https://www.automobile.at/magazin/802615"
+            }
+          }
+        ]
       }
     }
   }

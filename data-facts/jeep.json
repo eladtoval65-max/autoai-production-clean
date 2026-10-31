@@ -97,7 +97,20 @@
             "title": "וואלה רכב — ג'יפ קומפס החדש בישראל (05.07.2026)",
             "url": "https://cars.walla.co.il/item/3851072"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היברידי 145 כ\"ס",
+            "pt": "mhev",
+            "hp": 145,
+            "cons": 4.65,
+            "unit": "L",
+            "source": {
+              "title": "automobile.at (Motor1) — Tatsächlicher Verbrauch: Jeep Compass Mildhybrid (2026): 4.65 L/100km (single 360 km Rome–Forlì route test)",
+              "url": "https://www.automobile.at/magazine/799646"
+            }
+          }
+        ]
       }
     },
     "wrangler": {

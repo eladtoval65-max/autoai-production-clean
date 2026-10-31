@@ -1,6 +1,6 @@
 {
   "make": "chery",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "tiggo-7": {
       "T1E": {
@@ -133,6 +133,22 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/צ-רי-טיגו-4-פרו-נחת-בישראל-מחיר-120990-שקל"
           }
         }
+      }
+    },
+    "tiggo-9": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין CSH, הנעה כפולה",
+            "pt": "phev",
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "The Citizen (ZA) — Chery Tiggo 9 CSH Vanguard road test: 6.6 L/100km fuel over test week incl. performance testing (PHEV, charge state not stated)",
+              "url": "https://www.citizen.co.za/motoring/chery-tiggo-9-road-test-results-review"
+            }
+          }
+        ]
       }
     }
   }
