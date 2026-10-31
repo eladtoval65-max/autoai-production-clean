@@ -9,45 +9,101 @@
             "he": "קריאת שירות (אוסטרליה): עיגון כיסא בטיחות בכיסא האחורי האמצעי ומתג ניתוק כרית האוויר של הנוסע עלול לעבור בטעות למצב כבוי — לבדוק שבוצע תיקון ושהמתג במצב הנכון",
             "level": "recall",
             "scope": "2022",
-            "source": { "title": "Australian Government Vehicle Recalls — BYD ATTO 3 (REC-005579)", "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005579" }
+            "source": {
+              "title": "Australian Government Vehicle Recalls — BYD ATTO 3 (REC-005579)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-005579"
+            }
           },
           {
             "he": "קריאת שירות (יפן): חומר סופח לחות בתוך פנס אחורי פוגע במעגל — איתות מהבהב מהר או לא נדלק. לבדוק את פנסי האיתות האחוריים ולברר אם הוחלפו",
             "level": "recall",
             "scope": "2022–2023",
-            "source": { "title": "MLIT Japan recall notice — BYD ATTO 3 rear lamp (Feb 2026)", "url": "https://www.mlit.go.jp/en/jidosha/content/001990685.pdf" }
+            "source": {
+              "title": "MLIT Japan recall notice — BYD ATTO 3 rear lamp (Feb 2026)",
+              "url": "https://www.mlit.go.jp/en/jidosha/content/001990685.pdf"
+            }
           },
           {
             "he": "מצבר 12V מתרוקן או נחלש (לעיתים אחרי 18–24 חודשים) — הרכב לא נדלק/מסכים כבויים. לבקש בדיקת מצבר עזר ולברר אם הוחלף",
             "level": "widely_reported",
-            "source": { "title": "Zecar — Common BYD Atto 3 problems", "url": "https://zecar.com/reviews/common-byd-atto-3-problems" }
+            "source": {
+              "title": "Zecar — Common BYD Atto 3 problems",
+              "url": "https://zecar.com/reviews/common-byd-atto-3-problems"
+            }
           },
           {
             "he": "תקלות תוכנה במולטימדיה: קריסות מסך, אובדן שמע (כולל צליל איתות), שמשה נוטה להתאדות — לוודא שהרכב עודכן לגרסת התוכנה האחרונה",
             "level": "widely_reported",
-            "source": { "title": "Autocar — BYD Atto 3 long-term test", "url": "https://www.autocar.co.uk/car-review/byd/atto-3/long-term-reviews/byd-atto-3-2024-long-term-test" }
+            "source": {
+              "title": "Autocar — BYD Atto 3 long-term test",
+              "url": "https://www.autocar.co.uk/car-review/byd/atto-3/long-term-reviews/byd-atto-3-2024-long-term-test"
+            }
           },
           {
             "he": "מערכות העזר לנהג קיבלו ב-Euro NCAP דירוג \"לא מומלץ\" (בקרת שיוט ובלימה במצבים קריטיים) והתרעות התנגשות מצפצפות בתדירות גבוהה — לנסות בנסיעת מבחן בכביש מהיר",
             "level": "widely_reported",
-            "source": { "title": "Electrek — BYD Atto 3 driver assist bombs Euro NCAP assisted-driving test", "url": "https://electrek.co/2024/11/04/byd-atto-3-driver-assist-absolutely-bombs-safety-tests/" }
+            "source": {
+              "title": "Electrek — BYD Atto 3 driver assist bombs Euro NCAP assisted-driving test",
+              "url": "https://electrek.co/2024/11/04/byd-atto-3-driver-assist-absolutely-bombs-safety-tests/"
+            }
           }
         ],
         "engines": [
-          { "name": "חשמלי 60.5 קוט\"ש LFP", "pt": "ev", "hp": 204, "cons": 18.3, "unit": "kWh",
-            "source": { "title": "EV Database — BYD ATTO 3 (real-world consumption)", "url": "https://ev-database.org/uk/car/1782/BYD-ATTO-3" } }
+          {
+            "name": "חשמלי 60.5 קוט\"ש LFP",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD ATTO 3 (real-world consumption)",
+              "url": "https://ev-database.org/uk/car/1782/BYD-ATTO-3"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2022, "url": "https://cdn.euroncap.com/media/72639/euroncap-2022-byd-atto-3-datasheet.pdf" },
-        "launchPrice": { "ils": 156500, "year": 2022, "note": "רמת גימור קומפורט", "source": { "title": "auto.co.il — BYD אטו 3 בישראל, מחיר החל מ-156,500 שקלים (ספטמבר 2022)", "url": "https://www.auto.co.il/articles/car-news/local-news/135409/" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://cdn.euroncap.com/media/72639/euroncap-2022-byd-atto-3-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 156500,
+          "year": 2022,
+          "note": "רמת גימור קומפורט",
+          "source": {
+            "title": "auto.co.il — BYD אטו 3 בישראל, מחיר החל מ-156,500 שקלים (ספטמבר 2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135409/"
+          }
+        }
       },
       "EVO": {
         "issues": [],
         "engines": [
-          { "name": "חשמלי 74.8 קוט\"ש, הנעה אחורית", "pt": "ev", "hp": 313, "cons": 18.6, "unit": "kWh",
-            "source": { "title": "EV Database — BYD ATTO 3 Evo RWD Design (MY26)", "url": "https://ev-database.org/imp/car/3474/BYD-ATTO-3-Evo-RWD-Design" } }
+          {
+            "name": "חשמלי 74.8 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 18.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD ATTO 3 Evo RWD Design (MY26)",
+              "url": "https://ev-database.org/imp/car/3474/BYD-ATTO-3-Evo-RWD-Design"
+            }
+          }
         ],
-        "ncap": { "stars": null, "note": "הדור המעודכן טרם נבחן בנפרד ב-Euro NCAP" },
-        "launchPrice": { "ils": 155000, "year": 2026, "note": "הנעה אחורית, רמת גימור Design", "source": { "title": "auto.co.il — BYD אטו 3 EVO בארץ, המחיר החל מ-155,000 שקלים", "url": "https://www.auto.co.il/articles/car-news/local-news/byd-atto-3-evo-launch/" } }
+        "ncap": {
+          "stars": null,
+          "note": "הדור המעודכן טרם נבחן בנפרד ב-Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 155000,
+          "year": 2026,
+          "note": "הנעה אחורית, רמת גימור Design",
+          "source": {
+            "title": "auto.co.il — BYD אטו 3 EVO בארץ, המחיר החל מ-155,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/byd-atto-3-evo-launch/"
+          }
+        }
       }
     },
     "dolphin": {
@@ -57,30 +113,63 @@
             "he": "חיישני לחץ אוויר בצמיגים מציגים \"TPMS Error\" גם כשהלחץ תקין (בעיקר אחרי החלפת/סבב צמיגים) — לבדוק שאין נורית במסך",
             "level": "widely_reported",
             "scope": "2023–2024",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)", "url": "https://australiancar.reviews/?p=102835" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)",
+              "url": "https://australiancar.reviews/?p=102835"
+            }
           },
           {
             "he": "אחיזה חלשה בכביש רטוב ודילוג גלגלים בהאצה עם הצמיגים המקוריים — לבדוק מצב ומותג הצמיגים",
             "level": "widely_reported",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)", "url": "https://australiancar.reviews/?p=102835" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)",
+              "url": "https://australiancar.reviews/?p=102835"
+            }
           },
           {
             "he": "מסך המולטימדיה נתקע או מאבד שמע, וקריסות עם CarPlay חוטי — לוודא עדכון תוכנה אחרון",
             "level": "widely_reported",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)", "url": "https://australiancar.reviews/?p=102835" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)",
+              "url": "https://australiancar.reviews/?p=102835"
+            }
           },
           {
             "he": "שמירת נתיב וזיהוי תמרורים רגישים מדי (צפצופים ומשיכות הגה) — שופר בעדכוני OTA מגרסה 2.0.0; לבדוק גרסת תוכנה",
             "level": "manufacturer",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)", "url": "https://australiancar.reviews/?p=102835" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Dolphin (2023-on)",
+              "url": "https://australiancar.reviews/?p=102835"
+            }
           }
         ],
         "engines": [
-          { "name": "חשמלי 60.4 קוט\"ש LFP", "pt": "ev", "hp": 204, "cons": 18.0, "unit": "kWh",
-            "source": { "title": "EV Database — BYD DOLPHIN 60.4 kWh (ממוצע מזג אוויר מתון/קר)", "url": "https://ev-database.org/imp/car/1919/BYD-DOLPHIN-604-kWh" } }
+          {
+            "name": "חשמלי 60.4 קוט\"ש LFP",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 18.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD DOLPHIN 60.4 kWh (ממוצע מזג אוויר מתון/קר)",
+              "url": "https://ev-database.org/imp/car/1919/BYD-DOLPHIN-604-kWh"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2023, "url": "https://www.byd.com/eu/blog/BYD-DOLPHIN-and-SEAL-demonstrate-excellent-safety-levels-5-star-Euro-NCAP-rating" },
-        "launchPrice": { "ils": 141990, "year": 2023, "note": "רמת גימור קומפורט", "source": { "title": "מלכת הכביש — BYD דולפין בישראל, 2 רמות גימור מ-141,990 שקל", "url": "https://www.queenoftheroad.co.il/?p=76984" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://www.byd.com/eu/blog/BYD-DOLPHIN-and-SEAL-demonstrate-excellent-safety-levels-5-star-Euro-NCAP-rating"
+        },
+        "launchPrice": {
+          "ils": 141990,
+          "year": 2023,
+          "note": "רמת גימור קומפורט",
+          "source": {
+            "title": "מלכת הכביש — BYD דולפין בישראל, 2 רמות גימור מ-141,990 שקל",
+            "url": "https://www.queenoftheroad.co.il/?p=76984"
+          }
+        }
       }
     },
     "seal": {
@@ -89,38 +178,74 @@
           {
             "he": "קריאת שירות (הודו): בעיה אפשרית בסוללת ה-Blade עם החלפת מארז ללא עלות — לבדוק במעבדת היבואן אם הרכב כלול",
             "level": "recall",
-            "source": { "title": "Team-BHP — BYD Seal recalled over possible battery issues", "url": "https://www.team-bhp.com/news/byd-seal-recalled-over-possible-battery-issues" }
+            "source": {
+              "title": "Team-BHP — BYD Seal recalled over possible battery issues",
+              "url": "https://www.team-bhp.com/news/byd-seal-recalled-over-possible-battery-issues"
+            }
           },
           {
             "he": "רעידות בהאצה חזקה (55–70 או 100–120 קמ\"ש) בגלל פגם בצירי ההנעה האחוריים; עלון שירות מורה להחליף את שניהם — לבדוק בנסיעת מבחן ולבקש תיעוד",
             "level": "manufacturer",
             "scope": "2023–2025",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)", "url": "https://australiancar.reviews/?p=102810" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)",
+              "url": "https://australiancar.reviews/?p=102810"
+            }
           },
           {
             "he": "מצבר 12V כושל — הרכב \"נתקע\" ולא נפתח/לא מתניע למרות סוללה ראשית טעונה. לברר אם הוחלף ועודכנה תוכנת ה-BMS",
             "level": "widely_reported",
             "scope": "2023–2024",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)", "url": "https://australiancar.reviews/?p=102810" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)",
+              "url": "https://australiancar.reviews/?p=102810"
+            }
           },
           {
             "he": "בלימות פנטום ושמירת נתיב אגרסיבית; מערכת השמע עלולה להשתתק (כולל צפצופי בטיחות) — לוודא עדכון תוכנה",
             "level": "widely_reported",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)", "url": "https://australiancar.reviews/?p=102810" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)",
+              "url": "https://australiancar.reviews/?p=102810"
+            }
           },
           {
             "he": "בגרסת הנעה כפולה: שחיקה מהירה של צמיגים בכתף הפנימית (10–15 אלף ק\"מ) — לבדוק את הצמיגים ואת כיוון הפרונט",
             "level": "widely_reported",
             "scope": "AWD",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)", "url": "https://australiancar.reviews/?p=102810" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Seal (2023-on)",
+              "url": "https://australiancar.reviews/?p=102810"
+            }
           }
         ],
         "engines": [
-          { "name": "חשמלי 82.5 קוט\"ש, הנעה אחורית", "pt": "ev", "hp": 313, "cons": 17.2, "unit": "kWh",
-            "source": { "title": "EV Database — BYD SEAL 82.5 kWh RWD Design", "url": "https://ev-database.org/car/2001/BYD-SEAL-825-kWh-RWD-Design" } }
+          {
+            "name": "חשמלי 82.5 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 17.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD SEAL 82.5 kWh RWD Design",
+              "url": "https://ev-database.org/car/2001/BYD-SEAL-825-kWh-RWD-Design"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2023, "url": "https://www.byd.com/eu/blog/BYD-DOLPHIN-and-SEAL-demonstrate-excellent-safety-levels-5-star-Euro-NCAP-rating" },
-        "launchPrice": { "ils": 216990, "year": 2024, "note": "הנעה אחורית, Design", "source": { "title": "מלכת הכביש — BYD סיל נוחתת בישראל מ-216,990 ₪", "url": "https://www.queenoftheroad.co.il/?p=76709" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://www.byd.com/eu/blog/BYD-DOLPHIN-and-SEAL-demonstrate-excellent-safety-levels-5-star-Euro-NCAP-rating"
+        },
+        "launchPrice": {
+          "ils": 216990,
+          "year": 2024,
+          "note": "הנעה אחורית, Design",
+          "source": {
+            "title": "מלכת הכביש — BYD סיל נוחתת בישראל מ-216,990 ₪",
+            "url": "https://www.queenoftheroad.co.il/?p=76709"
+          }
+        }
       }
     },
     "seal-u": {
@@ -130,31 +255,64 @@
             "he": "נקישות מהגלגלים הקדמיים בפניות חדות במהירות נמוכה (מפרקי CV/צירים) — לבדוק בסיבוב מלא בחניון",
             "level": "widely_reported",
             "scope": "2024–2025",
-            "source": { "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)", "url": "https://australiancar.reviews/?p=102816" }
+            "source": {
+              "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)",
+              "url": "https://australiancar.reviews/?p=102816"
+            }
           },
           {
             "he": "מצבר 12V מתרוקן אחרי חניה של כמה ימים — הרכב לא מגיב. לשאול על החלפת מצבר/עדכון תוכנה",
             "level": "widely_reported",
             "scope": "2024–2025",
-            "source": { "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)", "url": "https://australiancar.reviews/?p=102816" }
+            "source": {
+              "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)",
+              "url": "https://australiancar.reviews/?p=102816"
+            }
           },
           {
             "he": "מערכת ניטור עייפות ושמירת נתיב פולשניות (מתריעות גם על משקפי שמש) — שופר מגרסת תוכנה 2.0.0",
             "level": "manufacturer",
-            "source": { "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)", "url": "https://australiancar.reviews/?p=102816" }
+            "source": {
+              "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)",
+              "url": "https://australiancar.reviews/?p=102816"
+            }
           },
           {
             "he": "אלומת אור נמוך קצרה מדי בגלל כיוון פנסים במפעל — לבדוק בנסיעת לילה; מתוקן בכיוון במוסך",
             "level": "widely_reported",
-            "source": { "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)", "url": "https://australiancar.reviews/?p=102816" }
+            "source": {
+              "title": "australiancar.reviews — Recalls and faults: BYD Sealion 6 / Seal U (2024-on)",
+              "url": "https://australiancar.reviews/?p=102816"
+            }
           }
         ],
         "engines": [
-          { "name": "חשמלי 87 קוט\"ש", "pt": "ev", "hp": 218, "cons": 20.4, "unit": "kWh",
-            "source": { "title": "EV Database — BYD SEAL U 87 kWh Design", "url": "https://ev-database.org/imp/car/2067/BYD-SEAL-U-87-kWh-Design" } }
+          {
+            "name": "חשמלי 87 קוט\"ש",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 20.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD SEAL U 87 kWh Design",
+              "url": "https://ev-database.org/imp/car/2067/BYD-SEAL-U-87-kWh-Design"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2023, "url": "https://news.euroncap.com/safercars/byd-seal-u---euro-ncap-2023-results---5-stars/s/fc9c266f-a1a4-423a-b200-a5009651f5cb" },
-        "launchPrice": { "ils": 210000, "year": 2024, "note": "DM-i פלאג-אין, רמת גימור Boost (מחיר ההשקה לפני הורדה ל-200,000 ב-2025)", "source": { "title": "ביזפורטל — BYD Seal U DM-i: עדכון מחירים", "url": "https://www.bizportal.co.il/car/news/article/20013337" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://news.euroncap.com/safercars/byd-seal-u---euro-ncap-2023-results---5-stars/s/fc9c266f-a1a4-423a-b200-a5009651f5cb"
+        },
+        "launchPrice": {
+          "ils": 210000,
+          "year": 2024,
+          "note": "DM-i פלאג-אין, רמת גימור Boost (מחיר ההשקה לפני הורדה ל-200,000 ב-2025)",
+          "source": {
+            "title": "ביזפורטל — BYD Seal U DM-i: עדכון מחירים",
+            "url": "https://www.bizportal.co.il/car/news/article/20013337"
+          }
+        }
       }
     },
     "tang": {
@@ -164,37 +322,102 @@
             "he": "קריאת שירות בסין: בקר מנוע ההנעה עלול לסבול מקורוזיה במעגל ולגרום לאובדן הנעה — לברר מול היבואן אם הדגם בישראל כלול",
             "level": "recall",
             "scope": "שוק סין, ייצור עד 2022",
-            "source": { "title": "Euronews — BYD makes largest recall of 115,000 cars over design issues", "url": "https://www.euronews.com/2025/10/17/chinas-byd-makes-largest-recall-of-115000-cars-over-design-issues" }
+            "source": {
+              "title": "Euronews — BYD makes largest recall of 115,000 cars over design issues",
+              "url": "https://www.euronews.com/2025/10/17/chinas-byd-makes-largest-recall-of-115000-cars-over-design-issues"
+            }
           }
         ],
         "engines": [
-          { "name": "חשמלי 86.4 קוט\"ש, הנעה כפולה", "pt": "ev", "hp": 517, "cons": 24.4, "unit": "kWh",
-            "source": { "title": "EV Database — BYD TANG", "url": "https://ev-database.org/imp/car/1783/BYD-TANG" } }
+          {
+            "name": "חשמלי 86.4 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 517,
+            "cons": 24.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD TANG",
+              "url": "https://ev-database.org/imp/car/1783/BYD-TANG"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "note": "דירוג Euro NCAP — לפי הודעת היצרן (דצמבר 2023)", "url": "https://www.byd.com/us/news-list/BYD-SEAL-U-and-BYD-TANG-awarded-5-stars-Euro-NCAP-Safety-Tests" },
-        "launchPrice": { "ils": 316000, "year": 2023, "note": "רמת גימור יחידה; מחיר מחירון ביוני 2023", "source": { "title": "מלכת הכביש — BYD Tang 2023 חשמלי שבעה מקומות, מבחן דרכים", "url": "https://www.queenoftheroad.co.il/?p=77087" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://www.byd.com/us/news-list/BYD-SEAL-U-and-BYD-TANG-awarded-5-stars-Euro-NCAP-Safety-Tests"
+        },
+        "launchPrice": {
+          "ils": 316000,
+          "year": 2023,
+          "note": "רמת גימור יחידה; מחיר מחירון ביוני 2023",
+          "source": {
+            "title": "מלכת הכביש — BYD Tang 2023 חשמלי שבעה מקומות, מבחן דרכים",
+            "url": "https://www.queenoftheroad.co.il/?p=77087"
+          }
+        }
       }
     },
     "dolphin-surf": {
       "Gen1": {
         "issues": [],
         "engines": [
-          { "name": "חשמלי 43.2 קוט\"ש (Boost)", "pt": "ev", "hp": 88, "cons": 16.0, "unit": "kWh",
-            "source": { "title": "EV Database — BYD DOLPHIN SURF 43.2 kWh Boost", "url": "https://ev-database.org/car/3194/BYD-DOLPHIN-SURF-432-kWh-Boost" } }
+          {
+            "name": "חשמלי 43.2 קוט\"ש (Boost)",
+            "pt": "ev",
+            "hp": 88,
+            "cons": 16.0,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD DOLPHIN SURF 43.2 kWh Boost",
+              "url": "https://ev-database.org/car/3194/BYD-DOLPHIN-SURF-432-kWh-Boost"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2025, "url": "https://www.byd.com/mea/news-list/byd-dolphin--surf-scores-maximum-five-star-euro-ncap-safety-rating.html" },
-        "launchPrice": { "ils": 114990, "year": 2025, "note": "Boost, 43.2 קוט\"ש", "source": { "title": "CarTube — BYD דולפין סרף בישראל, מחיר 114,990 שקל", "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/byd-%D7%93%D7%95%D7%9C%D7%A4%D7%99%D7%9F-%D7%A1%D7%A8%D7%A3-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-114990-%D7%A9%D7%A7%D7%9C" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://www.byd.com/mea/news-list/byd-dolphin--surf-scores-maximum-five-star-euro-ncap-safety-rating.html"
+        },
+        "launchPrice": {
+          "ils": 114990,
+          "year": 2025,
+          "note": "Boost, 43.2 קוט\"ש",
+          "source": {
+            "title": "CarTube — BYD דולפין סרף בישראל, מחיר 114,990 שקל",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/byd-%D7%93%D7%95%D7%9C%D7%A4%D7%99%D7%9F-%D7%A1%D7%A8%D7%A3-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-114990-%D7%A9%D7%A7%D7%9C"
+          }
+        }
       }
     },
     "atto-2": {
       "SC3E": {
         "issues": [],
         "engines": [
-          { "name": "חשמלי 64.8 קוט\"ש", "pt": "ev", "hp": 204, "cons": 19.1, "unit": "kWh",
-            "source": { "title": "EV Database — BYD ATTO 2 64.8 kWh", "url": "https://ev-database.org/car/3268/BYD-ATTO-2-648-kWh" } }
+          {
+            "name": "חשמלי 64.8 קוט\"ש",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 19.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD ATTO 2 64.8 kWh",
+              "url": "https://ev-database.org/car/3268/BYD-ATTO-2-648-kWh"
+            }
+          }
         ],
-        "ncap": { "stars": null, "note": "לא נמצא מבחן Euro NCAP (נבחן ב-Green NCAP בלבד)" },
-        "launchPrice": { "ils": 149000, "year": 2025, "note": "חשמלי, רמת גימור Comfort", "source": { "title": "ביזפורטל — BYD Atto 2 בישראל (נובמבר 2025)", "url": "https://www.bizportal.co.il/car/news/article/20023992" } }
+        "ncap": {
+          "stars": null,
+          "note": "לא נמצא מבחן Euro NCAP (נבחן ב-Green NCAP בלבד)"
+        },
+        "launchPrice": {
+          "ils": 149000,
+          "year": 2025,
+          "note": "חשמלי, רמת גימור Comfort",
+          "source": {
+            "title": "ביזפורטל — BYD Atto 2 בישראל (נובמבר 2025)",
+            "url": "https://www.bizportal.co.il/car/news/article/20023992"
+          }
+        }
       }
     },
     "sealion-7": {
@@ -204,25 +427,55 @@
             "he": "התרעת \"Power Limited\" בנסיעה בכביש מהיר עם ירידה בכוח — לבדוק שבוצע עדכון קושחה במרכז שירות",
             "level": "widely_reported",
             "scope": "2025–2026",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Sealion 7 (2025-on)", "url": "https://australiancar.reviews/?p=102794" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Sealion 7 (2025-on)",
+              "url": "https://australiancar.reviews/?p=102794"
+            }
           },
           {
             "he": "מערכת השמע משתתקת (ניווט, חיישני חניה, צליל איתות) — לבדוק בנסיעת מבחן ולוודא עדכון OTA",
             "level": "widely_reported",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Sealion 7 (2025-on)", "url": "https://australiancar.reviews/?p=102794" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Sealion 7 (2025-on)",
+              "url": "https://australiancar.reviews/?p=102794"
+            }
           },
           {
             "he": "טעינה מהירה צונחת מתחת ל-80 קו\"ט מעל 50% (ויסות חום), בעיקר בעצירה שנייה — לקחת בחשבון בנסיעות ארוכות",
             "level": "widely_reported",
-            "source": { "title": "australiancar.reviews — Recalls & faults: BYD Sealion 7 (2025-on)", "url": "https://australiancar.reviews/?p=102794" }
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: BYD Sealion 7 (2025-on)",
+              "url": "https://australiancar.reviews/?p=102794"
+            }
           }
         ],
         "engines": [
-          { "name": "חשמלי 82.5 קוט\"ש, הנעה אחורית", "pt": "ev", "hp": 313, "cons": 19.6, "unit": "kWh",
-            "source": { "title": "EV Database — BYD SEALION 7 82.5 kWh RWD Comfort", "url": "https://ev-database.org/car/3070/BYD-SEALION-7-825-kWh-RWD-Comfort" } }
+          {
+            "name": "חשמלי 82.5 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 19.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD SEALION 7 82.5 kWh RWD Comfort",
+              "url": "https://ev-database.org/car/3070/BYD-SEALION-7-825-kWh-RWD-Comfort"
+            }
+          }
         ],
-        "ncap": { "stars": 5, "year": 2025, "url": "https://www.byd.com/za/news-list/byd-sealion-7-scores-maximum-five-star-euro-ncap-safety-rating" },
-        "launchPrice": { "ils": 218990, "year": 2025, "note": "Boost, 71.8 קוט\"ש", "source": { "title": "מלכת הכביש — השקה: BYD Sealion 7 בישראל, 4 גרסאות החל מ-218,990 ₪", "url": "https://www.queenoftheroad.co.il/7-byd-saelion-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/" } }
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://www.byd.com/za/news-list/byd-sealion-7-scores-maximum-five-star-euro-ncap-safety-rating"
+        },
+        "launchPrice": {
+          "ils": 218990,
+          "year": 2025,
+          "note": "Boost, 71.8 קוט\"ש",
+          "source": {
+            "title": "מלכת הכביש — השקה: BYD Sealion 7 בישראל, 4 גרסאות החל מ-218,990 ₪",
+            "url": "https://www.queenoftheroad.co.il/7-byd-saelion-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+          }
+        }
       }
     }
   }

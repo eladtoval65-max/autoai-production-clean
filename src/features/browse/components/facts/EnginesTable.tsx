@@ -9,7 +9,7 @@ const consText = (e: EngineFact) =>
 /** Every engine sold in Israel for a generation: real-world consumption and what the fuel/electricity costs per month. */
 export function EnginesTable({ engines }: { engines: EngineFact[] }) {
   return (
-    <div className="mt-4 overflow-x-auto" role="region" aria-label="מנועים וצריכה" tabIndex={0}>
+    <div className="relative mt-4 overflow-x-auto" role="region" aria-label="מנועים וצריכה" tabIndex={0}>
       <table className="w-full min-w-[30rem] text-start text-[14px]">
         <thead className="text-[13px] text-muted">
           <tr><th className="pb-1.5 text-start font-semibold">מנוע</th><th className="pb-1.5 text-start font-semibold">כ״ס</th><th className="pb-1.5 text-start font-semibold">צריכה בפועל</th><th className="pb-1.5 text-start font-semibold">דלק/חשמל בחודש*</th><th /></tr>
