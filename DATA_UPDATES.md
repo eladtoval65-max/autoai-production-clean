@@ -443,3 +443,37 @@ Models added to generations.ts (10). Prices from the carzone brand pages, second
 
 Models added to the recommendation catalog (5, `scripts/seed-vehicles-batch19.ts`): Toyota Yaris Hybrid (Eco ₪140,990), Peugeot 2008 (Allure MHEV ₪149,990), Mazda CX-5 (Comfort AWD ₪189,900), Skoda Karoq (Selection ₪169,490), Kia Seltos (LX Plus ₪164,900). Sources per figure in the batch header; running costs are estimates, dataConfidence 56–60. None of the five is in the H1 2026 top 20 (https://www.queenoftheroad.co.il/?p=86435) — chosen as the most common mainstream models still missing from the catalog. Photo mappings added for Yaris, CX-5, Karoq, Seltos.
 Totals now: catalog 65 cars; generations.ts 51 makes, 326 models.
+
+## 2026-10-31 (daily agent)
+Prices checked today (carzone brand pages + cartube price lists): Toyota, Lexus, Hyundai, Kia, Genesis, Isuzu, Mazda (cartube + carzone), Mitsubishi, Subaru, Honda, Suzuki, Nissan, Ford, Tesla, Volvo, VW, Seat, Cupra, Audi, Porsche, BYD, Omoda/Jaecoo, Geely, Zeekr, Lynk & Co, Smart, XPENG, Leapmotor, ORA, MG, KGM, Peugeot, Citroën, Jeep, Fiat, Alfa Romeo, Renault, Dacia, Mercedes-Benz, BMW, MINI, Land Rover. One source only: Polestar (cartube; carzone page not found), Skoda (cartube + carzone model pages; carzone /Skoda failed), Chery (carzone; cartube blocked), Opel, DS, Dongfeng, Voyah, Skywell (carzone; cartube blocked). Not checked: Deepal (both sources failed; search budget exhausted). Because Deepal was not checked, `PRICES_VERIFIED` stays 2026-10-25.
+Energy prices: unchanged — the November petrol notice is not out yet on 31/10 (October figure already applied 2026-10-01).
+
+Price / status changes (generations.ts):
+- Hyundai Staria: price null / unverified → ₪315,990–339,990, on_sale (https://www.carzone.co.il/Hyundai/Staria Premium 315,990 / Lakeshore 339,990; https://www.cartube.co.il/מחירון-רכב-חדש/יונדאי 315,900–339,900). Not on the carzone Hyundai brand page — noted.
+- Jaecoo 7: ₪179,990–202,990 → ₪179,990–189,990 (https://www.carzone.co.il/Omoda-Jaecoo and https://www.cartube.co.il/מחירון-רכב-חדש/25-ג-אקו agree: only PHEV Elegance 179,990 / Premium 189,990 listed). Note added.
+- Mazda CX-60: unverified → discontinued (absent from https://www.carzone.co.il/Mazda and https://www.cartube.co.il/מחירון-רכב-חדש/44-מאזדה).
+- Cupra Born: unverified → discontinued (absent from https://www.carzone.co.il/Cupra and from the https://www.cartube.co.il/מחירון-רכב-חדש/70-קופרה list).
+- Cupra Ateca: unverified → discontinued (absent from carzone; cartube marks it "לא משווק יותר").
+Catalog (`scripts/seed-vehicles-batch20.ts`):
+- Toyota Corolla Hybrid LE: ₪159,900 → ₪159,990 (https://www.carzone.co.il/Toyota/Corolla + cartube Toyota list; 159,900 is now a separate "Limited Edition" trim). Depreciation rate kept (1,132 → 1,133/month); insurance unchanged after rounding.
+- Jaecoo J7: line max ₪202,990 → ₪189,990 (same two sources as above).
+
+Models added to generations.ts (14; generations/engines/power from English Wikipedia, consumption = real-world estimates; pre-2010 generations clipped to 2010 as elsewhere in the file):
+- New make Chevrolet: Spark, Aveo / Sonic, Cruze, Malibu, Captiva (all discontinued; carzone model-year pages e.g. https://www.carzone.co.il/Chevrolet/Spark/2018/compare/, https://www.carzone.co.il/Chevrolet/Sonic/2013/), Trax ₪165,990–169,990 on sale (1RS / 2RS, carzone and cartube agree). Wikipedia: Chevrolet_Spark, Chevrolet_Aveo, Chevrolet_Cruze, Chevrolet_Malibu, Chevrolet_Captiva, Chevrolet_Trax. Euro NCAP: Spark M300 4★ 2009 (https://www.euroncap.com/en/results/chevrolet/spark/11034), Aveo/Sonic 5★ 2011 (Euro NCAP "Best in Class 2011"), Cruze J300 5★ 2009 and Trax U200 5★ 2013 (cdn.euroncap.com datasheets euroncap_chevrolet_cruze_2009_5stars.pdf / ..._trax_2013_5stars.pdf). carzone /Chevrolet brand page could not be opened.
+- Toyota Auris (E180 5★ 2013, https://cdn.euroncap.com/media/6042/euroncap_toyota_auris_2013_5stars.pdf), Toyota Avensis (T270, 5★ 2015, news.euroncap.com Frankfurt 2015 release), Hyundai Accent / i25 (carzone https://www.carzone.co.il/Hyundai/Accent/i25-Accent/2012/; cartube marks it no longer sold), Hyundai i40 (5★ 2011, https://www.euroncap.com/en/results/hyundai/i40/10973), Kia Optima (NCAP null), Citroën C4 Picasso / SpaceTourer (Gen2 5★ 2013) — all discontinued.
+- Citroën C4 X: unverified, price null (carzone ₪129,990; cartube Citroën list not opened by this researcher).
+- Renault Kangoo ₪177,990 on sale (carzone + cartube agree; both list it as commercial, 5 seats, 1.5 dCi auto). Gen3 4★ 2021.
+- Skipped: Mitsubishi Lancer (Wikipedia page could not be opened).
+
+Models added to the recommendation catalog (5, batch 20): Hyundai Kona Electric (Pure ₪174,990), Skoda Elroq (60 Advance ₪182,990), BYD Sealion 7 (Boost ₪198,990), Toyota C-HR+ (Motion ₪179,990; NCAP stars not claimed), Peugeot 3008 (Allure MHEV ₪186,990). Sources per figure in the batch header (auto.co.il model pages, cartube trim pages, carzone). Kona is #2 Jan–Sep 2026 (cartube / auto.co.il September 2026 sales articles); the others are outside the published top 20. Running costs are estimates, dataConfidence 56–58. Photo mappings added for Elroq, Sealion 7, C-HR+, 3008.
+
+Checked and left unchanged — needs owner review:
+- Jaecoo J7 catalog trim "Executive 1.6T" ₪169,900 is on neither carzone nor cartube today (only PHEV trims) — the catalog entry should probably switch to the PHEV.
+- Toyota Corolla: carzone model page adds Executive ₪174,990 (brand page single price 159,900). Yaris Cross: carzone brand 160,990 / cartube 159,990 top vs ours 163,990 (carzone model page shows Style 169,000).
+- Suzuki Vitara line (154,990–179,990) equals the e Vitara range; hybrid Vitara carzone 159,990–169,990 vs cartube 156,900.
+- Skoda (cartube only): Fabia max 142,990 (ours 135,990), Karoq max 191,490 (ours 202,990; Sportline no longer marketed), Superb max 278,990 (ours 293,490); carzone Enyaq page shows only 85 Suite 298,000. Catalog "Octavia Selection 115hp" has powerHp 150 — trim name or hp is wrong.
+- Smart #5 (carzone from 259,990 vs cartube Pro 229,990), Zeekr 001 (cartube 283,990–344,990 vs ours = carzone), XPENG P7 (carzone says no longer marketed; cartube still lists it), Leapmotor B10 range EV-only vs PHEV included, Peugeot 2008 / 5008 / 408 cartube differences, Chery FX Sense 144,990 on a cartube trim page.
+- Ford Explorer min, Nissan Qashqai max, Subaru BRZ top, Honda HR-V top, Volvo XC60 / ES90 min — carzone vs cartube differ (ours matches one).
+- ORA 05 catalog priceMax 148,990 vs generations.ts 151,900 (carzone Signature Matte) — internal inconsistency.
+- Still open: Kia EV6 (cartube only), Mercedes A-Class / EQA / EQB / GLS / EQE / EQE SUV / G-Class / EQS SUV / SL, Range Rover / RR Sport, Alfa Stelvio, Porsche Taycan / Panamera / 911, VW T-Roc / ID.4 / ID. Buzz / Touareg, Audi A8 / e-tron GT, Jeep Avenger, Renault Austral, Lynk & Co 02, BYD Dolphin / Atto 2 / Seal U PHEV top, ORA 03 / 07, MG5 / HS / EHS, KGM Tivoli (cartube now no price), Dongfeng Box, Leapmotor T03.
+Totals now: catalog 70 cars; generations.ts 52 makes, 340 models.

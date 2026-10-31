@@ -145,6 +145,26 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] Mercedes GLC Coupé (carzone 505,900–679,900 vs cartube 499,900–709,900; C253/C254 coupé years not verified on Wikipedia), GLC EQ (₪439,900–639,900), CLE Cabrio (₪479,900–559,900, fold into CLE?), AMG GT 4-door, CLS (cartube only)
 - [ ] Voyah Free (₪399,985) / Dream (₪429,985): carzone lists them, cartube marks them no longer marketed — wait for agreement
 - [ ] BMW iX1 (₪379,900–409,900) / iX2 (₪394,900–424,900) separate lines?; i5, iX, 8 Series (cartube only)
-- [ ] Citroën C4 X (₪129,990, both sources agree), Renault Kangoo (₪177,990, both agree), Opel Zafira / Combo Life XL, Fiat Ulisse, Alfa Romeo Tonale (cartube only)
+- [x] Citroën C4 X (unverified: cartube not opened 2026-10-31), Renault Kangoo (2026-10-31)
+- [ ] Opel Zafira / Combo Life XL, Fiat Ulisse, Alfa Romeo Tonale (cartube only)
 - [ ] Commercial: Toyota City / ProAce (Verso), Peugeot Boxer, Citroën Jumpy, Fiat Scudo / Ducato, Renault Trafic / Master, Ford F-250 / F-350 / E-Transit, VW Caddy / Transporter / Crafter / Amarok / Caravelle
 - [ ] VW Taigo, ID.5, ID.7 (cartube only); Cupra Tavascan (cartube only, carzone /Cupra failed); Porsche 718 Cayman / Boxster (cartube only)
+
+## Done 2026-10-31
+- [x] generations.ts: new make Chevrolet (Spark, Aveo / Sonic, Cruze, Malibu, Captiva, Trax); Toyota Auris, Avensis; Hyundai Accent / i25, i40; Kia Optima; Citroën C4 Picasso / SpaceTourer, C4 X (unverified); Renault Kangoo
+- [x] Catalog (batch 20): Hyundai Kona Electric, Skoda Elroq, BYD Sealion 7, Toyota C-HR+, Peugeot 3008
+- [x] Status → discontinued: Mazda CX-60, Cupra Born, Cupra Ateca. Hyundai Staria → on sale (both sources agree)
+
+## Queue — used-market models since 2010 still missing (common in Israel)
+- [ ] Mitsubishi Lancer (Wikipedia blocked 2026-10-31), Pajero / Pajero Sport
+- [ ] Chevrolet Cruze J400 (2017–2020 in Israel? carzone lists those model years — verify), Chevrolet Aveo T250 (2010)
+- [ ] Mazda5, Renault Fluence, Scenic / Grand Scenic, Kadjar, Megane E-Tech; Dacia Spring
+- [ ] Opel Insignia, Meriva, Zafira Tourer; Ford C-Max, Mondeo; Honda Accord, Insight; Toyota Verso
+- [ ] Peugeot 508, Partner; Citroën C-Elysée, C5; Skoda Roomster; Seat Altea / Toledo
+- [ ] Suzuki Alto, Splash, Grand Vitara; Daihatsu (Sirion, Terios) — check whether Daihatsu was sold here after 2010; Nissan Tiida, Almera
+- [ ] Kia Soul, Venga, Ceed JD/CD; Hyundai Getz (pre-2010 end?), ix20
+
+## Queue — seen 2026-10-31, not yet covered
+- [ ] Suzuki e Vitara as its own line? (current Vitara line price = e Vitara range; hybrid Vitara 156,900–169,990) — owner
+- [ ] Mercedes GLC EQ (₪439,900–639,900, both sources agree)
+- [ ] Porsche Cayenne Electric, 718 Cayman / Boxster; Cupra Tavascan; VW Taigo, ID.5, ID.7

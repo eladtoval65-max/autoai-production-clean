@@ -463,6 +463,63 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "auris",
+    "model": "Auris",
+    "he": "אוריס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "E150",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.33 / 1.6 / 1.8 Valvematic בנזין, 1.8 היברידי (מ-2010)",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "E180",
+      "from": 2013,
+      "to": 2018,
+      "engines": "1.33 / 1.6 Valvematic בנזין, 1.8 היברידי",
+      "pt": [
+       "petrol",
+       "hybrid"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "avensis",
+    "model": "Avensis",
+    "he": "אוונסיס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "T270",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.6 / 1.8 / 2.0 Valvematic בנזין (1.8/2.0 גם עם CVT), 1.6–2.2 D-4D דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -1025,8 +1082,11 @@
     "id": "staria",
     "model": "Staria",
     "he": "סטאריה",
-    "status": "unverified",
-    "price": null,
+    "status": "on_sale",
+    "price": [
+     315990,
+     339990
+    ],
     "gens": [
      {
       "code": "US4",
@@ -1039,6 +1099,61 @@
       ],
       "cons": 9,
       "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "i25",
+    "model": "Accent / i25",
+    "he": "i25 / אקסנט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "MC",
+      "from": 2010,
+      "to": 2011,
+      "engines": "1.4 / 1.6 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "RB",
+      "from": 2011,
+      "to": 2020,
+      "engines": "1.4 / 1.6 בנזין, אוטומטית 4 (ב-1.4 החדש מ-2015: CVT)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "i40",
+    "model": "i40",
+    "he": "i40",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "VF",
+      "from": 2011,
+      "to": 2019,
+      "engines": "1.6 / 2.0 GDi, 2.0 MPi בנזין, 1.7 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.3,
+      "ncap": 5,
       "checks": 3
      }
     ]
@@ -1450,6 +1565,44 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "optima",
+    "model": "Optima",
+    "he": "אופטימה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "TF",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 MPi / 2.4 GDi בנזין, 2.0 היברידי, 1.7 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "Gen4",
+      "from": 2015,
+      "to": 2020,
+      "engines": "2.0 MPi / 2.4 GDi / 1.6–2.0 טורבו בנזין, 2.0 היברידי ופלאג-אין, 1.6/1.7 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "phev",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 4
+     }
+    ]
    }
   ]
  },
@@ -1611,7 +1764,7 @@
     "id": "cx-60",
     "model": "CX-60",
     "he": "CX-60",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2319,7 +2472,7 @@
     "status": "on_sale",
     "price": [
      179990,
-     202990
+     189990
     ],
     "gens": [
      {
@@ -2830,7 +2983,7 @@
     "id": "born",
     "model": "Born",
     "he": "בורן",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2851,7 +3004,7 @@
     "id": "cupra-ateca",
     "model": "Ateca",
     "he": "אטקה",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -7340,6 +7493,46 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "kangoo",
+    "model": "Kangoo",
+    "he": "קנגו",
+    "status": "on_sale",
+    "price": [
+     177990,
+     177990
+    ],
+    "gens": [
+     {
+      "code": "Gen2",
+      "from": 2010,
+      "to": 2020,
+      "engines": "1.6 בנזין, 1.2 TCe, 1.5 dCi דיזל, חשמלי Z.E.",
+      "pt": [
+       "petrol",
+       "diesel",
+       "ev"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Gen3",
+      "from": 2021,
+      "to": null,
+      "engines": "1.5 Blue dCi דיזל (גם אוטומטית EDC), 1.3 TCe בנזין, חשמלי E-Tech",
+      "pt": [
+       "diesel",
+       "petrol",
+       "ev"
+      ],
+      "cons": 6.2,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -8808,6 +9001,64 @@
       "cons": 6.4,
       "ncap": null,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "c4-picasso",
+    "model": "C4 Picasso / SpaceTourer",
+    "he": "C4 פיקאסו / ספייסטורר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 VTi / 1.6 THP בנזין, 1.6 HDi / 2.0 HDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Gen2 (EMP2)",
+      "from": 2013,
+      "to": 2022,
+      "engines": "1.2 PureTech / 1.6 THP בנזין, 1.6 / 2.0 BlueHDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "c4-x",
+    "model": "C4 X",
+    "he": "C4 X",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "C43",
+      "from": 2022,
+      "to": null,
+      "engines": "1.2 PureTech / 1.2 טורבו בנזין, 1.2 היברידי (e-DCS6), חשמלי ë-C4 X",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "ev"
+      ],
+      "cons": 6.3,
+      "ncap": null,
+      "checks": 3
      }
     ]
    }
@@ -11102,6 +11353,190 @@
        "phev"
       ],
       "cons": 5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "make": "chevrolet",
+  "name": "Chevrolet",
+  "models": [
+   {
+    "id": "spark",
+    "model": "Spark",
+    "he": "ספארק",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "M300",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.0 / 1.2 בנזין, ידנית",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": 4,
+      "checks": 3
+     },
+     {
+      "code": "M400",
+      "from": 2016,
+      "to": 2022,
+      "engines": "1.4 בנזין CVT / 1.0 בנזין ידנית",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "aveo",
+    "model": "Aveo / Sonic",
+    "he": "אוואו / סוניק",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen2 (Sonic)",
+      "from": 2011,
+      "to": 2020,
+      "engines": "1.6 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "cruze",
+    "model": "Cruze",
+    "he": "קרוז",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "J300",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.6 בנזין / 1.4 טורבו / 1.8 בנזין, אוטומטית 6",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "malibu",
+    "model": "Malibu",
+    "he": "מאליבו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen7",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.4 בנזין, אוטומטית",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen8",
+      "from": 2013,
+      "to": 2015,
+      "engines": "2.4 בנזין / 2.0 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9.8,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Gen9",
+      "from": 2016,
+      "to": 2024,
+      "engines": "1.5 טורבו בנזין, אוטומטית 6 ואחר כך CVT",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "captiva",
+    "model": "Captiva",
+    "he": "קפטיבה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "C100/C140",
+      "from": 2010,
+      "to": 2018,
+      "engines": "2.4 בנזין / 3.0 V6 / 2.2 דיזל, אוטומטית 6",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 11,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "trax",
+    "model": "Trax",
+    "he": "טראקס",
+    "status": "on_sale",
+    "price": [
+     165990,
+     169990
+    ],
+    "gens": [
+     {
+      "code": "U200",
+      "from": 2013,
+      "to": 2022,
+      "engines": "1.4 טורבו / 1.8 בנזין, אוטומטית 6",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Gen2",
+      "from": 2023,
+      "to": null,
+      "engines": "1.2 טורבו בנזין 3 צילינדרים, אוטומטית 6",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
       "ncap": null,
       "checks": 2
      }

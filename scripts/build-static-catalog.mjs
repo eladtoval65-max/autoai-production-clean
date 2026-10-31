@@ -7,7 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7", "seed-vehicles-batch8", "seed-vehicles-batch9", "seed-vehicles-batch10", "seed-vehicles-batch11", "seed-vehicles-batch12", "seed-vehicles-batch13", "seed-vehicles-batch14", "seed-vehicles-batch15", "seed-vehicles-batch16", "seed-vehicles-batch17", "seed-vehicles-batch18", "seed-vehicles-batch19"];
+const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7", "seed-vehicles-batch8", "seed-vehicles-batch9", "seed-vehicles-batch10", "seed-vehicles-batch11", "seed-vehicles-batch12", "seed-vehicles-batch13", "seed-vehicles-batch14", "seed-vehicles-batch15", "seed-vehicles-batch16", "seed-vehicles-batch17", "seed-vehicles-batch18", "seed-vehicles-batch19", "seed-vehicles-batch20"];
 const MAKES = { toyota: "Toyota", hyundai: "Hyundai", mazda: "Mazda", skoda: "Skoda", kia: "Kia", byd: "BYD", nissan: "Nissan", mg: "MG", ford: "Ford", volkswagen: "Volkswagen", peugeot: "Peugeot", jaecoo: "Jaecoo", chery: "Chery", tesla: "Tesla", suzuki: "Suzuki", honda: "Honda", citroen: "Citroën", lexus: "Lexus", subaru: "Subaru", ora: "ORA", xpeng: "XPENG", kgm: "KGM", jeep: "Jeep", "alfa-romeo": "Alfa Romeo", mini: "MINI", geely: "Geely", deepal: "Deepal", mitsubishi: "Mitsubishi" };
 const FUEL = { hybrid: "Hybrid", petrol: "Petrol", electric: "Electric", diesel: "Diesel" };
 const REG = 121;

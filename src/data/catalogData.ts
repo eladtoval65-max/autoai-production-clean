@@ -1297,68 +1297,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "toyota-corolla-hybrid",
-  "make": "Toyota",
-  "model": "Corolla Hybrid",
-  "trim": "LE 1.8 HEV",
-  "bodyType": "sedan",
-  "fuelType": "Hybrid",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 471,
-  "powerHp": 138,
-  "consumption": 5.4,
-  "price": 159900,
-  "priceMin": 150300,
-  "priceMax": 159900,
-  "sampleSize": null,
-  "newPrice": 159900,
-  "reliability": 94,
-  "safety": 95,
-  "economy": 89,
-  "comfort": 82,
-  "practicality": 80,
-  "insuranceMin": 450,
-  "insuranceMax": 640,
-  "why": "סדאן היברידי עם אמינות טויוטה מוכחת ו-5 כוכבי Euro NCAP. חסכוני מאוד בנסיעה בין-עירונית ושומר ערך טוב ביד שנייה.",
-  "pros": [
-   "אמינות טויוטה",
-   "5 כוכבי Euro NCAP",
-   "חסכוני (כ-18 ק\"מ לליטר בפועל)",
-   "ביקוש גבוה ביד שנייה"
-  ],
-  "cons": [
-   "תחושת נהיגה לא מרגשת",
-   "מחיר גבוה לסדאן משפחתי",
-   "צריכה בעיר פחות טובה מהמוצהר במבחנים"
-  ],
-  "confidence": 72,
-  "priceSource": "carzone.co.il/Toyota (brand page, 2026-10-20)",
-  "bands": {
-   "7000": {
-    "fuel": 261,
-    "insurance": 544,
-    "maintenance": 189,
-    "depreciation": 1132,
-    "total": 2247
-   },
-   "15000": {
-    "fuel": 558,
-    "insurance": 544,
-    "maintenance": 215,
-    "depreciation": 1132,
-    "total": 2570
-   },
-   "25000": {
-    "fuel": 930,
-    "insurance": 544,
-    "maintenance": 241,
-    "depreciation": 1132,
-    "total": 2968
-   }
-  }
- },
- {
   "id": "skoda-octavia",
   "make": "Skoda",
   "model": "Octavia",
@@ -1416,6 +1354,68 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 265,
     "depreciation": 1334,
     "total": 3358
+   }
+  }
+ },
+ {
+  "id": "toyota-corolla-hybrid",
+  "make": "Toyota",
+  "model": "Corolla Hybrid",
+  "trim": "LE 1.8 HEV",
+  "bodyType": "sedan",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 471,
+  "powerHp": 138,
+  "consumption": 5.4,
+  "price": 159990,
+  "priceMin": 150300,
+  "priceMax": 159900,
+  "sampleSize": null,
+  "newPrice": 159990,
+  "reliability": 94,
+  "safety": 95,
+  "economy": 89,
+  "comfort": 82,
+  "practicality": 80,
+  "insuranceMin": 450,
+  "insuranceMax": 640,
+  "why": "סדאן היברידי עם אמינות טויוטה מוכחת ו-5 כוכבי Euro NCAP. חסכוני מאוד בנסיעה בין-עירונית ושומר ערך טוב ביד שנייה.",
+  "pros": [
+   "אמינות טויוטה",
+   "5 כוכבי Euro NCAP",
+   "חסכוני (כ-18 ק\"מ לליטר בפועל)",
+   "ביקוש גבוה ביד שנייה"
+  ],
+  "cons": [
+   "תחושת נהיגה לא מרגשת",
+   "מחיר גבוה לסדאן משפחתי",
+   "צריכה בעיר פחות טובה מהמוצהר במבחנים"
+  ],
+  "confidence": 72,
+  "priceSource": "carzone.co.il/Toyota/Corolla + cartube Toyota price list (2026-10-31)",
+  "bands": {
+   "7000": {
+    "fuel": 261,
+    "insurance": 544,
+    "maintenance": 189,
+    "depreciation": 1133,
+    "total": 2248
+   },
+   "15000": {
+    "fuel": 558,
+    "insurance": 544,
+    "maintenance": 215,
+    "depreciation": 1133,
+    "total": 2571
+   },
+   "25000": {
+    "fuel": 930,
+    "insurance": 544,
+    "maintenance": 241,
+    "depreciation": 1133,
+    "total": 2969
    }
   }
  },
@@ -1985,7 +1985,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "consumption": 8,
   "price": 169900,
   "priceMin": 169900,
-  "priceMax": 202990,
+  "priceMax": 189990,
   "sampleSize": null,
   "newPrice": 169900,
   "reliability": 70,
@@ -2007,7 +2007,7 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "ערך יד שנייה לא ידוע"
   ],
   "confidence": 65,
-  "priceSource": "carzone.co.il/Omoda-Jaecoo/Jaecoo-7 (2026-10-24)",
+  "priceSource": "carzone.co.il/Omoda-Jaecoo + cartube Jaecoo price list (2026-10-31)",
   "bands": {
    "7000": {
     "fuel": 386,
@@ -2273,6 +2273,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 258,
     "depreciation": 1458,
     "total": 3499
+   }
+  }
+ },
+ {
+  "id": "hyundai-kona-electric",
+  "make": "Hyundai",
+  "model": "Kona Electric",
+  "trim": "Pure (65.4 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 466,
+  "powerHp": 214,
+  "consumption": null,
+  "price": 174990,
+  "priceMin": 174990,
+  "priceMax": 184990,
+  "sampleSize": null,
+  "newPrice": 174990,
+  "reliability": 80,
+  "safety": 72,
+  "economy": 92,
+  "comfort": 76,
+  "practicality": 76,
+  "insuranceMin": 438,
+  "insuranceMax": 630,
+  "why": "קרוסאובר חשמלי קומפקטי: סוללה 65.4 קוט\"ש, ‏214 כ\"ס, צריכה מוצהרת 14.9 קוט\"ש ל-100 ק\"מ וטווח מוצהר 506 ק\"מ. Euro NCAP ‏(2023): 4 כוכבים.",
+  "pros": [
+   "טווח מוצהר גבוה (506 ק\"מ)",
+   "צריכת חשמל נמוכה",
+   "שירות יונדאי נפוץ בכל הארץ"
+  ],
+  "cons": [
+   "4 כוכבי Euro NCAP",
+   "יקר מגרסת ההיברידית",
+   "תא מטען בינוני (466 ליטר)"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Kona EV 2026 Pure + cartube Kona EV Pure trim page (2026-10-31)",
+  "bands": {
+   "7000": {
+    "fuel": 61,
+    "insurance": 539,
+    "maintenance": 132,
+    "depreciation": 1750,
+    "total": 2603
+   },
+   "15000": {
+    "fuel": 131,
+    "insurance": 539,
+    "maintenance": 150,
+    "depreciation": 1750,
+    "total": 2691
+   },
+   "25000": {
+    "fuel": 217,
+    "insurance": 539,
+    "maintenance": 168,
+    "depreciation": 1750,
+    "total": 2795
    }
   }
  },
@@ -2646,6 +2707,128 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "toyota-c-hr-plus",
+  "make": "Toyota",
+  "model": "C-HR+",
+  "trim": "Motion 2x4 (57.7 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 416,
+  "powerHp": 167,
+  "consumption": null,
+  "price": 179990,
+  "priceMin": 179990,
+  "priceMax": 229990,
+  "sampleSize": null,
+  "newPrice": 179990,
+  "reliability": 82,
+  "safety": 65,
+  "economy": 94,
+  "comfort": 78,
+  "practicality": 72,
+  "insuranceMin": 445,
+  "insuranceMax": 640,
+  "why": "קרוסאובר חשמלי של טויוטה: בגרסת Motion סוללה 57.7 קוט\"ש, ‏167 כ\"ס והנעה קדמית; צריכה מוצהרת 13.4 קוט\"ש ל-100 ק\"מ וטווח מוצהר 458 ק\"מ. במחירון גם גרסאות 77 קוט\"ש (כולל 4X4 ‏343 כ\"ס).",
+  "pros": [
+   "צריכת חשמל מוצהרת נמוכה מאוד",
+   "טווח טוב ביחס לגודל הסוללה",
+   "רשת שירות טויוטה"
+  ],
+  "cons": [
+   "תא מטען קטן יחסית (416 ליטר)",
+   "גרסת הבסיס בהספק צנוע",
+   "דירוג Euro NCAP לא אומת"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il C-HR+ 2026 Motion 2x4 + carzone.co.il/Toyota/C-HR-Plus/compare (2026-10-31)",
+  "bands": {
+   "7000": {
+    "fuel": 54,
+    "insurance": 549,
+    "maintenance": 132,
+    "depreciation": 1650,
+    "total": 2506
+   },
+   "15000": {
+    "fuel": 117,
+    "insurance": 549,
+    "maintenance": 150,
+    "depreciation": 1650,
+    "total": 2587
+   },
+   "25000": {
+    "fuel": 194,
+    "insurance": 549,
+    "maintenance": 168,
+    "depreciation": 1650,
+    "total": 2682
+   }
+  }
+ },
+ {
+  "id": "skoda-elroq",
+  "make": "Skoda",
+  "model": "Elroq",
+  "trim": "60 Advance (61 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 470,
+  "powerHp": 190,
+  "consumption": null,
+  "price": 182990,
+  "priceMin": 182990,
+  "priceMax": 197990,
+  "sampleSize": null,
+  "newPrice": 182990,
+  "reliability": 76,
+  "safety": 90,
+  "economy": 90,
+  "comfort": 80,
+  "practicality": 84,
+  "insuranceMin": 450,
+  "insuranceMax": 647,
+  "why": "קרוסאובר חשמלי קומפקטי: סוללה 61 קוט\"ש, ‏190 כ\"ס, צריכה מוצהרת 15.6 קוט\"ש ל-100 ק\"מ וטווח מוצהר 442 ק\"מ. תא מטען 470 ליטר. Euro NCAP ‏(2025): 5 כוכבים.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2025)",
+   "תא מטען ומרווח פנימי טובים לגודל",
+   "מעשי לשימוש משפחתי"
+  ],
+  "cons": [
+   "טווח מוצהר בינוני (442 ק\"מ)",
+   "יקר מהמתחרות הסיניות",
+   "רק שתי רמות גימור, שתיהן עם אותה סוללה"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Elroq 2026 60 Advance + cartube trim page + carzone.co.il/Skoda/Elroq/2026 (2026-10-31)",
+  "bands": {
+   "7000": {
+    "fuel": 64,
+    "insurance": 554,
+    "maintenance": 132,
+    "depreciation": 1830,
+    "total": 2701
+   },
+   "15000": {
+    "fuel": 136,
+    "insurance": 554,
+    "maintenance": 150,
+    "depreciation": 1830,
+    "total": 2791
+   },
+   "25000": {
+    "fuel": 228,
+    "insurance": 554,
+    "maintenance": 168,
+    "depreciation": 1830,
+    "total": 2901
+   }
+  }
+ },
+ {
   "id": "mazda-mazda3",
   "make": "Mazda",
   "model": "Mazda3",
@@ -2763,6 +2946,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 246,
     "depreciation": 1541,
     "total": 3362
+   }
+  }
+ },
+ {
+  "id": "peugeot-3008",
+  "make": "Peugeot",
+  "model": "3008",
+  "trim": "Allure 1.2T MHEV",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 520,
+  "powerHp": 145,
+  "consumption": 5.5,
+  "price": 186990,
+  "priceMin": 186990,
+  "priceMax": 206990,
+  "sampleSize": null,
+  "newPrice": 186990,
+  "reliability": 70,
+  "safety": 74,
+  "economy": 78,
+  "comfort": 80,
+  "practicality": 80,
+  "insuranceMin": 456,
+  "insuranceMax": 655,
+  "why": "SUV משפחתי בדור חדש: 1.2 טורבו בנזין עם מערכת מיילד-היברידית, ‏145 כ\"ס ותיבה כפולת מצמד 6; צריכה מוצהרת 18.2 ק\"מ לליטר (במבחן auto.co.il ‏14.4 בגרסת GT). תא מטען 520 ליטר. Euro NCAP ‏(2025): 4 כוכבים.",
+  "pros": [
+   "עיצוב ותא נוסעים מרשימים",
+   "תא מטען 520 ליטר",
+   "חסכוני יחסית לגודלו"
+  ],
+  "cons": [
+   "4 כוכבי Euro NCAP",
+   "צריכה בפועל גבוהה מהמוצהר",
+   "יקר יחסית למנוע 1.2"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il 3008 2026 MHEV Allure + cartube 3008 Allure trim page + carzone.co.il/Peugeot/3008/2026 (2026-10-31)",
+  "bands": {
+   "7000": {
+    "fuel": 266,
+    "insurance": 561,
+    "maintenance": 194,
+    "depreciation": 1714,
+    "total": 2856
+   },
+   "15000": {
+    "fuel": 568,
+    "insurance": 561,
+    "maintenance": 220,
+    "depreciation": 1714,
+    "total": 3184
+   },
+   "25000": {
+    "fuel": 947,
+    "insurance": 561,
+    "maintenance": 246,
+    "depreciation": 1714,
+    "total": 3589
    }
   }
  },
@@ -3129,6 +3373,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 230,
     "depreciation": 1632,
     "total": 3630
+   }
+  }
+ },
+ {
+  "id": "byd-sealion-7",
+  "make": "BYD",
+  "model": "Sealion 7",
+  "trim": "Boost 2x4 (71.8 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 520,
+  "powerHp": 231,
+  "consumption": null,
+  "price": 198990,
+  "priceMin": 198990,
+  "priceMax": 237990,
+  "sampleSize": null,
+  "newPrice": 198990,
+  "reliability": 72,
+  "safety": 90,
+  "economy": 84,
+  "comfort": 82,
+  "practicality": 84,
+  "insuranceMin": 473,
+  "insuranceMax": 680,
+  "why": "קרוסאובר-קופה חשמלי משפחתי: בגרסת Boost סוללה 71.8 קוט\"ש, ‏231 כ\"ס והנעה אחורית; צריכה מוצהרת 19.1 קוט\"ש ל-100 ק\"מ וטווח מוצהר 440 ק\"מ. במחירון גם גרסאות 91.3 קוט\"ש (כולל 4X4). Euro NCAP ‏(2025): 5 כוכבים.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2025)",
+   "תא מטען 520 ליטר ותא מטען קדמי",
+   "ביצועים חזקים"
+  ],
+  "cons": [
+   "צריכת חשמל גבוהה יחסית",
+   "טווח מוצהר בינוני בגרסת הבסיס",
+   "ירידת ערך צפויה גבוהה"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il Sealion 7 2026 Boost 2x4 (+ Design/Excellence pages) (2026-10-31)",
+  "bands": {
+   "7000": {
+    "fuel": 77,
+    "insurance": 583,
+    "maintenance": 132,
+    "depreciation": 2322,
+    "total": 3235
+   },
+   "15000": {
+    "fuel": 166,
+    "insurance": 583,
+    "maintenance": 150,
+    "depreciation": 2322,
+    "total": 3342
+   },
+   "25000": {
+    "fuel": 277,
+    "insurance": 583,
+    "maintenance": 168,
+    "depreciation": 2322,
+    "total": 3471
    }
   }
  },
