@@ -498,6 +498,24 @@
             }
           }
         ]
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "he": "קריאת שירות (NHTSA 26V266000, קוד אאודי 69GT): חגורות הבטיחות הקדמיות (המותחן) עלולות להיות מיוצרות לא כנדרש ולא לרסן כראוי בתאונה — החלפת החגורות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "Q5 / Q5 Sportback / SQ5 ייצור 10.7–19.12.2025 (לפי car-recalls.eu)",
+            "source": {
+              "title": "ClearVIN — 2025 Audi Q5 recalls: NHTSA 26V266000 (seat belt pretensioner, Audi 69GT)",
+              "url": "https://www.clearvin.com/car-recalls/audi/q5/2025/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/audi-q5---euro-ncap-2025-results---5-stars/s/fa9fdbc0-a530-4e02-93b7-c4087c27b128"
+        }
       }
     },
     "q2": {

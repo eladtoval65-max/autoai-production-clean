@@ -794,6 +794,75 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/מרצדס-cla-החדשה-2019-בישראל-מחיר-252900-שקל"
           }
         }
+      },
+      "C178 / C174": {
+        "issues": [
+          {
+            "he": "קריאת שירות (KBA 16007R): רתמת החשמל של מערכת ה-48V בגרסאות הבנזין המיילד-היברידיות עלולה שלא להיות מחוברת לפי המפרט — התחממות וסכנת שריפה. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "CLA 180/200/220 בנזין (M252), ייצור 17.11–19.12.2025",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz CLA: rischio di scossa elettrica e di incendio (KBA 16007R, codice 1595005)",
+              "url": "https://car-recalls.eu/it/mercedes-benz-cla-risk-electric-shock-fire-risk-kba/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KBA 15743R): רתמת החיווט של כרית האוויר הווילונית עלולה להיות מנותבת לא נכון, והכרית עלולה שלא להיפתח כראוי. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 18.4.2024–6.10.2025",
+            "source": {
+              "title": "auto motor und sport — Rückruf für CLA: Mercedes muss unter anderem Sitzbefestigungen checken (KBA 15743R / 15742R / 15938R)",
+              "url": "https://www.auto-motor-und-sport.de/kompaktklasse/rueckruf-fuer-cla-mercedes-muss-unter-anderem-sitzbefestigungen-checken/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KBA 15938R): ייתכן שהברגים של המושבים הקדמיים ו/או אבזמי החגורות לא הודקו כנדרש. בבדיקה: לוודא שהקריאה בוצעה ושהמושבים יציבים ללא חופש.",
+            "level": "recall",
+            "scope": "ייצור 19.3–8.9.2025",
+            "source": {
+              "title": "auto motor und sport — Rückruf für CLA: Mercedes muss unter anderem Sitzbefestigungen checken (KBA 15743R / 15742R / 15938R)",
+              "url": "https://www.auto-motor-und-sport.de/kompaktklasse/rueckruf-fuer-cla-mercedes-muss-unter-anderem-sitzbefestigungen-checken/"
+            }
+          },
+          {
+            "he": "קריאת שירות (KBA 15742R): בד פגום בכרית האוויר הווילונית במספר קטן של רכבים — החלפת מודול הכרית. בבדיקה: לוודא ביצוע לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "ייצור 28.7–11.8.2025",
+            "source": {
+              "title": "auto motor und sport — Rückruf für CLA: Mercedes muss unter anderem Sitzbefestigungen checken (KBA 15743R / 15742R / 15938R)",
+              "url": "https://www.auto-motor-und-sport.de/kompaktklasse/rueckruf-fuer-cla-mercedes-muss-unter-anderem-sitzbefestigungen-checken/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו מיילד-היברידי (CLA 200)",
+            "pt": "mhev",
+            "hp": 163,
+            "cons": 4.05,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 (DE) — Mercedes CLA Mildhybrid (2026) Verbrauchstest: CLA 200 4Matic, 4.05 L/100km (single 360 km Rome–Forlì route test; mixed 6.4, Autobahn 5.9)",
+              "url": "https://de.motor1.com/reviews/797468/mercedes-cla-mildhybrid-2026-verbrauch-test/"
+            }
+          },
+          {
+            "name": "חשמלי 85 קוט\"ש, הנעה אחורית (CLA 250+)",
+            "pt": "ev",
+            "hp": 272,
+            "cons": 15.6,
+            "unit": "kWh",
+            "source": {
+              "title": "fdrive.cz — Test Mercedes-Benz CLA 250+ EQ: real average 15.59 kWh/100km incl. charging losses (single 132 km mixed test)",
+              "url": "https://fdrive.cz/clanky/test-mercedes-benz-cla-250-eq-zaostreno-na-spotrebu-15433"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/mercedes-benz-cla---euro-ncap-2025-results---5-stars/s/6752a166-3101-4619-be06-3fa6334bc65e"
+        }
       }
     },
     "glb": {
