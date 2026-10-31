@@ -1,6 +1,6 @@
 {
   "make": "jeep",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "compass": {
       "Gen2": {
@@ -205,6 +205,64 @@
             }
           }
         ]
+      },
+      "WL": {
+        "issues": [
+          {
+            "he": "קריאת שירות: סוללת המתח הגבוה בגרסת 4xe עלולה להיכשל מבפנים ולגרום לשריפה, גם כשהרכב חונה. התיקון: עדכון תוכנה, ואם צריך, החלפת הסוללה. בבדיקה: לוודא שהקריאה בוצעה ולבקש תיעוד על החלפת סוללה.",
+            "level": "recall",
+            "scope": "4xe, 2022–2024 (NHTSA 24V-720, החליפה את 23V-787) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA recall 24V-720 (FCA 95B) — 2022–2024 Grand Cherokee 4xe HV battery fire",
+              "url": "https://www.vehiclesafetyrecalls.com/recall/24V720000"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה בתוכנת הבקרה של סוללת ההיברידית עלולה לאפס את מערכת חלוקת הכוח, והרכב מאבד כוח הנעה בנסיעה. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "level": "recall",
+            "scope": "4xe, 2022–2026 (ארה״ב, ספטמבר 2025) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Kelley Blue Book — Jeep recalls Grand Cherokee 4xe over power loss (Sep 2025)",
+              "url": "https://www.kbb.com/car-news/jeep-recalls-grand-cherokee-4xe-over-power-loss/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שהקפיצים האחוריים הותקנו לא נכון (לא ברכבים עם מתלי אוויר). בבדיקה: לוודא שהקריאה בוצעה ולבדוק שגובה הרכב מאחור אחיד.",
+            "level": "recall",
+            "scope": "2022–2023 (NHTSA 23V-413) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "PickupTruckTalk — 2022–2026 Jeep Grand Cherokee known problems and recalls (NHTSA 23V-413)",
+              "url": "https://pickuptrucktalk.com/2026/06/2022-2026-jeep-grand-cherokee-known-problems-4xe-hybrid-issues-electrical-woes-and-recalls/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בורג ההידוק של הזרוע העליונה בקדמת הרכב עלול להישבר, ומפרק הכדור עלול להשתחרר מהיגוי הגלגל. בבדיקה: לוודא שהבורג הוחלף במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "2022–2023 (NHTSA 24V-132) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "PickupTruckTalk — 2022–2026 Jeep Grand Cherokee known problems and recalls (NHTSA 24V-132)",
+              "url": "https://pickuptrucktalk.com/2026/06/2022-2026-jeep-grand-cherokee-known-problems-4xe-hybrid-issues-electrical-woes-and-recalls/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בגלל תקלת תוכנה בבקר כריות האוויר, כרית הצד עלולה להיפתח באיחור בתאונה. התיקון: עדכון תוכנה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2022–2026 (NHTSA 26V-328) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "PickupTruckTalk — 2022–2026 Jeep Grand Cherokee known problems and recalls (NHTSA 26V-328)",
+              "url": "https://pickuptrucktalk.com/2026/06/2022-2026-jeep-grand-cherokee-known-problems-4xe-hybrid-issues-electrical-woes-and-recalls/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 399900,
+          "year": 2022,
+          "note": "Altitude 3.6 V6 290 כ״ס (גרסת 4xe הגיעה אחר כך)",
+          "source": {
+            "title": "cartube — ג'יפ גרנד צ'ירוקי החדש 2023 בישראל: מחיר 399,900 שקל (נובמבר 2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ג-יפ-גרנד-צ-ירוקי-החדש-2023-בישראל-מחיר-399900-שקל"
+          }
+        }
       }
     },
     "avenger": {

@@ -1,0 +1,463 @@
+{
+  "make": "land-rover",
+  "updated": "2026-10-31",
+  "models": {
+    "evoque": {
+      "L538": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מסילות הדלק על מנוע הבנזין 2.0 טורבו עלולות להיות פגומות ולדלוף. דלק שנוגע במשטח חם עלול להתלקח בתא המנוע. בבדיקה: לוודא שהקריאה בוצעה ולהריח אם יש ריח דלק בתא המנוע.",
+            "level": "recall",
+            "scope": "שנתון 2018, 2.0 טורבו בנזין (PRA 2018/16680, אוסטרליה). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L538 Range Rover Evoque (PRA 2018/16680)",
+              "url": "https://australiancar.reviews/?p=47191"
+            }
+          },
+          {
+            "he": "קריאת שירות: זרוע תחתונה קדמית הורכבה לא נכון. מכה חזקה בבור או במדרכה עלולה לשבור את המתלה ולגרום לאובדן שליטה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "רכבים שנמכרו 3/2016–8/2016 (PRA 2017/15824, 2017/15826). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L538 Range Rover Evoque (PRA 2017/15824, 2017/15826)",
+              "url": "https://australiancar.reviews/?p=47191"
+            }
+          },
+          {
+            "he": "קריאת שירות: תערובת ההנעה בכרית האוויר של הנוסע הקדמי עלולה להיות מחוץ למפרט, והכרית עלולה לא להיפתח בתאונה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2016–2017, נמכרו 8/2016–10/2016 (PRA 2017/15899). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L538 Range Rover Evoque (PRA 2017/15899)",
+              "url": "https://australiancar.reviews/?p=47191"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי הקליפר של הבלם האחורי עלולים להשתחרר, עם סכנה לאובדן מעגל בלימה. בבדיקה: לוודא שהקריאה בוצעה ולהקשיב לרעשים מהגלגלים האחוריים.",
+            "level": "recall",
+            "scope": "שנתון 2012 (PRA 2013/13487). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L538 Range Rover Evoque (PRA 2013/13487)",
+              "url": "https://australiancar.reviews/?p=47191"
+            }
+          },
+          {
+            "he": "דפיקות וחבטות מהמתלה האחורי הן תקלה נפוצה ויקרה לתיקון. בנוסף מדווחות תקלות חשמל ומערכת מולטימדיה. בבדיקה: נסיעה בדרך משובשת והקשבה לאחור, ובדיקת כל מערכות המולטימדיה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Range Rover Evoque review: 2011 to 2018 (Mk1), reliability and common problems",
+              "url": "https://www.carbuyer.co.uk/reviews/land-rover/evoque/suv/48011/review/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין 240 כ״ס",
+            "pt": "petrol",
+            "hp": 240,
+            "cons": 9.8,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — 2013 Range Rover Evoque 2.0 I4 turbo real-world MPG survey: 24.01 mpg (US) = 9.8 L/100km",
+              "url": "https://www.truedelta.com/Land-Rover-Range-Rover-Evoque/mpg-1089/2013"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6627/euroncap_range-rover_evoque_2011_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 368000,
+          "year": 2011,
+          "note": "Pure, 2.0 טורבו בנזין 4X4 (Prestige: 448,000)",
+          "source": {
+            "title": "auto.co.il — יש מחיר לריינג' רובר אווק (13.07.2011)",
+            "url": "https://www.auto.co.il/articles/car-news/116710/"
+          }
+        }
+      },
+      "L551": {
+        "issues": [
+          {
+            "he": "קריאת שירות: עומס חשמלי במערכת ה-48V של המיילד-היברידי עלול לגרום לקצר בממיר DC/DC. המצבר של 12V מתרוקן (נורית מצבר), ייתכנו ריח שרוף, עשן וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "גרסאות מיילד-היברידי (MHEV), נמכרו 5/2018–10/2020 (N503). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L551 Range Rover Evoque (N503, PRA 2020/18689)",
+              "url": "https://australiancar.reviews/?p=47192"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינור הזנת השמן לטורבו לא הודק מספיק ועלול להשתחרר, לדלוף ולהתלקח. בבדיקה: לוודא שהצינור נבדק/הוחלף אצל היבואן ולבדוק סימני שמן בתא המנוע.",
+            "level": "recall",
+            "scope": "2020–2024 (N875, REC-005917). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L551 Range Rover Evoque (N875, REC-005917)",
+              "url": "https://australiancar.reviews/?p=47192"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנוסע הקדמי עלולה להיקרע בעת הפתיחה ולא להגן כראוי. בבדיקה: לוודא שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "2020–2024 (N945, REC-006380). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L551 Range Rover Evoque (N945, REC-006380)",
+              "url": "https://australiancar.reviews/?p=47192"
+            }
+          },
+          {
+            "he": "קריאת שירות: מנגנון הנעילה של חגורת הנהג עלול לא להינעל בבלימה או בהטיה. בבדיקה: לוודא שהקריאה בוצעה ולמשוך את החגורה בחדות לבדיקת נעילה.",
+            "level": "recall",
+            "scope": "שנתון 2021 (N568, REC-001656). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L551 Range Rover Evoque (N568, REC-001656)",
+              "url": "https://australiancar.reviews/?p=47192"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין P250 מיילד-היברידי 249 כ״ס",
+            "pt": "mhev",
+            "hp": 249,
+            "cons": 11.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Range Rover Evoque P250 AWD (L551/LZ), user-reported average 11.1 L/100km (77 reports)",
+              "url": "https://www.autokostencheck.de/Range-Rover/Range-Rover/Evoque/range-rover-evoque-p250-awd-lz_47346/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/range-rover-evoque---euro-ncap-2019-results---5-stars/s/ce9e5c4a-d528-42c3-a5dd-bcbc191f028e"
+        },
+        "launchPrice": {
+          "ils": 397000,
+          "year": 2019,
+          "note": "רמת גימור S, מנוע 200 כ״ס",
+          "source": {
+            "title": "וואלה! רכב — החל שיווק ריינג' רובר איווק החדש (11.03.2019)",
+            "url": "https://cars.walla.co.il/item/3223797"
+          }
+        }
+      }
+    },
+    "discovery-sport": {
+      "L550": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית אוויר של הנהג מתוצרת טקאטה. לחות עלולה לפגוע במטען, והמנפח עלול להתפוצץ ולהעיף רסיסי מתכת לתא הנוסעים. בבדיקה: לוודא שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "נמכרו 2015–2016 ושנתון 2017 (N200, N201). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L550 Discovery Sport (Takata N200 PRA 2018/17081, N201 PRA 2019/17270)",
+              "url": "https://australiancar.reviews/?p=47185"
+            }
+          },
+          {
+            "he": "קריאת שירות: זרוע תחתונה קדמית הורכבה לא נכון. מכה חזקה בבור או במדרכה עלולה לשבור את המתלה ולגרום לאובדן שליטה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2016, נמכרו 3/2016–8/2016 (PRA 2017/15824, 2017/15826). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L550 Discovery Sport (PRA 2017/15824, 2017/15826)",
+              "url": "https://australiancar.reviews/?p=47185"
+            }
+          },
+          {
+            "he": "קריאת שירות: צמת החוטים של המנוע עלולה להשתפשף בתושבת מקרר האוויר ולגרום לקצר: נוריות אזהרה, אובדן הגה כוח, כיבוי מנוע ואף שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2.0 דיזל, ייצור 7/2016–10/2016 (PRA 2017/15845). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L550 Discovery Sport (PRA 2017/15845)",
+              "url": "https://australiancar.reviews/?p=47185"
+            }
+          },
+          {
+            "he": "קריאת שירות: מסילות הדלק על מנוע הבנזין 2.0 טורבו עלולות לדלוף בתא המנוע, עם סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ולהריח אם יש ריח דלק.",
+            "level": "recall",
+            "scope": "שנתון 2018, 2.0 טורבו בנזין Ingenium (PRA 2018/16680). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L550 Discovery Sport (PRA 2018/16680)",
+              "url": "https://australiancar.reviews/?p=47185"
+            }
+          },
+          {
+            "he": "קריאת שירות: עומס חשמלי במערכת ה-48V של המיילד-היברידי עלול לגרום לקצר בממיר DC/DC. המצבר מתרוקן, ייתכנו ריח שרוף, עשן וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "גרסאות מיילד-היברידי, נמכרו 5/2018–10/2020 (N503). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L550 Discovery Sport (N503, PRA 2020/18689)",
+              "url": "https://australiancar.reviews/?p=47185"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל 190 כ״ס",
+            "pt": "diesel",
+            "hp": 190,
+            "cons": 8.3,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Discovery Sport 2.2 TD 190 PS, user-reported average 8.3 L/100km (113 reports)",
+              "url": "https://www.autokostencheck.de/Landrover/Landrover-Discovery/Discovery-Sport/discovery-sport-2-2-td-lc_39837/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין P250 מיילד-היברידי 249 כ״ס (מ-2019)",
+            "pt": "mhev",
+            "hp": 249,
+            "cons": 10.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Discovery Sport 2.0 249 PS (2019–), user-reported average 10.5 L/100km (35 reports)",
+              "url": "https://www.autokostencheck.de/Landrover/Landrover-Discovery/Discovery-Sport/discovery-sport-2-0-lc_47865/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://news.euroncap.com/latest%20release/euro-ncap-s-best-in-class-cars-of-2014/s/bb401252-a9c0-45b0-bf5e-fa50d2eb4979"
+        },
+        "launchPrice": {
+          "ils": 470000,
+          "year": 2015,
+          "note": "רמת גימור SE (מחיר זהה ל-2.0 בנזין 240 כ״ס ול-2.2 דיזל 190 כ״ס)",
+          "source": {
+            "title": "Cartube — לנד רובר דיסקברי ספורט החדש בישראל: מחיר החל מ-470 אלף שקל (23.03.2015)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/לנד-רובר-דיסקברי-ספורט-החדש-בישראל-–-מחיר-החל-מ-470-אלף-שקל"
+          }
+        }
+      }
+    },
+    "range-rover-sport": {
+      "L494": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כבל המצבר החיובי עלול להשתפשף בצנרת מערכת המתלים הדינמית (DRS) ולגרום לקשת חשמלית ושריפה. בבדיקה: לוודא שהקריאה בוצעה (החלפת כבל והוספת תפס).",
+            "level": "recall",
+            "scope": "3.0 SDV6 דיזל, 2013–2014 (PRA 2013/13880). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L494 Range Rover Sport (PRA 2013/13880)",
+              "url": "https://australiancar.reviews/?p=47194"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינורות הוואקום של מגבר הבלמים עלולים להשתפשף בגלגלת ולהיקרע, וסיוע הבלימה אובד. בבדיקה: לוודא שהקריאה בוצעה ושהדוושה לא קשה במיוחד.",
+            "level": "recall",
+            "scope": "3.0 V6 ו-5.0 V8 מגדש-על, ייצור 7/2013–1/2014 (PRA 2015/14528). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L494 Range Rover Sport (PRA 2015/14528)",
+              "url": "https://australiancar.reviews/?p=47194"
+            }
+          },
+          {
+            "he": "קריאת שירות: הדלתות עלולות לא להינעל בתפס ולהיפתח בנסיעה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק שכל דלת נסגרת וננעלת עד הסוף.",
+            "level": "recall",
+            "scope": "ייצור 3/2012–5/2015 (PRA 2015/14848). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L494 Range Rover Sport (PRA 2015/14848)",
+              "url": "https://australiancar.reviews/?p=47194"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנוסע הקדמי עלולה לא להיפתח בתאונה בגלל תערובת כימית מחוץ למפרט. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2016–2017 (PRA 2017/15899, 2017/16024). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L494 Range Rover Sport (PRA 2017/15899, 2017/16024)",
+              "url": "https://australiancar.reviews/?p=47194"
+            }
+          },
+          {
+            "he": "עדכון טכני של היצרן: נקישות מתא המנוע בהאצה, בלימה או פנייה חדה במהירות נמוכה, ורעשים בדרך משובשת. התיקון: החלפת תושבות מנוע ואם צריך תיבת ההגה. בבדיקה: נסיעה איטית עם סיבובי הגה והקשבה.",
+            "level": "manufacturer",
+            "scope": "5.0 V8 מגדש-על, שנתון 2014 (TSB LTB00618NAS4)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Land Rover L494 Range Rover Sport (TSB LTB00618NAS4)",
+              "url": "https://australiancar.reviews/?p=47194"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו דיזל D350 מיילד-היברידי 351 כ״ס (2020–2022)",
+            "pt": "mhev",
+            "hp": 351,
+            "cons": 10.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Range Rover Sport 3.0 TD 351 PS MHEV (2020–2022), user-reported average 10.8 L/100km (16 reports)",
+              "url": "https://www.autokostencheck.de/Range-Rover/Range-Rover/Range-Rover-Sport/range-rover-sport-3-0-td-lw_48650/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 705000,
+          "year": 2013,
+          "note": "TDV6 דיזל 258 כ״ס, רמת גימור SE",
+          "source": {
+            "title": "Cartube — ריינג' רובר ספורט החדש בישראל: מחיר החל מ-705,000 שקל (25.07.2013)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ריינג-רובר-ספורט-החדש-בישראל-–-מחיר-החל-מ-705,000-שקל"
+          }
+        }
+      }
+    },
+    "discovery": {
+      "L462": {
+        "issues": [
+          {
+            "he": "קריאת שירות: צינור הזנת הדלק עלול להיות מנותב לא נכון, להיסדק ולדלוף בתא המנוע, עם סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ולהריח אם יש ריח דלק.",
+            "level": "recall",
+            "scope": "2018–2019 (N653, REC-005035). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L462 Discovery 5 (N653, REC-005035)",
+              "url": "https://www.australiancar.reviews/?p=47183"
+            }
+          },
+          {
+            "he": "קריאת שירות: מים עלולים לגרום לקורוזיה בקפיצי מנעול הדלתות האחוריות, והדלת עלולה לא להינעל. בבדיקה: לוודא שהקריאה בוצעה ולבדוק שהדלתות האחוריות נסגרות וננעלות.",
+            "level": "recall",
+            "scope": "2016–2020 (N798, REC-005703). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L462 Discovery 5 (N798, REC-005703)",
+              "url": "https://www.australiancar.reviews/?p=47183"
+            }
+          },
+          {
+            "he": "קריאת שירות: הארקת המצבר עלולה להיות לקויה ולגרום לתקלות חשמל ולאובדן כוח בנסיעה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק שאין נוריות אזהרה.",
+            "level": "recall",
+            "scope": "2019–2021 (N607, REC-001679). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L462 Discovery 5 (N607, REC-001679)",
+              "url": "https://www.australiancar.reviews/?p=47183"
+            }
+          },
+          {
+            "he": "קריאת שירות: אומי חיבור צינור הפליטה לממיר הקטליטי עלולים להיות לא מהודקים, ופליטה חמה דולפת לתא המנוע עם סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "3.0 V6 דיזל, נמכרו 11/2020–3/2021 (N571, PRA 2021/18966). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L462 Discovery 5 (N571, PRA 2021/18966)",
+              "url": "https://www.australiancar.reviews/?p=47183"
+            }
+          },
+          {
+            "he": "קריאת שירות: מעבר השמן בנושא גלי הזיזים עלול להיות מעובד לא נכון, עם דליפת שמן וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק סימני שמן על המנוע.",
+            "level": "recall",
+            "scope": "2022–2023 (N763, REC-005615). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L462 Discovery 5 (N763, REC-005615)",
+              "url": "https://www.australiancar.reviews/?p=47183"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו דיזל D300 מיילד-היברידי 300 כ״ס (מ-2021)",
+            "pt": "mhev",
+            "hp": 300,
+            "cons": 9.6,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Land Rover Discovery D300 301 PS MHEV (2021–), user-reported average 9.6 L/100km (34 reports)",
+              "url": "https://www.autokostencheck.de/Landrover/Landrover-Discovery/Discovery/discovery-d300-lr_49222/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 508000,
+          "year": 2017,
+          "note": "2.0 ל' 180 כ״ס, רמת גימור SE",
+          "source": {
+            "title": "וואלה! רכב — הזמנה מוקדמת: החל שיווק לנד רובר דיסקברי החדש בישראל (19.01.2017)",
+            "url": "https://cars.walla.co.il/item/3032976"
+          }
+        }
+      }
+    },
+    "defender": {
+      "L663": {
+        "issues": [
+          {
+            "he": "קריאת שירות: המנוע עלול להתחמם במהירות ולפוצץ זווית פלסטיק במערכת הקירור. נוזל קירור דולף וייתכנת שריפה בתא המנוע. בבדיקה: לוודא שהקריאה בוצעה ולבדוק מפלס נוזל קירור וסימני דליפה.",
+            "level": "recall",
+            "scope": "2019–2023 (N785, REC-005649). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L663 Defender (N785, REC-005649)",
+              "url": "https://australiancar.reviews/?p=101517"
+            }
+          },
+          {
+            "he": "קריאת שירות: מעבר השמן בנושא גלי הזיזים עלול להיות מעובד לא נכון. שמן עלול לדלוף או להיכנס ליניקה, עם סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2022–2023 (N763, REC-005615). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L663 Defender (N763, REC-005615)",
+              "url": "https://australiancar.reviews/?p=101517"
+            }
+          },
+          {
+            "he": "קריאת שירות: תפסי המזרקים עלולים להיסדק ולגרום לדליפת דלק וסכנת שריפה. בבדיקה: לוודא שהמזרקים נבדקו או הוחלפו.",
+            "level": "recall",
+            "scope": "שנתון 2023 (N853, REC-005916). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L663 Defender (N853, REC-005916)",
+              "url": "https://australiancar.reviews/?p=101517"
+            }
+          },
+          {
+            "he": "קריאת שירות: אומי חיבור צינור הפליטה לממיר הקטליטי עלולים להשתחרר, ופליטה חמה דולפת לתא המנוע. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "3.0 V6 דיזל, 2020–2021 (N571, REC-001630). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L663 Defender (N571, REC-001630)",
+              "url": "https://australiancar.reviews/?p=101517"
+            }
+          },
+          {
+            "he": "קריאת שירות: בדיפנדר 90 תושבות העצירה של המושבים הקדמיים עלולות לא לעמוד במפרט, והמושב ננעל רחוק מדי קדימה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דיפנדר 90, 2020–2021 (N609, REC-001682). לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Land Rover L663 Defender (N609, REC-001682)",
+              "url": "https://australiancar.reviews/?p=101517"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו דיזל D200 200 כ״ס",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Defender II D200 200 PS (2020–), user-reported average 9.1 L/100km (63 reports)",
+              "url": "https://www.autokostencheck.de/Landrover/Landrover-Defender/Defender-II/defender-d200-le_48638/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2020,
+          "url": "https://news.euroncap.com/safercars/land-rover-defender---euro-ncap-2020-results---5-stars/s/6adfe717-3081-4e34-a1cc-34b130ca3043"
+        },
+        "launchPrice": {
+          "ils": 425000,
+          "year": 2020,
+          "note": "דיפנדר 90 BASE, 2.0 דיזל 200 כ״ס (דיפנדר 110 S: 498,000)",
+          "source": {
+            "title": "Cartube — לנד רובר דיפנדר 2020 החדש בישראל: מחיר 425,000 שקל (03.06.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/לנד-רובר-דיפנדר-2020-החדש-בישראל-מחיר-425000-שקל"
+          }
+        }
+      }
+    }
+  }
+}

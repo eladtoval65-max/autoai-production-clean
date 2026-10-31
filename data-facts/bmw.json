@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "3-series": {
       "E90": {
@@ -346,6 +346,61 @@
           "year": 2011,
           "url": "https://news.euroncap.com/images-and-videos/bmw-1-series---crash-tests-2011/s/73e3d2a5-5ffc-4972-8191-2cf207ad1ed0"
         }
+      },
+      "E87": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רעידות עלולות לפגוע במחבר כבל הפלוס של המצבר בקופסת הנתיכים הקדמית. אז הדלתות לא נפתחות, הרכב לא מניע, ואם המנוע כבה גם הגה הכוח נעלם. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 3/2007–2/2011 (אוסטרליה, PRA 2013/13476) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW E87 1-Series hatch (PRA 2013/13476)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-e87-1-series-hatch-2004-11/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיבור כבל המצבר הראשי בקופסת הנתיכים עלול להיכשל, ואז מערכות מאבדות חשמל והרכב עלול להיכבות בנסיעה. סימן מקדים: נורות בלוח המחוונים מהבהבות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 3/2007–10/2011 (PRA 2018/16803, קמפיין 00 61 7704 00) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW E87 1-Series hatch (PRA 2018/16803)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-e87-1-series-hatch-2004-11/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מנפח כרית אוויר של טאקאטה עלול להתפוצץ בתאונה ולפזר רסיסים. ההחלפה בחינם. בבדיקה: לוודא שכרית האוויר הוחלפה.",
+            "level": "recall",
+            "scope": "2004–2011 (REC-006036, קמפיין 0032570300) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW E87 1-Series hatch (REC-006036)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-e87-1-series-hatch-2004-11/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין (116i)",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — BMW Seria 1 E81/E87 real-world consumption: 1.6 116i 122 KM, 8.0 l/100km (34 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/bmw/seria-1/e81-e87/strona-3/"
+            }
+          },
+          {
+            "name": "2.0 בנזין (118i)",
+            "pt": "petrol",
+            "hp": 143,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — BMW Seria 1 E81/E87 real-world consumption: 2.0 118i 143 KM, 8.5 l/100km (14 reports)",
+              "url": "https://www.autocentrum.pl/spalanie/bmw/seria-1/e81-e87/strona-3/"
+            }
+          }
+        ]
       }
     },
     "ix3": {
@@ -524,6 +579,84 @@
             }
           }
         ]
+      },
+      "U11": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלה במערכת הבלמים המשולבת עלולה לגרום לאובדן פתאומי של סיוע הבלימה ההידראולי, ולכיבוי ABS ו-DSC. צריך ללחוץ חזק יותר על הדוושה ומרחק הבלימה גדל. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 9.6.2022–27.1.2024 (קריאה אירופית, RAPEX A12/00996/24)",
+            "source": {
+              "title": "car-recalls.eu — BMW X1 (2022–2024) integrated braking system failure (Rapex 17/2024, A12/00996/24)",
+              "url": "https://car-recalls.eu/recall/bmw-x1-2022-2024-brakes-failure/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג עלולה להיות מקופלת לא נכון ולא להיפתח כראוי בתאונה. בבדיקה: לבדוק לפי מספר שלדה אצל היבואן אם הרכב כלול, ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "iX / X1 / iX1, ייצור 30.6.2020–2.2.2023 (RAPEX A12/00859/23) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — BMW X1 / iX1 (2020–2023) driver airbag incorrectly folded (BMW 0032400300, Rapex A12/00859/23)",
+              "url": "https://car-recalls.eu/recall/bmw-x1-2020-2023-driver-airbag/"
+            }
+          },
+          {
+            "he": "קריאת שירות (iX1 חשמלי): פגם ייצור עלול לגרום לגל ההנעה הקדמי להשתחרר מיחידת ההנעה החשמלית, ואז אובדן הנעה פתאומי. בבדיקה: לוודא ששתי הקריאות (שמאל וימין) בוצעו.",
+            "level": "recall",
+            "scope": "iX1, 2022–2023 (אוסטרליה, קמפיינים 0031100200 / 0031110200) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW U11 iX1 (front drive shafts, REC-005745/REC-005746)",
+              "url": "https://australiancar.reviews/?p=99292"
+            }
+          },
+          {
+            "he": "קריאת שירות: חגורות הבטיחות החיצוניות בשורה השנייה עלולות להיתקע בתחתית לוחות הדיפון ולא לפעול כראוי. בבדיקה: למשוך ולשחרר את החגורות האחוריות, ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2022 ואילך (אוסטרליה, REC-005748) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — BMW X1 recalled (rear seat belts, REC-005748)",
+              "url": "https://www.carexpert.com.au/car-news/bmw-x1-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין (sDrive18i)",
+            "pt": "petrol",
+            "hp": 136,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — BMW X1 U11 real-world consumption: 1.5 18i 136 KM, 7.5 l/100km (4 owner reports only)",
+              "url": "https://www.autocentrum.pl/spalanie/bmw/x1/u11/"
+            }
+          },
+          {
+            "name": "iX1 xDrive30 חשמלי",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 17,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BMW iX1 xDrive30: real-world consumption 170 Wh/km",
+              "url": "https://ev-database.org/car/1701/BMW-iX1-xDrive30"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/bmw-x1---euro-ncap-2022-results---5-stars/s/62c19f86-86da-43ed-8ad8-3fb1fdbe80c3"
+        },
+        "launchPrice": {
+          "ils": 275000,
+          "year": 2022,
+          "note": "sDrive18i Style 136 כ״ס (M-Sport 285,000)",
+          "source": {
+            "title": "cartube — ב.מ.וו X1 החדש 2023 בישראל: מחיר 275,000 שקל (14.11.2022)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ב-מ-וו-x1-החדש-2023-בישראל-מחיר-275000-שקל"
+          }
+        }
       }
     },
     "x3": {
@@ -924,6 +1057,272 @@
           "source": {
             "title": "auto.co.il — ב.מ.וו סדרה 2 החדשה - מ-249 אלף שקל (16.03.2020)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/133500/"
+          }
+        }
+      }
+    },
+    "4-series": {
+      "F32": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג מתוצרת טאקאטה — חומר ההנעה סופג לחות עם השנים, והמנפח עלול להתפוצץ ולפזר רסיסי מתכת. בבדיקה: לוודא שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "2013–2017 (אוסטרליה, PRA 2018/17191) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F32 4-Series Coupe (PRA 2018/17191)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f32-4-series-coupe-2013-20/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברכבים שבהם הוחלף ההגה אחרי הייצור, ייתכן שהותקן הגה עם מנפח טאקאטה פגום. בבדיקה: לבדוק אצל היבואן לפי מספר שלדה אם ההגה הוחלף ואם הקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2014–2017 (REC-006035, קמפיינים 0032550300 / 0032790300) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F32 4-Series Coupe (REC-006035)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f32-4-series-coupe-2013-20/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נוזל עלול לחדור למחבר של משאבת המים החשמלית ולגרום לקצר ואף לשריפה. בבדיקה: לוודא שהמחבר נבדק והוחלף במידת הצורך.",
+            "level": "recall",
+            "scope": "2013–2018 (REC-006063, קמפיין 0011800700) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F32 4-Series Coupe (REC-006063)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f32-4-series-coupe-2013-20/"
+            }
+          },
+          {
+            "he": "נורת מנוע, מצב חירום עם הודעת Drivetrain Malfunction או תקלות VANOS, בלי תקלה מכנית. התיקון: עדכון תוכנה למחשב המנוע. בבדיקה: לסרוק תקלות ולוודא שהעדכון בוצע.",
+            "level": "manufacturer",
+            "scope": "420i / 428i / 435i, ייצור עד 7/2014",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F32 4-Series Coupe (BMW NA service bulletin SI B12 26 14)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f32-4-series-coupe-2013-20/"
+            }
+          },
+          {
+            "he": "קורוזיה סביב מכסי המרכז של חישוקי הסגסוגת נפוצה. בבדיקה: לבדוק את החישוקים סביב הלוגו.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used BMW 4 Series (Mk1, 2014-2020) review: what should you look out for?",
+              "url": "https://www.autoexpress.co.uk/bmw/4-series/65268/coupe/interior"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (428i)",
+            "pt": "petrol",
+            "hp": 245,
+            "cons": 9.3,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2014 BMW 428i: 25.4 mpg US average, 17 vehicles, 1,021 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/bmw/428i/2014"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין (430i)",
+            "pt": "petrol",
+            "hp": 252,
+            "cons": 9.3,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — BMW 430i, model years 2017–2020: ~25.4 mpg US mileage-weighted average, 20 vehicles (converted)",
+              "url": "https://www.fuelly.com/car/bmw/430i"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 340000,
+          "year": 2013,
+          "note": "420i 184 כ״ס, גרסת הבסיס (עד 450,000 לגרסה הבכירה)",
+          "source": {
+            "title": "וואלה! רכב — ב.מ.וו סדרה 4 קופה הגיעה לישראל (29.7.2013)",
+            "url": "https://cars.walla.co.il/item/2665009"
+          }
+        }
+      }
+    },
+    "2-series-coupe": {
+      "F22": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג מתוצרת טאקאטה — חומר ההנעה סופג לחות עם השנים, והמנפח עלול להתפוצץ ולפזר רסיסי מתכת. בבדיקה: לוודא שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "2013–2017 (אוסטרליה, PRA 2018/17191) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F22 2-Series Coupe (PRA 2018/17191)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f22-2-series-coupe-2014/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברכבים שבהם הוחלף ההגה אחרי הייצור, ייתכן שהותקן הגה עם מנפח טאקאטה פגום. בבדיקה: לבדוק אצל היבואן לפי מספר שלדה אם ההגה הוחלף ואם הקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2014–2017 (REC-006035) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F22 2-Series Coupe (REC-006035)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f22-2-series-coupe-2014/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נוזל עלול לחדור למחבר של משאבת המים החשמלית ולגרום לקצר ואף לשריפה. בבדיקה: לוודא שהמחבר נבדק והוחלף במידת הצורך.",
+            "level": "recall",
+            "scope": "2014–2018 (REC-006063, קמפיין 0011800700) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F22 2-Series Coupe (REC-006063)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f22-2-series-coupe-2014/"
+            }
+          },
+          {
+            "he": "נורת מנוע, מצב חירום עם הודעת Drivetrain Malfunction או תקלות VANOS, בלי תקלה מכנית. התיקון: עדכון תוכנה למחשב המנוע. בבדיקה: לסרוק תקלות ולוודא שהעדכון בוצע.",
+            "level": "manufacturer",
+            "scope": "220i / 228i, ייצור עד 7/2014",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F22 2-Series Coupe (BMW NA service bulletin SI B12 26 14)",
+              "url": "https://www.australiancar.reviews/recalls-faults-bmw-f22-2-series-coupe-2014/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (נתון מ-228i האמריקאי, 245 כ״ס; בישראל נמכר בעיקר 220i 184 כ״ס)",
+            "pt": "petrol",
+            "hp": 245,
+            "cons": 9,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2015 BMW 228i: 26.0 mpg US average, 18 vehicles, 1,330 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/bmw/228i/2015"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 255000,
+          "year": 2014,
+          "note": "220i Business 184 כ״ס",
+          "source": {
+            "title": "icar — ב.מ.וו סדרה 2 בישראל: קופה ברבע מיליון שקל (30.4.2014)",
+            "url": "https://www.icar.co.il/חדשות_רכב/ב.מ.וו_סדרה_2_בישראל:_קופה_ברבע_מיליון_שקל/"
+          }
+        }
+      }
+    },
+    "x4": {
+      "F26": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תושבות ה-ISOFIX עלולות להישבר מרעידות, ואז מושב הבטיחות לא מקובע בתאונה. בבדיקה: לוודא שהקריאה בוצעה, במיוחד אם מתכננים מושב ילד.",
+            "level": "recall",
+            "scope": "ייצור עד 15.4.2016 (אוסטרליה, PRA 2016/15596) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F26 X4 (PRA 2016/15596)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-f26-x4-2014-18/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג מתוצרת טאקאטה — חומר ההנעה סופג לחות עם השנים, והמנפח עלול להתפוצץ ולפזר רסיסי מתכת. בבדיקה: לוודא שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "2016–2017 (PRA 2018/17191) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F26 X4 (PRA 2018/17191)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-f26-x4-2014-18/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברכבים שבהם הוחלף ההגה אחרי הייצור, ייתכן שהותקן הגה עם מנפח טאקאטה פגום. בבדיקה: לבדוק אצל היבואן לפי מספר שלדה אם ההגה הוחלף ואם הקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2014–2017 (REC-006035) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F26 X4 (REC-006035)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-f26-x4-2014-18/"
+            }
+          },
+          {
+            "he": "נורת מנוע, מצב חירום עם הודעת Drivetrain Malfunction או תקלות VANOS, בלי תקלה מכנית. התיקון: עדכון תוכנה למחשב המנוע. בבדיקה: לסרוק תקלות ולוודא שהעדכון בוצע.",
+            "level": "manufacturer",
+            "scope": "xDrive20i / 28i / 35i, ייצור עד 7/2014",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F26 X4 (BMW NA service bulletin SI B12 26 14)",
+              "url": "https://australiancar.reviews/recalls-faults-bmw-f26-x4-2014-18/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין (ממוצע כל המנועים, בעיקר xDrive28i 245 כ״ס)",
+            "pt": "petrol",
+            "hp": 245,
+            "cons": 11.1,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2016 BMW X4, all engines (xDrive28i / 35i / M40i): 21.2 mpg US average, 12 vehicles, 848 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/bmw/x4/2016"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 340000,
+          "year": 2014,
+          "note": "xDrive20i 184 כ״ס (xDrive28i 245 כ״ס עד 385,000)",
+          "source": {
+            "title": "cartube — ב.מ.וו X4 בישראל: מחיר החל מ-340 אלף שקל (26.8.2014)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ב-מ-וו-x4-בישראל-–-מחיר-החל-מ-340-אלף-שקל"
+          }
+        }
+      }
+    },
+    "x6": {
+      "F16": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בריתוכים של תושבות ה-ISOFIX עלולים להיווצר סדקי עייפות, ומושב הבטיחות עלול לא להיות מקובע. בבדיקה: לוודא שהקריאה בוצעה לפני שמתקינים מושב ילד.",
+            "level": "recall",
+            "scope": "נמכרו 8/2013–11/2019 (אוסטרליה, PRA 2019/18015) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F16 X6 (PRA 2019/18015)",
+              "url": "https://australiancar.reviews/?p=46598"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנהג מתוצרת טאקאטה — חומר ההנעה סופג לחות עם השנים, והמנפח עלול להתפוצץ ולפזר רסיסי מתכת. בבדיקה: לוודא שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "2014–2017 (PRA 2018/17191) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F16 X6 (PRA 2018/17191)",
+              "url": "https://australiancar.reviews/?p=46598"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברכבים שבהם הוחלף ההגה אחרי הייצור, ייתכן שהותקן הגה עם מנפח טאקאטה פגום. בבדיקה: לבדוק אצל היבואן לפי מספר שלדה אם ההגה הוחלף ואם הקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2014–2017 (REC-006035) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BMW F16 X6 (REC-006035)",
+              "url": "https://australiancar.reviews/?p=46598"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו בנזין (xDrive35i; בישראל נמכר בעיקר 30d דיזל)",
+            "pt": "petrol",
+            "hp": 306,
+            "cons": 11.3,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2017 BMW X6 xDrive35i: 20.8 mpg US average, 5 vehicles, 310 fuel-ups (converted)",
+              "url": "https://www.fuelly.com/car/bmw/x6/2017"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 590000,
+          "year": 2014,
+          "note": "xDrive30d Sport 258 כ״ס",
+          "source": {
+            "title": "icar — ב.מ.וו X6 החדש: החל מ-590 אלף שקל (9.12.2014)",
+            "url": "https://www.icar.co.il/חדשות_רכב/ב.מ.וו_X6_החדש:_החל_מ-590_אלף_שקל/"
           }
         }
       }

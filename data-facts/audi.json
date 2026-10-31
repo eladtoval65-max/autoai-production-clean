@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "a3": {
       "8V": {
@@ -760,6 +760,150 @@
           "source": {
             "title": "cartube — 2017 אודי A5 החדשה בישראל – מחיר החל מ-359,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-אודי-a5-החדשה-בישראל-–-מחיר-החל-מ-359900-שקל"
+          }
+        }
+      },
+      "B8 (8T)": {
+        "issues": [
+          {
+            "he": "צריכת שמן חריגה במנועי 1.8 ו-2.0 TFSI, בגלל טבעות ובוכנות מחוץ למפרט. אאודי שינתה את החלקים מסוף 2011. בבדיקה: לשאול כמה שמן מוסיפים, לבדוק עשן כחול ולברר אם הוחלפו בוכנות וטבעות.",
+            "level": "manufacturer",
+            "scope": "1.8/2.0 TFSI שיוצרו עד 11/2011 (TPI 2026711, 2024604)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Audi 8TA A5 Sportback (2010-16), excessive oil consumption TPI",
+              "url": "https://www.australiancar.reviews/recalls-faults-audi-8ta-a5-sportback-2010-16/"
+            }
+          },
+          {
+            "he": "קריאת שירות: משאבת נוזל הקירור הנוספת עלולה להיחסם או להתחמם (לחות באלקטרוניקה), ויש סכנת התחממות ושריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2.0 TFSI 2011–2016 (אוסטרליה PRA 2017/16068, 2018/16842 / קמפיין 19N3) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Audi 8TA A5 Sportback (PRA 2018/16842, campaign 19N3)",
+              "url": "https://www.australiancar.reviews/recalls-faults-audi-8ta-a5-sportback-2010-16/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של טקאטה עלולה להתבלות. בפתיחה המנפח עלול להתפוצץ ולפזר רסיסי מתכת. בבדיקה: לוודא מול היבואן לפי מספר שלדה שכרית האוויר הוחלפה.",
+            "level": "recall",
+            "scope": "ייצור 13.9.2008–26.11.2012 עם כריות טקאטה (קריאה אירופית 69EP)",
+            "source": {
+              "title": "car-recalls.eu — Audi A5 (2008–2012) Takata airbag (recall 69EP, RAPEX 15/2023)",
+              "url": "https://car-recalls.eu/recall/audi-a5-2008-2012-airbag-takata/?noamp=mobile"
+            }
+          },
+          {
+            "he": "קריאת שירות: גוף החימום הנוסף של המזגן עלול להתחמם במחברים ולהעלות עשן או אש. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 4/2011–5/2015 (אוסטרליה PRA 2018/16956, קריאה 80C5) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Audi 8TA A5 Sportback (PRA 2018/16956, recall 80C5)",
+              "url": "https://www.australiancar.reviews/recalls-faults-audi-8ta-a5-sportback-2010-16/"
+            }
+          },
+          {
+            "he": "בתיבת S tronic בת 7 הילוכים (DL501) יחידת המכטרוניקה עלולה להתקלקל והמצמדים עלולים להישחק מוקדם. בבדיקה: לחפש הודעות תקלה בתיבה, העברות הילוכים קשות ומצב חירום (Limp mode) בנסיעת המבחן.",
+            "level": "widely_reported",
+            "scope": "גרסאות עם S tronic ‏7 הילוכים (בעיקר quattro)",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Audi 8TA A5 Sportback (2010-16), S tronic DL501",
+              "url": "https://www.australiancar.reviews/recalls-faults-audi-8ta-a5-sportback-2010-16/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 TFSI טורבו בנזין 170 כ״ס",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 8.9,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Audi A5 8T 1.8 TFSI 170 כ״ס (11 דיווחים, כל סוגי המרכב)",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a5/8t/"
+            }
+          },
+          {
+            "name": "2.0 TFSI טורבו בנזין 211 כ״ס",
+            "pt": "petrol",
+            "hp": 211,
+            "cons": 10.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Audi A5 8T 2.0 TFSI 211 כ״ס (34 דיווחים, כל סוגי המרכב)",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a5/8t/"
+            }
+          }
+        ]
+      }
+    },
+    "q8-e-tron": {
+      "GE (e-tron)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מודולים בסוללת המתח הגבוה (תאי LG) עלולים לאבד מטען מעצמם ולהתחמם, ויש סכנת שריפה. סימן מוקדם: טווח או ביצועים שיורדים. בבדיקה: לוודא שעדכון התוכנה והאבחון בוצעו ושמודולים פגומים הוחלפו.",
+            "level": "recall",
+            "scope": "ייצור 1/2019–3/2022 (NHTSA 23V867) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "NHTSA recall report 23V-867 — Audi e-tron / e-tron Sportback HV battery module overheating",
+              "url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V867-2910.PDF"
+            }
+          },
+          {
+            "he": "קריאת שירות: אטם פגום בשקע הטעינה עלול להכניס לחות למערכת סוללת המתח הגבוה. בבדיקה: לוודא שהקריאה בוצעה (קוד אאודי 93E8).",
+            "level": "recall",
+            "scope": "שנתון 2019 (NHTSA 19V434) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2019 Audi e-tron recalls (NHTSA 19V434000)",
+              "url": "https://www.clearvin.com/de/car-recalls/audi/e-tron/2019"
+            }
+          },
+          {
+            "he": "קריאת שירות: המחבר שמחבר את דוושת הבלם למגבר הבלמים עלול להיות מורכב לא נכון, והדוושה עלולה להתנתק מהמגבר. בבדיקה: לוודא שהקריאה בוצעה (קוד 46P6).",
+            "level": "recall",
+            "scope": "NHTSA 24V621 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2019 Audi e-tron recalls (NHTSA 24V621000)",
+              "url": "https://www.clearvin.com/de/car-recalls/audi/e-tron/2019"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי e-tron 50 קוואטרו, 313 כ\"ס, סוללה 71 קוט\"ש",
+            "pt": "ev",
+            "hp": 313,
+            "cons": 23.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi e-tron 50 quattro (2019-2022): Real Range 280 km, Efficiency 231 Wh/km",
+              "url": "https://ev-database.org/car/1209/Audi-e-tron-50-quattro"
+            }
+          },
+          {
+            "name": "חשמלי e-tron 55 קוואטרו, 408 כ\"ס (בוסט), סוללה 95 קוט\"ש",
+            "pt": "ev",
+            "hp": 408,
+            "cons": 23.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi e-tron 55 quattro (2019): Real Range 225 mi, Efficiency 384 Wh/mi",
+              "url": "https://ev-database.org/uk/car/1092/Audi-e-tron-55-quattro"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/audi-e-tron---euro-ncap-2019-results---5-stars/s/5dffa755-7313-4024-ba24-426e6cc859ef"
+        },
+        "launchPrice": {
+          "ils": 392500,
+          "year": 2018,
+          "note": "רמת גימור בסיסית (Advance), 408 כ\"ס, סוללה 95 קוט\"ש",
+          "source": {
+            "title": "cartube — אודי e-tron בישראל: מחיר 392,500 שקל (15.11.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/אודי-e-tron-בישראל-מחיר-392500-שקל"
           }
         }
       }

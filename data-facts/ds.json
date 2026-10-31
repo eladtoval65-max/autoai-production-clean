@@ -1,6 +1,6 @@
 {
   "make": "ds",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "ds-3": {
       "DS 3 Crossback": {
@@ -77,6 +77,84 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/ds3-קרוסבק-בישראל-מחיר-178990-שקל"
           }
         }
+      },
+      "DS3 (האצ'בק)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כבל הארקה של המצבר לא עמד במפרט ועלול להישבר, והמנוע עלול לכבות בנסיעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דגמים מוקדמים (אוסטרליה PRA 2011/12963) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Citroën DS3 (2010-17), PRA 2011/12963",
+              "url": "https://australiancar.reviews/recalls-faults-citroen-ds3-2010-17/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי הקיבוע של זרועות המתלה הקדמיות עלולים להיות מחוץ למפרט ולהישבר, ואז ההיגוי והאחיזה נפגעים. בבדיקה: לוודא שהקריאה בוצעה, ולשים לב לרעשים או לרכב שמושך לצד.",
+            "level": "recall",
+            "scope": "ייצור 10.10.2013–19.11.2013 (אוסטרליה PRA 2014/14310) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Citroën DS3 (2010-17), PRA 2014/14310",
+              "url": "https://australiancar.reviews/recalls-faults-citroen-ds3-2010-17/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כריות אוויר של טקאטה. בתאונה המנפח עלול להתפוצץ ולהעיף רסיסי מתכת לתוך התא. בבדיקה: לוודא מול היבואן לפי מספר שלדה שכרית האוויר הוחלפה.",
+            "level": "recall",
+            "scope": "שנתוני 2009–2016 (אוסטרליה PRA 2018/16878) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Citroën DS3 (2010-17), PRA 2018/16878 (Takata)",
+              "url": "https://australiancar.reviews/recalls-faults-citroen-ds3-2010-17/"
+            }
+          },
+          {
+            "he": "במנועי 1.6 (VTi ו-THP, משפחת Prince) מותחן שרשרת התזמון והשרשרת נוטים להתבלות. בבדיקה: להתניע מנוע קר ולהקשיב לרעש קשקוש בשניות הראשונות, ולבקש תיעוד של החלפת שרשרת או מותחן.",
+            "level": "widely_reported",
+            "scope": "1.6 VTi / 1.6 THP, בעיקר מנועים שיוצרו לפני 11/2011",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Citroën DS3 (2010-17), timing chain tensioner (EP6C/EP6DT)",
+              "url": "https://australiancar.reviews/recalls-faults-citroen-ds3-2010-17/"
+            }
+          },
+          {
+            "he": "בית התרמוסטט מפלסטיק מתייבש ונסדק, ונוזל קירור דולף, לרוב אחרי כ-80 אלף ק\"מ. בבדיקה: לחפש סימני נוזל קירור מתחת למנוע ועל תיבת ההילוכים, ולבדוק שמפלס נוזל הקירור תקין ושהמנוע מתחמם כרגיל.",
+            "level": "widely_reported",
+            "scope": "1.6 VTi / 1.6 THP",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Citroën DS3 (2010-17), thermostat housing leak",
+              "url": "https://australiancar.reviews/recalls-faults-citroen-ds3-2010-17/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 VTi בנזין 120 כ\"ס (אוטומטית)",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "Fiches-auto.fr — Consommation DS: témoignages propriétaires, DS3 1.6 VTi 120 (ממוצע של 3 דיווחי בעלים בלבד)",
+              "url": "https://www.fiches-auto.fr/articles-auto/temoignages-consommation/ds.php"
+            }
+          },
+          {
+            "name": "1.6 THP טורבו בנזין 156 כ\"ס (ידנית)",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "Fiches-auto.fr — Consommation DS: témoignages propriétaires, DS3 1.6 THP 156 (דיווח בעלים יחיד)",
+              "url": "https://www.fiches-auto.fr/articles-auto/temoignages-consommation/ds.php"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://news.euroncap.com/safercars/citro%C3%ABn%20ds3%20-%20%20euro%20ncap%20results%202009/s/95c38dc1-a3f3-48c6-aeb5-94e715bf58f0"
+        }
       }
     },
     "ds-7": {
@@ -135,6 +213,61 @@
           "source": {
             "title": "cartube — DS 7 קרוסבק 2018 בישראל: מחיר 239,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/ds-7-קרוסבק-2018-בישראל-מחיר-239900-שקל"
+          }
+        }
+      }
+    },
+    "ds-4": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הכבל של תפס מכסה המנוע לא מאובטח מספיק (ובאוסטרליה: חוט התפס עלול להשתחרר בגלל קורוזיה), ומכסה המנוע עלול להיפתח בנסיעה. בבדיקה: לוודא שהקריאה בוצעה ושמכסה המנוע ננעל היטב.",
+            "level": "recall",
+            "scope": "ייצור 2009–2016 (RAPEX A12/0396/17; באוסטרליה PRA 2017/15843)",
+            "source": {
+              "title": "car-recalls.eu — Citroën DS4 (2009–2016) bonnet catch cable (RAPEX A12/0396/17)",
+              "url": "https://car-recalls.eu/recall/citroen-ds4-2009-2016/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה בתוכנת ניהול המנוע עלולה לגרום להתחממות יתר ולנזק למנוע. בבדיקה: לוודא שעדכון התוכנה בוצע, ולבדוק שמד החום יציב בנסיעה.",
+            "level": "recall",
+            "scope": "ייצור 17.7.2014–30.4.2015 (RAPEX A12/0492/18)",
+            "source": {
+              "title": "car-recalls.eu — Citroën DS4 (2014–2015) engine overheating, engine control software (RAPEX A12/0492/18)",
+              "url": "https://car-recalls.eu/recall/citroen-ds4-2014-2015/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כריות אוויר של טקאטה. בתאונה המנפח עלול להתפוצץ ולהעיף רסיסי מתכת לתוך התא. בבדיקה: לוודא מול היבואן לפי מספר שלדה שכרית האוויר הוחלפה.",
+            "level": "recall",
+            "scope": "שנתוני 2011–2015 (אוסטרליה PRA 2018/16878) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Citroën DS4, PRA 2018/16878 (Takata)",
+              "url": "https://www.australiancar.reviews/?p=46648"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 HDi דיזל 112 כ\"ס",
+            "pt": "diesel",
+            "hp": 112,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "Fiches-auto.fr — Consommation DS: témoignages propriétaires, DS4 1.6 HDi 112 (ממוצע של 4 דיווחי בעלים בלבד)",
+              "url": "https://www.fiches-auto.fr/articles-auto/temoignages-consommation/ds.php"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 157990,
+          "year": 2012,
+          "note": "רמת גימור בסיסית (Chic), 1.6 טורבו 163 כ\"ס אוטומטית",
+          "source": {
+            "title": "icar — סיטרואן DS4 בישראל: החל מ-157,990 שקל (10.04.2012)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F_DS4_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C_-_%D7%94%D7%97%D7%9C_%D7%9E-157,990_%D7%A9%D7%A7%D7%9C"
           }
         }
       }

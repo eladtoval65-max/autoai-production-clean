@@ -1,6 +1,6 @@
 {
   "make": "mini",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "hatch": {
       "R56": {
@@ -315,6 +315,64 @@
           "source": {
             "title": "cartube — מיני קאנטרימן החדש 2017 בישראל, מחיר החל מ-195,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-מיני-קאנטרימן-החדש-בישראל-מחיר-החל-מ-195000-שקל"
+          }
+        }
+      },
+      "U25": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ציר חלול במנוע החשמלי של מגבר הבלמים רותך באופן פגום. בבלימה חזקה הוא עלול להישבר: הבלימה נחלשת, צריך ללחוץ חזק יותר, ו-ABS ובקרת היציבות מפסיקים לעבוד. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 12.12.2023–26.8.2024 (RAPEX SR/00051/25, קוד מיני 0034950200)",
+            "source": {
+              "title": "car-recalls.eu — Mini Countryman (2023–2024) brake servomotor hollow shaft weld (RAPEX SR/00051/25)",
+              "url": "https://car-recalls.eu/recall/mini-countryman-2023-2024-brakes-accident/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חגורות הבטיחות הקדמיות לא יוצרו כראוי (מוט הפיתול במנגנון הגלילה עלול להיפגע), והן עלולות לא לרסן כראוי בתאונה. בבדיקה: לוודא שמנגנוני החגורות הקדמיים הוחלפו.",
+            "level": "recall",
+            "scope": "ייצור 18.6.2025–25.8.2025 (RAPEX SR/03495/25; NHTSA 25V616)",
+            "source": {
+              "title": "car-recalls.eu — Mini Cooper / Countryman (2025) seat belts (Safety Gate SR/03495/25)",
+              "url": "https://car-recalls.eu/recall/mini-cooper-2025-seat-belts/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: התושבת של משענת היד בדלת האחורית עלולה להיות מקובעת לא כראוי ולהשתחרר כשכרית האוויר הצדית נפתחת. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "Countryman S ALL4 ו-JCW 2025 (NHTSA 24V340) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2025 MINI Countryman recalls (NHTSA 24V340000)",
+              "url": "https://www.clearvin.com/car-recalls/mini/countryman/2025/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי Countryman E, 204 כ\"ס, סוללה 66.5 קוט\"ש",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mini Countryman E (MY24-25): Real Range 385 km, Efficiency 168 Wh/km",
+              "url": "https://ev-database.org/car/1994/Mini-Countryman-E"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/mini-countryman---euro-ncap-2024-results---5-stars/s/d9f8b870-e3a0-46bb-b8e3-379a9c09c158"
+        },
+        "launchPrice": {
+          "ils": 265000,
+          "year": 2024,
+          "note": "רמת גימור בסיסית (Classic), 1.5 טורבו 170 כ\"ס; החשמלית Classic: 310,000",
+          "source": {
+            "title": "carzone — מיני קאנטרימן החדש 2024: מחיר החל מ-265,000 ש\"ח",
+            "url": "https://www.carzone.co.il/news/מיני-קאנטרימן-החדש-2024-מחיר-החל-מ-265000-שח"
           }
         }
       }

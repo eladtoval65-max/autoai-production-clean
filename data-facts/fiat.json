@@ -1,0 +1,74 @@
+{
+  "make": "fiat",
+  "updated": "2026-10-31",
+  "models": {
+    "doblo": {
+      "263": {
+        "issues": [
+          {
+            "he": "קריאת שירות: יחס התערובת של חומר ההצתה בכריות האוויר לא תקין, וייתכן שהכריות לא ייפתחו בתאונה. בבדיקה: לוודא עם היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 9/2016–11/2016 (RAPEX A12/0668/17) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Fiat Doblo (2016) airbag ignition mixture (RAPEX 21/2017)",
+              "url": "https://car-recalls.eu/recall/fiat-doblo-2016/"
+            }
+          },
+          {
+            "he": "גיר רובוטי Dualogic דווח כלא אמין, ויש הרבה תלונות על תיבת ההילוכים. בבדיקה: נסיעת מבחן ארוכה, לבדוק שההעברות חלקות ושאין הודעות תקלה. רצוי להעדיף גיר ידני.",
+            "level": "widely_reported",
+            "scope": "גרסאות Dualogic",
+            "source": {
+              "title": "RAC — Fiat Doblo (2015–2019) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-2015-2019/"
+            }
+          },
+          {
+            "he": "דווחו תקלות חשמל, כולל תקלות חשמל מלאות, פנסים ראשיים שנשרפים לעיתים קרובות ונעילה מרכזית שלא פותחת את הדלתות האחוריות. בבדיקה: לבדוק את כל המערכות החשמליות, את הפנסים ואת הנעילה בכל הדלתות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — Fiat Doblo (2015–2019) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-2015-2019/"
+            }
+          },
+          {
+            "he": "מצמד מחליק בגיר ידני. בבדיקה: להאיץ בהילוך גבוה בסל״ד נמוך ולוודא שהסל״ד לא עולה בלי שהרכב מאיץ.",
+            "level": "widely_reported",
+            "scope": "גיר ידני",
+            "source": {
+              "title": "RAC — Fiat Doblo (2010–2014) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-2010-2014"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 95 כ״ס",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 9.7,
+            "unit": "L",
+            "source": {
+              "title": "CarWiki — Fiat Doblò Verbrauch, 263 1.4 16V 95 PS ('Verbrauch laut echten Fahrern', data powered by Auto-Data.net)",
+              "url": "https://carwiki.de/fiat-doblo-verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://www.euroncap.com/en/results/fiat/doblo/26657"
+        },
+        "launchPrice": {
+          "ils": 130000,
+          "year": 2010,
+          "note": "1.3 דיזל 90 כ״ס (1.6 דיזל 105 כ״ס: 135,000)",
+          "source": {
+            "title": "auto.co.il — פיאט דובלו החדשה הגיעה לישראל (נובמבר 2010)",
+            "url": "https://www.auto.co.il/articles/car-news/117736/"
+          }
+        }
+      }
+    }
+  }
+}

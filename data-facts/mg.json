@@ -1,6 +1,6 @@
 {
   "make": "mg",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "zs": {
       "ZS (Gen1)": {
@@ -56,7 +56,18 @@
             "title": "Bizportal — MG ZS חדשה: קרוסאובר היברידי חסכוני ולא יקר (11.11.2024)",
             "url": "https://www.bizportal.co.il/car/news/article/836459"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "עדכון תוכנה מהיצרן: כשסוללת ההיברידית כמעט ריקה, הכוח יכול לרדת מאוד, ואין מספיק כוח לעקיפה או לעלייה תלולה. MG פרסמה עדכון תוכנה שמשאיר בסוללה טעינה בינונית ומפעיל את המנוע בעליות ומעל 100 קמ״ש. בבדיקה: לוודא במוסך מורשה שהעדכון בוצע, ולבדוק בנסיעת מבחן בעלייה.",
+            "level": "manufacturer",
+            "scope": "דגמי 2024–2025 (אוסטרליה, עדכון מדצמבר 2024) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Inverell Times (Drive) — MG ZS getting update to fix performance issue (Jan 2025)",
+              "url": "https://www.inverelltimes.com.au/story/8872621/mg-zs-getting-update-to-fix-performance-issue/?cs=34616"
+            }
+          }
+        ]
       }
     },
     "zs-ev": {
@@ -393,7 +404,7 @@
             "name": "חשמלי 70 קוט\"ש, הנעה כפולה Performance",
             "pt": "ev",
             "hp": 288,
-            "cons": 20.0,
+            "cons": 20,
             "unit": "kWh",
             "source": {
               "title": "EV Database — MG Marvel R Performance (2021-2025): vehicle consumption 200 Wh/km (real-world estimate, combined); 288 PS",

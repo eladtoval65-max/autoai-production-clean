@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "c-class": {
       "W204": {
@@ -449,6 +449,51 @@
             }
           }
         ]
+      },
+      "W214": {
+        "issues": [
+          {
+            "he": "קריאת שירות: פגם ייצור בתיבת הנתיכים. מערכות שמחוברות אליה עלולות להפסיק לעבוד, ואז הרכב מאבד הנעה או שעלולה לפרוץ שריפה. בבדיקה: לוודא שתיבת הנתיכים הוחלפה במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "2023–2024 (אוסטרליה RC3270) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Mercedes-Benz W214 E-Class Sedan (RC3270 / REC-005923)",
+              "url": "https://www.australiancar.reviews/recalls-faults-mercedes-benz-w214-e-class-sedan-2023/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שברגי הגלגלים לא הודקו למומנט הנדרש, והגלגל עלול להשתחרר בנסיעה. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 17.11.2022–4.12.2025 (קריאה אירופית 4090105) — לא כל הרכבים בטווח",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz E-Class (2022–2025) wheel bolts (recall 4090105, RAPEX 23/2026)",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-e-class-2022-2025-suspension-injury/"
+            }
+          },
+          {
+            "he": "קריאת שירות: צמת החוטים של תיבת ההילוכים עלולה לעבור קרוב מדי לגל ההנעה ולהישחק. הרכב עלול לאבד הנעה. בבדיקה: לוודא שהניתוב נבדק ותוקן.",
+            "level": "recall",
+            "scope": "גרסאות 4MATIC 2024 (ארה״ב NHTSA 24V224) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motorverso — NHTSA recall 24V224000: 2024 Mercedes-Benz E350/E450 4Matic transmission wiring harness",
+              "url": "https://www.motorverso.com/recalls/mercedes-benz/24V224000/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/mercedes-benz-e-class---euro-ncap-2024-results---5-stars/s/542cf8e2-498b-41c6-8f44-586bdbc90f17"
+        },
+        "launchPrice": {
+          "ils": 539900,
+          "year": 2024,
+          "note": "E200 פרימיום (E300e פרימיום: 639,900)",
+          "source": {
+            "title": "Carzone — מרצדס E-Class החדשה 2024: מחיר החל מ-539,000 ש״ח",
+            "url": "https://www.carzone.co.il/news/2024-מרצדס-E-Class-החדשה-מחיר-החל-מ-539000-שח/"
+          }
+        }
       }
     },
     "gla": {
@@ -572,6 +617,75 @@
             }
           }
         ]
+      },
+      "X254": {
+        "issues": [
+          {
+            "he": "קריאת שירות: פגם ייצור בתיבת הנתיכים. מערכות שמחוברות אליה עלולות להפסיק לעבוד, ואז הרכב מאבד הנעה או שעלולה לפרוץ שריפה. בבדיקה: לוודא שתיבת הנתיכים הוחלפה במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "2023–2024 (אוסטרליה RC3270) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Mercedes-Benz X254 GLC SUV (RC3270 / REC-005923)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-x254-glc-suv-2022/"
+            }
+          },
+          {
+            "he": "קריאת שירות חוזרת: חלק מהרכבים שתוקנו בקריאה הקודמת קיבלו תיבת נתיכים חלופית שגויה. הסיכון זהה: אובדן הנעה או שריפה. בבדיקה: לוודא שגם הקריאה החוזרת בוצעה.",
+            "level": "recall",
+            "scope": "GLC 300 2023 (אוסטרליה RC5148/RC5149) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Mercedes-Benz X254 GLC SUV (RC5148 / REC-006348)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-x254-glc-suv-2022/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שהברגים במצמד עמוד ההגה לא עומדים במפרט ועלולים להשתחרר, ואז אפשר לאבד שליטה בהיגוי. בבדיקה: לוודא שהקריאה בוצעה, ולשים לב בנסיעת המבחן לחופש או לרעש בהגה.",
+            "level": "recall",
+            "scope": "2022–2025 (אוסטרליה RC5170) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Mercedes-Benz X254 GLC SUV (RC5170 / REC-006414)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-x254-glc-suv-2022/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "GLC 200 — 2.0 טורבו בנזין, היברידי קל",
+            "pt": "mhev",
+            "hp": 204,
+            "cons": 8.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Mercedes GLC X254 2.0 200 MHEV 204 כ״ס (11 דיווחים)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/glc/c254x254/"
+            }
+          },
+          {
+            "name": "GLC 300 — 2.0 טורבו בנזין, היברידי קל",
+            "pt": "mhev",
+            "hp": 258,
+            "cons": 10.6,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Mercedes GLC X254 2.0 300 MHEV 258 כ״ס (5 דיווחים)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/glc/c254x254/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/assessments/mercedes-benz/glc/0937"
+        },
+        "launchPrice": {
+          "ils": 470000,
+          "year": 2023,
+          "note": "GLC 200 פרימיום (GLC 300e פרימיום: 550,000)",
+          "source": {
+            "title": "Cartube — מרצדס GLC החדש 2023 בישראל: מחיר 470,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מרצדס-glc-החדש-2023-בישראל-מחיר-470000-שקל"
+          }
+        }
       }
     },
     "cla": {
@@ -818,6 +932,241 @@
           "source": {
             "title": "cartube — שבעה מושבים חשמלי: מרצדס EQB 2022 בישראל, מחיר 349,900 שקל (18.7.2022)",
             "url": "https://www.cartube.co.il/חדשות-רכב/שבעה-מושבים-חשמלי-2022-מרצדס-eqb-בישראל-מחיר-349900-שקל"
+          }
+        }
+      }
+    },
+    "gle": {
+      "W166 (ML/GLE)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מים עלולים לחדור ליחידת הבקרה של משאבת הדלק. אספקת הדלק יורדת והרכב עלול לאבד כוח בנסיעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "M-Class 2012–2015 (אוסטרליה RC311 / REC-005622) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W166 M-Class (RC311 / REC-005622)",
+              "url": "https://australiancar.reviews/?p=47426"
+            }
+          },
+          {
+            "he": "קריאת שירות: כשמפלס השמן נמוך ובנהיגה דינמית, קצף שמן עלול לברוח מהמכל ולהינתז על חלקי פליטה חמים. יש סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק את מפלס השמן.",
+            "level": "recall",
+            "scope": "M-Class מ-2012 (אוסטרליה PRA 2018/16986) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W166 M-Class (PRA 2018/16986)",
+              "url": "https://australiancar.reviews/?p=47426"
+            }
+          },
+          {
+            "he": "קריאת שירות: קידוד תוכנה שגוי ביחידת זיהוי הנוסע במושב הקדמי. כרית האוויר של הנוסע עלולה לא להיפתח בתאונה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 6/2015–3/2016 (אוסטרליה PRA 2016/15819) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W166 M-Class (PRA 2016/15819)",
+              "url": "https://australiancar.reviews/?p=47426"
+            }
+          },
+          {
+            "he": "קריאת שירות: אטם בין מותח שרשרת התזמון למנוע עלול לדלוף שמן. במקרים קיצוניים יש סכנת שריפה. בבדיקה: לחפש סימני שמן בחלק הקדמי של המנוע ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דיזל 2.1 (OM651, ML250), נמכרו ב-2014 (אוסטרליה PRA 2015/14509) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W166 M-Class (PRA 2015/14509)",
+              "url": "https://australiancar.reviews/?p=47426"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "ML350 — 3.5 V6 בנזין",
+            "pt": "petrol",
+            "hp": 306,
+            "cons": 13.2,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck.de — Mercedes ML 350 (166) 306 PS 2012–2016, צריכה בפועל (7 דיווחי משתמשים)",
+              "url": "https://www.autokostencheck.de/Mercedes/Mercedes-M-Klasse/ML-350/ml-350-166_37383/verbrauch/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 492000,
+          "year": 2012,
+          "note": "ML250 BlueTec דיזל (ML350 בנזין: 515,000)",
+          "source": {
+            "title": "auto.co.il — מרצדס M קלאס החדש יוצא לדרך בישראל",
+            "url": "https://www.auto.co.il/articles/car-news/115837/"
+          }
+        }
+      },
+      "V167": {
+        "issues": [
+          {
+            "he": "קריאת שירות: צינורות הניקוז של המזגן עלולים להיות מותקנים לא נכון. עיבוי נוזל לתא הנוסעים וגורם לתקלות חשמל ולסכנת קצר ושריפה. בבדיקה: לבדוק אם השטיחים רטובים ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2018–2020 (אוסטרליה RC3132/RC3133, REC-004996) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz V167 GLE-Class (RC3132/RC3133)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-v167-gle-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: אום בקוטב השלילי של מערכת ה-48 וולט (מתחת למושבים הקדמיים) עלול להיות לא מהודק מספיק. החיבור מתחמם ויש סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2019–2022 (אוסטרליה RC3027, RC5007) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz V167 GLE-Class (RC3027 / RC5007)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-v167-gle-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נוזל קירור עלול לדלוף למעגל הוואקום. הרכיבים מתחממים ויש סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק שמפלס נוזל הקירור לא יורד.",
+            "level": "recall",
+            "scope": "דיזל OM654/OM656 (GLE300d/350d), 2017–2021 (אוסטרליה RC2978) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz V167 GLE-Class (RC2978 / REC-005039)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-v167-gle-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה בתוכנת תיבת ההילוכים עלולה למנוע הורדת הילוכים ולגרום לאובדן כוח פתאומי. בבדיקה: לוודא שהתוכנה עודכנה.",
+            "level": "recall",
+            "scope": "2019–2023 (אוסטרליה RC3269) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz V167 GLE-Class (RC3269 / REC-005922)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-v167-gle-class-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: יחידת אספקת הדלק עלולה להיכשל ולכבות את משאבת הדלק, ואז הרכב מאבד כוח. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2021–2022 (אוסטרליה RC3170) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz V167 GLE-Class (RC3170 / REC-005747)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-benz-v167-gle-class-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "GLE300d — 2.0 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 245,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Mercedes GLE V167 2.0 300d 245 כ״ס (6 דיווחים)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/gle/v167/suv/"
+            }
+          },
+          {
+            "name": "GLE450 — 3.0 טורבו בנזין, היברידי קל (נתון מגרסת 389 כ״ס אחרי מתיחת הפנים; בהשקה 367 כ״ס)",
+            "pt": "mhev",
+            "hp": 389,
+            "cons": 10.6,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Mercedes GLE V167 3.0 450 389 כ״ס (5 דיווחים)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/gle/v167/suv/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/mercedes-benz-gle---euro-ncap-2019-results---5-stars/s/5ced7faf-733c-49fe-9964-9c0f09ccb24a"
+        },
+        "launchPrice": {
+          "ils": 605000,
+          "year": 2019,
+          "note": "GLE350d Exclusive (GLE450: מ-729,900)",
+          "source": {
+            "title": "Cartube — מרצדס GLE החדש 2019 בישראל: מחיר 605,900 שקל",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%9E%D7%A8%D7%A6%D7%93%D7%A1-gle-%D7%94%D7%97%D7%93%D7%A9-2019-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-605900-%D7%A9%D7%A7%D7%9C"
+          }
+        }
+      }
+    },
+    "s-class": {
+      "W222": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תערובת ההנעה של מותחני חגורות הבטיחות הקדמיות עלולה לחרוג מהמפרט. המותחן עלול לא לפעול בתאונה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 2016–2017 (אוסטרליה RC2443 / PRA 2018/16619) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W222/V222 S-Class (RC2443 / PRA 2018/16619)",
+              "url": "https://australiancar.reviews/?p=47431"
+            }
+          },
+          {
+            "he": "קריאת שירות: שני אומים בתיבת הנתיכים בתא המטען עלולים לחסור. יש סכנת שריפה ותקלות במנוע, בחגורות ובלוח השעונים. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 11/2017–2/2018 (אוסטרליה RC2544) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W222/V222 S-Class (RC2544 / PRA 2018/17060)",
+              "url": "https://australiancar.reviews/?p=47431"
+            }
+          },
+          {
+            "he": "קריאת שירות: חומר צינור השמן עלול לחרוג מהמפרט, והצינור עלול לדלוף שמן על רכיבים חמים. יש סכנת שריפה. בבדיקה: לחפש סימני שמן בתא המנוע ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 8/2018–4/2019 (אוסטרליה RC2764) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W222/V222 S-Class (RC2764 / PRA 2020/18261)",
+              "url": "https://australiancar.reviews/?p=47431"
+            }
+          },
+          {
+            "he": "קריאת שירות: נוזל קירור עלול לדלוף למעגל הוואקום. הרכיבים מתחממים ויש סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ולבדוק שמפלס נוזל הקירור לא יורד.",
+            "level": "recall",
+            "scope": "דיזל OM654/OM656, 2017–2020 (אוסטרליה RC2978) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls: Mercedes-Benz W222/V222 S-Class (RC2978 / REC-005039)",
+              "url": "https://australiancar.reviews/?p=47431"
+            }
+          },
+          {
+            "he": "רעש נקישות מתא המנוע כמה שניות אחרי ההתנעה, בגלל לחץ שמן נמוך במותחני השרשרת המשניים. התיקון: החלפת המותחנים. בבדיקה: להתניע מנוע קר ולהקשיב לנקישות.",
+            "level": "manufacturer",
+            "scope": "S400 Hybrid / S500 / S500e (מנועי M276/M278), עד 2015",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: Mercedes-Benz W222 S-Class (Service Bulletin LI05.10-P-056435)",
+              "url": "https://australiancar.reviews/?p=47431"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "S500 — 4.7 V8 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 455,
+            "cons": 13,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Mercedes S-Class W222 500 456 כ״ס (7 דיווחים)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-s/w222/"
+            }
+          },
+          {
+            "name": "S350 BlueTEC — 3.0 V6 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 258,
+            "cons": 8.9,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — צריכת דלק בפועל, Mercedes S-Class W222 350 BlueTEC 258 כ״ס (6 דיווחים)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-s/w222/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 870000,
+          "year": 2013,
+          "note": "S400 Hybrid, 333 כ״ס (S500: 990,000)",
+          "source": {
+            "title": "icar — מרצדס S קלאס החדשה בישראל: החל מ-870,000 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/מרצדס_S_קלאס_החדשה_בישראל:_החל_מ-870,000_שקל/"
           }
         }
       }
