@@ -3,8 +3,9 @@
  * Reads are GET (?action=…), writes are POST ({action, …}).
  */
 import { addNote, anonymizeLead, assignPartner, deleteLead, getConsentProof, getLead, listLeads, purgeOldLeads, unassignPartner, updateLead } from "./leads";
+import { deleteFeedback, listFeedback } from "./feedback";
 import { listLandings, saveLanding } from "./landings";
-import { listPartners, savePartner } from "./partners";
+import { createPortalLink, listPartners, savePartner } from "./partners";
 import { initDatabase } from "./setup";
 import { getStats } from "./stats";
 import { sendWeekly } from "../report/weekly";
@@ -27,8 +28,11 @@ export const ROUTES: Record<string, Route> = {
   unassign: { method: "POST", run: unassignPartner },
   partners: { method: "ANY", run: listPartners },
   partnerSave: { method: "POST", run: savePartner },
+  partnerPortalLink: { method: "POST", run: createPortalLink },
   landings: { method: "ANY", run: listLandings },
   landingSave: { method: "POST", run: saveLanding },
   stats: { method: "ANY", run: getStats },
+  feedback: { method: "ANY", run: listFeedback },
+  feedbackDelete: { method: "POST", run: deleteFeedback },
   reportNow: { method: "POST", run: async ({ pool }) => ({ result: await sendWeekly(pool, true) }) },
 };

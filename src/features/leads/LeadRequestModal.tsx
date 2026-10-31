@@ -1,6 +1,6 @@
 import { LEAD_CONSENT_TEXT } from "@shared/const";
 import { partnerConsentText, type LeadDetails } from "@shared/leadPolicy";
-import { LeadExtraFields } from "./LeadExtraFields";
+import { detailsFor, LeadExtraFields } from "./LeadExtraFields";
 import { CollectionNotice } from "./CollectionNotice";
 import { trpc } from "@/lib/trpc";
 import { useState, type FormEvent } from "react";
@@ -59,7 +59,7 @@ export default function LeadRequestModal({
         sourcePage,
         consent: true,
         partnerConsent,
-        details: (leadType === "insurance" || leadType === "financing") && Object.keys(details).length ? details : undefined,
+        details: detailsFor(leadType, details),
         website,
         ...getUtm(),
         landingSlug,

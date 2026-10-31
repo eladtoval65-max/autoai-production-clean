@@ -91,15 +91,21 @@ export const appRouter = router({
         consent: z.literal(true),
         // Separate, optional consent to be passed to ONE business of the category named in leadPolicy.ts.
         partnerConsent: z.boolean().default(false),
-        // Optional pricing details (insurance / financing), see LeadDetails in leadPolicy.ts.
+        // Optional details per request type (renewal month, plate, trade-in, financing…), see LeadDetails in leadPolicy.ts.
         details: z.object({
           driverAge: z.number().int().min(17).max(99),
           licenseYears: z.number().int().min(0).max(80),
           claims3y: z.enum(["0", "1", "2+"]),
           carYear: z.number().int().min(1990).max(2030),
+          renewalMonth: z.number().int().min(1).max(12),
+          plate: z.string().regex(/^\d{7,8}$/),
+          carName: z.string().trim().max(80),
           loanAmount: z.number().int().min(1000).max(2000000),
           downPayment: z.number().int().min(0).max(2000000),
           months: z.number().int().min(6).max(120),
+          tradeInKm: z.number().int().min(0).max(1000000),
+          needsFinancing: z.enum(["yes", "no", "unsure"]),
+          hasTradeIn: z.enum(["yes", "no"]),
         }).partial().strict().optional(),
         website: z.string().max(120).default(""), // Spam honeypot; ordinary users never see it.
       }).strict())
@@ -116,6 +122,8 @@ export const appRouter = router({
         try {
           // A repeat request from the same phone is kept (the customer may want something new) but linked to the first.
           const duplicateOfId = await findRecentLeadByPhone(details.phone, DUPLICATE_WINDOW_DAYS).catch(() => null);
+          const qualityScore = qualityScoreOf({ ...details, partnerOptIn: partnerConsent, isDuplicate: duplicateOfId !== null, hasDetails, details: extra ?? null });
+          const detailsJson = hasDetails ? JSON.stringify(extra) : null;
           const id = await createLead({
             ...details,
             trimId: details.trimId ?? null,
@@ -128,11 +136,11 @@ export const appRouter = router({
             landingSlug: details.landingSlug || null,
             ...consentRecord(details.leadType, partnerConsent, ctx.req),
             duplicateOfId,
-            details: hasDetails ? JSON.stringify(extra) : null,
-            qualityScore: qualityScoreOf({ ...details, partnerOptIn: partnerConsent, isDuplicate: duplicateOfId !== null, hasDetails }),
+            details: detailsJson,
+            qualityScore,
           });
           // Speed-to-lead: email the owner immediately (no-op when RESEND_API_KEY is unset).
-          await notifyNewLead({ id: Number(id), ...details, city: details.city || null, budget: details.budget ?? null });
+          await notifyNewLead({ id: Number(id), ...details, city: details.city || null, budget: details.budget ?? null, details: detailsJson, qualityScore });
           return { id, status: "received" as const };
         } catch (error) {
           console.error("[Lead] could not save request", error instanceof Error ? error.name : "unknown");

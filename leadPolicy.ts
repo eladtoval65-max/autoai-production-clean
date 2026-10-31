@@ -64,33 +64,78 @@ export const RETENTION_MONTHS = 24;
 export const DUPLICATE_WINDOW_DAYS = 30;
 
 /**
- * Optional details that insurance agencies and finance companies need to price a quote. Never required;
- * shown in the form only for the matching request type. Keys are validated on the server (routers.ts).
+ * Optional details that make a request worth more to the business that receives it. Never required; the form
+ * shows only the fields for the chosen request type. Keys are validated on the server (routers.ts → leadDetailsSchema).
+ *  - insurance: who drives, claims, the car (filled from the licence plate) and — most valuable — the month the
+ *    current policy renews (an agency can quote at the right moment);
+ *  - financing: amount, down payment, number of payments;
+ *  - trade-in: the car being traded in (from the plate) and its mileage;
+ *  - buying (new / used / test drive / leasing): whether financing or a trade-in is needed.
  */
 export type LeadDetails = Partial<{
-  driverAge: number; licenseYears: number; claims3y: "0" | "1" | "2+"; carYear: number; // insurance
-  loanAmount: number; downPayment: number; months: number; // financing
+  driverAge: number; licenseYears: number; claims3y: "0" | "1" | "2+"; carYear: number; renewalMonth: number; // insurance
+  plate: string; carName: string;                                         // insurance + trade-in (from the plate registry)
+  loanAmount: number; downPayment: number; months: number;               // financing
+  tradeInKm: number;                                                      // trade-in
+  needsFinancing: "yes" | "no" | "unsure"; hasTradeIn: "yes" | "no";     // buying
 }>;
 
-export const DETAIL_FIELDS: Record<"insurance" | "financing", { key: keyof LeadDetails; label: string; kind: "number" | "claims"; min: number; max: number }[]> = {
+export type DetailField = {
+  key: keyof LeadDetails; label: string;
+  kind: "number" | "claims" | "month" | "plate" | "choice" | "auto";
+  min?: number; max?: number; options?: [string, string][];
+};
+
+const YES_NO_UNSURE: [string, string][] = [["yes", "כן"], ["no", "לא"], ["unsure", "עוד לא יודע/ת"]];
+const YES_NO: [string, string][] = [["yes", "כן"], ["no", "לא"]];
+const BUYING: DetailField[] = [
+  { key: "needsFinancing", label: "צריך/ה מימון לרכב?", kind: "choice", options: YES_NO_UNSURE },
+  { key: "hasTradeIn", label: "יש רכב למסור בטרייד־אין?", kind: "choice", options: YES_NO },
+];
+
+export const DETAIL_FIELDS: Record<LeadType, DetailField[]> = {
   insurance: [
+    { key: "renewalMonth", label: "באיזה חודש מתחדש הביטוח הנוכחי?", kind: "month" },
+    { key: "plate", label: "מספר רישוי (ממלא את פרטי הרכב)", kind: "plate" },
+    { key: "carName", label: "הרכב", kind: "auto" },
+    { key: "carYear", label: "שנת הרכב", kind: "number", min: 1990, max: 2030 },
     { key: "driverAge", label: "גיל הנהג הצעיר", kind: "number", min: 17, max: 99 },
     { key: "licenseYears", label: "ותק נהיגה (שנים)", kind: "number", min: 0, max: 80 },
-    { key: "claims3y", label: "תביעות ב־3 השנים האחרונות", kind: "claims", min: 0, max: 0 },
-    { key: "carYear", label: "שנת הרכב", kind: "number", min: 1990, max: 2030 },
+    { key: "claims3y", label: "תביעות ב־3 השנים האחרונות", kind: "claims" },
   ],
   financing: [
     { key: "loanAmount", label: "סכום מימון מבוקש (₪)", kind: "number", min: 1000, max: 2000000 },
     { key: "downPayment", label: "הון עצמי (₪)", kind: "number", min: 0, max: 2000000 },
     { key: "months", label: "מספר תשלומים", kind: "number", min: 6, max: 120 },
   ],
+  trade_in: [
+    { key: "plate", label: "מספר רישוי של הרכב שמוסרים", kind: "plate" },
+    { key: "carName", label: "הרכב", kind: "auto" },
+    { key: "carYear", label: "שנת הרכב", kind: "number", min: 1990, max: 2030 },
+    { key: "tradeInKm", label: "קילומטראז׳", kind: "number", min: 0, max: 1000000 },
+  ],
+  vehicle: BUYING, used_car: BUYING, test_drive: BUYING, leasing: [BUYING[1]],
 };
+
+const MONTHS_HE = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"];
+export const monthHe = (m: number) => MONTHS_HE[m - 1] ?? String(m);
+
+/** Months from `now` until the policy renews (0 = this month), or null. */
+export function monthsToRenewal(renewalMonth: number | undefined, now = new Date()): number | null {
+  if (!renewalMonth || renewalMonth < 1 || renewalMonth > 12) return null;
+  return (renewalMonth - (now.getMonth() + 1) + 12) % 12;
+}
 
 /** One readable line of the filled details, for the admin, CSV, certificate and partner hand-off. */
 export function detailsSummary(details: LeadDetails | null | undefined): string {
   if (!details) return "";
-  const all = [...DETAIL_FIELDS.insurance, ...DETAIL_FIELDS.financing];
-  return all.filter((f) => details[f.key] != null).map((f) => `${f.label}: ${details[f.key]}`).join(" · ");
+  const seen = new Set<string>();
+  const all = Object.values(DETAIL_FIELDS).flat().filter((f) => !seen.has(f.key) && seen.add(f.key));
+  return all.filter((f) => details[f.key] != null && details[f.key] !== "").map((f) => {
+    const v = details[f.key]!;
+    const shown = f.kind === "month" ? monthHe(Number(v)) : f.kind === "choice" ? f.options?.find(([k]) => k === v)?.[1] ?? v : v;
+    return `${f.label.replace(/\s*\(.*\)$/, "").replace(/\?$/, "")}: ${shown}`;
+  }).join(" · ");
 }
 
 /** Parses the stored JSON safely (bad or empty → null). */
@@ -108,6 +153,7 @@ export type QualityInput = {
   partnerOptIn?: boolean;
   isDuplicate?: boolean;
   hasDetails?: boolean;
+  details?: LeadDetails | null;
 };
 
 /**
@@ -127,6 +173,12 @@ export function leadQuality(input: QualityInput): { score: number; reasons: stri
   if (input.matchScore && input.matchScore >= 80) add(5, "התאמה גבוהה לרכב");
   if (input.partnerOptIn) add(15, "הסכים להעברה לעסק");
   if (input.hasDetails) add(5, "מסר פרטים לתמחור");
+  const d = input.details ?? {};
+  const toRenewal = monthsToRenewal(d.renewalMonth);
+  if (toRenewal != null && toRenewal <= 2) add(10, "הביטוח מתחדש בחודשיים הקרובים");
+  if (d.plate) add(5, "פרטי רכב לפי מספר רישוי");
+  if (d.needsFinancing === "yes") add(5, "צריך מימון");
+  if (d.hasTradeIn === "yes") add(5, "יש רכב לטרייד־אין");
   if (input.isDuplicate) { score -= 40; reasons.push("פנייה חוזרת מאותו טלפון"); }
   return { score: Math.max(0, Math.min(100, score)), reasons };
 }

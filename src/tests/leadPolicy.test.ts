@@ -158,3 +158,27 @@ describe("health check", () => {
     expect(problemsOf([{ name: "א", ok: true }, { name: "עמוד /cars", ok: false, detail: "קוד 500" }, { name: "ב", ok: false }])).toEqual(["עמוד /cars — קוד 500", "ב"]);
   });
 });
+
+import { DETAIL_FIELDS, monthsToRenewal } from "@shared/leadPolicy";
+import { detailsFor } from "../features/leads/LeadExtraFields";
+
+describe("smart lead details", () => {
+  it("renewal soon, plate, financing and trade-in raise the score", () => {
+    const now = new Date(2026, 9, 15); // October
+    expect(monthsToRenewal(11, now)).toBe(1);
+    expect(monthsToRenewal(9, now)).toBe(11);
+    const base = leadQuality({ purchaseTimeline: "unsure" }).score;
+    const nextMonth = ((new Date().getMonth() + 1) % 12) + 1;
+    expect(leadQuality({ purchaseTimeline: "unsure", details: { renewalMonth: nextMonth, plate: "1234567" } }).score).toBe(base + 15);
+    expect(leadQuality({ purchaseTimeline: "unsure", details: { needsFinancing: "yes", hasTradeIn: "yes" } }).reasons).toContain("צריך מימון");
+  });
+  it("only the chosen request type's fields are sent", () => {
+    expect(detailsFor("financing", { renewalMonth: 3, loanAmount: 50000 })).toEqual({ loanAmount: 50000 });
+    expect(detailsFor("vehicle", { renewalMonth: 3 })).toBeUndefined();
+    expect(DETAIL_FIELDS.insurance.some((f) => f.key === "renewalMonth")).toBe(true);
+  });
+  it("summary shows Hebrew month and choice labels", () => {
+    expect(detailsSummary({ renewalMonth: 3, needsFinancing: "yes" })).toContain("מרץ");
+    expect(detailsSummary({ needsFinancing: "yes" })).toContain("כן");
+  });
+});

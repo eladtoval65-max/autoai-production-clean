@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { adminApi, errorText } from "../../api";
-import { LEAD_TYPE, STATUS } from "../../labels";
+import { LEAD_TYPE, PARTNER_OUTCOME, STATUS } from "../../labels";
 import type { Stats } from "../../types";
 import { BreakdownBars } from "./BreakdownBars";
 import { DailyLeadsChart } from "./DailyLeadsChart";
+import { FeedbackList } from "./FeedbackList";
 import { FunnelChart } from "./FunnelChart";
 import { KpiTiles } from "./KpiTiles";
 
@@ -49,6 +50,8 @@ export function StatsTab() {
         <BreakdownBars title="לפי סוג פנייה" rows={stats.byType} label={(k) => LEAD_TYPE[k] ?? k} />
         <BreakdownBars title="לפי מקור" rows={stats.bySource} label={(k) => k} />
       </div>
+      {stats.byOutcome && stats.byOutcome.length > 0 && <div className="grid gap-6 md:grid-cols-3"><BreakdownBars title="מה השותפים דיווחו" rows={stats.byOutcome} label={(k) => (k === "pending" ? "עוד לא עדכנו" : PARTNER_OUTCOME[k] ?? k)} /></div>}
+      <FeedbackList />
     </section>
   );
 }

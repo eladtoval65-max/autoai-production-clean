@@ -2,7 +2,7 @@ import { useState, type FormEvent } from "react";
 import { field } from "../../../../../shared/styles";
 import { Field } from "../../../components/Field";
 import { when } from "../../../format";
-import { PARTNER_TYPE } from "../../../labels";
+import { PARTNER_OUTCOME, PARTNER_TYPE } from "../../../labels";
 import { btnGo, btnLine } from "../../../styles";
 import { PARTNER_CATEGORY, PARTNER_TYPES_FOR, type LeadType } from "@shared/leadPolicy";
 import type { Lead, Partner } from "../../../types";
@@ -15,6 +15,7 @@ function AssignedPartner({ lead, run }: { lead: Lead; run: Run }) {
   return (
     <div className="mt-2 space-y-3 text-[15px]">
       <p>הועבר ל<b>{lead.partnerName}</b> · {when(lead.partnerSentAt)}</p>
+      {lead.partnerOutcome && <p className={lead.partnerOutcome === "invalid" ? "font-bold text-alert" : ""}>תגובת השותף: <b>{PARTNER_OUTCOME[lead.partnerOutcome] ?? lead.partnerOutcome}</b>{lead.partnerNote ? ` — ${lead.partnerNote}` : ""}{lead.partnerOutcomeAt ? ` · ${when(lead.partnerOutcomeAt)}` : ""}</p>}
       <p className="rounded-xl bg-mist p-3 text-[14px]"><b>תיעוד הסכמה:</b> {lead.partnerConsentNote} <span className="text-muted">({when(lead.partnerConsentAt)})</span></p>
       <div className="flex flex-wrap items-end gap-2">
         <Field label="מחיר הליד (₪)"><input inputMode="numeric" value={price} onChange={(e) => setPrice(e.target.value)} className={`${field} w-32`} dir="ltr" /></Field>

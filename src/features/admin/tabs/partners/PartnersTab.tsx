@@ -7,6 +7,7 @@ import { money } from "../../format";
 import { PARTNER_TYPE } from "../../labels";
 import { btnGo } from "../../styles";
 import type { Partner } from "../../types";
+import { PortalLinkButton } from "./PortalLinkButton";
 import { draftFromPartner, EMPTY_PARTNER, PartnerForm, type PartnerDraft } from "./PartnerForm";
 
 const COLUMNS = ["שם", "סוג", "איש קשר", "מחיר לליד", "לידים", "שולם", "פתוח לגבייה", ""];
@@ -39,7 +40,7 @@ export function PartnersTab() {
                   <td className="num p-3">{p.leadCount}</td>
                   <td className="num p-3 text-go-deep">{money(p.paidTotal)}</td>
                   <td className="num p-3">{money(p.owedTotal)}</td>
-                  <td className="p-3"><button onClick={() => setEditing(draftFromPartner(p))} className="font-bold text-go-deep underline">עריכה</button></td>
+                  <td className="p-3"><div className="flex flex-col items-start gap-1.5"><button onClick={() => setEditing(draftFromPartner(p))} className="font-bold text-go-deep underline">עריכה</button><PortalLinkButton partner={p} onDone={load} /></div></td>
                 </tr>
               ))}
             </tbody>

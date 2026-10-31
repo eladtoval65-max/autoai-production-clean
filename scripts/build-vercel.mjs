@@ -32,6 +32,9 @@ const functions = [
   { name: "landing", entry: "api-src/landing.ts", maxDuration: 10, helpers: true },
   { name: "report", entry: "api-src/report.ts", maxDuration: 30, helpers: true },
   { name: "health", entry: "api-src/health.ts", maxDuration: 60, helpers: true },
+  { name: "feedback", entry: "api-src/feedback.ts", maxDuration: 30, helpers: true },
+  { name: "partner", entry: "api-src/partner.ts", maxDuration: 30, helpers: true },
+  { name: "alerts", entry: "api-src/alerts.ts", maxDuration: 60, helpers: true },
   { name: "trpc", entry: "api-src/trpc.ts", maxDuration: 60, helpers: false },
 ];
 
@@ -76,6 +79,9 @@ fs.writeFileSync(
         { src: "^/api/landing/?$", dest: "/api/landing" },
         { src: "^/api/report/?$", dest: "/api/report" },
         { src: "^/api/health/?$", dest: "/api/health" },
+        { src: "^/api/feedback/?$", dest: "/api/feedback" },
+        { src: "^/api/partner/?$", dest: "/api/partner" },
+        { src: "^/api/alerts/?$", dest: "/api/alerts" },
         { src: "^/api/((?:trpc|oauth)(?:/.*)?)$", dest: "/api/trpc?__p=$1" },
         { src: "^/api(/.*)?$", status: 404 },
         { src: "^/assets/[^/]+-[A-Za-z0-9_-]{8}\\.(?:js|css)$", headers: { "cache-control": "public, max-age=31536000, immutable" }, continue: true },

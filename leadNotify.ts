@@ -3,11 +3,12 @@
  * Uses Resend's HTTP API when RESEND_API_KEY is set; silently skips otherwise.
  * Never logs contact details — only the HTTP status on failure.
  */
+import { detailsSummary, parseDetails } from "@shared/leadPolicy";
 import { sendOwnerEmail } from "./server/email";
 
 type LeadForEmail = {
   id: number; fullName: string; phone: string; city?: string | null; leadType: string; vehicleLabel: string;
-  budget?: number | null; purchaseTimeline: string; sourcePage: string;
+  budget?: number | null; purchaseTimeline: string; sourcePage: string; details?: string | null; qualityScore?: number | null;
 };
 
 const TYPE_HE: Record<string, string> = { vehicle: "בירור על רכב", financing: "מימון", insurance: "ביטוח", trade_in: "טרייד-אין", used_car: "רכב יד שנייה", test_drive: "נסיעת מבחן", leasing: "ליסינג" };
@@ -21,6 +22,8 @@ export async function notifyNewLead(lead: LeadForEmail): Promise<void> {
     ["שם", lead.fullName], ["טלפון", lead.phone], ["עיר", lead.city || "—"], ["סוג פנייה", TYPE_HE[lead.leadType] ?? lead.leadType],
     ["רכב", lead.vehicleLabel], ["תקציב", lead.budget ? `₪${lead.budget.toLocaleString("he-IL")}` : "—"],
     ["מועד רכישה", WHEN_HE[lead.purchaseTimeline] ?? lead.purchaseTimeline], ["מקור", lead.sourcePage],
+    ...(detailsSummary(parseDetails(lead.details)) ? [["פרטים", detailsSummary(parseDetails(lead.details))] as [string, string]] : []),
+    ...(lead.qualityScore != null ? [["ציון איכות", String(lead.qualityScore)] as [string, string]] : []),
   ];
   const html = `<div dir="rtl" style="font-family:Arial,sans-serif;font-size:15px;color:#0e1b2c">
 <h2 style="margin:0 0 8px">ליד חדש #${lead.id}: ${esc(TYPE_HE[lead.leadType] ?? lead.leadType)}</h2>

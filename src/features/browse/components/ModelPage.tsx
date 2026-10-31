@@ -5,6 +5,7 @@ import { modelYears, priceText, wikiTitle } from "../model/labels";
 import { GenerationCard } from "./GenerationCard";
 import { ModelLeadCta } from "./ModelLeadCta";
 import { StatusBadge } from "./StatusBadge";
+import { PriceAlertCard } from "./PriceAlertCard";
 import { UsedCostCalculator } from "./UsedCostCalculator";
 import { WikiPhoto } from "./WikiPhoto";
 
@@ -35,6 +36,7 @@ export function ModelPage({ make, model }: { make: Make; model: ModelLine }) {
       <h2 className="mt-12 text-2xl">הדורות מאז 2010</h2>
       <ol className="mt-5 space-y-4">{[...model.gens].reverse().map((g) => <GenerationCard key={g.code} gen={g} makeId={make.id} model={model} />)}</ol>
       <div className="mt-10"><UsedCostCalculator make={make} model={model} /></div>
+      <PriceAlertCard make={make} model={model} />
       <ModelLeadCta make={make} model={model} />
     </>
   );

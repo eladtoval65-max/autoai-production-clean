@@ -17,7 +17,8 @@ async function loadMakes(root) {
   const data = await loadTs(root, "src/data/generations.ts", "gen");
   const cmp = await loadTs(root, "src/features/compare/model/pairs.ts", "pairs");
   const comparisons = cmp.comparePairs().map((p) => ({ path: `/compare/${p.slug}`, ...cmp.pairMeta(p) }));
-  return { ...data, comparisons };
+  const guides = (await loadTs(root, "src/features/guides/model/meta.ts", "guides")).GUIDES.map((g) => ({ path: `/guides/${g.slug}`, title: g.title + SUFFIX, description: g.description }));
+  return { ...data, comparisons: [...comparisons, { path: "/guides", title: "מדריכים לקונה רכב" + SUFFIX, description: "מדריכים מבוססי נתונים: צ׳קליסט ליד שנייה, בעיות מוכרות, רכבים חסכוניים, היברידי מול בנזין וחשמלי מול בנזין." }, ...guides] };
 }
 
 const nf = new Intl.NumberFormat("he-IL");

@@ -20,5 +20,7 @@ export const getStats: Action = async ({ pool, query }) => {
   const due = (await q(`SELECT COUNT(*) AS n FROM leads WHERE followUpAt IS NOT NULL AND followUpAt <= NOW() AND status NOT IN (${CLOSED_STATUSES.map(() => "?").join(",")})`, CLOSED_STATUSES))[0];
 
   const perStep = Object.fromEntries(events.map((r: { k: string; n: number }) => [r.k, Number(r.n)]));
-  return { days, byDay, byStatus, byType, bySource, funnel: FUNNEL.map((k) => ({ k, n: perStep[k] ?? 0 })), money, followUpsDue: Number(due?.n ?? 0) };
+  // What partners reported back (partner portal): the proof that leads convert.
+  const byOutcome = await q("SELECT COALESCE(partnerOutcome, 'pending') AS k, COUNT(*) AS n FROM leads WHERE partnerId IS NOT NULL AND partnerSentAt >= NOW() - INTERVAL ? DAY GROUP BY k ORDER BY n DESC", [days]);
+  return { days, byDay, byStatus, byType, bySource, byOutcome, funnel: FUNNEL.map((k) => ({ k, n: perStep[k] ?? 0 })), money, followUpsDue: Number(due?.n ?? 0) };
 };

@@ -10,6 +10,7 @@ export const STATUS_TONE: Record<string, string> = {
 };
 export const NOTE_KIND: Record<string, string> = { note: "הערה", call: "שיחה", whatsapp: "וואטסאפ", email: "מייל", meeting: "פגישה", status: "סטטוס", partner: "שותף" };
 export const PARTNER_TYPE: Record<string, string> = { dealer: "סוכנות", importer: "יבואן", finance: "מימון", insurance: "ביטוח", inspection: "בדיקת רכב", trade_in: "טרייד-אין", used_lot: "מגרש יד 2", leasing: "חברת ליסינג", other: "אחר" };
+export const PARTNER_OUTCOME: Record<string, string> = { contacted: "דיברו איתו", no_answer: "לא עונה", invalid: "פנייה לא תקינה — ביקש זיכוי", won: "נסגרה עסקה", lost: "לא רלוונטי" };
 export const FUNNEL_STEP: Record<string, string> = { visit: "כניסות לאתר", quiz_start: "התחילו שאלון", quiz_complete: "סיימו שאלון", results_view: "צפו בתוצאות", lead_open: "פתחו טופס", lead_submit: "השאירו פרטים" };
 
 /** Statuses after which no follow-up reminder is "due". */

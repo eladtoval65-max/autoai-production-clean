@@ -28,7 +28,7 @@ function QualityLine({ lead }: { lead: Lead }) {
   const { reasons } = leadQuality({
     purchaseTimeline: lead.purchaseTimeline as "now", budget: lead.budget, trimId: lead.trimId, city: lead.city,
     matchScore: lead.matchScore, partnerOptIn: Number(lead.partnerOptIn) === 1, isDuplicate: Boolean(lead.duplicateOfId),
-    hasDetails: Boolean(detailsSummary(parseDetails(lead.details))),
+    hasDetails: Boolean(detailsSummary(parseDetails(lead.details))), details: parseDetails(lead.details),
   });
   return <p className="mt-2"><b>ציון איכות {lead.qualityScore}:</b> <span className="text-muted">{reasons.join(" · ") || "בסיסי"}</span></p>;
 }

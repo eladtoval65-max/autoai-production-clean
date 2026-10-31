@@ -14,6 +14,9 @@ import AboutPage from "./src/features/legal/AboutPage";
 import SellPage from "./src/features/sell/SellPage";
 import SellCardPage from "./src/features/sell/SellCardPage";
 import { CookieBanner } from "./src/shared/ui/CookieBanner";
+import { FeedbackButton } from "./src/shared/ui/FeedbackButton";
+import PartnerPortalPage from "./src/features/partner/PartnerPortalPage";
+import { GuidePage, GuidesIndexPage } from "./src/features/guides/GuidePage";
 import ComparePage from "./src/features/compare/ComparePage";
 import CompareIndexPage from "./src/features/compare/CompareIndexPage";
 import LeasingPage from "./src/features/leasing/LeasingPage";
@@ -26,6 +29,7 @@ function Router() {
       <Route path="/" component={HomePage} />
       <Route path="/admin/leads" component={AdminPage} />
       <Route path="/admin" component={AdminPage} />
+      <Route path="/partner" component={PartnerPortalPage} />
       <Route path="/privacy" component={PrivacyPage} />
       <Route path="/terms" component={TermsPage} />
       <Route path="/accessibility" component={AccessibilityPage} />
@@ -33,6 +37,8 @@ function Router() {
       <Route path="/compare/:slug" component={ComparePage} />
       <Route path="/compare" component={CompareIndexPage} />
       <Route path="/leasing" component={LeasingPage} />
+      <Route path="/guides/:slug" component={GuidePage} />
+      <Route path="/guides" component={GuidesIndexPage} />
       <Route path="/sell/card" component={SellCardPage} />
       <Route path="/sell" component={SellPage} />
       <Route path="/go/:slug" component={LandingPage} />
@@ -54,6 +60,7 @@ export default function App() {
             <Toaster position="top-center" toastOptions={{ style: { borderRadius: 999, background: "#0e1b2c", color: "#ffffff", border: "none", fontFamily: "Assistant, sans-serif", fontSize: 15 } }} />
             <Router />
             <CookieBanner />
+            <FeedbackButton />
           </TooltipProvider>
         </LangProvider>
       </ThemeProvider>

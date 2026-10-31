@@ -10,7 +10,7 @@ export type Lead = {
   id: number; fullName: string; phone: string; city: string | null; leadType: string; vehicleLabel: string; budget: number | null;
   purchaseTimeline: string; sourcePage: string; utmSource: string | null; utmMedium: string | null; utmCampaign: string | null; landingSlug: string | null;
   status: string; followUpAt: string | null; partnerId: number | null; partnerName: string | null; partnerConsentAt: string | null; partnerConsentNote: string | null;
-  partnerSentAt: string | null; partnerPrice: number | null; partnerPaid: number | boolean; consentText: string; consentAt: string; createdAt: string; noteCount: number;
+  partnerSentAt: string | null; partnerOutcome?: string | null; partnerOutcomeAt?: string | null; partnerNote?: string | null; partnerPrice: number | null; partnerPaid: number | boolean; consentText: string; consentAt: string; createdAt: string; noteCount: number;
   /** Consent proof and quality (schema v4; null on leads created before it). */
   consentVersion: string | null; partnerOptIn: number | boolean; partnerOptInText: string | null; duplicateOfId: number | null;
   qualityScore: number | null; anonymizedAt: string | null; trimId: number | null; matchScore: number | null; details?: string | null;
@@ -21,7 +21,7 @@ export type Note = { id: number; kind: string; body: string; createdAt: string }
 
 export type Partner = {
   id: number; name: string; type: string; contactName: string | null; phone: string | null; email: string | null; region: string | null;
-  pricePerLead: number | null; active: number | boolean; notes: string | null; webhookUrl?: string | null; leadCount: number; paidTotal: number; owedTotal: number;
+  pricePerLead: number | null; active: number | boolean; notes: string | null; webhookUrl?: string | null; hasPortal?: number | boolean; leadCount: number; paidTotal: number; owedTotal: number;
 };
 
 export type LandingRow = {
@@ -30,7 +30,7 @@ export type LandingRow = {
 };
 
 export type Stats = {
-  days: number; byDay: { d: string; n: number }[]; byStatus: { k: string; n: number }[]; byType: { k: string; n: number }[]; bySource: { k: string; n: number }[];
+  days: number; byDay: { d: string; n: number }[]; byStatus: { k: string; n: number }[]; byType: { k: string; n: number }[]; bySource: { k: string; n: number }[]; byOutcome?: { k: string; n: number }[];
   funnel: { k: string; n: number }[]; money: { paid: number; owed: number }; followUpsDue: number;
 };
 

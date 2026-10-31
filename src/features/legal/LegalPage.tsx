@@ -7,6 +7,7 @@ import { Link } from "wouter";
 import { PENDING, SITE } from "../../shared/siteInfo";
 
 export const LEGAL_LINKS = [
+  { href: "/guides", label: "מדריכים" },
   { href: "/compare", label: "השוואות" },
   { href: "/leasing", label: "ליסינג או קנייה" },
   { href: "/sell", label: "מוכרים רכב?" },

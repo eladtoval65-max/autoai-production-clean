@@ -10,7 +10,7 @@ import m2 from "./0002_stiff_machine_man.sql";
 import m3 from "./0003_boring_wilson_fisk.sql";
 import m4 from "./0004_flat_mockingbird.sql";
 
-export const SCHEMA_VERSION = 7;
+export const SCHEMA_VERSION = 8;
 const SKIP_ERRNO = new Set([1005, 1050, 1060, 1061, 1068, 1091, 1826, 1022]);
 
 export const LEAD_STATUSES = ["new", "contacted", "qualified", "sent_to_partner", "won", "lost", "closed"] as const;
@@ -90,6 +90,13 @@ const UPGRADES: string[] = [
   "CREATE TABLE IF NOT EXISTS `app_reports` (`kind` varchar(20) NOT NULL PRIMARY KEY, `sentAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP)",
   // v7 — leasing requests (enum values may only be APPENDED on TiDB)
   "ALTER TABLE `leads` MODIFY COLUMN `leadType` enum('vehicle','financing','insurance','trade_in','used_car','test_drive','leasing') NOT NULL",
+  // v8 — visitor feedback, partner portal (magic link + lead outcomes), price-drop email alerts
+  "CREATE TABLE IF NOT EXISTS `feedback` (`id` int AUTO_INCREMENT NOT NULL PRIMARY KEY, `message` text NOT NULL, `page` varchar(120) NULL, `email` varchar(160) NULL, `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP)",
+  "ALTER TABLE `partners` ADD COLUMN `portalTokenHash` varchar(64) NULL",
+  "ALTER TABLE `leads` ADD COLUMN `partnerOutcome` varchar(20) NULL",
+  "ALTER TABLE `leads` ADD COLUMN `partnerOutcomeAt` timestamp NULL",
+  "ALTER TABLE `leads` ADD COLUMN `partnerNote` varchar(500) NULL",
+  "CREATE TABLE IF NOT EXISTS `price_alerts` (`id` int AUTO_INCREMENT NOT NULL PRIMARY KEY, `email` varchar(160) NOT NULL, `makeId` varchar(40) NOT NULL, `modelId` varchar(60) NOT NULL, `lastPrice` int NULL, `token` varchar(64) NOT NULL, `consentVersion` varchar(20) NOT NULL, `consentText` text NOT NULL, `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, `lastSentAt` timestamp NULL, `unsubscribedAt` timestamp NULL, UNIQUE KEY `price_alerts_token_uidx` (`token`), KEY `price_alerts_model_idx` (`makeId`, `modelId`))",
   "CREATE TABLE IF NOT EXISTS `app_schema` (`id` int NOT NULL PRIMARY KEY, `version` int NOT NULL)",
   `ALTER TABLE \`leads\` MODIFY COLUMN \`status\` enum(${STATUS_DB_ORDER.map((s) => `'${s}'`).join(",")}) NOT NULL DEFAULT 'new'`,
 ];
