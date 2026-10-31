@@ -458,6 +458,48 @@
           "stars": 5,
           "year": 2026,
           "url": "https://www.euroncap.com/assessments/bmw/ix3/1232/"
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות: פגם באלקטרוניקת הטעינה עלול לגרום למתח על מרכב הרכב בזמן טעינה — סכנת התחשמלות במגע. התיקון: החלפת יחידת הטעינה. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "145 רכבים בעולם, ייצור 25.11.2025–20.2.2026 (KBA 16565R)",
+            "source": {
+              "title": "electrive — Recall: Risk of electric shock in 145 new BMW iX3s (KBA 16565R, 28.05.2026)",
+              "url": "https://www.electrive.com/2026/05/28/bmw-recalls-new-ix3-over-electric-shock-risk/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כריות האוויר הצדדיות/וילון לא הוברגו לפי המפרט — סכנת פתיחה לא תקינה בתאונה. התיקון: בדיקת הברגים והידוק במוסך. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 18.12.2025–8.5.2026, 4,843 רכבים בעולם (KBA 16607R)",
+            "source": {
+              "title": "autohaus.de — Es sind wieder die Airbags: BMW muss iX3 zurückrufen (KBA 16607R, 11.06.2026)",
+              "url": "https://www.autohaus.de/automarken/rueckrufe/es-sind-wieder-die-airbags-bmw-muss-den-ix3-zurueckrufen-3812864"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 108.7 קוט\"ש, הנעה כפולה (iX3 50 xDrive)",
+            "pt": "ev",
+            "hp": 469,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BMW iX3 50 xDrive (MY26): vehicle consumption 171 Wh/km (real-world estimate)",
+              "url": "https://ev-database.org/car/3290/BMW-iX3-50-xDrive"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 490000,
+          "year": 2026,
+          "note": "iX3 50 xDrive Ultra Range (iX3 40 הגיע ביוני 2026 מ-435,000 ₪)",
+          "source": {
+            "title": "auto.co.il — ב.מ.וו iX3 החדש – המחיר החל מ-490,000 שקלים (16.04.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/bmw-ix3-2026/"
+          }
         }
       },
       "G08": {

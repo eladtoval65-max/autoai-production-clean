@@ -1,6 +1,6 @@
 {
   "make": "byd",
-  "updated": "2026-10-21",
+  "updated": "2026-10-31",
   "models": {
     "atto-3": {
       "Gen1": {
@@ -148,7 +148,7 @@
             "name": "חשמלי 60.4 קוט\"ש LFP",
             "pt": "ev",
             "hp": 204,
-            "cons": 18.0,
+            "cons": 18,
             "unit": "kWh",
             "source": {
               "title": "EV Database — BYD DOLPHIN 60.4 kWh (ממוצע מזג אוויר מתון/קר)",
@@ -365,7 +365,7 @@
             "name": "חשמלי 43.2 קוט\"ש (Boost)",
             "pt": "ev",
             "hp": 88,
-            "cons": 16.0,
+            "cons": 16,
             "unit": "kWh",
             "source": {
               "title": "EV Database — BYD DOLPHIN SURF 43.2 kWh Boost",
@@ -474,6 +474,72 @@
           "source": {
             "title": "מלכת הכביש — השקה: BYD Sealion 7 בישראל, 4 גרסאות החל מ-218,990 ₪",
             "url": "https://www.queenoftheroad.co.il/7-byd-saelion-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+          }
+        }
+      }
+    },
+    "sealion-05": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "דווח שמצבר ה-12V מתרוקן והרכב לא מתניע (הודעות 12V Battery Low / Power Limited). הפתרון המדווח: עדכון תוכנת ניהול הסוללה. בבדיקה: לשאול על התנעות כושלות ולוודא שהתוכנה עודכנה.",
+            "level": "widely_reported",
+            "scope": "דגמי 2025",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BYD Sealion 5 (2025-on)",
+              "url": "https://www.australiancar.reviews/recalls-faults-byd-sealion-5-2025/"
+            }
+          },
+          {
+            "he": "דווחו דפיקות מהמתלה הקדמי בפסי האטה ובפניות איטיות — מיוחסות לברגי מוט המייצב הקדמי שהשתחררו. בבדיקה: נסיעה על פסי האטה והקשבה לרעשים, ולבדוק כיוון פרונט.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BYD Sealion 5 (2025-on)",
+              "url": "https://www.australiancar.reviews/recalls-faults-byd-sealion-5-2025/"
+            }
+          },
+          {
+            "he": "דווחו התרעות תכופות של מצלמת ניטור הנהג (הסחת דעת / עייפות) ושמירת נתיב אגרסיבית; מסך המולטימדיה עלול להיתקע. הפתרון: עדכוני תוכנה. בבדיקה: לוודא שגרסת התוכנה עדכנית ולבדוק את המסך עם CarPlay/Android Auto.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AustralianCar.Reviews — Recalls & faults: BYD Sealion 5 (2025-on)",
+              "url": "https://www.australiancar.reviews/recalls-faults-byd-sealion-5-2025/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 פלאג-אין, סוללה 18.3 קוט\"ש",
+            "pt": "phev",
+            "hp": 212,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "NRMA — 2026 BYD Sealion 5 local review: averaged 5.2L/100km in mixed driving, hybrid mode (Premium, 18.3 kWh)",
+              "url": "https://www.mynrma.com.au/open-road/car-reviews/byd/2026-byd-sealion-5-local-review"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 167000,
+          "year": 2025,
+          "note": "סוללה 13 קוט\"ש; 18.3 קוט\"ש ב-172,000 ₪",
+          "source": {
+            "title": "icar — BYD משווקת סיליון 5 היברידי-נטען בישראל (10.09.2025)",
+            "url": "https://www.icar.co.il/news/bkzv860cxx/"
+          }
+        }
+      }
+    },
+    "seal-05": {
+      "HA6": {
+        "launchPrice": {
+          "ils": 175000,
+          "year": 2025,
+          "note": "קומפורט, סוללה 18.3 קוט\"ש",
+          "source": {
+            "title": "auto.co.il — BYD סיל 5 החדשה בארץ – המחיר החל מ-175,000 שקלים (12.03.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137970/"
           }
         }
       }

@@ -14,6 +14,17 @@
               "url": "https://ev-database.org/imp/cheatsheet/energy-consumption-electric-car"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "היצרן הודה בתלונות על בקרת השיוט האדפטיבית שמאטה בכניסה לעיקולים, ועל התרעות מערכת ניטור הנהג, והודיע על תיקון בעדכון תוכנה מרחוק (OTA). בבדיקה: לוודא שגרסת התוכנה עודכנה ולנסות את בקרת השיוט בנסיעת מבחן.",
+            "level": "manufacturer",
+            "scope": "עדכון שהוכרז באוסטרליה, 02/2025",
+            "source": {
+              "title": "Zecar — Deepal S07 Australian warranty and software improved after customer feedback (28.02.2025)",
+              "url": "https://zecar.com/reviews/deepal-s07-australian-warranty-and-software-improved-after-customer-feedback"
+            }
+          }
         ]
       }
     }
