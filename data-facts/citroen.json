@@ -306,6 +306,19 @@
             }
           }
         ]
+      },
+      "Gen2 (STLA Medium)": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "אומים רופפים בצינור הלחץ הגבוה בין משאבת הדלק למסילה — דליפת דלק וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 2023/2024–04/2025 (כולל הדור החדש)",
+            "source": {
+              "title": "car-recalls.eu — Citroen C5 Aircross (2023–2025) fuel leak / fire, Safety Gate SR/02935/25 (code GJ6)",
+              "url": "https://car-recalls.eu/recall/citroen-c5-aircross-2025-fuel-fire/"
+            }
+          }
+        ]
       }
     },
     "c3-aircross": {

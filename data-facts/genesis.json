@@ -1,6 +1,6 @@
 {
   "make": "genesis",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "g80": {
       "RG3": {
@@ -249,6 +249,39 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/ג-נסיס-gv60-החשמלי-2022-בישראל-מחיר-295000-שקל"
           }
         }
+      }
+    },
+    "g90": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מים עלולים לחדור לסולנואיד המתנע ולגרום לקצר — סכנת שריפה בתא המנוע גם בחניה. לבדוק שהותקנה ערכת הממסר בתיבת הצומת",
+            "scope": "2017–2019 (NHTSA 24V107)",
+            "source": {
+              "title": "Justia / NHTSA 24V107000 — Genesis G90 starter solenoid",
+              "url": "https://auto-recalls.justia.com/genesis/g90/2018/24v107000"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "צינור הזנת השמן לטורבו השמאלי עלול לדלוף — שמן על סעפת הפליטה וסכנת שריפה. לבדוק שבוצעו קריאות השירות ושאין ריח שמן שרוף",
+            "scope": "3.3 טורבו, 2017–2022 (NHTSA 19V538, הורחב ב-24V191)",
+            "source": {
+              "title": "Cars.com — Genesis G90 recalls (24V191000, 19V538000)",
+              "url": "https://www.cars.com/recalls/genesis-g90"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "השמשה הקדמית והאחורית הודבקו עם פריימר שגוי ועלולות להתנתק. לבדוק שבוצעה קריאת השירות",
+            "scope": "2018 (NHTSA 18V305)",
+            "source": {
+              "title": "Cars.com — Genesis G90 recalls (18V305000)",
+              "url": "https://www.cars.com/recalls/genesis-g90"
+            }
+          }
+        ]
       }
     }
   }

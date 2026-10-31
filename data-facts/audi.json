@@ -649,6 +649,32 @@
             }
           }
         ]
+      },
+      "C9": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בפריסת כרית האוויר של הנוסע הקדמי בית מחולל הגז עלול להתפוצץ או שחלקים יתנתקו — סכנת פציעה חמורה. לבדוק לפי VIN שבוצעה קריאת השירות (69DM)",
+            "scope": "יוצרו 27.3–8.4.2025",
+            "source": {
+              "title": "car-recalls.eu — Audi A5/A6/A6 e-tron/Q6 e-tron (2025) passenger airbag, Safety Gate SR/02844/25",
+              "url": "https://car-recalls.eu/recall/audi-a5-2025-airbag-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 TFSI טורבו מיילד-היברידי (55)",
+            "pt": "mhev",
+            "hp": 367,
+            "cons": 11.8,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi A6 C9 fuel reports: 55 TFSI 367 KM, 11.8 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a6/c9/"
+            }
+          }
+        ]
       }
     },
     "q4-etron": {
@@ -835,6 +861,43 @@
             }
           }
         ]
+      },
+      "B10": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בפריסת כרית האוויר של הנוסע הקדמי בית מחולל הגז עלול להתפוצץ או שחלקים יתנתקו — סכנת פציעה חמורה. לבדוק לפי VIN שבוצעה קריאת השירות (69DM)",
+            "scope": "יוצרו 27.3–8.4.2025",
+            "source": {
+              "title": "car-recalls.eu — Audi A5/A6/A6 e-tron/Q6 e-tron (2025) passenger airbag, Safety Gate SR/02844/25",
+              "url": "https://car-recalls.eu/recall/audi-a5-2025-airbag-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TFSI טורבו בנזין (204 כ\"ס)",
+            "pt": "petrol",
+            "hp": 204,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi A5 B10 fuel reports: 2.0 TFSI 204 KM, 8.1 L/100km, 5 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a5/b10/"
+            }
+          },
+          {
+            "name": "2.0 TFSI טורבו בנזין (150 כ\"ס)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi A5 B10 fuel reports: 2.0 TFSI 150 KM, 8.7 L/100km, 8 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a5/b10/"
+            }
+          }
+        ]
       }
     },
     "q8-e-tron": {
@@ -965,6 +1028,52 @@
             }
           }
         ]
+      },
+      "D5": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "אומי הבורג האקסצנטרי בזרוע הקפיץ של הסרן האחורי עלולים להישבר מקורוזיית מאמץ — הסרן האחורי עלול לזוז במהירות גבוהה. לבדוק שבוצעה קריאת השירות (42L1)",
+            "scope": "יוצרו 11/2019–04/2021",
+            "source": {
+              "title": "car-recalls.eu — Audi A8 and others (2019–2021) rear axle control arm, RAPEX INFO/00138/21",
+              "url": "https://car-recalls.eu/recall/audi-a8-2019-rear-axle-control-arm/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "בפלאג-אין (60 TFSI e): מודולי סוללת המתח הגבוה עלולים להתחמם בטעינה — סכנת שריפה. לבדוק שבוצע עדכון תוכנת הסוללה (93QQ)",
+            "scope": "יוצרו 08/2019–07/2024 (KBA 15663R)",
+            "source": {
+              "title": "car-recalls.eu — Audi Q7, A8, Q8 PHEV battery overheating, KBA 15663R",
+              "url": "https://car-recalls.eu/audi-recalls-q7-a8-q8-battery-overheating-fire-risk-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 TFSI טורבו מיילד-היברידי (55)",
+            "pt": "mhev",
+            "hp": 340,
+            "cons": 9.8,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi A8 D5 fuel reports: 55 TFSI 340 KM, 9.8 L/100km, 9 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a8/d5/"
+            }
+          },
+          {
+            "name": "3.0 TDI טורבו דיזל (50)",
+            "pt": "diesel",
+            "hp": 286,
+            "cons": 9.0,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Audi A8 D5 fuel reports: 50 TDI 286 KM, 9.0 L/100km, 8 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/audi/a8/d5/"
+            }
+          }
+        ]
       }
     },
     "q8": {
@@ -1072,6 +1181,45 @@
             "source": {
               "title": "EV Database energy-consumption cheatsheet — Audi A6 Sportback e-tron: 156 Wh/km",
               "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בפריסת כרית האוויר של הנוסע הקדמי בית מחולל הגז עלול להתפוצץ או שחלקים יתנתקו — סכנת פציעה חמורה. לבדוק לפי VIN שבוצעה קריאת השירות (69DM)",
+            "scope": "יוצרו 27.3–8.4.2025",
+            "source": {
+              "title": "car-recalls.eu — Audi A5/A6/A6 e-tron/Q6 e-tron (2025) passenger airbag, Safety Gate SR/02844/25",
+              "url": "https://car-recalls.eu/recall/audi-a5-2025-airbag-injury/"
+            }
+          }
+        ]
+      }
+    },
+    "q6-e-tron": {
+      "PPE": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בפריסת כרית האוויר של הנוסע הקדמי בית מחולל הגז עלול להתפוצץ או שחלקים יתנתקו — סכנת פציעה חמורה. לבדוק לפי VIN שבוצעה קריאת השירות (69DM)",
+            "scope": "יוצרו 27.3–8.4.2025",
+            "source": {
+              "title": "car-recalls.eu — Audi A5/A6/A6 e-tron/Q6 e-tron (2025) passenger airbag, Safety Gate SR/02844/25",
+              "url": "https://car-recalls.eu/recall/audi-a5-2025-airbag-injury/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי quattro (סוללה 100 קוט\"ש)",
+            "pt": "ev",
+            "hp": 387,
+            "cons": 19.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi Q6 SUV e-tron quattro (MY24–25): EVDB real-range consumption 198 Wh/km",
+              "url": "https://ev-database.org/car/2146/Audi-Q6-SUV-e-tron-quattro"
             }
           }
         ]

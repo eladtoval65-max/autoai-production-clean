@@ -738,6 +738,41 @@
             }
           }
         ]
+      },
+      "G45": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "תקלה בחיישן תיבת ההגה עלולה לא להתגלות — תנועת הגה לא רצויה. לבדוק שבוצע עדכון תוכנת יחידות הבקרה (0032840300)",
+            "scope": "יוצרו 06/2023–11/2025 (KBA 15939R)",
+            "source": {
+              "title": "car-recalls.eu — BMW recalls 105,000 X3 over steering control risk, KBA 15939R",
+              "url": "https://car-recalls.eu/bmw-recalls-105000-x3-models-steering-control-risk-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כבל הפלוס של המתנע-גנרטור הורכב לא נכון — חיבור רופף, אי-טעינה/אי-התנעה וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 09/2023–02/2025",
+            "source": {
+              "title": "car-recalls.eu — BMW 3/4/5 Series, X3, X5 (2023–2025) starter-generator cable fire, Safety Gate SR/01734/25",
+              "url": "https://car-recalls.eu/recall/bmw-5-series-2023-2025-electronic-fire/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו מיילד-היברידי (20)",
+            "pt": "mhev",
+            "hp": 208,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — BMW X3 G45 fuel reports: 20 208 KM, 7.5 L/100km, 5 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/bmw/x3/g45/"
+            }
+          }
+        ]
       }
     },
     "5-series": {
@@ -820,6 +855,15 @@
             "source": {
               "title": "car-recalls.eu — BMW brake assist failure recall (1.49M cars, 17 series), KBA 013586",
               "url": "https://car-recalls.eu/bmw-recall-brake-assist-failure-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "כבל הפלוס של המתנע-גנרטור הורכב לא נכון — חיבור רופף, אי-טעינה/אי-התנעה וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 09/2023–02/2025",
+            "source": {
+              "title": "car-recalls.eu — BMW 3/4/5 Series, X3, X5 (2023–2025) starter-generator cable fire, Safety Gate SR/01734/25",
+              "url": "https://car-recalls.eu/recall/bmw-5-series-2023-2025-electronic-fire/"
             }
           }
         ],

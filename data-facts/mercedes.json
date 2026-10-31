@@ -1233,6 +1233,68 @@
             }
           }
         ]
+      },
+      "W223": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בורג הארקה של מערכת 12V בתא המטען עלול להיות פגום — השבתת חלק מפונקציות ה-ESP או התחממות מקומית וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות (6891002)",
+            "scope": "יוצרו 08/2020–04/2023",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz S-Class 223 (2020–2023) ground wire, RAPEX A12/02416/23",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-s-class-2020-2023-ground-wire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מוטות ההגה הפנימיים בסרן הקדמי קצרים מדי — עלולים להתכופף/להישלף בעומס פתאומי. לבדוק שבוצעה קריאת השירות (4691005)",
+            "scope": "יוצרו 07–12/2020",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz S-Class BR 223 (2020) tie rods, RAPEX A12/00152/21",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-s-class-2021-tie-rods-steering/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מאיץ משאבת הדלק לא לפי המפרט עלול להתעוות ולנגוע בבית — אספקת הדלק נקטעת והרכב מאבד הנעה. לבדוק לפי VIN שבוצעה קריאת השירות (החלפת מודול משאבת דלק, 4790205)",
+            "scope": "יוצרו 2021–2023 (KBA 012934)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes recall: loss of drive in over 589,000 vehicles (fuel delivery module), KBA 012934",
+              "url": "https://car-recalls.eu/mercedes-recall-loss-of-drive-over-589000-vehicles-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מגע לקוי בנתיך 80A עלול לגרום לכשל מנוע, אובדן מערכות ריסון ולוח מחוונים — וסכנת שריפה. לבדוק שבוצעה החלפת תיבת הנתיכים (8297011)",
+            "scope": "שנת ייצור 2023",
+            "source": {
+              "title": "car-recalls.eu — Mercedes recalls a quarter of a million cars due to fire risk (80 A fuse)",
+              "url": "https://car-recalls.eu/mercedes-recalls-quarter-million-cars-fire-risk-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ברגי הגלגלים לא הודקו למומנט הנדרש בייצור — הגלגל עלול להשתחרר בנסיעה. לבדוק לפי VIN שבוצעה בדיקה והידוק (4090105)",
+            "scope": "יוצרו 11/2022–12/2025 (KBA 16265R)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz: wheels could detach on 25 models, KBA 16265R",
+              "url": "https://car-recalls.eu/mercedes-benz-wheels-could-detach-26-models-while-driving-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו מיילד-היברידי (S 450)",
+            "pt": "mhev",
+            "hp": 367,
+            "cons": 10.6,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes S-Class W223 fuel reports: S 450 MHEV 367 KM, 10.6 L/100km (only 1 owner report — indicative)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-s/w223v223/"
+            }
+          }
+        ]
       }
     },
     "gls": {
@@ -1287,6 +1349,52 @@
             "source": {
               "title": "car-recalls.eu — Power steering failure on older Mercedes-Benz models (GL/GLS incl.), KBA 14536R",
               "url": "https://car-recalls.eu/power-steering-failure-several-mercedes-benz-models-kba/"
+            }
+          }
+        ]
+      },
+      "X167": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "צינורות ניקוז העיבוי הותקנו לא נכון — לחות חודרת לתא הנוסעים, זרמי זליגה וסכנת שריפה; גם אי-פתיחת הרכב ומצב חירום מנוע. לבדוק רטיבות בשטיחים ושבוצעה קריאת השירות",
+            "scope": "GLE/GLS, יוצרו 08/2018–02/2021",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz GLE/GLS (2018–2021) condensation drain hoses / fire, RAPEX A12/00700/23",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-gls-2018-2021-fire-risk/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "מאיץ משאבת הדלק לא לפי המפרט עלול להתעוות ולנגוע בבית — אספקת הדלק נקטעת והרכב מאבד הנעה. לבדוק לפי VIN שבוצעה קריאת השירות (החלפת מודול משאבת דלק, 4790205)",
+            "scope": "יוצרו 2021–2023 (KBA 012934)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes recall: loss of drive in over 589,000 vehicles (fuel delivery module), KBA 012934",
+              "url": "https://car-recalls.eu/mercedes-recall-loss-of-drive-over-589000-vehicles-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו מיילד-היברידי (GLS 450)",
+            "pt": "mhev",
+            "hp": 381,
+            "cons": 12.3,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes GLS X167 fuel reports: 450 381 KM, 12.3 L/100km, 12 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/gls/x167/"
+            }
+          },
+          {
+            "name": "2.9 טורבו דיזל (GLS 400d)",
+            "pt": "diesel",
+            "hp": 330,
+            "cons": 12.9,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes GLS X167 fuel reports: 400d 330 KM, 12.9 L/100km, 12 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/gls/x167/"
             }
           }
         ]
@@ -1363,6 +1471,116 @@
             "source": {
               "title": "InsideEVs — Mercedes recalls EQE, EQS, EQS SUV for faulty software (NHTSA 23V405)",
               "url": "https://insideevs.com/news/673076/mercedes-eqs-eqe-recall-software/"
+            }
+          }
+        ]
+      }
+    },
+    "cle": {
+      "C236": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מגע לקוי בנתיך 80A עלול לגרום לכשל מנוע, אובדן מערכות ריסון ולוח מחוונים — וסכנת שריפה. לבדוק שבוצעה החלפת תיבת הנתיכים (8297011)",
+            "scope": "שנת ייצור 2023",
+            "source": {
+              "title": "car-recalls.eu — Mercedes recalls a quarter of a million cars due to fire risk (80 A fuse)",
+              "url": "https://car-recalls.eu/mercedes-recalls-quarter-million-cars-fire-risk-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ברגי הגלגלים לא הודקו למומנט הנדרש בייצור — הגלגל עלול להשתחרר בנסיעה. לבדוק לפי VIN שבוצעה בדיקה והידוק (4090105)",
+            "scope": "יוצרו 11/2022–12/2025 (KBA 16265R)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz: wheels could detach on 25 models, KBA 16265R",
+              "url": "https://car-recalls.eu/mercedes-benz-wheels-could-detach-26-models-while-driving-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו מיילד-היברידי (CLE 300)",
+            "pt": "mhev",
+            "hp": 258,
+            "cons": 9.0,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes CLE Coupé 300 258 KM: 9.0 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/cle/coupe/"
+            }
+          }
+        ]
+      }
+    },
+    "g-class": {
+      "W463 II": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "מאיץ משאבת הדלק לא לפי המפרט עלול להתעוות ולנגוע בבית — אספקת הדלק נקטעת והרכב מאבד הנעה. לבדוק לפי VIN שבוצעה קריאת השירות (החלפת מודול משאבת דלק, 4790205)",
+            "scope": "יוצרו 2021–2023 (KBA 012934)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes recall: loss of drive in over 589,000 vehicles (fuel delivery module), KBA 012934",
+              "url": "https://car-recalls.eu/mercedes-recall-loss-of-drive-over-589000-vehicles-kba/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ברגי הגלגלים לא הודקו למומנט הנדרש בייצור — הגלגל עלול להשתחרר בנסיעה. לבדוק לפי VIN שבוצעה בדיקה והידוק (4090105)",
+            "scope": "יוצרו 11/2022–12/2025 (KBA 16265R)",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz: wheels could detach on 25 models, KBA 16265R",
+              "url": "https://car-recalls.eu/mercedes-benz-wheels-could-detach-26-models-while-driving-kba/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו דיזל (G 350d)",
+            "pt": "diesel",
+            "hp": 245,
+            "cons": 10.8,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes G-Class W463 fuel reports: G 350d 245 KM, 10.8 L/100km (only 1 owner report — indicative)",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-g/w463/"
+            }
+          }
+        ]
+      }
+    },
+    "sl": {
+      "R231": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "חלקיק כלוא עלול לפגוע באיטום בין מסילת הדלק למזרק — דליפת דלק לתא המנוע. לבדוק לפי VIN שבוצעה קריאת השירות (792034)",
+            "scope": "בנזין, יוצרו 05/2016–08/2020",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz SL R231 and others (2016–2020) fuel rail seal / fire, RAPEX A12/00017/22",
+              "url": "https://car-recalls.eu/recall/mercedes-benz-sl-2016-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "ריקולים בבריטניה: דלתות שנשארות נעולות (יוצרו 10/2017–04/2018), כרית אוויר נוסע שלא נתפרה נכון (03–11/2018) ותושבת מתלה קדמי עם חללי יציקה (03–05/2019). לבדוק לפי VIN",
+            "source": {
+              "title": "car-recalls.eu — Mercedes-Benz SL common problems (UK recalls 2018–2019)",
+              "url": "https://car-recalls.eu/common-problems/mercedes-benz/sl/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "5.5 V8 טורבו בנזין (SL 63 AMG)",
+            "pt": "petrol",
+            "hp": 537,
+            "cons": 14.4,
+            "unit": "L",
+            "source": {
+              "title": "AutoCentrum.pl — Mercedes SL R231 SL 63 AMG 537 KM: 14.4 L/100km, 2 owner reports",
+              "url": "https://www.autocentrum.pl/spalanie/mercedes/sl/r231/"
             }
           }
         ]

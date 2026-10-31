@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -411,6 +411,28 @@
             "source": {
               "title": "Spritmonitor — Opel Grandland X plug-in hybrid 216–226 kW (Hybrid4 300 PS), automatic, 2018–2022: average petrol use of 34 vehicles / 1,333 fuel-ups (petrol only, electricity not included)",
               "url": "https://www.spritmonitor.de/de/uebersicht/35-Opel/1635-Grandland_X.html?fueltype=6&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=216&power_e=226&gearing=2"
+            }
+          }
+        ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "אומים רופפים בצינור הלחץ הגבוה בין משאבת הדלק למסילה — דליפת דלק וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "יוצרו 2023/2024–04/2025 (כולל הדור החדש)",
+            "source": {
+              "title": "car-recalls.eu — Opel Grandland (2024–2025) fuel leak / fire, Safety Gate SR/02932/25 (code KUU)",
+              "url": "https://car-recalls.eu/recall/opel-grandland-2024-2025-fuel-fire/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "פונקציית החימום/קירור המוקדם של התא משביתה את המגבים. לבדוק שבוצע עדכון תוכנת יחידת VSM (קוד KWM)",
+            "scope": "יוצרו 11/2024–12/2025 (KBA 16718R)",
+            "source": {
+              "title": "car-recalls.eu — Opel Grandland pre-conditioning bug disables wipers, KBA 16718R",
+              "url": "https://car-recalls.eu/opel-grandland-pre-conditioning-bug-disables-windshield-wipers-kba/"
             }
           }
         ]
