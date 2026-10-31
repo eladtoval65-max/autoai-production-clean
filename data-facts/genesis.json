@@ -281,6 +281,77 @@
               "url": "https://www.cars.com/recalls/genesis-g90"
             }
           }
+        ],
+        "launchPrice": {
+          "ils": 690000,
+          "year": 2021,
+          "note": "השקת המותג בישראל: 5.0 V8 425 כ\"ס, רמת גימור אחת",
+          "source": {
+            "title": "auto.co.il — מותג ג'נסיס בישראל מציג: ג'נסיס G90 2021 – החל מ-690,000 שקלים (28.02.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134300/"
+          }
+        },
+        "engines": [
+          {
+            "name": "5.0 V8 בנזין",
+            "pt": "petrol",
+            "hp": 425,
+            "cons": 13.1,
+            "unit": "L",
+            "source": {
+              "title": "Consumer Guide test drive 2017 G90 5.0 Ultimate — measured 18.0 US mpg over 430 miles, 60% city (L/100km = 235.215/18.0 ≈ 13.1)",
+              "url": "https://blog.consumerguide.com/test-drive-2017-genesis-g90-5-0-ultinate/"
+            }
+          }
+        ]
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 24V282): משאבת הדלק עלולה להיכשל ולגרום לאובדן כוח הנעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "G90 שנתוני 2022–2023 בארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motorverso — 2023 Genesis G90 recalls (NHTSA 24V282000)",
+              "url": "https://www.motorverso.com/recalls/genesis/g90/2023/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 26V229): דליפת דלק אפשרית בחיבור בין צינור הדלק למסילת המזרקים — סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ושאין ריח דלק בתא המנוע.",
+            "scope": "G90 שנתוני 2023–2025 בארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motorverso — 2023 Genesis G90 recalls (NHTSA 26V229000)",
+              "url": "https://www.motorverso.com/recalls/genesis/g90/2023/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 26V218): עיגוני חגורות הבטיחות הקדמיות עלולים להשתחרר. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "G90 שנתוני 2023–2026 בארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motorverso — 2023 Genesis G90 recalls (NHTSA 26V218000)",
+              "url": "https://www.motorverso.com/recalls/genesis/g90/2023/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 25V474): תקלת תוכנה עלולה לגרום לכיבוי לוח המחוונים. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "G90 שנתוני 2023–2025 בארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motorverso — 2023 Genesis G90 recalls (NHTSA 25V474000)",
+              "url": "https://www.motorverso.com/recalls/genesis/g90/2023/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 25V833): מכ\"ם פינתי של מערכת Highway Drive Assist עלול לזהות רכב שלא קיים ולגרום לבלימה פתאומית. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "G90 שנתוני 2023–2026 בארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Motorverso — 2023 Genesis G90 recalls (NHTSA 25V833000)",
+              "url": "https://www.motorverso.com/recalls/genesis/g90/2023/"
+            }
+          }
         ]
       }
     }

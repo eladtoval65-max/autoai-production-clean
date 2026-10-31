@@ -85,6 +85,68 @@
           }
         }
       },
+      "992": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (ARC4): אומי נעילה מרכזיים של הגלגלים (Centre Lock) עלולים להיסדק ולגרום להינתקות גלגל. בבדיקה: לוודא שהאומים הוחלפו במסגרת הקריאה.",
+            "scope": "911 קופה 2023–2024 עם נעילת גלגל מרכזית (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Porsche 992 911 Coupe (REC-006166)",
+              "url": "https://australiancar.reviews/recalls-faults-porsche-992-911-coupe-2019/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (ARA3): בגרסאות עם חלונות זכוכית קלה (אופציה VW4/VW7) הדבקת השמשה הקדמית/האחורית עלולה להיות חלשה ולפגוע ביעילות כריות האוויר. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "911 שנים 2019–2023 עם אופציית זכוכית קלה — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Porsche 992 911 Coupe (REC-005936)",
+              "url": "https://australiancar.reviews/recalls-faults-porsche-992-911-coupe-2019/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (APB3): תקלת תוכנה עלולה לגרום לפתיחה מיותרת של כריות האוויר הצדדיות במושבים בתאונה. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "911 שנים 2021–2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarAdvice/Drive — 2021-2023 Porsche 911 recalled due to seat airbag fault",
+              "url": "https://www.caradvice.com.au/news/2021-2023-porsche-911-recalled-seat-airbag/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (ANB6): ברגי עיגון חגורות הבטיחות הקדמיות עלולים שלא להיות מהודקים כנדרש. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "911 קופה 2021–2022 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Porsche 992 911 Coupe (REC-005566)",
+              "url": "https://australiancar.reviews/recalls-faults-porsche-992-911-coupe-2019/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (ASA0): אבזמי חגורות הבטיחות האחוריות עלולים שלא להיות מעוגנים כראוי. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "911 קופה 2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Porsche 992 911 Coupe (REC-006314)",
+              "url": "https://australiancar.reviews/recalls-faults-porsche-992-911-coupe-2019/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו כפול בנזין (Carrera)",
+            "pt": "petrol",
+            "hp": 385,
+            "cons": 10.2,
+            "unit": "L",
+            "source": {
+              "title": "Top Gear long-term test 911 Carrera (992) PDK, report 8 — 27.7 UK mpg average over ~10,000 miles/8 months, trip computer (L/100km = 282.481/27.7 ≈ 10.2)",
+              "url": "https://www.topgear.com/long-term-car-reviews/porsche/911/2dr-pdk/report-8"
+            }
+          }
+        ]
+      },
       "997": {
         "issues": [
           {
@@ -427,6 +489,37 @@
             }
           }
         ]
+      },
+      "976": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 25V634): ברגי משאבת הדלק בלחץ גבוה עלולים שלא להיות מהודקים – דליפת דלק וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ושאין ריח דלק בתא המנוע.",
+            "scope": "פנמרה 2024–2026 (ארה\"ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2024 Porsche Panamera recalls (NHTSA 25V634000)",
+              "url": "https://www.cars.com/research/porsche-panamera-2024/recalls/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: פגם ייצור במשכך האוויר (מתלה אוויר) עלול לגרום לדליפת אוויר ולשקיעת צד אחד של הרכב. בבדיקה: לוודא שהקריאה בוצעה ושהרכב עומד ישר.",
+            "scope": "פנמרה (וטייקאן) שיוצרו 19.12.2024–22.5.2025 (EU Safety Gate 34/2025) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Porsche Panamera (2024–2025) defective pneumatic spring",
+              "url": "https://car-recalls.eu/recall/porsche-panamera-2024-2025-defect-pneumatic-spring/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 25V896): תמונת מצלמת הרוורס עלולה שלא להופיע. בבדיקה: לוודא שעדכון תוכנת מערכות העזר בוצע ושהמצלמה עובדת.",
+            "scope": "פנמרה 2024 ודגמי פורשה נוספים (ארה\"ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2024 Porsche Panamera recalls (NHTSA 25V896000)",
+              "url": "https://www.cars.com/research/porsche-panamera-2024/recalls/"
+            }
+          }
+        ]
       }
     },
     "taycan": {
@@ -465,7 +558,7 @@
             "name": "חשמלי 4S (סוללה 79 קוט\"ש)",
             "pt": "ev",
             "hp": 530,
-            "cons": 18.0,
+            "cons": 18,
             "unit": "kWh",
             "source": {
               "title": "EV Database — Porsche Taycan 4S (2020–2023): vehicle consumption 180 Wh/km (real-world estimate)",

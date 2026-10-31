@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-10-25",
+  "updated": "2026-10-31",
   "models": {
     "golf": {
       "Mk7": {
@@ -429,6 +429,13 @@
             "title": "וואלה רכב — מבחן פולקסווגן טי-רוק (ינואר 2024)",
             "url": "https://cars.walla.co.il/item/3639150"
           }
+        }
+      },
+      "דור 2": {
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/vw-t-roc---euro-ncap-2025-results---5-stars/s/35735d6c-db44-4397-8912-b5eaae4f3ead"
         }
       }
     },

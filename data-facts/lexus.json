@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "nx": {
       "AZ10": {
@@ -187,7 +187,7 @@
             "name": "2.5 היברידי (350h)",
             "pt": "hybrid",
             "hp": 246,
-            "cons": 7.0,
+            "cons": 7,
             "unit": "L",
             "source": {
               "title": "AutoTrader.ca — 2023 Lexus RX 350h review: 7.0 L/100km observed over 565 km of mixed driving",
@@ -316,6 +316,17 @@
             }
           }
         ]
+      },
+      "AXZH21": {
+        "launchPrice": {
+          "ils": 354990,
+          "year": 2026,
+          "note": "ES 300h היברידי 2.5, 196 כ\"ס, רמת גימור Hadori",
+          "source": {
+            "title": "auto.co.il — לקסוס ES 2026 300h היברידי Hadori",
+            "url": "https://www.auto.co.il/cars/lexus/es/2026/300h-hybrid-hadori/"
+          }
+        }
       }
     },
     "ux": {

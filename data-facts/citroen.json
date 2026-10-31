@@ -318,7 +318,21 @@
               "url": "https://car-recalls.eu/recall/citroen-c5-aircross-2025-fuel-fire/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://www.euroncap.com/en/results/citro%C3%ABn/c5+aircross/56158"
+        },
+        "launchPrice": {
+          "ils": 180000,
+          "year": 2026,
+          "note": "Yoo, 1.2 טורבו מיילד-היברידי 145 כ\"ס; Max 196,000",
+          "source": {
+            "title": "auto.co.il — סיטרואן C5 איירקרוס החדש בישראל – החל מ-180 אלף שקל",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/c5-aircross-2026/"
+          }
+        }
       }
     },
     "c3-aircross": {

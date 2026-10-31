@@ -1,0 +1,74 @@
+{
+  "make": "ora",
+  "updated": "2026-10-31",
+  "models": {
+    "03": {
+      "ES11": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות: בשל תקלת תוכנה, ניתוק כבל הטעינה בלי לעצור את הטעינה עלול ליצור קשת חשמלית בין התקע לרכב; התיקון: עדכון תוכנה (מאותר גם ע\"י ADAC בגרמניה). בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "דגמי 2022–2023 (אוסטרליה REC-005843; עדכון גם באירופה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — 2023 GWM Ora recalled",
+              "url": "https://www.carexpert.com.au/car-news/2023-gwm-ora-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 63 קוט\"ש (59.3 נטו), הנעה קדמית",
+            "pt": "ev",
+            "hp": 169,
+            "cons": 17.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — GWM ORA 03 Pro 63 kWh (real-world 282 Wh/mi ≈ 175 Wh/km)",
+              "url": "https://ev-database.org/uk/car/2092/GWM-ORA-03-Pro"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/gwm/ora+03+(funky+cat)/50972"
+        },
+        "launchPrice": {
+          "ils": 145000,
+          "year": 2023,
+          "note": "Funky Cat 300 Pro, 47.8 קוט\"ש, 171 כ\"ס (138,000 ל-900 הרוכשים הראשונים); 400 Pro+ 63 קוט\"ש 172,000",
+          "source": {
+            "title": "auto.co.il — אורה פאנקי קאט נוחת בארץ",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135876/"
+          }
+        }
+      }
+    },
+    "07": {
+      "Lightning Cat": {
+        "engines": [
+          {
+            "name": "חשמלי 67 קוט\"ש, הנעה קדמית (Pure)",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 18.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy consumption cheatsheet — GWM ORA 07 Pure 184 Wh/km (hp per Israeli launch report)",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 194900,
+          "year": 2024,
+          "note": "PURE, 67 קוט\"ש, 204 כ\"ס (מחיר השקה; מחירון 199,900); Pro+ 86 קוט\"ש 219,900",
+          "source": {
+            "title": "cartube — ORA 07 החשמלית בישראל - מחיר 194,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ora-07-החשמלית-בישראל-מחיר-194900-שקל"
+          }
+        }
+      }
+    }
+  }
+}

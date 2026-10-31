@@ -435,6 +435,33 @@
               "url": "https://car-recalls.eu/opel-grandland-pre-conditioning-bug-disables-windshield-wipers-kba/"
             }
           }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/opel-vauxhall-grandland---euro-ncap-2025-results---4-stars/s/8f31f926-fdf0-4599-ac17-0a1ad7c79cd8"
+        },
+        "launchPrice": {
+          "ils": 186990,
+          "year": 2025,
+          "note": "Edition, 1.2 טורבו מיילד-היברידי 145 כ\"ס; GS 206,990",
+          "source": {
+            "title": "cartube — אופל גרנדלנד החדש 2025 עכשיו בישראל - מחיר 186,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/אופל-גרנדלנד-החדש-2025-עכשיו-בישראל-מחיר-186990-שקל"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היבריד",
+            "pt": "mhev",
+            "hp": 145,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest Opel Grandland 1.2 DI Turbo Hybrid GS eDCT (145 PS) — measured 6.9 L/100km Ecotest average (WLTP 5.6)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/grandland/2generation/340193/"
+            }
+          }
         ]
       }
     },

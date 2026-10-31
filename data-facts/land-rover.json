@@ -358,6 +358,82 @@
             }
           }
         ]
+      },
+      "L461": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N763): קידוח שגוי של מעבר שמן במנשא גל הזיזים – דליפת שמן וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ואין סימני דליפת שמן.",
+            "scope": "שנים 2022–2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L461 Range Rover Sport (REC-005615)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l461-range-rover-sport-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N908): בית מסנן השמן עלול להיסדק עם הזמן ולדלוף לתא המנוע – סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "שנים 2023–2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L461 Range Rover Sport (REC-006003)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l461-range-rover-sport-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N903, היברידי נטען): לוחיות המצמד בתיבה ההיברידית עלולות להתחמם – התיבה עלולה לעבור לניוטרל בנסיעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "PHEV שנים 2023–2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L461 Range Rover Sport (REC-005982)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l461-range-rover-sport-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N830): פנסים אחוריים אטומים בצורה לקויה – לחות עלולה לנטרל פנסי רוורס, בלמים ואיתות. בבדיקה: לבדוק שאין עיבוי בפנסים ושהקריאה בוצעה.",
+            "scope": "שנת 2022 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L461 Range Rover Sport (REC-005870)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l461-range-rover-sport-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (D095): הדבקת גג הזכוכית הפנורמי עלולה להיות חלשה והפאנל עלול להתנתק. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "שנים 2021–2025 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L461 Range Rover Sport (REC-006559)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l461-range-rover-sport-2022/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 טורבו דיזל היברידי מתון (D350)",
+            "pt": "mhev",
+            "hp": 350,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "What Car? long-term test — Range Rover Sport D350 Autobiography 2022: 31.2 mpg (UK) ≈ 9.1 L/100km",
+              "url": "https://whatcar.com/news/range-rover-sport-long-term-test-report-6/n26385"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/range-rover-sport---euro-ncap-2022-results---5-stars/s/e08dfccc-51de-4697-ade8-d88952a3c246"
+        },
+        "launchPrice": {
+          "ils": 758100,
+          "year": 2022,
+          "note": "3.0 דיזל D300 (300 כ\"ס)",
+          "source": {
+            "title": "icar — ריינג' רובר ספורט החדש בישראל: מ-758,000 שקלים (21.11.22)",
+            "url": "https://www.icar.co.il/חדשות_רכב/ריינג%27_רובר_ספורט_החדש_בישראל:_מ-758,000_שקלים/"
+          }
+        }
       }
     },
     "discovery": {
@@ -589,7 +665,29 @@
               "url": "https://carbuyer.co.uk/tips-and-advice/153127/used-range-rover-buying-guide-2002-2013-mk3"
             }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "4.4 V8 טורבו דיזל (TDV8)",
+            "pt": "diesel",
+            "hp": 313,
+            "cons": 9.8,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Range Rover (2002–2013) 4.4 TDV8: 28.8 mpg (UK) ממוצע משתמשים",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/land-rover/range-rover-2002/50-v8"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 970000,
+          "year": 2011,
+          "note": "עדכון 2011: Vogue עם 4.4 TDV8 313 כ\"ס ותיבת 8 הילוכים",
+          "source": {
+            "title": "auto.co.il — מנוע V8 חדש ללנד רובר ריינג' רובר (17.01.2011)",
+            "url": "https://www.auto.co.il/articles/car-news/117499/"
+          }
+        }
       },
       "L405": {
         "issues": [
@@ -662,6 +760,82 @@
             }
           }
         ]
+      },
+      "L460": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N763): קידוח שגוי של מעבר שמן במנשא גל הזיזים – דליפת שמן וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה ואין סימני דליפת שמן.",
+            "scope": "שנים 2022–2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L460 Range Rover (REC-005615)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l460-range-rover-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N908): בית מסנן השמן עלול להיסדק עם הזמן ולדלוף לתא המנוע – סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "שנים 2023–2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L460 Range Rover (REC-006003)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l460-range-rover-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N903, היברידי נטען): לוחיות המצמד בתיבה ההיברידית עלולות להתחמם ולזהם את השמן – התיבה עלולה לעבור לניוטרל בנסיעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "PHEV שנים 2023–2024 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L460 Range Rover (REC-005982)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l460-range-rover-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (N853): תפסי מזרקי הדלק עלולים להיסדק – דליפת דלק וסכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "שנת 2023 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L460 Range Rover (REC-005916)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l460-range-rover-2022/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (D095): הדבקת גג הזכוכית הפנורמי עלולה להיות חלשה והפאנל עלול להתנתק. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "שנים 2021–2025 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Land Rover L460 Range Rover (REC-006559)",
+              "url": "https://www.australiancar.reviews/recalls-faults-land-rover-l460-range-rover-2022/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://euroncap.com/es/results/land+rover/range+rover/47131"
+        },
+        "launchPrice": {
+          "ils": 1299000,
+          "year": 2022,
+          "note": "HSE עם D350 דיזל (350 כ\"ס) או P400 בנזין (400 כ\"ס), בסיס קצר",
+          "source": {
+            "title": "icar — ריינג' רובר החדש בישראל: מ-1.3 מיליון שקלים (05.01.22)",
+            "url": "https://www.icar.co.il/חדשות_רכב/ריינג'_רובר_החדש_בישראל:_מ-1.3_מיליון_שקלים/"
+          }
+        },
+        "engines": [
+          {
+            "name": "3.0 טורבו דיזל מיילד-היבריד (D350)",
+            "pt": "diesel",
+            "hp": 350,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "CAR magazine long-term test Range Rover D350 HSE, month 6 — 35.4 UK mpg tested, 17,838 miles on logbook (L/100km = 282.481/35.4 ≈ 8.0)",
+              "url": "https://carmagazine.co.uk/our-cars/2023/range-rover/month-6"
+            }
+          }
+        ]
       }
     },
     "velar": {
@@ -689,7 +863,7 @@
             "name": "2.0 טורבו בנזין (P250)",
             "pt": "petrol",
             "hp": 250,
-            "cons": 10.0,
+            "cons": 10,
             "unit": "L",
             "source": {
               "title": "AutoCentrum.pl — Range Rover Velar 2.0 Si4 250 KM (2017–2020): 10.0 L/100km, 7 owner reports",

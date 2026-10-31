@@ -1,0 +1,23 @@
+{
+  "make": "skywell",
+  "updated": "2026-10-31",
+  "models": {
+    "et5": {
+      "Gen1": {
+        "ncap": {
+          "stars": null,
+          "note": "לא נבחן ב-Euro NCAP; ב-C-NCAP הסיני קיבל כוכב אחד (2023)"
+        },
+        "launchPrice": {
+          "ils": 175000,
+          "year": 2021,
+          "note": "Comfort, 72 קוט\"ש, 204 כ\"ס; Luxury 185,000, Premium 190,000",
+          "source": {
+            "title": "auto.co.il — Skywell ET5 2022 החדש בארץ – מחיר החל מ-175,000 שקלים",
+            "url": "https://auto.co.il/article/134743-local-news"
+          }
+        }
+      }
+    }
+  }
+}

@@ -127,6 +127,37 @@
           }
         ]
       }
+    },
+    "p7": {
+      "P7 / P7i": {
+        "engines": [
+          {
+            "name": "חשמלי 86.2 קוט\"ש (82.7 נטו), הנעה אחורית (Long Range)",
+            "pt": "ev",
+            "hp": 272,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — XPENG P7 RWD Long Range 2023-2026 (real-world 271 Wh/mi ≈ 168 Wh/km)",
+              "url": "https://ev-database.org/imp/car/1821/XPENG-P7-RWD-Long-Range"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://www.euroncap.com/en/results/xpeng/p7/50017"
+        },
+        "launchPrice": {
+          "ils": 200000,
+          "year": 2023,
+          "note": "Long Range הנעה אחורית 276 כ\"ס (גרסת המתיחה P7i); Performance 267,000, Wing 300,000",
+          "source": {
+            "title": "auto.co.il — אקספנג P7 החדשה בישראל – מחיר החל מ-200,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136749/"
+          }
+        }
+      }
     }
   },
   "updated": "2026-10-31"

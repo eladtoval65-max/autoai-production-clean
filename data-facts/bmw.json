@@ -401,6 +401,55 @@
             }
           }
         ]
+      },
+      "F70": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות: כבל הארקה שלא הוברג כראוי עלול להתחמם ולפגוע ביחידת ה-PCU – סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "סדרה 1/סדרה 2/מיני קאנטרימן שיוצרו 19–25.6.2025 (EU Safety Gate 34/2025) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — BMW 1 Series (2025) fire risk",
+              "url": "https://car-recalls.eu/es/recall/bmw-1-series-2025-fire-risk/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: חגורות הבטיחות האחוריות החיצוניות עלולות לגרום לכשל בחיישני רגישות החגורה ולהפחית הגנה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "סדרה 1, סדרה 2, X1, X2 שיוצרו 30.7.2025–13.10.2025 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — BMW 1 Series (2025) seat belts",
+              "url": "https://car-recalls.eu/es/recall/bmw-1-series-2025-seat-belts/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/bmw-1-series---euro-ncap-2025-results---4-stars/s/b3b83aba-2d1f-4c78-8835-862d7d0d21de"
+        },
+        "launchPrice": {
+          "ils": 249900,
+          "year": 2025,
+          "note": "120 (170 כ\"ס); M135 ב-439,900 ש\"ח",
+          "source": {
+            "title": "Cartube — ב.מ.וו סדרה 1 החדשה 2025 נחתה בישראל - מחיר החל מ-249,900 שקל",
+            "url": "https://www.cartube.co.il/component/tags/tag/ב-מ-וו-סדרה-1"
+          }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו בנזין מיילד-היבריד (120)",
+            "pt": "mhev",
+            "hp": 170,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest BMW 120 M Sportpaket Steptronic (F70, 170 PS) — measured 6.1 L/100km Ecotest average (WLTP 5.3)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/1er-reihe/f70/335719/"
+            }
+          }
+        ]
       }
     },
     "ix3": {
@@ -1357,7 +1406,7 @@
             "name": "2.0 טורבו בנזין (220i)",
             "pt": "petrol",
             "hp": 184,
-            "cons": 7.0,
+            "cons": 7,
             "unit": "L",
             "source": {
               "title": "AutoCentrum.pl — BMW 2 Series G42 Coupé 220i 184 KM: 7.0 L/100km, 2 owner reports",
@@ -1487,7 +1536,7 @@
             "name": "2.0 טורבו דיזל (20d)",
             "pt": "diesel",
             "hp": 190,
-            "cons": 7.0,
+            "cons": 7,
             "unit": "L",
             "source": {
               "title": "AutoCentrum.pl — BMW X4 G02 20d 190 KM (2018–2021): 7.0 L/100km, 3 owner reports",

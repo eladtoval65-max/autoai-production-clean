@@ -386,6 +386,33 @@
           "year": 2018,
           "url": "https://www.euroncap.com/assessments/audi/q3/0745/"
         }
+      },
+      "Gen3": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (68GG/69SG): ריתוך לקוי במחולל הגז של מותחני החגורות הקדמיות – חלקים קטנים עלולים להינתק בתאונה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "Q3 שיוצרו 15.10.2025–5.6.2026 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Audi Q3 (2025–2026) seat belts",
+              "url": "https://car-recalls.eu/recall/audi-q3-2025-2026-seat-belts-injury/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/audi-q3---euro-ncap-2025-results---5-stars/s/168f92a0-a0a5-4ac5-8b55-3e6ad06c8e70"
+        },
+        "launchPrice": {
+          "ils": 318900,
+          "year": 2025,
+          "note": "גרסת הבסיס (שלושה מנועי בנזין, 150–265 כ\"ס)",
+          "source": {
+            "title": "Cartube — 2026 אודי Q3 החדש נחת בישראל - מחיר 318,900 שקל",
+            "url": "https://www.cartube.co.il/component/tags/tag/אודי-q3"
+          }
+        }
       }
     },
     "q5": {
@@ -980,8 +1007,65 @@
               "title": "car-recalls.eu — Audi Q8 e-tron brake circuit failure, KBA 13973R",
               "url": "https://car-recalls.eu/it/audi-q8-e-tron-brake-circuit-fail-kba/"
             }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 24V428): חיבור צינור בלם שהודק יתר על המידה עלול להיכשל ולגרום לדליפת נוזל בלמים ולפגיעה בבלימה. בבדיקה: לוודא שהקריאה בוצעה ושאין סימני דליפת נוזל בלמים.",
+            "scope": "Q8 e-tron / Q8 Sportback e-tron שנת דגם 2024 (ארה\"ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2024 Audi Q8 e-tron recalls (NHTSA 24V428000)",
+              "url": "https://www.cars.com/research/audi-q8_e_tron-2024/recalls/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 26V240, הרחבה של 24V621): בורג המחבר את דוושת הבלם למגבר הבלמים עלול להיות מורכב לא נכון והדוושה עלולה להתנתק. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "e-tron 2019–2023 ו-Q8/SQ8 e-tron 2024 (ארה\"ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2024 Audi Q8 e-tron recalls (NHTSA 26V240000)",
+              "url": "https://www.cars.com/research/audi-q8_e_tron-2024/recalls/"
+            }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 89 קוט\"ש נטו (Q8 50 e-tron), הנעה כפולה",
+            "pt": "ev",
+            "hp": 335,
+            "cons": 21.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi Q8 e-tron 50 quattro (real-world 342 Wh/mi ≈ 213 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1769/Audi-Q8-e-tron-50-quattro"
+            }
+          },
+          {
+            "name": "חשמלי 106 קוט\"ש נטו / 114 ברוטו (Q8 55 e-tron), הנעה כפולה",
+            "pt": "ev",
+            "hp": 402,
+            "cons": 21.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Audi Q8 SUV e-tron 55 quattro (real-world 342 Wh/mi ≈ 213 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1770/Audi-Q8-SUV-e-tron-55-quattro"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/en/results/audi/e-tron+(q8+e-tron)/35869",
+          "note": "הדירוג של ה-e-tron מ-2019 שמשויך ב-Euro NCAP גם ל-Q8 e-tron; פג תוקף ב-2026"
+        },
+        "launchPrice": {
+          "ils": 599500,
+          "year": 2023,
+          "note": "Q8 e-tron 55 (408 כ\"ס, 114 קוט\"ש), מרכב SUV; ספורטבק 619,500",
+          "source": {
+            "title": "auto.co.il — אודי e-tron Q8 החדש בארץ – מחיר החל מ-599,500 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136162/"
+          }
+        }
       }
     },
     "a8": {
@@ -1066,7 +1150,7 @@
             "name": "3.0 TDI טורבו דיזל (50)",
             "pt": "diesel",
             "hp": 286,
-            "cons": 9.0,
+            "cons": 9,
             "unit": "L",
             "source": {
               "title": "AutoCentrum.pl — Audi A8 D5 fuel reports: 50 TDI 286 KM, 9.0 L/100km, 8 owner reports",
@@ -1123,7 +1207,7 @@
             "name": "3.0 TDI טורבו דיזל (50)",
             "pt": "diesel",
             "hp": 286,
-            "cons": 9.0,
+            "cons": 9,
             "unit": "L",
             "source": {
               "title": "AutoCentrum.pl — Audi Q8 50 TDI 286 KM: 9.0 L/100km, 13 owner reports",

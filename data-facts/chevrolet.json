@@ -336,6 +336,37 @@
               "title": "NHTSA recall 15V-269 — Chevrolet Malibu 2011–2012 front seat belt cable",
               "url": "https://static.nhtsa.gov/odi/rcl/2015/RCAK-15V269-7777.pdf"
             }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (GM 13036): התנגדות בחיבור מודול הבקרה (BCM) למעגל חיישן דוושת הבלם – אורות בלם שנדלקים/לא נדלקים, קושי בניתוק שיוט, ידית הילוכים שיוצאת מ-P בלי לחיצה על הבלם ונטרול בקרת יציבות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "מאליבו 2004–2012 (יוצרו עד 11.10.2012) — ריקול אמריקאי, לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TrueDelta — Chevrolet Malibu recalls (NHTSA, GM 13036, Aug 2014)",
+              "url": "https://www.truedelta.com/Chevrolet-Malibu-recalls-54"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 158000,
+          "year": 2010,
+          "note": "2.4 ליטר 170 כ\"ס, אוטומטית 6 הילוכים — באותו מחיר כמו גרסת V6 3.5",
+          "source": {
+            "title": "auto.co.il — שברולט מאליבו: 2.4 ליטר באותו מחיר של 3.5 ליטר (29.03.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/118717/"
+          }
+        },
+        "engines": [
+          {
+            "name": "2.4 בנזין",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta owner-reported MPG — Malibu 4-cyl 2010/2011/2012 averages 25.53/28.28/29.38 US mpg (mean 27.7 mpg; L/100km = 235.215/mpg ≈ 8.5); TrueDelta labels the 4-cyl as '2.5' but 2010–2012 cars had the 2.4",
+              "url": "https://www.truedelta.com/Chevrolet-Malibu/mpg-54"
+            }
           }
         ]
       },

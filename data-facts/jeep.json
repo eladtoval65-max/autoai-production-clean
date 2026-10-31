@@ -82,6 +82,22 @@
           "year": 2012,
           "url": "https://news.euroncap.com/safercars/euro-ncap-announces-new-crash-tests-results--jeep-compass-disappoints--honda-civic-impresses/s/7c769ae3-910a-4fe4-8e5d-023f7dd62c1d"
         }
+      },
+      "Gen3": {
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/find-a-car/jeep-compass---euro-ncap-2025-results---4-stars/s/c3340b69-9233-4c88-a725-2c1ae2bbabfc"
+        },
+        "launchPrice": {
+          "ils": 210000,
+          "year": 2026,
+          "note": "כ-210,000 ש\"ח, גרסת Altitude, 1.2 טורבו היברידי מתון 145 כ\"ס",
+          "source": {
+            "title": "וואלה רכב — ג'יפ קומפס החדש בישראל (05.07.2026)",
+            "url": "https://cars.walla.co.il/item/3851072"
+          }
+        }
       }
     },
     "wrangler": {

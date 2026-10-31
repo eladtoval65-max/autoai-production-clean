@@ -1421,7 +1421,45 @@
               "url": "https://car-recalls.eu/recall/mercedes-benz-eqe-2022-tow-eye/"
             }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 90.6 קוט\"ש, הנעה אחורית (EQE 350+)",
+            "pt": "ev",
+            "hp": 292,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mercedes-Benz EQE 350+ (MY23) (2023-2024), real-world 171 Wh/km",
+              "url": "https://ev-database.org/car/2006/Mercedes-Benz-EQE-350plus"
+            }
+          },
+          {
+            "name": "חשמלי 89 קוט\"ש, הנעה אחורית (EQE 350, 2022-2024)",
+            "pt": "ev",
+            "hp": 292,
+            "cons": 17.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mercedes-Benz EQE 350 (MY23) (2022-2024), real-world 173 Wh/km",
+              "url": "https://ev-database.org/car/1898/Mercedes-Benz-EQE-350"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/eight-manufacturers-achieve-euro-ncap-5-stars-in-impressive-car-line-up/s/e7315f93-98df-4c09-b35f-ba568f65c237"
+        },
+        "launchPrice": {
+          "ils": 499900,
+          "year": 2022,
+          "note": "EQE 350 בגימור Electric",
+          "source": {
+            "title": "Gadgety — כלמוביל משיקה את המרצדס EQE בישראל (31.05.2022)",
+            "url": "https://www.gadgety.co.il/293416/mercedes-eqe-israel/"
+          }
+        }
       }
     },
     "eqe-suv": {
@@ -1473,7 +1511,40 @@
               "url": "https://insideevs.com/news/673076/mercedes-eqs-eqe-recall-software/"
             }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 118 קוט\"ש, הנעה אחורית (EQS SUV 450+)",
+            "pt": "ev",
+            "hp": 360,
+            "cons": 21.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mercedes-Benz EQS SUV 450+ (2023-2026), real-world 219 Wh/km",
+              "url": "https://ev-database.org/de/pkw/2087/Mercedes-Benz-EQS-SUV-450plus"
+            }
+          },
+          {
+            "name": "חשמלי 118 קוט\"ש, הנעה כפולה (EQS SUV 580 4MATIC)",
+            "pt": "ev",
+            "hp": 544,
+            "cons": 22.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mercedes-Benz EQS SUV 580 4MATIC (2023-2026), real-world 223 Wh/km",
+              "url": "https://ev-database.org/car/2090/Mercedes-Benz-EQS-SUV-580-4MATIC"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 990000,
+          "year": 2023,
+          "note": "EQS 450 (360 כ\"ס), כ-990 אלף ₪; שורה שלישית +70,000 ₪",
+          "source": {
+            "title": "icar — פנאי חשמלי לשבעה: מרצדס EQS SUV נחת בישראל (02.05.2023)",
+            "url": "https://www.icar.co.il/רכב-חשמלי/פנאי_חשמלי_לשבעה_-_מרצדס_EQS_SUV_נחת_בישראל/"
+          }
+        }
       }
     },
     "cle": {
@@ -1503,7 +1574,7 @@
             "name": "2.0 טורבו מיילד-היברידי (CLE 300)",
             "pt": "mhev",
             "hp": 258,
-            "cons": 9.0,
+            "cons": 9,
             "unit": "L",
             "source": {
               "title": "AutoCentrum.pl — Mercedes CLE Coupé 300 258 KM: 9.0 L/100km, 2 owner reports",
@@ -1548,6 +1619,88 @@
             }
           }
         ]
+      },
+      "W463": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות: צימוד ההגה עלול להיות מהודק בחסר ולהישחק – סכנת אובדן היגוי. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "G550/G63 שנתונים 2013–2016, G65 2016 — ריקול אמריקאי (06/2017), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TrueDelta — Mercedes-Benz G-Class recalls (NHTSA)",
+              "url": "https://www.truedelta.com/Mercedes-Benz-G-Class-recalls-189"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: תקלה בבקרת היציבות (ESP) כשבקרת שיוט אדפטיבית (Distronic Plus) פעילה – המנוע עלול לא להפחית כוח ומרחק העצירה מתארך. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "G550/G63/G65 שנתונים 2016–2017 — ריקול אמריקאי (12/2017), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TrueDelta — Mercedes-Benz G-Class recalls (NHTSA)",
+              "url": "https://www.truedelta.com/Mercedes-Benz-G-Class-recalls-189"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: צינור הוואקום של מגבר הבלמים עלול לקרוס ולהקשות על הבלימה. בבדיקה: לוודא שהקריאה בוצעה ושהבלם לא 'קשה'.",
+            "scope": "G550 שנתון 2017 — ריקול אמריקאי (03/2018), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TrueDelta — Mercedes-Benz G-Class recalls (NHTSA)",
+              "url": "https://www.truedelta.com/Mercedes-Benz-G-Class-recalls-189"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: כבל ידית הדלת הפנימית עלול להיקרע ולמנוע יציאה מהרכב לאחר תאונה. בבדיקה: לוודא שהקריאה בוצעה ושכל הדלתות נפתחות מבפנים.",
+            "scope": "G550/G63 שנתון 2016 — ריקול אמריקאי (04/2017), לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TrueDelta — Mercedes-Benz G-Class recalls (NHTSA)",
+              "url": "https://www.truedelta.com/Mercedes-Benz-G-Class-recalls-189"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: פס עיטור ליד כרית האוויר של הנוסע עלול להשתחרר בעת פתיחת הכרית ולהפוך לקליע. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "G550/G55 שנתון 2011 (ייצור 20.9.2010–27.4.2011) — ריקול אמריקאי, לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "TrueDelta — Mercedes-Benz G-Class recalls (NHTSA)",
+              "url": "https://www.truedelta.com/Mercedes-Benz-G-Class-recalls-189"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.0 V6 טורבו דיזל (G350 BlueTEC / G350d)",
+            "pt": "diesel",
+            "hp": 245,
+            "cons": 11.9,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Mercedes-Benz G-Class (2010–2018) G350 BlueTec: 23.7 mpg (UK) ממוצע משתמשים",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/mercedes-benz/g-class-2010"
+            }
+          },
+          {
+            "name": "5.5 V8 טווין-טורבו בנזין (AMG G63)",
+            "pt": "petrol",
+            "hp": 571,
+            "cons": 19.9,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Mercedes-Benz G-Class (2010–2018) G63 AMG: 14.2 mpg (UK) ממוצע משתמשים",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/mercedes-benz/g-class-2010"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 949900,
+          "year": 2015,
+          "note": "G350 (245 כ\"ס) — מחיר פתיחה בהשקת מרצדס ישראל ב-2015 (לפני כן לא נמכר ביבוא סדיר)",
+          "source": {
+            "title": "icar — מרצדס ישראל משיקה את ליין ה-SUV החדש (20.09.2015)",
+            "url": "https://www.icar.co.il/חדשות_רכב/מרצדס_ישראל_משיקה_את_ליין_ה-SUV_החדש/"
+          }
+        }
       }
     },
     "sl": {
@@ -1584,6 +1737,77 @@
             }
           }
         ]
+      },
+      "R230": {
+        "issues": [
+          {
+            "level": "manufacturer",
+            "he": "תקלה מוכרת ב-SL 63 AMG (מנוע M156): ברגי ראש המנוע נמתחים ונשברים – נוזל קירור/שמן לתא הבעירה, ירידת נוזל קירור ועשן לבן. עלון שירות LI01.30-P-051567. בבדיקה: לבקש תיעוד תיקון ולבדוק מפלס נוזל קירור ושמן.",
+            "scope": "SL 63 AMG, מנועים שיוצרו 2006 עד מחצית 2010",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mercedes R230 SL 55, 63 and 65 AMG (2002–12)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-r230-sl-55-63-and-65-amg-2002-12/"
+            }
+          },
+          {
+            "level": "manufacturer",
+            "he": "שחיקת גל זיזים ומרימי שסתומים במנוע M156 של SL 63 AMG (הוכר בעלון S-B 05.20/20b) – רעשי נקישות בהתנעה. בבדיקה: להאזין להתנעה קרה ולבקש היסטוריית טיפולים.",
+            "scope": "SL 63 AMG",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mercedes R230 SL 55, 63 and 65 AMG (2002–12)",
+              "url": "https://australiancar.reviews/recalls-faults-mercedes-r230-sl-55-63-and-65-amg-2002-12/"
+            }
+          },
+          {
+            "level": "widely_reported",
+            "he": "זרוע המפעיל הפלסטית של סעפת היניקה המשתנה נשברת עקב הצטברות פחם – סרק לא יציב, איבוד כוח ונורת מנוע; התיקון הוא החלפת סעפת שלמה. בבדיקה: לוודא שאין נורת מנוע ושהסרק חלק.",
+            "scope": "SL 350 (M272) ו-SL 500 (M273)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Mercedes-Benz R230 SL-Class (2002–12)",
+              "url": "https://australiancar.reviews/?p=47435"
+            }
+          }
+        ]
+      },
+      "R232": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 23V676): רתמת החיווט של המתנע והאלטרנטור לא קובעה כראוי ועלולה להשתפשף בגל ההינע — קצר, אובדן כוח הנעה או התחממות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "AMG SL 55 / SL 63 שנתוני 2022–2023 בארה\"ב — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2023 Mercedes-AMG SL 55 recalls (NHTSA 23V676000)",
+              "url": "https://cars.com/research/mercedes_benz-amg_sl_55-2023/recalls"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 24V115 ו-25V255): נתיכי 80 אמפר פגומים בתיבת הנתיכים הראשית, וחלק מהרכבים שתוקנו קיבלו תיבה לא מתאימה — סכנת אובדן כוח הנעה ושריפה. בבדיקה: לוודא ששתי הקריאות בוצעו.",
+            "scope": "SL כולל AMG SL 55 בארה\"ב; באוסטרליה SL 63 2023 (RC5149) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2023 Mercedes-AMG SL 55 recalls (NHTSA 24V115000, 25V255000)",
+              "url": "https://cars.com/research/mercedes_benz-amg_sl_55-2023/recalls"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 23V445 ו-23V880): משאבת הדלק עלולה להפסיק לפעול ולגרום לאובדן כוח הנעה. בבדיקה: לוודא שהמשאבה הוחלפה במסגרת הקריאה.",
+            "scope": "קריאה רחבה של מרצדס הכוללת דגמי SL — לבדוק תחולה לפי מספר שלדה",
+            "source": {
+              "title": "Cars.com — 2023 Mercedes-AMG SL 55 recalls (NHTSA 23V445000, 23V880000)",
+              "url": "https://cars.com/research/mercedes_benz-amg_sl_55-2023/recalls"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 1190000,
+          "year": 2022,
+          "note": "AMG SL 43, 2.0 טורבו 381 כ\"ס (SL 55: 1,550,000; SL 63: 1,850,000)",
+          "source": {
+            "title": "Cartube — מרצדס AMG SL החדשה 2022 בישראל, מחיר 1,190,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מרצדס-amg-sl-החדשה-2022-בישראל-מחיר-1190000-שקל"
+          }
+        }
       }
     }
   }

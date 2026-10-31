@@ -12,8 +12,139 @@
               "title": "CnEVPost — China's biggest auto recall (door emergency releases), incl. Zeekr 007 and X",
               "url": "https://cnevpost.com/2026/08/21/china-biggest-auto-recall-hits-tesla-xiaomi-leapmotor-others/"
             }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (סין, 2026): ידית השחרור המכנית לחירום של הדלת בצבע כמעט זהה לריפוד וקשה לאתרה אחרי תאונה; התיקון: מדבקות אזהרה ועדכון תוכנה שמוריד חלונות אוטומטית אחרי התנגשות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "ייצור 1.3.2023–21.5.2026 (Zeekr X ו-007, סין) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "news18a — Geely Recalls 92,658 Zeekr 007 and Zeekr X Over Hard-to-Identify Emergency Mechanical Release",
+              "url": "https://english.news18a.com/m/news/english_289019.html"
+            }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 66 קוט\"ש, הנעה אחורית (Long Range)",
+            "pt": "ev",
+            "hp": 272,
+            "cons": 18.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy consumption cheatsheet — Zeekr X Long Range RWD 182 Wh/km (current-MY listing; hp per Israeli launch report)",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי 66 קוט\"ש, הנעה כפולה (Privilege/Krypton)",
+            "pt": "ev",
+            "hp": 422,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Zeekr X Privilege AWD 2023-2025 (real-world 295 Wh/mi ≈ 183 Wh/km)",
+              "url": "https://ev-database.org/imp/car/1937/Zeekr-X-Privilege-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://www.euroncap.com/en/results/zeekr/x/51447"
+        },
+        "launchPrice": {
+          "ils": 184990,
+          "year": 2024,
+          "note": "Long Range הנעה אחורית 272 כ\"ס, 66 קוט\"ש; הנעה כפולה 428 כ\"ס 204,990",
+          "source": {
+            "title": "cartube — זיקר X החשמלי בישראל - מחיר החל מ-184,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/זיקר-x-החשמלי-בישראל-מחיר-184990-שקל"
+          }
+        }
+      }
+    },
+    "001": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי 100 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 272,
+            "cons": 18.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy consumption cheatsheet — Zeekr 001 Long Range RWD 186 Wh/km (hp per Israeli launch report)",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי 100 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 544,
+            "cons": 19.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Zeekr 001 Privilege AWD MY24 (real-world 196 Wh/km)",
+              "url": "https://ev-database.org/nl/auto/1935/Zeekr-001-Privilege-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://www.euroncap.com/en/results/zeekr/001/51446"
+        },
+        "launchPrice": {
+          "ils": 270000,
+          "year": 2024,
+          "note": "הנעה אחורית 272 כ\"ס, 100 קוט\"ש; Performance 295,000, Krypton 330,000",
+          "source": {
+            "title": "auto.co.il — זיקר 001 בישראל – מחיר החל מ-270,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136808/"
+          }
+        }
+      }
+    },
+    "7x": {
+      "CX1E": {
+        "engines": [
+          {
+            "name": "חשמלי 100 קוט\"ש, הנעה אחורית (Long Range)",
+            "pt": "ev",
+            "hp": 422,
+            "cons": 19.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database energy consumption cheatsheet — Zeekr 7X Long Range RWD 192 Wh/km (hp per Israeli launch report)",
+              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+            }
+          },
+          {
+            "name": "חשמלי 100 קוט\"ש, הנעה כפולה (Krypton)",
+            "pt": "ev",
+            "hp": 646,
+            "cons": 19.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Zeekr 7X Privilege AWD MY25 (real-world 198 Wh/km)",
+              "url": "https://ev-database.org/de/pkw/3083/Zeekr-7X-Privilege-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/zeekr-7x---euro-ncap-2025-results---5-stars/s/5c6e63f4-ac7b-4047-872c-3133d85aa168"
+        },
+        "launchPrice": {
+          "ils": 233990,
+          "year": 2025,
+          "note": "Essence הנעה אחורית, 75 קוט\"ש LFP, 422 כ\"ס; Long Range 262,990; Krypton 289,990",
+          "source": {
+            "title": "cartube — זיקר 7X נחת בישראל - מחיר 233,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/זיקר-7x-נחת-בישראל-מחיר-233990-שקל"
+          }
+        }
       }
     }
   },

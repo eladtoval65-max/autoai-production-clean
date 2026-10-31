@@ -183,6 +183,37 @@
             "url": "https://www.carzone.co.il/news/מיני-קופר-החשמלית-החדשה-2024-מחיר-החל-מ-239900-שח"
           }
         }
+      },
+      "F66 / F65": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (NHTSA 24V697): ריתוכים במנוע הסרוו של מודול הבלמים המשולב עלולים להישבר – אובדן סיוע בלימה ותפקוד ABS/DSC. בבדיקה: לוודא שמערכת הבלמים המשולבת הוחלפה במסגרת הקריאה.",
+            "scope": "מיני האצ'בק 3 דלתות קופר ו-קופר S שנתון 2025 (ארה\"ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — Mini Cooper 2025 recalls (NHTSA 24V697000)",
+              "url": "https://www.clearvin.com/en/car-recalls/mini/cooper/2025/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות: חגורות בטיחות שיוצרו באופן לקוי עלולות לרסן פחות בתאונה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "מיני קופר וקאנטרימן שיוצרו בין 18.6.2025 ל-25.8.2025 (EU Safety Gate 41/2025) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Car-Recalls.eu — Mini Cooper (2025) seat belts",
+              "url": "https://car-recalls.eu/recall/mini-cooper-2025-seat-belts/amp/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 205000,
+          "year": 2024,
+          "note": "קופר C בנזין 1.5 טורבו 156 כ\"ס, רמת גימור Classic",
+          "source": {
+            "title": "Carzone — מיני קופר החדשה 2024 מחיר החל מ-205,000 ש\"ח",
+            "url": "https://www.carzone.co.il/news/מיני-קופר-החדשה-2024-מחיר-החל-מ-205000-שח/"
+          }
+        }
       }
     },
     "countryman": {
@@ -383,7 +414,7 @@
           {
             "name": "חשמלי SE (סוללה 54.2 קוט\"ש)",
             "pt": "ev",
-            "cons": 17.0,
+            "cons": 17,
             "unit": "kWh",
             "source": {
               "title": "EV Database energy-consumption cheatsheet — Mini Aceman SE: 170 Wh/km",

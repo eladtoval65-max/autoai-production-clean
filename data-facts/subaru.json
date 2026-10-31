@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -579,6 +579,17 @@
             }
           }
         ]
+      },
+      "BU": {
+        "launchPrice": {
+          "ils": 279900,
+          "year": 2026,
+          "note": "דור שביעי, 2.5 בוקסר אטמוספרי 180 כ\"ס, CVT והנעה כפולה",
+          "source": {
+            "title": "auto.co.il — סובארו אאוטבק החדש נוחת בישראל: החל מ-279,900 שקלים (19.05.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/subaru-outback-2026/"
+          }
+        }
       }
     },
     "brz": {

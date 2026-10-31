@@ -1,6 +1,6 @@
 {
   "make": "cupra",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "models": {
     "formentor": {
       "KM7": {
@@ -240,6 +240,44 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/cupra-born---euro-ncap-2025-results---5-stars/s/e878d999-0c1c-49e7-8670-955a04b8b649"
+        }
+      }
+    },
+    "terramar": {
+      "KM": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות (69C8, KBA 17072R): עיגון תחתון לקוי של חגורות הבטיחות הקדמיות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "scope": "טרמאר וראוואל שיוצרו 07.06.2025–03.09.2026 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Autohaus.de — Falsch befestigte Sicherheitsgurte: Cupra ruft Terramar und Raval zurück",
+              "url": "https://www.autohaus.de/automarken/rueckrufe/falsch-befestigte-sicherheitsgurte-cupra-ruft-terramar-und-raval-zurueck-3914181"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "קריאת שירות (48T5): תקלת תוכנה עלולה לנטרל זמנית את ההגה החשמלי – ההגה נעשה כבד מאוד בפניות. בבדיקה: לוודא שעדכון התוכנה בוצע.",
+            "scope": "קופרה אטקה, לאון, פורמנטור וטרמאר 2024–2026 (אוסטרליה) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-006608 Cupra Ateca, Leon, Formentor and Terramar",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006608"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/cupra-terramar---euro-ncap-2025-results---5-stars/s/1606b13e-5000-4dd7-b2cb-9ef9d2f3b868"
+        },
+        "launchPrice": {
+          "ils": 225900,
+          "year": 2026,
+          "note": "1.5 eTSI היברידי מתון 150 כ\"ס",
+          "source": {
+            "title": "Carzone — 2026 קופרה טרמאר החדשה מחיר החל מ-225,900 ש\"ח",
+            "url": "https://www.carzone.co.il/news/2026-קופרה-טררמאר-החדשה-מחיר-החל-מ-225900-שח/"
+          }
         }
       }
     }

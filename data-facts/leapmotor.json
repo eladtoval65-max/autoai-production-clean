@@ -7,14 +7,27 @@
           {
             "name": "חשמלי, סוללה 37.3 קוט\"ש",
             "pt": "ev",
-            "cons": 16.0,
+            "cons": 16,
             "unit": "kWh",
             "source": {
               "title": "EV Database energy-consumption cheatsheet — Leapmotor T03: 160 Wh/km",
               "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "לא נבחן ב-Euro NCAP (נכון לאמצע 2025)"
+        },
+        "launchPrice": {
+          "ils": 100000,
+          "year": 2022,
+          "note": "רמת גימור אחת, יבואנית מטרו מוטור",
+          "source": {
+            "title": "וואלה! רכב — השקת ליפמוטור T03 בישראל (22.11.2022)",
+            "url": "https://cars.walla.co.il/item/3542037"
+          }
+        }
       }
     }
   },

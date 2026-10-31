@@ -434,7 +434,7 @@
           {
             "name": "חשמלי, סוללה 64 קוט\"ש",
             "pt": "ev",
-            "cons": 17.0,
+            "cons": 17,
             "unit": "kWh",
             "source": {
               "title": "EV Database energy-consumption cheatsheet — MG MGS5 EV 64 kWh: 170 Wh/km",
@@ -451,7 +451,32 @@
               "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
             }
           }
-        ]
+        ],
+        "issues": [
+          {
+            "level": "recall",
+            "he": "קריאת שירות: בטמפרטורות נמוכות מאוורר הרדיאטור עלול לקפוא ולהיתקע, והפעלת חימום התא עלולה לחמם יתר על המידה את נגד הבקרה של המאוורר ולגרום לסכנת שריפה. התיקון הוא עדכון תוכנה ל-IMCU. בבדיקה: לוודא שהקריאה (RE005) בוצעה.",
+            "scope": "רכבים שיוצרו בין 22.01.2025 ל-29.01.2026 (KBA 16617R) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — MG S5 EV: Frozen radiator fan may cause a fire (KBA, 07/2026)",
+              "url": "https://car-recalls.eu/mg-s5-ev-frozen-radiator-fan-fire-kba/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://cdn.euroncap.com/media/87623/euroncap-2025-mg-mgs5-ev-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 148888,
+          "year": 2025,
+          "note": "מחיר השקה, סוללה 62.5 קוט\"ש",
+          "source": {
+            "title": "auto.co.il — MG S5 בארץ – המחיר החל מ-148,888 שקלים (23.12.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/mg-s05/"
+          }
+        }
       }
     }
   }
