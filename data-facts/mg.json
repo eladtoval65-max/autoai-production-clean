@@ -525,6 +525,15 @@
           "url": "https://cdn.euroncap.com/media/91295/euroncap-2025-mg-mgs6-ev-datasheet.pdf"
         }
       }
+    },
+    "s9": {
+      "IS31": {
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://cdn.euroncap.com/en/press-media/press-releases/euro-ncap-announces-test-results-for-23-new-cars"
+        }
+      }
     }
   }
 }

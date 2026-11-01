@@ -457,7 +457,20 @@
             "title": "icar — מיצובישי לאנסר החדשה 2008",
             "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_לאנסר_החדשה_2008/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 117,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Lancer Sportback 1.6 ClearTec Edition (86 kW, ידני 5), מבחן 04/2011 — 6.2 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mitsubishi/lancer/8generation/227161"
+            }
+          }
+        ]
       }
     },
     "pajero-sport": {
@@ -527,6 +540,19 @@
             "source": {
               "title": "RAC — Mitsubishi Shogun Sport (2018 - 2021) used car review",
               "url": "https://www.rac.co.uk/drive/car-reviews/mitsubishi/shogun/shogun-sport-2018-2021/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.4 טורבו דיזל, אוטומטית 8",
+            "pt": "diesel",
+            "hp": 181,
+            "cons": 10.4,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide — Pajero Sport 2020 GLS 7-seat long-term review (2.4 diesel, 8AT): ממוצע חודשי במשאבה 10.4 ל׳/100 ק״מ",
+              "url": "https://carsguide.com.au/family/mitsubishi-pajero-sport-gls-7-seat-79334"
             }
           }
         ]

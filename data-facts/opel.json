@@ -691,7 +691,20 @@
           "stars": 5,
           "year": 2010,
           "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Opel Meriva 1.4 Turbo Innovation (103 kW, ידני 6), מבחן 06/2010 — 7.2 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/meriva/b/222632"
+            }
+          }
+        ]
       }
     },
     "insignia": {

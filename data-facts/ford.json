@@ -851,7 +851,20 @@
           "stars": 5,
           "year": 2014,
           "url": "https://media.ford.com/content/fordmedia/feu/en/news/2014/12/03/all-new-ford-mondeo-achieves-maximum-5-star-euro-ncap-safety-rat.html"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 EcoBoost טורבו בנזין",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Ford Mondeo Turnier 1.5 EcoBoost Titanium (118 kW, ידני 6), מבחן 12/2014 — 6.4 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/mondeo/v/242589"
+            }
+          }
+        ]
       }
     },
     "c-max": {
@@ -897,7 +910,20 @@
           "stars": 5,
           "year": 2010,
           "url": "https://www.autozine.nl/ford/grand-c-max/nieuws/5-sterren-voor-ford-c-max-bij-euroncap"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 EcoBoost טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Ford C-MAX 1.5 EcoBoost Start/Stopp Titanium (110 kW, ידני 6), מבחן 10/2015 — 6.4 ל׳/100 ק״מ",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/ford/c-max/ii-facelift/245509"
+            }
+          }
+        ]
       }
     }
   }

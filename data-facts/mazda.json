@@ -601,7 +601,7 @@
         "ncap": {
           "stars": 4,
           "year": 2015,
-          "url": "https://news.euroncap.com/safercars/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show/s/9f455009-a6c8-4090-9395-30cdb36d2658"
+          "url": "https://www.euroncap.com/en/results/mazda/cx-3/20856"
         },
         "issues": [
           {
@@ -908,7 +908,20 @@
             "title": "auto.co.il — מאזדה 5 דור שני נחת בישראל (02.11.2010)",
             "url": "https://www.auto.co.il/articles/car-news/117821/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "2.0 בנזין (נתון מגרסת DISI 150 כ״ס ידנית; בישראל נמכרה 2.0 אוטומטית 144 כ״ס)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Mazda 5 2.0 DISI i-stop Sports-Line (110 kW, ידני 6), מבחן 11/2010 — 7.4 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mazda/5/cw-facelift/225597"
+            }
+          }
+        ]
       }
     }
   }

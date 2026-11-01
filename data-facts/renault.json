@@ -654,7 +654,20 @@
             "title": "auto.co.il — רנו פלואנס ומגאן בארץ (27.12.2009)",
             "url": "https://www.auto.co.il/articles/car-news/119062/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.6 בנזין",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Renault Fluence 1.6 16V 110 Dynamique (81 kW, ידני 5), מבחן 12/2010 — 6.9 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/fluence/1generation/224355/"
+            }
+          }
+        ]
       }
     },
     "kadjar": {
@@ -718,7 +731,20 @@
             "title": "auto.co.il — רנו קדג'אר בישראל - מ-140,000 שקל (9.5.2016)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/110487/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 TCe טורבו בנזין",
+            "pt": "petrol",
+            "hp": 130,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Renault Kadjar ENERGY TCe 130 Bose Edition (96 kW, ידני 6), מבחן 04/2016 — 6.8 ל׳/100 ק״מ",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/kadjar/1generation/248005"
+            }
+          }
+        ]
       }
     }
   }

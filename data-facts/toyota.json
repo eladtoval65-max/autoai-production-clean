@@ -1624,7 +1624,20 @@
             "title": "icar — טויוטה ורסו החדשה בישראל (15.07.2009)",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94_%D7%95%D7%A8%D7%A1%D7%95_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.8 בנזין (Valvematic)",
+            "pt": "petrol",
+            "hp": 147,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Toyota Verso 1.8 Executive (108 kW, ידני 6), מבחן 06/2009 — 7.1 ל׳/100 ק״מ ב-Ecotest (מדידת ADAC, לא ממוצע בעלים)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/toyota/verso/ar2/218053/"
+            }
+          }
+        ]
       }
     }
   }

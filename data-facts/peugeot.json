@@ -486,7 +486,20 @@
             "title": "auto.co.il — פיג'ו 508 יוצאת לדרך בישראל (21.03.2011)",
             "url": "https://www.auto.co.il/articles/car-news/117216/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.6 THP טורבו בנזין",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Peugeot 508 155 THP Allure (115 kW, ידני 6), מבחן 05/2011 — 6.9 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/508/1generation/225503/"
+            }
+          }
+        ]
       },
       "דור 2": {
         "issues": [
@@ -530,7 +543,20 @@
             "title": "icar.co.il — פיג'ו 508 החדשה בישראל: מ-200,000 שקלים (05.05.2019)",
             "url": "https://www.icar.co.il/חדשות_רכב/פיג%27ו_508_החדשה_בישראל:_מ-200,000_שקלים/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.6 PureTech טורבו בנזין, אוטומטית 8",
+            "pt": "petrol",
+            "hp": 180,
+            "cons": 7,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest/Ecotest — Peugeot 508 1.6 PureTech 180 Allure EAT8 (133 kW), מבחן 08/2018 — 7.0 ל׳/100 ק״מ ב-Ecotest",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/508/2generation/292227/"
+            }
+          }
+        ]
       }
     },
     "2008": {

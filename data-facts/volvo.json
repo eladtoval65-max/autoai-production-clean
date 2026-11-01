@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "xc60": {
       "Gen1": {
@@ -767,6 +767,32 @@
             }
           }
         ]
+      }
+    },
+    "es90": {
+      "V551": {
+        "engines": [
+          {
+            "name": "חשמלי, מנוע יחיד, הנעה אחורית (סוללה 88 קוט״ש נטו)",
+            "pt": "ev",
+            "hp": 333,
+            "cons": 18.1,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Volvo ES90 Single Motor (MY26), EVDB Real Range consumption 181 Wh/km (הערכה)",
+              "url": "https://ev-database.org/car/3128/Volvo-ES90-Single-Motor"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 420000,
+          "year": 2026,
+          "note": "רמת גימור Core, מנוע יחיד 333 כ״ס, סוללה 92 קוט״ש",
+          "source": {
+            "title": "auto.co.il — וולוו ES90 החדשה בארץ – המחיר החל מ-420,000 שקלים (16.02.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/volvo-es90-in-israel/"
+          }
+        }
       }
     }
   }
