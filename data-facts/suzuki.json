@@ -128,7 +128,12 @@
               "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/430-Swift.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://www.euroncap.com/en/results/suzuki/swift/11026"
+        }
       },
       "AZH": {
         "engines": [

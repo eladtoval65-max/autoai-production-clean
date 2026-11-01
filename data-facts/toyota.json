@@ -720,6 +720,11 @@
             "title": "Cartube — טויוטה קורולה קרוס בישראל: מחיר 168,900 שקל (29.9.2022)",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קורולה-קרוס-בישראל-מחיר-168900-שקל"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/images-and-videos/all/toyota-corolla-cross---euro-ncap-2022-results---5-stars/s/277ba94c-151d-47a7-8070-0300f9aa5ff2"
         }
       }
     },
@@ -1062,7 +1067,12 @@
               "url": "https://www.autobild.de/artikel/toyota-prius-iii-life-dauertest-3567712.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.euroncap.com/en/results/toyota/prius/11067"
+        }
       },
       "XW60": {
         "issues": [

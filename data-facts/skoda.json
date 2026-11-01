@@ -791,7 +791,12 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/45-Skoda/400-Superb.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=113&power_e=123&gearing=4"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7560/euroncap_skoda_superb_2009_5stars.pdf"
+        }
       },
       "B9": {
         "issues": [

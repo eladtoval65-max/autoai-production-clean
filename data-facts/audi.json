@@ -524,7 +524,20 @@
             "title": "Cartube — אודי Q5 החדש 2025 נחת בישראל, מחיר 404,900 שקל (7.7.2025)",
             "url": "https://www.cartube.co.il/חדשות-רכב/אודי-q5-החדש-2025-נחת-בישראל-מחיר-404900-שקל"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "2.0 TFSI מיילד-היברידי 204 כ״ס, quattro",
+            "pt": "hybrid",
+            "hp": 204,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Audi Q5 2.0 TFSI 150 kW quattro (FY, 2024–): ממוצע שדווח ע״י נהגים 8.5 ל׳/100 ק״מ (6 דיווחים בלבד — מדגם קטן)",
+              "url": "https://www.autokostencheck.de/Audi/Audi-Q5/Q5/q5-2-0-tfsi-150-kw-quattro-fy_51171/verbrauch/"
+            }
+          }
+        ]
       }
     },
     "q2": {

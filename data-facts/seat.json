@@ -235,7 +235,12 @@
               "url": "https://www.spritmonitor.de/en/overview/44-Seat/392-Leon.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=98&power_e=108&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6359/euroncap_seat_leon_2012_5stars.pdf"
+        }
       },
       "KL": {
         "issues": [

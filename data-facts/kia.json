@@ -183,7 +183,13 @@
               "url": "https://www.spritmonitor.de/es/vista_previa/23-Kia/220-Sportage.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=115&power_e=125&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://cdn.euroncap.com/media/7105/euroncap_kia_sportage_2009_5stars.pdf",
+          "note": "דף הנתונים של Euro NCAP (שנת פרסום 2010, דגם נבחן 2.0 דיזל)"
+        }
       }
     },
     "picanto": {
@@ -277,6 +283,11 @@
             "title": "Cartube — קיה פיקנטו החדשה בישראל החל מ-61,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/קיה-פיקנטו-החדשה-בישראל-החל-מ-61,900-שקל"
           }
+        },
+        "ncap": {
+          "stars": 4,
+          "year": 2011,
+          "url": "https://www.euroncap.com/en/results/kia/picanto/10977"
         }
       }
     },
@@ -673,7 +684,12 @@
               "url": "https://www.spritmonitor.de/en/overview/23-Kia/945-ceed.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=94&power_e=104&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6266/euroncap_kia_ceed_2012_5stars.pdf"
+        }
       }
     },
     "stonic": {
@@ -923,7 +939,12 @@
               "url": "https://www.autokostencheck.de/Kia/Kia-Sorento/Sorento/sorento-2-2-crdi-allrad-xm_34623/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.euroncap.com/en/results/kia/sorento/11046"
+        }
       }
     },
     "ev6": {
@@ -1156,10 +1177,10 @@
             "name": "חשמלי 76.1 קוט״ש הנעה אחורית",
             "pt": "ev",
             "hp": 215,
-            "cons": 20.9,
+            "cons": 20.6,
             "unit": "kWh",
             "source": {
-              "title": "ev-database.org — Kia EV9 76.1 kWh RWD, real consumption 209 Wh/km",
+              "title": "ev-database.org — Kia EV9 76.1 kWh RWD, EVDB Real Range vehicle consumption 206 Wh/km",
               "url": "https://ev-database.org/car/1833/Kia-EV9-761-kWh-RWD"
             }
           },

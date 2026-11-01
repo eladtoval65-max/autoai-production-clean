@@ -337,7 +337,12 @@
               "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1128-i20.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7455/euroncap_hyundai_i20_2009_5stars.pdf"
+        }
       }
     },
     "ioniq-6": {
@@ -1076,7 +1081,12 @@
               "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1046-i30.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=94&power_e=104&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6231/euroncap_hyundai_i30_2012_5stars.pdf"
+        }
       }
     },
     "venue": {

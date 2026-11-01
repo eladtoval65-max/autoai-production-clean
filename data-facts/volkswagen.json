@@ -456,6 +456,30 @@
               "url": "https://www.autohaus.de/automarken/rueckrufe/lenkung-kann-ausfallen-vw-muss-den-neuen-t-roc-zurueckrufen-3778046"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.5 eTSI מיילד-היברידי 150 כ״ס",
+            "pt": "hybrid",
+            "hp": 150,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "ADAC — VW T-Roc 1.5 eTSI im Test (07/2026): צריכה שנמדדה במבחן ADAC 6.0 ל׳/100 ק״מ (150 כ״ס); 5.9 לגרסת 116 כ״ס",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-t-roc-test/"
+            }
+          },
+          {
+            "name": "1.5 eTSI מיילד-היברידי 116 כ״ס",
+            "pt": "hybrid",
+            "hp": 116,
+            "cons": 5.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC — VW T-Roc 1.5 eTSI im Test (07/2026): צריכה שנמדדה במבחן ADAC 5.9 ל׳/100 ק״מ (116 כ״ס)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/vw-t-roc-test/"
+            }
+          }
         ]
       }
     },

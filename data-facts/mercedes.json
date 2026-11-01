@@ -937,6 +937,26 @@
               "url": "https://ev-database.org/car/3406/Mercedes-Benz-GLB-250plus"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "ריקול: גרסת התוכנה של מודול התקשורת עלולה להיות לא מעודכנת, ואז שיחת החירום האוטומטית/הידנית (eCall) לא פועלת. עדכון תוכנה במוסך (עד חצי שעה) — לוודא שבוצע",
+            "level": "recall",
+            "scope": "GLB (BR 244) ו-CLA (BR 174) שיוצרו 10.2024–3.2026",
+            "source": {
+              "title": "ÖAMTC Rückrufaktionen — Mercedes-Benz CLA, GLB: Probleme mit dem Kommunikationsmodul (09/2026)",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/mercedes-benz-cla-glb-probleme-mit-dem-kommunikationsmodul-89583786"
+            }
+          },
+          {
+            "he": "ריקול: אלקטרוניקת ההספק של יחידת ההנעה אינה עומדת בדרישות ועלולה לגרום לאובדן הנעה. סדרה קטנה — לבדוק מול היבואן לפי מספר שלדה",
+            "level": "recall",
+            "scope": "GLB ו-CLA שיוצרו 29.10.2025–8.5.2026 (KBA 16885R, 32 רכבים בעולם)",
+            "source": {
+              "title": "gebrauchtwagenberater.de — Mercedes ruft GLB und CLA zurück (KBA 16885R, 08/2026)",
+              "url": "https://gebrauchtwagenberater.de/mercedes-ruft-glb-und-cla-zurueck/"
+            }
+          }
         ]
       }
     },
