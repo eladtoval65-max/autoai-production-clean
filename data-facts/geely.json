@@ -153,7 +153,33 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/geely-starray-em-i---euro-ncap-2025-results---5-stars/s/761c3707-8752-4b7f-9f1e-dae845fba8fe"
+        },
+        "launchPrice": {
+          "ils": 170000,
+          "year": 2025,
+          "note": "Pro (Tech 176,000 ₪); מחירון 169,990 ₪",
+          "source": {
+            "title": "וואלה רכב — ג'ילי סטאריי פלאג-אין בישראל (12.12.2025): Pro החל מ-170 אלף ש\"ח, Tech מ-176 אלף",
+            "url": "https://cars.walla.co.il/item/3800971"
+          }
         }
+      }
+    },
+    "preface": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "2.0 טורבו",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "Mobile-Review — Тест Geely Preface (24.06.2025): about 8.5 L/100km mixed on test (≈6.8 highway, ≈10 city); 2.0T 200 hp, 7-speed DCT (Russian-market car)",
+              "url": "https://mobile-review.com/all/?p=188454"
+            }
+          }
+        ]
       }
     }
   }

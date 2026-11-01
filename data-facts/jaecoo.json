@@ -1,6 +1,6 @@
 {
   "make": "jaecoo",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "jaecoo-7": {
       "J7": {
@@ -150,7 +150,90 @@
               "url": "https://fleetworld.co.uk/sutties-seven-days-with-an-omoda-7-shs-p-plug-in-hybrid-suv/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 184900,
+          "year": 2025,
+          "note": "פלאג-אין SHS, 204 כ\"ס; Elevate ‏184,900, Harmony ‏194,900, Vision ‏204,900; כלמוביל",
+          "source": {
+            "title": "cartube — אומודה 7 פלאג-אין נחת בישראל - מחיר 184,900 שקל (10.12.2025)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/אומודה-7-פלאג-אין-נחת-בישראל-מחיר-184900-שקל"
+          }
+        }
+      }
+    },
+    "jaecoo-8": {
+      "J8": {
+        "launchPrice": {
+          "ils": 230000,
+          "year": 2025,
+          "note": "פלאג-אין 4x4, 7 מקומות; גרסת בסיס מ-230,000, Limited ‏255,000; כלמוביל",
+          "source": {
+            "title": "וואלה רכב — השקת ג'אקו 8 פלאג-אין בישראל (3.11.2025)",
+            "url": "https://cars.walla.co.il/item/3791664"
+          }
+        }
+      }
+    },
+    "jaecoo-5": {
+      "J5": {
+        "issues": [
+          {
+            "he": "קריאת בטיחות בצ'ילה: איטום הגג הפנורמי עלול להיות לא תקין — חדירת מים, ובמקרים קיצוניים זכוכית הגג עלולה להשתחרר. לבדוק חדירת מים/תזוזת זכוכית הגג ולוודא מול היבואן אם הקריאה חלה על הרכב",
+            "level": "recall",
+            "scope": "2025–2026, קריאה בצ'ילה (SERNAC, 24 יח') — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Diario Estrategia — Alerta de Seguridad: Vehículos Omoda Jaecoo 5, años 2025-2026",
+              "url": "https://www.diarioestrategia.cl/texto-diario/mostrar/5971213/alerta-seguridad-vehiculos-omoda-jaecoo-5-anos-2025-2026"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 59 קוט\"ש (58.9 נטו)",
+            "pt": "ev",
+            "hp": 211,
+            "cons": 18.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Jaecoo 5 EV: Vehicle Consumption 181 Wh/km (EVDB estimate, marked *); 211 PS",
+              "url": "https://ev-database.org/car/3336/Jaecoo-5-EV"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 147900,
+          "year": 2025,
+          "note": "השקה ביולי 2025: בנזין 1.6 טורבו 147 כ\"ס Premium ‏147,900 / Luxury ‏156,900; חשמלי 59 קוט\"ש 211 כ\"ס Premium ‏150,900 / Luxury ‏159,900. ההיברידי הושק בנובמבר 2025 מ-155,000",
+          "source": {
+            "title": "auto.co.il — ג'אקו 5 החדש בארץ – המחיר החל מ-147,900 שקלים (20.07.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/139347/"
+          }
+        }
+      }
+    },
+    "omoda-9": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות באירופה (פולין): עדכון תוכנה לניהול האנרגיה — פונקציית 'שמירת סוללה כפויה' שאינה מאושרת בתקינה האירופית גרמה למנוע להתניע לטעינת הסוללה ולקצר את הטווח החשמלי. לוודא שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "2025–2026, קמפיין BA_T_OJ_2026_003 בפולין — לבדוק תחולה לפי VIN ברכב הישראלי",
+            "source": {
+              "title": "eauto.org.ua — TDT 338 Omoda 9 (T22) recall BA_T_OJ_2026_003",
+              "url": "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/tdt-338-omoda-omoda-9-t22-ba-t-oj-2026-003"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 230000,
+          "year": 2025,
+          "note": "פלאג-אין SHS הנעה כפולה, סוללה 34.5 קוט\"ש; Harmony ‏230,000, Vision ‏245,000; כלמוביל",
+          "source": {
+            "title": "auto.co.il — אומודה 9 בארץ – המחיר החל מ-230,000 שקלים (10.12.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/omoda-9/"
+          }
+        }
       }
     }
   }

@@ -445,7 +445,18 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/vw-t-roc---euro-ncap-2025-results---5-stars/s/35735d6c-db44-4397-8912-b5eaae4f3ead"
-        }
+        },
+        "issues": [
+          {
+            "he": "ריקול: החיבור המוברג בין מוט ההיגוי לבית מיסב הגלגל עלול להשתחרר, ובמקרה הגרוע לגרום לאובדן חלקי או מלא של ההיגוי (התיקון: החלפת החיבור, כחצי שעה במוסך). לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "רכבים שיוצרו 6.9.2025–5.2.2026 (4,025 בעולם), קריאה של KBA גרמניה 16132R / קוד VW 48AX. לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "autohaus.de — Lenkung kann ausfallen: VW muss den neuen T-Roc zurückrufen (11.03.2026)",
+              "url": "https://www.autohaus.de/automarken/rueckrufe/lenkung-kann-ausfallen-vw-muss-den-neuen-t-roc-zurueckrufen-3778046"
+            }
+          }
+        ]
       }
     },
     "tiguan": {

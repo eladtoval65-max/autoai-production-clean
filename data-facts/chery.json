@@ -1,6 +1,6 @@
 {
   "make": "chery",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "tiggo-7": {
       "T1E": {
@@ -148,7 +148,29 @@
               "url": "https://www.citizen.co.za/motoring/chery-tiggo-9-road-test-results-review"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 245000,
+          "year": 2025,
+          "note": "פלאג-אין, רמת גימור יחידה Noble; פריסבי (מאוחר יותר נוספה גרסה מוזלת מ-217,990)",
+          "source": {
+            "title": "ביזפורטל — השקת צ'רי טיגו 9 פלאג-אין (7.10.2025)",
+            "url": "https://www.bizportal.co.il/car/news/article/20022279"
+          }
+        }
+      }
+    },
+    "arrizo-8": {
+      "Gen1": {
+        "launchPrice": {
+          "ils": 174000,
+          "year": 2024,
+          "note": "פלאג-אין 1.5 טורבו + חשמלי, 347 כ\"ס משולב, סוללה 18.3 קוט\"ש; Comfort ‏174,000, Noble ‏180,000 (מחירי 2024); פריסבי",
+          "source": {
+            "title": "ביזפורטל — השקת צ'רי אריזו 8 פלאג-אין (17.12.2024)",
+            "url": "https://www.bizportal.co.il/car/news/article/838276"
+          }
+        }
       }
     }
   }

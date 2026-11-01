@@ -1,6 +1,6 @@
 {
   "make": "ora",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "03": {
       "ES11": {
@@ -66,6 +66,19 @@
           "source": {
             "title": "cartube — ORA 07 החשמלית בישראל - מחיר 194,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/ora-07-החשמלית-בישראל-מחיר-194900-שקל"
+          }
+        }
+      }
+    },
+    "05": {
+      "Gen1": {
+        "launchPrice": {
+          "ils": 139900,
+          "year": 2026,
+          "note": "היברידי 1.5 טורבו 150 כ\"ס + חשמלי 190 כ\"ס (223 כ\"ס משולב); בסיס 139,900, SIGNATURE ‏149,000; כלמוביל",
+          "source": {
+            "title": "auto.co.il — ORA 5 ההיברידי בישראל: החל מ-140,000 שקל (22.06.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/ora-5-israel/"
           }
         }
       }

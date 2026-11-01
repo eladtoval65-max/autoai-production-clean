@@ -792,7 +792,18 @@
             "title": "auto.co.il — וולוו ES90 החדשה בארץ – המחיר החל מ-420,000 שקלים (16.02.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/volvo-es90-in-israel/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "תקלות תוכנה/אלקטרוניקה שדווחו במבחן ארוך-טווח: כניסה ללא מפתח שלא פותחת את הדלתות, גג הזכוכית המתכהה מהבהב בעצירה, ואור גבוה אוטומטי/פנסי פיקסל שלא פועלים כראוי. בבדיקה: לבדוק פתיחה ללא מפתח, הכהיית הגג ותפקוד האורות, ולוודא שגרסת התוכנה מעודכנת.",
+            "level": "widely_reported",
+            "scope": "מבחן ארוך-טווח של Carwow בבריטניה (יולי 2026)",
+            "source": {
+              "title": "Carwow — Living with a Volvo ES90: long-term review, first impressions (Darren Cassey, 12.7.2026)",
+              "url": "https://www.carwow.co.uk/volvo/es90/news/10992/volvo-es90-long-term-review-darren-cassey-first-impressions"
+            }
+          }
+        ]
       }
     }
   }

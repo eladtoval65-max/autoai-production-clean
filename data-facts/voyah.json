@@ -1,0 +1,32 @@
+{
+  "make": "voyah",
+  "models": {
+    "courage": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי 77.3 קוט\"ש נטו, הנעה אחורית",
+            "pt": "ev",
+            "hp": 288,
+            "cons": 20.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EVUpdate.nl — review Voyah Courage 80 kWh RWD: measured 17.2 kWh/100km summer, 23.1 winter (value = average of the two; hp per Israeli launch report)",
+              "url": "https://www.evupdate.nl/rijtesten/artikel/review-voyah-courage-chinese-premium-suv-met-lef-luxe-en-een-paar-eigenaardigheden"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 194900,
+          "year": 2025,
+          "note": "RWD Elegant ‏194,900, AWD Ultimate ‏209,900; סוללת LFP ‏77.3 קוט\"ש; דלק מוטורס. בהמשך המחיר הופחת",
+          "source": {
+            "title": "cartube — וויה קוראג' החשמלי נחת בישראל - מחיר 194,900 שקל (21.07.2025)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/וויה-קוראג-החשמלי-נחת-בישראל-מחיר-194900-שקל"
+          }
+        }
+      }
+    }
+  },
+  "updated": "2026-11-01"
+}

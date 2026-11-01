@@ -1,6 +1,6 @@
 {
   "make": "porsche",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "911": {
       "991": {
@@ -517,6 +517,19 @@
             "source": {
               "title": "Cars.com — 2024 Porsche Panamera recalls (NHTSA 25V896000)",
               "url": "https://www.cars.com/research/porsche-panamera-2024/recalls/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.9 V6 טורבו כפול (Panamera בסיס)",
+            "pt": "petrol",
+            "hp": 353,
+            "cons": 10.5,
+            "unit": "L",
+            "source": {
+              "title": "carsales — Porsche Panamera 2024 review (29.7.2024): 10.5 ל'/100 ק\"מ ממוצע במבחן (400 ק\"מ מעורב)",
+              "url": "https://www.carsales.com.au/editorial/details/porsche-panamera-2024-review-146977"
             }
           }
         ]

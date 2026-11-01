@@ -183,7 +183,21 @@
               "url": "https://ev-database.org/car/3430/Zeekr-7GT-Privilege-AWD"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2026,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/zeekr-7gt---euro-ncap-2026-results---5-stars/s/8c190c42-96f7-4ed4-8956-2f62a2b75fa9"
+        },
+        "launchPrice": {
+          "ils": 191990,
+          "year": 2026,
+          "note": "Essence הנעה אחורית 75 קוט\"ש LFP; Long Range 225,990; Krypton 269,990",
+          "source": {
+            "title": "CarTube — זיקר 7GT החשמלית נחתה בישראל, מחיר 191,990 שקל (6.9.2026)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/זיקר-7gt-החשמלית-נחתה-בישראל-מחיר-191990-שקל"
+          }
+        }
       }
     }
   },

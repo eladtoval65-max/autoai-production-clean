@@ -1,6 +1,6 @@
 {
   "make": "kgm",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "tivoli": {
       "X100": {
@@ -177,6 +177,17 @@
           "source": {
             "title": "4X4 אתר השטח הישראלי — סאנגיונג מוסו: טנדר 4X4 חוזר לישראל בגרסה חדשה (22.3.2023)",
             "url": "https://www.4x4.co.il/article/16036"
+          }
+        }
+      },
+      "Q300": {
+        "launchPrice": {
+          "ils": 274900,
+          "year": 2026,
+          "note": "הדור השני, 2.2 טורבו דיזל 202 כ\"ס, 4WD, רמת גימור Premium; טלקאר",
+          "source": {
+            "title": "carzone — KGM Musso החדשה 2026 מחיר החל מ-274,900 ₪ (27.07.2026)",
+            "url": "https://www.carzone.co.il/news/KGM-Musso-החדשה-2026-מחיר-החל-מ-274900-₪/"
           }
         }
       }

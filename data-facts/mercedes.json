@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "c-class": {
       "W204": {
@@ -923,6 +923,21 @@
             "url": "https://www.icar.co.il/חדשות_רכב/מרצדס_משיקה_בישראל_GLA_ו-GLB/"
           }
         }
+      },
+      "Gen2": {
+        "engines": [
+          {
+            "name": "חשמלי 85 קוט\"ש, הנעה אחורית (GLB 250+)",
+            "pt": "ev",
+            "hp": 268,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mercedes-Benz GLB 250+ (2025-2026): צריכה ריאלית משוקללת (EVDB Real Range) 183 Wh/km (הערכה)",
+              "url": "https://ev-database.org/car/3406/Mercedes-Benz-GLB-250plus"
+            }
+          }
+        ]
       }
     },
     "eqa": {

@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -589,7 +589,18 @@
             "title": "auto.co.il — סובארו אאוטבק החדש נוחת בישראל: החל מ-279,900 שקלים (19.05.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/subaru-outback-2026/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "קריאת שירות: תושבת חגורת הבטיחות האמצעית האחורית במחיצת תא המטען (cargo barrier) עלולה להיות מותקנת בכיוון הפוך, והחגורה עלולה שלא לתפקד כנדרש בתאונה. בבדיקה: אם מותקנת מחיצת מטען — לוודא שהקריאה בוצעה ושהחגורה האמצעית נמתחת וננעלת כראוי.",
+            "level": "recall",
+            "scope": "27 רכבים מייצור 2025, קריאה באוסטרליה (ספטמבר 2026) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarExpert — Subaru Outback recalled (3.9.2026): seventh-generation Outback, rear centre seatbelt bracket on cargo barrier",
+              "url": "https://www.carexpert.com.au/car-news/subaru-outback-recalled-1"
+            }
+          }
+        ]
       }
     },
     "brz": {
