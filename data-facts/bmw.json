@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "3-series": {
       "E90": {
@@ -1267,7 +1267,12 @@
               "url": "https://www.cars.com/research/bmw-228_gran_coupe-2026/recalls/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/bmw-2-series-gran-coup----euro-ncap-2025-results---4-stars/s/b29b5a77-7d38-4eae-9035-f2554ab59ada"
+        }
       }
     },
     "4-series": {

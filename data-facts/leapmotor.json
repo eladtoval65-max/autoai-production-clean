@@ -49,7 +49,62 @@
           }
         ]
       }
+    },
+    "c10": {
+      "Gen1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/find-a-car/leapmotor-c10---euro-ncap-2024-results---5-stars/s/74511959-7647-4455-a79e-aaeae4765ae2"
+        },
+        "engines": [
+          {
+            "name": "חשמלי 69.9 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 19.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Leapmotor C10 RWD 69.9 kWh (2024-2026): vehicle consumption 197 Wh/km (real-world estimate); 218 PS",
+              "url": "https://ev-database.org/car/3040/Leapmotor-C10-RWD-699-kWh"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "מערכות העזר לנהג (התראות וצפצופים) נמצאו רגישות ופולשניות מדי — היבואן באוסטרליה הודה ושחרר עדכוני תוכנה OTA ותפריט כיבוי מהיר. בבדיקה: לוודא שגרסת התוכנה עדכנית ולנסות את המערכות בנסיעת מבחן.",
+            "level": "manufacturer",
+            "scope": "דגמים 2024–2025 (אוסטרליה)",
+            "source": {
+              "title": "CarExpert (via Goulburn Post) — Leapmotor tweaks driver assist systems for Australian models after customer feedback (3.6.2025)",
+              "url": "https://www.goulburnpost.com.au/story/8982881/leapmotor-tweaks-driver-assist-systems-for-australian-models-after-customer-feedback"
+            }
+          }
+        ]
+      }
+    },
+    "b10": {
+      "Gen1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://cdn.euroncap.com/media/92973/euroncap-2025-leapmotor-b10-datasheet.pdf"
+        },
+        "engines": [
+          {
+            "name": "חשמלי 67.1 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 18.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Leapmotor B10 67.1 kWh (2025-2026): vehicle consumption 181 Wh/km (real-world estimate); 218 PS",
+              "url": "https://ev-database.org/car/3233/Leapmotor-B10-671-kWh"
+            }
+          }
+        ]
+      }
     }
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }

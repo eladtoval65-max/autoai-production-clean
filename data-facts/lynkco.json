@@ -1,6 +1,6 @@
 {
   "make": "lynkco",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "01": {
       "CX11": {
@@ -86,6 +86,15 @@
             }
           }
         ]
+      }
+    },
+    "02": {
+      "Gen2 (EV)": {
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://www.euroncap.com/en/results/lynk+&+co/02/55585"
+        }
       }
     }
   }

@@ -27,7 +27,16 @@
           }
         ]
       }
+    },
+    "s05": {
+      "C857": {
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://www.euroncap.com/en/results/deepal/s05/57959"
+        }
+      }
     }
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }

@@ -157,7 +157,35 @@
           }
         }
       }
+    },
+    "7gt": {
+      "CC1E": {
+        "engines": [
+          {
+            "name": "חשמלי 100 קוט\"ש, הנעה אחורית (Long Range)",
+            "pt": "ev",
+            "hp": 421,
+            "cons": 17.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Zeekr 7GT Long Range RWD (MY26): vehicle consumption 175 Wh/km (real-world estimate); 421 PS",
+              "url": "https://ev-database.org/car/3429/Zeekr-7GT-Long-Range-RWD"
+            }
+          },
+          {
+            "name": "חשמלי 100 קוט\"ש, הנעה כפולה (Privilege)",
+            "pt": "ev",
+            "hp": 646,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Zeekr 7GT Privilege AWD (MY26): vehicle consumption 183 Wh/km (real-world estimate); 646 PS",
+              "url": "https://ev-database.org/car/3430/Zeekr-7GT-Privilege-AWD"
+            }
+          }
+        ]
+      }
     }
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }

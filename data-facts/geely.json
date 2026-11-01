@@ -1,6 +1,6 @@
 {
   "make": "geely",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "coolray": {
       "Gen1": {
@@ -99,6 +99,56 @@
             "url": "https://www.queenoftheroad.co.il/geely-%d7%92%d7%90%d7%95%d7%9e%d7%98%d7%a8%d7%99-c-%d7%a7%d7%a8%d7%95%d7%a1%d7%90%d7%95%d7%91%d7%a8-%d7%97%d7%a9%d7%9e%d7%9c%d7%99-%d7%97%d7%93%d7%a9-450-%d7%a7%d7%9e-%d7%9e-133900-%d7%a9%d7%a7/"
           }
         }
+      }
+    },
+    "ex5": {
+      "Gen1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://cdn.euroncap.com/media/86298/euroncap-2025-geely-ex5-datasheet.pdf"
+        },
+        "engines": [
+          {
+            "name": "חשמלי 60 קוט\"ש LFP, הנעה קדמית",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database UK — Geely EX5: vehicle consumption 294 Wh/mi (≈183 Wh/km, real-world estimate); 160 kW",
+              "url": "https://ev-database.org/uk/car/3308/Geely-EX5"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "באגים בתוכנה בשנה הראשונה (חישוב טווח בתכנון מסלול בניווט, ביצועי שיקוף טלפון, צליל התראה להולכי רגל) — ג׳ילי שחררה עדכון OTA בעקבות משוב לקוחות. בבדיקה: לוודא שהרכב קיבל את עדכוני התוכנה האחרונים.",
+            "level": "manufacturer",
+            "scope": "דגמי 2025 (אוסטרליה)",
+            "source": {
+              "title": "CarExpert (via Illawarra Mercury) — Geely's first model in Australia gets its first running updates over the air (12.6.2025)",
+              "url": "https://www.illawarramercury.com.au/story/8990230/geelys-first-model-in-australia-gets-its-first-running-updates-over-the-air/"
+            }
+          }
+        ]
+      }
+    },
+    "starray": {
+      "P145": {
+        "engines": [
+          {
+            "name": "1.5 פלאג-אין EM-i, סוללה 18.4 קוט\"ש",
+            "pt": "phev",
+            "hp": 262,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2026 Geely Starray EM-i review: 'mid- to high-5.0L/100km' on test with the battery depleted (EV mode 18.6 kWh/100km); 193 kW system",
+              "url": "https://www.carexpert.com.au/car-reviews/2026-geely-starray-em-i-review"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "mazda3": {
       "BL": {
@@ -601,7 +601,7 @@
         "ncap": {
           "stars": 4,
           "year": 2015,
-          "url": "https://news.euroncap.com/safercars/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show/s/9f455009-a6c8-4090-9395-30cdb36d2658"
+          "url": "https://www.euroncap.com/en/results/mazda/cx-3/20856"
         },
         "issues": [
           {
