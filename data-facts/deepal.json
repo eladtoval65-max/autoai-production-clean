@@ -43,7 +43,38 @@
             "title": "ביזפורטל — מכשירי תנועה השיקה את דיפאל S05 (20.10.2025)",
             "url": "https://www.bizportal.co.il/car/news/article/20022668"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "בקרת השיוט האדפטיבית מאטה בעיקולים בכביש מהיר בלי סיבה (\"צריכה כיול מחדש\"), והתרעת המסך על ניתוק שמירת הנתיב בכל איתות לא ניתנת לביטול — לבדוק בנסיעת מבחן ולוודא עדכוני תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "km77 — Changan Deepal S05 (2024) impresiones de conducción (6/2026, 4WD 435 כ\"ס)",
+              "url": "https://www.km77.com/coches/changan/deepal-s05/informacion/changan-deepal-s05-2024-impresiones-de-conduccion?amp=1"
+            }
+          },
+          {
+            "he": "טעינה: שיא שנמדד כ-170 קו\"ט (מוצהר 200), אין אפשרות להגביל טעינה מתחת ל-100% ואין כפתור לשחרור הכבל — השחרור רק דרך לשונית חירום מאחורי ריפוד תא המטען; לבדוק שחרור כבל בעמדה ציבורית",
+            "level": "widely_reported",
+            "source": {
+              "title": "km77 — Changan Deepal S05 (2024) impresiones de conducción (6/2026, 4WD 435 כ\"ס)",
+              "url": "https://www.km77.com/coches/changan/deepal-s05/informacion/changan-deepal-s05-2024-impresiones-de-conduccion?amp=1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 68.8 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 435,
+            "cons": 18.1,
+            "unit": "kWh",
+            "source": {
+              "title": "km77 — Deepal S05 4WD: נמדד 13.3 קוט\"ש/100 ק\"מ בעיר ו-22.8 בכביש מהיר (ממוצע 18.1)",
+              "url": "https://www.km77.com/coches/changan/deepal-s05/informacion/changan-deepal-s05-2024-impresiones-de-conduccion?amp=1"
+            }
+          }
+        ]
       }
     }
   },

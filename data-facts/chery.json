@@ -157,7 +157,25 @@
             "title": "ביזפורטל — השקת צ'רי טיגו 9 פלאג-אין (7.10.2025)",
             "url": "https://www.bizportal.co.il/car/news/article/20022279"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מתלים רכים מאוד, נטיית מרכב מורגשת, ובלמים שלא תמיד עומדים במשקל של כ-2 טון — לבדוק בנסיעת מבחן בלימה חזקה ופניות, ולבדוק במוסך את מצב הרפידות והדיסקים",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autohled.cz — Chery Tiggo 9 PHEV recenze 2026: podvozek a brzdy kazí dojem (סיכום מבחנים, עודכן 10/2026)",
+              "url": "https://www.autohled.cz/magazin/chery-tiggo-9-phev-recenze-2026-428-koni-za-119-milionu-ale-podvozek-a-brzdy-kazi-dojem/12015"
+            }
+          },
+          {
+            "he": "Apple CarPlay אלחוטי לא יציב, ודווח על חריקות ונקישות בתא הנוסעים כבר אחרי כ-1,000 ק\"מ — לבדוק חיבור טלפון ולהקשיב לרעשים בכביש משובש",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autohled.cz — Chery Tiggo 9 PHEV recenze 2026: podvozek a brzdy kazí dojem (סיכום מבחנים, עודכן 10/2026)",
+              "url": "https://www.autohled.cz/magazin/chery-tiggo-9-phev-recenze-2026-428-koni-za-119-milionu-ale-podvozek-a-brzdy-kazi-dojem/12015"
+            }
+          }
+        ]
       }
     },
     "arrizo-8": {

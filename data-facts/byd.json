@@ -1,6 +1,6 @@
 {
   "make": "byd",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "atto-3": {
       "Gen1": {
@@ -77,7 +77,24 @@
         }
       },
       "EVO": {
-        "issues": [],
+        "issues": [
+          {
+            "he": "זיהוי תמרורי מהירות לא אמין (מפספס הגבלות וסיומן) ובקרת השיוט האדפטיבית מאיצה בקפיצות אחרי עקיפה — לבדוק בנסיעת מבחן ולוודא עדכוני תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "electrive — BYD Atto 3 Evo review (20.8.2026, RWD Design, מבחן שבועיים)",
+              "url": "https://electrive.com/2026/08/20/byd-atto-3-evo-review-major-upgrades-beneath-a-familiar-facade"
+            }
+          },
+          {
+            "he": "במבחן הראשון דווח רעד בהגה מכ-105 קמ\"ש (ייתכן איזון גלגלים ברכב בודד), רעש רוח מהמראות מעל 130 קמ\"ש וציפה בפניות מהירות — לבדוק בנסיעת מבחן בכביש מהיר",
+            "level": "widely_reported",
+            "source": {
+              "title": "electrive — BYD Atto 3 Evo review (20.8.2026, RWD Design, מבחן שבועיים)",
+              "url": "https://electrive.com/2026/08/20/byd-atto-3-evo-review-major-upgrades-beneath-a-familiar-facade"
+            }
+          }
+        ],
         "engines": [
           {
             "name": "חשמלי 74.8 קוט\"ש, הנעה אחורית",
@@ -359,7 +376,24 @@
     },
     "dolphin-surf": {
       "Gen1": {
-        "issues": [],
+        "issues": [
+          {
+            "he": "בברזיל דווחו כ-40 מקרים של זרועות מתלה קדמיות שנסדקו אחרי עשרות אלפי ק\"מ, וכן תלונות על בולמים אחוריים רכים מדי — לבדוק במעלית את הזרועות הקדמיות ואת הבולמים, ולשים לב לרעשים ולחוסר יציבות בנסיעה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Otomoto — BYD Dolphin Surf: właściciele wskazują na problem z zawieszeniem (11.7.2025, דיווחי בעלים מברזיל)",
+              "url": "https://www.otomoto.pl/news/byd-dolphin-surf-z-wada-zawieszenia"
+            }
+          },
+          {
+            "he": "במבחן ADAC: ההגה אינו חוזר למרכז ודורש תיקונים מתמידים, ומערכת שמירת הנתיב מתערבת מוקדם ובאופן לא הרמוני — לבדוק בנסיעת מבחן בכביש מהיר אם זה מפריע לכם",
+            "level": "widely_reported",
+            "source": {
+              "title": "Automobilsalon Bellemann — BYD Dolphin Surf: Schwächen im ADAC-Test (סיכום מבחן ADAC, 10/2026)",
+              "url": "https://automobilsalon-bellemann.de/news/byd-dolphin-surf-test-schwaechen-adac/"
+            }
+          }
+        ],
         "engines": [
           {
             "name": "חשמלי 43.2 קוט\"ש (Boost)",
@@ -391,7 +425,26 @@
     },
     "atto-2": {
       "SC3E": {
-        "issues": [],
+        "issues": [
+          {
+            "he": "במבחן ארוך טווח: המעבר בין בלימה רגנרטיבית לבלימה רגילה מורגש וקופצני והרגנרציה \"תופסת\" — לבדוק בנסיעת מבחן עצירות איטיות בעומס",
+            "level": "widely_reported",
+            "scope": "חשמלי (Boost, 51 קוט\"ש)",
+            "source": {
+              "title": "Electrifying.com — BYD Atto 2 long-term review (2026)",
+              "url": "https://www.electrifying.com/long-term-reviews/byd/atto-2"
+            }
+          },
+          {
+            "he": "תקלות תוכנה קטנות: המטען האלחוטי מציג התראת \"חפץ זר\" בערך בחצי מהפעמים, ועוזר הקול של BYD \"חוטף\" את מילות ההפעלה של CarPlay/Android Auto — לבדוק עם הטלפון שלכם ולוודא שהרכב בגרסת התוכנה העדכנית",
+            "level": "widely_reported",
+            "scope": "חשמלי (Boost)",
+            "source": {
+              "title": "Electrifying.com — BYD Atto 2 long-term review (2026)",
+              "url": "https://www.electrifying.com/long-term-reviews/byd/atto-2"
+            }
+          }
+        ],
         "engines": [
           {
             "name": "חשמלי 64.8 קוט\"ש",
@@ -541,7 +594,38 @@
             "title": "auto.co.il — BYD סיל 5 החדשה בארץ – המחיר החל מ-175,000 שקלים (12.03.2025)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/137970/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מערכות העזר רגישות מדי ומתריעות בקול רם גם במצבים רגילים (כולל מצלמת עייפות/הסחת דעת) — לבדוק בנסיעת מבחן ולברר איך מנטרלים התרעות",
+            "level": "widely_reported",
+            "source": {
+              "title": "CNN Prima (cz) — Test BYD Seal 5 DM-i (6.8.2026, Design, 1.5 + 18.3 קוט\"ש)",
+              "url": "https://cnn.iprima.cz/test-byd-seal-5-dm-i-bez-tankovani-ujede-1000-kilometru-jen-kdyby-u-toho-tolik-nepipal-518725"
+            }
+          },
+          {
+            "he": "החלקת גלגלים קדמיים בזינוק על כביש רטוב, נטיית מרכב ותת-היגוי מוקדם; המיזוג מתקשה לשמור טמפרטורה יציבה — לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "CNN Prima (cz) — Test BYD Seal 5 DM-i (6.8.2026, Design, 1.5 + 18.3 קוט\"ש)",
+              "url": "https://cnn.iprima.cz/test-byd-seal-5-dm-i-bez-tankovani-ujede-1000-kilometru-jen-kdyby-u-toho-tolik-nepipal-518725"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 פלאג-אין DM-i, סוללה 18.3 קוט\"ש",
+            "pt": "phev",
+            "hp": 212,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "CNN Prima (cz) — Test BYD Seal 5 DM-i: \"מתחת ל-5 ל'/100 ק\"מ\" במצב היברידי בשבוע מבחן (~1,000 ק\"מ במיכל אחד); הערך כאן הוא הגבול העליון שנמסר",
+              "url": "https://cnn.iprima.cz/test-byd-seal-5-dm-i-bez-tankovani-ujede-1000-kilometru-jen-kdyby-u-toho-tolik-nepipal-518725"
+            }
+          }
+        ]
       }
     }
   }

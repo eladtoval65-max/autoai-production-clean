@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "c3": {
       "Gen3": {
@@ -317,7 +317,26 @@
         ]
       },
       "Gen2 (STLA Medium)": {
-        "issues": [],
+        "issues": [
+          {
+            "he": "קריאת שירות (אירופה): שאריות ריתוך בממיר (אינוורטר) של מערכת ההיברידית עלולות לגרום לקצר פנימי, להתחממות ואף לשריפה — לוודא לפי VIN שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "1.2 מיילד-היברידי e-DCS6, ייצור מרץ 2026 (קמפיין GZ3, Safety Gate SR/01382/26)",
+            "source": {
+              "title": "Fiches-Auto — Fiabilité Citroën C5 Aircross 2 (2025): rappel onduleur e-DCT SR/01382/26 (GZ3)",
+              "url": "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-776-pannes-citroen-c5-aircross-2.php"
+            }
+          },
+          {
+            "he": "תיבת e-DCS6 (כפולת מצמדים היברידית) של Stellantis: דווחו מכות והססנות בהחלפת הילוכים, נורות אזהרה ולעיתים השבתה; היצרן הוציא עדכוני תוכנה וקריאות — בנסיעת מבחן לבדוק החלפות חלקות בעומס נמוך ולוודא שהתוכנה עודכנה",
+            "level": "widely_reported",
+            "scope": "1.2 מיילד-היברידי",
+            "source": {
+              "title": "Fiches-Auto — Fiabilité Citroën C5 Aircross 2 (2025): boîte e-DCS6 (à-coups, passages hésitants, mises à jour Stellantis)",
+              "url": "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-776-pannes-citroen-c5-aircross-2.php"
+            }
+          }
+        ],
         "ncap": {
           "stars": 4,
           "year": 2025,
@@ -333,6 +352,17 @@
           }
         },
         "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היברידי",
+            "pt": "hybrid",
+            "hp": 145,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 — Tatsächlicher Verbrauch C5 Aircross Hybrid 145 (1/2026): 4.65 ל'/100 ק\"מ בנסיעה בינעירונית של 360 ק\"מ; 5.7 ל'/100 ק\"מ בשילוב עירוני-פרברי לפי אותו מבחן",
+              "url": "https://de.motor1.com/reviews/787848/tatsächlicher-verbrauchstest-citroën-c5aircross-mildhybrid/"
+            }
+          },
           {
             "name": "חשמלי 73 קוט\"ש, הנעה קדמית",
             "pt": "ev",

@@ -38,7 +38,25 @@
             "title": "ביזפורטל — השקת דונגפנג בוקס (24.12.2024)",
             "url": "https://www.bizportal.co.il/car/news/article/838690"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "במבחן הדרכים בישראל מדחס המזגן התנתק והתחבר מחדש ללא סיבה נראית לעין — לבדוק את פעולת המיזוג לאורך נסיעה ארוכה",
+            "level": "widely_reported",
+            "source": {
+              "title": "auto.co.il — דונגפנג בוקס מבחן דרכים (3.12.2024)",
+              "url": "https://www.auto.co.il/articles/general-articles/137710/"
+            }
+          },
+          {
+            "he": "מערכות העזר: בקרת שיוט אדפטיבית שומרת מרחק גדול מדי ולעיתים מתקשה לזהות עצמים, ויש המון התרעות מיותרות — לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "auto.co.il — דונגפנג בוקס מבחן דרכים (3.12.2024)",
+              "url": "https://www.auto.co.il/articles/general-articles/137710/"
+            }
+          }
+        ]
       }
     },
     "mage": {
@@ -51,7 +69,17 @@
             "title": "auto.co.il — דונגפנג מייג' היברידי-נטען בארץ – המחיר החל מ-150,000 שקלים (20.07.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/dongfeng-mage/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מתלים רכים מדי והגה קל ללא משוב; בלחיצה נחרצת על הדוושה הגלגלים הקדמיים מאבדים אחיזה — לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autofácil — Prueba Dongfeng MAGE híbrido enchufable (25.9.2026)",
+              "url": "https://www.autofacil.es/prueba-dongfeng-mage-hibrido-enchufable/"
+            }
+          }
+        ]
       }
     }
   },

@@ -162,7 +162,25 @@
             "title": "וואלה רכב — ג'ילי סטאריי פלאג-אין בישראל (12.12.2025): Pro החל מ-170 אלף ש\"ח, Tech מ-176 אלף",
             "url": "https://cars.walla.co.il/item/3800971"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "במבחן ארוך טווח: בקרת השיוט האדפטיבית בולמת חזק ומאטה יותר מדי בפניות ואף בכביש מהיר, ושמירת הנתיב \"מקפיצה\" את הרכב בין קווי הנתיב — לבדוק בנסיעת מבחן בכביש מהיר",
+            "level": "widely_reported",
+            "source": {
+              "title": "Chasing Cars — Geely Starray EM-i long-term review (10.6.2026)",
+              "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/geely-starray-em-i-long-term-review/"
+            }
+          },
+          {
+            "he": "מסך המגע נתקע כך שמצלמת 360/רוורס לא הופעלה בהילוך אחורי, ואפליקציית הרכב מנתקת את המשתמש ולא מאשרת פקודות; עדכון OTA שיפר את המצלמות — לוודא שהרכב בגרסת התוכנה העדכנית ולבדוק את המצלמות בכל הפעלה של רוורס",
+            "level": "widely_reported",
+            "source": {
+              "title": "Chasing Cars — Geely Starray EM-i long-term review (10.6.2026)",
+              "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/geely-starray-em-i-long-term-review/"
+            }
+          }
+        ]
       }
     },
     "preface": {

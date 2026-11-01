@@ -159,7 +159,25 @@
             "title": "cartube — אומודה 7 פלאג-אין נחת בישראל - מחיר 184,900 שקל (10.12.2025)",
             "url": "https://www.cartube.co.il/חדשות-רכב/אומודה-7-פלאג-אין-נחת-בישראל-מחיר-184900-שקל"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מסך המגע (15.6 אינץ') איטי בתגובה והתפריטים מסורבלים; מיזוג ועוצמת שמע רק דרך המסך — לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Omoda 7 SHS-P Noble Tech review (29.7.2026)",
+              "url": "https://www.autoexpress.co.uk/omoda/7/370108/omoda-7-shs-p-noble-tech-review-buy-over-jaecoo-7"
+            }
+          },
+          {
+            "he": "נקישה/רעש \"מהדהד\" מהמתלים ונטיית מרכב בפניות; הגה קל מאוד עם מעט משוב — להקשיב לרעשי מתלים בכביש משובש",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Omoda 7 SHS-P Noble Tech review (29.7.2026)",
+              "url": "https://www.autoexpress.co.uk/omoda/7/370108/omoda-7-shs-p-noble-tech-review-buy-over-jaecoo-7"
+            }
+          }
+        ]
       }
     },
     "jaecoo-8": {
@@ -172,7 +190,38 @@
             "title": "וואלה רכב — השקת ג'אקו 8 פלאג-אין בישראל (3.11.2025)",
             "url": "https://cars.walla.co.il/item/3791664"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "התיבה נוטה \"למצוא ניוטרל\" במעבר מהיר בין D ל-R בתמרון, וניתן להשאיר את הרכב פועל בניוטרל — לבדוק בחניה מעברים בין D ל-R ולוודא שההילוך נכנס",
+            "level": "widely_reported",
+            "source": {
+              "title": "Chasing Cars — Jaecoo J8 SHS-P Summit AWD review (27.8.2026)",
+              "url": "https://www.chasingcars.com.au/reviews/large-suvs/jaecoo-j8-shs-p-summit-awd-2027-review/"
+            }
+          },
+          {
+            "he": "שיכוך רך מדי (הרכב \"מתנדנד\"), כפתורי מצבי נהיגה וסילוק אדים שלא מגיבים, מערכת מולטימדיה איטית בצימוד ומרווחים לא אחידים בין לוח המחוונים לדלתות — לבדוק איכות הרכבה ותגובת הכפתורים",
+            "level": "widely_reported",
+            "source": {
+              "title": "Chasing Cars — Jaecoo J8 SHS-P Summit AWD review (27.8.2026)",
+              "url": "https://www.chasingcars.com.au/reviews/large-suvs/jaecoo-j8-shs-p-summit-awd-2027-review/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין SHS, הנעה כפולה",
+            "pt": "phev",
+            "hp": 428,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "Autocentrum.pl — Jaecoo 8 SHS po teście 800 km (15.5.2026): כ-10 ל'/100 ק\"מ במדידת מילוי-למילוי, בעיקר כביש מהיר 120–140 קמ\"ש (מבחן בודד)",
+              "url": "https://www.autocentrum.pl/newsy/nowy-jaecoo-8-shs-po-tescie-800-km-tyle-naprawde-pali-suv-428-km/"
+            }
+          }
+        ]
       }
     },
     "jaecoo-5": {
@@ -223,6 +272,15 @@
               "title": "eauto.org.ua — TDT 338 Omoda 9 (T22) recall BA_T_OJ_2026_003",
               "url": "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/tdt-338-omoda-omoda-9-t22-ba-t-oj-2026-003"
             }
+          },
+          {
+            "he": "פעולת שירות של היצרן: גרסת תוכנה שגויה במחשב המנוע גורמת לרעידות קצרות ומזדמנות במערכת ההנעה — לוודא שבוצע עדכון תוכנה למחשב המנוע",
+            "level": "manufacturer",
+            "scope": "ייצור 30.12.2024–16.04.2025 (פולין)",
+            "source": {
+              "title": "Autokatalog.pl — Omoda 9 wymaga aktualizacji oprogramowania sterownika silnika (8.5.2026)",
+              "url": "https://autokatalog.pl/amp/blog/2026/omoda-9-aktualizacja-oprogramowania-sterownika-silnika"
+            }
           }
         ],
         "launchPrice": {
@@ -233,7 +291,20 @@
             "title": "auto.co.il — אומודה 9 בארץ – המחיר החל מ-230,000 שקלים (10.12.2025)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/omoda-9/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין SHS, הנעה כפולה",
+            "pt": "phev",
+            "hp": 537,
+            "cons": 3.45,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 España — Omoda 9 SHS prueba de consumo real (7/2025): 3.45 ל'/100 ק\"מ בנזין בנסיעה של 360 ק\"מ שהחלה בסוללה מלאה (162 ק\"מ חשמלי); בסוללה ריקה בכביש מהיר: 11.0 ל'/100 ק\"מ",
+              "url": "https://es.motor1.com/news/767125/omoda-9-phev-prueba-consumo-real/"
+            }
+          }
+        ]
       }
     }
   }

@@ -116,6 +116,24 @@
               "url": "https://ev-database.org/car/3045/LynkCo-02"
             }
           }
+        ],
+        "issues": [
+          {
+            "he": "המתלה האחורי רך מדי — המרכב זז בבירור במהירות ובשינויי כיוון מהירים; שמירת הנתיב מבצעת תיקוני הגה \"עצבניים\" ומעייפים בכביש מהיר — לבדוק בנסיעת מבחן בכביש מהיר",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoRAI — Review Lynk & Co 02 (2026): hippe nieuwkomer met een paar rafelrandjes (22.9.2026)",
+              "url": "https://autorai.nl/review-lynk-co-02-2026-hippe-nieuwkomer-met-een-paar-rafelrandjes/"
+            }
+          },
+          {
+            "he": "שטח מת גדול באלכסון לאחור — לבדוק את שדה הראייה ואת פעולת התרעת השטח המת לפני קנייה",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoRAI — Review Lynk & Co 02 (2026): hippe nieuwkomer met een paar rafelrandjes (22.9.2026)",
+              "url": "https://autorai.nl/review-lynk-co-02-2026-hippe-nieuwkomer-met-een-paar-rafelrandjes/"
+            }
+          }
         ]
       }
     }

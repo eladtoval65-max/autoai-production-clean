@@ -155,7 +155,25 @@
             "title": "cartube — זיקר 7X נחת בישראל - מחיר 233,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/זיקר-7x-נחת-בישראל-מחיר-233990-שקל"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מערכת מיזוג חלשה במיוחד (\"מהחלשות שנבדקו מזה שנים\") — חשוב לאקלים הישראלי: לבדוק קירור בנסיעת מבחן ביום חם",
+            "level": "widely_reported",
+            "source": {
+              "title": "Chasing Cars — Zeekr 7X RWD 2026 review (15.1.2026)",
+              "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/zeekr-7x-rwd-2026-review/"
+            }
+          },
+          {
+            "he": "רעש כביש גבוה ומכות חדות במהמורות ובמפרקי גשרים; בשני רכבי מבחן מערכת העזר לכביש מהיר סירבה להיכנס לפעולה — לבדוק בנסיעת מבחן ולוודא עדכון תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Chasing Cars — Zeekr 7X RWD 2026 review (15.1.2026)",
+              "url": "https://www.chasingcars.com.au/reviews/midsize-suvs/zeekr-7x-rwd-2026-review/"
+            }
+          }
+        ]
       }
     },
     "7gt": {
@@ -197,7 +215,25 @@
             "title": "CarTube — זיקר 7GT החשמלית נחתה בישראל, מחיר 191,990 שקל (6.9.2026)",
             "url": "https://www.cartube.co.il/חדשות-רכב/זיקר-7gt-החשמלית-נחתה-בישראל-מחיר-191990-שקל"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "בקרת השיוט האדפטיבית מאטה לפעמים בפתאומיות בעיקול מתון או בהחלפת נתיב (אין בקרת שיוט רגילה או מגביל מהירות נפרד) — לבדוק בנסיעת מבחן בכביש מהיר ולוודא עדכוני תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoRAI — Review Zeekr 7GT (2026): ja er zitten haken en ogen aan (23.10.2026)",
+              "url": "https://autorai.nl/zeekr-7gt-review-test/"
+            }
+          },
+          {
+            "he": "אורות הדרך האוטומטיים מכבים מקטעים שלא לצורך ויוצרים תאורה \"עצבנית\", וטווח האור הנמוך מוגבל — לבדוק בנסיעת לילה",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoRAI — Review Zeekr 7GT (2026): ja er zitten haken en ogen aan (23.10.2026)",
+              "url": "https://autorai.nl/zeekr-7gt-review-test/"
+            }
+          }
+        ]
       }
     }
   },

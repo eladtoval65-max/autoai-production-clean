@@ -189,7 +189,38 @@
             "title": "carzone — KGM Musso החדשה 2026 מחיר החל מ-274,900 ₪ (27.07.2026)",
             "url": "https://www.carzone.co.il/news/KGM-Musso-החדשה-2026-מחיר-החל-מ-274900-₪/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "במבחן: מצב Auto Hold עלול לשחרר והרכב מתגלגל באופן מפתיע אחרי עזיבת הבלם בתמרון; שמירת הנתיב מתבלבלת מסימוני עבודות צהובים — לבדוק בנסיעת מבחן ולהכיר את התנהגות המערכת",
+            "level": "widely_reported",
+            "source": {
+              "title": "Motor1 Deutschland — KGM Musso Q300 (2026) im Test",
+              "url": "https://de.motor1.com/reviews/808472/kgm-musso-q300-2026-test/"
+            }
+          },
+          {
+            "he": "סרן אחורי קשיח מאוד — הרכב \"רועד ומיטלטל\" בכבישים משובשים כשהארגז ריק, וההגה עקיף מאוד; התיבה במצב רגיל איטית לעיתים — לבדוק בנסיעת מבחן על כביש משובש",
+            "level": "widely_reported",
+            "source": {
+              "title": "Motor1 Deutschland — KGM Musso Q300 (2026) im Test",
+              "url": "https://de.motor1.com/reviews/808472/kgm-musso-q300-2026-test/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 202,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "Motor1 Deutschland — KGM Musso Q300 Test: לפי מחשב הדרך כ-8.5 ל' בכביש בינעירוני, 10.5–11 בכביש מהיר, כ-10 בעיר (ממוצע משוער 10)",
+              "url": "https://de.motor1.com/reviews/808472/kgm-musso-q300-2026-test/"
+            }
+          }
+        ]
       }
     },
     "musso-ev": {

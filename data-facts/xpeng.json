@@ -156,9 +156,29 @@
             "title": "auto.co.il — אקספנג P7 החדשה בישראל – מחיר החל מ-200,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/136749/"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "תקלות תוכנה מוקדמות בגרסה האירופית (הודעת \"Parking is abnormal\", שגיאות בניווט הקולי) תוקנו בעדכון OTA — לוודא שהרכב עודכן לגרסה האחרונה",
+            "level": "widely_reported",
+            "scope": "P7 גרסה אירופית 2024",
+            "source": {
+              "title": "electrive — Xpeng P7 winter test (26.1.2025, AWD Performance 82.7 kWh)",
+              "url": "https://www.electrive.com/2025/01/26/xpeng-p7-faces-a-winter-test-performs-well-despite-temporary-speech-impediment"
+            }
+          },
+          {
+            "he": "טעינה מהירה בסוללה קרה בלי חימום מוקדם מתחילה בכ-85 קו\"ט בלבד (עם חימום — עד 184 קו\"ט); מתכנן המסלול עלול לשלוח לעמדות טסלה סגורות. לבדוק טעינה מהירה בפועל ואת מכסה שקע הטעינה (נמצא תלוי אחרי ניתוק)",
+            "level": "widely_reported",
+            "scope": "P7 גרסה אירופית 2024",
+            "source": {
+              "title": "electrive — Xpeng P7 winter test (26.1.2025, AWD Performance 82.7 kWh)",
+              "url": "https://www.electrive.com/2025/01/26/xpeng-p7-faces-a-winter-test-performs-well-despite-temporary-speech-impediment"
+            }
+          }
+        ]
       }
     }
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }

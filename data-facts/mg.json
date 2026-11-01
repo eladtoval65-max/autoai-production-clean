@@ -265,7 +265,18 @@
             "title": "Cartube — 2025 MG HS החדש בישראל: בנזין, היברידי או פלאג-אין",
             "url": "https://www.cartube.co.il/חדשות-רכב/2025-mg-hs-החדש-בישראל-בנזין-היברידי-או-פלאג-אין"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "במבחן ארוך טווח (15,000 ק\"מ ללא תקלות): השהיה מתסכלת לפני האצה מעמידה, מלווה בזינוק סל\"ד, ומתלים שמקפצים על גלים בכביש — לבדוק בנסיעת מבחן זינוק מרמזור ונסיעה בכביש משובש",
+            "level": "widely_reported",
+            "scope": "1.5 טורבו בנזין, תיבת DCT",
+            "source": {
+              "title": "What Car? — MG HS long-term test (9.7.2025)",
+              "url": "https://www.whatcar.com/news/mg-hs-long-term-test/n27538"
+            }
+          }
+        ]
       }
     },
     "mg3": {
@@ -425,7 +436,33 @@
             "title": "Cartube — MG מארוול R בישראל: מחיר 205,888 שקל (21.6.2023)",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/mg-%D7%9E%D7%90%D7%A8%D7%95%D7%95%D7%9C-r-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-205888-%D7%A9%D7%A7%D7%9C"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מצבר 12V שמתרוקן — בעלים דיווחו שהרכב \"מת\" פעמיים בחניה ונדרש גרר; מגיב אחר המליץ להחליף מצבר מוקדם. לבדוק את מצב מצבר העזר ולברר אם הוחלף",
+            "level": "widely_reported",
+            "source": {
+              "title": "Fiches-Auto — avis propriétaire MG Marvel R RWD 180 ch (~60,000 ק\"מ, 3/2024) ותגובות",
+              "url": "https://www.fiches-auto.fr/avis-mg/avis-unique-712-106508-mg-marvel-r-rwd-propulsion-electrique-180-ch-60000.php"
+            }
+          },
+          {
+            "he": "תקלות אלקטרוניקה ותוכנה רבות: מסך מולטימדיה איטי/תקוע, באגים שלא תוקנו גם אחרי עדכונים, פתיחת תא מטען ברגל לא אמינה, אזעקת שווא בפתיחה ונורות אזהרה — לבדוק את כל המערכות ולשאול על עבודות אחריות",
+            "level": "widely_reported",
+            "source": {
+              "title": "Fiches-Auto — avis propriétaire MG Marvel R RWD (136,000 ק\"מ, 7/2024): bugs de l'écran, MG met du temps à corriger",
+              "url": "https://www.fiches-auto.fr/avis-mg/avis-unique-712-107537-mg-marvel-r-rwd-propulsion-electrique-180-ch-136-000km-11-2022-luxury-contrat-business.php"
+            }
+          },
+          {
+            "he": "שמירת הנתיב מתקנת את ההגה גם כשהאיתות מופעל (בעקיפה או בכניסה לכביש מהיר) — בעלים תיארו זאת כמסוכן; לבדוק בנסיעת מבחן ולדעת לנטרל את המערכת",
+            "level": "widely_reported",
+            "source": {
+              "title": "Fiches-Auto — avis propriétaire MG Marvel R RWD 180 ch (~60,000 ק\"מ): correcteur de trajectoire dangereux",
+              "url": "https://www.fiches-auto.fr/avis-mg/avis-unique-712-106508-mg-marvel-r-rwd-propulsion-electrique-180-ch-60000.php"
+            }
+          }
+        ]
       }
     },
     "s5": {
@@ -543,6 +580,24 @@
             "source": {
               "title": "EV Database — MG MGS6 EV Long Range 77 kWh: vehicle consumption 297 Wh/mi (≈185 Wh/km, real-world estimate); 180 kW",
               "url": "https://ev-database.org/uk/car/3418/MG-MGS6-EV-Long-Range-77-kWh"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "מערכת המולטימדיה איטית ונתקעת לחצאי שניות ושניות שלמות, והתרעות (עייפות, תמרורי מהירות) מצפצפות ללא הפסקה — לבדוק את מהירות התגובה של המסך ואת אפשרות ההשתקה בנסיעת מבחן, ולוודא עדכוני תוכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Mobilsiden.dk — Test af MGS6 EV: rummelig familiebil med irriterende fejl (16.2.2026)",
+              "url": "https://mobilsiden.dk/nyheder/opkoblede-biler/test-af-elbiler/test-af-mgs6-ev-rummelig-familiebil-med-irriterende-fejl/"
+            }
+          },
+          {
+            "he": "בקרת השיוט האדפטיבית תוארה כ\"לא גמורה\" — מאיצה מהר מדי אל רכב מלפנים בכביש מהיר; דוושת הבלם ספוגית במהירות נמוכה — לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "Mobilsiden.dk — Test af MGS6 EV: rummelig familiebil med irriterende fejl (16.2.2026)",
+              "url": "https://mobilsiden.dk/nyheder/opkoblede-biler/test-af-elbiler/test-af-mgs6-ev-rummelig-familiebil-med-irriterende-fejl/"
             }
           }
         ]
