@@ -797,7 +797,20 @@
             "title": "וואלה! רכב — מונדיאו, S-Max וגלקסי עם מנוע 2.0 אקובוסט בישראל (2.1.2012)",
             "url": "https://cars.walla.co.il/item/1890133"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "2.0 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 116,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — owner car: Ford Mondeo 2.0 TDCi Turnier 116 PS, 2010, manual (6.58 L/100km over 81,664 km; single vehicle)",
+              "url": "https://www.spritmonitor.de/de/detailansicht/751560.html"
+            }
+          }
+        ]
       },
       "Mk V": {
         "issues": [

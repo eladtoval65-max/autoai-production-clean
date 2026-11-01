@@ -512,6 +512,19 @@
               "url": "https://www.carsguide.com.au/node/76115"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "2.5 טורבו דיזל",
+            "pt": "diesel",
+            "hp": 178,
+            "cons": 10.7,
+            "unit": "L",
+            "source": {
+              "title": "CarAdvice — 2012 Mitsubishi Challenger 4WD XLS review (2.5 DI-D 131kW auto): fuel economy tested 10.7 L/100km",
+              "url": "https://www.caradvice.com.au/reviews/2012-mitsubishi-challenger-4wd-xls-review/"
+            }
+          }
         ]
       },
       "KR/KS (דור 3)": {

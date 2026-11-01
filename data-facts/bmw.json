@@ -1272,7 +1272,20 @@
           "stars": 4,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/bmw-2-series-gran-coup----euro-ncap-2025-results---4-stars/s/b29b5a77-7d38-4eae-9035-f2554ab59ada"
-        }
+        },
+        "engines": [
+          {
+            "name": "M235 2.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 317,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "NRMA — 2025 BMW M235 Gran Coupe review (AU-spec 233kW): 8.0 L/100km observed over a 500 km loan",
+              "url": "https://www.mynrma.com.au/open-road/car-reviews/bmw/2025-bmw-m235-gran-coupe-review"
+            }
+          }
+        ]
       }
     },
     "4-series": {
