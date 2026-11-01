@@ -1,6 +1,6 @@
 {
   "make": "jeep",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "compass": {
       "Gen2": {
@@ -108,6 +108,17 @@
             "source": {
               "title": "automobile.at (Motor1) — Tatsächlicher Verbrauch: Jeep Compass Mildhybrid (2026): 4.65 L/100km (single 360 km Rome–Forlì route test)",
               "url": "https://www.automobile.at/magazine/799646"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "קריאת שירות: בגרסאות הפלאג-אין והחשמליות צמת החשמל הקדמית עלולה להתחכך בבורג הארקה (חסר כיסוי מגן), מה שעלול לגרום לקצר, התחממות ואף שריפה. גרסת המיילד-היברידי שנמכרת בישראל אינה מושפעת. בבדיקה (רק בפלאג-אין/חשמלי): לוודא שקריאה 85D בוצעה.",
+            "level": "recall",
+            "scope": "פלאג-אין וחשמלי בלבד, ייצור 4.3.2026–27.3.2026 (Safety Gate 34/2026)",
+            "source": {
+              "title": "car-recalls.eu — Jeep Compass PHEV/BEV (2026): wiring harness short circuit / fire (Jeep 85D, SR/02352/26)",
+              "url": "https://car-recalls.eu/recall/jeep-compass-2026-ev-hybrid-fire/"
             }
           }
         ]

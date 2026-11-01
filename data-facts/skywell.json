@@ -1,6 +1,6 @@
 {
   "make": "skywell",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "et5": {
       "Gen1": {
@@ -16,7 +16,31 @@
             "title": "auto.co.il — Skywell ET5 2022 החדש בארץ – מחיר החל מ-175,000 שקלים",
             "url": "https://auto.co.il/article/134743-local-news"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "בטורקיה נרשמו שריפות של ET5, והיבואן שם קרא לבעלים לבדיקות חינם: נזק לתחתית הסוללה, נוזל קירור לא תקני, עדכוני תוכנה ומצבר 12V. בבדיקה: לבדוק שאין פגיעות בתחתית הסוללה ושהרכב טופל במוסך מורשה בלבד.",
+            "level": "manufacturer",
+            "scope": "הודעת היבואן בטורקיה (Ulu Motor), ספטמבר 2026 — לא קריאת שירות רשמית",
+            "source": {
+              "title": "log.com.tr — Skywell Türkiye’den yanan ET5’ler hakkında resmi açıklama (04.09.2026)",
+              "url": "https://www.log.com.tr/skywell-turkiyeden-yanan-et5ler-hakkinda-resmi-aciklama-cok-sayida-riskli-arac-var/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 204 כ״ס, סוללה 72 קוט״ש",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 20,
+            "unit": "kWh",
+            "source": {
+              "title": "auto.mail.ru — Тест-драйв Skywell ET5 (12/2022): ~20 kWh/100km measured on a single test drive (mountain roads, winter tyres)",
+              "url": "https://auto.mail.ru/article/86043-test-drajv-skywell-et5-chem-interesen-kitajskij-el/"
+            }
+          }
+        ]
       }
     }
   }
