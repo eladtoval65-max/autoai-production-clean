@@ -4,6 +4,28 @@
   "name": "Toyota",
   "models": [
    {
+    "id": "verso",
+    "model": "Verso",
+    "he": "ורסו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "AR20",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.6 / 1.8 Valvematic בנזין, 1.6 / 2.0 / 2.2 D-4D דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.6,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
     "id": "corolla",
     "model": "Corolla",
     "he": "קורולה",
@@ -1610,6 +1632,28 @@
   "make": "mazda",
   "name": "Mazda",
   "models": [
+   {
+    "id": "mazda5",
+    "model": "Mazda5",
+    "he": "מאזדה 5",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "CW",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.8 / 2.0 בנזין, 1.6 טורבו דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.3,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "mazda3",
     "model": "Mazda3",
@@ -3346,6 +3390,28 @@
   "name": "Suzuki",
   "models": [
    {
+    "id": "grand-vitara",
+    "model": "Grand Vitara",
+    "he": "גרנד ויטרה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "JT (דור 3)",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.6 / 2.0 / 2.4 בנזין, 3.2 V6 (עד 2012), 1.9 טורבו דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 10,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
     "id": "vitara",
     "model": "Vitara",
     "he": "ויטארה",
@@ -3582,6 +3648,60 @@
   "name": "Mitsubishi",
   "models": [
    {
+    "id": "lancer",
+    "model": "Lancer",
+    "he": "לנסר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 9",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.5 / 1.6 / 1.8 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "pajero-sport",
+    "model": "Pajero Sport",
+    "he": "פג'רו ספורט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "KG/KH (דור 2)",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.5 / 3.2 טורבו דיזל",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "KR/KS (דור 3)",
+      "from": 2016,
+      "to": null,
+      "engines": "2.4 טורבו דיזל (4N15), אוטומטית 8",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 4
+     }
+    ]
+   },
+   {
     "id": "outlander",
     "model": "Outlander",
     "he": "אאוטלנדר",
@@ -3723,6 +3843,43 @@
   "make": "peugeot",
   "name": "Peugeot",
   "models": [
+   {
+    "id": "508",
+    "model": "508",
+    "he": "508",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 1",
+      "from": 2011,
+      "to": 2018,
+      "engines": "1.6 VTi / 1.6 THP בנזין, 1.6 / 2.0 / 2.2 HDi דיזל, 2.0 HYbrid4",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "דור 2",
+      "from": 2018,
+      "to": 2022,
+      "engines": "1.2 / 1.6 PureTech בנזין, 1.6 פלאג-אין, 1.5 / 2.0 BlueHDi דיזל",
+      "pt": [
+       "petrol",
+       "phev",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "3008",
     "model": "3008",
@@ -6970,6 +7127,64 @@
   "name": "Ford",
   "models": [
    {
+    "id": "c-max",
+    "model": "C-Max / Grand C-Max",
+    "he": "סי-מקס / גרנד סי-מקס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 2",
+      "from": 2010,
+      "to": 2019,
+      "engines": "1.6 Ti-VCT / 1.0, 1.5, 1.6 EcoBoost בנזין, 1.5 / 1.6 / 2.0 TDCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "mondeo",
+    "model": "Mondeo",
+    "he": "מונדאו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Mk IV",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.6 / 2.0 / 2.3 בנזין, 1.6 / 2.0 EcoBoost, 1.6 / 2.0 / 2.2 TDCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Mk V",
+      "from": 2015,
+      "to": 2022,
+      "engines": "1.0 / 1.5 / 2.0 EcoBoost, 2.0 היברידי, 1.5 / 1.6 / 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "hybrid",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 4
+     }
+    ]
+   },
+   {
     "id": "focus",
     "model": "Focus",
     "he": "פוקוס",
@@ -7269,6 +7484,50 @@
   "make": "renault",
   "name": "Renault",
   "models": [
+   {
+    "id": "fluence",
+    "model": "Fluence",
+    "he": "פלואנס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "L38",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.6 / 2.0 בנזין (CVT), 1.5 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "kadjar",
+    "model": "Kadjar",
+    "he": "קדג'אר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "HA/HL",
+      "from": 2015,
+      "to": 2022,
+      "engines": "1.2 / 1.3 / 1.6 TCe בנזין, 1.5 / 1.6 / 1.7 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "clio",
     "model": "Clio",
@@ -7747,6 +8006,49 @@
   "make": "honda",
   "name": "Honda",
   "models": [
+   {
+    "id": "accord",
+    "model": "Accord",
+    "he": "אקורד",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 8 (אירופה)",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 / 2.4 i-VTEC בנזין, 2.2 i-DTEC דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "insight",
+    "model": "Insight",
+    "he": "אינסייט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "ZE2",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.3 היברידי (IMA)",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "civic",
     "model": "Civic",
@@ -9043,8 +9345,11 @@
     "id": "c4-x",
     "model": "C4 X",
     "he": "C4 X",
-    "status": "unverified",
-    "price": null,
+    "status": "on_sale",
+    "price": [
+     129990,
+     129990
+    ],
     "gens": [
      {
       "code": "C43",
@@ -9175,6 +9480,63 @@
   "make": "opel",
   "name": "Opel",
   "models": [
+   {
+    "id": "insignia",
+    "model": "Insignia",
+    "he": "אינסיגניה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.4 / 1.6 / 2.0 טורבו, 1.8 בנזין, 2.0 CDTI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "B",
+      "from": 2017,
+      "to": 2022,
+      "engines": "1.5 / 2.0 טורבו בנזין, 1.5 / 1.6 / 2.0 CDTI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "meriva",
+    "model": "Meriva",
+    "he": "מריבה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "B",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.4 / 1.4 טורבו בנזין, 1.3 / 1.6 / 1.7 CDTI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "corsa",
     "model": "Corsa",

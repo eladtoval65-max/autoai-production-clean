@@ -136,6 +136,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "byd-dolphin-surf",
+  "make": "BYD",
+  "model": "Dolphin Surf",
+  "trim": "Boost (43.2 kWh)",
+  "bodyType": "hatchback",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 4,
+  "cargoLiters": 308,
+  "powerHp": 88,
+  "consumption": null,
+  "price": 114990,
+  "priceMin": 114990,
+  "priceMax": 123990,
+  "sampleSize": null,
+  "newPrice": 114990,
+  "reliability": 70,
+  "safety": 62,
+  "economy": 92,
+  "comfort": 64,
+  "practicality": 56,
+  "insuranceMin": 340,
+  "insuranceMax": 489,
+  "why": "רכב עירוני חשמלי קטן: בגרסת Boost סוללה 43.2 קוט\"ש ו-88 כ\"ס; צריכה מוצהרת 15.6 קוט\"ש ל-100 ק\"מ וטווח מוצהר 322 ק\"מ. בגרסת Comfort ‏156 כ\"ס וטווח 310 ק\"מ. רשום ל-4 מקומות ישיבה.",
+  "pros": [
+   "הרכב החשמלי הזול בקטלוג",
+   "עלות אנרגיה נמוכה מאוד",
+   "מתאים לנסיעות עירוניות"
+  ],
+  "cons": [
+   "טווח מוצהר קצר (322 ק\"מ)",
+   "4 מקומות ישיבה בלבד",
+   "גרסת הבסיס חלשה (88 כ\"ס)"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il Dolphin Surf 2026 Boost + cartube Boost trim page + carzone.co.il/BYDAuto/Dolphin-Surf/2026/compare (2026-11-01)",
+  "bands": {
+   "7000": {
+    "fuel": 64,
+    "insurance": 419,
+    "maintenance": 114,
+    "depreciation": 1342,
+    "total": 2060
+   },
+   "15000": {
+    "fuel": 136,
+    "insurance": 419,
+    "maintenance": 130,
+    "depreciation": 1342,
+    "total": 2148
+   },
+   "25000": {
+    "fuel": 228,
+    "insurance": 419,
+    "maintenance": 146,
+    "depreciation": 1342,
+    "total": 2256
+   }
+  }
+ },
+ {
   "id": "skoda-fabia",
   "make": "Skoda",
   "model": "Fabia",
@@ -380,6 +441,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "suzuki-swift",
+  "make": "Suzuki",
+  "model": "Swift",
+  "trim": "GLX 1.2 MHEV CVT",
+  "bodyType": "hatchback",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 265,
+  "powerHp": 82,
+  "consumption": 4.8,
+  "price": 129990,
+  "priceMin": 119990,
+  "priceMax": 129990,
+  "sampleSize": null,
+  "newPrice": 129990,
+  "reliability": 82,
+  "safety": 55,
+  "economy": 90,
+  "comfort": 64,
+  "practicality": 58,
+  "insuranceMin": 366,
+  "insuranceMax": 527,
+  "why": "רכב עירוני קטן בדור חדש: 1.2 בנזין 3 צילינדרים עם מערכת מיילד-היברידית, ‏82 כ\"ס ותיבה רציפה; צריכה מוצהרת 20.8 ק\"מ לליטר (בגרסה הידנית 22.2). תא מטען 265 ליטר.",
+  "pros": [
+   "חסכוני מאוד בדלק",
+   "קל לתמרון ולחניה בעיר",
+   "מחיר נמוך"
+  ],
+  "cons": [
+   "מנוע חלש (82 כ\"ס)",
+   "תא מטען קטן (265 ליטר)",
+   "דירוג Euro NCAP לא אומת"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il Swift 2026 GLX auto + cartube Swift GLX auto trim page + carzone.co.il/Suzuki/Swift/2026 (2026-11-01)",
+  "bands": {
+   "7000": {
+    "fuel": 232,
+    "insurance": 451,
+    "maintenance": 150,
+    "depreciation": 1192,
+    "total": 2146
+   },
+   "15000": {
+    "fuel": 496,
+    "insurance": 451,
+    "maintenance": 170,
+    "depreciation": 1192,
+    "total": 2430
+   },
+   "25000": {
+    "fuel": 827,
+    "insurance": 451,
+    "maintenance": 190,
+    "depreciation": 1192,
+    "total": 2781
+   }
+  }
+ },
+ {
   "id": "chery-tiggo-4-pro-hybrid",
   "make": "Chery",
   "model": "Tiggo 4 Pro Hybrid",
@@ -437,6 +559,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 263,
     "depreciation": 1360,
     "total": 3246
+   }
+  }
+ },
+ {
+  "id": "mg-zs-hybrid",
+  "make": "MG",
+  "model": "ZS Hybrid+",
+  "trim": "Luxury 1.5 HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 443,
+  "powerHp": 194,
+  "consumption": 5.1,
+  "price": 137888,
+  "priceMin": 137888,
+  "priceMax": 137888,
+  "sampleSize": null,
+  "newPrice": 137888,
+  "reliability": 70,
+  "safety": 60,
+  "economy": 88,
+  "comfort": 72,
+  "practicality": 76,
+  "insuranceMin": 380,
+  "insuranceMax": 546,
+  "why": "קרוסאובר היברידי מלא: 1.5 בנזין ומנוע חשמלי, ‏194 כ\"ס משולב ותיבה אוטומטית 3 הילוכים; צריכה מוצהרת 19.6 ק\"מ לליטר. תא מטען 443 ליטר. רמת גימור אחת. לפי auto.co.il לא נבחן ב-Euro NCAP.",
+  "pros": [
+   "מחיר נמוך להיברידי מלא בגודל הזה",
+   "הספק משולב גבוה",
+   "תא מטען 443 ליטר"
+  ],
+  "cons": [
+   "דירוג Euro NCAP לא אומת",
+   "רמת גימור אחת בלבד",
+   "ירידת ערך צפויה גבוהה"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il MG ZS 2026 + cartube MG ZS Hybrid Luxury trim page (2026-11-01)",
+  "bands": {
+   "7000": {
+    "fuel": 246,
+    "insurance": 467,
+    "maintenance": 158,
+    "depreciation": 1494,
+    "total": 2486
+   },
+   "15000": {
+    "fuel": 528,
+    "insurance": 467,
+    "maintenance": 180,
+    "depreciation": 1494,
+    "total": 2790
+   },
+   "25000": {
+    "fuel": 879,
+    "insurance": 467,
+    "maintenance": 202,
+    "depreciation": 1494,
+    "total": 3163
    }
   }
  },
@@ -3560,6 +3743,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-superb",
+  "make": "Skoda",
+  "model": "Superb",
+  "trim": "Selection 1.5 TSI mHEV",
+  "bodyType": "sedan",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 595,
+  "powerHp": 150,
+  "consumption": 5.3,
+  "price": 203490,
+  "priceMin": 203490,
+  "priceMax": 293490,
+  "sampleSize": null,
+  "newPrice": 203490,
+  "reliability": 78,
+  "safety": 90,
+  "economy": 80,
+  "comfort": 86,
+  "practicality": 90,
+  "insuranceMin": 480,
+  "insuranceMax": 689,
+  "why": "מכונית משפחתית גדולה בדור חדש: 1.5 טורבו בנזין עם מערכת מיילד-היברידית, ‏150 כ\"ס ותיבת DSG 7; צריכה מוצהרת 18.8 ק\"מ לליטר. תא מטען 595 ליטר. במחירון גם גרסאות 2.0 טורבו (כולל 4X4). Euro NCAP ‏(2024): 5 כוכבים.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2024)",
+   "תא מטען 595 ליטר ומרחב אחורי גדול",
+   "נוחות נסיעה למרחקים ארוכים"
+  ],
+  "cons": [
+   "יקר יחסית",
+   "מנוע 1.5 צנוע לגודל הרכב",
+   "הגרסאות החזקות יקרות בהרבה"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Superb 2026 Selection 1.5 + cartube Superb Selection trim page + cmotors.co.il Superb (2026-11-01)",
+  "bands": {
+   "7000": {
+    "fuel": 255,
+    "insurance": 590,
+    "maintenance": 202,
+    "depreciation": 2035,
+    "total": 3203
+   },
+   "15000": {
+    "fuel": 547,
+    "insurance": 590,
+    "maintenance": 230,
+    "depreciation": 2035,
+    "total": 3523
+   },
+   "25000": {
+    "fuel": 912,
+    "insurance": 590,
+    "maintenance": 258,
+    "depreciation": 2035,
+    "total": 3916
+   }
+  }
+ },
+ {
   "id": "xpeng-g6",
   "make": "XPENG",
   "model": "G6",
@@ -3801,6 +4045,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 291,
     "depreciation": 1774,
     "total": 4204
+   }
+  }
+ },
+ {
+  "id": "hyundai-ioniq5",
+  "make": "Hyundai",
+  "model": "Ioniq 5",
+  "trim": "Pure 2x4 (84 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 520,
+  "powerHp": 229,
+  "consumption": null,
+  "price": 214990,
+  "priceMin": 214990,
+  "priceMax": 247990,
+  "sampleSize": null,
+  "newPrice": 214990,
+  "reliability": 78,
+  "safety": 88,
+  "economy": 86,
+  "comfort": 84,
+  "practicality": 84,
+  "insuranceMin": 496,
+  "insuranceMax": 712,
+  "why": "קרוסאובר חשמלי משפחתי: סוללה 84 קוט\"ש, ‏229 כ\"ס והנעה אחורית; צריכה מוצהרת 16 קוט\"ש ל-100 ק\"מ וטווח מוצהר 570 ק\"מ. תא מטען 520 ליטר ותא קדמי קטן. Euro NCAP ‏(2021): 5 כוכבים.",
+  "pros": [
+   "טווח מוצהר ארוך (570 ק\"מ)",
+   "תא נוסעים מרווח במיוחד",
+   "5 כוכבי Euro NCAP"
+  ],
+  "cons": [
+   "יקר מהמתחרות הסיניות",
+   "דירוג Euro NCAP מ-2021",
+   "ירידת ערך צפויה גבוהה"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Ioniq 5 2026 + cartube Ioniq 5 Pure trim page (2026-11-01)",
+  "bands": {
+   "7000": {
+    "fuel": 65,
+    "insurance": 610,
+    "maintenance": 132,
+    "depreciation": 2329,
+    "total": 3257
+   },
+   "15000": {
+    "fuel": 140,
+    "insurance": 610,
+    "maintenance": 150,
+    "depreciation": 2329,
+    "total": 3350
+   },
+   "25000": {
+    "fuel": 233,
+    "insurance": 610,
+    "maintenance": 168,
+    "depreciation": 2329,
+    "total": 3461
    }
   }
  },

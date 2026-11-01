@@ -155,13 +155,30 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Catalog (batch 20): Hyundai Kona Electric, Skoda Elroq, BYD Sealion 7, Toyota C-HR+, Peugeot 3008
 - [x] Status → discontinued: Mazda CX-60, Cupra Born, Cupra Ateca. Hyundai Staria → on sale (both sources agree)
 
+## Done 2026-11-01
+- [x] generations.ts: Mitsubishi Lancer, Pajero Sport; Mazda5; Renault Fluence, Kadjar; Opel Insignia, Meriva; Ford C-Max, Mondeo; Honda Accord, Insight; Toyota Verso; Peugeot 508; Suzuki Grand Vitara
+- [x] Catalog (batch 21): MG ZS Hybrid+, Suzuki Swift, BYD Dolphin Surf, Skoda Superb, Hyundai Ioniq 5
+- [x] Citroën C4 X → on sale ₪129,990 (both sources agree)
+
+## Queue — seen 2026-11-01, not yet covered
+- [ ] Exeed (new make?) — "Exeed G6" #17 Jan–Sep 2026 (cartube September 2026 sales report); not on the site
+- [ ] Chevrolet Blazer EV (₪389,990, both), Colorado ZR2 (₪433,000, both), Traverse (sources differ), Tahoe / Silverado / Corvette (cartube only)
+- [ ] Toyota ProAce City (cartube 177,990–185,990 vs carzone 180,990–189,990); Genesis GV80 Coupé (₪599,990–725,000, both)
+- [ ] Mercedes C-Class EQ (cartube 429,900–619,900), GLE Coupé, S-Class Maybach, AMG GT 4-door; BMW i5, iX, 8 Series, XM, M2/M3/M4/M5
+- [ ] Renault Trafic / Master, Peugeot Boxer, Fiat Scudo / Ducato, Citroën Jumpy, Opel Combo (commercial, low priority)
+
 ## Queue — used-market models since 2010 still missing (common in Israel)
-- [ ] Mitsubishi Lancer (Wikipedia blocked 2026-10-31), Pajero / Pajero Sport
+- [x] Mitsubishi Lancer, Pajero Sport (2026-11-01)
+- [ ] Mitsubishi Pajero
 - [ ] Chevrolet Cruze J400 (2017–2020 in Israel? carzone lists those model years — verify), Chevrolet Aveo T250 (2010)
-- [ ] Mazda5, Renault Fluence, Scenic / Grand Scenic, Kadjar, Megane E-Tech; Dacia Spring
-- [ ] Opel Insignia, Meriva, Zafira Tourer; Ford C-Max, Mondeo; Honda Accord, Insight; Toyota Verso
-- [ ] Peugeot 508, Partner; Citroën C-Elysée, C5; Skoda Roomster; Seat Altea / Toledo
-- [ ] Suzuki Alto, Splash, Grand Vitara; Daihatsu (Sirion, Terios) — check whether Daihatsu was sold here after 2010; Nissan Tiida, Almera
+- [x] Mazda5, Renault Fluence, Kadjar (2026-11-01)
+- [ ] Renault Scenic / Grand Scenic (Wikipedia has no engine/power data — skipped 2026-11-01), Megane E-Tech; Dacia Spring
+- [x] Opel Insignia, Meriva; Ford C-Max, Mondeo; Honda Accord, Insight; Toyota Verso (2026-11-01)
+- [ ] Opel Zafira Tourer; Mazda5 CR (2010) and Ford C-Max Gen1 (2010) overlap years; Honda Insight Gen3 (Israel?)
+- [x] Peugeot 508 (2026-11-01)
+- [ ] Peugeot Partner; Citroën C-Elysée, C5; Skoda Roomster; Seat Altea / Toledo
+- [x] Suzuki Grand Vitara (2026-11-01)
+- [ ] Suzuki Alto, Splash; Daihatsu (Sirion, Terios) — check whether Daihatsu was sold here after 2010; Nissan Tiida, Almera
 - [ ] Kia Soul, Venga, Ceed JD/CD; Hyundai Getz (pre-2010 end?), ix20
 
 ## Queue — seen 2026-10-31, not yet covered
