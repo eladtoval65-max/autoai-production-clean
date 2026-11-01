@@ -1,6 +1,6 @@
 {
   "make": "fiat",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "doblo": {
       "263": {
@@ -144,7 +144,29 @@
               "url": "https://car-recalls.eu/stellantis-another-engine-fire-risk-kba/"
             }
           }
-        ]
+        ],
+        "engines": [
+          {
+            "name": "1.2 טורבו מיילד-היברידי 110 כ״ס",
+            "pt": "mhev",
+            "hp": 110,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "automobile.at (Motor1) — Tatsächlicher Verbrauch: Fiat Grande Panda Mildhybrid 110 PS e-DCT: 5.00 L/100km (single 360 km Rome–Forlì route test, July 2025)",
+              "url": "https://www.automobile.at/magazine/767311"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 119000,
+          "year": 2026,
+          "note": "רמת גימור אייקון (1.2 מיילד-היברידי, דו-מצמדית 6)",
+          "source": {
+            "title": "auto.co.il — פיאט גרנדה פנדה החדשה בארץ – המחיר החל מ-119,000 שקלים (25.06.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/fiat-grande-panda-2026/"
+          }
+        }
       }
     }
   }
