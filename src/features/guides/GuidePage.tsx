@@ -40,7 +40,7 @@ export function GuidePage() {
       <Body />
       <aside className="mt-10 rounded-2xl bg-ink p-6 text-white">
         <h2 className="text-[1.25rem]">כמה יעלה לכם הרכב שבחרתם?</h2>
-        <p className="mt-1 text-[15px] text-[#c3cbd6]">שש שאלות, ונדרג חדשים ויד שנייה לפי עלות חודשית אמיתית.</p>
+        <p className="mt-1 text-[15px] text-[#c3cbd6]">שבע שאלות, ונדרג חדשים ויד שנייה לפי עלות חודשית אמיתית.</p>
         <Link href="/" className="mt-4 inline-flex min-h-11 items-center rounded-full bg-go px-6 font-bold text-white no-underline">לשאלון</Link>
       </aside>
       <p className="mt-6 text-[14px]"><Link href="/guides">← לכל המדריכים</Link></p>

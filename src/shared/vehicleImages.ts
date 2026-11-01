@@ -125,18 +125,33 @@ export function wikiPhotoFor(name: string, width = 1280): Promise<VehiclePhoto |
   return cache.get(id)!;
 }
 
-/** Wikipedia lead image for any article title (used by the make/model browser). */
+const toPhoto = (page: any): VehiclePhoto | null => { // eslint-disable-line @typescript-eslint/no-explicit-any
+  const src = page?.thumbnail?.source, file = page?.pageimage;
+  if (!src || !file || /\.svg/i.test(file)) return null;
+  return { src, file, credit: `https://en.wikipedia.org/wiki/File:${encodeURIComponent(file)}` };
+};
+const API = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&prop=pageimages&piprop=thumbnail%7Cname&pilicense=free";
+
+/**
+ * Wikipedia lead image for an article title (used by the make/model browser and as the questionnaire fallback).
+ * When the exact title has no article/image (names differ: "Kia Ceed" vs "Kia Cee'd"), falls back to Wikipedia's
+ * own search for "<title> car" and takes the best match — so far fewer cars end up without a photo.
+ */
 export function wikiPhotoByTitle(title: string, width = 960): Promise<VehiclePhoto | null> {
   const id = `${title}|${width}`;
   if (typeof fetch === "undefined") return Promise.resolve(null);
   if (!cache.has(id)) {
-    const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&redirects=1&prop=pageimages&piprop=thumbnail%7Cname&pilicense=free&pithumbsize=${width}&titles=${encodeURIComponent(title)}`;
-    cache.set(id, fetch(url).then((r) => (r.ok ? r.json() : null)).then((d: any) => {
-      const page = d?.query?.pages?.[0];
-      const src = page?.thumbnail?.source, file = page?.pageimage;
-      if (!src || !file || /\.svg/i.test(file)) return null;
-      return { src, file, credit: `https://en.wikipedia.org/wiki/File:${encodeURIComponent(file)}` };
-    }).catch(() => null));
+    const get = (url: string) => fetch(url).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    cache.set(id, get(`${API}&redirects=1&pithumbsize=${width}&titles=${encodeURIComponent(title)}`)
+      .then((d) => toPhoto(d?.query?.pages?.[0])
+        ?? get(`${API}&pithumbsize=${width}&generator=search&gsrlimit=1&gsrnamespace=0&gsrsearch=${encodeURIComponent(`${title} car`)}`)
+          .then((s) => {
+            // Only accept a search hit whose article title names the same model (never show a different car).
+            const page = s?.query?.pages?.[0];
+            const flat = (x: string) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+            const model = flat(title.split(" ").slice(1).join(" "));
+            return page && model && flat(page.title ?? "").includes(model) ? toPhoto(page) : null;
+          })));
   }
   return cache.get(id)!;
 }

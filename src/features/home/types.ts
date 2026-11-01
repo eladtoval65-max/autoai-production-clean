@@ -34,14 +34,15 @@ export type Car = {
 /** A car with its match score for the current answers (0–100). */
 export type Ranked = Car & { match: number };
 
-export type StepKey = "condition" | "budget" | "use" | "priority" | "fuel" | "annualKm";
+export type StepKey = "condition" | "budget" | "driver" | "use" | "priority" | "fuel" | "annualKm";
+export type Driver = "young" | "new" | "experienced";
 export type Condition = "new" | "used" | "any";
 export type MultiKey = "use" | "priority" | "fuel";
 export type QuizMode = "quick" | "full";
 
 /** Questionnaire answers. use/priority/fuel allow several choices. */
 export type Answers = {
-  condition: Condition; budget: number; use: string[]; priority: string[]; fuel: string[]; family: string;
+  condition: Condition; budget: number; driver: Driver; use: string[]; priority: string[]; fuel: string[]; family: string;
   annualKm: number; annualKmBand: "low" | "mid" | "high";
 };
 

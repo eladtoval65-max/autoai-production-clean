@@ -27,3 +27,17 @@ describe("expanded questionnaire catalog", () => {
     if (a != null && b != null) expect(a).toBeLessThan(b);
   });
 });
+
+import { withDriver } from "../features/home/model/driver";
+
+describe("driver profile", () => {
+  it("raises only insurance (and the totals by the same amount) for young drivers", () => {
+    const car = staticCars[0];
+    const young = withDriver(car, "young");
+    const b = car.bands![15000], y = young.bands![15000];
+    expect(y.insurance).toBe(Math.round(b.insurance * 1.8));
+    expect(y.total - b.total).toBe(Math.round(b.insurance * 0.8));
+    expect(y.fuel).toBe(b.fuel);
+    expect(withDriver(car, "experienced")).toBe(car);
+  });
+});

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useLang } from "../i18n";
-import { photoFor, wikiPhotoFor, type VehiclePhoto } from "../vehicleImages";
+import { photoFor, wikiPhotoByTitle, wikiPhotoFor, type VehiclePhoto } from "../vehicleImages";
 import { shortName } from "../format";
 
 /**
  * Car photo with graceful fallbacks:
- *   1. the model's Wikipedia lead image (curated by editors, reliably shows the car),
+ *   1. the model's Wikipedia lead image (curated mapping, else the car's own article / Wikipedia search),
  *   2. a pinned Wikimedia Commons file,
  *   3. a neutral placeholder (optionally labelled with the car name).
  * Every photo carries a credit link to its licence page.
@@ -18,7 +18,9 @@ export function CarPhoto({ name, className = "", eager, width, label = false }: 
   useEffect(() => {
     let live = true;
     setWiki(undefined); setStage(0);
-    wikiPhotoFor(name, width).then((p) => { if (live) setWiki(p); });
+    // Curated mapping first; otherwise the car's own Wikipedia article (any model on the site), with search fallback.
+    wikiPhotoFor(name, width).then((p) => p ?? (photoFor(name, width) ? null : wikiPhotoByTitle(name.split(" · ")[0].replace(/\s+(Hybrid|PHEV|EV|Electric)$/i, ""), width)))
+      .then((p) => { if (live) setWiki(p); });
     return () => { live = false; };
   }, [name, width]);
 

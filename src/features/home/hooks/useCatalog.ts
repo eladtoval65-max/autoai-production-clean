@@ -11,16 +11,17 @@ import { useFacts } from "../../../data/useFacts";
 import type { Answers, Car } from "../types";
 import { staticCars } from "../model/catalog";
 import { newFromModels, usedFromGenerations } from "../model/expandedCatalog";
+import { withDriver } from "../model/driver";
 
 
-export function useCatalog(answers: Pick<Answers, "condition" | "budget">): Car[] {
-  const { condition, budget } = answers;
+export function useCatalog(answers: Pick<Answers, "condition" | "budget" | "driver">): Car[] {
+  const { condition, budget, driver } = answers;
   // Sourced facts (launch prices, consumption, issues) load in the background; candidates are rebuilt when they arrive.
   const { version } = useFacts();
   const newCars = useMemo<Car[]>(() => [...staticCars, ...newFromModels(staticCars)], [version]); // eslint-disable-line react-hooks/exhaustive-deps
   return useMemo<Car[]>(() => {
-    if (condition === "new") return newCars;
-    const used = usedFromGenerations(budget);
-    return condition === "used" ? used : [...newCars, ...used];
-  }, [condition, budget, newCars]);
+    const used = condition === "new" ? [] : usedFromGenerations(budget);
+    const cars = condition === "new" ? newCars : condition === "used" ? used : [...newCars, ...used];
+    return cars.map((c) => withDriver(c, driver)); // young / new drivers pay more for insurance
+  }, [condition, budget, driver, newCars]);
 }

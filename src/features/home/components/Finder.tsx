@@ -3,6 +3,7 @@ import { useLang } from "../../../shared/i18n";
 import { btnPrimary, card } from "../../../shared/styles";
 import type { Quiz } from "../hooks/useQuiz";
 import { budgetChoices, CHOICES, MULTI_STEPS } from "../model/questions";
+import { BudgetSlider } from "./BudgetSlider";
 import type { MultiKey, StepKey } from "../types";
 import { ChoiceOption } from "./ChoiceOption";
 
@@ -37,9 +38,9 @@ function FinderQuestion({ quiz, stepKey }: { quiz: Quiz; stepKey: StepKey }) {
   const { t, dir } = useLang();
   const { answers, step, setStep, chooseSingle, toggleMulti, continueMulti } = quiz;
   const multi = MULTI_STEPS.has(stepKey);
-  const titles: Record<StepKey, string> = { condition: t.qCondition, budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
-  const hint = multi ? t.pickMany : stepKey === "budget" ? t.hintBudget : stepKey === "annualKm" ? t.hintKm : t.hintDefault;
-  const selected: string[] = multi ? answers[stepKey as MultiKey] : [String(stepKey === "annualKm" ? answers.annualKmBand : stepKey === "condition" ? answers.condition : answers.budget)];
+  const titles: Record<StepKey, string> = { condition: t.qCondition, driver: t.qDriver, budget: t.qBudget, use: t.qUse, priority: t.qPriority, fuel: t.qFuel, annualKm: t.qKm };
+  const hint = multi ? t.pickMany : stepKey === "budget" ? t.hintBudget : stepKey === "driver" ? t.hintDriver : stepKey === "annualKm" ? t.hintKm : t.hintDefault;
+  const selected: string[] = multi ? answers[stepKey as MultiKey] : [String(stepKey === "annualKm" ? answers.annualKmBand : stepKey === "condition" ? answers.condition : stepKey === "driver" ? answers.driver : answers.budget)];
   const Arrow = dir === "rtl" ? ArrowLeft : ArrowRight;
   const options = stepKey === "budget" ? budgetChoices(answers.condition) : CHOICES[stepKey];
 
@@ -53,11 +54,12 @@ function FinderQuestion({ quiz, stepKey }: { quiz: Quiz; stepKey: StepKey }) {
           return (
             <li key={v}>
               <ChoiceOption choice={c} multi={multi} active={selected.includes(v)}
-                onSelect={() => (multi ? toggleMulti(stepKey as MultiKey, v) : chooseSingle(stepKey as "condition" | "budget" | "annualKm", c.value))} />
+                onSelect={() => (multi ? toggleMulti(stepKey as MultiKey, v) : chooseSingle(stepKey as "condition" | "budget" | "driver" | "annualKm", c.value))} />
             </li>
           );
         })}
       </ul>
+      {stepKey === "budget" && <BudgetSlider key={answers.condition} condition={answers.condition} budget={answers.budget} onChoose={(v) => chooseSingle("budget", v)} />}
       <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
         {step > 0 ? <button onClick={() => setStep(step - 1)} className="min-h-11 rounded-full px-3 text-[15px] font-bold text-muted hover:text-ink">{t.back}</button> : <span />}
         {multi && (

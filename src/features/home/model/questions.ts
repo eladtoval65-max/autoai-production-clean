@@ -1,18 +1,18 @@
 /**
  * The questionnaire: step order, defaults and the answer options (Hebrew + English).
  */
-import { BatteryCharging, Building2, CircleDashed, Repeat, Sparkles, Fuel, Gauge, MapPin, Milestone, PlugZap, Route, ShieldCheck, Sofa, Users, Wrench } from "lucide-react";
+import { BatteryCharging, Building2, CircleDashed, Repeat, Sparkles, UserCheck, UserRound, Fuel, Gauge, MapPin, Milestone, PlugZap, Route, ShieldCheck, Sofa, Users, Wrench } from "lucide-react";
 import type { Answers, Choice, StepKey } from "../types";
 
 /** Full (5 steps) and quick (3 steps) question orders. */
-export const FULL_STEPS: StepKey[] = ["condition", "budget", "use", "priority", "fuel", "annualKm"];
-export const QUICK_STEPS: StepKey[] = ["condition", "budget", "use", "fuel"];
+export const FULL_STEPS: StepKey[] = ["condition", "budget", "driver", "use", "priority", "fuel", "annualKm"];
+export const QUICK_STEPS: StepKey[] = ["condition", "budget", "driver", "use", "fuel"];
 
 /** Steps where several answers can be picked, followed by an explicit "Continue". */
 export const MULTI_STEPS = new Set<StepKey>(["use", "priority", "fuel"]);
 
 /** Starting answers (mid budget, 15,000 km/yr). */
-export const EMPTY_ANSWERS: Answers = { condition: "any", budget: 180000, use: [], priority: [], fuel: [], family: "", annualKm: 15000, annualKmBand: "mid" };
+export const EMPTY_ANSWERS: Answers = { condition: "any", budget: 180000, driver: "experienced", use: [], priority: [], fuel: [], family: "", annualKm: 15000, annualKmBand: "mid" };
 
 /** Yearly km used for each mileage band. */
 export const KM_FOR_BAND = { low: 7000, mid: 15000, high: 25000 } as const;
@@ -34,6 +34,11 @@ export function budgetChoices(condition: Answers["condition"]): Choice[] {
 
 /** Answer options per step. Budget brackets match today's new-car list prices. */
 export const CHOICES: Record<StepKey, Choice[]> = {
+  driver: [
+    { value: "young", icon: UserRound, he: ["נהג/ת צעיר/ה או חדש/ה", "מתחת לגיל 24, או רישיון פחות משנתיים"], en: ["Young or new driver", "Under 24, or licence under 2 years"] },
+    { value: "new", icon: UserCheck, he: ["ותק של 2–5 שנים", "גיל 24 ומעלה"], en: ["2–5 years licensed", "Age 24+"] },
+    { value: "experienced", icon: ShieldCheck, he: ["נהג/ת ותיק/ה", "יותר מ־5 שנות ותק"], en: ["Experienced driver", "Over 5 years licensed"] },
+  ],
   condition: [
     { value: "used", icon: Repeat, he: ["יד שנייה", "כל הדגמים מ־2012, במחיר משוער לפי שנה"], en: ["Used", "Every model since 2012 at an estimated price"] },
     { value: "new", icon: Sparkles, he: ["חדש", "לפי מחירון היבואנים היום"], en: ["New", "By today's importer list prices"] },
