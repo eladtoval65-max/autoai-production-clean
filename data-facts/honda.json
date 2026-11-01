@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-10-25",
+  "updated": "2026-11-01",
   "models": {
     "jazz": {
       "GK": {
@@ -518,6 +518,138 @@
             }
           }
         ]
+      }
+    },
+    "accord": {
+      "דור 8 (אירופה)": {
+        "issues": [
+          {
+            "he": "קריאת שירות (טאקאטה): המנפח של כרית האוויר של הנוסע הקדמי עלול להתפוצץ ולפזר רסיסי מתכת. בבדיקה: לוודא לפי מספר שלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "ייצור 7/2008–1/2010",
+            "source": {
+              "title": "car-recalls.eu — Honda Accord (2008–2010) passenger airbag inflator, RAPEX A12/0324/17",
+              "url": "https://car-recalls.eu/recall/honda-accord-2008-2010/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות (טאקאטה): פגם במחולל הגז של כרית הנוסע הקדמי. בבדיקה: לוודא שהתיקון בוצע (קודי קריאה 6CD/6DD/6ED).",
+            "level": "recall",
+            "scope": "2010–2015",
+            "source": {
+              "title": "car-recalls.eu — Honda Accord (2010–2015) airbag, RAPEX A12/0063/19",
+              "url": "https://car-recalls.eu/listing/honda-accord-2010-2015/"
+            }
+          },
+          {
+            "he": "רפידות הבלמים הקדמיות המקוריות חורקות, ויש רעידות בבלימה; התיקון היה רפידות משופרות. בבדיקה: בלימות בנסיעת המבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Honda CU2 Accord Euro 2008–15",
+              "url": "https://australiancar.reviews/recalls-faults-honda-cu2-accord-euro-2008-15/"
+            }
+          },
+          {
+            "he": "התלונות העיקריות הן על תא הנוסעים: חריקות בדיפון ותקלות ברדיו ובבלוטות׳. בבדיקה: לחבר טלפון ולהקשיב לרעשים בכביש משובש.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Honda Accord Tourer 2008–2015 reliability review",
+              "url": "https://www.whatcar.com/honda/accord/estate/used-review/n368/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין (ממוצע כל מנועי הבנזין)",
+            "pt": "petrol",
+            "cons": 8.85,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Honda Accord, gasoline, whole-model average all generations and engines (1,023 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/18-Honda/167-Accord.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://www.autozine.nl/honda/accord/news/5-sterren-bij-euroncap-voor-honda-accord"
+        },
+        "launchPrice": {
+          "ils": 169000,
+          "year": 2008,
+          "note": "Comfort, 2.0 i-VTEC 156 כ״ס (2.4 Executive: 238,000 ₪)",
+          "source": {
+            "title": "וואלה! רכב — מחירי הונדה אקורד החדשה (21.4.2008)",
+            "url": "https://cars.walla.co.il/item/1268734"
+          }
+        }
+      }
+    },
+    "insight": {
+      "ZE2": {
+        "issues": [
+          {
+            "he": "קריאת שירות (טאקאטה): פגם במחולל הגז של כרית האוויר של הנוסע הקדמי. בבדיקה: לוודא לפי מספר שלדה שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "2010–2015",
+            "source": {
+              "title": "car-recalls.eu — Honda Accord/City/Civic/CR-V/Jazz/Insight (2010–2015) airbag, RAPEX A12/0063/19",
+              "url": "https://car-recalls.eu/listing/honda-accord-2010-2015/"
+            }
+          },
+          {
+            "he": "רעידות או גמגום בהאצה יכולים להעיד על בעיה בתיבה, במצמד או בסליל הצתה. בבדיקה: בדיקה אצל טכנאי שמכיר היברידיות של הונדה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "autoTRADER.ca — Used Vehicle Review: Honda Insight, 2010–2012",
+              "url": "https://editorialsui.autotrader.ca/editorial/20170518/used-vehicle-review-honda-insight-2010-2012"
+            }
+          },
+          {
+            "he": "תיבת ה-CVT רגישה ובהרבה רכבים לא הוחלף השמן שלה. בבדיקה: לוודא בספר הטיפולים שהשמן הוחלף.",
+            "level": "widely_reported",
+            "source": {
+              "title": "autoTRADER.ca — Used Vehicle Review: Honda Insight, 2010–2012",
+              "url": "https://editorialsui.autotrader.ca/editorial/20170518/used-vehicle-review-honda-insight-2010-2012"
+            }
+          },
+          {
+            "he": "מצבר 12V ישן גורם לתקלות חשמל לסירוגין, והשבתה ארוכה מקצרת את חיי סוללת ההנעה. בבדיקה: לבדוק את המצבר ושהרכב נסע באופן קבוע.",
+            "level": "widely_reported",
+            "source": {
+              "title": "autoTRADER.ca — Used Vehicle Review: Honda Insight, 2010–2012",
+              "url": "https://editorialsui.autotrader.ca/editorial/20170518/used-vehicle-review-honda-insight-2010-2012"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.3 היברידי 98 כ״ס",
+            "pt": "hybrid",
+            "hp": 98,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — 2010 Honda Insight 1.3 hybrid CVT, owner-reported average 45.44 US mpg (≈5.2 L/100km)",
+              "url": "https://www.truedelta.com/Honda-Insight/mpg-112/2010"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.autozine.nl/honda/insight/news/5-sterren-voor-honda-insight-op-euroncap"
+        },
+        "launchPrice": {
+          "ils": 130000,
+          "year": 2009,
+          "note": "גרסת בסיס",
+          "source": {
+            "title": "וואלה! רכב — השקת הונדה אינסייט בישראל (7.4.2009)",
+            "url": "https://cars.walla.co.il/item/1465440"
+          }
+        }
       }
     }
   }

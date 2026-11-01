@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "clio": {
       "Clio IV": {
@@ -613,6 +613,112 @@
             }
           }
         ]
+      }
+    },
+    "fluence": {
+      "L38": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ייתכן שברגי הגלגלים לא הודקו מספיק, וגלגל עלול להשתחרר. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 1.4.2015–6.11.2015",
+            "source": {
+              "title": "car-recalls.eu — Renault Fluence (2015), RAPEX A12/0087/16",
+              "url": "https://car-recalls.eu/recall/renault-fluence-2015/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בורג נושא הרכזת בציר האחורי לא הודק כראוי, והגלגל עלול להשתחרר. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 1.2.2016–17.2.2016",
+            "source": {
+              "title": "car-recalls.eu — Renault Fluence (2016), RAPEX A12/1664/16",
+              "url": "https://car-recalls.eu/recall/renault-fluence-2016/"
+            }
+          },
+          {
+            "he": "התיבה האוטומטית 4 הילוכים (DP0/AL4) ידועה כבעייתית: סולנואיד שכושל בתיבה חמה ותקלות אלקטרוניקה. בבדיקה: העברות חלקות כשהתיבה חמה, אין נורת תקלה, והיסטוריית טיפולים בתיבה.",
+            "level": "widely_reported",
+            "scope": "1.6 עם אוטומטית 4 הילוכים",
+            "source": {
+              "title": "Za Rulem (zr.ru) — Названа самая проблемная АКП (AL4/DP0)",
+              "url": "https://www.zr.ru/content/articles/937809-nazvan-samyj-problemnyj-avtoma/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 118000,
+          "year": 2010,
+          "note": "1.6 110 כ״ס אוטומטית, Authentique (Expression: 125,000 ₪); הוכרז 27.12.2009",
+          "source": {
+            "title": "auto.co.il — רנו פלואנס ומגאן בארץ (27.12.2009)",
+            "url": "https://www.auto.co.il/articles/car-news/119062/"
+          }
+        }
+      }
+    },
+    "kadjar": {
+      "HA/HL": {
+        "issues": [
+          {
+            "he": "קריאת שירות: קבלים בלוח הבקרה של מאוורר הקירור עלולים להתחמם, עם תקלה במאוורר וסיכון לשריפה. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דיזל 1.5/1.6 dCi, ייצור 13.9.2018–15.11.2018",
+            "source": {
+              "title": "car-recalls.eu — Renault Kadjar (2018), RAPEX A12/0556/19",
+              "url": "https://car-recalls.eu/recall/renault-kadjar-2018/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מחשב כריות האוויר עלול לפרש לא נכון את חיישני הצד, וכריות הצד עלולות לא להיפתח כנדרש. בבדיקה: לוודא שעודכן במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "ייצור 1.7.2015–31.3.2016",
+            "source": {
+              "title": "car-recalls.eu — Renault Kadjar common problems & recalls (UK recall 04/08/2018)",
+              "url": "https://car-recalls.eu/common-problems/%20renault/kadjar/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נעילת הילדים בדלתות האחוריות עלולה להשתחרר. בבדיקה: להפעיל ולוודא שהיא נשארת נעולה, ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 29.6.2015–2.3.2018",
+            "source": {
+              "title": "car-recalls.eu — Renault Kadjar common problems & recalls (child lock, 2020)",
+              "url": "https://car-recalls.eu/common-problems/%20renault/kadjar/"
+            }
+          },
+          {
+            "he": "מנוע 1.2 TCe ידוע בצריכת שמן מוגברת שעלולה לגרום לנזק חמור למנוע, לפעמים בלי נורת אזהרה. בבדיקה: מפלס שמן, עשן כחול, והאם בוצע טיפול של רנו בנושא.",
+            "level": "widely_reported",
+            "scope": "1.2 TCe 130, מנועים מ-10/2012 עד 7/2016",
+            "source": {
+              "title": "UFC-Que Choisir — Moteur 1.2 Renault, 400 000 voitures en danger (24.5.2019)",
+              "url": "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
+            }
+          },
+          {
+            "he": "בעלים מדווחים על תקלות קטנות במולטימדיה ובניהול המצבר. בבדיקה: לוודא שהתוכנה עודכנה ולבדוק את המצבר.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Renault Kadjar 2015-2022 reliability",
+              "url": "https://www.whatcar.com/renault/kadjar/hatchback/used-review/n802/reliability"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show"
+        },
+        "launchPrice": {
+          "ils": 140000,
+          "year": 2016,
+          "note": "Life בנזין (דיזל Life: 145,000 ₪)",
+          "source": {
+            "title": "auto.co.il — רנו קדג'אר בישראל - מ-140,000 שקל (9.5.2016)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/110487/"
+          }
+        }
       }
     }
   }

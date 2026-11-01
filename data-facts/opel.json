@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -647,6 +647,185 @@
           "source": {
             "title": "carzone — אופל פרונטרה החדשה 2025 שוברת את שוק ה-7 מושבים",
             "url": "https://www.carzone.co.il/news/2025-אופל-פרונטרה-החדשה-שוברת-את-שוק-ה-7-מושבים/"
+          }
+        }
+      }
+    },
+    "meriva": {
+      "B": {
+        "issues": [
+          {
+            "he": "חיישן מיקום דוושת התאוצה עלול לכשול: נורת מנוע (P2138) ואובדן כוח לסירוגין. בבדיקה: סריקת תקלות ותגובה חלקה של הדוושה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Vauxhall Meriva common problems (2010-2017)",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/vauxhall-meriva-common-problems-2010-2017"
+            }
+          },
+          {
+            "he": "דליפת שמן בין המנוע לתיבה בגלל הברגה לקויה בגלגל התנופה. בבדיקה: לחפש כתמי שמן מתחת לרכב.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Vauxhall Meriva common problems (2010-2017)",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/vauxhall-meriva-common-problems-2010-2017"
+            }
+          },
+          {
+            "he": "תקלה במשאבת ההגה החשמלית עלולה למנוע התנעה בלי נורות אזהרה. בבדיקה: כמה התנעות ובדיקת רעשים בהגה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Vauxhall Meriva common problems (2010-2017)",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/vauxhall-meriva-common-problems-2010-2017"
+            }
+          },
+          {
+            "he": "אורות היום הקדמיים כושלים (תיקון: החלפת פנס), ונקישות מלפנים מגומי מוט המייצב. בבדיקה: אורות היום ורעשים על מהמורות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Vauxhall Meriva common problems (2010-2017)",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/vauxhall-meriva-common-problems-2010-2017"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03"
+        }
+      }
+    },
+    "insignia": {
+      "A": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מוטות ההיגוי האחוריים עלולים להישבר בגלל קורוזיה ולפגוע ביציבות. בבדיקה: לוודא לפי מספר שלדה שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 12/2007–7/2013",
+            "source": {
+              "title": "car-recalls.eu — Opel Insignia (2007–2013) rear track rods, RAPEX A12/00328/22, Opel 20-P-143",
+              "url": "https://car-recalls.eu/recall/opel-insignia-2007-rear-track-rods/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מודול כרית האוויר של הנהג עלול להשתחרר מהתושבת. בבדיקה: לוודא שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור לפני 11/2010",
+            "source": {
+              "title": "What Car? — Used Vauxhall Insignia Hatchback 2008–2017 reliability",
+              "url": "https://whatcar.com/vauxhall/insignia/hatchback/used-review/n688/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות (סטיישן): בולם הגז של דלת תא המטען עלול להיחלש והדלת תיפול. בבדיקה: לפתוח עד הסוף ולוודא שהדלת נשארת למעלה.",
+            "level": "recall",
+            "scope": "ספורטס טורר, ייצור 7/2008–3/2015",
+            "source": {
+              "title": "What Car? — Used Vauxhall Insignia Hatchback 2008–2017 reliability",
+              "url": "https://whatcar.com/vauxhall/insignia/hatchback/used-review/n688/advice"
+            }
+          },
+          {
+            "he": "בדיזל מסנן החלקיקים (DPF) נסתם בנסיעה עירונית, וגלגל התנופה הדו-מסתי יקר לתיקון. בבדיקה: נורת DPF, ורעידות במצמד ביציאה מעמידה.",
+            "level": "widely_reported",
+            "scope": "2.0 CDTI",
+            "source": {
+              "title": "What Car? — Used Vauxhall Insignia Hatchback 2008–2017 reliability",
+              "url": "https://whatcar.com/vauxhall/insignia/hatchback/used-review/n688/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין (ממוצע כל מנועי הבנזין)",
+            "pt": "petrol",
+            "cons": 9.75,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Opel Insignia, gasoline, whole-model average all years/engines (677 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/35-Opel/1117-Insignia.html?page=137&sort=4&powerunit=2"
+            }
+          },
+          {
+            "name": "2.0 טורבו דיזל (ממוצע כל מנועי הדיזל)",
+            "pt": "diesel",
+            "cons": 6.83,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Opel Insignia, diesel, whole-model average all years/engines (1,752 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/35-Opel/1117-Insignia.html?page=137&sort=4&powerunit=2"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://www.autozine.nl/opel/insignia-2008-2017/news/5-sterren-voor-opel-insignia-crashtest"
+        }
+      },
+      "B": {
+        "issues": [
+          {
+            "he": "קריאת שירות: איבוד ואקום בווסת לחץ הבלמים עלול למנוע בלימת חירום אוטומטית ולהאריך את מרחק הבלימה. בבדיקה: לוודא לפי מספר שלדה שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 6/2016–10/2020",
+            "source": {
+              "title": "car-recalls.eu — Opel Insignia (2016–2020) hydraulic brake failure, RAPEX A11/00030/23",
+              "url": "https://car-recalls.eu/recall/opel-insignia-2016-2020-hydraulic-brake-failure/"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינור החזרת שמן המנוע עלול להיסדק ולדלוף על הפליטה החמה, עם סכנת שריפה. בבדיקה: לוודא שהתיקון בוצע ולחפש סימני דליפה.",
+            "level": "recall",
+            "scope": "ייצור 5/2017–2/2019",
+            "source": {
+              "title": "car-recalls.eu — Opel Insignia (2017–2019) oil return pipe, RAPEX A12/00349/20",
+              "url": "https://car-recalls.eu/recall/opel-insignia-2017-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: לחות ביחידת הנעילה המרכזית עלולה לגרום לקצר ולסכנת שריפה. בבדיקה: לוודא שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 2/2017–3/2018",
+            "source": {
+              "title": "car-recalls.eu — Opel Insignia B (2017–2018) central locking unit, RAPEX A12/1297/18",
+              "url": "https://car-recalls.eu/listing/opel-insignia-b-2017-2018/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין טורבו (ממוצע כל מנועי הבנזין)",
+            "pt": "petrol",
+            "cons": 8.27,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Opel Insignia Grand Sport, gasoline, model average all petrol engines (83 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/35-Opel/1716-Insignia_Grand_Sport.html"
+            }
+          },
+          {
+            "name": "טורבו דיזל (ממוצע כל מנועי הדיזל)",
+            "pt": "diesel",
+            "cons": 6.52,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Opel Insignia Grand Sport, diesel, model average all diesel engines (71 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/35-Opel/1716-Insignia_Grand_Sport.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.autozine.nl/opel/insignia/nieuws/vijf-euroncap-sterren-voor-opel-insignia"
+        },
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2017,
+          "note": "Enjoy, 1.5 טורבו 165 כ״ס אוטומטית",
+          "source": {
+            "title": "Cartube — אופל אינסיגניה החדשה 2018 בישראל, מחיר 169,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/אופל-אינסיגניה-החדשה-2018-בישראל-מחיר-169900-שקל"
           }
         }
       }

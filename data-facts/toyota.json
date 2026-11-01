@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "corolla": {
       "E150": {
@@ -1569,6 +1569,62 @@
             }
           }
         ]
+      }
+    },
+    "verso": {
+      "AR20": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שמן עלול לעבור מהטורבו לתא הבעירה ולגרום נזק למנוע ובמקרים קיצוניים לשריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דיזל, ייצור 8/2010–7/2013 (בריטניה)",
+            "source": {
+              "title": "Regit (DVSA data) — Toyota Verso recalls, R/2014/160",
+              "url": "https://www.regit.cars/recalls/toyota-verso-"
+            }
+          },
+          {
+            "he": "קריאת שירות: דליפה פנימית במצנן ה-EGR עלולה לגרום לאובדן כוח ולסכנת שריפה ביניקה. בבדיקה: לוודא שהקריאה בוצעה במוסך מורשה.",
+            "level": "recall",
+            "scope": "ייצור 3/2015–11/2017",
+            "source": {
+              "title": "car-recalls.eu — Toyota Verso (2015–2017) EGR fire, 21SMD-029",
+              "url": "https://car-recalls.eu/recall/toyota-verso-2015-2017-egr-fire/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות: לחות ביחידת הבקרה של ההגה החשמלי עלולה לגרום לאובדן סיוע ההגה. בבדיקה: לוודא שהיחידה הוחלפה ושאין נורית אזהרה.",
+            "level": "recall",
+            "scope": "ייצור 8/2010–8/2011 (בריטניה)",
+            "source": {
+              "title": "Regit (DVSA data) — Toyota Verso recalls, R/2013/078",
+              "url": "https://www.regit.cars/recalls/toyota-verso-"
+            }
+          },
+          {
+            "he": "קריאת שירות: קורוזיה במיסב גוף המצערת עלולה לגרום לכיבוי המנוע. בבדיקה: לוודא שגוף המצערת הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 1/2014–1/2015 (בריטניה)",
+            "source": {
+              "title": "Regit (DVSA data) — Toyota Verso recalls, R/2016/013",
+              "url": "https://www.regit.cars/recalls/toyota-verso-"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/fewer-winners-drive-out-in-latest-results"
+        },
+        "launchPrice": {
+          "ils": 156000,
+          "year": 2009,
+          "note": "GLI, 1.8 בנזין 152 כ״ס, CVT",
+          "source": {
+            "title": "icar — טויוטה ורסו החדשה בישראל (15.07.2009)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94_%D7%95%D7%A8%D7%A1%D7%95_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+          }
+        }
       }
     }
   }

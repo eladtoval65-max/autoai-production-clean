@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-10-30",
+  "updated": "2026-11-01",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -392,6 +392,141 @@
             "source": {
               "title": "Cars.co.za — Eclipse Cross 1.5 Turbo GLS (2020) review, test average 8.7 L/100km (110 kW version)",
               "url": "https://www.cars.co.za/motoring-news/mitsubishi-eclipse-cross-15-turbo-gls-2020-review/20697/"
+            }
+          }
+        ]
+      }
+    },
+    "lancer": {
+      "דור 9": {
+        "issues": [
+          {
+            "he": "קריאת שירות: המותחן האוטומטי של רצועת האביזרים עלול להיסדק, הרצועה נופלת, ההגה מתכבד, המצבר מתרוקן והמנוע עלול להתחמם. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2008–2012",
+            "source": {
+              "title": "car-recalls.eu — Mitsubishi Lancer (2008 – 2012), R30355 / RAPEX 46/2018",
+              "url": "https://car-recalls.eu/recall/mitsubishi-lancer-2008-2012/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ממסר במחשב המנוע עלול להתחמם, והמנוע עלול לכבות בנסיעה. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2015–2016",
+            "source": {
+              "title": "car-recalls.eu — Mitsubishi Lancer (2015 – 2016), ENL-18-021-SR / RAPEX 40/2018",
+              "url": "https://car-recalls.eu/recall/mitsubishi-lancer-2015-2016/"
+            }
+          },
+          {
+            "he": "תיבת CVT: מדווחים על העברות מקרטעות, רעידות בזינוק ותגובה מאוחרת; חלק נפתרו בעדכון תוכנה. בבדיקה: נסיעת מבחן, ולוודא שהשמן הוחלף בנוזל המקורי.",
+            "level": "widely_reported",
+            "scope": "CVT",
+            "source": {
+              "title": "AutoTrader.ca — Used Vehicle Review: Mitsubishi Lancer, 2008-2017",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/mitsubishi/lancer/used-vehicle-review-mitsubishi-lancer-2008-2017/"
+            }
+          },
+          {
+            "he": "צבע דק שנשרט בקלות, ועלולה להופיע חלודה. בבדיקה: שפת מכסה המנוע, תחתית הדלתות, הכנפיים והספים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoTrader.ca — Used Vehicle Review: Mitsubishi Lancer, 2008-2017",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/mitsubishi/lancer/used-vehicle-review-mitsubishi-lancer-2008-2017/"
+            }
+          },
+          {
+            "he": "תקלות במודול ה-ABS: נורית ABS נדלקת והמערכת מפסיקה לפעול. בבדיקה: לוודא שנורית ה-ABS כבויה בנסיעת המבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarsGuide — Used Mitsubishi Lancer review: 2007-2014",
+              "url": "https://carsguide.com.au/car-reviews/mitsubishi-lancer-used-review-2007-2014-47123"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7500/euroncap_mitsubishi_lancer_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 122000,
+          "year": 2008,
+          "note": "מחיר פתיחה בהשקת הדור בישראל, 1.8 (רמת גימור לא צוינה)",
+          "source": {
+            "title": "icar — מיצובישי לאנסר החדשה 2008",
+            "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_לאנסר_החדשה_2008/"
+          }
+        }
+      }
+    },
+    "pajero-sport": {
+      "KG/KH (דור 2)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הריתוך של זרועות המתלה הקדמיות התחתונות עלול להיכשל, והרכב יאבד יציבות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2010–2012 (קריאה באוסטרליה, שם נקרא Challenger — לבדוק תחולה בישראל)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-001011 / PRA 2013/13839 (Mitsubishi Challenger)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001011"
+            }
+          },
+          {
+            "he": "קריאת שירות: ריתוך לקוי בגל ההנעה הקדמי עלול להיכשל ולפגוע בצינור הדלק. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "4X4 שנת דגם 2012 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mitsubishi Challenger Mk.2 (PRA 2013/13844)",
+              "url": "https://www.australiancar.reviews/?p=47476"
+            }
+          },
+          {
+            "he": "התחממות יתר בימים חמים במנוע 2.5 דיזל; היבואן באוסטרליה התקין מכסה רדיאטור בלחץ גבוה יותר. בבדיקה: לחפש על מכסה הרדיאטור ‎127kPa ולשאול אם הרכב התחמם בעבר.",
+            "level": "manufacturer",
+            "scope": "2.5 דיזל (4D56)",
+            "source": {
+              "title": "CarsGuide — Used Mitsubishi Challenger review: 2009-2015",
+              "url": "https://www.carsguide.com.au/node/76115"
+            }
+          },
+          {
+            "he": "פיח מצטבר בסעפת היניקה ובשסתום ה-EGR, בעיקר בנסיעה עירונית, והמזרקים יקרים להחלפה. בבדיקה: לשאול על החלפת מזרקים ולוודא שרצועת התזמון הוחלפה.",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "CarsGuide — Used Mitsubishi Challenger review: 2009-2015",
+              "url": "https://www.carsguide.com.au/node/76115"
+            }
+          }
+        ]
+      },
+      "KR/KS (דור 3)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הברגים של וו הגרירה המקורי עלולים להשתחרר. בבדיקה: אם מותקן וו גרירה מקורי, לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2016, וו גרירה מקורי (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mitsubishi QE Pajero Sport (PRA 2016/15281)",
+              "url": "https://australiancar.reviews/?p=47509"
+            }
+          },
+          {
+            "he": "קריאת שירות: חסר ציפוי נגד קורוזיה בבוכנות דלת תא המטען, והדלת עלולה ליפול. בבדיקה: לוודא שהקריאה בוצעה ושהדלת נשארת פתוחה.",
+            "level": "recall",
+            "scope": "שנת דגם 2016 (אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mitsubishi QE Pajero Sport (PRA 2016/15767)",
+              "url": "https://australiancar.reviews/?p=47509"
+            }
+          },
+          {
+            "he": "חריקות מעמוד ההגה הן בעיה מוכרת; ברכב שגרר או נסע בשטח לבדוק החלקת מצמד. בבדיקה: להקשיב לחריקות בסיבוב ההגה ולבדוק את התחתית.",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — Mitsubishi Shogun Sport (2018 - 2021) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/mitsubishi/shogun/shogun-sport-2018-2021/"
             }
           }
         ]

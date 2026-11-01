@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-10-25",
+  "updated": "2026-11-01",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -750,6 +750,154 @@
             }
           }
         ]
+      }
+    },
+    "mondeo": {
+      "Mk IV": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כשחסר נוזל קירור, ראש המנוע עלול להתחמם מקומית ולהיסדק, ודליפת שמן בלחץ עלולה לגרום לשריפה בתא המנוע. בבדיקה: לוודא לפי מספר שלדה אצל היבואן שקריאת השירות 17S09 בוצעה, ולבדוק שמפלס נוזל הקירור תקין.",
+            "level": "recall",
+            "scope": "1.6 אקובוסט, ייצור 4.8.2010–30.6.2014",
+            "source": {
+              "title": "car-recalls.eu — Ford Mondeo (2010–2014) cylinder head crack, Ford 17S09 / RAPEX A12/01371/21",
+              "url": "https://car-recalls.eu/recall/ford-mondeo-2011-cylinder-head-crack/"
+            }
+          },
+          {
+            "he": "קריאת שירות: אחד המזרקים עלול לדלוף דלק, עם סכנת שריפה במנוע. בבדיקה: לוודא אצל היבואן שקריאת השירות בוצעה.",
+            "level": "recall",
+            "scope": "ייצור ינואר 2012–פברואר 2013",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Estate 2007-2015 reliability",
+              "url": "https://whatcar.com/ford/mondeo/estate/used-review/n354/advice"
+            }
+          },
+          {
+            "he": "בדיזל 2.0 דווח על מקרים שהמנוע כבה בלי סיבה נראית לעין; ברוב המקרים עדכון תוכנה למחשב המנוע פותר. בבדיקה: לשאול אם העדכון בוצע ולבצע נסיעת מבחן ארוכה.",
+            "level": "widely_reported",
+            "scope": "2.0 TDCi",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Estate 2007-2015 reliability",
+              "url": "https://whatcar.com/ford/mondeo/estate/used-review/n354/advice"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2007,
+          "url": "https://www.carbuyer.co.uk:443/reviews/ford/mondeo/hatchback/5225/reliability",
+          "note": "מבחן 2007 של הדור לפני מתיחת הפנים"
+        },
+        "launchPrice": {
+          "ils": 161000,
+          "year": 2012,
+          "note": "הגרסה הזולה עם 2.0 טורבו אקובוסט 203 כ״ס וגיר ידני — לא הגרסה הבסיסית של הדור כולו",
+          "source": {
+            "title": "וואלה! רכב — מונדיאו, S-Max וגלקסי עם מנוע 2.0 אקובוסט בישראל (2.1.2012)",
+            "url": "https://cars.walla.co.il/item/1890133"
+          }
+        }
+      },
+      "Mk V": {
+        "issues": [
+          {
+            "he": "קריאת שירות: לוחית הלחץ של המצמד עלולה להישבר. סימנים: ריח שרוף, איבוד מהירות ונקישה חזקה. בבדיקה: לוודא אצל היבואן שהטיפול בוצע.",
+            "level": "recall",
+            "scope": "1.0 ו-1.5 אקובוסט, ייצור 30.6.2016–30.5.2018",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Hatchback 2014-2022 reliability (recalls)",
+              "url": "https://www.whatcar.com/ford/mondeo/hatchback/used-review/n873/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: סכנת שריפה בחיווט של מצבר ה-12 וולט; התיקון הוא רתמת חוטים חדשה עם נתיך. בבדיקה: לוודא שהרתמה הוחלפה.",
+            "level": "recall",
+            "scope": "חלק מהרכבים שיוצרו עד 11.2.2019",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Hatchback 2014-2022 reliability (recalls)",
+              "url": "https://www.whatcar.com/ford/mondeo/hatchback/used-review/n873/advice"
+            }
+          },
+          {
+            "he": "כשהמנוע מתחמם יתר על המידה אגן השמן עלול להיסדק; יש עדכון תוכנה שפותר. בבדיקה: לוודא שהעדכון בוצע ושאין דליפת שמן מתחת למנוע.",
+            "level": "manufacturer",
+            "scope": "ייצור 19.9.2014–28.9.2015",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Hatchback 2014-2022 reliability",
+              "url": "https://www.whatcar.com/ford/mondeo/hatchback/used-review/n873/advice"
+            }
+          },
+          {
+            "he": "המצמד של מדחס המזגן עלול להתקלקל ולדרוש החלפה. בבדיקה: לוודא שהמזגן מקרר היטב ושאין רעש מהמדחס.",
+            "level": "manufacturer",
+            "scope": "ייצור 1.9.2014–20.4.2018",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Hatchback 2014-2022 reliability",
+              "url": "https://www.whatcar.com/ford/mondeo/hatchback/used-review/n873/advice"
+            }
+          },
+          {
+            "he": "בדיזל בעלים מדווחים על תקלות במסנן החלקיקים (DPF), חלקן יקרות. בבדיקה: לוודא שאין נורת אזהרה, ולהעדיף רכב שנסע הרבה בכבישים מהירים.",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "What Car? — Used Ford Mondeo Hatchback 2014-2022 reliability",
+              "url": "https://www.whatcar.com/ford/mondeo/hatchback/used-review/n873/advice"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://media.ford.com/content/fordmedia/feu/en/news/2014/12/03/all-new-ford-mondeo-achieves-maximum-5-star-euro-ncap-safety-rat.html"
+        }
+      }
+    },
+    "c-max": {
+      "דור 2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כשחסר נוזל קירור, ראש המנוע עלול להתחמם מקומית ולהיסדק, ודליפת שמן בלחץ עלולה לגרום לשריפה. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה ושמפלס נוזל הקירור תקין.",
+            "level": "recall",
+            "scope": "ייצור 2.6.2010–20.12.2014 (המקור לא מציין מנוע; כנראה 1.6 אקובוסט)",
+            "source": {
+              "title": "car-recalls.eu — Ford C-Max (2010–2014), RAPEX A12/0168/18",
+              "url": "https://car-recalls.eu/recall/ford-c-max-2010-2014/amp/"
+            }
+          },
+          {
+            "he": "קריאת שירות בגרנד C-מקס (7 מקומות): מנגנון ההטיה של משענת המושב בשורה השנייה עלול להינזק והמשענת עלולה להתקפל מעצמה. בבדיקה: לוודא שהתיקון בוצע ולבדוק את נעילת המשענות.",
+            "level": "recall",
+            "scope": "גרנד C-מקס, ייצור עד ינואר 2011",
+            "source": {
+              "title": "Auto Express — Used Ford C-MAX review",
+              "url": "https://autoexpress.co.uk/ford/c-max/95259/used-ford-c-max-review"
+            }
+          },
+          {
+            "he": "ניקוז המזגן עלול להיסתם ומים נכנסים לתא הנוסעים; מים שחודרים דרך המראות עלולים לגרום לקצרים בנעילת הדלתות האחוריות או ברמקולים. בבדיקה: למשש את השטיחים, ולבדוק נעילת דלתות ושמע.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Ford C-MAX review",
+              "url": "https://autoexpress.co.uk/ford/c-max/95259/used-ford-c-max-review"
+            }
+          },
+          {
+            "he": "מסנן החלקיקים (DPF) בדיזל נוטה להיסתם ברכב שנוסע בעיקר בעיר. בבדיקה: לוודא שאין נורת אזהרה; לנסיעה עירונית עדיף בנזין.",
+            "level": "widely_reported",
+            "scope": "דיזל (TDCi)",
+            "source": {
+              "title": "Auto Express — Used Ford C-MAX review",
+              "url": "https://autoexpress.co.uk/ford/c-max/95259/used-ford-c-max-review"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://www.autozine.nl/ford/grand-c-max/nieuws/5-sterren-voor-ford-c-max-bij-euroncap"
+        }
       }
     }
   }

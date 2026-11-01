@@ -1,6 +1,6 @@
 {
   "make": "peugeot",
-  "updated": "2026-10-24",
+  "updated": "2026-11-01",
   "models": {
     "208": {
       "P21 (Gen2)": {
@@ -431,6 +431,105 @@
           "stars": 4,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/peugeot-408---euro-ncap-2022-results---4-stars/s/e93836d1-6b7f-4cc4-85ec-f750380c1fd5"
+        }
+      }
+    },
+    "508": {
+      "דור 1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה בבקרת המנוע עלולה לגרום להתחממות יתר ולנזק למנוע. בבדיקה: לוודא שבוצע עדכון התוכנה.",
+            "level": "recall",
+            "scope": "ייצור 03/2012–04/2015",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 508 (2012–2015), RAPEX 14/2018 A12/0491/18",
+              "url": "https://car-recalls.eu/recall/peugeot-508-2012-2015-2/"
+            }
+          },
+          {
+            "he": "קריאת שירות: שיני רצועת התזמון עלולות להישחק מוקדם, והמנוע עלול לכבות בלי אפשרות להניע מחדש. בבדיקה: לוודא שהקריאה בוצעה ומתי הוחלפה הרצועה.",
+            "level": "recall",
+            "scope": "ייצור 04/2015–04/2018",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 508 timing belt, RAPEX 32/2021 A12/01184/21",
+              "url": "https://car-recalls.eu/recall/peugeot-508-2015-timing-belt/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ממסר המתנע עלול להתחמם ואף לגרום לשריפה. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 06–09/2016 (אוסטרליה)",
+            "source": {
+              "title": "CarAdvice — 2016 Peugeot 508 recalled for fire risk",
+              "url": "https://www.caradvice.com.au/550236/2016-peugeot-508-recalled-for-fire-risk/"
+            }
+          },
+          {
+            "he": "מערכת המולטימדיה היא התלונה הנפוצה ביותר ולעיתים מפסיקה לעבוד. ברובוטית EGC ההעברות מגושמות. בבדיקה: מסך, ניווט ובלוטות׳; להעדיף אוטומט רגיל.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Peugeot 508 Mk1 (2011–2018) review",
+              "url": "https://www.autoexpress.co.uk/peugeot/508/352719/used-peugeot-508-mk1-2011-2018-review"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6707/euroncap_peugeot_508_2011_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 161000,
+          "year": 2011,
+          "note": "גרסת הבסיס, 1.6 טורבו 156 כ״ס אוטומטית",
+          "source": {
+            "title": "auto.co.il — פיג'ו 508 יוצאת לדרך בישראל (21.03.2011)",
+            "url": "https://www.auto.co.il/articles/car-news/117216/"
+          }
+        }
+      },
+      "דור 2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שגיאת תוכנה עלולה לכבות את המנוע בקור ובגובה, ואז אובדת גם הגברת הבלמים. בבדיקה: לוודא שבוצע עדכון התוכנה.",
+            "level": "recall",
+            "scope": "ייצור 01/2018–03/2020",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 508 (2018–2020) engine stall, RAPEX 08/2023 A12/00311/23",
+              "url": "https://car-recalls.eu/recall/peugeot-508-2018-2020-engine-stall/"
+            }
+          },
+          {
+            "he": "היצרן מכיר בשחיקה מוקדמת של רצועת התזמון הרטובה ובצריכת שמן מוגזמת במנועי PureTech, שעלולות לגרום לנזק למנוע. בבדיקה: תיעוד בדיקות והחלפות של הרצועה, ובדיקת זכאות לכיסוי המורחב.",
+            "level": "manufacturer",
+            "scope": "1.2 PureTech",
+            "source": {
+              "title": "Peugeot UK — PureTech engines solutions",
+              "url": "https://www.peugeot.co.uk/owners/puretech-engines-solutions.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: חלק מברגי המתלה האחורי לא עומדים במפרט ועלולים להישבר. בבדיקה: לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Peugeot 508 2018–present reliability",
+              "url": "https://whatcar.com/peugeot/508/hatchback/used-review/n18591/advice"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://cdn.euroncap.com/media/85435/euroncap-2018-peugeot-508-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 200000,
+          "year": 2019,
+          "note": "Premium, 1.6 טורבו 180 כ״ס",
+          "source": {
+            "title": "icar.co.il — פיג'ו 508 החדשה בישראל: מ-200,000 שקלים (05.05.2019)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיג%27ו_508_החדשה_בישראל:_מ-200,000_שקלים/"
+          }
         }
       }
     },

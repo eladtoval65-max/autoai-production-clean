@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-10-30",
+  "updated": "2026-11-01",
   "models": {
     "swift": {
       "AZ": {
@@ -623,6 +623,81 @@
             "source": {
               "title": "autokostencheck.de — Suzuki SX4 1.6 (GY) 88 kW, 2009–2014 (279 user reports)",
               "url": "https://www.autokostencheck.de/Suzuki/Suzuki-SX4/SX4/sx4-1-6-gy_34957/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "grand-vitara": {
+      "JT (דור 3)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ציר מוט ההילוכים חלש ועלול להישבר, ואז אי אפשר להעביר הילוכים. בבדיקה: לוודא מול המוסך המורשה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "נמכרו 5/2008–6/2013 (נתוני אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki JT Grand Vitara (PRA 2017/15904)",
+              "url": "https://australiancar.reviews/?p=47822"
+            }
+          },
+          {
+            "he": "קריאת שירות: קפיץ פגום במותח רצועת האביזרים עלול לרופף את הרצועה ולבטל את סיוע ההגה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "טווחי VIN מסוימים (PRA 2011/12354)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Suzuki JT Grand Vitara (PRA 2011/12354)",
+              "url": "https://australiancar.reviews/?p=47822"
+            }
+          },
+          {
+            "he": "עלון שירות: סדק בראש המנוע 2.4 — נוזל הקירור מתמעט, המנוע מתחמם ונוזל נכנס לשמן. בבדיקה: מפלס נוזל הקירור, שמן חלבי והיסטוריית התחממות.",
+            "level": "manufacturer",
+            "scope": "2.4 בנזין (J24B), ייצור לפני 7/2009",
+            "source": {
+              "title": "australiancar.reviews — Suzuki JT Grand Vitara (TSB TS 35 12103)",
+              "url": "https://australiancar.reviews/?p=47822"
+            }
+          },
+          {
+            "he": "עלון שירות: חיישן הנוסע במושב הקדמי נקרע עם הזמן ונורית כרית האוויר נדלקת. בבדיקה: לוודא שנורית האייר־בג כבה אחרי ההתנעה.",
+            "level": "manufacturer",
+            "scope": "2005–2011",
+            "source": {
+              "title": "australiancar.reviews — Suzuki JT Grand Vitara (TSB TS 06 05212R1)",
+              "url": "https://australiancar.reviews/?p=47822"
+            }
+          },
+          {
+            "he": "בדיזל משאבת המים מונעת מרצועת התזמון, ותפיסה שלה עלולה לגרום נזק חמור למנוע; גם ה-DPF נסתם בנסיעות קצרות. בבדיקה: תיעוד החלפת רצועה ומשאבה, ונורית DPF.",
+            "level": "widely_reported",
+            "scope": "1.9 DDiS דיזל",
+            "source": {
+              "title": "What Car? — Used Suzuki Grand Vitara 4x4 2005-2014 reliability",
+              "url": "https://www.whatcar.com/suzuki/grand-vitara/4x4/used-review/n765/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין 140 כ״ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 10.87,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Grand Vitara, gasoline, whole-model average all years/engines/generations (148 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/421-Grand_Vitara.html"
+            }
+          },
+          {
+            "name": "1.9 טורבו דיזל 129 כ״ס",
+            "pt": "diesel",
+            "hp": 129,
+            "cons": 8.28,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Suzuki Grand Vitara, diesel, whole-model average all years/generations incl. earlier 2.0 diesel (174 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/421-Grand_Vitara.html"
             }
           }
         ]
