@@ -102,6 +102,35 @@
               "url": "https://ev-database.org/car/3233/Leapmotor-B10-671-kWh"
             }
           }
+        ],
+        "launchPrice": {
+          "ils": 140000,
+          "year": 2025,
+          "note": "LIFE (DESIGN 150,000 ₪)",
+          "source": {
+            "title": "Bizportal — סמלת משיקה את ליפמוטור B10 החל מ-140 אלף ש״ח (16.12.2025)",
+            "url": "https://www.bizportal.co.il/car/news/article/20025015"
+          }
+        },
+        "issues": [
+          {
+            "he": "מערכת שמירת הנתיב מתערבת בחדות ובאופן לא צפוי בכבישים צרים, ואף הסיטה את ההגה לכיוון תנועה נגדית במבחנים ארוכי טווח; עדכון תוכנה מרחוק (OTA) שיפר את המצב. בבדיקה: לוודא שהתוכנה עודכנה ולבחון את המערכת בנסיעת מבחן.",
+            "level": "widely_reported",
+            "scope": "דווח במבחני ארוך-טווח של Auto Express ו-Autotrader (בריטניה, 2026)",
+            "source": {
+              "title": "Auto Express — Leapmotor B10 long-term test (Ellis Hyde, 3rd report 8.10.2026): lane-keep assist steering towards hedges/oncoming traffic, improved by OTA update",
+              "url": "https://www.autoexpress.co.uk/leapmotor/b10/369689/leapmotor-b10-long-term-ellis-hyde"
+            }
+          },
+          {
+            "he": "תקלות תוכנה ומפתח דיגיטלי: האפליקציה מנתקת משתמש כשמתחברים מטלפון שני, הרכב ננעל/נפתח בגישה באופן לא עקבי, והגדרות נהיגה מתאפסות. בבדיקה: לוודא שהמוכר מעביר את חשבון האפליקציה והמפתחות, ולבדוק נעילה, פתיחה ו-CarPlay.",
+            "level": "widely_reported",
+            "scope": "דווח במבחני ארוך-טווח של Autotrader ו-Auto Express (2026)",
+            "source": {
+              "title": "Autotrader UK — Living with a Leapmotor B10 (month 4, 2.10.2026): app-key log-outs, over-sensitive auto-unlock",
+              "url": "https://www.autotrader.co.uk/content/longterm-reviews/living-with-a-leapmotor-b10"
+            }
+          }
         ]
       }
     }

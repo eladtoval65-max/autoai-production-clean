@@ -523,7 +523,29 @@
           "stars": 5,
           "year": 2025,
           "url": "https://cdn.euroncap.com/media/91295/euroncap-2025-mg-mgs6-ev-datasheet.pdf"
-        }
+        },
+        "launchPrice": {
+          "ils": 179000,
+          "year": 2025,
+          "note": "הנעה אחורית 245 כ״ס, 77 קוט״ש (הנעה כפולה +10,000 ₪)",
+          "source": {
+            "title": "ישראל היום — MG משיקה בישראל שני דגמים חשמליים חדשים (24.12.2025)",
+            "url": "https://www.israelhayom.co.il/auto/article/19526834"
+          }
+        },
+        "engines": [
+          {
+            "name": "חשמלי 77 קוט״ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 245,
+            "cons": 18.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — MG MGS6 EV Long Range 77 kWh: vehicle consumption 297 Wh/mi (≈185 Wh/km, real-world estimate); 180 kW",
+              "url": "https://ev-database.org/uk/car/3418/MG-MGS6-EV-Long-Range-77-kWh"
+            }
+          }
+        ]
       }
     },
     "s9": {

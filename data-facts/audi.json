@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "a3": {
       "8V": {
@@ -515,6 +515,15 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/audi-q5---euro-ncap-2025-results---5-stars/s/fa9fdbc0-a530-4e02-93b7-c4087c27b128"
+        },
+        "launchPrice": {
+          "ils": 404900,
+          "year": 2025,
+          "note": "Q5 40 quattro 2.0 טורבו מיילד-היברידי 204 כ״ס (SQ5 609,900 ₪)",
+          "source": {
+            "title": "Cartube — אודי Q5 החדש 2025 נחת בישראל, מחיר 404,900 שקל (7.7.2025)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/אודי-q5-החדש-2025-נחת-בישראל-מחיר-404900-שקל"
+          }
         }
       }
     },

@@ -148,7 +148,12 @@
               "url": "https://www.carexpert.com.au/car-reviews/2026-geely-starray-em-i-review"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/geely-starray-em-i---euro-ncap-2025-results---5-stars/s/761c3707-8752-4b7f-9f1e-dae845fba8fe"
+        }
       }
     }
   }

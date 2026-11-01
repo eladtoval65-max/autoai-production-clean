@@ -94,6 +94,15 @@
           "stars": 5,
           "year": 2025,
           "url": "https://www.euroncap.com/en/results/lynk+&+co/02/55585"
+        },
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2024,
+          "note": "Pro (Halo 176,900 ₪)",
+          "source": {
+            "title": "Cartube — לינק אנד קו 02 החשמלי בישראל, מחיר החל מ-169,900 שקל (2.12.2024)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/לינק-אנד-קו-02-החשמלי-בישראל-מחיר-169900-שקל"
+          }
         }
       }
     }
