@@ -527,7 +527,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/48-Suzuki/423-Jimny.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2018,
+          "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2018/09/20/euro-ncap-rates-suzuki-jimny-three-stars-for-weak-safety",
+          "note": "3 כוכבים (Euro NCAP, ספטמבר 2018) — מערכות בטיחות חלשות"
+        }
       }
     },
     "celerio": {

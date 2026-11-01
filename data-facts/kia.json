@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "sportage": {
       "NQ5": {
@@ -58,7 +58,16 @@
               "url": "https://www.spritmonitor.de/en/overview/23-Kia/220-Sportage.html?fueltype=2"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2022,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — קיה ספורטאז׳ החדש 2022 בישראל: מחיר 169,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קיה-ספורטאז-החדש-2022-בישראל-מחיר-169900-שקל"
+          }
+        }
       },
       "QL": {
         "issues": [
@@ -119,6 +128,12 @@
             "title": "icar — קיה ספורטאז' החדש בישראל: מ-137,900 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_ספורטאז'_החדש_בישראל:_מ-137,900_שקל/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.euroncap.com/en/results/kia/sportage/22033",
+          "note": "5 כוכבים (Euro NCAP, דצמבר 2015) — לפי הודעת קיה: press.kia.com"
         }
       },
       "SL": {
@@ -515,7 +530,12 @@
               "url": "https://www.spritmonitor.de/en/overview/23-Kia/214-Rio.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=75&power_e=85&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6610/euroncap_kia_rio_2011_5stars.pdf"
+        }
       }
     },
     "ceed": {
@@ -1165,7 +1185,13 @@
               "url": "https://ev-database.org/car/1835/Kia-EV9-998-kWh-AWD"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://press.kia.com/eu/en/home/media-resouces/press-releases/2023/Kia-EV9-awarded-five-star-Euro-NCAP-safety-rating.html",
+          "note": "5 כוכבים (Euro NCAP, דצמבר 2023) — הודעת קיה"
+        }
       }
     },
     "optima": {
@@ -1302,7 +1328,13 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/kia/optima/jf/251018/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://press.kia.com/ie/en/home/corporate/awards/2015/15_12_03_43---five-star-euro-ncap-sportage--optima.html",
+          "note": "5 כוכבים (Euro NCAP, דצמבר 2015) — הודעת קיה"
+        }
       }
     }
   }

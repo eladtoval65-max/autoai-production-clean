@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-10-30",
+  "updated": "2026-11-01",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -331,6 +331,15 @@
           "stars": 5,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/-koda-kodiaq---euro-ncap-2024-results---5-stars/s/91c4ea1a-27a1-49b7-8b23-40ddd176095a"
+        },
+        "launchPrice": {
+          "ils": 214990,
+          "year": 2024,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — סקודה קודיאק החדש 2024 בישראל: מחיר 214,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קודיאק-החדש-2024-בישראל-מחיר-214990-שקל"
+          }
         }
       }
     },
@@ -404,6 +413,12 @@
             "title": "וואלה! רכב — סקודה קארוק החדשה הושקה בישראל (8.5.2018)",
             "url": "https://cars.walla.co.il/item/3156219"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://cdn.euroncap.com/en/results/skoda/karoq/28527",
+          "note": "5 כוכבים (Euro NCAP, נובמבר 2017) — לפי הודעת סקודה: skoda-storyboard.com"
         }
       }
     },
@@ -726,6 +741,12 @@
             "title": "Cartube — סקודה סופרב החדשה 2015 בישראל (11.10.2015)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-סופרב-החדשה-2015-בישראל-–-מחיר-החל-מ-159,990"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.fleetnews.co.uk/news/fleet-industry-news/2015/06/25/skoda-superb-earns-five-star-euro-ncap-rating",
+          "note": "5 כוכבים (Euro NCAP, יוני 2015)"
         }
       },
       "B6 (3T)": {

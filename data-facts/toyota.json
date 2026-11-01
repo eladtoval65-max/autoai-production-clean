@@ -112,7 +112,16 @@
               "url": "https://www.spritmonitor.de/fr/apercu/49-Toyota/435-Corolla.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=92&power_e=102&gearing=3"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 123990,
+          "year": 2013,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — טויוטה קורולה החדשה 2013 בישראל: מחיר החל מ-123,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קורולה-החדשה-2013-בישראל-מחיר-החל-מ-123990-שקל"
+          }
+        }
       },
       "E210": {
         "issues": [
@@ -180,6 +189,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://cdn.euroncap.com/media/94948/euroncap-2019-toyota-corolla-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 131900,
+          "year": 2019,
+          "note": "קורולה היברידית — מחיר כניסה לפי כותרת הכתבה",
+          "source": {
+            "title": "Cartube — מחיר קורולה היברידית החדשה בישראל: 131,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מחיר-קורולה-היברידית-החדשה-בישראל-מחיר-131900-שקל"
+          }
         }
       }
     },
@@ -292,6 +310,15 @@
           "stars": 5,
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/toyota-yaris---euro-ncap-2020-results---5-stars/s/af9289df-f24a-4067-ad61-cce31013b1da"
+        },
+        "launchPrice": {
+          "ils": 105900,
+          "year": 2020,
+          "note": "מחיר כניסה לפי כותרת הכתבה",
+          "source": {
+            "title": "Cartube — טויוטה יאריס החדשה 2020 בישראל: מחיר 105,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-יאריס-החדשה-2020-בישראל-מחיר-105900-שקל"
+          }
         }
       }
     },
@@ -337,7 +364,13 @@
               "url": "https://www.whatcar.com/toyota/yaris-cross/estate/used-review/n28038/reliability"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://www.euroncap.com/assessments/toyota/yaris-cross/0875/",
+          "note": "5 כוכבים במבחן 2021 (נבחר Best in Class); במבחן חוזר ב-2025 קיבל 4 כוכבים"
+        }
       }
     },
     "rav4": {
@@ -374,7 +407,12 @@
               "url": "https://www.motorverso.com/recalls/toyota/23V734000/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/6059/euroncap_toyota_rav4_2013_5stars.pdf"
+        }
       },
       "XA50": {
         "engines": [
@@ -414,7 +452,16 @@
               "url": "https://www.greencarreports.com/news/1128456_toyota-rav4-hybrid-fuel-tank-issue-fix-is-coming-soon"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 170000,
+          "year": 2019,
+          "note": "מחיר כניסה לפי auto.co.il (Queen of the Road דיווחה על 176,900 ₪)",
+          "source": {
+            "title": "auto.co.il — טויוטה RAV4 2019 בישראל – החל מ-170,000 שקלים",
+            "url": "https://www.auto.co.il/articles/general-articles/131574/"
+          }
+        }
       },
       "XA30": {
         "issues": [
@@ -554,7 +601,22 @@
               "url": "https://www.whatcar.com/toyota/c-hr/hatchback/used-review/n892/reliability"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.euroncap.com/en/results/toyota/c-hr/26309",
+          "note": "5 כוכבים (Euro NCAP, מרץ 2017) — לפי הודעת טויוטה: press.toyota.be"
+        },
+        "launchPrice": {
+          "ils": 141900,
+          "year": 2017,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — 2017 טויוטה C-HR בישראל – מחיר החל מ-141,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2017-טויוטה-c-hr-בישראל-–-מחיר-החל-מ-141900-שקל"
+          }
+        }
       },
       "AX20": {
         "issues": [
@@ -585,6 +647,15 @@
           "stars": 5,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/toyota-c-hr---euro-ncap-2024-results---5-stars/s/e1e97525-fd77-493a-8673-cabeb0ffcc7a"
+        },
+        "launchPrice": {
+          "ils": 169990,
+          "year": 2024,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — טויוטה C-HR החדש 2024 בישראל: מחיר 169,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-c-hr-החדש-2024-בישראל-מחיר-169990-שקל"
+          }
         }
       }
     },

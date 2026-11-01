@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "golf": {
       "Mk7": {
@@ -277,6 +277,15 @@
           "stars": 5,
           "year": 2017,
           "url": "https://news.euroncap.com/safercars/xceedingly-good/s/304c1a7e-30a8-4c6a-998b-b6d2bc5ee13a"
+        },
+        "launchPrice": {
+          "ils": 93900,
+          "year": 2018,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Queen of the Road — השקה בארץ: פולקסווגן פולו חדשה – דור שישי (החל מ-93,900 ש״ח)",
+            "url": "https://www.queenoftheroad.co.il/%D7%94%D7%A9%D7%A7%D7%94-%D7%91%D7%90%D7%A8%D7%A5-%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F-%D7%A4%D7%95%D7%9C%D7%95-%D7%97%D7%93%D7%A9%D7%94-%D7%93%D7%95%D7%A8-%D7%A9%D7%99%D7%A9/"
+          }
         }
       },
       "6R": {
@@ -506,7 +515,13 @@
               "url": "https://www.spritmonitor.de/es/vista_previa/50-Volkswagen/1045-Tiguan.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=105&power_e=115&gearing=4"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://cdn.euroncap.com/en/results/vw/tiguan/24845",
+          "note": "5 כוכבים (Euro NCAP, יוני 2016)"
+        }
       },
       "5N": {
         "issues": [
@@ -606,6 +621,15 @@
           "stars": 5,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/vw-tiguan---euro-ncap-2024-results---5-stars/s/2cb4fa23-ae1b-408e-8b8c-1fd03133637a"
+        },
+        "launchPrice": {
+          "ils": 217900,
+          "year": 2024,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — פולקסווגן טיגואן החדש 2024 בישראל: מחיר החל מ-217,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פולקסווגן-טיגואן-החדש-2024-בישראל-מחיר-החל-מ-217,900-שקל"
+          }
         }
       }
     },
@@ -753,7 +777,13 @@
               "url": "https://www.autocentrum.pl/spalanie/volkswagen/passat/b8/strona-4/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://www.volkswagen-newsroom.com/en/press-releases/five-stars-for-the-new-passat-top-marks-for-best-selling-model-in-euro-ncap-safety-assessment-18528",
+          "note": "5 כוכבים (Euro NCAP, 2014) — הודעת פולקסווגן"
+        }
       },
       "B9": {
         "issues": [
@@ -909,6 +939,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/volkswagen-t-cross---euro-ncap-2019-results---5-stars/s/4c4f1f4e-ea8a-423f-82df-aa86ec55f571"
+        },
+        "launchPrice": {
+          "ils": 129900,
+          "year": 2019,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — פולקסווגן T-Cross בישראל: מחיר 129,900 שקל",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F-t-cross-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-129900-%D7%A9%D7%A7%D7%9C"
+          }
         }
       }
     },
@@ -1114,7 +1153,13 @@
               "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Volkswagen-Touareg"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://cdn.euroncap.com/media/85422/euroncap-2018-vw-touareg-datasheet.pdf",
+          "note": "5 כוכבים (Euro NCAP, ספטמבר 2018)"
+        }
       }
     },
     "id-buzz": {

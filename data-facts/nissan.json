@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-10-25",
+  "updated": "2026-11-01",
   "models": {
     "qashqai": {
       "J11": {
@@ -188,7 +188,22 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/986-Qashqai.html?fueltype=10&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=135&power_e=145&gearing=3"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://news.euroncap.com/images-and-videos/nissan-qashqai---euro-ncap-2021-results---5-stars/s/4e1905d7-6ef0-412f-95a3-eb5706b4a0b6",
+          "note": "5 כוכבים ב-2021; במבחן חוזר ב-2025 (גרסת 1.5) קיבל 4 כוכבים"
+        },
+        "launchPrice": {
+          "ils": 159990,
+          "year": 2021,
+          "note": "1.3 טורבו, מחיר כניסה",
+          "source": {
+            "title": "Queen of the Road — ניסאן קשקאי החדש 2021 בישראל (מנוע 1.33 ל׳) מ-159,990 ש״ח",
+            "url": "https://www.queenoftheroad.co.il/?p=77904"
+          }
+        }
       }
     },
     "juke": {
@@ -295,7 +310,12 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/1210-Juke.html?fueltype=10&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=104&power_e=114&gearing=2"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/nissan-juke---euro-ncap-2019-results---5-stars/s/e42cac73-41e9-4234-aeaa-216375883cb1"
+        }
       }
     },
     "micra": {
@@ -526,7 +546,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/306-X-Trail.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=152&power_e=162&gearing=3"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/nissan-x-trail---euro-ncap-2021-results---5-stars/s/8b30f986-b5ae-4af3-9e73-c47ebd9785df",
+          "note": "פורסם בנובמבר 2022 לפי פרוטוקול 2021"
+        }
       },
       "T31": {
         "issues": [
@@ -745,7 +771,12 @@
               "url": "https://ev-database.org/uk/car/1144/Nissan-LEAF-eplus-62-kWh"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://www.euroncap.com/press-media/new-leaf-charging-ahead-with-5-star-result-in-toughest-safety-tests-to-date/"
+        }
       },
       "ZE0/AZE0": {
         "issues": [

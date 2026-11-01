@@ -50,6 +50,15 @@
           "stars": 4,
           "year": 2019,
           "url": "https://news.euroncap.com/images-and-videos/peugeot-208---euro-ncap-2019-results---4-stars/s/06fbc20b-7298-4106-ba0a-0c20a67fb8a7"
+        },
+        "launchPrice": {
+          "ils": 118990,
+          "year": 2020,
+          "note": "מחיר כניסה (בנזין; גם גרסה חשמלית)",
+          "source": {
+            "title": "Queen of the Road — פיג׳ו 208 החדשה בגרסת בנזין וחשמלית החל מ-118,990 ש״ח",
+            "url": "https://www.queenoftheroad.co.il/?p=78223"
+          }
         }
       },
       "A9 (Gen1)": {
@@ -607,6 +616,15 @@
           "stars": 4,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/peugeot-2008---euro-ncap-2019-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/771eedad-c774-4ca7-ba7a-b409cb0fcf1d"
+        },
+        "launchPrice": {
+          "ils": 127990,
+          "year": 2020,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "Cartube — פיג׳ו 2008 החדש 2020 בישראל: מחיר 127,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פיג-ו-2008-החדש-2020-בישראל-מחיר-127990-שקל"
+          }
         }
       },
       "A94 (Gen1)": {
@@ -732,6 +750,15 @@
           "stars": 5,
           "year": 2016,
           "url": "https://news.euroncap.com/safercars/top-marks-for-mercedes-benz-e-class-and-peugeot-3008-in-euro-ncap-safety-tests/s/edd09b52-e2b0-469e-a67f-8dcd5cf3bcd5"
+        },
+        "launchPrice": {
+          "ils": 139900,
+          "year": 2017,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "icar — פיג׳ו 3008 החדש בישראל: מ-139,900 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_3008_החדש_בישראל:_מ-139,900_שקל/"
+          }
         }
       },
       "T84 (Gen1)": {

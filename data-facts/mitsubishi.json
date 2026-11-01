@@ -394,7 +394,13 @@
               "url": "https://www.cars.co.za/motoring-news/mitsubishi-eclipse-cross-15-turbo-gls-2020-review/20697/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.acnnewswire.com/press-release/english/39566/mitsubishi-motors%27-eclipse-cross-achieves-5-star-euro-ncap-safety-rating",
+          "note": "5 כוכבים (Euro NCAP, נובמבר 2017) — הודעת מיצובישי"
+        }
       }
     },
     "lancer": {

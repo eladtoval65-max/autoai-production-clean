@@ -279,7 +279,16 @@
               "url": "https://www.spritmonitor.de/en/overview/27-Mazda/1254-CX-5.html?fueltype=2&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=116&power_e=126&gearing=1"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 167000,
+          "year": 2017,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "auto.co.il — מאזדה CX-5 בישראל – מ-167 אלף שקל",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/128585/"
+          }
+        }
       },
       "KG": {
         "ncap": {
@@ -463,7 +472,7 @@
         "ncap": {
           "stars": 5,
           "year": 2022,
-          "url": "https://cdn.euroncap.com/en/results/mazda/cx-60/46610"
+          "url": "https://cdn.euroncap.com/media/77184/euroncap-2022-mazda-cx-60-datasheet.pdf"
         },
         "issues": [
           {

@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -806,6 +806,12 @@
             "title": "icar — יונדאי קונה בישראל: מ-134,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_קונה_בישראל:_מ-134,000_שקל/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.euroncap.com/assessments/hyundai/kona/0709/",
+          "note": "5 כוכבים (Euro NCAP, דצמבר 2017) — לפי הודעת יונדאי: hyundai.news"
         }
       },
       "SX2": {
@@ -850,7 +856,21 @@
               "url": "https://goauto.com.au/amp/hyundai/kona/2024-hyundai-kona-hybrid-review/2024-04-26/93641.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2023,
+          "url": "https://news.euroncap.com/images-and-videos/all/hyundai-kona---euro-ncap-2023-results---4-stars/s/8f489793-0cc1-4801-a788-d97aa89a5c1c"
+        },
+        "launchPrice": {
+          "ils": 145000,
+          "year": 2023,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "auto.co.il — יונדאי קונה 2023 החדש בישראל – מחיר החל מ-145,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136552/"
+          }
+        }
       }
     },
     "ioniq-5": {
@@ -997,7 +1017,13 @@
               "url": "https://www.spritmonitor.de/es/vista_previa/19-Hyundai/1046-i30.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=98&power_e=108&gearing=4"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.euroncap.com/en/results/hyundai/i30/27355",
+          "note": "5 כוכבים (Euro NCAP, יולי 2017) — לפי Fleet News"
+        }
       },
       "GD": {
         "issues": [
@@ -1220,7 +1246,13 @@
               "url": "https://www.whatcar.com/news/hyundai-santa-fe-long-term-review/n19136"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://cdn.euroncap.com/media/85438/euroncap-2018-hyundai-santa-fe-datasheet.pdf",
+          "note": "5 כוכבים (Euro NCAP, דצמבר 2018) — לפי הודעת יונדאי"
+        }
       },
       "DM": {
         "issues": [
@@ -1315,6 +1347,15 @@
           "stars": 4,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/hyundai-santa-fe---euro-ncap-2024-results---standard-equipment-4-stars-and-with-safety-pack-5-stars/s/4078f035-3622-4c2c-932f-79f76ca98ff4"
+        },
+        "launchPrice": {
+          "ils": 225000,
+          "year": 2024,
+          "note": "מחיר השקה לפי כותרת הכתבה",
+          "source": {
+            "title": "icar — יונדאי סנטה פה החדש הושק במחיר של 225,000 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_סנטה_פה_החדש_הושק_במחיר_של_225,000_שקל/"
+          }
         }
       },
       "CM (מתיחת פנים)": {

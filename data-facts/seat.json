@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-10-24",
+  "updated": "2026-11-01",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -54,7 +54,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/44-Seat/391-Ibiza.html?fueltype=2&vehicletype=1&constyear_s=2015&constyear_e=2019&power_s=76&power_e=86&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2017/07/06/five-star-euro-ncap-safety-rating-awarded-to-alfa-romeo-stelvio-hyundai-i30-vauxhall-insignia-seat-ibiza-and-volkswagen-arteon",
+          "note": "5 כוכבים (Euro NCAP, יולי 2017)"
+        }
       },
       "6J": {
         "issues": [
@@ -288,6 +294,15 @@
           "stars": 5,
           "year": 2020,
           "url": "https://www.euroncap.com/en/results/seat/leon/41397"
+        },
+        "launchPrice": {
+          "ils": 135000,
+          "year": 2020,
+          "note": "מחיר כניסה",
+          "source": {
+            "title": "icar — סיאט לאון החדשה בישראל: מ-135,000 שקלים",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%90%D7%98_%D7%9C%D7%90%D7%95%D7%9F_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-135,000_%D7%A9%D7%A7%D7%9C%D7%99%D7%9D/"
+          }
         }
       },
       "1P": {
@@ -387,6 +402,12 @@
             "title": "cartube — סיאט אטקה בישראל: מחיר החל מ-139,900 שקל (5.12.2016)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-אטקה-בישראל-מחיר-החל-מ-139900-שקל"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://www.autobiz.ie/home/five-star-euro-ncap-rating-for-seat-ateca",
+          "note": "5 כוכבים (Euro NCAP, יוני 2016)"
         }
       }
     },
@@ -433,7 +454,13 @@
               "url": "https://www.autokostencheck.de/Seat/Seat-Tarraco/Tarraco/tarraco-2-0-tsi-4drive-kn_46723/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://www.euroncap.com/press-media/when-the-going-gets-tough-honda-mercedes-benz-and-seat-off-roaders-get-top-marks-for-safety/",
+          "note": "5 כוכבים (Euro NCAP, מרץ 2019) — דירוג מרבי"
+        }
       }
     }
   }
