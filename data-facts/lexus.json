@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-11-01",
+  "updated": "2026-11-06",
   "models": {
     "nx": {
       "AZ10": {
@@ -337,6 +337,33 @@
             "source": {
               "title": "EV Database — Lexus ES 350e (MY26): צריכה ריאלית משוקללת (EVDB Real Range) 180 Wh/km (הערכה); מבחן Edmunds בארה\"ב מדד 26.6 kWh/100 מייל",
               "url": "https://ev-database.org/car/3492/Lexus-ES-350e"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "טעינה מהירה מוגבלת ל-150 קו״ט (10–80% בכ-30 דקות) וטווח נמוך ממתחרים — לבדוק בדגם החשמלי את מצב הסוללה ואת הטווח בפועל",
+            "level": "widely_reported",
+            "scope": "350e / 500e",
+            "source": {
+              "title": "Auto Express — New Lexus ES 2026 review",
+              "url": "https://www.autoexpress.co.uk/lexus/es/369664/new-lexus-es-2026-review-range-and-performance-are-huge-disappointment"
+            }
+          },
+          {
+            "he": "נוחות הנסיעה לא ברמת יוקרה — מהמורות ובורות מורגשים בתא; במהירות ההגה נוקשה — לבדוק בנסיעת מבחן בכביש משובש",
+            "level": "widely_reported",
+            "source": {
+              "title": "SlashGear — 2026 Lexus ES first drive (27.5.2026)",
+              "url": "https://www.slashgear.com/2181949/2026-lexus-es-first-drive-350-ev-350h-hybrid-sedan/"
+            }
+          },
+          {
+            "he": "מצבי הנהיגה קבורים בתפריטי המסך, בקרות מיזוג במגע ומנעולי דלת דיגיטליים מסורבלים — להתנסות בממשק לפני קנייה",
+            "level": "widely_reported",
+            "source": {
+              "title": "SlashGear — 2026 Lexus ES first drive (27.5.2026); גם Engadget (4.8.2026) על מצבי הנהיגה בתת-תפריטים",
+              "url": "https://www.slashgear.com/2181949/2026-lexus-es-first-drive-350-ev-350h-hybrid-sedan/"
             }
           }
         ]

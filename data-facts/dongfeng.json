@@ -79,9 +79,22 @@
               "url": "https://www.autofacil.es/prueba-dongfeng-mage-hibrido-enchufable/"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו פלאג-אין, סוללה 17 קוט\"ש",
+            "pt": "phev",
+            "hp": 299,
+            "cons": 3,
+            "unit": "L",
+            "source": {
+              "title": "Autofácil — La opinión de Álvaro Sauras: Dongfeng MAGE (26.10.2026): מחשב הדרך הציג כ-3 ל׳/100 ק״מ ועוד 9.6 קוט\"ש/100 ק״מ בנסיעה של כמעט 200 ק״מ (מבחן קצר יחיד, שימוש חלקי בסוללה; לא ממוצע בעלים)",
+              "url": "https://www.autofacil.es/la-opinion-de-alvaro-sauras-el-dongfeng-mage-por-32-000-euros/"
+            }
+          }
         ]
       }
     }
   },
-  "updated": "2026-11-01"
+  "updated": "2026-11-06"
 }

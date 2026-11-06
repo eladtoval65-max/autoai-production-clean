@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-11-01",
+  "updated": "2026-11-06",
   "models": {
     "swift": {
       "AZ": {
@@ -162,7 +162,33 @@
             "title": "Cartube — 2024 סוזוקי סוויפט החדשה בישראל (5.6.2024)",
             "url": "https://www.cartube.co.il/חדשות-רכב/2024-סוזוקי-סוויפט-החדשה-בישראל-מחיר-113990-שקל"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "מערכת זיהוי תמרורים מתריעה בצפצופים גם כשלא חורגים מהמהירות (קוראת תמרורים מכבישים צדדיים), וקשה לנטרל אותה — לבדוק בנסיעת מבחן איך מכבים אותה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Top Gear — Suzuki Swift review: interior (28.11.2024)",
+              "url": "https://www.topgear.com/car-reviews/suzuki/swift/interior"
+            }
+          },
+          {
+            "he": "מסך המולטימדיה 9 אינץ׳ איטי ומגיב בהשהיה, תפריטים מסורבלים — לבדוק חיבור טלפון ותגובת המסך",
+            "level": "widely_reported",
+            "source": {
+              "title": "Autotrader UK — Suzuki Swift review (25.3.2024)",
+              "url": "https://www.autotrader.co.uk/content/car-reviews/suzuki-swift-review"
+            }
+          },
+          {
+            "he": "מערכת שמירת הנתיב מתנתקת לעיתים קרובות בכבישים בינעירוניים ובחזרתה מתחילה לתקן היגוי באופן פתאומי — להכיר את המערכת לפני נסיעה ארוכה",
+            "level": "widely_reported",
+            "source": {
+              "title": "DriveLife NZ — 2024 Suzuki Swift GLS review (29.10.2024)",
+              "url": "https://www.drivelife.co.nz/2024/10/2024-suzuki-swift-gls-car-review/"
+            }
+          }
+        ]
       }
     },
     "vitara": {
