@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-11-01",
+  "updated": "2026-11-06",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -598,6 +598,19 @@
             "source": {
               "title": "CarExpert — Subaru Outback recalled (3.9.2026): seventh-generation Outback, rear centre seatbelt bracket on cargo barrier",
               "url": "https://www.carexpert.com.au/car-news/subaru-outback-recalled-1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "hp": 180,
+            "cons": 10.1,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2026 Subaru Outback review (18.2.2026): fuel economy as tested 10.1 L/100km, 2.5 non-turbo (Australian launch drive)",
+              "url": "https://www.carexpert.com.au/car-reviews/2026-subaru-outback-review"
             }
           }
         ]

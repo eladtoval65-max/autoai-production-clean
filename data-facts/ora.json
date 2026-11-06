@@ -1,6 +1,6 @@
 {
   "make": "ora",
-  "updated": "2026-11-01",
+  "updated": "2026-11-06",
   "models": {
     "03": {
       "ES11": {
@@ -67,7 +67,25 @@
             "title": "cartube — ORA 07 החשמלית בישראל - מחיר 194,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/ora-07-החשמלית-בישראל-מחיר-194900-שקל"
           }
-        }
+        },
+        "issues": [
+          {
+            "he": "טעינה מהירה איטית יחסית (עד כ-88–100 קו״ט, 10–80% בכ-43 דקות; הנמוכה בקבוצת המבחן של ÖAMTC) — לקחת בחשבון בנסיעות ארוכות ולבדוק בטעינה מהירה שהרכב מגיע להספק התקין",
+            "level": "widely_reported",
+            "source": {
+              "title": "ÖAMTC Winter-Reichweitentest 2025 — GWM ORA 07 GT: 'Niedrigste Ladeleistung im Testfeld'; AUTO BILD Ora 07 AWD Test (19.10.2024): 88 kW DC",
+              "url": "https://www.oeamtc.at/tests/elektromobilitaet/winter-reichweitentest-2025/gwm-ora-07-gt-76975911"
+            }
+          },
+          {
+            "he": "במבחנים דווח על מסייע שמירת נתיב שמושך בהגה באופן שרירותי, ניטור נהג טורדני ודוושת בלם ספוגית — לבדוק בנסיעת מבחן את הבלימה ואת התנהגות מערכות הסיוע, ולוודא שהתוכנה עודכנה",
+            "level": "widely_reported",
+            "source": {
+              "title": "AUTO BILD — GWM Ora 07 AWD Test (19.10.2024); Auto Express first drive (24.4.2024): driver-assist sensitivity needs work",
+              "url": "https://www.autobild.de/artikel/gwm-ora-07-awd-test-27548523.html"
+            }
+          }
+        ]
       }
     },
     "05": {
@@ -80,7 +98,39 @@
             "title": "auto.co.il — ORA 5 ההיברידי בישראל: החל מ-140,000 שקל (22.06.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/ora-5-israel/"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "1.5 טורבו היברידי",
+            "pt": "hybrid",
+            "hp": 223,
+            "cons": 6,
+            "unit": "L",
+            "source": {
+              "title": "Híbridos y Eléctricos — prueba GWM ORA 5 1.5T HEV (23.9.2026): consumo medio medido 6,0 L/100 km (recorrido corto mixto)",
+              "url": "https://www.hibridosyelectricos.com/coches/pruebas-coches/22350-223-cv-51-l-100-km-probamos-gwm-ora-5-sorprendente-suv-hibrido-mas-barato-dacia-duster_89429_102.html"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "במבחנים דווח על כ-2 ס״מ מהלך מת בדוושת הבלם והגה ללא תחושה, ובגרסה ההיברידית תת-היגוי והטיית מרכב בפניות — לבדוק בנסיעת מבחן את הבלימה וההיגוי",
+            "level": "widely_reported",
+            "scope": "היברידי",
+            "source": {
+              "title": "Híbridos y Eléctricos — prueba GWM ORA 5 HEV (23.9.2026); Auto Bild — GWM Ora 5 im Test (4.9.2026)",
+              "url": "https://www.hibridosyelectricos.com/coches/pruebas-coches/22350-223-cv-51-l-100-km-probamos-gwm-ora-5-sorprendente-suv-hibrido-mas-barato-dacia-duster_89429_102.html"
+            }
+          },
+          {
+            "he": "תאורה ורוב הפונקציות מופעלות רק דרך תפריטי המסך המרכזי, וויסות בלימה רגנרטיבית רק במסך — לוודא שנוח לכם לפני הקנייה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Híbridos y Eléctricos — prueba GWM ORA 5 HEV (23.9.2026): luces solo por menú, regeneración solo por pantalla",
+              "url": "https://www.hibridosyelectricos.com/coches/pruebas-coches/22350-223-cv-51-l-100-km-probamos-gwm-ora-5-sorprendente-suv-hibrido-mas-barato-dacia-duster_89429_102.html"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "geely",
-  "updated": "2026-11-01",
+  "updated": "2026-11-06",
   "models": {
     "coolray": {
       "Gen1": {
@@ -195,6 +195,59 @@
             "source": {
               "title": "Mobile-Review — Тест Geely Preface (24.06.2025): about 8.5 L/100km mixed on test (≈6.8 highway, ≈10 city); 2.0T 200 hp, 7-speed DCT (Russian-market car)",
               "url": "https://mobile-review.com/all/?p=188454"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "מרווח גחון נמוך (כ-130–135 מ״מ) וצמיגי 18 אינץ׳ בפרופיל נמוך — לבדוק את תחתית הרכב והפגוש הקדמי לשריטות ופגיעות, ואת הצמיגים והחישוקים",
+            "level": "widely_reported",
+            "source": {
+              "title": "За рулём — Geely Preface 2024, ресурсный тест (11,000 km): ground clearance just over 130 mm, harsh 18\" tyres",
+              "url": "https://www.zr.ru/content/articles/966320-geely-preface-2024-resursnyy-test"
+            }
+          },
+          {
+            "he": "ידית האיתות לא ננעלת במצבי הקצה ועלולה לאותת לכיוון הלא נכון; תאורה וחימום מושבים רק דרך המסך — לבדוק בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "RBC Autonews — тест-драйв Geely Preface (12.9.2024); За рулём ресурсный тест",
+              "url": "https://www.autonews.ru/amp/news/66e2cf9e9a794765c5128c49"
+            }
+          }
+        ]
+      }
+    },
+    "okavango": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "1.5 טורבו מיילד-היברידי",
+            "pt": "mhev",
+            "hp": 190,
+            "cons": 10.5,
+            "unit": "L",
+            "source": {
+              "title": "Visor.ph — Geely Okavango Urban test (500 km over a week): combined 9–10 km/L (≈10–11 L/100km), 1.5T 48V 190 hp",
+              "url": "https://visor.ph/cars/geely-okavango-urban-an-suv-or-mpv-you-will-end-up-liking/"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "he": "צריכת דלק גבוהה בנסיעה עירונית — במבחנים 6–8.6 ק״מ לליטר בעיר (לעומת 15–20 בבין-עירוני); לקחת בחשבון אם רוב הנסיעה בפקקים",
+            "level": "widely_reported",
+            "source": {
+              "title": "ZigWheels PH — 2022 Geely Okavango Urban Plus: 6 kpl city as tested; Philkotse fuel test (8.6 km/L city); Top Gear PH (7–9 km/L rush hour)",
+              "url": "https://www.zigwheels.ph/car-expert-reviews/winning-combination-2022-geely-okavango-urban-plus"
+            }
+          },
+          {
+            "he": "אין גלגל חלופי (ערכת תיקון בלבד), ההגה חסר תחושה במצבי Comfort/Eco ורעש רוח במהירות גבוהה — לבדוק בנסיעת מבחן ולוודא מה יש בתא המטען",
+            "level": "widely_reported",
+            "source": {
+              "title": "ZigWheels PH — Winning combination: 2022 Geely Okavango Urban Plus",
+              "url": "https://www.zigwheels.ph/car-expert-reviews/winning-combination-2022-geely-okavango-urban-plus"
             }
           }
         ]
