@@ -189,6 +189,15 @@
           "year": 2010,
           "url": "https://cdn.euroncap.com/media/7105/euroncap_kia_sportage_2009_5stars.pdf",
           "note": "דף הנתונים של Euro NCAP (שנת פרסום 2010, דגם נבחן 2.0 דיזל)"
+        },
+        "launchPrice": {
+          "ils": 157000,
+          "year": 2010,
+          "note": "LX, ‏2.0 בנזין, הנעה קדמית",
+          "source": {
+            "title": "וואלה! רכב — השקת קיה ספורטאז' הדור השלישי בישראל (15.11.2010)",
+            "url": "https://cars.walla.co.il/item/1755797"
+          }
         }
       }
     },
@@ -470,7 +479,8 @@
         "ncap": {
           "stars": 3,
           "year": 2017,
-          "url": "https://news.euroncap.com/safercars/kia-rio---euro-ncap-results-2017/s/5fc4356a-8f21-461d-8500-31dad82ec06c"
+          "url": "https://news.euroncap.com/safercars/kia-rio---euro-ncap-results-2017/s/5fc4356a-8f21-461d-8500-31dad82ec06c",
+          "note": "3 כוכבים באבזור סטנדרטי; 5 כוכבים עם חבילת בטיחות אופציונלית (אומת מול עמוד Euro NCAP, 6.9.2017)"
         },
         "launchPrice": {
           "ils": 95900,
@@ -698,6 +708,15 @@
           "stars": 5,
           "year": 2012,
           "url": "https://cdn.euroncap.com/media/6266/euroncap_kia_ceed_2012_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 125500,
+          "year": 2013,
+          "note": "1.6 טורבו דיזל ידני; בנזין 1.6 GDI אוטומטי מ-127,000 ₪",
+          "source": {
+            "title": "וואלה! רכב — קיה סיד החדשה בישראל (3.5.2013)",
+            "url": "https://cars.walla.co.il/item/2638902"
+          }
         }
       }
     },

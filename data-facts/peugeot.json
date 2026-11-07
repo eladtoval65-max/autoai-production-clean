@@ -888,6 +888,15 @@
           "stars": 4,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/peugeot-3008---euro-ncap-2025-results---4-stars/s/8e1b6be6-87b8-4da1-98be-0e997ee7195e"
+        },
+        "launchPrice": {
+          "ils": 187000,
+          "year": 2024,
+          "note": "Allure, ‏1.2 טורבו היברידי מתון",
+          "source": {
+            "title": "auto.co.il — פיג'ו 3008 החדש בארץ: המחיר החל מ-187,000 שקלים (11.12.2024)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137732/"
+          }
         }
       }
     },
@@ -951,7 +960,13 @@
               "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1174-5008.html?fueltype=2&vehicletype=1&constyear_s=2016&constyear_e=2020&power_s=91&power_e=101&gearing=2"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://news.euroncap.com/safercars/top-marks-for-mercedes-benz-e-class-and-peugeot-3008-in-euro-ncap-safety-tests/s/edd09b52-e2b0-469e-a67f-8dcd5cf3bcd5",
+          "note": "דירוג ה-3008 (2016, 5 כוכבים) שחל גם על ה-5008 — Euro NCAP מציינת שה-5008 זהה מבנית ל-3008 (עמוד 'Peugeot 5008 (partner to Peugeot 3008)')"
+        }
       },
       "T87 (MPV)": {
         "issues": [
@@ -1041,6 +1056,15 @@
           "stars": 4,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/peugeot-5008---euro-ncap-2025-results---4-stars/s/59a024f2-aba5-4370-bb52-56838899bebe"
+        },
+        "launchPrice": {
+          "ils": 209000,
+          "year": 2025,
+          "note": "Allure, ‏1.2 טורבו היברידי מתון (7 מושבים)",
+          "source": {
+            "title": "auto.co.il — פיג'ו 5008 החדש בישראל: המחיר החל ב-209 אלף שקלים (06.03.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137953/"
+          }
         }
       }
     },

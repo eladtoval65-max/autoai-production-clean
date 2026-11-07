@@ -1128,6 +1128,15 @@
           "stars": 5,
           "year": 2012,
           "url": "https://cdn.euroncap.com/media/6231/euroncap_hyundai_i30_2012_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 99900,
+          "year": 2012,
+          "note": "1.4 בנזין ידני (1.6 אוטומטי Inspire: 122,000 ₪)",
+          "source": {
+            "title": "Cartube — יונדאי i30 החדשה בישראל: מחיר החל מ-99,900 שקל (19.11.2012)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i30-החדשה-בישראל-–-מחיר-החל-מ-99,900-שקל"
+          }
         }
       }
     },

@@ -278,6 +278,15 @@
           "year": 2011,
           "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245",
           "note": "5 כוכבים (Euro NCAP, פברואר 2011) — הדירוג פג תוקף, נבדק לפי פרוטוקול 2011"
+        },
+        "launchPrice": {
+          "ils": 127000,
+          "year": 2010,
+          "note": "Acenta, ‏1.6 בנזין אוטומטי",
+          "source": {
+            "title": "auto.co.il — ניסאן ג'וק הגיע לישראל מוקדם מהצפוי (05.09.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/118055/"
+          }
         }
       },
       "F16": {

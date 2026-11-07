@@ -218,7 +218,16 @@
               "url": "https://www.truedelta.com/Chevrolet-Cruze/mpg-1008/2013"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 112000,
+          "year": 2009,
+          "note": "LS, ‏1.6 בנזין אוטומטי",
+          "source": {
+            "title": "icar — שברולט קרוז בישראל (15.04.2009)",
+            "url": "https://www.icar.co.il/חדשות_רכב/שברולט_קרוז_בישראל/"
+          }
+        }
       }
     },
     "trax": {

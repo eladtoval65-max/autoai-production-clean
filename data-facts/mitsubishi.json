@@ -68,6 +68,15 @@
           "stars": 5,
           "year": 2013,
           "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89"
+        },
+        "launchPrice": {
+          "ils": 144900,
+          "year": 2012,
+          "note": "2.0 בנזין, גרסה ידנית; גרסת הבסיס האוטומטית (Instyle, 5 מושבים) 164,900 ₪",
+          "source": {
+            "title": "icar — מיצובישי אאוטלנדר החדש בישראל: החל מ-144,900 שקל (19.12.2012)",
+            "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_אאוטלנדר_החדש_בישראל:_החל_מ-_144,900_שקל/"
+          }
         }
       },
       "GN": {

@@ -565,6 +565,15 @@
           "year": 2016,
           "url": "https://cdn.euroncap.com/en/results/vw/tiguan/24845",
           "note": "5 כוכבים (Euro NCAP, יוני 2016)"
+        },
+        "launchPrice": {
+          "ils": 165000,
+          "year": 2017,
+          "note": "Trendline, ‏1.4 טורבו",
+          "source": {
+            "title": "auto.co.il — פולקסווגן טיגואן הגיע לארץ (30.01.2017)",
+            "url": "https://www.auto.co.il/articles/car-news/128629/"
+          }
         }
       },
       "5N": {
@@ -839,6 +848,15 @@
           "year": 2014,
           "url": "https://www.volkswagen-newsroom.com/en/press-releases/five-stars-for-the-new-passat-top-marks-for-best-selling-model-in-euro-ncap-safety-assessment-18528",
           "note": "5 כוכבים (Euro NCAP, 2014) — הודעת פולקסווגן"
+        },
+        "launchPrice": {
+          "ils": 179900,
+          "year": 2015,
+          "note": "Comfortline, ‏1.4 TSI",
+          "source": {
+            "title": "Cartube — פולקסווגן פאסאט החדשה 2015 בישראל (05.05.2015)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פולקסווגן-פאסאט-החדשה-2015-בישראל"
+          }
         }
       },
       "B9": {

@@ -133,6 +133,15 @@
           "stars": 5,
           "year": 2010,
           "url": "https://www.euroncap.com/en/results/suzuki/swift/11026"
+        },
+        "launchPrice": {
+          "ils": 104000,
+          "year": 2011,
+          "note": "GLX, ‏1.2 בנזין",
+          "source": {
+            "title": "auto.co.il — סוזוקי סוויפט חדשה בישראל (28.02.2011)",
+            "url": "https://www.auto.co.il/articles/car-news/117303/"
+          }
         }
       },
       "AZH": {

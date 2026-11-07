@@ -796,6 +796,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7560/euroncap_skoda_superb_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 157000,
+          "year": 2009,
+          "note": "Ambition, ‏1.8 TSI אוטומטי",
+          "source": {
+            "title": "וואלה! רכב — סקודה סופרב החדשה בישראל במחיר התחלתי של 157 אלף שקלים (3.2.2009)",
+            "url": "https://cars.walla.co.il/item/1429110"
+          }
         }
       },
       "B9": {
