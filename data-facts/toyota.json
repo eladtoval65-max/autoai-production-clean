@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "corolla": {
       "E150": {
@@ -253,7 +253,13 @@
               "url": "https://whatcar.com/toyota/yaris/hatchback/used-review/n782/reliability"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://media.toyota.co.uk/new-toyota-yaris-makes-it-three-generations-of-five-star-safety/",
+          "note": "5 כוכבים (Euro NCAP, אוקטובר 2011) — מקור: הודעת טויוטה בריטניה"
+        }
       },
       "XP210": {
         "engines": [
@@ -938,7 +944,16 @@
               "url": "https://www.guideautoweb.com/en/articles/74159/2025-toyota-camry-eclipsing-the-competition"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 210000,
+          "year": 2024,
+          "note": "היברידית, רמת גימור LE (ספטמבר 2024)",
+          "source": {
+            "title": "icar — טויוטה קאמרי הדור התשיעי נחתה בישראל",
+            "url": "https://icar.co.il/news/hkyafzucc"
+          }
+        }
       }
     },
     "prius": {
@@ -1322,7 +1337,16 @@
               "url": "https://www.chasingcars.com.au/reviews/large-suvs/toyota-land-cruiser-prado-250-series-long-term-review/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 400000,
+          "year": 2024,
+          "note": "רמת גימור סלקט, 2.8 דיזל (נובמבר 2024)",
+          "source": {
+            "title": "icar — טויוטה לנד קרוזר 250 בישראל: המחיר מתחיל ב-400 אלף שקל",
+            "url": "https://icar.co.il/news/r1uhxhxzyg"
+          }
+        }
       }
     },
     "aygo-x": {
@@ -1359,7 +1383,16 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/49-Toyota/773-Aygo.html?fueltype=2&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=48&power_e=58&gearing=3"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 93990,
+          "year": 2022,
+          "note": "רמת גימור PURE אוטומטית (מרץ 2022)",
+          "source": {
+            "title": "Cartube — טויוטה אייגו X החדש 2022 בישראל: מחיר 93,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-אייגו-x-החדש-2022-בישראל-מחיר-93990-שקל"
+          }
+        }
       }
     },
     "c-hr-plus": {

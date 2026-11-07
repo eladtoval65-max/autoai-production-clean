@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "mazda3": {
       "BL": {
@@ -885,7 +885,16 @@
               "url": "https://blog.consumerguide.com/test-drive-2024-mazda-cx-90/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 385000,
+          "year": 2023,
+          "note": "7 מושבים EXCLUSIVE, 3.3 טורבו (יולי 2023); המחיר הוזל בהמשך",
+          "source": {
+            "title": "Cartube — מאזדה CX-90 בישראל: מחיר 385,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מאזדה-cx-90-בישראל-קרוסאובר-6-7-מושבים-פרימיום-מחיר-385000-שקל"
+          }
+        }
       }
     },
     "mazda5": {

@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -1017,6 +1017,15 @@
           "stars": 5,
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/-koda-enyaq-iv---euro-ncap-2021-results---5-stars/s/10c1e273-520d-49fe-b9e6-843c660c998e"
+        },
+        "launchPrice": {
+          "ils": 190000,
+          "year": 2021,
+          "note": "Enyaq iV ברמת גימור Loft — המחיר הנמוך בכתבת ההשקה (אוקטובר 2021)",
+          "source": {
+            "title": "auto.co.il — סקודה אניאק 2022 החדש בארץ: מחיר החל מ-190,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134707/"
+          }
         }
       }
     },

@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -112,7 +112,16 @@
               "url": "https://www.whichcar.com.au/reviews/mitsubishi-outlander-phev-long-term-review"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 179000,
+          "year": 2021,
+          "note": "2.5 בנזין 7 מושבים, מחיר בסיס לפי מבחן דרכים מתקופת ההשקה (יולי 2021)",
+          "source": {
+            "title": "וואלה! רכב — מבחן מיצובישי אאוטלנדר הדור הרביעי",
+            "url": "https://cars.walla.co.il/item/3449788"
+          }
+        }
       }
     },
     "asx": {
@@ -176,7 +185,13 @@
               "url": "https://www.spritmonitor.de/en/overview/31-Mitsubishi/1209-ASX.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245",
+          "note": "5 כוכבים (Euro NCAP, פברואר 2011) — הדירוג פג תוקף, נבדק לפי פרוטוקול 2011"
+        }
       },
       "Gen2": {
         "engines": [

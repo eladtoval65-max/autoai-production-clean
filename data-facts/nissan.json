@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "qashqai": {
       "J11": {
@@ -63,7 +63,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/986-Qashqai.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=115&power_e=125&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://www.fleetnews.co.uk/news/2014/2/27/five-star-ncap-rating-for-new-qashqai/49734/",
+          "note": "5 כוכבים (Euro NCAP, פברואר 2014) — מקור: Fleet News; תוצאות רשמיות: euroncap.com/en/results/nissan/qashqai/7882"
+        }
       },
       "J10": {
         "issues": [
@@ -257,7 +263,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/1210-Juke.html?fueltype=2&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=81&power_e=91&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245",
+          "note": "5 כוכבים (Euro NCAP, פברואר 2011) — הדירוג פג תוקף, נבדק לפי פרוטוקול 2011"
+        }
       },
       "F16": {
         "issues": [
@@ -520,7 +532,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/306-X-Trail.html?fueltype=1&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=91&power_e=101&gearing=3"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-safety-ratings-released-for-c4-cactus--v-class-and-x-trail/s/d1c3682e-20ce-4003-bd02-1e7d08864387",
+          "note": "5 כוכבים (Euro NCAP, אוקטובר 2014)"
+        }
       },
       "T33": {
         "issues": [
