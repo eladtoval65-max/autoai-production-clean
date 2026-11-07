@@ -327,6 +327,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/nissan-juke---euro-ncap-2019-results---5-stars/s/e42cac73-41e9-4234-aeaa-216375883cb1"
+        },
+        "launchPrice": {
+          "ils": 124990,
+          "year": 2020,
+          "note": "Acenta-Tech אוטומטית",
+          "source": {
+            "title": "cartube — ניסאן ג'וק החדש 2020 בישראל: 124,990 ₪ (04.03.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-ג-וק-החדש-2020-בישראל-מחיר-124990-שקל"
+          }
         }
       }
     },
@@ -459,7 +468,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/302-Micra.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=67&power_e=77&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2010,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03",
+          "note": "4 כוכבים — Euro NCAP, נובמבר 2010 (הודעת 14 הרכבים)"
+        }
       }
     },
     "x-trail": {
@@ -614,7 +629,13 @@
               "url": "https://www.autokostencheck.de/Nissan/Nissan-X-Trail/X-Trail/x-trail-2-0-dci-allrad-t31_16241/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2007,
+          "url": "https://www.fleetnews.co.uk/news/2007/12/4/four-star-x-trail/26433/",
+          "note": "4 כוכבים — Euro NCAP, דצמבר 2007 (לפי Fleet News)"
+        }
       }
     },
     "note": {
@@ -839,7 +860,13 @@
               "url": "https://ev-database.org/car/1020/Nissan-Leaf-30-kWh"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-reveals-results-for-6-new-cars-including-first-5-star-rating-for-a-fully-electric-vehicle/s/ae9a225f-7c97-4cdf-b11a-3d4aa8dd1d10",
+          "note": "5 כוכבים — Euro NCAP, מאי 2011 (הרכב החשמלי הראשון שקיבל 5 כוכבים)"
+        }
       },
       "Gen3": {
         "issues": [

@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "golf": {
       "Mk7": {
@@ -617,7 +617,13 @@
               "url": "https://www.autocentrum.pl/spalanie/volkswagen/tiguan/i/suv/silnik-benzynowy-2.0-tsi-200km-2009-2011/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7628/euroncap_vw_tiguan_2009_5stars.pdf",
+          "note": "דף הנתונים של Euro NCAP, 2009 (מבחן חוזר לפי פרוטוקול 2009)"
+        }
       },
       "Mk3": {
         "issues": [
@@ -729,7 +735,13 @@
               "url": "https://www.autocentrum.pl/volkswagen/passat/b7/limousine/silnik-benzynowy-1.8-tsi-160km-2010-2012/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03",
+          "note": "5 כוכבים — Euro NCAP, נובמבר 2010 (הודעת 14 הרכבים: \"face lifted VW Passat\" בין בעלי 5 הכוכבים)"
+        }
       },
       "B8": {
         "issues": [
@@ -925,7 +937,13 @@
               "url": "https://www.truedelta.com/Volkswagen-Jetta/mpg-280/2013"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6761/euroncap_vw_jetta_2011_5stars.pdf",
+          "note": "דף הנתונים של Euro NCAP, 2011"
+        }
       }
     },
     "t-cross": {

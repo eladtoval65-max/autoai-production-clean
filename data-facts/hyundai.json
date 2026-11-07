@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -294,7 +294,16 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/19-Hyundai/1128-i20.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=69&power_e=79&gearing=1"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 80000,
+          "year": 2015,
+          "note": "אינסייט ידנית (אוטומטית Inspire ב-105,000)",
+          "source": {
+            "title": "auto.co.il — יונדאי i20 החדשה החל מ-80,000 שקלים (01.03.2015)",
+            "url": "https://www.auto.co.il/articles/car-news/111944/"
+          }
+        }
       },
       "PB": {
         "issues": [

@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "sportage": {
       "NQ5": {
@@ -743,7 +743,16 @@
               "url": "https://www.spritmonitor.de/en/overview/23-Kia/1637-Stonic.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=83&power_e=93&gearing=4"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 107900,
+          "year": 2018,
+          "note": "1.4 אורבן (1.0 טורבו EX מ-113,900)",
+          "source": {
+            "title": "auto.co.il — קיה סטוניק הושק בישראל (18.07.2018)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/130637/"
+          }
+        }
       }
     },
     "seltos": {
@@ -1015,6 +1024,15 @@
           "stars": 5,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/kia-ev6---euro-ncap-2022-results---5-stars/s/08e150a9-e2e5-431d-9644-27ed060929b5"
+        },
+        "launchPrice": {
+          "ils": 249000,
+          "year": 2022,
+          "note": "פרמיום, הנעה אחורית 229 כ״ס — השקה רשמית דצמבר 2022 (יבוא מקביל הוצע קודם בכ-260 אלף)",
+          "source": {
+            "title": "auto.co.il — קיה EV6 בישראל (25.12.2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135708/"
+          }
         }
       }
     },
