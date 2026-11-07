@@ -1176,6 +1176,65 @@
           }
         ]
       }
+    },
+    "roomster": {
+      "דור 1": {
+        "issues": [
+          {
+            "he": "ריקול: מכסה מסנן הדלק בדיזל 1.2 TDI עלול להיסדק מרעידות בצנרת ולגרום לדליפת דלק. בבדיקה: לוודא מול סוכנות סקודה לפי מספר שלדה שהקריאה בוצעה ולחפש ריח/סימני סולר בתא המנוע",
+            "level": "recall",
+            "scope": "1.2 TDI (55 קו״ט), שנים 2011–2015",
+            "source": {
+              "title": "car-recalls.eu – Skoda Roomster (2011–2015) fuel filter cover (RAPEX A12/1741/14)",
+              "url": "https://car-recalls.eu/recall/skoda-roomster-2011-2015"
+            }
+          },
+          {
+            "he": "ריקול: כרית אוויר מתוצרת Takata עלולה להתפרק בפתיחה ולפזר רסיסי מתכת (קוד ריקול 69DU). בבדיקה: לוודא מול סקודה לפי מספר שלדה שהכרית הוחלפה",
+            "level": "recall",
+            "scope": "ייצור 06/2012–12/2015",
+            "source": {
+              "title": "car-recalls.eu – Skoda Roomster (2012–2015) Takata airbag, recall 69DU (RAPEX A12/00787/23)",
+              "url": "https://car-recalls.eu/recall/skoda-roomster-2012-2015-airbag-takata/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 86 כ״ס",
+            "pt": "petrol",
+            "hp": 86,
+            "cons": 6.7,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Skoda Roomster fuel consumption (user reports, 2010 generation, 1.4 MT)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Skoda-Roomster"
+            }
+          },
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Skoda Roomster fuel consumption (user reports, 2010 generation, 1.2 TSI 105 HP)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Skoda-Roomster"
+            }
+          },
+          {
+            "name": "1.6 TDI דיזל 105 כ״ס",
+            "pt": "diesel",
+            "hp": 105,
+            "cons": 5.3,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Skoda Roomster fuel consumption (user reports, 2010 generation, 1.6 TDI 105 HP)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Skoda-Roomster"
+            }
+          }
+        ]
+      }
     }
   }
 }

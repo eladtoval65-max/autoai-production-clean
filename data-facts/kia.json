@@ -1375,6 +1375,188 @@
           "note": "5 כוכבים (Euro NCAP, דצמבר 2015) — הודעת קיה"
         }
       }
+    },
+    "venga": {
+      "YN": {
+        "issues": [
+          {
+            "he": "תיקון יצרן מ-2010: במבחן ריסוק נמצא שמסילת המושב חתכה את חגורת הנהג; קיה הוסיפה שרוול פוליפרופילן לחגורה (1,161 רכבים מהייצור הראשון). בבדיקה: ברכב משנת 2010 לוודא שהתיקון בוצע ולבדוק את רצועת חגורת הנהג.",
+            "level": "manufacturer",
+            "scope": "ייצור מוקדם 2010",
+            "source": {
+              "title": "Fleet News — Update: Kia Venga issue resolved (March 2010)",
+              "url": "https://www.fleetnews.co.uk/news/2010/3/3/update-kia-venga-issue-resolved/36064/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai ix20 (technical twin of the Venga, same engines), petrol, whole-model average incl. 1.4 and 1.6 (242 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1216-ix20.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03"
+        }
+      }
+    },
+    "soul": {
+      "AM": {
+        "issues": [
+          {
+            "he": "ריקול (אירופה, 2025): דליפת נוזל בלמים ליחידת ה-ABS/HECU עלולה לגרום לקצר ולשריפה בתא המנוע גם כשהרכב כבוי. בבדיקה: לוודא שהקריאה בוצעה ולחפש סימני נוזל בלמים סביב יחידת ה-ABS.",
+            "level": "recall",
+            "scope": "יוצרו 09.06.2010–30.10.2013",
+            "source": {
+              "title": "car-recalls.eu — Kia Soul (2010–2013) brake fluid leak, fire risk (Safety Gate SR/00016/25)",
+              "url": "https://car-recalls.eu/recall/kia-soul-2010-2013-brake-fluid-fire/"
+            }
+          },
+          {
+            "he": "ריקול (ארה״ב): התחממות יתר של הממיר הקטליטי עלולה להזיק למנוע (שבירת טלטל, חור בבלוק) ואף לגרום לשריפה; התיקון – עדכון תוכנה והחלפת ממיר/מנוע לפי הצורך. בבדיקה: נורת מנוע או נקישות מהמנוע – לפסול; לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "1.6 GDi, דגמי 2012–2013 (ריקול אמריקאי 19V120)",
+            "source": {
+              "title": "NHTSA recall 19V-120 — 2012–2016 Kia Soul 1.6L GDI catalytic converter overheating",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V120-1711.PDF"
+            }
+          },
+          {
+            "he": "ריקול (אוסטרליה): כבל המותחן בחגורת הבטיחות לא נלחץ כראוי ועלול להשתחרר. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "יוצרו 23.08.2011–31.03.2012",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Kia AM Soul (PRA 2014/13960)",
+              "url": "https://australiancar.reviews/?p=47169"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 126 כ״ס",
+            "pt": "petrol",
+            "hp": 126,
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2012 Kia Soul, whole-model average, US cars mixing 1.6L and 2.0L (26.63 mpg, 272 vehicles)",
+              "url": "https://fuelly.com/car/Kia/Soul/2012"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7475/euroncap_kia_soul_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 117000,
+          "year": 2011,
+          "note": "1.6 בנזין 126 כ״ס, אוטומטית 4 הילוכים",
+          "source": {
+            "title": "auto.co.il — קיה סול יוצא לדרך בישראל",
+            "url": "https://www.auto.co.il/articles/car-news/117496/"
+          }
+        }
+      },
+      "דור 2": {
+        "issues": [
+          {
+            "he": "ריקול: החיבור בין עמוד ההגה למנגנון ההיגוי עלול להתרופף ולגרום לאובדן היגוי. בבדיקה: לוודא שהקריאה בוצעה ולבדוק חופש בהגה.",
+            "level": "recall",
+            "scope": "יוצרו 18.10.2013–09.01.2014",
+            "source": {
+              "title": "car-recalls.eu — Kia Soul (PS) steering column connection (Rapex A12/1183/14)",
+              "url": "https://car-recalls.eu/listing/kia-soul-2013-2014-2"
+            }
+          },
+          {
+            "he": "ריקול (ארה״ב): התחממות יתר של הממיר הקטליטי עלולה להזיק למנוע ואף לגרום לשריפה; התיקון – עדכון תוכנה והחלפת ממיר/מנוע לפי הצורך. בבדיקה: נורת מנוע או נקישות – לפסול; לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "1.6 GDi, דגמי 2014–2016 (ריקול אמריקאי 19V120)",
+            "source": {
+              "title": "NHTSA recall 19V-120 — 2012–2016 Kia Soul 1.6L GDI catalytic converter overheating",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V120-1711.PDF"
+            }
+          },
+          {
+            "he": "ריקול סול EV: מערכת ניהול הסוללה עלולה לא לזהות מתח חריג בתאים לפני קצר – סכנת שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "Soul EV, יוצרו 04.06.2014–12.11.2018",
+            "source": {
+              "title": "car-recalls.eu — Kia Soul EV (2014–2018) battery short circuit, fire risk (Rapex 18/2024)",
+              "url": "https://car-recalls.eu/recall/kia-soul-ev-2014-2018-short-circuit-fire"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "Soul EV חשמלי 110 כ״ס (27 קוט״ש)",
+            "pt": "ev",
+            "hp": 110,
+            "cons": 17.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia Soul EV (27 kWh), real-world estimate 174 Wh/km",
+              "url": "https://ev-database.org/car/1012/Kia-Soul-EV"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://news.euroncap.com/home/evs-and-urban-crossovers-to-end-euro-ncap-s-year/s/d8070153-f29a-43bd-8707-a23a2d3d8e10"
+        },
+        "launchPrice": {
+          "ils": 119900,
+          "year": 2014,
+          "note": "LX, 1.6 GDi 132 כ״ס אוטומטית 6 הילוכים",
+          "source": {
+            "title": "cartube.co.il — קיה סול החדשה 2014 בישראל – מחיר החל מ-119,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קיה-סול-החדשה-2014-בישראל-–-מחיר-החל-מ-119,900-שקל"
+          }
+        }
+      },
+      "דור 3": {
+        "issues": [
+          {
+            "he": "ריקול: דליפת נוזל קירור פנימית ביחידת בקרת ההספק (EPCU) עלולה לגרום לאובדן כוח הנעה בנסיעה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "יוצרו 06/2020–09/2020",
+            "source": {
+              "title": "car-recalls.eu — Kia Soul EV / Niro EV (2020) EPCU coolant leak (Safety Gate 18/2023)",
+              "url": "https://car-recalls.eu/recall/kia-soul-ev-2020-epcu-coolant/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "e-Soul חשמלי 204 כ״ס (64 קוט״ש)",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 17.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia e-Soul 64 kWh, real-world estimate 173 Wh/km",
+              "url": "https://ev-database.org/car/1154/Kia-e-Soul-64-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "not tested",
+          "url": "https://drivingelectric.com/kia/soul/1023/kia-soul-ev-reliability-safety"
+        }
+      }
     }
   }
 }

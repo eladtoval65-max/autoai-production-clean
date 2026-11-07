@@ -1,6 +1,6 @@
 {
   "make": "chevrolet",
-  "updated": "2026-10-31",
+  "updated": "2026-11-07",
   "models": {
     "spark": {
       "M300": {
@@ -565,6 +565,198 @@
           "source": {
             "title": "cartube — שברולט קפטיבה החדשה – החל מ-199,900 שקל (4.5.2011)",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A9%D7%91%D7%A8%D7%95%D7%9C%D7%98-%D7%A7%D7%A4%D7%98%D7%99%D7%91%D7%94-%D7%94%D7%97%D7%93%D7%A9%D7%94-%E2%80%93-%D7%94%D7%97%D7%9C-%D7%9E-199,900-%D7%A9%D7%A7%D7%9C"
+          }
+        }
+      }
+    },
+    "colorado": {
+      "GMT355": {
+        "issues": [
+          {
+            "he": "ריקול: חסרה תפסנית משנית למכסה המנוע – המכסה עלול להיפתח בנסיעה. בבדיקה: לוודא שקיימת תפסנית משנית/שהמכסה הוחלף.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2012, יוצרו 11/2009–08/2012 (ארה״ב, NHTSA 12V594000)",
+            "source": {
+              "title": "Automotive Fleet – GM Recalls 2010 Through 2012 Chevrolet Colorado and GMC Canyon",
+              "url": "https://www.automotive-fleet.com/83984/gm-recalls-2010-through-2012-chevrolet-colorado-and-gmc-canyon"
+            }
+          },
+          {
+            "he": "ריקול: מחוון מצב ההילוכים באוטומט 4 הילוכים עלול לא להתאים להילוך בפועל – סכנת הידרדרות. בבדיקה: לוודא שהקריאה בוצעה ושב-P הרכב נעול.",
+            "level": "recall",
+            "scope": "מנועי 2.9/3.7 עם תיבה אוטומטית 4 הילוכים",
+            "source": {
+              "title": "Edmunds – 2011 Chevrolet Colorado Review (recalls section)",
+              "url": "https://edmunds.com/chevrolet/colorado/2011/review"
+            }
+          },
+          {
+            "he": "ריקול: מחבר חשמלי רופף באבזם חגורת הנהג – אזהרת חגורה לא חגורה עלולה לא לפעול. בבדיקה: לוודא שהקריאה בוצעה ושהתראת החגורה עובדת.",
+            "level": "recall",
+            "scope": "שנתון 2012, יוצרו 09–10/2011 (NHTSA 11V552000)",
+            "source": {
+              "title": "CarComplaints – 2012 GMC Canyon / Chevrolet Colorado recall 11V552000",
+              "url": "https://m.carcomplaints.com/GMC/Canyon/2012/recalls/occupant-crash-protection-fmvss-208-11v552000.shtml"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.9 בנזין 4 צילינדרים 185 כ״ס",
+            "pt": "petrol",
+            "hp": 185,
+            "cons": 13.54,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly – 2011 Chevrolet Colorado, ממוצע כל המנועים (17.37 MPG, 27 רכבים)",
+              "url": "https://fuelly.com/car/chevrolet/colorado/2011?page=2"
+            }
+          },
+          {
+            "name": "3.7 בנזין 5 צילינדרים 242 כ״ס",
+            "pt": "petrol",
+            "hp": 242,
+            "cons": 13.54,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly – 2011 Chevrolet Colorado, ממוצע כל המנועים (17.37 MPG, 27 רכבים)",
+              "url": "https://fuelly.com/car/chevrolet/colorado/2011?page=2"
+            }
+          }
+        ]
+      },
+      "RG": {
+        "issues": [
+          {
+            "he": "ריקול: כבל האלטרנטור (B+) עלול להשתפשף בתושבת מגש המצבר ולגרום לקצר ושריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קולורדו RG תוצרת תאילנד, שנתונים 2014–2015 (אוסטרליה)",
+            "source": {
+              "title": "carsales – Holden Colorado a fire risk (2015)",
+              "url": "https://www.carsales.com.au/editorial/details/holden-colorado-a-fire-risk-50778"
+            }
+          },
+          {
+            "he": "ריקול: מגע חשמלי לקוי בתיבת ההגה עלול לגרום לאובדן סיוע ההגה. בבדיקה: לוודא שכיסוי חיישן המומנט הוחלף.",
+            "level": "recall",
+            "scope": "שנתון 2015 (ארה״ב, NHTSA 21V213000)",
+            "source": {
+              "title": "Pickup Truck Talk – GM Recall: 60K Colorado, Canyon trucks recalled for steering issue",
+              "url": "https://pickuptrucktalk.com/2021/04/gm-recall-60k-colorado-canyon-trucks-recalled-for-steering-issue/"
+            }
+          },
+          {
+            "he": "מזרקי דלק בדיזל 2.8 עלולים להיכשל סביב 70–100 אלף ק״מ, והחלפה יקרה. בבדיקה: התנעה קשה ועשן מוגזם הם סימני אזהרה.",
+            "level": "widely_reported",
+            "scope": "2.8 טורבו דיזל",
+            "source": {
+              "title": "carsales – What to check before buying a used Holden Colorado",
+              "url": "https://www.carsales.com.au/editorial/details/what-to-check-before-buying-a-used-holden-colorado-134659"
+            }
+          },
+          {
+            "he": "כשלי ממיר מומנט בתיבה האוטומטית, בעיקר ברכבים שגררו הרבה. בבדיקה: להיזהר מהורדת הילוכים איטית או רעידות בהאצה מלאה.",
+            "level": "widely_reported",
+            "scope": "תיבה אוטומטית",
+            "source": {
+              "title": "carsales – What to check before buying a used Holden Colorado",
+              "url": "https://www.carsales.com.au/editorial/details/what-to-check-before-buying-a-used-holden-colorado-134659"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.8 טורבו דיזל 200 כ״ס",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 10.1,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide – Holden Colorado LTZ 2020 review (צריכה שנמדדה במבחן, 147kW)",
+              "url": "https://www.carsguide.com.au/car-reviews/holden-colorado-ltz-75239"
+            }
+          },
+          {
+            "name": "3.6 V6 בנזין 308 כ״ס",
+            "pt": "petrol",
+            "hp": 308,
+            "cons": 11.98,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly – 2018 Chevrolet Colorado (US), ממוצע כל המנועים (19.64 MPG, 201 רכבים)",
+              "url": "https://fuelly.com/car/chevrolet/colorado/2018?page=11"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 345000,
+          "year": 2022,
+          "note": "ZR2 עם V6 3.6 ליטר 308 כ״ס (הגרסה היחידה שיובאה)",
+          "source": {
+            "title": "icar – שברולט קולורדו ZR2 ימכר ב-345,000 שקלים",
+            "url": "https://www.icar.co.il/חדשות_רכב/שברולט_קולורדו_ZR2_ימכר_ב-345,000_שקלים/"
+          }
+        }
+      },
+      "דור 3": {
+        "issues": [
+          {
+            "he": "ריקול: מצלמה קדמית עלולה לזהות מכשול שאינו קיים ולהפעיל בלימת חירום אוטונומית. בבדיקה: לוודא שבוצע עדכון תוכנה למודול המצלמה.",
+            "level": "recall",
+            "scope": "שנתון 2023 (NHTSA 24V133000)",
+            "source": {
+              "title": "Pickup Truck Talk – GM truck recall: Emergency braking can activate unexpectedly",
+              "url": "https://pickuptrucktalk.com/2024/03/gm-truck-recall-emergency-braking-can-activate-unexpectedly/"
+            }
+          },
+          {
+            "he": "ריקול: טבעת הנעילה של משאבת הדלק עלולה לא להינעל עד הסוף – סכנת דליפת דלק בתאונה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2024 (NHTSA 24V491)",
+            "source": {
+              "title": "Pickup Truck Talk – 2023-2026 Chevrolet Colorado Known Problems",
+              "url": "https://pickuptrucktalk.com/2026/06/2023-2026-chevrolet-colorado-known-problems-emergency-braking-seat-belt-fails-coolant-leaks-and-more/"
+            }
+          },
+          {
+            "he": "ריקול: ברגי אבזמי החגורות הקדמיות עלולים להיות מהודקים לא כראוי במפעל. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2023–2024 (NHTSA 24V703000)",
+            "source": {
+              "title": "Pickup Truck Talk – 2023-2026 Chevrolet Colorado Known Problems",
+              "url": "https://pickuptrucktalk.com/2026/06/2023-2026-chevrolet-colorado-known-problems-emergency-braking-seat-belt-fails-coolant-leaks-and-more/"
+            }
+          },
+          {
+            "he": "עלון יצרן: דליפות נוזל קירור, הטיפול – החלפת צינור הרדיאטור העליון. בבדיקה: לבדוק מפלס נוזל קירור וסימני דליפה.",
+            "level": "manufacturer",
+            "scope": "שנתונים 2023–2026 (PIT6494)",
+            "source": {
+              "title": "Pickup Truck Talk – 2023-2026 Chevrolet Colorado Known Problems",
+              "url": "https://pickuptrucktalk.com/2026/06/2023-2026-chevrolet-colorado-known-problems-emergency-braking-seat-belt-fails-coolant-leaks-and-more/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.7 טורבו בנזין 310 כ״ס",
+            "pt": "petrol",
+            "hp": 310,
+            "cons": 12.02,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly – 2023 Chevrolet Colorado 2.7L (19.57 MPG, 42 רכבים; כל הגרסאות)",
+              "url": "https://www1.fuelly.com/car/chevrolet/colorado/2023?page=3"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 420000,
+          "year": 2024,
+          "note": "ZR2 (2.7 טורבו 310 כ״ס, אוטומט 8)",
+          "source": {
+            "title": "icar – מול פורד ריינג'ר ראפטור: שברולט מנחיתה בישראל טנדר אקשן",
+            "url": "https://icar.co.il/news/ryncbgoh0"
           }
         }
       }

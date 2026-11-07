@@ -600,6 +600,61 @@
           }
         ]
       }
+    },
+    "pajero": {
+      "NS/NT/NW/NX (V80/V90)": {
+        "issues": [
+          {
+            "he": "ריקול: מותחן אוטומטי פגום בשרשרת התזמון עלול לגרום להתארכות השרשרת. בבדיקה: לוודא שהמותחן הוחלף במסגרת הקריאה ולהקשיב לרעשי שרשרת בהתנעה קרה.",
+            "level": "recall",
+            "scope": "3.2 DI-D דיזל, שנתונים 2007–2014 (צרפת)",
+            "source": {
+              "title": "L'argus – Rappel Mitsubishi Pajero : risque d'avarie sur la distribution (2015)",
+              "url": "https://www.largus.fr/actualite-automobile/rappel-mitsubishi-pajero-risque-davarie-sur-la-distribution-5694385.html"
+            }
+          },
+          {
+            "he": "ריקול: כיול שגוי של מחשב המנוע גורם לסתימת מסנן החלקיקים (DPF). בבדיקה: לוודא שבוצע עדכון תוכנה ושה-DPF נבדק/הוחלף.",
+            "level": "recall",
+            "scope": "3.2 DI-D דיזל, שנתונים 2011–2014 (צרפת)",
+            "source": {
+              "title": "L'argus – Rappel Mitsubishi Pajero : risque d'avarie sur la distribution (2015)",
+              "url": "https://www.largus.fr/actualite-automobile/rappel-mitsubishi-pajero-risque-davarie-sur-la-distribution-5694385.html"
+            }
+          },
+          {
+            "he": "ריקול: כרית אוויר נוסע של טאקטה – המנפח עלול להתפוצץ ולפזר רסיסים. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "דגמי NW/NX שיוצרו 01/2013–01/2017 (אוסטרליה)",
+            "source": {
+              "title": "CarAdvice – 2013-17 Mitsubishi Pajero recalled for Takata airbags",
+              "url": "https://www.caradvice.com.au/news/2013-17-mitsubishi-pajero-recalled-for-takata-airbags/"
+            }
+          },
+          {
+            "he": "ריקול: ריתוך לקוי בזרוע התחתונה הקדמית הימנית עלול לגרום לשבירתה בנסיעה. בבדיקה: לוודא שקריאה ENL-20-018-SR בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2017–2018 (אירופה)",
+            "source": {
+              "title": "car-recalls.eu – Mitsubishi Pajero front lower arm (Rapex 48/2020)",
+              "url": "https://car-recalls.eu/recall/mitsubishi-pajero-front-lower-arm"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "3.2 טורבו דיזל 190 כ״ס",
+            "pt": "diesel",
+            "hp": 190,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide – Mitsubishi Pajero 2018 review: GLS (צריכה שנמדדה במבחן, 141kW)",
+              "url": "https://www.carsguide.com.au/car-reviews/mitsubishi-pajero-gls-67303"
+            }
+          }
+        ]
+      }
     }
   }
 }

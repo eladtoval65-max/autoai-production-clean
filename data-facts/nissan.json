@@ -1002,6 +1002,100 @@
           }
         }
       }
+    },
+    "almera": {
+      "N17": {
+        "issues": [
+          {
+            "he": "ריקול (אוסטרליה, PRA 2013/13810): חיישן כרית הווילון בעמוד B אולי לא הותקן נכון, והכרית עלולה לא להיפתח כראוי בתאונה. בבדיקה: לוודא מול ניסאן לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "אלמרה N17 לשוק האוסטרלי (2012–2014); הדגם לא נמכר באירופה",
+            "source": {
+              "title": "vehiclerecalls.gov.au – Nissan N17 Almera (REC-001111)",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001111"
+            }
+          },
+          {
+            "he": "ריקול (ארה״ב, NHTSA 17V144000): פינים פגומים במחבר חיישן הפגיעה הצידית עלולים לגרום לפתיחת כריות צד/וילון בטריקת דלת. בבדיקה: לוודא שהוחלפו החיישנים והותקנה רתמת חיבור חדשה",
+            "level": "recall",
+            "scope": "ניסאן ורסה שנת 2012 בארה״ב (ורסה סדאן היא אלמרה N17; הרשומה לא מפרטת סוג מרכב). תחולה על רכבים בישראל לא ודאית",
+            "source": {
+              "title": "NHTSA Recall 17V144000 – 2012 Nissan Versa side air bags",
+              "url": "https://vehiclesafetyrecalls.com/recall/17V144000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 109 כ״ס",
+            "pt": "petrol",
+            "hp": 109,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly – 2014 Nissan Versa (US, 1.6L, 59 vehicles, 30.55 mpg US; mostly sedan = Almera N17)",
+              "url": "https://fuelly.com/car/nissan/versa/2014?page=3"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 108990,
+          "year": 2015,
+          "note": "אלמרה SV, 1.6 ליטר 109 כ״ס",
+          "source": {
+            "title": "icar – ניסאן אלמרה 2015: החל מ-109,000 שקל",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A0%D7%99%D7%A1%D7%90%D7%9F_%D7%90%D7%9C%D7%9E%D7%A8%D7%94_2015:_%D7%94%D7%97%D7%9C_%D7%9E-109,000_%D7%A9%D7%A7%D7%9C"
+          }
+        }
+      }
+    },
+    "tiida": {
+      "C11": {
+        "issues": [
+          {
+            "he": "ריקול Takata: מחולל הגז של כרית האוויר של הנוסע עלול להיות פגום ולפזר רסיסי מתכת בעת פתיחה. בבדיקה: לוודא מול נציגות ניסאן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דגמים שיוצרו 30.8.2005–31.8.2012",
+            "source": {
+              "title": "car-recalls.eu – Nissan Tiida (2005–2012) passenger airbag recall (Rapex 29/2019)",
+              "url": "https://car-recalls.eu/recall/nissan-tiida-2005-2012/"
+            }
+          },
+          {
+            "he": "ריקול Takata גם לכרית הנהג: המנפח עלול להתפוצץ ולהעיף רסיסים לעבר הנוסעים. בבדיקה: לדרוש אישור שהוחלפה כרית הנהג.",
+            "level": "recall",
+            "scope": "שנים 2006–2012 (נתוני ריקול אוסטרליה)",
+            "source": {
+              "title": "australiancar.reviews – Recalls: Nissan C11 Tiida",
+              "url": "https://australiancar.reviews/?p=47584"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין 110 כ״ס",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Nissan Tiida fuel consumption (2007 Tiida 1.6 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Nissan-Tiida"
+            }
+          },
+          {
+            "name": "1.8 בנזין 126 כ״ס",
+            "pt": "petrol",
+            "hp": 126,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Nissan Tiida fuel consumption (2007 Tiida 1.8 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Nissan-Tiida"
+            }
+          }
+        ]
+      }
     }
   }
 }

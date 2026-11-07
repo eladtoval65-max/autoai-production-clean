@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -465,6 +465,91 @@
           "year": 2019,
           "url": "https://www.euroncap.com/press-media/when-the-going-gets-tough-honda-mercedes-benz-and-seat-off-roaders-get-top-marks-for-safety/",
           "note": "5 כוכבים (Euro NCAP, מרץ 2019) — דירוג מרבי"
+        }
+      }
+    },
+    "altea": {
+      "דור 1": {
+        "issues": [
+          {
+            "he": "ריקול: כרית אוויר נהג (Takata) – חומר ההנעה עלול להתדרדר ובפתיחה להעיף חלקים. בבדיקה: לוודא מול סיאט לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנים 2012–2013",
+            "source": {
+              "title": "car-recalls.eu – Seat Altea recalls (2012–2013 driver airbag)",
+              "url": "https://car-recalls.eu/model/Altea/"
+            }
+          },
+          {
+            "he": "ריקול: קפיץ בממסר המתנע עלול להיתקע ולגרום להתחממות יתר של הממסר. בבדיקה: לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנת 2011",
+            "source": {
+              "title": "car-recalls.eu – Seat Altea recalls (2011 starter relay)",
+              "url": "https://car-recalls.eu/model/Altea/"
+            }
+          },
+          {
+            "he": "במנועי הבנזין 1.4/1.6 (לא טורבו) מותח רצועת התזמון עשוי פלסטיק ועלול להיכשל ולגרום לנזק חמור למנוע. בבדיקה: לבקש הוכחה שהרצועה והמותח הוחלפו",
+            "level": "widely_reported",
+            "scope": "1.4 / 1.6 בנזין",
+            "source": {
+              "title": "What Car? – Used Seat Altea 2004–2015 reliability",
+              "url": "https://www.whatcar.com/seat/altea/estate/used-review/n601/advice"
+            }
+          },
+          {
+            "he": "דווחו תקלות בתיבות DSG, וכן תקלות במערכות ABS/ESP, בקרת שיוט ומיזוג. בבדיקה: נסיעת מבחן עם תשומת לב לטלטולים בהחלפת הילוכים ולנורות אזהרה, וסריקת מחשב",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? – Used Seat Altea 2004–2015 reliability",
+              "url": "https://www.whatcar.com/seat/altea/estate/used-review/n601/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 TSI בנזין 160 כ״ס (DSG)",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 7.7,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Seat Altea fuel consumption (user reports, 2009 facelift, 1.8 TSI AT)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Seat-Altea"
+            }
+          },
+          {
+            "name": "1.4 TSI בנזין 125 כ״ס",
+            "pt": "petrol",
+            "hp": 125,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Seat Altea fuel consumption (user reports, 2009 facelift, 1.4 TSI 125 HP MT)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Seat-Altea"
+            }
+          },
+          {
+            "name": "2.0 TDI דיזל 140 כ״ס",
+            "pt": "diesel",
+            "hp": 140,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Seat Altea fuel consumption (user reports, 2009 facelift, 2.0 TDI 140 HP MT, XL)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Seat-Altea"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 152900,
+          "year": 2009,
+          "note": "אלטאה 1.8 TSI DSG, רמת אבזור יחידה (השקת דגם המתיחה בישראל; אלטאה XL בתוספת 3,000 ש״ח)",
+          "source": {
+            "title": "icar – סיאט אלטאה החדשה בישראל",
+            "url": "https://www.icar.co.il/חדשות_רכב/סיאט_אלתיאה_החדשה_בישראל/"
+          }
         }
       }
     }

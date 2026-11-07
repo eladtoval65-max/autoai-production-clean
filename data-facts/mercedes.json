@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "c-class": {
       "W204": {
@@ -1968,6 +1968,23 @@
             "source": {
               "title": "Autokostencheck — Verbrauch Mercedes SL 63 AMG 4matic+ (R1slamg) ab 2022, 585 PS: ממוצע מדווח ע\"י משתמשים 16.1 ל'/100 ק\"מ (93 דיווחים)",
               "url": "https://www.autokostencheck.de/Mercedes/Mercedes-SL-Klasse/SL-63/sl-63-amg-4matic-r1slamg_49919/verbrauch/"
+            }
+          }
+        ]
+      }
+    },
+    "glc-eq": {
+      "X540": {
+        "engines": [
+          {
+            "name": "GLC 400 4MATIC חשמלי 489 כ״ס (94 קוט״ש)",
+            "pt": "ev",
+            "hp": 489,
+            "cons": 17.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database – Energy consumption cheatsheet (real-world estimate, 285 Wh/mi)",
+              "url": "https://ev-database.org/imp/cheatsheet/energy-consumption-electric-car"
             }
           }
         ]

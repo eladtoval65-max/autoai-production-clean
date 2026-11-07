@@ -1970,6 +1970,48 @@
           }
         ]
       }
+    },
+    "ix20": {
+      "דור 1": {
+        "issues": [
+          {
+            "he": "ריקול: קליפרים אחוריים עלולים להחליד ובלם היד לא יחזיק את הרכב (ניקוי קליפרים והחלפת אטמים). בבדיקה: לוודא שהקריאה בוצעה ולבדוק שבלם היד מחזיק בעלייה.",
+            "level": "recall",
+            "scope": "גיר ידני, יוצרו 10/2010–04/2012",
+            "source": {
+              "title": "Auto Express — Used Hyundai ix20 review (recall October 2012, rear brake calipers)",
+              "url": "https://www.autoexpress.co.uk/used-car-tests/353071/used-hyundai-ix20-review"
+            }
+          },
+          {
+            "he": "חיבור הבלוטות' לא יציב ועלול להתנתק באמצע שיחה – התלונה הנפוצה ביותר של בעלים. בבדיקה: לחבר טלפון ולבצע שיחת ניסיון.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Hyundai ix20 review (owner complaints)",
+              "url": "https://www.autoexpress.co.uk/used-car-tests/353071/used-hyundai-ix20-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Hyundai ix20, petrol, whole-model average incl. 1.4 and 1.6 (242 vehicles)",
+              "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1216-ix20.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6776/hyundai_ix20_2011_datasheet.pdf",
+          "note": "דירוג משותף עם קיה ונגה (נבחנה ב-2010); ה-ix20 עצמה לא נבחנה בנפרד"
+        }
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "c3": {
       "Gen3": {
@@ -749,6 +749,228 @@
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/citro-n-c4---euroncap-2021-results---4-stars/s/eed3f65a-e773-49b0-9bb1-4e88af7f9297",
           "note": "דירוג ה-C4 משנת 2021 חל גם על גרסת ה-C4 X וה-ë-C4"
+        }
+      }
+    },
+    "c5": {
+      "X7": {
+        "issues": [
+          {
+            "he": "ריקול: בטמפרטורות מתחת לאפס, חיבור חשמלי במחמם הדלק עלול להתחמם ולהמיס את המכסה, אוויר נכנס למערכת הדלק והמנוע עלול לכבות. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2.0 HDi, יוצרו 3.9.2012–18.12.2014",
+            "source": {
+              "title": "car-recalls.eu – Citroën C5 (2012–2014) 2.0 HDi fuel heater recall (A12/1484/15)",
+              "url": "https://car-recalls.eu/recall/citroen-c5-2012-2014/amp"
+            }
+          },
+          {
+            "he": "ריקול: בבלימה חזקה וממושכת, מפלס שמן המנוע עלול להימדד לא נכון ולגרום לכיבוי המנוע. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "3.0 V6 HDi (חלק מהדגמים), 2011 – נתוני ריקול אוסטרליה",
+            "source": {
+              "title": "australiancar.reviews – Recalls: Citroen Mk.2 C5 (PRA 2011/12741)",
+              "url": "https://www.australiancar.reviews/?p=46642"
+            }
+          },
+          {
+            "he": "ריקול: מנוע מגב השמשה בצד הנהג עלול להפסיק לפעול; ובנפרד, שסתום במשאבת הוואקום של מגבר הבלמים עלול לתקול. בבדיקה: לוודא ששתי הקריאות בוצעו ולבדוק את המגבים.",
+            "level": "recall",
+            "scope": "2011, לפי מספרי שלדה – נתוני ריקול אוסטרליה",
+            "source": {
+              "title": "australiancar.reviews – Recalls: Citroen Mk.2 C5 (PRA 2011/12281, 2011/12304)",
+              "url": "https://www.australiancar.reviews/?p=46642"
+            }
+          },
+          {
+            "he": "תקלות חשמל הן מקור הבעיות העיקרי, ואחריהן המתלים. בבדיקה: לנסות כל מתג ובקרה, ובנסיעת מבחן להקשיב לדפיקות וחבטות מלמטה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? – Used Citroën C5 2008–2016 reliability",
+              "url": "https://whatcar.com/citroen/c5/saloon/used-review/n298/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין 143 כ״ס (אוטומטי)",
+            "pt": "petrol",
+            "hp": 143,
+            "cons": 11.3,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG – Citroen C5 (2008–2016) 2.0i 16v Automatic: 25.0 mpg (UK)",
+              "url": "https://www.honestjohn.co.uk/realmpg/citroen/c5-2008"
+            }
+          },
+          {
+            "name": "1.6 טורבו בנזין 156 כ״ס (אוטומטי)",
+            "pt": "petrol",
+            "hp": 156,
+            "cons": 9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Citroen C5 fuel consumption (2012 sedan 1.6 THP 156 AT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/citroen-c5"
+            }
+          },
+          {
+            "name": "1.6 דיזל 112 כ״ס",
+            "pt": "diesel",
+            "hp": 112,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG – Citroen C5 (2008–2016) 1.6 HDi: 49.9 mpg (UK)",
+              "url": "https://www.honestjohn.co.uk/realmpg/citroen/c5-2008"
+            }
+          },
+          {
+            "name": "2.0 דיזל 163 כ״ס",
+            "pt": "diesel",
+            "hp": 163,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG – Citroen C5 (2008–2016) 2.0 HDi 160: 44.5 mpg (UK)",
+              "url": "https://www.honestjohn.co.uk/realmpg/citroen/c5-2008"
+            }
+          },
+          {
+            "name": "2.0 דיזל BlueHDi 150 כ״ס",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG – Citroen C5 (2008–2016) 2.0 BlueHDi 150: 44.1 mpg (UK)",
+              "url": "https://www.honestjohn.co.uk/realmpg/citroen/c5-2008"
+            }
+          },
+          {
+            "name": "2.2 דיזל 204 כ״ס",
+            "pt": "diesel",
+            "hp": 204,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG – Citroen C5 (2008–2016) 2.2 HDi: 37.5 mpg (UK)",
+              "url": "https://www.honestjohn.co.uk/realmpg/citroen/c5-2008"
+            }
+          },
+          {
+            "name": "3.0 V6 דיזל 240 כ״ס (אוטומטי)",
+            "pt": "diesel",
+            "hp": 240,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG – Citroen C5 (2008–2016) 3.0 HDi V6 Automatic: 37.2 mpg (UK)",
+              "url": "https://www.honestjohn.co.uk/realmpg/citroen/c5-2008"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7415/euroncap_citroen_c5_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 169000,
+          "year": 2009,
+          "note": "Comfort, 2.0 בנזין 143 כ״ס אוטומטי",
+          "source": {
+            "title": "icar – סיטרואן C5 החדשה בישראל",
+            "url": "https://www.icar.co.il/חדשות_רכב/סיטרואן_C5_החדשה_בישראל/"
+          }
+        }
+      }
+    },
+    "c-elysee": {
+      "דור 1": {
+        "issues": [
+          {
+            "he": "ריקול: שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק, והמנוע עלול לכבות בסל״ד גבוה ולא להתניע. בבדיקה: לוודא שהקריאה בוצעה ולבקש תיעוד החלפת רצועה.",
+            "level": "recall",
+            "scope": "יוצרו 29.6.2015–13.4.2018",
+            "source": {
+              "title": "car-recalls.eu – Citroën C-Elysée (2015–2018) timing belt recall (Rapex 32/2021)",
+              "url": "https://car-recalls.eu/recall/citroen-c-elysee-2018-timing-belt/"
+            }
+          },
+          {
+            "he": "ריקול: שרשרת גל הזיזים במנוע 1.5 BlueHDi עלולה להיקרע ולגרום להשבתת מנוע. בבדיקה: לוודא מול היבואן לפי מספר שלדה שהקריאה (NY5) בוצעה.",
+            "level": "recall",
+            "scope": "1.5 BlueHDi (DV5R), יוצרו 15.12.2017–31.1.2023",
+            "source": {
+              "title": "car-recalls.eu – Citroen C-Elysée (2017–2023) BlueHDi camshaft chain recall (Rapex 30/2025)",
+              "url": "https://car-recalls.eu/recall/citroen-c-elysee-2017-2023-bluehdi-failure/"
+            }
+          },
+          {
+            "he": "ריקול: רכיב פגום בממסר המתנע עלול לגרום למתנע לא לפעול, להישאר נעול או להפעיל עצמו – סכנת תזוזה או שריפה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "יוצרו 20.6.2016–15.9.2016",
+            "source": {
+              "title": "car-recalls.eu – Citroen C-Elysée (2016) starter relay recall (Alert 18/2017)",
+              "url": "https://car-recalls.eu/recall/citroen-c-elysee-2016/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 82 כ״ס",
+            "pt": "petrol",
+            "hp": 82,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Citroen C-Elysee fuel consumption (2012 1.2 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Citroen-CElysee"
+            }
+          },
+          {
+            "name": "1.6 בנזין 115 כ״ס (אוטומטי)",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Citroen C-Elysee fuel consumption (2012 1.6 AT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Citroen-CElysee"
+            }
+          },
+          {
+            "name": "1.6 דיזל 92 כ״ס",
+            "pt": "diesel",
+            "hp": 92,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor – Citroen C-Elysée, whole-model diesel average (21 vehicles)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/12-Citroen/1351-C-Elys%C3%A9e.html"
+            }
+          },
+          {
+            "name": "1.6 דיזל BlueHDi 100 כ״ס",
+            "pt": "diesel",
+            "hp": 100,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor – Citroen C-Elysée, whole-model 'diesel with AdBlue' average (6 vehicles)",
+              "url": "https://www.spritmonitor.de/es/vista_previa/12-Citroen/1351-C-Elys%C3%A9e.html"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 92000,
+          "year": 2012,
+          "note": "1.2 ליטר ידני (גרסת הבסיס)",
+          "source": {
+            "title": "auto.co.il – סיטרואן C אליזה יוצאת לדרך בישראל",
+            "url": "https://www.auto.co.il/articles/car-news/114477/"
+          }
         }
       }
     }

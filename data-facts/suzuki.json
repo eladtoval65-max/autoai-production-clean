@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "models": {
     "swift": {
       "AZ": {
@@ -735,6 +735,98 @@
             "source": {
               "title": "Spritmonitor — Suzuki Grand Vitara, diesel, whole-model average all years/generations incl. earlier 2.0 diesel (174 vehicles)",
               "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/421-Grand_Vitara.html"
+            }
+          }
+        ]
+      }
+    },
+    "alto": {
+      "A-Star": {
+        "issues": [
+          {
+            "he": "ריקול (אוסטרליה): מנוע מפוח החימום עלול להיתקע ולגרום לנגד/נתיך לשרוף, כך שהחימום ומפשיר השמשה מפסיקים לעבוד. בבדיקה: לבדוק שהמפוח עובד בכל המהירויות ושהנגד הוחלף",
+            "level": "recall",
+            "scope": "דגמי 2009 ואילך, אצוות מסוימות",
+            "source": {
+              "title": "CarsGuide – Suzuki Alto recall tally rises to 13,000",
+              "url": "https://www.carsguide.com.au/car-news/suzuki-alto-recall-tally-rises-to-13000-22257"
+            }
+          },
+          {
+            "he": "ריקול (אירופה): פנסים אחוריים עלולים שלא לפעול כראוי (כ-10,000 רכבים). בבדיקה: לבדוק את כל הפנסים האחוריים ואורות הבלימה ולוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "אלטו לשוק האירופי",
+            "source": {
+              "title": "Autocar India – Suzuki recalls Alto in Europe",
+              "url": "https://www.autocarindia.com/car-news/suzuki-recalls-alto-in-europe-269808"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 68 כ״ס",
+            "pt": "petrol",
+            "hp": 68,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Suzuki Alto 2009 1.0 (2009–2014), real consumption by user reviews",
+              "url": "https://www.auto-abc.eu/Suzuki-Alto/v15184-2009"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7582/euroncap_suzuki_alto_2009_3stars.pdf",
+          "note": "3 כוכבים לפי שם קובץ הדו״ח הרשמי של Euro NCAP; דף התוצאות מציין כיום 'Rating Expired'"
+        }
+      }
+    },
+    "splash": {
+      "דור 1": {
+        "issues": [
+          {
+            "he": "ריקול (בריטניה, R/2014/105): ברגי משאבת המים עלולים להשתחרר ולגרום לכשל מנוע. בבדיקה: לוודא שהקריאה בוצעה (בדיקת מומנט/החלפת ברגים, ובמידת הצורך משאבת מים ורצועה) ולחפש דליפות נוזל קירור",
+            "level": "recall",
+            "source": {
+              "title": "vehicle-recall.co.uk – Suzuki Splash recalls (R/2014/105)",
+              "url": "https://www.vehicle-recall.co.uk/make/SUZUKI/SPLASH"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 86 כ״ס (אוטומט)",
+            "pt": "petrol",
+            "hp": 86,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Suzuki Splash fuel consumption (user reports, 2008 1.2 86 HP AT)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Suzuki-Splash"
+            }
+          },
+          {
+            "name": "1.2 בנזין 94 כ״ס (אוטומט)",
+            "pt": "petrol",
+            "hp": 94,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Suzuki Splash fuel consumption (user reports, 1.2 94 HP AT)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Suzuki-Splash"
+            }
+          },
+          {
+            "name": "1.2 בנזין 94 כ״ס (ידני)",
+            "pt": "petrol",
+            "hp": 94,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Suzuki Splash fuel consumption (user reports, 2012 1.2 94 HP MT)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Suzuki-Splash"
             }
           }
         ]

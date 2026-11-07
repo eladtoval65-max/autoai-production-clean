@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -839,6 +839,117 @@
           "source": {
             "title": "Cartube — אופל אינסיגניה החדשה 2018 בישראל, מחיר 169,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/אופל-אינסיגניה-החדשה-2018-בישראל-מחיר-169900-שקל"
+          }
+        }
+      }
+    },
+    "zafira-tourer": {
+      "C": {
+        "issues": [
+          {
+            "he": "ריקול: מוט ההגה (Track rod end) עלול להשתחרר ולגרום לאובדן שליטה בהגה. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "יוצרו 13–19.4.2016",
+            "source": {
+              "title": "Auto Express – Used Vauxhall Zafira Tourer review",
+              "url": "https://www.autoexpress.co.uk/vauxhall/zafira-tourer/101610/used-vauxhall-zafira-tourer-review"
+            }
+          },
+          {
+            "he": "ריקולים נוספים: שפשוף בצנרת הדלק וכרית צד קדמית שאולי לא תיפתח כמתוכנן. בבדיקה: לוודא מול היבואן שכל הקריאות בוצעו.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? – Used Vauxhall Zafira Tourer 2013–2018 reliability",
+              "url": "https://www.whatcar.com/vauxhall/zafira/mpv/used-review/advice/"
+            }
+          },
+          {
+            "he": "בדיזל דווח על סתימת מסנן חלקיקים (DPF), במיוחד בנסיעות עירוניות קצרות. בבדיקה: לחפש נורת DPF ולבקש היסטוריית טיפולים.",
+            "level": "widely_reported",
+            "scope": "מנועי CDTI",
+            "source": {
+              "title": "What Car? – Used Vauxhall Zafira Tourer 2013–2018 reliability",
+              "url": "https://www.whatcar.com/vauxhall/zafira/mpv/used-review/advice/"
+            }
+          },
+          {
+            "he": "תקלות חשמל קטנות (תאורה, מגבים, רדיו שנדלק לבד ומרוקן מצבר), פתיחת תא מטען לא אמינה ובלמים אחוריים שנתפסים וחורקים. בבדיקה: לבדוק את כל האורות, נעילת הדלת האחורית ולהקשיב לחריקות בבלימה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express – Used Vauxhall Zafira Tourer review",
+              "url": "https://www.autoexpress.co.uk/vauxhall/zafira-tourer/101610/used-vauxhall-zafira-tourer-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין 140 כ״ס (אוטומטי)",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Opel Zafira fuel consumption (2011 gen, 1.4 Turbo 140 AT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Opel-Zafira"
+            }
+          },
+          {
+            "name": "1.4 טורבו בנזין 140 כ״ס (ידני)",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 8.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Opel Zafira fuel consumption (2011 gen, 1.4 Turbo 140 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Opel-Zafira"
+            }
+          },
+          {
+            "name": "1.8 בנזין 115 כ״ס",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Opel Zafira fuel consumption (2011 gen, 1.8 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Opel-Zafira"
+            }
+          },
+          {
+            "name": "2.0 דיזל 130 כ״ס",
+            "pt": "diesel",
+            "hp": 130,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Opel Zafira fuel consumption (2011 gen, 2.0 CDTI 130 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Opel-Zafira"
+            }
+          },
+          {
+            "name": "2.0 דיזל 165 כ״ס",
+            "pt": "diesel",
+            "hp": 165,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu – Real Opel Zafira fuel consumption (2011 gen, 2.0 CDTI 165 MT, user reports)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Opel-Zafira"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://www.euroncap.com/en/results/opel/vauxhall/zafira+tourer/10990"
+        },
+        "launchPrice": {
+          "ils": 168000,
+          "year": 2012,
+          "note": "1.4 טורבו 140 כ״ס אוטומטי (גרסת ההשקה)",
+          "source": {
+            "title": "auto.co.il – אופל זפירה חוזר עם תג מחיר של 168,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/115348/"
           }
         }
       }
