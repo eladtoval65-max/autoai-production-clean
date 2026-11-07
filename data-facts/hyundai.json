@@ -308,12 +308,12 @@
       "PB": {
         "issues": [
           {
-            "he": "מגע פגום במתג אורות הבלם עלול לגרום לאורות בלם שלא נדלקים, קושי בהתנעה, השבתת שיוט ובאוטומטית — קושי לצאת מ-P; התיקון: החלפת המגע. לבדוק שאורות הבלם עובדים.",
+            "he": "מתג אורות בלם פגום עלול לגרום לאורות בלם שלא נדלקים, קושי בהתנעה, השבתת בקרת שיוט ובאוטומטית קושי לצאת מ-P. התיקון: החלפת המתג. לבדוק שאורות הבלם עובדים.",
             "level": "manufacturer",
-            "scope": "עלון שירות 2012 (אוסטרליה)",
+            "scope": "רכבי יונדאי שיוצרו 08/2011–05/2012 (עלון לסוכנים באוסטרליה, יוני 2012 — לא ריקול)",
             "source": {
-              "title": "australiancar.reviews — Recalls: Hyundai PB i20 (TSB June 2012, brake light switch)",
-              "url": "https://australiancar.reviews/?p=47056"
+              "title": "CarsGuide (18.12.2012) — Hyundai dealer bulletin (June 2012): faulty brake light switch on passenger vehicles built Aug 2011–May 2012",
+              "url": "https://carsguide.com.au/car-news/thousands-of-hyundai-brake-lights-faulty-21245"
             }
           },
           {
@@ -1813,8 +1813,8 @@
             "cons": 6.9,
             "unit": "L",
             "source": {
-              "title": "AutoCentrum.pl — Hyundai Accent III (MC) fuel reports: 1.4 97 KM, 6.9 L/100km, 13 owner reports (sedan + hatch)",
-              "url": "https://www.autocentrum.pl/spalanie/hyundai/accent/iii/"
+              "title": "AutoCentrum.pl — Hyundai Accent III Sedan 1.4 97KM (2006–2011): owner average 6.9 L/100km, 12 fuel reports",
+              "url": "https://www.autocentrum.pl/spalanie/hyundai/accent/iii/sedan/silnik-benzynowy-1.4-i-97km-2006-2011/"
             }
           },
           {

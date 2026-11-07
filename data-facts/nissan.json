@@ -1095,6 +1095,31 @@
             }
           }
         ]
+      },
+      "C12": {
+        "issues": [
+          {
+            "he": "קריאת שירות (קטאר, 2019): מנפח כרית האוויר של הנוסע הקדמי עלול להיות פגום. בבדיקה: לוודא מול נציגות ניסאן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתונים 2010–2013 בשוק המזרח התיכון — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "The Peninsula Qatar — MoCI recalls Nissan Tiida models from 2010 to 2013 (front passenger airbag inflator, 15.10.2019)",
+              "url": "https://thepeninsulaqatar.com/article/15/10/2019/MoCI-recalls-Nissan-Tiida-models-from-2010-to-2013"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 בנזין (CVT)",
+            "pt": "petrol",
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "8891 (Taiwan) — Tiida 5D owner-reported average 13.2 km/L, 1.6 CVT (mixed model years 2009–2019, few reports)",
+              "url": "https://c.8891.com.tw/nissan/tiida-5d/FuelEconomy.html?nk=109"
+            }
+          }
+        ]
       }
     }
   }
