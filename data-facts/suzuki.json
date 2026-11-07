@@ -744,6 +744,15 @@
           "year": 2006,
           "url": "https://parkers.co.uk/suzuki/sx4/review/practicality",
           "note": "4 כוכבים (Euro NCAP, 2006); מקור: Parkers המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 112000,
+          "year": 2007,
+          "note": "1.6 107 כ״ס אוטומטית, גרסה בסיסית (GLX: 114,000)",
+          "source": {
+            "title": "וואלה! רכב — השקת סוזוקי SX4 בישראל (23.9.2007)",
+            "url": "https://cars.walla.co.il/item/1172336"
+          }
         }
       }
     },

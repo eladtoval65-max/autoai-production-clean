@@ -1002,6 +1002,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://www.euroncap.com/en/results/kia/sorento/11046"
+        },
+        "launchPrice": {
+          "ils": 230000,
+          "year": 2010,
+          "note": "2.4 בנזין 174 כ״ס, 7 מושבים, הנעה כפולה (דיזל 2.2: 240,000)",
+          "source": {
+            "title": "auto.co.il — הסורנטו יוצא לדרך בישראל (07.01.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/119019/"
+          }
         }
       }
     },

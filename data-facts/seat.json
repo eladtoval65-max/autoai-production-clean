@@ -146,6 +146,15 @@
           "year": 2008,
           "url": "https://www.autoblog.com/2008/05/29/seat-ibiza-gets-5-starts-in-euroncap-crash-test/",
           "note": "5 כוכבים (Euro NCAP, 2008); מקור: Autoblog המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 94900,
+          "year": 2009,
+          "note": "1.4 85 כ״ס ידנית 5 דלתות Reference (1.6 אוטומטית DSG: 99,900)",
+          "source": {
+            "title": "auto.co.il — איביזה בישראל; וסיאט יוצאת לדרך חדשה (25.02.2009)",
+            "url": "https://www.auto.co.il/articles/car-news/120781/"
+          }
         }
       }
     },

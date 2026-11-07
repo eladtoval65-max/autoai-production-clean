@@ -172,6 +172,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7654/euroncap_vw_golf_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 118990,
+          "year": 2008,
+          "note": "1.6 ידנית 5 דלתות Trendline (אוטומטית DSG: 128,990; 1.4 TSI 122 כ״ס: 139,900)",
+          "source": {
+            "title": "icar — פולקסווגן גולף החדשה בישראל (16.12.2008)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פולקסווגן_גולף_החדשה_בישראל/"
+          }
         }
       },
       "Mk8": {
@@ -372,6 +381,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7615/euroncap_vw_polo_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 98000,
+          "year": 2010,
+          "note": "1.4 85 כ״ס ידנית Trendline (אוטומטית DSG: 105,000; 1.2 TSI Comfortline: 113,000)",
+          "source": {
+            "title": "auto.co.il — פולקסווגן פולו החדשה הושקה בישראל (16.02.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/118836/"
+          }
         }
       }
     },
@@ -656,6 +674,15 @@
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7628/euroncap_vw_tiguan_2009_5stars.pdf",
           "note": "דף הנתונים של Euro NCAP, 2009 (מבחן חוזר לפי פרוטוקול 2009)"
+        },
+        "launchPrice": {
+          "ils": 205000,
+          "year": 2008,
+          "note": "Trendline (2.0 TDI 140 כ״ס / 2.0 TSI 170 כ״ס); Sport&Style 250,000",
+          "source": {
+            "title": "וואלה! רכב — טיגואן. יותר מטוארג? (24.3.2008)",
+            "url": "https://cars.walla.co.il/item/1254527"
+          }
         }
       },
       "Mk3": {

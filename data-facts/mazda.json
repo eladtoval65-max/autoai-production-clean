@@ -58,7 +58,16 @@
               "url": "https://www.spritmonitor.de/en/overview/27-Mazda/250-3.html?fueltype=2&constyear_s=2009&constyear_e=2013&power_s=77&power_e=77"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 122500,
+          "year": 2009,
+          "note": "מחיר משוער לפי הכתבה: קומפורט 1.6 אוטומטית סדאן (\"מאזור ה-122,500\"); ספיריט 2.0: 134,000; גרסת אקטיב צפויה ב-115,000",
+          "source": {
+            "title": "auto.co.il — מאזדה 3 2009 החדשה הגיעה לישראל (29.06.2009)",
+            "url": "https://www.auto.co.il/articles/car-news/120000/"
+          }
+        }
       },
       "BM": {
         "issues": [

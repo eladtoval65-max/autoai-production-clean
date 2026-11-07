@@ -585,6 +585,15 @@
           "year": 2008,
           "url": "https://parkers.co.uk/hyundai/i10/hatchback-2008/used-review/practicality",
           "note": "4 כוכבים (Euro NCAP, 2008) — מבחן לדגם לפני מתיחת הפנים; מקור: Parkers המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 92000,
+          "year": 2009,
+          "note": "1.25 78 כ״ס אוטומטית, מפרט אבזור אחיד",
+          "source": {
+            "title": "וואלה! רכב — השקת יונדאי i10 בישראל (7.1.2009)",
+            "url": "https://cars.walla.co.il/item/1413162"
+          }
         }
       }
     },
