@@ -69,6 +69,15 @@
           "year": 2014,
           "url": "https://www.fleetnews.co.uk/news/2014/2/27/five-star-ncap-rating-for-new-qashqai/49734/",
           "note": "5 כוכבים (Euro NCAP, פברואר 2014) — מקור: Fleet News; תוצאות רשמיות: euroncap.com/en/results/nissan/qashqai/7882"
+        },
+        "launchPrice": {
+          "ils": 154900,
+          "year": 2014,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — ניסאן קשקאי החדש 2014 בישראל: מחיר החל מ-154,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-קשקאי-החדש-2014-בישראל-–-מחיר-החל-מ-154,900-שקל"
+          }
         }
       },
       "J10": {
@@ -396,6 +405,15 @@
           "stars": 4,
           "year": 2017,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/nissan-micra---euro-ncap-results-2017/s/c4637b21-bc54-4049-9863-31d3b2db16a7"
+        },
+        "launchPrice": {
+          "ils": 80000,
+          "year": 2017,
+          "note": "מחיר פתיחה מעוגל כפי שפורסם",
+          "source": {
+            "title": "icar — ניסאן מיקרה החדשה בישראל: מ-80,000 שקלים",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A0%D7%99%D7%A1%D7%90%D7%9F_%D7%9E%D7%99%D7%A7%D7%A8%D7%94_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-80,000_%D7%A9%D7%A7%D7%9C%D7%99%D7%9D"
+          }
         }
       },
       "K13": {
@@ -553,6 +571,15 @@
           "year": 2014,
           "url": "https://news.euroncap.com/safercars/euro-ncap-safety-ratings-released-for-c4-cactus--v-class-and-x-trail/s/d1c3682e-20ce-4003-bd02-1e7d08864387",
           "note": "5 כוכבים (Euro NCAP, אוקטובר 2014)"
+        },
+        "launchPrice": {
+          "ils": 184990,
+          "year": 2015,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — ניסאן X-טרייל החדש בישראל: מחיר החל מ-184,990 שקל (2015)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A0%D7%99%D7%A1%D7%90%D7%9F-x-%D7%98%D7%A8%D7%99%D7%99%D7%9C-%D7%94%D7%97%D7%93%D7%A9-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%E2%80%93-%D7%9E%D7%97%D7%99%D7%A8-%D7%94%D7%97%D7%9C-%D7%9E-184,990-%D7%A9%D7%A7%D7%9C-2015"
+          }
         }
       },
       "T33": {

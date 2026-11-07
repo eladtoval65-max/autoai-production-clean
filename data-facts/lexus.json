@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "models": {
     "nx": {
       "AZ10": {
@@ -61,7 +61,12 @@
               "url": "https://www.spritmonitor.de/en/overview/26-Lexus/2000-NX350h.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-twenty-five-years-on---new-polo--taigo--megane-and-nx-earn-highest-accolades/s/ea3c5aa5-0854-4822-b1b1-9f32274492be"
+        }
       }
     },
     "rx": {
@@ -405,7 +410,12 @@
               "url": "https://ev-database.org/car/1251/Lexus-UX-300e"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/lexus-ux---euro-ncap-2019-results---5-stars/s/a6bdf36e-3e03-4fe6-abcd-c38032639832"
+        }
       }
     },
     "lbx": {
@@ -433,7 +443,12 @@
               "url": "https://whatcar.com/news/lexus-lbx-long-term-test-report-5/n27058"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/lexus-lbx---euro-ncap-2024-results---5-stars/s/0fb2ebf4-d86f-45c9-8512-ed2aac38f1a6"
+        }
       }
     },
     "rz": {

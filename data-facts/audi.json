@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "a3": {
       "8V": {
@@ -629,7 +629,12 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-Q7/Q7-II/q7-3-0-tfsi-4m_39740/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/best-in-class-battle-heats-up-in-latest-batch-of-results/s/a78172da-4e74-49db-af29-f98c395f49ce"
+        }
       },
       "4L": {
         "engines": [
@@ -1267,7 +1272,12 @@
               "url": "https://www.autocentrum.pl/spalanie/audi/q8/suv/silnik-diesla-3.0-50-tdi-286km-od-2018/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/golf--puma-and-juke-join-the-ranks-of-top-performers--mg-surges-while-opel-zafira-life-tanks/s/dd5a705a-e03b-4d62-990f-d074f400b03f"
+        }
       }
     },
     "e-tron-gt": {
@@ -1331,7 +1341,12 @@
               "url": "https://car-recalls.eu/recall/audi-a5-2025-airbag-injury/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/latest-news/for-safer-cars--size-isn-t-everything--mini-cooper-electric-and-audi-a6-e-tron-gain-five-star-rating/s/cf78fd72-0eda-43ae-8551-13b503edf441"
+        }
       }
     },
     "q6-e-tron": {
@@ -1359,7 +1374,12 @@
               "url": "https://ev-database.org/car/2146/Audi-Q6-SUV-e-tron-quattro"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/stellar-safety-ratings--but-not-for-stellantis/s/815e31e7-3a91-4cdd-965c-8ab2841e72ea"
+        }
       }
     }
   }

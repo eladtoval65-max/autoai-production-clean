@@ -1,6 +1,6 @@
 {
   "make": "dacia",
-  "updated": "2026-10-25",
+  "updated": "2026-11-07",
   "models": {
     "duster": {
       "Gen2": {
@@ -12,6 +12,32 @@
             "source": {
               "title": "car-recalls.eu — Dacia Duster (2018–2019) rear seat frame strength, RAPEX published 27/03/2020",
               "url": "https://car-recalls.eu/recall/dacia-duster-2018-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מתג ההתנעה עלול להיתקע במצב התנעה כך שהמפתח לא חוזר — ייתכן שצריך להחליפו. לוודא שהקריאה בוצעה ולבדוק שהמפתח חוזר חופשי אחרי התנעה",
+            "level": "recall",
+            "scope": "ייצור עד 10.2018",
+            "source": {
+              "title": "Auto Express — Used Dacia Duster (Mk2, 2018-date) review: recalls",
+              "url": "https://www.autoexpress.co.uk/dacia/duster/360682/used-dacia-duster-mk2-2018-date-review"
+            }
+          },
+          {
+            "he": "בעלים דיווחו על תקלות חשמל חוזרות — נורות אזהרה ותקלות במערכת המולטימדיה. לבדוק שאין נורות דולקות ושהמסך פועל תקין",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Dacia Duster 2018-2024 reliability",
+              "url": "https://www.whatcar.com/dacia/duster/4x4/used-review/n20048/reliability"
+            }
+          },
+          {
+            "he": "בדיזל 1.5 dCi: דווחו תקלות במערכת הפליטה ובחיישנים, וחשוב לוודא שאין נורת מסנן חלקיקים (DPF)",
+            "level": "widely_reported",
+            "scope": "1.5 dCi",
+            "source": {
+              "title": "What Car? — Used Dacia Duster 2018-2024 reliability",
+              "url": "https://www.whatcar.com/dacia/duster/4x4/used-review/n20048/reliability"
             }
           }
         ],
@@ -161,7 +187,13 @@
               "url": "https://www.spritmonitor.de/fr/apercu/113-Dacia/1122-Sandero.html?fueltype=2&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=62&power_e=72&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 2,
+          "year": 2021,
+          "note": "נבדקה גרסת Sandero Stepway",
+          "url": "https://news.euroncap.com/safercars/next-to-best--honda-hr-v-and-ds-4-go-for-four--while-dacia-struggles-again/s/94a99733-7738-4fdf-a28e-d051830ed8d6"
+        }
       },
       "Sandero I": {
         "engines": [

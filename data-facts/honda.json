@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "jazz": {
       "GK": {
@@ -158,6 +158,15 @@
               "title": "car-recalls.eu — Honda Civic (2015–2018) diesel emissions software (Honda 6ER, RAPEX A12/00115/20)",
               "url": "https://car-recalls.eu/recall/honda-civic-2015-2018/amp/"
             }
+          },
+          {
+            "he": "קריאת שירות: אצווה קטנה שיוצרה באפריל 2016 עלולה לסבול מכשל במערכת בקרת היציבות (VSA). לוודא מול היבואן שהקריאה בוצעה ושאין נורת VSA",
+            "level": "recall",
+            "scope": "ייצור אפריל 2016 (האצ'בק)",
+            "source": {
+              "title": "What Car? — Used Honda Civic 2012-2017 reliability (recalls)",
+              "url": "https://www.whatcar.com/honda/civic/hatchback/used-review/n773/reliability"
+            }
           }
         ],
         "engines": [
@@ -198,7 +207,12 @@
               "url": "https://goauto.com.au/amp/90027/2023-honda-civic-e-hev-lx-review.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/images-and-videos/honda-civic---euro-ncap-2022-results---5-stars/s/ae2d27e1-99bd-4136-9315-db08a48b978b"
+        }
       },
       "FN/FK/FD (דור 8)": {
         "engines": [
@@ -312,7 +326,12 @@
               "url": "https://car-recalls.eu/es/honda-hr-v-audio-display-system-does-not-boot-kba/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/next-to-best--honda-hr-v-and-ds-4-go-for-four--while-dacia-struggles-again/s/94a99733-7738-4fdf-a28e-d051830ed8d6"
+        }
       }
     },
     "cr-v": {
@@ -325,6 +344,32 @@
             "source": {
               "title": "car-recalls.eu — Honda CR-V (2017–2020) fuel pump (Honda 6FE, RAPEX A12/01906/24; type codes incl. RE5)",
               "url": "https://car-recalls.eu/recall/honda-cr-v-2017-2020-fuel-pump/?noamp=mobile"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת הבלימה האוטונומית (AEB) עלולה להפעיל בלימה שלא לצורך. תוקן בעדכון תוכנה — לוודא שבוצע",
+            "level": "recall",
+            "scope": "ייצור 30.8.2012–15.10.2014, בגרסאות עם AEB",
+            "source": {
+              "title": "What Car? — Used Honda CR-V 2012-2018 review: recalls",
+              "url": "https://whatcar.com/honda/cr-v/estate/used-review/n790/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: חלק מהרכבים קיבלו דיסקי בלם קטנים מדי. לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 18.12.2012–20.3.2013",
+            "source": {
+              "title": "What Car? — Used Honda CR-V 2012-2018 review: recalls",
+              "url": "https://whatcar.com/honda/cr-v/estate/used-review/n790/advice"
+            }
+          },
+          {
+            "he": "מערכת ניטור לחץ האוויר בצמיגים (TPMS) עלולה להתריע באופן לא עקבי. לבדוק שאין נורת לחץ צמיגים כשהלחץ תקין",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Honda CR-V (Mk4, 2012-2017) review: what to look for",
+              "url": "https://www.autoexpress.co.uk/honda/cr-v/61011/2015-2018-suv/interior"
             }
           }
         ],
@@ -366,7 +411,12 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-CR-V/CR-V/cr-v-1-5-rw_46546/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/images-and-videos/honda-cr-v---euro-ncap-2019-results---5-stars/s/93692fda-fd68-47cf-a048-4937adf0ce9c"
+        }
       },
       "RE (דור 3)": {
         "issues": [
@@ -517,7 +567,12 @@
               "url": "https://car-recalls.eu/it/honda-zr-v-alarm-system-not-activated-kba/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2023,
+          "url": "https://news.euroncap.com/safercars/safety-must-come-first-as-big-and-bold-suvs-continue-to-hit-the-market/s/406f5446-2a99-45ff-adc8-b4b6d2cb7403"
+        }
       }
     },
     "accord": {

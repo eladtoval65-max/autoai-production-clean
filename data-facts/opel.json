@@ -545,7 +545,12 @@
               "url": "https://ev-database.org/car/1278/Opel-Mokka-e"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://news.euroncap.com/safercars/kangoo-and-mokka-return-with-four-stars-in-euro-ncap-safety-tests/s/a348dd31-79fc-4a7b-a6dd-b6b274370d77"
+        }
       }
     },
     "crossland": {

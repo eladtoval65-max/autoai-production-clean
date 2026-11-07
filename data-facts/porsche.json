@@ -1,6 +1,6 @@
 {
   "make": "porsche",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "911": {
       "991": {
@@ -578,7 +578,12 @@
               "url": "https://ev-database.org/car/1237/Porsche-Taycan-4S"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/best-in-class-battle-heats-up-in-latest-batch-of-results/s/a78172da-4e74-49db-af29-f98c395f49ce"
+        }
       }
     }
   }

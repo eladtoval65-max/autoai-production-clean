@@ -70,7 +70,12 @@
               "url": "https://ev-database.org/car/2182/XPENG-G6-RWD-Long-Range"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/xpeng-g6---euro-ncap-2024-results---5-stars/s/5900bc79-e81d-4299-b6ed-3a2fd7523889"
+        }
       }
     },
     "g9": {
@@ -97,7 +102,12 @@
               "url": "https://ev-database.org/car/3279/XPENG-G9-AWD-Performance"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://news.euroncap.com/safercars/safety-must-come-first-as-big-and-bold-suvs-continue-to-hit-the-market/s/406f5446-2a99-45ff-adc8-b4b6d2cb7403"
+        }
       }
     },
     "x9": {
@@ -180,5 +190,5 @@
       }
     }
   },
-  "updated": "2026-11-01"
+  "updated": "2026-11-07"
 }

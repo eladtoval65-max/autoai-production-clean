@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "clio": {
       "Clio IV": {
@@ -108,6 +108,22 @@
               "title": "CompleteCar.ie — Renault recalls Clio and Wind models (1.2 16V / TCe 100 valve issue, built Sept–Nov 2010)",
               "url": "https://www.completecar.ie/car-news/article/1297/Renault-recalls-Clio-and-Wind-models"
             }
+          },
+          {
+            "he": "קריאת שירות: מתג אור הבלם עלול להינמס ולגרום לעשן בתא הנוסעים. לוודא שהקריאה בוצעה ולבדוק שאורות הבלם נדלקים",
+            "level": "recall",
+            "source": {
+              "title": "Haynes — Renault Clio Mk3 common problems (2005-2013): recalls",
+              "url": "https://haynes.com/en-gb/tips-tutorials/renault-clio-mk3-common-problems-2005-2013"
+            }
+          },
+          {
+            "he": "סיבובי סרק לא יציבים, כיבוי מנוע והתנעה קשה — לרוב בגלל גוף מצערת מלוכלך. לבדוק בהתנעה קרה ובסרק שהמנוע יציב",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Renault Clio Mk3 common problems (2005-2013)",
+              "url": "https://haynes.com/en-gb/tips-tutorials/renault-clio-mk3-common-problems-2005-2013"
+            }
           }
         ],
         "engines": [
@@ -146,6 +162,31 @@
             "source": {
               "title": "car-recalls.eu — Renault Captur (2013–2019) battery terminal / alternator fire risk, Renault code 0D78, RAPEX A12/00347/20",
               "url": "https://car-recalls.eu/recall/renault-captur-2013-2019/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כיסויי הקשתות הקדמיים הורכבו לא נכון ועלולים להתחכך בצנרת הבלמים ולגרום לדליפת נוזל בלמים. לבדוק שהקריאה בוצעה, את מפלס נוזל הבלמים ואת תחושת הדוושה",
+            "level": "recall",
+            "scope": "ייצור 1.2013–3.2015",
+            "source": {
+              "title": "What Car? — Used Renault Captur 2013-2019 reliability (recalls)",
+              "url": "https://www.whatcar.com/renault/captur/hatchback/used-review/n845/reliability"
+            }
+          },
+          {
+            "he": "דווחו תקלות חשמל, בעיקר במערכת הניווט/מולטימדיה ובבקרת המיזוג. בנסיעת מבחן לבדוק שהמסך, הרדיו והמזגן פועלים ומגיבים תקין",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Renault Captur 2013-2019 reliability",
+              "url": "https://www.whatcar.com/renault/captur/hatchback/used-review/n845/reliability"
+            }
+          },
+          {
+            "he": "מערכת הסטארט-סטופ עלולה לפעול באופן לא סדיר או לא לפעול כלל. לבדוק בנסיעת מבחן שהמנוע כבה ומתניע מחדש ברמזור",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Renault Captur (Mk1, 2013-2019) reliability",
+              "url": "https://www.carbuyer.co.uk/renault/captur/82195/used-renault-captur-review-2013-to-2019-mk1/reliability"
             }
           }
         ],
@@ -227,6 +268,33 @@
               "title": "car-recalls.eu — Renault Mégane III (2008–2012) brake assistance, H5Ft engine (RAPEX A12/1460/12)",
               "url": "https://car-recalls.eu/recall/renault-megane-iii-2008-2012/amp/"
             }
+          },
+          {
+            "he": "בדיזל 1.5 dCi: מסנן החלקיקים (DPF) נוטה להיסתם ברכב שלא יוצא לנסיעות ארוכות — נורת אזהרה וירידה בכוח. לבדוק שאין נורת DPF ולשאול על אופי הנסיעה",
+            "level": "widely_reported",
+            "scope": "1.5 dCi",
+            "source": {
+              "title": "What Car? — Used Renault Megane 2008-2016 reliability",
+              "url": "https://whatcar.com/renault/megane/hatchback/used-review/n868/reliability"
+            }
+          },
+          {
+            "he": "לתיבות האוטומטיות (CVT וממיר מומנט) יותר תקלות מהממוצע. בנסיעת מבחן לבדוק העברות חלקות, בלי זעזועים, החלקה או נורות",
+            "level": "widely_reported",
+            "scope": "תיבה אוטומטית",
+            "source": {
+              "title": "What Car? — Used Renault Megane 2008-2016 reliability",
+              "url": "https://whatcar.com/renault/megane/hatchback/used-review/n868/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: כריות אוויר שעלולות לא להיפתח כראוי. לוודא מול היבואן שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 6.2010–8.2010",
+            "source": {
+              "title": "Carbuyer — Used Renault Megane buying guide (2008-2016, Mk3): recalls",
+              "url": "https://www.carbuyer.co.uk/tips-and-advice/155160/used-renault-megane-buying-guide-2008-2016-mk3"
+            }
           }
         ],
         "engines": [
@@ -252,6 +320,24 @@
             "source": {
               "title": "car-recalls.eu — Renault Mégane IV (2019) catalytic converter, Renault code 0D75, RAPEX A12/01096/20",
               "url": "https://car-recalls.eu/es/llamada/convertidor-catal%C3%ADtico-renault-megane/amp/"
+            }
+          },
+          {
+            "he": "בדיזל: מסנן החלקיקים (DPF) נוטה להיסתם, בעיקר ברכב שנוסע בעיר בלבד. נסיעה ארוכה בכביש מהיר לרוב מנקה אותו, אחרת התיקון יקר. לבדוק שאין נורת DPF או מצב חירום",
+            "level": "widely_reported",
+            "scope": "דיזל",
+            "source": {
+              "title": "What Car? — Used Renault Megane 2016-2022 reliability",
+              "url": "https://whatcar.com/renault/megane/hatchback/used-review/n910/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת התיבה האוטומטית לא סוגרת את המצמד עד הסוף — אובדן הנעה, רעידות מנוע ונורת התחממות תיבה. מתוקן בעדכון תוכנה; לוודא שבוצע ולבדוק בנסיעת מבחן שאין רעידות בזינוק",
+            "level": "recall",
+            "scope": "תיבה אוטומטית",
+            "source": {
+              "title": "What Car? — Used Renault Megane 2016-2022 reliability (recalls)",
+              "url": "https://whatcar.com/renault/megane/hatchback/used-review/n910/reliability"
             }
           }
         ],

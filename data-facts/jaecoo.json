@@ -1,6 +1,6 @@
 {
   "make": "jaecoo",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "jaecoo-7": {
       "J7": {
@@ -304,7 +304,12 @@
               "url": "https://es.motor1.com/news/767125/omoda-9-phev-prueba-consumo-real/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-highlights-safety-flaws-in-new-models-as-five-cars-secure-top-ratings/s/11e11975-5013-48c4-bc36-58966018946a"
+        }
       }
     }
   }

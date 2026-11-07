@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -164,6 +164,32 @@
               "title": "Fleet News — Ford to replace Kuga PHEV batteries following fire warning (Nov 2020)",
               "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2020/11/02/ford-to-replace-kuga-phev-batteries-following-fire-warning"
             }
+          },
+          {
+            "he": "קריאת שירות: דליפת שמן או אדי דלק בתא המנוע עם סכנת שריפה. לוודא שהקריאה בוצעה ולבדוק שאין ריח דלק או סימני שמן מתחת למכסה המנוע",
+            "level": "recall",
+            "scope": "ייצור עד קיץ 2022 (קריאה 7.2022)",
+            "source": {
+              "title": "What Car? — Used Ford Kuga 2020-present reliability (recalls)",
+              "url": "https://www.whatcar.com/ford/kuga/4x4/used-review/n22953/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: זכוכית גג הפנורמה עלולה להתנתק. לוודא שהקריאה בוצעה ברכב עם גג פנורמי",
+            "level": "recall",
+            "scope": "חלק מהרכבים מייצור 2021",
+            "source": {
+              "title": "Auto Express — Used Ford Kuga Mk3 (2020-date) review: recalls",
+              "url": "https://www.autoexpress.co.uk/ford/kuga/358040/used-ford-kuga-mk3-2020-date-review"
+            }
+          },
+          {
+            "he": "קריאות שירות על מזרקי דלק שעלולים להיסדק ולדלוף (2023, 2024). לבדוק לפי מספר שלדה שהקריאות בוצעו ושאין ריח דלק",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Ford Kuga 2020-present reliability (recalls 27/03/2023, 26/03/2024)",
+              "url": "https://www.whatcar.com/ford/kuga/4x4/used-review/n22953/reliability"
+            }
           }
         ],
         "engines": [
@@ -189,7 +215,12 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-2-5-hybrid-dfk_49505/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/kuga-assessment-with-ford-kuga---euro-ncap-2019-results---5-stars/s/2c059269-2c61-4c7d-b15b-88a9eacdf68e"
+        }
       },
       "Gen1": {
         "issues": [
@@ -229,6 +260,24 @@
               "title": "Derbyshire Times — Ford Puma recalled and roll-out halted over airbag fault (Feb 2020)",
               "url": "https://www.derbyshiretimes.co.uk/lifestyle/cars/ford-puma-recalled-and-roll-out-halted-over-airbag-fault-1996047"
             }
+          },
+          {
+            "he": "קריאת שירות בגרסת המיילד-היברידי: חיבורי המצבר לא הודקו כראוי. לוודא שהקריאה בוצעה ושאין תקלות התנעה או נורות חשמל",
+            "level": "recall",
+            "scope": "ייצור 11.2019–11.2020",
+            "source": {
+              "title": "Auto Express — Used Ford Puma (2020-date) review: recalls (Aug 2020, Jan 2021)",
+              "url": "https://www.autoexpress.co.uk/ford/puma/361416/used-ford-puma-2020-date-review-impressive-suv-thats-great-drive"
+            }
+          },
+          {
+            "he": "במנוע 1.0 EcoBoost רצועת התזמון רטובה (טובלת בשמן) ועלולה להיקרע. Auto Express ממליצים להחליף מוקדם מהמומלץ (6–8 שנים / 100–130 אלף ק״מ). לבקש הוכחת החלפה או לתקצב אותה",
+            "level": "widely_reported",
+            "scope": "1.0 EcoBoost",
+            "source": {
+              "title": "Auto Express — Used Ford Puma (2020-date) review: wet cambelt advice",
+              "url": "https://www.autoexpress.co.uk/ford/puma/361416/used-ford-puma-2020-date-review-impressive-suv-thats-great-drive"
+            }
           }
         ],
         "engines": [
@@ -243,7 +292,12 @@
               "url": "https://www.spritmonitor.de/en/overview/17-Ford/159-Puma.html?fueltype=2&vehicletype=1&constyear_s=2019&constyear_e=2023&power_s=87&power_e=97&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/golf--puma-and-juke-join-the-ranks-of-top-performers--mg-surges-while-opel-zafira-life-tanks/s/dd5a705a-e03b-4d62-990f-d074f400b03f"
+        }
       }
     },
     "fiesta": {

@@ -1,6 +1,6 @@
 {
   "make": "ds",
-  "updated": "2026-10-31",
+  "updated": "2026-11-07",
   "models": {
     "ds-3": {
       "DS 3 Crossback": {
@@ -335,7 +335,13 @@
               "url": "https://car-recalls.eu/2022-ds-automobiles-recalls/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "note": "4 כוכבים באבזור סטנדרטי, 5 עם חבילת בטיחות אופציונלית",
+          "url": "https://news.euroncap.com/safercars/next-to-best--honda-hr-v-and-ds-4-go-for-four--while-dacia-struggles-again/s/94a99733-7738-4fdf-a28e-d051830ed8d6"
+        }
       }
     }
   }

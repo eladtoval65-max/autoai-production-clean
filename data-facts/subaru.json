@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -77,6 +77,15 @@
               "title": "car-recalls.eu — Subaru Impreza (2017–2019) electronic park brake, Subaru SRT324, Safety Gate A12/02023/23",
               "url": "https://car-recalls.eu/recall/subaru-impreza-2017-2019-electronic-park-brake/"
             }
+          },
+          {
+            "he": "קריאת שירות: צנרת בלמים פגומה שיצאה מהמפעל. לוודא שהקריאה בוצעה ולבדוק שאין סימני דליפת נוזל בלמים",
+            "level": "recall",
+            "scope": "ייצור עד 8.2018",
+            "source": {
+              "title": "Auto Express — Used Subaru XV (Mk2) review: Impreza and XV brake hose recall (Nov 2020)",
+              "url": "https://www.autoexpress.co.uk/subaru/xv/359603/used-subaru-xv-mk2-2017-date-review"
+            }
           }
         ],
         "engines": [
@@ -126,7 +135,12 @@
               "url": "https://www.autoscout24.de/informieren/testberichte/subaru/impreza/erster-test-subaru-impreza-e-boxer-einer-fuers-volk/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/stellar-safety-ratings--but-not-for-stellantis/s/815e31e7-3a91-4cdd-965c-8ab2841e72ea"
+        }
       }
     },
     "crosstrek": {
@@ -183,6 +197,33 @@
             "source": {
               "title": "car-recalls.eu — Subaru XV (2017–2019) electronic park brake, Subaru SRT324, Safety Gate A12/02023/23",
               "url": "https://car-recalls.eu/recall/subaru-xv-2017-2019-electronic-park-brake/?noamp=mobile"
+            }
+          },
+          {
+            "he": "קריאת שירות: צנרת בלמים פגומה שיצאה מהמפעל. לוודא שהקריאה בוצעה ולבדוק שאין סימני דליפת נוזל בלמים ליד הגלגלים",
+            "level": "recall",
+            "scope": "ייצור עד 8.2018 (גם אימפרזה)",
+            "source": {
+              "title": "Auto Express — Used Subaru XV (Mk2, 2017-date) review: recalls (Nov 2020)",
+              "url": "https://www.autoexpress.co.uk/subaru/xv/359603/used-subaru-xv-mk2-2017-date-review"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי התושבת של מוט המייצב האחורי לא הודקו כראוי ועלולים להשתחרר ולפגוע בציר ההנעה, בתת-המסגרת או בצינור הבלמים. לוודא שהקריאה בוצעה ולהקשיב לנקישות מהמתלה האחורי",
+            "level": "recall",
+            "scope": "דגמי 2018–2019",
+            "source": {
+              "title": "WhichCar (Australia) — 2018-2019 Subaru XV and 2019 Forester recall: rear stabiliser bracket bolts",
+              "url": "https://whichcar.com.au/car-news/2018-2019-subaru-xv-and-2019-subaru-forester-recall"
+            }
+          },
+          {
+            "he": "קריאת שירות: סלילי הצתה פגומים מקו הייצור. לוודא שהקריאה בוצעה ולבדוק שהמנוע עובד חלק בלי רעידות או נורת מנוע",
+            "level": "recall",
+            "scope": "ייצור עד 10.2019",
+            "source": {
+              "title": "Auto Express — Used Subaru XV (Mk2, 2017-date) review: recalls (Nov 2021)",
+              "url": "https://www.autoexpress.co.uk/subaru/xv/359603/used-subaru-xv-mk2-2017-date-review"
             }
           }
         ],
@@ -255,7 +296,12 @@
               "url": "https://www.autoscout24.at/informieren/testberichte/subaru/crosstrek/test-subaru-crosstrek-2-0ie-gegen-den-strom/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/stellar-safety-ratings--but-not-for-stellantis/s/815e31e7-3a91-4cdd-965c-8ab2841e72ea"
+        }
       }
     },
     "forester": {
@@ -313,6 +359,15 @@
               "title": "car-recalls.eu — Subaru Forester (2017–2020) ignition coil / ECM programming, Subaru SRT284, RAPEX A12/00327/20",
               "url": "https://car-recalls.eu/recall/subaru-forester-2019-ignition-coil-fire/"
             }
+          },
+          {
+            "he": "קריאת שירות: ברגי התושבת של מוט המייצב האחורי לא הודקו כראוי ועלולים להשתחרר ולפגוע בציר ההנעה, בתת-המסגרת או בצינור הבלמים. לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "דגמי 2019",
+            "source": {
+              "title": "WhichCar (Australia) — 2018-2019 Subaru XV and 2019 Forester recall: rear stabiliser bracket bolts",
+              "url": "https://whichcar.com.au/car-news/2018-2019-subaru-xv-and-2019-subaru-forester-recall"
+            }
           }
         ],
         "engines": [
@@ -327,7 +382,12 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/47-Subaru/407-Forester.html?fueltype=10&vehicletype=1&constyear_s=2022&constyear_e=2026&power_s=105&power_e=115&gearing=3"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/best-in-class-battle-heats-up-in-latest-batch-of-results/s/a78172da-4e74-49db-af29-f98c395f49ce"
+        }
       },
       "דור 3": {
         "issues": [

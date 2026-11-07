@@ -253,11 +253,11 @@
       "TA": {
         "issues": [
           {
-            "he": "ריקול במזרח התיכון: החלפת צינור מילוי הדלק וצינור האוורור/פילוס שלו. בדקו לפי מספר שלדה שהוחלפו, ושאין ריח דלק או סימני דליפה ליד פתח המילוי.",
+            "he": "ריקול באיחוד האמירויות (2018): החלפת צינור מילוי הדלק וצינור הפילוס שלו. לבדוק לפי מספר שלדה שהקריאה בוצעה, ושאין ריח דלק או סימני דליפה ליד פתח המילוי.",
             "level": "recall",
-            "scope": "ייצור 03/2011–06/2012",
+            "scope": "1,033 רכבים שיוצרו 3.2011–6.2012",
             "source": {
-              "title": "Carnity — 2012 Kia Picanto recall (UAE, fuel filler and leveling hose)",
+              "title": "Carnity — Kia Picanto recall (UAE, Al Majid Motors, Aug 2018): fuel filler and leveling hose",
               "url": "https://carnity.com/recall/kia/2012-kia-picanto-r4/"
             }
           }
@@ -546,6 +546,15 @@
           "stars": 5,
           "year": 2011,
           "url": "https://cdn.euroncap.com/media/6610/euroncap_kia_rio_2011_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 96000,
+          "year": 2011,
+          "note": "מחיר פתיחה מעוגל שפורסם בהשקה",
+          "source": {
+            "title": "icar — קיה ריו החדשה בישראל: תעלה 96,000 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/קיה_ריו_החדשה_בישראל:_תעלה_96,000_שקל/"
+          }
         }
       }
     },
@@ -850,7 +859,16 @@
               "url": "https://www.autokostencheck.de/Kia/Kia-Sorento/Sorento/sorento-2-2-crdi-allrad-um_39944/verbrauch/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 197900,
+          "year": 2015,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — קיה סורנטו החדש 2015 בישראל: מחיר החל מ-197,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2015-קיה-סורנטו-החדש-בישראל-–-מחיר-החל-מ-197900-שקל"
+          }
+        }
       },
       "MQ4": {
         "issues": [

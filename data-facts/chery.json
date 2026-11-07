@@ -1,6 +1,6 @@
 {
   "make": "chery",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "models": {
     "tiggo-7": {
       "T1E": {
@@ -87,6 +87,12 @@
             "title": "מלכת הכביש — מותג צ'רי בישראל: מחירי השקה (08.11.2022)",
             "url": "https://www.queenoftheroad.co.il/%d7%9e%d7%95%d7%aa%d7%92-%d7%a6%d7%a8%d7%99-%d7%91%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%a7%d7%a8%d7%95%d7%a1%d7%90%d7%95%d7%91%d7%a8%d7%99%d7%9d-5-7-%d7%9e%d7%a7%d7%95%d7%9e%d7%95%d7%aa-%d7%91%d7%a0/"
           }
+        },
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "note": "נבדק דגם 2025",
+          "url": "https://news.euroncap.com/safercars/euro-ncap-highlights-safety-flaws-in-new-models-as-five-cars-secure-top-ratings/s/11e11975-5013-48c4-bc36-58966018946a"
         }
       }
     },

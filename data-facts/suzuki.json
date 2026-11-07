@@ -371,6 +371,15 @@
           "stars": 3,
           "year": 2016,
           "url": "https://news.euroncap.com/safercars/suzuki-baleno---euro-ncap-results-2016/s/478f37d9-fded-401c-8ede-d8b01ef3b0bd"
+        },
+        "launchPrice": {
+          "ils": 74990,
+          "year": 2016,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "icar — סוזוקי בלנו בישראל: החל מ-74,990 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/סוזוקי_בלנו_בישראל_-_החל_מ-74,990_שקל/"
+          }
         }
       }
     },
@@ -442,6 +451,15 @@
           "year": 2016,
           "url": "https://news.euroncap.com/safercars/latest-euro-ncap-safety-ratings-for-2016/s/b8c1b819-6665-4d87-b80d-5ece388c45c8",
           "note": "3 כוכבים בגרסת הבסיס (SZ3); גרסאות עם ערכת הבטיחות המלאה (SZ5) קיבלו 5 כוכבים — לפי Auto Express"
+        },
+        "launchPrice": {
+          "ils": 73990,
+          "year": 2017,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — סוזוקי איגניס החדשה 2017 בישראל: מחיר החל מ-73,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2017-סוזוקי-איגניס-החדשה-בישראל-מחיר-החל-מ-73990-שקל"
+          }
         }
       }
     },
@@ -496,7 +514,16 @@
               "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/1481-SX4_S-Cross.html"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 109990,
+          "year": 2013,
+          "note": "מחיר פתיחה בהשקה (שווק כ'קרוסאובר')",
+          "source": {
+            "title": "icar — סוזוקי קרוסאובר בישראל: החל מ-109,990 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/סוזוקי_קרוסאובר_בישראל:_החל_מ-109,990_שקל/"
+          }
+        }
       },
       "Gen2": {
         "issues": [

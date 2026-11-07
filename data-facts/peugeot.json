@@ -701,7 +701,16 @@
               "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1309-2008.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=77&power_e=87&gearing=2"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 99990,
+          "year": 2013,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "icar — פיג'ו 2008 הגיעה לישראל. המחיר: החל מ-99,990 שקל",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A4%D7%99%D7%92%27%D7%95_2008_%D7%94%D7%92%D7%99%D7%A2%D7%94_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C._%D7%94%D7%9E%D7%97%D7%99%D7%A8:_%D7%94%D7%97%D7%9C_%D7%9E-_99,990_%D7%A9%D7%A7%D7%9C/"
+          }
+        }
       }
     },
     "3008": {

@@ -1061,6 +1061,15 @@
           "year": 2017,
           "url": "https://www.euroncap.com/en/results/hyundai/i30/27355",
           "note": "5 כוכבים (Euro NCAP, יולי 2017) — לפי Fleet News"
+        },
+        "launchPrice": {
+          "ils": 129900,
+          "year": 2017,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — יונדאי i30 החדשה 2017 בישראל: מחיר 129,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i30-החדשה-2017-בישראל-מחיר-129900-שקל"
+          }
         }
       },
       "GD": {

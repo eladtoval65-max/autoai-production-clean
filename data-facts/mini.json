@@ -1,6 +1,6 @@
 {
   "make": "mini",
-  "updated": "2026-10-31",
+  "updated": "2026-11-07",
   "models": {
     "hatch": {
       "R56": {
@@ -475,7 +475,12 @@
               "url": "https://car-recalls.eu/recall/mini-aceman-2023-2024-brakes-accident/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/mini-aceman---euro-ncap-2025-results---5-stars/s/01dd80f2-1d62-4608-9459-5b87965f7116"
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "3-series": {
       "E90": {
@@ -863,7 +863,12 @@
               "url": "https://www.autocentrum.pl/spalanie/bmw/x3/g45/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/bmw-x3---euro-ncap-2025-results---5-stars/s/1cf373d6-0d92-4e4a-a465-b7f375ee4361"
+        }
       }
     },
     "5-series": {
@@ -909,7 +914,12 @@
               "url": "https://www.autokostencheck.de/BMW/BMW-5er/520/520i-g5l_45705/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/all/latest-bimmer-works-5-star-magic/s/d93cf70e-90c5-4efa-8448-b967e1e5a9b5"
+        }
       },
       "F10": {
         "issues": [
@@ -970,7 +980,12 @@
               "url": "https://www.autocentrum.pl/spalanie/bmw/seria-5/g90-91/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://news.euroncap.com/safercars/safety-must-come-first-as-big-and-bold-suvs-continue-to-hit-the-market/s/406f5446-2a99-45ff-adc8-b4b6d2cb7403"
+        }
       }
     },
     "x5": {
@@ -1939,7 +1954,12 @@
               "url": "https://www.autocentrum.pl/spalanie/bmw/z4/g29/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/seven-earn-safety-accolades-in-latest-round-of-euro-ncap-testing/s/d51d31c6-456c-4779-9c43-3b3586e25c76"
+        }
       }
     },
     "x7": {

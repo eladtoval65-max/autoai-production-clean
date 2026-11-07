@@ -1591,7 +1591,12 @@
               "url": "https://www.kbb.com/car-news/recall-alert-mercedes-benz-eqe-eqs-sedans-and-suvs"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://news.euroncap.com/safercars/safety-must-come-first-as-big-and-bold-suvs-continue-to-hit-the-market/s/406f5446-2a99-45ff-adc8-b4b6d2cb7403"
+        }
       }
     },
     "eqs-suv": {
@@ -1685,7 +1690,13 @@
               "url": "https://www.autocentrum.pl/spalanie/mercedes/cle/coupe/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "note": "CLE קופה",
+          "url": "https://news.euroncap.com/safercars/euro-ncap-announces-test-results-for-23-new-cars/s/c4c236e3-3a8b-4079-8d5f-93c2a02a4ddd"
+        }
       }
     },
     "g-class": {

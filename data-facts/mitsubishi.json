@@ -300,6 +300,15 @@
           "stars": 4,
           "year": 2013,
           "url": "https://cdn.euroncap.com/media/5960/euroncap_mitsubishi_space-star_mirage_2013_4stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 69900,
+          "year": 2013,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — מיצובישי ספייס סטאר בישראל: מחיר החל מ-69,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מיצובישי-ספייס-סטאר-בישראל-–-מחיר-החל-מ-69,900-שקל"
+          }
         }
       }
     },
@@ -355,7 +364,16 @@
               "url": "https://www.fuelly.com/car/mitsubishi/mirage_g4"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 88900,
+          "year": 2014,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — מיצובישי אטראז' בישראל: מחיר החל מ-88,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/מיצובישי-אטראז-בישראל-–-מחיר-החל-מ-88,900-שקל"
+          }
+        }
       }
     },
     "eclipse-cross": {

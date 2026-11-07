@@ -259,6 +259,15 @@
           "year": 2011,
           "url": "https://media.toyota.co.uk/new-toyota-yaris-makes-it-three-generations-of-five-star-safety/",
           "note": "5 כוכבים (Euro NCAP, אוקטובר 2011) — מקור: הודעת טויוטה בריטניה"
+        },
+        "launchPrice": {
+          "ils": 91900,
+          "year": 2011,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — טויוטה יאריס החדשה בישראל: מחיר החל מ-91,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-יאריס-החדשה-בישראל-–-מחיר-החל-מ-91,900-שקל"
+          }
         }
       },
       "XP210": {
@@ -376,6 +385,15 @@
           "year": 2021,
           "url": "https://www.euroncap.com/assessments/toyota/yaris-cross/0875/",
           "note": "5 כוכבים במבחן 2021 (נבחר Best in Class); במבחן חוזר ב-2025 קיבל 4 כוכבים"
+        },
+        "launchPrice": {
+          "ils": 119900,
+          "year": 2021,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — טויוטה יאריס קרוס 2021 בישראל: מחיר 119,900 שקל",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94-%D7%99%D7%90%D7%A8%D7%99%D7%A1-%D7%A7%D7%A8%D7%95%D7%A1-2021-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-119900-%D7%A9%D7%A7%D7%9C"
+          }
         }
       }
     },

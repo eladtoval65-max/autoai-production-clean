@@ -60,6 +60,15 @@
           "year": 2017,
           "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2017/07/06/five-star-euro-ncap-safety-rating-awarded-to-alfa-romeo-stelvio-hyundai-i30-vauxhall-insignia-seat-ibiza-and-volkswagen-arteon",
           "note": "5 כוכבים (Euro NCAP, יולי 2017)"
+        },
+        "launchPrice": {
+          "ils": 78900,
+          "year": 2017,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — סיאט איביזה החדשה 2017 בישראל: מחיר 78,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-איביזה-החדשה-2017-בישראל-מחיר-78900-שקל"
+          }
         }
       },
       "6J": {
@@ -240,6 +249,15 @@
           "stars": 5,
           "year": 2012,
           "url": "https://cdn.euroncap.com/media/6359/euroncap_seat_leon_2012_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 114400,
+          "year": 2013,
+          "note": "מחיר פתיחה בהשקה",
+          "source": {
+            "title": "Cartube — סיאט לאון החדשה בישראל: מחיר החל מ-114,400 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-לאון-החדשה-בישראל-–-מחיר-החל-מ-114,400-שקל"
+          }
         }
       },
       "KL": {

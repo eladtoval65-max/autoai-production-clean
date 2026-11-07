@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "xc60": {
       "Gen1": {
@@ -93,6 +93,15 @@
             "source": {
               "title": "Consumer Reports — Volvo recall incl. XC40 (NHTSA 20V144, Volvo R29998): AEB software incompatibility",
               "url": "https://www.consumerreports.org/car-recalls-defects/volvo-recalls-cars-suvs-because-safety-systems-may-not-work"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שחסר אום אחד בחיבור מגבר הבלמים — סכנה לפגיעה בבלימה. לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 29.11.2019–21.2.2020",
+            "source": {
+              "title": "What Car? — Used Volvo XC40 2018-present review: recalls",
+              "url": "https://whatcar.com/volvo/xc40/estate/used-review/n17574/advice"
             }
           }
         ],
@@ -766,7 +775,12 @@
               "url": "https://ev-database.org/uk/car/1775/Volvo-EX90-Twin-Motor"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/volvo-ex90---euro-ncap-2025-results---5-stars/s/c8851bc2-f8e8-4caa-8a24-0aef8dca39f3"
+        }
       }
     },
     "es90": {
