@@ -169,19 +169,34 @@ The daily market agent works through this list top to bottom and ticks items off
 
 ## Queue — used-market models since 2010 still missing (common in Israel)
 - [x] Mitsubishi Lancer, Pajero Sport (2026-11-01)
-- [ ] Mitsubishi Pajero
+- [x] Mitsubishi Pajero (2026-11-07)
 - [ ] Chevrolet Cruze J400 (2017–2020 in Israel? carzone lists those model years — verify), Chevrolet Aveo T250 (2010)
 - [x] Mazda5, Renault Fluence, Kadjar (2026-11-01)
 - [ ] Renault Scenic / Grand Scenic (Wikipedia has no engine/power data — skipped 2026-11-01), Megane E-Tech; Dacia Spring
 - [x] Opel Insignia, Meriva; Ford C-Max, Mondeo; Honda Accord, Insight; Toyota Verso (2026-11-01)
-- [ ] Opel Zafira Tourer; Mazda5 CR (2010) and Ford C-Max Gen1 (2010) overlap years; Honda Insight Gen3 (Israel?)
+- [x] Opel Zafira Tourer (2026-11-07)
+- [ ] Mazda5 CR (2010) and Ford C-Max Gen1 (2010) overlap years; Honda Insight Gen3 (Israel?)
 - [x] Peugeot 508 (2026-11-01)
-- [ ] Peugeot Partner; Citroën C-Elysée, C5; Skoda Roomster; Seat Altea / Toledo
+- [x] Citroën C-Elysée, C5; Skoda Roomster; Seat Altea (2026-11-07)
+- [ ] Peugeot Partner; Seat Toledo
 - [x] Suzuki Grand Vitara (2026-11-01)
-- [ ] Suzuki Alto, Splash; Daihatsu (Sirion, Terios) — check whether Daihatsu was sold here after 2010; Nissan Tiida, Almera
-- [ ] Kia Soul, Venga, Ceed JD/CD; Hyundai Getz (pre-2010 end?), ix20
+- [x] Suzuki Alto, Splash; Nissan Tiida, Almera (2026-11-07; Almera / Tiida C12 hp not on Wikipedia → "—")
+- [ ] Daihatsu (Sirion, Terios) — check whether Daihatsu was sold here after 2010
+- [x] Kia Soul, Venga; Hyundai ix20 (2026-11-07)
+- [ ] Kia Ceed JD/CD; Hyundai Getz (pre-2010 end?)
 
 ## Queue — seen 2026-10-31, not yet covered
 - [ ] Suzuki e Vitara as its own line? (current Vitara line price = e Vitara range; hybrid Vitara 156,900–169,990) — owner
-- [ ] Mercedes GLC EQ (₪439,900–639,900, both sources agree)
+- [x] Mercedes GLC EQ (₪439,900–639,900, both sources agree) (2026-11-07)
 - [ ] Porsche Cayenne Electric, 718 Cayman / Boxster; Cupra Tavascan; VW Taigo, ID.5, ID.7
+
+## Done 2026-11-07
+- [x] generations.ts: Mitsubishi Pajero; Kia Soul, Venga; Hyundai ix20; Nissan Tiida, Almera; Suzuki Alto, Splash; Skoda Roomster; Citroën C5, C-Elysée; Seat Altea; Opel Zafira Tourer; Mercedes GLC EQ (on sale); Chevrolet Colorado (ZR2 on sale ₪433,000)
+- [x] Catalog (batch 22): Toyota Aygo X Hybrid, MG HS Hybrid
+- [ ] Catalog candidate skipped: Peugeot 208 — trim hp unclear (auto.co.il 145 hp vs carzone review 100/136 hp), list price 130,490 (auto.co.il) vs 130,990 (carzone)
+
+## Queue — seen 2026-11-07, not yet covered
+- [ ] XPENG L03 (₪179,990, carzone only); Dongfeng M-HERO 1 (₪699,000, cartube only)
+- [ ] Grouping (owner): Mercedes CLA line holds the CLA EQ range (309,900–479,900); carzone now also lists a plain CLA 319,900–419,900. Audi Q3 / Q4 e-tron / Q5 / Q6 e-tron Sportback lines; MINI 3-door / electric hatch, Countryman electric; Land Rover Defender 90 / 130; Volvo XC40 vs EX40; Isuzu D-Max single / double cab
+- [ ] Porsche Cayenne EV / Cayenne EV Coupé, Taycan Sport / Cross Turismo, 911 Cabriolet (carzone); Mercedes GLE Coupé, AMG GT 4-door, Maybach, G-Class EQ; BMW M models, i5 / iX / 8 Series (cartube)
+- [ ] VW commercial (Caddy, Transporter, Crafter, ID. Buzz Cargo), Golf R (₪309,900 carzone)

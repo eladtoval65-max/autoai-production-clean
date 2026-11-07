@@ -1179,6 +1179,28 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "ix20",
+    "model": "ix20",
+    "he": "ix20",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 1",
+      "from": 2010,
+      "to": 2019,
+      "engines": "1.4 / 1.6 בנזין / 1.4 / 1.6 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -1623,6 +1645,76 @@
       "cons": 7.8,
       "ncap": null,
       "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "soul",
+    "model": "Soul",
+    "he": "סול",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "AM",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 בנזין / 1.6 GDi בנזין / 1.6 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "דור 2",
+      "from": 2014,
+      "to": 2019,
+      "engines": "1.6 GDi בנזין / 1.6 CRDi דיזל / חשמלי 27 קוט״ש",
+      "pt": [
+       "petrol",
+       "diesel",
+       "ev"
+      ],
+      "cons": 7.8,
+      "ncap": 4,
+      "checks": 4
+     },
+     {
+      "code": "דור 3",
+      "from": 2019,
+      "to": 2025,
+      "engines": "חשמלי 64 קוט״ש (e-Soul)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "venga",
+    "model": "Venga",
+    "he": "ונגה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "YN",
+      "from": 2010,
+      "to": 2019,
+      "engines": "1.4 / 1.6 בנזין / 1.4 / 1.6 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 2
      }
     ]
    }
@@ -2245,6 +2337,28 @@
       ],
       "cons": 7.8,
       "ncap": 5,
+      "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "roomster",
+    "model": "Roomster",
+    "he": "רומסטר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 1",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.2 / 1.4 / 1.6 בנזין, 1.2 TSI בנזין / 1.2 / 1.6 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
       "checks": 4
      }
     ]
@@ -2966,6 +3080,28 @@
       "checks": 1
      }
     ]
+   },
+   {
+    "id": "altea",
+    "model": "Altea",
+    "he": "אלטאה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 1",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.4 / 1.6 בנזין, 1.4 / 1.8 / 2.0 TSI בנזין, 1.9 / 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 4
+     }
+    ]
    }
   ]
  },
@@ -3640,6 +3776,49 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "alto",
+    "model": "Alto",
+    "he": "אלטו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A-Star",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "splash",
+    "model": "Splash",
+    "he": "ספלאש",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 1",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.0 / 1.2 בנזין / 1.3 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 5.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -3833,6 +4012,28 @@
       ],
       "cons": 5.8,
       "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "pajero",
+    "model": "Pajero",
+    "he": "פג'רו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "NS/NT/NW/NX (V80/V90)",
+      "from": 2010,
+      "to": 2021,
+      "engines": "3.2 DI-D דיזל / 3.8 V6 בנזין",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 11.5,
+      "ncap": null,
       "checks": 3
      }
     ]
@@ -4235,7 +4436,7 @@
     "he": "טיגואן",
     "status": "on_sale",
     "price": [
-     239900,
+     249900,
      269900
     ],
     "gens": [
@@ -5520,6 +5721,30 @@
       "cons": 11,
       "ncap": null,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "glc-eq",
+    "model": "GLC EQ",
+    "he": "GLC חשמלית",
+    "status": "on_sale",
+    "price": [
+     439900,
+     639900
+    ],
+    "gens": [
+     {
+      "code": "X540",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, סוללה 94 קוט\"ש (GLC 400 4MATIC)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19.5,
+      "ncap": null,
+      "checks": 3
      }
     ]
    }
@@ -7115,6 +7340,60 @@
        "diesel"
       ],
       "cons": 6,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "tiida",
+    "model": "Tiida",
+    "he": "טיידה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "C11",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.6 / 1.8 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "C12",
+      "from": 2011,
+      "to": 2023,
+      "engines": "1.6 / 1.8 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "almera",
+    "model": "Almera",
+    "he": "אלמרה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "N17",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.5 בנזין / 1.2 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
       "ncap": null,
       "checks": 3
      }
@@ -9366,6 +9645,50 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "c5",
+    "model": "C5",
+    "he": "C5",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "X7",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.6 VTi / 1.6 THP בנזין, 1.6 / 2.0 / 2.2 HDi / 2.0 BlueHDi / 3.0 V6 HDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "c-elysee",
+    "model": "C-Elysée",
+    "he": "C-אליזה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "דור 1",
+      "from": 2012,
+      "to": 2022,
+      "engines": "1.2 VTi / PureTech / 1.6 VTi בנזין, 1.6 HDi / BlueHDi / 1.5 BlueHDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": 3,
+      "checks": 4
+     }
+    ]
    }
   ]
  },
@@ -9767,6 +10090,28 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "zafira-tourer",
+    "model": "Zafira Tourer",
+    "he": "זאפירה טורר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "C",
+      "from": 2011,
+      "to": 2019,
+      "engines": "1.4 טורבו / 1.6 SIDI טורבו / 1.8 בנזין, 1.6 / 2.0 CDTI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -9961,7 +10306,7 @@
     "status": "on_sale",
     "price": [
      139990,
-     151900
+     148990
     ],
     "gens": [
      {
@@ -10630,7 +10975,7 @@
     "status": "on_sale",
     "price": [
      164900,
-     174900
+     179900
     ],
     "gens": [
      {
@@ -11901,6 +12246,56 @@
       "cons": 7,
       "ncap": null,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "colorado",
+    "model": "Colorado",
+    "he": "קולורדו",
+    "status": "on_sale",
+    "price": [
+     433000,
+     433000
+    ],
+    "gens": [
+     {
+      "code": "GMT355",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.9 / 3.7 / 5.3 V8 בנזין, 2.5 / 3.0 טורבו דיזל (Isuzu)",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "RG",
+      "from": 2012,
+      "to": 2022,
+      "engines": "2.5 / 3.6 V6 בנזין, 2.8 Duramax טורבו דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 11.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "דור 3",
+      "from": 2023,
+      "to": null,
+      "engines": "2.7 טורבו בנזין, אוטומטית 8",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 12.5,
+      "ncap": null,
+      "checks": 4
      }
     ]
    }

@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-11-01";
+export const PRICES_VERIFIED = "2026-11-07";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -195,6 +195,9 @@ export const MAKES: Make[] = [
     { id: "i40", make: "hyundai", model: "i40", he: "i40", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
       T("VF", 2011, 2019, "1.6 / 2.0 GDi, 2.0 MPi בנזין, 1.7 CRDi דיזל", "135–178", ["petrol", "diesel"], 8.3, 5, 2011, [C.history, C.inspect, C.recalls], "סדאן וסטיישן (Tourer). לא במחירון היבואן הנוכחי"),
     ]},
+    { id: "ix20", make: "hyundai", model: "ix20", he: "ix20", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("דור 1", 2010, 2019, "1.4 / 1.6 בנזין / 1.4 / 1.6 CRDi דיזל", "90–125", ["petrol", "diesel"], 7, 5, 2010, [C.history, C.inspect], "מתיחת פנים 2015; דירוג Euro NCAP של התאום Kia Venga חל גם עליו"),
+    ]},
   ]},
 
   { id: "kia", name: "Kia", he: "קיה", models: [
@@ -246,6 +249,14 @@ export const MAKES: Make[] = [
     { id: "optima", make: "kia", model: "Optima", he: "אופטימה", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
       T("TF", 2010, 2015, "2.0 MPi / 2.4 GDi בנזין, 2.0 היברידי, 1.7 CRDi דיזל", "134–198", ["petrol", "hybrid", "diesel"], 8.5, null, undefined, [C.history, C.inspect, C.theta, "בגרסת ההיברידי: " + C.hyHybrid]),
       T("Gen4", 2015, 2020, "2.0 MPi / 2.4 GDi / 1.6–2.0 טורבו בנזין, 2.0 היברידי ופלאג-אין, 1.6/1.7 CRDi דיזל", "134–242", ["petrol", "hybrid", "phev", "diesel"], 7.8, null, undefined, [C.history, C.inspect, C.theta, "בגרסת הפלאג-אין: " + C.phev], "כולל סטיישן Sportswagon; מתיחת פנים 2018. הדור הבא נקרא K5 ואינו משווק באירופה. לא במחירון היבואן הנוכחי"),
+    ]},
+    { id: "soul", make: "kia", model: "Soul", he: "סול", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("AM", 2010, 2013, "1.6 בנזין / 1.6 GDi בנזין / 1.6 CRDi דיזל", "126–140", ["petrol", "diesel"], 8, null, undefined, [C.history, C.inspect, C.recalls], "הדור הושק ב-2008 (מוצג מ-2010); 2.0 בנזין לא הוצע באירופה"),
+      T("דור 2", 2014, 2019, "1.6 GDi בנזין / 1.6 CRDi דיזל / חשמלי 27 קוט״ש", "111–136", ["petrol", "diesel", "ev"], 7.8, 4, 2014, [C.history, C.inspect, C.dct, C.ev], "דיזל עם תיבת DCT 7 הילוכים מ-2014; Soul EV (‏111 כ״ס) מ-2014"),
+      T("דור 3", 2019, 2025, "חשמלי 64 קוט״ש (e-Soul)", "204", ["ev"], 16, null, undefined, [C.history, C.inspect, C.ev], "באירופה נמכר רק בגרסה חשמלית; הוחלף ב-EV3 והופסק ב-2025"),
+    ]},
+    { id: "venga", make: "kia", model: "Venga", he: "ונגה", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("YN", 2010, 2019, "1.4 / 1.6 בנזין / 1.4 / 1.6 CRDi דיזל", "90–125", ["petrol", "diesel"], 7, 5, 2010, [C.history, C.inspect], "הושק בסוף 2009 (מוצג מ-2010); מתיחת פנים 2015 עם תיבה אוטומטית 6 הילוכים במקום 4; טווח כ״ס לפי התאום Hyundai ix20"),
     ]},
   ]},
 
@@ -324,6 +335,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "yeti", make: "skoda", model: "Yeti", he: "יטי", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("5L", 2010, 2017, "1.2 / 1.4 / 1.8 TSI בנזין, דיזל", "105–170", ["petrol", "diesel"], 7.8, 5, 2009, [C.history, C.inspect, C.dsgDry, C.tsiChain]),
+    ]},
+    { id: "roomster", make: "skoda", model: "Roomster", he: "רומסטר", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("דור 1", 2010, 2015, "1.2 / 1.4 / 1.6 בנזין, 1.2 TSI בנזין / 1.2 / 1.6 TDI דיזל", "69–105", ["petrol", "diesel"], 6.8, null, undefined, [C.history, C.inspect, C.tsiChain, "בגרסת 1.2 TSI עם DSG: " + C.dsgDry], "הדור יוצר 2006–2015; הנתונים מ-2010 (מתיחת פנים, ז'נבה 2010). אוטומטית 6 רגילה ב-1.6, DSG 7 ב-1.2 TSI 105"),
     ]},
   ]},
 
@@ -424,6 +438,9 @@ export const MAKES: Make[] = [
     { id: "tarraco", make: "seat", model: "Tarraco", he: "טאראקו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
       T("KN2", 2019, null, "1.5 / 2.0 TSI", "150–190", ["petrol"], 8.2, 5, 2019, [C.history]),
     ]},
+    { id: "altea", make: "seat", model: "Altea", he: "אלטאה", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("דור 1", 2010, 2015, "1.4 / 1.6 בנזין, 1.4 / 1.8 / 2.0 TSI בנזין, 1.9 / 2.0 TDI דיזל", "86–211", ["petrol", "diesel"], 7.2, null, undefined, [C.history, C.inspect, C.tsiChain, "בגרסאות DSG: " + C.dsgDry], "הדור יוצר 2004–2015 (מתיחת פנים 2009), הנתונים מ-2010; כולל Altea XL ו-Freetrack. 5 כוכבים ב-Euro NCAP 2004 לפי ויקיפדיה, לא אומת באתר Euro NCAP"),
+    ]},
   ]},
 
   { id: "cupra", name: "Cupra", he: "קופרה", models: [
@@ -518,6 +535,12 @@ export const MAKES: Make[] = [
     { id: "celerio", make: "suzuki", model: "Celerio", he: "סלריו", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("FE", 2014, 2025, "1.0 בנזין", "—", ["petrol"], 5.2, 3, 2014, [C.history, C.inspect]),
     ]},
+    { id: "alto", make: "suzuki", model: "Alto", he: "אלטו", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("A-Star", 2010, 2014, "1.0 בנזין", "65–68", ["petrol"], 5, null, undefined, [C.history, C.inspect], "גרסת הייצוא מבוססת Maruti A-Star, הושקה ב-2009 (מוצג מ-2010); הוחלפה ב-Celerio ב-2014"),
+    ]},
+    { id: "splash", make: "suzuki", model: "Splash", he: "ספלאש", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("דור 1", 2010, 2014, "1.0 / 1.2 בנזין / 1.3 דיזל", "65–92", ["petrol", "diesel"], 5.5, null, undefined, [C.history, C.inspect], "הושק ב-2008 (מוצג מ-2010); ייצור בהונגריה הסתיים ב-2014"),
+    ]},
   ]},
 
   { id: "mitsubishi", name: "Mitsubishi", he: "מיצובישי", models: [
@@ -544,6 +567,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "space-star", make: "mitsubishi", model: "Space Star", he: "ספייס סטאר", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("A00", 2013, 2024, "1.0 / 1.2 בנזין", "71–80", ["petrol"], 5.8, 4, 2013, [C.history, C.inspect, C.cvt]),
+    ]},
+    { id: "pajero", make: "mitsubishi", model: "Pajero", he: "פג'רו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
+      T("NS/NT/NW/NX (V80/V90)", 2010, 2021, "3.2 DI-D דיזל / 3.8 V6 בנזין", "170–250", ["petrol", "diesel"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "הדור הושק ב-2006 (מוצג מ-2010); מתיחות פנים 2011/2012 ו-2015; ייצור לשווקים בינלאומיים הסתיים במרץ 2021"),
     ]},
   ]},
 
@@ -592,7 +618,7 @@ export const MAKES: Make[] = [
       T("Mk7", 2013, 2019, "1.2/1.4 TSI, 1.0 TSI", "105–150", ["petrol"], 6.5, 5, 2012, [C.history, C.inspect, C.dsgDry]),
       T("Mk8", 2020, null, "1.0/1.5 eTSI", "110–150", ["petrol", "hybrid"], 6.2, 5, 2019, [C.history, C.dsgDry, "מערכת המולטימדיה: לבדוק עדכוני תוכנה"], "Golf GTI: ₪304,900"),
     ]},
-    { id: "tiguan", make: "volkswagen", model: "Tiguan", he: "טיגואן", body: "suv", segment: "mass", price: [239900, 269900], status: "on_sale", gens: [
+    { id: "tiguan", make: "volkswagen", model: "Tiguan", he: "טיגואן", body: "suv", segment: "mass", price: [249900, 269900], status: "on_sale", gens: [
       T("5N", 2010, 2016, "1.4 TSI / 2.0 TSI", "150–200", ["petrol"], 9.2, 5, 2007, [C.history, C.inspect, C.tsiChain]),
       T("AD1", 2017, 2023, "1.4/1.5/2.0 TSI", "150–220", ["petrol"], 8.0, 5, 2016, [C.history, C.inspect]),
       T("Mk3", 2024, null, "1.5 eTSI / פלאג-אין", "150–272", ["petrol", "phev"], 7.0, 5, 2024, [C.history]),
@@ -744,6 +770,9 @@ export const MAKES: Make[] = [
       T("R230", 2010, 2011, "3.0 V6 עד 6.2 V8 בנזין", "228–518", ["petrol"], 12.5, null, undefined, [C.history, C.inspect, C.suspension], "רודסטר (אין באתר סוג מרכב קבריולה)"),
       T("R231", 2012, 2020, "3.0 V6 טורבו, 4.7 / 5.5 V8 טורבו, V12", "362–621", ["petrol"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "רודסטר"),
       T("R232", 2022, null, "2.0 טורבו מיילד-היברידי, 4.0 V8 טורבו, SL 63 S E פלאג-אין", "375–603", ["petrol", "phev"], 11.0, null, undefined, [C.history, C.recalls], "רודסטר AMG. מחיר לא מוצג: carzone (₪999,900–1,899,900) ו-cartube (₪1,390,000–1,950,000) לא מסכימים"),
+    ]},
+    { id: "glc-eq", make: "mercedes", model: "GLC EQ", he: "GLC חשמלית", body: "suv", segment: "premium", price: [439900, 639900], status: "on_sale", gens: [
+      T("X540", 2026, null, "חשמלי, סוללה 94 קוט\"ש (GLC 400 4MATIC)", "490", ["ev"], 19.5, null, undefined, [C.ev, C.recalls, C.history], "הוצג בתערוכת מינכן 2025; טווח WLTP עד 713 ק\"מ, טעינה מהירה עד 330 קילוואט. דירוג Euro NCAP לא אומת"),
     ]},
   ]},
 
@@ -920,6 +949,13 @@ export const MAKES: Make[] = [
     { id: "note", make: "nissan", model: "Note", he: "נוט", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("E11", 2010, 2013, "1.4 / 1.6 בנזין, 1.5 dCi", "88–110", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect]),
       T("E12", 2013, 2017, "1.2 / 1.2 DIG-S בנזין, 1.5 dCi", "80–98", ["petrol", "diesel"], 6.0, null, undefined, [C.history, C.inspect, "בגרסה עם CVT: " + C.cvt], "באירופה הוחלף במיקרה K14"),
+    ]},
+    { id: "tiida", make: "nissan", model: "Tiida", he: "טיידה", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("C11", 2010, 2012, "1.6 / 1.8 בנזין", "107–122", ["petrol"], 7.5, null, undefined, [C.history, C.inspect, C.cvt], "הדור הושק ב-2004 (מוצג מ-2010); סיום משתנה לפי שוק; נתוני כ״ס לפי מפרט צפון אמריקאי"),
+      T("C12", 2011, 2023, "1.6 / 1.8 בנזין", "—", ["petrol"], 7.5, null, undefined, [C.history, C.inspect, C.cvt], "נמכר במזרח התיכון עם 1.6/1.8; לא נמכר באירופה; שנת סיום לפי ייצור בטייוואן"),
+    ]},
+    { id: "almera", make: "nissan", model: "Almera", he: "אלמרה", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
+      T("N17", 2012, 2019, "1.5 בנזין / 1.2 בנזין", "—", ["petrol"], 7, null, undefined, [C.history, C.inspect, C.cvt], "תיבה אוטומטית 4 הילוכים או CVT לפי שוק; שנת סיום לפי ייצור בתאילנד (משתנה לפי שוק)"),
     ]},
   ]},
 
@@ -1183,6 +1219,12 @@ export const MAKES: Make[] = [
     { id: "c4-x", make: "citroen", model: "C4 X", he: "C4 X", body: "sedan", segment: "mass", price: [129990, 129990], status: "on_sale", gens: [
       T("C43", 2022, null, "1.2 PureTech / 1.2 טורבו בנזין, 1.2 היברידי (e-DCS6), חשמלי ë-C4 X", "100–155", ["petrol", "hybrid", "ev"], 6.3, null, undefined, [C.history, C.puretech, C.recalls], "פסטבק 4 דלתות על בסיס C4; מתיחת פנים מ-2025 (מורכב במצרים מ-04/2025). ₪129,990 (carzone ו-cartube, 11/2026)"),
     ]},
+    { id: "c5", make: "citroen", model: "C5", he: "C5", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
+      T("X7", 2010, 2017, "1.6 VTi / 1.6 THP בנזין, 1.6 / 2.0 / 2.2 HDi / 2.0 BlueHDi / 3.0 V6 HDi דיזל", "120–240", ["petrol", "diesel"], 7.5, 5, 2009, [C.history, C.inspect, C.suspension], "סדאן וטורר (סטיישן); הדור יוצר 2008–2017, הנתונים מ-2010. מתלה קפיצים או הידרו-פנאומטי. מ-07/2015 באירופה רק 2.0 BlueHDi 150/180. Euro NCAP: https://cdn.euroncap.com/media/7415/euroncap_citroen_c5_2009_5stars.pdf"),
+    ]},
+    { id: "c-elysee", make: "citroen", model: "C-Elysée", he: "C-אליזה", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
+      T("דור 1", 2012, 2022, "1.2 VTi / PureTech / 1.6 VTi בנזין, 1.6 HDi / BlueHDi / 1.5 BlueHDi דיזל", "72–115", ["petrol", "diesel"], 6.5, 3, 2014, [C.history, C.inspect, "בגרסת 1.2 PureTech: " + C.puretech, C.suspension], "מתיחת פנים 11/2016. Euro NCAP: https://cdn.euroncap.com/media/4585/euroncap_citroen_c-elysee_2014_3stars.pdf"),
+    ]},
   ]},
 
   { id: "ds", name: "DS", he: "DS", models: [
@@ -1231,6 +1273,9 @@ export const MAKES: Make[] = [
     { id: "crossland", make: "opel", model: "Crossland", he: "קרוסלנד", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2017, 2024, "1.2 / 1.2 טורבו בנזין, 1.5 / 1.6 דיזל", "75–130", ["petrol", "diesel"], 6.6, null, undefined, [C.history, C.puretech]),
     ]},
+    { id: "zafira-tourer", make: "opel", model: "Zafira Tourer", he: "זאפירה טורר", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("C", 2011, 2019, "1.4 טורבו / 1.6 SIDI טורבו / 1.8 בנזין, 1.6 / 2.0 CDTI דיזל", "120–200", ["petrol", "diesel"], 7.8, null, undefined, [C.history, C.inspect, C.suspension], "7 מקומות; מתיחת פנים 2016. הייתה גם גרסת CNG דו-דלקית. נבדק ב-Euro NCAP ב-2011 (דירוג פג ב-2018); מספר הכוכבים לא מוצג באתר, לכן null"),
+    ]},
   ]},
 
   // ── Catalog expansion 3 (2026-10-20): prices from carzone.co.il brand pages, generations from Wikipedia. See DATA_UPDATES.md.
@@ -1262,7 +1307,7 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "ora", name: "ORA", he: "אורה", models: [
-    { id: "05", make: "ora", model: "05", he: "05", body: "suv", segment: "mass", price: [139990, 151900], status: "on_sale", gens: [
+    { id: "05", make: "ora", model: "05", he: "05", body: "suv", segment: "mass", price: [139990, 148990], status: "on_sale", gens: [
       T("Gen1", 2025, null, "1.5 טורבו היברידי", "223", ["hybrid"], 6.8, null, undefined, [C.newBrand, C.hyHybrid], "במבחן דרך: 14.5–15.1 ק\"מ לליטר"),
     ]},
     { id: "03", make: "ora", model: "03 Funky Cat", he: "03 פאנקי קאט", body: "hatch", segment: "mass", price: [139900, 164900], status: "on_sale", gens: [
@@ -1358,7 +1403,7 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "jeep", name: "Jeep", he: "ג'יפ", models: [
-    { id: "avenger", make: "jeep", model: "Avenger", he: "אוונג'ר", body: "suv", segment: "mass", price: [164900, 174900], status: "on_sale", gens: [
+    { id: "avenger", make: "jeep", model: "Avenger", he: "אוונג'ר", body: "suv", segment: "mass", price: [164900, 179900], status: "on_sale", gens: [
       T("Gen1", 2023, null, "1.2 טורבו בנזין", "100", ["petrol"], 6.5, 3, 2024, [C.history, C.recalls]),
     ]},
     { id: "compass", make: "jeep", model: "Compass", he: "קומפאס", body: "suv", segment: "mass", price: [209900, 224900], status: "on_sale", gens: [
@@ -1529,6 +1574,11 @@ export const MAKES: Make[] = [
     { id: "trax", make: "chevrolet", model: "Trax", he: "טראקס", body: "suv", segment: "mass", price: [165990, 169990], status: "on_sale", gens: [
       T("U200", 2013, 2022, "1.4 טורבו / 1.8 בנזין, אוטומטית 6", "138–140", ["petrol"], 8.0, 5, 2013, [C.history, C.inspect, C.suspension], "בישראל 2013–2020"),
       T("Gen2", 2023, null, "1.2 טורבו בנזין 3 צילינדרים, אוטומטית 6", "139", ["petrol"], 7.0, null, undefined, [C.history, C.recalls], "בישראל מ-04/2023. במחירון 2026: 1RS ‏₪165,990, 2RS ‏₪169,990 (carzone ו-cartube)"),
+    ]},
+    { id: "colorado", make: "chevrolet", model: "Colorado", he: "קולורדו", body: "pickup", segment: "mass", price: [433000, 433000], status: "on_sale", gens: [
+      T("GMT355", 2010, 2012, "2.9 / 3.7 / 5.3 V8 בנזין, 2.5 / 3.0 טורבו דיזל (Isuzu)", "116–300", ["petrol", "diesel"], 12.5, null, undefined, [C.history, C.inspect, C.suspension], "הדור נמכר 2004–2012, הנתונים מ-2010. כוח בכ\"ס אמריקאי (hp)"),
+      T("RG", 2012, 2022, "2.5 / 3.6 V6 בנזין, 2.8 Duramax טורבו דיזל", "181–308", ["petrol", "diesel"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "בצפון אמריקה 2015–2022; כוח בכ\"ס אמריקאי (hp)"),
+      T("דור 3", 2023, null, "2.7 טורבו בנזין, אוטומטית 8", "237–310", ["petrol"], 12.5, null, undefined, [C.history, C.inspect, C.suspension, C.recalls], "במחירון 2026: Colorado ZR2 ‏₪433,000 (carzone ו-cartube). ב-ZR2: ‏2.7 טורבו High-Output ‏310 כ\"ס / 430 lb-ft, בולמי Multimatic DSSV ונעילות דיפרנציאל קדמית ואחורית"),
     ]},
   ]},
 ];

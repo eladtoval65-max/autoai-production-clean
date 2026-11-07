@@ -1,7 +1,7 @@
 {
-  "petrolPerL": 8.27,
-  "petrolDate": "2026-10-01",
-  "petrolSource": { "title": "משרד האנרגיה — מחיר מרבי לבנזין 95 בשירות עצמי, אוקטובר 2026", "url": "https://www.gov.il/BlobFolder/news/fuel-october-2026/he/fuel-october-2026.pdf" },
+  "petrolPerL": 7.85,
+  "petrolDate": "2026-11-05",
+  "petrolSource": { "title": "משרד האנרגיה — מחיר מרבי לבנזין 95 בשירות עצמי: ₪7.35 מ-1/11/2026 (הודעת נובמבר 2026); מ-5/11/2026 ₪7.85 לאחר צמצום הפחתת הבלו (דיווח auto.co.il 4/11/2026)", "url": "https://www.gov.il/BlobFolder/news/fuel-november-2026/he/fuel-november-2026.pdf" },
   "dieselPerL": 8.3,
   "dieselNote": "סולר אינו בפיקוח ומחירו משתנה בין תחנות; הערכה קרובה למחיר הבנזין",
   "electricityPerKwh": 0.6352,

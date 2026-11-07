@@ -52,25 +52,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Kia (brand page, 2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 270,
+    "fuel": 257,
     "insurance": 260,
     "maintenance": 140,
     "depreciation": 832,
-    "total": 1623
+    "total": 1610
    },
    "15000": {
-    "fuel": 580,
+    "fuel": 551,
     "insurance": 260,
     "maintenance": 160,
     "depreciation": 832,
-    "total": 1953
+    "total": 1924
    },
    "25000": {
-    "fuel": 967,
+    "fuel": 918,
     "insurance": 260,
     "maintenance": 185,
     "depreciation": 832,
-    "total": 2365
+    "total": 2316
    }
   }
  },
@@ -113,25 +113,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Citroen/C3/Crossover (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 324,
+    "fuel": 307,
     "insurance": 362,
     "maintenance": 176,
     "depreciation": 833,
-    "total": 1816
+    "total": 1799
    },
    "15000": {
-    "fuel": 693,
+    "fuel": 658,
     "insurance": 362,
     "maintenance": 200,
     "depreciation": 833,
-    "total": 2209
+    "total": 2174
    },
    "25000": {
-    "fuel": 1155,
+    "fuel": 1097,
     "insurance": 362,
     "maintenance": 224,
     "depreciation": 833,
-    "total": 2695
+    "total": 2637
    }
   }
  },
@@ -235,25 +235,86 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Skoda/Fabia/2026 + /compare/ (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 372,
+    "fuel": 353,
     "insurance": 406,
     "maintenance": 194,
     "depreciation": 1008,
-    "total": 2101
+    "total": 2082
    },
    "15000": {
-    "fuel": 796,
+    "fuel": 755,
     "insurance": 406,
     "maintenance": 220,
     "depreciation": 1008,
-    "total": 2551
+    "total": 2510
    },
    "25000": {
-    "fuel": 1326,
+    "fuel": 1258,
     "insurance": 406,
     "maintenance": 246,
     "depreciation": 1008,
-    "total": 3107
+    "total": 3039
+   }
+  }
+ },
+ {
+  "id": "toyota-aygo-x-hybrid",
+  "make": "Toyota",
+  "model": "Aygo X Hybrid",
+  "trim": "Pure 1.5 HEV",
+  "bodyType": "hatchback",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 4,
+  "cargoLiters": 231,
+  "powerHp": 116,
+  "consumption": 3.7,
+  "price": 123990,
+  "priceMin": 123990,
+  "priceMax": 129990,
+  "sampleSize": null,
+  "newPrice": 123990,
+  "reliability": 88,
+  "safety": 66,
+  "economy": 94,
+  "comfort": 62,
+  "practicality": 52,
+  "insuranceMin": 356,
+  "insuranceMax": 512,
+  "why": "קרוסאובר עירוני קטן בהנעה היברידית מלאה: 1.5 בנזין ומנוע חשמלי, 116 כ\"ס ותיבה רציפה; צריכה מוצהרת 27 ק\"מ לליטר (במבחן auto.co.il כ-23). תא מטען 231 ליטר, רשום ל-4 מקומות ישיבה. דירוג Euro NCAP של 2022 חל רק על גרסת הבנזין 1.0.",
+  "pros": [
+   "חסכוני מאוד בדלק",
+   "היברידי מלא בלי צורך בטעינה",
+   "קל לחניה ולתמרון בעיר"
+  ],
+  "cons": [
+   "4 מקומות ישיבה בלבד",
+   "תא מטען קטן (231 ליטר)",
+   "דירוג Euro NCAP לגרסה ההיברידית לא אומת"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Aygo X 2026 Hybrid Pure/Pulse/Peak + carzone.co.il/Toyota (2026-11-07)",
+  "bands": {
+   "7000": {
+    "fuel": 169,
+    "insurance": 439,
+    "maintenance": 141,
+    "depreciation": 1033,
+    "total": 1903
+   },
+   "15000": {
+    "fuel": 363,
+    "insurance": 439,
+    "maintenance": 160,
+    "depreciation": 1033,
+    "total": 2116
+   },
+   "25000": {
+    "fuel": 605,
+    "insurance": 439,
+    "maintenance": 179,
+    "depreciation": 1033,
+    "total": 2377
    }
   }
  },
@@ -296,25 +357,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/MG/3 (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 246,
+    "fuel": 233,
     "insurance": 418,
     "maintenance": 176,
     "depreciation": 1057,
-    "total": 2018
+    "total": 2005
    },
    "15000": {
-    "fuel": 528,
+    "fuel": 501,
     "insurance": 418,
     "maintenance": 200,
     "depreciation": 1057,
-    "total": 2324
+    "total": 2297
    },
    "25000": {
-    "fuel": 879,
+    "fuel": 835,
     "insurance": 418,
     "maintenance": 224,
     "depreciation": 1057,
-    "total": 2699
+    "total": 2655
    }
   }
  },
@@ -357,25 +418,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Hyundai/Venue/ (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 372,
+    "fuel": 353,
     "insurance": 424,
     "maintenance": 185,
     "depreciation": 1083,
-    "total": 2185
+    "total": 2166
    },
    "15000": {
-    "fuel": 796,
+    "fuel": 755,
     "insurance": 424,
     "maintenance": 210,
     "depreciation": 1083,
-    "total": 2634
+    "total": 2593
    },
    "25000": {
-    "fuel": 1326,
+    "fuel": 1258,
     "insurance": 424,
     "maintenance": 235,
     "depreciation": 1083,
-    "total": 3189
+    "total": 3121
    }
   }
  },
@@ -418,25 +479,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Kia/Stonic/ (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 342,
+    "fuel": 325,
     "insurance": 424,
     "maintenance": 185,
     "depreciation": 1083,
-    "total": 2155
+    "total": 2138
    },
    "15000": {
-    "fuel": 734,
+    "fuel": 697,
     "insurance": 424,
     "maintenance": 210,
     "depreciation": 1083,
-    "total": 2572
+    "total": 2535
    },
    "25000": {
-    "fuel": 1223,
+    "fuel": 1161,
     "insurance": 424,
     "maintenance": 235,
     "depreciation": 1083,
-    "total": 3086
+    "total": 3024
    }
   }
  },
@@ -479,25 +540,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il Swift 2026 GLX auto + cartube Swift GLX auto trim page + carzone.co.il/Suzuki/Swift/2026 (2026-11-01)",
   "bands": {
    "7000": {
-    "fuel": 232,
+    "fuel": 220,
     "insurance": 451,
     "maintenance": 150,
     "depreciation": 1192,
-    "total": 2146
+    "total": 2134
    },
    "15000": {
-    "fuel": 496,
+    "fuel": 471,
     "insurance": 451,
     "maintenance": 170,
     "depreciation": 1192,
-    "total": 2430
+    "total": 2405
    },
    "25000": {
-    "fuel": 827,
+    "fuel": 785,
     "insurance": 451,
     "maintenance": 190,
     "depreciation": 1192,
-    "total": 2781
+    "total": 2739
    }
   }
  },
@@ -540,25 +601,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": null,
   "bands": {
    "7000": {
-    "fuel": 280,
+    "fuel": 265,
     "insurance": 503,
     "maintenance": 207,
     "depreciation": 1360,
-    "total": 2471
+    "total": 2456
    },
    "15000": {
-    "fuel": 600,
+    "fuel": 569,
     "insurance": 503,
     "maintenance": 235,
     "depreciation": 1360,
-    "total": 2819
+    "total": 2788
    },
    "25000": {
-    "fuel": 999,
+    "fuel": 949,
     "insurance": 503,
     "maintenance": 263,
     "depreciation": 1360,
-    "total": 3246
+    "total": 3196
    }
   }
  },
@@ -601,25 +662,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il MG ZS 2026 + cartube MG ZS Hybrid Luxury trim page (2026-11-01)",
   "bands": {
    "7000": {
-    "fuel": 246,
+    "fuel": 233,
     "insurance": 467,
     "maintenance": 158,
     "depreciation": 1494,
-    "total": 2486
+    "total": 2473
    },
    "15000": {
-    "fuel": 528,
+    "fuel": 501,
     "insurance": 467,
     "maintenance": 180,
     "depreciation": 1494,
-    "total": 2790
+    "total": 2763
    },
    "25000": {
-    "fuel": 879,
+    "fuel": 835,
     "insurance": 467,
     "maintenance": 202,
     "depreciation": 1494,
-    "total": 3163
+    "total": 3119
    }
   }
  },
@@ -662,25 +723,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": null,
   "bands": {
    "7000": {
-    "fuel": 165,
+    "fuel": 157,
     "insurance": 524,
     "maintenance": 176,
     "depreciation": 1380,
-    "total": 2366
+    "total": 2358
    },
    "15000": {
-    "fuel": 354,
+    "fuel": 336,
     "insurance": 524,
     "maintenance": 200,
     "depreciation": 1380,
-    "total": 2579
+    "total": 2561
    },
    "25000": {
-    "fuel": 591,
+    "fuel": 561,
     "insurance": 524,
     "maintenance": 224,
     "depreciation": 1380,
-    "total": 2840
+    "total": 2810
    }
   }
  },
@@ -723,25 +784,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Skoda/Scala/2026 (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 276,
+    "fuel": 262,
     "insurance": 440,
     "maintenance": 202,
     "depreciation": 1154,
-    "total": 2193
+    "total": 2179
    },
    "15000": {
-    "fuel": 591,
+    "fuel": 561,
     "insurance": 440,
     "maintenance": 230,
     "depreciation": 1154,
-    "total": 2536
+    "total": 2506
    },
    "25000": {
-    "fuel": 984,
+    "fuel": 934,
     "insurance": 440,
     "maintenance": 258,
     "depreciation": 1154,
-    "total": 2957
+    "total": 2907
    }
   }
  },
@@ -784,25 +845,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/KGM/Tivoli (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 372,
+    "fuel": 353,
     "insurance": 443,
     "maintenance": 194,
     "depreciation": 1166,
-    "total": 2296
+    "total": 2277
    },
    "15000": {
-    "fuel": 796,
+    "fuel": 755,
     "insurance": 443,
     "maintenance": 220,
     "depreciation": 1166,
-    "total": 2746
+    "total": 2705
    },
    "25000": {
-    "fuel": 1326,
+    "fuel": 1258,
     "insurance": 443,
     "maintenance": 246,
     "depreciation": 1166,
-    "total": 3302
+    "total": 3234
    }
   }
  },
@@ -845,25 +906,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Ora/05/ (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 328,
+    "fuel": 312,
     "insurance": 443,
     "maintenance": 185,
     "depreciation": 1167,
-    "total": 2244
+    "total": 2228
    },
    "15000": {
-    "fuel": 704,
+    "fuel": 668,
     "insurance": 443,
     "maintenance": 210,
     "depreciation": 1167,
-    "total": 2645
+    "total": 2609
    },
    "25000": {
-    "fuel": 1173,
+    "fuel": 1113,
     "insurance": 443,
     "maintenance": 235,
     "depreciation": 1167,
-    "total": 3139
+    "total": 3079
    }
   }
  },
@@ -906,25 +967,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il Yaris 2026 Eco + cartube Toyota Yaris price list (2026-10-25)",
   "bands": {
    "7000": {
-    "fuel": 188,
+    "fuel": 178,
     "insurance": 474,
     "maintenance": 150,
     "depreciation": 1175,
-    "total": 2108
+    "total": 2098
    },
    "15000": {
-    "fuel": 403,
+    "fuel": 383,
     "insurance": 474,
     "maintenance": 170,
     "depreciation": 1175,
-    "total": 2343
+    "total": 2323
    },
    "25000": {
-    "fuel": 672,
+    "fuel": 638,
     "insurance": 474,
     "maintenance": 190,
     "depreciation": 1175,
-    "total": 2632
+    "total": 2598
    }
   }
  },
@@ -1029,25 +1090,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "cartube.co.il מחירון ניסאן, דף ג'וק (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 367,
+    "fuel": 348,
     "insurance": 457,
     "maintenance": 185,
     "depreciation": 1225,
-    "total": 2355
+    "total": 2336
    },
    "15000": {
-    "fuel": 785,
+    "fuel": 745,
     "insurance": 457,
     "maintenance": 210,
     "depreciation": 1225,
-    "total": 2798
+    "total": 2758
    },
    "25000": {
-    "fuel": 1308,
+    "fuel": 1242,
     "insurance": 457,
     "maintenance": 235,
     "depreciation": 1225,
-    "total": 3346
+    "total": 3280
    }
   }
  },
@@ -1090,25 +1151,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Skoda/Kamiq/2026 (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 263,
+    "fuel": 250,
     "insurance": 456,
     "maintenance": 202,
     "depreciation": 1225,
-    "total": 2267
+    "total": 2254
    },
    "15000": {
-    "fuel": 565,
+    "fuel": 536,
     "insurance": 456,
     "maintenance": 230,
     "depreciation": 1225,
-    "total": 2597
+    "total": 2568
    },
    "25000": {
-    "fuel": 941,
+    "fuel": 893,
     "insurance": 456,
     "maintenance": 258,
     "depreciation": 1225,
-    "total": 3001
+    "total": 2953
    }
   }
  },
@@ -1151,25 +1212,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il 2008 MHEV Allure + cartube Peugeot 2008 price list (2026-10-25)",
   "bands": {
    "7000": {
-    "fuel": 241,
+    "fuel": 229,
     "insurance": 492,
     "maintenance": 185,
     "depreciation": 1375,
-    "total": 2414
+    "total": 2402
    },
    "15000": {
-    "fuel": 517,
+    "fuel": 491,
     "insurance": 492,
     "maintenance": 210,
     "depreciation": 1375,
-    "total": 2715
+    "total": 2689
    },
    "25000": {
-    "fuel": 862,
+    "fuel": 818,
     "insurance": 492,
     "maintenance": 235,
     "depreciation": 1375,
-    "total": 3085
+    "total": 3041
    }
   }
  },
@@ -1273,25 +1334,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/chery/FX/ (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 256,
+    "fuel": 243,
     "insurance": 576,
     "maintenance": 216,
     "depreciation": 1530,
-    "total": 2699
+    "total": 2686
    },
    "15000": {
-    "fuel": 550,
+    "fuel": 522,
     "insurance": 576,
     "maintenance": 245,
     "depreciation": 1530,
-    "total": 3022
+    "total": 2994
    },
    "25000": {
-    "fuel": 917,
+    "fuel": 870,
     "insurance": 576,
     "maintenance": 274,
     "depreciation": 1530,
-    "total": 3418
+    "total": 3371
    }
   }
  },
@@ -1334,25 +1395,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": null,
   "bands": {
    "7000": {
-    "fuel": 290,
+    "fuel": 275,
     "insurance": 573,
     "maintenance": 211,
     "depreciation": 1549,
-    "total": 2744
+    "total": 2729
    },
    "15000": {
-    "fuel": 621,
+    "fuel": 589,
     "insurance": 573,
     "maintenance": 240,
     "depreciation": 1549,
-    "total": 3104
+    "total": 3072
    },
    "25000": {
-    "fuel": 1034,
+    "fuel": 982,
     "insurance": 573,
     "maintenance": 269,
     "depreciation": 1549,
-    "total": 3546
+    "total": 3494
    }
   }
  },
@@ -1480,6 +1541,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "mg-hs-hybrid",
+  "make": "MG",
+  "model": "HS Hybrid",
+  "trim": "Luxury 1.5T HEV",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 441,
+  "powerHp": 224,
+  "consumption": 5.5,
+  "price": 158888,
+  "priceMin": 158888,
+  "priceMax": 158888,
+  "sampleSize": null,
+  "newPrice": 158888,
+  "reliability": 70,
+  "safety": 66,
+  "economy": 84,
+  "comfort": 76,
+  "practicality": 80,
+  "insuranceMin": 413,
+  "insuranceMax": 594,
+  "why": "רכב פנאי משפחתי בהנעה היברידית מלאה: 1.5 טורבו ומנוע חשמלי, 224 כ\"ס משולב ותיבה ייעודית 2 הילוכים; צריכה מוצהרת 18.2 ק\"מ לליטר. תא מטען 441 ליטר. גרסת הפלאג-אין (EHS) נמכרת כדגם נפרד. דירוג Euro NCAP של 2024 חל על גרסאות הבנזין והפלאג-אין בלבד.",
+  "pros": [
+   "הספק משולב גבוה",
+   "מרווח ותא מטען משפחתיים",
+   "מחיר נמוך יחסית לרכב פנאי היברידי בגודל הזה"
+  ],
+  "cons": [
+   "דירוג Euro NCAP לגרסה ההיברידית לא אומת",
+   "ירידת ערך צפויה גבוהה",
+   "רמת גימור היברידית אחת"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il MG HS 2026 HEV Luxury + carzone.co.il/MG/HS/2026 (2026-11-07)",
+  "bands": {
+   "7000": {
+    "fuel": 251,
+    "insurance": 509,
+    "maintenance": 167,
+    "depreciation": 1721,
+    "total": 2769
+   },
+   "15000": {
+    "fuel": 538,
+    "insurance": 509,
+    "maintenance": 190,
+    "depreciation": 1721,
+    "total": 3079
+   },
+   "25000": {
+    "fuel": 898,
+    "insurance": 509,
+    "maintenance": 213,
+    "depreciation": 1721,
+    "total": 3462
+   }
+  }
+ },
+ {
   "id": "skoda-octavia",
   "make": "Skoda",
   "model": "Octavia",
@@ -1518,25 +1640,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Skoda/Octavia/2026",
   "bands": {
    "7000": {
-    "fuel": 312,
+    "fuel": 296,
     "insurance": 520,
     "maintenance": 215,
     "depreciation": 1334,
-    "total": 2502
+    "total": 2486
    },
    "15000": {
-    "fuel": 671,
+    "fuel": 637,
     "insurance": 520,
     "maintenance": 240,
     "depreciation": 1334,
-    "total": 2886
+    "total": 2852
    },
    "25000": {
-    "fuel": 1118,
+    "fuel": 1061,
     "insurance": 520,
     "maintenance": 265,
     "depreciation": 1334,
-    "total": 3358
+    "total": 3301
    }
   }
  },
@@ -1580,25 +1702,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Toyota/Corolla + cartube Toyota price list (2026-10-31)",
   "bands": {
    "7000": {
-    "fuel": 261,
+    "fuel": 248,
     "insurance": 544,
     "maintenance": 189,
     "depreciation": 1133,
-    "total": 2248
+    "total": 2235
    },
    "15000": {
-    "fuel": 558,
+    "fuel": 530,
     "insurance": 544,
     "maintenance": 215,
     "depreciation": 1133,
-    "total": 2571
+    "total": 2543
    },
    "25000": {
-    "fuel": 930,
+    "fuel": 882,
     "insurance": 544,
     "maintenance": 241,
     "depreciation": 1133,
-    "total": 2969
+    "total": 2921
    }
   }
  },
@@ -1641,25 +1763,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": null,
   "bands": {
    "7000": {
-    "fuel": 290,
+    "fuel": 275,
     "insurance": 592,
     "maintenance": 216,
     "depreciation": 1600,
-    "total": 2819
+    "total": 2804
    },
    "15000": {
-    "fuel": 621,
+    "fuel": 589,
     "insurance": 592,
     "maintenance": 245,
     "depreciation": 1600,
-    "total": 3179
+    "total": 3147
    },
    "25000": {
-    "fuel": 1034,
+    "fuel": 982,
     "insurance": 592,
     "maintenance": 274,
     "depreciation": 1600,
-    "total": 3621
+    "total": 3569
    }
   }
  },
@@ -1765,25 +1887,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il Yaris Cross Hybrid Urban FL 2026",
   "bands": {
    "7000": {
-    "fuel": 256,
+    "fuel": 243,
     "insurance": 513,
     "maintenance": 180,
     "depreciation": 1342,
-    "total": 2412
+    "total": 2399
    },
    "15000": {
-    "fuel": 547,
+    "fuel": 520,
     "insurance": 513,
     "maintenance": 205,
     "depreciation": 1342,
-    "total": 2728
+    "total": 2701
    },
    "25000": {
-    "fuel": 913,
+    "fuel": 867,
     "insurance": 513,
     "maintenance": 230,
     "depreciation": 1342,
-    "total": 3119
+    "total": 3073
    }
   }
  },
@@ -1887,25 +2009,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Kia/Seltos + auto.co.il Seltos 2026 (2026-10-25)",
   "bands": {
    "7000": {
-    "fuel": 367,
+    "fuel": 348,
     "insurance": 520,
     "maintenance": 176,
     "depreciation": 1374,
-    "total": 2558
+    "total": 2539
    },
    "15000": {
-    "fuel": 785,
+    "fuel": 745,
     "insurance": 520,
     "maintenance": 200,
     "depreciation": 1374,
-    "total": 3000
+    "total": 2960
    },
    "25000": {
-    "fuel": 1308,
+    "fuel": 1242,
     "insurance": 520,
     "maintenance": 224,
     "depreciation": 1374,
-    "total": 3547
+    "total": 3481
    }
   }
  },
@@ -1948,25 +2070,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "cartube.co.il דף פוקוס סטיישן + carzone.co.il/Ford/Focus/Tourer-Estate (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 386,
+    "fuel": 366,
     "insurance": 491,
     "maintenance": 202,
     "depreciation": 1382,
-    "total": 2582
+    "total": 2562
    },
    "15000": {
-    "fuel": 827,
+    "fuel": 785,
     "insurance": 491,
     "maintenance": 230,
     "depreciation": 1382,
-    "total": 3051
+    "total": 3009
    },
    "25000": {
-    "fuel": 1378,
+    "fuel": 1308,
     "insurance": 491,
     "maintenance": 258,
     "depreciation": 1382,
-    "total": 3630
+    "total": 3560
    }
   }
  },
@@ -2009,25 +2131,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/BYDAuto/Sea-Lion-05/DMi/ (2026-10-21)",
   "bands": {
    "7000": {
-    "fuel": 233,
+    "fuel": 221,
     "insurance": 493,
     "maintenance": 176,
     "depreciation": 1392,
-    "total": 2415
+    "total": 2403
    },
    "15000": {
-    "fuel": 499,
+    "fuel": 473,
     "insurance": 493,
     "maintenance": 200,
     "depreciation": 1392,
-    "total": 2705
+    "total": 2679
    },
    "25000": {
-    "fuel": 830,
+    "fuel": 788,
     "insurance": 493,
     "maintenance": 224,
     "depreciation": 1392,
-    "total": 3060
+    "total": 3018
    }
   }
  },
@@ -2070,25 +2192,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il Karoq 2026 + carzone.co.il/Skoda/Karoq/2026 (2026-10-25)",
   "bands": {
    "7000": {
-    "fuel": 309,
+    "fuel": 293,
     "insurance": 529,
     "maintenance": 194,
     "depreciation": 1412,
-    "total": 2565
+    "total": 2549
    },
    "15000": {
-    "fuel": 662,
+    "fuel": 628,
     "insurance": 529,
     "maintenance": 220,
     "depreciation": 1412,
-    "total": 2944
+    "total": 2910
    },
    "25000": {
-    "fuel": 1103,
+    "fuel": 1047,
     "insurance": 529,
     "maintenance": 246,
     "depreciation": 1412,
-    "total": 3411
+    "total": 3355
    }
   }
  },
@@ -2132,25 +2254,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Volkswagen/Golf/2026",
   "bands": {
    "7000": {
-    "fuel": 299,
+    "fuel": 284,
     "insurance": 564,
     "maintenance": 210,
     "depreciation": 1416,
-    "total": 2610
+    "total": 2595
    },
    "15000": {
-    "fuel": 641,
+    "fuel": 608,
     "insurance": 564,
     "maintenance": 235,
     "depreciation": 1416,
-    "total": 2977
+    "total": 2944
    },
    "25000": {
-    "fuel": 1068,
+    "fuel": 1014,
     "insurance": 564,
     "maintenance": 265,
     "depreciation": 1416,
-    "total": 3434
+    "total": 3380
    }
   }
  },
@@ -2193,25 +2315,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Omoda-Jaecoo + cartube Jaecoo price list (2026-10-31)",
   "bands": {
    "7000": {
-    "fuel": 386,
+    "fuel": 366,
     "insurance": 628,
     "maintenance": 210,
     "depreciation": 1416,
-    "total": 2761
+    "total": 2741
    },
    "15000": {
-    "fuel": 827,
+    "fuel": 785,
     "insurance": 628,
     "maintenance": 240,
     "depreciation": 1416,
-    "total": 3232
+    "total": 3190
    },
    "25000": {
-    "fuel": 1378,
+    "fuel": 1308,
     "insurance": 628,
     "maintenance": 270,
     "depreciation": 1416,
-    "total": 3813
+    "total": 3743
    }
   }
  },
@@ -2315,25 +2437,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Geely/Starray/ (2026-10-21)",
   "bands": {
    "7000": {
-    "fuel": 212,
+    "fuel": 201,
     "insurance": 499,
     "maintenance": 176,
     "depreciation": 1417,
-    "total": 2425
+    "total": 2414
    },
    "15000": {
-    "fuel": 453,
+    "fuel": 430,
     "insurance": 499,
     "maintenance": 200,
     "depreciation": 1417,
-    "total": 2690
+    "total": 2667
    },
    "25000": {
-    "fuel": 755,
+    "fuel": 716,
     "insurance": 499,
     "maintenance": 224,
     "depreciation": 1417,
-    "total": 3016
+    "total": 2977
    }
   }
  },
@@ -2376,25 +2498,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il/cars/hyundai/elantra-hybrid/2026 + carzone.co.il/Hyundai/Elantra/2026 (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 250,
+    "fuel": 238,
     "insurance": 530,
     "maintenance": 185,
     "depreciation": 1417,
-    "total": 2503
+    "total": 2491
    },
    "15000": {
-    "fuel": 536,
+    "fuel": 509,
     "insurance": 530,
     "maintenance": 210,
     "depreciation": 1417,
-    "total": 2814
+    "total": 2787
    },
    "25000": {
-    "fuel": 893,
+    "fuel": 848,
     "insurance": 530,
     "maintenance": 235,
     "depreciation": 1417,
-    "total": 3196
+    "total": 3151
    }
   }
  },
@@ -2437,25 +2559,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Alfa-Romeo/Junior (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 324,
+    "fuel": 307,
     "insurance": 507,
     "maintenance": 202,
     "depreciation": 1458,
-    "total": 2612
+    "total": 2595
    },
    "15000": {
-    "fuel": 693,
+    "fuel": 658,
     "insurance": 507,
     "maintenance": 230,
     "depreciation": 1458,
-    "total": 3009
+    "total": 2974
    },
    "25000": {
-    "fuel": 1155,
+    "fuel": 1097,
     "insurance": 507,
     "maintenance": 258,
     "depreciation": 1458,
-    "total": 3499
+    "total": 3441
    }
   }
  },
@@ -2559,25 +2681,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il (Niro Hybrid 2026 launch article) + cartube trim page (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 222,
+    "fuel": 211,
     "insurance": 543,
     "maintenance": 176,
     "depreciation": 1474,
-    "total": 2536
+    "total": 2525
    },
    "15000": {
-    "fuel": 476,
+    "fuel": 452,
     "insurance": 543,
     "maintenance": 200,
     "depreciation": 1474,
-    "total": 2814
+    "total": 2790
    },
    "25000": {
-    "fuel": 794,
+    "fuel": 754,
     "insurance": 543,
     "maintenance": 224,
     "depreciation": 1474,
-    "total": 3156
+    "total": 3116
    }
   }
  },
@@ -2621,25 +2743,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Hyundai (brand page, 2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 211,
+    "fuel": 200,
     "insurance": 543,
     "maintenance": 195,
     "depreciation": 1475,
-    "total": 2545
+    "total": 2534
    },
    "15000": {
-    "fuel": 452,
+    "fuel": 429,
     "insurance": 543,
     "maintenance": 220,
     "depreciation": 1475,
-    "total": 2811
+    "total": 2788
    },
    "25000": {
-    "fuel": 754,
+    "fuel": 715,
     "insurance": 543,
     "maintenance": 248,
     "depreciation": 1475,
-    "total": 3141
+    "total": 3102
    }
   }
  },
@@ -2743,25 +2865,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Omoda-Jaecoo/Omoda-7/ (2026-10-23)",
   "bands": {
    "7000": {
-    "fuel": 241,
+    "fuel": 229,
     "insurance": 516,
     "maintenance": 194,
     "depreciation": 1649,
-    "total": 2721
+    "total": 2709
    },
    "15000": {
-    "fuel": 517,
+    "fuel": 491,
     "insurance": 516,
     "maintenance": 220,
     "depreciation": 1649,
-    "total": 3023
+    "total": 2997
    },
    "25000": {
-    "fuel": 862,
+    "fuel": 818,
     "insurance": 516,
     "maintenance": 246,
     "depreciation": 1649,
-    "total": 3394
+    "total": 3350
    }
   }
  },
@@ -2805,25 +2927,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Toyota (brand page, 2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 238,
+    "fuel": 226,
     "insurance": 595,
     "maintenance": 200,
     "depreciation": 1501,
-    "total": 2655
+    "total": 2643
    },
    "15000": {
-    "fuel": 509,
+    "fuel": 483,
     "insurance": 595,
     "maintenance": 225,
     "depreciation": 1501,
-    "total": 2951
+    "total": 2925
    },
    "25000": {
-    "fuel": 849,
+    "fuel": 806,
     "insurance": 595,
     "maintenance": 255,
     "depreciation": 1501,
-    "total": 3321
+    "total": 3278
    }
   }
  },
@@ -2867,25 +2989,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/chery (brand page, 2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 360,
+    "fuel": 342,
     "insurance": 587,
     "maintenance": 230,
     "depreciation": 1500,
-    "total": 2798
+    "total": 2780
    },
    "15000": {
-    "fuel": 773,
+    "fuel": 734,
     "insurance": 587,
     "maintenance": 260,
     "depreciation": 1500,
-    "total": 3241
+    "total": 3202
    },
    "25000": {
-    "fuel": 1288,
+    "fuel": 1223,
     "insurance": 587,
     "maintenance": 295,
     "depreciation": 1500,
-    "total": 3791
+    "total": 3726
    }
   }
  },
@@ -3049,25 +3171,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Mazda/3/Hatchback/2026",
   "bands": {
    "7000": {
-    "fuel": 362,
+    "fuel": 344,
     "insurance": 587,
     "maintenance": 211,
     "depreciation": 1327,
-    "total": 2608
+    "total": 2590
    },
    "15000": {
-    "fuel": 776,
+    "fuel": 736,
     "insurance": 587,
     "maintenance": 240,
     "depreciation": 1327,
-    "total": 3051
+    "total": 3011
    },
    "25000": {
-    "fuel": 1292,
+    "fuel": 1226,
     "insurance": 587,
     "maintenance": 269,
     "depreciation": 1327,
-    "total": 3596
+    "total": 3530
    }
   }
  },
@@ -3110,25 +3232,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Honda/HR-V + cartube.co.il מחירון הונדה (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 261,
+    "fuel": 248,
     "insurance": 524,
     "maintenance": 194,
     "depreciation": 1541,
-    "total": 2641
+    "total": 2628
    },
    "15000": {
-    "fuel": 558,
+    "fuel": 530,
     "insurance": 524,
     "maintenance": 220,
     "depreciation": 1541,
-    "total": 2964
+    "total": 2936
    },
    "25000": {
-    "fuel": 930,
+    "fuel": 882,
     "insurance": 524,
     "maintenance": 246,
     "depreciation": 1541,
-    "total": 3362
+    "total": 3314
    }
   }
  },
@@ -3171,25 +3293,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il 3008 2026 MHEV Allure + cartube 3008 Allure trim page + carzone.co.il/Peugeot/3008/2026 (2026-10-31)",
   "bands": {
    "7000": {
-    "fuel": 266,
+    "fuel": 252,
     "insurance": 561,
     "maintenance": 194,
     "depreciation": 1714,
-    "total": 2856
+    "total": 2842
    },
    "15000": {
-    "fuel": 568,
+    "fuel": 540,
     "insurance": 561,
     "maintenance": 220,
     "depreciation": 1714,
-    "total": 3184
+    "total": 3156
    },
    "25000": {
-    "fuel": 947,
+    "fuel": 899,
     "insurance": 561,
     "maintenance": 246,
     "depreciation": 1714,
-    "total": 3589
+    "total": 3541
    }
   }
  },
@@ -3232,25 +3354,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/MG/S9/ (2026-10-21)",
   "bands": {
    "7000": {
-    "fuel": 232,
+    "fuel": 220,
     "insurance": 533,
     "maintenance": 229,
     "depreciation": 1582,
-    "total": 2697
+    "total": 2685
    },
    "15000": {
-    "fuel": 497,
+    "fuel": 472,
     "insurance": 533,
     "maintenance": 260,
     "depreciation": 1582,
-    "total": 2993
+    "total": 2968
    },
    "25000": {
-    "fuel": 829,
+    "fuel": 787,
     "insurance": 533,
     "maintenance": 291,
     "depreciation": 1582,
-    "total": 3356
+    "total": 3314
    }
   }
  },
@@ -3293,25 +3415,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "cartube CX-5 AWD Comfort trim page + carzone.co.il/Mazda/CX-5/2026 (2026-10-25)",
   "bands": {
    "7000": {
-    "fuel": 434,
+    "fuel": 412,
     "insurance": 566,
     "maintenance": 202,
     "depreciation": 1582,
-    "total": 2905
+    "total": 2883
    },
    "15000": {
-    "fuel": 931,
+    "fuel": 883,
     "insurance": 566,
     "maintenance": 230,
     "depreciation": 1582,
-    "total": 3430
+    "total": 3382
    },
    "25000": {
-    "fuel": 1551,
+    "fuel": 1473,
     "insurance": 566,
     "maintenance": 258,
     "depreciation": 1582,
-    "total": 4078
+    "total": 4000
    }
   }
  },
@@ -3353,25 +3475,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Hyundai (brand page, 2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 342,
+    "fuel": 325,
     "insurance": 657,
     "maintenance": 246,
     "depreciation": 1376,
-    "total": 2742
+    "total": 2725
    },
    "15000": {
-    "fuel": 734,
+    "fuel": 697,
     "insurance": 657,
     "maintenance": 280,
     "depreciation": 1376,
-    "total": 3168
+    "total": 3131
    },
    "25000": {
-    "fuel": 1223,
+    "fuel": 1161,
     "insurance": 657,
     "maintenance": 314,
     "depreciation": 1376,
-    "total": 3691
+    "total": 3629
    }
   }
  },
@@ -3414,25 +3536,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Mitsubishi/Outlander (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 409,
+    "fuel": 388,
     "insurance": 675,
     "maintenance": 238,
     "depreciation": 1742,
-    "total": 3185
+    "total": 3164
    },
    "15000": {
-    "fuel": 876,
+    "fuel": 831,
     "insurance": 675,
     "maintenance": 270,
     "depreciation": 1742,
-    "total": 3684
+    "total": 3639
    },
    "25000": {
-    "fuel": 1459,
+    "fuel": 1385,
     "insurance": 675,
     "maintenance": 302,
     "depreciation": 1742,
-    "total": 4299
+    "total": 4225
    }
   }
  },
@@ -3537,25 +3659,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il news 2026-01-14",
   "bands": {
    "7000": {
-    "fuel": 275,
+    "fuel": 261,
     "insurance": 665,
     "maintenance": 190,
     "depreciation": 1632,
-    "total": 2883
+    "total": 2869
    },
    "15000": {
-    "fuel": 589,
+    "fuel": 559,
     "insurance": 665,
     "maintenance": 210,
     "depreciation": 1632,
-    "total": 3217
+    "total": 3187
    },
    "25000": {
-    "fuel": 982,
+    "fuel": 932,
     "insurance": 665,
     "maintenance": 230,
     "depreciation": 1632,
-    "total": 3630
+    "total": 3580
    }
   }
  },
@@ -3659,25 +3781,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/BYDAuto (2026-10-19)",
   "bands": {
    "7000": {
-    "fuel": 175,
+    "fuel": 166,
     "insurance": 775,
     "maintenance": 176,
     "depreciation": 2000,
-    "total": 3247
+    "total": 3238
    },
    "15000": {
-    "fuel": 375,
+    "fuel": 356,
     "insurance": 775,
     "maintenance": 200,
     "depreciation": 2000,
-    "total": 3471
+    "total": 3452
    },
    "25000": {
-    "fuel": 625,
+    "fuel": 594,
     "insurance": 775,
     "maintenance": 224,
     "depreciation": 2000,
-    "total": 3745
+    "total": 3714
    }
   }
  },
@@ -3781,25 +3903,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "auto.co.il Superb 2026 Selection 1.5 + cartube Superb Selection trim page + cmotors.co.il Superb (2026-11-01)",
   "bands": {
    "7000": {
-    "fuel": 255,
+    "fuel": 242,
     "insurance": 590,
     "maintenance": 202,
     "depreciation": 2035,
-    "total": 3203
+    "total": 3190
    },
    "15000": {
-    "fuel": 547,
+    "fuel": 520,
     "insurance": 590,
     "maintenance": 230,
     "depreciation": 2035,
-    "total": 3523
+    "total": 3496
    },
    "25000": {
-    "fuel": 912,
+    "fuel": 866,
     "insurance": 590,
     "maintenance": 258,
     "depreciation": 2035,
-    "total": 3916
+    "total": 3870
    }
   }
  },
@@ -3903,25 +4025,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Jeep/Compass (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 362,
+    "fuel": 344,
     "insurance": 565,
     "maintenance": 211,
     "depreciation": 1749,
-    "total": 3008
+    "total": 2990
    },
    "15000": {
-    "fuel": 776,
+    "fuel": 736,
     "insurance": 565,
     "maintenance": 240,
     "depreciation": 1749,
-    "total": 3451
+    "total": 3411
    },
    "25000": {
-    "fuel": 1293,
+    "fuel": 1227,
     "insurance": 565,
     "maintenance": 269,
     "depreciation": 1749,
-    "total": 3997
+    "total": 3931
    }
   }
  },
@@ -3965,25 +4087,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": null,
   "bands": {
    "7000": {
-    "fuel": 338,
+    "fuel": 321,
     "insurance": 721,
     "maintenance": 246,
     "depreciation": 1767,
-    "total": 3193
+    "total": 3176
    },
    "15000": {
-    "fuel": 723,
+    "fuel": 687,
     "insurance": 721,
     "maintenance": 280,
     "depreciation": 1767,
-    "total": 3612
+    "total": 3576
    },
    "25000": {
-    "fuel": 1206,
+    "fuel": 1144,
     "insurance": 721,
     "maintenance": 314,
     "depreciation": 1767,
-    "total": 4129
+    "total": 4067
    }
   }
  },
@@ -4026,25 +4148,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Subaru/Forester + cartube.co.il מחירון סובארו (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 405,
+    "fuel": 385,
     "insurance": 570,
     "maintenance": 229,
     "depreciation": 1774,
-    "total": 3099
+    "total": 3079
    },
    "15000": {
-    "fuel": 869,
+    "fuel": 825,
     "insurance": 570,
     "maintenance": 260,
     "depreciation": 1774,
-    "total": 3594
+    "total": 3550
    },
    "25000": {
-    "fuel": 1448,
+    "fuel": 1374,
     "insurance": 570,
     "maintenance": 291,
     "depreciation": 1774,
-    "total": 4204
+    "total": 4130
    }
   }
  },
@@ -4148,25 +4270,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "queenoftheroad.co.il 2026-05-13 (gen 6, from ₪219,990)",
   "bands": {
    "7000": {
-    "fuel": 259,
+    "fuel": 245,
     "insurance": 721,
     "maintenance": 210,
     "depreciation": 1834,
-    "total": 3145
+    "total": 3131
    },
    "15000": {
-    "fuel": 557,
+    "fuel": 528,
     "insurance": 721,
     "maintenance": 235,
     "depreciation": 1834,
-    "total": 3468
+    "total": 3439
    },
    "25000": {
-    "fuel": 928,
+    "fuel": 881,
     "insurance": 721,
     "maintenance": 260,
     "depreciation": 1834,
-    "total": 3864
+    "total": 3817
    }
   }
  },
@@ -4271,25 +4393,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "cartube.co.il Nissan price list + carzone.co.il/Nissan (2026-10-24)",
   "bands": {
    "7000": {
-    "fuel": 256,
+    "fuel": 243,
     "insurance": 690,
     "maintenance": 200,
     "depreciation": 1899,
-    "total": 3166
+    "total": 3153
    },
    "15000": {
-    "fuel": 547,
+    "fuel": 520,
     "insurance": 690,
     "maintenance": 225,
     "depreciation": 1899,
-    "total": 3482
+    "total": 3455
    },
    "25000": {
-    "fuel": 913,
+    "fuel": 867,
     "insurance": 690,
     "maintenance": 250,
     "depreciation": 1899,
-    "total": 3873
+    "total": 3827
    }
   }
  },
@@ -4332,25 +4454,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": null,
   "bands": {
    "7000": {
-    "fuel": 172,
+    "fuel": 164,
     "insurance": 851,
     "maintenance": 246,
     "depreciation": 2491,
-    "total": 3881
+    "total": 3873
    },
    "15000": {
-    "fuel": 370,
+    "fuel": 352,
     "insurance": 851,
     "maintenance": 280,
     "depreciation": 2491,
-    "total": 4113
+    "total": 4095
    },
    "25000": {
-    "fuel": 617,
+    "fuel": 586,
     "insurance": 851,
     "maintenance": 314,
     "depreciation": 2491,
-    "total": 4394
+    "total": 4363
    }
   }
  },
@@ -4456,25 +4578,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/MINI/Countryman (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 358,
+    "fuel": 339,
     "insurance": 662,
     "maintenance": 264,
     "depreciation": 2275,
-    "total": 3680
+    "total": 3661
    },
    "15000": {
-    "fuel": 765,
+    "fuel": 726,
     "insurance": 662,
     "maintenance": 300,
     "depreciation": 2275,
-    "total": 4123
+    "total": 4084
    },
    "25000": {
-    "fuel": 1275,
+    "fuel": 1211,
     "insurance": 662,
     "maintenance": 336,
     "depreciation": 2275,
-    "total": 4669
+    "total": 4605
    }
   }
  },
@@ -4517,25 +4639,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Kia/Sorento (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 386,
+    "fuel": 366,
     "insurance": 728,
     "maintenance": 282,
     "depreciation": 2666,
-    "total": 4183
+    "total": 4163
    },
    "15000": {
-    "fuel": 827,
+    "fuel": 785,
     "insurance": 728,
     "maintenance": 320,
     "depreciation": 2666,
-    "total": 4662
+    "total": 4620
    },
    "25000": {
-    "fuel": 1378,
+    "fuel": 1308,
     "insurance": 728,
     "maintenance": 358,
     "depreciation": 2666,
-    "total": 5251
+    "total": 5181
    }
   }
  },
@@ -4578,25 +4700,25 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "priceSource": "carzone.co.il/Lexus/NX (2026-10-20)",
   "bands": {
    "7000": {
-    "fuel": 313,
+    "fuel": 297,
     "insurance": 749,
     "maintenance": 264,
     "depreciation": 2792,
-    "total": 4239
+    "total": 4223
    },
    "15000": {
-    "fuel": 672,
+    "fuel": 638,
     "insurance": 749,
     "maintenance": 300,
     "depreciation": 2792,
-    "total": 4634
+    "total": 4600
    },
    "25000": {
-    "fuel": 1121,
+    "fuel": 1064,
     "insurance": 749,
     "maintenance": 336,
     "depreciation": 2792,
-    "total": 5119
+    "total": 5062
    }
   }
  }
