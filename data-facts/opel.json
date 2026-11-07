@@ -198,7 +198,13 @@
               "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(E)/corsa-e-1-4-s-d_45940/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://www.autoexpress.co.uk/vauxhall/corsa/88991/2014-2019-hatchback/reliability",
+          "note": "4 כוכבים (Euro NCAP, 2014) — מקור: Auto Express"
+        }
       }
     },
     "astra": {
@@ -254,7 +260,13 @@
               "url": "https://www.autokostencheck.de/Opel/Opel-Astra/Astra-(K)/astra-k-1-4-b-k_47897/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.autoexpress.co.uk/vauxhall/astra/94875/sports-tourer",
+          "note": "5 כוכבים (Euro NCAP, 2015) — מקור: Auto Express"
+        }
       },
       "Astra J": {
         "issues": [
@@ -413,7 +425,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/35-Opel/1635-Grandland_X.html?fueltype=6&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=216&power_e=226&gearing=2"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.media.stellantis.com/em-en/opel/press/press-kit-opel-s-x-family-adventurous-versatile-elegant-and-above-all-successful",
+          "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Opel"
+        }
       },
       "Gen2": {
         "issues": [
@@ -499,7 +517,13 @@
               "url": "https://www.autokostencheck.de/Opel/Opel-Mokka/Mokka/mokka-x-1-4t-4x4-j-a_44899/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.autoexpress.co.uk/vauxhall/mokka-x/reliability",
+          "note": "5 כוכבים (Euro NCAP, 2012) — מקור: Auto Express"
+        }
       },
       "Mokka B": {
         "issues": [
@@ -587,7 +611,13 @@
               "url": "https://www.autokostencheck.de/Opel/Opel-Crossland/Crossland/crossland-x-1-2-p7-monocab-c_45958/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.media.stellantis.com/em-en/opel/press/euro-ncap-five-star-rating-for-opel-crossland-x",
+          "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Opel"
+        }
       }
     },
     "frontera": {
@@ -653,6 +683,11 @@
             "title": "carzone — אופל פרונטרה החדשה 2025 שוברת את שוק ה-7 מושבים",
             "url": "https://www.carzone.co.il/news/2025-אופל-פרונטרה-החדשה-שוברת-את-שוק-ה-7-מושבים/"
           }
+        },
+        "ncap": {
+          "stars": null,
+          "url": "https://www.autoexpress.co.uk/vauxhall/frontera",
+          "note": "טרם נבדק ב-Euro NCAP (לפי Auto Express, נכון לבדיקה)"
         }
       }
     },

@@ -64,7 +64,13 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-Focus/Focus/focus-fliessheck-1-6-dyb_35451/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.caradvice.com.au/news/euro-ncap-4-stars-for-2012-ford-focus-lexus-ct-200h-citroen-ds4/",
+          "note": "5 כוכבים (Euro NCAP, 2012); מקור: CarAdvice המצטט את Euro NCAP"
+        }
       },
       "Mk4 (C519)": {
         "issues": [
@@ -152,7 +158,13 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-1-5-dm2_39598/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.fleetnews.co.uk/news/2013/2/6/hat-trick-for-ford-at-euro-ncap-2012-best-in-class-awards/46141/",
+          "note": "5 כוכבים (Euro NCAP, 2012); מקור: Fleet News המצטט את Euro NCAP"
+        }
       },
       "Gen3": {
         "issues": [
@@ -246,7 +258,13 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-Kuga/Kuga/kuga-2-0-tdci-allrad-dm2_34527/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://autocar.co.uk/node/33366",
+          "note": "5 כוכבים להגנת נוסעים בוגרים (Euro NCAP, 2008); מקור: Autocar"
+        }
       }
     },
     "puma": {
@@ -354,7 +372,13 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-Fiesta/Fiesta-1.0/fiesta-1-0-ja8_37645/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://www.autobild.de/artikel/euro-ncap-crashtest-november-2008-811560.html",
+          "note": "5 כוכבים (Euro NCAP, 2008); מקור: Auto Bild"
+        }
       },
       "Mk7": {
         "issues": [
@@ -389,7 +413,13 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-Fiesta/Fiesta-1.0/fiesta-1-0-jhh_45679/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://internationalfleetworld.com/five-euro-ncap-stars-for-fiesta-cx-5-and-grandland-x/",
+          "note": "5 כוכבים (Euro NCAP, 2017); מקור: International Fleet World המצטט את Euro NCAP"
+        }
       }
     },
     "ranger": {

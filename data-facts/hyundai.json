@@ -579,7 +579,13 @@
               "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/1079-i10.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2008,
+          "url": "https://parkers.co.uk/hyundai/i10/hatchback-2008/used-review/practicality",
+          "note": "4 כוכבים (Euro NCAP, 2008) — מבחן לדגם לפני מתיחת הפנים; מקור: Parkers המצטט את Euro NCAP"
+        }
       }
     },
     "elantra": {
@@ -716,7 +722,16 @@
               "url": "https://www.autoguide.com/manufacturer/hyundai/2021-hyundai-elantra-hybrid-review-sneak-attack"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 148000,
+          "year": 2021,
+          "note": "רמת גימור Premium, 1.6 היברידי 139 כ\"ס",
+          "source": {
+            "title": "וואלה! רכב — יונדאי אלנטרה הייבריד בישראל: מרשימה והמחיר בהתאם (23.11.2021)",
+            "url": "https://cars.walla.co.il/item/3472877"
+          }
+        }
       },
       "MD": {
         "issues": [
@@ -1275,6 +1290,15 @@
           "stars": 4,
           "year": 2023,
           "url": "https://news.euroncap.com/images-and-videos/all/hyundai-kona---euro-ncap-2023-results---4-stars/s/8f489793-0cc1-4801-a788-d97aa89a5c1c"
+        },
+        "launchPrice": {
+          "ils": 175000,
+          "year": 2026,
+          "note": "רמת גימור פיור, חשמלי 214 כ\"ס, סוללה 65.4 קוט\"ש (השקה ישראלית של הגרסה החשמלית ב-2026)",
+          "source": {
+            "title": "auto.co.il — יונדאי קונה החשמלי החדש בארץ – החל ב-175,000 שקלים (19.03.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/hyundai-kona-ev-2026/"
+          }
         }
       }
     },
@@ -1327,6 +1351,15 @@
           "year": 2018,
           "url": "https://cdn.euroncap.com/media/85438/euroncap-2018-hyundai-santa-fe-datasheet.pdf",
           "note": "5 כוכבים (Euro NCAP, דצמבר 2018) — לפי הודעת יונדאי"
+        },
+        "launchPrice": {
+          "ils": 249900,
+          "year": 2018,
+          "note": "רמת גימור פרימיום, 2.4 בנזין 185 כ\"ס, 4X4",
+          "source": {
+            "title": "cartube — יונדאי סנטה פה החדש 2019 בישראל - מחיר החל מ-249,900 ₪ (26.11.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-סנטה-פה-החדש-2019-בישראל-מחיר-249900-₪"
+          }
         }
       },
       "DM": {
@@ -1377,6 +1410,15 @@
           "year": 2012,
           "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-s-best-in-class-cars-of-2012",
           "note": "נבחר 'הטוב בקטגוריה' (רכב שטח גדול) מבין שמונה רכבי 5 כוכבים ב-2012"
+        },
+        "launchPrice": {
+          "ils": 224900,
+          "year": 2012,
+          "note": "5 מושבים, רמת גימור פרימיום, 2.4 בנזין 192 כ\"ס, הנעה כפולה",
+          "source": {
+            "title": "וואלה! רכב — יונדאי סנטה פה החדש הגיע לישראל (14.11.2012)",
+            "url": "https://cars.walla.co.il/item/2585925"
+          }
         }
       },
       "MX5": {
@@ -1489,7 +1531,13 @@
               "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/185-Santa_Fe.html?fueltype=1&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=140&power_e=150&gearing=2"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2006,
+          "url": "https://www.fleetnews.co.uk/news/2006/12/22/auris-score-highly-in-crash-tests---two-other-vehicles-appalling-/23651/",
+          "note": "4 כוכבים (Euro NCAP, 2006) — מבחן לדגם לפני מתיחת הפנים; מקור: Fleet News המצטט את Euro NCAP"
+        }
       }
     },
     "sonata": {
@@ -1526,7 +1574,16 @@
               "url": "https://www.greencarreports.com/news/1093734_2015-hyundai-sonata-gas-mileage-review-of-new-mid-size-sedan"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 159000,
+          "year": 2015,
+          "note": "רמת גימור פרימיום, 2.0 היברידי 193 כ\"ס",
+          "source": {
+            "title": "וואלה! רכב — יונדאי סונטה היברידית החדשה בישראל (07.10.2015)",
+            "url": "https://cars.walla.co.il/item/2895153"
+          }
+        }
       },
       "YF": {
         "issues": [
@@ -1642,7 +1699,16 @@
               "url": "https://www.truedelta.com/Hyundai-Sonata/mpg-121&gas_unit=3"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 182000,
+          "year": 2020,
+          "note": "רמת גימור פרימיום, 2.0 היברידי 192 כ\"ס",
+          "source": {
+            "title": "וואלה! רכב — יונדאי סונטה הייבריד החדשה בישראל (14.09.2020)",
+            "url": "https://cars.walla.co.il/item/3386612"
+          }
+        }
       }
     },
     "palisade": {
@@ -1708,7 +1774,16 @@
               "url": "https://goauto.com.au/car-reviews/hyundai/2022-02-07/86919.html"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 320000,
+          "year": 2020,
+          "note": "רמת גימור Premium, הנעה קדמית, 3.8 V6 בנזין 291 כ\"ס",
+          "source": {
+            "title": "auto.co.il — יונדאי פליסייד 2021 החדש בארץ – החל מ-320,000 שקלים (22.12.2020)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134172/"
+          }
+        }
       },
       "LX3": {
         "issues": [

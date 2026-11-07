@@ -601,7 +601,7 @@
             }
           },
           {
-            "he": "גיר DSG בעל 7 הילוכים: סדק במצבר הלחץ ההידראולי עלול לגרום לאיבוד שמן ולחץ ולניתוק ההנעה. לבדוק שקריאת השירות (35E1) בוצעה.",
+            "he": "תיבת הילוכים אוטומטית: סדק במצבר הלחץ ההידראולי של התיבה עלול לגרום לאיבוד שמן ולחץ ולניתוק העברת הכוח לגלגלים. לבדוק שקריאת השירות בוצעה.",
             "level": "recall",
             "scope": "DSG 7 הילוכים, 2008–2015 — קריאה באוסטרליה (PRA 2019/17887), לבדוק תחולה על הרכב הישראלי",
             "source": {
@@ -660,7 +660,13 @@
               "url": "https://www.spritmonitor.de/en/overview/45-Skoda/398-Fabia.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=72&power_e=82&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2007,
+          "url": "https://www.autoblog.com/2007/07/28/only-4-of-5-stars-euro-ncaps-test-of-the-honda-hybrid-and-the/",
+          "note": "4 כוכבים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: Autoblog המצטט את Euro NCAP"
+        }
       }
     },
     "superb": {
@@ -1242,7 +1248,13 @@
               "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Skoda-Roomster"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2006,
+          "url": "https://www.fleetnews.co.uk/news/2006/12/22/auris-score-highly-in-crash-tests---two-other-vehicles-appalling-/23651/",
+          "note": "5 כוכבים (Euro NCAP, 2006); מקור: Fleet News המצטט את Euro NCAP"
+        }
       }
     }
   }

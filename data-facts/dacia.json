@@ -64,7 +64,22 @@
               "url": "https://www.spritmonitor.de/fr/apercu/113-Dacia/1196-Duster.html?fueltype=8&vehicletype=1&constyear_s=2020&constyear_e=2024&power_s=80&power_e=90&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/fading-stars/s/d76092a0-7f77-4b6a-b39a-4846209a95af",
+          "note": "3 כוכבים (Euro NCAP, 2017)"
+        },
+        "launchPrice": {
+          "ils": 89990,
+          "year": 2018,
+          "note": "רמת גימור Laureate (לוריאט), 1.2 טורבו, הנעה קדמית",
+          "source": {
+            "title": "cartube.co.il — דאצ'יה דאסטר החדש 2018 בישראל - מחיר החל מ-89,990 שקל (09.05.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/דאצ-יה-דאסטר-החדש-2018-בישראל-מחיר-89990-שקל"
+          }
+        }
       },
       "Gen1": {
         "issues": [
@@ -99,7 +114,13 @@
               "url": "https://www.autokostencheck.de/Dacia/Dacia-Duster/Duster/dacia-duster-1-6-4x4-sd_41204/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245",
+          "note": "3 כוכבים (Euro NCAP, 2011)"
+        }
       },
       "Gen3": {
         "issues": [
@@ -159,6 +180,15 @@
           "stars": 3,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/dacia-duster---euro-ncap-2024-results---3-stars/s/17d50887-5eb5-49ea-892a-81b31f3d52af"
+        },
+        "launchPrice": {
+          "ils": 139990,
+          "year": 2025,
+          "note": "רמת גימור Expression, TCe 130 1.2 טורבו, הנעה קדמית",
+          "source": {
+            "title": "cartube.co.il — דאצ'יה דאסטר החדש 2025 בישראל - מחיר החל מ-139,990 שקל (24.02.2025)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/דאצ-יה-דאסטר-החדש-2025-בישראל-מחיר-139990-שקל"
+          }
         }
       }
     },
@@ -193,6 +223,15 @@
           "year": 2021,
           "note": "נבדקה גרסת Sandero Stepway",
           "url": "https://news.euroncap.com/safercars/next-to-best--honda-hr-v-and-ds-4-go-for-four--while-dacia-struggles-again/s/94a99733-7738-4fdf-a28e-d051830ed8d6"
+        },
+        "launchPrice": {
+          "ils": 119990,
+          "year": 2024,
+          "note": "סנדרו סטפווי בלבד, רמת גימור Expression, 1.0 טורבו 91 כ\"ס, תיבה רציפה (הגיע לישראל באיחור של 3 שנים)",
+          "source": {
+            "title": "cartube.co.il — דאצ'יה סנדרו סטפווי החדש בישראל - מחיר החל מ-119,990 שקל (09.09.2024)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/דאצ-יה-סנדרו-סטפווי-החדש-בישראל-מחיר-119990-שקל"
+          }
         }
       },
       "Sandero I": {
@@ -277,7 +316,13 @@
               "url": "https://gebrauchtwagenberater.de/dacia-sandero-probleme/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2008,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/the-last-time-best-selling-cars-score-five-stars",
+          "note": "3 כוכבים להגנת נוסעים בוגרים (Euro NCAP, 2008) — גרסת בסיס; עם חבילת בטיחות אופציונלית שווה ערך ל-4"
+        }
       },
       "Sandero II": {
         "issues": [
@@ -390,6 +435,15 @@
           "stars": 1,
           "year": 2021,
           "url": "https://euroncap.newsmarket.com/find-a-car/all/dacia-jogger---euro-ncap-2021-results---1-stars/s/3c911d87-f792-4623-8e98-307c3d1933a3"
+        },
+        "launchPrice": {
+          "ils": 105000,
+          "year": 2022,
+          "note": "רמת גימור Essential (אסנשיאל), 1.0 טורבו 110 כ\"ס ידני",
+          "source": {
+            "title": "auto.co.il — דאצ'יה ג'וגר 2023 החדש בארץ – מחיר החל מ-105,000 שקלים (29.06.2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135200/"
+          }
         }
       }
     },
@@ -531,6 +585,15 @@
           "stars": 2,
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/dacia-logan---euro-ncap-2021-results---2-stars/s/ab2d84b7-8dfb-4857-ab86-4d8e8453802e"
+        },
+        "launchPrice": {
+          "ils": 114990,
+          "year": 2023,
+          "note": "רמת גימור Expression (אקספרשן), 1.0 טורבו אוטומט רציף",
+          "source": {
+            "title": "cartube.co.il — דאצ'יה לוגאן החדשה 2023 בישראל - מחיר החל מ-114,990 שקל (05.07.2023)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/דאצ-יה-לוגאן-החדשה-2023-בישראל-מחיר-114990-שקל"
+          }
         }
       }
     },

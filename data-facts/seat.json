@@ -140,7 +140,13 @@
               "url": "https://www.autokostencheck.de/Seat/Seat-Ibiza/Ibiza/ibiza-st-1-2-tsi-6j_35747/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://www.autoblog.com/2008/05/29/seat-ibiza-gets-5-starts-in-euroncap-crash-test/",
+          "note": "5 כוכבים (Euro NCAP, 2008); מקור: Autoblog המצטט את Euro NCAP"
+        }
       }
     },
     "arona": {
@@ -568,6 +574,12 @@
             "title": "icar – סיאט אלטאה החדשה בישראל",
             "url": "https://www.icar.co.il/חדשות_רכב/סיאט_אלתיאה_החדשה_בישראל/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2004,
+          "url": "https://www.autozine.nl/seat/altea/nieuws/seat-altea-succesvol-bij-crashtests",
+          "note": "5 כוכבים (Euro NCAP, 2004); מקור: Autozine המצטט את Euro NCAP"
         }
       }
     }

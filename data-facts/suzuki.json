@@ -662,7 +662,22 @@
               "url": "https://www.autokostencheck.de/Suzuki/Suzuki-Celerio/Celerio/celerio-1-0-lf_39844/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2014,
+          "url": "https://www.caradvice.com.au/news/suzuki-celerio-falters-with-3-star-euroncap-safety/",
+          "note": "3 כוכבים (Euro NCAP, 2014); מקור: CarAdvice (כיום CarExpert) המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 59000,
+          "year": 2016,
+          "note": "גרסה ידנית, 1.0 בנזין 68 כ\"ס, תיבה ידנית 5 הילוכים",
+          "source": {
+            "title": "auto.co.il — סוזוקי סלריו יוצאת לדרך בישראל (11.04.2016)",
+            "url": "https://www.auto.co.il/articles/general-articles/110594/"
+          }
+        }
       }
     },
     "sx4": {
@@ -723,7 +738,13 @@
               "url": "https://www.autokostencheck.de/Suzuki/Suzuki-SX4/SX4/sx4-1-6-gy_34957/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2006,
+          "url": "https://parkers.co.uk/suzuki/sx4/review/practicality",
+          "note": "4 כוכבים (Euro NCAP, 2006); מקור: Parkers המצטט את Euro NCAP"
+        }
       }
     },
     "grand-vitara": {
@@ -798,7 +819,13 @@
               "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/421-Grand_Vitara.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2007,
+          "url": "https://www.autoblog.it/post/7686/crash-test-euro-ncap-per-freelander-2-e-grand-vitara",
+          "note": "4 כוכבים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחות הפנים; מקור: Autoblog.it המצטט את Euro NCAP"
+        }
       }
     },
     "alto": {
@@ -890,7 +917,13 @@
               "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Suzuki-Splash"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2008,
+          "url": "https://carkeys.co.uk/car-reviews/suzuki-splash-12-glsplus-2008",
+          "note": "4 כוכבים (Euro NCAP, 2008); מקור: CarKeys המצטט את Euro NCAP"
+        }
       }
     }
   }

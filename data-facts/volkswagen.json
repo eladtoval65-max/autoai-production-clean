@@ -1263,6 +1263,15 @@
           "year": 2018,
           "url": "https://cdn.euroncap.com/media/85422/euroncap-2018-vw-touareg-datasheet.pdf",
           "note": "5 כוכבים (Euro NCAP, ספטמבר 2018)"
+        },
+        "launchPrice": {
+          "ils": 499900,
+          "year": 2018,
+          "note": "דגם יחיד בהשקה, 3.0 V6 טורבו דיזל 286 כ\"ס",
+          "source": {
+            "title": "cartube.co.il — 2019 פולקסווגן טוארג החדש בישראל - מחיר החל מ-499,900 שקל (12.11.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2019-פולקסווגן-טוארג-החדש-בישראל-מחיר-499900-שקל"
+          }
         }
       }
     },
@@ -1316,7 +1325,16 @@
               "url": "https://www.jalopnik.com/1858275/vw-id-buzz-recall-third-row-seats-too-roomy/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 385000,
+          "year": 2025,
+          "note": "מיניוואן נוסעים, גרסה קצרה 5 מושבים Pro, סוללה 84 קוט\"ש (הגרסה המסחרית: 335,000)",
+          "source": {
+            "title": "auto.co.il — פולקסווגן ID. באז בארץ – המחיר החל מ-335,000 שקלים (28.04.2025)",
+            "url": "https://www.auto.co.il/articles/general-articles/138115/"
+          }
+        }
       }
     },
     "tayron": {

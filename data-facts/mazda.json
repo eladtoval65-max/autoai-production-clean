@@ -839,7 +839,13 @@
               "url": "https://www.autokostencheck.de/Mazda/Mazda-2/Mazda-2/mazda-2-1-5-dee_36709/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2007,
+          "url": "https://www.autoblog.com/2007/12/19/mazda-demonstrates-that-small-lightweight-cars-be-safe-too/",
+          "note": "5 כוכבים (Euro NCAP, 2007); מקור: Autoblog המצטט את Euro NCAP"
+        }
       }
     },
     "cx-90": {

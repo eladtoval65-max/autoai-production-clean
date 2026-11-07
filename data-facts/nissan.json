@@ -141,7 +141,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/986-Qashqai.html?fueltype=1&vehicletype=1&constyear_s=2010&constyear_e=2014&power_s=91&power_e=101&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2007,
+          "url": "https://europe.nissannews.com/en-GB/releases/nissan-qashqai-awarded-five-stars-by-euro-ncap",
+          "note": "5 כוכבים להגנת נוסעים בוגרים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: הודעת ניסאן"
+        }
       },
       "J12": {
         "issues": [
@@ -860,6 +866,15 @@
           "stars": 5,
           "year": 2018,
           "url": "https://www.euroncap.com/press-media/new-leaf-charging-ahead-with-5-star-result-in-toughest-safety-tests-to-date/"
+        },
+        "launchPrice": {
+          "ils": 164990,
+          "year": 2019,
+          "note": "רמת גימור יחידה Acenta Tech, סוללה 40 קוט\"ש",
+          "source": {
+            "title": "cartube.co.il — ניסאן ליף החדשה 2019 בישראל - מחיר החל מ-164,990 שקל (28.07.2019)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-ליף-החדשה-2019-בישראל-מחיר-164990-שקל"
+          }
         }
       },
       "ZE0/AZE0": {

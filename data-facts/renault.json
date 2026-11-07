@@ -46,7 +46,22 @@
               "url": "https://www.spritmonitor.de/fr/apercu/41-Renault/368-Clio.html?fueltype=1&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=61&power_e=71&gearing=4"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/en/results/renault/clio/10944",
+          "note": "5 כוכבים (Euro NCAP, 2012)"
+        },
+        "launchPrice": {
+          "ils": 75000,
+          "year": 2013,
+          "note": "1.2 בנזין 75 כ\"ס (רמת הגימור לא צוינה למחיר זה)",
+          "source": {
+            "title": "וואלה רכב — רנו קליאו החדשה הגיעה לישראל (17.06.2013)",
+            "url": "https://cars.walla.co.il/item/2651829"
+          }
+        }
       },
       "Clio V": {
         "issues": [
@@ -96,6 +111,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://euroncap.newsmarket.com/images-and-videos/renault-clio---euro-ncap-2019-results---5-stars/s/a6490b29-4bb6-4ffc-8b6a-a5eb65e8bcd9"
+        },
+        "launchPrice": {
+          "ils": 84990,
+          "year": 2020,
+          "note": "רמת גימור Intense, 1.0 טורבו 100 כ\"ס ידני",
+          "source": {
+            "title": "cartube.co.il — רנו קליאו החדשה 2020 בישראל - מחיר החל מ-84,990 שקל (09.01.2020)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A8%D7%A0%D7%95-%D7%A7%D7%9C%D7%99%D7%90%D7%95-%D7%94%D7%97%D7%93%D7%A9%D7%94-2020-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-84990-%D7%A9%D7%A7%D7%9C"
+          }
         }
       },
       "Clio III": {
@@ -149,7 +173,13 @@
               "url": "https://www.autokostencheck.de/Renault/Renault-Clio/Clio/clio-1-5-dci-r_35715/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2005,
+          "url": "https://www.just-auto.com/news/france-clio-iii-becomes-eighth-renault-to-achieve-five-star-euro-ncap-crash-rating/",
+          "note": "5 כוכבים (Euro NCAP, 2005) — מבחן לדגם לפני מתיחת הפנים; מקור: just-auto"
+        }
       }
     },
     "captur": {
@@ -213,7 +243,22 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/41-Renault/1305-Captur.html?fueltype=1&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=61&power_e=71&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-four-new-results/s/ea98fd7b-0efd-4a0c-9f8a-498dd933e319",
+          "note": "5 כוכבים (Euro NCAP, 2013)"
+        },
+        "launchPrice": {
+          "ils": 109900,
+          "year": 2013,
+          "note": "ידני, 0.9 טורבו TCe90 (גוף הכתבה מעגל ל-110 אלף)",
+          "source": {
+            "title": "cartube.co.il — רנו קפצ'ור בישראל – מחיר החל מ-109,900 שקל (21.07.2013)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/רנו-קפצ-ור-בישראל-–-מחיר-החל-מ-109,900-שקל"
+          }
+        }
       },
       "Gen2 (CMF-B)": {
         "issues": [
@@ -254,6 +299,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://euroncap.newsmarket.com/find-a-car/renault-captur---euro-ncap-2019-results---5-stars/s/c5f2796b-85df-4664-abc8-ee5b2b5318bc"
+        },
+        "launchPrice": {
+          "ils": 125000,
+          "year": 2020,
+          "note": "רמת גימור Intense, 1.33 טורבו 131 כ\"ס (מחיר תקופת ההשקה)",
+          "source": {
+            "title": "וואלה רכב — רנו קפצ'ור החדש בישראל. החל מ-125 אלף שקלים (07.12.2020)",
+            "url": "https://cars.walla.co.il/item/3403593"
+          }
         }
       }
     },
@@ -309,7 +363,13 @@
               "url": "https://www.autokostencheck.de/Renault/Renault-Megane/Megane/megane-1-5-dci_31359/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://www.autobild.de/artikel/euro-ncap-crashtest-november-2008-811560.html",
+          "note": "5 כוכבים (Euro NCAP, 2008); מקור: Auto Bild"
+        }
       },
       "Megane IV": {
         "issues": [
@@ -364,7 +424,13 @@
               "url": "https://www.autokostencheck.de/Renault/Renault-Megane/Megane/megane-1-5-dci-rfb_46869/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2015/12/09/new-renault-megane-awarded-five-star-euro-ncap-rating",
+          "note": "5 כוכבים (Euro NCAP, 2015); מקור: Fleet News המצטט את Euro NCAP"
+        }
       }
     },
     "arkana": {
@@ -407,6 +473,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://www.euroncap.com/en/results/renault/arkana/42253"
+        },
+        "launchPrice": {
+          "ils": 150000,
+          "year": 2022,
+          "note": "רמת גימור Iconic (אייקוניק), 1.6 E-Tech היברידי (הגרסה הראשונה שהושקה; גרסת 1.3 טורבו הושקה כחודש אחר כך ב-139,990)",
+          "source": {
+            "title": "auto.co.il — רנו ארקנה E-טק – המחיר מתחיל ב-150,000 שקלים (17.08.2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135318/"
+          }
         }
       }
     },
@@ -468,6 +543,15 @@
           "stars": 5,
           "year": 2022,
           "url": "https://www.euroncap.com/assessments/renault/austral/0943/"
+        },
+        "launchPrice": {
+          "ils": 175000,
+          "year": 2023,
+          "note": "רמת גימור Equilibre (אקוויליבר), 1.3 טורבו 140 כ\"ס",
+          "source": {
+            "title": "auto.co.il — רנו אוסטרל החדש בארץ – מחיר החל מ-175,000 שקלים (14.02.2023)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135904/"
+          }
         }
       }
     },

@@ -27,7 +27,13 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-Jazz/Jazz/jazz-1-3-gk_42111/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://news.euroncap.com/safercars/top-marks-for-audi-and-honda/s/e98903f4-4733-4da1-9584-ce0fe6e79a16",
+          "note": "5 כוכבים (Euro NCAP, 2015)"
+        }
       },
       "GR": {
         "issues": [
@@ -66,6 +72,15 @@
           "stars": 5,
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/the-stars-align-for-mazda-mx-30-and-honda-jazz/s/e0119180-47d5-4e75-b7a7-99588d6d4876"
+        },
+        "launchPrice": {
+          "ils": 119900,
+          "year": 2020,
+          "note": "רמת גימור Comfort (קומפורט), 1.5 היברידי e:HEV",
+          "source": {
+            "title": "cartube.co.il — הונדה ג'אז החדשה 2020 בישראל - מחיר החל מ-119,900 שקל (24.08.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/הונדה-ג-אז-החדשה-2020-בישראל-מחיר-119900-שקל"
+          }
         }
       },
       "GE": {
@@ -109,7 +124,13 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-Jazz/Jazz/jazz-1-2-gg5_34589/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://global.honda/en/newsroom/worldnews/2009/4090527Jazz-Top-Euro-NCAP.html",
+          "note": "5 כוכבים (Euro NCAP, 2009) — מקור: הודעת היצרן Honda"
+        }
       }
     },
     "civic": {
@@ -146,7 +167,13 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-Civic/Civic/civic-1-5-fk_46708/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/signed--sealed-and-delivered/s/f51d7afa-c5d8-48b7-ac75-82e5bf1dec8d",
+          "note": "5 כוכבים (Euro NCAP, 2017) — לאחר מבחן חוזר בנובמבר 2017; במבחן הראשון ביולי 2017 קיבל 4 כוכבים"
+        }
       },
       "FK (דור 9)": {
         "issues": [
@@ -181,7 +208,13 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-Civic/Civic-Tourer/civic-tourer-1-8-fk2_38524/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/jeep-compass-disappoints-honda-civic-impresses",
+          "note": "5 כוכבים (Euro NCAP, 2012)"
+        }
       },
       "FL (דור 11)": {
         "issues": [
@@ -212,6 +245,15 @@
           "stars": 5,
           "year": 2022,
           "url": "https://news.euroncap.com/images-and-videos/honda-civic---euro-ncap-2022-results---5-stars/s/ae2d27e1-99bd-4136-9315-db08a48b978b"
+        },
+        "launchPrice": {
+          "ils": 180000,
+          "year": 2022,
+          "note": "רמת גימור Elegance (אלגנס), 2.0 היברידי e:HEV",
+          "source": {
+            "title": "auto.co.il — הונדה סיוויק החדשה בישראל – מחיר החל ב-180,000 שקלים (22.12.2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135701/"
+          }
         }
       },
       "FN/FK/FD (דור 8)": {
@@ -300,7 +342,22 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-HR-V/HR-V/hr-v-1-5-ru_42109/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.autocar.co.uk/car-news/new-cars/audi-a4-honda-hr-v-and-honda-jazz-score-top-marks-euro-ncap-tests",
+          "note": "5 כוכבים (Euro NCAP, 2015) — מקור: Autocar המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 138900,
+          "year": 2015,
+          "note": "רמת גימור יחידה, 1.5 בנזין 130 כ\"ס",
+          "source": {
+            "title": "icar.co.il — הונדה HR-V החדש בישראל: יעלה 138,900 שקל (22.12.2015)",
+            "url": "https://www.icar.co.il/חדשות_רכב/_הונדה_HR-V_החדש_בישראל:_יעלה_138,900_שקל/"
+          }
+        }
       },
       "RV": {
         "engines": [
@@ -331,6 +388,15 @@
           "stars": 4,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/next-to-best--honda-hr-v-and-ds-4-go-for-four--while-dacia-struggles-again/s/94a99733-7738-4fdf-a28e-d051830ed8d6"
+        },
+        "launchPrice": {
+          "ils": 205000,
+          "year": 2024,
+          "note": "גימור בסיסי, 1.5 היברידי e:HEV (השקה ראשונה בישראל של הדור השלישי)",
+          "source": {
+            "title": "auto.co.il — הונדה HR-V המחודש בארץ – המחיר החל מ-205,000 שקלים (18.09.2024)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137506/"
+          }
         }
       }
     },
@@ -385,7 +451,22 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-CR-V/CR-V/cr-v-2-0-re5_37462/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://hondanews.eu/eu/fi/cars/media/pressreleases/2774/new-honda-cr-v-receives-5-star-euro-ncap-overall-safety-rating",
+          "note": "5 כוכבים (Euro NCAP, 2013) — מקור: הודעת היצרן Honda"
+        },
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2013,
+          "note": "רמת גימור Comfort (קומפורט), 2.0 155 כ\"ס, הנעה קדמית, ידני",
+          "source": {
+            "title": "cartube.co.il — הונדה CR-V החדש בישראל – מחיר החל מ-169,900 שקל (05.02.2013)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/הונדה-cr-v-החדש-בישראל-–-מחיר-החל-מ-169,900-שקל"
+          }
+        }
       },
       "RW (דור 5)": {
         "issues": [
@@ -416,6 +497,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/images-and-videos/honda-cr-v---euro-ncap-2019-results---5-stars/s/93692fda-fd68-47cf-a048-4937adf0ce9c"
+        },
+        "launchPrice": {
+          "ils": 212900,
+          "year": 2019,
+          "note": "רמת גימור Elegance, 1.5 טורבו 5 מושבים אוטומט (גוף הכתבה מציין 219,900 — סתירה פנימית)",
+          "source": {
+            "title": "cartube.co.il — הונדה CR-V החדש 2019 בישראל - מחיר החל מ-212,900 שקל (16.06.2019)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/הונדה-cr-v-החדש-2019-בישראל-מחיר-החל-מ-212900-שקל"
+          }
         }
       },
       "RE (דור 3)": {
@@ -572,6 +662,15 @@
           "stars": 4,
           "year": 2023,
           "url": "https://news.euroncap.com/safercars/safety-must-come-first-as-big-and-bold-suvs-continue-to-hit-the-market/s/406f5446-2a99-45ff-adc8-b4b6d2cb7403"
+        },
+        "launchPrice": {
+          "ils": 225000,
+          "year": 2026,
+          "note": "רמת גימור Elegance (אלגנס), 2.0 היברידי e:HEV 184 כ\"ס",
+          "source": {
+            "title": "auto.co.il — הונדה ZRV החדש בארץ – המחיר החל מ-225,000 שקלים (19.01.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/honda-zrv-launch/"
+          }
         }
       }
     },

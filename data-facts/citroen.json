@@ -45,7 +45,13 @@
               "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3/c3-1-2-s_46346/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2017,
+          "url": "https://www.autoexpress.co.uk/car-news/98745/new-euro-ncap-results-five-stars-for-new-lr-discovery-four-for-new-citroen-c3",
+          "note": "4 כוכבים (Euro NCAP, 2017) — מקור: Auto Express המצטט את Euro NCAP"
+        }
       },
       "Gen2": {
         "issues": [
@@ -167,7 +173,12 @@
               "url": "https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": null,
+          "url": "https://www.autoexpress.co.uk/citroen/c3",
+          "note": "לא נבדק ב-Euro NCAP (לפי Auto Express, נכון לבדיקה)"
+        }
       }
     },
     "c4": {
@@ -215,7 +226,13 @@
               "url": "https://ev-database.org/car/1286/Citroen-e-C4"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://news.euroncap.com/images-and-videos/citro-n-c4---euro-ncap-2021-results---4-stars/s/eed3f65a-e773-49b0-9bb1-4e88af7f9297",
+          "note": "4 כוכבים (Euro NCAP, 2021)"
+        }
       },
       "Gen2": {
         "issues": [
@@ -314,7 +331,13 @@
               "url": "https://www.autokostencheck.de/Citroen/Citroen-C5/C5-Aircross/c5-aircross-1-2-a_46688/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/citro-n-c5-aircross---euro-ncap-2019-results---standard-equipment-4-stars-and-with-safety-pack-5-sta/s/497d97c7-98dd-45a2-8eff-3af114e69b2e",
+          "note": "4 כוכבים (Euro NCAP, 2019) — 5 כוכבים עם חבילת בטיחות אופציונלית"
+        }
       },
       "Gen2 (STLA Medium)": {
         "issues": [
@@ -427,7 +450,13 @@
               "url": "https://www.autokostencheck.de/Citroen/Citroen-C3/C3-Aircross/c3-aircross-1-2-2_46053/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.media.stellantis.com/em-en/citroen/press/new-citroen-c3-aircross-compact-suv-already-20000-orders-and-5-stars-in-the-euro-ncap-test",
+          "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Citroën"
+        }
       },
       "CC24": {
         "issues": [
@@ -472,6 +501,11 @@
             "title": "auto.co.il — סיטרואן C3 איירקרוס החדש בארץ, המחיר החל מ-145,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/new-citroen-c3-aircross/"
           }
+        },
+        "ncap": {
+          "stars": null,
+          "url": "https://www.autoexpress.co.uk/citroen/c3-aircross/362884/citroen-c3-aircross-review",
+          "note": "טרם נבדק ב-Euro NCAP (לפי Auto Express, נכון לבדיקה)"
         }
       }
     },
@@ -546,7 +580,13 @@
               "url": "https://www.autokostencheck.de/Citroen/Citroen-Berlingo/Berlingo/berlingo-1-5-hdi-e_46411/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2018,
+          "url": "https://www.whatcar.com/citroen/berlingo/estate/review/n17319",
+          "note": "4 כוכבים (Euro NCAP, 2018) — מקור: What Car?; המבחן בוצע על התאום Peugeot Rifter (זהה מבנית)"
+        }
       }
     },
     "c4-picasso": {

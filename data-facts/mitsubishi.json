@@ -680,7 +680,12 @@
               "url": "https://www.carsguide.com.au/car-reviews/mitsubishi-pajero-gls-67303"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": null,
+          "url": "https://parkers.co.uk/mitsubishi/shogun/review/practicality",
+          "note": "לא נבחן ב-Euro NCAP (לפי Parkers, דגם Shogun 2007-2018)"
+        }
       }
     }
   }

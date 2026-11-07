@@ -100,7 +100,13 @@
               "url": "https://www.autokostencheck.de/Subaru/Subaru-Impreza/Impreza/subaru-impreza-1-6-awd-g5_45895/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.subaru.eu/media/the-all-new-subaru-xv-and-impreza-awarded-maximum-five-star-rating-in-2017-euro-ncap-safety-test",
+          "note": "5 כוכבים (Euro NCAP, 2017) — הדירוג מבוסס בחלקו על מבחני ה-XV; מקור: הודעת Subaru"
+        }
       },
       "GU": {
         "issues": [
@@ -186,7 +192,13 @@
               "url": "https://www.autokostencheck.de/Subaru/Subaru-XV/XV/subaru-xv-2-0-g4_36981/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.subaru.co.jp/en/news/archives/press/2012/12_02_29e.html",
+          "note": "5 כוכבים (Euro NCAP, 2012) — מקור: הודעת Subaru"
+        }
       },
       "GT (XV)": {
         "issues": [
@@ -261,7 +273,13 @@
               "url": "https://de.motor1.com/reviews/404843/tatsachlicher-verbrauch-subaru-xv-20ie-eboxer-test/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.subaru.eu/media/the-all-new-subaru-xv-and-impreza-awarded-maximum-five-star-rating-in-2017-euro-ncap-safety-test",
+          "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Subaru"
+        }
       },
       "GU (Crosstrek)": {
         "issues": [
@@ -347,7 +365,13 @@
               "url": "https://www.autokostencheck.de/Subaru/Subaru-Forester/Forester/subaru-forester-2-0-sj_45593/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://media.subaru.com/pressrelease/398/all-new-subaru-forester-awarded-top-five-star",
+          "note": "5 כוכבים (Euro NCAP, 2012) — מקור: הודעת Subaru"
+        }
       },
       "דור 5": {
         "issues": [
@@ -537,7 +561,13 @@
               "url": "https://www.dev.honestjohn.co.uk/realmpg/subaru/outback-2014/25-lineatronic"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://www.subaru.co.jp/en/news/archives/press/2014/14_12_05e_110494.html",
+          "note": "5 כוכבים (Euro NCAP, 2014) — מקור: הודעת Subaru"
+        }
       },
       "BR": {
         "issues": [
@@ -638,7 +668,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/47-Subaru/411-Outback.html?fueltype=2&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=119&power_e=129&gearing=3"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://www.subaru.co.jp/press/news-en/2021_09_21_10974/",
+          "note": "5 כוכבים (Euro NCAP, 2021) — מקור: הודעת Subaru"
+        }
       },
       "BU": {
         "launchPrice": {

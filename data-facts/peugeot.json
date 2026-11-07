@@ -369,7 +369,13 @@
               "url": "https://www.autokostencheck.de/Peugeot/Peugeot-308/308-SW/308-sw-1-6-t-4_34828/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2007,
+          "url": "https://www.motorbox.com/auto/magazine/vivere-auto/peugeot-308-a-5-stelle",
+          "note": "5 כוכבים להגנת נוסעים בוגרים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: Motorbox המצטט את Euro NCAP"
+        }
       }
     },
     "408": {
@@ -1130,7 +1136,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/36-Peugeot/1713-Rifter.html?fueltype=8&vehicletype=1&constyear_s=2018&constyear_e=2022&power_s=91&power_e=101&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2018,
+          "url": "https://www2020.theautochannel.com/news/2018/10/24/634484-euro-ncap-releases-safety-rating-seven-new-cars-today.html",
+          "note": "4 כוכבים (Euro NCAP, 2018); מקור: The Auto Channel המצטט את הודעת Euro NCAP"
+        }
       }
     }
   }

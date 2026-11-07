@@ -54,7 +54,13 @@
               "url": "https://www.spritmonitor.de/en/overview/49-Toyota/435-Corolla.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2007,
+          "url": "https://www.carmagazine.co.uk/car-news/industry-news/euro-ncap-latest/",
+          "note": "5 כוכבים (Euro NCAP, 2007) — גרסת הסדאן, מבחן לדגם לפני מתיחת הפנים; מקור: CAR Magazine המצטט את Euro NCAP"
+        }
       },
       "E170": {
         "issues": [
@@ -546,7 +552,13 @@
               "url": "https://www.spritmonitor.de/en/overview/49-Toyota/440-RAV_4.html?fueltype=2&vehicletype=1&constyear_s=2008&constyear_e=2012&power_s=111&power_e=121&gearing=3"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2006,
+          "url": "https://parkers.co.uk/toyota/rav4/estate-2006/used-review/practicality",
+          "note": "4 כוכבים (Euro NCAP, 2006) — מבחן לדגם לפני מתיחת הפנים; מקור: Parkers המצטט את Euro NCAP"
+        }
       },
       "XA60": {
         "issues": [
@@ -821,6 +833,11 @@
             "title": "Cartube — טויוטה קאמרי היברידית החדשה 2018 בישראל: מחיר 175,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קאמרי-היברידית-החדשה-2018-בישראל-מחיר-175000-שקל"
           }
+        },
+        "ncap": {
+          "stars": null,
+          "url": "https://www.autoexpress.co.uk/toyota/camry/reliability",
+          "note": "לא נבחן ב-Euro NCAP (לפי Auto Express, דגם 2019-2022)"
         }
       },
       "XV50": {
@@ -1570,6 +1587,12 @@
             "title": "cartube — טויוטה ישראל משיקה את האוריס המחודשת (14.4.2010)",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94-%D7%9E%D7%A9%D7%99%D7%A7%D7%94-%D7%90%D7%AA-%D7%94%D7%90%D7%95%D7%A8%D7%99%D7%A1-%D7%94%D7%9E%D7%97%D7%95%D7%93%D7%A9%D7%AA"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2006,
+          "url": "https://media.toyota.co.uk/?p=23394",
+          "note": "5 כוכבים (Euro NCAP, 2006) — מבחן לדגם לפני מתיחת הפנים; מקור: הודעת יצרן (Toyota UK)"
         }
       },
       "E180": {

@@ -1179,7 +1179,16 @@
               "url": "https://autos.yahoo.com/welcome-2022-kia-carnival-minivan-120000256.html"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 249900,
+          "year": 2021,
+          "note": "רמת גימור EX, 3.5 בנזין",
+          "source": {
+            "title": "cartube — קיה קרניבל החדש 2021 בישראל - מחיר החל מ-249,900 שקל (21.04.2021)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A7%D7%99%D7%94-%D7%A7%D7%A8%D7%A0%D7%99%D7%91%D7%9C-%D7%94%D7%97%D7%93%D7%A9-2021-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-249900-%D7%A9%D7%A7%D7%9C"
+          }
+        }
       },
       "VQ (מתיחת פנים)": {
         "issues": [
