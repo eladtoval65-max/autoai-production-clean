@@ -387,7 +387,7 @@
             }
           },
           {
-            "he": "ריקול: רצועת ה-ISG (מערכת סטארט-סטופ/מיילד-היברידי) עלולה להיקרע — משאבת המים נעצרת והמנוע עלול להיכבות. בדקו שהרצועה הוחלפה.",
+            "he": "ריקול: רצועת ההנעה של מערכת הסטארט-סטופ עלולה להיכשל — המנוע עלול להתחמם יתר על המידה או לא להניע. בדקו שהטיפול בוצע.",
             "level": "recall",
             "scope": "ייצור פברואר 2017",
             "source": {
@@ -440,7 +440,8 @@
         "ncap": {
           "stars": 3,
           "year": 2016,
-          "url": "https://news.euroncap.com/safercars/latest-euro-ncap-safety-ratings-for-2016/s/b8c1b819-6665-4d87-b80d-5ece388c45c8"
+          "url": "https://news.euroncap.com/safercars/latest-euro-ncap-safety-ratings-for-2016/s/b8c1b819-6665-4d87-b80d-5ece388c45c8",
+          "note": "3 כוכבים בגרסת הבסיס (SZ3); גרסאות עם ערכת הבטיחות המלאה (SZ5) קיבלו 5 כוכבים — לפי Auto Express"
         }
       }
     },

@@ -303,6 +303,12 @@
             "title": "auto.co.il — יונדאי i20 החדשה החל מ-80,000 שקלים (01.03.2015)",
             "url": "https://www.auto.co.il/articles/car-news/111944/"
           }
+        },
+        "ncap": {
+          "stars": 4,
+          "year": 2015,
+          "url": "https://www.autocarindia.com/car-news/euro-ncap-395830",
+          "note": "4 כוכבים (Euro NCAP, יוני 2015; מבוגרים 85%, ילדים 73%) — לפי Autocar India"
         }
       },
       "PB": {
@@ -1188,7 +1194,12 @@
               "url": "https://ev-database.org/car/1204/Hyundai-Kona-Electric-64-kWh"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "גרסת החשמל לא נבדקה בנפרד ב-Euro NCAP; קונה בנזין קיבלה 5 כוכבים (2017) — לפי DrivingElectric",
+          "url": "https://www.drivingelectric.com/hyundai/kona-electric/80/hyundai-kona-electric-2018-2023-review/reliability"
+        }
       },
       "SX2 EV": {
         "issues": [

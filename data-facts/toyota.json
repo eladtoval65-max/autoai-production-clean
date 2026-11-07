@@ -1392,6 +1392,12 @@
             "title": "Cartube — טויוטה אייגו X החדש 2022 בישראל: מחיר 93,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-אייגו-x-החדש-2022-בישראל-מחיר-93990-שקל"
           }
+        },
+        "ncap": {
+          "stars": 4,
+          "year": 2022,
+          "url": "https://cdn.euroncap.com/media/70235/euroncap-2022-toyota-aygo-x-datasheet.pdf",
+          "note": "4 כוכבים (Euro NCAP, יולי 2022; מבוגרים 78%, ילדים 78%) — מספר הכוכבים לפי La Tribune Auto"
         }
       }
     },
