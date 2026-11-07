@@ -528,6 +528,15 @@
           "stars": 3,
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/choose-a-car/all/hyundai-i10---euro-ncap-2020-results---3-stars/s/376ca69d-7289-4db8-9f6e-1d64bfd067b3"
+        },
+        "launchPrice": {
+          "ils": 69900,
+          "year": 2020,
+          "note": "אינספייר 1.2 ליטר 84 כ״ס, ידנית (אוטומטית מ-79,900 ₪)",
+          "source": {
+            "title": "cartube — יונדאי i10 החדשה 2020 בישראל: מחיר 69,900 שקל (16.2.2020)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-i10-%D7%94%D7%97%D7%93%D7%A9%D7%94-2020-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-69900-%D7%A9%D7%A7%D7%9C"
+          }
         }
       },
       "PA": {
@@ -636,7 +645,16 @@
               "url": "https://www.fuelly.com/car/hyundai/elantra/2017"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 131700,
+          "year": 2016,
+          "note": "Inspire 1.6 ליטר 127 כ״ס, אוטומטית 6 הילוכים",
+          "source": {
+            "title": "icar — יונדאי אלנטרה החדשה בישראל: החל מ-131,700 שקל (22.3.2016)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99_%D7%90%D7%9C%D7%A0%D7%98%D7%A8%D7%94_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C_-_%D7%94%D7%97%D7%9C_%D7%9E-131,700_%D7%A9%D7%A7%D7%9C/"
+          }
+        }
       },
       "CN7": {
         "issues": [

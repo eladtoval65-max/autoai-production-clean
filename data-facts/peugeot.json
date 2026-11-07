@@ -1,6 +1,6 @@
 {
   "make": "peugeot",
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "models": {
     "208": {
       "P21 (Gen2)": {
@@ -440,6 +440,15 @@
           "stars": 4,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/peugeot-408---euro-ncap-2022-results---4-stars/s/e93836d1-6b7f-4cc4-85ec-f750380c1fd5"
+        },
+        "launchPrice": {
+          "ils": 169000,
+          "year": 2023,
+          "note": "אלור פק, 1.2 טורבו 130 כ״ס",
+          "source": {
+            "title": "auto.co.il — פיג'ו 408 2023 החדשה בישראל: מחיר החל מ-169,000 שקלים (3.8.2023)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136445/"
+          }
         }
       }
     },
@@ -865,7 +874,12 @@
               "url": "https://ev-database.org/imp/car/2003/Peugeot-e-3008-73-kWh"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/peugeot-3008---euro-ncap-2025-results---4-stars/s/8e1b6be6-87b8-4da1-98be-0e997ee7195e"
+        }
       }
     },
     "5008": {

@@ -217,6 +217,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/volkswagen-golf---euro-ncap-2019-results---5-stars/s/bc99d968-9e2d-44b2-87af-03e90da97978"
+        },
+        "launchPrice": {
+          "ils": 134900,
+          "year": 2021,
+          "note": "Life 1.0 טורבו 110 כ״ס (מיילד-היברידי 48V), אוטומטית",
+          "source": {
+            "title": "cartube — פולקסווגן גולף החדשה 2021 בישראל: מחיר 134,900 שקל (17.3.2021)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F-%D7%92%D7%95%D7%9C%D7%A3-%D7%94%D7%97%D7%93%D7%A9%D7%94-2021-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-134900-%D7%A9%D7%A7%D7%9C"
+          }
         }
       }
     },
@@ -1104,6 +1113,15 @@
           "stars": 5,
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/dacia-aims-low-while--koda--vw-electrify/s/67b94981-1dad-416a-9657-ee51e5ae24e3"
+        },
+        "launchPrice": {
+          "ils": 214900,
+          "year": 2022,
+          "note": "Pro, מנוע אחורי 204 כ״ס, סוללה 82 קוט״ש (השקה בישראל באוקטובר 2022)",
+          "source": {
+            "title": "icar — פולקסווגן ID.4 בישראל: מ-215,000 שקלים (24.10.2022)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F_ID.4_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-215,000_%D7%A9%D7%A7%D7%9C%D7%99%D7%9D/"
+          }
         }
       }
     },

@@ -752,6 +752,12 @@
             "title": "auto.co.il — קיה סטוניק הושק בישראל (18.07.2018)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/130637/"
           }
+        },
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://news.euroncap.com/safercars/fading-stars/s/d76092a0-7f77-4b6a-b39a-4846209a95af",
+          "note": "3 כוכבים בגרסה הסטנדרטית; 5 כוכבים עם חבילת הבטיחות האופציונלית (Euro NCAP, דצמבר 2017) — לבדוק אם הרכב כולל את החבילה"
         }
       }
     },
@@ -1230,6 +1236,15 @@
           "year": 2023,
           "url": "https://press.kia.com/eu/en/home/media-resouces/press-releases/2023/Kia-EV9-awarded-five-star-Euro-NCAP-safety-rating.html",
           "note": "5 כוכבים (Euro NCAP, דצמבר 2023) — הודעת קיה"
+        },
+        "launchPrice": {
+          "ils": 429000,
+          "year": 2024,
+          "note": "Premium, 7 מקומות, מנוע אחורי 203 כ״ס, סוללה 99.8 קוט״ש",
+          "source": {
+            "title": "carzone — קיה EV9 משווק בישראל (28.5.2024)",
+            "url": "https://www.carzone.co.il/news/קיה-EV9-משווק-בישראל-מחיר-החל-מ-2024-שח/"
+          }
         }
       }
     },
