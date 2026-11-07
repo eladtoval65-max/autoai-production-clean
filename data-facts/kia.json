@@ -969,11 +969,11 @@
             }
           },
           {
-            "he": "קריאת שירות (2022): תנודת מתח כשהרכב כבוי וחונה עלולה לשחרר זמנית את נעילת החניה. התיקון הוא עדכון תוכנה ליחידת בורר ההילוכים (SCU). בבדיקה: לוודא שהעדכון בוצע.",
+            "he": "קריאת שירות (2022): תקלת תוכנה ביחידת בורר ההילוכים (SCU) עלולה לשחרר את מנגנון החניה, והרכב עלול להידרדר. התיקון הוא עדכון תוכנה. בבדיקה: לוודא שהעדכון בוצע.",
             "level": "recall",
             "source": {
-              "title": "What Car? — Used Kia EV6 2021-present reliability",
-              "url": "https://whatcar.com/kia/ev6/estate/used-review/n25914/reliability"
+              "title": "CarComplaints — Kia EV6 2022 recall 22V322000 (Kia SC236): SCU software may disengage parking mechanism",
+              "url": "https://www.carcomplaints.com/Kia/EV6/2022/recalls/22v322000.shtml"
             }
           },
           {
@@ -1404,8 +1404,9 @@
         ],
         "ncap": {
           "stars": 5,
-          "year": 2010,
-          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03"
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03",
+          "note": "5 כוכבים בבדיקה חוזרת (הודעת Euro NCAP, נובמבר 2011); בבדיקה המקורית ב-2010 קיבל 4 כוכבים בגלל חגורת נהג שנחתכה בהתנגשות חזיתית"
         }
       }
     },
