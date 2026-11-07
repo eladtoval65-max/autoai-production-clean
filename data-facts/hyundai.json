@@ -1174,7 +1174,16 @@
               "url": "https://blog.consumerguide.com/test-drive-2020-hyundai-venue-denim-edition/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 110000,
+          "year": 2020,
+          "note": "רמת גימור אינספייר",
+          "source": {
+            "title": "auto.co.il — יונדאי וניו 2020 בארץ – החל מ-110,000 ש״ח (17.05.2020)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/133630/"
+          }
+        }
       }
     },
     "kona-electric": {
@@ -1362,7 +1371,13 @@
               "url": "https://www.spritmonitor.de/en/overview/19-Hyundai/185-Santa_Fe.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-s-best-in-class-cars-of-2012",
+          "note": "נבחר 'הטוב בקטגוריה' (רכב שטח גדול) מבין שמונה רכבי 5 כוכבים ב-2012"
+        }
       },
       "MX5": {
         "issues": [

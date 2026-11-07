@@ -532,6 +532,12 @@
             "title": "icar — סוזוקי קרוסאובר בישראל: החל מ-109,990 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/סוזוקי_קרוסאובר_בישראל:_החל_מ-109,990_שקל/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/6034/euroncap_suzuki_sx4_2013_5stars.pdf",
+          "note": "נבדק תחת השם SX4 (S-Cross) 1.6, 2013"
         }
       },
       "Gen2": {
@@ -558,7 +564,16 @@
               "url": "https://www.spritmonitor.de/en/overview/48-Suzuki/1481-SX4_S-Cross.html?fueltype=10&vehicletype=1&constyear_s=2021&constyear_e=2025&power_s=90&power_e=100&gearing=1"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 140000,
+          "year": 2022,
+          "note": "GLX הנעה קדמית (עודכן מ-138,000 ₪)",
+          "source": {
+            "title": "auto.co.il — סוזוקי S-Cross 2022 החדש בארץ – מחיר החל מ-140,000 שקלים (13.06.2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135171/"
+          }
+        }
       }
     },
     "jimny": {

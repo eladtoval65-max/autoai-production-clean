@@ -752,9 +752,9 @@
       "B6 (3T)": {
         "issues": [
           {
-            "he": "גיר DSG בעל 7 הילוכים (DQ200): סדק במצבר הלחץ ההידראולי עלול לגרום לאיבוד שמן ולחץ ולניתוק ההנעה. לבדוק לפי מספר שלדה שקריאת השירות (35E1) בוצעה.",
+            "he": "תיבת הילוכים אוטומטית: סדק במצבר הלחץ של התיבה עלול לגרום לאיבוד שמן ולחץ במערכת ההידראולית. לבדוק לפי מספר שלדה שקריאת השירות (35E6) בוצעה.",
             "level": "recall",
-            "scope": "DSG 7 הילוכים, 2008–2015 — קריאה באוסטרליה (PRA 2019/17887), לבדוק תחולה על הרכב הישראלי",
+            "scope": "2008–2015 — קריאה באוסטרליה (PRA 2019/17887), לבדוק תחולה על הרכב הישראלי",
             "source": {
               "title": "vehiclerecalls.gov.au — REC-001196 Skoda Fabia/Octavia/Rapid/Roomster/Superb/Yeti 2008–2015",
               "url": "https://www.vehiclerecalls.gov.au/recalls/rec-001196"
@@ -1114,11 +1114,11 @@
             "name": "חשמלי, סוללה 59 קוט״ש (60)",
             "pt": "ev",
             "hp": 204,
-            "cons": 16.8,
+            "cons": 17,
             "unit": "kWh",
             "source": {
-              "title": "EV Database — טבלת צריכה בפועל: Škoda Elroq 60",
-              "url": "https://ev-database.org/cheatsheet/energy-consumption-electric-car"
+              "title": "EV Database — Škoda Elroq 60 (MY25, 59 קוט״ש): צריכה בפועל 274 Wh/mi ≈ 17.0 קוט״ש/100 ק״מ",
+              "url": "https://ev-database.org/imp/car/3032/Skoda-Elroq-60"
             }
           },
           {

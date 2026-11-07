@@ -830,7 +830,12 @@
               "url": "https://www.autokostencheck.de/Peugeot/Peugeot-3008/3008/3008-1-6-0u_34823/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7527/euroncap_peugeot_3008_2009_5stars.pdf"
+        }
       },
       "Gen3": {
         "issues": [
@@ -1007,7 +1012,12 @@
               "url": "https://www.autokostencheck.de/Peugeot/Peugeot-5008/5008/5008-1-6-0_35701/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7534/euroncap_peugeot_5008_2009_5stars.pdf"
+        }
       },
       "Gen3": {
         "issues": [

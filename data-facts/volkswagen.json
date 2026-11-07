@@ -79,6 +79,11 @@
             "title": "וואלה רכב — מבחן השקה גולף 7 בישראל (פברואר 2013)",
             "url": "https://cars.walla.co.il/item/2614534"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6420/euroncap_vw_golf_2012_5stars.pdf"
         }
       },
       "Mk6": {
@@ -162,7 +167,12 @@
               "url": "https://www.autocentrum.pl/spalanie/volkswagen/golf/vi/hatchback-5d/strona-16/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7654/euroncap_vw_golf_2009_5stars.pdf"
+        }
       },
       "Mk8": {
         "issues": [
@@ -357,7 +367,12 @@
               "url": "https://www.autocentrum.pl/volkswagen/polo/v/hatchback-5d-facelifting/silnik-benzynowy-1.2-tsi-bluemotion-technology-90km-2014-2017/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7615/euroncap_vw_polo_2009_5stars.pdf"
+        }
       }
     },
     "t-roc": {
