@@ -1181,6 +1181,11 @@
             "title": "Calcalist — ברוכה השבה: טויוטה פריוס חוזרת לארץ בגרסת פלאג אין הייבריד (20.09.2023)",
             "url": "https://www.calcalist.co.il/local_news/car/article/bjgijfuk6"
           }
+        },
+        "ncap": {
+          "stars": null,
+          "note": "טרם נבדקה ב-Euro NCAP (נכון לספטמבר 2024, לפי Auto Express)",
+          "url": "https://autoexpress.co.uk/toyota/prius/364272/toyota-prius-reliability-safety"
         }
       }
     },
@@ -1588,10 +1593,10 @@
           },
           {
             "level": "widely_reported",
-            "he": "חריקת בלמים קדמיים (הצטברות אבק בלמים) ובלם יד חלש שלא תמיד מחזיק בשיפוע – לבדוק בנסיעת מבחן ובחנייה בעלייה",
+            "he": "חריקת בלמים קדמיים ובלם יד שעלול להחליק כשהרכב חונה בשיפוע – לבדוק בנסיעת מבחן ובחנייה בעלייה",
             "source": {
               "title": "What Car? — Used Toyota Auris Hatchback 2007–2013 reliability",
-              "url": "https://car-leasing.whatcar.com/toyota/auris/hatchback/used-review/n645/reliability"
+              "url": "https://www.whatcar.com/toyota/auris/hatchback/used-review/n645/reliability"
             }
           }
         ],
@@ -2043,6 +2048,11 @@
             "title": "icar — טויוטה GT86 בישראל: החל מ-229,000 שקל (14.06.12)",
             "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_GT86_בישראל:_החל_מ-229,000_שקל/"
           }
+        },
+        "ncap": {
+          "stars": null,
+          "note": "לא נבחנה ב-Euro NCAP לאורך כל שנות הייצור (לפי The Car Expert)",
+          "url": "https://www.thecarexpert.co.uk/toyota-gt86-2012/"
         }
       }
     }
