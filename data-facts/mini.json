@@ -243,7 +243,13 @@
               "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Cooper-S/mini-cooper-s-2-0-fm6_51051/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/mini-cooper---euro-ncap-2025-results---5-stars/s/3f6b4be6-fafc-40cb-b4ff-095fd103db8a",
+          "note": "5 כוכבים (Euro NCAP, ספטמבר 2025) — חל על Cooper C / S / JCW בנזין 3 דלתות (F66); הגרסה החשמלית דורגה בנפרד"
+        }
       }
     },
     "countryman": {

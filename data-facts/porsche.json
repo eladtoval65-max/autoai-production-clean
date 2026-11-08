@@ -1,6 +1,6 @@
 {
   "make": "porsche",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "911": {
       "991": {
@@ -276,7 +276,13 @@
             }
           }
         ],
-        "launchPrice": null
+        "launchPrice": null,
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/porsche-macan---euro-ncap-2024-results---5-stars/s/12ab99bd-081e-45c8-92f8-25fecaa04721",
+          "note": "5 כוכבים (Euro NCAP, נובמבר 2024 — Macan החשמלי)"
+        }
       }
     },
     "cayenne": {
