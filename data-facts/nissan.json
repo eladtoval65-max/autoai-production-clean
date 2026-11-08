@@ -797,7 +797,13 @@
               "url": "https://www.spritmonitor.de/en/overview/33-Nissan/942-Note.html?fueltype=2&vehicletype=1&constyear_s=2008&constyear_e=2012&power_s=76&power_e=86&gearing=1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2006,
+          "url": "https://latter-cars.blogspot.com/2006/07/weaknesses-in-two-best-selling-cars.html",
+          "note": "4 כוכבים להגנת נוסעים מבוגרים, 3 לילדים, 2 להולכי רגל (Euro NCAP, 2006, שיטת הדירוג הישנה); מקור: סיכום הודעת Euro NCAP. Sicurauto מציג 31 נקודות למבוגרים (טווח 4 כוכבים)"
+        }
       }
     },
     "leaf": {

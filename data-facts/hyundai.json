@@ -385,6 +385,33 @@
               "title": "NHTSA recall 24V-204 — Hyundai IONIQ 5/IONIQ 6 ICCU",
               "url": "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V204-6233.pdf"
             }
+          },
+          {
+            "he": "ריקול (NHTSA 24V065): ייתכן שציר ההנעה הפנימי האחורי לא עבר חיסום נכון ועלול להישבר בעומס — אובדן כוח הנעה. התיקון: החלפת הציר — לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "שנת דגם 2023 (ארה״ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2023 Hyundai IONIQ 6 recalls (NHTSA 24V065)",
+              "url": "https://www.cars.com/research/hyundai-ioniq_6-2023/recalls/"
+            }
+          },
+          {
+            "he": "ריקול (NHTSA 25V606): מכסה פתח הטעינה עלול להתנתק. התיקון: הדבקת מכלול המכסה. בבדיקה: לפתוח ולסגור את מכסה הטעינה ולוודא שהוא יציב.",
+            "level": "recall",
+            "scope": "שנות דגם 2023–2025 (ארה״ב) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2023 Hyundai IONIQ 6 recalls (NHTSA 25V606)",
+              "url": "https://www.cars.com/research/hyundai-ioniq_6-2023/recalls/"
+            }
+          },
+          {
+            "he": "ריקול (NHTSA 26V218): עיגון חגורות הבטיחות של הנהג והנוסע הקדמי עלול להשתחרר. התיקון: בדיקה וחיזוק או החלפת העיגונים — לוודא שבוצע.",
+            "level": "recall",
+            "scope": "שנות דגם 2023–2025 (ארה״ב, 2026) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Cars.com — 2023 Hyundai IONIQ 6 recalls (NHTSA 26V218)",
+              "url": "https://www.cars.com/research/hyundai-ioniq_6-2023/recalls/"
+            }
           }
         ],
         "engines": [
@@ -2229,6 +2256,12 @@
             "title": "auto.co.il — יונדאי ולוסטר בישראל: מ-110,000 שקל",
             "url": "https://www.auto.co.il/articles/car-news/116427/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://www.caradvice.com.au/news/audi-q3-bmw-1-series-hyundai-veloster-awarded-five-star-euro-ncap-safety-rating/",
+          "note": "5 כוכבים (Euro NCAP, 2011, נבדק Veloster 1.6 GDI); מקור: CarAdvice המצטט את Euro NCAP. דף התוצאה: euroncap.com/fr/results/hyundai/veloster/10972"
         }
       },
       "JS": {

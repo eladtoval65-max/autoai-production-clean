@@ -1048,7 +1048,13 @@
               "url": "https://www.auto-abc.eu/info/real-fuel-consumption/mazda-cx-7"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2010,
+          "url": "https://www.carsguide.com.au/car-news/ncap-stars-prestige-euros-17494",
+          "note": "4 כוכבים (Euro NCAP, יוני 2010 — לפי שיטת הניקוד החדשה שמחמירה בהגנת צוואר); מקור: CarsGuide המצטט את Euro NCAP"
+        }
       }
     }
   }
