@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -1021,6 +1021,86 @@
             }
           }
         ]
+      }
+    },
+    "ecosport": {
+      "B515": {
+        "issues": [
+          {
+            "he": "מנוע 1.0 EcoBoost: רצועת תזמון 'רטובה' הטבולה בשמן מתבלה ומפזרת שאריות במנוע; ההחלפה יקרה. לדרוש הוכחה להחלפת הרצועה ולבדוק סימני איבוד נוזל קירור או התחממות (בעיה מוכרת במנועים מוקדמים).",
+            "level": "widely_reported",
+            "scope": "1.0 EcoBoost",
+            "source": {
+              "title": "Parkers — Ford EcoSport (2014-2023) used car buying guide",
+              "url": "https://www.parkers.co.uk/ford/ecosport"
+            }
+          },
+          {
+            "he": "תיבת Powershift כפולת מצמדים בדגמים המוקדמים (בעיקר 1.5 בנזין): טלטולים בנסיעה איטית וגמגום בזינוק. בנסיעת מבחן לבדוק רעידות, החלקה או נורות אזהרה; מ-2018 תיבה אוטומטית רגילה אמינה יותר.",
+            "level": "widely_reported",
+            "scope": "דגמים מוקדמים עם Powershift, עד 2017",
+            "source": {
+              "title": "Parkers — Ford EcoSport (2014-2023) used car buying guide",
+              "url": "https://www.parkers.co.uk/ford/ecosport"
+            }
+          },
+          {
+            "he": "קריאת שירות: צנרת דלק עלולה להיחלד ולדלוף. לוודא מול היבואן לפי מספר שלדה שהצנרת הוחלפה.",
+            "level": "recall",
+            "scope": "יוצרו עד 26.6.2014",
+            "source": {
+              "title": "What Car? — Used Ford Ecosport 2014-present reliability (recalls)",
+              "url": "https://production.whatcar.com/ford/ecosport/hatchback/used-review/n17420/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגים רופפים בזרועות המתלה האחורי עלולים לפגוע ביציבות; סימן מקדים הוא רעש נקישות מאחור. לוודא ביצוע מול היבואן.",
+            "level": "recall",
+            "scope": "יוצרו עד 25.2.2015",
+            "source": {
+              "title": "What Car? — Used Ford Ecosport 2014-present reliability (recalls)",
+              "url": "https://production.whatcar.com/ford/ecosport/hatchback/used-review/n17420/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שהותקנה זרוע מתלה קדמית תחתונה פגומה. לוודא מול היבואן לפי מספר שלדה שהזרוע נבדקה/הוחלפה.",
+            "level": "recall",
+            "scope": "יוצרו 2.5.2017–10.6.2017",
+            "source": {
+              "title": "What Car? — Used Ford Ecosport 2014-present reliability (recalls)",
+              "url": "https://production.whatcar.com/ford/ecosport/hatchback/used-review/n17420/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו בנזין 125 כ״ס (אוטומטי)",
+            "pt": "petrol",
+            "hp": 125,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Ford EcoSport fuel consumption: 2017 1.0 EcoBoost 125 HP AT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Ford-EcoSport"
+            }
+          },
+          {
+            "name": "1.5 טורבו דיזל 95 כ״ס",
+            "pt": "diesel",
+            "hp": 95,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Ford EcoSport fuel consumption: 2015 1.5 TDCi 95 HP MT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Ford-EcoSport"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2013,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89"
+        }
       }
     }
   }

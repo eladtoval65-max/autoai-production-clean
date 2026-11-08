@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -2157,6 +2157,95 @@
           "url": "https://cdn.euroncap.com/media/6776/hyundai_ix20_2011_datasheet.pdf",
           "note": "דירוג משותף עם קיה ונגה (נבחנה ב-2010); ה-ix20 עצמה לא נבחנה בנפרד"
         }
+      }
+    },
+    "veloster": {
+      "FS": {
+        "issues": [
+          {
+            "he": "ריקול: מכלולי בלם החניה האחוריים עלולים להיתקע בגלל לחות ולכלוך – הבלם נגרר בנסיעה או לא נתפס היטב בחניה (בגיר ידני). לוודא מול היבואן לפי מספר שלדה שהוחלפו קליפרים אחוריים, ולבדוק שבלם היד מחזיק ומשתחרר כראוי.",
+            "level": "recall",
+            "scope": "2012, גיר ידני, ייצור 2.7.2011–27.2.2012",
+            "source": {
+              "title": "VehicleSafetyRecalls — NHTSA Recall 12V567000 (Hyundai Veloster parking brake)",
+              "url": "https://www.vehiclesafetyrecalls.com/recall/12V567000"
+            }
+          },
+          {
+            "he": "ריקול: זכוכית גג הפנורמה עלולה להתנפץ בנסיעה בשל היחלשות בהרכבה במפעל. לוודא לפי מספר שלדה שבוצעה בדיקה/החלפת זכוכית הגג, ולבדוק סדקים בגג.",
+            "level": "recall",
+            "scope": "2012 עם גג פנורמי, ייצור 1.11.2011–17.4.2012",
+            "source": {
+              "title": "VehicleSafetyRecalls — NHTSA Recall 12V568000 (Veloster panoramic sunroof)",
+              "url": "https://vehiclesafetyrecalls.com/recall/12V568000"
+            }
+          },
+          {
+            "he": "ריקול: תוכנת מחשב המנוע בגרסת הטורבו גורמת להצתה מוקדמת שעלולה להזיק למנוע ואף לגרום לדימום או שריפה. לוודא מול היבואן שבוצע עדכון תוכנה למחשב המנוע.",
+            "level": "recall",
+            "scope": "1.6 טורבו, שנתון 2013, ייצור 26.4.2012–16.10.2013",
+            "source": {
+              "title": "NHTSA — Part 573 Recall Report 19V-204 (2013 Veloster 1.6 Turbo ECU)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V204-6690.PDF"
+            }
+          },
+          {
+            "he": "ריקול: שחיקה מוקדמת של מסבי טלטל במנוע 1.6 GDI – דפיקות מנוע, נורית לחץ שמן, ובמקרים קיצוניים נזק למנוע ושריפה. לוודא שבוצעו בדיקת מנוע ועדכון KSDS, להקשיב לדפיקות ולבקש היסטוריית החלפות שמן.",
+            "level": "recall",
+            "scope": "1.6 GDI, שנתונים 2015–2016, ייצור 26.5.2014–13.7.2016",
+            "source": {
+              "title": "NHTSA — Part 573 Recall Report 20V-746 (Veloster 1.6 Gamma GDI connecting rod bearings)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2020/RCLRPT-20V746-3838.PDF"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 GDI בנזין 140 כ״ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 7.5,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Hyundai Veloster model year 2012 (US, 1.6 GDI only that year): 31.2 mpg US avg, 225 vehicles; converted to L/100km",
+              "url": "https://fuelly.com/car/hyundai/veloster/all"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 110000,
+          "year": 2011,
+          "note": "Inspire, גיר ידני (רובוטי +10,000)",
+          "source": {
+            "title": "auto.co.il — יונדאי ולוסטר בישראל: מ-110,000 שקל",
+            "url": "https://www.auto.co.il/articles/car-news/116427/"
+          }
+        }
+      },
+      "JS": {
+        "issues": [
+          {
+            "he": "ריקול: טבעות השמן של הבוכנות במנוע 2.0 Nu MPI לא עברו טיפול חום תקין – עלול לגרום לנזק למנוע, לדימום או לדליפת שמן ושריפה. לוודא מול היבואן לפי מספר שלדה שבוצעה בדיקה (ובמידת הצורך החלפת מנוע) והותקנה תוכנת PNSS; לבדוק צריכת שמן ורעשי מנוע.",
+            "level": "recall",
+            "scope": "מנוע 2.0 MPI (לא טורבו)",
+            "source": {
+              "title": "VehicleSafetyRecalls — NHTSA Recall 21V301000 (Hyundai 2.0L Nu MPI piston oil rings)",
+              "url": "https://vehiclesafetyrecalls.com/recall/21V301000"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין (ממוצע כלל המנועים, 2.0 / 1.6T)",
+            "pt": "petrol",
+            "cons": 8.2,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Hyundai Veloster model years 2019–2020 (US), all engines combined: 29.1 mpg (43 vehicles) / 27.5 mpg (13 vehicles), weighted and converted to L/100km",
+              "url": "https://fuelly.com/car/hyundai/veloster/all"
+            }
+          }
+        ]
       }
     }
   }

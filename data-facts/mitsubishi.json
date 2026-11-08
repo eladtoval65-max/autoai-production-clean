@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -685,6 +685,65 @@
           "stars": null,
           "url": "https://parkers.co.uk/mitsubishi/shogun/review/practicality",
           "note": "לא נבחן ב-Euro NCAP (לפי Parkers, דגם Shogun 2007-2018)"
+        }
+      }
+    },
+    "i-miev": {
+      "i-MiEV": {
+        "issues": [
+          {
+            "he": "קריאת שירות: משאבת הוואקום של מגבר הבלמים עלולה להפסיק לפעול (תוכנה או קורוזיה מהתזת מים), מה שמאריך את מרחק הבלימה. לוודא מול היבואן לפי מספר שלדה שבוצע עדכון תוכנה או הוחלפה המשאבה.",
+            "level": "recall",
+            "scope": "שנות דגם 2010–2014, יוצרו 15.9.2009–25.3.2014 (ארה״ב)",
+            "source": {
+              "title": "NHTSA — Recall 14V522 (Mitsubishi i-MiEV brake vacuum pump)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2014/RCAK-14V522-9617.pdf"
+            }
+          },
+          {
+            "he": "קריאת שירות נוספת: חדירת מים למשאבת הוואקום של סייען הבלימה גורמת לקורוזיה ולאובדן פתאומי של סיוע בלימה. לבדוק שהדוושה אינה מתקשה ולוודא שהמשאבה הוחלפה במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "שנות דגם 2012–2017 (ארה״ב)",
+            "source": {
+              "title": "CarComplaints — Mitsubishi recall 19V804 / SR-19-002: brake assist vacuum pump may fail",
+              "url": "https://m.carcomplaints.com/Mitsubishi/i-MiEV/2012/recalls/brake-assist-vacuum-pump-may-fail-19v804000.shtml"
+            }
+          },
+          {
+            "he": "מצב הסוללה קובע את ערך הרכב: טווח אמיתי נמוך משמעותית מהמוצהר ומתקצר עוד עם חימום/מזגן. לברר אם הרכב עמד זמן רב עם סוללה ריקה, כמה טעינות מהירות עבר, ולבדוק טווח בפועל בטעינה מלאה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — Mitsubishi i-MiEV (2013-2016) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/mitsubishi/i-miev/i-miev-2013-2016/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 64 כ״ס, סוללה 16 קוט״ש",
+            "pt": "ev",
+            "hp": 64,
+            "cons": 17.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mitsubishi i-MiEV (2011–2015) real-world combined consumption 171 Wh/km",
+              "url": "https://ev-database.org/car/1029/Mitsubishi-i-MiEV"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2011,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245"
+        },
+        "launchPrice": {
+          "ils": 180000,
+          "year": 2011,
+          "note": "גרסה יחידה (חשמלי); 3 מסירות בלבד ב-2011",
+          "source": {
+            "title": "Carzone — מיצובישי I-MIEV 2011",
+            "url": "https://www.carzone.co.il/Mitsubishi/I-MIEV"
+          }
         }
       }
     }

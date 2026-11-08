@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -990,6 +990,95 @@
           "source": {
             "title": "auto.co.il – אופל זפירה חוזר עם תג מחיר של 168,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/115348/"
+          }
+        }
+      }
+    },
+    "adam": {
+      "Adam": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הציר הביניים של ההגה עלול להישבר. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה ולבדוק משחק/רעשים בהגה.",
+            "level": "recall",
+            "scope": "ייצור 06/02/2014–28/09/2014",
+            "source": {
+              "title": "What Car? — Used Vauxhall Adam 2013-present reliability (recalls: steering intermediate shaft)",
+              "url": "https://www.whatcar.com/vauxhall/adam/hatchback/used-review/n17570/reliability"
+            }
+          },
+          {
+            "he": "קריאות שירות במערכת ההיגוי: תיבת ההגה עלולה להיסדק/להישבר בתמרון במהירות נמוכה. לוודא ביצוע הקריאות ולבדוק שההגה חלק וללא נקישות.",
+            "level": "recall",
+            "scope": "ייצור 18/10/2014–28/01/2015 ו-23/06/2015–29/07/2015",
+            "source": {
+              "title": "What Car? — Used Vauxhall Adam 2013-present reliability (recalls: steering gear / steering rack)",
+              "url": "https://www.whatcar.com/vauxhall/adam/hatchback/used-review/n17570/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: זרוע מתלה תחתונה שאולי לא הורכבה כראוי ועלולה להשתחרר. לוודא ביצוע הקריאה ולבדוק בליטת צמיגים לא אחידה.",
+            "level": "recall",
+            "scope": "ייצור 30/06/2014–28/09/2015",
+            "source": {
+              "title": "What Car? — Used Vauxhall Adam 2013-present reliability (recalls: lower control arm)",
+              "url": "https://www.whatcar.com/vauxhall/adam/hatchback/used-review/n17570/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות 2016: כרית האוויר של הנהג עלולה לא להיפתח כנדרש. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 25/08/2016–01/12/2016",
+            "source": {
+              "title": "car-recalls.eu — Opel Adam common problems / recalls (driver's airbag, 2016)",
+              "url": "https://car-recalls.eu/common-problems/opel/adam/"
+            }
+          },
+          {
+            "he": "חישוקי 18 אינץ' עלולים להיסדק בקילומטראז' גבוה (מעל כ-100 אלף ק״מ) — קריאת שירות. בגרסאות עם חישוקי 18 לבדוק סדקים ולוודא ביצוע הקריאה; גם זכוכית גג הפנורמה עלולה להתנתק.",
+            "level": "recall",
+            "scope": "ייצור 2012–02/2015, חישוקי 18 אינץ'",
+            "source": {
+              "title": "car-recalls.eu — Opel Adam common problems / recalls (18-inch alloy wheels)",
+              "url": "https://car-recalls.eu/common-problems/opel/adam/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 87 כ״ס",
+            "pt": "petrol",
+            "hp": 87,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Adam 1.4 64 kW/87 PS petrol, user-reported average (102 reports); Spritmonitor unreachable",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Adam/Adam/adam-1-4-s-d_45937/verbrauch/"
+            }
+          },
+          {
+            "name": "1.4 בנזין 100 כ״ס",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Opel Adam 1.4 74 kW/101 PS petrol, user-reported average (294 reports)",
+              "url": "https://www.autokostencheck.de/Opel/Opel-Adam/Adam/opel-adam-1-4-100ps-m-a_37039/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/5985/euroncap_opel_adam_2013_4stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 98990,
+          "year": 2014,
+          "note": "1.4 85 כ״ס ידנית, גרסה יחידה (צבע לבן)",
+          "source": {
+            "title": "icar — אופל אדם בישראל: החל מ-98,990 שקל (14.04.2014)",
+            "url": "https://www.icar.co.il/חדשות_רכב/אופל_אדם_בישראל:_החל_מ-98,990_שקל/"
           }
         }
       }

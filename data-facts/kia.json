@@ -1634,6 +1634,90 @@
           "url": "https://drivingelectric.com/kia/soul/1023/kia-soul-ev-reliability-safety"
         }
       }
+    },
+    "carens": {
+      "UN": {
+        "issues": [
+          {
+            "he": "ריקול: דליפת נוזל בלמים פנימית ביחידת ABS/ESC עלולה לגרום לקצר, להתחממות תיבת הנתיכים ולשריפה בתא המנוע. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 19.9.2009–14.12.2012 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Kia Carens 2009–2012 leak brake fluid / fire (Rapex SR/00590/25)",
+              "url": "https://car-recalls.eu/recall/kia-carens-2009-2012-leak-brake-fluid-fire"
+            }
+          },
+          {
+            "he": "ריקול (בריטניה): מגעים מפוחמים ברכיב עלולים לגרום לאורות הבלם לפעול לסירוגין. לבדוק שאורות הבלם נדלקים בכל לחיצה ולוודא לפי מספר שלדה שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 1.3.2008–30.11.2009 (רלוונטי רק לרכבים מתחילת הדור)",
+            "source": {
+              "title": "car-recalls.eu — Kia Carens common problems & UK recalls (brake lights may malfunction)",
+              "url": "https://car-recalls.eu/common-problems/kia/Carens/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין (ממוצע כלל המנועים)",
+            "pt": "petrol",
+            "cons": 11.2,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Kia Rondo (same generation, US) model years 2010–2012, all engines: 20.2–22.2 mpg US, 41 vehicles, weighted and converted to L/100km",
+              "url": "https://fuelly.com/car/kia/rondo/all"
+            }
+          }
+        ]
+      },
+      "RP": {
+        "issues": [
+          {
+            "he": "ריקול: דליפת נוזל בלמים פנימית ביחידת ABS/ESC עלולה לגרום לקצר, להתחממות תיבת הנתיכים ולשריפה בתא המנוע. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 28.8.2012–23.7.2018 (לא כל הרכבים)",
+            "source": {
+              "title": "car-recalls.eu — Kia Carens 2012–2018 leak brake fluid / fire (Rapex SR/00791/25)",
+              "url": "https://car-recalls.eu/recall/kia-carens-2012-2018-leak-brake-fluid-fire/"
+            }
+          },
+          {
+            "he": "בדיזל 1.7 CRDi מסנן החלקיקים (DPF) נסתם בנסיעות עירוניות קצרות, וחידוש שנקטע עלול לדלל את השמן בסולר (מפלס שמן עולה). לבדוק מפלס שמן, נורות אזהרה ופרופיל שימוש – להעדיף רכב שנסע הרבה בכביש מהיר.",
+            "level": "widely_reported",
+            "scope": "1.7 CRDi דיזל",
+            "source": {
+              "title": "What Car? — Used Kia Carens 2013-present review: reliability/what to look for",
+              "url": "https://www.whatcar.com/kia/carens/mpv/used-review/n990/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין (ממוצע כלל המנועים, Rondo צפון-אמריקאי)",
+            "pt": "petrol",
+            "cons": 9.6,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Kia Rondo (same generation, Canada/US) model years 2014–2017, all engines combined: ~24.6 mpg US weighted, 43 vehicles; converted to L/100km",
+              "url": "https://fuelly.com/car/kia/rondo/all"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/5884/euroncap_kia_carens_2013_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 163000,
+          "year": 2013,
+          "note": "EX, 2.0 165 כ״ס אוטומט",
+          "source": {
+            "title": "auto.co.il — קיה קארנס החדש יוצא לדרך בישראל",
+            "url": "https://www.auto.co.il/articles/car-news/113969/"
+          }
+        }
+      }
     }
   }
 }

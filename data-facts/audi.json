@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "a3": {
       "8V": {
@@ -1379,6 +1379,136 @@
           "stars": 5,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/stellar-safety-ratings--but-not-for-stellantis/s/815e31e7-3a91-4cdd-965c-8ab2841e72ea"
+        }
+      }
+    },
+    "a1": {
+      "8X": {
+        "issues": [
+          {
+            "he": "בבדיקות TÜV נמצאו דיסקי בלם חלודים כבר מהבדיקה השנייה, והבלמים נשחקים מוקדם. לבדוק את מצב הדיסקים והרפידות ולקחת בחשבון החלפה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "t-online — Gebrauchtwagen-Check: Der Audi A1 zeigt wenig Mängel im Alter (TÜV-Report)",
+              "url": "https://www.t-online.de/auto/technik/id_92075298/gebrauchtwagen-check-der-audi-a1-zeigt-wenig-maengel-im-alter.html"
+            }
+          },
+          {
+            "he": "מהבדיקה הרביעית הבודקים מוצאים לעתים קרובות דליפת שמן, ומהשלישית מעל הממוצע תקלות במערכת הפליטה. לבדוק מתחת למנוע ולאורך האגזוז.",
+            "level": "widely_reported",
+            "scope": "רכבים מגיל ~7 ומעלה",
+            "source": {
+              "title": "t-online — Gebrauchtwagen-Check: Der Audi A1 zeigt wenig Mängel im Alter (TÜV-Report)",
+              "url": "https://www.t-online.de/auto/technik/id_92075298/gebrauchtwagen-check-der-audi-a1-zeigt-wenig-maengel-im-alter.html"
+            }
+          },
+          {
+            "he": "בתיבת S tronic (DSG) מדווחות יציאות מקום מקוטעות. לבדוק בנסיעת מבחן עם עצירות והתחלות, ולוודא שאין טלטולים או נורת תיבה.",
+            "level": "widely_reported",
+            "scope": "S tronic",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo Audi A1 (2010–2018) Diesel",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0225-audi-a1-2010-2018-diesel-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאה להחלפת כריות אוויר או מותחני חגורות שהמצתים שלהם לא מולאו כראוי ועלולים לא לפעול בתאונה. לוודא מול היבואן לפי מספר שלדה שההחלפה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה 03/2017",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo Audi A1 (2010–2018) Diesel (Rückruf 3/2017)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0225-audi-a1-2010-2018-diesel-bericht.pdf"
+            }
+          },
+          {
+            "he": "בדיזל 1.6 TDI מסנן החלקיקים (DPF) נסתם בנסיעות עירוניות קצרות, ומפלס השמן עלול לעלות מדילול בסולר. לבדוק את מפלס השמן ושאין נורת DPF. בנוסף נדרש עדכון תוכנה לפליטות (23Q7).",
+            "level": "widely_reported",
+            "scope": "1.6 TDI",
+            "source": {
+              "title": "What Car? — Used Audi A1 2010–2018 reliability",
+              "url": "https://www.whatcar.com/audi/a1/hatchback/used-review/n223/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TFSI בנזין 122 כ״ס",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autokatalog — Audi A1 1.4 TFSI Ambition 90 kW, manual (ADAC EcoTest measured, Autotest Oct 2010; not owner data)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a1/8x/222372/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://cdn.euroncap.com/media/7097/euroncap_audi_a1_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 145000,
+          "year": 2010,
+          "note": "1.4 TFSI 122 כ״ס S tronic, גרסת בסיס (Style ב-167,000 ₪)",
+          "source": {
+            "title": "auto.co.il — אודי A1 הגיעה לישראל (10.10.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/117927/"
+          }
+        }
+      },
+      "GB": {
+        "issues": [
+          {
+            "he": "בחלק מהרכבים הותקנו מזרקי דלק עם סטיות ייצור. דלק נכנס לתא הבעירה בחניה, והמנוע עלול לעבוד לא חלק בהתנעה הבאה. לוודא מול היבואן לפי מספר שלדה שהמזרקים הוחלפו.",
+            "level": "recall",
+            "scope": "שנות דגם 2018–2020",
+            "source": {
+              "title": "ÖAMTC Rückrufaktionen — Audi: Einspritzventile müssen ersetzt werden (Stand 14.08.2020)",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/audi-einspritzventile-muessen-ersetzt-werden-39433717/print"
+            }
+          },
+          {
+            "he": "תקלה במערכת ניטור חגורות הבטיחות: ייתכן שלא תופיע התראה כשנוסע לא חגור. לוודא מול היבואן שהתיקון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 2021–2022 (Australia REC-005551)",
+            "source": {
+              "title": "CarExpert — Audi A1 recalled (Nov 2022)",
+              "url": "https://www.carexpert.com.au/car-news/audi-a1-recalled"
+            }
+          },
+          {
+            "he": "בתיבת S tronic מדווחות יציאות מקום מקוטעות מצומת. לבדוק בנסיעת מבחן עירונית. בסקר האמינות של What Car? הדגם דורג 14 מתוך 19.",
+            "level": "widely_reported",
+            "scope": "S tronic",
+            "source": {
+              "title": "What Car? — Used Audi A1 2018–present reliability",
+              "url": "https://www.whatcar.com/audi/a1/hatchback/used-review/n19880/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 TFSI בנזין 116 כ״ס (30 TFSI)",
+            "pt": "petrol",
+            "hp": 116,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC — Audi A1 Sportback 30 TFSI advanced S tronic (ADAC EcoTest measured; not owner data)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/audi-a1/"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 149000,
+          "year": 2019,
+          "note": "30 TFSI 1.0 116 כ״ס (35 TFSI 1.5 150 כ״ס מ-169,500 ₪)",
+          "source": {
+            "title": "auto.co.il — אודי A1 בישראל: מ-149 אלף שקל (20.02.2019)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/131756/"
+          }
         }
       }
     }

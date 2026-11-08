@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -1254,6 +1254,90 @@
           "year": 2006,
           "url": "https://www.fleetnews.co.uk/news/2006/12/22/auris-score-highly-in-crash-tests---two-other-vehicles-appalling-/23651/",
           "note": "5 כוכבים (Euro NCAP, 2006); מקור: Fleet News המצטט את Euro NCAP"
+        }
+      }
+    },
+    "citigo": {
+      "Citigo": {
+        "issues": [
+          {
+            "he": "קריאת שירות לכריות אוויר Takata (קוד 69DU) ברכבים שיוצרו 1.6.2012–15.12.2017 – המנפח עלול להתפוצץ ולפזר רסיסים. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 1.6.2012–15.12.2017",
+            "source": {
+              "title": "car-recalls.eu — Skoda Citigo (2012–2017) airbag Takata, recall code 69DU / Rapex A12/00787/23",
+              "url": "https://car-recalls.eu/recall/skoda-citigo-2012-2017-airbag-takata/"
+            }
+          },
+          {
+            "he": "קריאת שירות לגג פנורמי ברכבים שיוצרו במרץ–אפריל 2016 – הגג עלול להתנתק. אם יש גג פנורמי, לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "גג פנורמי, ייצור 3–4/2016",
+            "source": {
+              "title": "Auto Express — Used Skoda Citigo Mk1 (2012-2019) problems & recalls",
+              "url": "https://www.autoexpress.co.uk/skoda/citigo/20606/used-skoda-citigo-mk1-2012-2019-review-problems-recalls"
+            }
+          },
+          {
+            "he": "קריאת שירות (יולי 2016) לנעילת ילדים בדלתות האחוריות בגרסת 5 דלתות. לבדוק שנעילת הילדים פועלת ושהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "5 דלתות",
+            "source": {
+              "title": "Auto Express — Used Skoda Citigo Mk1 (2012-2019) problems & recalls",
+              "url": "https://www.autoexpress.co.uk/skoda/citigo/20606/used-skoda-citigo-mk1-2012-2019-review-problems-recalls"
+            }
+          },
+          {
+            "he": "קריאת שירות (דצמבר 2017) לוו גרירה שעלול להישבר בשימוש. לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used Skoda Citigo Mk1 (2012-2019) problems & recalls",
+              "url": "https://www.autoexpress.co.uk/skoda/citigo/20606/used-skoda-citigo-mk1-2012-2019-review-problems-recalls"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 60 כ״ס",
+            "pt": "petrol",
+            "hp": 60,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Skoda Citigo fuel consumption (user reports, 2012 1.0 60 hp manual; sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Skoda-Citigo"
+            }
+          },
+          {
+            "name": "1.0 בנזין 75 כ״ס",
+            "pt": "petrol",
+            "hp": 75,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Skoda Citigo fuel consumption (user reports, 2012 1.0 75 hp manual; sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Skoda-Citigo"
+            }
+          },
+          {
+            "name": "Citigo-e iV חשמלי (32.3 קוט״ש נטו)",
+            "pt": "ev",
+            "cons": 16.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Škoda CITIGOe iV (32.3 kWh usable / 125 mi real range ≈ 161 Wh/km)",
+              "url": "https://ev-database.org/uk/car/1190/Skoda-CITIGOe-iV"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 59990,
+          "year": 2012,
+          "note": "1.0 60 כ״ס ידנית (אוטומטית 67,990)",
+          "source": {
+            "title": "וואלה! רכב — השקת סקודה סיטיגו בישראל (21.10.2012)",
+            "url": "https://cars.walla.co.il/item/2577677"
+          }
         }
       }
     }

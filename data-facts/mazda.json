@@ -984,6 +984,72 @@
           }
         ]
       }
+    },
+    "cx-7": {
+      "ER": {
+        "issues": [
+          {
+            "he": "מנוע 2.3 טורבו: כשל מגדש טורבו ודליפות שמן באזור הטורבו (אטמים) נפוצים. לבדוק סימני שמן סביב הטורבו, עשן מהמפלט וחוסר כוח בנסיעת מבחן, ולדרוש בדיקה במוסך מומחה לפני קנייה.",
+            "level": "widely_reported",
+            "scope": "2.3 DISI טורבו",
+            "source": {
+              "title": "CarsGuide — Mazda CX-7 used review: 2009-2012",
+              "url": "https://www.carsguide.com.au/car-reviews/mazda-cx-7-used-review-2009-2012-30822"
+            }
+          },
+          {
+            "he": "רעש בשרשרת התזמון ותקלות בחיישן/מערכת תזמון השסתומים המשתנה (VVT) מדווחים לעיתים קרובות. להקשיב לרעש שקשוק בהנעה קרה ולוודא היסטוריית החלפות שמן סדירות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarsGuide — Mazda CX-7 used review: 2009-2012",
+              "url": "https://www.carsguide.com.au/car-reviews/mazda-cx-7-used-review-2009-2012-30822"
+            }
+          },
+          {
+            "he": "קריאת שירות: מים עלולים לחדור למפרק הכדורי של זרוע המתלה הקדמית התחתונה, לגרום לקורוזיה ובמקרה קיצוני להיפרדות הזרוע. לבדוק רעש נקישות מהמתלה הקדמי ולוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "CX-7 2007–2012 שיוצרו 14.2.2006–9.5.2012 (קריאה בארה״ב, אזורי מלח כבישים)",
+            "source": {
+              "title": "NHTSA — Recall 16V593 (Mazda CX-7 front lower control arm ball joint)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2016/RCMN-16V593-7271.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בנזין 161 כ״ס",
+            "pt": "petrol",
+            "hp": 161,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "TrueDelta — Mazda CX-7 2011 real-world MPG, 2.5L FWD automatic: 23.5 mpg (US owners, sample size not stated)",
+              "url": "https://www.truedelta.com/Mazda-CX-7/mpg-174/2011"
+            }
+          },
+          {
+            "name": "2.3 טורבו בנזין 260 כ״ס",
+            "pt": "petrol",
+            "hp": 260,
+            "cons": 11.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Mazda CX-7 fuel consumption: 2009 2.3 260 Hp MT 4x4 (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/mazda-cx-7"
+            }
+          },
+          {
+            "name": "2.2 טורבו דיזל",
+            "pt": "diesel",
+            "cons": 8.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Mazda CX-7 fuel consumption: 2009 2.2 TD MT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/mazda-cx-7"
+            }
+          }
+        ]
+      }
     }
   }
 }

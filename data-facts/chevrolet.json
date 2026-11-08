@@ -1,6 +1,6 @@
 {
   "make": "chevrolet",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "spark": {
       "M300": {
@@ -767,6 +767,64 @@
             "title": "icar – מול פורד ריינג'ר ראפטור: שברולט מנחיתה בישראל טנדר אקשן",
             "url": "https://icar.co.il/news/ryncbgoh0"
           }
+        }
+      }
+    },
+    "orlando": {
+      "J309": {
+        "issues": [
+          {
+            "he": "קריאת שירות: אובדן סיוע בהגה הכוח עקב קורוזיה. לבדוק בנסיעה שההגה לא 'נתקע' או מרגיש מדורג, ולוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "autoTRADER.ca — Used Vehicle Review: Chevrolet Orlando, 2012-2014 (power steering assist recall)",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/chevrolet/orlando/used-vehicle-review-chevrolet-orlando-2012-2014/"
+            }
+          },
+          {
+            "he": "קריאות שירות: גל ההנעה הימני עלול להישבר. לוודא ביצוע הקריאה ולשמוע נקישות בפניות.",
+            "level": "recall",
+            "scope": "ייצור 12/2012–11/2013",
+            "source": {
+              "title": "car-recalls.eu — Chevrolet Orlando common problems / recalls (drive shaft may fracture/fail)",
+              "url": "https://car-recalls.eu/common-problems/chevrolet/Orlando"
+            }
+          },
+          {
+            "he": "קריאת שירות: דליפת נוזל בלמים שעלולה להאריך מרחק בלימה. לוודא ביצוע הקריאה ולבדוק מפלס נוזל ודליפות.",
+            "level": "recall",
+            "scope": "ייצור 10/2010–05/2011",
+            "source": {
+              "title": "car-recalls.eu — Chevrolet Orlando common problems / recalls (brake fluid may leak)",
+              "url": "https://car-recalls.eu/common-problems/chevrolet/Orlando"
+            }
+          },
+          {
+            "he": "תקלות בחיישני גל זיזים/גל ארכובה עלולות לגרום לאובדן כוח וכיבוי מנוע; תיבה אוטומטית עלולה להחליף בגסות (לעתים נדרש עדכון תוכנה). לסרוק קודי תקלה ולבדוק העברות בנסיעה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "autoTRADER.ca — Used Vehicle Review: Chevrolet Orlando, 2012-2014 (sensors, transmission)",
+              "url": "https://www.autotrader.ca/editorial/expert-reviews/chevrolet/orlando/used-vehicle-review-chevrolet-orlando-2012-2014/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין 140 כ״ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Chevrolet Orlando 1.4T 103 kW/140 PS (2012–2014), user-reported average (89 reports); Spritmonitor unreachable",
+              "url": "https://www.autokostencheck.de/Chevrolet/Chevrolet-Orlando/Orlando/chevrolet-orlando-1-4t-kl1y_37611/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6488/euroncap_chevrolet_orlando_2011_5stars.pdf"
         }
       }
     }

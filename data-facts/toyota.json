@@ -1833,6 +1833,198 @@
           }
         ]
       }
+    },
+    "aygo": {
+      "AB10": {
+        "issues": [
+          {
+            "he": "קריאת שירות (נובמבר 2018) לזכוכית הדלת האחורית – כמעט כל דור ראשון נכלל. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דור ראשון 2005–2014",
+            "source": {
+              "title": "Auto Express — Used Toyota Aygo review (Mk1 recalls)",
+              "url": "https://www.autoexpress.co.uk/toyota/aygo/60466/used-toyota-aygo-review/page/0/1"
+            }
+          },
+          {
+            "he": "קריאת שירות (ינואר 2015) לבולמי זעזועים קדמיים פגומים. לבדוק לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "Auto Express — Used Toyota Aygo review (Mk1 recalls)",
+              "url": "https://www.autoexpress.co.uk/toyota/aygo/60466/used-toyota-aygo-review/page/0/1"
+            }
+          },
+          {
+            "he": "משאבת מים עלולה לדלוף או להיכשל. לחפש סימני דליפת נוזל קירור ולבדוק מפלס נוזל.",
+            "level": "widely_reported",
+            "scope": "1.0 בנזין",
+            "source": {
+              "title": "Auto Express — Used Toyota Aygo review",
+              "url": "https://www.autoexpress.co.uk/toyota/aygo/60466/used-toyota-aygo-review/page/0/1"
+            }
+          },
+          {
+            "he": "צילינדרים של בלמי התוף האחוריים עלולים לדלוף אחרי שנתיים-שלוש. לבדוק סימני נוזל בלמים בגלגלים האחוריים ומפלס נוזל בלמים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Toyota Aygo review",
+              "url": "https://www.autoexpress.co.uk/toyota/aygo/60466/used-toyota-aygo-review/page/0/1"
+            }
+          },
+          {
+            "he": "חדירת מי גשם לתא המטען דרך אטמי הדלת האחורית והפנסים. לבדוק רטיבות וחלודה מתחת לשטיח תא המטען.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Toyota Aygo review",
+              "url": "https://www.autoexpress.co.uk/toyota/aygo/60466/used-toyota-aygo-review/page/0/1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 68 כ״ס",
+            "pt": "petrol",
+            "hp": 68,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Toyota Aygo fuel consumption (user reports, 2009/2012 facelift 1.0 manual; sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Toyota-Aygo"
+            }
+          }
+        ]
+      },
+      "AB40": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רכיב בעמוד ההגה עלול להיכשל ולגרום לאובדן היגוי (יוצרו 9.9.2014–15.10.2014). לוודא מול היבואן לפי מספר שלדה שעמוד ההגה הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 9.9.2014–15.10.2014",
+            "source": {
+              "title": "What Car? — Used Toyota Aygo 2014-2021 reliability review",
+              "url": "https://www.whatcar.com/toyota/aygo/hatchback/used-review/n853/reliability"
+            }
+          },
+          {
+            "he": "קריאת שירות: חור זעיר במיכל הדלק מפגם ייצור (מספר קטן של רכבים שיוצרו ב-23.2.2015 וב-30.6.2016). לבדוק ריח דלק ולוודא לפי מספר שלדה שהמיכל הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 23.2.2015 ו-30.6.2016",
+            "source": {
+              "title": "What Car? — Used Toyota Aygo 2014-2021 reliability review",
+              "url": "https://www.whatcar.com/toyota/aygo/hatchback/used-review/n853/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 69 כ״ס",
+            "pt": "petrol",
+            "hp": 69,
+            "cons": 5.3,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Toyota Aygo fuel consumption (user reports, 2014 1.0 VVT-i manual; sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Toyota-Aygo"
+            }
+          },
+          {
+            "name": "1.0 בנזין 72 כ״ס",
+            "pt": "petrol",
+            "hp": 72,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Toyota Aygo fuel consumption (user reports, 2018 1.0 VVT-i manual; sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Toyota-Aygo"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://cdn.euroncap.com/media/4883/euroncap_toyota_aygo_2014_4stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 64900,
+          "year": 2016,
+          "note": "אייגו 1.0 ידנית",
+          "source": {
+            "title": "icar — טויוטה אייגו החדשה בישראל: מ-64,900 שקל (06.01.16)",
+            "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_אייגו_החדשה_בישראל:_מ-64,900_שקל/"
+          }
+        }
+      }
+    },
+    "gt86": {
+      "ZN6": {
+        "issues": [
+          {
+            "he": "קריאת שירות (אפריל 2019): קפיצי שסתומים פגומים עלולים לגרום לנזק למנוע ברכבים שיוצרו 4/2012–5/2013. לוודא מול היבואן לפי מספר שלדה שהוחלפו קפיצים מחוזקים.",
+            "level": "recall",
+            "scope": "ייצור 4/2012–5/2013",
+            "source": {
+              "title": "Auto Express — Used Toyota GT86 review (recalls)",
+              "url": "https://autoexpress.co.uk/toyota/gt-86/108815/used-toyota-gt86-review"
+            }
+          },
+          {
+            "he": "קריאת שירות (אוקטובר 2016): אובדן אפשרי של סיוע ההגה הכוח; התיקון הוא החלפת צמת חיווט. לבדוק לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 4/2012–3/2015",
+            "source": {
+              "title": "Auto Express — Used Toyota GT86 review (recalls)",
+              "url": "https://autoexpress.co.uk/toyota/gt-86/108815/used-toyota-gt86-review"
+            }
+          },
+          {
+            "he": "תיבה ידנית: שילוב להילוך שני קשה, בעיקר כשהשמן קר. לבדוק בנסיעת מבחן עם מנוע קר ושוב כשהוא חם.",
+            "level": "widely_reported",
+            "scope": "ידנית",
+            "source": {
+              "title": "Auto Express — Used Toyota GT86 review",
+              "url": "https://autoexpress.co.uk/toyota/gt-86/108815/used-toyota-gt86-review"
+            }
+          },
+          {
+            "he": "מצבר מתרוקן בגלל חיווט שגוי של חימום המושבים. לשאול את המוכר אם הנושא נבדק ותוקן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Toyota GT86 review",
+              "url": "https://autoexpress.co.uk/toyota/gt-86/108815/used-toyota-gt86-review"
+            }
+          },
+          {
+            "he": "תומכי הצד של המושבים נשחקים מהר (לעתים תוך פחות מ-30 אלף ק״מ), וחריקת בלמים נפוצה. לבדוק את המושבים ולהקשיב לבלמים בנסיעת מבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Toyota GT86 review",
+              "url": "https://autoexpress.co.uk/toyota/gt-86/108815/used-toyota-gt86-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בוקסר בנזין 200 כ״ס",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 10,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Toyota 86 MPG, model years 2012–2014 (25 vehicles, ~23.6 US mpg avg, converted)",
+              "url": "https://www.fuelly.com/car/toyota/86"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 229000,
+          "year": 2012,
+          "note": "ידנית (אוטומטית 239,000)",
+          "source": {
+            "title": "icar — טויוטה GT86 בישראל: החל מ-229,000 שקל (14.06.12)",
+            "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_GT86_בישראל:_החל_מ-229,000_שקל/"
+          }
+        }
+      }
     }
   }
 }

@@ -1445,6 +1445,321 @@
           }
         }
       }
+    },
+    "touran": {
+      "1T": {
+        "issues": [
+          {
+            "he": "התארכות שרשרת התזמון במנועי TSI (1.2/1.4) עלולה לגרור תיקון יקר. לבקש הוכחה שהשרשרת הוחלפה, ולהקשיב לרעשי נקישה בהתנעה קרה.",
+            "level": "widely_reported",
+            "scope": "1.2 TSI / 1.4 TSI",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (2003–2015) Benziner",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0098-vw-touran-2003-2015-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאת שירות לעדכון תוכנה במחשב המנוע של ה-1.4 TSI בגלל גמגומים וחוסר תגובה בנסיעה. לוודא מול היבואן לפי מספר שלדה שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "1.4 TSI (קוד מנוע CAVD), קריאה 11/2010",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (2003–2015) Benziner (Rückruf 11/2010)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0098-vw-touran-2003-2015-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאת בטיחות במנועי הדיזל: קפיץ במתג המגנטי של המתנע עלול להישבר ולגרום לזרם קבוע ולסכנת שריפה. לוודא מול היבואן שהמתג הוחלף.",
+            "level": "recall",
+            "scope": "1.6 TDI / 2.0 TDI, קריאה 02/2018",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (2003–2015) Diesel (Rückruf 02/2018)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0438-vw-touran-2003-2015-diesel-bericht.pdf"
+            }
+          },
+          {
+            "he": "בדיזל common rail דווחו תקלות במערכת ה-EGR ובמזרקים. לבדוק אם יש עשן, גמגום או נורת מנוע, ולבקש היסטוריית טיפולים. בנוסף נדרש עדכון תוכנה חובה לפליטות.",
+            "level": "widely_reported",
+            "scope": "1.6/2.0 TDI, 2010–2014",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (2003–2015) Diesel",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0438-vw-touran-2003-2015-diesel-bericht.pdf"
+            }
+          },
+          {
+            "he": "דליפות שמן ובלאי מוקדם של בלמים בדגמים המאוחרים, וחלודה בדלת תא המטען ובכנפיים. לבדוק מתחת לרכב, את הדיסקים ואת שולי הדלת האחורית.",
+            "level": "widely_reported",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (2003–2015) Benziner",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0098-vw-touran-2003-2015-benziner-bericht.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 TDI דיזל 105 כ״ס",
+            "pt": "diesel",
+            "hp": 105,
+            "cons": 4.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest — VW Touran 1.6 TDI BlueMotion Technology Comfortline, manual (EcoTest measured, Sep 2010; not owner data)",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT4449_VW_Touran_1_6_TDI_BlueMotion_Technology_Comfortline_DPF/VW_Touran_1_6_TDI_BlueMotion_Technology_Comfortline_DPF.pdf"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 170000,
+          "year": 2010,
+          "note": "Trendline 1.6 TDI 105 כ״ס DSG (גרסת 1.4 TSI 140 כ״ס DSG ב-190,000 ₪)",
+          "source": {
+            "title": "auto.co.il — החל שיווק פולקסווגן טוראן המחודש (21.10.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/117869/"
+          }
+        }
+      },
+      "5T": {
+        "issues": [
+          {
+            "he": "קריאת שירות לעדכון תוכנה ביחידת הבקרה החשמלית: תקלה בפנס או באיתות עלולה לא להיות מוצגת לנהג. לוודא מול היבואן לפי מספר שלדה שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 6/2015–11/2016, קריאה 02/2017",
+            "source": {
+              "title": "What Car? — Used Volkswagen Touran 2015–present reliability (recalls)",
+              "url": "https://www.whatcar.com/volkswagen/touran/mpv/used-review/n806/advice"
+            }
+          },
+          {
+            "he": "קריאה להחלפת כריות אוויר או מותחני חגורות (ספק Autoliv) בגלל תערובת הצתה פגומה שעלולה לא לפעול בתאונה. לוודא מול היבואן שההחלפה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה 03/2017",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (ab 2015) Benziner (Rückruf 3/2017)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0372-vw-touran-ab-2015-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "בגג פנורמי עם תאורת אווירה, חדירת מים למודול ה-LED עלולה לגרום לקצר ואף לשריפה. לוודא שהותקנו כבלי מתאם עם נתיך במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "גג פנורמי עם תאורת אווירה, קריאה 09/2018",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (ab 2015) Benziner (Rückruf 9/2018)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0372-vw-touran-ab-2015-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "בחלק מהרכבים מוט משענת הראש עלול לא להינעל ולהשתחרר בתאונה. לוודא מול היבואן שתותבי ההנחיה הוחלפו.",
+            "level": "recall",
+            "scope": "קריאה 05/2018",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Touran (ab 2015) Benziner (Rückruf 5/2018)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0372-vw-touran-ab-2015-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "בתיבת DSG מדווחים זינוקים לא חלקים ורעידות, במיוחד בהאטה. לבדוק בנסיעת מבחן עירונית עם עצירות והתחלות, ולוודא שלא נדלקת נורת תיבה.",
+            "level": "widely_reported",
+            "scope": "DSG",
+            "source": {
+              "title": "What Car? — Used Volkswagen Touran 2015–present reliability",
+              "url": "https://www.whatcar.com/volkswagen/touran/mpv/used-review/n806/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest — VW Touran 1.4 TSI BMT Comfortline, 6-speed manual (EcoTest measured, May 2016; not owner data)",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5450_VW_Touran_1_4_TSI_BMT_Comfortline/VW_Touran_1_4_TSI_BMT_Comfortline.pdf"
+            }
+          },
+          {
+            "name": "2.0 TDI דיזל 150 כ״ס",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 5.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest — VW Touran 2.0 TDI SCR BMT Highline, 6-speed manual (EcoTest measured, Nov 2015; not owner data)",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5366_VW_Touran_2_0_TDI_SCR_BMT_Highline/VW_Touran_2_0_TDI_SCR_BMT_Highline.pdf"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show"
+        }
+      }
+    },
+    "scirocco": {
+      "Mk3": {
+        "issues": [
+          {
+            "he": "במנוע 1.4 TSI (122/160 כ״ס, עד 2014) שרשרת התזמון מתארכת ולעתים קרובות צריך להחליף אותה, וזה יקר. לבקש הוכחה להחלפה ולהקשיב לנקישות בהתנעה קרה.",
+            "level": "widely_reported",
+            "scope": "1.4 TSI 122/160 כ״ס, 2008–2014",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Scirocco III (2008–2017) Benziner",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0446-vw-scirocco-iii-2008-2017-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאת שירות לעדכון תוכנה במחשב המנוע של ה-1.4 TSI בגלל גמגומים וחוסר תגובה. לוודא מול היבואן לפי מספר שלדה שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "1.4 TSI (CAVD, 160 כ״ס), קריאה 11/2010",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Scirocco III (Rückruf 11/2010)",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0446-vw-scirocco-iii-2008-2017-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "ביחידת המכטרוניקה של תיבות DSG מוקדמות ידועות תקלות. לבדוק בנסיעת מבחן שאין טלטולים, החלקה או נורת תיבה, ולבקש היסטוריית תיקונים בתיבה.",
+            "level": "widely_reported",
+            "scope": "DSG, שנים מוקדמות",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Scirocco III (2008–2017) Benziner",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0446-vw-scirocco-iii-2008-2017-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאה לעדכון תוכנה ביחידת ה-ABS: עומס תרמי עלול לנתק את ההארקה ולהשבית את ה-ABS/ESP. לוודא מול היבואן שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "קריאה 07/2017",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Scirocco III (Rückruf 7/2017)",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0446-vw-scirocco-iii-2008-2017-benziner-bericht.pdf"
+            }
+          },
+          {
+            "he": "בגרסאות המוקדמות של ה-2.0 TSI יש נטייה לצריכת שמן. לבדוק את מפלס השמן ולשאול כמה שמן מוסיפים בין טיפולים.",
+            "level": "widely_reported",
+            "scope": "2.0 TSI מוקדם (180–220 כ״ס)",
+            "source": {
+              "title": "ADAC — Gebrauchtwageninfo VW Scirocco III (2008–2017) Benziner",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/GWInfo/gw0446-vw-scirocco-iii-2008-2017-benziner-bericht.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TSI בנזין 122 כ״ס",
+            "pt": "petrol",
+            "hp": 122,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autokatalog — VW Scirocco 1.4 TSI BMT 90 kW, manual (ADAC EcoTest measured, Autotest Jun 2010; not owner data)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/scirocco/iii/220736/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://cdn.euroncap.com/media/7622/euroncap_vw_scirocco_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 164990,
+          "year": 2008,
+          "note": "1.4 TSI 160 כ״ס ידני (DSG ב-179,990 ₪)",
+          "source": {
+            "title": "וואלה! רכב — הדור השישי לגולף והשירוקו החדשה הושקו בישראל (14.12.2008)",
+            "url": "https://cars.walla.co.il/item/1397309"
+          }
+        }
+      }
+    },
+    "up": {
+      "up!": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית האוויר ו/או מותחן חגורת הבטיחות עלולים לא להיפעל בתאונה. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 05/2016–10/2016",
+            "source": {
+              "title": "car-recalls.eu — VW Up common problems / recalls (Airbag/belt tensioners may not trigger)",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/Up/"
+            }
+          },
+          {
+            "he": "קריאת שירות: הפאנל הקדמי של גג הפנורמה עלול להיות מודבק לא כראוי (רעשים, ועלול להשתחרר בנסיעה). בדגמים עם גג פנורמי לוודא ביצוע הקריאה ולהקשיב לרעשים מהגג.",
+            "level": "recall",
+            "scope": "ייצור 02/2016–04/2016, עם גג פנורמי",
+            "source": {
+              "title": "car-recalls.eu — VW Up common problems / recalls (Panoramic sunroof may detach)",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/Up/"
+            }
+          },
+          {
+            "he": "קריאת שירות: יחידת בקרת כריות אוויר עם פרמטרים שגויים — אבחון חיישני הצד מנוטרל ונורית התקלה עלולה לא להידלק. לוודא מול היבואן שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 14/01/2013–19/03/2013",
+            "source": {
+              "title": "car-recalls.eu — VW Up common problems / recalls (Side airbag diagnostic function disabled)",
+              "url": "https://car-recalls.eu/common-problems/volkswagen/Up/"
+            }
+          },
+          {
+            "he": "קריאת שירות: נעילת הילדים בדלתות עלולה להשתחרר בלי ידיעת הנהג. לבדוק שנעילת הילדים מחזיקה ולוודא ביצוע הקריאה אצל היבואן.",
+            "level": "recall",
+            "source": {
+              "title": "What Car? — Used Volkswagen Up 2012-2023 reliability (recalls: child locks)",
+              "url": "https://www.whatcar.com/bmw/x5/estate/used-review/n794/reliability"
+            }
+          },
+          {
+            "he": "תיבה רובוטית (ASG): העברות איטיות ומקרטעות. בנסיעת מבחן לבדוק התנהגות התיבה בעלייה ובפקקים; בידנית לבדוק שהמצמד לא מחליק (שימוש עירוני כבד).",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volkswagen Up 2012-2023 reliability (automated manual gearbox, clutch)",
+              "url": "https://www.whatcar.com/bmw/x5/estate/used-review/n794/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 TSI בנזין 90 כ״ס",
+            "pt": "petrol",
+            "hp": 90,
+            "cons": 5.7,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — VW up! 1.0 TSI 90 PS (2016–2020), user-reported average (1,211 reports)",
+              "url": "https://www.autokostencheck.de/VW/VW-UP/UP/up!-1-0-aa_44959/verbrauch/"
+            }
+          },
+          {
+            "name": "e-up! חשמלי 83 כ״ס (32.3 קוט״ש)",
+            "pt": "ev",
+            "hp": 83,
+            "cons": 15.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volkswagen e-Up (32.3 kWh, 2019–2021), real-world 158 Wh/km",
+              "url": "https://ev-database.org/car/1189/Volkswagen-e-Up"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6769/euroncap_vw_up_2011_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 69900,
+          "year": 2014,
+          "note": "1.0 75 כ״ס ידנית (רובוטית 79,900)",
+          "source": {
+            "title": "auto.co.il — פולקסווגן אפ! יוצאת לדרך בישראל (17.03.2014)",
+            "url": "https://www.auto.co.il/articles/car-news/113049/"
+          }
+        }
+      }
     }
   }
 }

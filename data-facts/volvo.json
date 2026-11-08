@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "xc60": {
       "Gen1": {
@@ -818,6 +818,115 @@
             }
           }
         ]
+      }
+    },
+    "v40": {
+      "V40": {
+        "issues": [
+          {
+            "he": "קריאת שירות במנועי הדיזל 2.0 (D2/D3/D4): הצטברות פחמן ודליפת שסתום יניקה עלולות להתיך את סעפת היניקה מפלסטיק, לגרום לדום מנוע ולסכנת שריפה. לוודא מול היבואן לפי מספר שלדה שהקריאה בוצעה ולבדוק את הסעפת לסימני חום.",
+            "level": "recall",
+            "scope": "דיזל 2.0 (D4204T…), 2012–2019",
+            "source": {
+              "title": "car-recalls.eu — Volvo V40 (2012–2019): intake manifold may melt (Volvo 29945–29948)",
+              "url": "https://car-recalls.eu/recall/volvo-v40-2012-2019/amp"
+            }
+          },
+          {
+            "he": "קריאות שירות במערכת הקירור: דליפה בין מערכת הקירור לשמן (סכנת שריפה) ולכידת אוויר במערכת הקירור, שתוקנה בהתקנת צינור ניקוז אוויר נוסף. לבדוק שאין ערבוב שמן/נוזל קירור ושהצינור הנוסף מותקן.",
+            "level": "recall",
+            "scope": "2012–2016",
+            "source": {
+              "title": "Haynes — Volvo V40 Mk2 (2012-2019) common problems",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/volvo-v40-mk2-2012-2019-common-problems"
+            }
+          },
+          {
+            "he": "תקלות במנעולי הדלתות, ברכיבי חשמל ובבקרת שיוט אדפטיבית מדווחות על ידי בעלים. לבדוק נעילה של כל הדלתות, לנסות את כל המערכות ולחפש הודעות שגיאה בצג הנהג.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volvo V40 2012-2019 reliability review",
+              "url": "https://www.whatcar.com/volvo/v40/hatchback/used-review/n789/reliability"
+            }
+          },
+          {
+            "he": "ריח עובש ושטיח רטוב בגלל סתימה בצינור ניקוז המזגן. לבדוק לחות מתחת לשטיחים ולנקות/להסיט את צינור הניקוז.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Haynes — Volvo V40 Mk2 (2012-2019) common problems",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/volvo-v40-mk2-2012-2019-common-problems"
+            }
+          },
+          {
+            "he": "מנועי 1.6: מיסופייר, סרק לא יציב וקושי בהתנעה עקב קפיץ שסתום פליטה שבור. לבדוק סרק חלק ולקרוא קודי תקלה (P0300).",
+            "level": "widely_reported",
+            "scope": "1.6 בנזין/דיזל",
+            "source": {
+              "title": "Haynes — Volvo V40 Mk2 (2012-2019) common problems",
+              "url": "https://uk.haynes.com/blogs/tips-tutorials/volvo-v40-mk2-2012-2019-common-problems"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 טורבו בנזין T4 180 כ״ס",
+            "pt": "petrol",
+            "hp": 180,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volvo V40 fuel consumption: 2012 1.6 T4 180 HP AT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/volvo-v40"
+            }
+          },
+          {
+            "name": "1.5 טורבו בנזין T3 152 כ״ס",
+            "pt": "petrol",
+            "hp": 152,
+            "cons": 7.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volvo V40 fuel consumption: 2016 1.5 T3 152 HP AT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/volvo-v40"
+            }
+          },
+          {
+            "name": "2.0 טורבו בנזין T5 245 כ״ס",
+            "pt": "petrol",
+            "hp": 245,
+            "cons": 8.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volvo V40 fuel consumption: 2016 2.0 T5 245 HP AT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/volvo-v40"
+            }
+          },
+          {
+            "name": "2.0 טורבו דיזל D2 120 כ״ס",
+            "pt": "diesel",
+            "hp": 120,
+            "cons": 5.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Volvo V40 fuel consumption: 2016 2.0 D2 120 HP AT (user feedback, sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/volvo-v40"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-releases-new-tests--when-innovation-and-a-world-first-brings-higher-vehicle-safety/s/26c627b4-3d2e-4d22-aa92-8fdaf56ec8ec"
+        },
+        "launchPrice": {
+          "ils": 182900,
+          "year": 2013,
+          "note": "Kinetic, T4 1.6 טורבו 180 כ״ס, תיבה כפולת מצמדים",
+          "source": {
+            "title": "icar — וולוו V40 החדשה בישראל: החל מ-182,900 שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/וולוו_V40_החדשה_בישראל:_החל_מ-182,900_שקל/"
+          }
+        }
       }
     }
   }

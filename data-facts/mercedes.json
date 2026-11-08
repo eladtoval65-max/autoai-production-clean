@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "c-class": {
       "W204": {
@@ -2012,7 +2012,8 @@
           "stars": null,
           "note": "טרם נבדק ב-Euro NCAP (נכון לאוגוסט 2026, לפי The Car Expert)",
           "url": "https://www.thecarexpert.co.uk/mercedes-benz-glc-eq-2026/"
-        }
+        },
+        "issues": []
       }
     }
   }
