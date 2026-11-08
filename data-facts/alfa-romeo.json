@@ -52,7 +52,13 @@
               "url": "https://www.fuelly.com/car/alfa_romeo/stelvio/2018"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2017/07/06/five-star-euro-ncap-safety-rating-awarded-to-alfa-romeo-stelvio-hyundai-i30-vauxhall-insignia-seat-ibiza-and-volkswagen-arteon",
+          "note": "5 כוכבים (Euro NCAP, יולי 2017: 97% הגנת מבוגרים); מקור: Fleet News"
+        }
       }
     },
     "giulia": {
@@ -106,7 +112,13 @@
               "url": "https://www.fuelly.com/car/alfa_romeo/giulia"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://ca.marketscreener.com/quote/stock/STELLANTIS-N-V-117814143/news/Fiat-Alfa-Romeo-Giulia-earns-5-star-Euro-NCAP-rating-22558728/",
+          "note": "5 כוכבים (Euro NCAP, יוני 2016: 98% הגנת מבוגרים); מקור: הודעת FCA דרך MarketScreener"
+        }
       }
     },
     "junior": {
@@ -165,5 +177,5 @@
       }
     }
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-08"
 }

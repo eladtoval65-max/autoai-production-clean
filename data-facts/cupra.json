@@ -1,6 +1,6 @@
 {
   "make": "cupra",
-  "updated": "2026-10-31",
+  "updated": "2026-11-08",
   "models": {
     "formentor": {
       "KM7": {
@@ -78,6 +78,15 @@
           "stars": 5,
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/cupra-formentor---euro-ncap-2021-results---5-stars/s/6ffe2eba-e908-49cf-9e4d-01093ef32c94"
+        },
+        "launchPrice": {
+          "ils": 174900,
+          "year": 2021,
+          "note": "1.5 TSI 150 כ״ס DSG",
+          "source": {
+            "title": "Cartube — קופרה פורמנטור 2021 בישראל: מחיר 174,900 (15.03.2021)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קופרה-פורמנטור-2021-בישראל-מחיר-174900"
+          }
         }
       }
     },

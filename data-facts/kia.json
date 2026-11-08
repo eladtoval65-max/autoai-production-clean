@@ -1744,7 +1744,13 @@
               "url": "https://fuelly.com/car/kia/rondo/all"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2007,
+          "url": "https://www.fleetnews.co.uk/news/2007/5/29/kia-and-nissan-shine-at-crash-tests/24890/",
+          "note": "4 כוכבים להגנת נוסעים מבוגרים (Euro NCAP, מאי 2007; 3 ילדים, 1 הולכי רגל); מקור: Fleet News"
+        }
       },
       "RP": {
         "issues": [

@@ -283,7 +283,13 @@
               "url": "https://www.dev.honestjohn.co.uk/realmpg/lexus/es-2018"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://paultan.org/2018/10/29/lexus-es-mercedes-a-class-hyundai-nexo-mazda-6-score-five-stars-in-latest-euro-ncap-crash-safety-test",
+          "note": "5 כוכבים (Euro NCAP, אוקטובר 2018: 91% מבוגרים, 87% ילדים, 90% הולכי רגל, 77% מערכות בטיחות — לפי גיליון הנתונים https://cdn.euroncap.com/media/85429/euroncap-2018-lexus-es-datasheet.pdf)"
+        }
       },
       "XV40": {
         "issues": [

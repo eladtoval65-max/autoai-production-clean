@@ -27,7 +27,13 @@
               "url": "https://www.autokostencheck.de/Volvo/Volvo-XC60/XC60/xc60-2-0-d4-d_38701/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "url": "https://australiancar.reviews/?p=2034",
+          "note": "5 כוכבים (Euro NCAP, XC60 D5 2008: 36.53/37 מבוגרים); מקור: australiancar.reviews המצטט את Euro NCAP"
+        }
       },
       "Gen2": {
         "issues": [

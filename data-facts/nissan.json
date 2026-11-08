@@ -747,7 +747,16 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/33-Nissan/942-Note.html?fueltype=2&vehicletype=1&constyear_s=2012&constyear_e=2016&power_s=67&power_e=77&gearing=1"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 109900,
+          "year": 2014,
+          "note": "1.2 טורבו 98 כ״ס CVT, Acenta (הגיע לישראל באוקטובר 2014)",
+          "source": {
+            "title": "auto.co.il — ניסאן נוט החדש מושק בישראל (26.10.2014)",
+            "url": "https://www.auto.co.il/articles/car-news/112368/"
+          }
+        }
       },
       "E11": {
         "issues": [
@@ -932,6 +941,15 @@
           "year": 2011,
           "url": "https://news.euroncap.com/safercars/euro-ncap-reveals-results-for-6-new-cars-including-first-5-star-rating-for-a-fully-electric-vehicle/s/ae9a225f-7c97-4cdf-b11a-3d4aa8dd1d10",
           "note": "5 כוכבים — Euro NCAP, מאי 2011 (הרכב החשמלי הראשון שקיבל 5 כוכבים)"
+        },
+        "launchPrice": {
+          "ils": 139900,
+          "year": 2014,
+          "note": "כולל סוללה ועמדת טעינה ביתית; הגיעה לישראל בפברואר 2014 (דגם 2014 המשודרג, טווח מוצהר כ-200 ק״מ)",
+          "source": {
+            "title": "Cartube — ניסאן ליף החשמלית בישראל – מחיר החל מ-139,900 שקל (12.02.2014)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-ליף-החשמלית-בישראל-–-מחיר-החל-מ-139,900-שקל"
+          }
         }
       },
       "Gen3": {

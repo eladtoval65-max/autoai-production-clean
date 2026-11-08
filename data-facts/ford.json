@@ -315,6 +315,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/golf--puma-and-juke-join-the-ranks-of-top-performers--mg-surges-while-opel-zafira-life-tanks/s/dd5a705a-e03b-4d62-990f-d074f400b03f"
+        },
+        "launchPrice": {
+          "ils": 128000,
+          "year": 2021,
+          "note": "1.0 טורבו 125 כ״ס, רמת גימור Titanium",
+          "source": {
+            "title": "auto.co.il — פורד פומה 2021 החדש בישראל – החל מ-128,000 שקלים (11.02.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134272/"
+          }
         }
       }
     },
@@ -697,7 +706,13 @@
               "url": "https://www.spritmonitor.de/en/overview/17-Ford/567-Mustang.html?fueltype=2&vehicletype=1&constyear_s=2017&constyear_e=2021&power_s=326&power_e=336&gearing=2"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://paultan.org/2017/07/06/ford-mustang-gains-3-star-euro-ncap-safety-rating/",
+          "note": "3 כוכבים לדגמי 2018 ואילך (Euro NCAP, יולי 2017 — אחרי שבלימה אוטונומית ושמירת נתיב הפכו לסטנדרט); דגמים מוקדמים יותר קיבלו 2 כוכבים בתחילת 2017"
+        }
       },
       "S197": {
         "issues": [

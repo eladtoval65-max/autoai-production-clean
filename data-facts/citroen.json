@@ -232,6 +232,15 @@
           "year": 2021,
           "url": "https://news.euroncap.com/images-and-videos/citro-n-c4---euro-ncap-2021-results---4-stars/s/eed3f65a-e773-49b0-9bb1-4e88af7f9297",
           "note": "4 כוכבים (Euro NCAP, 2021)"
+        },
+        "launchPrice": {
+          "ils": 138990,
+          "year": 2021,
+          "note": "1.2 טורבו 130 כ״ס, Shine; e-C4 חשמלית מ-164,990 ₪",
+          "source": {
+            "title": "Cartube — סיטרואן C4 החדשה 2021 בישראל: מחיר 138,990 שקל (03.08.2021)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיטרואן-c4-החדשה-2021-בישראל-מחיר-138990-שקל"
+          }
         }
       },
       "Gen2": {
@@ -560,7 +569,13 @@
               "url": "https://www.autokostencheck.de/Citroen/Citroen-Berlingo/Berlingo/berlingo-1-6-hdi-7_35109/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2008,
+          "url": "https://australiancar.reviews/?p=1179",
+          "note": "4 כוכבים להגנת נוסעים מבוגרים (Euro NCAP, מאי 2008; לפי kolesa.ru: 4 מבוגרים, 4 ילדים, 2 הולכי רגל)"
+        }
       },
       "K9": {
         "issues": [
@@ -1017,6 +1032,12 @@
             "title": "auto.co.il – סיטרואן C אליזה יוצאת לדרך בישראל",
             "url": "https://www.auto.co.il/articles/car-news/114477/"
           }
+        },
+        "ncap": {
+          "stars": 3,
+          "year": 2014,
+          "url": "https://cdn.euroncap.com/media/4585/euroncap_citroen_c-elysee_2014_3stars.pdf",
+          "note": "3 כוכבים (Euro NCAP, יוני 2014: 71% מבוגרים, 33% מערכות בטיחות); אומת גם ב-automarket.ro"
         }
       }
     }

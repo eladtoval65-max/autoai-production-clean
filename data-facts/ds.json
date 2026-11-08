@@ -1,6 +1,6 @@
 {
   "make": "ds",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "ds-3": {
       "DS 3 Crossback": {
@@ -269,6 +269,12 @@
             "title": "icar — סיטרואן DS4 בישראל: החל מ-157,990 שקל (10.04.2012)",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F_DS4_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C_-_%D7%94%D7%97%D7%9C_%D7%9E-157,990_%D7%A9%D7%A7%D7%9C"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6527/euroncap_citroen_ds4_2011_5stars.pdf",
+          "note": "5 כוכבים (Euro NCAP 2011: 90% מבוגרים, 80% ילדים, 43% הולכי רגל, 97% מערכות בטיחות)"
         }
       },
       "Gen2": {

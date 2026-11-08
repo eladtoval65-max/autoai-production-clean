@@ -200,6 +200,15 @@
           "year": 2011,
           "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245",
           "note": "5 כוכבים (Euro NCAP, פברואר 2011) — הדירוג פג תוקף, נבדק לפי פרוטוקול 2011"
+        },
+        "launchPrice": {
+          "ils": 132900,
+          "year": 2017,
+          "note": "2.0 CVT, Intense — הדגם הגיע לישראל רק ב-2017 (אחרי מתיחת הפנים השנייה), למרות שהושק בעולם ב-2010",
+          "source": {
+            "title": "icar — מיצובישי ASX בישראל: מ-132,900 שקל (13.11.2017)",
+            "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_ASX_בישראל:_מ-132,900_שקל/"
+          }
         }
       },
       "Gen2": {

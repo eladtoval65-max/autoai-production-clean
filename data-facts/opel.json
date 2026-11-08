@@ -63,6 +63,15 @@
           "stars": 4,
           "year": 2019,
           "url": "https://www.euroncap.com/en/results/opel-vauxhall/corsa/38859"
+        },
+        "launchPrice": {
+          "ils": 105990,
+          "year": 2020,
+          "note": "1.2 טורבו 100 כ״ס אוטומטית, Edition Plus",
+          "source": {
+            "title": "Cartube — אופל קורסה החדשה 2020 בישראל: מחיר 105,990 שקל (13.02.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/אופל-קורסה-החדשה-2020-בישראל-מחיר-105990-שקל"
+          }
         }
       },
       "Corsa D": {
@@ -586,6 +595,15 @@
           "stars": 4,
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/kangoo-and-mokka-return-with-four-stars-in-euro-ncap-safety-tests/s/a348dd31-79fc-4a7b-a6dd-b6b274370d77"
+        },
+        "launchPrice": {
+          "ils": 133000,
+          "year": 2021,
+          "note": "1.2 טורבו 130 כ״ס, Elegance; החשמלית Mokka-e מ-159,000 ₪",
+          "source": {
+            "title": "וואלה רכב — אופל מוקה החדשה בישראל (22.11.2021)",
+            "url": "https://cars.walla.co.il/item/3472667"
+          }
         }
       }
     },

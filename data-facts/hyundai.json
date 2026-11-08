@@ -274,12 +274,13 @@
       "GB": {
         "issues": [
           {
-            "he": "ריקול בנושא צינור ואקום (vacuum hose); לוודא מול היבואן שהקריאה בוצעה ברכב.",
+            "he": "ריקול: צינור הוואקום של מגבר הבלמים עלול להיות מנותב לא נכון ולהיסדק — פגיעה ביעילות הבלימה. לוודא מול היבואן שהקריאה (61DT02) בוצעה ברכב",
             "level": "recall",
             "source": {
               "title": "car-recalls.eu — Hyundai i20 (2015 – 2020) vacuum hose",
               "url": "https://car-recalls.eu/recall/hyundai-i20-2015-2020-vacuum-hose/"
-            }
+            },
+            "scope": "1.0 טורבו בנזין (T-GDI), ייצור 08/2015–09/2020"
           },
           {
             "he": "ריקול: מספר השלדה עלול לא להיות רשום נכון ביחידת ה-eCall (חיוג חירום אוטומטי), כך שבתאונה יישלח מידע שגוי. התיקון — איפוס ועדכון היחידה במוסך מורשה; לוודא ביצוע",
@@ -1304,6 +1305,15 @@
           "stars": null,
           "note": "גרסת החשמל לא נבדקה בנפרד ב-Euro NCAP; קונה בנזין קיבלה 5 כוכבים (2017) — לפי DrivingElectric",
           "url": "https://www.drivingelectric.com/hyundai/kona-electric/80/hyundai-kona-electric-2018-2023-review/reliability"
+        },
+        "launchPrice": {
+          "ils": 143000,
+          "year": 2021,
+          "note": "כ-143,000 ₪ — הגרסה החשמלית הגיעה רשמית לישראל רק ביולי 2021 (134 כ״ס, טווח מוצהר 305 ק״מ)",
+          "source": {
+            "title": "כלכליסט — יונדאי קונה החשמלית ואיוניק 5 בישראל (28.07.2021)",
+            "url": "https://www.calcalist.co.il/local_news/car/article/rjpwmgy1f"
+          }
         }
       },
       "SX2 EV": {

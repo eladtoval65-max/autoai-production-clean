@@ -53,7 +53,13 @@
               "url": "https://www.whatcar.com/bmw/3-series/saloon/used-review/n201/reliability"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2005,
+          "url": "https://australiancar.reviews/?p=1115",
+          "note": "5 כוכבים להגנת נוסעים מבוגרים (Euro NCAP, 320d סדאן — שיטת הדירוג הישנה); מקור: australiancar.reviews המצטט את Euro NCAP"
+        }
       },
       "F30": {
         "engines": [
@@ -400,7 +406,13 @@
               "url": "https://www.autocentrum.pl/spalanie/bmw/seria-1/e81-e87/strona-3/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2004,
+          "url": "https://cdn.euroncap.com/media/10028/euroncap_bmw_1_series_2004_5stars.pdf",
+          "note": "5 כוכבים להגנת נוסעים מבוגרים (Euro NCAP 2004, 116i) — הגנת הולכי רגל חלשה מאוד"
+        }
       },
       "F70": {
         "issues": [

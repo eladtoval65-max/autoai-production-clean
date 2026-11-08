@@ -63,7 +63,13 @@
               "url": "https://www.autokostencheck.de/Mini/Mini/Mini-Cooper/cooper-1-6-ukl-l_34146/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2007,
+          "url": "https://www.goauto.com.au/news/mini/hatch/five-star-super-minis/2007-04-27/25719.html",
+          "note": "5 כוכבים להגנת נוסעים מבוגרים (Euro NCAP, אפריל 2007; 3 ילדים, 2 הולכי רגל); מקור: GoAuto המצטט את Euro NCAP"
+        }
       },
       "F56 / F55": {
         "issues": [

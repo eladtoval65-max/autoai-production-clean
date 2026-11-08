@@ -1137,6 +1137,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://www.euroncap.com/en/results/toyota/prius/11067"
+        },
+        "launchPrice": {
+          "ils": 152000,
+          "year": 2009,
+          "note": "כ-152,000 ₪ בהשקה בישראל (אוגוסט 2009); הכתבה לא מציינת רמת גימור",
+          "source": {
+            "title": "וואלה רכב — טויוטה פריוס דור 3 הושקה בישראל (13.08.2009)",
+            "url": "https://cars.walla.co.il/item/1537374"
+          }
         }
       },
       "XW60": {

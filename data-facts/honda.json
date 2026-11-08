@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "jazz": {
       "GK": {
@@ -33,6 +33,15 @@
           "year": 2015,
           "url": "https://news.euroncap.com/safercars/top-marks-for-audi-and-honda/s/e98903f4-4733-4da1-9584-ce0fe6e79a16",
           "note": "5 כוכבים (Euro NCAP, 2015)"
+        },
+        "launchPrice": {
+          "ils": 89900,
+          "year": 2015,
+          "note": "1.3 ידנית, Trend (אוטומטית מ-102,900 ₪)",
+          "source": {
+            "title": "Cartube — הונדה ג'אז החדשה 2015 בישראל – מחיר החל מ-89,900 שקל (14.10.2015)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/הונדה-ג-אז-החדשה-2015-בישראל-–-מחיר-החל-מ-89900-שקל"
+          }
         }
       },
       "GR": {
@@ -541,7 +550,13 @@
               "url": "https://www.autokostencheck.de/Honda/Honda-CR-V/CR-V/cr-v-2-2-ctdi-re6_34592/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2007,
+          "url": "https://www.sicurauto.it/crash-test/euroncap/news/honda-cr-v-crash-test-euroncap-anno-2007/",
+          "note": "4 כוכבים להגנת נוסעים מבוגרים (Euro NCAP 2007 — ציון המבחן החזיתי לא הגיע למינימום ל-5); מקור: SicurAUTO"
+        }
       },
       "RS (דור 6)": {
         "issues": [

@@ -1021,6 +1021,15 @@
           "year": 2011,
           "url": "https://cdn.euroncap.com/media/6761/euroncap_vw_jetta_2011_5stars.pdf",
           "note": "דף הנתונים של Euro NCAP, 2011"
+        },
+        "launchPrice": {
+          "ils": 138900,
+          "year": 2011,
+          "note": "1.4 TSI 122 כ״ס DSG, Trendline",
+          "source": {
+            "title": "Cartube — פולקסווגן ג'טה החדשה בישראל – החל מ-138,900 שקל (09.10.2011)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פולקסווגן-ג-טה-החדשה-בישראל-–-החל-מ-138,900-שקל"
+          }
         }
       }
     },

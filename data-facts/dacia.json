@@ -1,6 +1,6 @@
 {
   "make": "dacia",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "duster": {
       "Gen2": {
@@ -508,7 +508,13 @@
               "url": "https://www.autozeitung.de/dacia-logan-mcv-gebraucht-baujahr-2007-2013-185189.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2005,
+          "url": "https://www.motonews.pl/dacia/news-789-logan-zdobyl-3-gwiazdki-w-testach-euroncap.html",
+          "note": "3 כוכבים (Euro NCAP, יוני 2005; 3 כוכבים גם להגנת ילדים); מקור: motonews.pl המצטט את Euro NCAP"
+        }
       },
       "Logan II": {
         "issues": [
@@ -554,7 +560,13 @@
               "url": "https://www.autokostencheck.de/Dacia/Dacia-Logan/Logan/dacia-logan-1-5-d-sr_46064/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2014,
+          "url": "https://www.vibilagare.se/nyheter/tre-stjarnor-dacia-i-euroncap",
+          "note": "3 כוכבים (Euro NCAP, דצמבר 2014); מקור: Vi Bilägare המצטט את Euro NCAP"
+        }
       },
       "Logan III": {
         "issues": [

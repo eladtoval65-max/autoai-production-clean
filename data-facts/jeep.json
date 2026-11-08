@@ -1,6 +1,6 @@
 {
   "make": "jeep",
-  "updated": "2026-11-01",
+  "updated": "2026-11-08",
   "models": {
     "compass": {
       "Gen2": {
@@ -244,7 +244,13 @@
               "url": "https://www.autokostencheck.de/JEEP/Chrysler-Jeep/Jeep-Grand-Cherokee/jeep-grand-cherokee-3-6-wk_36496/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2011,
+          "url": "https://www.caradvice.com.au/news/jaguar-xf-jeep-grand-cherokee-renault-fluence-z-e-miss-top-safety-rating/",
+          "note": "4 כוכבים (Euro NCAP, סבב סוף 2011); מקור: CarAdvice המצטט את Euro NCAP"
+        }
       },
       "WL": {
         "issues": [
@@ -366,6 +372,15 @@
           "stars": 3,
           "year": 2024,
           "url": "https://www.euroncap.com/en/results/jeep/avenger/52562"
+        },
+        "launchPrice": {
+          "ils": 190000,
+          "year": 2024,
+          "note": "גרסה חשמלית, Longitude (הגרסה ההיברידית הגיעה מאוחר יותר)",
+          "source": {
+            "title": "auto.co.il — ג'יפ אוונג'ר החדש בישראל – מחיר החל מ-190,000 שקלים (01.01.2024)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/136793/"
+          }
         }
       }
     }

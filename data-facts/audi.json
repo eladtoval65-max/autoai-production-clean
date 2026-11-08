@@ -459,7 +459,13 @@
               "url": "https://www.honestjohn.co.uk/realmpg/audi/q5-2008"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.autoblog.it/post/20784/audi-5-stelle-per-a4-e-q5-nei-test-euroncap-nhtsa-e-iihs",
+          "note": "5 כוכבים (Euro NCAP, מאי 2009: 92% מבוגרים, 84% ילדים); מקור: Autoblog.it המצטט את Euro NCAP; דף התוצאה: https://euroncap.com/es/results/audi/q5/11032"
+        }
       },
       "FY": {
         "issues": [
@@ -789,7 +795,13 @@
               "url": "https://www.autocentrum.pl/spalanie/audi/a6/c9/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/audi-a6---euro-ncap-2024-results---5-stars/s/58f5ba6e-a2f0-4ca1-a844-5e71953bcbd1",
+          "note": "5 כוכבים (Euro NCAP 2024, פורסם 04/2025) — דגם תאום מבנית ל-A5, הדירוג הוחל עליו אחרי בדיקות משלימות"
+        }
       }
     },
     "q4-etron": {
@@ -1018,7 +1030,13 @@
               "url": "https://www.autocentrum.pl/spalanie/audi/a5/b10/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://news.euroncap.com/safercars/audi-a5---euro-ncap-2024-results---5-stars/s/8e9988ab-b282-4356-ae47-b2c31f6520dd",
+          "note": "5 כוכבים (Euro NCAP 2024); הדירוג חל גם על גרסת הפלאג-אין"
+        }
       }
     },
     "q8-e-tron": {

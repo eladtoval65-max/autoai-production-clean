@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "clio": {
       "Clio IV": {
@@ -722,7 +722,13 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/kangoo/ii/212494/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2008,
+          "url": "https://australiancar.reviews/?p=1820",
+          "note": "4 כוכבים להגנת נוסעים מבוגרים (Euro NCAP, Kangoo X61 1.5 dCi 2008: 27.73 נק׳); מקור: australiancar.reviews המצטט את Euro NCAP"
+        }
       },
       "Gen3": {
         "issues": [

@@ -33,6 +33,15 @@
           "year": 2017,
           "url": "https://justbritish.com/?p=18706",
           "note": "3 כוכבים (Euro NCAP, 2017); מקור: JustBritish"
+        },
+        "launchPrice": {
+          "ils": 99999,
+          "year": 2018,
+          "note": "1.0 טורבו אוטומטית, NET",
+          "source": {
+            "title": "Cartube — MG ZS 2018 בישראל: מחיר 99,999 שקל (28.02.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/mg-zs-2018-בישראל-מחיר-99999-שקל"
+          }
         }
       },
       "ZS Hybrid+": {
@@ -198,6 +207,15 @@
           "stars": 5,
           "year": 2022,
           "url": "https://euroncap.com/en/results/MG/4%20Electric/48646"
+        },
+        "launchPrice": {
+          "ils": 145000,
+          "year": 2023,
+          "note": "גרסת בסיס, צבע לבן (שאר הצבעים בתוספת); תחילת שיווק בישראל מאי 2023",
+          "source": {
+            "title": "icar — MG מתחילה לשווק בישראל צמד משפחתיות (MG4 ו-MG5, 03.05.2023)",
+            "url": "https://www.icar.co.il/רכב-חשמלי/MG_מתחילה_לשווק_בישראל_צמד_משפחתיות/"
+          }
         }
       }
     },
@@ -406,7 +424,16 @@
               "url": "https://www.whatcar.com/mg-motor-uk/mg5/estate/used-review/n25508/advice"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 164000,
+          "year": 2023,
+          "note": "סטיישן חשמלית, צבע לבן; תחילת שיווק בישראל מאי 2023",
+          "source": {
+            "title": "icar — MG מתחילה לשווק בישראל צמד משפחתיות (MG4 ו-MG5, 03.05.2023)",
+            "url": "https://www.icar.co.il/רכב-חשמלי/MG_מתחילה_לשווק_בישראל_צמד_משפחתיות/"
+          }
+        }
       }
     },
     "marvel-r": {

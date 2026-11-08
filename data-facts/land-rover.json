@@ -1,6 +1,6 @@
 {
   "make": "land-rover",
-  "updated": "2026-10-31",
+  "updated": "2026-11-08",
   "models": {
     "evoque": {
       "L538": {
@@ -506,6 +506,12 @@
             "title": "וואלה! רכב — הזמנה מוקדמת: החל שיווק לנד רובר דיסקברי החדש בישראל (19.01.2017)",
             "url": "https://cars.walla.co.il/item/3032976"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.caradvice.com.au/news/2017-land-rover-discovery-awarded-five-star-safety-rating-from-euro-ncap/",
+          "note": "5 כוכבים (Euro NCAP 2017: 90% מבוגרים, 80% ילדים, 75% הולכי רגל, 73% מערכות בטיחות); מקור: CarAdvice"
         }
       },
       "L319": {
@@ -881,7 +887,13 @@
               "url": "https://www.autocentrum.pl/spalanie/land-rover/range-rover-velar/suv/silnik-diesla-2.0-sd4-240km-2017-2020/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2017/10/05/range-rover-velar-suv-gains-five-star-euro-ncap-safety-rating",
+          "note": "5 כוכבים (Euro NCAP, אוקטובר 2017: 93% מבוגרים, 85% ילדים, 74% הולכי רגל); מקור: Fleet News"
+        }
       }
     }
   }
