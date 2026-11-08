@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "mazda3": {
       "BL": {
@@ -542,7 +542,16 @@
               "url": "https://www.spritmonitor.de/en/overview/27-Mazda/2041-CX-60.html"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 379000,
+          "year": 2023,
+          "note": "Exclusive 4X4 פלאג-אין 2.5 (Homura ב-389,000) — מחירון 2023 לפי carzone",
+          "source": {
+            "title": "carzone — מאזדה CX-60 2023: מחירון ומפרט",
+            "url": "https://www.carzone.co.il/Mazda/CX-60/compare/"
+          }
+        }
       }
     },
     "mazda6": {

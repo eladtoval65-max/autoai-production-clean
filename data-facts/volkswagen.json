@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "golf": {
       "Mk7": {
@@ -1129,6 +1129,15 @@
           "stars": 5,
           "year": 2020,
           "url": "https://news.euroncap.com/safercars/id.3-sets-the-tone-for-a-safe-and-clean-future/s/ae66920f-5cd5-4c3e-b6cb-27dca72279f8"
+        },
+        "launchPrice": {
+          "ils": 250000,
+          "year": 2021,
+          "note": "Pro 150kW (204 כ״ס), רמת גימור יחידה — מחירון 2021 לפי carzone",
+          "source": {
+            "title": "carzone — פולקסווגן ID.3 2021: מחירון ומפרט",
+            "url": "https://www.carzone.co.il/Volkswagen/ID.3/2021/"
+          }
         }
       }
     },

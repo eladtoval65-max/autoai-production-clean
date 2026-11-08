@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "qashqai": {
       "J11": {
@@ -963,7 +963,12 @@
               "url": "https://ev-database.org/car/3366/Nissan-LEAF-Extended-Range-75-kWh"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "טרם נבדק ב-Euro NCAP (What Car?, עדכון 2.2026)",
+          "url": "https://www.whatcar.com/news/new-nissan-leaf-earns-five-star-euro-ncap-safety-rating/n16856"
+        }
       }
     },
     "sentra": {
@@ -1025,7 +1030,16 @@
               "url": "https://blog.consumerguide.com/quick-spin-2021-nissan-sentra-sr/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 134990,
+          "year": 2020,
+          "note": "רמת גימור יחידה SV, 2.0 בנזין 149 כ״ס",
+          "source": {
+            "title": "cartube — ניסאן סנטרה החדשה 2020 בישראל: מחיר החל מ-134,990 שקל (11.10.2020)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-סנטרה-החדשה-2020-בישראל-מחיר-134990-שקל"
+          }
+        }
       },
       "B19": {
         "issues": [

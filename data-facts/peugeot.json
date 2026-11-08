@@ -1,6 +1,6 @@
 {
   "make": "peugeot",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "208": {
       "P21 (Gen2)": {
@@ -1142,6 +1142,15 @@
           "year": 2018,
           "url": "https://www2020.theautochannel.com/news/2018/10/24/634484-euro-ncap-releases-safety-rating-seven-new-cars-today.html",
           "note": "4 כוכבים (Euro NCAP, 2018); מקור: The Auto Channel המצטט את הודעת Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 179000,
+          "year": 2026,
+          "note": "GT קצר (5 מושבים), 1.5 טורבו דיזל 130 כ״ס אוטומטית; ארוך 7 מושבים ב-190,000 — השקה רשמית בישראל רק ב-2026",
+          "source": {
+            "title": "auto.co.il — פיג׳ו ריפטר בארץ: החל מ-179,000 שקלים (15.06.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/peugeot-rifter-israel/"
+          }
         }
       }
     }
