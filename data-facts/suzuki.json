@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "swift": {
       "AZ": {
@@ -166,10 +166,10 @@
         "launchPrice": {
           "ils": 113990,
           "year": 2024,
-          "note": "GLX ידנית (אוטומטית 126,990 ₪)",
+          "note": "GLX ידנית (אוטומטית כ-127,000 ₪)",
           "source": {
-            "title": "Cartube — 2024 סוזוקי סוויפט החדשה בישראל (5.6.2024)",
-            "url": "https://www.cartube.co.il/חדשות-רכב/2024-סוזוקי-סוויפט-החדשה-בישראל-מחיר-113990-שקל"
+            "title": "Carzone — סוזוקי סוויפט החדשה 2024: מחיר החל מ-113,990 ש״ח (אוטומטית כ-127,000 ₪ לפי auto.co.il, 05.06.2024)",
+            "url": "https://www.carzone.co.il/news/סוזוקי-סוויפט-החדשה-2024-מחיר-החל-מ-113990-שח/"
           }
         },
         "issues": [
@@ -684,28 +684,12 @@
       "GY": {
         "issues": [
           {
-            "he": "כבל מתחת למכסה המנוע עלול להשתפשף בקצה הכנף הפנימית, ורוב התקלות החשמליות מגיעות משם. בבדיקה: לפתוח את מכסה המנוע ולחפש כבל שחוק ליד הכנף.",
-            "level": "widely_reported",
-            "source": {
-              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
-              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
-            }
-          },
-          {
             "he": "מערכת ההנעה הכפולה עלולה לא לעבוד כראוי (להיתקע בהנעה קדמית או במצב 4X4 נעול). בבדיקה: לנסות את כל מצבי ההנעה.",
             "level": "widely_reported",
             "scope": "4X4",
             "source": {
-              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
-              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
-            }
-          },
-          {
-            "he": "רפידות הבלמים נשחקות מהר, ונסיעה עם רפידות שחוקות פוגעת בדיסקים. בבדיקה: להקשיב לחריקות ולבדוק שפה או חריצים בדיסקים.",
-            "level": "widely_reported",
-            "source": {
-              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
-              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+              "title": "Parkers — Used Suzuki SX4 Hatchback (2006–2014) verdict: what to look for",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/review/verdict/"
             }
           },
           {
@@ -713,16 +697,16 @@
             "level": "widely_reported",
             "scope": "דיזל",
             "source": {
-              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
-              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+              "title": "Parkers — Used Suzuki SX4 Hatchback (2006–2014) verdict: what to look for",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/review/verdict/"
             }
           },
           {
             "he": "הגנת החלודה בינונית, במיוחד באזור הקורה הקדמית בכלים ותיקים. בבדיקה: לבדוק חלודה מתחת לרכב בחלק הקדמי.",
             "level": "widely_reported",
             "source": {
-              "title": "Parkers — Suzuki SX4 (2006–2014) problems",
-              "url": "https://www.parkers.co.uk/suzuki/sx4/problems"
+              "title": "Parkers — Used Suzuki SX4 Hatchback (2006–2014) verdict: what to look for",
+              "url": "https://www.parkers.co.uk/suzuki/sx4/review/verdict/"
             }
           }
         ],

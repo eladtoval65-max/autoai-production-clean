@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "corolla": {
       "E150": {
@@ -470,7 +470,8 @@
         "ncap": {
           "stars": 5,
           "year": 2019,
-          "url": "https://mag.toyota.co.uk/2019-toyota-corolla-rav4-excel-euro-ncap/"
+          "url": "https://news.euroncap.com/safercars/seven-earn-the-highest-rating-in-latest-safety-tests/s/f692898d-aa08-4a78-8e18-90ff38496808",
+          "note": "5 כוכבים — Euro NCAP, 22.5.2019 (RAV4 Hybrid)"
         },
         "issues": [
           {
@@ -1157,7 +1158,16 @@
               "url": "https://www1.fuelly.com/car/toyota/prius_prime/2024"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 190000,
+          "year": 2023,
+          "note": "מחיר מוצהר בפני המדינה לפלאג-אין (ספטמבר 2023) — לא בהכרח המחיר הסופי לצרכן",
+          "source": {
+            "title": "Calcalist — ברוכה השבה: טויוטה פריוס חוזרת לארץ בגרסת פלאג אין הייבריד (20.09.2023)",
+            "url": "https://www.calcalist.co.il/local_news/car/article/bjgijfuk6"
+          }
+        }
       }
     },
     "hilux": {
