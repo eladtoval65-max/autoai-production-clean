@@ -188,7 +188,7 @@
           "stars": 5,
           "year": 2010,
           "url": "https://cdn.euroncap.com/media/7105/euroncap_kia_sportage_2009_5stars.pdf",
-          "note": "דף הנתונים של Euro NCAP (שנת פרסום 2010, דגם נבחן 2.0 דיזל)"
+          "note": "דף הנתונים של Euro NCAP (שנת פרסום 2010, דגם נבחן 2.0 דיזל); 5 כוכבים אושרו גם בהודעת Kia מ-24.11.2010"
         },
         "launchPrice": {
           "ils": 157000,
@@ -972,6 +972,40 @@
               "title": "car-recalls.eu — Kia Sorento (2010–2013) fire risk, Kia code 241A04XMa, RAPEX 28/2025",
               "url": "https://car-recalls.eu/recall/kia-sorento-2010-2013-fire-risk/amp/"
             }
+          },
+          {
+            "he": "ריקול מתג אור בלמים: תקלה במתג עלולה לגרום לבעיות ב-ESP, בבקרת השיוט ובבחירת הילוכים בגיר האוטומטי. לוודא לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור עד סוף אפריל 2011 (ריקול יוני 2013, בריטניה)",
+            "source": {
+              "title": "Auto Express — Used Kia Sorento Mk2 (2010-2014) review",
+              "url": "https://www.autoexpress.co.uk/kia/sorento/356277/used-kia-sorento-mk3-2014-2020-review/used-kia-sorento-mk2-2010-2014-review"
+            }
+          },
+          {
+            "he": "ריקול צינור הזנת דלק בדיזל: הצינור עלול להתבלות ולדלוף — סכנת שריפה. לחפש ריח סולר או רטיבות בתא המנוע ולוודא ביצוע הקריאה",
+            "level": "recall",
+            "scope": "2.0/2.2 דיזל, ייצור ספטמבר–אוקטובר 2011 (בריטניה)",
+            "source": {
+              "title": "Auto Express — Used Kia Sorento Mk2 (2010-2014) review",
+              "url": "https://www.autoexpress.co.uk/kia/sorento/356277/used-kia-sorento-mk3-2014-2020-review/used-kia-sorento-mk2-2010-2014-review"
+            }
+          },
+          {
+            "he": "הקצה הקדמי של הגג (מעל השמשה) נוטה לחלודה, במיוחד אחרי החלפת שמשה — לבדוק את פס הגג מעל השמשה הקדמית",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Kia Sorento Mk2 (2010-2014) review",
+              "url": "https://www.autoexpress.co.uk/kia/sorento/356277/used-kia-sorento-mk3-2014-2020-review/used-kia-sorento-mk2-2010-2014-review"
+            }
+          },
+          {
+            "he": "בלאי צמיגים לא אחיד שכיח בדגם — לבדוק את הצמיגים ולבקש בדיקת כיוון פרונט",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Kia Sorento Mk2 (2010-2014) review",
+              "url": "https://www.autoexpress.co.uk/kia/sorento/356277/used-kia-sorento-mk3-2014-2020-review/used-kia-sorento-mk2-2010-2014-review"
+            }
           }
         ],
         "engines": [
@@ -1463,6 +1497,22 @@
               "title": "Fleet News — Update: Kia Venga issue resolved (March 2010)",
               "url": "https://www.fleetnews.co.uk/news/2010/3/3/update-kia-venga-issue-resolved/36064/"
             }
+          },
+          {
+            "he": "דיסקי הבלמים קדמיים ואחוריים עלולים להישחק מהר (אצל חלק מהבעלים כבר לפני 20 אלף מייל, כ-32 אלף ק״מ) — לבדוק עובי דיסקים ורעידות בבלימה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Kia Venga review (2010-2019)",
+              "url": "https://autoexpress.co.uk/kia/venga/353823/used-kia-venga-review"
+            }
+          },
+          {
+            "he": "רעשי שקשוק בלוח המחוונים, בעיקר כשהרכב קר — להקשיב בנסיעת מבחן",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Kia Venga review (2010-2019)",
+              "url": "https://autoexpress.co.uk/kia/venga/353823/used-kia-venga-review"
+            }
           }
         ],
         "engines": [
@@ -1490,7 +1540,7 @@
       "AM": {
         "issues": [
           {
-            "he": "ריקול (אירופה, 2025): דליפת נוזל בלמים ליחידת ה-ABS/HECU עלולה לגרום לקצר ולשריפה בתא המנוע גם כשהרכב כבוי. בבדיקה: לוודא שהקריאה בוצעה ולחפש סימני נוזל בלמים סביב יחידת ה-ABS.",
+            "he": "ריקול (אירופה, 2025): דליפת נוזל בלמים עלולה לגרום לקצר חשמלי, ויחידת ה-ABS/HECU עלולה להישאר פעילה גם כשהרכב כבוי — סכנת שריפה בתא המנוע. בבדיקה: לוודא שהקריאה בוצעה ולחפש סימני נוזל בלמים סביב יחידת ה-ABS.",
             "level": "recall",
             "scope": "יוצרו 09.06.2010–30.10.2013",
             "source": {
@@ -1612,6 +1662,32 @@
             "source": {
               "title": "car-recalls.eu — Kia Soul EV / Niro EV (2020) EPCU coolant leak (Safety Gate 18/2023)",
               "url": "https://car-recalls.eu/recall/kia-soul-ev-2020-epcu-coolant/"
+            }
+          },
+          {
+            "he": "ריקול תוכנת בלמים (2021) — לוודא שהעדכון בוצע",
+            "level": "recall",
+            "scope": "ייצור עד נובמבר 2020",
+            "source": {
+              "title": "Auto Express — Used Kia Soul EV Mk3 (2019-2025) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/kia/soul/369345/used-kia-soul-ev-mk3-2019-2025-buyers-guide-compelling-all-round-electric-car"
+            }
+          },
+          {
+            "he": "ריקול יחידת בקרת כריות אוויר תקולה (אפריל 2022) — מתוקן בעדכון תוכנה; לוודא ביצוע לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור עד דצמבר 2020",
+            "source": {
+              "title": "Auto Express — Used Kia Soul EV Mk3 (2019-2025) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/kia/soul/369345/used-kia-soul-ev-mk3-2019-2025-buyers-guide-compelling-all-round-electric-car"
+            }
+          },
+          {
+            "he": "תקלות במיזוג האוויר מדווחות, ועדכוני תוכנה חשובים — לבדוק שהמזגן מקרר ולבקש בדיקת בריאות סוללה (SOH) בדיאגנוסטיקה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Kia Soul EV Mk3 (2019-2025) buyer's guide",
+              "url": "https://www.autoexpress.co.uk/kia/soul/369345/used-kia-soul-ev-mk3-2019-2025-buyers-guide-compelling-all-round-electric-car"
             }
           }
         ],

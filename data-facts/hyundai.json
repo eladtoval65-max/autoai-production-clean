@@ -280,6 +280,15 @@
               "title": "car-recalls.eu — Hyundai i20 (2015 – 2020) vacuum hose",
               "url": "https://car-recalls.eu/recall/hyundai-i20-2015-2020-vacuum-hose/"
             }
+          },
+          {
+            "he": "ריקול: מספר השלדה עלול לא להיות רשום נכון ביחידת ה-eCall (חיוג חירום אוטומטי), כך שבתאונה יישלח מידע שגוי. התיקון — איפוס ועדכון היחידה במוסך מורשה; לוודא ביצוע",
+            "level": "recall",
+            "scope": "1,879 רכבים (בריטניה)",
+            "source": {
+              "title": "What Car? — Used Hyundai i20 2015-2020 reliability (recall: VIN not registered correctly in eCall unit)",
+              "url": "https://whatcar.com/hyundai/i20/hatchback/used-review/n957/advice"
+            }
           }
         ],
         "engines": [

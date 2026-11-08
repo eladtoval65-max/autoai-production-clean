@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -352,6 +352,30 @@
             "source": {
               "title": "car-recalls.eu — Seat Leon (2009–2010) driver airbag Takata (listed 21/06/2024)",
               "url": "https://car-recalls.eu/recall/seat-leon-2009-2010-airbag-takata/"
+            }
+          },
+          {
+            "he": "חדירת מים לדלת תא המטען כשצינור הזנת מגב אחורי מתנתק — עלולה לגרום לתקלות חשמל. לבדוק רטיבות בבטנת הדלת האחורית ובתא המטען",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used SEAT Leon buying guide (2005-2013, Mk2)",
+              "url": "https://www.carbuyer.co.uk/tips-and-advice/154685/used-seat-leon-buying-guide-2005-2013-mk2"
+            }
+          },
+          {
+            "he": "בולמי הגז של דלת תא המטען נשחקים מהר והדלת לא נשארת פתוחה — לבדוק ולתמחר החלפה",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used SEAT Leon buying guide (2005-2013, Mk2)",
+              "url": "https://www.carbuyer.co.uk/tips-and-advice/154685/used-seat-leon-buying-guide-2005-2013-mk2"
+            }
+          },
+          {
+            "he": "נורית ABS/ESP דולקת מעידה לעיתים קרובות על כשל במשאבת ה-ABS — תיקון יקר; לוודא שאין נוריות אזהרה ולבצע סריקת תקלות",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used SEAT Leon buying guide (2005-2013, Mk2)",
+              "url": "https://www.carbuyer.co.uk/tips-and-advice/154685/used-seat-leon-buying-guide-2005-2013-mk2"
             }
           }
         ],
