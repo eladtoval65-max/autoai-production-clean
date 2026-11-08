@@ -1892,7 +1892,13 @@
               "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Toyota-Aygo"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2005,
+          "url": "https://www.fleetnews.co.uk/news/2005/6/3/aygo-stars/19540",
+          "note": "4 כוכבים להגנת נוסעים בוגרים (Euro NCAP 2005; לפי Fleet News). דירוג לפי פרוטוקול 2005"
+        }
       },
       "AB40": {
         "issues": [
