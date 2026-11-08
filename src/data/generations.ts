@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-11-07";
+export const PRICES_VERIFIED = "2026-11-08";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -123,6 +123,13 @@ export const MAKES: Make[] = [
     { id: "avensis", make: "toyota", model: "Avensis", he: "אוונסיס", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
       T("T270", 2010, 2018, "1.6 / 1.8 / 2.0 Valvematic בנזין (1.8/2.0 גם עם CVT), 1.6–2.2 D-4D דיזל", "132–158", ["petrol", "diesel"], 8.0, 5, 2015, [C.history, C.inspect, "בגרסה עם CVT: " + C.cvt], "הדור הושק ב-2009; סדאן וסטיישן; מתיחות פנים 2012 ו-2015; דירוג ה-Euro NCAP מ-2015 (אחרי מתיחת הפנים השנייה). הייצור הסתיים ב-2018. לא במחירון היבואן הנוכחי"),
     ]},
+    { id: "aygo", make: "toyota", model: "Aygo", he: "אייגו", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("AB10", 2010, 2014, "1.0 VVT-i בנזין", "68", ["petrol"], 5.4, 3, 2012, [C.history, C.inspect, "תיבה רובוטית (MMT) בחלק מהגרסאות: לבדוק החלפות הילוך חלקות"]),
+      T("AB40", 2014, 2022, "1.0 VVT-i בנזין", "68–71", ["petrol"], 5.2, 4, 2014, [C.history, C.inspect, "תיבה רובוטית (x-shift) בחלק מהגרסאות: לבדוק החלפות הילוך חלקות"], "דירוג 2014: 4 כוכבים; במבחן חוזר ב-2017: 3 כוכבים (4 עם חבילת בטיחות)"),
+    ]},
+    { id: "gt86", make: "toyota", model: "GT86", he: "GT86", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("ZN6", 2012, 2021, "2.0 בוקסר בנזין, הנעה אחורית", "197–205", ["petrol"], 9.0, null, undefined, [C.history, C.inspect, C.suspension], "קופה ספורטיבית; תאום של Subaru BRZ"),
+    ]},
   ]},
 
   { id: "hyundai", name: "Hyundai", he: "יונדאי", models: [
@@ -198,6 +205,10 @@ export const MAKES: Make[] = [
     { id: "ix20", make: "hyundai", model: "ix20", he: "ix20", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
       T("דור 1", 2010, 2019, "1.4 / 1.6 בנזין / 1.4 / 1.6 CRDi דיזל", "90–125", ["petrol", "diesel"], 7, 5, 2010, [C.history, C.inspect], "מתיחת פנים 2015; דירוג Euro NCAP של התאום Kia Venga חל גם עליו"),
     ]},
+    { id: "veloster", make: "hyundai", model: "Veloster", he: "ולוסטר", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("FS", 2011, 2018, "1.6 MPi / GDi / T-GDi בנזין", "128–201", ["petrol"], 7.5, null, undefined, [C.history, C.inspect, "בגרסאות DCT: " + C.dct]),
+      T("JS", 2018, 2022, "1.4T / 1.6T / 2.0 / 2.0T בנזין", "138–271", ["petrol"], 7.8, null, undefined, [C.history, C.inspect]),
+    ]},
   ]},
 
   { id: "kia", name: "Kia", he: "קיה", models: [
@@ -258,6 +269,10 @@ export const MAKES: Make[] = [
     { id: "venga", make: "kia", model: "Venga", he: "ונגה", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
       T("YN", 2010, 2019, "1.4 / 1.6 בנזין / 1.4 / 1.6 CRDi דיזל", "90–125", ["petrol", "diesel"], 7, 5, 2010, [C.history, C.inspect], "הושק בסוף 2009 (מוצג מ-2010); מתיחת פנים 2015 עם תיבה אוטומטית 6 הילוכים במקום 4; טווח כ״ס לפי התאום Hyundai ix20"),
     ]},
+    { id: "carens", make: "kia", model: "Carens", he: "קארנס", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("UN", 2010, 2013, "2.0 / 2.4 בנזין", "175 (2.4)", ["petrol"], 9.0, null, undefined, [C.history, C.inspect]),
+      T("RP", 2013, 2022, "2.0 GDI / 1.6 GDI בנזין, 1.7 CRDi דיזל", "134–164", ["petrol", "diesel"], 7.8, 5, 2013, [C.history, C.inspect]),
+    ]},
   ]},
 
   { id: "mazda", name: "Mazda", he: "מאזדה", models: [
@@ -292,6 +307,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "cx-90", make: "mazda", model: "CX-90", he: "CX-90", body: "suv7", segment: "premium", price: [254900, 329900], status: "on_sale", gens: [
       T("KK", 2023, null, "3.3 טורבו 6 צילינדרים מיילד-היברידי / 2.5 פלאג-אין", "251–340", ["petrol", "phev"], 9.5, null, undefined, [C.recalls, C.history], "7 מושבים"),
+    ]},
+    { id: "cx-7", make: "mazda", model: "CX-7", he: "CX-7", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("ER", 2010, 2012, "2.3 DISI טורבו / 2.5 בנזין, 2.2 דיזל", "161–244", ["petrol", "diesel"], 11.0, null, undefined, [C.history, C.inspect, "מנוע 2.3 טורבו: לבדוק מצב הטורבו וצריכת שמן"]),
     ]},
   ]},
 
@@ -338,6 +356,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "roomster", make: "skoda", model: "Roomster", he: "רומסטר", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
       T("דור 1", 2010, 2015, "1.2 / 1.4 / 1.6 בנזין, 1.2 TSI בנזין / 1.2 / 1.6 TDI דיזל", "69–105", ["petrol", "diesel"], 6.8, null, undefined, [C.history, C.inspect, C.tsiChain, "בגרסת 1.2 TSI עם DSG: " + C.dsgDry], "הדור יוצר 2006–2015; הנתונים מ-2010 (מתיחת פנים, ז'נבה 2010). אוטומטית 6 רגילה ב-1.6, DSG 7 ב-1.2 TSI 105"),
+    ]},
+    { id: "citigo", make: "skoda", model: "Citigo", he: "סיטיגו", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("Citigo", 2011, 2020, "1.0 MPI בנזין; Citigo-e iV חשמלי", "—", ["petrol", "ev"], 5.2, null, undefined, [C.history, C.inspect], "תאום של VW up!; לפי ויקיפדיה נמכר בישראל לתקופה קצרה. הספקים ב-PS: ‏60/75 PS"),
     ]},
   ]},
 
@@ -571,6 +592,9 @@ export const MAKES: Make[] = [
     { id: "pajero", make: "mitsubishi", model: "Pajero", he: "פג'רו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
       T("NS/NT/NW/NX (V80/V90)", 2010, 2021, "3.2 DI-D דיזל / 3.8 V6 בנזין", "170–250", ["petrol", "diesel"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "הדור הושק ב-2006 (מוצג מ-2010); מתיחות פנים 2011/2012 ו-2015; ייצור לשווקים בינלאומיים הסתיים במרץ 2021"),
     ]},
+    { id: "i-miev", make: "mitsubishi", model: "i-MiEV", he: "i-MiEV", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("i-MiEV", 2010, 2014, "חשמלי, סוללה 16 קוט\"ש", "63–66", ["ev"], 14.0, null, undefined, [C.ev, C.history], "שנים לפי השוק האירופי (ויקיפדיה); טווח קצר מאוד"),
+    ]},
   ]},
 
   { id: "peugeot", name: "Peugeot", he: "פיג'ו", models: [
@@ -657,6 +681,16 @@ export const MAKES: Make[] = [
     ]},
     { id: "id-buzz", make: "volkswagen", model: "ID. Buzz", he: "ID. באז", body: "mpv", segment: "mass", price: null, status: "on_sale", gens: [
       T("MEB", 2022, null, "חשמלי, סוללה 77/85 קוט\"ש", "204–340", ["ev"], 23.0, 5, 2022, [C.ev, C.recalls], "מחיר לא מוצג: כרטיס carzone ₪385,000–452,000, דף הדגם ₪335,000, cartube ₪335,000–455,000"),
+    ]},
+    { id: "up", make: "volkswagen", model: "up!", he: "אפ!", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("up!", 2011, 2023, "1.0 MPI / 1.0 TSI בנזין; e-up! חשמלי", "—", ["petrol", "ev"], 5.2, 3, 2019, [C.history, C.inspect, "בגרסה החשמלית: " + C.ev], "הספקים לפי ויקיפדיה ב-PS: ‏60–115 PS בנזין, e-up! ‏80 כ\"ס; מתיחת פנים 2016. Euro NCAP 2019 (3 כוכבים)"),
+    ]},
+    { id: "touran", make: "volkswagen", model: "Touran", he: "טוראן", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
+      T("1T", 2010, 2015, "1.2 / 1.4 TSI בנזין, 1.6 / 2.0 TDI דיזל", "89–174", ["petrol", "diesel"], 7.6, null, undefined, [C.history, C.inspect, C.tsiChain, "בגרסאות DSG: " + C.dsgDry]),
+      T("5T", 2015, 2026, "1.0 / 1.2 / 1.4 / 1.5 / 1.8 TSI בנזין, 1.6 / 2.0 TDI דיזל", "108–187", ["petrol", "diesel"], 7.0, 5, 2015, [C.history, C.inspect, "בגרסאות DSG: " + C.dct], "7 מקומות; הייצור בוולפסבורג הסתיים 4/2026"),
+    ]},
+    { id: "scirocco", make: "volkswagen", model: "Scirocco", he: "שירוקו", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
+      T("Mk3", 2010, 2017, "1.4 / 2.0 TSI בנזין, 2.0 TDI דיזל", "120–276", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect, C.tsiChain, "בגרסאות DSG: " + C.dct], "מתיחת פנים 2014"),
     ]},
   ]},
 
@@ -914,6 +948,10 @@ export const MAKES: Make[] = [
     { id: "e-tron-gt", make: "audi", model: "e-tron GT", he: "e-tron GT", body: "sedan", segment: "premium", price: null, status: "on_sale", gens: [
       T("J1", 2021, null, "חשמלי, סוללה 84–93 קוט\"ש", "469–637", ["ev"], 22.0, null, undefined, [C.ev, C.history], "J1 = שם הפלטפורמה (משותפת לפורשה טייקן); קוד דור לא בוויקיפדיה. מחיר לא מוצג: carzone (₪999,600) ו-cartube (S ‏₪987,400, RS ‏₪1,401,900) לא מסכימים"),
     ]},
+    { id: "a1", make: "audi", model: "A1", he: "A1", body: "city", segment: "premium", price: null, status: "discontinued", gens: [
+      T("8X", 2010, 2018, "1.0 / 1.2 / 1.4 / 1.8 TFSI בנזין, 1.4 / 1.6 / 2.0 TDI דיזל", "85–228", ["petrol", "diesel"], 6.0, null, undefined, [C.history, C.inspect, "בגרסאות S tronic: " + C.dsgDry]),
+      T("GB", 2018, 2026, "1.0 / 1.5 / 2.0 TFSI בנזין", "94–197", ["petrol"], 6.0, 5, 2019, [C.history, C.inspect], "הייצור הסתיים 4/2026"),
+    ]},
   ]},
   // ── Catalog expansion 2026-10-20: prices from cartube.co.il / carzone.co.il brand price lists, generations and engines
   //    from English Wikipedia model pages, Euro NCAP only where euroncap.com or Wikipedia states the stars (see DATA_UPDATES.md).
@@ -998,6 +1036,9 @@ export const MAKES: Make[] = [
       T("S197", 2010, 2014, "3.7 / 4.0 V6, 4.6 / 5.0 V8", "210–662", ["petrol"], 13.5, null, undefined, [C.history, C.inspect]),
       T("S550", 2015, 2023, "2.3 EcoBoost, 5.0 V8", "305–760", ["petrol"], 12.0, 3, 2017, [C.history, C.inspect], "ב-2017 קיבל 2 כוכבים, ו-3 אחרי עדכון עם בלימת חירום"),
       T("S650", 2024, null, "5.0 V8 (בישראל), 2.3 EcoBoost", "315–500", ["petrol"], 13.0, null, undefined, [C.recalls], "בישראל רק V8 480–486 כ\"ס"),
+    ]},
+    { id: "ecosport", make: "ford", model: "EcoSport", he: "אקוספורט", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
+      T("B515", 2012, 2022, "1.0 EcoBoost / 1.5 / 1.6 / 2.0 בנזין, 1.5 דיזל", "98–140", ["petrol", "diesel"], 7.2, 4, 2013, [C.history, C.inspect, "תיבה אוטומטית PowerShift (בגרסאות 1.5): לבדוק רעידות וגמגום"], "מתיחת פנים 2017 (דירוג 2013 קודם לה)"),
     ]},
   ]},
 
@@ -1188,6 +1229,9 @@ export const MAKES: Make[] = [
     { id: "c40", make: "volvo", model: "C40 / EC40", he: "C40 / EC40", body: "suv", segment: "premium", price: null, status: "discontinued", gens: [
       T("C40 / EC40", 2021, null, "חשמלי, סוללה 69–82 קוט\"ש", "231–408", ["ev"], 20.0, 5, 2022, [C.ev, C.recalls], "שמו שונה ל-EC40 ב-2024; לא משווק עוד בישראל"),
     ]},
+    { id: "v40", make: "volvo", model: "V40", he: "V40", body: "hatch", segment: "premium", price: null, status: "discontinued", gens: [
+      T("V40", 2012, 2019, "1.5 / 1.6 / 2.0 / 2.5 טורבו בנזין, 1.6 / 2.0 דיזל", "113–251", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect]),
+    ]},
   ]},
 
   { id: "citroen", name: "Citroën", he: "סיטרואן", models: [
@@ -1275,6 +1319,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "zafira-tourer", make: "opel", model: "Zafira Tourer", he: "זאפירה טורר", body: "mpv", segment: "mass", price: null, status: "discontinued", gens: [
       T("C", 2011, 2019, "1.4 טורבו / 1.6 SIDI טורבו / 1.8 בנזין, 1.6 / 2.0 CDTI דיזל", "120–200", ["petrol", "diesel"], 7.8, null, undefined, [C.history, C.inspect, C.suspension], "7 מקומות; מתיחת פנים 2016. הייתה גם גרסת CNG דו-דלקית. נבדק ב-Euro NCAP ב-2011 (דירוג פג ב-2018); מספר הכוכבים לא מוצג באתר, לכן null"),
+    ]},
+    { id: "adam", make: "opel", model: "Adam", he: "אדם", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("Adam", 2012, 2019, "1.0T / 1.2 / 1.4 / 1.4T בנזין", "69–150", ["petrol"], 6.5, 4, 2013, [C.history, C.inspect]),
     ]},
   ]},
 
@@ -1579,6 +1626,9 @@ export const MAKES: Make[] = [
       T("GMT355", 2010, 2012, "2.9 / 3.7 / 5.3 V8 בנזין, 2.5 / 3.0 טורבו דיזל (Isuzu)", "116–300", ["petrol", "diesel"], 12.5, null, undefined, [C.history, C.inspect, C.suspension], "הדור נמכר 2004–2012, הנתונים מ-2010. כוח בכ\"ס אמריקאי (hp)"),
       T("RG", 2012, 2022, "2.5 / 3.6 V6 בנזין, 2.8 Duramax טורבו דיזל", "181–308", ["petrol", "diesel"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "בצפון אמריקה 2015–2022; כוח בכ\"ס אמריקאי (hp)"),
       T("דור 3", 2023, null, "2.7 טורבו בנזין, אוטומטית 8", "237–310", ["petrol"], 12.5, null, undefined, [C.history, C.inspect, C.suspension, C.recalls], "במחירון 2026: Colorado ZR2 ‏₪433,000 (carzone ו-cartube). ב-ZR2: ‏2.7 טורבו High-Output ‏310 כ\"ס / 430 lb-ft, בולמי Multimatic DSSV ונעילות דיפרנציאל קדמית ואחורית"),
+    ]},
+    { id: "orlando", make: "chevrolet", model: "Orlando", he: "אורלנדו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
+      T("J309", 2010, 2018, "1.4T / 1.8 / 2.4 בנזין, 1.6 / 2.0 דיזל", "129–174", ["petrol", "diesel"], 8.5, 5, 2011, [C.history, C.inspect, C.suspension], "7 מקומות"),
     ]},
   ]},
 ];

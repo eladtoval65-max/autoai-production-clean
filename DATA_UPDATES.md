@@ -530,3 +530,38 @@ Checked and left unchanged — needs owner review:
 - One-source differences (other source = ours): Toyota Yaris Cross / Corolla / Land Cruiser, Lexus LBX / NX / RX / ES, Hyundai Tucson / Santa Fe / Palisade / Elantra / Kona, Genesis GV60 / GV70, Kia EV3 / Seltos, Skoda Karoq / Kamiq / Superb / Fabia, Seat Arona, Subaru BRZ (carzone top 259,900) / Outback (279,900 vs 279,990), Honda HR-V, Geely EX5, Lynk & Co 02, XPENG P7, Leapmotor T03, BYD Atto 2 / Seal U, Peugeot 208 / 2008, DS 7, Alfa Junior / Giulia, Renault Clio / Captur / Arkana / Austral, Dacia Duster (carzone from 149,990), Nissan Qashqai (carzone top 203,990), Mercedes / BMW / Land Rover / MINI / Porsche cartube ranges.
 - Price null, both sources show a price but disagree or only one source: Mercedes EQA / EQB / EQE / EQE SUV / GLS / G-Class / EQS SUV / SL, Range Rover / RR Sport, Porsche Taycan / Panamera / 911 (cartube stale), VW ID. Buzz (cartube no price), Audi e-tron GT (carzone 999,600), Dongfeng Box (carzone 104,900 vs cartube 113,900), Kia EV6 (cartube 309,900 only), Alfa Stelvio (cartube 369,990–399,990 only), VW ID.4 / T-Roc (cartube only).
 - One-source status conflicts: BYD Dolphin (discontinued here; cartube lists 149,990–156,990, carzone not), DS 4 (cartube lists 269,990–328,990, carzone not), Hyundai Staria (cartube only), Dacia Logan (cartube only), VW ID.3 (carzone only), MG5 / KGM Tivoli (carzone yes, cartube "לא משווק").
+
+## 2026-11-08 (daily agent)
+Prices checked today on both sources for every make (carzone brand pages https://www.carzone.co.il/<Make> + cartube price lists https://www.cartube.co.il/מחירון-רכב-חדש/<make>), except Polestar (carzone shows only the 2024 page with no price; cartube read). Partial cartube pages: Mercedes (prices only for A / CLA / C / C EQ / EQA / GLA / GLC EQ), BMW (cut off at i4). `PRICES_VERIFIED` = 2026-11-08.
+Energy prices: unchanged. No gov.il notice for 5/11/2026 was found (only https://www.gov.il/BlobFolder/news/fuel-november-2026/he/fuel-november-2026.pdf: ₪7.35 from 1/11, ₪8.35 from 5/11 if the excise order is not renewed). ₪7.85 (press reports of a half excise renewal) still **needs owner review**.
+
+Price changes: none (0). No model line moved on both sources.
+- Audi Q4 e-tron (both sources 314,900–377,800) and Q6 e-tron (carzone 404,900–539,900) tops are lower than ours (379,900 / 559,900), but our tops equal carzone's Sportback lines, which these lines include by convention → left unchanged.
+- Suzuki Vitara: still holds the e Vitara range 154,990–179,990 (both sources list e Vitara at exactly that); hybrid Vitara carzone 159,990–169,990 vs cartube 156,900 → owner decision still open.
+- Catalog: no price changes.
+
+Models added to generations.ts (15, all discontinued / used market, price null; generations/engines/power from English Wikipedia; consumption = real-world estimates):
+- Kia Carens (https://en.wikipedia.org/wiki/Kia_Carens; RP 5★ 2013 https://cdn.euroncap.com/media/5884/euroncap_kia_carens_2013_5stars.pdf)
+- Toyota Aygo (https://en.wikipedia.org/wiki/Toyota_Aygo; AB10 3★ 2012 https://news.euroncap.com/safercars/all/nissan-primastar---euro-ncap-/toyota-aygo-and-twins-disappoint-in-safety-tests--according-to-euro-ncap-s-latest-test-series/s/3331906f-a951-46bb-bd47-72b8bebb8de4; AB40 4★ 2014 https://news.euroncap.com/safercars/euro-ncap-reveals-latest-safety-ratings/s/b802bc3f-01df-4711-be17-891dfe720c6f, 2017 retest 3★/4★ https://news.euroncap.com/safercars/toyota-aygo---euro-ncap-results-2017/s/df1d0e5b-f1be-4409-95d7-1f49cc864847)
+- Toyota GT86 (https://en.wikipedia.org/wiki/Toyota_86; NCAP null)
+- VW up! (https://en.wikipedia.org/wiki/Volkswagen_Up; power only given in PS → "—"; 3★ 2019 https://www.euroncap.com/assessments/vw/up!/0787/)
+- Skoda Citigo (same article; NCAP stars not shown on https://www.euroncap.com/en/results/skoda/citigo/10996 → null)
+- VW Touran (https://en.wikipedia.org/wiki/Volkswagen_Touran; 5T 5★ 2015 https://www.euroncap.com/en/results/vw/touran/20975)
+- VW Scirocco (https://en.wikipedia.org/wiki/Volkswagen_Scirocco; 2009 star count only inferable from image names → null)
+- Hyundai Veloster (https://en.wikipedia.org/wiki/Hyundai_Veloster; NCAP null)
+- Audi A1 (https://en.wikipedia.org/wiki/Audi_A1; GB 5★ 2019 https://news.euroncap.com/find-a-car/audi-a1/s/2aff10d4-11b2-440a-add1-a6d1c9078c7c)
+- Volvo V40 (https://wikiwand.com/en/Volvo_V40_(2012–2019); NCAP stars not confirmed → null)
+- Opel Adam (https://en.wikipedia.org/wiki/Opel_Adam; 4★ 2013 https://news.euroncap.com/safercars/euro-ncap-releases-latest-round-of-crash-tests/s/54eb5cb5-a93b-4cd1-9274-7fcd33163d15)
+- Mazda CX-7 (https://en.wikipedia.org/wiki/Mazda_CX-7; NCAP null)
+- Ford EcoSport (https://en.wikipedia.org/wiki/Ford_EcoSport; 4★ 2013 https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89)
+- Chevrolet Orlando (https://en.wikipedia.org/wiki/Chevrolet_Orlando; 5★ 2011 https://news.euroncap.com/safercars/euro-ncap-releases-crash-test-results-for-10-cars-and-brings-additional-advanced-reward/s/f5f1a221-904c-4c4f-b260-ef6e560551e0)
+- Mitsubishi i-MiEV (https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV; European years 2010–2014; NCAP null)
+
+Models added to the recommendation catalog (2, `scripts/seed-vehicles-batch23.ts`; new catalog makes Dacia, Renault): Dacia Duster Hybrid (Adventure ₪149,990; https://www.auto.co.il/cars/dacia/duster/2026, https://www.auto.co.il/cars/dacia/duster/2026/580635/), Renault Clio (Evolution 1.0T ₪124,990; https://www.auto.co.il/cars/renault/clio/2026/581117/, https://www.carzone.co.il/Renault/Clio/2026). Euro NCAP not claimed. Running costs are estimates, dataConfidence 56. Photo mappings added. Skipped: Omoda 5 Hybrid, Hyundai i10, Kia Sportage petrol (see COVERAGE.md).
+Totals now: catalog 79 cars; generations.ts 52 makes, 384 models.
+
+Checked and left unchanged — needs owner review:
+- One-source differences (other source = ours), mostly cartube: Toyota Yaris Cross (carzone top 160,990) / Land Cruiser / Corolla (cartube 159,990), Lexus LBX / NX / RX, Hyundai Tucson / Santa Fe / Palisade, Kia EV3 / Seltos, Subaru BRZ (carzone top 259,900) / Outback, Honda HR-V, Skoda Fabia / Kamiq / Karoq / Superb, VW Tiguan (cartube 239,900 min), Audi Q2 / Q5 / A5 / A6, Porsche Macan / Cayenne, Volvo XC60 / ES90, BYD Atto 2, Jaecoo 7 (cartube adds hybrid 169,900), Geely EX5 / Starray, Chery Tiggo 4 Pro / FX, Zeekr 001, Lynk & Co 02, ORA 03 (carzone 154,422), XPENG P7, Smart #5 (carzone from 259,990), Peugeot 208 / 2008 / 408, DS 7, Opel Corsa, Jeep Avenger / Wrangler, Alfa Junior / Giulia, Renault Arkana (carzone from 163,990) / Austral / Captur, Dacia Duster (carzone from 149,990), Nissan Qashqai (carzone top 203,990), Mercedes C-Class (carzone news: facelift from 379,900) / GLA / CLA, BMW 3 / 5 Series / X1, MINI, Land Rover (cartube).
+- Renault 5 E-Tech min 168,999 (carzone) vs 168,990 (cartube) — possible carzone typo.
+- Price null, both sources show a price but disagree: VW ID. Buzz, Audi A8 / e-tron GT, Porsche Taycan / Panamera / 911, Mercedes EQA, Range Rover / RR Sport, Dongfeng Box (104,900 vs 113,900). Carzone only: Mercedes GLS / EQE / EQE SUV / G-Class / EQS SUV / SL.
+- One-source status conflicts: ORA 07 / MG5 / KGM Tivoli (cartube no longer marketed / no price; carzone lists), BYD Dolphin / Geely Geometry C / DS 4 / Alfa Stelvio / VW T-Roc / ID.4 (cartube only), Dacia Logan (cartube only), Kia EV6 (cartube "no longer marketed", carzone absent — ours already null/unverified).

@@ -542,6 +542,60 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "aygo",
+    "model": "Aygo",
+    "he": "אייגו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "AB10",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.0 VVT-i בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.4,
+      "ncap": 3,
+      "checks": 3
+     },
+     {
+      "code": "AB40",
+      "from": 2014,
+      "to": 2022,
+      "engines": "1.0 VVT-i בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.2,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "gt86",
+    "model": "GT86",
+    "he": "GT86",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "ZN6",
+      "from": 2012,
+      "to": 2021,
+      "engines": "2.0 בוקסר בנזין, הנעה אחורית",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -1201,6 +1255,39 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "veloster",
+    "model": "Veloster",
+    "he": "ולוסטר",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "FS",
+      "from": 2011,
+      "to": 2018,
+      "engines": "1.6 MPi / GDi / T-GDi בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "JS",
+      "from": 2018,
+      "to": 2022,
+      "engines": "1.4T / 1.6T / 2.0 / 2.0T בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -1717,6 +1804,40 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "carens",
+    "model": "Carens",
+    "he": "קארנס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "UN",
+      "from": 2010,
+      "to": 2013,
+      "engines": "2.0 / 2.4 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "RP",
+      "from": 2013,
+      "to": 2022,
+      "engines": "2.0 GDI / 1.6 GDI בנזין, 1.7 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -1984,6 +2105,28 @@
       "cons": 9.5,
       "ncap": null,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "cx-7",
+    "model": "CX-7",
+    "he": "CX-7",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "ER",
+      "from": 2010,
+      "to": 2012,
+      "engines": "2.3 DISI טורבו / 2.5 בנזין, 2.2 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 11,
+      "ncap": null,
+      "checks": 3
      }
     ]
    }
@@ -2360,6 +2503,28 @@
       "cons": 6.8,
       "ncap": null,
       "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "citigo",
+    "model": "Citigo",
+    "he": "סיטיגו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Citigo",
+      "from": 2011,
+      "to": 2020,
+      "engines": "1.0 MPI בנזין; Citigo-e iV חשמלי",
+      "pt": [
+       "petrol",
+       "ev"
+      ],
+      "cons": 5.2,
+      "ncap": null,
+      "checks": 2
      }
     ]
    }
@@ -4037,6 +4202,27 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "i-miev",
+    "model": "i-MiEV",
+    "he": "i-MiEV",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "i-MiEV",
+      "from": 2010,
+      "to": 2014,
+      "engines": "חשמלי, סוללה 16 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 14,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -4768,6 +4954,85 @@
       "cons": 23,
       "ncap": 5,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "up",
+    "model": "up!",
+    "he": "אפ!",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "up!",
+      "from": 2011,
+      "to": 2023,
+      "engines": "1.0 MPI / 1.0 TSI בנזין; e-up! חשמלי",
+      "pt": [
+       "petrol",
+       "ev"
+      ],
+      "cons": 5.2,
+      "ncap": 3,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "touran",
+    "model": "Touran",
+    "he": "טוראן",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "1T",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.2 / 1.4 TSI בנזין, 1.6 / 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.6,
+      "ncap": null,
+      "checks": 4
+     },
+     {
+      "code": "5T",
+      "from": 2015,
+      "to": 2026,
+      "engines": "1.0 / 1.2 / 1.4 / 1.5 / 1.8 TSI בנזין, 1.6 / 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "scirocco",
+    "model": "Scirocco",
+    "he": "שירוקו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Mk3",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.4 / 2.0 TSI בנזין, 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 4
      }
     ]
    }
@@ -7037,6 +7302,40 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "a1",
+    "model": "A1",
+    "he": "A1",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "8X",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.0 / 1.2 / 1.4 / 1.8 TFSI בנזין, 1.4 / 1.6 / 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "GB",
+      "from": 2018,
+      "to": 2026,
+      "engines": "1.0 / 1.5 / 2.0 TFSI בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -7754,6 +8053,28 @@
       "cons": 13,
       "ncap": null,
       "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "ecosport",
+    "model": "EcoSport",
+    "he": "אקוספורט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "B515",
+      "from": 2012,
+      "to": 2022,
+      "engines": "1.0 EcoBoost / 1.5 / 1.6 / 2.0 בנזין, 1.5 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": 4,
+      "checks": 3
      }
     ]
    }
@@ -9369,6 +9690,28 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "v40",
+    "model": "V40",
+    "he": "V40",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "V40",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.5 / 1.6 / 2.0 / 2.5 טורבו בנזין, 1.6 / 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -10110,6 +10453,27 @@
       "cons": 7.8,
       "ncap": null,
       "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "adam",
+    "model": "Adam",
+    "he": "אדם",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Adam",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.0T / 1.2 / 1.4 / 1.4T בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.5,
+      "ncap": 4,
+      "checks": 2
      }
     ]
    }
@@ -12296,6 +12660,28 @@
       "cons": 12.5,
       "ncap": null,
       "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "orlando",
+    "model": "Orlando",
+    "he": "אורלנדו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "J309",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.4T / 1.8 / 2.4 בנזין, 1.6 / 2.0 דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": 5,
+      "checks": 3
      }
     ]
    }

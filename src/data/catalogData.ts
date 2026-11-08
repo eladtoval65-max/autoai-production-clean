@@ -380,6 +380,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "renault-clio",
+  "make": "Renault",
+  "model": "Clio",
+  "trim": "Evolution 1.0T CVT",
+  "bodyType": "hatchback",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 391,
+  "powerHp": 90,
+  "consumption": 5.8,
+  "price": 126990,
+  "priceMin": 124990,
+  "priceMax": 126990,
+  "sampleSize": null,
+  "newPrice": 124990,
+  "reliability": 72,
+  "safety": 64,
+  "economy": 78,
+  "comfort": 68,
+  "practicality": 64,
+  "insuranceMin": 358,
+  "insuranceMax": 515,
+  "why": "רכב סופר-מיני עם מנוע 1.0 טורבו בנזין, 90 כ\"ס ותיבה רציפה; צריכה מוצהרת 17.2 ק\"מ לליטר. תא מטען 391 ליטר — גדול לקטגוריה. דירוג Euro NCAP לא אומת.",
+  "pros": [
+   "תא מטען גדול לרכב בגודל הזה",
+   "מחיר כניסה נמוך",
+   "תיבה אוטומטית רציפה בגרסת הבסיס"
+  ],
+  "cons": [
+   "מנוע חלש יחסית (90 כ\"ס)",
+   "דירוג Euro NCAP לא אומת",
+   "צריכת דלק גבוהה מהיברידיים באותו מחיר"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il Renault Clio 2026 Evolution + carzone.co.il/Renault/Clio/2026 (2026-11-08)",
+  "bands": {
+   "7000": {
+    "fuel": 265,
+    "insurance": 441,
+    "maintenance": 167,
+    "depreciation": 1146,
+    "total": 2140
+   },
+   "15000": {
+    "fuel": 569,
+    "insurance": 441,
+    "maintenance": 190,
+    "depreciation": 1146,
+    "total": 2467
+   },
+   "25000": {
+    "fuel": 949,
+    "insurance": 441,
+    "maintenance": 213,
+    "depreciation": 1146,
+    "total": 2870
+   }
+  }
+ },
+ {
   "id": "hyundai-venue",
   "make": "Hyundai",
   "model": "Venue",
@@ -1844,6 +1905,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 134,
     "depreciation": 1667,
     "total": 2634
+   }
+  }
+ },
+ {
+  "id": "dacia-duster-hybrid",
+  "make": "Dacia",
+  "model": "Duster Hybrid",
+  "trim": "Adventure 1.8 Hybrid",
+  "bodyType": "suv",
+  "fuelType": "Hybrid",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 439,
+  "powerHp": 155,
+  "consumption": 4.7,
+  "price": 159990,
+  "priceMin": 149990,
+  "priceMax": 170990,
+  "sampleSize": null,
+  "newPrice": 149990,
+  "reliability": 74,
+  "safety": 58,
+  "economy": 88,
+  "comfort": 66,
+  "practicality": 78,
+  "insuranceMin": 399,
+  "insuranceMax": 574,
+  "why": "רכב פנאי משפחתי בהנעה היברידית מלאה: 1.8 בנזין ומנוע חשמלי, 155 כ\"ס ותיבה אוטומטית; צריכה מוצהרת 21.3 ק\"מ לליטר. תא מטען 439 ליטר. גרסת 1.2 טורבו היברידית עם הנעה כפולה מגיעה ל-₪170,990. דירוג Euro NCAP לא אומת.",
+  "pros": [
+   "מחיר נמוך לרכב פנאי היברידי בגודל הזה",
+   "חסכוני בדלק",
+   "תא מטען משפחתי"
+  ],
+  "cons": [
+   "דירוג Euro NCAP לא אומת",
+   "רמת גימור ואבזור בסיסיים יחסית",
+   "מותג תקציבי — ירידת ערך לא ידועה בגרסה ההיברידית"
+  ],
+  "confidence": 56,
+  "priceSource": "auto.co.il Dacia Duster 2026 + carzone.co.il Duster hybrid 2026 (2026-11-08)",
+  "bands": {
+   "7000": {
+    "fuel": 216,
+    "insurance": 492,
+    "maintenance": 176,
+    "depreciation": 1375,
+    "total": 2380
+   },
+   "15000": {
+    "fuel": 461,
+    "insurance": 492,
+    "maintenance": 200,
+    "depreciation": 1375,
+    "total": 2649
+   },
+   "25000": {
+    "fuel": 768,
+    "insurance": 492,
+    "maintenance": 224,
+    "depreciation": 1375,
+    "total": 2980
    }
   }
  },

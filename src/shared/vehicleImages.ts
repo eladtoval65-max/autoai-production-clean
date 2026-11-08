@@ -94,6 +94,9 @@ const MODELS: Record<string, [string, string]> = {
   // Batch 22 — Wikipedia lead image only
   "aygo x": ["Toyota Aygo X", ""],
   "hs hybrid": ["MG HS", ""],
+  // Batch 23 — Wikipedia lead image only
+  "duster": ["Dacia Duster", ""],
+  "clio": ["Renault Clio", ""],
 };
 
 const KEYS = Object.keys(MODELS).sort((a, b) => b.length - a.length);

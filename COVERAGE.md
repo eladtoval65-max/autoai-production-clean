@@ -200,3 +200,15 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] Grouping (owner): Mercedes CLA line holds the CLA EQ range (309,900–479,900); carzone now also lists a plain CLA 319,900–419,900. Audi Q3 / Q4 e-tron / Q5 / Q6 e-tron Sportback lines; MINI 3-door / electric hatch, Countryman electric; Land Rover Defender 90 / 130; Volvo XC40 vs EX40; Isuzu D-Max single / double cab
 - [ ] Porsche Cayenne EV / Cayenne EV Coupé, Taycan Sport / Cross Turismo, 911 Cabriolet (carzone); Mercedes GLE Coupé, AMG GT 4-door, Maybach, G-Class EQ; BMW M models, i5 / iX / 8 Series (cartube)
 - [ ] VW commercial (Caddy, Transporter, Crafter, ID. Buzz Cargo), Golf R (₪309,900 carzone)
+
+## Done 2026-11-08
+- [x] generations.ts (used market, 15): Kia Carens; Toyota Aygo, GT86; VW up!, Touran, Scirocco; Skoda Citigo; Hyundai Veloster; Audi A1; Volvo V40; Opel Adam; Mazda CX-7; Ford EcoSport; Chevrolet Orlando; Mitsubishi i-MiEV
+- [x] Catalog (batch 23): Dacia Duster Hybrid, Renault Clio
+- [ ] Catalog candidates skipped: Omoda 5 Hybrid (no Israeli list price; cartube Omoda list shows only 7 / 9), Hyundai i10 (no 2026 Israeli price list), Kia Sportage petrol (cartube marks 1.6T Premium "no longer marketed")
+
+## Queue — seen 2026-11-08, not yet covered
+- [ ] Kia Cerato / Forte (Wikipedia gives no overall years for gen 2 — skipped), Renault Laguna III, Peugeot Partner / Tepee, Seat Toledo IV (not researched yet)
+- [ ] Kia EV5 (₪198,900–219,900, both sources); Leapmotor B05 (₪139,900, both); XPENG L03 (carzone 179,990 vs cartube 169,990–184,990)
+- [ ] Alfa Romeo Tonale (carzone 249,990–294,900 vs cartube 229,000–269,000); MINI Cabrio (carzone 266,900–321,900 vs cartube 243,000–353,000)
+- [ ] Chevrolet Traverse (sources differ), Blazer EV (₪389,990 both), Savana / Silverado HD (commercial; differ); Ford F-250 / F-350, E-Transit
+- [ ] Kia EV6: cartube "no longer marketed", carzone brand page doesn't list it → candidate discontinued (one more confirmation)
