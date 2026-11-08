@@ -170,7 +170,7 @@
             }
           },
           {
-            "he": "תקלות מולטימדיה וניווט הן התלונה הנפוצה ביותר — לבדוק מסך, מראה חכמה ובלוטות׳ ולוודא שעודכנה תוכנה",
+            "he": "תקלות מולטימדיה וניווט הן התחום הבעייתי הנפוץ ביותר (31% מהתקלות בסקר What Car?) — לבדוק מסך, ניווט ובלוטות׳ ולוודא שהתוכנה עודכנה",
             "level": "widely_reported",
             "source": {
               "title": "What Car? — Used Skoda Octavia 2020–present reliability",
@@ -184,6 +184,14 @@
             "source": {
               "title": "autohaus.de — Škoda ruft Kodiaq, Karoq, Octavia, Superb zurück: Lenkungsverschraubung, KBA 17091R, Code 48LS (02.10.2026)",
               "url": "https://www.autohaus.de/automarken/rueckrufe/fehlerhafte-schraube-in-der-lenkung-skoda-ruft-auch-millionenfach-zurueck-3912282"
+            }
+          },
+          {
+            "he": "דווח על כשל במשאבת המים שהוביל לתיקון יקר — לבדוק סימני דליפת נוזל קירור ולבקש היסטוריית טיפולים",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Skoda Octavia 2020–present reliability",
+              "url": "https://www.whatcar.com/skoda/octavia/hatchback/used-review/n23452/advice"
             }
           }
         ],
