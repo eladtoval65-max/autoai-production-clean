@@ -1,0 +1,85 @@
+<!-- Before/after mock scaffold — neutral palette, light + dark themes.
+     Copy this, set <title>, swap the tokens below for the product's own (fonts, colors,
+     and `dir` if the product is right-to-left), fill the rows, then publish or open it.
+     Keep in sync with the project's design tokens if the palette moves. -->
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Before and after</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+/>
+<style>
+  :root {
+    --ground: #f5f5f3; --surface: #ffffff; --surface-2: #ececea;
+    --ink: #1f2023; --muted: #6a6c72; --faint: #9a9ca2; --hair: #dedfe2;
+    --accent: #3a5bd9; --accent-soft: #e6ebfb; --dynamic: #b7791f;
+    --before: #9a5b4a; --before-soft: #f3e8e4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #141518; --surface: #1c1d21; --surface-2: #25262b;
+      --ink: #ecedf0; --muted: #a6a8ae; --faint: #7a7c82; --hair: #33353a;
+      --accent: #8fa6f2; --accent-soft: #232a45; --dynamic: #e0b25a;
+      --before: #d29a88; --before-soft: #2e2320;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #141518; --surface: #1c1d21; --surface-2: #25262b;
+    --ink: #ecedf0; --muted: #a6a8ae; --faint: #7a7c82; --hair: #33353a;
+    --accent: #8fa6f2; --accent-soft: #232a45; --dynamic: #e0b25a;
+    --before: #d29a88; --before-soft: #2e2320;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font-family: "Inter", system-ui, sans-serif; line-height: 1.6;
+    padding: clamp(1.25rem, 4vw, 3rem) 1rem 4rem;
+  }
+  .wrap { max-width: 42rem; margin: 0 auto; }
+  .eyebrow { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.5rem; }
+  h1 { font-size: clamp(1.7rem, 5vw, 2.35rem); font-weight: 800; letter-spacing: -0.01em; line-height: 1.15; text-wrap: balance; margin: 0 0 1.6rem; }
+  .sec-head { display: flex; align-items: baseline; gap: 0.6rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--hair); margin: 2.4rem 0 1.3rem; }
+  .sec-tag { font-size: 0.78rem; font-weight: 700; color: var(--surface); background: var(--accent); border-radius: 999px; padding: 0.12rem 0.62rem; }
+  .sec-head h2 { font-size: 1.15rem; font-weight: 700; margin: 0; }
+  .rows { display: flex; flex-direction: column; gap: 0.7rem; }
+  .row { background: var(--surface); border: 1px solid var(--hair); border-radius: 12px; padding: 0.95rem 1.05rem 1.05rem; }
+  .ctx { font-size: 0.78rem; font-weight: 600; color: var(--muted); margin: 0 0 0.65rem; }
+  .pair { display: flex; flex-direction: column; gap: 0.55rem; }
+  .line { display: grid; grid-template-columns: 3.6rem 1fr; align-items: start; gap: 0.7rem; }
+  .tag { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; text-align: center; border-radius: 6px; padding: 0.16rem 0; }
+  .tag.before { color: var(--before); background: var(--before-soft); }
+  .tag.after { color: var(--accent); background: var(--accent-soft); }
+  .txt { font-size: 1.02rem; overflow-wrap: anywhere; }
+  .before .txt { color: var(--muted); }
+  .after .txt { color: var(--ink); font-weight: 600; }
+  .dyn { color: var(--dynamic); font-weight: 700; } /* example/computed value — say so once */
+  .kept { background: var(--surface-2); border: 1px dashed var(--hair); border-radius: 12px; padding: 0.9rem 1.05rem; font-size: 0.92rem; color: var(--muted); margin-top: 1rem; }
+  .kept b { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Ticket · copy changes</p>
+  <h1>Before and after</h1>
+
+  <div class="sec-head"><span class="sec-tag">Screen</span><h2>Screen name</h2></div>
+  <div class="rows">
+    <div class="row">
+      <p class="ctx">Where it lives — screen · component</p>
+      <div class="pair">
+        <div class="line before"><span class="tag before">Before</span><div class="txt">The current string</div></div>
+        <div class="line after"><span class="tag after">After</span><div class="txt">The new string, with <span class="dyn">3 items</span> as an example value</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="kept">Intentionally kept: <b>what did not change, and why</b>.</div>
+</div>
+</body>
+</html>

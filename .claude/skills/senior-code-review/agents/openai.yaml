@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Code Review"
+  short_description: "Find real bugs, logic flaws, and unhappy-path regressions in rounds"
+  default_prompt: "Use $senior-code-review to review the current changes like a senior engineer, in rounds until a round finds 0 Critical/High and fewer than 3 Medium."

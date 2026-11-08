@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Work"
+  short_description: "Run the Definition of Done: docs, ledgers, tracker, verified push"
+  default_prompt: "Use $document-work to bring docs, ledgers and issue tracking in line with the change just made before calling it done."
