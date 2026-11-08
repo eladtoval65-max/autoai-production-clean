@@ -10,7 +10,7 @@ export const card = "rounded-2xl border border-line bg-white shadow-[var(--shado
 export const btnGhost = "inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-line bg-white px-4 text-[15px] font-bold text-ink hover:border-ink";
 
 /** Primary action: solid green pill (green is reserved for actions and money). */
-export const btnPrimary = "inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-go px-5 text-[15px] font-bold text-white hover:bg-go-deep";
+export const btnPrimary = "inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-pop px-5 text-[15px] font-extrabold text-ink shadow-[0_6px_18px_-6px_rgba(255,122,26,.6)] hover:bg-pop-deep";
 
 /** Standard form field. */
 export const field = "mt-1 block min-h-11 w-full rounded-xl border border-line bg-white px-3 text-[16px] outline-none focus:border-go";

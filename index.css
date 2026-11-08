@@ -1,4 +1,10 @@
-/* AutoAI — clean international car-comparison look: white ground, big photos, one savings-green action. */
+/* כמה עולה — social-poster look: heavy Heebo headlines, mint "כמה עולה?" sticker, orange call-to-action, deep-green poster hero. */
+@import "@fontsource/heebo/hebrew-800.css";
+@import "@fontsource/heebo/hebrew-900.css";
+@import "@fontsource/heebo/latin-800.css";
+@import "@fontsource/heebo/latin-900.css";
+@import "@fontsource/fredoka/hebrew-600.css";
+@import "@fontsource/fredoka/latin-600.css";
 @import "@fontsource/rubik/hebrew-500.css";
 @import "@fontsource/rubik/hebrew-600.css";
 @import "@fontsource/rubik/hebrew-700.css";
@@ -17,7 +23,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-display: "Rubik", "Assistant", system-ui, sans-serif;
+  --font-display: "Heebo", "Rubik", "Assistant", system-ui, sans-serif;
+  --font-brand: "Fredoka", "Heebo", system-ui, sans-serif; /* sticker wordmark only */
   --font-sans: "Assistant", system-ui, sans-serif;
 
   --color-page: #ffffff;
@@ -30,6 +37,11 @@
   --color-go-soft: #e3f4ec;
   --color-gap: #b4bcc7;        /* "missing" outline */
   --color-alert: #c2410c;
+  --color-pop: #ff7a1a;        /* orange call-to-action (ink text on it: 6.8:1) */
+  --color-pop-deep: #f26a05;
+  --color-mint: #cff3e3;       /* brand sticker */
+  --color-deep: #062b22;       /* poster hero ground */
+  --color-sun: #ffc24b;        /* headline emphasis on dark */
 
   --color-background: var(--color-page);
   --color-foreground: var(--color-ink);
@@ -60,7 +72,8 @@
   button, input, select, textarea { font-family: inherit; font-size: inherit; color: inherit; }
   button { cursor: pointer; }
   button:disabled { cursor: not-allowed; }
-  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.015em; text-wrap: balance; margin: 0; }
+  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 800; letter-spacing: -0.02em; text-wrap: balance; margin: 0; }
+  h1 { font-weight: 900; letter-spacing: -0.03em; }
   p { text-wrap: pretty; }
   a { color: var(--color-go); text-underline-offset: 3px; }
   :focus-visible { outline: 3px solid var(--color-go); outline-offset: 2px; }
@@ -87,3 +100,8 @@
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Poster hero: our car drives in once. Off for people who prefer reduced motion. */
+@keyframes drive-in { from { opacity: 0; transform: translateX(-60px); } to { opacity: 1; transform: none; } }
+.poster-car { animation: drive-in 900ms cubic-bezier(.2,.8,.2,1) both 150ms; }
+@media (prefers-reduced-motion: reduce) { .poster-car { animation: none; } }

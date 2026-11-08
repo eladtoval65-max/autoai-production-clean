@@ -34,7 +34,7 @@ export function CarSearch({ className = "" }: { className?: string }) {
               else if (e.key === "Enter" && hits[active]) { e.preventDefault(); go(hits[active].href); }
               else if (e.key === "Escape") setQ("");
             }}
-            placeholder="קורולה, טוסון, מאזדה 3, Model Y…" className="min-h-14 w-full rounded-full border border-line bg-white ps-12 pe-5 text-[17px] shadow-[var(--shadow-card)] outline-none focus:border-go" />
+            placeholder="קורולה, טוסון, מאזדה 3, Model Y…" className="min-h-14 w-full rounded-full border border-line bg-white ps-12 pe-5 text-[17px] text-ink shadow-[var(--shadow-card)] outline-none focus:border-go" />
         </span>
       </label>
       {hits.length > 0 && (
