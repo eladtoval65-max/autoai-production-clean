@@ -1,6 +1,6 @@
 {
   "make": "mg",
-  "updated": "2026-11-06",
+  "updated": "2026-11-08",
   "models": {
     "zs": {
       "ZS (Gen1)": {
@@ -27,7 +27,13 @@
               "url": "https://www.autokostencheck.de/MG/MG-ZS/ZS/mg-zs-1-5-szs1_50188/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://justbritish.com/?p=18706",
+          "note": "3 כוכבים (Euro NCAP, 2017); מקור: JustBritish"
+        }
       },
       "ZS Hybrid+": {
         "engines": [
@@ -356,7 +362,13 @@
               "url": "https://www.autoexpress.co.uk/mg/mg3/362988/mg3-review"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/mg-3-receives-four-stars---but-suffers-rare-and-serious-seat-failure-in-euro-ncap-crash-test/s/46f3e289-092b-43bc-b166-b306b72d724f",
+          "note": "4 כוכבים (Euro NCAP, 2025); מקור: Euro NCAP — כולל כשל חמור במושב בניסוי"
+        }
       }
     },
     "mg5": {

@@ -270,7 +270,13 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-A4/A4/a4-2-0-tfsi-b8_41829/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.autocarpro.in/news-international/euro-ncap-awards-star-safety-rating-audi-a4-2015-9630",
+          "note": "5 כוכבים (Euro NCAP, 2015); מקור: Autocar Professional"
+        }
       }
     },
     "q3": {
@@ -497,7 +503,13 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-Q5/Q5/q5-2-0-tfsi-quattro-fy_45239/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.caradvice.com.au/news/2017-audi-q5-gets-five-star-euroncap-rating-others-fare-worse/",
+          "note": "5 כוכבים (Euro NCAP, 2017); מקור: CarAdvice"
+        }
       },
       "Gen3": {
         "issues": [
@@ -583,7 +595,13 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-Q2/Q2/q2-1-0-tfsi-ga_45229/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://www.caradvice.com.au/news/euro-ncap-audi-q2-a5-ford-edge-hyundai-ioniq-peugeot-3008-score-five-stars-for-safety/",
+          "note": "5 כוכבים (Euro NCAP, 2016); מקור: CarAdvice"
+        }
       }
     },
     "q7": {
@@ -707,7 +725,13 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-A6/A6-Limousine/a6-2-0-tfsi-quattro-4g_40127/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6437/euroncap_audi_a6_2011_5stars.pdf",
+          "note": "5 כוכבים (Euro NCAP, 2011); מקור: גיליון הנתונים של Euro NCAP (A6 2011, 5 כוכבים)"
+        }
       },
       "C8": {
         "issues": [
@@ -733,7 +757,13 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-A6/A6-Avant/a6-avant-40-tfsi-f2_48565/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://www.carshowroom.com.au/news/five-star-euro-ncap-for-audi-a6",
+          "note": "5 כוכבים (Euro NCAP, 2018); מקור: CarShowroom"
+        }
       },
       "C9": {
         "issues": [
@@ -872,6 +902,12 @@
             "title": "cartube — 2017 אודי A5 החדשה בישראל – מחיר החל מ-359,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-אודי-a5-החדשה-בישראל-–-מחיר-החל-מ-359900-שקל"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://www.caradvice.com.au/news/euro-ncap-audi-q2-a5-ford-edge-hyundai-ioniq-peugeot-3008-score-five-stars-for-safety/",
+          "note": "5 כוכבים (Euro NCAP, 2016); מקור: CarAdvice"
         }
       },
       "B8 (8T)": {
@@ -1509,6 +1545,12 @@
             "title": "auto.co.il — אודי A1 בישראל: מ-149 אלף שקל (20.02.2019)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/131756/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/find-a-car/audi-a1/s/2aff10d4-11b2-440a-add1-a6d1c9078c7c",
+          "note": "5 כוכבים (Euro NCAP, 2019); מקור: Euro NCAP"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "c3": {
       "Gen3": {
@@ -276,7 +276,13 @@
               "url": "https://www.autokostencheck.de/Citroen/Citroen-C4/C4/c4-1-6-hdi-n_35909/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://cdn.carshowroom.com.au/news/five-star-safety-for-new-citroen-c4/",
+          "note": "5 כוכבים (Euro NCAP, 2010); מקור: CarShowroom"
+        }
       }
     },
     "c5-aircross": {

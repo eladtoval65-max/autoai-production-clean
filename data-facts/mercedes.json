@@ -404,7 +404,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/28-Mercedes-Benz/262-E-Klasse.html?fueltype=2&vehicletype=1&constyear_s=2009&constyear_e=2013&power_s=130&power_e=140&gearing=2"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.caradvice.com.au/50016/mercedes-benz-e-class-achieves-five-star-euroncap-rating/",
+          "note": "5 כוכבים (Euro NCAP, 2009); מקור: CarAdvice"
+        }
       },
       "W213": {
         "issues": [
@@ -448,7 +454,13 @@
               "url": "https://www.autokostencheck.de/Mercedes/Mercedes-E-Klasse/E-200/e-200-t-modell-r1es_44966/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2016,
+          "url": "https://www.carwale.com/news/euro-ncap-awards-5-star-rating-to-e-class/",
+          "note": "5 כוכבים (Euro NCAP, 2016); מקור: CarWale"
+        }
       },
       "W214": {
         "issues": [
@@ -552,7 +564,13 @@
               "url": "https://www.autokostencheck.de/Mercedes/Mercedes-GLA-Klasse/GLA-200/gla-200-245-g_38491/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://cdn.euroncap.com/media/4703/euroncap_mercedes-benz_gla-class_2014_5stars.pdf",
+          "note": "5 כוכבים (Euro NCAP, 2014); מקור: גיליון הנתונים של Euro NCAP (GLA 2014, 5 כוכבים)"
+        }
       },
       "H247": {
         "issues": [
@@ -629,7 +647,13 @@
               "url": "https://www.autokostencheck.de/Mercedes/Mercedes-GLC-Klasse/GLC-250/glc-250-coupe-4matic-204-x_44981/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.autocarindia.com/car-news-amp/mercedes-glc-399155",
+          "note": "5 כוכבים (Euro NCAP, 2015); מקור: Autocar India"
+        }
       },
       "X254": {
         "issues": [
@@ -726,7 +750,13 @@
               "url": "https://www.autokostencheck.de/Mercedes/Mercedes-CLA-Klasse/CLA-250/cla-250-coupe-117_37073/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://autoexpress.co.uk/mercedes/cla/66558/mercedes-cla-gets-five-star-euro-ncap-rating",
+          "note": "5 כוכבים (Euro NCAP, 2013); מקור: Auto Express"
+        }
       },
       "C118": {
         "issues": [
@@ -1733,7 +1763,13 @@
               "url": "https://www.autocentrum.pl/spalanie/mercedes/klasa-g/w463/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/mercedes-benz-g-class---euro-ncap-2019-results---5-stars/s/bfe1fe80-3b1e-4ff1-abb9-34fece09da22",
+          "note": "5 כוכבים (Euro NCAP, 2019); מקור: Euro NCAP"
+        }
       },
       "W463": {
         "issues": [

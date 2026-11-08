@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "3-series": {
       "E90": {
@@ -669,7 +669,13 @@
               "url": "https://www.auto-abc.eu/info/real-fuel-consumption/BMW-X1"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.bimmertoday.de/2009/11/26/bmw-x1-e84-erhalt-funf-sterne-im-euro-ncap-crashtest",
+          "note": "5 כוכבים (Euro NCAP, 2009); מקור: BimmerToday"
+        }
       },
       "U11": {
         "issues": [
@@ -784,7 +790,13 @@
               "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X3/bmwxdrive-20i-x3_36306/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6455/euroncap_bmw_x3_2011_5stars.pdf",
+          "note": "5 כוכבים (Euro NCAP, 2011); מקור: גיליון הנתונים של Euro NCAP (X3 2011, 5 כוכבים)"
+        }
       },
       "G01": {
         "issues": [
@@ -828,7 +840,13 @@
               "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X3/x3-20i-xdrive-g3x_46762/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.bimmertoday.de/2017/11/30/euro-ncap-crashtest-2017-bmw-x3-g01-holt-5-sterne",
+          "note": "5 כוכבים (Euro NCAP, 2017); מקור: BimmerToday"
+        }
       },
       "G45": {
         "issues": [
@@ -945,7 +963,13 @@
               "url": "https://www.autokostencheck.de/BMW/BMW-5er/528/528i-5l-f10_34030/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://www.caradvice.com.au/news/2010-bmw-5-series-achieves-five-star-euro-ncap-rating/",
+          "note": "5 כוכבים (Euro NCAP, 2010); מקור: CarAdvice"
+        }
       },
       "G60": {
         "issues": [
@@ -1083,7 +1107,13 @@
               "url": "https://www.autokostencheck.de/BMW/BMW-X-Modelle/X5/x5-xdrive-40i-g5x_46937/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://www.bmwblog.com/2018/12/05/bmw-x5-g05-five-stars-in-the-euro-ncap-crash-test/",
+          "note": "5 כוכבים (Euro NCAP, 2018); מקור: BMWBlog"
+        }
       }
     },
     "x2": {
@@ -1172,7 +1202,13 @@
               "url": "https://www.autocentrum.pl/spalanie/bmw/x2/u10/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://news.euroncap.com/safercars/bmw-x2---euro-ncap-2022-results---5-stars/s/556dcb0b-9131-43c9-b08b-f2ffe422eb74",
+          "note": "5 כוכבים (Euro NCAP, 2022); מקור: Euro NCAP — הדירוג של ה-X1 (U11) מ-2022 הוחל על ה-X2"
+        }
       }
     },
     "i4": {
@@ -1260,6 +1296,12 @@
             "title": "auto.co.il — ב.מ.וו סדרה 2 החדשה - מ-249 אלף שקל (16.03.2020)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/133500/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/bmw-2-series-gran-coup----euro-ncap-2019-results---5-stars/s/2fd3acf2-9d56-4e0f-9a27-cccd3f274c8b",
+          "note": "5 כוכבים (Euro NCAP, 2019); מקור: Euro NCAP"
         }
       },
       "F74": {

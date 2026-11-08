@@ -136,7 +136,13 @@
               "url": "https://www.autokostencheck.de/Opel/Opel-Corsa/Corsa-(D)/corsa-d-1-4-s-d_34767/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2006,
+          "url": "https://www.autozine.nl/opel/corsa-2006-2014/nieuws/5-sterren-voor-opel-corsa-bij-euroncap",
+          "note": "5 כוכבים (Euro NCAP, 2006); מקור: Autozine — שיטת הדירוג הישנה (לפני 2009), כוכבים להגנת נוסעים מבוגרים"
+        }
       },
       "Corsa E": {
         "issues": [
@@ -328,7 +334,13 @@
               "url": "https://www.autokostencheck.de/Opel/Opel-Astra/Astra-(J)/astra-j-1-6-p-j_37256/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://www.euroncap.com/en/results/opel/vauxhall/astra/11052",
+          "note": "5 כוכבים (Euro NCAP, 2009); מקור: Euro NCAP"
+        }
       },
       "Astra L": {
         "issues": [

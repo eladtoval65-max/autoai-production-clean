@@ -80,7 +80,13 @@
               "url": "https://www.autokostencheck.de/Volvo/Volvo-XC60/XC60-II/xc60-t5-awd-u_47056/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.autocarindia.com/car-news-amp/new-volvo-xc60-gets-five-star-euro-ncap-rating-406520",
+          "note": "5 כוכבים (Euro NCAP, 2017); מקור: Autocar India"
+        }
       }
     },
     "xc40": {
@@ -139,7 +145,13 @@
               "url": "https://de.motor1.com/reviews/505554/volvo-xc40-t5-pluginhybrid-verbrauchstest/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2018,
+          "url": "https://www.autocarindia.com/car-news-amp/volvo-xc40-gets-five-star-rating-in-euro-ncap-409081",
+          "note": "5 כוכבים (Euro NCAP, 2018); מקור: Autocar India"
+        }
       },
       "EX40 (XC40 Recharge)": {
         "issues": [
@@ -328,7 +340,13 @@
               "url": "https://www.autokostencheck.de/Volvo/Volvo-XC90/XC90-II/xc90-2-0-d5-awd-l_39966/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.volvocars.com/uk/media/press-releases/FECFEA8B8DC39BC9/",
+          "note": "5 כוכבים (Euro NCAP, 2015); מקור: הודעת Volvo UK"
+        }
       }
     },
     "ex30": {
@@ -747,6 +765,12 @@
             "title": "icar — וולוו C40 בישראל: מ-280,000 שקלים (19.4.2022)",
             "url": "https://www.icar.co.il/רכב-חשמלי/וולוו_C40_בישראל:_מ-280,000_שקלים/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://insideevs.com/news/588028/volvo-c40-recharge-5star-euro-ncap/",
+          "note": "5 כוכבים (Euro NCAP, 2022); מקור: InsideEVs"
         }
       }
     },

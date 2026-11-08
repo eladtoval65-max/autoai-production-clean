@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "nx": {
       "AZ10": {
@@ -35,7 +35,13 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/26-Lexus/1462-NX300h.html"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://www.lexus.eu/discover-lexus/safety/nx-awarded-five-star-euro-ncap-rating",
+          "note": "5 כוכבים (Euro NCAP, 2014); מקור: Lexus Europe"
+        }
       },
       "AZ20": {
         "issues": [

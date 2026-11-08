@@ -1,6 +1,6 @@
 {
   "make": "tesla",
-  "updated": "2026-10-31",
+  "updated": "2026-11-08",
   "models": {
     "model-3": {
       "Gen1": {
@@ -378,7 +378,13 @@
               "url": "https://ev-database.org/car/1194/Tesla-Model-S-Long-Range"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://ir.tesla.com/press-release/model-s-achieves-euro-ncap-5-star-safety-rating",
+          "note": "5 כוכבים (Euro NCAP, 2014); מקור: הודעת Tesla"
+        }
       }
     },
     "model-x": {

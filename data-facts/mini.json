@@ -1,6 +1,6 @@
 {
   "make": "mini",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "models": {
     "hatch": {
       "R56": {
@@ -133,6 +133,12 @@
             "title": "cartube — מיני קופר החדשה 2014 בישראל – מחיר החל מ-165,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/מיני-קופר-החדשה-2014-בישראל-–-מחיר-החל-מ-165,000-שקל"
           }
+        },
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://www.bmwblog.com/2014/12/03/euro-ncap-4-stars-mini-cooper/",
+          "note": "4 כוכבים (Euro NCAP, 2014); מקור: BMWBlog"
         }
       },
       "J01 (חשמלי)": {
