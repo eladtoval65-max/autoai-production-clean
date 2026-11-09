@@ -839,7 +839,16 @@
               "url": "https://www.spritmonitor.de/de/uebersicht/19-Hyundai/182-Elantra.html?fueltype=2&vehicletype=1&constyear_s=2011&constyear_e=2015&power_s=93&power_e=103&gearing=1"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 120000,
+          "year": 2011,
+          "note": "רמת גימור Inspire, 1.6 בנזין 132 כ״ס אוטומטית (שווקה כ-i35)",
+          "source": {
+            "title": "auto.co.il — יונדאי i35: החל השיווק בישראל (13.07.2011)",
+            "url": "https://www.auto.co.il/articles/car-news/116706/"
+          }
+        }
       }
     },
     "kona": {

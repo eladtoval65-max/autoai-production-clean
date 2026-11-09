@@ -852,7 +852,13 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/fluence/1generation/224355/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6715/euroncap_renault_fluence_ze_2011_4stars.pdf",
+          "note": "נבדקה גרסת ה-Z.E. החשמלית (2011) — 4 כוכבים; גרסת הבנזין לא נבדקה בנפרד"
+        }
       }
     },
     "kadjar": {

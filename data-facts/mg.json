@@ -363,7 +363,13 @@
               "url": "https://www.dev.honestjohn.co.uk/realmpg/mg/3-2013/15"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2014,
+          "url": "https://news.euroncap.com/safercars/euro-ncap-latest-round-of-crash-tests/s/fbf01042-e1d7-4aef-9c8f-60e6aea4c9c3",
+          "note": "3 כוכבים (Euro NCAP, יוני 2014)"
+        }
       },
       "Gen3": {
         "issues": [
