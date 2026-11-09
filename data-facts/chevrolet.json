@@ -259,6 +259,15 @@
               "title": "NHTSA 19V652 — דוח ריקול GM (Trax 2015–2018)",
               "url": "https://static.nhtsa.gov/odi/rcl/2019/RCLRPT-19V652-1563.PDF"
             }
+          },
+          {
+            "he": "ריקול: בתנאי נהיגה מסוימים בדיקה עצמית של המערכת עלולה למנוע פתיחת כריות האוויר הקדמיות ומותחני החגורות בתאונה. התיקון: עדכון תוכנה (ובהמשך תיקון משלים 17V437) — לוודא ששניהם בוצעו.",
+            "level": "recall",
+            "scope": "2014–2017, ריקול GM בארה״ב (NHTSA 16V651) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarWhere — Chevrolet Trax recalls: NHTSA 16V651000 and 17V437000 (air bags)",
+              "url": "https://www.carwhere.com/recalls/chevrolet/trax"
+            }
           }
         ],
         "engines": [

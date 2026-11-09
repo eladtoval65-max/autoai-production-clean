@@ -703,6 +703,15 @@
               "title": "What Car? — Used Volkswagen Tiguan 2024–present review",
               "url": "https://www.whatcar.com/volkswagen/tiguan/4x4/used-review/n29000"
             }
+          },
+          {
+            "he": "ריקול: ידית כוונון גובה המושב הקדמי עלולה לשחוק את חגורת הבטיחות, והחגורה עלולה להיקרע בתאונה. התיקון: החלפת ידיות הכוונון בשני המושבים — לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 2024, 2,605 רכבים בעולם (KBA 14606R)",
+            "source": {
+              "title": "car-recalls.eu — Volkswagen Tiguan seat belts can tear during accident (KBA 14606R, VW 72DV)",
+              "url": "https://car-recalls.eu/sk/volksvagen-tiguan-seat-belts-can-tear-during-accident-kba/"
+            }
           }
         ],
         "engines": [

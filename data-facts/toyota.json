@@ -722,6 +722,15 @@
               "title": "car-recalls.eu — Toyota C-HR (2022–2025) display failure",
               "url": "https://car-recalls.eu/recall/toyota-c-hr-2022-2025-display-failure/amp/"
             }
+          },
+          {
+            "he": "ריקול: תקלה ביחידת חיישני החניה עלולה לגרום לרכב, במצב חניה מרחוק, להכניס להילוך ולשחרר בלמים בלי שהשלט הופעל. התיקון: עדכון תוכנה — לוודא שבוצע בגרסאות עם חניה אוטומטית.",
+            "level": "recall",
+            "scope": "שנתון 2023, רמות גימור עם חבילת בטיחות מתקדמת (חניה מרחוק); 7,794 רכבים (KBA)",
+            "source": {
+              "title": "car-recalls.eu — Toyota C-HR intelligent parking assist fault (KBA, Toyota 23SD-153)",
+              "url": "https://car-recalls.eu/sk/Porucha-inteligentn%C3%A9ho-parkovacieho-asistenta-Toyota-C-HR--KBA/"
+            }
           }
         ],
         "engines": [

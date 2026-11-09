@@ -240,12 +240,12 @@
       "F15": {
         "issues": [
           {
-            "he": "מתיחת שרשרת תזמון במנוע 1.6 DIG-T טורבו — ברכב עם קילומטראז׳ גבוה לבקש הוכחה להחלפת שרשרת ולהקשיב לרעשים",
-            "level": "widely_reported",
-            "scope": "1.6 DIG-T",
+            "he": "מתיחת שרשרת התזמון עלולה לגרום לרעש מכיסוי השרשרת; ניסאן פרסמה עלון שירות להחלפת השרשרת. ברכב עם קילומטראז׳ גבוה — להקשיב לרעשים בהתנעה ולבקש הוכחה לטיפול.",
+            "level": "manufacturer",
+            "scope": "2011–2013, 1.6 DIG-T (עלון ניסאן בארה״ב TSB 14-030D)",
             "source": {
-              "title": "Parkers — Nissan Juke (2010–2019) used review",
-              "url": "https://parkers.co.uk/nissan/juke/suv-2010/used-review"
+              "title": "Cars.com — 2011-2013 Nissan Juke timing chain issue (Nissan TSB 14-030D)",
+              "url": "https://www.cars.com/articles/2011-2013-nissan-juke-timing-chain-issue-1420684822420"
             }
           },
           {
@@ -1007,6 +1007,15 @@
               "title": "NHTSA — Part 573 Safety Recall Report 26V188 (2026 LEAF, battery cell)",
               "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V188-8548.pdf"
             }
+          },
+          {
+            "he": "ריקול בארה״ב (2026): נזק פנימי במודולי סוללת המתח הגבוה עלול לגרום לקצר ולשריפה; עד התיקון הומלץ לחנות בחוץ ולא לטעון. התיקון: החלפת מודולים או סוללה — לוודא לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "שנתון 2026, ריקול בארה״ב (Nissan R25F1) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "FOX 35 — Nissan recalling certain 2026 Leaf models due to battery fire risk (April 2026)",
+              "url": "https://www.fox35orlando.com/news/nissan-recalling-certain-2026-leaf-models-due-battery-fire-risk-advises-owners-park-outside"
+            }
           }
         ],
         "engines": [
@@ -1059,6 +1068,15 @@
             "source": {
               "title": "CarComplaints — 2013 Nissan Sentra problems (141 transmission complaints)",
               "url": "https://m.carcomplaints.com/Nissan/Sentra/2013"
+            }
+          },
+          {
+            "he": "ריקול: מערכת זיהוי הנוסע במושב הקדמי עלולה לא לזהות מבוגר ולנטרל את כרית האוויר של הנוסע. לוודא מול היבואן שהקריאה בוצעה ושנורית 'כרית נוסע כבויה' לא דולקת כשמבוגר יושב.",
+            "level": "recall",
+            "scope": "2013–2014, ריקול בארה״ב (NHTSA 14V138) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarComplaints — 2013 Nissan Sentra recalls (NHTSA 14V138000, occupant classification system)",
+              "url": "https://www.carcomplaints.com/Nissan/Sentra/2013/recalls/index.shtml"
             }
           }
         ],

@@ -1230,6 +1230,15 @@
               "title": "ConceptCarz — 2020 Hyundai Venue recall, NHTSA 22V458000 (front seat belt pretensioners)",
               "url": "https://www.conceptcarz.com/recall/30086/Hyundai-Venue.aspx"
             }
+          },
+          {
+            "he": "ריקול באוסטרליה (2019): אומי הגלגלים אולי לא הודקו כראוי במפעל והגלגל עלול להשתחרר. ברכב משומש: לוודא שהקריאה בוצעה ולבדוק הידוק אומים ורעשים מהגלגלים.",
+            "level": "recall",
+            "scope": "רכבים שנמכרו באוסטרליה 7–8.2019 (קמפיין 91C064) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Hyundai QX Venue (2019-on)",
+              "url": "https://www.australiancar.reviews/?p=47088"
+            }
           }
         ],
         "engines": [
@@ -1283,6 +1292,15 @@
             "source": {
               "title": "What Car? — Used Hyundai Kona Electric 2018-2023 reliability (owner survey)",
               "url": "https://www.whatcar.com/hyundai/kona-electric/hatchback/used-review/n22559/reliability"
+            }
+          },
+          {
+            "he": "ריקול עולמי (2026): תוכנת ניהול הסוללה עלולה לא לזהות בזמן חוסר יציבות תרמית בסוללת המתח הגבוה — סיכון לשריפה. התיקון: עדכון תוכנה, ובחלק מהמקרים החלפת הסוללה. לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "ייצור 24.1.2018–15.7.2023, כ-104 אלף רכבים בעולם (KBA)",
+            "source": {
+              "title": "electrive — Hyundai recalls over 100,000 Kona Electric vehicles (KBA, March 2026)",
+              "url": "https://www.electrive.com/2026/03/20/hyundai-recalls-over-100000-kona-electric-vehicles/)"
             }
           }
         ],
@@ -1969,6 +1987,15 @@
               "title": "NHTSA — Part 573 Safety Recall Report 26V588 (2026 IONIQ 9, 2nd-row power seat)",
               "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V588-0403.pdf"
             }
+          },
+          {
+            "he": "ריקול בארה״ב: פס צבירה (bus bar) בסוללת המתח הגבוה אולי לא הודק כראוי ועלול לגרום לקצר. התיקון: בדיקה והידוק הברגים — לוודא לפי מספר שלדה שבוצע.",
+            "level": "recall",
+            "scope": "שנתון 2026, ריקול בארה״ב (NHTSA 26V068) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ClearVIN — 2026 Hyundai IONIQ 9 recalls (NHTSA 26V068000, HV battery bus bar)",
+              "url": "https://www.clearvin.com/car-recalls/hyundai/ioniq-9/2026/"
+            }
           }
         ],
         "engines": [
@@ -2310,6 +2337,15 @@
             "source": {
               "title": "VehicleSafetyRecalls — NHTSA Recall 21V301000 (Hyundai 2.0L Nu MPI piston oil rings)",
               "url": "https://vehiclesafetyrecalls.com/recall/21V301000"
+            }
+          },
+          {
+            "he": "ריקול בארה״ב (2026): תקלת תוכנה ביחידת בקרת כריות האוויר עלולה להדליק את נורית כרית האוויר ולנטרל את המערכת. התיקון: עדכון תוכנה — אם נורית כרית האוויר דולקת, לבדוק לפני קנייה.",
+            "level": "recall",
+            "scope": "Veloster N 2019–2022 (NHTSA 26V728) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Electrek — Hyundai recalling nearly 30,000 Kona EVs (and Veloster N) over airbag defect, NHTSA 26V728",
+              "url": "https://electrek.co/2026/11/05/hyundai-recalling-nearly-30000-kona-evs-airbag-defect/"
             }
           }
         ],
