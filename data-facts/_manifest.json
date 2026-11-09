@@ -943,7 +943,7 @@
     "he": "סנטה פה",
     "status": "on_sale",
     "price": [
-     329990,
+     319990,
      359990
     ],
     "gens": [
@@ -1099,7 +1099,7 @@
     "status": "on_sale",
     "price": [
      349990,
-     389990
+     410990
     ],
     "gens": [
      {
@@ -1834,6 +1834,30 @@
        "diesel"
       ],
       "cons": 7.8,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ev5",
+    "model": "EV5",
+    "he": "EV5",
+    "status": "on_sale",
+    "price": [
+     198900,
+     219900
+    ],
+    "gens": [
+     {
+      "code": "OV",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 81.4 קוט\"ש, הנעה קדמית",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
       "ncap": 5,
       "checks": 2
      }
@@ -4557,6 +4581,70 @@
       ],
       "cons": 6.5,
       "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "207",
+    "model": "207",
+    "he": "207",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A7",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.4 / 1.6 VTi בנזין, 1.6 THP טורבו, 1.4 / 1.6 HDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "107",
+    "model": "107",
+    "he": "107",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.0 בנזין 3 צילינדרים",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5,
+      "ncap": 3,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "108",
+    "model": "108",
+    "he": "108",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2014,
+      "to": 2022,
+      "engines": "1.0 VTi / 1.2 PureTech בנזין 3 צילינדרים",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5,
+      "ncap": 4,
       "checks": 3
      }
     ]
@@ -8186,7 +8274,7 @@
     "status": "on_sale",
     "price": [
      151990,
-     151990
+     152990
     ],
     "gens": [
      {
@@ -8390,6 +8478,74 @@
       "cons": 6.2,
       "ncap": 4,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "koleos",
+    "model": "Koleos",
+    "he": "קולאוס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1 (H45)",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 / 2.5 בנזין, 2.0 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Gen2",
+      "from": 2017,
+      "to": 2023,
+      "engines": "2.0 / 2.5 בנזין, 1.6 / 2.0 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "zoe",
+    "model": "Zoe",
+    "he": "זואי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Phase 1",
+      "from": 2013,
+      "to": 2019,
+      "engines": "חשמלי, סוללה 22 / 41 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "Phase 2",
+      "from": 2019,
+      "to": 2024,
+      "engines": "חשמלי, סוללה 52 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": 0,
+      "checks": 3
      }
     ]
    }
@@ -10032,6 +10188,39 @@
       "checks": 4
      }
     ]
+   },
+   {
+    "id": "c1",
+    "model": "C1",
+    "he": "C1",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "C1 I",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.0 בנזין 3 צילינדרים",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5,
+      "ncap": 3,
+      "checks": 3
+     },
+     {
+      "code": "C1 II",
+      "from": 2014,
+      "to": 2022,
+      "engines": "1.0 VTi / 1.2 PureTech בנזין 3 צילינדרים",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -10938,6 +11127,30 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "b05",
+    "model": "B05",
+    "he": "B05",
+    "status": "on_sale",
+    "price": [
+     139900,
+     139900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 67.1 קוט\"ש, הנעה אחורית",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -11479,6 +11692,51 @@
       "checks": 1
      }
     ]
+   },
+   {
+    "id": "renegade",
+    "model": "Renegade",
+    "he": "רנגייד",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "BU",
+      "from": 2014,
+      "to": null,
+      "engines": "1.0 / 1.3 / 1.4 MultiAir טורבו בנזין, 1.6 E.torQ, 2.4, 1.6 / 2.0 MultiJet דיזל, 1.3 4xe פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": 5,
+      "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "cherokee",
+    "model": "Cherokee",
+    "he": "צ'ירוקי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "KL",
+      "from": 2014,
+      "to": 2023,
+      "engines": "2.4 / 3.2 V6 / 2.0 טורבו בנזין, 2.0 / 2.2 MultiJet דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": 5,
+      "checks": 4
+     }
+    ]
    }
   ]
  },
@@ -11544,6 +11802,111 @@
       "cons": 6,
       "ncap": 4,
       "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "tipo",
+    "model": "Tipo",
+    "he": "טיפו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "356",
+      "from": 2016,
+      "to": null,
+      "engines": "1.4 / 1.6 E.torQ בנזין (אוטומטית), 1.0 טורבו (מ-2021), 1.5 היברידי מתון (מ-2022), 1.3 / 1.6 MultiJet דיזל",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 6.8,
+      "ncap": 3,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "500",
+    "model": "500",
+    "he": "500",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "312",
+      "from": 2010,
+      "to": null,
+      "engines": "1.2 / 1.4 בנזין, 0.9 TwinAir טורבו, 1.3 MultiJet דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 5.8,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "332 (500e)",
+      "from": 2020,
+      "to": null,
+      "engines": "חשמלי, סוללה 24 / 42 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15.5,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "punto",
+    "model": "Punto",
+    "he": "פונטו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Grande Punto (199)",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.2 / 1.4 בנזין, 1.4 T-Jet טורבו, 1.3 / 1.6 MultiJet דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Punto Evo (199)",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.4 MultiAir / MultiAir טורבו בנזין, 1.3 / 1.6 MultiJet דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.3,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Punto (199, 2012)",
+      "from": 2012,
+      "to": 2018,
+      "engines": "0.9 TwinAir טורבו בנזין, 1.3 MultiJet דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6,
+      "ncap": 0,
+      "checks": 2
      }
     ]
    }
@@ -12263,6 +12626,28 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "giulietta",
+    "model": "Giulietta",
+    "he": "ג'ולייטה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "940",
+      "from": 2010,
+      "to": 2020,
+      "engines": "1.4 טורבו / MultiAir, 1750 TBi בנזין, 1.6 / 2.0 JTDM דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -12682,6 +13067,30 @@
       "cons": 8.5,
       "ncap": 5,
       "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "blazer-ev",
+    "model": "Blazer EV",
+    "he": "בלייזר EV",
+    "status": "on_sale",
+    "price": [
+     389990,
+     389990
+    ],
+    "gens": [
+     {
+      "code": "Gen1 (BEV3)",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללת Ultium ‏85 / 102 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": null,
+      "checks": 2
      }
     ]
    }

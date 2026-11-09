@@ -929,6 +929,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "leapmotor-b05",
+  "make": "Leapmotor",
+  "model": "B05",
+  "trim": "Design (67.1 kWh)",
+  "bodyType": "hatchback",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 345,
+  "powerHp": 218,
+  "consumption": null,
+  "price": 139900,
+  "priceMin": 139900,
+  "priceMax": 139900,
+  "sampleSize": null,
+  "newPrice": 139900,
+  "reliability": 66,
+  "safety": 90,
+  "economy": 93,
+  "comfort": 76,
+  "practicality": 68,
+  "insuranceMin": 498,
+  "insuranceMax": 712,
+  "why": "האצ'בק חשמלי בהנעה אחורית: סוללה 67.1 קוט\"ש ו-218 כ\"ס; טווח WLTP מוצהר 482 ק\"מ וצריכה מוצהרת 15.9 קוט\"ש ל-100 ק\"מ. 5 כוכבי Euro NCAP (2026). מותג חדש יחסית בישראל.",
+  "pros": [
+   "מחיר נמוך לחשמלי עם טווח כזה",
+   "5 כוכבי Euro NCAP",
+   "חסכוני מאוד באנרגיה"
+  ],
+  "cons": [
+   "תא מטען קטן יחסית (345 ליטר)",
+   "מותג חדש — זמינות שירות וחלפים לבדיקה",
+   "ירידת ערך צפויה גבוהה"
+  ],
+  "confidence": 58,
+  "priceSource": "auto.co.il Leapmotor B05 2026 Design + carzone.co.il/leapmotor/B05 + cartube Leapmotor price list (2026-11-09)",
+  "bands": {
+   "7000": {
+    "fuel": 59,
+    "insurance": 605,
+    "maintenance": 88,
+    "depreciation": 1516,
+    "total": 2389
+   },
+   "15000": {
+    "fuel": 126,
+    "insurance": 605,
+    "maintenance": 100,
+    "depreciation": 1516,
+    "total": 2468
+   },
+   "25000": {
+    "fuel": 210,
+    "insurance": 605,
+    "maintenance": 112,
+    "depreciation": 1516,
+    "total": 2564
+   }
+  }
+ },
+ {
   "id": "ora-05",
   "make": "ORA",
   "model": "05",
@@ -3800,6 +3861,68 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 230,
     "depreciation": 1632,
     "total": 3580
+   }
+  }
+ },
+ {
+  "id": "kia-ev5",
+  "make": "Kia",
+  "model": "EV5",
+  "trim": "Premium LR (81.4 kWh)",
+  "bodyType": "suv",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 566,
+  "powerHp": 217,
+  "consumption": null,
+  "price": 198900,
+  "priceMin": 198900,
+  "priceMax": 219900,
+  "sampleSize": null,
+  "newPrice": 198900,
+  "reliability": 82,
+  "safety": 92,
+  "economy": 92,
+  "comfort": 84,
+  "practicality": 88,
+  "insuranceMin": 615,
+  "insuranceMax": 879,
+  "why": "רכב פנאי חשמלי משפחתי של קיה: סוללה 81.4 קוט\"ש, 217 כ\"ס והנעה קדמית; טווח WLTP מוצהר 530 ק\"מ וצריכה מוצהרת 16.9 קוט\"ש ל-100 ק\"מ. תא מטען 566 ליטר ועוד תא קדמי. 5 כוכבי Euro NCAP (2025).",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "תא מטען גדול מאוד",
+   "טווח מוצהר ארוך",
+   "שירות קיה נפוץ"
+  ],
+  "cons": [
+   "הנעה קדמית בלבד בישראל",
+   "יקר מהמתחרים הסיניים",
+   "ירידת ערך של רכב חשמלי עדיין לא ידועה"
+  ],
+  "confidence": 62,
+  "priceSource": "auto.co.il Kia EV5 2026 Premium/Executive + carzone.co.il/Kia/EV5 (2026-11-09)",
+  "bands": {
+   "7000": {
+    "fuel": 62,
+    "insurance": 747,
+    "maintenance": 88,
+    "depreciation": 1989,
+    "total": 3007
+   },
+   "15000": {
+    "fuel": 134,
+    "insurance": 747,
+    "maintenance": 100,
+    "depreciation": 1989,
+    "total": 3091
+   },
+   "25000": {
+    "fuel": 223,
+    "insurance": 747,
+    "maintenance": 112,
+    "depreciation": 1989,
+    "total": 3192
    }
   }
  },
