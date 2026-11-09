@@ -107,6 +107,7 @@ export const appRouter = router({
           needsFinancing: z.enum(["yes", "no", "unsure"]),
           hasTradeIn: z.enum(["yes", "no"]),
           contactVia: z.enum(["phone", "whatsapp", "any"]),
+          quizSummary: z.string().trim().max(300),
         }).partial().strict().optional(),
         website: z.string().max(120).default(""), // Spam honeypot; ordinary users never see it.
       }).strict())
@@ -119,7 +120,7 @@ export const appRouter = router({
           throw new TRPCError({ code: "SERVICE_UNAVAILABLE", message: "קליטת פניות עדיין אינה פעילה. נא לפנות לבעל האתר." });
         }
         const { consent: _consent, website: _website, partnerConsent, details: extra, ...details } = input;
-        const hasDetails = Boolean(extra && Object.keys(extra).some((k) => k !== "contactVia")); // contact preference alone isn't pricing info
+        const hasDetails = Boolean(extra && Object.keys(extra).some((k) => k !== "contactVia" && k !== "quizSummary")); // contact preference / questionnaire line aren't pricing info
         const hasAny = Boolean(extra && Object.keys(extra).length);
         try {
           // A repeat request from the same phone is kept (the customer may want something new) but linked to the first.

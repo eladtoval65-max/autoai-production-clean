@@ -50,7 +50,7 @@ export function partnerConsentText(leadType: LeadType): string {
  * voluntary or not, purpose, who holds the data, who receives it, and the right to see/correct/delete it.
  */
 export const COLLECTION_NOTICE: { title: string; text: string }[] = [
-  { title: "חובה?", text: "אין חובה חוקית למסור את הפרטים. בלי שם וטלפון לא נוכל לחזור אליכם; עיר אינה חובה." },
+  { title: "חובה?", text: "אין חובה חוקית למסור את הפרטים. בלי שם וטלפון לא נוכל לחזור אליכם; עיר ושאר השאלות אינן חובה. אם עניתם על השאלון, התשובות מצורפות לבקשה כדי שלא נשאל שוב." },
   { title: "למה?", text: "כדי לחזור אליכם בנוגע לבקשה שבחרתם, ולשפר את השירות. לא נשלח פרסומות בלי הסכמה נפרדת." },
   { title: "מי מחזיק?", text: "מפעיל ״כמה עולה״ (פרטים מלאים בעמוד הפרטיות)." },
   { title: "למי מועבר?", text: "לאף עסק, אלא אם סימנתם את ההסכמה הנפרדת — ואז לעסק אחד בלבד מהסוג שמופיע בה. ספקי אחסון ודיוור פועלים עבורנו בלבד." },
@@ -79,6 +79,7 @@ export type LeadDetails = Partial<{
   tradeInKm: number;                                                      // trade-in
   needsFinancing: "yes" | "no" | "unsure"; hasTradeIn: "yes" | "no";     // buying
   contactVia: "phone" | "whatsapp" | "any";                               // every request: how the customer prefers to be contacted
+  quizSummary: string;                                                    // home questionnaire answers, one readable line (not pricing info)
 }>;
 
 export type DetailField = {
@@ -121,6 +122,9 @@ export const DETAIL_FIELDS: Record<LeadType, DetailField[]> = {
 /** Asked on every request (not per type): many people don't answer calls from unknown numbers. */
 export const CONTACT_FIELD: DetailField = { key: "contactVia", label: "איך נוח שנחזור אליכם?", kind: "choice", options: [["whatsapp", "וואטסאפ"], ["phone", "שיחת טלפון"], ["any", "לא משנה"]] };
 
+/** The questionnaire line, shown in summaries after the form fields. */
+export const QUIZ_FIELD: DetailField = { key: "quizSummary", label: "מהשאלון", kind: "auto" };
+
 const MONTHS_HE = ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"];
 export const monthHe = (m: number) => MONTHS_HE[m - 1] ?? String(m);
 
@@ -134,7 +138,7 @@ export function monthsToRenewal(renewalMonth: number | undefined, now = new Date
 export function detailsSummary(details: LeadDetails | null | undefined): string {
   if (!details) return "";
   const seen = new Set<string>();
-  const all = [CONTACT_FIELD, ...Object.values(DETAIL_FIELDS).flat()].filter((f) => !seen.has(f.key) && seen.add(f.key));
+  const all = [CONTACT_FIELD, ...Object.values(DETAIL_FIELDS).flat(), QUIZ_FIELD].filter((f) => !seen.has(f.key) && seen.add(f.key));
   return all.filter((f) => details[f.key] != null && details[f.key] !== "").map((f) => {
     const v = details[f.key]!;
     const shown = f.kind === "month" ? monthHe(Number(v)) : f.kind === "choice" ? f.options?.find(([k]) => k === v)?.[1] ?? v : v;
@@ -183,6 +187,7 @@ export function leadQuality(input: QualityInput): { score: number; reasons: stri
   if (d.plate) add(5, "פרטי רכב לפי מספר רישוי");
   if (d.needsFinancing === "yes") add(5, "צריך מימון");
   if (d.hasTradeIn === "yes") add(5, "יש רכב לטרייד־אין");
+  if (d.quizSummary) add(5, "ענה על שאלון ההתאמה");
   if (input.isDuplicate) { score -= 40; reasons.push("פנייה חוזרת מאותו טלפון"); }
   return { score: Math.max(0, Math.min(100, score)), reasons };
 }

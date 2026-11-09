@@ -23,6 +23,7 @@ import { useQuiz } from "./hooks/useQuiz";
 import { useQuizCompletion } from "./hooks/useQuizCompletion";
 import { useShortlist } from "./hooks/useShortlist";
 import { computeScore } from "./model/scoring";
+import { quizSummary } from "./model/quizSummary";
 import { shareText } from "./model/share";
 import { track } from "./model/tracking";
 import type { Car, Ranked, Tab } from "./types";
@@ -84,7 +85,8 @@ export default function HomePage() {
 
       {showLead && leader && (
         <LeadRequestModal vehicle={tab === "detail" && detailCar ? detailCar : leader} budget={quiz.answers.budget}
-          sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"} onClose={() => setShowLead(false)} />
+          sourcePage={tab === "detail" ? "vehicle_details" : tab === "compare" ? "comparison" : "recommendations"}
+          quizSummary={quiz.step > 0 || quiz.complete ? quizSummary(quiz.answers) : undefined} onClose={() => setShowLead(false)} />
       )}
       {plateLead && <LeadRequestModal vehicle={{ id: "plate", make: plateLead, match: 0 }} budget={quiz.answers.budget} sourcePage="plate_check" defaultType="used_car" onClose={() => setPlateLead(null)} />}
     </main>

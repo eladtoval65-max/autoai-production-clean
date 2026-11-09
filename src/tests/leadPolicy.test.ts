@@ -189,3 +189,10 @@ describe("contact preference", () => {
     expect(detailsSummary({ contactVia: "whatsapp" })).toBe("איך נוח שנחזור אליכם: וואטסאפ");
   });
 });
+
+describe("questionnaire line on a lead", () => {
+  it("shows in the summary and adds the quiz bonus, without counting as pricing details", () => {
+    expect(detailsSummary({ quizSummary: "יד שנייה · 15,000 ק״מ בשנה" })).toBe("מהשאלון: יד שנייה · 15,000 ק״מ בשנה");
+    expect(leadQuality({ purchaseTimeline: "unsure", details: { quizSummary: "חדש" } }).score).toBe(25);
+  });
+});

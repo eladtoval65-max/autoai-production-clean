@@ -4,13 +4,15 @@ import { ContactViaField, detailsFor, LeadExtraFields } from "./LeadExtraFields"
 import { CollectionNotice } from "./CollectionNotice";
 import { trpc } from "@/lib/trpc";
 import { useState, type FormEvent } from "react";
-import { Check, X } from "lucide-react";
+import { Check, ChevronDown, X } from "lucide-react";
 import { Link } from "wouter";
 import { getUtm, sendEvent } from "../../shared/analytics";
 import { trackPixel } from "../../shared/cookieConsent";
 
 import type { LeadType as RequestType } from "@shared/leadPolicy";
 type Timeline = "now" | "three_months" | "later" | "unsure";
+/** One-tap answers; "just checking" is honest and lets the owner call serious buyers first. */
+const TIMELINES: [Timeline, string][] = [["now", "עכשיו"], ["three_months", "תוך 3 חודשים"], ["later", "בהמשך השנה"], ["unsure", "רק בודק/ת"]];
 
 export default function LeadRequestModal({
   vehicle,
@@ -19,6 +21,7 @@ export default function LeadRequestModal({
   onClose,
   defaultType,
   landingSlug,
+  quizSummary,
 }: {
   vehicle: { id: string; make: string; match: number };
   budget?: number;
@@ -26,15 +29,18 @@ export default function LeadRequestModal({
   onClose: () => void;
   defaultType?: RequestType;
   landingSlug?: string;
+  /** Readable questionnaire answers (home page only), attached to the lead so nobody is asked twice. */
+  quizSummary?: string;
 }) {
   const [fullName, setFullName] = useState("");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
   const [leadType, setLeadType] = useState<RequestType>(defaultType ?? "vehicle");
-  const [purchaseTimeline, setPurchaseTimeline] = useState<Timeline>("unsure");
+  const [purchaseTimeline, setPurchaseTimeline] = useState<Timeline | null>(null); // required, one tap: the strongest seriousness signal
   const [consent, setConsent] = useState(false);
   const [details, setDetails] = useState<LeadDetails>({}); // optional insurance / financing details
   const [partnerConsent, setPartnerConsent] = useState(false); // separate and optional; never pre-ticked
+  const [moreOpen, setMoreOpen] = useState(false); // optional questions stay folded: short form for everyone, detail for the serious
   const [website, setWebsite] = useState(""); // Spam honeypot.
   const [requestId] = useState(() => crypto.randomUUID());
   const [receivedId, setReceivedId] = useState<number | null>(null);
@@ -43,7 +49,9 @@ export default function LeadRequestModal({
   const fieldClass = "w-full min-h-12 rounded-xl border border-line bg-white px-3 py-2.5 text-[16px] text-ink outline-none focus:border-go";
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (!consent) return;
+    if (!consent || !purchaseTimeline) return;
+    const extra = detailsFor(leadType, details);
+    const withQuiz = quizSummary ? { ...extra, quizSummary } : extra;
     try {
       const saved = await create.mutateAsync({
         requestId,
@@ -59,7 +67,7 @@ export default function LeadRequestModal({
         sourcePage,
         consent: true,
         partnerConsent,
-        details: detailsFor(leadType, details),
+        details: withQuiz,
         website,
         ...getUtm(),
         landingSlug,
@@ -91,15 +99,29 @@ export default function LeadRequestModal({
               </label>
               <label className="block text-[15px] font-semibold">שם מלא<input className={`mt-1 ${fieldClass}`} autoComplete="name" value={fullName} onChange={event => setFullName(event.target.value)} required minLength={2} maxLength={120} /></label>
               <label className="block text-[15px] font-semibold">טלפון נייד<input className={`mt-1 ${fieldClass}`} dir="ltr" autoComplete="tel" type="tel" inputMode="tel" placeholder="0501234567" pattern="05[0-9]{8}" value={phone} onChange={event => setPhone(event.target.value.replace(/[\s-]/g, ""))} required /></label>
-              <ContactViaField value={details} onChange={setDetails} />
-              <label className="block text-[15px] font-semibold">עיר / אזור (לא חובה)<input className={`mt-1 ${fieldClass}`} autoComplete="address-level2" value={city} onChange={event => setCity(event.target.value)} maxLength={80} /></label>
-              <label className="block text-[15px] font-semibold">מתי מתכננים לקנות?
-                <select className={`mt-1 ${fieldClass}`} value={purchaseTimeline} onChange={event => setPurchaseTimeline(event.target.value as Timeline)}>
-                  <option value="unsure">עדיין לא החלטתי</option><option value="now">בקרוב</option>
-                  <option value="three_months">בשלושת החודשים הקרובים</option><option value="later">בהמשך השנה</option>
-                </select>
-              </label>
-              <LeadExtraFields leadType={leadType} value={details} onChange={setDetails} fieldClass={fieldClass} />
+              <fieldset>
+                <legend className="text-[15px] font-semibold">מתי מתכננים לקנות?</legend>
+                <div className="mt-1 grid grid-cols-2 gap-2">
+                  {TIMELINES.map(([value, text]) => (
+                    <label key={value} className={`flex min-h-11 cursor-pointer items-center justify-center rounded-full border text-[15px] font-semibold ${purchaseTimeline === value ? "border-go bg-go text-white" : "border-line bg-white hover:border-ink"}`}>
+                      <input type="radio" name="timeline" value={value} checked={purchaseTimeline === value} onChange={() => setPurchaseTimeline(value)} required className="sr-only" />{text}
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+              <div className="rounded-xl border border-line">
+                <button type="button" onClick={() => setMoreOpen(v => !v)} aria-expanded={moreOpen} className="flex w-full items-center justify-between gap-3 px-4 py-3 text-start">
+                  <span><span className="block text-[15px] font-bold">רוצים הצעה מדויקת יותר?</span><span className="block text-[13px] text-muted">עוד כמה שאלות קצרות · לא חובה</span></span>
+                  <ChevronDown className={`h-5 w-5 shrink-0 transition-transform ${moreOpen ? "rotate-180" : ""}`} aria-hidden />
+                </button>
+                {moreOpen && (
+                  <div className="space-y-4 border-t border-line p-4">
+                    <ContactViaField value={details} onChange={setDetails} />
+                    <label className="block text-[15px] font-semibold">עיר / אזור<input className={`mt-1 ${fieldClass}`} autoComplete="address-level2" value={city} onChange={event => setCity(event.target.value)} maxLength={80} /></label>
+                    <LeadExtraFields leadType={leadType} value={details} onChange={setDetails} fieldClass={fieldClass} />
+                  </div>
+                )}
+              </div>
               <div className="absolute -left-[9999px]" aria-hidden="true"><label>Website<input tabIndex={-1} autoComplete="off" value={website} onChange={event => setWebsite(event.target.value)} /></label></div>
               <label className="flex cursor-pointer items-start gap-3 border-t border-line pt-4 text-[14px] leading-6 text-muted">
                 <input type="checkbox" checked={consent} onChange={event => setConsent(event.target.checked)} required className="mt-1 h-5 w-5 shrink-0" />
@@ -112,7 +134,7 @@ export default function LeadRequestModal({
               <CollectionNotice />
               <Link href="/privacy" className="inline-block text-[14px] underline">מדיניות הפרטיות המלאה</Link>
               {create.error && <p role="alert" className="text-[15px] font-semibold text-alert">{/[\u0590-\u05FF]/.test(create.error.message) ? create.error.message : "השרת לא הגיב כרגע. נסו שוב בעוד דקה — הפרטים שמילאתם נשמרו בטופס."}</p>}
-              <button type="submit" disabled={!consent || create.isPending} className="min-h-12 w-full rounded-full bg-go px-5 text-[17px] font-bold text-white hover:bg-go-deep disabled:opacity-50">{create.isPending ? "שומרים פנייה…" : "שליחת בקשה ל״כמה עולה״"}</button>
+              <button type="submit" disabled={!consent || !purchaseTimeline || create.isPending} className="min-h-12 w-full rounded-full bg-go px-5 text-[17px] font-bold text-white hover:bg-go-deep disabled:opacity-50">{create.isPending ? "שומרים פנייה…" : "שליחת בקשה ל״כמה עולה״"}</button>
             </form>
           </>
         ) : (
