@@ -1,6 +1,6 @@
 {
   "make": "geely",
-  "updated": "2026-11-06",
+  "updated": "2026-11-09",
   "models": {
     "coolray": {
       "Gen1": {
@@ -131,7 +131,16 @@
               "url": "https://www.illawarramercury.com.au/story/8990230/geelys-first-model-in-australia-gets-its-first-running-updates-over-the-air/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 162000,
+          "year": 2025,
+          "note": "רמת גימור Pro, סוללת LFP של 60.2 קוט״ש",
+          "source": {
+            "title": "auto.co.il — ג'ילי EX5 החדש בארץ: המחיר החל מ-162,000 שקלים (19.05.2025)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/138176/"
+          }
+        }
       }
     },
     "starray": {

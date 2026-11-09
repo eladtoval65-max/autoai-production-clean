@@ -1,6 +1,6 @@
 {
   "make": "cupra",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "formentor": {
       "KM7": {
@@ -155,7 +155,16 @@
               "url": "https://www.autokostencheck.de/Cupra/Cupra-Leon/Leon/cupra-leon-1-5-tsi-kl_50056/verbrauch/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 240000,
+          "year": 2021,
+          "note": "2.0 טורבו 300 כ״ס, DSG (חבילת עור ומושבים חשמליים בתוספת 19,000 ₪)",
+          "source": {
+            "title": "auto.co.il — קופרה לאון 2021 החדשה מושקת בישראל (16.03.2021)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/134338/"
+          }
+        }
       }
     },
     "cupra-ateca": {

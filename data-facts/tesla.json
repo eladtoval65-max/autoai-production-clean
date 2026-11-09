@@ -1,6 +1,6 @@
 {
   "make": "tesla",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "model-3": {
       "Gen1": {
@@ -170,6 +170,15 @@
           "stars": 5,
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/tesla-model-3---euro-ncap-2025-results---5-stars/s/bf232c62-8a8a-435a-aa69-dbafc0a82459"
+        },
+        "launchPrice": {
+          "ils": 205630,
+          "year": 2023,
+          "note": "גרסת הבסיס RWD (מכירות בישראל נפתחו בספטמבר 2023)",
+          "source": {
+            "title": "Cartube — טסלה מודל 3 החדשה נחשפת, כבר זמינה לרכישה בישראל (01.09.2023)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טסלה-מודל-3-החדשה-2024-נחשפת-כבר-זמינה-לרכישה-בישראל"
+          }
         }
       }
     },

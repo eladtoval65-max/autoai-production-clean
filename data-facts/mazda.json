@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "mazda3": {
       "BL": {
@@ -982,7 +982,12 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mazda/5/cw-facelift/225597"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": null,
+          "url": "https://www.carbuyer.co.uk/mazda/5/reliability",
+          "note": "הדור הזה (2010–2015) לא נבדק ב-Euro NCAP; הדור הקודם קיבל 5 כוכבים (לפי Carbuyer)"
+        }
       }
     },
     "cx-7": {

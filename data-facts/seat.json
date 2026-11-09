@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -391,7 +391,13 @@
               "url": "https://www.autokostencheck.de/Seat/Seat-Leon/Leon/leon-1-4-tsi-1p_20798/verbrauch/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2005,
+          "url": "https://parkers.co.uk/seat/leon/hatchback-2005/used-review/practicality",
+          "note": "4 כוכבים (Euro NCAP, נובמבר 2005); מקור: Parkers ו-AM Online המצטטים את Euro NCAP"
+        }
       }
     },
     "ateca": {
