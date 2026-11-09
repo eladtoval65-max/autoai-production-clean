@@ -28,6 +28,8 @@ const PETROL_DEFAULT_L = 6.5;   // used when a generation's consumption is in kW
  */
 const BASE_MAINT = 130;
 const BASE_MAINT_PER_YEAR = 6;
+/** The routine-service part of BASE_MAINT (≈ ₪800/yr at a dealer); removed when the generation has a sourced "service" item. */
+const ROUTINE_IN_BASE = 65;
 /** Small city cars have cheaper parts, tyres and brakes than the average car the base maintenance curve describes. */
 const CITY_MAINTENANCE = 0.85;
 
@@ -98,7 +100,8 @@ export function estimateUsedCost({ gen, segment, year, powertrain, askingPrice, 
   const depreciation = (askingPrice * rate) / 12;
   const insurance = ((1700 + 1000 + askingPrice * 0.022) * insuranceFactor(gen, powertrain, premium, body)) / 12;
   const shares = maintenanceShares(maintenanceItems, kmPerYear);
-  const base = Math.min(900, (BASE_MAINT + BASE_MAINT_PER_YEAR * age) * (premium ? 1.7 : 1) * (powertrain === "ev" ? 0.55 : 1) * (body === "city" ? CITY_MAINTENANCE : 1));
+  const hasService = (maintenanceItems ?? []).some((it) => it.kind === "service");
+  const base = Math.min(900, (BASE_MAINT - (hasService ? ROUTINE_IN_BASE : 0) + BASE_MAINT_PER_YEAR * age) * (premium ? 1.7 : 1) * (powertrain === "ev" ? 0.55 : 1) * (body === "city" ? CITY_MAINTENANCE : 1));
   const maintenance = Math.min(1500, base + shares.reduce((a, s) => a + s.monthly, 0));
   const licence = licenceMonthly(priceNew, year);
   const total = fuel + depreciation + insurance + maintenance + licence;

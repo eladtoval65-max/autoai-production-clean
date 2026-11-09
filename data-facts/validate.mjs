@@ -33,9 +33,9 @@ for (const id of ids) {
       for (const [i, it] of (f.maintenance ?? []).entries()) {
         const w = `${where} maintenance ${i}`;
         if (!it.he || it.he.length < 6) errs.push(`${w}: Hebrew text missing/short`);
-        if (!["scheduled", "wear", "risk"].includes(it.kind)) errs.push(`${w}: bad kind`);
+        if (!["service", "scheduled", "wear", "risk"].includes(it.kind)) errs.push(`${w}: bad kind`);
         if (!Array.isArray(it.costIls) || it.costIls.length !== 2 || !(it.costIls[0] > 0) || it.costIls[1] < it.costIls[0] || it.costIls[1] > 200000) errs.push(`${w}: costIls must be [min, max] in ₪`);
-        if (it.kind !== "risk" && !(it.intervalKm > 0) && !(it.intervalYears > 0)) errs.push(`${w}: scheduled/wear items need intervalKm or intervalYears`);
+        if (it.kind !== "risk" && !(it.intervalKm > 0) && !(it.intervalYears > 0)) errs.push(`${w}: service/scheduled/wear items need intervalKm or intervalYears`);
         if (it.intervalKm != null && !(it.intervalKm >= 5000 && it.intervalKm <= 400000)) errs.push(`${w}: intervalKm out of range`);
         if (it.intervalYears != null && !(it.intervalYears >= 1 && it.intervalYears <= 20)) errs.push(`${w}: intervalYears out of range`);
         src(it.source, w, errs); maint++;

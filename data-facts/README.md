@@ -24,7 +24,10 @@ Keys MUST match `_manifest.json` (make id → model id → generation `code`). N
         ],
         "ncap": { "stars": 5, "year": 2019, "url": "https://www.euroncap.com/en/results/toyota/corolla/..." },  // or { "stars": null, "note": "not tested" }
         "launchPrice": { "ils": 129900, "year": 2019, "note": "רמת גימור בסיסית", "source": { "title": "...", "url": "https://..." } },  // or null
-        "maintenance": [               // costly items a used buyer should budget for (0–5; only with a sourced ₪ range)
+        "maintenance": [               // routine service + costly items a used buyer should budget for (0–6; only with a sourced ₪ range)
+          { "he": "טיפול תקופתי במרכז השירות של היבואן", "kind": "service",   // the routine periodic service: ONE item, average ₪ per visit
+            "intervalKm": 15000, "intervalYears": 1, "costIls": [700, 1300],    // range across the importer's service list (small/large services)
+            "source": { "title": "Importer service price list (year)", "url": "https://..." } },
           { "he": "החלפת רצועת תזמון ומשאבת מים", "kind": "scheduled",   // scheduled | wear | risk
             "intervalKm": 90000, "intervalYears": 6,                     // scheduled/wear need at least one interval; risk has none
             "costIls": [2500, 3800], "scope": "1.4 TSI",                // ₪ range incl. labour; Israeli garage/importer price preferred
@@ -41,5 +44,5 @@ Rules
 - Consumption = REAL-WORLD average (Spritmonitor, Fuelly, ev-database.org real range, long-term tests), not the brochure figure.
 - Issues are shown on the site as "דווח בהרחבה" (widely reported) / "קריאת שירות" (recall) / "מוכר ע״י היצרן" — never as a diagnosis.
 - Hebrew text: short, practical, tells the buyer what to check. No brand bashing, no guesses.
-- maintenance: scheduled/wear items are spread into the used-car monthly cost (cost ÷ interval); risk items (e.g. hybrid battery, DSG mechatronic) are shown but not added. Prices: Israeli sources first (importer service price lists, garage price articles on Ynet/Walla/auto.co.il/ice.co.il); a foreign price only converted and labelled as such in the source title.
+- maintenance: the "service" item (routine periodic service at the importer, ₪ per visit and its interval) replaces the generic routine-service part of our estimate; scheduled/wear items are spread into the used-car monthly cost (cost ÷ interval); risk items (e.g. hybrid battery, DSG mechatronic) are shown but not added. Prices: Israeli sources first (importer service price lists, garage price articles on Ynet/Walla/auto.co.il/ice.co.il); a foreign price only converted and labelled as such in the source title.
 - Validate: `node data-facts/validate.mjs <makeId>`

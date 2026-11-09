@@ -132,3 +132,15 @@ describe("licensing fee (official table, Apr 2026)", () => {
   });
   it("uses group 2 when the price when new is unknown", () => expect(licenceYearly(null, 2026)).toBe(1610));
 });
+
+describe("routine service item", () => {
+  const gen = MAKES[0].models[0].gens[0];
+  const input = { gen, segment: "mass" as const, year: 2016, powertrain: "petrol" as const, askingPrice: 60000, kmPerYear: 15000 };
+  it("replaces the generic routine part instead of adding on top", () => {
+    const plain = estimateUsedCost(input)!;
+    const src = { title: "t", url: "https://example.com" };
+    const withService = estimateUsedCost({ ...input, maintenanceItems: [{ he: "טיפול", kind: "service", intervalKm: 15000, intervalYears: 1, costIls: [780, 780], source: src }] })!;
+    // ₪780 a year = ₪65 a month, the same as the generic routine part → no change
+    expect(Math.round(withService.maintenance)).toBe(Math.round(plain.maintenance));
+  });
+});

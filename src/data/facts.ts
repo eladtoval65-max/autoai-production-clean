@@ -11,11 +11,13 @@ export type NcapFact = { stars: number | null; year?: number; url?: string; note
 export type LaunchPrice = { ils: number; year: number; note?: string; source: Source };
 /**
  * A maintenance cost a used buyer should budget for, with a sourced price range in ₪ (Israeli garage / importer price when available).
+ *  - service: the routine periodic service at the importer (₪ per visit + interval) → replaces the generic routine part of the estimate;
  *  - scheduled: done every intervalKm and/or intervalYears (timing belt, DSG oil, spark plugs) → spread into the monthly cost;
  *  - wear: typical replacement at around intervalKm (clutch, brakes on heavy cars) → spread into the monthly cost;
  *  - risk: a known expensive failure that may or may not happen (hybrid battery, injectors) → shown, not added to the monthly cost.
  */
-export type MaintenanceKind = "scheduled" | "wear" | "risk";
+/** service = the routine periodic service at the importer (replaces the generic routine part); scheduled/wear add on top; risk is shown only. */
+export type MaintenanceKind = "service" | "scheduled" | "wear" | "risk";
 export type MaintenanceItem = { he: string; kind: MaintenanceKind; intervalKm?: number; intervalYears?: number; costIls: [number, number]; scope?: string; source: Source };
 export type GenFacts = { issues?: Issue[]; engines?: EngineFact[]; ncap?: NcapFact | null; launchPrice?: LaunchPrice | null; maintenance?: MaintenanceItem[] };
 type MakeFile = { make: string; updated?: string; models: Record<string, Record<string, GenFacts>> };
@@ -67,6 +69,7 @@ export const ISSUE_LEVEL_HE: Record<IssueLevel, string> = {
 
 /** Hebrew label for each maintenance kind. */
 export const MAINTENANCE_KIND_HE: Record<MaintenanceKind, string> = {
+  service: "טיפול תקופתי",
   scheduled: "טיפול מתוכנן",
   wear: "בלאי צפוי",
   risk: "תקלה יקרה אפשרית",
