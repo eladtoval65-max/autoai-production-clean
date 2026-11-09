@@ -223,7 +223,12 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/207/1-generation-facelift/223003/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2006,
+          "url": "https://www.euroncap.com/en/results/peugeot/207/15709"
+        }
       }
     },
     "208": {
@@ -418,6 +423,15 @@
           "year": 2014,
           "url": "https://cdn.euroncap.com/media/4788/euroncap_peugeot_301_2014_3stars.pdf",
           "note": "3 כוכבים (Euro NCAP, יוני 2014 — נבדק כסיטרואן C-אליזה הזהה מבנית); אומת גם ב-automarket.ro"
+        },
+        "launchPrice": {
+          "ils": 92000,
+          "year": 2012,
+          "note": "1.2 בנזין 72 כ״ס ידנית (הוכרזה בהשקה, הגיעה מעט אחריה); 1.6 מ-109,990 ₪",
+          "source": {
+            "title": "icar — פיג'ו 301 בישראל: משפחתית ב-92 אלף שקל (18.12.2012)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_301_בישראל:_משפחתית_ב-92_אלף_שקל/"
+          }
         }
       }
     },
@@ -1071,6 +1085,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7527/euroncap_peugeot_3008_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 170000,
+          "year": 2010,
+          "note": "1.6 טורבו 156 כ״ס אוטומטית",
+          "source": {
+            "title": "אוטו — יש מחיר לסיטרואן C3 ופיג'ו 3008 (13.4.2010)",
+            "url": "https://www.auto.co.il/articles/car-news/118671/"
+          }
         }
       },
       "Gen3": {

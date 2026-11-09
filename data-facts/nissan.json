@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "qashqai": {
       "J11": {
@@ -147,6 +147,15 @@
           "year": 2007,
           "url": "https://europe.nissannews.com/en-GB/releases/nissan-qashqai-awarded-five-stars-by-euro-ncap",
           "note": "5 כוכבים להגנת נוסעים בוגרים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: הודעת ניסאן"
+        },
+        "launchPrice": {
+          "ils": 151000,
+          "year": 2007,
+          "note": "2.0 בנזין 140 כ״ס אוטומטית (CVT), רמת גימור בסיסית",
+          "source": {
+            "title": "וואלה! רכב — השקת ניסאן קשקאי בישראל (5.4.2007)",
+            "url": "https://cars.walla.co.il/item/1088527"
+          }
         }
       },
       "J12": {
@@ -507,6 +516,15 @@
           "year": 2010,
           "url": "https://news.euroncap.com/safercars/euro-ncap-releases-crash-tests-results-for-14-cars/s/818c8c95-63dd-4a2f-96d8-d210c8461a03",
           "note": "4 כוכבים — Euro NCAP, נובמבר 2010 (הודעת 14 הרכבים)"
+        },
+        "launchPrice": {
+          "ils": 97000,
+          "year": 2011,
+          "note": "1.2 בנזין 80 כ״ס אוטומטית (CVT), רמת גימור Acenta",
+          "source": {
+            "title": "וואלה! רכב — ניסאן מיקרה החדשה בישראל (16.1.2011)",
+            "url": "https://cars.walla.co.il/item/1780680"
+          }
         }
       }
     },

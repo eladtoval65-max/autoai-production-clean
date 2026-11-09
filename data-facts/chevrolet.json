@@ -136,7 +136,16 @@
               "url": "https://www.autocentrum.pl/spalanie/chevrolet/aveo/t300/"
             }
           }
-        ]
+        ],
+        "launchPrice": {
+          "ils": 103000,
+          "year": 2011,
+          "note": "1.4 בנזין 101 כ״ס, האצ'בק LS",
+          "source": {
+            "title": "icar — שברולט סוניק הושקה בישראל (19.6.2011)",
+            "url": "https://www.icar.co.il/חדשות_רכב/שברולט_סוניק_הושקה_בישראל/"
+          }
+        }
       }
     },
     "cruze": {

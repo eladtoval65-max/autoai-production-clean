@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -367,6 +367,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7455/euroncap_hyundai_i20_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 97000,
+          "year": 2009,
+          "note": "1.4 ידנית, 3 דלתות, רמת גימור Inspire",
+          "source": {
+            "title": "וואלה! רכב — יונדאי i20 הושקה בישראל (27.4.2009)",
+            "url": "https://cars.walla.co.il/item/1475626"
+          }
         }
       }
     },
