@@ -139,7 +139,22 @@
           "year": 2009,
           "url": "https://global.honda/en/newsroom/worldnews/2009/4090527Jazz-Top-Euro-NCAP.html",
           "note": "5 כוכבים (Euro NCAP, 2009) — מקור: הודעת היצרן Honda"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              12856,
+              12856
+            ],
+            "scope": "1.3 היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       }
     },
     "civic": {

@@ -147,7 +147,35 @@
             "title": "CarTube — סקודה אוקטביה החדשה בישראל: מחיר החל מ-131,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-אוקטביה-החדשה-בישראל-–-מחיר-החל-מ-131,990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "יחידת הבקרה של תיבת DSG: החלפה יקרה.",
+            "kind": "risk",
+            "costIls": [
+              5000,
+              5000
+            ],
+            "scope": "1.4 TSI DSG",
+            "source": {
+              "title": "auto.co.il (01.07.2024) — used family cars under ₪60,000: Octavia 2017+ and Mégane Grand Coupé maintenance costs",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137256/"
+            }
+          },
+          {
+            "he": "מצמדי תיבת DSG וגלגל תנופה דו-מסה: כ-₪5,000 כל אחד.",
+            "kind": "risk",
+            "costIls": [
+              5000,
+              5000
+            ],
+            "scope": "1.4 TSI DSG",
+            "source": {
+              "title": "auto.co.il (01.07.2024) — used family cars under ₪60,000: Octavia 2017+ and Mégane Grand Coupé maintenance costs",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137256/"
+            }
+          }
+        ]
       },
       "Mk4 (NX)": {
         "issues": [
@@ -299,7 +327,37 @@
             "title": "Cartube — סקודה קודיאק בישראל (13.6.2017)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קודיאק-בישראל-מחיר-174990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              818,
+              1102
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "1.5 TSI",
+            "source": {
+              "title": "Walla Cars (01/2023) — service cost per visit, 3-year and ~100,000 km totals (₪ per visit = total ÷ visits at one service per year or 15,000 km)",
+              "url": "https://cars.walla.co.il/item/3554226"
+            }
+          },
+          {
+            "he": "מוח (מכטרוניקה) תיבת DSG: תקלה מוכרת; יחידה חדשה ומקורית מחוץ לאחריות כ-₪8,000.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 outside warranty (Kodiaq DQ381 example)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       },
       "PS": {
         "issues": [
@@ -1084,7 +1142,23 @@
             "title": "auto.co.il — סקודה אניאק 2022 החדש בארץ: מחיר החל מ-190,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/134707/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              656,
+              962
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "source": {
+              "title": "Walla Cars (01/2023) — service cost per visit, 3-year and ~100,000 km totals (₪ per visit = total ÷ visits at one service per year or 15,000 km)",
+              "url": "https://cars.walla.co.il/item/3554226"
+            }
+          }
+        ]
       }
     },
     "yeti": {

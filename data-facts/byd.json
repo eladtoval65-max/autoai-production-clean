@@ -74,7 +74,22 @@
             "title": "auto.co.il — BYD אטו 3 בישראל, מחיר החל מ-156,500 שקלים (ספטמבר 2022)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/135409/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול קטן ₪650–820, כל טיפול שני ₪1,400–1,500)",
+            "kind": "service",
+            "costIls": [
+              650,
+              1500
+            ],
+            "intervalKm": 20000,
+            "source": {
+              "title": "iCar (11/2023) — EV service prices from the importers' price lists",
+              "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/h1vvzkvka/"
+            }
+          }
+        ]
       },
       "EVO": {
         "issues": [

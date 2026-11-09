@@ -155,7 +155,63 @@
             "title": "auto.co.il — איביזה בישראל; וסיאט יוצאת לדרך חדשה (25.02.2009)",
             "url": "https://www.auto.co.il/articles/car-news/120781/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              541,
+              1732
+            ],
+            "intervalKm": 15000,
+            "source": {
+              "title": "auto.co.il + Engie (16.09.2016) — SEAT Ibiza: importer service price per service 15,000–90,000 km (2016 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/127813/"
+            }
+          },
+          {
+            "he": "החלפת רצועת תזמון (לא במנועי 1.2 TSI הישנים עם שרשרת)",
+            "kind": "scheduled",
+            "intervalKm": 120000,
+            "intervalYears": 5,
+            "costIls": [
+              1600,
+              1600
+            ],
+            "scope": "1.2 TSI (CJZ) / 1.4",
+            "source": {
+              "title": "auto.co.il (05.12.2022) — SEAT Ibiza 2008–2017 used-car guide: maintenance and gearbox costs (Israeli garage prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135645/"
+            }
+          },
+          {
+            "he": "מצמדי תיבת DSG: נשחקים לרוב סביב 80–100 אלף ק\"מ בתנאי ישראל. בנסיעת מבחן: רעידות בזינוק וזחילה.",
+            "kind": "risk",
+            "costIls": [
+              4000,
+              5000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (05.12.2022) — SEAT Ibiza 2008–2017 used-car guide: maintenance and gearbox costs (Israeli garage prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135645/"
+            }
+          },
+          {
+            "he": "מוח (מכטרוניקה) תיבת DSG: שיפוץ כ-₪5,000, יחידה חדשה ₪8,000–9,000.",
+            "kind": "risk",
+            "costIls": [
+              5000,
+              9000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (05.12.2022) — SEAT Ibiza 2008–2017 used-car guide: maintenance and gearbox costs (Israeli garage prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135645/"
+            }
+          }
+        ]
       }
     },
     "arona": {

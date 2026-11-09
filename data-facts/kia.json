@@ -306,7 +306,23 @@
           "stars": 4,
           "year": 2011,
           "url": "https://www.euroncap.com/en/results/kia/picanto/10977"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              636,
+              935
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "source": {
+              "title": "auto.co.il + Engie (16.09.2016) — Kia Picanto: importer service price per service 15,000–90,000 km (2016 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/127811/"
+            }
+          }
+        ]
       }
     },
     "niro": {
@@ -396,7 +412,22 @@
             "title": "וואלה! רכב — השקת קיה נירו בישראל",
             "url": "https://cars.walla.co.il/item/3011210"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              16380,
+              16380
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "SG2": {
         "issues": [
@@ -465,7 +496,24 @@
             "title": "מלכת הכביש — קיה נירו החדש בישראל: חשמלי מלא ופלאג אין מ-185,000₪",
             "url": "https://www.queenoftheroad.co.il/?p=77247"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              1325,
+              1484
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "Walla Cars (12/2024) — importer main-garage service cost to 90,000 / 120,000 km at one service per year or 15,000 km; ₪ per visit = total ÷ 6 / ÷ 8 visits",
+              "url": "https://cars.walla.co.il/item/3712321"
+            }
+          }
+        ]
       }
     },
     "rio": {

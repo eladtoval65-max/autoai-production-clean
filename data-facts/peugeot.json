@@ -288,7 +288,22 @@
             "title": "Queen of the Road — פיג׳ו 208 החדשה בגרסת בנזין וחשמלית החל מ-118,990 ש״ח",
             "url": "https://www.queenoftheroad.co.il/?p=78223"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "A9 (Gen1)": {
         "issues": [
@@ -360,6 +375,21 @@
             "source": {
               "title": "Spritmonitor — 208 petrol 55–65 kW manual, 2014–2018 (197 vehicles)",
               "url": "https://www.spritmonitor.de/en/overview/36-Peugeot/1281-208.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=55&power_e=65&gearing=1"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
             }
           }
         ]
@@ -507,6 +537,21 @@
             "source": {
               "title": "Spritmonitor — 308 petrol 91–101 kW automatic, 2014–2018 (75 vehicles)",
               "url": "https://www.spritmonitor.de/es/vista_previa/36-Peugeot/1041-308.html?fueltype=2&vehicletype=1&constyear_s=2014&constyear_e=2018&power_s=91&power_e=101&gearing=2"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
             }
           }
         ]
@@ -902,7 +947,37 @@
             "title": "Cartube — פיג׳ו 2008 החדש 2020 בישראל: מחיר 127,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/פיג-ו-2008-החדש-2020-בישראל-מחיר-127990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              1152,
+              1546
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "1.2 PureTech בנזין",
+            "source": {
+              "title": "Walla Cars (01/2023) — service cost per visit, 3-year and ~100,000 km totals (₪ per visit = total ÷ visits at one service per year or 15,000 km)",
+              "url": "https://cars.walla.co.il/item/3554226"
+            }
+          },
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "A94 (Gen1)": {
         "issues": [
@@ -978,7 +1053,22 @@
             "title": "icar — פיג'ו 2008 הגיעה לישראל. המחיר: החל מ-99,990 שקל",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A4%D7%99%D7%92%27%D7%95_2008_%D7%94%D7%92%D7%99%D7%A2%D7%94_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C._%D7%94%D7%9E%D7%97%D7%99%D7%A8:_%D7%94%D7%97%D7%9C_%D7%9E-_99,990_%D7%A9%D7%A7%D7%9C/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       }
     },
     "3008": {
@@ -1045,7 +1135,22 @@
             "title": "icar — פיג׳ו 3008 החדש בישראל: מ-139,900 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/פיג'ו_3008_החדש_בישראל:_מ-139,900_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "T84 (Gen1)": {
         "issues": [
@@ -1248,7 +1353,22 @@
           "year": 2016,
           "url": "https://news.euroncap.com/safercars/top-marks-for-mercedes-benz-e-class-and-peugeot-3008-in-euro-ncap-safety-tests/s/edd09b52-e2b0-469e-a67f-8dcd5cf3bcd5",
           "note": "דירוג ה-3008 (2016, 5 כוכבים) שחל גם על ה-5008 — Euro NCAP מציינת שה-5008 זהה מבנית ל-3008 (עמוד 'Peugeot 5008 (partner to Peugeot 3008)')"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "T87 (MPV)": {
         "issues": [

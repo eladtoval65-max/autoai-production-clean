@@ -210,7 +210,23 @@
             "title": "auto.co.il — יונדאי טוסון 2021 החדש בארץ, החל מ-160,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/134413/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              1602,
+              1615
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "source": {
+              "title": "Walla Cars (12/2024) — importer main-garage service cost to 90,000 / 120,000 km at one service per year or 15,000 km; ₪ per visit = total ÷ 6 / ÷ 8 visits",
+              "url": "https://cars.walla.co.il/item/3712321"
+            }
+          }
+        ]
       }
     },
     "i20": {
@@ -376,7 +392,23 @@
             "title": "וואלה! רכב — יונדאי i20 הושקה בישראל (27.4.2009)",
             "url": "https://cars.walla.co.il/item/1475626"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              606,
+              1657
+            ],
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "source": {
+              "title": "auto.co.il + Engie (16.09.2016) — Hyundai i20 (1st gen 2008–2014): importer service price per service 15,000–95,000 km (2016 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/127810/"
+            }
+          }
+        ]
       }
     },
     "ioniq-6": {
@@ -526,7 +558,23 @@
             "title": "CarTube — יונדאי i10 החדשה 2014 בישראל – מחיר החל מ-59,900",
             "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i10-החדשה-2014-בישראל-–-מחיר-החל-מ-59,900"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              665,
+              1347
+            ],
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "source": {
+              "title": "auto.co.il + Engie (16.09.2016) — Hyundai i10 (2nd gen, 2013+): importer service price per service 15,000–95,000 km (2016 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/127812/"
+            }
+          }
+        ]
       },
       "AC3": {
         "issues": [
@@ -929,7 +977,24 @@
           "year": 2017,
           "url": "https://www.euroncap.com/assessments/hyundai/kona/0709/",
           "note": "5 כוכבים (Euro NCAP, דצמבר 2017) — לפי הודעת יונדאי: hyundai.news"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              993,
+              1093
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "Walla Cars (01/2023) — service cost per visit, 3-year and ~100,000 km totals (₪ per visit = total ÷ visits at one service per year or 15,000 km)",
+              "url": "https://cars.walla.co.il/item/3554226"
+            }
+          }
+        ]
       },
       "SX2": {
         "issues": [
@@ -987,7 +1052,24 @@
             "title": "auto.co.il — יונדאי קונה 2023 החדש בישראל – מחיר החל מ-145,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/136552/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              1272,
+              1274
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "Walla Cars (12/2024) — importer main-garage service cost to 90,000 / 120,000 km at one service per year or 15,000 km; ₪ per visit = total ÷ 6 / ÷ 8 visits",
+              "url": "https://cars.walla.co.il/item/3712321"
+            }
+          }
+        ]
       }
     },
     "ioniq-5": {
@@ -1350,7 +1432,23 @@
             "title": "כלכליסט — יונדאי קונה החשמלית ואיוניק 5 בישראל (28.07.2021)",
             "url": "https://www.calcalist.co.il/local_news/car/article/rjpwmgy1f"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              625,
+              998
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "source": {
+              "title": "Walla Cars (01/2023) — service cost per visit, 3-year and ~100,000 km totals (₪ per visit = total ÷ visits at one service per year or 15,000 km)",
+              "url": "https://cars.walla.co.il/item/3554226"
+            }
+          }
+        ]
       },
       "SX2 EV": {
         "issues": [
@@ -1692,7 +1790,22 @@
             "title": "וואלה! רכב — יונדאי סונטה היברידית החדשה בישראל (07.10.2015)",
             "url": "https://cars.walla.co.il/item/2895153"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              17160,
+              17160
+            ],
+            "scope": "2.0 היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "YF": {
         "issues": [
@@ -1817,7 +1930,22 @@
             "title": "וואלה! רכב — יונדאי סונטה הייבריד החדשה בישראל (14.09.2020)",
             "url": "https://cars.walla.co.il/item/3386612"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              22130,
+              22130
+            ],
+            "scope": "2.0 היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       }
     },
     "palisade": {

@@ -204,7 +204,22 @@
             "title": "Cartube — מחיר קורולה היברידית החדשה בישראל: 131,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/מחיר-קורולה-היברידית-החדשה-בישראל-מחיר-131900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              12174,
+              12882
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       }
     },
     "yaris": {
@@ -274,7 +289,22 @@
             "title": "Cartube — טויוטה יאריס החדשה בישראל: מחיר החל מ-91,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-יאריס-החדשה-בישראל-–-מחיר-החל-מ-91,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              12348,
+              12348
+            ],
+            "scope": "1.5 היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "XP210": {
         "engines": [
@@ -340,7 +370,22 @@
             "title": "Cartube — טויוטה יאריס החדשה 2020 בישראל: מחיר 105,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-יאריס-החדשה-2020-בישראל-מחיר-105900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              10080,
+              10080
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       }
     },
     "yaris-cross": {
@@ -544,7 +589,37 @@
             "title": "auto.co.il — טויוטה RAV4 2019 בישראל – החל מ-170,000 שקלים",
             "url": "https://www.auto.co.il/articles/general-articles/131574/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              1341,
+              1407
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "2.5 היברידי",
+            "source": {
+              "title": "Walla Cars (12/2024) — importer main-garage service cost to 90,000 / 120,000 km at one service per year or 15,000 km; ₪ per visit = total ÷ 6 / ÷ 8 visits",
+              "url": "https://cars.walla.co.il/item/3712321"
+            }
+          },
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              15798,
+              15798
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "XA30": {
         "issues": [
@@ -710,7 +785,22 @@
             "title": "Cartube — 2017 טויוטה C-HR בישראל – מחיר החל מ-141,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-טויוטה-c-hr-בישראל-–-מחיר-החל-מ-141900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              12882,
+              12882
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "AX20": {
         "issues": [
@@ -1133,7 +1223,22 @@
             "title": "icar — טויוטה פריוס החדשה בישראל: המחיר (כמעט) ללא שינוי (7.3.2016)",
             "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_פריוס_החדשה_בישראל_-_המחיר_(כמעט)_ללא_שינוי/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              12882,
+              12882
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "XW30": {
         "issues": [
@@ -1207,7 +1312,22 @@
             "title": "וואלה רכב — טויוטה פריוס דור 3 הושקה בישראל (13.08.2009)",
             "url": "https://cars.walla.co.il/item/1537374"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              13424,
+              14227
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "XW60": {
         "issues": [
@@ -1773,7 +1893,22 @@
             "title": "icar — טויוטה אוריס החדשה בארץ, החל מ-129,900 שקל (28.1.2013)",
             "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_אוריס_החדשה_בארץ._החל_מ-129,900_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              13424,
+              13424
+            ],
+            "scope": "1.8 היברידי",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       }
     },
     "avensis": {

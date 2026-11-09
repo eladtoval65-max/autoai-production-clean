@@ -60,7 +60,22 @@
             "title": "ynet — סיטרואן C3 בישראל - החל מ-95 אלף שקל (13.03.2017)",
             "url": "https://www.ynet.co.il/articles/mobile/0,7340,L-4934724,00.html"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "Gen2": {
         "issues": [
@@ -379,7 +394,22 @@
             "title": "auto.co.il — סיטרואן C5 איירקרוס מושק בישראל – החל מ-149,000 שקלים (03.06.2019)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/132252/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "Gen2 (STLA Medium)": {
         "issues": [
@@ -507,7 +537,22 @@
             "title": "iCar — סיטרואן C3 איירקרוס בישראל: מ-122,000 שקל (03.06.2018)",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F_C3_%D7%90%D7%99%D7%99%D7%A8%D7%A7%D7%A8%D7%95%D7%A1_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-122,000_%D7%A9%D7%A7%D7%9C"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "CC24": {
         "issues": [
@@ -783,6 +828,21 @@
             "source": {
               "title": "TCS (שווייץ) — מבחן C4 Picasso THP 155 Exclusive החדשה, ידני 6, 10/2013 — צריכה במבחן",
               "url": "https://www.tcs.ch/mam/Digital-Media/PDF/Auto-Test/Test-vetture-Citro-n-C4-Picasso.pdf"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              4000
+            ],
+            "scope": "1.2 PureTech טורבו",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
             }
           }
         ]

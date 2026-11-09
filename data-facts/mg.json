@@ -225,7 +225,36 @@
             "title": "icar — MG מתחילה לשווק בישראל צמד משפחתיות (MG4 ו-MG5, 03.05.2023)",
             "url": "https://www.icar.co.il/רכב-חשמלי/MG_מתחילה_לשווק_בישראל_צמד_משפחתיות/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "costIls": [
+              400,
+              500
+            ],
+            "intervalKm": 24000,
+            "source": {
+              "title": "iCar (11/2023) — EV service prices from the importers' price lists",
+              "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/h1vvzkvka/"
+            }
+          },
+          {
+            "he": "טיפול גדול (מעל ₪2,000 לפי מחירון היבואן)",
+            "kind": "scheduled",
+            "intervalKm": 90000,
+            "intervalYears": 4,
+            "costIls": [
+              2000,
+              2000
+            ],
+            "source": {
+              "title": "iCar (11/2023) — EV service prices from the importers' price lists",
+              "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/h1vvzkvka/"
+            }
+          }
+        ]
       }
     },
     "hs": {

@@ -369,7 +369,22 @@
           "year": 2008,
           "url": "https://www.autobild.de/artikel/euro-ncap-crashtest-november-2008-811560.html",
           "note": "5 כוכבים (Euro NCAP, 2008); מקור: Auto Bild"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי התיבה הכפולה (כ-₪10,000) וגלגל תנופה דו-מסה (כ-₪5,000), לרוב סביב 200 אלף ק\"מ.",
+            "kind": "risk",
+            "costIls": [
+              10000,
+              15000
+            ],
+            "scope": "1.5 dCi EDC",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "Megane IV": {
         "issues": [
@@ -439,7 +454,22 @@
             "title": "auto.co.il — רנו מגאן סדאן בישראל - מ-132 אלף שקל (20.04.2017)",
             "url": "https://www.auto.co.il/articles/car-news/129044/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמד וגלגל תנופה דו-מסה בתיבה הכפולה: נשחקים לרוב סביב 150–200 אלף ק\"מ.",
+            "kind": "risk",
+            "costIls": [
+              17000,
+              17000
+            ],
+            "scope": "1.5 dCi",
+            "source": {
+              "title": "auto.co.il (01.07.2024) — used family cars under ₪60,000: Octavia 2017+ and Mégane Grand Coupé maintenance costs",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137256/"
+            }
+          }
+        ]
       }
     },
     "arkana": {
@@ -858,7 +888,22 @@
           "year": 2011,
           "url": "https://cdn.euroncap.com/media/6715/euroncap_renault_fluence_ze_2011_4stars.pdf",
           "note": "נבדקה גרסת ה-Z.E. החשמלית (2011) — 4 כוכבים; גרסת הבנזין לא נבדקה בנפרד"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי התיבה הכפולה (כ-₪10,000) וגלגל תנופה דו-מסה (כ-₪5,000), לרוב סביב 200 אלף ק\"מ.",
+            "kind": "risk",
+            "costIls": [
+              10000,
+              15000
+            ],
+            "scope": "1.5 dCi EDC",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       }
     },
     "kadjar": {

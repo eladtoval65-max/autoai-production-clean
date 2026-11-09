@@ -327,7 +327,22 @@
             "title": "Cartube — מיצובישי ספייס סטאר בישראל: מחיר החל מ-69,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/מיצובישי-ספייס-סטאר-בישראל-–-מחיר-החל-מ-69,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תיבת CVT: אם שמן התיבה לא הוחלף (כל 80,000 ק\"מ), שיפוץ התיבה. בקנייה: לבקש הוכחה להחלפת השמן.",
+            "kind": "risk",
+            "costIls": [
+              6500,
+              6500
+            ],
+            "scope": "CVT 2013–2014",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       }
     },
     "attrage": {

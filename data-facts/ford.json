@@ -70,7 +70,22 @@
           "year": 2012,
           "url": "https://www.caradvice.com.au/news/euro-ncap-4-stars-for-2012-ford-focus-lexus-ct-200h-citroen-ds4/",
           "note": "5 כוכבים (Euro NCAP, 2012); מקור: CarAdvice המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי תיבת PowerShift הכפולה: החלפה מחוץ לאחריות. בדקו שהוחלפו במסגרת האחריות המורחבת של פורד.",
+            "kind": "risk",
+            "costIls": [
+              10000,
+              10000
+            ],
+            "scope": "תיבה כפולה 2011–2014",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "Mk4 (C519)": {
         "issues": [
@@ -405,7 +420,22 @@
           "year": 2008,
           "url": "https://www.autobild.de/artikel/euro-ncap-crashtest-november-2008-811560.html",
           "note": "5 כוכבים (Euro NCAP, 2008); מקור: Auto Bild"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי תיבת PowerShift הכפולה: החלפה מחוץ לאחריות. בדקו שהוחלפו במסגרת האחריות המורחבת של פורד.",
+            "kind": "risk",
+            "costIls": [
+              10000,
+              10000
+            ],
+            "scope": "1.6 תיבה כפולה 2013–2017",
+            "source": {
+              "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          }
+        ]
       },
       "Mk7": {
         "issues": [
