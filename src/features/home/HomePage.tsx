@@ -14,6 +14,7 @@ import { Hero } from "./components/Hero";
 import { HomeFooter } from "./components/HomeFooter";
 import { HomeHeader } from "./components/HomeHeader";
 import { Legend } from "./components/Legend";
+import { MoreTools } from "./components/MoreTools";
 import { PlateCheck } from "./components/plate/PlateCheck";
 import { Workspace } from "./components/workspace/Workspace";
 import { useCatalog } from "./hooks/useCatalog";
@@ -60,21 +61,21 @@ export default function HomePage() {
 
   const trayCars = shortlist.compare.map((id) => cars.find((c) => c.id === id)).filter((c): c is Car => Boolean(c));
   const showTray = trayCars.length > 0 && tab !== "compare";
+  // Results appear only once there is something to show — a first visit sees just the headline, search and questionnaire.
+  const showWorkspace = quiz.complete || tab !== "results" || shortlist.saved.length > 0 || shortlist.compare.length > 0;
 
   return (
     <main dir={dir} lang={lang} className="min-h-screen bg-page text-ink">
       <HomeHeader />
       <Hero quiz={{ ...quiz, reset: resetQuiz }} leader={leader} onResults={showResults} />
-      <Workspace sectionRef={resultsRef} tab={tab} setTab={setTab} cars={cars} ranked={ranked} leader={leader} detailCar={detailCar}
+      {showWorkspace && <Workspace sectionRef={resultsRef} tab={tab} setTab={setTab} cars={cars} ranked={ranked} leader={leader} detailCar={detailCar}
         answers={quiz.answers} setAnswers={quiz.setAnswers} complete={quiz.complete}
         saved={shortlist.saved} history={shortlist.history} compare={shortlist.compare}
         toggleSaved={shortlist.toggleSaved} toggleCompare={shortlist.toggleCompare}
-        onDetails={openDetail} onShare={shareTopPick} onLead={() => setShowLead(true)} />
+        onDetails={openDetail} onShare={shareTopPick} onLead={() => setShowLead(true)} />}
       {showTray && <div aria-hidden className="h-20" /> /* room so the tray never covers the last content */}
       {showTray && <CompareTray cars={trayCars} onRemove={shortlist.toggleCompare} onOpen={() => goTo("compare")} />}
-      <PlateCheck cars={cars} km={quiz.answers.annualKm} onLead={setPlateLead} onDetails={openDetail} />
-      <Legend />
-      <Advisor />
+      <MoreTools plate={<div className="pt-6"><PlateCheck cars={cars} km={quiz.answers.annualKm} onLead={setPlateLead} onDetails={openDetail} /></div>} legend={<Legend />} advisor={<Advisor />} />
       <HomeFooter />
 
       {showLead && leader && (

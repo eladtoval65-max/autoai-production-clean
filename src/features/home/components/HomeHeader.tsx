@@ -12,7 +12,6 @@ export function HomeHeader() {
         <BrandMark en={lang === "en"} href="#top" />
         <nav className="flex items-center gap-1 text-[15px] font-semibold sm:gap-6">
           <a href="/cars" className={link}>{lang === "he" ? "כל הדגמים" : "All models"}</a>
-          <a href="#results" className={`hidden md:inline ${link}`}>{t.navResults}</a>
           <a href="#plate" className={`hidden md:inline ${link}`}>{t.navPlate}</a>
           <a href="#legend" className={`hidden lg:inline ${link}`}>{t.navHow}</a>
           <a href="#advisor" className={`hidden sm:inline ${link}`}>{t.navAdvisor}</a>

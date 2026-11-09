@@ -1,4 +1,6 @@
-import { Clock, Receipt, UserX } from "lucide-react";
+import { ArrowLeft, Clock, Receipt, UserX } from "lucide-react";
+import { useState } from "react";
+import { btnPrimary } from "../../../shared/styles";
 import { useLang } from "../../../shared/i18n";
 import { CarSearch } from "../../../shared/ui/CarSearch";
 import type { Quiz } from "../hooks/useQuiz";
@@ -16,10 +18,14 @@ function splitTitle(title: string): [string, string] {
   return i < 0 ? [title, ""] : [title.slice(0, i + 1), title.slice(i + 2)];
 }
 
-/** Top section: a dark "poster" band (headline + car search, same look as the social posts), then the questionnaire and live top match. */
+/** Top section: a dark "poster" band (headline + car search), then ONE start button for the questionnaire; the live top match appears once answering starts. */
 export function Hero({ quiz, leader, onResults }: { quiz: Quiz; leader?: Ranked; onResults: () => void }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const [lead, em] = splitTitle(t.heroTitle);
+  const started = quiz.step > 0 || quiz.complete;
+  // The questionnaire opens on one tap (or by itself once it has answers), so the first screen offers one clear choice.
+  const [opened, setOpen] = useState(false);
+  const open = opened || started;
   return (
     <section id="top">
       <div className="relative isolate bg-deep text-white">
@@ -36,13 +42,22 @@ export function Hero({ quiz, leader, onResults }: { quiz: Quiz; leader?: Ranked;
         </div>
       </div>
       <div className="bg-mist">
-        <div className="mx-auto grid max-w-[1280px] gap-10 px-4 pb-14 pt-10 sm:px-8 lg:grid-cols-[1fr_1fr] lg:gap-12 lg:pb-20">
-          <div>
-            <h2 className="text-[clamp(1.5rem,2.6vw,2rem)] leading-tight">או שנמצא לכם את הרכב המתאים:</h2>
-            <Finder quiz={quiz} onResults={onResults} />
+        {open ? (
+          <div className={`mx-auto grid max-w-[1280px] gap-10 px-4 pb-14 pt-10 sm:px-8 lg:gap-12 lg:pb-20 ${started ? "lg:grid-cols-[1fr_1fr]" : "max-w-[760px]"}`}>
+            <div><Finder quiz={quiz} onResults={onResults} /></div>
+            {started && leader && <LeaderPanel car={leader} km={quiz.answers.annualKm} started />}
           </div>
-          {leader && <LeaderPanel car={leader} km={quiz.answers.annualKm} started={quiz.step > 0} />}
-        </div>
+        ) : (
+          <div className="mx-auto max-w-[760px] px-4 py-10 sm:px-8">
+            <div className="rounded-3xl border border-line bg-white p-6 text-center shadow-[var(--shadow-card)] sm:p-8">
+              <h2 className="text-[clamp(1.5rem,2.6vw,2rem)] leading-tight">{lang === "he" ? "לא יודעים איזה רכב?" : "Not sure which car?"}</h2>
+              <p className="mt-2 text-[17px] text-muted">{lang === "he" ? "7 שאלות קצרות, 2 דקות, ונראה לכם מה הכי מתאים — ובכמה בחודש." : "7 short questions, 2 minutes — we'll show what fits and what it costs a month."}</p>
+              <button onClick={() => setOpen(true)} className={`${btnPrimary} mt-5 min-h-14 px-8 text-[18px]`}>
+                {lang === "he" ? "מתחילים" : "Start"}<ArrowLeft className="h-5 w-5 rtl:rotate-0 ltr:rotate-180" aria-hidden />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );

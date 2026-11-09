@@ -16,7 +16,7 @@ export function FeedbackButton() {
     <>
       <button onClick={() => setOpen(true)} dir="rtl"
         className="fixed bottom-28 left-0 z-30 flex items-center gap-1.5 rounded-e-xl bg-ink px-3 py-2.5 text-[14px] font-bold text-white shadow-[var(--shadow-float)] hover:bg-[#1d2c40]">
-        <MessageSquarePlus className="h-4 w-4" aria-hidden />מה חסר לך?
+        <MessageSquarePlus className="h-4 w-4" aria-hidden /><span className="sr-only sm:not-sr-only">מה חסר לך?</span>
       </button>
       {open && <FeedbackDialog page={location} onClose={() => setOpen(false)} />}
     </>

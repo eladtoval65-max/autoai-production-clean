@@ -7,22 +7,16 @@ import { BudgetSlider } from "./BudgetSlider";
 import type { MultiKey, StepKey } from "../types";
 import { ChoiceOption } from "./ChoiceOption";
 
-/** Header row: "step 2 of 5", quick/full switch, restart button, and the progress bar. */
+/** Header row: "step 2 of 7", restart button and the progress bar. (The quick/full switch was removed: one path is simpler.) */
 function FinderProgress({ quiz }: { quiz: Quiz }) {
   const { t } = useLang();
-  const { step, order, done, mode, switchMode, reset } = quiz;
+  const { step, order, done, reset } = quiz;
   const pct = Math.round((Math.min(step, order.length) / order.length) * 100);
   return (
     <>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <span className="text-[15px] font-bold text-muted">{done ? t.doneTitle : t.stepOf(step + 1, order.length)}</span>
         <div className="flex items-center gap-2">
-          <div role="group" aria-label={t.modeLabel} className="flex rounded-full bg-mist p-0.5 text-[14px] font-bold">
-            {(["quick", "full"] as const).map((m) => (
-              <button key={m} onClick={() => switchMode(m)} aria-pressed={mode === m}
-                className={`min-h-8 rounded-full px-3 ${mode === m ? "bg-white text-ink shadow-[var(--shadow-card)]" : "text-muted hover:text-ink"}`}>{m === "quick" ? t.quick : t.full}</button>
-            ))}
-          </div>
           <button onClick={reset} aria-label={t.restart} title={t.restart} className="flex h-9 w-9 items-center justify-center rounded-full border border-line hover:border-ink"><RotateCcw className="h-4 w-4" /></button>
         </div>
       </div>

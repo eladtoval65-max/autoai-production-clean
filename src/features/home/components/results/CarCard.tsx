@@ -1,6 +1,5 @@
-import { Star } from "lucide-react";
 import { shekel, useLang } from "../../../../shared/i18n";
-import { shortName, ten } from "../../../../shared/format";
+import { shortName } from "../../../../shared/format";
 import { btnGhost, card } from "../../../../shared/styles";
 import { CarPhoto } from "../../../../shared/ui/CarPhoto";
 import { MonthlyTag } from "../../../../shared/ui/MonthlyTag";
@@ -20,7 +19,7 @@ export function CarCard({ car, rank, km, saved, inCompare, onSave, onCompare, on
       <div className="relative">
         <CarPhoto name={car.make} className="aspect-[16/10] w-full" width={800} />
         <span className="absolute start-3 top-3 rounded-full bg-white px-2.5 py-0.5 text-[13px] font-bold text-ink shadow-[var(--shadow-card)]">
-          #{rank} · <Star className="inline h-3.5 w-3.5 -translate-y-px fill-[#f5a524] text-[#f5a524]" aria-hidden /> {ten(car.match).toFixed(1)}
+          #{rank}
         </span>
         <div className="absolute end-3 top-3"><SaveBtn on={saved} onClick={onSave} small /></div>
       </div>
