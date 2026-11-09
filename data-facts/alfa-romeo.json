@@ -175,7 +175,139 @@
           }
         }
       }
+    },
+    "giulietta": {
+      "940": {
+        "issues": [
+          {
+            "he": "יחידת ה-MultiAir (הרמת שסתומים משתנה) עלולה להיכשל — רעש נקישות, רעידות/מיספייר, נורת מנוע ו-Start/Stop מושבת; בעיקר ביחידות שיוצרו לפני סוף 2012 — לבדוק בנסיעה ולבקש היסטוריית החלפה",
+            "level": "widely_reported",
+            "scope": "1.4 MultiAir, 2011–2012 (ייצור עד אוקטובר/נובמבר 2012)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Alfa Romeo Giulietta (2011-20)",
+              "url": "https://australiancar.reviews/?p=46356"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה במערכת ההדף של כריות האוויר — השלב השני עלול להיפתח לא נכון או לא להיפתח — לוודא במוסך מורשה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9/2010–12/2015 (קריאה אירופית, Rapex 13/2017 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — Alfa Romeo Giulietta (2010–2015) airbag propellant",
+              "url": "https://car-recalls.eu/recall/alfa-romeo-giulietta-2010-2015/"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיווט משאבת התיבה הרובוטית (TCT) עלול להתחכך בתושבת מסנן החלקיקים ולגרום לתקלה בתיבה ואף לאובדן הנעה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2.0 JTDM עם תיבת TCT, 2012–2014 (קריאה אוסטרלית PRA 2015/14585 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Vehicle Recalls (Australian Government) — Alfa Romeo Giulietta 2012–2014 REC-000002",
+              "url": "https://vehiclerecalls.gov.au/recalls/rec-000002"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנה שגויה אפשרה לנהג לנטרל את כרית הנוסע מתפריטי לוח השעונים — לוודא שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "2016–2018 (קריאה אוסטרלית PRA 2018/16799 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Alfa Romeo Giulietta (2011-20)",
+              "url": "https://australiancar.reviews/?p=46356"
+            }
+          },
+          {
+            "he": "חדירת מים: מנעול תא המטען מתמלא ונתקע אחרי גשם, שקע הגלגל הרזרבי מוצף ואטמי הפנסים האחוריים נכשלים — לבדוק רטיבות בתא המטען ועיבוי בפנסים",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — Used Alfa Romeo Giulietta review",
+              "url": "https://cdn1.autoexpress.co.uk/alfa-romeo/giulietta/100072/used-alfa-romeo-giulietta-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Alfa Romeo Giulietta 2010 1.4 120 HP MT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Alfa-Romeo-Giulietta"
+            }
+          },
+          {
+            "name": "1.4 MultiAir טורבו בנזין (אוטומטית TCT)",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 8.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Alfa Romeo Giulietta 2010/2011 1.4 Turbo MultiAir 170 HP AT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Alfa-Romeo-Giulietta"
+            }
+          },
+          {
+            "name": "1750 TBi בנזין",
+            "pt": "petrol",
+            "hp": 235,
+            "cons": 9.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Alfa Romeo Giulietta 2010 1.75 TBi MT, real consumption from owner reports (sample size not stated); 235 hp per Walla",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Alfa-Romeo-Giulietta"
+            }
+          },
+          {
+            "name": "1.6 JTDM דיזל",
+            "pt": "diesel",
+            "hp": 105,
+            "cons": 5.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Alfa Romeo Giulietta 2010 1.6 diesel MT, real consumption from owner reports (sample size not stated); 105 hp per Auto Express",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Alfa-Romeo-Giulietta"
+            }
+          },
+          {
+            "name": "2.0 JTDM דיזל 140 כ\"ס",
+            "pt": "diesel",
+            "hp": 140,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Alfa Romeo Giulietta 2010 2.0 140 HP MT diesel, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Alfa-Romeo-Giulietta"
+            }
+          },
+          {
+            "name": "2.0 JTDM דיזל 170 כ\"ס",
+            "pt": "diesel",
+            "hp": 170,
+            "cons": 6.3,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Alfa Romeo Giulietta 2010 2.0 170 HP MT diesel, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Alfa-Romeo-Giulietta"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-s-best-performing-cars-of-2010"
+        },
+        "launchPrice": {
+          "ils": 160000,
+          "year": 2010,
+          "note": "גרסת בסיס (הכתבה לא מציינת את המנוע של גרסת הבסיס)",
+          "source": {
+            "title": "Walla! רכב — אלפא רומיאו ג'ולייטה מגיעה לישראל (30.8.2010)",
+            "url": "https://cars.walla.co.il/item/1727577"
+          }
+        }
+      }
     }
   },
-  "updated": "2026-11-08"
+  "updated": "2026-11-09"
 }

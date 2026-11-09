@@ -1,6 +1,6 @@
 {
   "make": "chevrolet",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "spark": {
       "M300": {
@@ -825,6 +825,52 @@
           "stars": 5,
           "year": 2011,
           "url": "https://cdn.euroncap.com/media/6488/euroncap_chevrolet_orlando_2011_5stars.pdf"
+        }
+      }
+    },
+    "blazer-ev": {
+      "Gen1 (BEV3)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חיווט בלם החניה האחורי עלול להישחק או להחליד — הבלם עלול להופעל בנסיעה או לא להחזיק בחניה — לוודא שהקריאה (ותיקון ההמשך) בוצעו",
+            "level": "recall",
+            "scope": "2024–2025, NHTSA 25V433 ו-26V031 (קריאה אמריקאית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "MotorVerso — NHTSA campaign 25V433000, 2024–2025 Chevrolet Blazer EV parking brake",
+              "url": "https://www.motorverso.com/recalls/chevrolet/25V433000/"
+            }
+          },
+          {
+            "he": "תקלות תוכנה בדגמי 2024 הראשונים (מסך שנתקע, הודעות שגיאה, טעינה מהירה, מתגי חלונות, ריקון מצבר 12V) הובילו לעצירת מכירות זמנית ותוקנו בעדכונים — לבקש תיעוד עדכוני תוכנה",
+            "level": "manufacturer",
+            "scope": "שנת דגם 2024, ארה\"ב (דצמבר 2023)",
+            "source": {
+              "title": "InsideEVs — Chevy Blazer EV stop-sale (software issues)",
+              "url": "https://insideevs.com/news/702188/chevy-blazer-ev-stop-sale/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללת Ultium 85 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 300,
+            "cons": 20.8,
+            "unit": "kWh",
+            "source": {
+              "title": "Edmunds long-term test — 2024 Blazer EV RS AWD, 33.5 kWh/100 mi over 8,757 mi ≈ 20.8 kWh/100km (hp 300 / 85 kWh per auto.co.il Israeli launch)",
+              "url": "https://edmunds.com/chevrolet/blazer-ev/2024/long-term-road-test"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 389990,
+          "year": 2026,
+          "note": "RS, הנעה כפולה (גרסה יחידה)",
+          "source": {
+            "title": "מלכת הכביש — שברולט בלייזר EV בישראל (עד 455 ק\"מ) ב-389,990 ש\"ח",
+            "url": "https://www.queenoftheroad.co.il/?p=84752"
+          }
         }
       }
     }

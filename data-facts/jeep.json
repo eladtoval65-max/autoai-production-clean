@@ -1,6 +1,6 @@
 {
   "make": "jeep",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "compass": {
       "Gen2": {
@@ -380,6 +380,209 @@
           "source": {
             "title": "auto.co.il — ג'יפ אוונג'ר החדש בישראל – מחיר החל מ-190,000 שקלים (01.01.2024)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/136793/"
+          }
+        }
+      }
+    },
+    "renegade": {
+      "BU": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חיווט פגום בתיבת ההילוכים עלול להעביר את הרכב לניוטרל בנסיעה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור עד אוקטובר 2014 (קריאה בריטית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Auto Express — Used Jeep Renegade review (recalls)",
+              "url": "https://www.autoexpress.co.uk/jeep/renegade/108279/used-jeep-renegade-review"
+            }
+          },
+          {
+            "he": "קריאת שירות: וילונות האוויר הצדדיים עלולים להיות לא מחוברים ולא להיפתח בתאונה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 4.12.2020–23.7.2021 (קריאה אירופית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "car-recalls.eu — Jeep Renegade (2020–2021) airbag, RAPEX A12/01452/22",
+              "url": "https://car-recalls.eu/recall/jeep-renegade-2020-2021-airbag/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר הצדדית עלולה לא להיפתח כראוי — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור אוקטובר–נובמבר 2016 (קריאה בריטית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Auto Express — Used Jeep Renegade review (recalls)",
+              "url": "https://www.autoexpress.co.uk/jeep/renegade/108279/used-jeep-renegade-review"
+            }
+          },
+          {
+            "he": "קריאת שירות בפלאג-אין: כבל למודול הטעינה (IDCM) לא הודק כנדרש, מצבר 12V לא נטען והרכב עלול לכבות בנסיעה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "1.3 4xe פלאג-אין, ייצור 9.11.2021–7.5.2024 (קריאה אירופית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "car-recalls.eu — Jeep Renegade PHEV (2021–2024), RAPEX A12/03224/24",
+              "url": "https://car-recalls.eu/recall/jeep-renegade-phev-2021-2024-electronic-accident/amp"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 MultiAir טורבו בנזין 140 כ\"ס",
+            "pt": "petrol",
+            "hp": 140,
+            "cons": 8.15,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Jeep Renegade, all petrol versions (128 vehicles; model-wide petrol average, not engine-specific). hp: mobile.de Renegade (BU) data",
+              "url": "https://www.spritmonitor.de/en/overview/22-Jeep/1424-Renegade.html"
+            }
+          },
+          {
+            "name": "1.6 MultiJet דיזל",
+            "pt": "diesel",
+            "hp": 120,
+            "cons": 6.97,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Jeep Renegade, all diesel versions (216 vehicles; model-wide diesel average, not engine-specific). hp: mobile.de Renegade (BU) data",
+              "url": "https://www.spritmonitor.de/en/overview/22-Jeep/1424-Renegade.html"
+            }
+          },
+          {
+            "name": "1.3 4xe פלאג-אין",
+            "pt": "phev",
+            "hp": 240,
+            "cons": 4.44,
+            "unit": "L",
+            "source": {
+              "title": "Spritmonitor — Jeep Renegade, all plug-in hybrid petrol (39 vehicles, fuel only, excl. electricity). hp: Spritmonitor Renegade 4xe vehicle 177 kW/241 PS",
+              "url": "https://www.spritmonitor.de/en/overview/22-Jeep/1424-Renegade.html"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2014,
+          "url": "https://www.euroncap.com/en/results/jeep/renegade/7869"
+        },
+        "launchPrice": {
+          "ils": 169900,
+          "year": 2016,
+          "note": "Longitude 4X2, 1.4 טורבו 140 כ\"ס אוטומטית — השקת היבואן הרשמי",
+          "source": {
+            "title": "icar — ג'יפ רנגייד יימכר ב-170 אלף שקל (11.1.2016)",
+            "url": "https://www.icar.co.il/חדשות_רכב/ג'יפ_רנגייד_יימכר_ב-170_אלף_שקל/"
+          }
+        }
+      }
+    },
+    "cherokee": {
+      "KL": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בלאי בשיניים של יחידת העברת הכוח (PTU) בגרסאות 4X4 עלול לגרום לאובדן הנעה ולכשל במצב חניה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "4X4, דגמי 2014–2017 (קריאה אוסטרלית; קריאה נוספת 2023 לשנים 2015–2023 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "CarAdvice — Jeep Cherokee (KL) recalled due to fault in the power transfer unit",
+              "url": "https://www.caradvice.com.au/news/jeep-cherokee-kl-recalled-with-fault-in-the-power-transfer-unit/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מצמד תקוע בתיבת 9 ההילוכים עלול להעביר לניוטרל ללא אזהרה — לוודא שהקריאה בוצעה ושהתיבה מחליפה חלק",
+            "level": "recall",
+            "scope": "3.2 V6, שנת דגם 2014 (קריאה אמריקאית; באוסטרליה 2014–2018 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "WJLA — latest recall covers 82K Jeep Cherokees (9-speed automatic)",
+              "url": "https://wjla.com/news/auto-matters/woes-mount-for-9-speed-automatic-transmission-latest-recall-covers-82k-jeep-cherokees"
+            }
+          },
+          {
+            "he": "תיבת 9 ההילוכים ידועה בהעברות גסות ובתקלות שתוקנו בעדכוני תוכנה ובחלק מהמקרים בפירוק התיבה — לבדוק בנסיעת מבחן העברות חלקות ולבקש תיעוד עדכונים",
+            "level": "manufacturer",
+            "scope": "עלוני שירות 2014–2016 (21-018-14, 21-008-15)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Jeep KL Cherokee (service bulletins)",
+              "url": "https://www.australiancar.reviews/?p=47126"
+            }
+          },
+          {
+            "he": "קריאת שירות: קצר במודול הדלת האחורית החשמלית עלול לגרום לשריפה גם כשהרכב כבוי — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2013–2016 (קריאות אוסטרליות 2015, 2016, 2024 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Jeep KL Cherokee",
+              "url": "https://www.australiancar.reviews/?p=47126"
+            }
+          },
+          {
+            "he": "קריאת שירות: צינור דלק פגום במנוע 2.4 עלול לדלוף ולגרום לשריפה או לכיבוי המנוע — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "2.4, שנת דגם 2018 (קריאה אוסטרלית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Jeep KL Cherokee",
+              "url": "https://www.australiancar.reviews/?p=47126"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 MultiJet דיזל 140 כ\"ס",
+            "pt": "diesel",
+            "hp": 140,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Cherokee (2014–2019) 2.0 MultiJet 140: 46.6 mpg (UK) ≈ 6.1 L/100km",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/jeep/cherokee-2014"
+            }
+          },
+          {
+            "name": "2.0 MultiJet דיזל 170 כ\"ס",
+            "pt": "diesel",
+            "hp": 170,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Cherokee (2014–2019) 2.0 MultiJet 170 Automatic: 39.5 mpg (UK) ≈ 7.2 L/100km",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/jeep/cherokee-2014"
+            }
+          },
+          {
+            "name": "2.2 MultiJet דיזל 185 כ\"ס",
+            "pt": "diesel",
+            "hp": 185,
+            "cons": 6.7,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Cherokee (2014–2019) 2.2 MultiJet 185 Automatic: 42.3 mpg (UK) ≈ 6.7 L/100km",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/jeep/cherokee-2014"
+            }
+          },
+          {
+            "name": "2.2 MultiJet דיזל 200 כ\"ס",
+            "pt": "diesel",
+            "hp": 200,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Cherokee (2014–2019) 2.2 MultiJet 200 Automatic: 41.2 mpg (UK) ≈ 6.9 L/100km",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/jeep/cherokee-2014"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2019,
+          "note": "דירוג 2019 לדגם המחודש (4 כוכבים); בדירוג 2013 קיבל 5 כוכבים — https://cdn.euroncap.com/media/5876/euroncap_jeep_cherokee_2013_5stars.pdf",
+          "url": "https://news.euroncap.com/safercars/bmw-s-1-and-3-get-five-stars--peugeot-and-jeep-follow-with-four/s/045c9eda-e0eb-446b-b776-0872ed223212"
+        },
+        "launchPrice": {
+          "ils": 269900,
+          "year": 2014,
+          "note": "מחיר פתיחה בהשקה (רמת גימור לא צוינה בכותרת)",
+          "source": {
+            "title": "cartube — ג'יפ צ'ירוקי החדש 2014 בישראל – מחיר החל מ-269,900 שקל",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%92-%D7%99%D7%A4-%D7%A6-%D7%99%D7%A8%D7%95%D7%A7%D7%99-%D7%94%D7%97%D7%93%D7%A9-2014-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%E2%80%93-%D7%9E%D7%97%D7%99%D7%A8-%D7%94%D7%97%D7%9C-%D7%9E-269,900-%D7%A9%D7%A7%D7%9C"
           }
         }
       }

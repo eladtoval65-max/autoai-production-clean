@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "c3": {
       "Gen3": {
@@ -1038,6 +1038,116 @@
           "year": 2014,
           "url": "https://cdn.euroncap.com/media/4585/euroncap_citroen_c-elysee_2014_3stars.pdf",
           "note": "3 כוכבים (Euro NCAP, יוני 2014: 71% מבוגרים, 33% מערכות בטיחות); אומת גם ב-automarket.ro"
+        }
+      }
+    },
+    "c1": {
+      "C1 I": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הדבק שמחזיק את חלונות הפתיחה האחוריים עלול להשתחרר והחלון עלול ליפול לכביש — לוודא שהקריאה בוצעה; רעש רוח או רעשוש הם סימן אזהרה",
+            "level": "recall",
+            "scope": "ייצור 2005–2013, קריאה אירופית (01/2019) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Citroën C1 (2005 – 2013)",
+              "url": "https://car-recalls.eu/recall/citroen-c1-2005-2013/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מוטות בולמי הזעזועים הקדמיים עלולים להישבר — סכנת אובדן שליטה; לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנתון 2013, קריאה אירופית (03/2015) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Citroen C1 (2013)",
+              "url": "https://car-recalls.eu/recall/citroen-c1-2013/"
+            }
+          },
+          {
+            "he": "קריאת שירות: המתנע נשאר תחת מתח אחרי ההתנעה ועלול להישרף ולהשאיר את הרכב בלי התנעה — הטיפול הוא ממסר זמן; לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "קריאה גרמנית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Citroën C1 (2005–2014)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0217-citroen-c1-2005-2014-bericht.pdf"
+            }
+          },
+          {
+            "he": "ADAC מציין בלמים חלשים ונשחקים, תקלות תאורה בבדיקות והגנה חלשה מחלודה — לבדוק בלמים, פנסים וחלודה במרכב ובמפלט",
+            "level": "widely_reported",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Citroën C1 (2005–2014)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0217-citroen-c1-2005-2014-bericht.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 3 צילינדרים",
+            "pt": "petrol",
+            "hp": 68,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "ADAC EcoTest — Peugeot 107 1.0 68 (תאום של C1 I עם אותו מנוע 50 kW, 03/12–04/14), ממוצע 5.0 ל'/100 ק\"מ; הספק C1 לפי ADAC 281002",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/107/1generation-facelift-2/231139/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2012,
+          "url": "https://news.euroncap.com/safercars/citro%C3%ABn%20c1-%20%20euro%20ncap%20results%202012/s/0ab2988b-6a8e-484b-aa2c-c89e050e610f",
+          "note": "Euro NCAP החיל על ה-C1 את דירוג טויוטה אייגו; 3 כוכבים לפי דף הנתונים של התאומה פיג'ו 107 2012 ולפי FDM (\"עלו משלושה לארבעה\" ב-2014)"
+        }
+      },
+      "C1 II": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רכיב במכלול עמוד ההגה עלול להיכשל ולגרום לאובדן שליטה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.9.2014–15.9.2014, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Citroen C1 (2014)",
+              "url": "https://car-recalls.eu/recall/citroen-c1-2014/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תפרים פגומים בחגורות הבטיחות האחוריות (באזור האבזם) עלולים להחליש את ההגנה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 27.8.2020–30.9.2020, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Citroen C1 (2020) seatbelt stitching",
+              "url": "https://car-recalls.eu/recall/citroen-c1-2020-seatbelt-stitching/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech בנזין 3 צילינדרים",
+            "pt": "petrol",
+            "hp": 82,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "Fleet News — PSA real-world economy figures (מדידה בכביש, 2016): C1 PureTech 82 ידני — 6.1 ל'/100 ק\"מ",
+              "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2016/07/07/peugeot-citroen-and-ds-release-real-world-economy-figures-for-30-models"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/all/Citro%C3%ABn-C1----Euro-NCAP-Results-2014/s/2652bf9a-fc9d-499b-880b-0d0c96e23a9c",
+          "note": "Euro NCAP החיל על ה-C1 את דירוג טויוטה אייגו; 4 כוכבים לפי FDM (C1, 108 ואייגו)"
+        },
+        "launchPrice": {
+          "ils": 66990,
+          "year": 2014,
+          "note": "גרסת בסיס; מתוך כותרת הכתבה",
+          "source": {
+            "title": "cartube — סיטרואן C1 החדשה 2014 בישראל – מחיר החל מ-66,990 שקל",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F-c1-%D7%94%D7%97%D7%93%D7%A9%D7%94-2014-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%E2%80%93-%D7%9E%D7%97%D7%99%D7%A8-%D7%94%D7%97%D7%9C-%D7%9E-66,990-%D7%A9%D7%A7%D7%9C"
+          }
         }
       }
     }

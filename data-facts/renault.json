@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "clio": {
       "Clio IV": {
@@ -921,6 +921,270 @@
             }
           }
         ]
+      }
+    },
+    "zoe": {
+      "Phase 1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מפעיל נעילת ה-P במנגנון בלם החניה עלול להישבר, כך שלא ניתן לנעול את התיבה במצב חניה — לוודא שהקריאה בוצעה ולמשוך תמיד בלם יד בחניה בשיפוע",
+            "level": "recall",
+            "scope": "ייצור מתחילת הייצור עד 26.1.2016, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Renault Zoe (2012 – 2016)",
+              "url": "https://car-recalls.eu/recall/renault-zoe-2012-2016/amp"
+            }
+          },
+          {
+            "he": "קריאת שירות: ייתכן שהותקנה דוושת גז של ניסאן במקום של רנו, והרגל עלולה להיתקע בשטיח — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 12.7.2017–18.10.2017, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Renault Zoe 2017",
+              "url": "https://car-recalls.eu/recall/renault-zoe-2017"
+            }
+          },
+          {
+            "he": "קריאת שירות: רכזות הגלגלים הקדמיים עלולות להיסדק — רעש חריג ובמקרה קיצון כשל ברכזת; לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 22.9.2017–25.9.2017, קריאה בריטית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.co.uk — Renault Zoe front wheel hubs may crack",
+              "url": "https://car-recalls.co.uk/recall/renault-zoe-front-wheel-hubs-may-crack/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה פנימית בבקר מנוע ההגה עלולה לגרום לאובדן סיוע ההגה בעמידה או בנסיעה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 04–10/2019, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Renault Zoe (2019)",
+              "url": "https://car-recalls.eu/recall/renault-zoe-2019/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 22 קוט\"ש",
+            "pt": "ev",
+            "hp": 88,
+            "cons": 17.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Renault Zoe Q210 22 kWh (2013–2017), real-world 179 Wh/km",
+              "url": "https://ev-database.org/car/1026/Renault-Zoe-Q210"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 41 קוט\"ש",
+            "pt": "ev",
+            "hp": 109,
+            "cons": 16.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Renault Zoe R110 41 kWh (2018–2019), real-world 164 Wh/km",
+              "url": "https://ev-database.org/car/1128/Renault-Zoe-R110"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/6018/euroncap_renault_zoe_2013_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 131990,
+          "year": 2017,
+          "note": "סוללה 22 קוט\"ש כולל עמדת טעינה ביתית; ב-2018 גרסת 41 קוט\"ש ב-144,000 ש\"ח (auto.co.il)",
+          "source": {
+            "title": "icar — רנו חוזרת לחשמליות: רנו זואי תימכר ב-132 אלף (30.1.2017)",
+            "url": "https://www.icar.co.il/חדשות_רכב/רנו_חוזרת_לחשמליות:_רנו_זואי_תימכר_ב-132_אלף/"
+          }
+        }
+      },
+      "Phase 2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלה בסוללה (מודול BT4 XLR) עלולה לגרום לקצר פנימי בזמן טעינה או נסיעה ולהעלות סיכון לשריפה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 3.1.2021–22.2.2021 (773 רכבים, קוד 0DKQ), קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Renault Zoe (2021) internal short circuit",
+              "url": "https://car-recalls.eu/recall/renault-zoe-2021-internal-short-circuit/amp"
+            }
+          },
+          {
+            "he": "קריאת שירות: משענת המושב האחורי עלולה להיות פגומה, ובבלימה חזקה או תאונה נוסעים ומטען עלולים להיזרק קדימה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 14.11.2022–3.12.2022, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Renault Zoe (2022) rear seat backrest",
+              "url": "https://car-recalls.eu/recall/renault-zoe-2022-backrest-rear-seat/amp"
+            }
+          },
+          {
+            "he": "קריאת שירות: פגם ייצור עלול לגרום לקצר בתוך סוללת המתח הגבוה ולסיכון שריפה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 1.9.2023–28.9.2023 (קוד 0EBN), קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Renault Zoe (2023) battery fire",
+              "url": "https://car-recalls.eu/recall/renault-zoe-2023-battery-fire/amp"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 52 קוט\"ש (R110)",
+            "pt": "ev",
+            "hp": 109,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Renault Zoe ZE50 R110 (2019–2024), real-world 165 Wh/km",
+              "url": "https://ev-database.org/car/1164/Renault-Zoe-ZE50-R110"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 52 קוט\"ש (R135)",
+            "pt": "ev",
+            "hp": 136,
+            "cons": 16.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Renault Zoe ZE50 R135 (2019–2024), real-world 168 Wh/km",
+              "url": "https://ev-database.org/car/1205/Renault-Zoe-ZE50-R135"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 0,
+          "year": 2021,
+          "url": "https://www.euroncap.com/en/results/renault/zoe/44206",
+          "note": "הדגם המחודש קיבל 0 כוכבים בבדיקת 12/2021 (הגנה חלשה ומערכות בטיחות אקטיביות חלשות)"
+        }
+      }
+    },
+    "koleos": {
+      "Gen1 (H45)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: פגם ריתוך בזרוע המתלה הקדמית-תחתונה הימנית עלול לגרום לשבירתה בבלימה ולסטייה ימינה — לוודא שהזרוע הוחלפה",
+            "level": "recall",
+            "scope": "ייצור ינואר–נובמבר 2011 (קריאה אירופית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "car-recalls.eu — Renault Koleos (2011) lower suspension arm",
+              "url": "https://car-recalls.eu/recall/renault-koleos-2011"
+            }
+          },
+          {
+            "he": "קריאת שירות: בורג במכסה תיבת ההגה עלול להשתחרר ולגרום לאובדן היגוי (סימן מקדים: חופש בהגה) — לוודא שהותקנה פלטת נעילה",
+            "level": "recall",
+            "scope": "ייצור עד 21.8.2009 (קריאה גרמנית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "AUTO BILD — Rückruf Renault Koleos, Nissan X-Trail und Qashqai (23.11.2009)",
+              "url": "https://www.autobild.de/artikel/rueckruf-renault-koleos-nissan-x-trail-und-qashqai-1013567.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: הלחמה חלשה ביחידת הבקרה של ההגה החשמלי עלולה לבטל את סיוע ההגה — לוודא שהיחידה הוחלפה",
+            "level": "recall",
+            "scope": "עמודי הגה שהורכבו 6–10.9.2010 (קריאה פולנית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "motonews.pl — Problemy z układem kierowniczym w Renault Koleos (21.2.2012)",
+              "url": "https://www.motonews.pl/renault/news-9287-problemy-z-ukladem-kierowniczym-w-renault-koleos.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בנזין",
+            "pt": "petrol",
+            "hp": 170,
+            "cons": 10.8,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide used review 2008–2014 — single owner report, 2.5 petrol CVT ~10.8 L/100km over 55,000 km (hp 170 per auto.co.il Israeli launch, 2008)",
+              "url": "https://carsguide.com.au/car-reviews/renault-koleos-used-review-2008-2014-45758"
+            }
+          },
+          {
+            "name": "2.0 dCi דיזל",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "CarsGuide used review 2008–2014 — single owner report, 2014 diesel auto 7.8 L/100km; 110 kW (150 PS) auto version",
+              "url": "https://carsguide.com.au/car-reviews/renault-koleos-used-review-2008-2014-45758"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2008,
+          "note": "5 כוכבים בהגנת נוסעים בוגרים בשיטת הדירוג הישנה (לפי australiancar.reviews)",
+          "url": "https://euroncap.com/tests/renault_koleos_2008/330.aspx"
+        },
+        "launchPrice": {
+          "ils": 155000,
+          "year": 2008,
+          "note": "2.5 בנזין 170 כ\"ס, הנעה קדמית, רמת גימור בסיסית (השקה בדצמבר 2008)",
+          "source": {
+            "title": "auto.co.il — רנו קולאוס הגיע לאולמות התצוגה בישראל (18.12.2008)",
+            "url": "https://www.auto.co.il/articles/car-news/121105/"
+          }
+        }
+      },
+      "Gen2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: הדבקה לקויה בין מעטפת מכסה המנוע למסגרת הפנימית — המכסה עלול להתנתק בנסיעה מהירה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנות דגם 2022–2023 (קריאה אוסטרלית; מופיעה גם ברשימה האירופית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Renault XZG Koleos (2016-on), campaign 0E4D",
+              "url": "https://australiancar.reviews/?p=47693"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בנזין",
+            "pt": "petrol",
+            "hp": 171,
+            "cons": 8.5,
+            "unit": "L",
+            "source": {
+              "title": "CarExpert — 2022 Renault Koleos Intens review, 2.5 CVT 126 kW, ~8.5 L/100km on test",
+              "url": "https://www.carexpert.com.au/car-reviews/2022-renault-koleos-intens-review"
+            }
+          },
+          {
+            "name": "2.0 dCi דיזל",
+            "pt": "diesel",
+            "hp": 173,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "Auto Express — used Renault Koleos Mk2 review, 2.0 dCi 175 (173 bhp) test average 36 mpg (UK) ≈ 7.8 L/100km",
+              "url": "https://www.autoexpress.co.uk/renault/koleos/358106/used-renault-koleos-mk2-2017-date-review"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2017,
+          "url": "https://www.euroncap.com/en/results/renault/koleos/27777"
+        },
+        "launchPrice": {
+          "ils": 165000,
+          "year": 2020,
+          "note": "Intens, 1.7 dCi דיזל 150 כ\"ס — היבואן הרשמי השיק את הדור השני רק ב-2020",
+          "source": {
+            "title": "icar — רנו קולאוס בישראל. המחיר: 165,000 שקלים (7.1.2020)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A8%D7%A0%D7%95_%D7%A7%D7%95%D7%9C%D7%90%D7%95%D7%A1_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C._%D7%94%D7%9E%D7%97%D7%99%D7%A8:_165,000_%D7%A9%D7%A7%D7%9C%D7%99%D7%9D/"
+          }
+        }
       }
     }
   }

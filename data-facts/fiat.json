@@ -1,7 +1,158 @@
 {
   "make": "fiat",
-  "updated": "2026-11-01",
+  "updated": "2026-11-09",
   "models": {
+    "500": {
+      "312": {
+        "issues": [
+          {
+            "he": "בתיבת הרובוטית Dualogic מופיעה הודעת 'gear unavailable', ההילוך לא מתחלף או שמגיעה מכה בהעברה לניוטרל — לרוב המשאבה/מצבר הלחץ/המפעיל דורשים החלפה; לבדוק העברות הילוכים בנסיעת מבחן",
+            "level": "widely_reported",
+            "scope": "תיבת Dualogic (נתוני דגם 500C 2010–15, אותה מכניקה)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat 500C (2010-15)",
+              "url": "https://www.australiancar.reviews/?p=46702"
+            }
+          },
+          {
+            "he": "אטם מכסה השסתומים במנוע 1.2 Fire מיועד להחלפה כל שנתיים/40 אלף ק\"מ (יחד עם בדיקת מרווחי שסתומים) — לבקש הוכחה שבוצע בטיפולים",
+            "level": "manufacturer",
+            "scope": "1.2 בנזין",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat 500C (2010-15)",
+              "url": "https://www.australiancar.reviews/?p=46702"
+            }
+          },
+          {
+            "he": "חוסר כוח בזינוק מתחת ל-3,000 סל\"ד (במיוחד בעלייה) בגרסאות יורו 6 — פיאט הציעה עדכון תוכנה והחלפת חיישן מצמד; לוודא שהעדכון בוצע",
+            "level": "manufacturer",
+            "scope": "1.2 בנזין יורו 6, 2014–2015",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat 500C (2010-15)",
+              "url": "https://www.australiancar.reviews/?p=46702"
+            }
+          },
+          {
+            "he": "קריאת שירות: גל הנעה ימני קדמי פגום עלול להישבר בנסיעה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 13.11.2018–19.12.2018 (קריאה אירופית 6228 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — Fiat 500 (2018) front-right driveshaft (Rapex 28/2019)",
+              "url": "https://car-recalls.eu/recall/fiat-500-2018"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 69,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat 500 2015 1.2 AT, real consumption from owner reports (sample size not stated); 69 hp per cartube.co.il",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-500"
+            }
+          },
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat 500 2007 1.4 MT, real consumption from owner reports (sample size not stated); 100 hp per carsopedia",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-500"
+            }
+          },
+          {
+            "name": "0.9 TwinAir טורבו",
+            "pt": "petrol",
+            "hp": 85,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat 500 2015 0.9 85 HP AT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-500"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2017,
+          "url": "https://www.euroncap.com/press-media/fiat-and-ford-fall-short-of-rivals-safety-ratings/"
+        }
+      },
+      "332 (500e)": {
+        "issues": [
+          {
+            "he": "קריאת שירות: אום/תפס בקוטב השלילי בתוך הסוללה עלול להיות מהודק לא נכון ולגרום לקשת חשמלית, התחממות ובמקרה קיצון לשריפה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 21.9.2021–10.11.2023 (קריאה אירופית, Safety Gate 10/2024 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Italpassion — Fiat 500 electric: recall due to fire hazard, which years are affected?",
+              "url": "https://www.italpassion.fr/en/fiat/fiat-500-petrol-fire-recall-which-years-are-affected/"
+            }
+          },
+          {
+            "he": "קריאת שירות: מודול מערכת הבלימה המשולבת (IBS) עלול להיות פגום ולגרום לכשל ABS — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנת דגם 2020 (קריאה אירופית 9/2021 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — 2021: Fiat recalls (Fiat 500e 2020, IBS module)",
+              "url": "https://car-recalls.eu/2021-fiat-recalls"
+            }
+          },
+          {
+            "he": "קריאת שירות: שגיאת תוכנה ביחידת כריות האוויר עלולה להציג לא נכון את מצב ניתוק כרית הנוסע — לוודא שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "שנות דגם 2020–2021 (קריאה אירופית 4/2021 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — 2021: Fiat recalls (Fiat 500e 2020–2021, airbag control unit)",
+              "url": "https://car-recalls.eu/2021-fiat-recalls"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 24 קוט\"ש",
+            "pt": "ev",
+            "hp": 95,
+            "cons": 15.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Fiat 500e Hatchback 24 kWh (2020–), real-world 158 Wh/km",
+              "url": "https://ev-database.org/car/1327/Fiat-500e-Hatchback-24-kWh"
+            }
+          },
+          {
+            "name": "חשמלי, סוללה 42 קוט\"ש",
+            "pt": "ev",
+            "hp": 118,
+            "cons": 15.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Fiat 500e Hatchback 42 kWh (2020–), real-world 159 Wh/km",
+              "url": "https://ev-database.org/car/1285/Fiat-500e-Hatchback-42-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2021,
+          "url": "https://cdn.euroncap.com/media/66921/euroncap-2021-fiat-500e-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 99900,
+          "year": 2021,
+          "note": "גרסת Action, 95 כ\"ס, סוללה 23.7 קוט\"ש",
+          "source": {
+            "title": "icar — פיאט 500 החדשה בישראל: מ-100,000 שקלים (4.7.2021)",
+            "url": "https://www.icar.co.il/חדשות_רכב/פיאט_500_החדשה_בישראל:_מ-100,000_שקלים/"
+          }
+        }
+      }
+    },
     "doblo": {
       "263": {
         "issues": [
@@ -166,6 +317,340 @@
             "title": "auto.co.il — פיאט גרנדה פנדה החדשה בארץ – המחיר החל מ-119,000 שקלים (25.06.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/fiat-grande-panda-2026/"
           }
+        }
+      }
+    },
+    "tipo": {
+      "356": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שסתום לחץ פגום בסוללת ה-48 וולט עלול להכניס מים, לגרום להתחממות ולסכנת שריפה — לוודא במוסך מורשה לפי מספר שלדה שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "1.5 היברידי מתון, ייצור 18.11.2022–12.5.2023 (קריאה אירופית 6623/6624 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — Fiat Tipo (2022–2023) 48V battery overheating (Rapex 28/2023)",
+              "url": "https://car-recalls.eu/recall/fiat-tipo-2022-2023-48-volt-battery-overheating"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה בתוכנת מודול כריות האוויר עלולה למנוע את פתיחתן בתאונה — לוודא שעדכון התוכנה בוצע",
+            "level": "recall",
+            "scope": "ייצור 31.10.2020–9.2.2021 (קריאה אירופית 6320 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — Fiat Tipo (2020–2021) airbag (Rapex 17/2021)",
+              "url": "https://car-recalls.eu/recall/fiat-tipo-2021-airbag/amp"
+            }
+          },
+          {
+            "he": "קריאת שירות: יחס תערובת שגוי בחומר ההצתה של כריות האוויר עלול למנוע את פתיחתן — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור ספטמבר–נובמבר 2016 (קריאה אירופית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — Fiat Tipo (2016) airbag (Rapex 21/2017)",
+              "url": "https://car-recalls.eu/recall/fiat-tipo-2016/amp/"
+            }
+          },
+          {
+            "he": "דווחו תקלות חשמל בציוד נוסף כמו מצלמת רוורס, והפלסטיקים בתא הנוסעים נשרטים בקלות — לבדוק שכל מערכות החשמל והמולטימדיה עובדות",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Fiat Tipo 2016-2023 reliability review",
+              "url": "https://www.whatcar.com/fiat/tipo/hatchback/used-review/n937/reliability"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 E.torQ בנזין (אוטומטית)",
+            "pt": "petrol",
+            "hp": 110,
+            "cons": 8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Tipo 2016 sedan 1.6 110 HP AT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Tipo"
+            }
+          },
+          {
+            "name": "1.4 בנזין",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Tipo 2016 sedan 1.4 MT, real consumption from owner reports (sample size not stated); 95 hp per cartube.co.il",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Tipo"
+            }
+          },
+          {
+            "name": "1.0 טורבו בנזין",
+            "pt": "petrol",
+            "hp": 100,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Tipo 2020 sedan 1.0 Turbo MT, real consumption from owner reports (sample size not stated); 100 hp per autotijd.be specs",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Tipo"
+            }
+          },
+          {
+            "name": "1.5 היברידי מתון",
+            "pt": "hybrid",
+            "hp": 130,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "Paris Match Belgique — Fiat Tipo Cross 1.5 Firefly Hybrid road test (measured 5 l/100 km, 2022)",
+              "url": "https://www.parismatch.be/lifestyle/voitures-et-mobilite/2022/06/20/fiat-tipo-cross-15-firefly-hybrid-petite-pour-de-belles-economies-IHCEGUCYKBD27GXCPRUP4RWQ2A/"
+            }
+          },
+          {
+            "name": "1.6 MultiJet דיזל",
+            "pt": "diesel",
+            "hp": 120,
+            "cons": 5.5,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Tipo 2016 sedan 1.6 120 HP MT diesel, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Tipo"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2016,
+          "url": "https://news.euroncap.com/fiat/fiat-tipo---euro-ncap-results-2016/s/d1992af5-0116-41f9-a2ff-7474c6c639a4"
+        },
+        "launchPrice": {
+          "ils": 89900,
+          "year": 2016,
+          "note": "סדאן 1.4 ידנית, רמת גימור Comfort (1.6 אוטומטית: 99,900)",
+          "source": {
+            "title": "CarTube — פיאט טיפו סדאן החדשה בישראל (14.3.2016)",
+            "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/2016-%D7%A4%D7%99%D7%90%D7%98-%D7%98%D7%99%D7%A4%D7%95-%D7%A1%D7%93%D7%90%D7%9F-%D7%94%D7%97%D7%93%D7%A9%D7%94-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+          }
+        }
+      }
+    },
+    "punto": {
+      "Grande Punto (199)": {
+        "issues": [
+          {
+            "he": "כשל בעמוד ההגה החשמלי (חיישן מומנט): נורת PAS, רעש/רעידות בהגה או הגה כבד פתאום — לבדוק בנסיעת מבחן ובסריקת תקלות",
+            "level": "widely_reported",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat Punto (2006-09)",
+              "url": "https://www.australiancar.reviews/recalls-faults-fiat-punto-2006-09/"
+            }
+          },
+          {
+            "he": "קריאת שירות: בורג מפרק עליון של ציר ההגה עלול להיות לא מהודק ולגרום לשבר במפרק — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "קריאה אוסטרלית 12/2009 (PRA 2009/11314) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Vehicle Recalls (Australian Government) — FIAT Punto REC-003270",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-003270"
+            }
+          },
+          {
+            "he": "קריאת שירות: חיבור עמוד ההגה התחתון למפרק העליון עלול להיות מעובד לא נכון — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "קריאה אוסטרלית 4/2007 (PRA 2007/9200) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat Punto (2006-09)",
+              "url": "https://www.australiancar.reviews/recalls-faults-fiat-punto-2006-09/"
+            }
+          },
+          {
+            "he": "שרשרת התזמון במנוע 1.3 MultiJet עלולה להימתח ולהישבר כשמסנן שמן סתום חוסם את שמן המותח — לבקש היסטוריית החלפות שמן תכופות ולהקשיב לרעשי שרשרת",
+            "level": "widely_reported",
+            "scope": "1.3 MultiJet דיזל",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat Punto (2006-09)",
+              "url": "https://www.australiancar.reviews/recalls-faults-fiat-punto-2006-09/"
+            }
+          },
+          {
+            "he": "במנוע 1.4 T-Jet דווחו דליפת נוזל קירור מצינור יציאת משאבת המים ואובדן דחיסה בצילינדר 2 — לבדוק מפלס קירור ולבצע בדיקת דחיסה",
+            "level": "widely_reported",
+            "scope": "1.4 T-Jet (לפני מתיחת הפנים)",
+            "source": {
+              "title": "Haynes — How to buy a Fiat Punto: petrol models 2005-2015",
+              "url": "https://haynes.com/en-gb/tips-tutorials/how-buy-fiat-punto-petrol-models-2005-2015"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 בנזין 8V",
+            "pt": "petrol",
+            "hp": 77,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Grande Punto 2006 1.4 8V 77 HP MT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/fiat-grande-punto"
+            }
+          },
+          {
+            "name": "1.4 בנזין 16V",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Grande Punto 2006 1.4 16V 95 HP MT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/fiat-grande-punto"
+            }
+          },
+          {
+            "name": "1.2 בנזין",
+            "pt": "petrol",
+            "hp": 65,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Grande Punto 2008 1.2 8V 65 HP MT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/fiat-grande-punto"
+            }
+          },
+          {
+            "name": "1.4 T-Jet טורבו",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Grande Punto 2008 1.4 T-Jet 120 HP MT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/fiat-grande-punto"
+            }
+          },
+          {
+            "name": "1.3 MultiJet דיזל",
+            "pt": "diesel",
+            "hp": 90,
+            "cons": 5.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Grande Punto 2006 1.3 Multijet 16V 90 HP MT, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/fiat-grande-punto"
+            }
+          }
+        ]
+      },
+      "Punto Evo (199)": {
+        "issues": [
+          {
+            "he": "במנוע 1.4 MultiAir דווחו התנעה קשה ורעידות בסרק ובמנוע קר (מיוחס ליחידת הבקרה) ודליפת נוזל קירור מצינור משאבת המים — לבדוק התנעה קרה ומפלס קירור",
+            "level": "widely_reported",
+            "scope": "1.4 MultiAir",
+            "source": {
+              "title": "Haynes — How to buy a Fiat Punto: petrol models 2005-2015",
+              "url": "https://haynes.com/en-gb/tips-tutorials/how-buy-fiat-punto-petrol-models-2005-2015"
+            }
+          },
+          {
+            "he": "תיבת ההילוכים עלולה להיתקע בגלל מים ביחידת הבקרה ההידראולית; נורת תיבה יכולה לנבוע מתקלת תוכנה — לבדוק העברות הילוכים ולשאול על עדכוני תוכנה",
+            "level": "widely_reported",
+            "scope": "1.4 MultiAir ו-1.2 65 כ\"ס עם תיבה רובוטית",
+            "source": {
+              "title": "Haynes — How to buy a Fiat Punto: petrol models 2005-2015",
+              "url": "https://haynes.com/en-gb/tips-tutorials/how-buy-fiat-punto-petrol-models-2005-2015"
+            }
+          },
+          {
+            "he": "קריאת שירות (2010): עלולה להיפתח כרית אוויר שגויה — תוקן בעדכון תוכנה; לוודא שבוצע",
+            "level": "recall",
+            "scope": "קריאה בריטית 2010 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Haynes — How to buy a Fiat Punto: petrol models 2005-2015",
+              "url": "https://haynes.com/en-gb/tips-tutorials/how-buy-fiat-punto-petrol-models-2005-2015"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 MultiAir בנזין",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 7.2,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Fiat Punto (2010-2018) 1.4 MultiAir, 39.4 mpg (UK) ≈ 7.2 l/100km (all years combined); 105 hp per autodata1",
+              "url": "https://www.dev.honestjohn.co.uk/realmpg/fiat/punto-2010"
+            }
+          },
+          {
+            "name": "1.4 MultiAir טורבו בנזין",
+            "pt": "petrol",
+            "hp": 135,
+            "cons": 6.6,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Punto 1.4 T-Jet MultiAir 135 HP, real consumption from owner reports (listed under 2012 Punto; sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Punto"
+            }
+          }
+        ]
+      },
+      "Punto (199, 2012)": {
+        "issues": [
+          {
+            "he": "במנוע 0.9 TwinAir דווחו התנעה קשה, רעידות בסרק וזינוק מקוטע בהילוך ראשון — מיוחס ליחידת הבקרה; לבדוק בנסיעת מבחן ולשאול על עדכון תוכנה",
+            "level": "widely_reported",
+            "scope": "0.9 TwinAir",
+            "source": {
+              "title": "Haynes — How to buy a Fiat Punto: petrol models 2005-2015",
+              "url": "https://haynes.com/en-gb/tips-tutorials/how-buy-fiat-punto-petrol-models-2005-2015"
+            }
+          },
+          {
+            "he": "קריאת שירות: כיווץ לקוי של מחולל הגז במותחן חגורת הבטיחות — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "שנות דגם 2016–2017 (קריאה אירופית — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Car-Recalls.eu — Fiat Grande Punto (2016–2017) seat belt tensioner",
+              "url": "https://car-recalls.eu/recall/fiat-grande-punto-2016-2017/amp/"
+            }
+          },
+          {
+            "he": "במנוע 1.3 MultiJet עם מסנן חלקיקים, ריגנרציה כושלת מוסיפה סולר לשמן ומעלה את מפלסו — לבדוק שמפלס השמן לא עולה ושהוחלף במועד",
+            "level": "widely_reported",
+            "scope": "1.3 MultiJet 16V דיזל (מקור מתייחס לדור הקודם, אותו מנוע)",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Fiat Punto (2006-09)",
+              "url": "https://www.australiancar.reviews/recalls-faults-fiat-punto-2006-09/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "0.9 TwinAir טורבו בנזין",
+            "pt": "petrol",
+            "hp": 85,
+            "cons": 5.9,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Punto 2012 0.9 85 HP, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Punto"
+            }
+          },
+          {
+            "name": "1.3 MultiJet דיזל",
+            "pt": "diesel",
+            "hp": 85,
+            "cons": 4.7,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Fiat Punto 2012 1.3 Multijet 85 HP diesel, real consumption from owner reports (sample size not stated)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Fiat-Punto"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 0,
+          "year": 2017,
+          "url": "https://www.euroncap.com/press-media/fading-stars/"
         }
       }
     }

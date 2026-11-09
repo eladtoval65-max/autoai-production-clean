@@ -1,7 +1,231 @@
 {
   "make": "peugeot",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
+    "107": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ההדבקה של חלונות הפתיחה האחוריים (בגרסת 5 דלתות) עלולה להשתחרר והחלון עלול ליפול לכביש — לוודא שהקריאה בוצעה; רעש רוח או רעשוש מהחלון הם סימן אזהרה",
+            "level": "recall",
+            "scope": "ייצור 2005–2013, 5 דלתות, קריאה אירופית (01/2019) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Window could drop onto the road with Citroën C1, Peugeot 107 and Toyota Aygo",
+              "url": "https://car-recalls.eu/window-could-drop-onto-the-road-with-citroen-c1-peugeot-107-and-toyota-aygo-week-1-19"
+            }
+          },
+          {
+            "he": "קריאת שירות: המתנע נשאר תחת מתח אחרי ההתנעה ועלול להישרף — הטיפול הוא התקנת ממסר זמן; לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "קריאה גרמנית 11/2011 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Peugeot 107 (2005–2014)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0216-peugeot-107-2005-2014-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאת שירות: מוט בולם הזעזועים הקדמי עלול להישבר בגלל פגם פנימי — סכנת אובדן שליטה; לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 20.9.2013–12.11.2013, קריאה בריטית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 107 common problems & recalls",
+              "url": "https://car-recalls.eu/common-problems/peugeot/107-2/"
+            }
+          },
+          {
+            "he": "ריתוך לא תקני בקורת האחורית עלול לגרום לכשל — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 25.7.2013–31.7.2013, קריאה בריטית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 107 common problems & recalls",
+              "url": "https://car-recalls.eu/common-problems/peugeot/107-2/"
+            }
+          },
+          {
+            "he": "ADAC מציין בלמים חלשים מהממוצע ונוטים לשחיקה, מערכת פליטה שנוטה להחליד ותקלות תאורה תכופות בבדיקות — לבדוק עובי רפידות ודיסקים, חלודה במפלט ותקינות כל הפנסים",
+            "level": "widely_reported",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Peugeot 107 (2005–2014)",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0216-peugeot-107-2005-2014-bericht.pdf"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 3 צילינדרים",
+            "pt": "petrol",
+            "hp": 68,
+            "cons": 5,
+            "unit": "L",
+            "source": {
+              "title": "ADAC EcoTest — Peugeot 107 1.0 68 (50 kW, 03/12–04/14), ממוצע 5.0 ל'/100 ק\"מ",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/107/1generation-facelift-2/231139/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2012,
+          "url": "https://cdn.euroncap.com/media/6338/euroncap_peugeot_107_2012_3stars.pdf"
+        }
+      }
+    },
+    "108": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: רכיב במכלול עמוד ההגה עלול להיכשל ולגרום לאובדן שליטה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 9.9.2014–15.10.2014, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 108 (2014) steering column",
+              "url": "https://car-recalls.eu/recall/peugeot-108-2014/"
+            }
+          },
+          {
+            "he": "קריאת שירות: רתמת החשמל של בקרת חימום מושב הנהג עלולה להשתפשף במסגרת המושב ולנתק את הפנסים האחוריים — לוודא שהקריאה בוצעה ולבדוק שהפנסים האחוריים דולקים",
+            "level": "recall",
+            "scope": "ייצור 06/2014–04/2015, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 108 (2014 – 2015)",
+              "url": "https://car-recalls.eu/recall/peugeot-108-2014-2015/amp"
+            }
+          },
+          {
+            "he": "קריאת שירות: פגם במסגרת הפגוש הקדמי עלול להפחית את ספיגת האנרגיה בתאונה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 14.11.2014, קריאה בריטית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 108 common problems & recalls",
+              "url": "https://car-recalls.eu/common-problems/peugeot/108-2/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תפרים פגומים בחגורות הבטיחות האחוריות (באזור האבזם) עלולים להחליש את ההגנה — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 27.8.2020–1.10.2020, קריאה אירופית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 108 (2020) seatbelt stitching",
+              "url": "https://car-recalls.eu/recall/peugeot-108-2020-seatbelt-stitching/amp/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 PureTech בנזין 3 צילינדרים",
+            "pt": "petrol",
+            "hp": 82,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "Fleet News — PSA real-world economy figures (מדידה בכביש, 2016): 108 1.2 PureTech 82 ידני — 6.1 ל'/100 ק\"מ",
+              "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2016/07/07/peugeot-citroen-and-ds-release-real-world-economy-figures-for-30-models"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2014,
+          "url": "https://news.euroncap.com/safercars/peugeot%20108%20-%20%20euro%20ncap%20results%202014/s/da8e64f4-5052-4197-8f9d-cebb7d265677",
+          "note": "הדירוג של טויוטה אייגו הוחל על ה-108 (תאומות); 4 כוכבים לפי thecarexpert.co.uk ו-FDM; הדירוג פג ב-01/2021"
+        },
+        "launchPrice": {
+          "ils": 69990,
+          "year": 2014,
+          "note": "1.2 PureTech 82 כ\"ס ידנית; 1.0 רובוטית ב-79,900",
+          "source": {
+            "title": "cartube — פיג'ו 108 בישראל – מחיר החל מ-69,990 שקל (20.9.2014)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פיג-ו-108-בישראל-–-מחיר-החל-מ-69,990-שקל"
+          }
+        }
+      }
+    },
+    "207": {
+      "A7": {
+        "issues": [
+          {
+            "he": "מנועי 1.4/1.6 VTi ו-THP (משפחת Prince) שיוצרו לפני נובמבר 2011 ידועים בבעיות במותחן שרשרת התזמון — רעש נקישות בהתנעה קרה או נזילת שמן; לבקש היסטוריית החלפות שמן סדירה ולהקשיב להתנעה קרה",
+            "level": "widely_reported",
+            "scope": "מנועי Prince 1.4/1.6 VTi ו-1.6 THP, ייצור עד 11/2011",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Peugeot A7 207 (2007-12)",
+              "url": "https://australiancar.reviews/?p=47599"
+            }
+          },
+          {
+            "he": "במנוע 1.6 THP (הזרקה ישירה) מדווחות תקלות במשאבת דלק בלחץ גבוה והצטברות פחם על שסתומי היניקה — התנעה קשה, סרק לא יציב ונורית מנוע; לבדוק התנעה וסרק ולשאול על החלפת משאבה/ניקוי",
+            "level": "widely_reported",
+            "scope": "1.6 THP",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Peugeot A7 207 (2007-12)",
+              "url": "https://australiancar.reviews/?p=47599"
+            }
+          },
+          {
+            "he": "בדיזל 1.6 HDi מיכל נוזל ה-Eolys (תוסף למסנן החלקיקים) בקשת הגלגל האחורית עלול להיסדק ולדלוף — לבדוק דליפות באזור ולוודא שהמערכת תקינה",
+            "level": "widely_reported",
+            "scope": "1.6 HDi",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Peugeot A7 207 (2007-12)",
+              "url": "https://australiancar.reviews/?p=47599"
+            }
+          },
+          {
+            "he": "קריאת שירות: רתמת החשמל של חימום המושב עלולה לגרום להתחממות יתר של המושב — לוודא שהקריאה בוצעה (ברכב עם חימום מושבים)",
+            "level": "recall",
+            "scope": "שנתונים 2009–2015, קריאה אירופית (07/2016) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Peugeot 207 (2009 – 2015)",
+              "url": "https://car-recalls.eu/recall/peugeot-207-2009-2015/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כבל הארקה של המצבר באורך/מידות לא נכונים עלול להישבר ולגרום לדום מנוע ללא אפשרות התנעה מחדש — לוודא שהקריאה בוצעה",
+            "level": "recall",
+            "scope": "ייצור 01–02/2011 ונמכרו 04–10/2010, קריאה אוסטרלית — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "australiancar.reviews — Recalls & faults: Peugeot A7 207 (2007-12)",
+              "url": "https://australiancar.reviews/?p=47599"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 VTi בנזין",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "ADAC EcoTest — Peugeot 207 95 VTi (70 kW), נבדק 05/2009 (לפני מתיחת הפנים, אותו מנוע), 6.4 ל'/100 ק\"מ",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/207/1generation/219021/"
+            }
+          },
+          {
+            "name": "1.6 THP טורבו בנזין",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "ADAC EcoTest — Peugeot 207 CC 150 THP (110 kW), נבדק 03/2007, 7.3 ל'/100 ק\"מ",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/207/1generation/208899/"
+            }
+          },
+          {
+            "name": "1.6 HDi דיזל",
+            "pt": "diesel",
+            "hp": 112,
+            "cons": 4.8,
+            "unit": "L",
+            "source": {
+              "title": "ADAC EcoTest — Peugeot 207 SW HDi FAP 110 (82 kW), נבדק 09/2010, 4.8 ל'/100 ק\"מ",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/peugeot/207/1-generation-facelift/223003/"
+            }
+          }
+        ]
+      }
+    },
     "208": {
       "P21 (Gen2)": {
         "issues": [

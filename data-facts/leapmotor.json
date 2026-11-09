@@ -133,7 +133,48 @@
           }
         ]
       }
+    },
+    "b05": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "מערכות העזר (בעיקר שמירת נתיב) מדווחות כחודרניות עם צפצופים רבים, וההגדרות חוזרות לפעולה בכל התנעה; היצרן הודה ומשפר בעדכונים — לבדוק בנסיעת מבחן ולוודא גרסת תוכנה עדכנית",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarExpert — Leapmotor says annoying safety beeps could get better but not disappear",
+              "url": "https://www.carexpert.com.au/car-news/leapmotor-says-annoying-safety-beeps-could-get-better-but-not-disappear"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 67.1 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 17.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Leapmotor B05 67.1 kWh RWD, real-world 173 Wh/km, 160 kW (218 PS)",
+              "url": "https://ev-database.org/car/3564/Leapmotor-B05-671-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2026,
+          "url": "https://news.euroncap.com/safercars/choose-a-car/leapmotor-b05---euro-ncap-2026-results---5-stars/s/b713a24f-c34e-4373-ad61-17919baed53e"
+        },
+        "launchPrice": {
+          "ils": 139900,
+          "year": 2026,
+          "note": "רמת גימור Design (יחידה)",
+          "source": {
+            "title": "auto.co.il — ליפמוטור B05 החדש בארץ – המחיר החל מ-139,900 שקלים (3.11.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/leapmotor-b05-israel/"
+          }
+        }
+      }
     }
   },
-  "updated": "2026-11-01"
+  "updated": "2026-11-09"
 }

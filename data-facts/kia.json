@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "sportage": {
       "NQ5": {
@@ -1797,6 +1797,57 @@
           "source": {
             "title": "auto.co.il — קיה קארנס החדש יוצא לדרך בישראל",
             "url": "https://www.auto.co.il/articles/car-news/113969/"
+          }
+        }
+      }
+    },
+    "ev5": {
+      "OV": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תקלת תוכנה במסך המחוונים — המסך עלול להיכבות או להגיב באיטיות ולא להציג מהירות ונורות אזהרה — לוודא שבוצע עדכון תוכנה",
+            "level": "recall",
+            "scope": "שנת דגם 2025 (קריאה אוסטרלית REC-006557; גם בניו זילנד — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "vehiclerecalls.gov.au — REC-006557 Kia 2025MY incl. OVc EV5, instrument cluster software",
+              "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006557"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברגי עיגון של מושבי השורה השנייה עלולים לחסור מהייצור — לוודא שהקריאה בוצעה ושהמושבים מעוגנים",
+            "level": "recall",
+            "scope": "313 רכבים בקנדה, Transport Canada 2026-207 (לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "Auto123 — Kia EV5 recalled over missing bolts",
+              "url": "https://www.auto123.com/en/news/kia-ev5-recalled-missing-bolts/73856/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי, סוללה 81.4 קוט\"ש, הנעה קדמית",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 19.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia EV5 81.4 kWh FWD (MY26), real-world 195 Wh/km, 160 kW (218 PS)",
+              "url": "https://ev-database.org/car/3300/Kia-EV5-814-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://cdn.euroncap.com/media/92967/euroncap-2025-kia-ev5-datasheet.pdf"
+        },
+        "launchPrice": {
+          "ils": 198900,
+          "year": 2026,
+          "note": "רמת גימור Premium",
+          "source": {
+            "title": "auto.co.il — קיה EV5 החדש בארץ – המחיר החל מ-198,900 שקלים (3.11.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/kia-ev5-israel/"
           }
         }
       }
