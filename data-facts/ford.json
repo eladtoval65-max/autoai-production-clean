@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -121,6 +121,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/ford-focus---euro-ncap-2019-results---5-stars/s/74a7df59-f476-4e49-91d2-8669776d9632"
+        },
+        "launchPrice": {
+          "ils": 132000,
+          "year": 2020,
+          "note": "Focus Active X (האצ'בק); הדור הרביעי הגיע לישראל במאי 2020",
+          "source": {
+            "title": "auto.co.il — פורד פוקוס 2020 החדשה בארץ — החל מ-132,000 שקלים (07.05.2020)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/133614/"
+          }
         }
       }
     },
@@ -164,6 +173,15 @@
           "year": 2012,
           "url": "https://www.fleetnews.co.uk/news/2013/2/6/hat-trick-for-ford-at-euro-ncap-2012-best-in-class-awards/46141/",
           "note": "5 כוכבים (Euro NCAP, 2012); מקור: Fleet News המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 178000,
+          "year": 2013,
+          "note": "רמת גימור Trend, 1.6 טורבו 180 כ״ס, הנעה כפולה",
+          "source": {
+            "title": "וואלה! רכב — בארץ: פורד קוגה ופיאסטה החדשות (27.02.2013)",
+            "url": "https://cars.walla.co.il/item/2620521"
+          }
         }
       },
       "Gen3": {
@@ -550,6 +568,15 @@
           "stars": 5,
           "year": 2022,
           "url": "https://www.euroncap.com/en/results/ford/ranger/48750"
+        },
+        "launchPrice": {
+          "ils": 325000,
+          "year": 2023,
+          "note": "רמת גימור XLT (גרסת ה-Raptor נמכרה כחצי שנה קודם ב-475,000 ₪)",
+          "source": {
+            "title": "וואלה! רכב — פורד ריינג'ר יהיה זול בכ-35 אלף שקל מפולקסווגן אמארוק התאום (04.12.2023)",
+            "url": "https://cars.walla.co.il/item/3626659"
+          }
         }
       }
     },

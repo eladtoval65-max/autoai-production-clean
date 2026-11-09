@@ -430,6 +430,15 @@
           "year": 2015,
           "url": "https://www.fleetnews.co.uk/news/manufacturer-news/2015/12/09/new-renault-megane-awarded-five-star-euro-ncap-rating",
           "note": "5 כוכבים (Euro NCAP, 2015); מקור: Fleet News המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 132000,
+          "year": 2017,
+          "note": "מגאן סדאן (Grand Coupé) בנזין, רמת גימור Intense יחידה",
+          "source": {
+            "title": "auto.co.il — רנו מגאן סדאן בישראל - מ-132 אלף שקל (20.04.2017)",
+            "url": "https://www.auto.co.il/articles/car-news/129044/"
+          }
         }
       }
     },

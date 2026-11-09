@@ -51,6 +51,15 @@
           "year": 2017,
           "url": "https://www.autoexpress.co.uk/car-news/98745/new-euro-ncap-results-five-stars-for-new-lr-discovery-four-for-new-citroen-c3",
           "note": "4 כוכבים (Euro NCAP, 2017) — מקור: Auto Express המצטט את Euro NCAP"
+        },
+        "launchPrice": {
+          "ils": 95000,
+          "year": 2017,
+          "note": "רמת גימור Shine",
+          "source": {
+            "title": "ynet — סיטרואן C3 בישראל - החל מ-95 אלף שקל (13.03.2017)",
+            "url": "https://www.ynet.co.il/articles/mobile/0,7340,L-4934724,00.html"
+          }
         }
       },
       "Gen2": {
@@ -178,6 +187,15 @@
           "stars": null,
           "url": "https://www.autoexpress.co.uk/citroen/c3",
           "note": "לא נבדק ב-Euro NCAP (לפי Auto Express, נכון לבדיקה)"
+        },
+        "launchPrice": {
+          "ils": 99990,
+          "year": 2026,
+          "note": "Plus, 1.2 טורבו 101 כ״ס ידנית (בגוף הכתבה: 100,000 ₪); אוטומטית MHEV מ-115,000 ₪",
+          "source": {
+            "title": "auto.co.il — סיטרואן C3 החדש בישראל – החל ב-99,990 שקלים (12.01.2026)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/citroen-c3-2026/"
+          }
         }
       }
     },
@@ -352,6 +370,15 @@
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/citro-n-c5-aircross---euro-ncap-2019-results---standard-equipment-4-stars-and-with-safety-pack-5-sta/s/497d97c7-98dd-45a2-8eff-3af114e69b2e",
           "note": "4 כוכבים (Euro NCAP, 2019) — 5 כוכבים עם חבילת בטיחות אופציונלית"
+        },
+        "launchPrice": {
+          "ils": 149000,
+          "year": 2019,
+          "note": "Feel דיזל (Feel בנזין: 160,000 ₪)",
+          "source": {
+            "title": "auto.co.il — סיטרואן C5 איירקרוס מושק בישראל – החל מ-149,000 שקלים (03.06.2019)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/132252/"
+          }
         }
       },
       "Gen2 (STLA Medium)": {
@@ -471,6 +498,15 @@
           "year": 2017,
           "url": "https://www.media.stellantis.com/em-en/citroen/press/new-citroen-c3-aircross-compact-suv-already-20000-orders-and-5-stars-in-the-euro-ncap-test",
           "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Citroën"
+        },
+        "launchPrice": {
+          "ils": 121900,
+          "year": 2018,
+          "note": "רמת גימור Feel",
+          "source": {
+            "title": "iCar — סיטרואן C3 איירקרוס בישראל: מ-122,000 שקל (03.06.2018)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F_C3_%D7%90%D7%99%D7%99%D7%A8%D7%A7%D7%A8%D7%95%D7%A1_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-122,000_%D7%A9%D7%A7%D7%9C"
+          }
         }
       },
       "CC24": {
@@ -607,6 +643,15 @@
           "year": 2018,
           "url": "https://www.whatcar.com/citroen/berlingo/estate/review/n17319",
           "note": "4 כוכבים (Euro NCAP, 2018) — מקור: What Car?; המבחן בוצע על התאום Peugeot Rifter (זהה מבנית)"
+        },
+        "launchPrice": {
+          "ils": 143990,
+          "year": 2019,
+          "note": "Live, 1.5 דיזל 75 כ״ס ידנית",
+          "source": {
+            "title": "cartube.co.il — סיטרואן ברלינגו החדש 2019 בישראל - מחיר 143,990 שקל (27.05.2019)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיטרואן-ברלינגו-החדש-2019-בישראל-מחיר-143990-שקל"
+          }
         }
       }
     },
@@ -810,6 +855,15 @@
           "year": 2021,
           "url": "https://news.euroncap.com/safercars/citro-n-c4---euroncap-2021-results---4-stars/s/eed3f65a-e773-49b0-9bb1-4e88af7f9297",
           "note": "דירוג ה-C4 משנת 2021 חל גם על גרסת ה-C4 X וה-ë-C4"
+        },
+        "launchPrice": {
+          "ils": 163990,
+          "year": 2023,
+          "note": "Shine, 1.2 טורבו 130 כ״ס אוטומטית",
+          "source": {
+            "title": "cartube.co.il — סיטרואן C4X בישראל - מחיר 163,990 שקל (01.05.2023)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיטרואן-c4x-בישראל-מחיר-163990-שקל"
+          }
         }
       }
     },

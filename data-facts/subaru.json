@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -106,6 +106,15 @@
           "year": 2017,
           "url": "https://www.subaru.eu/media/the-all-new-subaru-xv-and-impreza-awarded-maximum-five-star-rating-in-2017-euro-ncap-safety-test",
           "note": "5 כוכבים (Euro NCAP, 2017) — הדירוג מבוסס בחלקו על מבחני ה-XV; מקור: הודעת Subaru"
+        },
+        "launchPrice": {
+          "ils": 127990,
+          "year": 2017,
+          "note": "סדאן 1.6 ליטר, רמת גימור Premium",
+          "source": {
+            "title": "iCar — סובארו אימפרזה החדשה בישראל: מ-128,000 שקל (13.03.2017)",
+            "url": "https://www.icar.co.il/חדשות_רכב/סובארו_אימפרזה_החדשה_בישראל:_מ-128,000_שקל/"
+          }
         }
       },
       "GU": {
@@ -279,6 +288,15 @@
           "year": 2017,
           "url": "https://www.subaru.eu/media/the-all-new-subaru-xv-and-impreza-awarded-maximum-five-star-rating-in-2017-euro-ncap-safety-test",
           "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Subaru"
+        },
+        "launchPrice": {
+          "ils": 138990,
+          "year": 2017,
+          "note": "רמת גימור Classic, 1.6 ליטר (134,990 ₪ במבצע ההשקה)",
+          "source": {
+            "title": "iCar — סובארו XV החדש בישראל: מ-139,000 שקל (18.12.2017)",
+            "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A1%D7%95%D7%91%D7%90%D7%A8%D7%95_XV_%D7%94%D7%97%D7%93%D7%A9_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-139,000_%D7%A9%D7%A7%D7%9C/"
+          }
         }
       },
       "GU (Crosstrek)": {
@@ -319,6 +337,15 @@
           "stars": 5,
           "year": 2024,
           "url": "https://news.euroncap.com/safercars/stellar-safety-ratings--but-not-for-stellantis/s/815e31e7-3a91-4cdd-965c-8ab2841e72ea"
+        },
+        "launchPrice": {
+          "ils": 159900,
+          "year": 2023,
+          "note": "רמת גימור Touring, 2.0 ליטר",
+          "source": {
+            "title": "cartube.co.il — סובארו קרוסטרק החדש 2023 בישראל - מחיר 159,900 שקל (04.06.2023)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סובארו-קרוסטרק-החדש-2023-בישראל-מחיר-159900-שקל"
+          }
         }
       }
     },
@@ -411,6 +438,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://news.euroncap.com/safercars/best-in-class-battle-heats-up-in-latest-batch-of-results/s/a78172da-4e74-49db-af29-f98c395f49ce"
+        },
+        "launchPrice": {
+          "ils": 179990,
+          "year": 2018,
+          "note": "רמת גימור X, 2.5 ליטר (הושק בדצמבר 2018 כשנתון 2019)",
+          "source": {
+            "title": "iCar — סובארו פורסטר החדש בישראל: מ-180,000 שקלים (17.12.2018)",
+            "url": "https://www.icar.co.il/חדשות_רכב/סובארו_פורסטר_החדש_בישראל:_מ-180,000_שקלים/"
+          }
         }
       },
       "דור 3": {
@@ -567,6 +603,15 @@
           "year": 2014,
           "url": "https://www.subaru.co.jp/en/news/archives/press/2014/14_12_05e_110494.html",
           "note": "5 כוכבים (Euro NCAP, 2014) — מקור: הודעת Subaru"
+        },
+        "launchPrice": {
+          "ils": 200000,
+          "year": 2015,
+          "note": "גרסת הבסיס (שתי רמות גימור, 200–225 אלף ₪)",
+          "source": {
+            "title": "וואלה! רכב — בארץ: סובארו B4 ואאוטבק החדשות (08.03.2015)",
+            "url": "https://cars.walla.co.il/item/2835903"
+          }
         }
       },
       "BR": {
@@ -674,6 +719,15 @@
           "year": 2021,
           "url": "https://www.subaru.co.jp/press/news-en/2021_09_21_10974/",
           "note": "5 כוכבים (Euro NCAP, 2021) — מקור: הודעת Subaru"
+        },
+        "launchPrice": {
+          "ils": 229900,
+          "year": 2021,
+          "note": "רמת גימור Limited, 2.5 ליטר",
+          "source": {
+            "title": "cartube.co.il — סובארו אאוטבק החדש בישראל - מחיר 229,900 שקל (10.10.2021)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סובארו-אאוטבק-החדש-2022-בישראל-מחיר-229900-שקל"
+          }
         }
       },
       "BU": {

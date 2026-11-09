@@ -1,6 +1,6 @@
 {
   "make": "mg",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "zs": {
       "ZS (Gen1)": {
@@ -144,6 +144,15 @@
           "stars": 5,
           "year": 2019,
           "url": "https://www.euroncap.com/en/results/mg/zs-ev/39678"
+        },
+        "launchPrice": {
+          "ils": 139000,
+          "year": 2019,
+          "note": "רמת הגימור הבסיסית (139–141 אלף ₪); מחיר בעת סקירת כלכליסט, דצמבר 2019",
+          "source": {
+            "title": "כלכליסט — הג'יפון החשמלי הסיני MG ZS EV במסע לאילת (03.12.2019)",
+            "url": "https://www.calcalist.co.il/articles/0,7340,L-3775022,00.html"
+          }
         }
       }
     },
@@ -386,6 +395,15 @@
           "year": 2025,
           "url": "https://news.euroncap.com/safercars/mg-3-receives-four-stars---but-suffers-rare-and-serious-seat-failure-in-euro-ncap-crash-test/s/46f3e289-092b-43bc-b166-b306b72d724f",
           "note": "4 כוכבים (Euro NCAP, 2025); מקור: Euro NCAP — כולל כשל חמור במושב בניסוי"
+        },
+        "launchPrice": {
+          "ils": 127000,
+          "year": 2024,
+          "note": "רמת גימור Comfort, היברידית (מחיר כולל מע״מ 18%)",
+          "source": {
+            "title": "auto.co.il — MG3 ההיברידית החדשה בארץ – המחיר החל מ-127,000 שקלים (15.10.2024)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137576/"
+          }
         }
       }
     },

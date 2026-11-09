@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -219,6 +219,15 @@
           "year": 2014,
           "url": "https://www.autoexpress.co.uk/vauxhall/corsa/88991/2014-2019-hatchback/reliability",
           "note": "4 כוכבים (Euro NCAP, 2014) — מקור: Auto Express"
+        },
+        "launchPrice": {
+          "ils": 89990,
+          "year": 2015,
+          "note": "1.4 ליטר ידנית, 5 דלתות",
+          "source": {
+            "title": "iCar — אופל קורסה החדשה בישראל: החל מ-89,990 שקל (26.04.2015)",
+            "url": "https://www.icar.co.il/חדשות_רכב/אופל_קורסה_החדשה_בישראל:_החל_מ-89,990_שקל/"
+          }
         }
       }
     },
@@ -281,6 +290,15 @@
           "year": 2015,
           "url": "https://www.autoexpress.co.uk/vauxhall/astra/94875/sports-tourer",
           "note": "5 כוכבים (Euro NCAP, 2015) — מקור: Auto Express"
+        },
+        "launchPrice": {
+          "ils": 132000,
+          "year": 2016,
+          "note": "Enjoy, 5 דלתות (סטיישן: 133,000 ₪)",
+          "source": {
+            "title": "auto.co.il — אופל אסטרה החדשה בישראל (18.04.2016)",
+            "url": "https://www.auto.co.il/articles/car-news/110567/"
+          }
         }
       },
       "Astra J": {
@@ -398,6 +416,15 @@
           "stars": 4,
           "year": 2022,
           "url": "https://news.euroncap.com/safercars/opel-vauxhall-astra---euro-ncap-2022-results---4-stars/s/7d53288c-90b0-4550-8ae7-b1ebf60b7e75"
+        },
+        "launchPrice": {
+          "ils": 159000,
+          "year": 2022,
+          "note": "רמת גימור יחידה GS Line",
+          "source": {
+            "title": "auto.co.il — אופל אסטרה החדשה 2022 בישראל – המחיר החל מ-159,000 שקלים (12.09.2022)",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135406/"
+          }
         }
       }
     },
@@ -452,6 +479,15 @@
           "year": 2017,
           "url": "https://www.media.stellantis.com/em-en/opel/press/press-kit-opel-s-x-family-adventurous-versatile-elegant-and-above-all-successful",
           "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Opel"
+        },
+        "launchPrice": {
+          "ils": 139900,
+          "year": 2018,
+          "note": "Enjoy, 1.2 טורבו 130 כ״ס אוטומטית",
+          "source": {
+            "title": "cartube.co.il — 2018 אופל גרנדלנד X בישראל - מחיר 139,900 שקל (26.03.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2018-אופל-גרנדלנד-x-בישראל-מחיר-139900-שקל"
+          }
         }
       },
       "Gen2": {
@@ -647,6 +683,15 @@
           "year": 2017,
           "url": "https://www.media.stellantis.com/em-en/opel/press/euro-ncap-five-star-rating-for-opel-crossland-x",
           "note": "5 כוכבים (Euro NCAP, 2017) — מקור: הודעת Opel"
+        },
+        "launchPrice": {
+          "ils": 114900,
+          "year": 2018,
+          "note": "Enjoy, 1.2 טורבו אוטומטית",
+          "source": {
+            "title": "cartube.co.il — 2018 אופל קרוסלנד X בישראל - מחיר 114,900 שקל (26.03.2018)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2018-אופל-קרוסלנד-x-בישראל-מחיר-114900-שקל"
+          }
         }
       }
     },

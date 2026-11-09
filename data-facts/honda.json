@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "jazz": {
       "GK": {
@@ -182,6 +182,15 @@
           "year": 2017,
           "url": "https://news.euroncap.com/safercars/signed--sealed-and-delivered/s/f51d7afa-c5d8-48b7-ac75-82e5bf1dec8d",
           "note": "5 כוכבים (Euro NCAP, 2017) — לאחר מבחן חוזר בנובמבר 2017; במבחן הראשון ביולי 2017 קיבל 4 כוכבים"
+        },
+        "launchPrice": {
+          "ils": 134900,
+          "year": 2017,
+          "note": "סדאן 1.6 ליטר 125 כ״ס, רמת גימור Elegance",
+          "source": {
+            "title": "cartube.co.il — 2017 הונדה סיוויק סדאן החדשה בישראל - מחיר 134,900 שקל (02.10.2017)",
+            "url": "https://www.cartube.co.il/חדשות-רכב/2017-הונדה-סיוויק-סדאן-החדשה-בישראל-מחיר-134900-שקל"
+          }
         }
       },
       "FK (דור 9)": {
