@@ -3,13 +3,12 @@ import { shortName } from "../../../shared/format";
 import { card } from "../../../shared/styles";
 import { CarPhoto } from "../../../shared/ui/CarPhoto";
 import { MonthlyTag } from "../../../shared/ui/MonthlyTag";
-import { Score } from "../../../shared/ui/Score";
 import { monthlyFor } from "../model/cost";
 import type { Ranked } from "../types";
-import { CostBreakdown } from "./CostBreakdown";
+import { OfferCta } from "./OfferCta";
 
-/** Hero side panel: the current top match with photo, score, monthly cost and its breakdown. Updates live as answers change. */
-export function LeaderPanel({ car, km, started }: { car: Ranked; km: number; started: boolean }) {
+/** Hero side panel: the current top match with photo, monthly cost and the "get an offer" action. Updates live as answers change. */
+export function LeaderPanel({ car, km, started, onLead }: { car: Ranked; km: number; started: boolean; onLead: () => void }) {
   const { t } = useLang();
   return (
     <aside className="relative lg:pt-2" aria-live="polite">
@@ -21,11 +20,10 @@ export function LeaderPanel({ car, km, started }: { car: Ranked; km: number; sta
           <div>
             <span className="text-[13px] font-bold text-muted">{started ? t.leaderNow : t.leaderSample}</span>
             <h2 className="mt-1 text-[clamp(1.3rem,2vw,1.6rem)] leading-tight">{shortName(car.make)}</h2>
-            <div className="mt-2"><Score value={car.match} /></div>
           </div>
           <MonthlyTag value={monthlyFor(car, km)} />
         </div>
-        <div className="mt-5"><CostBreakdown car={car} km={km} /></div>
+        <OfferCta car={car} onLead={onLead} className="mt-5" />
       </div>
     </aside>
   );

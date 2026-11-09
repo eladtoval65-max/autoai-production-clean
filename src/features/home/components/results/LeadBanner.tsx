@@ -9,7 +9,7 @@ export function LeadBanner({ onLead }: { onLead: () => void }) {
         <p className="font-display text-[1.35rem] font-bold leading-snug">{t.leadCta}</p>
         <p className="mt-1 max-w-[60ch] text-[15px] text-[#c3cbd6]">{t.leadNote}</p>
       </div>
-      <button onClick={onLead} className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-[#5fd3a7] px-7 text-[17px] font-bold text-ink hover:bg-[#7fe0bb]">{t.leadBtn}</button>
+      <button onClick={onLead} className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-pop px-7 text-[17px] font-extrabold text-ink hover:bg-pop-deep">{t.leadBtn}</button>
     </div>
   );
 }

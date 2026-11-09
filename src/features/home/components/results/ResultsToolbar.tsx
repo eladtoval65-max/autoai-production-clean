@@ -14,7 +14,8 @@ export function ResultsToolbar({ fuel, setFuel, sort, setSort, onShare }: {
   const { lang, t } = useLang();
   return (
     <div className="flex flex-wrap items-center justify-between gap-3">
-      <p className="max-w-[70ch] text-[15px] text-muted">{t.rankNote} {t.scoreNote}</p>
+      {/* How the ranking works: one tap away, so the results start with cars, not a paragraph. */}
+      <details className="max-w-[70ch] text-[15px] text-muted"><summary className="cursor-pointer font-semibold text-ink">{lang === "he" ? "איך מדרגים?" : "How is this ranked?"}</summary><p className="mt-1">{t.rankNote} {t.scoreNote}</p></details>
       <div className="flex flex-wrap gap-2">
         <select aria-label={t.powertrain} value={fuel} onChange={(e) => setFuel(e.target.value)} className={selectCls}>
           <option value="all">{t.allFuels}</option>

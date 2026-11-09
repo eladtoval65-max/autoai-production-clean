@@ -46,7 +46,7 @@ export function ResultsView({ answers, ranked, saved, compare, toggleSaved, togg
       <ResultsToolbar fuel={fuel} setFuel={setFuel} sort={sort} setSort={setSort} onShare={onShare} />
       {!top ? <div className="mt-6"><EmptyState text={t.emptyFilter} /></div> : (
         <>
-          <TopPickCard car={top} {...cardProps(top)} costOpen={costOpen} onToggleCost={() => setCostOpen((v) => !v)} />
+          <TopPickCard car={top} {...cardProps(top)} costOpen={costOpen} onToggleCost={() => setCostOpen((v) => !v)} onLead={onLead} />
           {costOpen && <CostPanel car={top} answers={answers} />}
           {rest.length > 0 && (
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -19,7 +19,7 @@ function splitTitle(title: string): [string, string] {
 }
 
 /** Top section: a dark "poster" band (headline + car search), then ONE start button for the questionnaire; the live top match appears once answering starts. */
-export function Hero({ quiz, leader, onResults }: { quiz: Quiz; leader?: Ranked; onResults: () => void }) {
+export function Hero({ quiz, leader, onResults, onLead }: { quiz: Quiz; leader?: Ranked; onResults: () => void; onLead: () => void }) {
   const { t, lang } = useLang();
   const [lead, em] = splitTitle(t.heroTitle);
   const started = quiz.step > 0 || quiz.complete;
@@ -45,7 +45,7 @@ export function Hero({ quiz, leader, onResults }: { quiz: Quiz; leader?: Ranked;
         {open ? (
           <div className={`mx-auto grid max-w-[1280px] gap-10 px-4 pb-14 pt-10 sm:px-8 lg:gap-12 lg:pb-20 ${started ? "lg:grid-cols-[1fr_1fr]" : "max-w-[760px]"}`}>
             <div><Finder quiz={quiz} onResults={onResults} /></div>
-            {started && leader && <LeaderPanel car={leader} km={quiz.answers.annualKm} started />}
+            {started && leader && <LeaderPanel car={leader} km={quiz.answers.annualKm} started onLead={onLead} />}
           </div>
         ) : (
           <div className="mx-auto max-w-[760px] px-4 py-10 sm:px-8">

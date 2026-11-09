@@ -1,21 +1,22 @@
 import { ChevronDown } from "lucide-react";
 import { shekel, useLang } from "../../../../shared/i18n";
 import { shortName } from "../../../../shared/format";
-import { btnGhost, btnPrimary, card } from "../../../../shared/styles";
+import { btnGhost, card } from "../../../../shared/styles";
 import { CarPhoto } from "../../../../shared/ui/CarPhoto";
 import { MonthlyTag } from "../../../../shared/ui/MonthlyTag";
 import { SaveBtn } from "../../../../shared/ui/SaveBtn";
 import { monthlyFor } from "../../model/cost";
 import type { Ranked } from "../../types";
+import { OfferCta } from "../OfferCta";
 import { CompareToggle } from "./CompareToggle";
 
 type Props = {
   car: Ranked; km: number; saved: boolean; inCompare: boolean; costOpen: boolean;
-  onSave: () => void; onCompare: () => void; onDetails: () => void; onToggleCost: () => void;
+  onSave: () => void; onCompare: () => void; onDetails: () => void; onToggleCost: () => void; onLead: () => void;
 };
 
 /** The #1 match: large photo, monthly cost, market price, one-paragraph reasoning and actions. The cost breakdown lives behind "cost calculator" / details to keep the first look simple. */
-export function TopPickCard({ car, km, saved, inCompare, costOpen, onSave, onCompare, onDetails, onToggleCost }: Props) {
+export function TopPickCard({ car, km, saved, inCompare, costOpen, onSave, onCompare, onDetails, onToggleCost, onLead }: Props) {
   const { t, nf, lang } = useLang();
   return (
     <article className={`${card} mt-6 grid overflow-hidden lg:grid-cols-[1.15fr_1fr]`}>
@@ -38,8 +39,9 @@ export function TopPickCard({ car, km, saved, inCompare, costOpen, onSave, onCom
           <div><span className="block text-[13px] font-semibold text-muted">{t.marketPrice}</span><span className="num text-[22px]"><bdi>{car.marketRange ?? shekel(car.price, nf)}</bdi></span></div>
         </div>
         <p className="mt-4 text-[16px] leading-7">{car.why}</p>
+        <OfferCta car={car} onLead={onLead} className="mt-5" />
         <div className="mt-auto flex flex-wrap gap-2 pt-6">
-          <button onClick={onDetails} className={btnPrimary}>{t.details}</button>
+          <button onClick={onDetails} className={btnGhost}>{t.details}</button>
           <CompareToggle active={inCompare} onClick={onCompare} />
           <button onClick={onToggleCost} aria-expanded={costOpen} className={btnGhost}>
             {t.costCalc}<ChevronDown className={`h-4 w-4 transition-transform ${costOpen ? "rotate-180" : ""}`} aria-hidden />
