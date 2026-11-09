@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "golf": {
       "Mk7": {
@@ -1178,6 +1178,15 @@
             "source": {
               "title": "car-recalls.eu — Volkswagen ID.4 (2022–2024) high-voltage battery fire risk (93MI)",
               "url": "https://car-recalls.eu/recall/volkswagen-id-4-2022-2024-ev-hybrid-fire/"
+            }
+          },
+          {
+            "he": "קריאת שירות: תוכנת ניהול סוללת המתח הגבוה עלולה לבצע אתחול, וזה מנתק את הממיר — הרכב מאבד הנעה ונעצר בנסיעה (ההגה והבלמים ממשיכים לעבוד). התיקון: עדכון תוכנה לבקר הסוללה ולממיר. לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 26.5.2020–20.1.2022 (ארה״ב, כ-21 אלף רכבים) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "InsideEVs — Volkswagen recalls 21,000 ID.4s because they might stall while driving",
+              "url": "https://insideevs.com/news/651386/vw-id4-recall-battery-management-pulse-inverter/"
             }
           }
         ],

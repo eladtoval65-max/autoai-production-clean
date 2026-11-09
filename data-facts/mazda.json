@@ -832,6 +832,23 @@
               "title": "ClearVIN — 2011 Mazda2 recalls (NHTSA 17V082000)",
               "url": "https://www.clearvin.com/es/car-recalls/mazda/mazda2/2011"
             }
+          },
+          {
+            "he": "התקלה שדווחה הכי הרבה היא בהגה הכוח: ההגה נעשה פתאום כבד, או שהסיוע מתחיל לעבוד רק כמה שניות אחרי ההתנעה. מפרק רופף בעמוד ההגה גורם לנקישה במהירות נמוכה. בבדיקה: לסובב את ההגה מיד אחרי ההתנעה, ולהקשיב לנקישות בתמרון איטי.",
+            "level": "widely_reported",
+            "source": {
+              "title": "carsales — Buying used: Mazda2 (2007-2013) (power steering reports)",
+              "url": "https://www.carsales.com.au/editorial/details/buying-used-mazda-2-2007-2013-100175"
+            }
+          },
+          {
+            "he": "בתיבה הידנית דווח על רעידות מצמד בתחילת נסיעה, ובחלק מהרכבים המצמד הוחלף כבר בסביבות 30 אלף ק״מ. בבדיקה: לשים לב לרעידות בתחילת נסיעה, ולבקש תיעוד של החלפת מצמד.",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית",
+            "source": {
+              "title": "carsales — Buying used: Mazda2 (2007-2013) (clutch shudder)",
+              "url": "https://www.carsales.com.au/editorial/details/buying-used-mazda-2-2007-2013-100175"
+            }
           }
         ],
         "engines": [

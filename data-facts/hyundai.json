@@ -1624,6 +1624,24 @@
               "title": "NHTSA — Hyundai recall 198 (non-crash engine fires), incl. 2016 Sonata Hybrid 2.0 GDI",
               "url": "https://static.nhtsa.gov/odi/rcl/2020/RCMN-20V746-7654.pdf"
             }
+          },
+          {
+            "he": "קריאת שירות: פנס האיתות עלול להבהב לכיוון ההפוך מזה שהנהג סימן (תקלה במתג הרב-תכליתי). לוודא שהקריאה בוצעה, ולבדוק את האיתות לשני הכיוונים בנסיעת המבחן.",
+            "level": "recall",
+            "scope": "כולל שנת דגם 2015 (ארה״ב, NHTSA 21V749) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarComplaints — 2015 Hyundai Sonata recalls (21V749000: turn signal may activate in wrong direction)",
+              "url": "https://carcomplaints.com/Hyundai/Sonata/2015/recalls"
+            }
+          },
+          {
+            "he": "קריאת שירות: לוח הזכוכית של חלון הגג הפנורמי עלול להשתחרר ולעוף בנסיעה. בדגמים עם חלון גג: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "דגמים עם חלון גג, שנת דגם 2015 (ארה״ב, NHTSA 16V726) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarComplaints — 2015 Hyundai Sonata recalls (16V726000: sunroof panel may detach)",
+              "url": "https://carcomplaints.com/Hyundai/Sonata/2015/recalls"
+            }
           }
         ],
         "engines": [

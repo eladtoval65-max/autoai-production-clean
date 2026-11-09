@@ -1023,6 +1023,15 @@
               "title": "Fox Business — Toyota recalls 655K Camrys globally over display defect",
               "url": "https://foxbusiness.com/lifestyle/toyota-recalls-655k-camrys-globally-over-display-defect-can-knock-out-safety-indicators"
             }
+          },
+          {
+            "he": "קריאת שירות: חגורת הבטיחות האמצעית במושב האחורי עלולה להיפגע בייצור (סימני המסה) ולא לרסן כראוי בתאונה. התיקון: בדיקה והחלפה לפי הצורך. בבדיקה: להסתכל על רצועת החגורה האמצעית ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנת דגם 2025 (ארה״ב, קוד טויוטה 25TA03) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Green Car Reports — Toyota and Lexus recall hybrid vehicles due to seat belt issue (18.2.2025)",
+              "url": "https://www.greencarreports.com/news/1145772_toyota-and-lexus-recall-hybrid-vehicles-due-to-seat-belt-issue"
+            }
           }
         ],
         "engines": [
@@ -1498,6 +1507,15 @@
             "source": {
               "title": "car-recalls.eu — Toyota Aygo X (2022) brake booster, RAPEX 45/2022",
               "url": "https://car-recalls.eu/recall/toyota-aygo-x-2022-brake-booster/"
+            }
+          },
+          {
+            "he": "קריאת שירות: הותקנה דוושת בלם שגויה, והמרווח בינה לבין דוושת המצמד קטן מדי — בהעברת הילוך אפשר ללחוץ בטעות על הבלם. רלוונטי רק לתיבה ידנית. לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "תיבה ידנית, ייצור 24.2.2022–3.4.2022 (940 רכבים בעולם, קוד 22SMD-090, RAPEX 43/2022)",
+            "source": {
+              "title": "car-recalls.eu — Toyota Aygo X (2022) brake pedal (RAPEX A12/01502/22)",
+              "url": "https://car-recalls.eu/recall/toyota-aygo-x-2022-brake-pedal/?noamp=mobile"
             }
           }
         ],

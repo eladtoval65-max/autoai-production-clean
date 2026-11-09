@@ -625,6 +625,15 @@
               "title": "CarExpert — Nissan X-Trail recalled (e-Power LBC software, July 2026)",
               "url": "https://www.carexpert.com.au/car-news/nissan-x-trail-recalled"
             }
+          },
+          {
+            "he": "קריאת שירות: הפנסים האדפטיביים עלולים לעבור לאור גבוה גם כשיש תנועה נגדית ולסנוור נהגים. התיקון: הגדרה מחדש של מערכת פנסי ה-LED. לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנת דגם 2024, ייצור 1/2024–9/2024 (KBA 14854R, קוד ניסאן R24C4) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "car-recalls.eu — Nissan X-Trail can dazzle oncoming cars (KBA 14854R, 9.7.2025)",
+              "url": "https://car-recalls.eu/nissan-x-trail-can-dazzle-oncoming-cars-kba/amp"
+            }
           }
         ],
         "engines": [
@@ -928,6 +937,24 @@
               "title": "What Car? — Used Nissan Leaf 2011–2018 reliability",
               "url": "https://www.whatcar.com/nissan/leaf/hatchback/used-review/n823/reliability"
             }
+          },
+          {
+            "he": "קריאת שירות: עמוד הגה פגום מהייצור — במקרה הגרוע אובדן היגוי. לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 2/2013–10/2014 (בריטניה, ינואר 2015) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Auto Express — Used Nissan Leaf (Mk1, 2011-2018) review: problems & recalls (Jan 2015 steering column)",
+              "url": "https://www.autoexpress.co.uk/used-car-tests/357225/used-nissan-leaf-mk1-2011-2018-review-problems-recalls"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה במתג ברכבים עם כניסה והתנעה ללא מפתח עלולה לגרום למנוע החשמלי לכבות לגמרי בנסיעה. לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "רכבים עם כניסה ללא מפתח, ייצור 5/2013–3/2015 (בריטניה, אוגוסט 2015) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Auto Express — Used Nissan Leaf (Mk1, 2011-2018) review: problems & recalls (Aug 2015 keyless switch)",
+              "url": "https://www.autoexpress.co.uk/used-car-tests/357225/used-nissan-leaf-mk1-2011-2018-review-problems-recalls"
+            }
           }
         ],
         "engines": [
@@ -1057,6 +1084,15 @@
             "source": {
               "title": "Fox 2 Detroit — Nissan recalling 236k Sentras (2020–2022) over tie rods (2023)",
               "url": "https://www.fox2detroit.com/news/nissan-recalling-236k-sentras-over-possible-steering-control-problem"
+            }
+          },
+          {
+            "he": "קריאת שירות: הציר (גל ההנעה) הקדמי השמאלי עלול לא להיות מושב עד הסוף בתיבת ה-CVT, או שהתפס שלו רופף — אובדן הנעה פתאומי. התיקון: בדיקה, ולפי הצורך החלפת הציר והתיבה. לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנת דגם 2024 (ארה״ב, NHTSA 24V304, קוד ניסאן PMA37) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Justia Auto Recalls — Nissan Sentra 2024, NHTSA 24V304 (front left driveshaft not seated in CVT)",
+              "url": "https://auto-recalls.justia.com/nissan/sentra/2024/24v304000"
             }
           }
         ],

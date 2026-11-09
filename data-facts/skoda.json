@@ -567,6 +567,15 @@
               "title": "car-recalls.eu — Skoda Fabia (2022–2025) airbag injury (Safety Gate SR/02896/25)",
               "url": "https://car-recalls.eu/es/recall/skoda-fabia-2022-2025-airbag-injury/"
             }
+          },
+          {
+            "he": "קריאת שירות: ריתוך לקוי בגב המושב האחורי הימני — בתאונה הנוסע מאחור מימין עלול לא להיות מרוסן כראוי. לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 25.2.2021–15.3.2021 (1,178 רכבים בעולם, קוד 72M5, RAPEX A12/00242/22)",
+            "source": {
+              "title": "car-recalls.eu — Skoda Fabia (2021) right rear seat backrest weld (72M5)",
+              "url": "https://car-recalls.eu/recall/skoda-fabia-2021-right-rear-seat-backrest-weld/?noamp=mobile"
+            }
           }
         ],
         "engines": [
@@ -1029,6 +1038,23 @@
             "source": {
               "title": "What Car? — Used Skoda Enyaq 2021-present reliability",
               "url": "https://whatcar.com/skoda/enyaq/4x4/used-review/n25767/reliability"
+            }
+          },
+          {
+            "he": "בחלק מהרכבים נמצאו תאי סוללה עם פריקה עצמית גבוהה מדי (פגם ייצור), מה שמקטין את הטווח, במיוחד בחורף. סקודה מחליפה את המודולים הפגומים בפעולת שירות (לא ריקול). בבדיקה: לשאול אם בוצעה בדיקה או החלפת מודולים בסוללה, ולבדוק את הטווח בפועל.",
+            "level": "manufacturer",
+            "scope": "בעיקר רכבים מוקדמים (2021)",
+            "source": {
+              "title": "Vi Bilägare — Batteriproblem i Skoda Enyaq och Volkswagen ID.4 (14.3.2023)",
+              "url": "https://www.vibilagare.se/nyheter/batteriproblem-i-skoda-enyaq-och-volkswagen-id4"
+            }
+          },
+          {
+            "he": "דווחו באגים בתוכנה: מסך מולטימדיה שקופא, הודעות שגיאה בלוח המחוונים אחרי ההתנעה, חיבור אונליין שלא עובד, ועוזר הנהיגה Travel Assist שמתנתק לפתע. בבדיקה: לבדוק שהתוכנה עודכנה (ME3 ואילך), ולנסות את המסך ואת עוזרי הנהיגה בנסיעת המבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Gebrauchtwagenberater — Skoda Enyaq iV: bekannte Probleme und Schwachstellen",
+              "url": "https://gebrauchtwagenberater.de/skoda-enyaq-iv-bekannte-probleme-schwachstellen/"
             }
           }
         ],

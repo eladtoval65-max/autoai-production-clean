@@ -329,6 +329,24 @@
               "title": "GIGA — Brandgefahr bei Kia: über 600.000 Fahrzeuge zurückgerufen",
               "url": "https://www.giga.de/artikel/brandgefahr-bei-kia-ueber-600-000-fahrzeuge-zurueckgerufen-diese-modelle-trifft-es--r6rh95j97w"
             }
+          },
+          {
+            "he": "בהיברידי ובפלאג-אין דווח שמפלס שמן המנוע עולה עם הזמן, לפעמים עם ריח דלק חזק על המדיד (לחות או דלק שחודרים לשמן). בבדיקה: לבדוק במדיד שהשמן לא מעל הסימן העליון ושאין ריח דלק.",
+            "level": "widely_reported",
+            "scope": "1.6 היברידי ופלאג-אין",
+            "source": {
+              "title": "AutoTrader.ca — 2017-2021 Kia Niro used vehicle review (rising oil level reports)",
+              "url": "https://editorialsui.autotrader.ca/editorial/20211111/2017-2021-kia-niro-used-vehicle-review"
+            }
+          },
+          {
+            "he": "בהיברידי ובפלאג-אין דווח על נתיך מתח גבוה שנשרף בלי התראה: נוריות אזהרה, והרכב לא מתניע ונגרר למוסך. התיקון: נתיך מעודכן. בבדיקה: לשאול אם הנתיך הוחלף ולבקש תיעוד מהמוסך.",
+            "level": "widely_reported",
+            "scope": "1.6 היברידי ופלאג-אין",
+            "source": {
+              "title": "AutoTrader.ca — 2017-2021 Kia Niro used vehicle review (high-voltage fuse failures)",
+              "url": "https://editorialsui.autotrader.ca/editorial/20211111/2017-2021-kia-niro-used-vehicle-review"
+            }
           }
         ],
         "engines": [
@@ -1251,6 +1269,33 @@
             "source": {
               "title": "Australian Government vehicle recalls — REC-000790 (PRA 2020/18231): Kia Carnival MY2010–2015 petrol fuel rail cracks",
               "url": "https://www.vehiclerecalls.gov.au/recalls/rec-000790"
+            }
+          },
+          {
+            "he": "קריאת שירות: יחידת הבקרה ההידראולית של ה-ABS/ESC (HECU) נשארת תחת מתח גם כשהרכב כבוי, ולחות שחודרת אליה עלולה לגרום לקצר ולשריפה בתא המנוע — גם כשהרכב חונה. לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "רכבים שנמכרו עד 31.12.2010 (אוסטרליה, PRA 2020/18212) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "CarsGuide — Recall: more than 30,000 Kia Sorento SUVs and Carnival people movers pose fire risk (18.3.2020)",
+              "url": "https://www.carsguide.com.au/car-news/recall-more-than-30000-kia-sorento-suvs-and-carnival-people-movers-pose-fire-risk-78406"
+            }
+          },
+          {
+            "he": "עלון שירות של קיה: חלודה בקורת האחורית ובזרועות התחתונות האחוריות. התיקון: ניקוי, ווקס לחללים וציפוי תחתון. בבדיקה: להרים את הרכב ולבדוק חלודה בתחתית האחורית ובזרועות.",
+            "level": "manufacturer",
+            "scope": "ייצור 8.10.2005–14.8.2012 (TSB KCE13-21-P100-VQ)",
+            "source": {
+              "title": "australiancar.reviews — Kia VQ Carnival: known faults (TSB KCE13-21-P100-VQ, rear cross member rust)",
+              "url": "https://www.australiancar.reviews/?p=47142"
+            }
+          },
+          {
+            "he": "עלון שירות של קיה: מכה (טלטול) בהעברת הילוך בתיבה האוטומטית בת 6 ההילוכים, לעתים עם קוד תקלה P0705. התיקון: התקנת תושבת למתג הבורר (inhibitor). בבדיקה: לשים לב למכות בהעברת הילוכים בנסיעת המבחן.",
+            "level": "manufacturer",
+            "scope": "אוטומטית 6 הילוכים, ייצור 16.4.2009–25.2.2011 (TSB KCE12-52-P170-VQ)",
+            "source": {
+              "title": "australiancar.reviews — Kia VQ Carnival: known faults (TSB KCE12-52-P170-VQ, shift shock)",
+              "url": "https://www.australiancar.reviews/?p=47142"
             }
           }
         ],
