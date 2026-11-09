@@ -1,0 +1,16 @@
+{
+  "_doc": "Annual licensing fee (אגרת רישוי) for private cars up to 3,500 kg. Price group = consumer price of the model when new; columns = model-year brackets. Update every April from the Ministry of Transport fee sheet.",
+  "validFrom": "2026-04-01",
+  "validTo": "2027-03-31",
+  "source": { "title": "משרד התחבורה — דף אגרות 01.04.2026", "url": "https://www.gov.il/BlobFolder/policy/car_fees_2026/he/דף%20אגרות%20%2001.04.2026.pdf" },
+  "bracketFromYears": [2024, 2021, 2017],
+  "groups": [
+    { "maxPrice": 117000, "fees": [1266, 1109, 972, 849] },
+    { "maxPrice": 141000, "fees": [1610, 1404, 1230, 1076] },
+    { "maxPrice": 167000, "fees": [1941, 1698, 1487, 1297] },
+    { "maxPrice": 188000, "fees": [2315, 1968, 1674, 1422] },
+    { "maxPrice": 244000, "fees": [2651, 2184, 1802, 1490] },
+    { "maxPrice": 347000, "fees": [3764, 2823, 2117, 1585] },
+    { "maxPrice": null, "fees": [5364, 3753, 2627, 1840] }
+  ]
+}

@@ -18,6 +18,7 @@ export type Car = {
   bodyType?: string;
   insuranceMin?: number; insuranceMax?: number;
   ownershipMonthly?: number;          // total monthly cost at 15,000 km/yr
+  licenceMonthly?: number;            // official licensing fee for this car, per month (else derived from its list price)
   fuelMonthly?: number; insuranceMonthlyAmt?: number; maintenanceMonthly?: number; depreciationMonthly?: number;
   marketRange?: string;               // "₪150K–₪175K"
   dataNote?: string; dataStatus?: string; dataConfidence?: number;

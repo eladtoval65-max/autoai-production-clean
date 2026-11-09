@@ -14,7 +14,8 @@ import { factsFor } from "../../../data/facts";
 import { MAKES, type Generation, type Make, type ModelLine, type Powertrain } from "../../../data/generations";
 import { THIS_YEAR } from "../../browse/model/labels";
 import { estimateUsedCost } from "../../browse/model/usedCost";
-import { estimatedValue } from "../../browse/model/usedValue";
+import { estimatedValue, priceWhenNew } from "../../browse/model/usedValue";
+import { licenceMonthly } from "../../../data/licenceFees";
 import { prosConsFor } from "../../browse/model/prosCons";
 import type { Car } from "../types";
 
@@ -54,7 +55,7 @@ function bandsFor(make: Make, model: ModelLine, gen: Generation, year: number, p
   const maintenanceItems = factsFor(make.id, model.id, gen.code).maintenance;
   const bands = {} as NonNullable<Car["bands"]>;
   for (const km of KM_BANDS) {
-    const c = estimateUsedCost({ gen, segment: model.segment, year, powertrain: pt, askingPrice: price, kmPerYear: km, body: model.body, maintenanceItems });
+    const c = estimateUsedCost({ gen, segment: model.segment, year, powertrain: pt, askingPrice: price, kmPerYear: km, body: model.body, maintenanceItems, priceNew: priceWhenNew(make, model, gen, year) });
     if (!c) return undefined;
     const r = (n: number) => Math.round(n);
     bands[km] = { fuel: r(c.fuel), insurance: r(c.insurance), maintenance: r(c.maintenance), depreciation: r(c.depreciation), total: r(c.total) };
@@ -74,6 +75,7 @@ function baseCar(make: Make, model: ModelLine, gen: Generation, year: number, pr
     reliability: s.reliability, safety: s.safety, economy: s.economy, comfort: s.comfort, fun: s.fun,
     ...(() => { const pc = prosConsFor(model, gen, f); return { pros: pc.pros, cons: [...pc.cons, ...(f.issues ?? []).slice(0, 2).map((i) => i.he)].slice(0, 4) }; })(),
     bands, ownershipMonthly: b?.total, fuelMonthly: b?.fuel, insuranceMonthlyAmt: b?.insurance, maintenanceMonthly: b?.maintenance, depreciationMonthly: b?.depreciation,
+    licenceMonthly: licenceMonthly(priceWhenNew(make, model, gen, year), year),
     dataStatus: "estimated", estimatedScores: true, href: `/cars/${make.id}/${model.id}`,
     spec: { hp: Number(String(gen.hp).split(/[–-]/)[0]) || null, seats: model.body === "suv7" ? 7 : 5, cargo: null, cons: mainConsumption(make, model, gen), ev: gen.pt[0] === "ev" },
   };

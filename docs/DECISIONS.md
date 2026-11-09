@@ -14,6 +14,7 @@ its own row.
 
 | Date       | Decision                                                  | Why (and what we accepted)                                                   |
 | ---------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 2026-11-09 | Licensing is per car: official Ministry of Transport table (price group × model year, valid Apr 2026–Mar 2027) in `src/data/licenceFees.json`; city-car base maintenance ×0.85. | A visitor (2013 Picanto) noticed one flat fee for all cars; the real fee ranges ₪849–5,364/yr. Update the JSON each April. |
 | 2026-11-08 | Site uses the social-post design language: Heebo 900 headlines, mint "כמה עולה?" car sticker as logo, orange CTA (ink text), deep-green poster hero with our own car drawing. | Owner asked the site to match the new posts: one brand across site and social. |
 | 2026-11-08 | Adopt the Claude Harness Kit (skills, ledgers, hooks); owner keeps shipping straight to `main`. | `HARNESS_ALLOW_COMMIT_ON_DEFAULT=1` turns off the "no commits on main" hook rule; scheduled data agents push to main. |
 | 2026-11-01 | Youngest-driver question scales only the insurance estimate (×1.8 young, ×1.25 2–5 yrs). | Estimate, labelled; not a quote. |

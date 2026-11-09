@@ -1,13 +1,15 @@
 /**
  * Monthly cost of ownership (TCO) maths. Pure functions, no React.
- * Monthly total = fuel/electricity + insurance (estimate) + maintenance + depreciation + licensing (₪121, official).
+ * Monthly total = fuel/electricity + insurance (estimate) + maintenance + depreciation + licensing (official, per car).
  */
 import type { Band as CatalogBand } from "../../../data/catalogData";
 import type { Provenance } from "../../../shared/ui/CodeChip";
+import { licenceMonthly } from "../../../data/licenceFees";
+import { THIS_YEAR } from "../../browse/model/labels";
 import type { Car, Ladder, LadderBand, LadderByTrim } from "../types";
 
-/** Annual licence fee spread per month (official). */
-export const REGISTRATION = 121;
+/** Official licensing fee per month for this car: set on used candidates, else from its list price as a new car this year. */
+export const licenceOf = (car: Car): number => car.licenceMonthly ?? licenceMonthly(car.price, THIS_YEAR);
 
 /** Validated categorical colours for the five cost components, in order (fuel, insurance, maintenance, depreciation, licensing). */
 export const COST_COLORS = ["#2a78d6", "#eb6834", "#6250d6", "#eda100", "#e87ba4"];
@@ -20,7 +22,7 @@ export function bandAt(car: Car, km: number): CatalogBand | null {
   const L = car.bands[lo], H = car.bands[hi];
   const mix = (k: keyof CatalogBand) => Math.max(0, Math.round(L[k] + (H[k] - L[k]) * f));
   const out = { fuel: mix("fuel"), insurance: mix("insurance"), maintenance: mix("maintenance"), depreciation: mix("depreciation"), total: 0 };
-  out.total = out.fuel + out.insurance + out.maintenance + out.depreciation + REGISTRATION;
+  out.total = out.fuel + out.insurance + out.maintenance + out.depreciation + licenceOf(car);
   return out;
 }
 
@@ -43,7 +45,7 @@ export function tcoRows(car: Car, km: number, l: CostLabels): CostRow[] {
   if (b) return [
     { label: l.fuel, value: b.fuel, code: "est" }, { label: l.insurance, value: b.insurance, code: "est" },
     { label: l.maintenance, value: b.maintenance, code: "est" }, { label: l.depreciation, value: b.depreciation, code: "est" },
-    { label: l.registration, value: REGISTRATION, code: "off" },
+    { label: l.registration, value: licenceOf(car), code: "off" },
   ];
   const f = km / 15000;
   const fuel = car.fuelMonthly != null ? Math.round(car.fuelMonthly * f) : undefined;
@@ -51,7 +53,7 @@ export function tcoRows(car: Car, km: number, l: CostLabels): CostRow[] {
   const rows: CostRow[] = [
     { label: l.fuel, value: fuel, code: "est" }, { label: l.insurance, value: ins, code: "est" },
     { label: l.maintenance, value: car.maintenanceMonthly, code: "est" }, { label: l.depreciation, value: car.depreciationMonthly, code: "est" },
-    { label: l.registration, value: REGISTRATION, code: "off" },
+    { label: l.registration, value: licenceOf(car), code: "off" },
   ];
   return rows.map((r) => (r.value == null ? { ...r, code: "miss" } : r));
 }

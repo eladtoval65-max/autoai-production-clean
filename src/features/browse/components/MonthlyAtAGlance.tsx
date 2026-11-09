@@ -9,7 +9,7 @@ import { card } from "../../../shared/styles";
 import type { PriceYear } from "../hooks/usePriceReports";
 import { POWERTRAIN_HE, shekel, THIS_YEAR } from "../model/labels";
 import { estimateUsedCost } from "../model/usedCost";
-import { estimatedValue, genForYear } from "../model/usedValue";
+import { estimatedValue, genForYear, priceWhenNew } from "../model/usedValue";
 
 export type Pick = { genCode: string; year: number; price: number };
 type Row = Pick & { label: string; source: "list" | "reported" | "estimate"; monthly: number; pt: string };
@@ -21,7 +21,7 @@ export function rowsFor(make: Make, model: ModelLine, km: number, reported: Pric
   const rows: Row[] = [];
   const cost = (genCode: string, year: number, price: number) => {
     const gen = model.gens.find((g) => g.code === genCode)!;
-    return estimateUsedCost({ gen, segment: model.segment, year, powertrain: gen.pt[0], askingPrice: price, kmPerYear: km, body: model.body, maintenanceItems: factsFor(make.id, model.id, gen.code).maintenance })?.total ?? 0;
+    return estimateUsedCost({ gen, segment: model.segment, year, powertrain: gen.pt[0], askingPrice: price, kmPerYear: km, body: model.body, maintenanceItems: factsFor(make.id, model.id, gen.code).maintenance, priceNew: priceWhenNew(make, model, gen, year) })?.total ?? 0;
   };
   const current = model.gens[model.gens.length - 1];
   if (model.status === "on_sale" && model.price && current.to == null) {

@@ -8,11 +8,12 @@
  *    EV repair costs and large 7-seat/van bodies (never a quote);
  *  - maintenance: base routine servicing that grows with age (premium ×1.7, EV ×0.55, capped) PLUS the generation's sourced
  *    scheduled / wear items (timing belt, DSG oil, clutch…) spread per month by km or years. "Risk" items are shown, not added;
- *  - licensing: average annual fee spread per month.
+ *  - licensing: the official fee for the car's price group and model year (src/data/licenceFees.ts), spread per month.
  */
 import type { Generation, ModelLine, Powertrain } from "../../../data/generations";
 import type { MaintenanceItem } from "../../../data/facts";
 import { THIS_YEAR } from "./labels";
+import { licenceMonthly } from "../../../data/licenceFees";
 
 import ENERGY from "../../../data/energyPrices.json";
 
@@ -20,12 +21,15 @@ export const PRICES = { petrolPerL: ENERGY.petrolPerL, dieselPerL: ENERGY.diesel
 const PHEV_ELECTRIC_SHARE = 0.5;
 const EV_DEFAULT_KWH = 17;      // used when a generation's consumption is in litres but the user picked "electric"
 const PETROL_DEFAULT_L = 6.5;   // used when a generation's consumption is in kWh but the user picked a fuel engine
-const LICENCE_PER_MONTH = 110;
+/** Small city cars have cheaper parts, tyres and brakes than the average car the base maintenance curve describes. */
+const CITY_MAINTENANCE = 0.85;
 
 export type UsedCostInput = {
   gen: Generation; segment: ModelLine["segment"]; year: number; powertrain: Powertrain; askingPrice: number; kmPerYear: number;
   /** Optional refinements: body type (7-seat / van insurance), sourced maintenance items of the generation. */
   body?: ModelLine["body"]; maintenanceItems?: MaintenanceItem[];
+  /** Price of the model when new (launch or list price): decides the licensing fee group. */
+  priceNew?: number | null;
 };
 export type MaintenanceShare = { item: MaintenanceItem; monthly: number };
 export type UsedCost = {
@@ -78,7 +82,7 @@ export function maintenanceShares(items: MaintenanceItem[] | undefined, kmPerYea
 }
 
 /** Returns null when the price is missing or implausibly low. */
-export function estimateUsedCost({ gen, segment, year, powertrain, askingPrice, kmPerYear, body, maintenanceItems }: UsedCostInput): UsedCost | null {
+export function estimateUsedCost({ gen, segment, year, powertrain, askingPrice, kmPerYear, body, maintenanceItems, priceNew }: UsedCostInput): UsedCost | null {
   if (!askingPrice || askingPrice < 5000) return null;
   const age = Math.max(0, THIS_YEAR - year);
   const premium = segment === "premium";
@@ -87,10 +91,11 @@ export function estimateUsedCost({ gen, segment, year, powertrain, askingPrice, 
   const depreciation = (askingPrice * rate) / 12;
   const insurance = ((1700 + 1000 + askingPrice * 0.022) * insuranceFactor(gen, powertrain, premium, body)) / 12;
   const shares = maintenanceShares(maintenanceItems, kmPerYear);
-  const base = Math.min(900, (180 + 12 * age) * (premium ? 1.7 : 1) * (powertrain === "ev" ? 0.55 : 1));
+  const base = Math.min(900, (180 + 12 * age) * (premium ? 1.7 : 1) * (powertrain === "ev" ? 0.55 : 1) * (body === "city" ? CITY_MAINTENANCE : 1));
   const maintenance = Math.min(1500, base + shares.reduce((a, s) => a + s.monthly, 0));
-  const total = fuel + depreciation + insurance + maintenance + LICENCE_PER_MONTH;
-  return { fuel, depreciation, insurance, maintenance, licence: LICENCE_PER_MONTH, total, depreciationRate: rate, maintenanceItems: shares };
+  const licence = licenceMonthly(priceNew, year);
+  const total = fuel + depreciation + insurance + maintenance + licence;
+  return { fuel, depreciation, insurance, maintenance, licence, total, depreciationRate: rate, maintenanceItems: shares };
 }
 
 /** Model years a generation covers inside the browser's range (2010 → now). */

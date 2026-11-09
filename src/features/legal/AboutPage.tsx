@@ -6,7 +6,7 @@
 import { MAKES, PRICES_VERIFIED } from "../../data/generations";
 import { STATIC_CATALOG } from "../../data/catalogData";
 import { PRICES } from "../browse/model/usedCost";
-import { REGISTRATION } from "../home/model/cost";
+import { LICENCE_TABLE } from "../../data/licenceFees";
 import { LegalPage, OperatorDetails, Section } from "./LegalPage";
 
 const modelCount = MAKES.reduce((n, m) => n + m.models.length, 0);
@@ -24,7 +24,7 @@ export default function AboutPage() {
           <li><b>ביטוח</b> — הערכה לפי שווי הרכב וסוגו. <b>זו לא הצעת מחיר</b>; המחיר בפועל תלוי בנהג.</li>
           <li><b>טיפולים ותיקונים</b> — הערכה לפי היצרן, הגודל וסוג ההנעה.</li>
           <li><b>ירידת ערך</b> — כמה מהמחיר צפוי ״להיעלם״ בשנים הראשונות, לפי סוג הרכב והמותג.</li>
-          <li><b>רישוי</b> — אגרה שנתית מחולקת לחודשים ({REGISTRATION} ₪). זה הרכיב היחיד שהוא נתון רשמי.</li>
+          <li><b>רישוי</b> — האגרה השנתית הרשמית לפי קבוצת המחיר של הרכב (מחירו כחדש) ושנת הייצור, מחולקת לחודשים: מכ־₪71 בחודש לרכב קטן וישן ועד מעל ₪400 לרכב יקר וחדש. מקור: <a className="underline" href={LICENCE_TABLE.source.url} target="_blank" rel="noopener noreferrer">{LICENCE_TABLE.source.title}</a>. כשמחיר ההשקה ידוע רק בקירוב, גם קבוצת המחיר משוערת.</li>
         </ol>
       </Section>
       <Section title="מקורות">

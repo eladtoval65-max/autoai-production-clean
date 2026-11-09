@@ -5,6 +5,8 @@
  */
 import { STATIC_CATALOG, type CatalogCar } from "../../../data/catalogData";
 import { MAKES } from "../../../data/generations";
+import { licenceMonthly } from "../../../data/licenceFees";
+import { THIS_YEAR } from "../../browse/model/labels";
 
 export type Pair = { slug: string; a: CatalogCar; b: CatalogCar };
 
@@ -59,7 +61,7 @@ export function monthlyAt(c: CatalogCar, km: number) {
   const f = (km - lo) / (hi - lo);
   const L = c.bands[lo], H = c.bands[hi];
   const mix = (k: "fuel" | "insurance" | "maintenance" | "depreciation") => Math.round(L[k] + (H[k] - L[k]) * f);
-  const parts = { fuel: mix("fuel"), insurance: mix("insurance"), maintenance: mix("maintenance"), depreciation: mix("depreciation"), licence: 121 };
+  const parts = { fuel: mix("fuel"), insurance: mix("insurance"), maintenance: mix("maintenance"), depreciation: mix("depreciation"), licence: licenceMonthly(c.price, THIS_YEAR) };
   return { ...parts, total: parts.fuel + parts.insurance + parts.maintenance + parts.depreciation + parts.licence };
 }
 

@@ -7,7 +7,8 @@ import { MAKES } from "../data/generations";
 import { estimateUsedCost, yearsOf } from "../features/browse/model/usedCost";
 import { prosConsFor } from "../features/browse/model/prosCons";
 import { monthlyGap, winnerIndex, winsPerCar } from "../features/home/model/compare";
-import { bandAt, REGISTRATION } from "../features/home/model/cost";
+import { bandAt, licenceOf } from "../features/home/model/cost";
+import { licenceYearly } from "../data/licenceFees";
 import { staticCars } from "../features/home/model/catalog";
 import { loanPayment, totalInterest } from "../features/home/model/finance";
 import { isFleetOwnership, normalizePlate } from "../features/home/model/plate";
@@ -34,7 +35,7 @@ describe("monthly cost bands", () => {
   const car = staticCars[0];
   it("total = components + licensing", () => {
     const b = bandAt(car, 15000)!;
-    expect(b.total).toBe(b.fuel + b.insurance + b.maintenance + b.depreciation + REGISTRATION);
+    expect(b.total).toBe(b.fuel + b.insurance + b.maintenance + b.depreciation + licenceOf(car));
   });
   it("costs more when driving more", () => expect(bandAt(car, 25000)!.total).toBeGreaterThan(bandAt(car, 7000)!.total));
 });
@@ -119,4 +120,15 @@ describe("anonymous price reports", () => {
     expect(s.n).toBe(5); expect(s.median).toBe(95000);
     expect(summarize(rows.slice(0, 4))).toEqual([]);
   });
+});
+
+describe("licensing fee (official table, Apr 2026)", () => {
+  it("depends on price group and model year", () => {
+    expect(licenceYearly(61900, 2013)).toBe(849);     // small, old car: group 1, 2016 and older
+    expect(licenceYearly(99900, 2026)).toBe(1266);    // group 1, new
+    expect(licenceYearly(219990, 2026)).toBe(2651);   // group 5, new
+    expect(licenceYearly(219990, 2022)).toBe(2184);   // group 5, 2021–2023
+    expect(licenceYearly(400000, 2018)).toBe(2627);   // group 7, 2017–2020
+  });
+  it("uses group 2 when the price when new is unknown", () => expect(licenceYearly(null, 2026)).toBe(1610));
 });

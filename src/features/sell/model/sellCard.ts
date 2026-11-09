@@ -5,6 +5,7 @@
 import type { Generation, Make, ModelLine, Powertrain } from "../../../data/generations";
 import { factsFor } from "../../../data/facts";
 import { FIRST_YEAR, THIS_YEAR } from "../../browse/model/labels";
+import { priceWhenNew } from "../../browse/model/usedValue";
 
 export type CardInput = { makeId: string; modelId: string; year: number; pt: Powertrain; price: number; km: number };
 export type Card = CardInput & { make: Make; model: ModelLine; gen: Generation };
@@ -13,6 +14,7 @@ export type Card = CardInput & { make: Make; model: ModelLine; gen: Generation }
 export const costInputOf = (c: Card) => ({
   gen: c.gen, segment: c.model.segment, year: c.year, powertrain: c.pt, askingPrice: c.price, kmPerYear: c.km,
   body: c.model.body, maintenanceItems: factsFor(c.make.id, c.model.id, c.gen.code).maintenance,
+  priceNew: priceWhenNew(c.make, c.model, c.gen, c.year),
 });
 
 const POWERTRAINS: Powertrain[] = ["petrol", "diesel", "hybrid", "phev", "ev"];

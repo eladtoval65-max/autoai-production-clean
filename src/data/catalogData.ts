@@ -56,21 +56,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 260,
     "maintenance": 140,
     "depreciation": 832,
-    "total": 1610
+    "total": 1595
    },
    "15000": {
     "fuel": 551,
     "insurance": 260,
     "maintenance": 160,
     "depreciation": 832,
-    "total": 1924
+    "total": 1909
    },
    "25000": {
     "fuel": 918,
     "insurance": 260,
     "maintenance": 185,
     "depreciation": 832,
-    "total": 2316
+    "total": 2301
    }
   }
  },
@@ -117,21 +117,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 362,
     "maintenance": 176,
     "depreciation": 833,
-    "total": 1799
+    "total": 1784
    },
    "15000": {
     "fuel": 658,
     "insurance": 362,
     "maintenance": 200,
     "depreciation": 833,
-    "total": 2174
+    "total": 2159
    },
    "25000": {
     "fuel": 1097,
     "insurance": 362,
     "maintenance": 224,
     "depreciation": 833,
-    "total": 2637
+    "total": 2622
    }
   }
  },
@@ -178,21 +178,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 419,
     "maintenance": 114,
     "depreciation": 1342,
-    "total": 2060
+    "total": 2045
    },
    "15000": {
     "fuel": 136,
     "insurance": 419,
     "maintenance": 130,
     "depreciation": 1342,
-    "total": 2148
+    "total": 2133
    },
    "25000": {
     "fuel": 228,
     "insurance": 419,
     "maintenance": 146,
     "depreciation": 1342,
-    "total": 2256
+    "total": 2241
    }
   }
  },
@@ -239,21 +239,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 406,
     "maintenance": 194,
     "depreciation": 1008,
-    "total": 2082
+    "total": 2095
    },
    "15000": {
     "fuel": 755,
     "insurance": 406,
     "maintenance": 220,
     "depreciation": 1008,
-    "total": 2510
+    "total": 2523
    },
    "25000": {
     "fuel": 1258,
     "insurance": 406,
     "maintenance": 246,
     "depreciation": 1008,
-    "total": 3039
+    "total": 3052
    }
   }
  },
@@ -300,21 +300,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 439,
     "maintenance": 141,
     "depreciation": 1033,
-    "total": 1903
+    "total": 1916
    },
    "15000": {
     "fuel": 363,
     "insurance": 439,
     "maintenance": 160,
     "depreciation": 1033,
-    "total": 2116
+    "total": 2129
    },
    "25000": {
     "fuel": 605,
     "insurance": 439,
     "maintenance": 179,
     "depreciation": 1033,
-    "total": 2377
+    "total": 2390
    }
   }
  },
@@ -361,21 +361,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 418,
     "maintenance": 176,
     "depreciation": 1057,
-    "total": 2005
+    "total": 2018
    },
    "15000": {
     "fuel": 501,
     "insurance": 418,
     "maintenance": 200,
     "depreciation": 1057,
-    "total": 2297
+    "total": 2310
    },
    "25000": {
     "fuel": 835,
     "insurance": 418,
     "maintenance": 224,
     "depreciation": 1057,
-    "total": 2655
+    "total": 2668
    }
   }
  },
@@ -422,21 +422,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 441,
     "maintenance": 167,
     "depreciation": 1146,
-    "total": 2140
+    "total": 2153
    },
    "15000": {
     "fuel": 569,
     "insurance": 441,
     "maintenance": 190,
     "depreciation": 1146,
-    "total": 2467
+    "total": 2480
    },
    "25000": {
     "fuel": 949,
     "insurance": 441,
     "maintenance": 213,
     "depreciation": 1146,
-    "total": 2870
+    "total": 2883
    }
   }
  },
@@ -483,21 +483,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 424,
     "maintenance": 185,
     "depreciation": 1083,
-    "total": 2166
+    "total": 2179
    },
    "15000": {
     "fuel": 755,
     "insurance": 424,
     "maintenance": 210,
     "depreciation": 1083,
-    "total": 2593
+    "total": 2606
    },
    "25000": {
     "fuel": 1258,
     "insurance": 424,
     "maintenance": 235,
     "depreciation": 1083,
-    "total": 3121
+    "total": 3134
    }
   }
  },
@@ -544,21 +544,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 424,
     "maintenance": 185,
     "depreciation": 1083,
-    "total": 2138
+    "total": 2151
    },
    "15000": {
     "fuel": 697,
     "insurance": 424,
     "maintenance": 210,
     "depreciation": 1083,
-    "total": 2535
+    "total": 2548
    },
    "25000": {
     "fuel": 1161,
     "insurance": 424,
     "maintenance": 235,
     "depreciation": 1083,
-    "total": 3024
+    "total": 3037
    }
   }
  },
@@ -605,21 +605,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 451,
     "maintenance": 150,
     "depreciation": 1192,
-    "total": 2134
+    "total": 2147
    },
    "15000": {
     "fuel": 471,
     "insurance": 451,
     "maintenance": 170,
     "depreciation": 1192,
-    "total": 2405
+    "total": 2418
    },
    "25000": {
     "fuel": 785,
     "insurance": 451,
     "maintenance": 190,
     "depreciation": 1192,
-    "total": 2739
+    "total": 2752
    }
   }
  },
@@ -666,21 +666,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 503,
     "maintenance": 207,
     "depreciation": 1360,
-    "total": 2456
+    "total": 2469
    },
    "15000": {
     "fuel": 569,
     "insurance": 503,
     "maintenance": 235,
     "depreciation": 1360,
-    "total": 2788
+    "total": 2801
    },
    "25000": {
     "fuel": 949,
     "insurance": 503,
     "maintenance": 263,
     "depreciation": 1360,
-    "total": 3196
+    "total": 3209
    }
   }
  },
@@ -727,21 +727,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 467,
     "maintenance": 158,
     "depreciation": 1494,
-    "total": 2473
+    "total": 2486
    },
    "15000": {
     "fuel": 501,
     "insurance": 467,
     "maintenance": 180,
     "depreciation": 1494,
-    "total": 2763
+    "total": 2776
    },
    "25000": {
     "fuel": 835,
     "insurance": 467,
     "maintenance": 202,
     "depreciation": 1494,
-    "total": 3119
+    "total": 3132
    }
   }
  },
@@ -788,21 +788,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 524,
     "maintenance": 176,
     "depreciation": 1380,
-    "total": 2358
+    "total": 2371
    },
    "15000": {
     "fuel": 336,
     "insurance": 524,
     "maintenance": 200,
     "depreciation": 1380,
-    "total": 2561
+    "total": 2574
    },
    "25000": {
     "fuel": 561,
     "insurance": 524,
     "maintenance": 224,
     "depreciation": 1380,
-    "total": 2810
+    "total": 2823
    }
   }
  },
@@ -849,21 +849,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 440,
     "maintenance": 202,
     "depreciation": 1154,
-    "total": 2179
+    "total": 2192
    },
    "15000": {
     "fuel": 561,
     "insurance": 440,
     "maintenance": 230,
     "depreciation": 1154,
-    "total": 2506
+    "total": 2519
    },
    "25000": {
     "fuel": 934,
     "insurance": 440,
     "maintenance": 258,
     "depreciation": 1154,
-    "total": 2907
+    "total": 2920
    }
   }
  },
@@ -910,21 +910,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 443,
     "maintenance": 194,
     "depreciation": 1166,
-    "total": 2277
+    "total": 2290
    },
    "15000": {
     "fuel": 755,
     "insurance": 443,
     "maintenance": 220,
     "depreciation": 1166,
-    "total": 2705
+    "total": 2718
    },
    "25000": {
     "fuel": 1258,
     "insurance": 443,
     "maintenance": 246,
     "depreciation": 1166,
-    "total": 3234
+    "total": 3247
    }
   }
  },
@@ -971,21 +971,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 605,
     "maintenance": 88,
     "depreciation": 1516,
-    "total": 2389
+    "total": 2402
    },
    "15000": {
     "fuel": 126,
     "insurance": 605,
     "maintenance": 100,
     "depreciation": 1516,
-    "total": 2468
+    "total": 2481
    },
    "25000": {
     "fuel": 210,
     "insurance": 605,
     "maintenance": 112,
     "depreciation": 1516,
-    "total": 2564
+    "total": 2577
    }
   }
  },
@@ -1032,21 +1032,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 443,
     "maintenance": 185,
     "depreciation": 1167,
-    "total": 2228
+    "total": 2241
    },
    "15000": {
     "fuel": 668,
     "insurance": 443,
     "maintenance": 210,
     "depreciation": 1167,
-    "total": 2609
+    "total": 2622
    },
    "25000": {
     "fuel": 1113,
     "insurance": 443,
     "maintenance": 235,
     "depreciation": 1167,
-    "total": 3079
+    "total": 3092
    }
   }
  },
@@ -1093,21 +1093,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 474,
     "maintenance": 150,
     "depreciation": 1175,
-    "total": 2098
+    "total": 2111
    },
    "15000": {
     "fuel": 383,
     "insurance": 474,
     "maintenance": 170,
     "depreciation": 1175,
-    "total": 2323
+    "total": 2336
    },
    "25000": {
     "fuel": 638,
     "insurance": 474,
     "maintenance": 190,
     "depreciation": 1175,
-    "total": 2598
+    "total": 2611
    }
   }
  },
@@ -1155,21 +1155,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 583,
     "maintenance": 85,
     "depreciation": 1418,
-    "total": 2265
+    "total": 2306
    },
    "15000": {
     "fuel": 124,
     "insurance": 583,
     "maintenance": 95,
     "depreciation": 1418,
-    "total": 2341
+    "total": 2382
    },
    "25000": {
     "fuel": 207,
     "insurance": 583,
     "maintenance": 110,
     "depreciation": 1418,
-    "total": 2439
+    "total": 2480
    }
   }
  },
@@ -1216,21 +1216,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 457,
     "maintenance": 185,
     "depreciation": 1225,
-    "total": 2336
+    "total": 2377
    },
    "15000": {
     "fuel": 745,
     "insurance": 457,
     "maintenance": 210,
     "depreciation": 1225,
-    "total": 2758
+    "total": 2799
    },
    "25000": {
     "fuel": 1242,
     "insurance": 457,
     "maintenance": 235,
     "depreciation": 1225,
-    "total": 3280
+    "total": 3321
    }
   }
  },
@@ -1277,21 +1277,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 456,
     "maintenance": 202,
     "depreciation": 1225,
-    "total": 2254
+    "total": 2295
    },
    "15000": {
     "fuel": 536,
     "insurance": 456,
     "maintenance": 230,
     "depreciation": 1225,
-    "total": 2568
+    "total": 2609
    },
    "25000": {
     "fuel": 893,
     "insurance": 456,
     "maintenance": 258,
     "depreciation": 1225,
-    "total": 2953
+    "total": 2994
    }
   }
  },
@@ -1338,21 +1338,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 492,
     "maintenance": 185,
     "depreciation": 1375,
-    "total": 2402
+    "total": 2443
    },
    "15000": {
     "fuel": 491,
     "insurance": 492,
     "maintenance": 210,
     "depreciation": 1375,
-    "total": 2689
+    "total": 2730
    },
    "25000": {
     "fuel": 818,
     "insurance": 492,
     "maintenance": 235,
     "depreciation": 1375,
-    "total": 3041
+    "total": 3082
    }
   }
  },
@@ -1399,21 +1399,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 604,
     "maintenance": 97,
     "depreciation": 1635,
-    "total": 2531
+    "total": 2572
    },
    "15000": {
     "fuel": 159,
     "insurance": 604,
     "maintenance": 110,
     "depreciation": 1635,
-    "total": 2629
+    "total": 2670
    },
    "25000": {
     "fuel": 266,
     "insurance": 604,
     "maintenance": 123,
     "depreciation": 1635,
-    "total": 2749
+    "total": 2790
    }
   }
  },
@@ -1460,21 +1460,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 576,
     "maintenance": 216,
     "depreciation": 1530,
-    "total": 2686
+    "total": 2727
    },
    "15000": {
     "fuel": 522,
     "insurance": 576,
     "maintenance": 245,
     "depreciation": 1530,
-    "total": 2994
+    "total": 3035
    },
    "25000": {
     "fuel": 870,
     "insurance": 576,
     "maintenance": 274,
     "depreciation": 1530,
-    "total": 3371
+    "total": 3412
    }
   }
  },
@@ -1521,21 +1521,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 573,
     "maintenance": 211,
     "depreciation": 1549,
-    "total": 2729
+    "total": 2770
    },
    "15000": {
     "fuel": 589,
     "insurance": 573,
     "maintenance": 240,
     "depreciation": 1549,
-    "total": 3072
+    "total": 3113
    },
    "25000": {
     "fuel": 982,
     "insurance": 573,
     "maintenance": 269,
     "depreciation": 1549,
-    "total": 3494
+    "total": 3535
    }
   }
  },
@@ -1583,21 +1583,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 606,
     "maintenance": 95,
     "depreciation": 1550,
-    "total": 2432
+    "total": 2473
    },
    "15000": {
     "fuel": 131,
     "insurance": 606,
     "maintenance": 110,
     "depreciation": 1550,
-    "total": 2518
+    "total": 2559
    },
    "25000": {
     "fuel": 217,
     "insurance": 606,
     "maintenance": 130,
     "depreciation": 1550,
-    "total": 2624
+    "total": 2665
    }
   }
  },
@@ -1644,21 +1644,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 620,
     "maintenance": 88,
     "depreciation": 1550,
-    "total": 2440
+    "total": 2481
    },
    "15000": {
     "fuel": 131,
     "insurance": 620,
     "maintenance": 100,
     "depreciation": 1550,
-    "total": 2522
+    "total": 2563
    },
    "25000": {
     "fuel": 217,
     "insurance": 620,
     "maintenance": 112,
     "depreciation": 1550,
-    "total": 2620
+    "total": 2661
    }
   }
  },
@@ -1705,21 +1705,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 509,
     "maintenance": 167,
     "depreciation": 1721,
-    "total": 2769
+    "total": 2810
    },
    "15000": {
     "fuel": 538,
     "insurance": 509,
     "maintenance": 190,
     "depreciation": 1721,
-    "total": 3079
+    "total": 3120
    },
    "25000": {
     "fuel": 898,
     "insurance": 509,
     "maintenance": 213,
     "depreciation": 1721,
-    "total": 3462
+    "total": 3503
    }
   }
  },
@@ -1766,21 +1766,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 520,
     "maintenance": 215,
     "depreciation": 1334,
-    "total": 2486
+    "total": 2527
    },
    "15000": {
     "fuel": 637,
     "insurance": 520,
     "maintenance": 240,
     "depreciation": 1334,
-    "total": 2852
+    "total": 2893
    },
    "25000": {
     "fuel": 1061,
     "insurance": 520,
     "maintenance": 265,
     "depreciation": 1334,
-    "total": 3301
+    "total": 3342
    }
   }
  },
@@ -1828,21 +1828,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 544,
     "maintenance": 189,
     "depreciation": 1133,
-    "total": 2235
+    "total": 2276
    },
    "15000": {
     "fuel": 530,
     "insurance": 544,
     "maintenance": 215,
     "depreciation": 1133,
-    "total": 2543
+    "total": 2584
    },
    "25000": {
     "fuel": 882,
     "insurance": 544,
     "maintenance": 241,
     "depreciation": 1133,
-    "total": 2921
+    "total": 2962
    }
   }
  },
@@ -1889,21 +1889,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 592,
     "maintenance": 216,
     "depreciation": 1600,
-    "total": 2804
+    "total": 2845
    },
    "15000": {
     "fuel": 589,
     "insurance": 592,
     "maintenance": 245,
     "depreciation": 1600,
-    "total": 3147
+    "total": 3188
    },
    "25000": {
     "fuel": 982,
     "insurance": 592,
     "maintenance": 274,
     "depreciation": 1600,
-    "total": 3569
+    "total": 3610
    }
   }
  },
@@ -1951,21 +1951,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 481,
     "maintenance": 106,
     "depreciation": 1667,
-    "total": 2440
+    "total": 2481
    },
    "15000": {
     "fuel": 139,
     "insurance": 481,
     "maintenance": 120,
     "depreciation": 1667,
-    "total": 2528
+    "total": 2569
    },
    "25000": {
     "fuel": 231,
     "insurance": 481,
     "maintenance": 134,
     "depreciation": 1667,
-    "total": 2634
+    "total": 2675
    }
   }
  },
@@ -2012,21 +2012,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 492,
     "maintenance": 176,
     "depreciation": 1375,
-    "total": 2380
+    "total": 2421
    },
    "15000": {
     "fuel": 461,
     "insurance": 492,
     "maintenance": 200,
     "depreciation": 1375,
-    "total": 2649
+    "total": 2690
    },
    "25000": {
     "fuel": 768,
     "insurance": 492,
     "maintenance": 224,
     "depreciation": 1375,
-    "total": 2980
+    "total": 3021
    }
   }
  },
@@ -2074,21 +2074,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 513,
     "maintenance": 180,
     "depreciation": 1342,
-    "total": 2399
+    "total": 2440
    },
    "15000": {
     "fuel": 520,
     "insurance": 513,
     "maintenance": 205,
     "depreciation": 1342,
-    "total": 2701
+    "total": 2742
    },
    "25000": {
     "fuel": 867,
     "insurance": 513,
     "maintenance": 230,
     "depreciation": 1342,
-    "total": 3073
+    "total": 3114
    }
   }
  },
@@ -2135,21 +2135,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 485,
     "maintenance": 106,
     "depreciation": 1620,
-    "total": 2397
+    "total": 2438
    },
    "15000": {
     "fuel": 139,
     "insurance": 485,
     "maintenance": 120,
     "depreciation": 1620,
-    "total": 2485
+    "total": 2526
    },
    "25000": {
     "fuel": 231,
     "insurance": 485,
     "maintenance": 134,
     "depreciation": 1620,
-    "total": 2591
+    "total": 2632
    }
   }
  },
@@ -2196,21 +2196,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 520,
     "maintenance": 176,
     "depreciation": 1374,
-    "total": 2539
+    "total": 2580
    },
    "15000": {
     "fuel": 745,
     "insurance": 520,
     "maintenance": 200,
     "depreciation": 1374,
-    "total": 2960
+    "total": 3001
    },
    "25000": {
     "fuel": 1242,
     "insurance": 520,
     "maintenance": 224,
     "depreciation": 1374,
-    "total": 3481
+    "total": 3522
    }
   }
  },
@@ -2257,21 +2257,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 491,
     "maintenance": 202,
     "depreciation": 1382,
-    "total": 2562
+    "total": 2603
    },
    "15000": {
     "fuel": 785,
     "insurance": 491,
     "maintenance": 230,
     "depreciation": 1382,
-    "total": 3009
+    "total": 3050
    },
    "25000": {
     "fuel": 1308,
     "insurance": 491,
     "maintenance": 258,
     "depreciation": 1382,
-    "total": 3560
+    "total": 3601
    }
   }
  },
@@ -2318,21 +2318,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 493,
     "maintenance": 176,
     "depreciation": 1392,
-    "total": 2403
+    "total": 2444
    },
    "15000": {
     "fuel": 473,
     "insurance": 493,
     "maintenance": 200,
     "depreciation": 1392,
-    "total": 2679
+    "total": 2720
    },
    "25000": {
     "fuel": 788,
     "insurance": 493,
     "maintenance": 224,
     "depreciation": 1392,
-    "total": 3018
+    "total": 3059
    }
   }
  },
@@ -2379,21 +2379,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 529,
     "maintenance": 194,
     "depreciation": 1412,
-    "total": 2549
+    "total": 2621
    },
    "15000": {
     "fuel": 628,
     "insurance": 529,
     "maintenance": 220,
     "depreciation": 1412,
-    "total": 2910
+    "total": 2982
    },
    "25000": {
     "fuel": 1047,
     "insurance": 529,
     "maintenance": 246,
     "depreciation": 1412,
-    "total": 3355
+    "total": 3427
    }
   }
  },
@@ -2441,21 +2441,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 564,
     "maintenance": 210,
     "depreciation": 1416,
-    "total": 2595
+    "total": 2667
    },
    "15000": {
     "fuel": 608,
     "insurance": 564,
     "maintenance": 235,
     "depreciation": 1416,
-    "total": 2944
+    "total": 3016
    },
    "25000": {
     "fuel": 1014,
     "insurance": 564,
     "maintenance": 265,
     "depreciation": 1416,
-    "total": 3380
+    "total": 3452
    }
   }
  },
@@ -2502,21 +2502,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 628,
     "maintenance": 210,
     "depreciation": 1416,
-    "total": 2741
+    "total": 2813
    },
    "15000": {
     "fuel": 785,
     "insurance": 628,
     "maintenance": 240,
     "depreciation": 1416,
-    "total": 3190
+    "total": 3262
    },
    "25000": {
     "fuel": 1308,
     "insurance": 628,
     "maintenance": 270,
     "depreciation": 1416,
-    "total": 3743
+    "total": 3815
    }
   }
  },
@@ -2563,21 +2563,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 680,
     "maintenance": 88,
     "depreciation": 1699,
-    "total": 2646
+    "total": 2718
    },
    "15000": {
     "fuel": 124,
     "insurance": 680,
     "maintenance": 100,
     "depreciation": 1699,
-    "total": 2724
+    "total": 2796
    },
    "25000": {
     "fuel": 206,
     "insurance": 680,
     "maintenance": 112,
     "depreciation": 1699,
-    "total": 2818
+    "total": 2890
    }
   }
  },
@@ -2624,21 +2624,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 499,
     "maintenance": 176,
     "depreciation": 1417,
-    "total": 2414
+    "total": 2486
    },
    "15000": {
     "fuel": 430,
     "insurance": 499,
     "maintenance": 200,
     "depreciation": 1417,
-    "total": 2667
+    "total": 2739
    },
    "25000": {
     "fuel": 716,
     "insurance": 499,
     "maintenance": 224,
     "depreciation": 1417,
-    "total": 2977
+    "total": 3049
    }
   }
  },
@@ -2685,21 +2685,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 530,
     "maintenance": 185,
     "depreciation": 1417,
-    "total": 2491
+    "total": 2563
    },
    "15000": {
     "fuel": 509,
     "insurance": 530,
     "maintenance": 210,
     "depreciation": 1417,
-    "total": 2787
+    "total": 2859
    },
    "25000": {
     "fuel": 848,
     "insurance": 530,
     "maintenance": 235,
     "depreciation": 1417,
-    "total": 3151
+    "total": 3223
    }
   }
  },
@@ -2746,21 +2746,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 507,
     "maintenance": 202,
     "depreciation": 1458,
-    "total": 2595
+    "total": 2667
    },
    "15000": {
     "fuel": 658,
     "insurance": 507,
     "maintenance": 230,
     "depreciation": 1458,
-    "total": 2974
+    "total": 3046
    },
    "25000": {
     "fuel": 1097,
     "insurance": 507,
     "maintenance": 258,
     "depreciation": 1458,
-    "total": 3441
+    "total": 3513
    }
   }
  },
@@ -2807,21 +2807,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 539,
     "maintenance": 132,
     "depreciation": 1750,
-    "total": 2603
+    "total": 2675
    },
    "15000": {
     "fuel": 131,
     "insurance": 539,
     "maintenance": 150,
     "depreciation": 1750,
-    "total": 2691
+    "total": 2763
    },
    "25000": {
     "fuel": 217,
     "insurance": 539,
     "maintenance": 168,
     "depreciation": 1750,
-    "total": 2795
+    "total": 2867
    }
   }
  },
@@ -2868,21 +2868,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 543,
     "maintenance": 176,
     "depreciation": 1474,
-    "total": 2525
+    "total": 2597
    },
    "15000": {
     "fuel": 452,
     "insurance": 543,
     "maintenance": 200,
     "depreciation": 1474,
-    "total": 2790
+    "total": 2862
    },
    "25000": {
     "fuel": 754,
     "insurance": 543,
     "maintenance": 224,
     "depreciation": 1474,
-    "total": 3116
+    "total": 3188
    }
   }
  },
@@ -2930,21 +2930,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 543,
     "maintenance": 195,
     "depreciation": 1475,
-    "total": 2534
+    "total": 2606
    },
    "15000": {
     "fuel": 429,
     "insurance": 543,
     "maintenance": 220,
     "depreciation": 1475,
-    "total": 2788
+    "total": 2860
    },
    "25000": {
     "fuel": 715,
     "insurance": 543,
     "maintenance": 248,
     "depreciation": 1475,
-    "total": 3102
+    "total": 3174
    }
   }
  },
@@ -2991,21 +2991,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 543,
     "maintenance": 229,
     "depreciation": 1622,
-    "total": 2797
+    "total": 2869
    },
    "15000": {
     "fuel": 603,
     "insurance": 543,
     "maintenance": 260,
     "depreciation": 1622,
-    "total": 3149
+    "total": 3221
    },
    "25000": {
     "fuel": 1006,
     "insurance": 543,
     "maintenance": 291,
     "depreciation": 1622,
-    "total": 3583
+    "total": 3655
    }
   }
  },
@@ -3052,21 +3052,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 516,
     "maintenance": 194,
     "depreciation": 1649,
-    "total": 2709
+    "total": 2781
    },
    "15000": {
     "fuel": 491,
     "insurance": 516,
     "maintenance": 220,
     "depreciation": 1649,
-    "total": 2997
+    "total": 3069
    },
    "25000": {
     "fuel": 818,
     "insurance": 516,
     "maintenance": 246,
     "depreciation": 1649,
-    "total": 3350
+    "total": 3422
    }
   }
  },
@@ -3114,21 +3114,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 595,
     "maintenance": 200,
     "depreciation": 1501,
-    "total": 2643
+    "total": 2715
    },
    "15000": {
     "fuel": 483,
     "insurance": 595,
     "maintenance": 225,
     "depreciation": 1501,
-    "total": 2925
+    "total": 2997
    },
    "25000": {
     "fuel": 806,
     "insurance": 595,
     "maintenance": 255,
     "depreciation": 1501,
-    "total": 3278
+    "total": 3350
    }
   }
  },
@@ -3176,21 +3176,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 587,
     "maintenance": 230,
     "depreciation": 1500,
-    "total": 2780
+    "total": 2852
    },
    "15000": {
     "fuel": 734,
     "insurance": 587,
     "maintenance": 260,
     "depreciation": 1500,
-    "total": 3202
+    "total": 3274
    },
    "25000": {
     "fuel": 1223,
     "insurance": 587,
     "maintenance": 295,
     "depreciation": 1500,
-    "total": 3726
+    "total": 3798
    }
   }
  },
@@ -3237,21 +3237,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 549,
     "maintenance": 132,
     "depreciation": 1650,
-    "total": 2506
+    "total": 2578
    },
    "15000": {
     "fuel": 117,
     "insurance": 549,
     "maintenance": 150,
     "depreciation": 1650,
-    "total": 2587
+    "total": 2659
    },
    "25000": {
     "fuel": 194,
     "insurance": 549,
     "maintenance": 168,
     "depreciation": 1650,
-    "total": 2682
+    "total": 2754
    }
   }
  },
@@ -3298,21 +3298,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 554,
     "maintenance": 132,
     "depreciation": 1830,
-    "total": 2701
+    "total": 2773
    },
    "15000": {
     "fuel": 136,
     "insurance": 554,
     "maintenance": 150,
     "depreciation": 1830,
-    "total": 2791
+    "total": 2863
    },
    "25000": {
     "fuel": 228,
     "insurance": 554,
     "maintenance": 168,
     "depreciation": 1830,
-    "total": 2901
+    "total": 2973
    }
   }
  },
@@ -3358,21 +3358,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 587,
     "maintenance": 211,
     "depreciation": 1327,
-    "total": 2590
+    "total": 2662
    },
    "15000": {
     "fuel": 736,
     "insurance": 587,
     "maintenance": 240,
     "depreciation": 1327,
-    "total": 3011
+    "total": 3083
    },
    "25000": {
     "fuel": 1226,
     "insurance": 587,
     "maintenance": 269,
     "depreciation": 1327,
-    "total": 3530
+    "total": 3602
    }
   }
  },
@@ -3419,21 +3419,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 524,
     "maintenance": 194,
     "depreciation": 1541,
-    "total": 2628
+    "total": 2700
    },
    "15000": {
     "fuel": 530,
     "insurance": 524,
     "maintenance": 220,
     "depreciation": 1541,
-    "total": 2936
+    "total": 3008
    },
    "25000": {
     "fuel": 882,
     "insurance": 524,
     "maintenance": 246,
     "depreciation": 1541,
-    "total": 3314
+    "total": 3386
    }
   }
  },
@@ -3480,21 +3480,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 561,
     "maintenance": 194,
     "depreciation": 1714,
-    "total": 2842
+    "total": 2914
    },
    "15000": {
     "fuel": 540,
     "insurance": 561,
     "maintenance": 220,
     "depreciation": 1714,
-    "total": 3156
+    "total": 3228
    },
    "25000": {
     "fuel": 899,
     "insurance": 561,
     "maintenance": 246,
     "depreciation": 1714,
-    "total": 3541
+    "total": 3613
    }
   }
  },
@@ -3541,21 +3541,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 533,
     "maintenance": 229,
     "depreciation": 1582,
-    "total": 2685
+    "total": 2785
    },
    "15000": {
     "fuel": 472,
     "insurance": 533,
     "maintenance": 260,
     "depreciation": 1582,
-    "total": 2968
+    "total": 3068
    },
    "25000": {
     "fuel": 787,
     "insurance": 533,
     "maintenance": 291,
     "depreciation": 1582,
-    "total": 3314
+    "total": 3414
    }
   }
  },
@@ -3602,21 +3602,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 566,
     "maintenance": 202,
     "depreciation": 1582,
-    "total": 2883
+    "total": 2983
    },
    "15000": {
     "fuel": 883,
     "insurance": 566,
     "maintenance": 230,
     "depreciation": 1582,
-    "total": 3382
+    "total": 3482
    },
    "25000": {
     "fuel": 1473,
     "insurance": 566,
     "maintenance": 258,
     "depreciation": 1582,
-    "total": 4000
+    "total": 4100
    }
   }
  },
@@ -3662,21 +3662,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 657,
     "maintenance": 246,
     "depreciation": 1376,
-    "total": 2725
+    "total": 2825
    },
    "15000": {
     "fuel": 697,
     "insurance": 657,
     "maintenance": 280,
     "depreciation": 1376,
-    "total": 3131
+    "total": 3231
    },
    "25000": {
     "fuel": 1161,
     "insurance": 657,
     "maintenance": 314,
     "depreciation": 1376,
-    "total": 3629
+    "total": 3729
    }
   }
  },
@@ -3723,21 +3723,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 675,
     "maintenance": 238,
     "depreciation": 1742,
-    "total": 3164
+    "total": 3264
    },
    "15000": {
     "fuel": 831,
     "insurance": 675,
     "maintenance": 270,
     "depreciation": 1742,
-    "total": 3639
+    "total": 3739
    },
    "25000": {
     "fuel": 1385,
     "insurance": 675,
     "maintenance": 302,
     "depreciation": 1742,
-    "total": 4225
+    "total": 4325
    }
   }
  },
@@ -3785,21 +3785,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 885,
     "maintenance": 106,
     "depreciation": 1756,
-    "total": 2922
+    "total": 3022
    },
    "15000": {
     "fuel": 115,
     "insurance": 885,
     "maintenance": 120,
     "depreciation": 1756,
-    "total": 2997
+    "total": 3097
    },
    "25000": {
     "fuel": 193,
     "insurance": 885,
     "maintenance": 134,
     "depreciation": 1756,
-    "total": 3089
+    "total": 3189
    }
   }
  },
@@ -3846,21 +3846,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 665,
     "maintenance": 190,
     "depreciation": 1632,
-    "total": 2869
+    "total": 2969
    },
    "15000": {
     "fuel": 559,
     "insurance": 665,
     "maintenance": 210,
     "depreciation": 1632,
-    "total": 3187
+    "total": 3287
    },
    "25000": {
     "fuel": 932,
     "insurance": 665,
     "maintenance": 230,
     "depreciation": 1632,
-    "total": 3580
+    "total": 3680
    }
   }
  },
@@ -3908,21 +3908,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 747,
     "maintenance": 88,
     "depreciation": 1989,
-    "total": 3007
+    "total": 3107
    },
    "15000": {
     "fuel": 134,
     "insurance": 747,
     "maintenance": 100,
     "depreciation": 1989,
-    "total": 3091
+    "total": 3191
    },
    "25000": {
     "fuel": 223,
     "insurance": 747,
     "maintenance": 112,
     "depreciation": 1989,
-    "total": 3192
+    "total": 3292
    }
   }
  },
@@ -3969,21 +3969,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 583,
     "maintenance": 132,
     "depreciation": 2322,
-    "total": 3235
+    "total": 3335
    },
    "15000": {
     "fuel": 166,
     "insurance": 583,
     "maintenance": 150,
     "depreciation": 2322,
-    "total": 3342
+    "total": 3442
    },
    "25000": {
     "fuel": 277,
     "insurance": 583,
     "maintenance": 168,
     "depreciation": 2322,
-    "total": 3471
+    "total": 3571
    }
   }
  },
@@ -4030,21 +4030,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 775,
     "maintenance": 176,
     "depreciation": 2000,
-    "total": 3238
+    "total": 3338
    },
    "15000": {
     "fuel": 356,
     "insurance": 775,
     "maintenance": 200,
     "depreciation": 2000,
-    "total": 3452
+    "total": 3552
    },
    "25000": {
     "fuel": 594,
     "insurance": 775,
     "maintenance": 224,
     "depreciation": 2000,
-    "total": 3714
+    "total": 3814
    }
   }
  },
@@ -4091,21 +4091,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 549,
     "maintenance": 106,
     "depreciation": 1667,
-    "total": 2510
+    "total": 2610
    },
    "15000": {
     "fuel": 143,
     "insurance": 549,
     "maintenance": 120,
     "depreciation": 1667,
-    "total": 2600
+    "total": 2700
    },
    "25000": {
     "fuel": 239,
     "insurance": 549,
     "maintenance": 134,
     "depreciation": 1667,
-    "total": 2710
+    "total": 2810
    }
   }
  },
@@ -4152,21 +4152,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 590,
     "maintenance": 202,
     "depreciation": 2035,
-    "total": 3190
+    "total": 3290
    },
    "15000": {
     "fuel": 520,
     "insurance": 590,
     "maintenance": 230,
     "depreciation": 2035,
-    "total": 3496
+    "total": 3596
    },
    "25000": {
     "fuel": 866,
     "insurance": 590,
     "maintenance": 258,
     "depreciation": 2035,
-    "total": 3870
+    "total": 3970
    }
   }
  },
@@ -4213,21 +4213,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 558,
     "maintenance": 106,
     "depreciation": 1708,
-    "total": 2574
+    "total": 2674
    },
    "15000": {
     "fuel": 174,
     "insurance": 558,
     "maintenance": 120,
     "depreciation": 1708,
-    "total": 2681
+    "total": 2781
    },
    "25000": {
     "fuel": 291,
     "insurance": 558,
     "maintenance": 134,
     "depreciation": 1708,
-    "total": 2812
+    "total": 2912
    }
   }
  },
@@ -4274,21 +4274,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 565,
     "maintenance": 211,
     "depreciation": 1749,
-    "total": 2990
+    "total": 3090
    },
    "15000": {
     "fuel": 736,
     "insurance": 565,
     "maintenance": 240,
     "depreciation": 1749,
-    "total": 3411
+    "total": 3511
    },
    "25000": {
     "fuel": 1227,
     "insurance": 565,
     "maintenance": 269,
     "depreciation": 1749,
-    "total": 3931
+    "total": 4031
    }
   }
  },
@@ -4336,21 +4336,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 721,
     "maintenance": 246,
     "depreciation": 1767,
-    "total": 3176
+    "total": 3276
    },
    "15000": {
     "fuel": 687,
     "insurance": 721,
     "maintenance": 280,
     "depreciation": 1767,
-    "total": 3576
+    "total": 3676
    },
    "25000": {
     "fuel": 1144,
     "insurance": 721,
     "maintenance": 314,
     "depreciation": 1767,
-    "total": 4067
+    "total": 4167
    }
   }
  },
@@ -4397,21 +4397,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 570,
     "maintenance": 229,
     "depreciation": 1774,
-    "total": 3079
+    "total": 3179
    },
    "15000": {
     "fuel": 825,
     "insurance": 570,
     "maintenance": 260,
     "depreciation": 1774,
-    "total": 3550
+    "total": 3650
    },
    "25000": {
     "fuel": 1374,
     "insurance": 570,
     "maintenance": 291,
     "depreciation": 1774,
-    "total": 4130
+    "total": 4230
    }
   }
  },
@@ -4458,21 +4458,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 610,
     "maintenance": 132,
     "depreciation": 2329,
-    "total": 3257
+    "total": 3357
    },
    "15000": {
     "fuel": 140,
     "insurance": 610,
     "maintenance": 150,
     "depreciation": 2329,
-    "total": 3350
+    "total": 3450
    },
    "25000": {
     "fuel": 233,
     "insurance": 610,
     "maintenance": 168,
     "depreciation": 2329,
-    "total": 3461
+    "total": 3561
    }
   }
  },
@@ -4519,21 +4519,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 721,
     "maintenance": 210,
     "depreciation": 1834,
-    "total": 3131
+    "total": 3231
    },
    "15000": {
     "fuel": 528,
     "insurance": 721,
     "maintenance": 235,
     "depreciation": 1834,
-    "total": 3439
+    "total": 3539
    },
    "25000": {
     "fuel": 881,
     "insurance": 721,
     "maintenance": 260,
     "depreciation": 1834,
-    "total": 3817
+    "total": 3917
    }
   }
  },
@@ -4581,21 +4581,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 734,
     "maintenance": 90,
     "depreciation": 2109,
-    "total": 3114
+    "total": 3214
    },
    "15000": {
     "fuel": 131,
     "insurance": 734,
     "maintenance": 100,
     "depreciation": 2109,
-    "total": 3195
+    "total": 3295
    },
    "25000": {
     "fuel": 217,
     "insurance": 734,
     "maintenance": 115,
     "depreciation": 2109,
-    "total": 3296
+    "total": 3396
    }
   }
  },
@@ -4642,21 +4642,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 690,
     "maintenance": 200,
     "depreciation": 1899,
-    "total": 3153
+    "total": 3253
    },
    "15000": {
     "fuel": 520,
     "insurance": 690,
     "maintenance": 225,
     "depreciation": 1899,
-    "total": 3455
+    "total": 3555
    },
    "25000": {
     "fuel": 867,
     "insurance": 690,
     "maintenance": 250,
     "depreciation": 1899,
-    "total": 3827
+    "total": 3927
    }
   }
  },
@@ -4703,21 +4703,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 851,
     "maintenance": 246,
     "depreciation": 2491,
-    "total": 3873
+    "total": 3973
    },
    "15000": {
     "fuel": 352,
     "insurance": 851,
     "maintenance": 280,
     "depreciation": 2491,
-    "total": 4095
+    "total": 4195
    },
    "25000": {
     "fuel": 586,
     "insurance": 851,
     "maintenance": 314,
     "depreciation": 2491,
-    "total": 4363
+    "total": 4463
    }
   }
  },
@@ -4766,21 +4766,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 1021,
     "maintenance": 106,
     "depreciation": 2229,
-    "total": 3536
+    "total": 3636
    },
    "15000": {
     "fuel": 127,
     "insurance": 1021,
     "maintenance": 120,
     "depreciation": 2229,
-    "total": 3618
+    "total": 3718
    },
    "25000": {
     "fuel": 211,
     "insurance": 1021,
     "maintenance": 134,
     "depreciation": 2229,
-    "total": 3716
+    "total": 3816
    }
   }
  },
@@ -4827,21 +4827,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 662,
     "maintenance": 264,
     "depreciation": 2275,
-    "total": 3661
+    "total": 3854
    },
    "15000": {
     "fuel": 726,
     "insurance": 662,
     "maintenance": 300,
     "depreciation": 2275,
-    "total": 4084
+    "total": 4277
    },
    "25000": {
     "fuel": 1211,
     "insurance": 662,
     "maintenance": 336,
     "depreciation": 2275,
-    "total": 4605
+    "total": 4798
    }
   }
  },
@@ -4888,21 +4888,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 728,
     "maintenance": 282,
     "depreciation": 2666,
-    "total": 4163
+    "total": 4356
    },
    "15000": {
     "fuel": 785,
     "insurance": 728,
     "maintenance": 320,
     "depreciation": 2666,
-    "total": 4620
+    "total": 4813
    },
    "25000": {
     "fuel": 1308,
     "insurance": 728,
     "maintenance": 358,
     "depreciation": 2666,
-    "total": 5181
+    "total": 5374
    }
   }
  },
@@ -4949,21 +4949,21 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "insurance": 749,
     "maintenance": 264,
     "depreciation": 2792,
-    "total": 4223
+    "total": 4416
    },
    "15000": {
     "fuel": 638,
     "insurance": 749,
     "maintenance": 300,
     "depreciation": 2792,
-    "total": 4600
+    "total": 4793
    },
    "25000": {
     "fuel": 1064,
     "insurance": 749,
     "maintenance": 336,
     "depreciation": 2792,
-    "total": 5062
+    "total": 5255
    }
   }
  }

@@ -10,7 +10,14 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const files = ["seed-real-data", "seed-vehicles-batch2", "seed-vehicles-batch3", "seed-vehicles-batch4", "seed-vehicles-batch5", "seed-vehicles-batch6", "seed-vehicles-batch7", "seed-vehicles-batch8", "seed-vehicles-batch9", "seed-vehicles-batch10", "seed-vehicles-batch11", "seed-vehicles-batch12", "seed-vehicles-batch13", "seed-vehicles-batch14", "seed-vehicles-batch15", "seed-vehicles-batch16", "seed-vehicles-batch17", "seed-vehicles-batch18", "seed-vehicles-batch19", "seed-vehicles-batch20", "seed-vehicles-batch21", "seed-vehicles-batch22", "seed-vehicles-batch23", "seed-vehicles-batch24"];
 const MAKES = { toyota: "Toyota", hyundai: "Hyundai", mazda: "Mazda", skoda: "Skoda", kia: "Kia", byd: "BYD", nissan: "Nissan", mg: "MG", ford: "Ford", volkswagen: "Volkswagen", peugeot: "Peugeot", jaecoo: "Jaecoo", chery: "Chery", tesla: "Tesla", suzuki: "Suzuki", honda: "Honda", citroen: "Citroën", lexus: "Lexus", subaru: "Subaru", ora: "ORA", xpeng: "XPENG", kgm: "KGM", jeep: "Jeep", "alfa-romeo": "Alfa Romeo", mini: "MINI", geely: "Geely", deepal: "Deepal", mitsubishi: "Mitsubishi", dacia: "Dacia", renault: "Renault", leapmotor: "Leapmotor" };
 const FUEL = { hybrid: "Hybrid", petrol: "Petrol", electric: "Electric", diesel: "Diesel" };
-const REG = 121;
+// Licensing: the official fee for the car's price group as a new car this year (same table as src/data/licenceFees.ts).
+const LIC = JSON.parse(fs.readFileSync(path.join(root, "src/data/licenceFees.json"), "utf8"));
+const THIS_YEAR = new Date().getFullYear();
+const licMonthly = (price) => {
+  const g = LIC.groups.find((x) => x.maxPrice == null || (price || 130000) <= x.maxPrice);
+  const i = LIC.bracketFromYears.findIndex((from) => THIS_YEAR >= from);
+  return Math.round(g.fees[i === -1 ? LIC.bracketFromYears.length : i] / 12);
+};
 // Energy prices: the seeds were priced at seedBasis; fuel components are rescaled to today's official prices.
 const ENERGY = JSON.parse(fs.readFileSync(path.join(root, "src/data/energyPrices.json"), "utf8"));
 const energyFactor = (fuelType) => fuelType === "electric" ? ENERGY.electricityPerKwh / ENERGY.seedBasis.electricityPerKwh
@@ -32,6 +39,7 @@ const band = (b) => ({ fuel: b.fuelMonthly, insurance: b.insuranceMonthly, maint
 const score = (v, kind) => (v > 10 ? v : kind === "safety" && v <= 5 ? v * 19 : v * 10);
 
 const out = [...merged.values()].filter((c) => !c.discontinued).map((c) => {
+  const REG = licMonthly(c.priceMedian ?? c.newPrice);
   let bands;
   if (c.tco15k) bands = { 7000: band(c.tco7k ?? c.tco15k), 15000: band(c.tco15k), 25000: band(c.tco25k ?? c.tco15k) };
   else {

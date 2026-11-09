@@ -10,6 +10,10 @@ const tmp = path.join(root, "node_modules/.cache/validate-gen.mjs");
 fs.mkdirSync(path.dirname(tmp), { recursive: true });
 await build({ entryPoints: [path.join(root, "src/data/generations.ts")], outfile: tmp, format: "esm", bundle: true, logLevel: "error" });
 const { MAKES, PRICES_VERIFIED } = await import(`${tmp}?t=${Date.now()}`);
+// The official licensing table (bundled from the app's own module, so the check uses the exact same rule).
+const tmpLic = path.join(root, "node_modules/.cache/validate-lic.mjs");
+await build({ entryPoints: [path.join(root, "src/data/licenceFees.ts")], outfile: tmpLic, format: "esm", bundle: true, logLevel: "error" });
+const { licenceMonthly } = await import(`${tmpLic}?t=${Date.now()}`);
 
 const problems = [];
 const bad = (where, msg) => problems.push(`${where}: ${msg}`);
@@ -47,7 +51,8 @@ const cat = fs.readFileSync(path.join(root, "src/data/catalogData.ts"), "utf8");
 const cars = JSON.parse(cat.slice(cat.indexOf("= [") + 2).replace(/;\s*$/, ""));
 for (const c of cars) for (const km of [7000, 15000, 25000]) {
   const b = c.bands[km];
-  if (b.total !== b.fuel + b.insurance + b.maintenance + b.depreciation + 121) bad(`catalog ${c.id}@${km}`, "total ≠ components + 121");
+  const lic = licenceMonthly(c.price, new Date().getFullYear());
+  if (b.total !== b.fuel + b.insurance + b.maintenance + b.depreciation + lic) bad(`catalog ${c.id}@${km}`, `total ≠ components + licensing (${lic})`);
   if (c.price < 50000 || c.price > 2500000) bad(`catalog ${c.id}`, "price out of range");
 }
 if (problems.length) { console.error(`✗ ${problems.length} problem(s):\n- ` + problems.join("\n- ")); process.exit(1); }

@@ -1,5 +1,5 @@
 import { useReportPrice, type PriceYear } from "../hooks/usePriceReports";
-import { estimatedValue } from "../model/usedValue";
+import { estimatedValue, priceWhenNew } from "../model/usedValue";
 import type { Pick } from "./MonthlyAtAGlance";
 import { PricesSeen } from "./PricesSeen";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -42,7 +42,7 @@ export function UsedCostCalculator({ make, model, reported = [], pick, initialKm
   const askingPrice = typedPrice || fallbackPrice;
   const maintenanceItems = factsFor(make.id, model.id, gen.code).maintenance;
   useReportPrice({ makeId: make.id, modelId: model.id, genCode: gen.code, year, price: typedPrice, source: "calc" }); // only what the visitor typed
-  const cost = estimateUsedCost({ gen, segment: model.segment, year, powertrain, askingPrice, kmPerYear: km, body: model.body, maintenanceItems });
+  const cost = estimateUsedCost({ gen, segment: model.segment, year, powertrain, askingPrice, kmPerYear: km, body: model.body, maintenanceItems, priceNew: priceWhenNew(make, model, gen, year) });
 
   return (
     <section className={`${card} p-5 sm:p-6`} aria-labelledby="calc-h">

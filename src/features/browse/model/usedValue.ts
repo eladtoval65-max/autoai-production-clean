@@ -9,15 +9,22 @@ import type { Generation, Make, ModelLine } from "../../../data/generations";
 import { THIS_YEAR } from "./labels";
 import { depreciationRate } from "./usedCost";
 
-/** Null when there is no sourced starting price for this generation. */
-export function estimatedValue(make: Make, model: ModelLine, gen: Generation, year: number): number | null {
+/**
+ * What a car of this generation cost new in `year`: for the current generation, between the sourced launch price and
+ * today's list price (prices rise over a generation's life); for older generations, the launch price. Null when unknown.
+ * Used as the start of the depreciation curve and to pick the licensing fee group.
+ */
+export function priceWhenNew(make: Make, model: ModelLine, gen: Generation, year: number): number | null {
   const launch = factsFor(make.id, model.id, gen.code).launchPrice;
   const isCurrent = gen === model.gens[model.gens.length - 1] && gen.to == null;
   const list = isCurrent && model.price ? model.price[0] : null;
-  // What the car cost new in `year`: for the current generation, between the launch price and today's list price
-  // (prices rise over a generation's life); for older generations, the launch price.
-  let start = launch?.ils ?? list;
-  if (launch && list && year > launch.year && THIS_YEAR > launch.year) start = launch.ils + ((list - launch.ils) * (year - launch.year)) / (THIS_YEAR - launch.year);
+  if (launch && list && year > launch.year && THIS_YEAR > launch.year) return launch.ils + ((list - launch.ils) * (year - launch.year)) / (THIS_YEAR - launch.year);
+  return launch?.ils ?? list;
+}
+
+/** Null when there is no sourced starting price for this generation. */
+export function estimatedValue(make: Make, model: ModelLine, gen: Generation, year: number): number | null {
+  const start = priceWhenNew(make, model, gen, year);
   if (!start) return null;
   let value = start;
   for (let age = 1; age <= THIS_YEAR - year; age++) value *= 1 - depreciationRate(age, gen.pt[0], model.segment === "premium");
@@ -27,3 +34,4 @@ export function estimatedValue(make: Make, model: ModelLine, gen: Generation, ye
 /** The generation a model year belongs to (newest wins on overlap years). */
 export const genForYear = (model: ModelLine, year: number): Generation | undefined =>
   [...model.gens].reverse().find((g) => year >= g.from && year <= (g.to ?? THIS_YEAR));
+
