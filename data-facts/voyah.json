@@ -42,9 +42,15 @@
               "url": "https://www.auto.co.il/articles/test-drives/road-tests/139441/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2025,
+          "url": "https://news.euroncap.com/safercars/the-safety-of-all-road-users-remains-euro-ncap-s-driving-force/s/d2d64aaf-282a-4a88-91e1-0c95ce6574c0",
+          "note": "5 כוכבים (Euro NCAP, הודעה מ-21.5.2025)"
+        }
       }
     }
   },
-  "updated": "2026-11-01"
+  "updated": "2026-11-09"
 }

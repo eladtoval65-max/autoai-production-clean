@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "nx": {
       "AZ10": {
@@ -488,7 +488,13 @@
               "url": "https://ev-database.org/car/1677/Lexus-RZ-450e"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://lexus.eu/discover-lexus/safety/rz-awarded-five-star-euro-ncap-rating",
+          "note": "5 כוכבים לפי פרוטוקול Euro NCAP 2023 (הודעת לקסוס אירופה, ספטמבר 2023)"
+        }
       }
     },
     "lm": {

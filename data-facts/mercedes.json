@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "c-class": {
       "W204": {
@@ -1144,6 +1144,12 @@
             "title": "auto.co.il — מרצדס M קלאס החדש יוצא לדרך בישראל",
             "url": "https://www.auto.co.il/articles/car-news/115837/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/euro-ncap-announces-the-results-for-twelve-new-vehicles-including-5-stars-for-a-pick-up",
+          "note": "5 כוכבים ל-M-Class (Euro NCAP, הודעה מ-26.10.2011; הדירוג עודכן ל-2012 ללא שינוי)"
         }
       },
       "V167": {
