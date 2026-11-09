@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "swift": {
       "AZ": {
@@ -600,6 +600,14 @@
             "source": {
               "title": "australiancar.reviews — Recalls: Suzuki GJ/JJ Jimny (2018-on)",
               "url": "https://australiancar.reviews/?p=102086"
+            }
+          },
+          {
+            "he": "הדלת האחורית (שנפתחת לצד ונושאת את הגלגל הרזרבי) נוטה לפתח בעיות עם השנים. בבדיקה: צירים, יישור הדלת ושקיעה שלה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "PistonHeads — Suzuki Jimny (gen 4) PH used buying guide",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/suzuki-jimny--ph-used-buying-guide/46074"
             }
           }
         ],

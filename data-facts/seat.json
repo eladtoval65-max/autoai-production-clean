@@ -245,6 +245,23 @@
               "title": "What Car? — Used Seat Leon 2013–2020 reliability",
               "url": "https://whatcar.com/seat/leon/hatchback/used-review/n805/reliability"
             }
+          },
+          {
+            "he": "האטמים של הפנסים האחוריים דולפים לעתים קרובות — עיבוי ומים בפנס, ובמקרה קיצוני הפנס מפסיק לעבוד. בבדיקה: לחפש אדים או מים בפנסים האחוריים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Seat Leon hatchback (2013-2020) used review",
+              "url": "https://parkers.co.uk/seat/leon/hatchback-2013/used-review"
+            }
+          },
+          {
+            "he": "בגרסאות עם תיבת DSG דווחו תקלות בתיבה, והתיקון יקר. החלפת שמן ומסנן לתיבה נדרשת כל כ-64 אלף ק״מ. בבדיקה: נסיעת מבחן (טלטולים, היסוס בהעברת הילוכים) ולוודא בספר הטיפולים שהטיפול בתיבה בוצע.",
+            "level": "widely_reported",
+            "scope": "DSG",
+            "source": {
+              "title": "Parkers — Seat Leon hatchback (2013-2020) used review (DSG servicing); RAC used review also reports DSG problems",
+              "url": "https://parkers.co.uk/seat/leon/hatchback-2013/used-review"
+            }
           }
         ],
         "engines": [

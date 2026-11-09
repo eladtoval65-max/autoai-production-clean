@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "corolla": {
       "E150": {
@@ -436,6 +436,22 @@
               "title": "Motorverso — NHTSA Campaign 23V734000",
               "url": "https://www.motorverso.com/recalls/toyota/23V734000/"
             }
+          },
+          {
+            "he": "בעלים מדווחים על מסך מולטימדיה שקורס, נתקע או מאתחל את עצמו שוב ושוב, והחלפה מחוץ לאחריות יקרה. בבדיקה: לעבור על כל הפונקציות במסך כמה פעמים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "AutoTrader.ca — Used vehicle review: Toyota RAV4, 2013-2017",
+              "url": "https://editorialsui.autotrader.ca/editorial/20171026/used-vehicle-review-toyota-rav4-2013-2017"
+            }
+          },
+          {
+            "he": "חריקות בלמים חזקות — טויוטה הוציאה עלון שירות עם רפידות ושימים משופרים. בבדיקה: בלימה קלה במהירות נמוכה עם חלון פתוח, ולבדוק את מצב הרפידות.",
+            "level": "manufacturer",
+            "source": {
+              "title": "AutoTrader.ca — Used vehicle review: Toyota RAV4, 2013-2017 (Toyota TSB: revised pads and shims)",
+              "url": "https://editorialsui.autotrader.ca/editorial/20171026/used-vehicle-review-toyota-rav4-2013-2017"
+            }
           }
         ],
         "ncap": {
@@ -490,6 +506,33 @@
             "source": {
               "title": "Green Car Reports — Toyota RAV4 Hybrid fuel tank issue fix is coming soon",
               "url": "https://www.greencarreports.com/news/1128456_toyota-rav4-hybrid-fuel-tank-issue-fix-is-coming-soon"
+            }
+          },
+          {
+            "he": "קריאת שירות: מגע חשמלי במנוע משאבת מגבר הבלמים עלול לגרום למשאבה להפסיק לעבוד — הבלמים נעשים כבדים ומרחק הבלימה מתארך. בבדיקה: לוודא שהמשאבה נבדקה או הוחלפה.",
+            "level": "recall",
+            "scope": "היברידית, ייצור אפריל–מאי 2019",
+            "source": {
+              "title": "What Car? — Used Toyota RAV4 2019-2026 reliability: recalls (brake booster pump, 04/11/2019)",
+              "url": "https://www.whatcar.com/toyota/rav4/4x4/used-review/n22427/reliability"
+            }
+          },
+          {
+            "he": "בהיברידית 4X4 — קורוזיה מוקדמת בכבל המתח הגבוה מתחת לרצפה ובכבל המנוע החשמלי האחורי. מדליקה נוריות אזהרה ובמקרה הגרוע הרכב לא זז. בקנדה טויוטה האריכה את האחריות על הכבל ל-8 שנים/160 אלף ק״מ. בבדיקה: לשאול אם הכבל נבדק או הוחלף.",
+            "level": "manufacturer",
+            "scope": "היברידית 4X4, 2019–2022",
+            "source": {
+              "title": "Guide Auto — Cablegate: Toyota extends warranty on select RAV4 Hybrid models",
+              "url": "https://guideautoweb.com/en/articles/69069"
+            }
+          },
+          {
+            "he": "בחלק מהרכבים המוקדמים מים חודרים דרך עיגון מסילות הגג — כתמי רטיבות או כתמים בבטנת התקרה. בבדיקה: לבדוק את התקרה והשטיחים.",
+            "level": "widely_reported",
+            "scope": "רכבים מוקדמים",
+            "source": {
+              "title": "What Car? — Used Toyota RAV4 2019-2026 reliability",
+              "url": "https://www.whatcar.com/toyota/rav4/4x4/used-review/n22427/reliability"
             }
           }
         ],
@@ -1151,12 +1194,12 @@
       "XW60": {
         "issues": [
           {
-            "he": "מתג פתיחת הדלת האחורית (בידית החיצונית) לא אטום מספיק למים — אחרי שטיפה הדלת עלולה להיפתח בנסיעה אם אינה נעולה. לוודא מול היבואן שהמתגים בשתי הדלתות האחוריות הוחלפו",
+            "he": "מתג פתיחת הדלת האחורית (בידית החיצונית) לא אטום מספיק למים — אחרי שטיפה הדלת עלולה להיפתח בנסיעה אם אינה נעולה. הקריאה הראשונה (החלפת מתגים) הורחבה בינואר 2026 לתיקון חדש (שינוי מעגל המתג) — לוודא מול היבואן שבוצע התיקון המעודכן, גם אם המתגים כבר הוחלפו",
             "level": "recall",
-            "scope": "פריוס ופריוס פלאג-אין, ייצור 10/2022–4/2024 (NHTSA 24V274)",
+            "scope": "ייצור 10/2022–11/2025 (NHTSA 26V049, מחליפה את 24V274)",
             "source": {
-              "title": "NHTSA recall report 24V274 — Prius / Prius Prime rear door opener switch",
-              "url": "https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V274-3413.PDF"
+              "title": "NHTSA recall report 26V049 — Prius / Prius Prime / Prius Plug-in rear door opener switch (supersedes 24V274)",
+              "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V049-9292.pdf"
             }
           }
         ],

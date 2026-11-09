@@ -959,6 +959,22 @@
               "title": "NHTSA — Recall 16V644 (Mazda 9916H), liftgate gas stay corrosion",
               "url": "https://static.nhtsa.gov/odi/rcl/2016/RCMN-16V644-1037.pdf"
             }
+          },
+          {
+            "he": "בולמי זעזועים אחוריים דולפים או נשברים בתושבת העליונה — רעש נקישות חזק מאחור. בבדיקה: להקשיב לרעשים מאחור בדרך משובשת ולחפש דליפת שמן על הבולמים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Samarins — Mazda 5 2006-2015: common problems (2012-2015 model)",
+              "url": "https://www.samarins.com/reviews/mazda5.html"
+            }
+          },
+          {
+            "he": "תמוכות (סטרטים) וזרועות המתלה הקדמיות ידועות כנשחקות. בבדיקה: רעשים מהמתלה הקדמי ושחיקה לא אחידה של הצמיגים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Samarins — Mazda 5 2006-2015: common problems (2012-2015 model)",
+              "url": "https://www.samarins.com/reviews/mazda5.html"
+            }
           }
         ],
         "launchPrice": {
