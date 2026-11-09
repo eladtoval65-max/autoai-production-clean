@@ -161,7 +161,13 @@
               "url": "https://www.dev.honestjohn.co.uk/realmpg/lexus/rx-2015/450h"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.autozine.nl/lexus/rx-2015-2022/nieuws/vijf-euroncap-sterren-voor-lexus-rx",
+          "note": "5 כוכבים (Euro NCAP, דצמבר 2015): מבוגרים 91%, ילדים 82%"
+        }
       },
       "ALA10/ALH10": {
         "issues": [

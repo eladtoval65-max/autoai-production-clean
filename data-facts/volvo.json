@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "xc60": {
       "Gen1": {
@@ -282,7 +282,13 @@
               "url": "https://www.dev.honestjohn.co.uk/realmpg/volvo/xc90-2002"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2003,
+          "url": "https://www.autozine.nl/volvo/xc90-2002-2014/nieuws/euroncap-beloont-volvo-xc90-met-5-ster",
+          "note": "5 כוכבים (Euro NCAP, יוני 2003, לפי שיטת הבדיקה של אז) — לפי Autozine"
+        }
       },
       "Gen2": {
         "issues": [
@@ -476,6 +482,12 @@
             "title": "auto.co.il — וולוו S60 החדשה הגיעה לישראל (3.11.2010)",
             "url": "https://www.auto.co.il/articles/car-news/117814/"
           }
+        },
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://www.volvocars.com/uk/media/press-releases/D51D150EE311F83C/",
+          "note": "ה-S60 לא נבדק בנפרד; דגם האחות V60 (אותה פלטפורמה ואותו ציוד בטיחות) קיבל 5 כוכבים ב-2011 — לפי הודעת וולוו"
         }
       },
       "SPA": {

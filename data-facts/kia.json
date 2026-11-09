@@ -1257,7 +1257,13 @@
               "url": "https://www.autocentrum.pl/spalanie/kia/carnival/ii/silnik-diesla-2.2-crdi-vgt-195km-2010-2010/"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2006,
+          "url": "https://www.automobile.at/magazine/17930",
+          "note": "4 כוכבים בהגנה על נוסעים (Euro NCAP, סתיו 2006, לפני מתיחת הפנים; הולכי רגל: כוכב 1) — לפי automobile.at"
+        }
       }
     },
     "ev9": {

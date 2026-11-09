@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -1118,6 +1118,15 @@
           "stars": 5,
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7567/euroncap_skoda_yeti_2009_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 134900,
+          "year": 2010,
+          "note": "1.2 TSI אוטומטית (DSG), רמת הגימור הזולה מבין שתיים",
+          "source": {
+            "title": "וואלה רכב — סקודה ייטי בישראל (27.5.2010): כ-134,900 ש״ח",
+            "url": "https://cars.walla.co.il/item/1679653"
+          }
         }
       }
     },

@@ -323,7 +323,13 @@
               "url": "https://www.whatcar.com/news/common-honda-civic-06-12-problems/n10262"
             }
           }
-        ]
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2009,
+          "url": "https://global.honda/en/newsroom/worldnews/2009/4090320Civic.html",
+          "note": "5 כוכבים בבדיקה חוזרת לפי שיטת 2009 (הודעת הונדה, 20.3.2009); ב-2006 קיבלה 4 כוכבים לפי השיטה הקודמת"
+        }
       }
     },
     "hr-v": {
