@@ -288,7 +288,24 @@
             "title": "auto.co.il — צ'רי יוצאת לדרך עם FX – מחיר החל מ-140,000 שקלים (8.11.2022)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/135551/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (בממוצע כ-₪1,000; טיפול שכולל החלפת מצתים כ-₪2,000)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1000,
+              2000
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "auto.co.il (03.09.2026) — used Chery FX petrol: service ≈ ₪1,000 on average, 2nd service ≈ ₪2,000 (spark plugs every 25,000 km)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/chery-fx-used/"
+            }
+          }
+        ]
       }
     }
   }

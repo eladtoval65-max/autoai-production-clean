@@ -828,7 +828,48 @@
           "year": 2015,
           "url": "https://www.fleetnews.co.uk/news/fleet-industry-news/2015/06/25/skoda-superb-earns-five-star-euro-ncap-rating",
           "note": "5 כוכבים (Euro NCAP, יוני 2015)"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי תיבת DSG (7 הילוכים, יבשה): לרוב דורשים החלפה סביב 100–120 אלף ק\"מ. בנסיעת מבחן: רעידות בזינוק וזחילה.",
+            "kind": "risk",
+            "costIls": [
+              4000,
+              4000
+            ],
+            "scope": "1.4 / 1.8 TSI DSG",
+            "source": {
+              "title": "auto.co.il (14.10.2020) — Skoda Superb 3rd gen (2015+) used guide: Israeli repair prices (DSG clutches, water pump/thermostat)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/134014/"
+            }
+          },
+          {
+            "he": "תרמוסטט ומשאבת מים: התרמוסטט מפלסטיק נסדק ופוגע במשאבה. בקנייה: לבדוק דליפות נוזל קירור ולשאול אם הוחלפו.",
+            "kind": "risk",
+            "costIls": [
+              4000,
+              4000
+            ],
+            "scope": "1.8 / 2.0 TSI",
+            "source": {
+              "title": "auto.co.il (14.10.2020) — Skoda Superb 3rd gen (2015+) used guide: Israeli repair prices (DSG clutches, water pump/thermostat)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/134014/"
+            }
+          },
+          {
+            "he": "משאבת מים ותרמוסטט במנוע 1.4 טורבו. בקנייה: לבדוק דליפות נוזל קירור.",
+            "kind": "risk",
+            "costIls": [
+              1500,
+              1500
+            ],
+            "scope": "1.4 TSI",
+            "source": {
+              "title": "auto.co.il (14.10.2020) — Skoda Superb 3rd gen (2015+) used guide: Israeli repair prices (DSG clutches, water pump/thermostat)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/134014/"
+            }
+          }
+        ]
       },
       "B6 (3T)": {
         "issues": [

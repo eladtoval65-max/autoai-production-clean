@@ -811,6 +811,21 @@
               "url": "https://www.autokostencheck.de/Mazda/Mazda-2/Mazda-2/mazda-2-1-5-dj1_39916/verbrauch/"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "משאבת דלק בלחץ גבוה: תקלה מוכרת; בחלק מהרכבים הוחלפה בקריאת שירות. בקנייה: לבדוק אם הוחלפה.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              3000
+            ],
+            "scope": "1.5 בנזין (2015+)",
+            "source": {
+              "title": "auto.co.il (09.10.2023) — used small cars under ₪50,000: Mazda2 (2015+) high-pressure fuel pump ≈ ₪3,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/136636/"
+            }
+          }
         ]
       },
       "DE": {

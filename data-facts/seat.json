@@ -69,7 +69,22 @@
             "title": "Cartube — סיאט איביזה החדשה 2017 בישראל: מחיר 78,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-איביזה-החדשה-2017-בישראל-מחיר-78900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "גלגל תנופה ומצמדים בתיבה הכפולה: השילוב עם מערכת עצור-וסע מקצר את חייהם. בנסיעת מבחן: רעידות וחבטות בזינוק.",
+            "kind": "risk",
+            "costIls": [
+              10000,
+              10000
+            ],
+            "scope": "1.0 TSI DSG",
+            "source": {
+              "title": "auto.co.il (12.10.2023) — used small cars ₪50,000–65,000: SEAT Ibiza 1.0 TSI DSG flywheel/clutch repair ≈ ₪10,000",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/136651/"
+            }
+          }
+        ]
       },
       "6J": {
         "issues": [
@@ -549,7 +564,22 @@
           "year": 2016,
           "url": "https://www.autobiz.ie/home/five-star-euro-ncap-rating-for-seat-ateca",
           "note": "5 כוכבים (Euro NCAP, יוני 2016)"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי תיבת DSG: נשחקים עם הקילומטרז'. בנסיעת מבחן: רעידות בזינוק וזחילה.",
+            "kind": "risk",
+            "costIls": [
+              6000,
+              6000
+            ],
+            "scope": "1.5 TSI DSG",
+            "source": {
+              "title": "auto.co.il (09.07.2024) — used crossovers up to ₪105,000: Kona 1.6T DCT clutches ₪12,000, Ateca 1.5 TSI DSG clutches ₪6,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137278/"
+            }
+          }
+        ]
       }
     },
     "tarraco": {

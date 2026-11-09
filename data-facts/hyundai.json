@@ -488,7 +488,22 @@
             "title": "auto.co.il — יונדאי איוניק 6 2023 בארץ – מחיר החל מ-214,000 שקלים (8.5.2023)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/136173/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול רגיל ₪1,750; טיפול גדול מתחת ל-₪2,000)",
+            "kind": "service",
+            "intervalKm": 30000,
+            "costIls": [
+              1750,
+              2000
+            ],
+            "source": {
+              "title": "iCar (11/2023) — EV service prices from the importers' price lists (Ioniq 6: ₪1,750 per 30,000 km service, large service under ₪2,000)",
+              "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/h1vvzkvka/"
+            }
+          }
+        ]
       }
     },
     "i10": {
@@ -992,6 +1007,19 @@
             "source": {
               "title": "Walla Cars (01/2023) — service cost per visit, 3-year and ~100,000 km totals (₪ per visit = total ÷ visits at one service per year or 15,000 km)",
               "url": "https://cars.walla.co.il/item/3554226"
+            }
+          },
+          {
+            "he": "מצמדי התיבה הכפולה (DCT): נוטה להתחמם בנסיעה איטית ממושכת. החלפת המצמדים יקרה. בנסיעת מבחן: רעידות בזינוק או הודעת התחממות.",
+            "kind": "risk",
+            "costIls": [
+              12000,
+              12000
+            ],
+            "scope": "1.6 טורבו DCT",
+            "source": {
+              "title": "auto.co.il (09.07.2024) — used crossovers up to ₪105,000: Kona 1.6T DCT clutches ₪12,000, Ateca 1.5 TSI DSG clutches ₪6,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137278/"
             }
           }
         ]
