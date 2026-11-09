@@ -6,7 +6,7 @@
  *  - depreciation: a yearly rate by age (newer cars lose value faster), +3 points for EVs, +2 for premium brands;
  *  - insurance: mandatory + comprehensive approximation from the car's value, adjusted for engine power, premium brand,
  *    EV repair costs and large 7-seat/van bodies (never a quote);
- *  - maintenance: base routine servicing that grows with age (premium ×1.7, EV ×0.55, capped) PLUS the generation's sourced
+ *  - maintenance: base routine servicing + ordinary wear that grows with age (city ×0.85, premium ×1.7, EV ×0.55, capped) PLUS the generation's sourced
  *    scheduled / wear items (timing belt, DSG oil, clutch…) spread per month by km or years. "Risk" items are shown, not added;
  *  - licensing: the official fee for the car's price group and model year (src/data/licenceFees.ts), spread per month.
  */
@@ -21,6 +21,13 @@ export const PRICES = { petrolPerL: ENERGY.petrolPerL, dieselPerL: ENERGY.diesel
 const PHEV_ELECTRIC_SHARE = 0.5;
 const EV_DEFAULT_KWH = 17;      // used when a generation's consumption is in litres but the user picked "electric"
 const PETROL_DEFAULT_L = 6.5;   // used when a generation's consumption is in kWh but the user picked a fuel engine
+/**
+ * Routine servicing + ordinary wear (tyres, brakes, battery) per month for an average mass-market car: ₪130 when new,
+ * +₪6 per year of age. Calibrated 11/2026: service + minor repairs ≈ ₪1,200–1,500/yr (hon.co.il) plus tyres, brakes and
+ * battery spread over their life; an owner of a 2013 Picanto reported ≈ ₪100/month at an independent garage, ₪150 at the dealer.
+ */
+const BASE_MAINT = 130;
+const BASE_MAINT_PER_YEAR = 6;
 /** Small city cars have cheaper parts, tyres and brakes than the average car the base maintenance curve describes. */
 const CITY_MAINTENANCE = 0.85;
 
@@ -91,7 +98,7 @@ export function estimateUsedCost({ gen, segment, year, powertrain, askingPrice, 
   const depreciation = (askingPrice * rate) / 12;
   const insurance = ((1700 + 1000 + askingPrice * 0.022) * insuranceFactor(gen, powertrain, premium, body)) / 12;
   const shares = maintenanceShares(maintenanceItems, kmPerYear);
-  const base = Math.min(900, (180 + 12 * age) * (premium ? 1.7 : 1) * (powertrain === "ev" ? 0.55 : 1) * (body === "city" ? CITY_MAINTENANCE : 1));
+  const base = Math.min(900, (BASE_MAINT + BASE_MAINT_PER_YEAR * age) * (premium ? 1.7 : 1) * (powertrain === "ev" ? 0.55 : 1) * (body === "city" ? CITY_MAINTENANCE : 1));
   const maintenance = Math.min(1500, base + shares.reduce((a, s) => a + s.monthly, 0));
   const licence = licenceMonthly(priceNew, year);
   const total = fuel + depreciation + insurance + maintenance + licence;
