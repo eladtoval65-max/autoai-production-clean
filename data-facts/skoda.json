@@ -249,7 +249,35 @@
             "title": "iCar — סקודה אוקטביה החדשה בישראל: מ-135,000 שקלים",
             "url": "https://www.icar.co.il/חדשות_רכב/סקודה_אוקטביה_החדשה_בישראל:_מ-135,000_שקלים/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מוח (מכטרוניקה) תיבת DSG: מתבלה לרוב אחרי 7–8 שנים; החלפה כ-₪5,000.",
+            "kind": "risk",
+            "costIls": [
+              5000,
+              5000
+            ],
+            "scope": "1.5 TSI DSG",
+            "source": {
+              "title": "auto.co.il (14.01.2025) — three used family cars for high mileage: Octavia 2021 1.5 TSI mechatronic ≈ ₪5,000",
+              "url": "https://www.auto.co.il/articles/general-articles/137822/"
+            }
+          },
+          {
+            "he": "מצמדי תיבת DSG וגלגל תנופה דו-מסה: כ-₪5,000 כל אחד.",
+            "kind": "risk",
+            "costIls": [
+              5000,
+              5000
+            ],
+            "scope": "1.5 TSI DSG",
+            "source": {
+              "title": "auto.co.il (14.01.2025) — three used family cars for high mileage: Octavia 2021 clutches ≈ ₪5,000, dual-mass flywheel ≈ ₪5,000",
+              "url": "https://www.auto.co.il/articles/general-articles/137822/"
+            }
+          }
+        ]
       }
     },
     "kodiaq": {
@@ -1511,7 +1539,21 @@
           "year": 2011,
           "url": "https://www.fleetnews.co.uk/news/2011/11/25/skoda-citigo-gets-top-safety-rating-from-euro-ncap/41551/",
           "note": "5 כוכבים (Euro NCAP, נובמבר 2011; לפי Fleet News). הדירוג פג תוקף"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "החלפת מצמד: כ-₪6,000 במוסכי היבואן, כ-₪3,500 במוסך פרטי מתמחה.",
+            "kind": "risk",
+            "costIls": [
+              3500,
+              6000
+            ],
+            "source": {
+              "title": "Walla Cars (updated 25.10.2024) — 10 used small cars under ₪20,000: Citigo / Mii / up! (2012–2016) clutch ≈ ₪6,000 importer, ₪3,500 private",
+              "url": "https://cars.walla.co.il/item/3699788"
+            }
+          }
+        ]
       }
     }
   }

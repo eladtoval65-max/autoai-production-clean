@@ -257,7 +257,23 @@
             "title": "icar — קיה פיקנטו החדשה הגיעה לישראל",
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_פיקנטו_החדשה_הגיעה_לישראל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן ₪400–500, בינוני ₪600–700, גדול ₪800–900)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              400,
+              900
+            ],
+            "source": {
+              "title": "auto.co.il (08.01.2020) — Kia Picanto 2017–2019 used guide: service prices small/medium/large, interval 15,000 km or 1 year (2020 prices; garage type not stated)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/133165/"
+            }
+          }
+        ]
       },
       "TA": {
         "issues": [
@@ -719,7 +735,24 @@
             "title": "icar — קיה סיד החדשה בישראל: מ-125,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_סיד_החדשה_בישראל:_מ-125,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (סה״כ ₪9,322 עד 120 אלף ק״מ)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1165,
+              1554
+            ],
+            "scope": "XCeed",
+            "source": {
+              "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km, Kia XCeed ₪9,322; ₪ per visit = total ÷ 8 / ÷ 6 (article counts both) (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
+          }
+        ]
       },
       "JD": {
         "issues": [

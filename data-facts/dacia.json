@@ -120,7 +120,24 @@
           "year": 2011,
           "url": "https://news.euroncap.com/safercars/euro-ncap-releases-results-for-seven-new-vehicles-including-first-test-of-fully-electric-car/s/7f3c708c-293a-4525-9345-daf70b3a6245",
           "note": "3 כוכבים (Euro NCAP, 2011)"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן מ-₪500; גדול כל 90 אלף ק״מ או 6 שנים מ-₪850)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              500,
+              850
+            ],
+            "scope": "1.2 TCe / 1.5 dCi",
+            "source": {
+              "title": "Walla Cars (30.05.2018) — Dacia Duster 2014–2018 used guide: Bosch Car Service network prices, small service from ₪500, large from ₪850 (2018 prices)",
+              "url": "https://cars.walla.co.il/item/3161878"
+            }
+          }
+        ]
       },
       "Gen3": {
         "issues": [

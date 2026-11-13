@@ -153,7 +153,23 @@
             "title": "כלכליסט — הג'יפון החשמלי הסיני MG ZS EV במסע לאילת (03.12.2019)",
             "url": "https://www.calcalist.co.il/articles/0,7340,L-3775022,00.html"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (5 טיפולים עד 120 אלף ק״מ, סה״כ ₪2,223)",
+            "kind": "service",
+            "intervalKm": 24000,
+            "intervalYears": 1,
+            "costIls": [
+              445,
+              445
+            ],
+            "source": {
+              "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km: MG ZS EV 5 services, ₪2,223 (₪445 per visit) (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
+          }
+        ]
       }
     },
     "mg4": {

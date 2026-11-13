@@ -551,6 +551,22 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mitsubishi/lancer/8generation/227161"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (₪628 בטיפול קטן עד ₪1,184 בטיפול 60 אלף)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              628,
+              1184
+            ],
+            "source": {
+              "title": "Walla Cars (19.12.2013) — Mitsubishi Lancer 2007–2013 used guide: Hilukh Shishi service-network prices 15k–75k km incl. VAT (2013 prices)",
+              "url": "https://cars.walla.co.il/item/2704021"
+            }
+          }
         ]
       }
     },

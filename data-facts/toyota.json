@@ -218,6 +218,20 @@
               "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
               "url": "https://cars.walla.co.il/item/3651117"
             }
+          },
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (סה״כ ₪7,402 היברידי / ₪7,642 בנזין עד 120 אלף ק״מ)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              925,
+              1274
+            ],
+            "source": {
+              "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km, Corolla hybrid ₪7,402 / petrol ₪7,642; ₪ per visit = total ÷ 8 / ÷ 6 (article states both counts) (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
           }
         ]
       }
@@ -1057,7 +1071,22 @@
             "title": "icar — טויוטה קאמרי מגיעה לישראל: החל מ-219,900 שקל (18.8.2013)",
             "url": "https://www.icar.co.il/חדשות_רכב/טויוטה_קאמרי_מגיעה_לישראל:_החל_מ-219,900_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: אם נכשלת מחוץ לאחריות, החלפה כ-₪12,000. בקנייה: בדיקת סוללה אצל היבואן, או לקזז מהמחיר.",
+            "kind": "risk",
+            "costIls": [
+              12000,
+              12000
+            ],
+            "scope": "2.5 היברידי",
+            "source": {
+              "title": "auto.co.il (10.04.2023) — large used family cars under ₪50,000: Camry Hybrid 2013 battery replacement ≈ ₪12,000",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/136069/"
+            }
+          }
+        ]
       },
       "XV40": {
         "issues": [

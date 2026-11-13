@@ -302,7 +302,23 @@
             "title": "auto.co.il — ניסאן ג'וק הגיע לישראל מוקדם מהצפוי (05.09.2010)",
             "url": "https://www.auto.co.il/articles/car-news/118055/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול 30 אלף ₪806 עד טיפול 90 אלף ₪1,952)",
+            "kind": "service",
+            "intervalKm": 30000,
+            "intervalYears": 1,
+            "costIls": [
+              806,
+              1952
+            ],
+            "source": {
+              "title": "Walla Cars (25.07.2013) — Nissan Juke used guide: Carasso Motors service prices 30k–120k km, quoted before VAT (683–1,654), +18% VAT added (2013 prices)",
+              "url": "https://cars.walla.co.il/item/2662472"
+            }
+          }
+        ]
       },
       "F16": {
         "issues": [

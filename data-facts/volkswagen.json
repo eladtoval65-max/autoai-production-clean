@@ -84,7 +84,35 @@
           "stars": 5,
           "year": 2012,
           "url": "https://cdn.euroncap.com/media/6420/euroncap_vw_golf_2012_5stars.pdf"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מצמדי תיבת DSG: החלפה בגלל בלאי כ-₪6,000. בנסיעת מבחן: רעידות או גמגום בזינוק.",
+            "kind": "risk",
+            "costIls": [
+              6000,
+              6000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (25.06.2024) — three used family cars under ₪80,000: VW Golf 2018 DSG clutch replacement ≈ ₪6,000",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/137236/"
+            }
+          },
+          {
+            "he": "משאבת מים: נוטה להתבלות מוקדם; החלפה כ-₪2,500. בקנייה: לבדוק דליפות נוזל קירור.",
+            "kind": "risk",
+            "costIls": [
+              2500,
+              2500
+            ],
+            "scope": "TSI",
+            "source": {
+              "title": "auto.co.il (25.06.2024) — three used family cars under ₪80,000: VW Golf 2018 water pump replacement ≈ ₪2,500",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/137236/"
+            }
+          }
+        ]
       },
       "Mk6": {
         "issues": [
@@ -1809,7 +1837,21 @@
             "title": "auto.co.il — פולקסווגן אפ! יוצאת לדרך בישראל (17.03.2014)",
             "url": "https://www.auto.co.il/articles/car-news/113049/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "החלפת מצמד: כ-₪6,000 במוסכי היבואן, כ-₪3,500 במוסך פרטי מתמחה.",
+            "kind": "risk",
+            "costIls": [
+              3500,
+              6000
+            ],
+            "source": {
+              "title": "Walla Cars (updated 25.10.2024) — 10 used small cars under ₪20,000: Citigo / Mii / up! (2012–2016) clutch ≈ ₪6,000 importer, ₪3,500 private",
+              "url": "https://cars.walla.co.il/item/3699788"
+            }
+          }
+        ]
       }
     }
   }
