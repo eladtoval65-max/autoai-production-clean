@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-09",
+  "updated": "2026-11-13",
   "models": {
     "mazda3": {
       "BL": {
@@ -824,6 +824,20 @@
             "source": {
               "title": "auto.co.il (09.10.2023) — used small cars under ₪50,000: Mazda2 (2015+) high-pressure fuel pump ≈ ₪3,000",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/136636/"
+            }
+          },
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,050); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1050
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Mazda 2 (group ₪1,038–1,050; upper bound used) big service ₪1,050",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
             }
           }
         ]

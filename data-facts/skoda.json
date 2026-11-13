@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-09",
+  "updated": "2026-11-13",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -174,6 +174,20 @@
               "title": "auto.co.il (01.07.2024) — used family cars under ₪60,000: Octavia 2017+ and Mégane Grand Coupé maintenance costs",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137256/"
             }
+          },
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,574); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1574
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Skoda Octavia big service ₪1,574",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
+            }
           }
         ]
       },
@@ -275,6 +289,20 @@
             "source": {
               "title": "auto.co.il (14.01.2025) — three used family cars for high mileage: Octavia 2021 clutches ≈ ₪5,000, dual-mass flywheel ≈ ₪5,000",
               "url": "https://www.auto.co.il/articles/general-articles/137822/"
+            }
+          },
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,574); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1574
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Skoda Octavia big service ₪1,574",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
             }
           }
         ]

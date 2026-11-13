@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-09",
+  "updated": "2026-11-13",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -285,7 +285,23 @@
             "title": "Cartube — יונדאי i20 החדשה 2021 בישראל: מחיר 99,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i20-החדשה-2021-בישראל-מחיר-99900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,050); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1050
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Hyundai i20 (group ₪1,038–1,050; upper bound used) big service ₪1,050",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
+            }
+          }
+        ]
       },
       "GB": {
         "issues": [
@@ -335,7 +351,23 @@
           "year": 2015,
           "url": "https://www.autocarindia.com/car-news/euro-ncap-395830",
           "note": "4 כוכבים (Euro NCAP, יוני 2015; מבוגרים 85%, ילדים 73%) — לפי Autocar India"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,050); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1050
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Hyundai i20 (group ₪1,038–1,050; upper bound used) big service ₪1,050",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
+            }
+          }
+        ]
       },
       "PB": {
         "issues": [
@@ -646,7 +678,23 @@
             "title": "cartube — יונדאי i10 החדשה 2020 בישראל: מחיר 69,900 שקל (16.2.2020)",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-i10-%D7%94%D7%97%D7%93%D7%A9%D7%94-2020-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-69900-%D7%A9%D7%A7%D7%9C"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,050); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1050
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Hyundai i10 (cheapest group i10/Mazda 2/i20/Picanto ₪1,038–1,050; upper bound used) big service ₪1,050",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
+            }
+          }
+        ]
       },
       "PA": {
         "issues": [
@@ -1179,7 +1227,36 @@
             "title": "auto.co.il — יונדאי איוניק 5 2021 בארץ – מחיר החל מ-190,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/134593/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך הראשי של היבואן (סה״כ ₪3,984 עד 90 אלף ק״מ / ₪5,262 עד 120 אלף ק״מ)",
+            "kind": "service",
+            "intervalKm": 30000,
+            "intervalYears": 1,
+            "costIls": [
+              1315,
+              1328
+            ],
+            "source": {
+              "title": "Walla Cars (12/2024) — importer main-garage service cost to 90,000 / 120,000 km, Ioniq 5 ₪3,984 / ₪5,262; ₪ per visit = total ÷ 3 / ÷ 4 (30,000 km interval) (2024 prices)",
+              "url": "https://cars.walla.co.il/item/3712321"
+            }
+          },
+          {
+            "he": "החלפת נוזל קירור לסוללה במוסך מורשה",
+            "kind": "scheduled",
+            "intervalKm": 60000,
+            "costIls": [
+              2167,
+              2167
+            ],
+            "source": {
+              "title": "Calcalist (03.08.2023) — Ioniq 5 at an authorised dealer: 60,000 km service ₪903 + battery coolant replacement ₪2,167 (2023 invoice)",
+              "url": "https://www.calcalist.co.il/local_news/car/article/hjytxyyjn"
+            }
+          }
+        ]
       }
     },
     "i30": {

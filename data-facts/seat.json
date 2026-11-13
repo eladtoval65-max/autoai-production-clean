@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-09",
+  "updated": "2026-11-13",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -82,6 +82,20 @@
             "source": {
               "title": "auto.co.il (12.10.2023) — used small cars ₪50,000–65,000: SEAT Ibiza 1.0 TSI DSG flywheel/clutch repair ≈ ₪10,000",
               "url": "https://www.auto.co.il/articles/car-news/local-news/136651/"
+            }
+          },
+          {
+            "he": "טיפול תקופתי — ממוצע הצעות מחיר ממוסכים 2025–26 (קטן ₪534–588, גדול ₪1,497); במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              534,
+              1497
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; SEAT Ibiza big service ₪1,497",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
             }
           }
         ]
