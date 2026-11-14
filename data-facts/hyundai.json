@@ -2674,6 +2674,96 @@
           }
         }
       }
+    },
+    "elantra-n": {
+      "CN7 N": {
+        "issues": [
+          {
+            "he": "שסתום בקרת הדלק במשאבה עלול להישחק ולגרום לאובדן כוח, סרק לא יציב ונורת מנוע. לבדוק שבוצעו עדכון תוכנת המנוע ובדיקה או החלפה של משאבת הדלק",
+            "level": "recall",
+            "scope": "2022–2023; קריאה בארה״ב 24V-528 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Hyundai Elantra N recalls — Cars.com",
+              "url": "https://www.cars.com/research/hyundai-elantra_n/recalls/"
+            }
+          },
+          {
+            "he": "תקלה במשאבת השמן של תיבת ה-DCT עלולה לגרום לאובדן הנעה מלא. לבדוק שבוצעה בדיקה או החלפה של התיבה במסגרת הקריאה",
+            "level": "recall",
+            "scope": "2022, תיבת 8DCT; קריאה בארה״ב 22V-746 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Hyundai Elantra N recalls — Cars.com",
+              "url": "https://www.cars.com/research/hyundai-elantra_n/recalls/"
+            }
+          },
+          {
+            "he": "הסמל על מכסה כרית האוויר של הנהג עלול להינתק כשהכרית נפתחת. לבדוק שהכרית הוחלפה",
+            "level": "recall",
+            "scope": "2022; קריאה בארה״ב 22V-632 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Hyundai Elantra N recalls — Cars.com",
+              "url": "https://www.cars.com/research/hyundai-elantra_n/recalls/"
+            }
+          },
+          {
+            "he": "אומי הגלגלים עלולים להשתחרר. לבדוק שבוצעו בדיקה והידוק, והחלפת מיסבי רכזת לפי הצורך",
+            "level": "recall",
+            "scope": "2026; קריאה בארה״ב 26V-693 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Hyundai Elantra N recalls — Cars.com",
+              "url": "https://www.cars.com/research/hyundai-elantra_n/recalls/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 טורבו בנזין 276 כ״ס",
+            "pt": "petrol",
+            "hp": 276,
+            "cons": 10.2,
+            "unit": "L",
+            "source": {
+              "title": "Tom's Guide — I drove the 2025 Hyundai Elantra N for a week (23.1 mpg observed, ~190 km)",
+              "url": "https://www.tomsguide.com/vehicle-tech/evs/2025-hyundai-elantra-n-pros-and-cons"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 225000,
+          "year": 2025,
+          "note": "תיבה ידנית; 235,000 ₪ עם תיבת 8DCT (השקת מתיחת הפנים בישראל)",
+          "source": {
+            "title": "auto.co.il — יונדאי אלנטרה N בישראל",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/138252/"
+          }
+        }
+      }
+    },
+    "ioniq-6-n": {
+      "CE N": {
+        "engines": [
+          {
+            "name": "חשמלי דו-מנועי 84 קוט״ש, 641 כ״ס (בבוסט)",
+            "pt": "ev",
+            "hp": 641,
+            "cons": 18.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 6 N (MY26)",
+              "url": "https://ev-database.org/car/3449/Hyundai-IONIQ-6-N"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 400000,
+          "year": 2026,
+          "note": "איוניק 6 N, דו-מנועי",
+          "source": {
+            "title": "auto.co.il — יונדאי איוניק 6 N החדשה בארץ",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/hyundai-ioniq-6-n-israel/"
+          }
+        }
+      }
     }
   }
 }

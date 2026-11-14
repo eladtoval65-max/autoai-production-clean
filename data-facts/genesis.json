@@ -1,6 +1,6 @@
 {
   "make": "genesis",
-  "updated": "2026-10-31",
+  "updated": "2026-11-14",
   "models": {
     "g80": {
       "RG3": {
@@ -366,6 +366,32 @@
             }
           }
         ]
+      }
+    },
+    "gv80-coupe": {
+      "JX1C": {
+        "engines": [
+          {
+            "name": "3.5 V6 טורבו בנזין, היברידי קל 48V, 409 כ״ס",
+            "pt": "petrol",
+            "hp": 409,
+            "cons": 11.3,
+            "unit": "L",
+            "source": {
+              "title": "Tom's Guide — I drove the Genesis GV80 Coupe for a week (20.9 mpg observed)",
+              "url": "https://tomsguide.com/vehicle-tech/i-drove-the-genesis-gv80-coupe-for-a-week-and-this-suv-cured-my-need-for-speed-itch"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 669000,
+          "year": 2024,
+          "note": "רמת גימור Luxury, 3.5T V6 48V עם 409 כ״ס (Ultimate: 719,000 ₪)",
+          "source": {
+            "title": "auto.co.il — ג'נסיס GV80 קופה בישראל",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137621/"
+          }
+        }
       }
     }
   }

@@ -1263,6 +1263,59 @@
           "year": 2015,
           "url": "https://www.euroncap.com/nl/pers/persberichten/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show"
         }
+      },
+      "Mk1": {
+        "issues": [
+          {
+            "he": "במנוע 1.6 EcoBoost, כשמפלס נוזל הקירור נמוך, ראש המנוע עלול להתחמם ולהיסדק. שמן יכול לדלוף ולהתלקח. לבדוק שבוצעה הקריאה ושאין דליפות נוזל קירור",
+            "level": "recall",
+            "scope": "1.6 EcoBoost; קריאה אירופית 17S09 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Caradisiac — Rappel : possible coup de chaud sur les Ford Mondeo, S-Max et Galaxy",
+              "url": "https://www.caradisiac.com/rappel-possible-coup-de-chaud-sur-les-ford-mondeo-s-max-et-galaxy-192929.htm"
+            }
+          },
+          {
+            "he": "פתחי ניקוז האוורור עלולים להיסתם, ואז מים חודרים לתא הנוסעים ופוגעים בצמת החיווט. לבדוק רטיבות בשטיחים וריח עובש",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Ford S-MAX buying guide: 2006-2014 (Mk1)",
+              "url": "https://www.carbuyer.co.uk/tips-and-advice/154787/used-ford-s-max-buying-guide-2006-2014-mk1"
+            }
+          },
+          {
+            "he": "דווחו תקלות חשמל במיזוג, בחימום השמשה האחורית, בפנסים האוטומטיים ובמערכת השמע, וגם רעשים בהגה. לבדוק את כל המערכות ואת מצב המצבר",
+            "level": "widely_reported",
+            "source": {
+              "title": "Carbuyer — Used Ford S-MAX buying guide: 2006-2014 (Mk1)",
+              "url": "https://www.carbuyer.co.uk/tips-and-advice/154787/used-ford-s-max-buying-guide-2006-2014-mk1"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 EcoBoost טורבו בנזין 203 כ״ס",
+            "pt": "petrol",
+            "hp": 203,
+            "cons": 10.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck — Ford Galaxy / S-MAX 2.0 (WA6) 149 kW, 2009–2014, Verbrauch (205 user reports)",
+              "url": "https://www.autokostencheck.de/Ford/Ford-S-MAX/S-MAX/galaxy-s-max-2-0-wa6_34542/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 TDCi טורבו דיזל 163 כ״ס",
+            "pt": "diesel",
+            "hp": 163,
+            "cons": 6.8,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck — Ford Galaxy / S-MAX 2.0 TDCi (WA6) 120 kW, 2009–2015 (Praxisverbrauch)",
+              "url": "https://www.autokostencheck.de/Ford/Ford-S-MAX/S-MAX/galaxy-s-max-2-0-tdci-wa6_34536.html"
+            }
+          }
+        ]
       }
     },
     "galaxy": {
@@ -1323,6 +1376,49 @@
           "year": 2015,
           "url": "https://www.euroncap.com/nl/pers/persberichten/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show"
         }
+      },
+      "Mk3": {
+        "issues": [
+          {
+            "he": "במנוע 1.6 EcoBoost, כשמפלס נוזל הקירור נמוך, ראש המנוע עלול להתחמם ולהיסדק. שמן יכול לדלוף ולהתלקח. לבדוק שבוצעה הקריאה ושאין דליפות נוזל קירור",
+            "level": "recall",
+            "scope": "1.6 EcoBoost; קריאה אירופית 17S09 — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Caradisiac — Rappel : possible coup de chaud sur les Ford Mondeo, S-Max et Galaxy",
+              "url": "https://www.caradisiac.com/rappel-possible-coup-de-chaud-sur-les-ford-mondeo-s-max-et-galaxy-192929.htm"
+            }
+          },
+          {
+            "he": "בעלי רכב דיווחו על תקלות מצבר ועל שלטי מפתח שהפסיקו לעבוד. לבדוק את מצב המצבר ושכל השלטים עובדים",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — Ford Galaxy (2010 - 2015) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/ford/galaxy/galaxy-2010-2015/"
+            }
+          },
+          {
+            "he": "בגרסאות עם תיבה כפולת מצמדים PowerShift, לברר אם הרכב שימש לגרירה כבדה ולבדוק בנסיעה שההעברות חלקות",
+            "level": "widely_reported",
+            "scope": "תיבת PowerShift",
+            "source": {
+              "title": "RAC — Ford Galaxy (2010 - 2015) used car review",
+              "url": "https://www.rac.co.uk/drive/car-reviews/ford/galaxy/galaxy-2010-2015/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 EcoBoost טורבו בנזין 203 כ״ס",
+            "pt": "petrol",
+            "hp": 203,
+            "cons": 10.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck — Ford Galaxy / S-MAX 2.0 (WA6) 149 kW, 2009–2014, Verbrauch (205 user reports, shared Galaxy/S-MAX page)",
+              "url": "https://www.autokostencheck.de/Ford/Ford-S-MAX/S-MAX/galaxy-s-max-2-0-wa6_34542/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

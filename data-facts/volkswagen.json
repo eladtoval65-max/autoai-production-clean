@@ -1997,6 +1997,76 @@
           }
         ]
       }
+    },
+    "sharan": {
+      "7N": {
+        "issues": [
+          {
+            "he": "בחלק מהרכבים המוקדמים דווחו תקלות בתיבת ה-DSG. לבקש תיעוד של טיפולים בתיבה ולבדוק בנסיעה שההעברות חלקות",
+            "level": "widely_reported",
+            "scope": "תיבה אוטומטית DSG, בעיקר שנים מוקדמות",
+            "source": {
+              "title": "What Car? — Used Volkswagen Sharan 2010-present review: reliability",
+              "url": "https://www.whatcar.com/volkswagen/sharan/mpv/used-review/n920/advice"
+            }
+          },
+          {
+            "he": "דווחו תקלות חשמל שאינן קשורות למנוע, בעיקר במיזוג ובמערכת הניווט. לבדוק שהמזגן והמולטימדיה עובדים",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? — Used Volkswagen Sharan 2010-present review: reliability",
+              "url": "https://www.whatcar.com/volkswagen/sharan/mpv/used-review/n920/advice"
+            }
+          },
+          {
+            "he": "במנוע 1.4 TSI דווחו מתיחה של שרשרת התזמון ותקלה במותח. לשים לב לרעש נקישות בהתנעה קרה",
+            "level": "widely_reported",
+            "scope": "1.4 TSI, 2010–2015",
+            "source": {
+              "title": "CarChecker — Volkswagen Sharan 1.4 TSI 7N",
+              "url": "https://www.carchecker.pro/reports/vw_sharan_7n_1.4_tsi.html"
+            }
+          },
+          {
+            "he": "בדלתות הזזה חשמליות דווחו מנועים חלשים, כבלים קרועים וחיישני מניעת צביטה שמופעלים בטעות. לפתוח ולסגור כל דלת כמה פעמים",
+            "level": "widely_reported",
+            "scope": "גרסאות עם דלתות הזזה חשמליות",
+            "source": {
+              "title": "CarChecker — Volkswagen Sharan 1.4 TSI 7N",
+              "url": "https://www.carchecker.pro/reports/vw_sharan_7n_1.4_tsi.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 TSI טורבו בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 9.1,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck — VW Sharan II 1.4 TSI (7N) Verbrauch (664 user reports)",
+              "url": "https://www.autokostencheck.de/VW/VW-Sharan/Sharan-II/sharan-1-4-tsi-7n_35284/verbrauch/"
+            }
+          },
+          {
+            "name": "2.0 TDI טורבו דיזל 170 כ״ס",
+            "pt": "diesel",
+            "hp": 170,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck — VW Sharan II 2.0 TDI (7N) Verbrauch (31 user reports)",
+              "url": "https://www.autokostencheck.de/VW/VW-Sharan/Sharan-II/sharan-2-0-tdi-7n_35287/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2010,
+          "url": "https://euroncap.com/en/results/vw/sharan/11030"
+        }
+      }
     }
   }
 }

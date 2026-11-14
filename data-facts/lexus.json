@@ -668,6 +668,63 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/לקסוס-is-300h-החדשה-בישראל-–-מחיר-החל-מ-249,000-שקל"
           }
         }
+      },
+      "XE20": {
+        "issues": [
+          {
+            "he": "במנוע 2.5 V6 (הזרקה ישירה) מצטבר פחם על שסתומי היניקה. זה גורם לתקלות הצתה (קודים P0300–P0306) ולעבודה לא חלקה. לבדוק שהמנוע עובד חלק בסרק ושאין נורת מנוע",
+            "level": "manufacturer",
+            "scope": "IS 250, עלון שירות L-SB-0124-12 (2006–2010)",
+            "source": {
+              "title": "Australian Car.Reviews — Recalls & faults: Lexus XE20 IS sedan (2005-13)",
+              "url": "https://www.australiancar.reviews/recalls-faults-lexus-xe20-is-sedan-2005-13/"
+            }
+          },
+          {
+            "he": "חיישן לחץ הדלק עלול להשתחרר ולגרום לדליפת דלק וסכנת שריפה. לבדוק שבוצעה הקריאה ושאין ריח דלק",
+            "level": "recall",
+            "scope": "קריאות באוסטרליה (2011, 2014, 2016) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Australian Car.Reviews — Recalls & faults: Lexus XE20 IS sedan (2005-13)",
+              "url": "https://www.australiancar.reviews/recalls-faults-lexus-xe20-is-sedan-2005-13/"
+            }
+          },
+          {
+            "he": "קריאה להחלפת מנפחי כריות אוויר של Takata, שעלולים להתפוצץ (כולל IS F). לוודא שהכרית הוחלפה",
+            "level": "recall",
+            "scope": "קריאות 2016–2019 (IS F: CGG94) — לבדוק תחולה על הרכב הישראלי",
+            "source": {
+              "title": "Australian Car.Reviews — Recalls & faults: Lexus XE20 IS sedan (2005-13)",
+              "url": "https://www.australiancar.reviews/recalls-faults-lexus-xe20-is-sedan-2005-13/"
+            }
+          },
+          {
+            "he": "דווחו כיסויי שמשה סדוקים, מים שחודרים לשטיחים מקדימה או מאחור, ורעשי חריקה בלוח המחוונים. לבדוק רטיבות מתחת לשטיחים",
+            "level": "widely_reported",
+            "source": {
+              "title": "Australian Car.Reviews — Recalls & faults: Lexus XE20 IS sedan (2005-13)",
+              "url": "https://www.australiancar.reviews/recalls-faults-lexus-xe20-is-sedan-2005-13/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 V6 בנזין 208 כ״ס",
+            "pt": "petrol",
+            "hp": 208,
+            "cons": 10.2,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Lexus IS250 MPG (2011: 23.0 mpg, 40 vehicles)",
+              "url": "https://www1.fuelly.com/car/lexus/is250"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2006,
+          "url": "https://euroncap.com/de/results/lexus/is/10804"
+        }
       }
     }
   }
