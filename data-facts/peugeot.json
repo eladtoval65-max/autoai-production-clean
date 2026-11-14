@@ -291,6 +291,21 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי במרכז השירות של היבואן — עד כ-₪772 לטיפול (מחירי 2020; טיפול 60 אלף היקר יותר כולל רפידות)",
+            "kind": "service",
+            "costIls": [
+              772,
+              772
+            ],
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "scope": "1.2 בנזין",
+            "source": {
+              "title": "auto.co.il (20.10.2020) — Peugeot 208 2021 petrol vs electric: importer figures incl. VAT — 60,000 km service ₪772 (incl. brake pads, described as slightly dearer than the other services; used as an upper bound per visit); interval 15,000 km or 1 year (2020 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/134024/"
+            }
+          },
+          {
             "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
             "kind": "risk",
             "costIls": [
