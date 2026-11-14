@@ -953,7 +953,24 @@
           "year": 2017,
           "url": "https://news.euroncap.com/safercars/fading-stars/s/d76092a0-7f77-4b6a-b39a-4846209a95af",
           "note": "3 כוכבים בגרסה הסטנדרטית; 5 כוכבים עם חבילת הבטיחות האופציונלית (Euro NCAP, דצמבר 2017) — לבדוק אם הרכב כולל את החבילה"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול שנתי במרכז שירות (שמן, מסנן ובדיקה כללית): ₪635 כולל מע״מ ועבודה, אחרי הנחה של 10% — טיפול קטן; טיפולים גדולים יקרים יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              635,
+              635
+            ],
+            "scope": "1.0 טורבו",
+            "source": {
+              "title": "Wheel (13.04.2023) — long-term test, Kia Stonic 1.0T EX: first annual service at the Zeni service centre, Rehovot ₪635 incl. VAT and labour after a 10% discount; interval 1 year or 15,000 km (2023 price)",
+              "url": "https://wheel.co.il/%D7%90%D7%A8%D7%95%D7%9A-%D7%98%D7%95%D7%95%D7%97-%D7%A9%D7%A0%D7%94-%D7%A2%D7%9D-%D7%A7%D7%99%D7%94-%D7%A1%D7%98%D7%95%D7%A0%D7%99%D7%A7-%D7%98%D7%95%D7%A8%D7%91%D7%95-1-0-%D7%9C%D7%99%D7%98%D7%A8/"
+            }
+          }
+        ]
       }
     },
     "seltos": {

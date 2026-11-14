@@ -731,7 +731,24 @@
           "stars": null,
           "note": "טרם נבדק ב-Euro NCAP (נכון לאוקטובר 2026, לפי The Car Expert)",
           "url": "https://www.thecarexpert.co.uk/toyota-rav4-2026/"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפולים לפי הוראות היצרן במרכז השירות של היבואן (שנה ראשונה ₪1,110; ממוצע 5 שנים ₪1,524 לשנה)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1110,
+              1524
+            ],
+            "scope": "2.5 היברידי",
+            "source": {
+              "title": "auto.co.il (29.07.2026) — RAV4 (new 6th gen, launched in Israel 13.05.2026) vs Sportage vs Tucson cost comparison at 15,000 km/yr, figures requested from the importers: RAV4 manufacturer-schedule services ₪1,110 (1 yr), ₪3,728 (3 yrs), ₪7,618 (5 yrs); ₪ per visit = 1-year cost and 5-year total ÷ 5 (2026 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/rav4-sportage-tucson-hybrid/"
+            }
+          }
+        ]
       }
     },
     "c-hr": {
