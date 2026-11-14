@@ -105,3 +105,6 @@
 @keyframes drive-in { from { opacity: 0; transform: translateX(-60px); } to { opacity: 1; transform: none; } }
 .poster-car { animation: drive-in 900ms cubic-bezier(.2,.8,.2,1) both 150ms; }
 @media (prefers-reduced-motion: reduce) { .poster-car { animation: none; } }
+
+/* Story progress bar fills over the slide's duration. */
+@keyframes story-progress { from { width: 0; } to { width: 100%; } }

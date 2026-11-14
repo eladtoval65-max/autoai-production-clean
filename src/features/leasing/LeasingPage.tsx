@@ -1,13 +1,13 @@
 /**
- * /leasing — private leasing vs buying over the same period, with the visitor's own offer numbers.
+ * /leasing (also /new-used-leasing) — new vs 3-year-old used vs private leasing over the same period, with the visitor's own offer numbers.
  * Maths in model/leasing.ts. Nothing is an offer; the lead form can pass a consented request to ONE leasing company.
  */
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { Link } from "wouter";
 import { card, field } from "../../shared/styles";
 import { PageShell } from "../../shared/ui/PageShell";
 import LeadRequestModal from "../leads/LeadRequestModal";
-import { compareLease, defaultsFor, type LeaseInput } from "./model/leasing";
+import { compareLease, defaultsFor, usedAlternative, USED_AGE, type LeaseInput } from "./model/leasing";
 
 const nf = new Intl.NumberFormat("he-IL");
 const money = (n: number) => `₪${nf.format(Math.round(n))}`;
@@ -26,43 +26,56 @@ function NumField({ name, value, onChange, hint, percent }: { name: string; valu
   );
 }
 
+/** One option's column: monthly average, its parts, and the total. The cheapest gets a highlight. */
+function Option({ title, monthly, best, children }: { title: string; monthly: number; best: boolean; children: ReactNode }) {
+  return (
+    <div className={`rounded-2xl p-4 ${best ? "bg-[#fff4ea] ring-2 ring-pop" : "bg-mist"}`}>
+      <h3 className="flex items-center gap-2 text-[1.1rem]">{title}{best && <span className="rounded-full bg-pop px-2 py-0.5 text-[12px] font-extrabold text-ink">הכי משתלם</span>}</h3>
+      <p className="num mt-1 text-[2rem] text-go"><bdi>{money(monthly)}</bdi> <span className="text-[15px] text-muted">בחודש בממוצע</span></p>
+      <ul className="mt-2 space-y-1 text-[14px]">{children}</ul>
+    </div>
+  );
+}
+
 function Results({ input }: { input: LeaseInput }) {
   const r = compareLease(input);
+  const u = usedAlternative(input);
   const years = input.months / 12;
-  const verdict = r.cheaper === "same" ? "שתי האפשרויות יוצאות בערך אותו דבר."
-    : r.cheaper === "lease" ? `ליסינג זול יותר בכ־${money(r.difference)} על פני ${years} שנים.`
-      : `קנייה זולה יותר בכ־${money(r.difference)} על פני ${years} שנים.`;
+  const opts = [["ליסינג", r.lease.total], ["רכב חדש", r.buy.total], [`יד שנייה בן ${USED_AGE}`, u.total]] as const;
+  const sorted = [...opts].sort((a, b) => a[1] - b[1]);
+  const [win, second] = sorted;
+  const verdict = second[1] - win[1] < 500 ? `${win[0]} ו${second[0]} יוצאים בערך אותו דבר.`
+    : `${win[0]} הכי משתלם: בכ־${money(second[1] - win[1])} פחות מ${second[0]} על פני ${years} שנים.`;
   return (
     <section className={`${card} mt-6 p-5 sm:p-6`} aria-live="polite">
       <h2 className="text-[1.4rem]">{verdict}</h2>
-      <div className="mt-5 grid gap-4 sm:grid-cols-2">
-        <div className="rounded-2xl bg-mist p-4">
-          <h3 className="text-[1.1rem]">ליסינג</h3>
-          <p className="num mt-1 text-[2rem] text-go"><bdi>{money(r.lease.monthly)}</bdi> <span className="text-[15px] text-muted">בחודש בממוצע</span></p>
-          <ul className="mt-2 space-y-1 text-[14px]">
-            <li>מקדמה + תשלומים: <bdi>{money(input.leaseDown + input.leaseMonthly * input.months)}</bdi></li>
-            <li>מה שהליסינג לא כולל: <bdi>{money(r.lease.extras)}</bdi></li>
-            <li><b>סה״כ: <bdi>{money(r.lease.total)}</bdi></b> — ובסוף מחזירים את הרכב</li>
-          </ul>
-        </div>
-        <div className="rounded-2xl bg-mist p-4">
-          <h3 className="text-[1.1rem]">קנייה</h3>
-          <p className="num mt-1 text-[2rem] text-go"><bdi>{money(r.buy.monthly)}</bdi> <span className="text-[15px] text-muted">בחודש בממוצע</span></p>
-          <ul className="mt-2 space-y-1 text-[14px]">
-            <li>ירידת ערך: <bdi>{money(r.buy.valueLoss)}</bdi></li>
-            {r.buy.interest > 0 && <li>ריבית על ההלוואה: <bdi>{money(r.buy.interest)}</bdi> (החזר חודשי <bdi>{money(r.buy.payment)}</bdi>)</li>}
-            <li>ביטוח וטיפולים: <bdi>{money(r.buy.running)}</bdi></li>
-            <li><b>סה״כ: <bdi>{money(r.buy.total)}</bdi></b> — ובסוף נשאר רכב ששווה בערך <bdi>{money(r.buy.resale)}</bdi></li>
-          </ul>
-        </div>
+      <div className="mt-5 grid gap-4 lg:grid-cols-3">
+        <Option title="ליסינג" monthly={r.lease.monthly} best={win[0] === "ליסינג"}>
+          <li>מקדמה + תשלומים: <bdi>{money(input.leaseDown + input.leaseMonthly * input.months)}</bdi></li>
+          <li>מה שהליסינג לא כולל: <bdi>{money(r.lease.extras)}</bdi></li>
+          <li><b>סה״כ: <bdi>{money(r.lease.total)}</bdi></b> — ובסוף מחזירים את הרכב</li>
+        </Option>
+        <Option title="רכב חדש" monthly={r.buy.monthly} best={win[0] === "רכב חדש"}>
+          <li>ירידת ערך: <bdi>{money(r.buy.valueLoss)}</bdi></li>
+          {r.buy.interest > 0 && <li>ריבית על ההלוואה: <bdi>{money(r.buy.interest)}</bdi> (החזר חודשי <bdi>{money(r.buy.payment)}</bdi>)</li>}
+          <li>ביטוח וטיפולים: <bdi>{money(r.buy.running)}</bdi></li>
+          <li><b>סה״כ: <bdi>{money(r.buy.total)}</bdi></b> — ובסוף נשאר רכב ששווה בערך <bdi>{money(r.buy.resale)}</bdi></li>
+        </Option>
+        <Option title={`יד שנייה בן ${USED_AGE} שנים`} monthly={u.monthly} best={win[0] !== "ליסינג" && win[0] !== "רכב חדש"}>
+          <li>מחיר משוער לאותו דגם: <bdi>{money(u.price)}</bdi></li>
+          <li>ירידת ערך: <bdi>{money(u.valueLoss)}</bdi></li>
+          {u.interest > 0 && <li>ריבית על ההלוואה: <bdi>{money(u.interest)}</bdi></li>}
+          <li>ביטוח וטיפולים: <bdi>{money(u.running)}</bdi></li>
+          <li><b>סה״כ: <bdi>{money(u.total)}</bdi></b> — ובסוף נשאר רכב ששווה בערך <bdi>{money(u.resale)}</bdi></li>
+        </Option>
       </div>
-      <p className="mt-4 text-[13px] text-muted">הערכה בלבד, לא הצעה. דלק או חשמל לא נכללים כי הם זהים בשתי האפשרויות. ירידת הערך בפועל תלויה בדגם, בקילומטראז׳ ובמצב הרכב. כדאי לבדוק בחוזה הליסינג: חריגת קילומטרים, נזקים בהחזרה ועמלת יציאה מוקדמת.</p>
+      <p className="mt-4 text-[13px] text-muted">הערכה בלבד, לא הצעה. דלק או חשמל לא נכללים כי הם זהים בכל האפשרויות. מחיר היד השנייה וירידת הערך משוערים לפי עקומה ממוצעת — המחיר בפועל תלוי בדגם, בקילומטראז׳ ובמצב. בליסינג כדאי לבדוק: חריגת קילומטרים, נזקים בהחזרה ועמלת יציאה מוקדמת.</p>
     </section>
   );
 }
 
 export default function LeasingPage() {
-  useEffect(() => { document.title = "ליסינג פרטי או קנייה — מה זול יותר? מחשבון | כמה עולה"; }, []);
+  useEffect(() => { document.title = "חדש, יד שנייה או ליסינג — מה הכי משתלם? מחשבון | כמה עולה"; }, []);
   const [price, setPrice] = useState(150000);
   const d = useMemo(() => defaultsFor(price), [price]);
   const [form, setForm] = useState<Omit<LeaseInput, "price" | "insuranceMonthly" | "maintenanceMonthly" | "depreciationRate">>({
@@ -77,8 +90,8 @@ export default function LeasingPage() {
 
   return (
     <PageShell>
-      <h1 className="text-[clamp(1.8rem,4vw,2.6rem)] leading-tight">ליסינג פרטי או קנייה — מה זול יותר?</h1>
-      <p className="mt-3 max-w-[62ch] text-[17px] text-muted">הכניסו את ההצעה שקיבלתם מחברת הליסינג, ונשווה אותה לקנייה של אותו רכב לאותה תקופה: כמה כסף יוצא בפועל, ומה נשאר לכם בסוף.</p>
+      <h1 className="text-[clamp(1.8rem,4vw,2.6rem)] leading-tight">חדש, יד שנייה או ליסינג — מה הכי משתלם?</h1>
+      <p className="mt-3 max-w-[62ch] text-[17px] text-muted">בוחרים מחיר רכב, ואנחנו משווים שלוש דרכים להחזיק אותו לאותה תקופה: לקנות חדש, לקנות את אותו דגם בן 3 שנים, או ליסינג (עם ההצעה שקיבלתם). כמה כסף יוצא בפועל — ומה נשאר לכם בסוף.</p>
 
       <div className={`${card} mt-6 grid gap-4 p-5 sm:grid-cols-3 sm:p-6`}>
         <NumField name="מחיר הרכב (₪)" value={price} onChange={setPrice} />

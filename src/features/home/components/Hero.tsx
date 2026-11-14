@@ -8,6 +8,7 @@ import type { Ranked } from "../types";
 import { Finder } from "./Finder";
 import { LeaderPanel } from "./LeaderPanel";
 import { PosterScene } from "./PosterScene";
+import { StoriesStrip } from "./stories/StoriesStrip";
 
 /** Icons for the three trust points under the headline (time, real monthly cost, no sign-up). */
 const TRUST_ICONS = [Clock, Receipt, UserX];
@@ -30,7 +31,9 @@ export function Hero({ quiz, leader, onResults, onLead }: { quiz: Quiz; leader?:
     <section id="top">
       <div className="relative isolate bg-deep text-white">
         <PosterScene />
-        <div className="relative mx-auto max-w-[1280px] px-4 pb-32 pt-10 sm:px-8 sm:pb-40 lg:pt-16">
+        <div className="relative mx-auto max-w-[1280px] px-4 pb-32 pt-5 sm:px-8 sm:pb-40 lg:pt-16">
+          <StoriesStrip />
+          <div className="mt-6" />
           <h1 className="max-w-[14ch] text-[clamp(2.6rem,6.4vw,5.2rem)] leading-[1] [text-shadow:0_4px_24px_rgba(0,0,0,.35)]">
             {lead}{em && <> <span className="text-sun">{em}</span></>}
           </h1>

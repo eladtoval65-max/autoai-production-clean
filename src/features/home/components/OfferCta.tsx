@@ -15,7 +15,7 @@ const COPY = {
 };
 
 /** Big block: title, one reassuring line, full-width orange button. */
-export function OfferCta({ car, onLead, className = "" }: { car: Ranked; onLead: () => void; className?: string }) {
+export function OfferCta({ car, onLead, className = "" }: { car: { make: string }; onLead: () => void; className?: string }) {
   const { lang } = useLang();
   const c = COPY[lang === "he" ? "he" : "en"];
   return (

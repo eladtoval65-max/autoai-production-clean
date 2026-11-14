@@ -22,6 +22,7 @@ const PartnerPortalPage = lazy(() => import("./src/features/partner/PartnerPorta
 const ComparePage = lazy(() => import("./src/features/compare/ComparePage"));
 const CompareIndexPage = lazy(() => import("./src/features/compare/CompareIndexPage"));
 const LeasingPage = lazy(() => import("./src/features/leasing/LeasingPage"));
+const BudgetPage = lazy(() => import("./src/features/budget/BudgetPage"));
 const LandingPage = lazy(() => import("./src/features/landing/LandingPage"));
 const BrowsePage = lazy(() => import("./src/features/browse/BrowsePage"));
 const GuidePage = lazy(() => import("./src/features/guides/GuidePage").then((m) => ({ default: m.GuidePage })));
@@ -42,6 +43,8 @@ function Router() {
       <Route path="/compare/:slug" component={ComparePage} />
       <Route path="/compare" component={CompareIndexPage} />
       <Route path="/leasing" component={LeasingPage} />
+      <Route path="/new-used-leasing" component={LeasingPage} />
+      <Route path="/budget/:amount" component={BudgetPage} />
       <Route path="/guides/:slug" component={GuidePage} />
       <Route path="/guides" component={GuidesIndexPage} />
       <Route path="/sell/card" component={SellCardPage} />

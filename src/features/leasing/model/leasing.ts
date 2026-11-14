@@ -62,3 +62,29 @@ export function compareLease(i: LeaseInput): LeaseResult {
     difference: Math.abs(diff),
   };
 }
+
+/** Our yearly depreciation curve (same as the used-car calculator): steep in the first years, gentler later. */
+const rateAt = (age: number) => (age <= 2 ? 0.13 : age <= 5 ? 0.1 : age <= 9 ? 0.08 : 0.06);
+export const USED_AGE = 3;
+
+/**
+ * The third option: the same model bought USED at 3 years old, kept for the same period.
+ * Someone else already paid the steepest years of depreciation; in exchange insurance is on a lower value and
+ * maintenance is a bit higher (out of warranty). Financing uses the same down payment and rate as the new-car purchase.
+ */
+export function usedAlternative(i: LeaseInput) {
+  let usedPrice = i.price;
+  for (let a = 1; a <= USED_AGE; a++) usedPrice *= 1 - rateAt(a);
+  let resale = usedPrice;
+  const years = i.months / 12;
+  for (let a = USED_AGE + 1; a <= USED_AGE + Math.ceil(years); a++) resale *= 1 - rateAt(a) * Math.min(1, years - (a - USED_AGE - 1));
+  const financed = Math.max(0, usedPrice - i.buyDown);
+  const payment = loanPayment(financed, i.loanRate, i.months);
+  const interest = Math.max(0, payment * i.months - financed);
+  const insurance = Math.round((1700 + 1000 + usedPrice * 0.022) / 12);
+  const maintenance = i.maintenanceMonthly + 40; // out of warranty, older parts — same +₪6/yr curve as elsewhere, rounded up
+  const running = (insurance + maintenance) * i.months;
+  const valueLoss = usedPrice - resale;
+  const total = valueLoss + interest + running;
+  return { price: Math.round(usedPrice), resale: Math.round(resale), valueLoss: Math.round(valueLoss), interest: Math.round(interest), running: Math.round(running), total: Math.round(total), monthly: Math.round(total / i.months) };
+}

@@ -9,7 +9,7 @@ import { getPool } from "../dbConnection";
 import { ensureSchema } from "../schemaSetup";
 import { summarize, validReport } from "../server/prices/reports";
 
-const NAMES = new Set(["sell_card_copy", "visit", "quiz_start", "quiz_complete", "results_view", "lead_open", "lead_submit", "plate_check", "chat_open"]);
+const NAMES = new Set(["sell_card_copy", "visit", "quiz_start", "quiz_complete", "results_view", "lead_open", "lead_submit", "plate_check", "chat_open", "story_view"]);
 const hits = new Map<string, number[]>();
 
 function limited(req: any) {
