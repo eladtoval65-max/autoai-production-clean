@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -375,7 +375,24 @@
             "title": "Cartube — סיאט לאון החדשה בישראל: מחיר החל מ-114,400 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-לאון-החדשה-בישראל-–-מחיר-החל-מ-114,400-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              612,
+              612
+            ],
+            "scope": "1.0 TSI",
+            "source": {
+              "title": "iCar long-term test (02/2018) — SEAT Leon 1.0 TSI, first 15,000 km/1-year service at an authorised garage: ₪611.90 incl. VAT",
+              "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_סיאט_לאון_במבחן_ארוך_טווח/"
+            }
+          }
+        ]
       },
       "KL": {
         "issues": [

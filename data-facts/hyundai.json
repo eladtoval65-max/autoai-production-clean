@@ -897,7 +897,23 @@
             "title": "וואלה! רכב — יונדאי אלנטרה הייבריד בישראל: מרשימה והמחיר בהתאם (23.11.2021)",
             "url": "https://cars.walla.co.il/item/3472877"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              950,
+              950
+            ],
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "iCar long-term test (07/2022) — Hyundai Elantra Hybrid, ~15,000 km service (oil, oil filter, air filter) via the importer's garage: ₪949.5",
+              "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_יונדאי_אלנטרה_במבחן_ארוך_טווח/"
+            }
+          }
+        ]
       },
       "MD": {
         "issues": [
@@ -1349,7 +1365,23 @@
             "title": "Cartube — יונדאי i30 החדשה 2017 בישראל: מחיר 129,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i30-החדשה-2017-בישראל-מחיר-129900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              734,
+              734
+            ],
+            "scope": "טורבו בנזין",
+            "source": {
+              "title": "iCar long-term test (11/2018) — Hyundai i30 (3rd gen, 2018), 15,000 km service at Hyundai's central service centre, Petah Tikva: ₪734",
+              "url": "https://www.icar.co.il/%D7%9E%D7%91%D7%97%D7%A0%D7%99_%D7%A8%D7%9B%D7%91/Live_Blog:_%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99_i30_%D7%91%D7%9E%D7%91%D7%97%D7%9F_%D7%90%D7%A8%D7%95%D7%9A_%D7%98%D7%95%D7%95%D7%97/"
+            }
+          }
+        ]
       },
       "GD": {
         "issues": [

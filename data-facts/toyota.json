@@ -1272,6 +1272,19 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              600,
+              600
+            ],
+            "source": {
+              "title": "iCar long-term test (07/2017) — Toyota Prius 4th gen, 15,000 km service at a Toyota service centre: written quote ₪600 incl. VAT",
+              "url": "https://www.icar.co.il/מבחני_רכב/_Live_Blog:_טויוטה_פריוס_במבחן_ארוך_טווח/"
+            }
+          },
+          {
             "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
             "kind": "risk",
             "costIls": [

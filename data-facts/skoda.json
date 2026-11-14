@@ -673,7 +673,23 @@
             "title": "Cartube — סקודה פאביה החדשה 2015 בישראל (11.4.2015)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-פאביה-החדשה-2015-בישראל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              754,
+              820
+            ],
+            "scope": "1.0/1.2 TSI",
+            "source": {
+              "title": "iCar long-term test (12/2016) — Skoda Fabia 3rd gen, 15,000 km service at Champion Motors' central garage: ₪754 (₪820 with original filter)",
+              "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_סקודה_פאביה_במבחן_ארוך_טווח/"
+            }
+          }
+        ]
       },
       "דור 4": {
         "issues": [
@@ -1346,7 +1362,23 @@
             "title": "וואלה רכב — סקודה ייטי בישראל (27.5.2010): כ-134,900 ש״ח",
             "url": "https://cars.walla.co.il/item/1679653"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              643,
+              643
+            ],
+            "scope": "1.2 TSI",
+            "source": {
+              "title": "iCar long-term test (01/2016) — Skoda Yeti 1.2 TSI (2015), 15,000 km service at Skoda's authorised central garage, private customer: ₪643 incl. VAT",
+              "url": "https://www.icar.co.il/%D7%9E%D7%91%D7%97%D7%A0%D7%99_%D7%A8%D7%9B%D7%91/Live_Blog:_%D7%A1%D7%A7%D7%95%D7%93%D7%94_%D7%99%D7%98%D7%99_%D7%91%D7%9E%D7%91%D7%97%D7%9F_%D7%90%D7%A8%D7%95%D7%9A_%D7%98%D7%95%D7%95%D7%97/"
+            }
+          }
+        ]
       }
     },
     "elroq": {

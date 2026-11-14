@@ -345,6 +345,19 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי במוסך מורשה של היבואן",
+            "kind": "service",
+            "intervalKm": 20000,
+            "costIls": [
+              745,
+              745
+            ],
+            "source": {
+              "title": "iCar long-term test (06/2015) — Mitsubishi Space Star CVT, 20,000 km service at the importer's authorised garage: ₪745",
+              "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_מיצובישי_ספייס_סטאר_במבחן_ארוך_טווח/"
+            }
+          },
+          {
             "he": "תיבת CVT: אם שמן התיבה לא הוחלף (כל 80,000 ק\"מ), שיפוץ התיבה. בקנייה: לבקש הוכחה להחלפת השמן.",
             "kind": "risk",
             "costIls": [
@@ -506,7 +519,24 @@
             "title": "icar — מיצובישי אקליפס קרוס בישראל: מ-149,000 שקל (19.02.2018)",
             "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_אקליפס_קרוס_בישראל:_מ-149,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך מורשה",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1010,
+              1010
+            ],
+            "scope": "1.5 טורבו",
+            "source": {
+              "title": "iCar long-term test (04/2019) — Mitsubishi Eclipse Cross 1.5T, 15,000 km/1-year service: ₪1,010 incl. VAT",
+              "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_מיצובישי_אקליפס_קרוס_במבחן_ארוך_טווח/"
+            }
+          }
+        ]
       }
     },
     "lancer": {
