@@ -1,6 +1,6 @@
 {
   "make": "volvo",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "xc60": {
       "Gen1": {
@@ -33,7 +33,35 @@
           "year": 2008,
           "url": "https://australiancar.reviews/?p=2034",
           "note": "5 כוכבים (Euro NCAP, XC60 D5 2008: 36.53/37 מבוגרים); מקור: australiancar.reviews המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (מחירי מוסך מתמחה בוולוו; אצל היבואן לרוב יקר יותר): טיפול קטן כ-₪1,200, הגדול כ-₪4,500",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              1200,
+              4500
+            ],
+            "source": {
+              "title": "auto.co.il (27.03.2023) — Volvo XC60 1st gen (2008–2017) used guide: service prices from a Volvo-specialist garage (Shai Geish, Holon), small ≈ ₪1,200 to large ≈ ₪4,500 incl. VAT; maker interval 15,000 km; article notes authorised Volvo garages are usually pricier (2023 prices, garage not importer)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/136019/"
+            }
+          },
+          {
+            "he": "מנוע T5 2.0 טורבו (מנוע פורד) בשנים 2011–2013: דווח על שבירת בוכנות בין 120 ל-180 אלף ק״מ; שיפוץ/החלפת מנוע כ-₪25,000. בקנייה: היסטוריית טיפולים ובדיקת מנוע.",
+            "kind": "risk",
+            "costIls": [
+              25000,
+              25000
+            ],
+            "scope": "T5 2.0 (מנוע פורד), 2011–2013",
+            "source": {
+              "title": "auto.co.il (27.03.2023) — Volvo XC60 1st gen (2008–2017) used guide: service prices from a Volvo-specialist garage (Shai Geish, Holon), small ≈ ₪1,200 to large ≈ ₪4,500 incl. VAT; maker interval 15,000 km; article notes authorised Volvo garages are usually pricier (2023 prices, garage not importer)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/136019/"
+            }
+          }
+        ]
       },
       "Gen2": {
         "issues": [

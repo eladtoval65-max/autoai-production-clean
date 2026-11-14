@@ -920,7 +920,23 @@
           "year": 2009,
           "url": "https://cdn.euroncap.com/media/7582/euroncap_suzuki_alto_2009_3stars.pdf",
           "note": "3 כוכבים לפי שם קובץ הדו״ח הרשמי של Euro NCAP; דף התוצאות מציין כיום 'Rating Expired'"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (ממוצע לביקור: כ-₪4,100 לארבעת הטיפולים עד 60 אלף ק״מ). שרשרת תזמון — אין החלפה יזומה.",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1025,
+              1025
+            ],
+            "source": {
+              "title": "auto.co.il (23.11.2017) — Suzuki Alto (sold from 2009) used guide: service cost to 60,000 km ≈ ₪4,100 at every 15,000 km / 1 year; ₪ per visit = total ÷ 4 (2017 prices; no newer source found; article quotes an authorised Suzuki garage adviser)",
+              "url": "https://www.auto.co.il/articles/car-news/129594/"
+            }
+          }
+        ]
       }
     },
     "splash": {
