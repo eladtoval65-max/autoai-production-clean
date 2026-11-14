@@ -1,6 +1,6 @@
 {
   "make": "peugeot",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "107": {
       "Gen1": {
@@ -682,7 +682,36 @@
           "year": 2007,
           "url": "https://www.motorbox.com/auto/magazine/vivere-auto/peugeot-308-a-5-stelle",
           "note": "5 כוכבים להגנת נוסעים בוגרים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: Motorbox המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן ₪762, גדול ₪1,320 כולל עבודה)",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 2,
+            "costIls": [
+              762,
+              1320
+            ],
+            "source": {
+              "title": "auto.co.il (22.12.2014) — Peugeot 308 1st gen used guide: small service parts ₪425 + labour ₪337, large service parts ₪829 + labour ₪491, incl. VAT; interval 20,000 km/2 years after 2012 (30,000 km before) (2014 prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/112171/"
+            }
+          },
+          {
+            "he": "החלפת שרשרת תזמון במנוע 1.6 כשהיא מתארכת — לבדוק רעשי נקישה בהתנעה קרה",
+            "kind": "risk",
+            "costIls": [
+              2500,
+              4000
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "auto.co.il (22.12.2014) — Peugeot 308 1st gen used guide: 1.6 timing-chain replacement ₪2,500–4,000 depending on damage (2014 prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/112171/"
+            }
+          }
+        ]
       }
     },
     "408": {

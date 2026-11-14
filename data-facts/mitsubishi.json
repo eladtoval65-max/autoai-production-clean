@@ -421,7 +421,23 @@
             "title": "Cartube — מיצובישי אטראז' בישראל: מחיר החל מ-88,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/מיצובישי-אטראז-בישראל-–-מחיר-החל-מ-88,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן כ-₪500, גדול כ-₪1,000)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              500,
+              1000
+            ],
+            "source": {
+              "title": "auto.co.il (17.06.2020) — Mitsubishi Attrage used guide: small service ≈ ₪500, large ≈ ₪1,000 (2020 prices; garage type not stated); interval 15,000 km/12 months per Mitsubishi Mirage/Attrage maintenance schedule",
+              "url": "https://www.auto.co.il/article/roadcartest/133744-pre-owned-auto-mitsubishi-attrage"
+            }
+          }
+        ]
       }
     },
     "eclipse-cross": {

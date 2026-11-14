@@ -67,7 +67,23 @@
             "title": "Cartube — קיה ספורטאז׳ החדש 2022 בישראל: מחיר 169,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/קיה-ספורטאז-החדש-2022-בישראל-מחיר-169900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפולים לפי הוראות היצרן (שנה ראשונה ₪1,202; ממוצע 5 שנים ₪2,074 לשנה)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1202,
+              2074
+            ],
+            "source": {
+              "title": "auto.co.il (29.07.2026) — RAV4 vs Sportage vs Tucson cost comparison at 15,000 km/yr: Sportage manufacturer-schedule services ₪1,202 (1 yr), ₪4,859 (3 yrs), ₪10,370 (5 yrs); ₪ per visit = 1-year cost and 5-year total ÷ 5 (2026 prices)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/rav4-sportage-tucson-hybrid/"
+            }
+          }
+        ]
       },
       "QL": {
         "issues": [
@@ -198,7 +214,23 @@
             "title": "וואלה! רכב — השקת קיה ספורטאז' הדור השלישי בישראל (15.11.2010)",
             "url": "https://cars.walla.co.il/item/1755797"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (15 אלף ₪480, 30 אלף ₪753)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              480,
+              753
+            ],
+            "source": {
+              "title": "Walla Cars (08.02.2015) — Kia Sportage 1.6 Urban road test: service 15,000 km ₪480, 30,000 km ₪753, total to 60,000 km ₪2,467 (2015 prices; price supplier not stated)",
+              "url": "https://cars.walla.co.il/item/2827141"
+            }
+          }
+        ]
       }
     },
     "picanto": {

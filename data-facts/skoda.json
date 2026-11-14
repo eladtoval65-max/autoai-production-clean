@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -303,6 +303,19 @@
             "source": {
               "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models (i20 cheapest, RAV4 dearest), big service per model; Skoda Octavia big service ₪1,574",
               "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
+            }
+          },
+          {
+            "he": "החלפת מותחן רצועת אלטרנטור (עם רצועה מקורית)",
+            "kind": "scheduled",
+            "intervalKm": 60000,
+            "costIls": [
+              1200,
+              1200
+            ],
+            "source": {
+              "title": "Walla Cars — used economical family cars: Octavia 4th gen alternator tensioner every 60,000 km ≈ ₪1,200",
+              "url": "https://cars.walla.co.il/item/3827716"
             }
           }
         ]
