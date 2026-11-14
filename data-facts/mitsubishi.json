@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-11-08",
+  "updated": "2026-11-14",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -77,7 +77,22 @@
             "title": "icar — מיצובישי אאוטלנדר החדש בישראל: החל מ-144,900 שקל (19.12.2012)",
             "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_אאוטלנדר_החדש_בישראל:_החל_מ-_144,900_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן — טיפול 20,000 ק\"מ עלה ₪1,048 (שמן סינתטי, מסננים ועבודה, כולל מע\"מ)",
+            "kind": "service",
+            "intervalKm": 20000,
+            "costIls": [
+              1048,
+              1048
+            ],
+            "source": {
+              "title": "Walla Cars long-term test (15.09.2013) — new Outlander 20,000 km service at the importer ₪1,047.74 incl. VAT (parts ₪437 + labour ₪450) (2013 price)",
+              "url": "https://cars.walla.co.il/item/2678456"
+            }
+          }
+        ]
       },
       "GN": {
         "issues": [

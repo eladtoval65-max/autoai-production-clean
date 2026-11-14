@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "models": {
     "sportage": {
       "NQ5": {
@@ -1429,7 +1429,23 @@
           "year": 2006,
           "url": "https://www.automobile.at/magazine/17930",
           "note": "4 כוכבים בהגנה על נוסעים (Euro NCAP, סתיו 2006, לפני מתיחת הפנים; הולכי רגל: כוכב 1) — לפי automobile.at"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך כללי — ממוצע גלגלים: טיפול קטן ₪510, טיפול גדול (90 אלף/6 שנים) ₪760; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              510,
+              760
+            ],
+            "source": {
+              "title": "Walla Cars 'על הליפט' (09.07.2018) — Kia Carnival gen 2 (2006–2012): Galgalim general-garage averages, small service ₪510 (15,000 km/yr), big service ₪760 (2018 prices)",
+              "url": "https://cars.walla.co.il/item/3171770"
+            }
+          }
+        ]
       }
     },
     "ev9": {

@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "corolla": {
       "E150": {
@@ -1354,6 +1354,19 @@
             "source": {
               "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
               "url": "https://cars.walla.co.il/item/3651117"
+            }
+          },
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (דור 3): טיפול 15/45/75 אלף ₪426, 30 אלף ₪576, 60 אלף ₪743",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              426,
+              743
+            ],
+            "source": {
+              "title": "Walla Cars 'על הליפט' (15.08.2013) — Toyota Prius gen 3 (2009+) service prices: 15k ₪426, 30k ₪576, 60k ₪743 (VAT status not stated) (2013 prices)",
+              "url": "https://cars.walla.co.il/item/2669837"
             }
           }
         ]

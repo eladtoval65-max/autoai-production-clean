@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -2048,6 +2048,21 @@
             "source": {
               "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
               "url": "https://cars.walla.co.il/item/3651117"
+            }
+          },
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (סונטה היברידית: ₪12,638 עד 105 אלף ק\"מ; ₪4,915 ל-3 שנים)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1638,
+              1805
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "Walla Cars (26.01.2023) — importer service costs incl. VAT: Sonata Hybrid ₪12,638 to 105,000 km (7 services) and ₪4,915 for 3 years; ₪ per visit = total ÷ 7 / ÷ 3 (2023 prices)",
+              "url": "https://cars.walla.co.il/item/3554226"
             }
           }
         ]

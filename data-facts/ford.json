@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -197,7 +197,37 @@
             "title": "וואלה! רכב — בארץ: פורד קוגה ופיאסטה החדשות (27.02.2013)",
             "url": "https://cars.walla.co.il/item/2620521"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול 15,000 ק\"מ במוסך היבואן (שמן ומסנן + בדיקות): ₪381 בחלפים תחליפיים / ₪431 מקוריים; הטיפולים הגדולים יקרים יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              381,
+              431
+            ],
+            "scope": "1.5 טורבו",
+            "source": {
+              "title": "Walla Cars long-term test (18.06.2018) — Ford Kuga 1.5T facelift, first 15,000 km service at the importer incl. VAT: ₪381 (aftermarket) / ₪431 (original) (2018 prices)",
+              "url": "https://cars.walla.co.il/item/3166319"
+            }
+          },
+          {
+            "he": "שני צינורות מי הקירור בין המנוע ליחידת החימום: תקלה מוכרת; החלפה כ-₪3,000 כולל עבודה.",
+            "kind": "risk",
+            "costIls": [
+              3000,
+              3000
+            ],
+            "scope": "1.6 טורבו",
+            "source": {
+              "title": "auto.co.il (02.01.2023) — Ford Kuga 2013–2020 used guide: 1.6 coolant hoses to heater, replacement ~₪3,000 incl. labour",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135732/"
+            }
+          }
+        ]
       },
       "Gen3": {
         "issues": [

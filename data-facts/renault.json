@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "clio": {
       "Clio IV": {
@@ -901,6 +901,35 @@
             "source": {
               "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          },
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (בנזין, כולל מע\"מ): טיפול 30 אלף ₪824, 60 אלף ₪1,274, 120 אלף ₪2,012",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              824,
+              2012
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Walla Cars 'על הליפט' (09.01.2014) — Renault Fluence 2009–2012 importer service prices incl. VAT, petrol: 30k ₪823.64, 60k ₪1,274, 120k ₪2,011.90 (2014 prices)",
+              "url": "https://cars.walla.co.il/item/2709638"
+            }
+          },
+          {
+            "he": "החלפת רצועת תזמון (מחזיקה כ-90 אלף ק\"מ): כ-₪2,500; טיפול 90 אלף כולל רצועה ₪3,398",
+            "kind": "scheduled",
+            "intervalKm": 90000,
+            "costIls": [
+              2500,
+              2500
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Walla Cars 'על הליפט' (09.01.2014) — Renault Fluence: timing belt lasts ~90,000 km, replacement ~₪2,500; 90k service + timing ₪3,398.40 (2014 prices)",
+              "url": "https://cars.walla.co.il/item/2709638"
             }
           }
         ]
