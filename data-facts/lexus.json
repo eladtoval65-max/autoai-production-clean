@@ -586,7 +586,22 @@
             "title": "וואלה רכב (10.4.2011) — לקסוס CT200h: יוקרה ענווה",
             "url": "https://cars.walla.co.il/item/1813809"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: החלפה מחוץ לאחריות יקרה. בקנייה: לבדוק היסטוריית סוללה והאם קיימת הרחבת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              15475,
+              15475
+            ],
+            "scope": "CT200h 2011–2020",
+            "source": {
+              "title": "Walla Cars (17.03.2024) — hybrid battery prices from the importers: Lexus CT200h 2011–2020 ₪15,475",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       }
     },
     "is": {

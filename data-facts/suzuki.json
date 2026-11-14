@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "swift": {
       "AZ": {
@@ -849,7 +849,22 @@
           "year": 2007,
           "url": "https://www.autoblog.it/post/7686/crash-test-euro-ncap-per-freelander-2-e-grand-vitara",
           "note": "4 כוכבים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחות הפנים; מקור: Autoblog.it המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "דיפרנציאל קדמי שחוק: החלפה בחדש יקרה. בנסיעת מבחן: להקשיב ליללות/רעשים מהסרן הקדמי ובפניות.",
+            "kind": "risk",
+            "costIls": [
+              10000,
+              10000
+            ],
+            "scope": "4x4",
+            "source": {
+              "title": "auto.co.il (24.01.2023) — Suzuki Grand Vitara (gen 3) used buying guide: worn front differential, new unit ≈ ₪10,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135821/"
+            }
+          }
+        ]
       }
     },
     "alto": {

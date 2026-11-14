@@ -1069,6 +1069,19 @@
               "title": "auto.co.il (09.07.2024) — used crossovers up to ₪105,000: Kona 1.6T DCT clutches ₪12,000, Ateca 1.5 TSI DSG clutches ₪6,000",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137278/"
             }
+          },
+          {
+            "he": "סוללת ההנעה ההיברידית: החלפה מחוץ לאחריות יקרה מאוד. בקנייה: לבדוק אם הסוללה עדיין באחריות (אפשר להאריך ב-400 ₪ לשנה) ולבקש בדיקת סוללה.",
+            "kind": "risk",
+            "costIls": [
+              19740,
+              19740
+            ],
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "Walla Cars (17.03.2024) — hybrid battery prices from the importers: Hyundai Kona Hybrid ₪19,740",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
           }
         ]
       },

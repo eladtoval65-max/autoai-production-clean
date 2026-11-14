@@ -271,7 +271,38 @@
             "title": "Cartube — פיאט דובלו החדש 2023 בישראל: מחיר 172,990 שקל (20.04.2023)",
             "url": "https://www.cartube.co.il/חדשות-רכב/פיאט-דובלו-החדש-2023-בישראל-מחיר-172990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (ממוצע לביקור)",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              1839,
+              1839
+            ],
+            "scope": "1.5 דיזל",
+            "source": {
+              "title": "Walla Cars (27.09.2023) — importer-supplied service costs: Doblo (2022) 1.5 diesel ₪7,356 to 80,000 km at 20,000 km/1 year (₪ per visit = total ÷ 4 visits)",
+              "url": "https://cars.walla.co.il/item/3612126"
+            }
+          },
+          {
+            "he": "החלפת ערכת רצועת תזמון (כולל עבודה) בטיפול 100,000 ק״מ",
+            "kind": "scheduled",
+            "intervalKm": 100000,
+            "costIls": [
+              4815,
+              4815
+            ],
+            "scope": "1.5 דיזל",
+            "source": {
+              "title": "Walla Cars (27.09.2023) — Doblo (2022) service cost to 100,000 km: ₪9,767 without the timing-belt kit, ₪14,582 with it (difference ₪4,815 = kit + labour)",
+              "url": "https://cars.walla.co.il/item/3612126"
+            }
+          }
+        ]
       }
     },
     "grande-panda": {

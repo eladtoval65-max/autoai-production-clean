@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "c3": {
       "Gen3": {
@@ -697,7 +697,24 @@
             "title": "cartube.co.il — סיטרואן ברלינגו החדש 2019 בישראל - מחיר 143,990 שקל (27.05.2019)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סיטרואן-ברלינגו-החדש-2019-בישראל-מחיר-143990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (ממוצע לביקור)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1489,
+              1489
+            ],
+            "scope": "1.5 BlueHDi דיזל",
+            "source": {
+              "title": "Walla Cars (27.09.2023) — importer-supplied service costs: Berlingo 1.5 diesel ₪8,934 to 90,000 km at 15,000 km/1 year (₪ per visit = total ÷ 6 visits)",
+              "url": "https://cars.walla.co.il/item/3612126"
+            }
+          }
+        ]
       }
     },
     "c4-picasso": {

@@ -1,6 +1,6 @@
 {
   "make": "chevrolet",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "spark": {
       "M300": {
@@ -236,7 +236,23 @@
             "title": "icar — שברולט קרוז בישראל (15.04.2009)",
             "url": "https://www.icar.co.il/חדשות_רכב/שברולט_קרוז_בישראל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול 15,000 ק״מ, מחירי 2012)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              525,
+              525
+            ],
+            "scope": "1.4 טורבו",
+            "source": {
+              "title": "Walla Cars long-term test (02.10.2012) — Chevrolet Cruze Turbo 15,000 km service bill (2012 prices): oil ₪157.6 + filter ₪83.8 + plug seal ₪10.8 + washer fluid ₪24 + service labour ₪176, +16% VAT ≈ ₪525 (brake parts on the same bill excluded)",
+              "url": "https://cars.walla.co.il/item/2570470"
+            }
+          }
+        ]
       }
     },
     "trax": {

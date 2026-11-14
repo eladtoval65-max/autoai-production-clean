@@ -1979,6 +1979,22 @@
               "url": "https://www.autokostencheck.de/VW/VW-Beetle/Beetle-II/beetle-1-4-tsi-16_39743/verbrauch/"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול 15,000 ק״מ, מחירי 2015)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              547,
+              547
+            ],
+            "scope": "1.2 TSI",
+            "source": {
+              "title": "Walla Cars long-term test (22.02.2015) — VW Beetle 1.2 TSI first service at 15,000 km at the importer garage: ₪547 total incl. labour, oil and filter (2015 prices)",
+              "url": "https://cars.walla.co.il/item/2831355"
+            }
+          }
         ]
       }
     }

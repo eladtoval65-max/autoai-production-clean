@@ -1,6 +1,6 @@
 {
   "make": "opel",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "corsa": {
       "Corsa F": {
@@ -367,7 +367,23 @@
           "year": 2009,
           "url": "https://www.euroncap.com/en/results/opel/vauxhall/astra/11052",
           "note": "5 כוכבים (Euro NCAP, 2009); מקור: Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול 15,000 ק״מ, מחירי 2012)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              387,
+              387
+            ],
+            "scope": "1.4 טורבו",
+            "source": {
+              "title": "Walla Cars long-term test (10.01.2012) — Opel Astra Turbo 1.4: 15,000 km service ₪387 incl. labour, parts and oils (2012 prices)",
+              "url": "https://cars.walla.co.il/item/1892444"
+            }
+          }
+        ]
       },
       "Astra L": {
         "issues": [
