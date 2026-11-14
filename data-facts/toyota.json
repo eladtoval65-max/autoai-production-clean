@@ -60,7 +60,24 @@
           "year": 2007,
           "url": "https://www.carmagazine.co.uk/car-news/industry-news/euro-ncap-latest/",
           "note": "5 כוכבים (Euro NCAP, 2007) — גרסת הסדאן, מבחן לדגם לפני מתיחת הפנים; מקור: CAR Magazine המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול קטן ₪405; טיפול 90/180 אלף עם מצתי אירידיום ₪975–1,025)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              405,
+              1025
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "queenoftheroad.co.il (06.01.2021) — Corolla service guide: importer price list for 2008–2012 1.6, incl. VAT (2021 prices; no newer per-model list found)",
+              "url": "https://www.queenoftheroad.co.il/%d7%94%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%98%d7%95%d7%99%d7%95%d7%98%d7%94-%d7%a7%d7%95%d7%a8%d7%95%d7%9c%d7%94-%d7%98%d7%99%d7%a4%d7%95%d7%9c%d7%99%d7%9d-%d7%a9%d7%95%d7%98%d7%a4%d7%99%d7%9d/"
+            }
+          }
+        ]
       },
       "E170": {
         "issues": [
@@ -127,7 +144,24 @@
             "title": "Cartube — טויוטה קורולה החדשה 2013 בישראל: מחיר החל מ-123,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-קורולה-החדשה-2013-בישראל-מחיר-החל-מ-123990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול קטן ₪405; טיפול 90 אלף עם מצתי אירידיום ₪1,015)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              405,
+              1015
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "queenoftheroad.co.il (06.01.2021) — Corolla service guide: importer price list for 2013–2017 1.6, incl. VAT (2021 prices; no newer per-model list found)",
+              "url": "https://www.queenoftheroad.co.il/%d7%94%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%98%d7%95%d7%99%d7%95%d7%98%d7%94-%d7%a7%d7%95%d7%a8%d7%95%d7%9c%d7%94-%d7%98%d7%99%d7%a4%d7%95%d7%9c%d7%99%d7%9d-%d7%a9%d7%95%d7%98%d7%a4%d7%99%d7%9d/"
+            }
+          }
+        ]
       },
       "E210": {
         "issues": [

@@ -1173,6 +1173,32 @@
               "title": "Walla Cars (12/2024) — importer main-garage service cost to 90,000 / 120,000 km at one service per year or 15,000 km; ₪ per visit = total ÷ 6 / ÷ 8 visits",
               "url": "https://cars.walla.co.il/item/3712321"
             }
+          },
+          {
+            "he": "מצבר 12V (ליתיום) בגרסה ההיברידית: החלפה עולה מעל ₪5,000.",
+            "kind": "risk",
+            "costIls": [
+              5000,
+              5000
+            ],
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "Walla Cars (19.09.2025) — used hybrid crossovers: Kona Hybrid 2nd gen 12V lithium battery replacement over ₪5,000",
+              "url": "https://cars.walla.co.il/item/3782024"
+            }
+          },
+          {
+            "he": "חיישני טמפרטורת פליטה (שניים ברכב) נשחקים מהר: כ-₪1,200 לחיישן.",
+            "kind": "risk",
+            "costIls": [
+              1200,
+              2400
+            ],
+            "scope": "1.6 היברידי",
+            "source": {
+              "title": "Walla Cars (19.09.2025) — used hybrid crossovers: Kona Hybrid 2nd gen exhaust temperature sensors ≈ ₪1,200 each, two fitted, wear quickly",
+              "url": "https://cars.walla.co.il/item/3782024"
+            }
           }
         ]
       }

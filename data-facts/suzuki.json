@@ -863,6 +863,19 @@
               "title": "auto.co.il (24.01.2023) — Suzuki Grand Vitara (gen 3) used buying guide: worn front differential, new unit ≈ ₪10,000",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135821/"
             }
+          },
+          {
+            "he": "יחידת תיבת ההעברה/דיפרנציאל (קומבו) נשחקת גם ברכבים שלא נסעו בשטח: שיפוץ כ-₪1,000, יחידה חדשה כ-₪3,000.",
+            "kind": "risk",
+            "costIls": [
+              1000,
+              3000
+            ],
+            "scope": "4x4",
+            "source": {
+              "title": "auto.co.il (24.01.2023) — Suzuki Grand Vitara (gen 3) used buying guide: transfer-case/differential combo unit wears; rebuild ≈ ₪1,000, new ≈ ₪3,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135821/"
+            }
           }
         ]
       }
