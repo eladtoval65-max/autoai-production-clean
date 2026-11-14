@@ -1,6 +1,6 @@
 {
   "make": "tesla",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "model-3": {
       "Gen1": {
@@ -99,7 +99,22 @@
             "title": "icar — נחשפו המחירים של טסלה בישראל (02.02.2021)",
             "url": "https://www.icar.co.il/%D7%A8%D7%9B%D7%91-%D7%97%D7%A9%D7%9E%D7%9C%D7%99/%D7%A0%D7%97%D7%A9%D7%A4%D7%95_%D7%94%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%98%D7%A1%D7%9C%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תחזוקה שנתית (מסנן מזגן, מגבים, רוטציית צמיגים) — אין טיפול תקופתי חובה; הערכה: עד כ-700 ₪ בשנה",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "auto.co.il (10.02.2026) — Tesla maintenance in Israel: standard annual upkeep estimated at under ₪700 a year (industry sources)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/tesla-maintenance/"
+            }
+          }
+        ]
       },
       "Highland": {
         "issues": [
@@ -179,7 +194,22 @@
             "title": "Cartube — טסלה מודל 3 החדשה נחשפת, כבר זמינה לרכישה בישראל (01.09.2023)",
             "url": "https://www.cartube.co.il/חדשות-רכב/טסלה-מודל-3-החדשה-2024-נחשפת-כבר-זמינה-לרכישה-בישראל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תחזוקה שנתית (מסנן מזגן, מגבים, רוטציית צמיגים) — אין טיפול תקופתי חובה; הערכה: עד כ-700 ₪ בשנה",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "auto.co.il (10.02.2026) — Tesla maintenance in Israel: standard annual upkeep estimated at under ₪700 a year (industry sources)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/tesla-maintenance/"
+            }
+          }
+        ]
       }
     },
     "model-y": {
@@ -279,7 +309,22 @@
             "title": "icar — טסלה מודל Y: החל השיווק בישראל (05.04.2022)",
             "url": "https://www.icar.co.il/רכב-חשמלי/טסלה_מודל_Y:_החל_השיווק_בישראל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תחזוקה שנתית (מסנן מזגן, מגבים, רוטציית צמיגים) — אין טיפול תקופתי חובה; הערכה: עד כ-700 ₪ בשנה",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "auto.co.il (10.02.2026) — Tesla maintenance in Israel: standard annual upkeep estimated at under ₪700 a year (industry sources)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/tesla-maintenance/"
+            }
+          }
+        ]
       },
       "Juniper": {
         "issues": [
@@ -350,7 +395,22 @@
             "title": "Queen of the Road — טסלה מודל Y החדש 2025 תחילת שיווק (21.02.2025)",
             "url": "https://www.queenoftheroad.co.il/טסלה-מודל-y/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תחזוקה שנתית (מסנן מזגן, מגבים, רוטציית צמיגים) — אין טיפול תקופתי חובה; הערכה: עד כ-700 ₪ בשנה",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "auto.co.il (10.02.2026) — Tesla maintenance in Israel: standard annual upkeep estimated at under ₪700 a year (industry sources)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/tesla-maintenance/"
+            }
+          }
+        ]
       }
     },
     "model-s": {

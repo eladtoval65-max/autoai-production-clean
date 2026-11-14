@@ -1,6 +1,6 @@
 {
   "make": "geely",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "coolray": {
       "Gen1": {
@@ -98,7 +98,23 @@
             "title": "מלכת הכביש — ג'ילי גאומטרי C בישראל מ-133,900 שקלים (01.11.2021)",
             "url": "https://www.queenoftheroad.co.il/geely-%d7%92%d7%90%d7%95%d7%9e%d7%98%d7%a8%d7%99-c-%d7%a7%d7%a8%d7%95%d7%a1%d7%90%d7%95%d7%91%d7%a8-%d7%97%d7%a9%d7%9e%d7%9c%d7%99-%d7%97%d7%93%d7%a9-450-%d7%a7%d7%9e-%d7%9e-133900-%d7%a9%d7%a7/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן) במרכז השירות של היבואן — כ-1,200 ₪ לפני מתיחת הפנים, 400–500 ₪ אחריה; טיפול גדול (80–100 אלף ק״מ / 4 שנים) מעל 2,000 ₪",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              400,
+              1200
+            ],
+            "source": {
+              "title": "iCar (12.11.2023) — EV service prices from the importers' price lists: Geely Geometry C small service ₪1,200 (pre-facelift) / ₪400–500 (facelift); interval 20,000 km or 1 year per auto.co.il (03.10.2025)",
+              "url": "https://www.icar.co.il/חדשות_רכב/h1vvzkvka/"
+            }
+          }
+        ]
       }
     },
     "ex5": {

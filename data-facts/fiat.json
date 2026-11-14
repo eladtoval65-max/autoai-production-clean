@@ -689,6 +689,19 @@
               "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0130-fiat-panda-2003-2013-bericht.pdf"
             }
           }
+        ],
+        "engines": [
+          {
+            "name": "1.2 בנזין 60 כ״ס",
+            "pt": "petrol",
+            "hp": 60,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Fiat Panda 1.2 (169) 60 PS: real-world avg 6.2 l/100 km (51 user reports)",
+              "url": "https://www.autokostencheck.de/Fiat/Fiat-Panda/Panda/panda-1-2-169_8864/verbrauch/"
+            }
+          }
         ]
       },
       "319": {
@@ -732,7 +745,31 @@
           "year": 2011,
           "url": "https://www.autoexpress.co.uk/fiat/panda/105415/fiat-panda-gets-shocking-zero-star-ncap-crash-test-rating",
           "note": "4 כוכבים ב-2011; בדירוג מחודש של Euro NCAP בדצמבר 2018 — 0 כוכבים (הגנת ילדים 16%)"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 בנזין 69 כ״ס",
+            "pt": "petrol",
+            "hp": 69,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Fiat Panda 1.2 (312) 2012–2014 69 PS: real-world avg 5.8 l/100 km (188 user reports)",
+              "url": "https://www.autokostencheck.de/Fiat/Fiat-Panda/Panda/panda-1-2-312_36970/verbrauch/"
+            }
+          },
+          {
+            "name": "0.9 TwinAir טורבו 85 כ״ס",
+            "pt": "petrol",
+            "hp": 85,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Fiat Panda 0.9 TwinAir (312) 2012–2014 86 PS: real-world avg 5.2 l/100 km (70 user reports)",
+              "url": "https://www.autokostencheck.de/Fiat/Fiat-Panda/Panda/panda-0-9-312_36971/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

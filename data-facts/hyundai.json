@@ -2619,6 +2619,48 @@
           }
         ]
       }
+    },
+    "ioniq-5-n": {
+      "NE N": {
+        "issues": [
+          {
+            "he": "ריקול: תוכנת הבלמים (IEB) ויחידת הבקרה (VCU) עלולה להפחית את כוח הבלימה — ואף לנטרל ABS — כשמופעלת בלימת רגל שמאל (LFB); לוודא עדכון תוכנה (הוחלף בריקול 25V-235).",
+            "level": "recall",
+            "scope": "דגם 2025 (NHTSA 25V065 / 25V235)",
+            "source": {
+              "title": "CarComplaints — NHTSA recall 25V065000 (2025 Hyundai IONIQ 5 N, left-foot braking)",
+              "url": "https://www.carcomplaints.com/Hyundai/IONIQ_5/2025/recalls/25v065000.shtml"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "84 קוט״ש, שני מנועים 609 כ״ס (650 ב-Boost)",
+            "pt": "ev",
+            "hp": 609,
+            "cons": 18.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 5 N (MY24): combined real-world consumption 182 Wh/km in mild weather (239 Wh/km cold)",
+              "url": "https://ev-database.org/car/2044/Hyundai-IONIQ-5-N"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "גרסת N לא נבדקה בנפרד ב-Euro NCAP; איוניק 5 הרגיל קיבל 5 כוכבים (2021)",
+          "url": "https://news.euroncap.com/safercars/ford--hyundai-and-toyota-lead-the-way-to-making-safer-and-greener-choices/s/0184d965-e1fb-4965-90e8-d11baf19abd7"
+        },
+        "launchPrice": {
+          "ils": 400000,
+          "year": 2024,
+          "note": "מחיר השקה בתקופת הטרום-מכירה",
+          "source": {
+            "title": "auto.co.il (16.06.2024) — Hyundai Ioniq 5 N in Israel from ₪400,000",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137205/"
+          }
+        }
+      }
     }
   }
 }

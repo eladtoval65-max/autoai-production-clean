@@ -1264,7 +1264,22 @@
             "title": "icar — פולקסווגן ID.4 בישראל: מ-215,000 שקלים (24.10.2022)",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F_ID.4_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%9E-215,000_%D7%A9%D7%A7%D7%9C%D7%99%D7%9D/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן) במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              820
+            ],
+            "source": {
+              "title": "iCar (12.11.2023) — EV small-service prices from the importers' price lists: VW ID.4 / Skoda Enyaq / BYD Atto 3 ₪650–820",
+              "url": "https://www.icar.co.il/חדשות_רכב/h1vvzkvka/"
+            }
+          }
+        ]
       }
     },
     "touareg": {
@@ -1940,7 +1955,31 @@
           "stars": 5,
           "year": 2011,
           "url": "https://cdn.euroncap.com/media/6745/euroncap_vw_beetle_2011_5stars.pdf"
-        }
+        },
+        "engines": [
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 7.1,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — VW Beetle 1.2 TSI (16) 2011–2018 105 PS: real-world avg 7.1 l/100 km (516 user reports)",
+              "url": "https://www.autokostencheck.de/VW/VW-Beetle/Beetle-II/beetle-1-2-tsi-16_36275/verbrauch/"
+            }
+          },
+          {
+            "name": "1.4 TSI בנזין 150 כ״ס",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — VW Beetle 1.4 TSI (16) 2014–2018 150 PS: real-world avg 7.4 l/100 km (83 user reports)",
+              "url": "https://www.autokostencheck.de/VW/VW-Beetle/Beetle-II/beetle-1-4-tsi-16_39743/verbrauch/"
+            }
+          }
+        ]
       }
     }
   }

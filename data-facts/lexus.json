@@ -588,6 +588,72 @@
           }
         }
       }
+    },
+    "is": {
+      "XE30": {
+        "issues": [
+          {
+            "he": "רעשים וטרטורים מלוח המחוונים — בדרך כלל מכיסוי רמקול קדמי או מפתחי המזגן; תיקון לא תמיד מצליח. בנסיעת מבחן: להקשיב בכביש משובש.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — used Lexus IS review (2013–2020), 06/2018",
+              "url": "https://www.autoexpress.co.uk/lexus/is/97471/used-lexus-is-review/page/0/1"
+            }
+          },
+          {
+            "he": "מכסה מנוע אקטיבי (נפתח בפגיעת הולך רגל/חיה): אם הופעל, כל המנגנון מוחלף בעלות גבוהה. בבדיקה: לוודא שלא הופעל ושאין נורית אזהרה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express — used Lexus IS review (2013–2020), 06/2018",
+              "url": "https://www.autoexpress.co.uk/lexus/is/97471/used-lexus-is-review/page/0/1"
+            }
+          },
+          {
+            "he": "מערכת המולטימדיה קיבלה כמה עדכוני תוכנה — לוודא שהותקנה הגרסה העדכנית.",
+            "level": "manufacturer",
+            "source": {
+              "title": "Auto Express — used Lexus IS review (2013–2020), 06/2018",
+              "url": "https://www.autoexpress.co.uk/lexus/is/97471/used-lexus-is-review/page/0/1"
+            }
+          },
+          {
+            "he": "קריאת שירות: תקלה בשסתום אוורור מיכל הדלק — סכנת שריפה. לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "IS / RC / GS מתוצרת 2012–2018 (ריקול אוסטרלי, 12/2022)",
+            "source": {
+              "title": "CarsGuide — Lexus IS problems: fuel tank vent recall (Dec 2022), IS/RC/GS 2012–2018",
+              "url": "https://www.carsguide.com.au/lexus/is/problems"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "IS 300h 2.5 היברידי 223 כ״ס",
+            "pt": "hybrid",
+            "hp": 223,
+            "cons": 6.2,
+            "unit": "L",
+            "source": {
+              "title": "Autokostencheck — Lexus IS 300h (XE3) 2013–2021: real-world avg 6.2 l/100 km (1,218 user reports)",
+              "url": "https://www.autokostencheck.de/Lexus/Lexus/Lexus-IS-200,300/lexus-is-300h-a-xe2_38061/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2013,
+          "url": "https://cdn.euroncap.com/media/5892/euroncap_lexus_is_300h_2013_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 249000,
+          "year": 2013,
+          "note": "IS 300h ברמת גימור Executive (המנוע היחיד בהשקה)",
+          "source": {
+            "title": "Cartube (14.10.2013) — Lexus IS 300h launched in Israel from ₪249,000",
+            "url": "https://www.cartube.co.il/חדשות-רכב/לקסוס-is-300h-החדשה-בישראל-–-מחיר-החל-מ-249,000-שקל"
+          }
+        }
+      }
     }
   }
 }
