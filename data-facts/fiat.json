@@ -1,6 +1,6 @@
 {
   "make": "fiat",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "500": {
       "312": {
@@ -651,6 +651,87 @@
           "stars": 0,
           "year": 2017,
           "url": "https://www.euroncap.com/press-media/fading-stars/"
+        }
+      }
+    },
+    "panda": {
+      "169": {
+        "issues": [
+          {
+            "he": "קריאת שירות: מים עלולים לחדור ליחידת ה-ABS דרך כבל ההארקה ויחד עם מלח לגרום לקצר ושריפה. בבדיקה: לוודא שהיחידה הוחלפה ונאטמה במסגרת הקריאה.",
+            "level": "recall",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Fiat Panda (2003–2013): Rückrufe",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0130-fiat-panda-2003-2013-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאת שירות: צנרת בלמים של היצרן CFGomma עם גיפור פגום — סכנת אובדן בלימה. בבדיקה: לוודא שהצנרת נבדקה והוחלפה לפי הסימון.",
+            "level": "recall",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Fiat Panda (2003–2013): Rückrufe",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0130-fiat-panda-2003-2013-bericht.pdf"
+            }
+          },
+          {
+            "he": "קריאת שירות: בציר הביניים של ההגה עלולות לחסור שתי לחיצות קיבוע — הציר עלול לצאת והרכב לא ניתן להיגוי. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Fiat Panda (2003–2013): Rückrufe",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0130-fiat-panda-2003-2013-bericht.pdf"
+            }
+          },
+          {
+            "he": "משאבת הדלק היא סיבת התקלה הנפוצה ביותר בסטטיסטיקת התקלות של ADAC, לצד מצבר וסליל הצתה. בנסיעת מבחן: לשים לב להתנעה קשה או לכיבוי.",
+            "level": "widely_reported",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Fiat Panda (2003–2013): Pannenstatistik",
+              "url": "https://assets.adac.de/Autodatenbank/GWInfo/gw0130-fiat-panda-2003-2013-bericht.pdf"
+            }
+          }
+        ]
+      },
+      "319": {
+        "issues": [
+          {
+            "he": "מנעול תא המטען החשמלי נוטה להיתקע; התיקון הוא החלפת המנעול כולו. בבדיקה: לפתוח ולנעול את תא המטען כמה פעמים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express (19.08.2016) — Used Fiat Panda (Mk3, 2012–2024) review",
+              "url": "https://www.autoexpress.co.uk/fiat/panda/96748/used-fiat-panda-review"
+            }
+          },
+          {
+            "he": "רעש חזק מאזור המצמד/תיבת ההילוכים — בדרך כלל מצמד פגום. בנסיעת מבחן: להקשיב לרעשים בלחיצה ובשחרור המצמד.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express (19.08.2016) — Used Fiat Panda (Mk3, 2012–2024) review",
+              "url": "https://www.autoexpress.co.uk/fiat/panda/96748/used-fiat-panda-review"
+            }
+          },
+          {
+            "he": "מנוע 1.2 בתקן Euro 6 מתקשה בזינוק מעמידה; עדכון תוכנה פותר. בבדיקה: לבדוק זינוק בעלייה ולשאול אם בוצע העדכון.",
+            "level": "manufacturer",
+            "scope": "1.2 Euro 6",
+            "source": {
+              "title": "Auto Express (19.08.2016) — Used Fiat Panda (Mk3, 2012–2024) review",
+              "url": "https://www.autoexpress.co.uk/fiat/panda/96748/used-fiat-panda-review"
+            }
+          },
+          {
+            "he": "חריקות בלוח המחוונים — בדרך כלל תושבות רופפות, בעיקר בצד הנוסע.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Auto Express (19.08.2016) — Used Fiat Panda (Mk3, 2012–2024) review",
+              "url": "https://www.autoexpress.co.uk/fiat/panda/96748/used-fiat-panda-review"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2011,
+          "url": "https://www.autoexpress.co.uk/fiat/panda/105415/fiat-panda-gets-shocking-zero-star-ncap-crash-test-rating",
+          "note": "4 כוכבים ב-2011; בדירוג מחודש של Euro NCAP בדצמבר 2018 — 0 כוכבים (הגנת ילדים 16%)"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-11-09",
+  "updated": "2026-11-14",
   "models": {
     "nx": {
       "AZ10": {
@@ -529,6 +529,64 @@
             }
           }
         ]
+      }
+    },
+    "ct": {
+      "ZWA10": {
+        "issues": [
+          {
+            "he": "קריאת שירות: ריתוך במנפח כרית האוויר הווילונית עלול להיסדק, וחלקים מהמנפח עלולים להיפלט לתא הנוסעים. בבדיקה: לוודא שהותקנו תושבות הקיבוע של הקריאה.",
+            "level": "recall",
+            "scope": "2011–2012",
+            "source": {
+              "title": "Cars.com — Lexus CT 200h recalls: NHTSA 16V487000 (curtain shield air bag inflator)",
+              "url": "https://www.cars.com/research/lexus-ct_200h/recalls"
+            }
+          },
+          {
+            "he": "חריקה או תקתוק בבלימה במהירות נמוכה — בדרך כלל סימן למפעיל (אקטואטור) בלמים שמתחיל להיכשל. בנסיעת מבחן: לבלום בעדינות מתחת ל-25 קמ״ש ולהקשיב.",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — Lexus CT200h (2017–2020) used car review: what to look for",
+              "url": "https://www.rac.co.uk/drive/car-reviews/lexus/ct/ct200h-2017-2020/"
+            }
+          },
+          {
+            "he": "צריכת שמן גבוהה במנוע 1.8 (2ZR-FXE) אצל חלק מהבעלים; הזנחה עלולה להוביל להתחממות ולנזק למנוע. בבדיקה: לבדוק מפלס שמן ולשאול כמה שמן מוסיפים בין טיפולים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "RAC — Lexus CT200h (2017–2020) used car review: what to look for",
+              "url": "https://www.rac.co.uk/drive/car-reviews/lexus/ct/ct200h-2017-2020/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.8 היברידי",
+            "pt": "hybrid",
+            "hp": 136,
+            "cons": 5.8,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Lexus CT200h, 2011–2017: ≈40.5 mpg (US) average over 1,042 vehicles / 81,874 fill-ups (converted to L/100km)",
+              "url": "https://fuelly.com/car/lexus/ct200h"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://cdn.euroncap.com/media/6635/euroncap_lexus_ct200h_2011_5stars.pdf"
+        },
+        "launchPrice": {
+          "ils": 180000,
+          "year": 2011,
+          "note": "גרסת הבסיס (עד כ-210 אלף ₪ בחבילת פרמיום טק)",
+          "source": {
+            "title": "וואלה רכב (10.4.2011) — לקסוס CT200h: יוקרה ענווה",
+            "url": "https://cars.walla.co.il/item/1813809"
+          }
+        }
       }
     }
   }

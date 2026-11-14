@@ -1204,6 +1204,126 @@
           "url": "https://news.euroncap.com/safercars/euro-ncap-publishes-the-results-of-eleven-vehicles/s/0ea4bee8-c69e-41e9-abf3-d6b9e88d8d89"
         }
       }
+    },
+    "s-max": {
+      "Mk2": {
+        "issues": [
+          {
+            "he": "קריאת שירות: פנסי LED אדפטיביים עלולים לכבות מעצמם בנסיעה (רכבים שיוצרו עד פברואר 2016). בבדיקה: לוודא שעודכנה התוכנה.",
+            "level": "recall",
+            "scope": "ייצור עד 2/2016 (בריטניה, יוני 2016)",
+            "source": {
+              "title": "Auto Express (25.09.2020) — Used Ford S-MAX (2015–2023) review: recalls",
+              "url": "https://www.autoexpress.co.uk/ford/s-max/96533/used-ford-s-max-2015-2023-review"
+            }
+          },
+          {
+            "he": "קריאת שירות: במנועי דיזל שהתחממו יתר על המידה עלולה להיסדק אגן השמן; עדכון תוכנה מזהה התחממות מוקדם. בבדיקה: לוודא שהקריאה בוצעה ולחפש דליפת שמן מתחת למנוע.",
+            "level": "recall",
+            "scope": "דיזל, ייצור מוקדם (מרץ 2018)",
+            "source": {
+              "title": "Auto Express (25.09.2020) — Used Ford S-MAX (2015–2023) review: recalls",
+              "url": "https://www.autoexpress.co.uk/ford/s-max/96533/used-ford-s-max-2015-2023-review"
+            }
+          },
+          {
+            "he": "קריאת שירות: לוחית הלחץ של המצמד במנוע 1.5 בנזין עלולה להישבר — ריח שרוף, איבוד הנעה וחבטה. בבדיקה: לוודא שהמצמד הוחלף במסגרת הקריאה.",
+            "level": "recall",
+            "scope": "1.5 EcoBoost (פברואר 2019)",
+            "source": {
+              "title": "Auto Express (25.09.2020) — Used Ford S-MAX (2015–2023) review: recalls",
+              "url": "https://www.autoexpress.co.uk/ford/s-max/96533/used-ford-s-max-2015-2023-review"
+            }
+          },
+          {
+            "he": "תיבת PowerShift (כפולת מצמדים) רגישה — דורשת שמן נכון ותחזוקה קפדנית כדי להימנע מתקלות יקרות. בבדיקה: לבקש תיעוד טיפולים בתיבה ולבדוק העברות חלקות.",
+            "level": "widely_reported",
+            "scope": "גרסאות אוטומטיות PowerShift",
+            "source": {
+              "title": "Auto Express (25.09.2020) — Used Ford S-MAX (2015–2023) review",
+              "url": "https://www.autoexpress.co.uk/ford/s-max/96533/used-ford-s-max-2015-2023-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TDCi דיזל",
+            "pt": "diesel",
+            "hp": 150,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest (07/2016) — Ford S-MAX 2.0 TDCi Titanium Allrad: Testverbrauch 6.1 l/100 km",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5475_Ford_S_MAX_2_0_TDCi_Start_Stopp_Titanium_Allrad/Ford_S_MAX_2_0_TDCi_Start_Stopp_Titanium_Allrad.pdf"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show"
+        }
+      }
+    },
+    "galaxy": {
+      "Mk4": {
+        "issues": [
+          {
+            "he": "קריאת שירות: בורג זרוע הכיוון (toe link) במתלה האחורי עלול להחליד ולהישבר; מוחלף ללא תשלום (קריאה מ-2021). בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "קריאה מ-2021 (כ-39,441 רכבים)",
+            "source": {
+              "title": "What Car? — Used Ford Galaxy 2015–2023: reliability, recalls",
+              "url": "https://whatcar.com/ford/galaxy/mpv/used-review/n832/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: פנסי LED אדפטיביים עלולים לכבות בלי אזהרה בגלל תקלת תוכנה; עדכון חינם אצל פורד. בבדיקה: לוודא שעודכנה התוכנה.",
+            "level": "recall",
+            "scope": "רכבים מוקדמים עם פנסי LED אדפטיביים",
+            "source": {
+              "title": "What Car? — Used Ford Galaxy 2015–2023: reliability, recalls",
+              "url": "https://whatcar.com/ford/galaxy/mpv/used-review/n832/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: לוחית הלחץ של המצמד במנוע 1.5 בנזין עלולה להישבר — ריח שרוף, האטה וחבטה. בבדיקה: לוודא מול פורד אם הרכב נכלל.",
+            "level": "recall",
+            "scope": "1.5 EcoBoost",
+            "source": {
+              "title": "What Car? — Used Ford Galaxy 2015–2023: reliability, recalls",
+              "url": "https://whatcar.com/ford/galaxy/mpv/used-review/n832/advice"
+            }
+          },
+          {
+            "he": "קריאת שירות: ברכבים מוקדמים אגן השמן עלול להיסדק אם המנוע מתחמם; תוכנה מעודכנת מזהה התחממות מוקדם. בבדיקה: לוודא שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור מוקדם",
+            "source": {
+              "title": "What Car? — Used Ford Galaxy 2015–2023: reliability, recalls",
+              "url": "https://whatcar.com/ford/galaxy/mpv/used-review/n832/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 TDCi דיזל",
+            "pt": "diesel",
+            "hp": 180,
+            "cons": 6.1,
+            "unit": "L",
+            "source": {
+              "title": "ADAC Autotest (05/2016) — Ford Galaxy 2.0 TDCi Titanium (180 PS): Testverbrauch 6.1 l/100 km",
+              "url": "https://assets.adac.de/image/upload/Autodatenbank/Autotest/AT5438_Ford_Galaxy_2_0_TDCi_Start_Stopp_Titanium/Ford_Galaxy_2_0_TDCi_Start_Stopp_Titanium.pdf"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2015,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/new-ratings-released-ahead-of-the-2015-frankfurt-motor-show"
+        }
+      }
     }
   }
 }

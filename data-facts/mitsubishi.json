@@ -756,7 +756,21 @@
           "stars": null,
           "url": "https://parkers.co.uk/mitsubishi/shogun/review/practicality",
           "note": "לא נבחן ב-Euro NCAP (לפי Parkers, דגם Shogun 2007-2018)"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "חלודה סביב חלון הגג — תיקון החלודה (ברכבים שנכללו בהסדר: החלפת חלון בהשתתפות ₪990 במקום ₪7,500)",
+            "kind": "risk",
+            "costIls": [
+              600,
+              1500
+            ],
+            "source": {
+              "title": "auto.co.il (12.04.2023) — Mitsubishi Pajero 4th gen used guide: sunroof-area rust repair ₪600–1,500",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/136079/"
+            }
+          }
+        ]
       }
     },
     "i-miev": {

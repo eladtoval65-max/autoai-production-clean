@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "models": {
     "mazda3": {
       "BL": {
@@ -161,7 +161,22 @@
             "title": "icar — מאזדה 3 החדשה בישראל: החל מ-128,000 שקל",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%9E%D7%90%D7%96%D7%93%D7%94_3_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C:_%D7%94%D7%97%D7%9C_%D7%9E-128,000_%D7%A9%D7%A7%D7%9C/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תקלה ביחידת תאורת LED (פנס) — מחיר יחידה בלי התקנה וכיול",
+            "kind": "risk",
+            "costIls": [
+              7300,
+              7300
+            ],
+            "scope": "גרסאות עם פנסי LED",
+            "source": {
+              "title": "auto.co.il (12.05.2019) — Mazda 3 3rd gen used guide: LED lighting unit ≈ ₪7,300 per unit excl. fitting",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/132143/"
+            }
+          }
+        ]
       },
       "BP": {
         "issues": [
@@ -297,7 +312,21 @@
             "title": "auto.co.il — מאזדה CX-5 בישראל – מ-167 אלף שקל",
             "url": "https://www.auto.co.il/articles/car-news/local-news/128585/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "דליפת שמן ממותח רצועת התזמון — החלפה מחוץ לאחריות",
+            "kind": "risk",
+            "costIls": [
+              1000,
+              1000
+            ],
+            "source": {
+              "title": "auto.co.il (28.04.2022) — Mazda CX-5 2nd gen used guide: timing-belt tensioner oil leak, replacement ≈ ₪1,000 out of warranty",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135095/"
+            }
+          }
+        ]
       },
       "KG": {
         "ncap": {
@@ -1122,6 +1151,105 @@
           "url": "https://www.carsguide.com.au/car-news/ncap-stars-prestige-euros-17494",
           "note": "4 כוכבים (Euro NCAP, יוני 2010 — לפי שיטת הניקוד החדשה שמחמירה בהגנת צוואר); מקור: CarsGuide המצטט את Euro NCAP"
         }
+      }
+    },
+    "mx-5": {
+      "ND": {
+        "issues": [
+          {
+            "he": "קריאת שירות: המדחף של משאבת הדלק בלחץ נמוך עלול להתעוות; המשאבה מפסיקה לעבוד והמנוע כבה בנסיעה. בבדיקה: לוודא שהמשאבה הוחלפה.",
+            "level": "recall",
+            "scope": "MX-5 RF 2017–2019 (אוסטרליה R202104 — לבדוק תחולה על הרכב הישראלי)",
+            "source": {
+              "title": "AustralianCar.Reviews — Mazda ND MX-5 RF recalls & faults (R202104, REC-005009)",
+              "url": "https://www.australiancar.reviews/?p=47306"
+            }
+          },
+          {
+            "he": "קריאת שירות: רעידות וסל״ד גבוה ממושך עלולים לפגוע בצינור הדלק — סכנת דליפת דלק ושריפה. בבדיקה: לוודא שהצינור הוחלף בצינור המתוקן.",
+            "level": "recall",
+            "scope": "מנוע 1.5, 2016–2018 (אוסטרליה R202505)",
+            "source": {
+              "title": "AustralianCar.Reviews — Mazda ND MX-5 recalls (R202505, REC-006444)",
+              "url": "https://www.australiancar.reviews/?p=47306"
+            }
+          },
+          {
+            "he": "נקישה מהמתלה האחורי במעבר על מהמורות — מגע בין כריכות קפיץ הבולם. מאזדה פרסמה עלון שירות עם מגן לקפיץ. בנסיעת מבחן: להקשיב לנקישות מאחור.",
+            "level": "manufacturer",
+            "source": {
+              "title": "AustralianCar.Reviews — Mazda ND MX-5: technical service bulletin (April 2017), rear suspension clunk",
+              "url": "https://www.australiancar.reviews/?p=47306"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 7.4,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Mazda MX-5 2016–2024 (US, 2.0): weighted ≈31.9 mpg over 125 vehicles (converted to L/100km)",
+              "url": "https://fuelly.com/car/mazda/mx-5/all"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2015,
+          "url": "https://www.euroncap.com/nl/pers/persberichten/tucson-tops-latest-euro-ncap-results"
+        }
+      },
+      "NC": {
+        "issues": [
+          {
+            "he": "חלודה — בעיקר בספים האחוריים (מוסתרים מאחורי לוחית פלסטיק), מאחורי הפגוש האחורי, במרכז הרצפה וברכיבי המתלים. בבדיקה: להרים את הרכב ולבדוק מתחת.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Mazda MX-5 (2005–2015) used buying guide",
+              "url": "https://parkers.co.uk/used-cars/mazda-mx5-2005-buying-guide"
+            }
+          },
+          {
+            "he": "קליפרים תקועים — נפוץ ברכבים שטופלו מעט או נסעו מעט. בנסיעת מבחן: לבדוק אם הרכב מושך לצד בבלימה חזקה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Mazda MX-5 (2005–2015) used buying guide",
+              "url": "https://parkers.co.uk/used-cars/mazda-mx5-2005-buying-guide"
+            }
+          },
+          {
+            "he": "גג קשיח מתקפל (RC): במנגנון חלקים חלשים בשנים הראשונות; גג שנתקע באמצע — חיישני מיקום. בבדיקה: לפתוח ולסגור כמה פעמים — טלטול או תנועה קופצנית מבשרים תיקון יקר.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Mazda MX-5 (2005–2015) used buying guide",
+              "url": "https://parkers.co.uk/used-cars/mazda-mx5-2005-buying-guide"
+            }
+          },
+          {
+            "he": "דליפת שמן מהדיפרנציאל האחורי; זמזום או רעש בהאצה מעיד על בעיה. בבדיקה: לחפש בית דיפרנציאל משומן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Parkers — Mazda MX-5 (2005–2015) used buying guide",
+              "url": "https://parkers.co.uk/used-cars/mazda-mx5-2005-buying-guide"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.0 בנזין",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 8.7,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Mazda MX-5 2010–2015 (US, 2.0): weighted ≈27.0 mpg over 87 vehicles (converted to L/100km)",
+              "url": "https://fuelly.com/car/mazda/mx-5/all"
+            }
+          }
+        ]
       }
     }
   }
