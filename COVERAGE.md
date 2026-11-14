@@ -52,7 +52,7 @@ The daily market agent works through this list top to bottom and ticks items off
 
 ## Queue — seen on importer price lists 2026-10-20, not yet covered
 - [x] Hyundai: Palisade, Ioniq 9 (2026-10-20)
-- [ ] Hyundai: Elantra N / Ioniq 5 N (performance versions)
+- [x] Hyundai: Elantra N / Ioniq 5 N (performance versions) — added 2026-11-14 as separate lines (+ Ioniq 6 N)
 - [x] Volkswagen: Tayron (2026-10-20)
 - [ ] Volkswagen: Golf GTI
 - [ ] Peugeot: e-3008 / e-5008 (check whether to fold into 3008/5008 lines)
@@ -220,11 +220,25 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Catalog (batch 24): Kia EV5, Leapmotor B05
 
 ## Queue — seen 2026-11-09, not yet covered
-- [ ] Genesis GV80 Coupé (₪599,990–725,000, both; JX1C, 3.5T 409 hp per Wikipedia mirror) — next run
+- [x] Genesis GV80 Coupé (₪599,990–725,000, both; JX1C) — added 2026-11-14
 - [ ] Hyundai i20 back on carzone (₪136,900; cartube no price); Ioniq 5 N (₪409,900) / Ioniq 6 N (₪399,900), both sources — separate lines?
 - [ ] Hyundai Tucson Long (carzone 199,900–248,900), Staria Van (carzone); BYD Tang (cartube 327,990), Seal U DMi separate card (carzone 199,990–214,990)
 - [ ] Suzuki e Vitara as its own line: both sources show e Vitara 154,990–179,990 = our "Vitara" range (owner)
 - [ ] VW Golf GTI ₪304,900 (both); Taigo / ID.5 / ID.7 (cartube only); Peugeot e-3008 ₪258,990 / e-5008 ₪294,990 (both — fold or separate, owner)
 - [ ] Opel Combo Life / Combo Life XL / Zafira (carzone only); Fiat Ulysse, 500C (carzone only); Lexus ES EV (carzone 379,990–429,990)
-- [ ] Used market, not yet researched: Fiat Panda, Renault Scenic / Laguna, Citroën C3 Picasso / DS5, Ford S-Max / Galaxy, VW Sharan / Beetle / Arteon, Seat Mii / Toledo, Lexus CT / IS, Subaru Legacy, Mazda MX-5, Jeep Compass MK49, Smart Fortwo, Jaguar / Infiniti (makes not on site)
+- [ ] Used market, not yet researched: Renault Scenic / Laguna, Citroën DS5, Seat Toledo, Subaru Legacy, Jeep Compass MK49, Smart Fortwo, Jaguar / Infiniti (makes not on site)
+- [ ] Seat Mii (engines/power not found on mirrors 2026-11-14), Citroën C3 Picasso (only autocade.net had years — find a Wikipedia copy)
 - [ ] Euro NCAP still to confirm: Peugeot 207, Renault Zoe 2013, Fiat Punto Grande/Evo, Fiat 500 2017 retest, Renault Koleos Gen1
+
+## Done 2026-11-14
+- [x] generations.ts (13): on sale — Hyundai Elantra N, Ioniq 5 N, Ioniq 6 N, Genesis GV80 Coupe; used market — Fiat Panda, Mazda MX-5, VW Sharan, Beetle, Arteon, Ford S-Max, Galaxy, Lexus CT 200h, IS
+- [x] Alfa Romeo Stelvio → discontinued (missing on carzone brand page + cartube "no longer marketed")
+- [ ] Catalog: no additions this run (time spent on full two-source price sweep)
+
+## Queue — seen 2026-11-14, not yet covered
+- [ ] Kia PV5 (₪209,900, carzone only); Hyundai Tucson Long / Staria Van (carzone only); Toyota City (both, commercial) / ProAce
+- [ ] Alfa Romeo Tonale (carzone 249,990–294,900 vs cartube 249,900–294,900 — near agreement); Giulia Quadrifoglio (carzone 729,900)
+- [ ] Mitsubishi Eclipse Cross (carzone 164,990–191,990; cartube "no longer marketed"); Audi A1 Sportback (carzone 183,300–207,550; cartube "no longer marketed")
+- [ ] BMW (cartube only): i3 (new), iX1, iX2, iX4, i5, iX, iX5, 8 Series, XM; Mercedes CLS (cartube), EQV (carzone)
+- [ ] Peugeot Traveller (carzone 298,990); VW Taigo 160,900 / Golf R / T-Roc Cabrio / Atlas (carzone only)
+- [ ] Owner: MG HS line vs EHS/plug-in (both sources now show HS up to 175,888 = EHS); Kia EV3 catalog trim "Premium SR" still ₪169,900 while both sources now list EV3 from ₪164,900 — verify which trim is ₪164,900

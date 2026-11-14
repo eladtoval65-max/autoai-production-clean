@@ -604,6 +604,78 @@
   "name": "Hyundai",
   "models": [
    {
+    "id": "elantra-n",
+    "model": "Elantra N",
+    "he": "אלנטרה N",
+    "status": "on_sale",
+    "price": [
+     224900,
+     234900
+    ],
+    "gens": [
+     {
+      "code": "CN7 N",
+      "from": 2021,
+      "to": null,
+      "engines": "2.0 טורבו בנזין, ידנית 6 או DCT 8",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 10.5,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ioniq-5-n",
+    "model": "Ioniq 5 N",
+    "he": "איוניק 5 N",
+    "status": "on_sale",
+    "price": [
+     409900,
+     409900
+    ],
+    "gens": [
+     {
+      "code": "NE N",
+      "from": 2024,
+      "to": null,
+      "engines": "סוללה 84 קוט\"ש, שני מנועים, הנעה כפולה",
+      "pt": [
+       "ev"
+      ],
+      "cons": 23,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ioniq-6-n",
+    "model": "Ioniq 6 N",
+    "he": "איוניק 6 N",
+    "status": "on_sale",
+    "price": [
+     399900,
+     399900
+    ],
+    "gens": [
+     {
+      "code": "CE N",
+      "from": 2025,
+      "to": null,
+      "engines": "סוללה 84 קוט\"ש, שני מנועים, הנעה כפולה",
+      "pt": [
+       "ev"
+      ],
+      "cons": 22,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
     "id": "tucson",
     "model": "Tucson",
     "he": "טוסון",
@@ -1494,7 +1566,7 @@
     "he": "EV3",
     "status": "on_sale",
     "price": [
-     169900,
+     164900,
      186900
     ],
     "gens": [
@@ -1869,6 +1941,39 @@
   "make": "mazda",
   "name": "Mazda",
   "models": [
+   {
+    "id": "mx-5",
+    "model": "MX-5",
+    "he": "MX-5",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "NC",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.8 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "ND",
+      "from": 2015,
+      "to": null,
+      "engines": "1.5 / 2.0 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "mazda5",
     "model": "Mazda5",
@@ -4656,6 +4761,73 @@
   "name": "Volkswagen",
   "models": [
    {
+    "id": "sharan",
+    "model": "Sharan",
+    "he": "שרן",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "7N",
+      "from": 2010,
+      "to": 2022,
+      "engines": "1.4 TSI / 2.0 TSI בנזין, 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "beetle",
+    "model": "Beetle",
+    "he": "חיפושית",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "A5",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.2 / 1.4 / 2.0 TSI בנזין, 1.6 / 2.0 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "arteon",
+    "model": "Arteon",
+    "he": "ארטאון",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "3H7",
+      "from": 2017,
+      "to": 2026,
+      "engines": "1.5 / 2.0 TSI בנזין, 2.0 TDI דיזל, 1.4 eHybrid פלאג-אין",
+      "pt": [
+       "petrol",
+       "diesel",
+       "phev"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
     "id": "golf",
     "model": "Golf",
     "he": "גולף",
@@ -6350,7 +6522,7 @@
     "he": "X1",
     "status": "on_sale",
     "price": [
-     319900,
+     309900,
      329900
     ],
     "gens": [
@@ -7792,6 +7964,78 @@
   "make": "ford",
   "name": "Ford",
   "models": [
+   {
+    "id": "s-max",
+    "model": "S-Max",
+    "he": "S-מקס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Mk1",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.0 / 2.3 / 2.5 טורבו בנזין, 1.8–2.2 TDCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Mk2",
+      "from": 2015,
+      "to": 2023,
+      "engines": "1.5 / 2.0 EcoBoost בנזין, 2.0 דיזל, 2.5 היברידי (2021–2023)",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "galaxy",
+    "model": "Galaxy",
+    "he": "גלקסי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Mk3",
+      "from": 2010,
+      "to": 2015,
+      "engines": "1.6 / 2.0 EcoBoost בנזין, 1.8–2.2 TDCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 8.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "Mk4",
+      "from": 2015,
+      "to": 2023,
+      "engines": "1.5 / 2.0 EcoBoost בנזין, 2.0 דיזל, 2.5 היברידי",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 7.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
    {
     "id": "c-max",
     "model": "C-Max / Grand C-Max",
@@ -9307,6 +9551,62 @@
   "name": "Lexus",
   "models": [
    {
+    "id": "ct",
+    "model": "CT 200h",
+    "he": "CT 200h",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "ZWA10",
+      "from": 2011,
+      "to": 2022,
+      "engines": "1.8 היברידי",
+      "pt": [
+       "hybrid"
+      ],
+      "cons": 5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "is",
+    "model": "IS",
+    "he": "IS",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "XE20",
+      "from": 2010,
+      "to": 2013,
+      "engines": "2.5 V6 בנזין, 2.2 דיזל, 5.0 V8 (IS F)",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "XE30",
+      "from": 2013,
+      "to": null,
+      "engines": "2.5 היברידי (IS 300h), 2.0 טורבו / 2.5 בנזין",
+      "pt": [
+       "hybrid",
+       "petrol"
+      ],
+      "cons": 7,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
     "id": "ux",
     "model": "UX",
     "he": "UX",
@@ -10399,7 +10699,7 @@
     "status": "on_sale",
     "price": [
      126990,
-     129990
+     134990
     ],
     "gens": [
      {
@@ -11267,6 +11567,30 @@
   "name": "Genesis",
   "models": [
    {
+    "id": "gv80-coupe",
+    "model": "GV80 Coupe",
+    "he": "GV80 קופה",
+    "status": "on_sale",
+    "price": [
+     599990,
+     725000
+    ],
+    "gens": [
+     {
+      "code": "JX1C",
+      "from": 2023,
+      "to": null,
+      "engines": "3.5 טורבו V6 בנזין (עם מגדש חשמלי 48V)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 13.5,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
     "id": "gv60",
     "model": "GV60",
     "he": "GV60",
@@ -11471,7 +11795,7 @@
     "he": "קאנטרימן",
     "status": "on_sale",
     "price": [
-     273000,
+     269000,
      339000
     ],
     "gens": [
@@ -11744,6 +12068,42 @@
   "make": "fiat",
   "name": "Fiat",
   "models": [
+   {
+    "id": "panda",
+    "model": "Panda",
+    "he": "פנדה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "169",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.1 / 1.2 / 1.4 בנזין, 1.3 Multijet דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 2
+     },
+     {
+      "code": "319",
+      "from": 2012,
+      "to": null,
+      "engines": "0.9 TwinAir טורבו / 1.2 בנזין, 1.3 Multijet דיזל, 1.0 מיילד-היברידי (2020)",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
+      ],
+      "cons": 5.8,
+      "ncap": 4,
+      "checks": 3
+     }
+    ]
+   },
    {
     "id": "grande-panda",
     "model": "Grande Panda",
@@ -12609,7 +12969,7 @@
     "id": "stelvio",
     "model": "Stelvio",
     "he": "סטלביו",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
