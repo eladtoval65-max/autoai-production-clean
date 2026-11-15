@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "models": {
     "c3": {
       "Gen3": {
@@ -1278,6 +1278,82 @@
           "source": {
             "title": "cartube — סיטרואן C1 החדשה 2014 בישראל – מחיר החל מ-66,990 שקל",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A1%D7%99%D7%98%D7%A8%D7%95%D7%90%D7%9F-c1-%D7%94%D7%97%D7%93%D7%A9%D7%94-2014-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%E2%80%93-%D7%9E%D7%97%D7%99%D7%A8-%D7%94%D7%97%D7%9C-%D7%9E-66,990-%D7%A9%D7%A7%D7%9C"
+          }
+        }
+      }
+    },
+    "c3-picasso": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: שיני רצועת התזמון עלולות להישחק מוקדם בתנאי אבק. בבדיקה: לוודא שהקריאה בוצעה ושהרצועה הוחלפה בזמן.",
+            "level": "recall",
+            "scope": "2015–2017",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 Picasso recalls list: C3 Picasso (2015–2017) timing belt teeth may wear prematurely in dusty conditions",
+              "url": "https://car-recalls.eu/model/c3-Picasso/"
+            }
+          },
+          {
+            "he": "קריאת שירות: משאבת הוואקום של מגבר הבלמים עלולה להינזק משחיקת רצועה — פגיעה בסיוע הבלימה. בבדיקה: דוושת בלם רכה/קשה מדי ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "2013–2017",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 Picasso recalls list: C3 Picasso (2013–2017) vacuum pump may be damaged by cog-belt abrasion",
+              "url": "https://car-recalls.eu/model/c3-Picasso/"
+            }
+          },
+          {
+            "he": "קריאת שירות: שסתום פגום ביחידת ה-ABS/ESP עלול לגרום לבלימה לא מבוקרת. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2016",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 Picasso recalls list: C3 Picasso (2016) defective ABS/ESP hydraulic unit inlet valve",
+              "url": "https://car-recalls.eu/model/c3-Picasso/"
+            }
+          },
+          {
+            "he": "קריאת שירות: כרית האוויר של הנוסע הקדמי עלולה לכלול מצת פגום. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2016",
+            "source": {
+              "title": "car-recalls.eu — Citroen C3 Picasso recalls list: C3 Picasso (2016) right front airbag may contain faulty activator",
+              "url": "https://car-recalls.eu/model/c3-Picasso/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.4 VTi בנזין 95 כ״ס",
+            "pt": "petrol",
+            "hp": 95,
+            "cons": 7.3,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Citroen C3 Picasso fuel consumption: 1.4 VTi (2013, manual) 7.3 l/100 km by user reviews (2009 1.4: 7.4)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Citroen-C3-Picasso"
+            }
+          },
+          {
+            "name": "1.6 VTi בנזין 120 כ״ס",
+            "pt": "petrol",
+            "hp": 120,
+            "cons": 7.8,
+            "unit": "L",
+            "source": {
+              "title": "auto-abc.eu — Real Citroen C3 Picasso fuel consumption: 1.6 VTi 7.5–7.9 l/100 km by user reviews (2009 1.6 manual: 7.8)",
+              "url": "https://www.auto-abc.eu/info/real-fuel-consumption/Citroen-C3-Picasso"
+            }
+          }
+        ],
+        "ncap": null,
+        "launchPrice": {
+          "ils": 100000,
+          "year": 2010,
+          "note": "1.4 בנזין 95 כ״ס, ידנית בלבד (דיזל: כ-10,000 ₪ יותר)",
+          "source": {
+            "title": "cartube (18.07.2010) — סיטרואן C3 פיקאסו – החל מ-100 אלף שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיטרואן-c3-פיקאסו-–-החל-מ100-אלף-שקל"
           }
         }
       }

@@ -785,6 +785,179 @@
           "note": "5 כוכבים (Euro NCAP, 2004); מקור: Autozine המצטט את Euro NCAP"
         }
       }
+    },
+    "toledo": {
+      "Toledo IV (KG/NH)": {
+        "issues": [
+          {
+            "he": "קריאת שירות לכרית האוויר של הנהג (Takata): המנפח עלול להתפרק בפתיחה. בבדיקה: לוודא לפי מספר שלדה שהכרית הוחלפה.",
+            "level": "recall",
+            "scope": "שנים 2012–2017",
+            "source": {
+              "title": "car-recalls.eu — Seat Toledo recalls list: Toledo (2012–2017) airbag inflator may burst",
+              "url": "https://car-recalls.eu/model/toledo"
+            }
+          },
+          {
+            "he": "קריאת שירות: חומר ההנעה בכרית האוויר של הנהג עלול להתבלות עם הזמן. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנים 2012–2013",
+            "source": {
+              "title": "car-recalls.eu — Seat Toledo recalls list: Toledo (2012–2013) driver airbag propellant may deteriorate",
+              "url": "https://car-recalls.eu/model/toledo"
+            }
+          },
+          {
+            "he": "קריאת שירות: בתאונה שבה מופעל מותחן חגורת הבטיחות, חלקים מהמחולל עלולים להשתחרר ולפגוע ביושבים. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "ייצור 6/2016–10/2016",
+            "source": {
+              "title": "car-recalls.eu — Seat Toledo (2016), RAPEX 11.08.2017: seatbelt pre-tensioner gas generator parts may detach",
+              "url": "https://car-recalls.eu/recall/seat-toledo-2016"
+            }
+          },
+          {
+            "he": "קריאת שירות: ידית נעילת הילדים הידנית עלולה להיפגם בייצור. בבדיקה: לבדוק שנעילת הילדים עובדת בשתי הדלתות האחוריות.",
+            "level": "recall",
+            "scope": "שנתון 2016",
+            "source": {
+              "title": "car-recalls.eu — Seat Toledo recalls list: Toledo (2016) manual child lock lever may be damaged",
+              "url": "https://car-recalls.eu/model/toledo"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.2 TSI בנזין 105 כ״ס",
+            "pt": "petrol",
+            "hp": 105,
+            "cons": 6.5,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Toledo NH 1.2 77 kW/105 PS (2012–2015): reported average 6.5 l/100 km from 104 owner reports",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Toledo/Toledo/toledo-1-2-nh_37558/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2012,
+          "url": "https://euroncap.com/de/results/seat/toledo/10947",
+          "note": "הדירוג מבוסס על מבחן סקודה ראפיד הזהה מבנית (2012)"
+        },
+        "launchPrice": {
+          "ils": 103900,
+          "year": 2013,
+          "note": "1.2 TSI ידני, Style (1.4 TSI DSG: 116,900 ₪)",
+          "source": {
+            "title": "cartube (24.06.2013) — סיאט טולדו החדשה בישראל – מחיר החל מ-103,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-טולדו-החדשה-בישראל-–-מחיר-החל-מ-103,900-שקל"
+          }
+        }
+      }
+    },
+    "mii": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קריאת שירות: כרית אוויר עלולה לא להיפתח כראוי בגלל פגם בריתוך מחולל הגז. בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2013",
+            "source": {
+              "title": "car-recalls.eu — Seat Mii recalls list: Mii (2013) airbag gas generator welding fault",
+              "url": "https://car-recalls.eu/model/Mii/"
+            }
+          },
+          {
+            "he": "קריאת שירות: ידית נעילת הילדים הידנית עלולה להיפגם בייצור. בבדיקה: לבדוק שנעילת הילדים עובדת בדלתות האחוריות (5 דלתות).",
+            "level": "recall",
+            "scope": "שנתון 2016",
+            "source": {
+              "title": "car-recalls.eu — Seat Mii recalls list: Mii (2016) manual child lock lever may be damaged",
+              "url": "https://car-recalls.eu/model/Mii/"
+            }
+          },
+          {
+            "he": "קריאת שירות: הפאנל הקדמי של גג השמש עלול להיות מודבק לא היטב. אם יש גג נפתח — לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2016, עם גג שמש",
+            "source": {
+              "title": "car-recalls.eu — Seat Mii recalls list: Mii (2016) sunroof front trim may not be securely stuck",
+              "url": "https://car-recalls.eu/model/Mii/"
+            }
+          },
+          {
+            "he": "לפי סטטיסטיקת התקלות של ADAC: בלאי ברפידות ובתופי הבלמים (2014–2016) ומצתים (2013–2015). בבדיקה: מצב הבלמים ובלם היד, ותיעוד החלפת מצתים.",
+            "level": "widely_reported",
+            "scope": "2013–2016",
+            "source": {
+              "title": "ADAC Gebrauchtwagen-Info — Seat Mii (2012–2021): Pannenstatistik weak points (brake pads 2014–16, brake drums 2015–16, parking brake, spark plugs 2013–15)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/gebrauchtwagenkauf/gebrauchtwageninfos/seat-mii-309/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 בנזין 75 כ״ס",
+            "pt": "petrol",
+            "hp": 75,
+            "cons": 5.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — Seat Mii 1.0 55 kW/75 PS (2011–2020): reported average 5.2 l/100 km from 704 owner reports",
+              "url": "https://www.autokostencheck.de/Seat/Seat-Mii/Mii/mii-1-0-aa_36716/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/seat-mii---euro-ncap-2019-results---3-stars/s/87ab08ec-f317-473c-9f1c-cbfad711b4c6",
+          "note": "דירוג 2019 לפי פולקסווגן up! הזהה מבנית; ב-2011 הדגם קיבל 5 כוכבים לפי הפרוטוקול הישן"
+        },
+        "launchPrice": {
+          "ils": 61900,
+          "year": 2012,
+          "note": "3 דלתות, 1.0 75 כ״ס ידני, Style (5 דלתות ידני 63,900; רובוטי מ-66,900)",
+          "source": {
+            "title": "cartube (05.11.2012) — סיאט מי Mii בישראל – מחיר החל מ-61,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-מי-mii-בישראל-–-מחיר-החל-מ-61,900-שקל"
+          }
+        }
+      },
+      "Mii electric": {
+        "issues": [
+          {
+            "he": "קריאת שירות: תאי סוללה פגומים עלולים לגרום לקצר במודול הסוללה בגלל דליפת אלקטרוליט (סכנת שריפה). בבדיקה: לוודא לפי מספר שלדה שהקריאה בוצעה.",
+            "level": "recall",
+            "scope": "שנתון 2020",
+            "source": {
+              "title": "car-recalls.eu — Seat Mii recalls list: Mii Electric (2020) damaged battery cells may short-circuit a module (electrolyte leak)",
+              "url": "https://car-recalls.eu/model/Mii/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 83 כ״ס (32.3 קוט״ש נטו)",
+            "pt": "ev",
+            "hp": 83,
+            "cons": 15.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — SEAT Mii Electric (32.3 kWh, 61 kW): real-world 158 Wh/km, real range 205 km",
+              "url": "https://ev-database.org/car/1191/SEAT-Mii-Electric"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 3,
+          "year": 2019,
+          "url": "https://news.euroncap.com/safercars/seat-mii---euro-ncap-2019-results---3-stars/s/87ab08ec-f317-473c-9f1c-cbfad711b4c6",
+          "note": "דירוג 2019 לפי פולקסווגן up! הזהה מבנית"
+        },
+        "launchPrice": null
+      }
     }
   }
 }

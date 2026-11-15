@@ -1,6 +1,6 @@
 {
   "make": "subaru",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "models": {
     "impreza": {
       "GJ/GP": {
@@ -898,6 +898,92 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/סובארו-brz-החדשה-2023-בישראל-מחיר-229900-שקל"
           }
         }
+      }
+    },
+    "legacy": {
+      "BM/BR": {
+        "issues": [
+          {
+            "he": "קריאת שירות (ארה\"ב 11V562): משאבת בלם ראשית פגומה עלולה להאריך את מהלך דוושת הבלם הדרוש לעצירה. בבדיקה: דוושת בלם שוקעת עמוק ולוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "cars.com — 2012 Subaru Legacy recalls: NHTSA 11V562000 (28.11.2011) brake master cylinder may increase pedal travel",
+              "url": "https://www.cars.com/research/subaru-legacy-2012/recalls/?page=2"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה\"ב 13V078 / 16V694): רכיבים בכיסוי מנוע המגבים עלולים להתחמם ולהינמס — סכנת שריפה. בבדיקה: לוודא שהקריאות בוצעו.",
+            "level": "recall",
+            "scope": "2010–2014",
+            "source": {
+              "title": "cars.com — 2012 Subaru Legacy recalls: NHTSA 13V078000 (05.03.2013) and 16V694000 (27.09.2016, 2010–2014) windshield wiper motor bottom cover may overheat/melt",
+              "url": "https://www.cars.com/research/subaru-legacy-2012/recalls/?page=2"
+            }
+          },
+          {
+            "he": "קריאת שירות (ארה\"ב 12V047): כריות אוויר וילון צדיות עלולות להכיל תערובת חומר הנעה שגויה ולא להיפתח. בבדיקה: לוודא שהקריאה בוצעה.",
+            "level": "recall",
+            "source": {
+              "title": "cars.com — 2012 Subaru Legacy recalls: NHTSA 12V047000 (09.02.2012) side curtain airbags may not deploy (wrong propellant mix)",
+              "url": "https://www.cars.com/research/subaru-legacy-2012/recalls/?page=2"
+            }
+          },
+          {
+            "he": "קריאת שירות (2018): בלם החניה החשמלי עלול לא להינעל בגרסאות עם תיבה ידנית, והרכב עלול להידרדר. בבדיקה (ידנית): לבדוק שבלם היד מחזיק בעלייה.",
+            "level": "recall",
+            "scope": "תיבה ידנית, 2010–2014",
+            "source": {
+              "title": "cars.com (05.10.2018) — 2010–2014 Subaru Legacy/Outback recall alert: ~27,100 manual-transmission cars, electronic parking brake may not engage; actuator replaced",
+              "url": "https://www.cars.com/articles/2010-2014-subaru-legacy-outback-recall-alert-1420703120667"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "cons": 9.6,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2012 Subaru Legacy: combined avg 24.47 mpg US (≈9.6 l/100 km) from 92 vehicles / 8,057 fuel-ups (all engines, mostly 2.5)",
+              "url": "https://www.fuelly.com/car/subaru/legacy/2012"
+            }
+          }
+        ]
+      },
+      "BN/BS": {
+        "issues": [
+          {
+            "he": "קריאת שירות: עמוד הגה פגום — סיבוב ההגה עלול לא להשפיע על כיוון הגלגלים. בבדיקה: לוודא לפי מספר שלדה שהעמוד נבדק/הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 29.2.2016–6.5.2016",
+            "source": {
+              "title": "cars.com (25.01.2017) — 2016–2017 Subaru Legacy/Outback recall alert: ~48,500 cars built 29.02–06.05.2016, defective steering column; inspect/replace",
+              "url": "https://www.cars.com/articles/recall-alert-2016-2017-subaru-legacy-outback-1420684591029"
+            }
+          },
+          {
+            "he": "קריאת שירות: מתג אורות הבלימה עלול לכשול ולנטרל את הבלימה האוטומטית של EyeSight. התיקון: עדכון תוכנה. בבדיקה (עם EyeSight): לוודא שהקריאה בוצעה ושאורות הבלם עובדים.",
+            "level": "recall",
+            "scope": "שנתון 2015 עם EyeSight",
+            "source": {
+              "title": "cars.com (19.01.2017) — recall alert: ~72,000 2015 Subaru Legacy (and Outback/Impreza/XV): brake-light switch failure disables EyeSight auto braking; EyeSight reprogrammed",
+              "url": "https://cars.com/articles/recall-alert-2015-subaru-legacy-outback-impreza-xv-crosstrek-2016-wrx-1420680656985"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "2.5 בוקסר בנזין",
+            "pt": "petrol",
+            "cons": 8.8,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2016 Subaru Legacy: combined avg 26.62 mpg US (≈8.8 l/100 km) from 142 vehicles / 13,030 fuel-ups (all engines, mostly 2.5)",
+              "url": "https://www.fuelly.com/car/subaru/legacy/2016"
+            }
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "make": "dacia",
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "models": {
     "duster": {
       "Gen2": {
@@ -682,6 +682,98 @@
             "url": "https://www.cartube.co.il/חדשות-רכב/דאצ-יה-ביגסטר-נחת-בישראל-מחיר169990-שקל"
           }
         }
+      }
+    },
+    "spring": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "קורוזיה בתחתית: חיזוקי הציר האחורי, קורת תושבת סוללת ההנעה ונזקי חומצה ממצבר 12V שדולף (שלדה קדמית ימנית). Dacia מכירה בבעיה בהוראות טכניות למוסכים, בלי קריאת שירות. בבדיקה: הרמה ובדיקת חלודה בתחתית ובאזור המצבר.",
+            "level": "manufacturer",
+            "scope": "מצבר 12V: ייצור עד 18.9.2023; קורת הסוללה: כל הייצור",
+            "source": {
+              "title": "L'argus (08.03.2025) — Dacia Spring rust problems: rear axle reinforcements (from 15.11.2022 change), 12V battery acid leak (built until 18.9.2023), battery crossmember (all phase 1–2), 14\" wheels; covered by internal Dacia technical notes, no recall",
+              "url": "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html"
+            }
+          },
+          {
+            "he": "קריאת שירות: המטען המובנה עלול לתקול בגלל באג תוכנה — הודעת תקלה ועד אי-התנעה. התיקון: עדכון תוכנה. בבדיקה: לוודא שהקריאה בוצעה ושהרכב נטען עד הסוף.",
+            "level": "recall",
+            "scope": "ייצור 7–10/2022 (קריאה נוספת 0E3Q, 9/2023)",
+            "source": {
+              "title": "Notebookcheck (10.05.2023) — 1,730 Dacia Spring built July–October 2022 recalled: charging unit software fault may prevent starting; reflash",
+              "url": "https://www.notebookcheck.net/Over-1-700-Dacia-Spring-recalled-due-to-charger-issues.716300.0.html"
+            }
+          },
+          {
+            "he": "קריאת שירות (0DYJ): מגולל חגורת הבטיחות האחורית הימנית עלול לתקול ולהחליש את הריסון. בבדיקה: לוודא שהמגולל הוחלף.",
+            "level": "recall",
+            "scope": "ייצור 26.4.2022–4.10.2022",
+            "source": {
+              "title": "L'argus — avis fiabilité Dacia Spring I (BBG): recall 0DYJ (Nov 2022), rear right seatbelt reel, cars built 26.04.2022–04.10.2022",
+              "url": "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html"
+            }
+          },
+          {
+            "he": "תקלות טעינה ומערכת חשמל נפוצות: טעינה שנעצרת, כבל טעינה שלא משתחרר, הודעת 'תקלה חשמלית' שמונעת התנעה — רובן תוקנו בעדכוני תוכנה. בבדיקה: טעינה מלאה במטען ביתי, בלי הודעות תקלה.",
+            "level": "widely_reported",
+            "scope": "בעיקר ייצור 2021–2023",
+            "source": {
+              "title": "L'argus — avis fiabilité Dacia Spring I (BBG): charging stops, cable won't unlock, 'panne électrique danger' no-start, fixes by reprogramming (cut-off dates 2022–2024)",
+              "url": "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 45 כ״ס (25 קוט״ש נטו)",
+            "pt": "ev",
+            "hp": 45,
+            "cons": 15.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Dacia Spring Electric (2021, 33 kW, 25.0 kWh usable): real-world 156 Wh/km, real range 160 km",
+              "url": "https://ev-database.org/car/1319/Dacia-Spring-Electric"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 1,
+          "year": 2021,
+          "url": "https://www.euroncap.com/es/results/dacia/spring/44197"
+        },
+        "launchPrice": null
+      },
+      "Gen1 (2024 מחודש)": {
+        "issues": [
+          {
+            "he": "תקלות חשמל וטעינה שתועדו עד סוף 2024: הודעת 'תקלה חשמלית' שמונעת התנעה, טעינה שנקטעת בכבל הנייד (Mode 2 Flexy), ושליטת מיזוג ידנית שננעלת. בבדיקה: טעינה מלאה ובדיקת מיזוג, ולוודא שבוצעו עדכוני תוכנה/החלפות.",
+            "level": "manufacturer",
+            "scope": "ייצור עד 31.12.2024",
+            "source": {
+              "title": "L'argus — avis fiabilité Dacia Spring I (BBG): 'panne électrique danger' no-start, Mode 2 Flexy cable charging cut (replacement), manual A/C control blocked — all listed until 31.12.2024; second restyle September 2024",
+              "url": "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 65 כ״ס (25 קוט״ש נטו)",
+            "pt": "ev",
+            "hp": 65,
+            "cons": 15.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Dacia Spring Electric 65 (2024–2025, 48 kW, 25.0 kWh usable): real-world 156 Wh/km, real range 160 km",
+              "url": "https://ev-database.org/car/2127/Dacia-Spring-Electric-65"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "לא נמצא דירוג נפרד לגרסה המחודשת; הדגם הקודם קיבל כוכב אחד (2021)"
+        },
+        "launchPrice": null
       }
     }
   }
