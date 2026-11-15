@@ -78,7 +78,24 @@
             "title": "Cartube — ניסאן קשקאי החדש 2014 בישראל: מחיר החל מ-154,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-קשקאי-החדש-2014-בישראל-–-מחיר-החל-מ-154,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול שגרתי — מחיר ממוצע במוסכים לפי אתר השוואת מחירים (₪740 ב-2023, ₪900 ב-2025). במנוע 1.2 DIG-T: טיפול כל 20,000 ק״מ או שנה",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              900,
+              900
+            ],
+            "scope": "1.2 DIG-T בנזין",
+            "source": {
+              "title": "Bizportal (23.05.2026) — routine service for Nissan Qashqai ₪740 (2023) → ₪900 (2025), from an industry price-comparison site (garages, generation not stated; 2025 price used); interval 20,000 km / 1 yr for the 1.2 DIG-T per Nissan schedule (completecar.ie Qashqai Mk2 2014–2021 guide)",
+              "url": "https://www.bizportal.co.il/car/news/article/20032482"
+            }
+          }
+        ]
       },
       "J10": {
         "issues": [
