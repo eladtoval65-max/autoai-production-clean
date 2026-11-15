@@ -667,7 +667,22 @@
             "title": "Cartube (14.10.2013) — Lexus IS 300h launched in Israel from ₪249,000",
             "url": "https://www.cartube.co.il/חדשות-רכב/לקסוס-is-300h-החדשה-בישראל-–-מחיר-החל-מ-249,000-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
+            "kind": "risk",
+            "costIls": [
+              19295,
+              19295
+            ],
+            "scope": "היברידי (IS 300h)",
+            "source": {
+              "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024): Lexus hybrid IS 2013–2020 (listed as 'IS200h') ₪19,295",
+              "url": "https://cars.walla.co.il/item/3651117"
+            }
+          }
+        ]
       },
       "XE20": {
         "issues": [

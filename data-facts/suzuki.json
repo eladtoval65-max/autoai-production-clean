@@ -547,7 +547,22 @@
           "year": 2013,
           "url": "https://cdn.euroncap.com/media/6034/euroncap_suzuki_sx4_2013_5stars.pdf",
           "note": "נבדק תחת השם SX4 (S-Cross) 1.6, 2013"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "יחידת הבקרה של תיבת ה-CVT: תקלה מוכרת (לחות בייצור) — רעידות בהאצה ומעבר ל'מצב חירום' בחום. היצרן נותן אחריות מורחבת עד 10 שנים בלי הגבלת ק\"מ, בתנאי היסטוריית טיפולים מלאה ושהיחידה לא נפתחה; מחוץ לאחריות כ-₪30,000. בקנייה: לבקש היסטוריית טיפולים.",
+            "kind": "risk",
+            "costIls": [
+              30000,
+              30000
+            ],
+            "scope": "1.6 אוטומטית CVT (2014–2016)",
+            "source": {
+              "title": "auto.co.il (11.10.2022) — Suzuki Crossover (SX4 S-Cross) used buying guide: CVT control-module fault, extended warranty up to 10 years, out-of-warranty replacement ≈ ₪30,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135477/"
+            }
+          }
+        ]
       },
       "Gen2": {
         "issues": [
