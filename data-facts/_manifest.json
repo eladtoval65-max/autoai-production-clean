@@ -31,8 +31,8 @@
     "he": "קורולה",
     "status": "on_sale",
     "price": [
-     159900,
-     159900
+     159990,
+     159990
     ],
     "gens": [
      {
@@ -1495,7 +1495,7 @@
     "id": "ev6",
     "model": "EV6",
     "he": "EV6",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -2703,13 +2703,16 @@
     "id": "dolphin",
     "model": "Dolphin",
     "he": "דולפין",
-    "status": "discontinued",
-    "price": null,
+    "status": "on_sale",
+    "price": [
+     149990,
+     156990
+    ],
     "gens": [
      {
       "code": "EA1",
       "from": 2023,
-      "to": 2025,
+      "to": null,
       "engines": "סוללת LFP 45/60 קוט\"ש",
       "pt": [
        "ev"
@@ -3394,6 +3397,61 @@
       "cons": 7.2,
       "ncap": null,
       "checks": 4
+     }
+    ]
+   },
+   {
+    "id": "toledo",
+    "model": "Toledo",
+    "he": "טולדו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Toledo IV (KG/NH)",
+      "from": 2012,
+      "to": 2019,
+      "engines": "1.0 / 1.2 / 1.4 TSI בנזין, 1.2 בנזין, 1.4 / 1.6 TDI דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.2,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "mii",
+    "model": "Mii",
+    "he": "מיי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2011,
+      "to": 2019,
+      "engines": "1.0 בנזין 3 צילינדרים",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.3,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "Mii electric",
+      "from": 2020,
+      "to": 2021,
+      "engines": "חשמלי, סוללה 36.8 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 14.5,
+      "ncap": null,
+      "checks": 2
      }
     ]
    }
@@ -4753,6 +4811,28 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "partner-tepee",
+    "model": "Partner Tepee",
+    "he": "פרטנר טפי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "B9",
+      "from": 2010,
+      "to": 2018,
+      "engines": "1.6 / 1.6 VTi בנזין, 1.6 HDi / BlueHDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.2,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -4882,8 +4962,8 @@
     "he": "טיגואן",
     "status": "on_sale",
     "price": [
-     249900,
-     269900
+     209900,
+     249900
     ],
     "gens": [
      {
@@ -5176,7 +5256,7 @@
     "he": "טיירון",
     "status": "on_sale",
     "price": [
-     259900,
+     229900,
      259900
     ],
     "gens": [
@@ -8792,6 +8872,84 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "scenic",
+    "model": "Scenic / Grand Scenic",
+    "he": "סניק / גרנד סניק",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Scenic III",
+      "from": 2010,
+      "to": 2016,
+      "engines": "1.6 / 2.0 בנזין, 1.2 / 1.4 TCe טורבו, 1.5 / 1.6 / 1.9 / 2.0 dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.4,
+      "ncap": 5,
+      "checks": 4
+     },
+     {
+      "code": "Scenic IV",
+      "from": 2016,
+      "to": 2022,
+      "engines": "TCe טורבו בנזין, Energy dCi / Blue dCi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.6,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "laguna",
+    "model": "Laguna",
+    "he": "לגונה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Laguna III",
+      "from": 2010,
+      "to": 2015,
+      "engines": "2.0 בנזין / 2.0 טורבו, 3.5 V6, 1.5 / 2.0 dCi דיזל, 3.0 V6 dCi",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "megane-e-tech",
+    "model": "Megane E-Tech Electric",
+    "he": "מגאן E-Tech חשמלית",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": null,
+      "engines": "חשמלי, סוללה 40 / 60 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
    }
   ]
  },
@@ -8996,6 +9154,39 @@
       ],
       "cons": 6.3,
       "ncap": 2,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "spring",
+    "model": "Spring",
+    "he": "ספרינג",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": 2024,
+      "engines": "חשמלי, סוללה 26.8 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 13.5,
+      "ncap": 1,
+      "checks": 2
+     },
+     {
+      "code": "Gen1 (2024 מחודש)",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 26.8 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 13.5,
+      "ncap": null,
       "checks": 2
      }
     ]
@@ -9541,6 +9732,40 @@
       "cons": 9,
       "ncap": null,
       "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "legacy",
+    "model": "Legacy",
+    "he": "לגאסי",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "BM/BR",
+      "from": 2010,
+      "to": 2014,
+      "engines": "2.0 / 2.5 בוקסר בנזין, 2.0D בוקסר דיזל, 3.6 שישה צילינדרים",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 9,
+      "ncap": 5,
+      "checks": 3
+     },
+     {
+      "code": "BN/BS",
+      "from": 2015,
+      "to": 2019,
+      "engines": "2.5 בוקסר בנזין, 3.6 שישה צילינדרים",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 8.8,
+      "ncap": null,
+      "checks": 3
      }
     ]
    }
@@ -10521,6 +10746,28 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "c3-picasso",
+    "model": "C3 Picasso",
+    "he": "C3 פיקאסו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2010,
+      "to": 2017,
+      "engines": "1.4 / 1.6 VTi בנזין, 1.2 PureTech, 1.6 HDi / BlueHDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.8,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -10622,6 +10869,29 @@
        "petrol",
        "diesel",
        "phev"
+      ],
+      "cons": 7,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "ds-5",
+    "model": "DS 5",
+    "he": "DS 5",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "DS5",
+      "from": 2011,
+      "to": 2018,
+      "engines": "1.6 THP טורבו בנזין, 1.6 / 2.0 HDi / BlueHDi דיזל, Hybrid4 (דיזל-חשמלי, הנעה כפולה)",
+      "pt": [
+       "petrol",
+       "diesel",
+       "hybrid"
       ],
       "cons": 7,
       "ncap": 5,
@@ -11556,6 +11826,51 @@
       ],
       "cons": 20,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "fortwo",
+    "model": "Fortwo",
+    "he": "פורטו",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "W451",
+      "from": 2010,
+      "to": 2014,
+      "engines": "1.0 בנזין / 1.0 טורבו, תיבה רובוטית 5",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.5,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "W453",
+      "from": 2014,
+      "to": 2024,
+      "engines": "1.0 בנזין / 0.9 טורבו",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 5.3,
+      "ncap": 4,
+      "checks": 3
+     },
+     {
+      "code": "W453 EQ (חשמלי)",
+      "from": 2018,
+      "to": 2024,
+      "engines": "חשמלי, סוללה 17.6 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16,
+      "ncap": 4,
       "checks": 2
      }
     ]

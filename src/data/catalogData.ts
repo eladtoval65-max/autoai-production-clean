@@ -3988,6 +3988,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "byd-seal",
+  "make": "BYD",
+  "model": "Seal",
+  "trim": "Design 2x4 (82.5 kWh)",
+  "bodyType": "sedan",
+  "fuelType": "Electric",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 485,
+  "powerHp": 313,
+  "consumption": null,
+  "price": 198990,
+  "priceMin": 198990,
+  "priceMax": 219990,
+  "sampleSize": null,
+  "newPrice": 198990,
+  "reliability": 72,
+  "safety": 92,
+  "economy": 90,
+  "comfort": 84,
+  "practicality": 74,
+  "insuranceMin": 473,
+  "insuranceMax": 680,
+  "why": "סדאן חשמלי בהנעה אחורית (גרסה מחודשת): סוללה 82.5 קוט\"ש ו-313 כ\"ס; טווח WLTP מוצהר 570 ק\"מ וצריכה מוצהרת 16.6 קוט\"ש ל-100 ק\"מ. במחירון גם גרסת 4X4 של 530 כ\"ס. 5 כוכבי Euro NCAP (2023).",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "טווח מוצהר ארוך",
+   "ביצועים חזקים"
+  ],
+  "cons": [
+   "סדאן — פחות מרווח מרכב פנאי",
+   "ירידת ערך צפויה גבוהה",
+   "יקר מהמתחרים החשמליים הקטנים"
+  ],
+  "confidence": 60,
+  "priceSource": "auto.co.il BYD Seal 2026 Design 2x4 / Excellence 4x4 (facelift) + carzone.co.il/BYDAuto/Seal/2026 (2026-11-15)",
+  "bands": {
+   "7000": {
+    "fuel": 68,
+    "insurance": 583,
+    "maintenance": 132,
+    "depreciation": 2322,
+    "total": 3326
+   },
+   "15000": {
+    "fuel": 146,
+    "insurance": 583,
+    "maintenance": 150,
+    "depreciation": 2322,
+    "total": 3422
+   },
+   "25000": {
+    "fuel": 243,
+    "insurance": 583,
+    "maintenance": 168,
+    "depreciation": 2322,
+    "total": 3537
+   }
+  }
+ },
+ {
   "id": "byd-seal-u-dmi",
   "make": "BYD",
   "model": "Seal U DM-i",
@@ -4289,6 +4350,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 269,
     "depreciation": 1749,
     "total": 4031
+   }
+  }
+ },
+ {
+  "id": "volkswagen-tiguan",
+  "make": "Volkswagen",
+  "model": "Tiguan",
+  "trim": "Style 1.5 eTSI",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 652,
+  "powerHp": 150,
+  "consumption": 6.7,
+  "price": 209900,
+  "priceMin": 209900,
+  "priceMax": 249900,
+  "sampleSize": null,
+  "newPrice": 209900,
+  "reliability": 78,
+  "safety": 92,
+  "economy": 72,
+  "comfort": 88,
+  "practicality": 90,
+  "insuranceMin": 596,
+  "insuranceMax": 845,
+  "why": "רכב פנאי משפחתי בדור שלישי: מנוע 1.5 טורבו עם מערכת היברידית מתונה, 150 כ\"ס, תיבה רובוטית 7 הילוכים והנעה קדמית. צריכה מוצהרת 14.9 ק\"מ לליטר (במבחן דרך כ-12.5). תא מטען 652 ליטר. 5 כוכבי Euro NCAP (2024).",
+  "pros": [
+   "5 כוכבי Euro NCAP",
+   "תא מטען גדול מאוד (652 ליטר)",
+   "מרווח ונוח למשפחה"
+  ],
+  "cons": [
+   "מחיר גבוה לגרסת הבסיס",
+   "בנזין עם היברידיות מתונה בלבד",
+   "צריכה בפועל גבוהה מהמוצהר"
+  ],
+  "confidence": 64,
+  "priceSource": "auto.co.il VW Tiguan 2026 Style (+ model page and 03.11.2026 news) + carzone.co.il/Volkswagen/Tiguan/2026 (2026-11-15)",
+  "bands": {
+   "7000": {
+    "fuel": 366,
+    "insurance": 717,
+    "maintenance": 246,
+    "depreciation": 1749,
+    "total": 3299
+   },
+   "15000": {
+    "fuel": 785,
+    "insurance": 717,
+    "maintenance": 280,
+    "depreciation": 1749,
+    "total": 3752
+   },
+   "25000": {
+    "fuel": 1308,
+    "insurance": 717,
+    "maintenance": 314,
+    "depreciation": 1749,
+    "total": 4309
    }
   }
  },

@@ -100,6 +100,8 @@ const MODELS: Record<string, [string, string]> = {
   // Batch 24 — Wikipedia lead image only
   "ev5": ["Kia EV5", ""],
   "b05": ["Leapmotor Lafa 5", ""],
+  // Batch 25 — Wikipedia lead image only (BYD Seal skipped: "seal" would also match Sealion 05)
+  "tiguan": ["Volkswagen Tiguan", ""],
 };
 
 const KEYS = Object.keys(MODELS).sort((a, b) => b.length - a.length);

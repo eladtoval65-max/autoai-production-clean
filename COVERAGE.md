@@ -242,3 +242,18 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] BMW (cartube only): i3 (new), iX1, iX2, iX4, i5, iX, iX5, 8 Series, XM; Mercedes CLS (cartube), EQV (carzone)
 - [ ] Peugeot Traveller (carzone 298,990); VW Taigo 160,900 / Golf R / T-Roc Cabrio / Atlas (carzone only)
 - [ ] Owner: MG HS line vs EHS/plug-in (both sources now show HS up to 175,888 = EHS); Kia EV3 catalog trim "Premium SR" still ₪169,900 while both sources now list EV3 from ₪164,900 — verify which trim is ₪164,900
+
+## Done 2026-11-15
+- [x] generations.ts (11, used market): Renault Scenic / Grand Scenic, Laguna, Megane E-Tech Electric (unverified); Dacia Spring (unverified); Seat Toledo, Mii; Subaru Legacy; Smart Fortwo; DS 5; Peugeot Partner Tepee; Citroën C3 Picasso
+- [x] Kia EV6 → discontinued (cartube "no longer marketed" + absent from carzone Kia list)
+- [x] Catalog (batch 25): VW Tiguan, BYD Seal
+
+## Queue — seen 2026-11-15, not yet covered
+- [ ] Kia Cerato / Forte (TD/YD/BD researched 2026-11-15; Israeli engines per generation not verified — skipped)
+- [ ] Catalog: Hyundai Tucson Hybrid would merge into the existing "Tucson" key (builder drops " Hybrid") — needs a different model name or repricing the Tucson row
+- [ ] Euro NCAP to confirm: Citroën C3 Picasso 2009 (datasheet name says 4★, not opened), Renault Laguna III, Subaru Legacy BN
+- [x] BYD Dolphin → on sale ₪149,990–156,990 (both sources, 2026-11-15)
+- [ ] Dolphin G (carzone 134,990–139,990), Chery LEPAS L8 (carzone 204,900), Cupra Tavascan (cartube 242,900–289,900)
+- [ ] VW Taigo ₪160,900 (both sources now), ID.5 / ID.7 (cartube), Caravelle / Multivan (sources differ)
+- [ ] Mercedes C-Class EQ, GLA EQ, EQS, CLE Cabrio, E-Class Coupé, G-Class EQ, EQV; BMW iX1, iX2, i5, iX; MINI Cabrio, Hatch 3-door; Porsche 718, Cayenne Electric (carzone only today — cartube unreadable)
+- [ ] Opel Combo Life / Combo Life XL / Zafira, Fiat Ulysse, Jeep Gladiator / Grand Wagoneer, Ford Expedition / Tourneo Custom, Peugeot Traveller (carzone only or commercial)
