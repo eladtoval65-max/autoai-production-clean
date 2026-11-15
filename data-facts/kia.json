@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "models": {
     "sportage": {
       "NQ5": {
@@ -715,7 +715,23 @@
             "title": "icar — קיה ריו החדשה בישראל: תעלה 96,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_ריו_החדשה_בישראל:_תעלה_96,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול 60,000 ק״מ (מצתים ומסנן אוויר) — הטיפול הגדול",
+            "kind": "scheduled",
+            "intervalKm": 60000,
+            "costIls": [
+              1500,
+              1500
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "auto.co.il (27.10.2020) — Kia Rio 3rd gen (Israel 2012–mid 2017) used guide: service every year/15,000 km; 60,000 km service (spark plugs, air filter) ≈ ₪1,500 on petrol; timing chain, no periodic replacement",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/134038/"
+            }
+          }
+        ]
       }
     },
     "ceed": {

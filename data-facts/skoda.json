@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -50,7 +50,22 @@
           "stars": null,
           "note": "נבדק ב-2004 בפרוטוקול הישן — לא נמצא עמוד תוצאה תקף ב-euroncap.com"
         },
-        "launchPrice": null
+        "launchPrice": null,
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Golf, Polo, Octavia, Fabia, Leon) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.2 TSI / 1.8 TSI, 2010–2012"
+          }
+        ]
       },
       "Mk3 (5E)": {
         "issues": [
@@ -475,7 +490,22 @@
             "title": "Cartube — סקודה קודיאק החדש 2024 בישראל: מחיר 214,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קודיאק-החדש-2024-בישראל-מחיר-214990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       }
     },
     "karoq": {
@@ -554,7 +584,22 @@
           "year": 2017,
           "url": "https://cdn.euroncap.com/en/results/skoda/karoq/28527",
           "note": "5 כוכבים (Euro NCAP, נובמבר 2017) — לפי הודעת סקודה: skoda-storyboard.com"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       }
     },
     "kamiq": {
@@ -747,7 +792,22 @@
             "title": "מלכת הכביש — סקודה פאביה החדשה: 2 מנועים, 3 רמות אבזור מ-115,000 שקלים (14.6.2022)",
             "url": "https://www.queenoftheroad.co.il/%d7%a1%d7%a7%d7%95%d7%93%d7%94-%d7%a4%d7%90%d7%91%d7%99%d7%94-%d7%94%d7%97%d7%93%d7%a9%d7%94-2-%d7%9e%d7%a0%d7%95%d7%a2%d7%99%d7%9d-3-%d7%a8%d7%9e%d7%95%d7%aa-%d7%90%d7%91%d7%96%d7%95%d7%a8-%d7%9e-11/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       },
       "5J (מתיחת פנים)": {
         "issues": [
@@ -826,7 +886,22 @@
           "year": 2007,
           "url": "https://www.autoblog.com/2007/07/28/only-4-of-5-stars-euro-ncaps-test-of-the-honda-hybrid-and-the/",
           "note": "4 כוכבים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: Autoblog המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Golf, Polo, Octavia, Fabia, Leon) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.2 TSI, 2010–2012"
+          }
+        ]
       }
     },
     "superb": {

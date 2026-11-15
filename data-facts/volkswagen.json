@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "models": {
     "golf": {
       "Mk7": {
@@ -111,6 +111,19 @@
               "title": "auto.co.il (25.06.2024) — three used family cars under ₪80,000: VW Golf 2018 water pump replacement ≈ ₪2,500",
               "url": "https://www.auto.co.il/articles/car-news/local-news/137236/"
             }
+          },
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG7: ₪4,000–8,000. בנסיעת מבחן: זעזועים או נורת תקלה בתיבה.",
+            "kind": "risk",
+            "costIls": [
+              4000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "ynet (01.11.2019) — used guide VW Golf 7th gen (2013–2019): DSG mechatronic unit ₪4,000–8,000; clutch pair ₪3,000–5,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5613756,00.html"
+            }
           }
         ]
       },
@@ -209,7 +222,22 @@
             "title": "icar — פולקסווגן גולף החדשה בישראל (16.12.2008)",
             "url": "https://www.icar.co.il/חדשות_רכב/פולקסווגן_גולף_החדשה_בישראל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Golf, Polo, Octavia, Fabia, Leon) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.2 TSI / 1.8–2.0 TSI, 2010–2012"
+          }
+        ]
       },
       "Mk8": {
         "issues": [
@@ -273,7 +301,22 @@
             "title": "cartube — פולקסווגן גולף החדשה 2021 בישראל: מחיר 134,900 שקל (17.3.2021)",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F-%D7%92%D7%95%D7%9C%D7%A3-%D7%94%D7%97%D7%93%D7%A9%D7%94-2021-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-134900-%D7%A9%D7%A7%D7%9C"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       }
     },
     "polo": {
@@ -342,7 +385,22 @@
             "title": "Queen of the Road — השקה בארץ: פולקסווגן פולו חדשה – דור שישי (החל מ-93,900 ש״ח)",
             "url": "https://www.queenoftheroad.co.il/%D7%94%D7%A9%D7%A7%D7%94-%D7%91%D7%90%D7%A8%D7%A5-%D7%A4%D7%95%D7%9C%D7%A7%D7%A1%D7%95%D7%95%D7%92%D7%9F-%D7%A4%D7%95%D7%9C%D7%95-%D7%97%D7%93%D7%A9%D7%94-%D7%93%D7%95%D7%A8-%D7%A9%D7%99%D7%A9/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       },
       "6R": {
         "issues": [
@@ -418,7 +476,22 @@
             "title": "auto.co.il — פולקסווגן פולו החדשה הושקה בישראל (16.02.2010)",
             "url": "https://www.auto.co.il/articles/car-news/118836/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Golf, Polo, Octavia, Fabia, Leon) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.2 TSI, 2010–2012"
+          }
+        ]
       }
     },
     "t-roc": {
