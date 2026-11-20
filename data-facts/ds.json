@@ -1,6 +1,6 @@
 {
   "make": "ds",
-  "updated": "2026-11-08",
+  "updated": "2026-11-20",
   "models": {
     "ds-3": {
       "DS 3 Crossback": {
@@ -347,6 +347,75 @@
           "year": 2022,
           "note": "4 כוכבים באבזור סטנדרטי, 5 עם חבילת בטיחות אופציונלית",
           "url": "https://news.euroncap.com/safercars/next-to-best--honda-hr-v-and-ds-4-go-for-four--while-dacia-struggles-again/s/94a99733-7738-4fdf-a28e-d051830ed8d6"
+        }
+      }
+    },
+    "ds-5": {
+      "DS5": {
+        "issues": [
+          {
+            "he": "קריאת שירות: חיווט מנוע ההתנעה עלול להתחכך בחלקי מנוע ולגרום לקצר — לוודא ביצוע הקריאה לפי מספר שלדה",
+            "level": "recall",
+            "scope": "ייצור מ-16.5.2013",
+            "source": {
+              "title": "What Car? — Used Citroen DS5 2012–2015 reliability (starter motor wiring recall)",
+              "url": "https://www.whatcar.com/citroen/ds-5/hatchback/used-review/n17418/advice"
+            }
+          },
+          {
+            "he": "מתיחת שרשרת תזמון במנוע 1.6 THP — רעש נקישות בהתנעה קרה מחייב בדיקה מיידית; הזנחה עלולה לגרום נזק למנוע",
+            "level": "widely_reported",
+            "scope": "1.6 THP בנזין",
+            "source": {
+              "title": "autopartspro.co.uk — Problems with the Citroën DS 5",
+              "url": "https://www.autopartspro.co.uk/tips-advice/?p=3627"
+            }
+          },
+          {
+            "he": "הצטברות פחמן במנועים בהזרקה ישירה — סרק לא יציב וירידה בכוח בקילומטראז׳ גבוה",
+            "level": "widely_reported",
+            "scope": "1.6 THP ומנועי דיזל",
+            "source": {
+              "title": "autopartspro.co.uk — Problems with the Citroën DS 5",
+              "url": "https://www.autopartspro.co.uk/tips-advice/?p=3627"
+            }
+          },
+          {
+            "he": "בדיזל: מסנן חלקיקים (DPF) שלא השלים ניקוי עלול להכניס סולר לשמן ולהעלות את מפלס השמן — לבדוק מפלס שמן והרגלי נסיעה של הבעלים",
+            "level": "widely_reported",
+            "scope": "דיזל HDi / BlueHDi",
+            "source": {
+              "title": "What Car? — Used Citroen DS5 2012–2015 reliability (DPF / fuel in oil)",
+              "url": "https://www.whatcar.com/citroen/ds-5/hatchback/used-review/n17418/advice"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.6 THP טורבו בנזין 200 כ״ס",
+            "pt": "petrol",
+            "hp": 200,
+            "cons": 9.2,
+            "unit": "L",
+            "source": {
+              "title": "autokostencheck.de — DS 5 THP 200 1.6 (147 kW): real-world average from 64 user reports",
+              "url": "https://www.autokostencheck.de/DS/Citroen-DS5/DS5/ds5-thp-200-1-6-k_36320/verbrauch/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2011,
+          "url": "https://euroncap.com/en/results/citroën/ds5/10965"
+        },
+        "launchPrice": {
+          "ils": 207000,
+          "year": 2013,
+          "note": "מחיר בסיס (1.6 THP 156 כ״ס אוטומטי) כפי שדווח ב-2013",
+          "source": {
+            "title": "Walla Cars (04.06.2013) — Citroën DS5 road test: base version from ₪207,000",
+            "url": "https://cars.walla.co.il/item/2647505"
+          }
         }
       }
     }

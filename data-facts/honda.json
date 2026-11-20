@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-11-09",
+  "updated": "2026-11-20",
   "models": {
     "jazz": {
       "GK": {
@@ -344,7 +344,24 @@
           "year": 2009,
           "url": "https://global.honda/en/newsroom/worldnews/2009/4090320Civic.html",
           "note": "5 כוכבים בבדיקה חוזרת לפי שיטת 2009 (הודעת הונדה, 20.3.2009); ב-2006 קיבלה 4 כוכבים לפי השיטה הקודמת"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך מורשה של היבואן (טווח מחירים לביקור)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              418,
+              786
+            ],
+            "scope": "1.8 בנזין אוטומטית (סדאן)",
+            "source": {
+              "title": "Wheel long-term test summary (08.05.2011, prices 2009–2011) — Honda Civic 2008 1.8: authorized-dealer services ₪418 (15,629 km), ₪660, ₪786 (excl. a ₪1,152 visit that included rear brake pads)",
+              "url": "https://wheel.co.il/%D7%94%D7%95%D7%A0%D7%93%D7%94-%D7%A1%D7%99%D7%95%D7%95%D7%99%D7%A7-%D7%9E%D7%91%D7%97%D7%9F-%D7%93%D7%A8%D7%9B%D7%99%D7%9D-%D7%90%D7%A8%D7%95%D7%9A-%D7%98%D7%95%D7%95%D7%97-%D7%A1%D7%99%D7%9B%D7%95/"
+            }
+          }
+        ]
       }
     },
     "hr-v": {
