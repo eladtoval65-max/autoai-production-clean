@@ -76,6 +76,20 @@
               "title": "queenoftheroad.co.il (06.01.2021) — Corolla service guide: importer price list for 2008–2012 1.6, incl. VAT (2021 prices; no newer per-model list found)",
               "url": "https://www.queenoftheroad.co.il/%d7%94%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%98%d7%95%d7%99%d7%95%d7%98%d7%94-%d7%a7%d7%95%d7%a8%d7%95%d7%9c%d7%94-%d7%98%d7%99%d7%a4%d7%95%d7%9c%d7%99%d7%9d-%d7%a9%d7%95%d7%98%d7%a4%d7%99%d7%9d/"
             }
+          },
+          {
+            "he": "החלפת מצמד בתיבה הרובוטית (כולל יחידת ההפעלה החשמלית) — בדרך כלל בין 100 ל-140 אלף ק\"מ. בקנייה: לברר אם כבר הוחלף.",
+            "kind": "wear",
+            "intervalKm": 100000,
+            "costIls": [
+              2500,
+              4000
+            ],
+            "scope": "1.6 תיבה רובוטית",
+            "source": {
+              "title": "ynet (15.02.2019) — Toyota Corolla 10th gen (2008–2013) used guide: robotic-gearbox clutch replacement at 100–140k km, ₪2,500–4,000 depending on garage",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5464046,00.html"
+            }
           }
         ]
       },

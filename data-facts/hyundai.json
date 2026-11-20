@@ -1996,6 +1996,20 @@
               "title": "Walla Cars (03/2024) — hybrid battery prices as received from the importers (2024)",
               "url": "https://cars.walla.co.il/item/3651117"
             }
+          },
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול 15,000: שמן, מסנן ובדיקה כללית)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              527,
+              527
+            ],
+            "scope": "2.0 היברידי",
+            "source": {
+              "title": "iCar long-term test (12/2016) — Hyundai Sonata Hybrid, 15,000 km service at Hyundai's central service centre, Petah Tikva: ₪527",
+              "url": "https://www.icar.co.il/%D7%9E%D7%91%D7%97%D7%A0%D7%99_%D7%A8%D7%9B%D7%91/Live_Blog:_%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99_%D7%A1%D7%95%D7%A0%D7%98%D7%94_%D7%94%D7%99%D7%91%D7%A8%D7%99%D7%93%D7%99%D7%AA_%D7%91%D7%9E%D7%91%D7%97%D7%9F_%D7%90%D7%A8%D7%95%D7%9A_%D7%98%D7%95%D7%95%D7%97/"
+            }
           }
         ]
       },
