@@ -1,6 +1,6 @@
 {
   "make": "renault",
-  "updated": "2026-11-15",
+  "updated": "2026-11-21",
   "models": {
     "clio": {
       "Clio IV": {
@@ -61,7 +61,37 @@
             "title": "וואלה רכב — רנו קליאו החדשה הגיעה לישראל (17.06.2013)",
             "url": "https://cars.walla.co.il/item/2651829"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "החלפת רצועת תזמון כולל מותחנים — כל 5 שנים או 120 אלף ק\"מ. בקנייה: לבקש קבלה על ההחלפה.",
+            "kind": "scheduled",
+            "intervalKm": 120000,
+            "intervalYears": 5,
+            "costIls": [
+              1600,
+              1600
+            ],
+            "scope": "1.2 בנזין",
+            "source": {
+              "title": "auto.co.il (30.05.2019) — Renault Clio 4th gen (Israel 2013+) used buying guide: 1.2 petrol timing belt every 5 yrs/120,000 km ≈ ₪1,600 incl. belt and tensioners; 1.5 dCi injectors ≈ ₪2,000 refurbished – ₪4,000 new per injector (2019 prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/132242/"
+            }
+          },
+          {
+            "he": "מזרקי דלק בדיזל: נוטים להתבלות סביב 200 אלף ק\"מ (ארבעה מזרקים). המחיר למזרק אחד.",
+            "kind": "risk",
+            "costIls": [
+              2000,
+              4000
+            ],
+            "scope": "1.5 dCi",
+            "source": {
+              "title": "auto.co.il (30.05.2019) — Renault Clio 4th gen (Israel 2013+) used buying guide: 1.2 petrol timing belt every 5 yrs/120,000 km ≈ ₪1,600 incl. belt and tensioners; 1.5 dCi injectors ≈ ₪2,000 refurbished – ₪4,000 new per injector (2019 prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/132242/"
+            }
+          }
+        ]
       },
       "Clio V": {
         "issues": [

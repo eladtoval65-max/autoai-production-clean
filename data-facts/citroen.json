@@ -1,6 +1,6 @@
 {
   "make": "citroen",
-  "updated": "2026-11-15",
+  "updated": "2026-11-21",
   "models": {
     "c3": {
       "Gen3": {
@@ -860,6 +860,46 @@
             "source": {
               "title": "auto.co.il (31.10.2022) — used cars ₪10,000–40,000: known costly repairs (Fiesta/Focus PowerShift, Mégane/Fluence dCi, Space Star CVT, PSA 1.2 turbo belt)",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135535/"
+            }
+          },
+          {
+            "he": "החלפה מונעת של סט התזמון אחרי כ-150 אלף ק\"מ. בקנייה של רכב עם קילומטראז׳ גבוה: לשאול אם בוצעה.",
+            "kind": "scheduled",
+            "intervalKm": 150000,
+            "costIls": [
+              2300,
+              2300
+            ],
+            "scope": "1.6 THP בנזין",
+            "source": {
+              "title": "auto.co.il (27.06.2022) — Citroën C4 Picasso 2nd gen (Israel 2014+) used buying guide: 1.6 petrol preventive timing-set replacement after ~150,000 km ≈ ₪2,300; throttle-body service ≈ ₪4,200 total; fuel tank with faulty valves ≈ ₪4,000 (article: most prices before VAT and labour)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135193/"
+            }
+          },
+          {
+            "he": "מצערת (גוף מצערת): תקלה מוכרת; טיפול/החלפה כ-₪4,200 בסך הכול.",
+            "kind": "risk",
+            "costIls": [
+              4200,
+              4200
+            ],
+            "scope": "1.6 THP בנזין",
+            "source": {
+              "title": "auto.co.il (27.06.2022) — Citroën C4 Picasso 2nd gen (Israel 2014+) used buying guide: 1.6 petrol preventive timing-set replacement after ~150,000 km ≈ ₪2,300; throttle-body service ≈ ₪4,200 total; fuel tank with faulty valves ≈ ₪4,000 (article: most prices before VAT and labour)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135193/"
+            }
+          },
+          {
+            "he": "מיכל דלק עם שסתומים תקולים: מחייב החלפת המיכל כולו.",
+            "kind": "risk",
+            "costIls": [
+              4000,
+              4000
+            ],
+            "scope": "1.6 THP בנזין",
+            "source": {
+              "title": "auto.co.il (27.06.2022) — Citroën C4 Picasso 2nd gen (Israel 2014+) used buying guide: 1.6 petrol preventive timing-set replacement after ~150,000 km ≈ ₪2,300; throttle-body service ≈ ₪4,200 total; fuel tank with faulty valves ≈ ₪4,000 (article: most prices before VAT and labour)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135193/"
             }
           }
         ]
