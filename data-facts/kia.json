@@ -2223,7 +2223,19 @@
           "stars": null,
           "note": "not tested"
         },
-        "launchPrice": null
+        "launchPrice": null,
+        "engines": [
+          {
+            "name": "בנזין (נתון אמריקאי, מנועי 2.0/2.4; בישראל נמכרה גרסת 1.6)",
+            "pt": "petrol",
+            "cons": 9.16,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — 2012 Kia Forte, owner-tracked average 25.67 MPG (102 vehicles, 7,311 fuel-ups; US engines 2.0/2.4)",
+              "url": "https://www.fuelly.com/car/kia/forte/2012"
+            }
+          }
+        ]
       },
       "YD": {
         "issues": [
@@ -2283,7 +2295,19 @@
             "title": "Cartube (03.03.2013) — קיה פורטה החדשה 2013 בישראל: מחיר החל מ-127,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/קיה-פורטה-החדשה-2013-בישראל-–-מחיר-החל-מ-127000-שקל"
           }
-        }
+        },
+        "engines": [
+          {
+            "name": "בנזין (נתון אמריקאי לשנתון 2016, מנועי 2.0/1.6 טורבו; בישראל נמכרה גרסת 1.6)",
+            "pt": "petrol",
+            "cons": 8.34,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Kia Forte all years: 2016 model year owner-tracked average 28.2 MPG (81 vehicles; US engines)",
+              "url": "https://www.fuelly.com/car/kia/forte/all"
+            }
+          }
+        ]
       }
     }
   }
