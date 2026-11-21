@@ -1,6 +1,6 @@
 {
   "make": "peugeot",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "models": {
     "107": {
       "Gen1": {
@@ -394,6 +394,21 @@
           }
         ],
         "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך מורשה (טיפול קטן — שמן ומסנן — כ-₪500; טיפול גדול עם מצתים, מסנן מזגן ונוזל בלמים כ-₪1,200)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              500,
+              1200
+            ],
+            "scope": "1.2 PureTech 82 כ״ס",
+            "source": {
+              "title": "Wheel (12.04.2018) — used Peugeot 208 1.2 PureTech manual (2012) test: service every year/15,000 km per maker; authorised-garage small service ≈ ₪500, large service ≈ ₪1,200 (VAT not stated) (2018 prices)",
+              "url": "https://wheel.co.il/%D7%9E%D7%91%D7%97%D7%9F-%D7%99%D7%93-%D7%A9%D7%A0%D7%99%D7%94-%D7%A4%D7%99%D7%92%D7%95-208-%D7%99%D7%93%D7%A0%D7%99%D7%AA/"
+            }
+          },
           {
             "he": "רצועת תזמון 'רטובה' במנוע 1.2 טורבו: מתבלה מוקדם ומחייבת החלפה עם המותחן. בקנייה: לבקש הוכחה להחלפה או בדיקה במוסך.",
             "kind": "risk",
