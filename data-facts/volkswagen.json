@@ -1,6 +1,6 @@
 {
   "make": "volkswagen",
-  "updated": "2026-11-15",
+  "updated": "2026-11-21",
   "models": {
     "golf": {
       "Mk7": {
@@ -2138,6 +2138,179 @@
           "stars": 5,
           "year": 2010,
           "url": "https://euroncap.com/en/results/vw/sharan/11030"
+        }
+      }
+    },
+    "taigo": {
+      "Gen1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://www.euroncap.com/en/results/vw/taigo/45238"
+        },
+        "issues": [
+          {
+            "he": "ריקול: כרית האוויר של הנוסע הקדמי עלולה להתפרק בפתיחה (בית מחולל הגז עלול להתפוצץ) ולגרום לפציעה קשה. VW מחליפה את הכרית ללא תשלום; עד ההחלפה ההמלצה היא לנטרל את כרית הנוסע ולא להושיב נוסע מלפנים. בדקו לפי מספר שלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "יוצרו 17.05.2022–27.05.2025 (קוד VW 69UN/69UK; גרמניה/EU, 2025)",
+            "source": {
+              "title": "ADAC (31.07.2025) — Lebensgefährlicher Airbag: Rückruf bei VW (Polo, Taigo, Passat, ID.7, ID.Buzz)",
+              "url": "https://www.adac.de/news/auto-rueckruf-vw-airbag/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.0 טורבו 115 כ״ס (אוטומטית)",
+            "pt": "petrol",
+            "hp": 115,
+            "cons": 6.4,
+            "unit": "L",
+            "source": {
+              "title": "Autohled.cz — Volkswagen Taigo spotřeba, Spritmonitor data: 85 kW automatic, 6.40 L/100km avg (6 cars)",
+              "url": "https://www.autohled.cz/a/volkswagen/taigo/spotreba"
+            }
+          },
+          {
+            "name": "1.5 טורבו 150 כ״ס (DSG)",
+            "pt": "petrol",
+            "hp": 150,
+            "cons": 6.52,
+            "unit": "L",
+            "source": {
+              "title": "Autohled.cz — Volkswagen Taigo spotřeba, Spritmonitor data: 110 kW automatic, 6.52 L/100km avg (24 cars)",
+              "url": "https://www.autohled.cz/a/volkswagen/taigo/spotreba"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 157900,
+          "year": 2024,
+          "note": "השקה רשמית בישראל: Style 1.0 טורבו (1.5 טורבו ב-174,900 ₪)",
+          "source": {
+            "title": "Cartube (18.08.2024) — פולקסווגן טאיגו בישראל: מחיר 157,900 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/פולקסווגן-טאיגו-בישראל-מחיר-157900-שקל"
+          }
+        }
+      }
+    },
+    "id-5": {
+      "Gen1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2021,
+          "url": "https://www.euroncap.com/sv/results/vw/id.5/45239"
+        },
+        "issues": [
+          {
+            "he": "ריקול: מודולים בסוללת המתח הגבוה עלולים לא לעמוד במפרט — ירידה בטווח, נורת אזהרה צהובה ובמקרים נדירים סכנת שריפה. התיקון: עדכון תוכנה ובדיקת מודולי הסוללה, והחלפת מודול חריג. בדקו לפי מספר שלדה שהריקול בוצע, ובקשו תיעוד אם הוחלף מודול.",
+            "level": "recall",
+            "scope": "יוצרו 2022–2024 (KBA 16271R, קוד VW 93MI; מרץ 2026)",
+            "source": {
+              "title": "electrive (24.03.2026) — VW plans recall of around 100,000 MEB electric cars",
+              "url": "https://www.electrive.com/2026/03/24/vw-plans-recall-of-around-100000-meb-electric-cars/"
+            }
+          },
+          {
+            "he": "ריקול: רכיבים בסוללת המתח הגבוה עלולים להתחמם יתר על המידה. עד לבדיקה במוסך, עדכון אוויר מגביל את הטעינה ל-80%. אם הרכב נטען רק עד 80% — כנראה טרם עבר בדיקה.",
+            "level": "recall",
+            "scope": "יוצרו 2022–2025 (בריטניה)",
+            "source": {
+              "title": "Fleet News — Volkswagen announces recall for 5,000 EVs over battery overheating risk",
+              "url": "https://www.fleetnews.co.uk/news/volkswagen-announces-recall-for-5000-evs-over-battery-overheating-risk"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 286 כ״ס, סוללה 77 קוט״ש נטו",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 16.9,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volkswagen ID.5 Pro (MY26), 286 PS, real-range consumption 169 Wh/km (MY24–25 similar)",
+              "url": "https://ev-database.org/car/3254/Volkswagen-ID5-Pro"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 257000,
+          "year": 2024,
+          "note": "יבוא רשמי לישראל: Pro (‏Pro Premium ב-287,000 ₪); לפני כן נמכרו יחידות ביבוא אישי/מקביל",
+          "source": {
+            "title": "auto.co.il (23.05.2024) — פולקסווגן ID.5 בישראל: מחיר החל מ-257,000 שקלים",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/137126/"
+          }
+        }
+      }
+    },
+    "id-7": {
+      "Gen1": {
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://www.euroncap.com/en/results/vw/id.7/50196"
+        },
+        "issues": [
+          {
+            "he": "ריקול: כרית האוויר של הנוסע הקדמי עלולה להתפרק בפתיחה ולגרום לפציעה קשה. VW מחליפה את הכרית ללא תשלום; עד ההחלפה מומלץ לנטרל את כרית הנוסע ולא להושיב נוסע מלפנים. בדקו לפי מספר שלדה.",
+            "level": "recall",
+            "scope": "כולל ID.7 Tourer (גרמניה/EU, יולי 2025)",
+            "source": {
+              "title": "ADAC (31.07.2025) — Lebensgefährlicher Airbag: Rückruf bei VW (Polo, Taigo, Passat, ID.7, ID.Buzz)",
+              "url": "https://www.adac.de/news/auto-rueckruf-vw-airbag/"
+            }
+          },
+          {
+            "he": "ריקול: תאים בודדים בסוללת המתח הגבוה עם פגם ייצור אצל הספק עלולים להתחמם ובמקרה קיצון להתלקח. כצעד ביניים VW מגבילה בעדכון אוויר את הטעינה ל-80%, ובהמשך הסוללה/המודולים ייבדקו במוסך. בדקו לפי מספר שלדה אם הרכב כלול.",
+            "level": "recall",
+            "scope": "יוצרו 2022–2025, אצוות מסוימות (KBA, אוקטובר 2026)",
+            "source": {
+              "title": "electrive (21.10.2026) — VW's battery recall affects 72,700 EVs, including 10,000 in Germany",
+              "url": "https://electrive.com/2026/10/21/vws-battery-recall-affects-72700-evs-including-10000-in-germany"
+            }
+          },
+          {
+            "he": "ריקול: רכיבים בסוללת המתח הגבוה עלולים להתחמם; עד לבדיקה הטעינה מוגבלת ל-80% בעדכון אוויר.",
+            "level": "recall",
+            "scope": "יוצרו 2022–2025 (בריטניה)",
+            "source": {
+              "title": "Fleet News — Volkswagen announces recall for 5,000 EVs over battery overheating risk",
+              "url": "https://www.fleetnews.co.uk/news/volkswagen-announces-recall-for-5000-evs-over-battery-overheating-risk"
+            }
+          },
+          {
+            "he": "ריקול: חיבור בורג פגום בין משענת המושב לכרית המושב עלול לגרום לתמיכה לא מספקת של המשענת. בדקו שהמשענת יציבה ושהריקול בוצע.",
+            "level": "recall",
+            "scope": "שנות דגם 2023–2024",
+            "source": {
+              "title": "car-recalls.eu — Volkswagen ID.7 recalls (seat backrest, 2023–2024)",
+              "url": "https://car-recalls.eu/model/id-7/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "Pro חשמלי 286 כ״ס, סוללה 77 קוט״ש נטו",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 16.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Volkswagen ID.7 Pro (MY24-25), real-range consumption 162 Wh/km",
+              "url": "https://ev-database.org/car/1839/Volkswagen-ID7-Pro"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 320000,
+          "year": 2024,
+          "note": "השקה בישראל: Pro (‏Pro S ב-355,000 ₪, GTX ב-400,000 ₪)",
+          "source": {
+            "title": "וואלה רכב (13.11.2024) — השקת פולקסווגן ID.7 בישראל",
+            "url": "https://cars.walla.co.il/item/3704186"
+          }
         }
       }
     }

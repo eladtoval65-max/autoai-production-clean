@@ -2383,6 +2383,82 @@
     },
     "bz4x": {
       "Gen1": {
+        "issues": [
+          {
+            "he": "ריקול: ברגי הטבור של הגלגלים עלולים להשתחרר עד כדי ניתוק גלגל. התיקון: החלפת ברגי הטבור (עם דסקיות) והגלגלים. ברכב מ-2022 ודאו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "שנת דגם 2023 בארה״ב, ייצור 2022 (NHTSA 22V444)",
+            "source": {
+              "title": "Cars.com — Toyota bZ4X recalls (NHTSA 22V444000)",
+              "url": "https://www.cars.com/research/toyota-bz4x/recalls"
+            }
+          },
+          {
+            "he": "ריקול: תקלות במערכת המיזוג, למשל כשל במדחס החשמלי, עלולות להשבית את הפשרת השמשה והסרת האדים. התיקון: עדכון תוכנה למחשב המיזוג ובדיקה של המדחס, ואם צריך גם החלפה. בדקו שהריקול בוצע ושהמזגן מקרר ומפשיר כרגיל.",
+            "level": "recall",
+            "scope": "שנים 2023–2025 (NHTSA 25V577)",
+            "source": {
+              "title": "Cars.com — Toyota bZ4X recalls (NHTSA 25V577000)",
+              "url": "https://www.cars.com/research/toyota-bz4x/recalls"
+            }
+          },
+          {
+            "he": "ריקול: תקלת תוכנה עלולה להקפיא את מצלמת הרוורס או להציג מסך ריק. התיקון: עדכון תוכנה למערכת סיוע החניה. ברכבים עם מצלמת 360° בדקו שהעדכון בוצע ושהמצלמה עובדת ברוורס.",
+            "level": "recall",
+            "scope": "שנים 2022–2026 עם מצלמת 360° (NHTSA 25V744)",
+            "source": {
+              "title": "Cars.com — Toyota bZ4X recalls (NHTSA 25V744000)",
+              "url": "https://www.cars.com/research/toyota-bz4x/recalls"
+            }
+          },
+          {
+            "he": "בדגמים המוקדמים דווחה טעינה מהירה (DC) איטית בקור, כשהטמפרטורה מתחת ל-10°C. משנת הדגם 2024 שופר חימום הסוללה. בישראל זה מורגש בעיקר בחורף, אז כדאי לבדוק בנסיעת המבחן את מהירות הטעינה המהירה.",
+            "level": "manufacturer",
+            "scope": "דגמים מוקדמים (2022–2023)",
+            "source": {
+              "title": "Autoblog (01.2024) — 2024 Toyota bZ4X gets better cold-weather charging",
+              "url": "https://www.autoblog.com/2024/01/11/2024-toyota-bz4x-gets-better-cold-weather-charging-and-feature-upgrades/"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 71.4 קוט״ש, הנעה קדמית",
+            "pt": "ev",
+            "hp": 204,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Toyota bZ4X FWD (MY22-24), real-range consumption 183 Wh/km; 150 kW (204 PS)",
+              "url": "https://ev-database.org/car/1564/Toyota-bZ4X-FWD"
+            }
+          },
+          {
+            "name": "חשמלי 71.4 קוט״ש, 4X4",
+            "pt": "ev",
+            "hp": 218,
+            "cons": 18.6,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Toyota bZ4X AWD (MY22-24), real-range consumption 186 Wh/km; 160 kW (218 PS)",
+              "url": "https://ev-database.org/car/1565/Toyota-bZ4X-AWD"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/toyota/bz4x/47139"
+        },
+        "launchPrice": {
+          "ils": 229990,
+          "year": 2022,
+          "note": "מחיר כניסה בהשקה",
+          "source": {
+            "title": "Cartube (2022) — טויוטה bZ4X החשמלי בישראל: מחיר 229,990 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-bz4x-החשמלי-בישראל-מחיר-229990-שקל"
+          }
+        },
         "maintenance": [
           {
             "he": "טיפול תקופתי במרכז השירות של היבואן",

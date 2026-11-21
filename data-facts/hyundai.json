@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -2840,8 +2840,24 @@
               "title": "EV Database — Hyundai IONIQ 6 N (MY26)",
               "url": "https://ev-database.org/car/3449/Hyundai-IONIQ-6-N"
             }
+          },
+          {
+            "name": "חשמלי 84 קוט״ש, שני מנועים 4X4",
+            "pt": "ev",
+            "hp": 601,
+            "cons": 18.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Hyundai IONIQ 6 N (MY26), real-range consumption 184 Wh/km (hp 601 / 641 in boost per Cartube 06.2026)",
+              "url": "https://ev-database.org/car/3449/Hyundai-IONIQ-6-N"
+            }
           }
         ],
+        "ncap": {
+          "stars": null,
+          "note": "not tested — גרסת N לא נבחנה בנפרד; איוניק 6 הרגילה קיבלה 5 כוכבים ב-2022",
+          "url": "https://www.euroncap.com/en/results/hyundai/ioniq 6/47747"
+        },
         "launchPrice": {
           "ils": 400000,
           "year": 2026,
@@ -2850,7 +2866,65 @@
             "title": "auto.co.il — יונדאי איוניק 6 N החדשה בארץ",
             "url": "https://www.auto.co.il/articles/car-news/local-news/hyundai-ioniq-6-n-israel/"
           }
-        }
+        },
+        "issues": []
+      }
+    },
+    "getz": {
+      "TB": {
+        "issues": [
+          {
+            "he": "מנוע שעשה בעיקר נסיעות קצרות ושלא טופל בזמן נוטה להצטברות בוצה בשמן. בדקו שהטיפולים נעשו לפי הזמן (פעם בשנה) ולא רק לפי הקילומטרים.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Marque News — Hyundai Getz 2002–2011 used review",
+              "url": "https://marquenews.com.au/hyundai-getz-2002-2011/"
+            }
+          },
+          {
+            "he": "עשן בהאצה חזקה או קושי בהתנעה קרה יכולים להעיד שהמנוע זקוק לשיפוץ. בנסיעת מבחן התניעו כשהמנוע קר והסתכלו במראה בהאצה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarsGuide — Used Hyundai Getz review: 2002-2011",
+              "url": "https://www.CarsGuide.com.au/car-reviews/hyundai-getz-used-review-2002-2011-27938"
+            }
+          },
+          {
+            "he": "בתיבה ידנית: חריקה בהורדת הילוך מהירה, בעיקר מ-3 ל-2, מעידה על תיקון גדול בתיבה. נסו הורדות הילוך מהירות בנסיעת המבחן.",
+            "level": "widely_reported",
+            "scope": "תיבה ידנית",
+            "source": {
+              "title": "Marque News — Hyundai Getz 2002–2011 used review",
+              "url": "https://marquenews.com.au/hyundai-getz-2002-2011/"
+            }
+          },
+          {
+            "he": "רבים מהרכבים שימשו כרכבי השכרה ונהגו בהם בצורה קשה. שחיקה לא אחידה בצמיגים הקדמיים ושריטות בחישוקים ובפינות הפגוש מעידות על פגיעות במדרכה ובעיית כיוון פרונט. בדקו צמיגים, כיוון והיסטוריית תאונות.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarsGuide — Used Hyundai Getz review: 2002-2011",
+              "url": "https://www.CarsGuide.com.au/car-reviews/hyundai-getz-used-review-2002-2011-27938"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "בנזין — ממוצע כל הגרסאות",
+            "pt": "petrol",
+            "cons": 8.74,
+            "unit": "L",
+            "source": {
+              "title": "Fuelly — Hyundai Getz, model years 2010–2011 (46 vehicles; 26.1 mpg US ×35 + 29.5 mpg US ×11, weighted ≈26.9 mpg US = 8.74 L/100km; engine not broken down)",
+              "url": "https://fuelly.com/car/hyundai/getz/all"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2004,
+          "url": "https://cdn.euroncap.com/media/10046/euroncap_hyundai_getz_2004_4stars.pdf"
+        },
+        "launchPrice": null
       }
     }
   }

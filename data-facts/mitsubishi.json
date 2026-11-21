@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -860,6 +860,74 @@
             "url": "https://www.carzone.co.il/Mitsubishi/I-MIEV"
           }
         }
+      }
+    },
+    "colt": {
+      "Z30": {
+        "issues": [
+          {
+            "he": "ריקול (אוסטרליה): חיבור לקוי בין חיישן ההגה לרתמת החשמל עלול לגרום לאובדן סיוע ההגה החשמלי ולהדלקת נורית אזהרה. התיקון: החלפת תיבת ההגה. בדקו שאין נורית הגה ושההגה לא כבד, ובדקו מול היבואן לפי מספר השלדה.",
+            "level": "recall",
+            "scope": "שנת דגם 2011 (ריקול באוסטרליה, 2016)",
+            "source": {
+              "title": "australiancar.reviews — Recalls: Mitsubishi RG Colt",
+              "url": "https://australiancar.reviews/?p=47477"
+            }
+          },
+          {
+            "he": "בגרסאות האוטומטיות התיבה היא המקור העיקרי לתקלות, בעיקר מעל 150 אלף ק״מ. בדקו שההעברות חלקות ובקשו תיעוד של החלפת שמן תיבה.",
+            "level": "widely_reported",
+            "scope": "תיבה אוטומטית",
+            "source": {
+              "title": "Trade Me — Mitsubishi Colt 2002-2012 used car review",
+              "url": "https://www.trademe.co.nz/c/motors/review/mitsubishi-colt-2002-2012-used-car-review"
+            }
+          },
+          {
+            "he": "בולמי זעזועים קדמיים נשחקים ככל שהקילומטראז׳ עולה. בדקו את מצבם, בעיקר ברכב עם קילומטראז׳ גבוה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Trade Me — Mitsubishi Colt 2002-2012 used car review",
+              "url": "https://www.trademe.co.nz/c/motors/review/mitsubishi-colt-2002-2012-used-car-review"
+            }
+          },
+          {
+            "he": "מערכת האוורור המופעלת בכבלים ידועה כבעייתית ותיקונה מסובך. בדקו שהאוויר יוצא בדיוק מהפתחים שבחרתם בבורר. בדקו גם שכל החלונות החשמליים עולים ויורדים בצורה חלקה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "Trade Me — Mitsubishi Colt 2002-2012 used car review",
+              "url": "https://www.trademe.co.nz/c/motors/review/mitsubishi-colt-2002-2012-used-car-review"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.3 בנזין ידנית",
+            "pt": "petrol",
+            "cons": 6.43,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Mitsubishi Colt (2008-2013) 1.3: 43.9 mpg UK = 6.43 L/100km",
+              "url": "https://good-garage-guide.honestjohn.co.uk/realmpg/mitsubishi/colt-2008/13"
+            }
+          },
+          {
+            "name": "1.3 בנזין אוטומטית",
+            "pt": "petrol",
+            "cons": 7.04,
+            "unit": "L",
+            "source": {
+              "title": "HonestJohn Real MPG — Mitsubishi Colt (2008-2013) 1.3 Automatic: 40.1 mpg UK = 7.04 L/100km",
+              "url": "https://good-garage-guide.honestjohn.co.uk/realmpg/mitsubishi/colt-2008/13"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2005,
+          "url": "https://cdn.euroncap.com/media/8676/euroncap_mitsubishi_colt_2005_4stars.pdf"
+        },
+        "launchPrice": null
       }
     }
   }

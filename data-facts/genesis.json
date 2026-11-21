@@ -1,6 +1,6 @@
 {
   "make": "genesis",
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "models": {
     "g80": {
       "RG3": {
@@ -370,6 +370,21 @@
     },
     "gv80-coupe": {
       "JX1C": {
+        "ncap": {
+          "stars": null,
+          "note": "not tested (Euro NCAP tested only the regular GV80, 2021)"
+        },
+        "issues": [
+          {
+            "he": "קמפיין פליטות: מחשב המנוע עלול לא להדליק נורת תקלה כשיש פער בחיישן מפלס הדלק (קודים P0461/P2066). התיקון: עדכון תוכנה למחשב המנוע ללא תשלום ומדבקה מתחת למכסה המנוע. בדקו שהמדבקה קיימת או שהעדכון מתועד.",
+            "level": "manufacturer",
+            "scope": "שנת דגם 2025, יוצרו 04.2024–12.2024 (ארה״ב, קמפיין 25-01-026G)",
+            "source": {
+              "title": "NHTSA — Genesis campaign bulletin 25-01-026G (05.2025), GV80 / GV80 Coupe 3.5T",
+              "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11018881-0001.pdf"
+            }
+          }
+        ],
         "engines": [
           {
             "name": "3.5 V6 טורבו בנזין, היברידי קל 48V, 409 כ״ס",
@@ -380,6 +395,17 @@
             "source": {
               "title": "Tom's Guide — I drove the Genesis GV80 Coupe for a week (20.9 mpg observed)",
               "url": "https://tomsguide.com/vehicle-tech/i-drove-the-genesis-gv80-coupe-for-a-week-and-this-suv-cured-my-need-for-speed-itch"
+            }
+          },
+          {
+            "name": "3.5 טורבו V6 עם מגדש חשמלי 48V, ‏409 כ״ס",
+            "pt": "petrol",
+            "hp": 409,
+            "cons": 12.4,
+            "unit": "L",
+            "source": {
+              "title": "WUWM (16.03.2026) — 2026 Genesis GV80 Coupe 3.5T review: observed 19 mpg (US) ≈ 12.4 L/100km",
+              "url": "https://www.wuwm.com/arts-culture/2026-03-16/2026-genesis-gv80-coupe-3-5t-e-sh-mhev-prestige-black-awd-review"
             }
           }
         ],

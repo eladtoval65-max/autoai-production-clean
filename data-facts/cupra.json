@@ -1,6 +1,6 @@
 {
   "make": "cupra",
-  "updated": "2026-11-09",
+  "updated": "2026-11-21",
   "models": {
     "formentor": {
       "KM7": {
@@ -332,6 +332,67 @@
             }
           }
         ]
+      }
+    },
+    "tavascan": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "ריקול: כיול שגוי עלול לגרום לאור הגבוה האוטומטי המתקדם לסנוור נהגים מולכם. התיקון: עדכון תוכנה במוסך מורשה. בדקו שהעדכון בוצע.",
+            "level": "recall",
+            "scope": "ייצור 2024–2026 (ריקול באוסטרליה, 2026)",
+            "source": {
+              "title": "CarExpert (08.2026) — Cupra Tavascan recalled",
+              "url": "https://www.carexpert.com.au/car-news/cupra-tavascan-recalled"
+            }
+          },
+          {
+            "he": "במבחן ארוך טווח דווח שהרכב לא נכנס להילוך בגלל תקלת תקשורת ביחידת בקרת ההגה. התקלה תוקנה בעדכוני תוכנה. בדקו שהרכב עודכן לגרסת התוכנה האחרונה.",
+            "level": "widely_reported",
+            "source": {
+              "title": "What Car? (05.2025) — Cupra Tavascan long-term test: report 2",
+              "url": "https://www.whatcar.com/news/cupra-tavascan-long-term-test-report-2/n27780"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 77 קוט״ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 286,
+            "cons": 17.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — CUPRA Tavascan Endurance, real-range consumption 280 Wh/mi (≈174 Wh/km); 210 kW (286 PS)",
+              "url": "https://ev-database.org/uk/car/1971/CUPRA-Tavascan-Endurance"
+            }
+          },
+          {
+            "name": "VZ חשמלי 77 קוט״ש, 4X4",
+            "pt": "ev",
+            "hp": 340,
+            "cons": 18.4,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — CUPRA Tavascan VZ, real-range consumption 296 Wh/mi (≈184 Wh/km); 250 kW (340 PS)",
+              "url": "https://ev-database.org/uk/car/1972/CUPRA-Tavascan-VZ"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2024,
+          "url": "https://www.euroncap.com/en/results/cupra/tavascan/53133"
+        },
+        "launchPrice": {
+          "ils": 243000,
+          "year": 2024,
+          "note": "מחיר כניסה בהשקה (Endurance)",
+          "source": {
+            "title": "iCar (18.12.2024) — קופרה טווסקאן בישראל: המחיר מתחיל ב-243 אלף שקל",
+            "url": "https://www.icar.co.il/חדשות_רכב/byipablbkl/"
+          }
+        }
       }
     }
   }

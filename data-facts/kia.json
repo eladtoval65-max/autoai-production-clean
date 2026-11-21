@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-15",
+  "updated": "2026-11-21",
   "models": {
     "sportage": {
       "NQ5": {
@@ -2114,6 +2114,146 @@
           "source": {
             "title": "auto.co.il — קיה EV5 החדש בארץ – המחיר החל מ-198,900 שקלים (3.11.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/kia-ev5-israel/"
+          }
+        }
+      }
+    },
+    "pv5": {
+      "Gen1": {
+        "issues": [
+          {
+            "he": "ריקול: במכסה המנוע יש אזורים שחוזקם אינו אחיד, מה שעלול להגביר את הפגיעה בהולך רגל בתאונה. התיקון: בדיקת מספר אצוות הייצור של המכסה, ואם צריך החלפתו. בדקו שהריקול בוצע.",
+            "level": "recall",
+            "scope": "ייצור 08.09.2025–02.02.2026 (ריקול באירופה)",
+            "source": {
+              "title": "ÖAMTC (11.2026) — Kia PV5: Probleme mit der Motorhaube (Rückruf)",
+              "url": "https://www.oeamtc.at/rueckrufaktionen/kia-pv5-probleme-mit-der-motorhaube-90371751"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 71.2 קוט״ש",
+            "pt": "ev",
+            "hp": 163,
+            "cons": 19.8,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Kia PV5 Passenger 71.2 kWh, real-range consumption 319 Wh/mi (≈198 Wh/km); 120 kW (163 PS)",
+              "url": "https://ev-database.org/uk/car/3289/Kia-PV5-Passenger-712-kWh"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2025,
+          "url": "https://www.euroncap.com/en/results/kia/pv5+passenger/58928"
+        },
+        "launchPrice": null
+      }
+    },
+    "forte": {
+      "TD": {
+        "issues": [
+          {
+            "he": "ריקול: יחידת הבקרה של כריות האוויר עלולה לעשות קצר בתאונה, ואז כריות האוויר הקדמיות ומותחני החגורות לא ייפתחו. התיקון: התקנת רתמת חיווט מאריכה. בדקו לפי מספר השלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "2010–2013, ייצור 02.2009–08.2012 (NHTSA 18V363, SC165)",
+            "source": {
+              "title": "Justia Auto Recalls — Kia Forte 2011: air bag control module (NHTSA 18V363000)",
+              "url": "https://auto-recalls.justia.com/kia/forte/2011/18v363000"
+            }
+          },
+          {
+            "he": "ריקול: הפד שעוצר את דוושת הבלם עלול להתפורר, ואז אורות הבלם נשארים דולקים וניתן להזיז את ידית ההילוכים מ-P בלי ללחוץ על הבלם. בדקו שאורות הבלם כבים כשמשחררים את הדוושה ושהריקול בוצע.",
+            "level": "recall",
+            "scope": "2012–2013, ייצור מ-05.2012 (NHTSA 17V773, SC158)",
+            "source": {
+              "title": "Justia Auto Recalls — Kia Forte 2012: brake pedal stopper pad (NHTSA 17V773000)",
+              "url": "https://auto-recalls.justia.com/kia/forte/2012/17v773000"
+            }
+          },
+          {
+            "he": "דווח על רעש בהחלפת הילוכים, בעיקר מ-2 ל-3, גם בתיבה האוטומטית. לעתים מתוקן בעדכון תוכנה אצל היבואן. בדקו את איכות ההעברות בנסיעת מבחן.",
+            "level": "widely_reported",
+            "source": {
+              "title": "CarAdvice — 2009-2013 Kia Cerato used car review",
+              "url": "https://www.caradvice.com.au/news/used-car-review-2009-13-kia-cerato-gow8uf/"
+            }
+          },
+          {
+            "he": "ריקול (אוסטרליה): צינור קירור שמן של התיבה האוטומטית עלול לדלוף, ואז נדלקת נורית אזהרה, ההעברות משתבשות ובסוף הרכב מאבד הנעה. בדקו שאין דליפת שמן ליד התיבה ושההעברות תקינות.",
+            "level": "recall",
+            "scope": "סדרת ייצור אחת מסוף 2010 (ריקול באוסטרליה)",
+            "source": {
+              "title": "CarAdvice — 2009-2013 Kia Cerato used car review",
+              "url": "https://www.caradvice.com.au/news/used-car-review-2009-13-kia-cerato-gow8uf/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "not tested"
+        },
+        "launchPrice": null
+      },
+      "YD": {
+        "issues": [
+          {
+            "he": "ריקול: הנגד של מאוורר הקירור עלול להתחמם ולהימס, עם סכנת שריפה. התיקון: החלפת הנגד ויחידת הנתיכים. בדקו לפי מספר השלדה שהריקול בוצע.",
+            "level": "recall",
+            "scope": "שנת דגם 2014, ייצור 12.2012–04.2014 (NHTSA 15V015, SC113)",
+            "source": {
+              "title": "Justia Auto Recalls — Kia Forte 2014: cooling fan resistor (NHTSA 15V015000)",
+              "url": "https://auto-recalls.justia.com/kia/forte/2014/15v015000"
+            }
+          },
+          {
+            "he": "ריקול: הפד שעוצר את דוושת הבלם עלול להתפורר, ואז אורות הבלם נשארים דולקים וניתן להזיז את ידית ההילוכים מ-P בלי ללחוץ על הבלם. בדקו שאורות הבלם כבים כשמשחררים את הדוושה ושהריקול בוצע.",
+            "level": "recall",
+            "scope": "שנת דגם 2014, ייצור עד 02.2014 (NHTSA 17V773, SC158)",
+            "source": {
+              "title": "Justia Auto Recalls — Kia Forte 2012-2014: brake pedal stopper pad (NHTSA 17V773000)",
+              "url": "https://auto-recalls.justia.com/kia/forte/2012/17v773000"
+            }
+          },
+          {
+            "he": "בעלים מדווחים על נקישה או ״פיצוץ״ בסיבוב ההגה, בעיקר בעמידה. הסיבה: תושבות בולמים קדמיות שחוקות או סדוקות. בעמידה עם מנוע פועל סובבו את ההגה עד הסוף לשני הצדדים כמה פעמים והקשיבו.",
+            "level": "widely_reported",
+            "source": {
+              "title": "autoTRADER.ca — Used vehicle review: Kia Forte, 2014-2018",
+              "url": "https://www.autotrader.ca/expert/20180830/used-vehicle-review-kia-forte-2014-2018/"
+            }
+          },
+          {
+            "he": "בשנים 2016–2018 דווח על נורית כרית אוויר שנדלקת בגלל תקלת תוכנה. אם הנורית דולקת — לבדיקה אצל היבואן לפני הקנייה.",
+            "level": "widely_reported",
+            "scope": "2016–2018",
+            "source": {
+              "title": "carsales — Buying a used Kia Cerato 2013-2018",
+              "url": "https://www.carsales.com.au/editorial/details/buying-a-used-kia-cerato-2013-2018-138619"
+            }
+          },
+          {
+            "he": "מיזוג שמקרר חלש: לעתים חסר גז מהמפעל או מסנן מזגן סתום. בדקו שהמזגן מוציא אוויר קר באמת ושמסנן המזגן הוחלף.",
+            "level": "widely_reported",
+            "source": {
+              "title": "autoTRADER.ca — Used vehicle review: Kia Forte, 2014-2018",
+              "url": "https://www.autotrader.ca/expert/20180830/used-vehicle-review-kia-forte-2014-2018/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": null,
+          "note": "not tested"
+        },
+        "launchPrice": {
+          "ils": 127000,
+          "year": 2013,
+          "note": "מחיר כניסה, LX 1.6 אוטומטית 6 הילוכים, 130 כ״ס",
+          "source": {
+            "title": "Cartube (03.03.2013) — קיה פורטה החדשה 2013 בישראל: מחיר החל מ-127,000 שקל",
+            "url": "https://www.cartube.co.il/חדשות-רכב/קיה-פורטה-החדשה-2013-בישראל-–-מחיר-החל-מ-127000-שקל"
           }
         }
       }
