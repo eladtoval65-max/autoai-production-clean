@@ -168,6 +168,19 @@
               "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km: MG ZS EV 5 services, ₪2,223 (₪445 per visit) (2020 prices)",
               "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
             }
+          },
+          {
+            "he": "החלפת רפידות בלמים קדמיות — בחשמלית צפויות להחזיק מעל 100 אלף ק\"מ",
+            "kind": "wear",
+            "intervalKm": 100000,
+            "costIls": [
+              900,
+              900
+            ],
+            "source": {
+              "title": "ynet (08.04.2020) — service-cost comparison: MG ZS EV front brake pads ₪900, expected to last over 100,000 km (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
           }
         ]
       }

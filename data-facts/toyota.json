@@ -280,6 +280,34 @@
               "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km, Corolla hybrid ₪7,402 / petrol ₪7,642; ₪ per visit = total ÷ 8 / ÷ 6 (article states both counts) (2020 prices)",
               "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
             }
+          },
+          {
+            "he": "החלפת רפידות בלמים קדמיות — בבנזין בערך כל 23 אלף ק\"מ, בהיברידי (בלימה רגנרטיבית) בערך כל 45 אלף ק\"מ",
+            "kind": "wear",
+            "intervalKm": 23000,
+            "costIls": [
+              765,
+              765
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "ynet (08.04.2020) — Corolla petrol vs hybrid service-cost comparison: front brake pads ₪765 per replacement at the importer, ~23,000 km average life (petrol) / ~45,000 km (hybrid) (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
+          },
+          {
+            "he": "החלפת רפידות בלמים קדמיות — בהיברידי הבלימה הרגנרטיבית מאריכה את חייהן לכ-45 אלף ק\"מ",
+            "kind": "wear",
+            "intervalKm": 45000,
+            "costIls": [
+              765,
+              765
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "ynet (08.04.2020) — Corolla petrol vs hybrid service-cost comparison: front brake pads ₪765 per replacement at the importer, ~45,000 km average life on the hybrid (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
           }
         ]
       }

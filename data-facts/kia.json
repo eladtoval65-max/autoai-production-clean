@@ -501,6 +501,20 @@
               "title": "Walla Cars — used economical family cars: Kia Niro (2017+) clutch-bearing repair ≈ ₪7,000, full clutch ≈ ₪12,000",
               "url": "https://cars.walla.co.il/item/3827716"
             }
+          },
+          {
+            "he": "החלפת רפידות בלמים קדמיות — בהיברידי בערך כל 80 אלף ק\"מ בזכות הבלימה הרגנרטיבית",
+            "kind": "wear",
+            "intervalKm": 81000,
+            "costIls": [
+              730,
+              730
+            ],
+            "scope": "היברידי",
+            "source": {
+              "title": "ynet (08.04.2020) — service-cost comparison: Kia Niro hybrid front brake pads ₪730 per replacement at the importer, ~81,000 km average life (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
           }
         ]
       },
@@ -824,6 +838,20 @@
             "scope": "XCeed",
             "source": {
               "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km, Kia XCeed ₪9,322; ₪ per visit = total ÷ 8 / ÷ 6 (article counts both) (2020 prices)",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+            }
+          },
+          {
+            "he": "החלפת רפידות בלמים קדמיות — בערך כל 35 אלף ק\"מ",
+            "kind": "wear",
+            "intervalKm": 35000,
+            "costIls": [
+              644,
+              644
+            ],
+            "scope": "XCeed",
+            "source": {
+              "title": "ynet (08.04.2020) — service-cost comparison: Kia XCeed front brake pads ₪644 per replacement at the importer, ~35,000 km average life (2020 prices)",
               "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
             }
           }
