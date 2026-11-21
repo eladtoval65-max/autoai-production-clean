@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-11-09",
+  "updated": "2026-11-21",
   "models": {
     "qashqai": {
       "J11": {
@@ -250,7 +250,24 @@
             "title": "Queen of the Road — ניסאן קשקאי החדש 2021 בישראל (מנוע 1.33 ל׳) מ-159,990 ש״ח",
             "url": "https://www.queenoftheroad.co.il/?p=77904"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול שגרתי — מחיר ממוצע במוסכים לפי אתר השוואת מחירים (₪740 ב-2023, ₪900 ב-2025; הנתון לכל שנתוני קשקאי). במיילד-היברידי: טיפול פעם בשנה או כל ~29,000 ק״מ; ב-e-Power לרוב בתדירות גבוהה יותר",
+            "kind": "service",
+            "intervalKm": 29000,
+            "intervalYears": 1,
+            "costIls": [
+              900,
+              900
+            ],
+            "scope": "1.3 טורבו מיילד-היברידי",
+            "source": {
+              "title": "Bizportal (23.05.2026) — routine service for Nissan Qashqai ₪740 (2023) → ₪900 (2025), industry price-comparison site (garages, generation not stated; 2025 price used); interval once a year or 18,000 miles (~29,000 km) for Mk3 mild-hybrid, e-Power every 9,000 miles, per Parkers (UK) Qashqai Mk3 running-costs review",
+              "url": "https://www.bizportal.co.il/car/news/article/20032482"
+            }
+          }
+        ]
       }
     },
     "juke": {
