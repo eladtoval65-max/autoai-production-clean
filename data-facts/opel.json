@@ -835,6 +835,22 @@
               "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/opel/meriva/b/222632"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול 15,000 ק\"מ (שמן ומסנן) במרכז השירות: ₪610 כולל מע\"מ; טיפולים גדולים יקרים יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "costIls": [
+              610,
+              610
+            ],
+            "scope": "טורבו בנזין",
+            "source": {
+              "title": "auto.co.il long-term test, final report (12.10.2015) — Opel Meriva turbo: service every 15,000 km; first service (oil + filter) ₪610 incl. VAT (2015 price)",
+              "url": "https://www.auto.co.il/articles/car-news/111234/"
+            }
+          }
         ]
       }
     },

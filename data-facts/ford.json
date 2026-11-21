@@ -73,6 +73,20 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי אצל היבואן — בממוצע כ-₪1,190 לטיפול (₪4,760 מצטבר עד 60 אלף ק\"מ)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1190,
+              1190
+            ],
+            "source": {
+              "title": "auto.co.il (14.02.2018) — Ford Focus 3rd gen used guide: service every 15,000 km/1 year; cumulative importer service cost to 60,000 km ₪4,760 (≈₪1,190 per service, 2018 prices)",
+              "url": "https://www.auto.co.il/articles/general-articles/129757/"
+            }
+          },
+          {
             "he": "מצמדי תיבת PowerShift הכפולה: החלפה מחוץ לאחריות. בדקו שהוחלפו במסגרת האחריות המורחבת של פורד.",
             "kind": "risk",
             "costIls": [
