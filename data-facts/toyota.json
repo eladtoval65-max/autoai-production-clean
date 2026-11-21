@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "models": {
     "corolla": {
       "E150": {
@@ -2379,6 +2379,26 @@
           "note": "לא נבחנה ב-Euro NCAP לאורך כל שנות הייצור (לפי The Car Expert)",
           "url": "https://www.thecarexpert.co.uk/toyota-gt86-2012/"
         }
+      }
+    },
+    "bz4x": {
+      "Gen1": {
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              724,
+              724
+            ],
+            "source": {
+              "title": "Walla Cars (19.12.2024) — importer central-garage service cost: bZ4X ₪4,344 to 90,000 km / ₪5,792 to 120,000 km (≈ ₪724 per 15,000-km / yearly service)",
+              "url": "https://cars.walla.co.il/item/3712321"
+            }
+          }
+        ]
       }
     }
   }
