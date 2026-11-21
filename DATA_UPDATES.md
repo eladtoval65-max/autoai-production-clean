@@ -654,3 +654,34 @@ Checked and left unchanged — needs owner review:
 - Both sources differ but disagree: ORA 05, Jaecoo 5, Chery FX, Jeep Avenger.
 - Price null, still disagree / one source: VW T-Roc / ID.4 / Touareg / ID. Buzz, Mercedes A-Class / EQA / GLS / EQE / EQE SUV / G-Class / EQS SUV / SL, Audi A8 / e-tron GT, Range Rover / RR Sport, Porsche Taycan / Panamera / 911, Dongfeng Box (104,900 vs 113,900), Tesla S / X / Cybertruck.
 - One-source status conflicts: MG5 / ORA 07 / KGM Tivoli / Alfa Giulia / Fiat 500 (cartube "no longer marketed", carzone lists), VW ID.3 / Chevrolet Blazer EV (not on cartube), Mercedes EQB (not on carzone).
+
+## 2026-11-21 (daily agent)
+Prices checked today on carzone brand pages (https://www.carzone.co.il/<Make>; Toyota page unusable — import listings; Honda via model pages; DS via model pages; Polestar "price not available") and cartube price lists (https://www.cartube.co.il/מחירון-רכב-חדש/<make>) for all 52 makes — every make had both sources readable today. `PRICES_VERIFIED` = 2026-11-21.
+Energy prices: not touched (not the first run of the month).
+
+Price changes (generations.ts, 2 — none over 25%; both sources agree):
+- Genesis GV70: ₪359,990–459,990 → ₪359,990–539,990 (https://www.carzone.co.il/Genesis, https://www.cartube.co.il/מחירון-רכב-חדש/28-ג-נסיס; top = 3.5 V6 Sport).
+- Jaecoo 7: ₪179,990–189,990 → ₪179,990–202,990 (top = plug-in Luxury; https://www.carzone.co.il/Omoda-Jaecoo 169,900–202,990, https://www.cartube.co.il/מחירון-רכב-חדש/ג-אקו 179,990–202,990; "from" kept = cartube / ours).
+Catalog: no price changes (both changes are range tops; catalog trims unchanged).
+
+Models added to generations.ts (9; consumption = real-world estimates):
+- VW Taigo ₪160,900 (both sources: https://www.carzone.co.il/Volkswagen/Taigo, https://www.cartube.co.il/מחירון-רכב-חדש/פולקסווגן; engines https://www.volkswagen-newsroom.com/en/the-new-taigo-european-premiere-7448/economical-and-low-emission-tsi-engines-7460; 5★ 2022 https://www.euroncap.com/en/results/vw/taigo/45238).
+- VW ID.5 (unverified, price null — carzone 259,900 vs cartube 259,900–289,900; https://www.volkswagen-newsroom.com/en/international-vehicle-presentation-volkswagen-id5-and-id5-gtx-7925/technical-data-of-the-id5-7952, https://www.volkswagen-newsroom.com/en/the-new-id4-and-id5-17756; 5★ 2021 https://www.euroncap.com/en/results/vw/id.5/45239).
+- VW ID.7 (unverified, price null — cartube Pro 322,900 vs carzone Pro S 357,900 / GTX 402,900; https://electrive.com/2024/06/04/vw-brings-the-new-86-kwh-battery-to-the-id-7; 5★ 2023 https://www.volkswagen-newsroom.com/en/press-releases/top-marks-for-the-new-id7-five-stars-in-the-euro-ncap-safety-rating-17964).
+- Cupra Tavascan (unverified, price null — cartube only 242,900–289,900; https://www.cupra.com/en/cars/tavascan/tavascan-endurance; 5★ 2024 https://www.seat-cupra-mediacenter.com/CUPRA-Brand/cupra-news/2024/cupra-tavascan-euro-ncap-rating).
+- Toyota bZ4X (unverified, price null — auto.co.il MY2026 245,990–265,990 https://www.auto.co.il/cars/toyota/bz4x/2026/ but cartube marks it not marketed; 5★ 2022 https://www.euroncap.com/fr/results/toyota/bz4x/47139).
+- Kia PV5 passenger (unverified, price null — carzone only 209,900 https://www.carzone.co.il/Kia/PV5; https://www.kia.com/ie/new-cars/pv5-passenger/; 4★ 2025 https://www.euroncap.com/en/results/kia/pv5+passenger/58928).
+- Kia Forte (Cerato) TD / YD, discontinued (https://www.carzone.co.il/Kia/Forte/2010/compare/, https://www.cartube.co.il/חדשות-רכב/קיה-פורטה-החדשה-2013-בישראל-–-מחיר-החל-מ-127000-שקל, https://www.auto.co.il/articles/car-news/127317/; NCAP null).
+- Hyundai Getz TB (2010–2011 only; https://www.wikiwand.com/en/articles/Hyundai_Getz; hp not verified; NCAP null).
+- Mitsubishi Colt Z30 (2010–2012; https://www.auto-data.net/en/mitsubishi-colt-vi-z30-generation-3467, https://www.autoblog.com/2012/02/09/mitsubishi-ceases-production-in-western-europe/; Israeli engines not verified; NCAP null).
+Models added to the recommendation catalog: none (Taigo hp conflicts: carzone 115 vs VW 110 PS; no verified consumption).
+Totals now: catalog 83 cars; generations.ts 52 makes, 432 models.
+
+Checked and left unchanged — needs owner review:
+- **VW Tiguan**: carzone model page and cartube both show 239,900–269,900 (Elegance 1.5 / R-Line Plus / Elegance 4x4) — but carzone's own brand page still shows 209,000–297,000 and the 3/11 price-cut news gave 209,900–249,900 (our figure, catalog Style ₪209,900). Possible reversal of the price cut or stale pages → not applied.
+- Mercedes GLA: new generation electric-only (cartube 329,900–449,900 = carzone "GLA EQ"); carzone still lists old GLA = ours.
+- Mercedes C-Class (cartube 379,900 from, facelift), BMW 3 Series / X5, Audi Q6 e-tron (cartube 524,900–679,900 vs carzone = ours), Land Rover lines, Porsche, Volvo ES90 (cartube + carzone headline from 419,900, carzone brand 399,900) — sources disagree.
+- One-source differences (other source = ours): Toyota Land Cruiser (cartube top 530,990), Hyundai Venue / Santa Fe, Kia Picanto / Stonic / EV3 / Niro, Mazda CX-5, Skoda Fabia / Kamiq / Karoq / Superb / Octavia, BYD Atto 3 / Seal 05 / Sealion 7, Tesla Model Y, Seat Arona, Chery Tiggo 4 Pro, Mitsubishi Outlander, Peugeot 2008 / 408 / 5008, MG ZS / MG4 / S5, Nissan Qashqai, Renault Austral / Clio, Subaru Outback (279,900 vs 279,990), Lexus UX / NX / RX / LBX, Volvo XC60 / XC90, MINI Aceman, Genesis GV60 (cartube Magma separate), Zeekr X, Lynk & Co 02 (cartube 171,900–179,900), ORA 05 / 03, XPENG G6, Jeep Compass, KGM Torres / Musso, Isuzu D-Max, Alfa Junior, Voyah Courage.
+- Both differ but disagree: Jeep Avenger / Wrangler, Chery FX, Zeekr 001, Ford Mustang, Honda HR-V, Peugeot 208, Jaecoo 5.
+- Price null, still disagree / one source: VW T-Roc / ID.Buzz (385,000 both; top 452,000 vs 455,000) / ID.4 / Touareg, Mercedes A-Class / EQA / EQB / GLS / EQE / EQE SUV / G-Class / EQS SUV / SL, Audi A8 / e-tron GT, Range Rover / RR Sport, Porsche Taycan / Panamera / 911, Dongfeng Box (104,900 vs 113,900).
+- One-source status conflicts: ORA 07 / KGM Tivoli / Fiat 500 / Alfa Giulia / MG5 (cartube "no longer marketed", carzone lists), Mercedes EQA (cartube discontinued, carzone 2026), Kia EV5 (absent from cartube, carzone lists).

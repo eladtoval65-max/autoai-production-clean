@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-11-15";
+export const PRICES_VERIFIED = "2026-11-21";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -97,6 +97,9 @@ export const MAKES: Make[] = [
     { id: "c-hr-plus", make: "toyota", model: "C-HR+", he: "C-HR+", body: "suv", segment: "mass", price: [179990, 229990], status: "on_sale", gens: [
       T("Gen1", 2026, null, "חשמלי, הנעה קדמית או 4X4", "167–343", ["ev"], 16.5, null, undefined, [C.ev, C.recalls], "דגם חשמלי נפרד מה-C-HR ההיברידי"),
     ]},
+    { id: "bz4x", make: "toyota", model: "bZ4X", he: "bZ4X", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+      T("Gen1", 2022, null, "חשמלי, סוללה 71.4 קוט\"ש, הנעה קדמית או 4X4", "204–218", ["ev"], 18.0, 5, 2022, [C.ev, C.recalls], "auto.co.il מציג MY2026 ‏₪245,990–265,990 אבל cartube מסמן \"לא משווק יותר\" — סטטוס לא אומת. מתיחת פנים 2025 באירופה (עד 338 כ\"ס) לא נראתה בישראל"),
+    ]},
     { id: "camry", make: "toyota", model: "Camry", he: "קאמרי", body: "sedan", segment: "mass", price: [214990, 229990], status: "on_sale", gens: [
       T("XV40", 2010, 2011, "2.4 בנזין", "167", ["petrol"], 9.5, null, undefined, [C.history, C.inspect, "צריכת שמן במנועי 2.0/2.4 ישנים"]),
       T("XV50", 2012, 2017, "2.5 בנזין / 2.5 היברידי", "181–205", ["petrol", "hybrid"], 7.5, null, undefined, [C.history, C.inspect, "בגרסת ההיברידי: " + C.toyHybrid]),
@@ -164,6 +167,9 @@ export const MAKES: Make[] = [
       T("PB", 2010, 2014, "1.25 / 1.4 בנזין", "78–100", ["petrol"], 6.9, 5, 2009, [C.history, C.inspect]),
       T("GB", 2015, 2020, "1.4 בנזין / 1.0 טורבו", "100", ["petrol"], 6.9, 4, 2015, [C.history, C.inspect]),
       T("BC3", 2021, null, "1.0 טורבו", "100", ["petrol"], 6.8, 4, 2021, [C.history, C.dct]),
+    ]},
+    { id: "getz", make: "hyundai", model: "Getz", he: "גטס", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("TB", 2010, 2011, "1.1 / 1.4 / 1.6 בנזין, 1.5 CRDi דיזל", "—", ["petrol", "diesel"], 6.5, null, undefined, [C.history, C.inspect, C.suspension], "ייצור 2002–2011 (מתיחת פנים 2005); רק השנים מ-2010 כאן. הספקים לא אומתו"),
     ]},
     { id: "venue", make: "hyundai", model: "Venue", he: "וניו", body: "suv", segment: "mass", price: [129900, 144990], status: "on_sale", gens: [
       T("QX", 2020, null, "1.6 בנזין, CVT", "121–123", ["petrol"], 7.7, null, undefined, [C.history, C.cvt]),
@@ -284,6 +290,13 @@ export const MAKES: Make[] = [
     ]},
     { id: "ev5", make: "kia", model: "EV5", he: "EV5", body: "suv", segment: "mass", price: [198900, 219900], status: "on_sale", gens: [
       T("OV", 2025, null, "חשמלי, סוללה 81.4 קוט\"ש, הנעה קדמית", "217", ["ev"], 18.5, 5, 2025, [C.ev, C.history], "בישראל: Premium LR ‏₪198,900, Executive LR ‏₪219,900; טווח WLTP מוצהר 520–530 ק\"מ"),
+    ]},
+    { id: "pv5", make: "kia", model: "PV5", he: "PV5", body: "mpv", segment: "mass", price: null, status: "unverified", gens: [
+      T("Gen1", 2025, null, "חשמלי, סוללה 71.2 קוט\"ש", "163", ["ev"], 21.0, 4, 2025, [C.ev, C.recalls], "גרסת נוסעים; carzone ‏Premium ‏₪209,900 (מסווג כמסחרי, בעיקר לציים) — מקור אחד בלבד"),
+    ]},
+    { id: "forte", make: "kia", model: "Forte (Cerato)", he: "פורטה", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
+      T("TD", 2010, 2013, "1.6 בנזין, אוטומטית", "124–126", ["petrol"], 7.8, null, undefined, [C.history, C.inspect, "תיבה אוטומטית ישנה: לבדוק החלפות הילוך חלקות"]),
+      T("YD", 2013, 2018, "1.6 בנזין אוטומטית 6; מ-2016 גם 1.6 דיזל עם תיבה כפולת מצמד", "130–136", ["petrol", "diesel"], 7.4, null, undefined, [C.history, C.inspect, "בגרסת הדיזל: " + C.dct], "דור BD (2018 ואילך) כנראה לא שווק בישראל — לא אומת"),
     ]},
   ]},
 
@@ -413,7 +426,7 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "jaecoo", name: "Omoda & Jaecoo", he: "אומודה וג'אקו", models: [
-    { id: "jaecoo-7", make: "jaecoo", model: "Jaecoo 7", he: "ג'אקו 7", body: "suv", segment: "mass", price: [179990, 189990], status: "on_sale", gens: [
+    { id: "jaecoo-7", make: "jaecoo", model: "Jaecoo 7", he: "ג'אקו 7", body: "suv", segment: "mass", price: [179990, 202990], status: "on_sale", gens: [
       T("J7", 2024, null, "1.6 טורבו / פלאג-אין", "186–204", ["petrol", "phev"], 8.0, 5, undefined, [C.newBrand, C.history, "תיבה רובוטית: " + C.dct], "במחירון 10/2026 רק גרסאות פלאג-אין: Elegance ‏₪179,990, Premium ‏₪189,990 (carzone ו-cartube)"),
     ]},
     { id: "jaecoo-8", make: "jaecoo", model: "Jaecoo 8", he: "ג'אקו 8", body: "suv7", segment: "mass", price: [229900, 254900], status: "on_sale", gens: [
@@ -496,6 +509,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "born", make: "cupra", model: "Born", he: "בורן", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("K1", 2022, null, "סוללה 58/77 קוט\"ש", "204–326", ["ev"], 16.0, 5, 2022, [C.ev], "לא מופיע במחירון קופרה הנוכחי"),
+    ]},
+    { id: "tavascan", make: "cupra", model: "Tavascan", he: "טווסקאן", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+      T("Gen1", 2024, null, "חשמלי, סוללה 77 קוט\"ש, הנעה אחורית או 4X4 (VZ)", "282–335", ["ev"], 19.0, 5, 2024, [C.ev, C.recalls], "מחירון: רק cartube (‏₪242,900–289,900, תואם מחירי ההשקה 12/2024) — ממתין למקור שני"),
     ]},
     { id: "cupra-ateca", make: "cupra", model: "Ateca", he: "אטקה", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("KH7", 2019, null, "2.0 TSI", "300", ["petrol"], 9.5, 5, 2016, [C.history], "לא מופיע במחירון קופרה הנוכחי"),
@@ -612,6 +628,9 @@ export const MAKES: Make[] = [
     { id: "space-star", make: "mitsubishi", model: "Space Star", he: "ספייס סטאר", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("A00", 2013, 2024, "1.0 / 1.2 בנזין", "71–80", ["petrol"], 5.8, 4, 2013, [C.history, C.inspect, C.cvt]),
     ]},
+    { id: "colt", make: "mitsubishi", model: "Colt", he: "קולט", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
+      T("Z30", 2010, 2012, "1.1 / 1.3 / 1.5 בנזין", "75–109", ["petrol"], 6.3, null, undefined, [C.history, C.inspect, C.suspension], "ייצור 2004–2012 (מתיחת פנים 2008); המנועים ששווקו בישראל לא אומתו"),
+    ]},
     { id: "pajero", make: "mitsubishi", model: "Pajero", he: "פג'רו", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
       T("NS/NT/NW/NX (V80/V90)", 2010, 2021, "3.2 DI-D דיזל / 3.8 V6 בנזין", "170–250", ["petrol", "diesel"], 11.5, null, undefined, [C.history, C.inspect, C.suspension], "הדור הושק ב-2006 (מוצג מ-2010); מתיחות פנים 2011/2012 ו-2015; ייצור לשווקים בינלאומיים הסתיים במרץ 2021"),
     ]},
@@ -711,6 +730,15 @@ export const MAKES: Make[] = [
     ]},
     { id: "id-3", make: "volkswagen", model: "ID.3", he: "ID.3", body: "hatch", segment: "mass", price: [245000, 245000], status: "on_sale", gens: [
       T("E11", 2019, null, "חשמלי, סוללה 45–84 קוט\"ש", "143–322", ["ev"], 16.5, null, undefined, [C.ev, C.history, "דגמים ראשונים (2020–2021): לוודא עדכוני תוכנה"]),
+    ]},
+    { id: "taigo", make: "volkswagen", model: "Taigo", he: "טאיגו", body: "suv", segment: "mass", price: [160900, 160900], status: "on_sale", gens: [
+      T("Gen1", 2021, null, "1.0 TSI בנזין (בישראל: Style 1.0 טורבו); באירופה גם 1.5 TSI", "95–150", ["petrol"], 6.3, 5, 2022, [C.history, C.dsgDry, C.recalls], "קרוסאובר קופה על בסיס הפולו; carzone מציין 115 כ\"ס לגרסה הישראלית מול 110 כ\"ס בנתוני היצרן — לא אומת"),
+    ]},
+    { id: "id-5", make: "volkswagen", model: "ID.5", he: "ID.5", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+      T("Gen1", 2022, null, "חשמלי, סוללה 77 קוט\"ש נטו", "172–335", ["ev"], 18.5, 5, 2021, [C.ev, C.recalls], "גרסת קופה של ה-ID.4; עדכון 2024 (Pro ‏282 כ\"ס). מחיר: carzone ‏₪259,900 (Pro) מול cartube ‏₪259,900–289,900 — לא אוחד"),
+    ]},
+    { id: "id-7", make: "volkswagen", model: "ID.7", he: "ID.7", body: "sedan", segment: "mass", price: null, status: "unverified", gens: [
+      T("Gen1", 2023, null, "חשמלי, סוללה 77 / 86 קוט\"ש נטו", "282–335", ["ev"], 17.5, 5, 2023, [C.ev, C.recalls], "השקה בישראל 11/2024 מ-₪319,900; היום cartube ‏Pro ‏₪322,900 ו-carzone ‏Pro S ‏₪357,900 / GTX ‏₪402,900 — טווח לא אומת"),
     ]},
     { id: "passat", make: "volkswagen", model: "Passat", he: "פאסאט", body: "sedan", segment: "mass", price: null, status: "discontinued", gens: [
       T("B7", 2010, 2015, "1.4 / 1.8 / 2.0 TSI בנזין, דיזל", "104–296", ["petrol", "diesel"], 8.0, null, undefined, [C.history, C.inspect, C.tsiChain, C.ea888, "גרסאות דיזל: מנוע EA189 מפרשת הפליטות, לוודא עדכון"]),
@@ -1523,7 +1551,7 @@ export const MAKES: Make[] = [
     { id: "gv60", make: "genesis", model: "GV60", he: "GV60", body: "suv", segment: "premium", price: [299990, 599990], status: "on_sale", gens: [
       T("JW", 2021, null, "סוללה 77.4–84 קוט\"ש", "228–489", ["ev"], 19.0, 5, 2022, [C.ev, C.newBrand]),
     ]},
-    { id: "gv70", make: "genesis", model: "GV70", he: "GV70", body: "suv", segment: "premium", price: [359990, 459990], status: "on_sale", gens: [
+    { id: "gv70", make: "genesis", model: "GV70", he: "GV70", body: "suv", segment: "premium", price: [359990, 539990], status: "on_sale", gens: [
       T("JK1", 2021, null, "2.5 טורבו בנזין / חשמלי", "300–489", ["petrol", "ev"], 10.5, null, undefined, [C.newBrand, C.history], "במבחן דרך: כ-9.5 ק\"מ לליטר. GV70 Electrified: ₪549,900–609,900; 3.5 V6 Sport ב-cartube: ₪539,990"),
     ]},
     { id: "g80", make: "genesis", model: "G80", he: "G80", body: "sedan", segment: "premium", price: [399990, 499000], status: "on_sale", gens: [

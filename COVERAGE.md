@@ -249,11 +249,29 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Catalog (batch 25): VW Tiguan, BYD Seal
 
 ## Queue — seen 2026-11-15, not yet covered
-- [ ] Kia Cerato / Forte (TD/YD/BD researched 2026-11-15; Israeli engines per generation not verified — skipped)
+- [x] Kia Cerato / Forte — added 2026-11-21 (TD, YD; BD not sold in Israel per carzone year list — not verified)
 - [ ] Catalog: Hyundai Tucson Hybrid would merge into the existing "Tucson" key (builder drops " Hybrid") — needs a different model name or repricing the Tucson row
 - [ ] Euro NCAP to confirm: Citroën C3 Picasso 2009 (datasheet name says 4★, not opened), Renault Laguna III, Subaru Legacy BN
 - [x] BYD Dolphin → on sale ₪149,990–156,990 (both sources, 2026-11-15)
 - [ ] Dolphin G (carzone 134,990–139,990), Chery LEPAS L8 (carzone 204,900), Cupra Tavascan (cartube 242,900–289,900)
-- [ ] VW Taigo ₪160,900 (both sources now), ID.5 / ID.7 (cartube), Caravelle / Multivan (sources differ)
+- [x] VW Taigo, ID.5, ID.7 — added 2026-11-21 (ID.5 / ID.7 price null, sources disagree)
+- [ ] VW Caravelle / Multivan (sources differ)
 - [ ] Mercedes C-Class EQ, GLA EQ, EQS, CLE Cabrio, E-Class Coupé, G-Class EQ, EQV; BMW iX1, iX2, i5, iX; MINI Cabrio, Hatch 3-door; Porsche 718, Cayenne Electric (carzone only today — cartube unreadable)
 - [ ] Opel Combo Life / Combo Life XL / Zafira, Fiat Ulysse, Jeep Gladiator / Grand Wagoneer, Ford Expedition / Tourneo Custom, Peugeot Traveller (carzone only or commercial)
+
+## Done 2026-11-21
+- [x] generations.ts (9): VW Taigo (₪160,900, both), ID.5, ID.7; Cupra Tavascan; Toyota bZ4X; Kia PV5, Forte (Cerato); Hyundai Getz; Mitsubishi Colt
+- [x] Price changes: Genesis GV70 top → ₪539,990; Jaecoo 7 top → ₪202,990 (both sources)
+
+## Queue — seen 2026-11-21, not yet covered
+- [ ] Mazda CX-6e (₪179,900–199,900, both sources) — new EV line, specs to research
+- [ ] Mercedes GLA: new generation is electric only (cartube 329,900–449,900 = carzone "GLA EQ"; carzone still lists old GLA 359,900–419,900 = ours) — replace / new line? (owner)
+- [ ] Genesis GV70 Electrified (₪549,900–609,900, both); Hyundai Tucson Long AWD (₪199,900–248,900, both) — separate lines?
+- [ ] BYD Seal U DM-i (₪199,990–234,990, both) and Tang Flagship (₪327,990, both) — Seal U DM-i separate line?
+- [ ] Skoda Enyaq Coupé (₪243,990–279,990, both) — our Enyaq top = Coupé RS; Octavia RS ₪249,990 (both)
+- [ ] Jaecoo 5 EV (carzone 150,900–159,900) — our Jaecoo 5 "from" is the EV price; hybrid from 147,900 (carzone) / 154,900 (cartube)
+- [ ] Cupra: Leon / Formentor / Terramar ranges include VZ performance trims (against convention) — owner
+- [ ] Lexus TX / GX (carzone only); BMW i3 (new) / iX4 / iX5 / 8 Series (cartube only); Audi Q3 / Q5 Sportback (both, differ), Q8 e-tron (cartube)
+- [ ] Toyota Urban Cruiser EV — not on sale in Israel yet (bizportal 10/2026); add when priced
+- [ ] DS 4 plug-in (cartube 269,990–328,990); Dongfeng M-HERO 1 (cartube 699,000); Chevrolet Silverado EV / Traverse / Tahoe / Corvette
+- [ ] Euro NCAP to confirm: Kia Forte TD/YD, Mitsubishi Colt Z30, Hyundai Getz

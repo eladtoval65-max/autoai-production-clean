@@ -305,6 +305,27 @@
     ]
    },
    {
+    "id": "bz4x",
+    "model": "bZ4X",
+    "he": "bZ4X",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": null,
+      "engines": "חשמלי, סוללה 71.4 קוט\"ש, הנעה קדמית או 4X4",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
     "id": "camry",
     "model": "Camry",
     "he": "קאמרי",
@@ -884,6 +905,28 @@
       "cons": 6.8,
       "ncap": 4,
       "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "getz",
+    "model": "Getz",
+    "he": "גטס",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "TB",
+      "from": 2010,
+      "to": 2011,
+      "engines": "1.1 / 1.4 / 1.6 בנזין, 1.5 CRDi דיזל",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 6.5,
+      "ncap": null,
+      "checks": 3
      }
     ]
    },
@@ -1934,6 +1977,61 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "pv5",
+    "model": "PV5",
+    "he": "PV5",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2025,
+      "to": null,
+      "engines": "חשמלי, סוללה 71.2 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 21,
+      "ncap": 4,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "forte",
+    "model": "Forte (Cerato)",
+    "he": "פורטה",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "TD",
+      "from": 2010,
+      "to": 2013,
+      "engines": "1.6 בנזין, אוטומטית",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 7.8,
+      "ncap": null,
+      "checks": 3
+     },
+     {
+      "code": "YD",
+      "from": 2013,
+      "to": 2018,
+      "engines": "1.6 בנזין אוטומטית 6; מ-2016 גם 1.6 דיזל עם תיבה כפולת מצמד",
+      "pt": [
+       "petrol",
+       "diesel"
+      ],
+      "cons": 7.4,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -2927,7 +3025,7 @@
     "status": "on_sale",
     "price": [
      179990,
-     189990
+     202990
     ],
     "gens": [
      {
@@ -3529,6 +3627,27 @@
       "cons": 16,
       "ncap": 5,
       "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "tavascan",
+    "model": "Tavascan",
+    "he": "טווסקאן",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי, סוללה 77 קוט\"ש, הנעה אחורית או 4X4 (VZ)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 19,
+      "ncap": 5,
+      "checks": 2
      }
     ]
    },
@@ -4369,6 +4488,27 @@
     ]
    },
    {
+    "id": "colt",
+    "model": "Colt",
+    "he": "קולט",
+    "status": "discontinued",
+    "price": null,
+    "gens": [
+     {
+      "code": "Z30",
+      "from": 2010,
+      "to": 2012,
+      "engines": "1.1 / 1.3 / 1.5 בנזין",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
     "id": "pajero",
     "model": "Pajero",
     "he": "פג'רו",
@@ -5174,6 +5314,72 @@
       "cons": 16.5,
       "ncap": null,
       "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "taigo",
+    "model": "Taigo",
+    "he": "טאיגו",
+    "status": "on_sale",
+    "price": [
+     160900,
+     160900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2021,
+      "to": null,
+      "engines": "1.0 TSI בנזין (בישראל: Style 1.0 טורבו); באירופה גם 1.5 TSI",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.3,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "id-5",
+    "model": "ID.5",
+    "he": "ID.5",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": null,
+      "engines": "חשמלי, סוללה 77 קוט\"ש נטו",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18.5,
+      "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "id-7",
+    "model": "ID.7",
+    "he": "ID.7",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2023,
+      "to": null,
+      "engines": "חשמלי, סוללה 77 / 86 קוט\"ש נטו",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17.5,
+      "ncap": 5,
+      "checks": 2
      }
     ]
    },
@@ -11936,7 +12142,7 @@
     "status": "on_sale",
     "price": [
      359990,
-     459990
+     539990
     ],
     "gens": [
      {
