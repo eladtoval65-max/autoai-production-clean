@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-15",
+  "updated": "2026-11-21",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -923,7 +923,23 @@
             "title": "cartube (05.11.2012) — סיאט מי Mii בישראל – מחיר החל מ-61,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סיאט-מי-mii-בישראל-–-מחיר-החל-מ-61,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (שמן, מסנן שמן, מסנן אוויר ובדיקת בלמים) — מחיר במוסך שאינו של היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              640,
+              640
+            ],
+            "source": {
+              "title": "Wheel (17.10.2020) — used SEAT Mii 1.0 (2012–2016): service with oil, oil filter, air filter and brake check ₪640 at a non-importer garage (2020 price, VAT not stated); interval 15,000 km / 1 year per carwiki.de Seat Mii Inspektion",
+              "url": "https://wheel.co.il/%D7%A8%D7%9B%D7%91-%D7%9E%D7%95%D7%9E%D7%9C%D7%A5-%D7%9C%D7%A0%D7%94%D7%92-%D7%97%D7%93%D7%A9-%D7%A2%D7%93-20000-%D7%A9%D7%A7%D7%9C-%D7%A1%D7%99%D7%90%D7%98-%D7%9E%D7%99%D7%99-%D7%99%D7%93-2/"
+            }
+          }
+        ]
       },
       "Mii electric": {
         "issues": [

@@ -1,6 +1,6 @@
 {
   "make": "lexus",
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "models": {
     "nx": {
       "AZ10": {
@@ -669,6 +669,21 @@
           }
         },
         "maintenance": [
+          {
+            "he": "טיפול תקופתי (טיפול קטן כ-1,000 ₪, טיפול גדול מעל 2,000 ₪)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1000,
+              2000
+            ],
+            "scope": "IS 300h",
+            "source": {
+              "title": "Wheel (09.02.2021) — used Lexus IS300h (sold from 2013, 2014 test car): small service ≈ ₪1,000, large service over ₪2,000, once a year or 15,000 km (2021 prices; garage type and VAT not stated)",
+              "url": "https://wheel.co.il/%D7%99%D7%95%D7%A7%D7%A8%D7%94-%D7%91%D7%9E%D7%97%D7%99%D7%A8-%D7%A0%D7%95%D7%97-%D7%9C%D7%A7%D7%A1%D7%95%D7%A1-is300h-%D7%91%D7%9E%D7%91%D7%97%D7%9F-%D7%99%D7%93-2/"
+            }
+          },
           {
             "he": "סוללת ההנעה ההיברידית: לרוב מחזיקה את חיי הרכב, אך אם נכשלת מחוץ לאחריות — זה מחיר הסוללה אצל היבואן. בקנייה: בדיקת תקינות סוללה ובירור הארכת אחריות.",
             "kind": "risk",
