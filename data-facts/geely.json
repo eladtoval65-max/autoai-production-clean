@@ -156,7 +156,21 @@
             "title": "auto.co.il — ג'ילי EX5 החדש בארץ: המחיר החל מ-162,000 שקלים (19.05.2025)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/138176/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה: אם נכשלת מחוץ לאחריות — סוללה חדשה במחירון החלפים של היבואן כ-₪128,550 (לפני עבודה). בקנייה: דוח תקינות סוללה ובירור יתרת האחריות.",
+            "kind": "risk",
+            "costIls": [
+              128550,
+              128550
+            ],
+            "source": {
+              "title": "Calcalist (25.07.2026) — official importer spare-parts price lists, new part, excl. labour and discounts: Geely EX5 battery ₪128,550",
+              "url": "https://www.calcalist.co.il/local_news/car/article/hkvjb8jvgx"
+            }
+          }
+        ]
       }
     },
     "starray": {

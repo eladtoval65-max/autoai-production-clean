@@ -555,7 +555,21 @@
             "title": "מלכת הכביש — השקה: BYD Sealion 7 בישראל, 4 גרסאות החל מ-218,990 ₪",
             "url": "https://www.queenoftheroad.co.il/7-byd-saelion-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה: אם נכשלת מחוץ לאחריות — סוללה חדשה במחירון החלפים של היבואן כ-₪118,000 (לפני עבודה). בקנייה: דוח תקינות סוללה ובירור יתרת האחריות.",
+            "kind": "risk",
+            "costIls": [
+              118000,
+              118000
+            ],
+            "source": {
+              "title": "Calcalist (25.07.2026) — official importer spare-parts price lists, new part, excl. labour and discounts: BYD Sealion 7 battery ₪118,000",
+              "url": "https://www.calcalist.co.il/local_news/car/article/hkvjb8jvgx"
+            }
+          }
+        ]
       }
     },
     "sealion-05": {
