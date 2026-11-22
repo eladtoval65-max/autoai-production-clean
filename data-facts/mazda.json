@@ -315,14 +315,14 @@
         },
         "maintenance": [
           {
-            "he": "דליפת שמן ממותח רצועת התזמון — החלפה מחוץ לאחריות",
+            "he": "דליפת שמן ממותח רצועת המנוע (רצועת האביזרים; המנוע עם שרשרת תזמון) — החלפה מחוץ לאחריות",
             "kind": "risk",
             "costIls": [
               1000,
               1000
             ],
             "source": {
-              "title": "auto.co.il (28.04.2022) — Mazda CX-5 2nd gen used guide: timing-belt tensioner oil leak, replacement ≈ ₪1,000 out of warranty",
+              "title": "auto.co.il (28.04.2022) — Mazda CX-5 2nd gen used guide: engine (accessory) belt tensioner oil leak, a common issue; replacement ≈ ₪1,000 out of warranty",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135095/"
             }
           }

@@ -351,6 +351,19 @@
               "title": "Walla Cars (25.07.2013) — Nissan Juke used guide: Carasso Motors service prices 30k–120k km, quoted before VAT (683–1,654), +18% VAT added (2013 prices)",
               "url": "https://cars.walla.co.il/item/2662472"
             }
+          },
+          {
+            "he": "תיבת CVT (ג׳טקו): בלאי הרצועה בתיבה גורם לרעשים, דפיקות בזינוק והאצה איטית — לפי מומחה, תקלה בשכיחות גבוהה בשנתוני 2010–2013. תיקון/החלפה ₪4,000–10,300. בקנייה: נסיעת מבחן קפדנית ולברר אם התיבה הוחלפה או קיבלה פיצוי מהיבואן.",
+            "kind": "risk",
+            "costIls": [
+              4000,
+              10300
+            ],
+            "scope": "CVT, שנתונים 2010–2013",
+            "source": {
+              "title": "Walla Cars (14.06.2023) — Nissan importer to compensate Juke 2010–2013 owners over Jatco CVT fault; repair cost ₪4,000–8,800, up to ₪10,300; expert: high frequency",
+              "url": "https://cars.walla.co.il/item/3586461"
+            }
           }
         ]
       },

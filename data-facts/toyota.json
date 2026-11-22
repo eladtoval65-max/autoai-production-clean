@@ -602,7 +602,23 @@
             "title": "Cartube — טויוטה ראב4 החדש בישראל: מחיר החל מ-179,900 שקל (06.03.2013)",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-ראב4-החדש-בישראל-–-מחיר-החל-מ-179,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי קטן — ממוצע הצעות מחיר ממוסכים 2025–26: ₪588 (היקר מבין 20 הדגמים המבוקשים); טיפול גדול יקר יותר, ובמוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              588,
+              588
+            ],
+            "source": {
+              "title": "mako / N12 (22.10.2026) — CarDate + Galgalim garage-quote averages Jan 2025–Jun 2026 (garages, not importer list): small service ₪534–588 across 20 popular models, Toyota RAV4 the dearest at ₪588 (figure covers all RAV4 model years; big-service price for RAV4 not stated)",
+              "url": "https://www.mako.co.il/finances-consumer/Article-ad11134cde261a1026.htm"
+            }
+          }
+        ]
       },
       "XA50": {
         "engines": [
