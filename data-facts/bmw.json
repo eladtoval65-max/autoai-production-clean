@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-11-08",
+  "updated": "2026-11-22",
   "models": {
     "3-series": {
       "E90": {
@@ -2070,6 +2070,32 @@
             }
           }
         ]
+      }
+    },
+    "i3": {
+      "Neue Klasse": {
+        "engines": [
+          {
+            "name": "50 xDrive חשמלי 108.7 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 469,
+            "cons": 15.2,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BMW i3 50 xDrive (MY27), real-world combined 244 Wh/mi (≈152 Wh/km)",
+              "url": "https://ev-database.org/imp/car/3657/BMW-i3-50-xDrive"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 369900,
+          "year": 2026,
+          "note": "Pure (40 xDrive, 374 כ״ס)",
+          "source": {
+            "title": "carzone (10.11.2026) — new BMW i3 in Israel from ₪369,900",
+            "url": "https://www.carzone.co.il/news/2026-במוו-I3-החדשה-מחיר-החל-מ-369900-שח"
+          }
+        }
       }
     }
   }

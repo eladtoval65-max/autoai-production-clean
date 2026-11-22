@@ -1,6 +1,6 @@
 {
   "make": "byd",
-  "updated": "2026-11-14",
+  "updated": "2026-11-22",
   "models": {
     "atto-3": {
       "Gen1": {
@@ -667,6 +667,19 @@
             }
           }
         ]
+      }
+    },
+    "dolphin-g": {
+      "Gen1": {
+        "launchPrice": {
+          "ils": 129990,
+          "year": 2026,
+          "note": "Active (175 כ״ס, סוללה 7.4 קוט״ש)",
+          "source": {
+            "title": "cartube (17.11.2026) — BYD Dolphin G plug-in in Israel from ₪129,990",
+            "url": "https://www.cartube.co.il/חדשות-רכב/byd-דולפין-g-פלאג-אין-נחתה-בישראל-מחיר-129990-שקל"
+          }
+        }
       }
     }
   }

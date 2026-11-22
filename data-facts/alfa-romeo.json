@@ -307,7 +307,83 @@
           }
         }
       }
+    },
+    "tonale": {
+      "Gen1": {
+        "issues": [
+          {
+            "level": "recall",
+            "he": "בגרסת 160 כ״ס: בעירה לא תקינה עלולה לעקם את מוטות הטלטל — עד כשל מנוע וסכנת שריפה. התיקון: עדכון תוכנת מנוע (כחצי שעה). לבדוק לפי VIN שבוצעה קריאת השירות",
+            "scope": "1.5 טורבו 160 כ״ס, יוצרו 02/2022–02/2026",
+            "source": {
+              "title": "auto.co.il (10.05.2026) — Tonale 160 hp mild-hybrid recall in Europe (connecting rods, ECU update)",
+              "url": "https://www.auto.co.il/articles/car-news/world-news/telantis-alfa-tonale-recall/"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "זרוע דוושת הבלם עלולה להתנתק אחרי מכה בדוושה — הדוושה קורסת ואין בלימה. לבדוק לפי VIN שבוצעה קריאת השירות (קוד 6921)",
+            "scope": "מיילד-היברידי ופלאג-אין, יוצרו 20.07.2023–24.09.2024",
+            "source": {
+              "title": "car-recalls.eu — Alfa Romeo Tonale 2023–2024 brake pedal, Rapex A12/03349/24",
+              "url": "https://car-recalls.eu/recall/alfa-romeo-tonale-2023-2024-brakes-accident"
+            }
+          },
+          {
+            "level": "recall",
+            "he": "פגם ייצור בסוללת ה-48V: חדירת מים אם הרכב עומד זמן רב במים — התחממות וסכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות, ולשאול אם הרכב היה בהצפה",
+            "scope": "סוללת 48V",
+            "source": {
+              "title": "CarExpert (19.09.2023) — Alfa Romeo Tonale recalled, 48V battery water ingress (REC-005766)",
+              "url": "https://carexpert.com.au/car-news/alfa-romeo-tonale-recalled"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "1.5 טורבו מיילד-היברידי 160 כ״ס",
+            "pt": "petrol",
+            "hp": 160,
+            "cons": 6.9,
+            "unit": "L",
+            "source": {
+              "title": "ADAC test — Alfa Romeo Tonale 1.5 VGT 48V-Hybrid Ti TCT, Ecotest 6.9 L/100km",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/alfa-romeo/alfa-romeo-tonale/"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/alfa-romeo/tonale/46239"
+        },
+        "launchPrice": {
+          "ils": 229000,
+          "year": 2022,
+          "note": "Sprint, 130 כ״ס",
+          "source": {
+            "title": "auto.co.il (18.07.2022) — Alfa Romeo Tonale in Israel from ₪229,000",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/135241/"
+          }
+        }
+      },
+      "Gen1 (2026 מחודש)": {
+        "ncap": {
+          "stars": 5,
+          "year": 2022,
+          "url": "https://www.euroncap.com/en/results/alfa-romeo/tonale/46239"
+        },
+        "launchPrice": {
+          "ils": 249900,
+          "year": 2026,
+          "note": "Sprint, 175 כ״ס",
+          "source": {
+            "title": "auto.co.il (04.11.2026) — facelifted Alfa Romeo Tonale in Israel from ₪249,900",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/alfa-romeo-tonale/"
+          }
+        }
+      }
     }
   },
-  "updated": "2026-11-09"
+  "updated": "2026-11-22"
 }

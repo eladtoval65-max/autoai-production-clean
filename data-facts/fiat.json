@@ -1,6 +1,6 @@
 {
   "make": "fiat",
-  "updated": "2026-11-14",
+  "updated": "2026-11-22",
   "models": {
     "500": {
       "312": {
@@ -150,7 +150,23 @@
             "title": "icar — פיאט 500 החדשה בישראל: מ-100,000 שקלים (4.7.2021)",
             "url": "https://www.icar.co.il/חדשות_רכב/פיאט_500_החדשה_בישראל:_מ-100,000_שקלים/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול שנתי במרכז השירות של היבואן (בעלים ל-3 שנים: ₪426, ₪672 עם נוזל בלמים ומסנן מזגן, ₪392 — סה״כ ₪1,490 ל-40 אלף ק״מ)",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              392,
+              672
+            ],
+            "scope": "חשמלי",
+            "source": {
+              "title": "Bizportal (19.06.2025) — Fiat 500e long-term ownership, 3 years / 40,040 km: annual importer services ₪426 / ₪672 / ₪392 (2022–2025 prices)",
+              "url": "https://www.bizportal.co.il/car/news/article/20018383"
+            }
+          }
+        ]
       }
     },
     "doblo": {

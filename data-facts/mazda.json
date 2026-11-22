@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-14",
+  "updated": "2026-11-22",
   "models": {
     "mazda3": {
       "BL": {
@@ -1266,6 +1266,32 @@
             }
           }
         ]
+      }
+    },
+    "cx-6e": {
+      "Gen1": {
+        "engines": [
+          {
+            "name": "חשמלי 78 קוט\"ש, הנעה אחורית",
+            "pt": "ev",
+            "hp": 258,
+            "cons": 18.3,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — Mazda CX-6e 78 kWh (MY26), real-world combined 183 Wh/km",
+              "url": "https://ev-database.org/car/3596/Mazda-CX-6e-78-kWh"
+            }
+          }
+        ],
+        "launchPrice": {
+          "ils": 180000,
+          "year": 2026,
+          "note": "רמת גימור בסיסית",
+          "source": {
+            "title": "auto.co.il (18.11.2026) — Mazda CX-6e in Israel from ₪180,000",
+            "url": "https://www.auto.co.il/articles/car-news/local-news/mazda-cx-6e/"
+          }
+        }
       }
     }
   }
