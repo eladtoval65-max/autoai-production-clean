@@ -2336,6 +2336,30 @@
     ]
    },
    {
+    "id": "cx-6e",
+    "model": "CX-6e",
+    "he": "CX-6e",
+    "status": "on_sale",
+    "price": [
+     179900,
+     199900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, סוללה 78 קוט\"ש, הנעה אחורית",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
     "id": "cx-7",
     "model": "CX-7",
     "he": "CX-7",
@@ -2817,6 +2841,30 @@
       ],
       "cons": 15.5,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "dolphin-g",
+    "model": "Dolphin G DM-i",
+    "he": "דולפין G DM-i",
+    "status": "on_sale",
+    "price": [
+     129990,
+     139990
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2026,
+      "to": null,
+      "engines": "1.5 בנזין + מנוע חשמלי, פלאג-אין, סוללה 7.4/18.3 קוט\"ש",
+      "pt": [
+       "phev"
+      ],
+      "cons": 4,
+      "ncap": null,
       "checks": 2
      }
     ]
@@ -6733,7 +6781,7 @@
     "he": "X5",
     "status": "on_sale",
     "price": [
-     774900,
+     649900,
      774900
     ],
     "gens": [
@@ -6983,6 +7031,30 @@
       ],
       "cons": 17,
       "ncap": 5,
+      "checks": 1
+     }
+    ]
+   },
+   {
+    "id": "i3",
+    "model": "i3",
+    "he": "i3",
+    "status": "on_sale",
+    "price": [
+     369900,
+     474900
+    ],
+    "gens": [
+     {
+      "code": "Neue Klasse",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, סוללה 82.8/108.7 קוט\"ש",
+      "pt": [
+       "ev"
+      ],
+      "cons": 16.5,
+      "ncap": null,
       "checks": 1
      }
     ]
@@ -9140,7 +9212,7 @@
     "id": "megane-e-tech",
     "model": "Megane E-Tech Electric",
     "he": "מגאן E-Tech חשמלית",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -9368,7 +9440,7 @@
     "id": "spring",
     "model": "Spring",
     "he": "ספרינג",
-    "status": "unverified",
+    "status": "discontinued",
     "price": null,
     "gens": [
      {
@@ -13456,6 +13528,42 @@
        "petrol"
       ],
       "cons": 6.7,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "tonale",
+    "model": "Tonale",
+    "he": "טונאלה",
+    "status": "on_sale",
+    "price": [
+     249900,
+     294900
+    ],
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2022,
+      "to": 2025,
+      "engines": "1.5 טורבו מיילד-היברידי (48V)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Gen1 (2026 מחודש)",
+      "from": 2026,
+      "to": null,
+      "engines": "1.5 טורבו מיילד-היברידי (48V)",
+      "pt": [
+       "petrol"
+      ],
+      "cons": 6.8,
       "ncap": null,
       "checks": 2
      }

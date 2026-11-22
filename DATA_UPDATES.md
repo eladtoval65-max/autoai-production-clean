@@ -685,3 +685,33 @@ Checked and left unchanged — needs owner review:
 - Both differ but disagree: Jeep Avenger / Wrangler, Chery FX, Zeekr 001, Ford Mustang, Honda HR-V, Peugeot 208, Jaecoo 5.
 - Price null, still disagree / one source: VW T-Roc / ID.Buzz (385,000 both; top 452,000 vs 455,000) / ID.4 / Touareg, Mercedes A-Class / EQA / EQB / GLS / EQE / EQE SUV / G-Class / EQS SUV / SL, Audi A8 / e-tron GT, Range Rover / RR Sport, Porsche Taycan / Panamera / 911, Dongfeng Box (104,900 vs 113,900).
 - One-source status conflicts: ORA 07 / KGM Tivoli / Fiat 500 / Alfa Giulia / MG5 (cartube "no longer marketed", carzone lists), Mercedes EQA (cartube discontinued, carzone 2026), Kia EV5 (absent from cartube, carzone lists).
+
+## 2026-11-22 (daily agent)
+Prices checked today on carzone brand pages (https://www.carzone.co.il/<Make>; Toyota via model pages; Voyah via model page; Polestar brand page stale — MY2024 only) and cartube price lists (https://www.cartube.co.il/מחירון-רכב-חדש/<make>; Cupra and ORA brand lists unreadable today — cartube trim pages used instead) for all 52 makes. `PRICES_VERIFIED` = 2026-11-22.
+Energy prices: not touched (not the first run of the month).
+
+Price changes (generations.ts, 1 — under 25%, both sources agree):
+- BMW X5: ₪774,900 → ₪649,900–774,900 (both list the "from" at 649,900: https://www.carzone.co.il/BMW/ 649,900–774,900, https://www.cartube.co.il/מחירון-רכב-חדש/ב-מ-וו 649,900–859,900 incl. M trims; top kept = carzone / ours). Not in the catalog.
+Status changes:
+- Renault Megane E-Tech Electric: unverified → discontinued (absent from https://www.carzone.co.il/Renault; cartube https://www.cartube.co.il/מחירון-רכב-חדש/רנו marks "Megane" לא משווק יותר).
+- Dacia Spring: unverified → discontinued (absent from https://www.carzone.co.il/Dacia and https://www.cartube.co.il/מחירון-רכב-חדש/דאצ-יה).
+
+Models added to generations.ts (4; consumption = real-world estimates):
+- Mazda CX-6e ₪179,900–199,900 (cartube https://www.cartube.co.il/מחירון-רכב-חדש/44-מאזדה/503-מאזדה-cx-6e/compare: Takumi / Takumi 21 / Takumi Plus, 258 hp; carzone https://www.carzone.co.il/Mazda/CX-6e/2026 179,990–199,990 — ₪90 apart, cartube used; battery 78 kWh https://ev-database.org/car/3596/Mazda-CX-6e-78-kWh; NCAP null — carzone: no Euro NCAP data).
+- BYD Dolphin G DM-i ₪129,990–139,990 (both brand pages; specs https://www.auto.co.il/articles/car-news/local-news/byd-dolphin-g-israel/ — 1.5 + electric, 175/212 hp, 7.4/18.3 kWh, 40/105 km EV range; NCAP null).
+- BMW i3 (Neue Klasse) ₪369,900–474,900 (both brand pages; trims/specs https://www.carzone.co.il/news/2026-במוו-I3-החדשה-מחיר-החל-מ-369900-שח — 374/469 hp, 82.8/108.7 kWh; NCAP null). The old small i3 (2013–2022) is not yet in the line.
+- Alfa Romeo Tonale ₪249,900–294,900 (cartube https://www.cartube.co.il/מחירון-רכב-חדש/19-אלפא-רומיאו/98-אלפא-רומיאו-טונלה/compare + carzone news https://www.carzone.co.il/news/2026-אלפא-רומיאו-טונאלה-החדשה-מחיר-החל-מ-249900-שח/ — 1.5 mild hybrid 175 hp (2026 facelift); pre-facelift 130/160 hp per cartube trim pages; 5★ July 2022 https://www.euroncap.com/press-media/alfa-returns-with-five-star-tonale-amongst-latest-batch-of-euro-ncap-results/; PHEV Q4 280 hp not listed — Israeli sale not verified).
+Models added to the recommendation catalog: none today.
+Totals now: catalog 83 cars; generations.ts 52 makes, 436 models.
+
+Checked and left unchanged — needs owner review:
+- BMW 3 Series: both sources start at ₪339,900 (carzone 339,900–400,000, cartube 339,900–519,900 incl. M3); ours single ₪369,900 — equals the new i3's base, top not confirmed → not changed.
+- MG HS: both show a ₪175,888 top, but that is the EHS plug-in (owner decision to fold, still open). Leapmotor B10 plug-in top ₪164,900 (both) — same folding question.
+- Renault 5 E-Tech: ours/carzone ₪168,999, cartube ₪168,990 — likely a carzone typo copied into our data.
+- Honda HR-V top: ours 199,990 vs cartube 199,900 vs carzone 224,900.
+- VW Tiguan: carzone model page 209,000 / 229,900 / 249,900; carzone brand 209,000–297,000; cartube 239,900–269,900 — still not settled (catalog Style ₪209,900 kept).
+- Skoda Karoq / Superb tops: both sources below ours (Karoq 178,990 vs 191,490; Superb 275,990 vs 278,990) but disagree → not applied. Kamiq / Kodiaq / Octavia: one source.
+- Suzuki Vitara: our line = e Vitara range on both sources (owner decision still open).
+- Land Rover, Porsche, Mercedes (E / GLC / GLE / CLA / CLE / A / EQB / GLA), Audi Q6 e-tron / A6 e-tron / A8 / e-tron GT, Chevrolet new lines: sources disagree; carzone often shows round placeholder figures.
+- One-source differences (other source = ours): Toyota Land Cruiser, Tesla Model Y, Mitsubishi Outlander, MG ZS / S5 / MG4, Nissan Qashqai, Renault Clio / Austral, Opel Corsa, Jeep Avenger / Wrangler, Alfa Junior, Hyundai Venue / Tucson / Santa Fe, VW Golf / Tayron, Ford Mustang / Bronco, Volvo XC60 / XC90 / ES90, ORA 05 / 03, Kia Picanto / Stonic / EV3 / Seltos / Niro, Seat Arona, Chery Tiggo 4 Pro / FX, BMW 1 / X1 / X2 / X3 / X6 / X7 / Z4 / 5 / 2 Coupé / iX3, Subaru Outback, Citroën C4 / C4 X, XPENG G6 / P7, Mazda CX-5, BYD Atto 3 / Atto 2 / Seal 05 / Seal U / Sealion 7, Geely EX5, Peugeot 208 / 2008 / 408, Audi Q3 / Q5 / Q7 / Q4 / A5 / Q2 / A6, Lexus UX / NX / RX / ES / LBX, Zeekr X / 001, MINI Cooper / Countryman / Aceman, Isuzu D-Max, Jaecoo 7 / 5, Lynk & Co 02, DS 7, KGM Torres / Musso, Fiat Doblò.
+- One-source status conflicts: MG5 / Alfa Giulia / KGM Tivoli / Mitsubishi Eclipse Cross (cartube "no longer marketed", carzone lists), Kia EV5 / PV5 (not on cartube), VW ID.3 (not on cartube), BMW X4 (cartube no versions), Mercedes EQA (cartube discontinued) / EQB (not on carzone), Fiat 500 (carzone 500C electric 180,000 vs cartube discontinued), Toyota bZ4X (cartube discontinued; no carzone page).

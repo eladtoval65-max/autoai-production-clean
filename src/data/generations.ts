@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-11-21";
+export const PRICES_VERIFIED = "2026-11-22";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -337,6 +337,9 @@ export const MAKES: Make[] = [
     { id: "cx-90", make: "mazda", model: "CX-90", he: "CX-90", body: "suv7", segment: "premium", price: [254900, 329900], status: "on_sale", gens: [
       T("KK", 2023, null, "3.3 טורבו 6 צילינדרים מיילד-היברידי / 2.5 פלאג-אין", "251–340", ["petrol", "phev"], 9.5, null, undefined, [C.recalls, C.history], "7 מושבים"),
     ]},
+    { id: "cx-6e", make: "mazda", model: "CX-6e", he: "CX-6e", body: "suv", segment: "mass", price: [179900, 199900], status: "on_sale", gens: [
+      T("Gen1", 2026, null, "חשמלי, סוללה 78 קוט\"ש, הנעה אחורית", "258", ["ev"], 18.0, null, undefined, [C.ev, C.recalls], "במחירון 2026: Takumi ‏₪179,900, Takumi 21 ‏₪189,900, Takumi Plus ‏₪199,900 (טווח 468–484 ק\"מ)"),
+    ]},
     { id: "cx-7", make: "mazda", model: "CX-7", he: "CX-7", body: "suv", segment: "mass", price: null, status: "discontinued", gens: [
       T("ER", 2010, 2012, "2.3 DISI טורבו / 2.5 בנזין, 2.2 דיזל", "161–244", ["petrol", "diesel"], 11.0, null, undefined, [C.history, C.inspect, "מנוע 2.3 טורבו: לבדוק מצב הטורבו וצריכת שמן"]),
     ]},
@@ -398,6 +401,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "dolphin", make: "byd", model: "Dolphin", he: "דולפין", body: "hatch", segment: "mass", price: [149990, 156990], status: "on_sale", gens: [
       T("EA1", 2023, null, "סוללת LFP 45/60 קוט\"ש", "95–204", ["ev"], 15.5, 5, 2023, [C.ev, C.newBrand], "במחירון 2026: Comfort ‏₪149,990, Design ‏₪156,990 (427 ק\"מ). Dolphin Surf הוא דגם נפרד וקטן יותר"),
+    ]},
+    { id: "dolphin-g", make: "byd", model: "Dolphin G DM-i", he: "דולפין G DM-i", body: "city", segment: "mass", price: [129990, 139990], status: "on_sale", gens: [
+      T("Gen1", 2026, null, "1.5 בנזין + מנוע חשמלי, פלאג-אין, סוללה 7.4/18.3 קוט\"ש", "175–212 משולב", ["phev"], 4.0, null, undefined, [C.phev, C.recalls], "הושק בישראל בנובמבר 2026. טווח חשמלי 40 / 105 ק\"מ. צריכה בהערכה, עם טעינה קבועה בבית"),
     ]},
     { id: "seal", make: "byd", model: "Seal", he: "סיל", body: "sedan", segment: "mass", price: [198990, 219990], status: "on_sale", gens: [
       T("Gen1", 2023, null, "סוללה 82.5 קוט\"ש", "313–530", ["ev"], 17.5, 5, 2023, [C.ev, C.newBrand]),
@@ -899,7 +905,7 @@ export const MAKES: Make[] = [
       T("G01", 2018, 2024, "20i / 30e", "184–292", ["petrol", "phev"], 8.4, 5, 2017, [C.history]),
       T("G45", 2025, null, "20 / 30e", "208–299", ["petrol", "phev"], 7.6, null, undefined, [C.recalls]),
     ]},
-    { id: "x5", make: "bmw", model: "X5", he: "X5", body: "suv", segment: "premium", price: [774900, 774900], status: "on_sale", gens: [
+    { id: "x5", make: "bmw", model: "X5", he: "X5", body: "suv", segment: "premium", price: [649900, 774900], status: "on_sale", gens: [
       T("E70", 2010, 2013, "xDrive35i / 30d", "245–306", ["petrol", "diesel"], 12.0, null, undefined, [C.history, C.inspect]),
       T("F15", 2014, 2018, "xDrive35i / 40e", "306–313", ["petrol", "phev"], 10.5, 5, 2013, [C.history, C.inspect, C.airSusp]),
       T("G05", 2019, null, "xDrive40i / 45e / 50e", "340–489", ["petrol", "phev"], 9.5, 5, 2018, [C.history, C.airSusp]),
@@ -924,6 +930,9 @@ export const MAKES: Make[] = [
     { id: "ix3", make: "bmw", model: "iX3", he: "iX3", body: "suv", segment: "premium", price: [434900, 544900], status: "on_sale", gens: [
       T("G08", 2020, 2025, "חשמלי, סוללה 74 קוט\"ש נטו, הנעה אחורית", "286", ["ev"], 19.0, 5, 2017, [C.ev, C.history], "דירוג ה-X3 מ-2017 הוחל על ה-iX3; שנת סיום הייצור לא אומתה"),
       T("NA5 (Neue Klasse)", 2025, null, "חשמלי, סוללה 82.7/108.7 קוט\"ש", "315–463", ["ev"], 17.0, 5, 2026, [C.ev]),
+    ]},
+    { id: "i3", make: "bmw", model: "i3", he: "i3", body: "sedan", segment: "premium", price: [369900, 474900], status: "on_sale", gens: [
+      T("Neue Klasse", 2026, null, "חשמלי, סוללה 82.8/108.7 קוט\"ש", "374–469", ["ev"], 16.5, null, undefined, [C.ev], "סדרה 3 החשמלית החדשה (Neue Klasse). טווח עד כ-700/900 ק\"מ. ה-i3 הקטן הישן (2013–2022) עוד לא ברשימה"),
     ]},
     { id: "2-series-gran-coupe", make: "bmw", model: "2 Series Gran Coupé", he: "סדרה 2 גראן קופה", body: "sedan", segment: "premium", price: [294900, 324900], status: "on_sale", gens: [
       T("F44", 2020, 2024, "1.5 טורבו / 2.0 טורבו", "109–302", ["petrol"], 6.8, 5, 2019, [C.history, C.inspect], "דירוג Euro NCAP של סדרה 1 (2019) הוחל על הדגם"),
@@ -1173,7 +1182,7 @@ export const MAKES: Make[] = [
     { id: "laguna", make: "renault", model: "Laguna", he: "לגונה", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("Laguna III", 2010, 2015, "2.0 בנזין / 2.0 טורבו, 3.5 V6, 1.5 / 2.0 dCi דיזל, 3.0 V6 dCi", "110–238", ["petrol", "diesel"], 7.8, null, undefined, [C.history, C.inspect, C.suspension], "האצ'בק, סטיישן (Grandtour) וקופה. הדור הושק ב-2007, מתיחת פנים 11/2010. דירוג Euro NCAP לא אומת"),
     ]},
-    { id: "megane-e-tech", make: "renault", model: "Megane E-Tech Electric", he: "מגאן E-Tech חשמלית", body: "hatch", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "megane-e-tech", make: "renault", model: "Megane E-Tech Electric", he: "מגאן E-Tech חשמלית", body: "hatch", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2022, null, "חשמלי, סוללה 40 / 60 קוט\"ש", "131–218", ["ev"], 17.0, 5, 2022, [C.ev, C.recalls], "קרוסאובר חשמלי, לא קשור למגאן הבנזין. מחיר בישראל ומצב שיווק לא אומתו"),
     ]},
   ]},
@@ -1200,7 +1209,7 @@ export const MAKES: Make[] = [
       T("Logan II", 2013, 2020, "0.9 TCe / 1.2 בנזין, 1.5 dCi", "75–90", ["petrol", "diesel"], 6.5, null, undefined, [C.history, C.inspect]),
       T("Logan III", 2021, null, "1.0 טורבו בנזין", "91", ["petrol"], 6.3, 2, 2021, [C.history, C.recalls]),
     ]},
-    { id: "spring", make: "dacia", model: "Spring", he: "ספרינג", body: "city", segment: "mass", price: null, status: "unverified", gens: [
+    { id: "spring", make: "dacia", model: "Spring", he: "ספרינג", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("Gen1", 2021, 2024, "חשמלי, סוללה 26.8 קוט\"ש", "45–65", ["ev"], 13.5, 1, 2021, [C.ev, C.inspect], "כוכב אחד ב-Euro NCAP (2021). גרסת Electric 65 מ-2023"),
       T("Gen1 (2024 מחודש)", 2024, null, "חשמלי, סוללה 26.8 קוט\"ש", "45–65", ["ev"], 13.5, null, undefined, [C.ev, C.recalls], "עיצוב מחודש (הוכרז 2/2024). דירוג Euro NCAP לגרסה זו לא אומת. מחיר בישראל ומצב שיווק לא אומתו"),
     ]},
@@ -1717,6 +1726,10 @@ export const MAKES: Make[] = [
   { id: "alfa-romeo", name: "Alfa Romeo", he: "אלפא רומיאו", models: [
     { id: "junior", make: "alfa-romeo", model: "Junior", he: "ג'וניור", body: "suv", segment: "premium", price: [174900, 202900], status: "on_sale", gens: [
       T("966", 2024, null, "1.2 טורבו מיילד-היברידי (Ibrida)", "136", ["petrol"], 6.7, null, undefined, [C.history, C.dct], "במבחן דרך: כ-15 ק\"מ לליטר"),
+    ]},
+    { id: "tonale", make: "alfa-romeo", model: "Tonale", he: "טונאלה", body: "suv", segment: "premium", price: [249900, 294900], status: "on_sale", gens: [
+      T("Gen1", 2022, 2025, "1.5 טורבו מיילד-היברידי (48V)", "130–160", ["petrol"], 6.8, 5, 2022, [C.history, C.dct]),
+      T("Gen1 (2026 מחודש)", 2026, null, "1.5 טורבו מיילד-היברידי (48V)", "175", ["petrol"], 6.8, null, undefined, [C.dct, C.recalls], "במחירון 2026: Sprint ‏₪249,900, Ti ‏₪279,900, Veloce ‏₪294,900"),
     ]},
     { id: "giulia", make: "alfa-romeo", model: "Giulia", he: "ג'וליה", body: "sedan", segment: "premium", price: [339990, 339990], status: "on_sale", gens: [
       T("952", 2016, null, "2.0 טורבו בנזין / 2.2 דיזל / 2.9 V6 (Quadrifoglio)", "134–533", ["petrol", "diesel"], 8.5, 5, 2016, [C.history, C.recalls], "במחירון: Veloce 2.0 4x4 (ב-cartube ‏₪339,990–369,990); Quadrifoglio ‏₪729,900 בנפרד. מתיחת פנים 2024"),
