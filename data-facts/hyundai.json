@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -143,7 +143,24 @@
             "title": "icar — יונדאי טוסון בישראל, החל מ-142,900 שקל (10/2015)",
             "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_טוסון_בישראל._החל_מ-142,900_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (קטן ₪585, כל טיפול שני עם מסנן אוויר ₪785; טיפול 150 אלף עם מצתים ₪1,074) — מחירי רשת מוסכים (Autority), לא מחירון היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              585,
+              1074
+            ],
+            "scope": "1.6, שנים 2015–2019",
+            "source": {
+              "title": "queenoftheroad.co.il with Autority (12.01.2022) — Hyundai Tucson 2015–2019 1.6 service guide: 15k ₪585, 30k ₪785, 150k ₪1,074 incl. VAT, every year / 15,000 km (garage prices, 2022)",
+              "url": "https://www.queenoftheroad.co.il/המדריך-ליונדאי-טוסון-טיפולים-שוטפים-ע/"
+            }
+          }
+        ]
       },
       "NX4": {
         "issues": [
