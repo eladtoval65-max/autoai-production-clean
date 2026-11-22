@@ -150,7 +150,22 @@
           "year": 2015,
           "url": "https://www.euroncap.com/en/results/kia/sportage/22033",
           "note": "5 כוכבים (Euro NCAP, דצמבר 2015) — לפי הודעת קיה: press.kia.com"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סדקים בדשבורד (סיפון המחוונים): תקלה מוכרת; היבואן מאפשר החלפה של הדשבורד כולו במחיר מוזל של כ-₪2,500. בקנייה: לבדוק סדקים בדשבורד.",
+            "kind": "risk",
+            "costIls": [
+              2500,
+              2500
+            ],
+            "scope": "1.6 / 2.0 בנזין (2016–2018)",
+            "source": {
+              "title": "auto.co.il (01.07.2024) — used family cars under ₪60,000: Kia Sportage 2016 — dashboard cracks; importer allows full dashboard replacement at a discounted ≈ ₪2,500",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137256/"
+            }
+          }
+        ]
       },
       "SL": {
         "issues": [

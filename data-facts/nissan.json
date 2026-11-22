@@ -173,7 +173,24 @@
             "title": "וואלה! רכב — השקת ניסאן קשקאי בישראל (5.4.2007)",
             "url": "https://cars.walla.co.il/item/1088527"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול שגרתי — מחיר ממוצע במוסכים לפי אתר השוואת מחירים (₪740 ב-2023, ₪900 ב-2025; הנתון לכל שנתוני קשקאי). במנוע 1.6 בנזין: טיפול כל 15,000 ק״מ או שנה",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              900,
+              900
+            ],
+            "scope": "1.6 / 2.0 בנזין",
+            "source": {
+              "title": "Bizportal (23.05.2026) — routine service for Nissan Qashqai ₪740 (2023) → ₪900 (2025), industry price-comparison site (garages, generation not stated; 2025 price used); interval 15,000 km / 1 yr for the J10 1.6 petrol per auto-abc.eu Qashqai 2007 1.6 service data",
+              "url": "https://www.bizportal.co.il/car/news/article/20032482"
+            }
+          }
+        ]
       },
       "J12": {
         "issues": [
