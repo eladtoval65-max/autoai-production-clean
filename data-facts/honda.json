@@ -1,6 +1,6 @@
 {
   "make": "honda",
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "models": {
     "jazz": {
       "GK": {
@@ -42,7 +42,23 @@
             "title": "Cartube — הונדה ג'אז החדשה 2015 בישראל – מחיר החל מ-89,900 שקל (14.10.2015)",
             "url": "https://www.cartube.co.il/חדשות-רכב/הונדה-ג-אז-החדשה-2015-בישראל-–-מחיר-החל-מ-89900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול גדול כל טיפול שני (30,000 ק״מ) — כולל החלפת שמן גיר CVT (כ-5.7 ליטר), ולכן יקר בערך פי שניים מטיפול רגיל; טיפול 90,000 ק״מ כ-₪1,750. בקנייה: לבקש היסטוריה שמראה החלפות שמן גיר.",
+            "kind": "scheduled",
+            "intervalKm": 30000,
+            "costIls": [
+              1500,
+              1750
+            ],
+            "scope": "1.3 אוטומטית CVT",
+            "source": {
+              "title": "auto.co.il (16.11.2020) — Honda Jazz 3rd gen (Israel 2015+) used guide: service every year/15,000 km; CVT oil every 30,000 km; the larger services (every second service) ≈ ₪1,500, the 90,000 km service ≈ ₪1,750 (2020 prices)",
+              "url": "https://auto.co.il/article/roadcartest/134087-pre-owned-auto-honda-jazz"
+            }
+          }
+        ]
       },
       "GR": {
         "issues": [
