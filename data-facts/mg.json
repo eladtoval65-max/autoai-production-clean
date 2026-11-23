@@ -1,6 +1,6 @@
 {
   "make": "mg",
-  "updated": "2026-11-09",
+  "updated": "2026-11-23",
   "models": {
     "zs": {
       "ZS (Gen1)": {
@@ -156,17 +156,17 @@
         },
         "maintenance": [
           {
-            "he": "טיפול תקופתי במרכז השירות של היבואן (5 טיפולים עד 120 אלף ק״מ, סה״כ ₪2,223)",
+            "he": "טיפול תקופתי במרכז השירות של היבואן — בדיקה שגרתית ₪360; כל טיפול שני כולל נוזל בלמים ומסנן מזגן (₪877), ובטיפול 96 אלף גם נוזל קירור (₪1,305)",
             "kind": "service",
             "intervalKm": 24000,
             "intervalYears": 1,
             "costIls": [
-              445,
-              445
+              360,
+              1305
             ],
             "source": {
-              "title": "ynet (08.04.2020) — importer central-garage service cost to 120,000 km: MG ZS EV 5 services, ₪2,223 (₪445 per visit) (2020 prices)",
-              "url": "https://www.ynet.co.il/articles/0,7340,L-5705749,00.html"
+              "title": "MG Israel importer service schedule & price list, MG ZS EV 2020–2021 (prices as of 20.02.2022, incl. VAT, labour ₪360/h): every 12 months/24,000 km, ₪360 routine EV inspection to ₪1,305 (coolant + brake fluid + cabin filter)",
+              "url": "https://mg-israel.co.il/wp-content/uploads/2020/10/Doc1-1.pdf"
             }
           },
           {

@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-15",
+  "updated": "2026-11-23",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -84,7 +84,7 @@
       "Mk3 (5E)": {
         "issues": [
           {
-            "he": "תיבת DSG 7 הילוכים: יבואן שמפיון ביצע מבצע שירות להחלפת שמן התיבה (פגיעה חשמלית/מכנית באקלים חם) לרכבים מסוף 2012 עד רבעון 1 2013 — לוודא ביצוע ולבדוק העברות חלקות",
+            "he": "תיבת DSG 7 הילוכים: יבואן שמפיון ביצע מבצע שירות להחלפת שמן התיבה (שמן סינטטי עלול לגרום לתקלה חשמלית באקלים חם ולח) לרכבים מסוף 2012 עד רבעון 1 2013 — לוודא ביצוע ולבדוק העברות חלקות",
             "level": "recall",
             "scope": "DSG7, ייצור סוף 2012–2013",
             "source": {
@@ -1411,8 +1411,8 @@
             "level": "widely_reported",
             "scope": "גרסאות DSG",
             "source": {
-              "title": "What Car? — Used Skoda Yeti 2009-2017 advice",
-              "url": "https://www.whatcar.com/skoda/yeti/estate/used-review/n621/advice"
+              "title": "What Car? — Used Skoda Yeti 2009-2017 reliability (automatic gearbox section)",
+              "url": "https://www.whatcar.com/skoda/yeti/estate/used-review/n621/reliability"
             }
           },
           {
