@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -1697,7 +1697,21 @@
             "title": "auto.co.il — יונדאי קונה החשמלי החדש בארץ – החל ב-175,000 שקלים (19.03.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/hyundai-kona-ev-2026/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה: אם נכשלת מחוץ לאחריות — סוללה חדשה במחירון החלפים של היבואן כ-₪180,768 (לפני עבודה; הכתבה לא ציינה שנתון/דור). בקנייה: דוח תקינות סוללה ובירור יתרת האחריות.",
+            "kind": "risk",
+            "costIls": [
+              180768,
+              180768
+            ],
+            "source": {
+              "title": "Calcalist (25.07.2026) — official importer spare-parts price lists, new part, excl. labour and discounts: Hyundai KONA EV battery ₪180,768 (generation not specified)",
+              "url": "https://www.calcalist.co.il/local_news/car/article/hkvjb8jvgx"
+            }
+          }
+        ]
       }
     },
     "santa-fe": {

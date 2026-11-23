@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "models": {
     "3-series": {
       "E90": {
@@ -2096,6 +2096,97 @@
             "url": "https://www.carzone.co.il/news/2026-במוו-I3-החדשה-מחיר-החל-מ-369900-שח"
           }
         }
+      },
+      "I01": {
+        "issues": [
+          {
+            "he": "בגרסת REx (מאריך טווח בנזין): צינור האוורור של מיכל הדלק עלול להתחכך בכבל החיובי של המצבר ולדלוף אדי דלק — סכנת שריפה. לבדוק לפי VIN שבוצעה קריאת השירות (בדיקה, החלפת הצינור והתקנת תפס)",
+            "level": "recall",
+            "scope": "REx, יוצרו 03/2014–12/2016",
+            "source": {
+              "title": "NHTSA recall 17V088000 — BMW i3 REx fuel vent line chafing (via Justia)",
+              "url": "https://auto-recalls.justia.com/bmw/i3/2016/17v088000"
+            }
+          },
+          {
+            "he": "תקלה בכרטיס יחידת ה-EME (אלקטרוניקת המנוע) עלולה לנתק את כוח ההנעה בזמן נסיעה; כ-160 רכבים מתחילת 2018 הוחזרו לתיקון. לבדוק ביצוע קריאת שירות ולשאול על אובדן הנעה פתאומי",
+            "level": "recall",
+            "scope": "ייצור תחילת 2018",
+            "source": {
+              "title": "PistonHeads — BMW i3 PH Used Buying Guide (14.11.2021)",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/bmw-i3--ph-used-buying-guide/44928"
+            }
+          },
+          {
+            "he": "מטען הרכב (KLE) עלול להיכשל — הטעינה יורדת לחצי מהירות; עדכוני תוכנה גם האטו טעינה בחלק מהרכבים. בבדיקה: לטעון ולוודא קצב טעינה מלא, ושמחבר הטעינה משתחרר כרגיל",
+            "level": "widely_reported",
+            "source": {
+              "title": "PistonHeads — BMW i3 PH Used Buying Guide (14.11.2021)",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/bmw-i3--ph-used-buying-guide/44928"
+            }
+          },
+          {
+            "he": "תושבות וברגי המנוע החשמלי עלולים להישבר (במקרים מסוימים הרכב מפסיק לנסוע); זמזום נמוך מאחור בזמן טעינה מעיד על בעיה. גם מסבי המנוע עלולים להתבלות",
+            "level": "widely_reported",
+            "source": {
+              "title": "PistonHeads — BMW i3 PH Used Buying Guide (14.11.2021)",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/bmw-i3--ph-used-buying-guide/44928"
+            }
+          }
+        ],
+        "engines": [
+          {
+            "name": "חשמלי 33.2 קוט\"ש (94Ah), 170 כ״ס",
+            "pt": "ev",
+            "hp": 170,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BMW i3 94 Ah (2017–2018), real-world 165 Wh/km",
+              "url": "https://ev-database.org/car/1104/BMW-i3-94-Ah"
+            }
+          },
+          {
+            "name": "חשמלי 42.2 קוט\"ש (120Ah), 170 כ״ס",
+            "pt": "ev",
+            "hp": 170,
+            "cons": 16.1,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BMW i3 120 Ah (2018–2022), real-world 161 Wh/km",
+              "url": "https://ev-database.org/car/1145/BMW-i3-120-Ah"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 4,
+          "year": 2013,
+          "url": "https://www.euroncap.com/de/results/bmw/i3/8863"
+        },
+        "launchPrice": {
+          "ils": 249000,
+          "year": 2016,
+          "note": "מחיר פתיחה בהשקה בישראל",
+          "source": {
+            "title": "Calcalist (01.11.2016) — BMW i3 launched in Israel, from ₪249,000",
+            "url": "https://www.calcalist.co.il/local/articles/0,7340,L-3700800,00.html"
+          }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה: אם נכשלת מחוץ לאחריות — מחיר סוללה חדשה (94Ah) והתקנה. בקנייה: בדיקת תקינות סוללה ובדיקה שאין איבוד טעינה בלילה",
+            "kind": "risk",
+            "costIls": [
+              35700,
+              39600
+            ],
+            "scope": "94Ah",
+            "source": {
+              "title": "PistonHeads (14.11.2021) — new 94Ah pack just over €9,000 incl. tax + ≈€650 fitting (Germany, 2017); foreign price converted at ₪3.7–4.1 per €",
+              "url": "https://www.pistonheads.com/news/ph-buying-guides/bmw-i3--ph-used-buying-guide/44928"
+            }
+          }
+        ]
       }
     }
   }

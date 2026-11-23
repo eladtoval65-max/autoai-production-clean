@@ -1,6 +1,6 @@
 {
   "make": "byd",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "models": {
     "atto-3": {
       "Gen1": {
@@ -356,7 +356,21 @@
             "title": "ביזפורטל — BYD Seal U DM-i: עדכון מחירים",
             "url": "https://www.bizportal.co.il/car/news/article/20013337"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "סוללת ההנעה: אם נכשלת מחוץ לאחריות — סוללה חדשה במחירון החלפים של היבואן כ-₪53,700 (לפני עבודה; הכתבה לא ציינה לאיזו גרסה — חשמלית או פלאג-אין). בקנייה: דוח תקינות סוללה ובירור יתרת האחריות.",
+            "kind": "risk",
+            "costIls": [
+              53700,
+              53700
+            ],
+            "source": {
+              "title": "Calcalist (25.07.2026) — official importer spare-parts price lists, new part, excl. labour and discounts: BYD Seal U battery ₪53,700 (version not specified in the article)",
+              "url": "https://www.calcalist.co.il/local_news/car/article/hkvjb8jvgx"
+            }
+          }
+        ]
       }
     },
     "tang": {
