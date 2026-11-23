@@ -6606,6 +6606,30 @@
       "checks": 3
      }
     ]
+   },
+   {
+    "id": "c-class-eq",
+    "model": "C-Class EQ",
+    "he": "C קלאס חשמלית",
+    "status": "on_sale",
+    "price": [
+     429900,
+     619900
+    ],
+    "gens": [
+     {
+      "code": "MB.EA",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, סוללה 94 קוט\"ש (C 400 4MATIC)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 17,
+      "ncap": null,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -6619,8 +6643,8 @@
     "he": "סדרה 3",
     "status": "on_sale",
     "price": [
-     369900,
-     369900
+     339900,
+     399900
     ],
     "gens": [
      {
@@ -7046,6 +7070,18 @@
     ],
     "gens": [
      {
+      "code": "I01",
+      "from": 2013,
+      "to": 2022,
+      "engines": "חשמלי, סוללה 22 / 33 / 42.2 קוט\"ש; גרסת REx עם מנוע בנזין 0.65 ל' מאריך טווח",
+      "pt": [
+       "ev"
+      ],
+      "cons": 15,
+      "ncap": 4,
+      "checks": 3
+     },
+     {
       "code": "Neue Klasse",
       "from": 2026,
       "to": null,
@@ -7338,6 +7374,30 @@
       ],
       "cons": 7.5,
       "ncap": 5,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ix4",
+    "model": "iX4",
+    "he": "iX4",
+    "status": "on_sale",
+    "price": [
+     469900,
+     554900
+    ],
+    "gens": [
+     {
+      "code": "Neue Klasse",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, סוללה 82.6 קוט\"ש (40 xDrive) / 108.7 קוט\"ש (50 xDrive)",
+      "pt": [
+       "ev"
+      ],
+      "cons": 18,
+      "ncap": null,
       "checks": 2
      }
     ]

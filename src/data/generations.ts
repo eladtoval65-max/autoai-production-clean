@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-11-22";
+export const PRICES_VERIFIED = "2026-11-23";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -886,10 +886,13 @@ export const MAKES: Make[] = [
     { id: "glc-eq", make: "mercedes", model: "GLC EQ", he: "GLC חשמלית", body: "suv", segment: "premium", price: [439900, 639900], status: "on_sale", gens: [
       T("X540", 2026, null, "חשמלי, סוללה 94 קוט\"ש (GLC 400 4MATIC)", "490", ["ev"], 19.5, null, undefined, [C.ev, C.recalls, C.history], "הוצג בתערוכת מינכן 2025; טווח WLTP עד 713 ק\"מ, טעינה מהירה עד 330 קילוואט. דירוג Euro NCAP לא אומת"),
     ]},
+    { id: "c-class-eq", make: "mercedes", model: "C-Class EQ", he: "C קלאס חשמלית", body: "sedan", segment: "premium", price: [429900, 619900], status: "on_sale", gens: [
+      T("MB.EA", 2026, null, "חשמלי, סוללה 94 קוט\"ש (C 400 4MATIC)", "421–489", ["ev"], 17.0, null, undefined, [C.ev, C.recalls, C.history], "סדאן חשמלי חדש על פלטפורמת MB.EA (משותפת ל-GLC החשמלי); C 300 ‏421 כ\"ס, C 400 ‏489 כ\"ס, טווח 690/762 ק\"מ (cartube). קוד הדור הוא שם הפלטפורמה. דירוג Euro NCAP לא אומת"),
+    ]},
   ]},
 
   { id: "bmw", name: "BMW", he: "ב.מ.וו", models: [
-    { id: "3-series", make: "bmw", model: "3 Series", he: "סדרה 3", body: "sedan", segment: "premium", price: [369900, 369900], status: "on_sale", gens: [
+    { id: "3-series", make: "bmw", model: "3 Series", he: "סדרה 3", body: "sedan", segment: "premium", price: [339900, 399900], status: "on_sale", gens: [
       T("E90", 2010, 2011, "318i / 320i", "143–170", ["petrol"], 8.6, 5, 2005, [C.history, C.inspect, "נזילות שמן (בית מסנן, מכסה שסתומים)"]),
       T("F30", 2012, 2018, "316i / 320i / 328i / 330e", "136–252", ["petrol", "phev"], 7.6, 5, 2012, [C.history, C.inspect, C.bmwChain]),
       T("G20", 2019, null, "318i / 320i / 330e", "156–292", ["petrol", "phev"], 7.0, 5, 2019, [C.history]),
@@ -932,7 +935,8 @@ export const MAKES: Make[] = [
       T("NA5 (Neue Klasse)", 2025, null, "חשמלי, סוללה 82.7/108.7 קוט\"ש", "315–463", ["ev"], 17.0, 5, 2026, [C.ev]),
     ]},
     { id: "i3", make: "bmw", model: "i3", he: "i3", body: "sedan", segment: "premium", price: [369900, 474900], status: "on_sale", gens: [
-      T("Neue Klasse", 2026, null, "חשמלי, סוללה 82.8/108.7 קוט\"ש", "374–469", ["ev"], 16.5, null, undefined, [C.ev], "סדרה 3 החשמלית החדשה (Neue Klasse). טווח עד כ-700/900 ק\"מ. ה-i3 הקטן הישן (2013–2022) עוד לא ברשימה"),
+      T("I01", 2013, 2022, "חשמלי, סוללה 22 / 33 / 42.2 קוט\"ש; גרסת REx עם מנוע בנזין 0.65 ל' מאריך טווח", "170–184", ["ev"], 15.0, 4, 2013, [C.ev, C.inspect, C.history], "ה-i3 הקטן הקודם (האצ'בק עירוני, מרכב סיבי פחמן); i3s ‏184 כ\"ס. נמכר בישראל (מבחן ynet 2017, ‏₪249 אלף). מכירת גרסת REx בישראל לא אומתה"),
+      T("Neue Klasse", 2026, null, "חשמלי, סוללה 82.8/108.7 קוט\"ש", "374–469", ["ev"], 16.5, null, undefined, [C.ev], "סדרה 3 החשמלית החדשה (Neue Klasse). טווח עד כ-700/900 ק\"מ"),
     ]},
     { id: "2-series-gran-coupe", make: "bmw", model: "2 Series Gran Coupé", he: "סדרה 2 גראן קופה", body: "sedan", segment: "premium", price: [294900, 324900], status: "on_sale", gens: [
       T("F44", 2020, 2024, "1.5 טורבו / 2.0 טורבו", "109–302", ["petrol"], 6.8, 5, 2019, [C.history, C.inspect], "דירוג Euro NCAP של סדרה 1 (2019) הוחל על הדגם"),
@@ -962,6 +966,9 @@ export const MAKES: Make[] = [
     { id: "z4", make: "bmw", model: "Z4", he: "Z4", body: "sedan", segment: "premium", price: [449900, 449900], status: "on_sale", gens: [
       T("E89", 2010, 2016, "2.0 / 3.0 טורבו בנזין", "154–335", ["petrol"], 8.5, null, undefined, [C.history, C.inspect, C.bmwChain], "רודסטר (אין באתר סוג מרכב קבריולה)"),
       T("G29", 2019, null, "2.0 / 3.0 טורבו בנזין", "194–382", ["petrol"], 7.5, 5, 2019, [C.history, C.recalls], "רודסטר; הייצור הסתיים ב-2026. carzone: sDrive20i ‏₪449,900; ב-cartube ‏₪449,900–625,000"),
+    ]},
+    { id: "ix4", make: "bmw", model: "iX4", he: "iX4", body: "suv", segment: "premium", price: [469900, 554900], status: "on_sale", gens: [
+      T("Neue Klasse", 2026, null, "חשמלי, סוללה 82.6 קוט\"ש (40 xDrive) / 108.7 קוט\"ש (50 xDrive)", "374–469", ["ev"], 18.0, null, undefined, [C.ev, C.recalls], "שטח-קופה חשמלי חדש (Neue Klasse); נמכר בישראל מ-11/2026. טווח כ-595–826 ק\"מ. דירוג Euro NCAP לא אומת"),
     ]},
     { id: "2-series-coupe", make: "bmw", model: "2 Series Coupé", he: "סדרה 2 קופה", body: "sedan", segment: "premium", price: [319900, 329900], status: "on_sale", gens: [
       T("F22", 2014, 2021, "1.5 / 2.0 / 3.0 טורבו בנזין, 2.0 דיזל", "134–335", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect, C.bmwChain], "קופה (ו-F23 קבריולה); אין באתר סוג מרכב קופה"),

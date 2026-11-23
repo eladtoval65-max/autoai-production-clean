@@ -284,8 +284,16 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Status: Renault Megane E-Tech, Dacia Spring → discontinued (absent from both importer lists)
 
 ## Queue — seen 2026-11-22, not yet covered
-- [ ] BMW iX4 (₪469,900–554,900) and iX5 (₪759,900–829,900) — both sources agree; generation data to verify
-- [ ] Mercedes C-Class EQ (₪429,900–619,900, both) — new line?; electric GLA (₪329,900–449,900, both)
-- [ ] BMW 3 Series: both sources start at ₪339,900 (ours single ₪369,900 = new i3's base) — re-check the line's range (owner)
+- [x] BMW iX4 (₪469,900–554,900) added 2026-11-23
+- [ ] BMW iX5 (₪759,900–829,900) — both sources agree; generation data to verify
+- [x] Mercedes C-Class EQ (₪429,900–619,900, both) added 2026-11-23 as its own line (like GLC EQ)
+- [ ] Mercedes electric GLA (₪329,900–449,900, both) — replace / new line? (owner)
+- [x] BMW 3 Series range set to ₪339,900–399,900 (2026-11-23; cartube trims 318 M-Sport → 320 M-Expressive, carzone 339,900–400,000; M350 excluded)
 - [ ] Kia Optima (carzone 280,000, doubtful); XPENG L03 (carzone 179,990–184,990); Fiat Ulysse; Citroën Jumpy; Toyota City / Proace
-- [ ] Old BMW i3 (2013–2022, used market) — add as earlier generation of the "i3" line
+- [x] Old BMW i3 (2013–2022) added as generation I01 of the "i3" line (2026-11-23)
+
+## Seen 2026-11-23
+- [ ] Fiat Doblò: both sources now start at ₪168,990 — that is the Cargo Maxi van; passenger Combi still ₪169,990 (= ours) → not changed
+- [ ] BMW iX1 (carzone 379,900–409,900 / cartube 354,900–404,000), iX2, i5, iX, XM (both list; ranges differ); 4 Series Gran Coupé ₪455,000 (both)
+- [ ] Mercedes GLC Coupé, GLE Coupé, CLE Cabrio (both list, ranges differ); Audi Q3 / Q4 e-tron / Q5 Sportback (both list)
+- [ ] Peugeot Traveller (₪298,990 both), Citroën Jumpy, Fiat Scudo / Ducato, Renault Trafic / Master, Ford Transit (commercial, low priority)
