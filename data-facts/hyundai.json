@@ -859,7 +859,24 @@
             "title": "icar — יונדאי אלנטרה החדשה בישראל: החל מ-131,700 שקל (22.3.2016)",
             "url": "https://www.icar.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA_%D7%A8%D7%9B%D7%91/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99_%D7%90%D7%9C%D7%A0%D7%98%D7%A8%D7%94_%D7%94%D7%97%D7%93%D7%A9%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C_-_%D7%94%D7%97%D7%9C_%D7%9E-131,700_%D7%A9%D7%A7%D7%9C/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 / גדול ₪1,056 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai 1.6 (all years)' service deal: small ₪682 / large ₪1,056 (adds air filter + spark plugs) incl. labour and VAT (page last updated 08/2020; 2020 prices). Interval: Hyundai Israel yearly or every 15,000 km (Walla Cars 01/2023 importer service-cost article).",
+              "url": "https://abira.co.il/deals/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-1-6-%d7%9b%d7%9c-%d7%94%d7%a9%d7%a0%d7%99%d7%9d/"
+            }
+          }
+        ]
       },
       "CN7": {
         "issues": [
@@ -1008,7 +1025,24 @@
             "title": "auto.co.il — יונדאי i35: החל השיווק בישראל (13.07.2011)",
             "url": "https://www.auto.co.il/articles/car-news/116706/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 / גדול ₪1,056 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai 1.6 (all years)' service deal: small ₪682 / large ₪1,056 (adds air filter + spark plugs) incl. labour and VAT (page last updated 08/2020; 2020 prices). Interval: Hyundai Israel yearly or every 15,000 km (Walla Cars 01/2023 importer service-cost article).",
+              "url": "https://abira.co.il/deals/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-1-6-%d7%9b%d7%9c-%d7%94%d7%a9%d7%a0%d7%99%d7%9d/"
+            }
+          }
+        ]
       }
     },
     "kona": {
@@ -1507,7 +1541,24 @@
             "title": "Cartube — יונדאי i30 החדשה בישראל: מחיר החל מ-99,900 שקל (19.11.2012)",
             "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-i30-החדשה-בישראל-–-מחיר-החל-מ-99,900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 / גדול ₪1,056 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai 1.6 (all years)' service deal: small ₪682 / large ₪1,056 (adds air filter + spark plugs) incl. labour and VAT (page last updated 08/2020; 2020 prices). Interval: Hyundai Israel yearly or every 15,000 km (Walla Cars 01/2023 importer service-cost article).",
+              "url": "https://abira.co.il/deals/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-1-6-%d7%9b%d7%9c-%d7%94%d7%a9%d7%a0%d7%99%d7%9d/"
+            }
+          }
+        ]
       }
     },
     "venue": {

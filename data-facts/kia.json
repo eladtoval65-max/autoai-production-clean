@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "models": {
     "sportage": {
       "NQ5": {
@@ -669,7 +669,23 @@
             "title": "icar — קיה ריו החדשה בישראל: תעלה 96,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/קיה_ריו_החדשה_בישראל:_תעלה_96,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪585 / גדול ₪974 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              585,
+              974
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Kia importer garage) — 'Kia Rio (all years)' service deal: small ₪585 / large ₪974 (adds air filter + spark plugs) incl. labour and VAT (page last updated 10/2020; 2020 prices). Interval: Kia Israel every 15,000 km or 1 year (ynet 08.04.2020 importer service comparison).",
+              "url": "https://abira.co.il/deals/7600/"
+            }
+          }
+        ]
       },
       "UB": {
         "issues": [
@@ -746,6 +762,20 @@
           }
         },
         "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪585 / גדול ₪974 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              585,
+              974
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Kia importer garage) — 'Kia Rio (all years)' service deal: small ₪585 / large ₪974 (adds air filter + spark plugs) incl. labour and VAT (page last updated 10/2020; 2020 prices). Interval every year/15,000 km per auto.co.il Rio 3rd-gen used guide (27.10.2020).",
+              "url": "https://abira.co.il/deals/7600/"
+            }
+          },
           {
             "he": "טיפול 60,000 ק״מ (מצתים ומסנן אוויר) — הטיפול הגדול",
             "kind": "scheduled",
