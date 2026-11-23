@@ -136,7 +136,51 @@
           "stars": 5,
           "year": 2012,
           "url": "https://cdn.euroncap.com/media/6113/euroncap_bmw_3_series_2012_5stars.pdf"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (טיפול קטן כ-₪900, בינוני עם מסנן מזגן כ-₪1,200). שימו לב: בחלק מהרכבים המחשב מתוכנת למרווח של 30 אלף ק\"מ/שנתיים כמו בחו\"ל — היצרן בישראל דורש כל 15 אלף/שנה.",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              900,
+              1200
+            ],
+            "scope": "330e",
+            "source": {
+              "title": "auto.co.il (19.09.2022) — BMW 330e (F30, Israel late 2016–mid 2019) used buying guide: BMW central service centre prices incl. labour and VAT — small ≈ ₪900, medium (cabin filter) ≈ ₪1,200, large every 60,000 km (spark plugs, cabin + air filters) ≈ ₪2,900; interval 15,000 km / 1 year (2022 prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135433/"
+            }
+          },
+          {
+            "he": "טיפול גדול כל 60 אלף ק\"מ — מצתים, מסנן אוויר ומסנן מזגן",
+            "kind": "scheduled",
+            "intervalKm": 60000,
+            "costIls": [
+              2900,
+              2900
+            ],
+            "scope": "330e",
+            "source": {
+              "title": "auto.co.il (19.09.2022) — BMW 330e (F30, Israel late 2016–mid 2019) used buying guide: BMW central service centre prices incl. labour and VAT — small ≈ ₪900, medium (cabin filter) ≈ ₪1,200, large every 60,000 km (spark plugs, cabin + air filters) ≈ ₪2,900; interval 15,000 km / 1 year (2022 prices)",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135433/"
+            }
+          },
+          {
+            "he": "רעידות בתיבת ההילוכים (בערך ברכב אחד מכל עשרה לפי הכתבה): התיקון היחיד הוא החלפת מכלול התיבה, כ-₪30,000. בנסיעת מבחן: לבדוק שאין רעידות בהאצה ובהחלפת הילוכים, ולבקש היסטוריית טיפולים.",
+            "kind": "risk",
+            "costIls": [
+              30000,
+              30000
+            ],
+            "scope": "330e",
+            "source": {
+              "title": "auto.co.il (19.09.2022) — BMW 330e (F30) used buying guide: gearbox vibration in roughly 1 in 10 cars, only fix is a complete gearbox assembly ≈ ₪30,000",
+              "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/135433/"
+            }
+          }
+        ]
       },
       "G20": {
         "engines": [
