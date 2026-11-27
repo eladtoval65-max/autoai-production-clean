@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-23",
+  "updated": "2026-11-27",
   "models": {
     "mazda3": {
       "BL": {
@@ -266,7 +266,23 @@
             "title": "auto.co.il — מאזדה 3 החדשה 2019 בישראל – החל מ-145,000 שקלים",
             "url": "https://www.auto.co.il/articles/car-news/local-news/132656/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה מאזדה (₪930; ₪780 לחברי מועדון), כולל שמן ומסנן מקוריים ובדיקות; מסנני אוויר, נוזל בלמים ומצתים בתשלום נפרד",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              780,
+              930
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Mazda 3 generation 4, 2.0 L' periodic service page (checked 11/2026): ₪930, or ₪780 incl. labour and VAT for club members; air filters, brake fluid, spark plugs extra. Interval: Mazda owner's manual Israel schedule for Skyactiv-G (CX-30, same platform and engine): max 15,000 km or 12 months (owners-manual.mazda.com).",
+              "url": "https://ad-raanana.co.il/%D7%9E%D7%90%D7%96%D7%93%D7%94-3-%D7%93%D7%95%D7%A8-4-%D7%A0%D7%A4%D7%97-2-%D7%9C%D7%99%D7%98%D7%A8/"
+            }
+          }
+        ]
       }
     },
     "cx-5": {

@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-23",
+  "updated": "2026-11-27",
   "models": {
     "sportage": {
       "NQ5": {
@@ -2280,6 +2280,35 @@
               "url": "https://www.fuelly.com/car/kia/forte/2012"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪585 / גדול ₪985 כולל עבודה ומע״מ; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              585,
+              985
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Kia importer garage) — 'Kia Forte service' deal (no years stated; the Forte was sold in Israel as TD 2010–2013 and YD 2013–2018), page undated (checked 11/2026): small ₪585 / large ₪985 incl. labour and VAT. Interval: same site's service guide — usually every 15,000 km and at least once a year.",
+              "url": "https://abira.co.il/deals/7594/"
+            }
+          },
+          {
+            "he": "החלפת נוזל בלמים",
+            "kind": "scheduled",
+            "intervalYears": 2,
+            "costIls": [
+              178,
+              178
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Kia importer garage) — 'Kia Forte service': brake-fluid change ₪178 incl. labour and VAT, every two years (page undated, checked 11/2026)",
+              "url": "https://abira.co.il/deals/7594/"
+            }
+          }
         ]
       },
       "YD": {
@@ -2350,6 +2379,35 @@
             "source": {
               "title": "Fuelly — Kia Forte all years: 2016 model year owner-tracked average 28.2 MPG (81 vehicles; US engines)",
               "url": "https://www.fuelly.com/car/kia/forte/all"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪585 / גדול ₪985 כולל עבודה ומע״מ; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              585,
+              985
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Kia importer garage) — 'Kia Forte service' deal (no years stated; the Forte was sold in Israel as TD 2010–2013 and YD 2013–2018), page undated (checked 11/2026): small ₪585 / large ₪985 incl. labour and VAT. Interval: same site's service guide — usually every 15,000 km and at least once a year.",
+              "url": "https://abira.co.il/deals/7594/"
+            }
+          },
+          {
+            "he": "החלפת נוזל בלמים",
+            "kind": "scheduled",
+            "intervalYears": 2,
+            "costIls": [
+              178,
+              178
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Kia importer garage) — 'Kia Forte service': brake-fluid change ₪178 incl. labour and VAT, every two years (page undated, checked 11/2026)",
+              "url": "https://abira.co.il/deals/7594/"
             }
           }
         ]

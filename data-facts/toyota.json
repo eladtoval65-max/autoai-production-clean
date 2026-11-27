@@ -1,6 +1,6 @@
 {
   "make": "toyota",
-  "updated": "2026-11-23",
+  "updated": "2026-11-27",
   "models": {
     "corolla": {
       "E150": {
@@ -1001,7 +1001,36 @@
             "title": "Cartube — טויוטה C-HR החדש 2024 בישראל: מחיר 169,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/טויוטה-c-hr-החדש-2024-בישראל-מחיר-169990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪687 / גדול ₪1,150 כולל עבודה ומע״מ; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              687,
+              1150
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (authorised for Tesla/BYD/Mazda/Ford/Dongfeng/Voyah — NOT a Toyota importer garage) — 'Toyota CH-R (all years)' service deal, page undated (checked 11/2026): small ₪687 / large ₪1,150 incl. labour and VAT; applies to AX20 only via the 'all years' label. Interval: Toyota Israel periodic service every 15,000 km or yearly (toyota.co.il service-and-maintenance page).",
+              "url": "https://abira.co.il/deals/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94-ch-r-%D7%9B%D7%9C-%D7%94%D7%A9%D7%A0%D7%99%D7%9D/"
+            }
+          },
+          {
+            "he": "החלפת נוזל בלמים",
+            "kind": "scheduled",
+            "intervalYears": 2,
+            "costIls": [
+              179,
+              179
+            ],
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Toyota importer garage) — 'Toyota CH-R (all years)': brake-fluid change ₪179 incl. labour and VAT, every two years (page undated, checked 11/2026)",
+              "url": "https://abira.co.il/deals/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94-ch-r-%D7%9B%D7%9C-%D7%94%D7%A9%D7%A0%D7%99%D7%9D/"
+            }
+          }
+        ]
       }
     },
     "corolla-cross": {
