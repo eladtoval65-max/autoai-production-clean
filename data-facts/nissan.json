@@ -550,7 +550,7 @@
             }
           },
           {
-            "he": "תיבת CVT רגישה להזנחה — דורשת החלפת שמן כל 3 שנים; לבקש הוכחה לטיפולים ולבדוק שאין רעידות או גמגום",
+            "he": "תיבת CVT רגישה להזנחה — נדרשת החלפת נוזל התיבה כשהרכב בן 3 שנים; לבקש הוכחה לטיפולים ולבדוק שאין רעידות או גמגום",
             "level": "widely_reported",
             "scope": "CVT",
             "source": {
@@ -997,7 +997,23 @@
             "title": "cartube.co.il — ניסאן ליף החדשה 2019 בישראל - מחיר החל מ-164,990 שקל (28.07.2019)",
             "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-ליף-החדשה-2019-בישראל-מחיר-164990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן",
+            "kind": "service",
+            "intervalKm": 30000,
+            "intervalYears": 1,
+            "costIls": [
+              678,
+              1567
+            ],
+            "source": {
+              "title": "Walla Cars (18.08.2019) — Nissan Leaf 2nd gen in Israel: service every 30,000 km or yearly; 1st/3rd/5th service ₪678, 2nd ₪872, 4th ₪1,567 incl. VAT (2019 importer prices)",
+              "url": "https://cars.walla.co.il/item/3253733"
+            }
+          }
+        ]
       },
       "ZE0/AZE0": {
         "issues": [
