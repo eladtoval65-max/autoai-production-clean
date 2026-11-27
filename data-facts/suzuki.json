@@ -67,7 +67,23 @@
             "title": "Cartube — 2017 סוזוקי סוויפט החדשה בישראל, מחיר החל מ-78,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-סוזוקי-סוויפט-החדשה-בישראל-מחיר-החל-מ-78990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום. בטיפול השני בודקים את שמן תיבת ה-CVT.",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Suzuki importer) — 'Suzuki Swift' periodic-service deal page (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and plugs extra; page states no model years. Interval: auto.co.il (09.10.2023) used small cars — Swift (2017+) official gearbox-oil check every second service, i.e. every 2 years/40,000 km ⇒ service every 20,000 km / 1 year.",
+              "url": "https://ad-raanana.co.il/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%a1%d7%95%d7%96%d7%95%d7%a7%d7%99-%d7%a1%d7%95%d7%95%d7%99%d7%a4%d7%98/"
+            }
+          }
+        ]
       },
       "FZ/NZ": {
         "issues": [
@@ -277,7 +293,23 @@
             "title": "Cartube — סוזוקי ויטארה החדש בישראל, מחיר החל מ-125,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/סוזקי-ויטארה-החדש-בישראל-מחיר-החל-מ-125,000-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Suzuki importer) — 'Suzuki Vitara' periodic-service deal page (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and plugs extra; page states no model years. Interval: Suzuki Vitara owner's manual (EU schedule, manualslib) — maintenance steps every 20,000 km / 12 months.",
+              "url": "https://ad-raanana.co.il/%d7%a1%d7%95%d7%96%d7%95%d7%a7%d7%99-%d7%95%d7%99%d7%98%d7%a8%d7%94/"
+            }
+          }
+        ]
       },
       "e Vitara": {
         "engines": [

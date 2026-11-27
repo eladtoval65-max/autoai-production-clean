@@ -743,7 +743,24 @@
             "title": "icar — מאזדה 6 החדשה בישראל: החל מ-165,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/מאזדה_6_החדשה_בישראל:_החל_מ-165,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה מאזדה (קטן ₪600 / גדול ₪975, כולל עבודה ומע״מ; מחירי 2022; נוזל בלמים כל שנתיים בתשלום נפרד)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              975
+            ],
+            "scope": "בנזין Skyactiv-G",
+            "source": {
+              "title": "Reim Afula — authorized Mazda service centre, 'NEW Mazda 6' service page (modified 04/2022): small service ₪600 / large service ₪975 incl. labour and VAT (2022 prices; page names the model without years or engine). Interval 15,000 km / 12 months per the Mazda owner's manual Israel schedule for Skyactiv-G (CX-5 KF manual, same 2.0/2.5 engines).",
+              "url": "https://reimafula.co.il/new-mazda-6/"
+            }
+          }
+        ]
       }
     },
     "cx-3": {

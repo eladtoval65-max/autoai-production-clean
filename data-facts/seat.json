@@ -308,7 +308,23 @@
             "title": "iCar — סיאט ארונה בישראל: מ-110,000 שקל (12/2017)",
             "url": "https://www.icar.co.il/חדשות_רכב/סיאט_ארונה_בישראל:_מ-110,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪800, כולל עבודה ומע״מ; מסנן אוויר, מסנן מזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              800
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the SEAT importer) — 'SEAT Arona service' deal page (viewed 11/2026): periodic service ₪800, small service for model year 2021+ ₪600, incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs extra. Interval: fixed (non-LongLife) oil service once a year or every 15,000 km per carwiki.de 'Seat Arona Inspektion'.",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%99%D7%90%D7%98-%D7%90%D7%A8%D7%95%D7%A0%D7%94/"
+            }
+          }
+        ]
       }
     },
     "leon": {
@@ -638,6 +654,21 @@
             "source": {
               "title": "auto.co.il (09.07.2024) — used crossovers up to ₪105,000: Kona 1.6T DCT clutches ₪12,000, Ateca 1.5 TSI DSG clutches ₪6,000",
               "url": "https://www.auto.co.il/articles/test-drives/pre-owned-auto/137278/"
+            }
+          },
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪800, כולל עבודה ומע״מ; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              800
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the SEAT importer) — 'SEAT Ateca' service deal page (viewed 11/2026): periodic service ₪800, small service for model year 2021+ ₪600, incl. labour and VAT; air/cabin filters, brake fluid and spark plugs extra. Interval: repareo.de 'Inspektion Seat Ateca' — 12 months or 15,000 km, whichever first (fixed schedule; flexible optional).",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%99%D7%90%D7%98-%D7%90%D7%AA%D7%A7%D7%94/"
             }
           }
         ]

@@ -1613,7 +1613,23 @@
             "title": "auto.co.il — יונדאי וניו 2020 בארץ – החל מ-110,000 ש״ח (17.05.2020)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/133630/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪650, כולל עבודה ומע״מ; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Hyundai importer) — 'Hyundai Venue' service deal page (viewed 11/2026): periodic service ₪650, small service for model year 2021+ ₪600, incl. labour and VAT; air/cabin filters, brake fluid and plugs extra. Interval: Hyundai maker schedule once a year or every 15,000 km as quoted for Hyundai models in Walla Cars' importer service-cost comparison (cars.walla.co.il/item/3712321).",
+              "url": "https://ad-raanana.co.il/%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-%d7%95%d7%95%d7%a0%d7%99%d7%95/"
+            }
+          }
+        ]
       }
     },
     "kona-electric": {

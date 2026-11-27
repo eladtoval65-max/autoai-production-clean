@@ -550,7 +550,23 @@
             "title": "Cartube — טויוטה יאריס קרוס 2021 בישראל: מחיר 119,900 שקל",
             "url": "https://www.cartube.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A8%D7%9B%D7%91/%D7%98%D7%95%D7%99%D7%95%D7%98%D7%94-%D7%99%D7%90%D7%A8%D7%99%D7%A1-%D7%A7%D7%A8%D7%95%D7%A1-2021-%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%97%D7%99%D7%A8-119900-%D7%A9%D7%A7%D7%9C"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ (גם להיברידית) — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Toyota importer) — 'Toyota Yaris Cross petrol/hybrid' periodic-service deal page (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters and brake fluid extra. Interval: toyota.co.il service-and-maintenance page — cars under 10 years old every 15,000 km or yearly.",
+              "url": "https://ad-raanana.co.il/%d7%98%d7%95%d7%99%d7%95%d7%98%d7%94-%d7%99%d7%90%d7%a8%d7%99%d7%a1-%d7%a7%d7%a8%d7%95%d7%a1-%d7%91%d7%a0%d7%96%d7%99%d7%9f-%d7%94%d7%99%d7%91%d7%a8%d7%99%d7%93%d7%99/"
+            }
+          }
+        ]
       }
     },
     "rav4": {
@@ -1099,7 +1115,23 @@
           "stars": 5,
           "year": 2022,
           "url": "https://news.euroncap.com/images-and-videos/all/toyota-corolla-cross---euro-ncap-2022-results---5-stars/s/277ba94c-151d-47a7-8070-0300f9aa5ff2"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Toyota importer) — 'Toyota (Corolla) Cross petrol/hybrid' periodic-service deal page (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and plugs extra. Interval: toyota.co.il service-and-maintenance page — cars under 10 years old every 15,000 km or yearly.",
+              "url": "https://ad-raanana.co.il/%d7%98%d7%95%d7%99%d7%95%d7%98%d7%94-%d7%a7%d7%a8%d7%95%d7%a1-%d7%91%d7%a0%d7%96%d7%99%d7%9f-%d7%94%d7%99%d7%91%d7%a8%d7%99%d7%93%d7%99/"
+            }
+          }
+        ]
       }
     },
     "camry": {

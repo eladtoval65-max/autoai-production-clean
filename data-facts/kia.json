@@ -973,7 +973,23 @@
             "title": "וואלה! רכב — קיה סיד החדשה בישראל (3.5.2013)",
             "url": "https://cars.walla.co.il/item/2638902"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Kia importer) — 'Kia Ceed' service deal page (viewed 11/2026): periodic service ₪650 incl. labour and VAT (₪600 applies to model year 2021+ only); oil + original oil filter + inspections; air/cabin filters, brake fluid and plugs extra. Interval: Kia maker schedule once a year or every 15,000 km as quoted for Kia models in Walla Cars' importer service-cost comparison (cars.walla.co.il/item/3712321).",
+              "url": "https://ad-raanana.co.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A7%D7%99%D7%94-%D7%A1%D7%99%D7%93/"
+            }
+          }
+        ]
       }
     },
     "stonic": {

@@ -672,7 +672,23 @@
             "title": "Cartube — סקודה קאמיק בישראל (5.2.2020)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-קאמיק-בישראל-מחיר-124990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪700, כולל עבודה ומע״מ; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              700
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Skoda importer) — 'Skoda Kamiq' service deal page (viewed 11/2026): periodic service ₪700, small service for model year 2021+ ₪600, incl. labour and VAT; air/cabin filters, brake fluid and spark plugs extra. Interval: carwiki.de 'Skoda Kamiq Inspektion' — fixed oil service 15,000 km / 1 year (flexible up to 30,000 km / 2 years).",
+              "url": "https://ad-raanana.co.il/%d7%a1%d7%a7%d7%95%d7%93%d7%94-%d7%a7%d7%90%d7%9e%d7%99%d7%a7/"
+            }
+          }
+        ]
       }
     },
     "fabia": {
