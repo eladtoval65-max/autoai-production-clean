@@ -1,6 +1,6 @@
 {
   "make": "mercedes",
-  "updated": "2026-11-09",
+  "updated": "2026-11-28",
   "models": {
     "c-class": {
       "W204": {
@@ -2056,6 +2056,23 @@
           "url": "https://www.thecarexpert.co.uk/mercedes-benz-glc-eq-2026/"
         },
         "issues": []
+      }
+    },
+    "c-class-eq": {
+      "MB.EA": {
+        "engines": [
+          {
+            "name": "C 400 4MATIC חשמלי (94 קוט״ש)",
+            "pt": "ev",
+            "hp": 489,
+            "cons": 16.9,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — Mercedes-Benz C 400 4MATIC (2026): EVDB real-world vehicle consumption 169 Wh/km combined, 360 kW (489 PS), 94 kWh usable",
+              "url": "https://ev-database.org/car/3551/Mercedes-Benz-C-400-4MATIC"
+            }
+          }
+        ]
       }
     }
   }

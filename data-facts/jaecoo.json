@@ -1,6 +1,6 @@
 {
   "make": "jaecoo",
-  "updated": "2026-11-08",
+  "updated": "2026-11-28",
   "models": {
     "jaecoo-7": {
       "J7": {
@@ -69,7 +69,24 @@
             "title": "Cartube — ג'אקו J7 בישראל, מחיר 169,900 שקל (24.07.2024)",
             "url": "https://www.cartube.co.il/חדשות-רכב/ג-אקו-j7-בישראל-מחיר-169900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪750, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              750,
+              750
+            ],
+            "scope": "בנזין / היברידי",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Jaecoo petrol/hybrid' periodic-service deal page, no model or years named (viewed 11/2026): ₪750 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs extra. Interval: 15,000 km / 1 year as for the Chery-group FX (auto.co.il 03.09.2026 used Chery FX)",
+              "url": "https://ad-raanana.co.il/%D7%92%D7%B3%D7%90%D7%A7%D7%95-%D7%91%D7%A0%D7%96%D7%99%D7%9F-%D7%94%D7%99%D7%91%D7%A8%D7%99%D7%93%D7%99/"
+            }
+          }
+        ]
       }
     },
     "omoda-5": {

@@ -1,6 +1,6 @@
 {
   "make": "ford",
-  "updated": "2026-11-14",
+  "updated": "2026-11-28",
   "models": {
     "focus": {
       "Mk3 (C346)": {
@@ -159,7 +159,24 @@
             "title": "auto.co.il — פורד פוקוס 2020 החדשה בארץ — החל מ-132,000 שקלים (07.05.2020)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/133614/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪780 במחיר מועדון עד ₪830, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסננים, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              780,
+              830
+            ],
+            "scope": "1.5 טורבו בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Ford Focus gen 4, 1.5 L 176 hp' basic-service page (viewed 11/2026): ₪830, club members ₪780, incl. labour and VAT; oil + original oil filter + fuel additive + inspections; filters, brake fluid and plugs extra. Interval: every 15,000 km / 1 year as in the auto.co.il (2018) Focus 3rd-gen used guide",
+              "url": "https://ad-raanana.co.il/%D7%A4%D7%95%D7%A8%D7%93-%D7%A4%D7%95%D7%A7%D7%95%D7%A1-%D7%93%D7%95%D7%A8-4-1-5-%D7%9C%D7%99%D7%98%D7%A8-176-%D7%9B%D7%A1/"
+            }
+          }
+        ]
       }
     },
     "kuga": {
@@ -466,6 +483,21 @@
           "note": "5 כוכבים (Euro NCAP, 2008); מקור: Auto Bild"
         },
         "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה פורד (רעים עפולה): קטן ₪600 (שמן ומסנן שמן), גדול ₪975 (כולל מסנן אוויר), כולל עבודה ומע״מ; נוזל בלמים כל שנתיים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              975
+            ],
+            "scope": "1.4 אוטומטית",
+            "source": {
+              "title": "Reim Afula — authorised Ford/Mazda service centre, 'Ford Fiesta' service page (modified 04/2022; brand listing: 1.4 automatic; page names no years): small service ₪600 / large service ₪975 incl. labour and VAT (2022 prices). Interval: every 15,000 km / 1 year as in the auto.co.il (2018) Ford Focus 3rd-gen used guide",
+              "url": "https://reimafula.co.il/treatments/ford/%d7%a4%d7%95%d7%a8%d7%93-%d7%a4%d7%99%d7%90%d7%a1%d7%98%d7%94/"
+            }
+          },
           {
             "he": "מצמדי תיבת PowerShift הכפולה: החלפה מחוץ לאחריות. בדקו שהוחלפו במסגרת האחריות המורחבת של פורד.",
             "kind": "risk",
@@ -1010,6 +1042,23 @@
               "url": "https://www.spritmonitor.de/de/detailansicht/751560.html"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה פורד (רעים עפולה): קטן ₪600 (שמן ומסנן שמן), גדול ₪975 (כולל מסנן אוויר), כולל עבודה ומע״מ; נוזל בלמים כל שנתיים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              975
+            ],
+            "scope": "2.0 טורבו",
+            "source": {
+              "title": "Reim Afula — authorised Ford/Mazda service centre, 'Ford Mondeo' service page (modified 04/2022; brand listing: 2.0 turbo; page heading mistakenly reads 'Ford Edge', URL/title say Mondeo; no years): small service ₪600 / large service ₪975 incl. labour and VAT (2022 prices). Interval: every 15,000 km / 1 year as in the auto.co.il (2018) Ford Focus 3rd-gen used guide",
+              "url": "https://reimafula.co.il/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%9c%d7%a8%d7%9b%d7%91/%d7%a4%d7%95%d7%a8%d7%93/%d7%a4%d7%95%d7%a8%d7%93-%d7%9e%d7%95%d7%a0%d7%93%d7%90%d7%95/"
+            }
+          }
         ]
       },
       "Mk V": {
@@ -1329,6 +1378,23 @@
               "url": "https://www.autokostencheck.de/Ford/Ford-S-MAX/S-MAX/galaxy-s-max-2-0-tdci-wa6_34536.html"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה פורד (רעים עפולה): קטן ₪600 (שמן ומסנן שמן), גדול ₪975 (כולל מסנן אוויר), כולל עבודה ומע״מ; נוזל בלמים כל שנתיים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              975
+            ],
+            "scope": "2.3 בנזין",
+            "source": {
+              "title": "Reim Afula — authorised Ford/Mazda service centre, 'Ford S-MAX' service page (modified 04/2022; brand listing: 2.3 L petrol; page names no years): small service ₪600 / large service ₪975 incl. labour and VAT (2022 prices). Interval: every 15,000 km / 1 year as in the auto.co.il (2018) Ford Focus 3rd-gen used guide",
+              "url": "https://reimafula.co.il/treatments/ford/pord_s-max/"
+            }
+          }
         ]
       }
     },
@@ -1430,6 +1496,23 @@
             "source": {
               "title": "autokostencheck — Ford Galaxy / S-MAX 2.0 (WA6) 149 kW, 2009–2014, Verbrauch (205 user reports, shared Galaxy/S-MAX page)",
               "url": "https://www.autokostencheck.de/Ford/Ford-S-MAX/S-MAX/galaxy-s-max-2-0-wa6_34542/verbrauch/"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה פורד (רעים עפולה): קטן ₪600 (שמן ומסנן שמן), גדול ₪975 (כולל מסנן אוויר), כולל עבודה ומע״מ; נוזל בלמים כל שנתיים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              975
+            ],
+            "scope": "2.3 בנזין",
+            "source": {
+              "title": "Reim Afula — authorised Ford/Mazda service centre, 'Ford Galaxy' service page (modified 04/2022; brand listing: 2.3 L petrol; page names no years): small service ₪600 / large service ₪975 incl. labour and VAT (2022 prices). Interval: every 15,000 km / 1 year as in the auto.co.il (2018) Ford Focus 3rd-gen used guide",
+              "url": "https://reimafula.co.il/treatments/ford/%d7%a4%d7%95%d7%a8%d7%93-%d7%92%d7%9c%d7%90%d7%a7%d7%a1%d7%99/"
             }
           }
         ]

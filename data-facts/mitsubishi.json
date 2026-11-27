@@ -1,6 +1,6 @@
 {
   "make": "mitsubishi",
-  "updated": "2026-11-21",
+  "updated": "2026-11-28",
   "models": {
     "outlander": {
       "GF/GG": {
@@ -145,7 +145,24 @@
             "title": "וואלה! רכב — מבחן מיצובישי אאוטלנדר הדור הרביעי",
             "url": "https://cars.walla.co.il/item/3449788"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנן מזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Mitsubishi importer) — 'Mitsubishi Outlander' periodic-service deal page, no years stated (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; cabin filter and brake fluid charged extra. Interval: every 12 months or 15,000 km per the 2022 (ZM) Outlander service schedule (CarAdvice, Australia)",
+              "url": "https://ad-raanana.co.il/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%9e%d7%99%d7%a6%d7%95%d7%91%d7%99%d7%a9%d7%99-%d7%90%d7%90%d7%95%d7%98%d7%9c%d7%a0%d7%93%d7%a8/"
+            }
+          }
+        ]
       }
     },
     "asx": {
@@ -224,7 +241,23 @@
             "title": "icar — מיצובישי ASX בישראל: מ-132,900 שקל (13.11.2017)",
             "url": "https://www.icar.co.il/חדשות_רכב/מיצובישי_ASX_בישראל:_מ-132,900_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Mitsubishi ASX' periodic-service deal page, no model years stated (viewed 11/2026): ₪650 incl. labour and VAT; oil + oil filter + inspections; filters, brake fluid and plugs extra. Interval: 15,000 km / 1 year as in the Hilukh Shishi price list for the contemporary Lancer (Walla Cars 19.12.2013)",
+              "url": "https://ad-raanana.co.il/%d7%9e%d7%99%d7%a6%d7%95%d7%91%d7%99%d7%a9%d7%99-asx/"
+            }
+          }
+        ]
       },
       "Gen2": {
         "engines": [

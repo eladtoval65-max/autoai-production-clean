@@ -1,6 +1,6 @@
 {
   "make": "suzuki",
-  "updated": "2026-11-22",
+  "updated": "2026-11-28",
   "models": {
     "swift": {
       "AZ": {
@@ -158,7 +158,23 @@
             "title": "auto.co.il — סוזוקי סוויפט חדשה בישראל (28.02.2011)",
             "url": "https://www.auto.co.il/articles/car-news/117303/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Suzuki importer) — 'Suzuki Swift' periodic-service deal page, no model years stated (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and plugs extra. Interval: auto.co.il (29.10.2015) supermini running costs — previous-generation Swift serviced yearly or every 15,000 km",
+              "url": "https://ad-raanana.co.il/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%a1%d7%95%d7%96%d7%95%d7%a7%d7%99-%d7%a1%d7%95%d7%95%d7%99%d7%a4%d7%98/"
+            }
+          }
+        ]
       },
       "AZH": {
         "engines": [
@@ -430,7 +446,23 @@
             "title": "icar — סוזוקי בלנו בישראל: החל מ-74,990 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/סוזוקי_בלנו_בישראל_-_החל_מ-74,990_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Suzuki importer) — 'Suzuki Baleno' periodic-service deal page (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs charged extra; page states no model years. Interval: 20,000 km / 1 year as for the Swift (auto.co.il 09.10.2023: gearbox-oil check every second service = every 2 years / 40,000 km)",
+              "url": "https://ad-raanana.co.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A1%D7%95%D7%96%D7%95%D7%A7%D7%99-%D7%91%D7%9C%D7%A0%D7%95/"
+            }
+          }
+        ]
       }
     },
     "ignis": {

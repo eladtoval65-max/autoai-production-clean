@@ -1,6 +1,6 @@
 {
   "make": "hyundai",
-  "updated": "2026-11-23",
+  "updated": "2026-11-28",
   "models": {
     "tucson": {
       "ix35 (LM)": {
@@ -57,7 +57,24 @@
             "title": "וואלה! רכב — השקת יונדאי ix35 בישראל (6/2010)",
             "url": "https://cars.walla.co.il/item/1683804"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Hyundai importer) — 'Hyundai Tucson' periodic-service deal page (a separate page covers Tucson from 2021; no years stated; petrol cars only) (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; filters, brake fluid and plugs extra. Interval: Hyundai Israel schedule every year / 15,000 km (as in the Walla Cars 12/2024 importer service-cost figures and the queenoftheroad Tucson guide used for other Hyundai entries)",
+              "url": "https://ad-raanana.co.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-%D7%98%D7%95%D7%A1%D7%95%D7%9F/"
+            }
+          }
+        ]
       },
       "TL": {
         "issues": [
@@ -1839,7 +1856,24 @@
             "title": "cartube — יונדאי סנטה פה החדש 2019 בישראל - מחיר החל מ-249,900 ₪ (26.11.2018)",
             "url": "https://www.cartube.co.il/חדשות-רכב/יונדאי-סנטה-פה-החדש-2019-בישראל-מחיר-249900-₪"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנן מזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין / היברידי",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Hyundai importer) — 'Hyundai Santa Fe (from 2021)' and 'Hyundai Santa Fe' (earlier years) periodic-service deal pages (viewed 11/2026): both ₪650 incl. labour and VAT; oil + original oil filter + inspections; cabin filter and brake fluid extra; petrol cars, hybrids included. Interval: Hyundai Israel schedule every year / 15,000 km (as in the Walla Cars 12/2024 importer service-cost figures used for other Hyundai entries)",
+              "url": "https://ad-raanana.co.il/%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-%d7%a1%d7%a0%d7%98%d7%94-%d7%a4%d7%94-%d7%9e%d7%a9%d7%a0%d7%aa-2021/"
+            }
+          }
+        ]
       },
       "DM": {
         "issues": [
@@ -1898,7 +1932,24 @@
             "title": "וואלה! רכב — יונדאי סנטה פה החדש הגיע לישראל (14.11.2012)",
             "url": "https://cars.walla.co.il/item/2585925"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנן מזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Hyundai importer) — 'Hyundai Santa Fe' periodic-service deal page (a separate page covers Santa Fe from 2021; no years stated; petrol cars only) (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; cabin filter and brake fluid extra. Interval: Hyundai Israel schedule every year / 15,000 km (as in the Walla Cars 12/2024 importer service-cost figures and the queenoftheroad Tucson guide used for other Hyundai entries)",
+              "url": "https://ad-raanana.co.il/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-%D7%A1%D7%A0%D7%98%D7%94-%D7%A4%D7%94/"
+            }
+          }
+        ]
       },
       "MX5": {
         "issues": [
@@ -1958,7 +2009,24 @@
             "title": "icar — יונדאי סנטה פה החדש הושק במחיר של 225,000 שקל",
             "url": "https://www.icar.co.il/חדשות_רכב/יונדאי_סנטה_פה_החדש_הושק_במחיר_של_225,000_שקל/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנן מזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין / היברידי",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Hyundai importer) — 'Hyundai Santa Fe (from 2021)' and 'Hyundai Santa Fe' (earlier years) periodic-service deal pages (viewed 11/2026): both ₪650 incl. labour and VAT; oil + original oil filter + inspections; cabin filter and brake fluid extra; petrol cars, hybrids included. Interval: Hyundai Israel schedule every year / 15,000 km (as in the Walla Cars 12/2024 importer service-cost figures used for other Hyundai entries)",
+              "url": "https://ad-raanana.co.il/%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-%d7%a1%d7%a0%d7%98%d7%94-%d7%a4%d7%94-%d7%9e%d7%a9%d7%a0%d7%aa-2021/"
+            }
+          }
+        ]
       },
       "CM (מתיחת פנים)": {
         "issues": [
@@ -2016,7 +2084,24 @@
           "year": 2006,
           "url": "https://www.fleetnews.co.uk/news/2006/12/22/auris-score-highly-in-crash-tests---two-other-vehicles-appalling-/23651/",
           "note": "4 כוכבים (Euro NCAP, 2006) — מבחן לדגם לפני מתיחת הפנים; מקור: Fleet News המצטט את Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנן מזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Hyundai importer) — 'Hyundai Santa Fe' periodic-service deal page (a separate page covers Santa Fe from 2021; no years stated; petrol cars only) (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; cabin filter and brake fluid extra. Interval: Hyundai Israel schedule every year / 15,000 km (as in the Walla Cars 12/2024 importer service-cost figures and the queenoftheroad Tucson guide used for other Hyundai entries)",
+              "url": "https://ad-raanana.co.il/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-%D7%A1%D7%A0%D7%98%D7%94-%D7%A4%D7%94/"
+            }
+          }
+        ]
       }
     },
     "sonata": {
@@ -2179,6 +2264,23 @@
             "source": {
               "title": "TrueDelta — Hyundai Sonata real-world fuel economy, 2012 Hybrid 7.24 L/100km",
               "url": "https://www.truedelta.com/Hyundai-Sonata/mpg-121&gas_unit=3"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מוסך הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 (שמן ומסנן), גדול ₪1,056 (כולל מסנן אוויר ומצתים), כולל עבודה ומע״מ; מחירי 2020",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "2.0 בנזין",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai Sonata 2.0' service deal: small ₪682 / large ₪1,056 (adds air filter + spark plugs) incl. labour and VAT (page last updated 08/2020; 2020 prices; no years stated). Interval: Hyundai Israel schedule every year / 15,000 km, as for the other Hyundai entries",
+              "url": "https://abira.co.il/deals/%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-%D7%A1%D7%95%D7%A0%D7%98%D7%94/"
             }
           }
         ]

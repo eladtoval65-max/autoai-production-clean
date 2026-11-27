@@ -1,6 +1,6 @@
 {
   "make": "mazda",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "models": {
     "mazda3": {
       "BL": {
@@ -417,6 +417,22 @@
             "source": {
               "title": "NHTSA — Mazda dealer bulletin, Special Service Program SSPE2 & MSP67 (2026MY CX-5, battery depletion after IG OFF; updated 21.8.2026)",
               "url": "https://static.nhtsa.gov/odi/tsbs/2026/MC-11036736-0001.pdf"
+            }
+          }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול בסיסי במוסך פרטי (מרכז שירות עד רעננה, מורשה מאזדה — לא מוסך היבואן): ₪756 במחיר מועדון עד ₪895, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסננים, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              756,
+              895
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Mazda CX5 engine 2.5/2 L' basic-service page, no model years stated (Mazda category listing viewed 11/2026): ₪895, club price ₪756, incl. labour and VAT. Interval 15,000 km / 12 months as for the CX-5 KF (Reim Afula page, Mazda owner's manual)",
+              "url": "https://ad-raanana.co.il/%d7%9e%d7%90%d7%96%d7%93%d7%94-cx-5/"
             }
           }
         ]
@@ -1149,7 +1165,23 @@
             "title": "Cartube — מאזדה CX-90 בישראל: מחיר 385,000 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/מאזדה-cx-90-בישראל-קרוסאובר-6-7-מושבים-פרימיום-מחיר-385000-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול בסיסי במוסך פרטי (מרכז שירות עד רעננה, מורשה מאזדה — לא מוסך היבואן): ₪1,033 במחיר מועדון עד ₪1,157, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסננים, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1033,
+              1157
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Mazda CX90 3.3 L' basic-service page (Mazda category listing viewed 11/2026): ₪1,157, club price ₪1,033, incl. labour and VAT. Interval 15,000 km / 12 months per Mazda owner's manual, as for the other Mazda entries",
+              "url": "https://ad-raanana.co.il/%d7%9e%d7%90%d7%96%d7%93%d7%94-cx90-%d7%a0%d7%a4%d7%97-2-5-%d7%9c%d7%99%d7%98%d7%a8/"
+            }
+          }
+        ]
       }
     },
     "mazda5": {
@@ -1216,7 +1248,23 @@
           "stars": null,
           "url": "https://www.carbuyer.co.uk/mazda/5/reliability",
           "note": "הדור הזה (2010–2015) לא נבדק ב-Euro NCAP; הדור הקודם קיבל 5 כוכבים (לפי Carbuyer)"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז שירות מורשה מאזדה (רעים עפולה): קטן ₪600 (שמן ומסנן שמן), גדול ₪975 (כולל מסנן אוויר), כולל עבודה ומע״מ; נוזל בלמים כל שנתיים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              975
+            ],
+            "source": {
+              "title": "Reim Afula — authorized Mazda service centre, 'Mazda 5 (up to 2014)' service page (modified 04/2022): small service ₪600 / large service ₪975 incl. labour and VAT (2022 prices; page title says ₪550, body ₪600 — higher used). Interval 15,000 km / 12 months per Mazda owner's manual, as for the other Mazda entries",
+              "url": "https://reimafula.co.il/treatments/mazda/%D7%9E%D7%90%D7%96%D7%93%D7%94-5-%D7%A2%D7%93-%D7%A9%D7%A0%D7%AA-2014/"
+            }
+          }
+        ]
       }
     },
     "cx-7": {

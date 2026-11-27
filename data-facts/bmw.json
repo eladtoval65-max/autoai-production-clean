@@ -1,6 +1,6 @@
 {
   "make": "bmw",
-  "updated": "2026-11-23",
+  "updated": "2026-11-28",
   "models": {
     "3-series": {
       "E90": {
@@ -2228,6 +2228,34 @@
             "source": {
               "title": "PistonHeads (14.11.2021) — new 94Ah pack just over €9,000 incl. tax + ≈€650 fitting (Germany, 2017); foreign price converted at ₪3.7–4.1 per €",
               "url": "https://www.pistonheads.com/news/ph-buying-guides/bmw-i3--ph-used-buying-guide/44928"
+            }
+          }
+        ]
+      }
+    },
+    "ix4": {
+      "Neue Klasse": {
+        "engines": [
+          {
+            "name": "iX4 40 xDrive (82.6 קוט״ש)",
+            "pt": "ev",
+            "hp": 374,
+            "cons": 16,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — BMW iX4 40 xDrive (MY27): EVDB real-world efficiency 160 Wh/km, 275 kW (374 PS), 82.6 kWh usable",
+              "url": "https://ev-database.org/car/3826/BMW-iX4-40-xDrive"
+            }
+          },
+          {
+            "name": "iX4 50 xDrive (108.7 קוט״ש)",
+            "pt": "ev",
+            "hp": 469,
+            "cons": 16.5,
+            "unit": "kWh",
+            "source": {
+              "title": "ev-database.org — BMW iX4 50 xDrive (MY27): EVDB real-world efficiency 165 Wh/km, 345 kW (469 PS), 108.7 kWh usable",
+              "url": "https://ev-database.org/car/3827/BMW-iX4-50-xDrive"
             }
           }
         ]

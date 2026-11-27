@@ -1,6 +1,6 @@
 {
   "make": "skoda",
-  "updated": "2026-11-23",
+  "updated": "2026-11-28",
   "models": {
     "octavia": {
       "Mk2 (1Z)": {
@@ -507,6 +507,20 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪800, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              800
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Skoda importer) — 'Skoda Kodiaq' periodic-service deal page (viewed 11/2026): ₪800, small service for model year 2021+ ₪600, incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs charged extra. Interval: one service per year or 15,000 km, as in the Walla Cars (01/2023) importer service-cost table for the previous Kodiaq (NS7)",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%A7%D7%95%D7%93%D7%94-%D7%A7%D7%95%D7%93%D7%99%D7%90%D7%A7/"
+            }
+          },
+          {
             "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
             "kind": "risk",
             "costIls": [
@@ -825,6 +839,20 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪700, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              700
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Skoda importer) — 'Skoda Fabia' periodic-service deal page (viewed 11/2026): ₪700, small service for model year 2021+ ₪600, incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs charged extra. Interval: 15,000 km / 1 year, as in the iCar Fabia 3rd-gen long-term test (15,000 km service at Champion Motors)",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%A7%D7%95%D7%93%D7%94-%D7%A4%D7%90%D7%91%D7%99%D7%94/"
+            }
+          },
+          {
             "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
             "kind": "risk",
             "costIls": [
@@ -918,6 +946,20 @@
           "note": "4 כוכבים (Euro NCAP, 2007) — מבחן לדגם לפני מתיחת הפנים; מקור: Autoblog המצטט את Euro NCAP"
         },
         "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪700, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Skoda importer) — 'Skoda Fabia' periodic-service deal page (viewed 11/2026): ₪700 (the ₪600 price applies to model year 2021+ only), incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs charged extra. Interval: 15,000 km / 1 year, as in the iCar Fabia 3rd-gen long-term test (15,000 km service at Champion Motors)",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%A7%D7%95%D7%93%D7%94-%D7%A4%D7%90%D7%91%D7%99%D7%94/"
+            }
+          },
           {
             "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
             "kind": "risk",

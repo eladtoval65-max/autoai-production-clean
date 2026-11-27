@@ -1,6 +1,6 @@
 {
   "make": "seat",
-  "updated": "2026-11-21",
+  "updated": "2026-11-28",
   "models": {
     "ibiza": {
       "6F (KJ)": {
@@ -479,6 +479,20 @@
         },
         "maintenance": [
           {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪600 (טיפול קטן, דגמי 2021 ואילך) עד ₪700, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              700
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the SEAT importer) — 'SEAT Leon' periodic-service deal page (viewed 11/2026): ₪700, small service for model year 2021+ ₪600, incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs charged extra. Interval: 15,000 km / 1 year, as in the iCar SEAT Leon 5F long-term test (first 15,000 km / 1-year service)",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%99%D7%90%D7%98-%D7%9C%D7%99%D7%90%D7%95%D7%9F/"
+            }
+          },
+          {
             "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
             "kind": "risk",
             "costIls": [
@@ -549,6 +563,20 @@
           "note": "4 כוכבים (Euro NCAP, נובמבר 2005); מקור: Parkers ו-AM Online המצטטים את Euro NCAP"
         },
         "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪700, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the SEAT importer) — 'SEAT Leon' periodic-service deal page (viewed 11/2026): ₪700 (the ₪600 price applies to model year 2021+ only), incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs charged extra. Interval: 15,000 km / 1 year, as in the iCar SEAT Leon 5F long-term test (first 15,000 km / 1-year service)",
+              "url": "https://ad-raanana.co.il/%D7%A1%D7%99%D7%90%D7%98-%D7%9C%D7%99%D7%90%D7%95%D7%9F/"
+            }
+          },
           {
             "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
             "kind": "risk",

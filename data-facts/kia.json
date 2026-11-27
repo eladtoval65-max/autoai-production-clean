@@ -1,6 +1,6 @@
 {
   "make": "kia",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "models": {
     "sportage": {
       "NQ5": {
@@ -1121,7 +1121,23 @@
             "title": "Cartube — קיה סלטוס 2020 בישראל: מחיר 133,900 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/קיה-סלטוס-2020-בישראל-מחיר-133900-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Kia Seltos' periodic-service deal page, no model years stated (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs extra. Interval: Kia Israel schedule once a year or every 15,000 km (as in the Walla Cars 12/2024 and ynet 08.04.2020 importer service-cost comparisons used for other Kia entries)",
+              "url": "https://ad-raanana.co.il/%d7%a7%d7%99%d7%94-%d7%a1%d7%9c%d7%98%d7%95%d7%a1/"
+            }
+          }
+        ]
       }
     },
     "sorento": {
@@ -1182,7 +1198,24 @@
           "year": 2014,
           "url": "https://cdn.euroncap.com/media/4642/euroncap_kia_sorento_2014_5stars.pdf",
           "note": "5 כוכבים — דף נתונים Euro NCAP 2014 (Sorento 2.2 דיזל)"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Kia Sorento' periodic-service deal page, no model years stated, petrol cars only (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs extra. Interval: Kia Israel schedule once a year or every 15,000 km (as in the Walla Cars 12/2024 and ynet 08.04.2020 importer service-cost comparisons used for other Kia entries)",
+              "url": "https://ad-raanana.co.il/%d7%a7%d7%99%d7%94-%d7%a1%d7%95%d7%a8%d7%a0%d7%98%d7%95/"
+            }
+          }
+        ]
       },
       "MQ4": {
         "issues": [
@@ -1351,7 +1384,24 @@
             "title": "auto.co.il — הסורנטו יוצא לדרך בישראל (07.01.2010)",
             "url": "https://www.auto.co.il/articles/car-news/119019/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650, כולל עבודה ומע״מ — שמן ומסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "scope": "בנזין",
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the importer) — 'Kia Sorento' periodic-service deal page, no model years stated, petrol cars only (viewed 11/2026): ₪650 incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs extra. Interval: Kia Israel schedule once a year or every 15,000 km (as in the Walla Cars 12/2024 and ynet 08.04.2020 importer service-cost comparisons used for other Kia entries)",
+              "url": "https://ad-raanana.co.il/%d7%a7%d7%99%d7%94-%d7%a1%d7%95%d7%a8%d7%a0%d7%98%d7%95/"
+            }
+          }
+        ]
       }
     },
     "ev6": {
