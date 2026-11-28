@@ -2694,6 +2694,36 @@
               "url": "https://www.truedelta.com/Hyundai-Accent/mpg-118/2013"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי (החלפת שמן ומסנן) — בממוצע ₪600–800 לפי מוסך פרטי; לא מחירון היבואן",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              600,
+              800
+            ],
+            "source": {
+              "title": "Eyal Moti car services, Rishon LeZion (private garage, not the Hyundai importer) — 'Service for Hyundai i25': regular service every 15,000 km / 1 year ≈ ₪600–800 average (published 14.12.2020, updated 04.05.2023)",
+              "url": "https://eyalm.co.il/%D7%9E%D7%92%D7%96%D7%99%D7%9F-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99-%D7%9E%D7%95%D7%A1%D7%9A/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%9C%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-i25/"
+            }
+          },
+          {
+            "he": "טיפול גדול (בנוסף לשמן: מצתים ומסנן דלק) — בממוצע ₪1,500–2,000 לפי מוסך פרטי",
+            "kind": "scheduled",
+            "intervalKm": 60000,
+            "intervalYears": 4,
+            "costIls": [
+              1500,
+              2000
+            ],
+            "source": {
+              "title": "Eyal Moti car services, Rishon LeZion (private garage) — 'Service for Hyundai i25': major service at ~60,000 km / 4 years adds spark plugs + fuel filter, ≈ ₪1,500–2,000 average (published 14.12.2020, updated 04.05.2023)",
+              "url": "https://eyalm.co.il/%D7%9E%D7%92%D7%96%D7%99%D7%9F-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99-%D7%9E%D7%95%D7%A1%D7%9A/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%9C%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-i25/"
+            }
+          }
         ]
       }
     },
@@ -2772,6 +2802,23 @@
               "url": "https://www.dev.honestjohn.co.uk/realmpg/hyundai/i40-tourer-2011"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 / גדול ₪1,056 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "1.6 GDi",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai 1.6 (all years)' service deal: small ₪682 / large ₪1,056 (large adds air filter + original spark plugs) incl. labour and VAT; page last updated 18.08.2020 (2020 prices). Interval yearly / 15,000 km per Hyundai Israel.",
+              "url": "https://abira.co.il/deals/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-1-6-%d7%9b%d7%9c-%d7%94%d7%a9%d7%a0%d7%99%d7%9d/"
+            }
+          }
         ]
       }
     },
@@ -2814,7 +2861,24 @@
           "year": 2011,
           "url": "https://cdn.euroncap.com/media/6776/hyundai_ix20_2011_datasheet.pdf",
           "note": "דירוג משותף עם קיה ונגה (נבחנה ב-2010); ה-ix20 עצמה לא נבחנה בנפרד"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 / גדול ₪1,056 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "1.6 בנזין",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai 1.6 (all years)' service deal: small ₪682 / large ₪1,056 (large adds air filter + original spark plugs) incl. labour and VAT; page last updated 18.08.2020 (2020 prices). Interval yearly / 15,000 km per Hyundai Israel.",
+              "url": "https://abira.co.il/deals/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-1-6-%d7%9b%d7%9c-%d7%94%d7%a9%d7%a0%d7%99%d7%9d/"
+            }
+          }
+        ]
       }
     },
     "veloster": {
@@ -2884,7 +2948,24 @@
           "year": 2011,
           "url": "https://www.caradvice.com.au/news/audi-q3-bmw-1-series-hyundai-veloster-awarded-five-star-euro-ncap-safety-rating/",
           "note": "5 כוכבים (Euro NCAP, 2011, נבדק Veloster 1.6 GDI); מקור: CarAdvice המצטט את Euro NCAP. דף התוצאה: euroncap.com/fr/results/hyundai/veloster/10972"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במוסך פרטי (מרכז שירות הבירה, ירושלים — לא מוסך היבואן): קטן ₪682 / גדול ₪1,056 כולל עבודה ומע״מ; מחירי 2020; במוסך היבואן לרוב יקר יותר",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              682,
+              1056
+            ],
+            "scope": "1.6",
+            "source": {
+              "title": "Abira service centre, Jerusalem (not a Hyundai importer garage) — 'Hyundai 1.6 (all years)' service deal: small ₪682 / large ₪1,056 (large adds air filter + original spark plugs) incl. labour and VAT; page last updated 18.08.2020 (2020 prices). Interval yearly / 15,000 km per Hyundai Israel.",
+              "url": "https://abira.co.il/deals/%d7%98%d7%99%d7%a4%d7%95%d7%9c-%d7%99%d7%95%d7%a0%d7%93%d7%90%d7%99-1-6-%d7%9b%d7%9c-%d7%94%d7%a9%d7%a0%d7%99%d7%9d/"
+            }
+          }
+        ]
       },
       "JS": {
         "issues": [
