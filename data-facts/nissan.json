@@ -1,6 +1,6 @@
 {
   "make": "nissan",
-  "updated": "2026-11-21",
+  "updated": "2026-11-28",
   "models": {
     "qashqai": {
       "J11": {
@@ -449,7 +449,22 @@
             "title": "cartube — ניסאן ג'וק החדש 2020 בישראל: 124,990 ₪ (04.03.2020)",
             "url": "https://www.cartube.co.il/חדשות-רכב/ניסאן-ג-וק-החדש-2020-בישראל-מחיר-124990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול שנתי במוסך פרטי (מ.ק, חולון — לא מוסך היבואן): ₪499 כולל מע״מ — שמן סינתטי, מסנן שמן מקורי ומסנן אוויר",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              499,
+              499
+            ],
+            "source": {
+              "title": "M.K. car agencies service centre, Holon (independent, not the Nissan importer) — 'annual service for Nissan Juke' page (© 2026, viewed 11/2026; no model years stated): ₪499 incl. VAT — synthetic oil, original Nissan oil filter, air filter; described as an annual service",
+              "url": "https://www.mkmotors.co.il/%D7%97%D7%A0%D7%95%D7%AA/%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%A9%D7%A0%D7%AA%D7%99%D7%9C%D7%A8%D7%9B%D7%91%D7%A0%D7%99%D7%A1%D7%90%D7%9F%D7%92-%D7%95%D7%A7"
+            }
+          }
+        ]
       }
     },
     "micra": {

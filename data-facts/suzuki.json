@@ -542,7 +542,23 @@
             "title": "Cartube — סוזוקי איגניס החדשה 2017 בישראל: מחיר החל מ-73,990 שקל",
             "url": "https://www.cartube.co.il/חדשות-רכב/2017-סוזוקי-איגניס-החדשה-בישראל-מחיר-החל-מ-73990-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ — שמן, מסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 20000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Suzuki importer) — 'Suzuki Ignis' periodic-service deal page (viewed 11/2026; no model years stated): ₪650 incl. labour and VAT; oil + original oil filter + inspections; filters, brake fluid and plugs extra. Interval: carzone.co.il Ignis 2023 page — maker requires a service every year or 20,000 km",
+              "url": "https://ad-raanana.co.il/%D7%98%D7%99%D7%A4%D7%95%D7%9C-%D7%A1%D7%95%D7%96%D7%95%D7%A7%D7%99-%D7%90%D7%99%D7%92%D7%A0%D7%99%D7%A1/"
+            }
+          }
+        ]
       }
     },
     "s-cross": {
@@ -787,7 +803,23 @@
             "title": "auto.co.il — סוזוקי סלריו יוצאת לדרך בישראל (11.04.2016)",
             "url": "https://www.auto.co.il/articles/general-articles/110594/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במוסך פרטי (מרכז שירות עד רעננה — לא מוסך היבואן): ₪650 כולל עבודה ומע״מ — שמן, מסנן שמן ובדיקות; מסנני אוויר ומזגן ונוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              650,
+              650
+            ],
+            "source": {
+              "title": "Ad Raanana service centre (Mazda-authorised, not the Suzuki importer) — 'Suzuki Celerio' periodic-service deal page (viewed 11/2026; no model years stated): ₪650 incl. labour and VAT; oil + original oil filter + inspections; filters and brake fluid extra. Interval: carzone.co.il Celerio 2015 page — engine oil within 1 year / 15,000 km",
+              "url": "https://ad-raanana.co.il/%d7%a1%d7%95%d7%96%d7%95%d7%a7%d7%99-%d7%a1%d7%9c%d7%a8%d7%99%d7%95/"
+            }
+          }
+        ]
       }
     },
     "sx4": {

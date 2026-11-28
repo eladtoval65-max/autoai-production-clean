@@ -418,7 +418,23 @@
             "title": "auto.co.il — פורד פומה 2021 החדש בישראל – החל מ-128,000 שקלים (11.02.2021)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/134272/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במרכז שירות מורשה פורד (מרכז שירות עד רעננה): ₪784 לחברי מועדון / ₪904 מחיר מלא, כולל עבודה ומע״מ — שמן, מסנן שמן ובדיקות; מסנני אוויר ומזגן, נוזל בלמים ומצתים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 20000,
+            "costIls": [
+              784,
+              904
+            ],
+            "scope": "1.0 EcoBoost",
+            "source": {
+              "title": "Ad Raanana service centre (authorised Ford/Mazda service centre, not the importer itself) — 'Ford Puma 1.0 petrol, gen 1' basic-service page (viewed 11/2026): ₪904 list / ₪784 club price incl. labour and VAT; oil + original filter + inspections; filters, brake fluid, plugs extra. Interval: Ford UK service & maintenance schedule (06/2024) — Puma 1.0 EcoBoost every 12,500 miles ≈ 20,000 km",
+              "url": "https://ad-raanana.co.il/%D7%A4%D7%95%D7%A8%D7%93-%D7%A4%D7%95%D7%9E%D7%94-1-%D7%9C%D7%99%D7%98%D7%A8-%D7%91%D7%A0%D7%96%D7%99%D7%9F-%D7%93%D7%95%D7%A81/"
+            }
+          }
+        ]
       }
     },
     "fiesta": {
@@ -683,7 +699,23 @@
             "title": "וואלה! רכב — פורד ריינג'ר יהיה זול בכ-35 אלף שקל מפולקסווגן אמארוק התאום (04.12.2023)",
             "url": "https://cars.walla.co.il/item/3626659"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי בסיסי במרכז שירות מורשה פורד (מרכז שירות עד רעננה): ₪1,300–1,450 (ריינג׳ר 3.0) ועד ₪1,370–1,520 (ראפטור 2.0 דיזל), כולל עבודה ומע״מ — שמן, מסנן שמן ובדיקות; מסננים, נוזל בלמים בתוספת תשלום",
+            "kind": "service",
+            "intervalKm": 20000,
+            "costIls": [
+              1300,
+              1520
+            ],
+            "scope": "דיזל",
+            "source": {
+              "title": "Ad Raanana service centre (authorised Ford/Mazda service centre, not the importer itself) — 'Ford Ranger 3L' basic service ₪1,450 list / ₪1,300 club, and 'Ranger Raptor 2.0 diesel' ₪1,520 / ₪1,370, incl. labour and VAT (viewed 11/2026; pages state no years). Interval: Ford UK service & maintenance schedule (06/2024) — Ranger 2.0/3.0 EcoBlue every 12,500 miles ≈ 20,000 km",
+              "url": "https://ad-raanana.co.il/%d7%98%d7%a0%d7%93%d7%a8-%d7%a4%d7%95%d7%a8%d7%93-%d7%a8%d7%99%d7%99%d7%a0%d7%92%d7%a8-3-%d7%9c%d7%99%d7%98%d7%a8/"
+            }
+          }
+        ]
       }
     },
     "explorer": {
