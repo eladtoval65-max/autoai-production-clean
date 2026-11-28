@@ -323,6 +323,19 @@
               "title": "Ad Raanana service centre (Mazda-authorised, not the SEAT importer) — 'SEAT Arona service' deal page (viewed 11/2026): periodic service ₪800, small service for model year 2021+ ₪600, incl. labour and VAT; oil + original oil filter + inspections; air/cabin filters, brake fluid and spark plugs extra. Interval: fixed (non-LongLife) oil service once a year or every 15,000 km per carwiki.de 'Seat Arona Inspektion'.",
               "url": "https://ad-raanana.co.il/%D7%A1%D7%99%D7%90%D7%98-%D7%90%D7%A8%D7%95%D7%A0%D7%94/"
             }
+          },
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG 7 הילוכים",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
           }
         ]
       }
@@ -406,6 +419,19 @@
             "source": {
               "title": "iCar long-term test (02/2018) — SEAT Leon 1.0 TSI, first 15,000 km/1-year service at an authorised garage: ₪611.90 incl. VAT",
               "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_סיאט_לאון_במבחן_ארוך_טווח/"
+            }
+          },
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG 7 הילוכים",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
             }
           }
         ]

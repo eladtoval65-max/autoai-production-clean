@@ -777,6 +777,19 @@
               "title": "iCar long-term test (12/2016) — Skoda Fabia 3rd gen, 15,000 km service at Champion Motors' central garage: ₪754 (₪820 with original filter); the article notes the printed quote's 'final' prices exclude VAT and does not say whether these two figures do",
               "url": "https://www.icar.co.il/מבחני_רכב/Live_Blog:_סקודה_פאביה_במבחן_ארוך_טווח/"
             }
+          },
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG 7 הילוכים",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
           }
         ]
       },
@@ -1159,7 +1172,22 @@
             "title": "וואלה! רכב — סקודה סופרב החדשה בישראל במחיר התחלתי של 157 אלף שקלים (3.2.2009)",
             "url": "https://cars.walla.co.il/item/1429110"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Skoda Superb, Audi A3, Audi A4) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.8 TSI, 2010–2012"
+          }
+        ]
       },
       "B9": {
         "issues": [

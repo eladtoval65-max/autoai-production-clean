@@ -1,6 +1,6 @@
 {
   "make": "audi",
-  "updated": "2026-11-08",
+  "updated": "2026-11-28",
   "models": {
     "a3": {
       "8V": {
@@ -78,7 +78,22 @@
           "stars": 5,
           "year": 2012,
           "url": "https://www.euroncap.com/en/results/audi/a3/10912"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG 7 הילוכים",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       },
       "8Y": {
         "issues": [
@@ -169,6 +184,21 @@
               "url": "https://www.autokostencheck.de/Audi/Audi-A3/A3/a3-1-4-tfsi-8p_5905/verbrauch/"
             }
           }
+        ],
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Skoda Superb, Audi A3, Audi A4) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.2 / 1.8 TFSI, 2010–2012"
+          }
         ]
       }
     },
@@ -235,7 +265,22 @@
           "stars": 5,
           "year": 2008,
           "url": "https://www.euroncap.com/en/ratings-rewards/latest-safety-ratingses/results/audi/a4/15749"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "שרשרת תזמון במנועי טורבו 2009–2012: במקרים מסוימים כשל חייב החלפת מנוע (מעל ₪20,000). בקנייה: לשאול אם השרשרת הוחלפה/נבדקה במוסך היבואן.",
+            "kind": "risk",
+            "costIls": [
+              20000,
+              20000
+            ],
+            "source": {
+              "title": "ynet (04.10.2018) — Champion class-action settlement, 2009–2012 VW/Skoda/SEAT/Audi (incl. Skoda Superb, Audi A3, Audi A4) with 1.2 TSI 105hp (EA111) / 1.8–2.0 TSI (EA888): timing-chain failures in some cases required engine replacement costing over ₪20,000",
+              "url": "https://www.ynet.co.il/articles/0,7340,L-5363446,00.html"
+            },
+            "scope": "1.8–2.0 TFSI, 2010–2012"
+          }
+        ]
       },
       "B9": {
         "issues": [
@@ -1510,7 +1555,22 @@
             "title": "auto.co.il — אודי A1 הגיעה לישראל (10.10.2010)",
             "url": "https://www.auto.co.il/articles/car-news/117927/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG 7 הילוכים",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       },
       "GB": {
         "issues": [
@@ -1569,7 +1629,22 @@
           "year": 2019,
           "url": "https://news.euroncap.com/find-a-car/audi-a1/s/2aff10d4-11b2-440a-add1-a6d1c9078c7c",
           "note": "5 כוכבים (Euro NCAP, 2019); מקור: Euro NCAP"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG: יחידה חדשה כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים או גמגום בהחלפת הילוכים.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG 7 הילוכים",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000 out of warranty (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       }
     }
   }

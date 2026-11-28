@@ -1,6 +1,6 @@
 {
   "make": "tesla",
-  "updated": "2026-11-14",
+  "updated": "2026-11-28",
   "models": {
     "model-3": {
       "Gen1": {
@@ -453,7 +453,22 @@
           "year": 2014,
           "url": "https://ir.tesla.com/press-release/model-s-achieves-euro-ncap-5-star-safety-rating",
           "note": "5 כוכבים (Euro NCAP, 2014); מקור: הודעת Tesla"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תחזוקה שנתית (מסנן מזגן, מגבים, רוטציית צמיגים) — אין טיפול תקופתי חובה; הערכה כללית לטסלה: עד כ-700 ₪ בשנה",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "auto.co.il (10.02.2026) — Tesla maintenance in Israel: standard annual upkeep estimated at under ₪700 a year (industry sources; Tesla in general, no model specified)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/tesla-maintenance/"
+            }
+          }
+        ]
       }
     },
     "model-x": {
@@ -495,7 +510,22 @@
           "stars": 5,
           "year": 2019,
           "url": "https://www.euroncap.com/press-media/best-in-class-battle-heats-up-in-latest-batch-of-results/"
-        }
+        },
+        "maintenance": [
+          {
+            "he": "תחזוקה שנתית (מסנן מזגן, מגבים, רוטציית צמיגים) — אין טיפול תקופתי חובה; הערכה כללית לטסלה: עד כ-700 ₪ בשנה",
+            "kind": "service",
+            "intervalYears": 1,
+            "costIls": [
+              700,
+              700
+            ],
+            "source": {
+              "title": "auto.co.il (10.02.2026) — Tesla maintenance in Israel: standard annual upkeep estimated at under ₪700 a year (industry sources; Tesla in general, no model specified)",
+              "url": "https://www.auto.co.il/articles/car-news/local-news/tesla-maintenance/"
+            }
+          }
+        ]
       }
     },
     "cybertruck": {

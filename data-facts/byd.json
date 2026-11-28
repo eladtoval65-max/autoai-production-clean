@@ -1,6 +1,6 @@
 {
   "make": "byd",
-  "updated": "2026-11-23",
+  "updated": "2026-11-28",
   "models": {
     "atto-3": {
       "Gen1": {
@@ -411,6 +411,35 @@
           "source": {
             "title": "מלכת הכביש — BYD Tang 2023 חשמלי שבעה מקומות, מבחן דרכים",
             "url": "https://www.queenoftheroad.co.il/?p=77087"
+          }
+        }
+      },
+      "Flagship (מתיחת פנים)": {
+        "engines": [
+          {
+            "name": "חשמלי 108.8 קוט\"ש, הנעה כפולה",
+            "pt": "ev",
+            "hp": 517,
+            "cons": 23.7,
+            "unit": "kWh",
+            "source": {
+              "title": "EV Database — BYD TANG Flagship (108.8 kWh, 380 kW), real-world combined 237 Wh/km",
+              "url": "https://ev-database.org/car/2095/BYD-TANG-Flagship"
+            }
+          }
+        ],
+        "ncap": {
+          "stars": 5,
+          "year": 2023,
+          "url": "https://www.byd.com/us/news-list/BYD-SEAL-U-and-BYD-TANG-awarded-5-stars-Euro-NCAP-Safety-Tests"
+        },
+        "launchPrice": {
+          "ils": 324990,
+          "year": 2024,
+          "note": "Flagship — רמת גימור יחידה",
+          "source": {
+            "title": "N12 (29.08.2024) — BYD Tang המחודש בישראל: ₪324,990",
+            "url": "https://www.mako.co.il/news-sport/sports_others-2024_q3/Article-5d2c7d76b5d9191027.htm"
           }
         }
       }

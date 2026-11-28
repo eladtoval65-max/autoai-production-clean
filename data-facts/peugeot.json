@@ -1,6 +1,6 @@
 {
   "make": "peugeot",
-  "updated": "2026-11-21",
+  "updated": "2026-11-28",
   "models": {
     "107": {
       "Gen1": {
@@ -1675,6 +1675,30 @@
           "url": "https://cdn.euroncap.com/media/4791/euroncap_peugeot_partner_2014_3stars.pdf",
           "note": "3 כוכבים (Euro NCAP 2014) — נבדק על התאום Citroën Berlingo; Peugeot הצהירה שהפרטנר זהה מבחינת בטיחות"
         }
+      }
+    },
+    "traveller": {
+      "דור 3": {
+        "issues": [
+          {
+            "he": "תוכנת המנוע עלולה לא להדליק נורית תקלה כשמזרק האוריאה (AdBlue) או מערכת ה-SCR/DPF כושלים — הרכב ממשיך לנסוע עם פליטות חריגות. לבדוק לפי VIN שבוצע עדכון התוכנה",
+            "level": "recall",
+            "scope": "דיזל, יוצרו 04/2017–10/2022",
+            "source": {
+              "title": "car-recalls.eu — Peugeot Traveller 2017–2022 urea injector / MIL software (Peugeot codes MF6, MYC)",
+              "url": "https://car-recalls.eu/recall/peugeot-traveller-2020-2022-urea-injector-failure/amp/"
+            }
+          },
+          {
+            "he": "מערכת ניטור צריכת האוריאה עלולה לא לבדוק כראוי מזרק חסום או צריכה נמוכה — חריגה מתקן הפליטה. לבדוק לפי VIN שבוצעה קריאת השירות",
+            "level": "recall",
+            "scope": "2.0 BlueHDi ‏(DW10F Euro 6.4), יוצרו 05/2022–01/2024",
+            "source": {
+              "title": "car-recalls.eu — Peugeot Traveller 2022–2024 urea consumption monitoring (Peugeot code MXX, SR/04162/25)",
+              "url": "https://car-recalls.eu/recall/peugeot-traveller-2022-2024-electronic-emissions/amp/"
+            }
+          }
+        ]
       }
     }
   }
