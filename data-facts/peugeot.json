@@ -1601,7 +1601,24 @@
             "title": "auto.co.il — פיג׳ו ריפטר בארץ: החל מ-179,000 שקלים (15.06.2026)",
             "url": "https://www.auto.co.il/articles/car-news/local-news/peugeot-rifter-israel/"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "טיפול תקופתי במרכז השירות של היבואן (ממוצע לביקור; הנתון של התאומה סיטרואן ברלינגו — אותה פלטפורמה, אותו מנוע ואותו יבואן)",
+            "kind": "service",
+            "intervalKm": 15000,
+            "intervalYears": 1,
+            "costIls": [
+              1489,
+              1489
+            ],
+            "scope": "1.5 BlueHDi דיזל",
+            "source": {
+              "title": "Walla Cars (27.09.2023) — importer-supplied service costs for the Citroën Berlingo 1.5 diesel (mechanical twin of the Rifter, same importer group): ₪8,934 to 90,000 km at 15,000 km/1 year (₪ per visit = total ÷ 6 visits; 2023 prices)",
+              "url": "https://cars.walla.co.il/item/3612126"
+            }
+          }
+        ]
       }
     },
     "partner-tepee": {
