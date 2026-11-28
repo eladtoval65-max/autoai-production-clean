@@ -11,7 +11,7 @@
  *    The site instead links to live Yad2 searches and computes monthly cost from the price the user is offered.
  */
 /** Date the current list prices were last checked against the importers' price lists (updated by the daily market agent). */
-export const PRICES_VERIFIED = "2026-11-23";
+export const PRICES_VERIFIED = "2026-11-28";
 
 export type Powertrain = "petrol" | "diesel" | "hybrid" | "phev" | "ev";
 export type Generation = {
@@ -346,27 +346,27 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "skoda", name: "Skoda", he: "סקודה", models: [
-    { id: "octavia", make: "skoda", model: "Octavia", he: "אוקטביה", body: "sedan", segment: "mass", price: [159990, 180990], status: "on_sale", gens: [
+    { id: "octavia", make: "skoda", model: "Octavia", he: "אוקטביה", body: "sedan", segment: "mass", price: [154990, 180990], status: "on_sale", gens: [
       T("Mk2 (1Z)", 2010, 2012, "1.4/1.8 TSI, 1.6", "102–160", ["petrol"], 8.0, 5, 2004, [C.history, C.inspect, C.tsiChain, C.dsgDry]),
       T("Mk3 (5E)", 2013, 2019, "1.2/1.4/1.8 TSI, 1.0 TSI", "105–180", ["petrol"], 6.8, 5, 2013, [C.history, C.inspect, C.dsgDry]),
-      T("Mk4 (NX)", 2020, null, "1.0/1.5 TSI", "110–150", ["petrol"], 6.3, 5, 2019, [C.history, C.dsgDry], "Octavia RS: ₪249,990"),
+      T("Mk4 (NX)", 2020, null, "1.0/1.5 TSI", "110–150", ["petrol"], 6.3, 5, 2019, [C.history, C.dsgDry], "Octavia RS: ₪245,990 (אחרי הורדת המחירים 11/2026)"),
     ]},
-    { id: "kodiaq", make: "skoda", model: "Kodiaq", he: "קודיאק", body: "suv7", segment: "mass", price: [211990, 299990], status: "on_sale", gens: [
+    { id: "kodiaq", make: "skoda", model: "Kodiaq", he: "קודיאק", body: "suv7", segment: "mass", price: [197990, 275990], status: "on_sale", gens: [
       T("NS7", 2017, 2023, "1.4/1.5/2.0 TSI", "150–190", ["petrol"], 8.2, 5, 2017, [C.history, C.inspect]),
       T("PS", 2024, null, "1.5 TSI / 2.0 TSI", "150–204", ["petrol"], 7.2, 5, 2024, [C.history]),
     ]},
-    { id: "karoq", make: "skoda", model: "Karoq", he: "קארוק", body: "suv", segment: "mass", price: [169490, 202990], status: "on_sale", gens: [
+    { id: "karoq", make: "skoda", model: "Karoq", he: "קארוק", body: "suv", segment: "mass", price: [156990, 178990], status: "on_sale", gens: [
       T("NU", 2018, null, "1.0/1.5 TSI", "115–150", ["petrol"], 7.0, 5, 2017, [C.history, C.dsgDry]),
     ]},
-    { id: "kamiq", make: "skoda", model: "Kamiq", he: "קאמיק", body: "suv", segment: "mass", price: [139990, 154990], status: "on_sale", gens: [
+    { id: "kamiq", make: "skoda", model: "Kamiq", he: "קאמיק", body: "suv", segment: "mass", price: [134990, 148990], status: "on_sale", gens: [
       T("NW4", 2020, null, "1.0/1.5 TSI", "110–150", ["petrol"], 6.5, 5, 2019, [C.history, C.dsgDry]),
     ]},
-    { id: "superb", make: "skoda", model: "Superb", he: "סופרב", body: "sedan", segment: "mass", price: [203490, 293490], status: "on_sale", gens: [
+    { id: "superb", make: "skoda", model: "Superb", he: "סופרב", body: "sedan", segment: "mass", price: [197990, 275990], status: "on_sale", gens: [
       T("B6 (3T)", 2010, 2015, "1.4/1.8 TSI", "125–160", ["petrol"], 8.6, 5, 2009, [C.history, C.inspect, C.tsiChain]),
       T("B8 (3V)", 2016, 2023, "1.4/1.8/2.0 TSI, פלאג-אין", "150–280", ["petrol", "phev"], 7.6, 5, 2015, [C.history, C.inspect]),
       T("B9", 2024, null, "1.5 TSI / פלאג-אין", "150–204", ["petrol", "phev"], 6.8, 5, 2024, [C.history]),
     ]},
-    { id: "fabia", make: "skoda", model: "Fabia", he: "פאביה", body: "hatch", segment: "mass", price: [120990, 135990], status: "on_sale", gens: [
+    { id: "fabia", make: "skoda", model: "Fabia", he: "פאביה", body: "hatch", segment: "mass", price: [120990, 169990], status: "on_sale", gens: [
       T("5J (מתיחת פנים)", 2010, 2014, "1.2 / 1.4 / 1.6 בנזין, 1.2/1.4 TSI, דיזל TDI", "60–180", ["petrol", "diesel"], 7.0, null, undefined, [C.history, C.inspect, C.tsiChain]),
       T("NJ", 2014, 2022, "1.0 / 1.2 TSI בנזין, 1.4 TDI דיזל", "60–110", ["petrol", "diesel"], 6.4, null, undefined, [C.history, C.inspect, C.dsgDry]),
       T("דור 4", 2021, null, "1.0 / 1.5 TSI בנזין, DSG 7", "65–150", ["petrol"], 7.0, 5, 2021, [C.history, C.dsgDry]),
@@ -411,8 +411,9 @@ export const MAKES: Make[] = [
     { id: "seal-u", make: "byd", model: "Seal U", he: "סיל U", body: "suv", segment: "mass", price: [194990, 216990], status: "on_sale", gens: [
       T("Gen1", 2024, null, "חשמלי 71.8/87 קוט\"ש / פלאג-אין DM-i", "218–324", ["ev", "phev"], 19.5, 5, undefined, [C.ev, C.phev, C.newBrand], "גרסת DM-i: ₪199,990–214,990"),
     ]},
-    { id: "tang", make: "byd", model: "Tang", he: "טאנג", body: "suv7", segment: "mass", price: null, status: "discontinued", gens: [
+    { id: "tang", make: "byd", model: "Tang", he: "טאנג", body: "suv7", segment: "mass", price: [327990, 327990], status: "on_sale", gens: [
       T("EV", 2022, 2024, "סוללה 86 קוט\"ש, 7 מקומות", "517", ["ev"], 24.0, 5, 2022, [C.ev, C.newBrand]),
+      T("Flagship (מתיחת פנים)", 2024, null, "חשמלי 4X4, סוללת Blade ‏108.8 קוט\"ש, 7 מקומות", "518", ["ev"], 24.0, 5, 2023, [C.ev, C.newBrand], "בישראל מ-08/2024; במחירון 2026 גרסה אחת Flagship ‏₪327,990 (carzone ו-cartube)"),
     ]},
     { id: "dolphin-surf", make: "byd", model: "Dolphin Surf", he: "דולפין סרף", body: "city", segment: "mass", price: [114990, 123990], status: "on_sale", gens: [
       T("Gen1", 2023, null, "חשמלי, סוללה 30–43.2 קוט\"ש", "88–156", ["ev"], 14.0, 5, 2025, [C.ev, C.newBrand], "4 מושבים"),
@@ -432,8 +433,8 @@ export const MAKES: Make[] = [
   ]},
 
   { id: "jaecoo", name: "Omoda & Jaecoo", he: "אומודה וג'אקו", models: [
-    { id: "jaecoo-7", make: "jaecoo", model: "Jaecoo 7", he: "ג'אקו 7", body: "suv", segment: "mass", price: [179990, 202990], status: "on_sale", gens: [
-      T("J7", 2024, null, "1.6 טורבו / פלאג-אין", "186–204", ["petrol", "phev"], 8.0, 5, undefined, [C.newBrand, C.history, "תיבה רובוטית: " + C.dct], "במחירון 10/2026 רק גרסאות פלאג-אין: Elegance ‏₪179,990, Premium ‏₪189,990 (carzone ו-cartube)"),
+    { id: "jaecoo-7", make: "jaecoo", model: "Jaecoo 7", he: "ג'אקו 7", body: "suv", segment: "mass", price: [169900, 202990], status: "on_sale", gens: [
+      T("J7", 2024, null, "1.6 טורבו / פלאג-אין", "186–204", ["petrol", "phev"], 8.0, 5, undefined, [C.newBrand, C.history, "תיבה רובוטית: " + C.dct], "במחירון 11/2026: גרסת בנזין 1.6 טורבו מ-₪169,900; פלאג-אין Elegance ‏₪179,990, Premium ‏₪189,990 (carzone ו-cartube)"),
     ]},
     { id: "jaecoo-8", make: "jaecoo", model: "Jaecoo 8", he: "ג'אקו 8", body: "suv7", segment: "mass", price: [229900, 254900], status: "on_sale", gens: [
       T("J8", 2025, null, "1.5 טורבו פלאג-אין 4x4", "—", ["phev"], 6.4, null, undefined, [C.newBrand, C.phev], "לא נבחן ב-Euro NCAP"),
@@ -567,6 +568,9 @@ export const MAKES: Make[] = [
     { id: "tiggo-9", make: "chery", model: "Tiggo 9", he: "טיגו 9", body: "suv7", segment: "mass", price: [217990, 244990], status: "on_sale", gens: [
       T("Gen1", 2023, null, "פלאג-אין: 1.5 טורבו (143 כ\"ס) + מנועים חשמליים, 7 מקומות", "מעל 400 (הערכה, לא פורסם רשמית)", ["phev"], 7.0, null, undefined, [C.phev, C.newBrand], "הושק בסין ב-2023; בישראל גרסת פלאג-אין בלבד"),
     ]},
+    { id: "lepas-l8", make: "chery", model: "LEPAS L8", he: "לפאס L8", body: "suv", segment: "mass", price: null, status: "unverified", gens: [
+      T("Gen1", 2026, null, "פלאג-אין: 1.5 טורבו (143 כ\"ס) + מנוע חשמלי 204 כ\"ס, סוללה 18.4 קוט\"ש, הנעה קדמית", "279", ["phev"], 6.5, 5, 2026, [C.phev, C.newBrand, C.recalls], "מותג LEPAS של צ'רי, יבואן פריסבי; בישראל מ-Q4/2026. מחיר: carzone ‏₪204,900, auto.co.il ‏₪210,000 — לא אומת בשני מקורות"),
+    ]},
   ]},
 
   { id: "suzuki", name: "Suzuki", he: "סוזוקי", models: [
@@ -681,6 +685,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "rifter", make: "peugeot", model: "Rifter", he: "ריפטר", body: "mpv", segment: "mass", price: [178990, 189990], status: "on_sale", gens: [
       T("K9", 2018, null, "1.5 BlueHDi דיזל / 1.2 PureTech", "100–130", ["petrol", "diesel"], 6.5, null, undefined, [C.history, C.puretech, C.recalls]),
+    ]},
+    { id: "traveller", make: "peugeot", model: "Traveller", he: "טרוולר", body: "mpv", segment: "mass", price: [298990, 308990], status: "on_sale", gens: [
+      T("דור 3", 2016, null, "2.2 טורבו דיזל, אוטומטית 8, 9 מקומות", "180", ["diesel"], 8.3, 5, 2015, [C.history, C.inspect, C.recalls], "בישראל מ-10/2026: Medium ‏₪298,990, Large ‏₪308,990 (cartube; carzone מציג רק Medium). מתיחת פנים 2022. דירוג Euro NCAP 2015 נבדק עם מנוע 2.0 דיזל"),
     ]},
     { id: "207", make: "peugeot", model: "207", he: "207", body: "city", segment: "mass", price: null, status: "discontinued", gens: [
       T("A7", 2010, 2014, "1.4 / 1.6 VTi בנזין, 1.6 THP טורבו, 1.4 / 1.6 HDi דיזל", "67–184", ["petrol", "diesel"], 6.8, null, undefined, [C.history, C.inspect, "תיבה אוטומטית ישנה (AL4): לבדוק החלפות הילוך חלקות"], "מתיחת פנים 2009; הוחלף ב-208 מ-2012"),
@@ -969,6 +976,9 @@ export const MAKES: Make[] = [
     ]},
     { id: "ix4", make: "bmw", model: "iX4", he: "iX4", body: "suv", segment: "premium", price: [469900, 554900], status: "on_sale", gens: [
       T("Neue Klasse", 2026, null, "חשמלי, סוללה 82.6 קוט\"ש (40 xDrive) / 108.7 קוט\"ש (50 xDrive)", "374–469", ["ev"], 18.0, null, undefined, [C.ev, C.recalls], "שטח-קופה חשמלי חדש (Neue Klasse); נמכר בישראל מ-11/2026. טווח כ-595–826 ק\"מ. דירוג Euro NCAP לא אומת"),
+    ]},
+    { id: "ix5", make: "bmw", model: "iX5", he: "iX5", body: "suv", segment: "premium", price: [759900, 829900], status: "on_sale", gens: [
+      T("G65", 2026, null, "חשמלי, שני מנועים 4X4 (xDrive60), סוללה כ-141 קוט\"ש נטו", "578", ["ev"], 21.0, null, undefined, [C.ev, C.recalls], "גרסה חשמלית של ה-X5 החדש; בישראל מ-11/2026: M Expressive ‏₪759,900, M Superior ‏₪829,900. דירוג Euro NCAP 2026 של ה-X5 לא כולל את ה-iX5"),
     ]},
     { id: "2-series-coupe", make: "bmw", model: "2 Series Coupé", he: "סדרה 2 קופה", body: "sedan", segment: "premium", price: [319900, 329900], status: "on_sale", gens: [
       T("F22", 2014, 2021, "1.5 / 2.0 / 3.0 טורבו בנזין, 2.0 דיזל", "134–335", ["petrol", "diesel"], 7.5, null, undefined, [C.history, C.inspect, C.bmwChain], "קופה (ו-F23 קבריולה); אין באתר סוג מרכב קופה"),

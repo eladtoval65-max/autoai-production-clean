@@ -255,7 +255,7 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] Euro NCAP to confirm: Citroën C3 Picasso 2009 (datasheet name says 4★, not opened), Renault Laguna III, Subaru Legacy BN
 - [x] BYD Dolphin → on sale ₪149,990–156,990 (both sources, 2026-11-15)
 - [x] Dolphin G DM-i — added 2026-11-22 (₪129,990–139,990, both)
-- [ ] Chery LEPAS L8 (carzone 204,900), Cupra Tavascan (cartube 242,900–289,900)
+- [x] Chery LEPAS L8 — added 2026-11-28 (price null: carzone 204,900 vs auto.co.il 210,000; not on cartube). Cupra Tavascan still cartube only (242,900–289,900)
 - [x] VW Taigo, ID.5, ID.7 — added 2026-11-21 (ID.5 / ID.7 price null, sources disagree)
 - [ ] VW Caravelle / Multivan (sources differ)
 - [ ] Mercedes C-Class EQ, GLA EQ, EQS, CLE Cabrio, E-Class Coupé, G-Class EQ, EQV; BMW iX1, iX2, i5, iX; MINI Cabrio, Hatch 3-door; Porsche 718, Cayenne Electric (carzone only today — cartube unreadable)
@@ -269,7 +269,7 @@ The daily market agent works through this list top to bottom and ticks items off
 - [x] Mazda CX-6e — added 2026-11-22 (₪179,900–199,900, cartube; carzone +₪90)
 - [ ] Mercedes GLA: new generation is electric only (cartube 329,900–449,900 = carzone "GLA EQ"; carzone still lists old GLA 359,900–419,900 = ours) — replace / new line? (owner)
 - [ ] Genesis GV70 Electrified (₪549,900–609,900, both); Hyundai Tucson Long AWD (₪199,900–248,900, both) — separate lines?
-- [ ] BYD Seal U DM-i (₪199,990–234,990, both) and Tang Flagship (₪327,990, both) — Seal U DM-i separate line?
+- [ ] BYD Seal U DM-i (₪199,990–234,990, both) — separate line? (Tang Flagship back on sale, added 2026-11-28)
 - [ ] Skoda Enyaq Coupé (₪243,990–279,990, both) — our Enyaq top = Coupé RS; Octavia RS ₪249,990 (both)
 - [ ] Jaecoo 5 EV (carzone 150,900–159,900) — our Jaecoo 5 "from" is the EV price; hybrid from 147,900 (carzone) / 154,900 (cartube)
 - [ ] Cupra: Leon / Formentor / Terramar ranges include VZ performance trims (against convention) — owner
@@ -285,7 +285,7 @@ The daily market agent works through this list top to bottom and ticks items off
 
 ## Queue — seen 2026-11-22, not yet covered
 - [x] BMW iX4 (₪469,900–554,900) added 2026-11-23
-- [ ] BMW iX5 (₪759,900–829,900) — both sources agree; generation data to verify
+- [x] BMW iX5 (₪759,900–829,900, both) — added 2026-11-28 (G65, BMW press release)
 - [x] Mercedes C-Class EQ (₪429,900–619,900, both) added 2026-11-23 as its own line (like GLC EQ)
 - [ ] Mercedes electric GLA (₪329,900–449,900, both) — replace / new line? (owner)
 - [x] BMW 3 Series range set to ₪339,900–399,900 (2026-11-23; cartube trims 318 M-Sport → 320 M-Expressive, carzone 339,900–400,000; M350 excluded)
@@ -296,4 +296,19 @@ The daily market agent works through this list top to bottom and ticks items off
 - [ ] Fiat Doblò: both sources now start at ₪168,990 — that is the Cargo Maxi van; passenger Combi still ₪169,990 (= ours) → not changed
 - [ ] BMW iX1 (carzone 379,900–409,900 / cartube 354,900–404,000), iX2, i5, iX, XM (both list; ranges differ); 4 Series Gran Coupé ₪455,000 (both)
 - [ ] Mercedes GLC Coupé, GLE Coupé, CLE Cabrio (both list, ranges differ); Audi Q3 / Q4 e-tron / Q5 Sportback (both list)
-- [ ] Peugeot Traveller (₪298,990 both), Citroën Jumpy, Fiat Scudo / Ducato, Renault Trafic / Master, Ford Transit (commercial, low priority)
+- [ ] Peugeot Traveller — added 2026-11-28 (₪298,990–308,990); still open: Citroën Jumpy, Fiat Scudo / Ducato, Renault Trafic / Master, Ford Transit (commercial, low priority)
+
+## Done 2026-11-28
+- [x] Price changes (both sources): Skoda Kamiq, Octavia (from), Kodiaq, Karoq, Superb, Fabia (top) after the 15.11 Skoda price cut; Jaecoo 7 from ₪169,900
+- [x] Catalog (batch 26): Skoda Octavia / Karoq / Kodiaq / Superb Selection trims, MINI Countryman base ₪269,000
+- [x] generations.ts (3 + 1 status): BMW iX5, Peugeot Traveller, Chery LEPAS L8; BYD Tang Flagship back on sale (₪327,990, both)
+
+## Seen 2026-11-28, not yet covered
+- [ ] Mercedes-AMG GT 4-door (carzone 1,199,900–1,599,900; cartube no current prices) — new EV generation arriving; wait
+- [ ] Toyota ProAce City 5/7 seats (cartube 177,990–185,990 vs carzone 180,990–189,990; Euro NCAP 2018 4★ expired) — commercial, sources differ
+- [ ] Skoda Kamiq catalog trim (Advance 146,990): cartube 141,990, carzone no trim price — one source
+- [ ] Skoda Octavia top (carzone 217,490 vs cartube 176,990), Karoq top (cartube 191,490 vs carzone/article 178,990) — re-check
+- [ ] DS 4 listed on both (carzone 228,000 vs cartube 269,990–328,990) while ours is discontinued — status (owner/next run)
+- [ ] Omoda 4 (carzone 165,000, not on cartube); Audi Q8 e-tron (cartube 609,700–730,200) / A1 Sportback (carzone) reappear on one source
+- [ ] MINI Countryman catalog trim: cartube names the ₪269,000 base "1.5 Turbo 156" — our row says 170 hp; verify
+- [ ] Catalog data: Dacia Duster Hybrid row "Adventure ₪159,990" — cartube Adventure 2X4 149,990 / Ultimate 159,990 (label or price wrong); Skoda Octavia row trim "115hp" vs powerHp 150

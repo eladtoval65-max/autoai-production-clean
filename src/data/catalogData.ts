@@ -1540,6 +1540,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-octavia",
+  "make": "Skoda",
+  "model": "Octavia",
+  "trim": "Selection 1.5 TSI 115hp",
+  "bodyType": "sedan",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 600,
+  "powerHp": 150,
+  "consumption": 6.5,
+  "price": 154990,
+  "priceMin": 154990,
+  "priceMax": 177990,
+  "sampleSize": null,
+  "newPrice": 154990,
+  "reliability": 81,
+  "safety": 88,
+  "economy": 76,
+  "comfort": 90,
+  "practicality": 92,
+  "insuranceMin": 416,
+  "insuranceMax": 603,
+  "why": "הסדאן האירופאי הפרקטי ביותר — תא מטען 600 ליטר, נוחות כביש מהיר ומחיר אטרקטיבי.",
+  "pros": [
+   "תא מטען ענק לסדאן",
+   "נוחות כביש מהיר",
+   "ציוד עשיר במחיר הבסיס",
+   "שירות VAG נפוץ"
+  ],
+  "cons": [
+   "פחות פופולרי בישראל מיפניות",
+   "צריכת דלק ממוצעת"
+  ],
+  "confidence": 70,
+  "priceSource": "cartube.co.il/מחירון-רכב-חדש/57-סקודה + carzone.co.il/Skoda + auto.co.il Skoda price cut 15.11.2026 (2026-11-28)",
+  "bands": {
+   "7000": {
+    "fuel": 296,
+    "insurance": 510,
+    "maintenance": 215,
+    "depreciation": 1292,
+    "total": 2475
+   },
+   "15000": {
+    "fuel": 637,
+    "insurance": 510,
+    "maintenance": 240,
+    "depreciation": 1292,
+    "total": 2841
+   },
+   "25000": {
+    "fuel": 1061,
+    "insurance": 510,
+    "maintenance": 265,
+    "depreciation": 1292,
+    "total": 3290
+   }
+  }
+ },
+ {
   "id": "byd-atto3",
   "make": "BYD",
   "model": "Atto 3",
@@ -1663,6 +1724,67 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-karoq",
+  "make": "Skoda",
+  "model": "Karoq",
+  "trim": "Selection 1.5 TSI",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 426,
+  "powerHp": 150,
+  "consumption": 6.4,
+  "price": 156990,
+  "priceMin": 156990,
+  "priceMax": 178990,
+  "sampleSize": null,
+  "newPrice": 156990,
+  "reliability": 78,
+  "safety": 65,
+  "economy": 76,
+  "comfort": 74,
+  "practicality": 84,
+  "insuranceMin": 411,
+  "insuranceMax": 590,
+  "why": "SUV קומפקטי מעשי: 1.5 טורבו בנזין ‏150 כ\"ס ותיבת DSG 7; צריכה מוצהרת 15.6 ק\"מ לליטר. תא מטען 426 ליטר ומושב אחורי מרווח.",
+  "pros": [
+   "תא מטען ומרחב אחורי גדולים",
+   "ארגונומיה נוחה",
+   "מעשי לשימוש משפחתי"
+  ],
+  "cons": [
+   "מתלים רכים והטיית מרכב",
+   "ציוד בסיסי ברמת Selection",
+   "אין דירוג Euro NCAP מאומת"
+  ],
+  "confidence": 58,
+  "priceSource": "cartube.co.il/מחירון-רכב-חדש/57-סקודה + carzone.co.il/Skoda/Karoq + auto.co.il Skoda price cut 15.11.2026 (2026-11-28)",
+  "bands": {
+   "7000": {
+    "fuel": 293,
+    "insurance": 505,
+    "maintenance": 194,
+    "depreciation": 1308,
+    "total": 2462
+   },
+   "15000": {
+    "fuel": 628,
+    "insurance": 505,
+    "maintenance": 220,
+    "depreciation": 1308,
+    "total": 2823
+   },
+   "25000": {
+    "fuel": 1047,
+    "insurance": 505,
+    "maintenance": 246,
+    "depreciation": 1308,
+    "total": 3268
+   }
+  }
+ },
+ {
   "id": "mg-hs-hybrid",
   "make": "MG",
   "model": "HS Hybrid",
@@ -1720,67 +1842,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 213,
     "depreciation": 1721,
     "total": 3503
-   }
-  }
- },
- {
-  "id": "skoda-octavia",
-  "make": "Skoda",
-  "model": "Octavia",
-  "trim": "Selection 1.5 TSI 115hp",
-  "bodyType": "sedan",
-  "fuelType": "Petrol",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 600,
-  "powerHp": 150,
-  "consumption": 6.5,
-  "price": 159990,
-  "priceMin": 150400,
-  "priceMax": 177990,
-  "sampleSize": null,
-  "newPrice": 159990,
-  "reliability": 81,
-  "safety": 88,
-  "economy": 76,
-  "comfort": 90,
-  "practicality": 92,
-  "insuranceMin": 424,
-  "insuranceMax": 615,
-  "why": "הסדאן האירופאי הפרקטי ביותר — תא מטען 600 ליטר, נוחות כביש מהיר ומחיר אטרקטיבי.",
-  "pros": [
-   "תא מטען ענק לסדאן",
-   "נוחות כביש מהיר",
-   "ציוד עשיר במחיר הבסיס",
-   "שירות VAG נפוץ"
-  ],
-  "cons": [
-   "פחות פופולרי בישראל מיפניות",
-   "צריכת דלק ממוצעת"
-  ],
-  "confidence": 70,
-  "priceSource": "carzone.co.il/Skoda/Octavia/2026",
-  "bands": {
-   "7000": {
-    "fuel": 296,
-    "insurance": 520,
-    "maintenance": 215,
-    "depreciation": 1334,
-    "total": 2527
-   },
-   "15000": {
-    "fuel": 637,
-    "insurance": 520,
-    "maintenance": 240,
-    "depreciation": 1334,
-    "total": 2893
-   },
-   "25000": {
-    "fuel": 1061,
-    "insurance": 520,
-    "maintenance": 265,
-    "depreciation": 1334,
-    "total": 3342
    }
   }
  },
@@ -2333,67 +2394,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 224,
     "depreciation": 1392,
     "total": 3059
-   }
-  }
- },
- {
-  "id": "skoda-karoq",
-  "make": "Skoda",
-  "model": "Karoq",
-  "trim": "Selection 1.5 TSI",
-  "bodyType": "suv",
-  "fuelType": "Petrol",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 426,
-  "powerHp": 150,
-  "consumption": 6.4,
-  "price": 169490,
-  "priceMin": 169490,
-  "priceMax": 202990,
-  "sampleSize": null,
-  "newPrice": 169490,
-  "reliability": 78,
-  "safety": 65,
-  "economy": 76,
-  "comfort": 74,
-  "practicality": 84,
-  "insuranceMin": 430,
-  "insuranceMax": 618,
-  "why": "SUV קומפקטי מעשי: 1.5 טורבו בנזין ‏150 כ\"ס ותיבת DSG 7; צריכה מוצהרת 15.6 ק\"מ לליטר. תא מטען 426 ליטר ומושב אחורי מרווח.",
-  "pros": [
-   "תא מטען ומרחב אחורי גדולים",
-   "ארגונומיה נוחה",
-   "מעשי לשימוש משפחתי"
-  ],
-  "cons": [
-   "מתלים רכים והטיית מרכב",
-   "ציוד בסיסי ברמת Selection",
-   "אין דירוג Euro NCAP מאומת"
-  ],
-  "confidence": 58,
-  "priceSource": "auto.co.il Karoq 2026 + carzone.co.il/Skoda/Karoq/2026 (2026-10-25)",
-  "bands": {
-   "7000": {
-    "fuel": 293,
-    "insurance": 529,
-    "maintenance": 194,
-    "depreciation": 1412,
-    "total": 2621
-   },
-   "15000": {
-    "fuel": 628,
-    "insurance": 529,
-    "maintenance": 220,
-    "depreciation": 1412,
-    "total": 2982
-   },
-   "25000": {
-    "fuel": 1047,
-    "insurance": 529,
-    "maintenance": 246,
-    "depreciation": 1412,
-    "total": 3427
    }
   }
  },
@@ -3865,6 +3865,129 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
+  "id": "skoda-kodiaq",
+  "make": "Skoda",
+  "model": "Kodiaq",
+  "trim": "Selection 1.5 TSI 7 מקומות",
+  "bodyType": "suv",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 7,
+  "cargoLiters": null,
+  "powerHp": 150,
+  "consumption": 7,
+  "price": 197990,
+  "priceMin": 197990,
+  "priceMax": 275990,
+  "sampleSize": null,
+  "newPrice": 197990,
+  "reliability": 81,
+  "safety": 94,
+  "economy": 72,
+  "comfort": 90,
+  "practicality": 96,
+  "insuranceMin": 576,
+  "insuranceMax": 816,
+  "why": "SUV משפחתי של 7 מקומות עם 5 כוכבי Euro NCAP (2024) ותא מטען גדול. מנוע 1.5 חלש יחסית כשהרכב עמוס. מתאים למשפחות גדולות.",
+  "pros": [
+   "7 מקומות",
+   "5 כוכבי Euro NCAP",
+   "מרווח מאוד",
+   "ציוד טוב"
+  ],
+  "cons": [
+   "מנוע 1.5 חלש בעומס",
+   "בנזין בלבד (לא היברידי)",
+   "מחיר גבוה"
+  ],
+  "confidence": 66,
+  "priceSource": "cartube.co.il/מחירון-רכב-חדש/57-סקודה + carzone.co.il/Skoda + auto.co.il Skoda price cut 15.11.2026 (2026-11-28)",
+  "bands": {
+   "7000": {
+    "fuel": 321,
+    "insurance": 692,
+    "maintenance": 246,
+    "depreciation": 1650,
+    "total": 3130
+   },
+   "15000": {
+    "fuel": 687,
+    "insurance": 692,
+    "maintenance": 280,
+    "depreciation": 1650,
+    "total": 3530
+   },
+   "25000": {
+    "fuel": 1144,
+    "insurance": 692,
+    "maintenance": 314,
+    "depreciation": 1650,
+    "total": 4021
+   }
+  }
+ },
+ {
+  "id": "skoda-superb",
+  "make": "Skoda",
+  "model": "Superb",
+  "trim": "Selection 1.5 TSI mHEV",
+  "bodyType": "sedan",
+  "fuelType": "Petrol",
+  "years": "2026",
+  "seats": 5,
+  "cargoLiters": 595,
+  "powerHp": 150,
+  "consumption": 5.3,
+  "price": 197990,
+  "priceMin": 197990,
+  "priceMax": 275990,
+  "sampleSize": null,
+  "newPrice": 197990,
+  "reliability": 78,
+  "safety": 90,
+  "economy": 80,
+  "comfort": 86,
+  "practicality": 90,
+  "insuranceMin": 472,
+  "insuranceMax": 678,
+  "why": "מכונית משפחתית גדולה בדור חדש: 1.5 טורבו בנזין עם מערכת מיילד-היברידית, ‏150 כ\"ס ותיבת DSG 7; צריכה מוצהרת 18.8 ק\"מ לליטר. תא מטען 595 ליטר. במחירון גם גרסאות 2.0 טורבו (כולל 4X4). Euro NCAP ‏(2024): 5 כוכבים.",
+  "pros": [
+   "5 כוכבי Euro NCAP (2024)",
+   "תא מטען 595 ליטר ומרחב אחורי גדול",
+   "נוחות נסיעה למרחקים ארוכים"
+  ],
+  "cons": [
+   "יקר יחסית",
+   "מנוע 1.5 צנוע לגודל הרכב",
+   "הגרסאות החזקות יקרות בהרבה"
+  ],
+  "confidence": 58,
+  "priceSource": "cartube.co.il/מחירון-רכב-חדש/57-סקודה + carzone.co.il/Skoda + auto.co.il Skoda price cut 15.11.2026 (2026-11-28)",
+  "bands": {
+   "7000": {
+    "fuel": 242,
+    "insurance": 580,
+    "maintenance": 202,
+    "depreciation": 1980,
+    "total": 3225
+   },
+   "15000": {
+    "fuel": 520,
+    "insurance": 580,
+    "maintenance": 230,
+    "depreciation": 1980,
+    "total": 3531
+   },
+   "25000": {
+    "fuel": 866,
+    "insurance": 580,
+    "maintenance": 258,
+    "depreciation": 1980,
+    "total": 3905
+   }
+  }
+ },
+ {
   "id": "kia-ev5",
   "make": "Kia",
   "model": "EV5",
@@ -4171,67 +4294,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
   }
  },
  {
-  "id": "skoda-superb",
-  "make": "Skoda",
-  "model": "Superb",
-  "trim": "Selection 1.5 TSI mHEV",
-  "bodyType": "sedan",
-  "fuelType": "Petrol",
-  "years": "2026",
-  "seats": 5,
-  "cargoLiters": 595,
-  "powerHp": 150,
-  "consumption": 5.3,
-  "price": 203490,
-  "priceMin": 203490,
-  "priceMax": 293490,
-  "sampleSize": null,
-  "newPrice": 203490,
-  "reliability": 78,
-  "safety": 90,
-  "economy": 80,
-  "comfort": 86,
-  "practicality": 90,
-  "insuranceMin": 480,
-  "insuranceMax": 689,
-  "why": "מכונית משפחתית גדולה בדור חדש: 1.5 טורבו בנזין עם מערכת מיילד-היברידית, ‏150 כ\"ס ותיבת DSG 7; צריכה מוצהרת 18.8 ק\"מ לליטר. תא מטען 595 ליטר. במחירון גם גרסאות 2.0 טורבו (כולל 4X4). Euro NCAP ‏(2024): 5 כוכבים.",
-  "pros": [
-   "5 כוכבי Euro NCAP (2024)",
-   "תא מטען 595 ליטר ומרחב אחורי גדול",
-   "נוחות נסיעה למרחקים ארוכים"
-  ],
-  "cons": [
-   "יקר יחסית",
-   "מנוע 1.5 צנוע לגודל הרכב",
-   "הגרסאות החזקות יקרות בהרבה"
-  ],
-  "confidence": 58,
-  "priceSource": "auto.co.il Superb 2026 Selection 1.5 + cartube Superb Selection trim page + cmotors.co.il Superb (2026-11-01)",
-  "bands": {
-   "7000": {
-    "fuel": 242,
-    "insurance": 590,
-    "maintenance": 202,
-    "depreciation": 2035,
-    "total": 3290
-   },
-   "15000": {
-    "fuel": 520,
-    "insurance": 590,
-    "maintenance": 230,
-    "depreciation": 2035,
-    "total": 3596
-   },
-   "25000": {
-    "fuel": 866,
-    "insurance": 590,
-    "maintenance": 258,
-    "depreciation": 2035,
-    "total": 3970
-   }
-  }
- },
- {
   "id": "xpeng-g6",
   "make": "XPENG",
   "model": "G6",
@@ -4411,68 +4473,6 @@ export const STATIC_CATALOG: CatalogCar[] = [
     "maintenance": 314,
     "depreciation": 1749,
     "total": 4309
-   }
-  }
- },
- {
-  "id": "skoda-kodiaq",
-  "make": "Skoda",
-  "model": "Kodiaq",
-  "trim": "Selection 1.5 TSI 7 מקומות",
-  "bodyType": "suv",
-  "fuelType": "Petrol",
-  "years": "2026",
-  "seats": 7,
-  "cargoLiters": null,
-  "powerHp": 150,
-  "consumption": 7,
-  "price": 211990,
-  "priceMin": 198000,
-  "priceMax": 249000,
-  "sampleSize": null,
-  "newPrice": 211990,
-  "reliability": 81,
-  "safety": 94,
-  "economy": 72,
-  "comfort": 90,
-  "practicality": 96,
-  "insuranceMin": 600,
-  "insuranceMax": 850,
-  "why": "SUV משפחתי של 7 מקומות עם 5 כוכבי Euro NCAP (2024) ותא מטען גדול. מנוע 1.5 חלש יחסית כשהרכב עמוס. מתאים למשפחות גדולות.",
-  "pros": [
-   "7 מקומות",
-   "5 כוכבי Euro NCAP",
-   "מרווח מאוד",
-   "ציוד טוב"
-  ],
-  "cons": [
-   "מנוע 1.5 חלש בעומס",
-   "בנזין בלבד (לא היברידי)",
-   "מחיר גבוה"
-  ],
-  "confidence": 66,
-  "priceSource": null,
-  "bands": {
-   "7000": {
-    "fuel": 321,
-    "insurance": 721,
-    "maintenance": 246,
-    "depreciation": 1767,
-    "total": 3276
-   },
-   "15000": {
-    "fuel": 687,
-    "insurance": 721,
-    "maintenance": 280,
-    "depreciation": 1767,
-    "total": 3676
-   },
-   "25000": {
-    "fuel": 1144,
-    "insurance": 721,
-    "maintenance": 314,
-    "depreciation": 1767,
-    "total": 4167
    }
   }
  },
@@ -4918,18 +4918,18 @@ export const STATIC_CATALOG: CatalogCar[] = [
   "cargoLiters": null,
   "powerHp": 170,
   "consumption": 7.4,
-  "price": 273000,
-  "priceMin": 273000,
+  "price": 269000,
+  "priceMin": 269000,
   "priceMax": 307000,
   "sampleSize": null,
-  "newPrice": 273000,
+  "newPrice": 269000,
   "reliability": 74,
   "safety": 88,
   "economy": 74,
   "comfort": 80,
   "practicality": 76,
-  "insuranceMin": 546,
-  "insuranceMax": 788,
+  "insuranceMin": 541,
+  "insuranceMax": 781,
   "why": "קרוסאובר פרימיום עם 1.5 טורבו בנזין, 170 כ\"ס. במבחן דרך כ-13.5 ק\"מ לליטר. Euro NCAP 5 כוכבים (2024).",
   "pros": [
    "5 כוכבים ב-Euro NCAP",
@@ -4942,28 +4942,28 @@ export const STATIC_CATALOG: CatalogCar[] = [
    "צריכה בפועל נמוכה מהמוצהר"
   ],
   "confidence": 60,
-  "priceSource": "carzone.co.il/MINI/Countryman (2026-10-20)",
+  "priceSource": "cartube.co.il/מחירון-רכב-חדש/מיני + carzone.co.il/MINI (2026-11-28)",
   "bands": {
    "7000": {
     "fuel": 339,
-    "insurance": 662,
+    "insurance": 656,
     "maintenance": 264,
-    "depreciation": 2275,
-    "total": 3854
+    "depreciation": 2242,
+    "total": 3815
    },
    "15000": {
     "fuel": 726,
-    "insurance": 662,
+    "insurance": 656,
     "maintenance": 300,
-    "depreciation": 2275,
-    "total": 4277
+    "depreciation": 2242,
+    "total": 4238
    },
    "25000": {
     "fuel": 1211,
-    "insurance": 662,
+    "insurance": 656,
     "maintenance": 336,
-    "depreciation": 2275,
-    "total": 4798
+    "depreciation": 2242,
+    "total": 4759
    }
   }
  },

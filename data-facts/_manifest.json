@@ -2393,7 +2393,7 @@
     "he": "אוקטביה",
     "status": "on_sale",
     "price": [
-     159990,
+     154990,
      180990
     ],
     "gens": [
@@ -2441,8 +2441,8 @@
     "he": "קודיאק",
     "status": "on_sale",
     "price": [
-     211990,
-     299990
+     197990,
+     275990
     ],
     "gens": [
      {
@@ -2477,8 +2477,8 @@
     "he": "קארוק",
     "status": "on_sale",
     "price": [
-     169490,
-     202990
+     156990,
+     178990
     ],
     "gens": [
      {
@@ -2501,8 +2501,8 @@
     "he": "קאמיק",
     "status": "on_sale",
     "price": [
-     139990,
-     154990
+     134990,
+     148990
     ],
     "gens": [
      {
@@ -2525,8 +2525,8 @@
     "he": "סופרב",
     "status": "on_sale",
     "price": [
-     203490,
-     293490
+     197990,
+     275990
     ],
     "gens": [
      {
@@ -2576,7 +2576,7 @@
     "status": "on_sale",
     "price": [
      120990,
-     135990
+     169990
     ],
     "gens": [
      {
@@ -2922,14 +2922,29 @@
     "id": "tang",
     "model": "Tang",
     "he": "טאנג",
-    "status": "discontinued",
-    "price": null,
+    "status": "on_sale",
+    "price": [
+     327990,
+     327990
+    ],
     "gens": [
      {
       "code": "EV",
       "from": 2022,
       "to": 2024,
       "engines": "סוללה 86 קוט\"ש, 7 מקומות",
+      "pt": [
+       "ev"
+      ],
+      "cons": 24,
+      "ncap": 5,
+      "checks": 2
+     },
+     {
+      "code": "Flagship (מתיחת פנים)",
+      "from": 2024,
+      "to": null,
+      "engines": "חשמלי 4X4, סוללת Blade ‏108.8 קוט\"ש, 7 מקומות",
       "pt": [
        "ev"
       ],
@@ -3072,7 +3087,7 @@
     "he": "ג'אקו 7",
     "status": "on_sale",
     "price": [
-     179990,
+     169900,
      202990
     ],
     "gens": [
@@ -4037,6 +4052,27 @@
       "checks": 2
      }
     ]
+   },
+   {
+    "id": "lepas-l8",
+    "model": "LEPAS L8",
+    "he": "לפאס L8",
+    "status": "unverified",
+    "price": null,
+    "gens": [
+     {
+      "code": "Gen1",
+      "from": 2026,
+      "to": null,
+      "engines": "פלאג-אין: 1.5 טורבו (143 כ\"ס) + מנוע חשמלי 204 כ\"ס, סוללה 18.4 קוט\"ש, הנעה קדמית",
+      "pt": [
+       "phev"
+      ],
+      "cons": 6.5,
+      "ncap": 5,
+      "checks": 3
+     }
+    ]
    }
   ]
  },
@@ -4932,6 +4968,30 @@
       ],
       "cons": 6.5,
       "ncap": null,
+      "checks": 3
+     }
+    ]
+   },
+   {
+    "id": "traveller",
+    "model": "Traveller",
+    "he": "טרוולר",
+    "status": "on_sale",
+    "price": [
+     298990,
+     308990
+    ],
+    "gens": [
+     {
+      "code": "דור 3",
+      "from": 2016,
+      "to": null,
+      "engines": "2.2 טורבו דיזל, אוטומטית 8, 9 מקומות",
+      "pt": [
+       "diesel"
+      ],
+      "cons": 8.3,
+      "ncap": 5,
       "checks": 3
      }
     ]
@@ -7397,6 +7457,30 @@
        "ev"
       ],
       "cons": 18,
+      "ncap": null,
+      "checks": 2
+     }
+    ]
+   },
+   {
+    "id": "ix5",
+    "model": "iX5",
+    "he": "iX5",
+    "status": "on_sale",
+    "price": [
+     759900,
+     829900
+    ],
+    "gens": [
+     {
+      "code": "G65",
+      "from": 2026,
+      "to": null,
+      "engines": "חשמלי, שני מנועים 4X4 (xDrive60), סוללה כ-141 קוט\"ש נטו",
+      "pt": [
+       "ev"
+      ],
+      "cons": 21,
       "ncap": null,
       "checks": 2
      }
