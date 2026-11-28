@@ -1314,7 +1314,22 @@
             "title": "Cartube — סקודה ראפיד בישראל (12.3.2013)",
             "url": "https://www.cartube.co.il/חדשות-רכב/סקודה-ראפיד-בישראל-–-מחיר-החל-מ-103-אלף-שקל"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG7 היבשה: יחידה חדשה ומקורית כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים, גמגום בהחלפת הילוכים או נורת תקלה בתיבה.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG7 (DQ200)",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000; most clutch/wear problems on the dry-clutch DQ200 (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       }
     },
     "scala": {
@@ -1385,7 +1400,22 @@
             "title": "וואלה! רכב — סקודה סקאלה בישראל: החל מ-118 אלף שקלים (9.9.2019)",
             "url": "https://cars.walla.co.il/item/3311695"
           }
-        }
+        },
+        "maintenance": [
+          {
+            "he": "מכטרוניק (מוח) בתיבת DSG7 היבשה: יחידה חדשה ומקורית כ-₪8,000 אחרי האחריות. בנסיעת מבחן: זעזועים, גמגום בהחלפת הילוכים או נורת תקלה בתיבה.",
+            "kind": "risk",
+            "costIls": [
+              8000,
+              8000
+            ],
+            "scope": "DSG7 (DQ200)",
+            "source": {
+              "title": "auto.co.il (09.03.2022) — DSG mechatronic failure: new original unit ≈ ₪8,000; most clutch/wear problems on the dry-clutch DQ200 (VW-group DSG, labour not stated)",
+              "url": "https://www.auto.co.il/article/134994"
+            }
+          }
+        ]
       }
     },
     "enyaq": {
